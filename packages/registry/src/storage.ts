@@ -50,7 +50,7 @@ export async function readRegistryFile<T>(relativePath: string): Promise<T | nul
 export async function writeRegistryFile<T>(relativePath: string, data: T): Promise<void> {
   const fullPath = join(REGISTRY_ROOT, relativePath);
   await mkdir(dirname(fullPath), { recursive: true });
-  await writeFile(fullPath, JSON.stringify(data, null, 2) + '\n', 'utf-8');
+  await writeFile(fullPath, `${JSON.stringify(data, null, 2)}\n`, 'utf-8');
 }
 
 /**
@@ -74,7 +74,7 @@ async function collectJsonFiles(dir: string, rootDir: string): Promise<string[]>
       const nested = await collectJsonFiles(entryPath, rootDir);
       results.push(...nested);
     } else if (entry.isFile() && entry.name.endsWith('.json')) {
-      results.push(entryPath.replace(rootDir + '\\', '').replace(rootDir + '/', ''));
+      results.push(entryPath.replace(`${rootDir}\\`, '').replace(`${rootDir}/`, ''));
     }
   }
 

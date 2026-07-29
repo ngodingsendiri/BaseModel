@@ -1,0 +1,255 @@
+{
+  "schema_version": "0.1.0",
+  "source_revision": "569aa5a",
+  "count": 8,
+  "models": [
+    {
+      "model_id": "anthropic/claude-3-5-haiku",
+      "provider_id": "anthropic",
+      "name": "Claude 3.5 Haiku",
+      "family": "Claude 3.5",
+      "version": "20241022",
+      "release_date": "2024-11-05",
+      "description": "Anthropic's fastest and most compact model for near-instant responsiveness.",
+      "architecture": "transformer",
+      "context_window": 200000,
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [
+        "text-generation",
+        "code-generation",
+        "vision",
+        "tool-calling"
+      ],
+      "license_id": "proprietary",
+      "status": "active"
+    },
+    {
+      "model_id": "anthropic/claude-3-5-sonnet",
+      "provider_id": "anthropic",
+      "name": "Claude 3.5 Sonnet",
+      "family": "Claude 3.5",
+      "version": "20241022",
+      "release_date": "2024-10-22",
+      "description": "Anthropic's highest-intelligence model balancing speed and capability. Excels at coding and complex reasoning.",
+      "architecture": "transformer",
+      "context_window": 200000,
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [
+        "text-generation",
+        "code-generation",
+        "vision",
+        "tool-calling"
+      ],
+      "license_id": "proprietary",
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-1.5-flash",
+      "provider_id": "google",
+      "name": "Gemini 1.5 Flash",
+      "family": "Gemini 1.5",
+      "release_date": "2024-05-24",
+      "description": "Google's fast and versatile multimodal model for diverse tasks at scale.",
+      "architecture": "mixture-of-experts",
+      "context_window": 1000000,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [
+        "text-generation",
+        "code-generation",
+        "vision",
+        "tool-calling"
+      ],
+      "license_id": "proprietary",
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-1.5-pro",
+      "provider_id": "google",
+      "name": "Gemini 1.5 Pro",
+      "family": "Gemini 1.5",
+      "release_date": "2024-05-23",
+      "description": "Google's best performing multimodal model with a long context window of up to 2 million tokens.",
+      "architecture": "mixture-of-experts",
+      "context_window": 2000000,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [
+        "text-generation",
+        "code-generation",
+        "vision",
+        "tool-calling"
+      ],
+      "license_id": "proprietary",
+      "status": "active"
+    },
+    {
+      "model_id": "meta/llama-3.1-70b",
+      "provider_id": "meta",
+      "name": "Llama 3.1 70B",
+      "family": "Llama 3.1",
+      "version": "3.1",
+      "release_date": "2024-07-23",
+      "description": "Meta's open-weight large language model with 70 billion parameters. Supports multilingual tasks and tool use.",
+      "architecture": "transformer",
+      "parameter_size": "70B",
+      "context_window": 128000,
+      "modality": [
+        "text"
+      ],
+      "open_weight": true,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [
+        "text-generation",
+        "code-generation",
+        "tool-calling"
+      ],
+      "license_id": "llama-3-community",
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-large",
+      "provider_id": "mistral-ai",
+      "name": "Mistral Large",
+      "family": "Mistral",
+      "version": "2",
+      "release_date": "2024-07-24",
+      "description": "Mistral AI's top-tier frontier model for complex reasoning, multilingual tasks, and code generation.",
+      "architecture": "transformer",
+      "context_window": 128000,
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [
+        "text-generation",
+        "code-generation",
+        "tool-calling"
+      ],
+      "license_id": "proprietary",
+      "status": "active"
+    },
+    {
+      "model_id": "openai/gpt-4o-mini",
+      "provider_id": "openai",
+      "name": "GPT-4o mini",
+      "family": "GPT-4",
+      "version": "2024-07-18",
+      "release_date": "2024-07-18",
+      "description": "OpenAI's efficient and affordable small model, suitable for fast tasks with vision support.",
+      "architecture": "transformer",
+      "context_window": 128000,
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [
+        "text-generation",
+        "code-generation",
+        "vision",
+        "tool-calling"
+      ],
+      "license_id": "proprietary",
+      "status": "active"
+    },
+    {
+      "model_id": "openai/gpt-4o",
+      "provider_id": "openai",
+      "name": "GPT-4o",
+      "family": "GPT-4",
+      "version": "2024-08-06",
+      "release_date": "2024-05-13",
+      "description": "OpenAI's flagship multimodal model, highly capable at text, vision, and audio tasks.",
+      "architecture": "transformer",
+      "context_window": 128000,
+      "modality": [
+        "text",
+        "image",
+        "audio"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [
+        "text-generation",
+        "code-generation",
+        "vision",
+        "tool-calling"
+      ],
+      "license_id": "proprietary",
+      "status": "active"
+    }
+  ]
+}

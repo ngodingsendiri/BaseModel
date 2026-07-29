@@ -23,7 +23,7 @@
     "basemodel"
   ],
   "scripts": {
-    "build": "tsup src/cli.ts --format esm --clean --banner.js '#!/usr/bin/env node'",
+    "build": "tsup src/cli.ts --format esm --clean",
     "dev": "tsx src/cli.ts",
     "typecheck": "tsc --noEmit",
     "test": "vitest run --passWithNoTests",

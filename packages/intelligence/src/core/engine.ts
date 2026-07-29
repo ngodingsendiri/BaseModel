@@ -1,5 +1,12 @@
 import type { Capability, Model, Pricing, Provider } from '@basemodel/schema';
 
+export interface IntelligenceSnapshot {
+  models: Model[];
+  providers: Provider[];
+  capabilities?: Capability[];
+  pricing?: Pricing[];
+}
+
 /**
  * The core Intelligence Engine.
  * It holds a read-only snapshot of the registry data in memory.
@@ -10,30 +17,39 @@ export class IntelligenceEngine {
   public providers: Provider[] = [];
   public capabilities: Capability[] = [];
   public pricing: Pricing[] = [];
-
-  // @ts-ignore
   public isLoaded = false;
 
   /**
+   * Hydrates the engine from an already-loaded dataset snapshot.
+   * This is the browser-safe path for apps consuming published JSON files.
+   */
+  hydrate(snapshot: IntelligenceSnapshot): void {
+    this.models = snapshot.models;
+    this.providers = snapshot.providers;
+    this.capabilities = snapshot.capabilities ?? [];
+    this.pricing = snapshot.pricing ?? [];
+    this.isLoaded = true;
+  }
+
+  /**
    * Initializes the engine by loading all registry data into memory.
-   * Uses dynamic imports so the engine can be instantiated in browser environments
-   * without crashing due to 'fs' dependencies.
+   * Uses an indirect dynamic import so browser builds can exclude Node-only registry code.
    */
   async init(): Promise<void> {
     if (this.isLoaded) return;
 
-    // @ts-ignore
-    if (typeof window !== 'undefined') {
-      throw new Error('init() uses Node.js fs. In the browser, hydrate the engine properties manually.');
+    if ('window' in globalThis) {
+      throw new Error('init() uses Node.js fs. In the browser, hydrate the engine manually.');
     }
 
-    const registry = await import('@basemodel/registry');
-    this.models = await registry.getAllModels();
-    this.providers = await registry.getAllProviders();
-    this.capabilities = await registry.getAllCapabilities();
-    this.pricing = await registry.getAllPricing();
-
-    this.isLoaded = true;
+    const registryPackageName = '@basemodel/registry';
+    const registry = (await import(registryPackageName)) as typeof import('@basemodel/registry');
+    this.hydrate({
+      models: await registry.getAllModels(),
+      providers: await registry.getAllProviders(),
+      capabilities: await registry.getAllCapabilities(),
+      pricing: await registry.getAllPricing(),
+    });
   }
 
   /**
@@ -41,7 +57,9 @@ export class IntelligenceEngine {
    */
   public ensureLoaded(): void {
     if (!this.isLoaded) {
-      throw new Error('IntelligenceEngine is not initialized. Call await init() first.');
+      throw new Error(
+        'IntelligenceEngine is not initialized. Call await init() or hydrate() first.',
+      );
     }
   }
 }

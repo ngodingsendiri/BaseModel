@@ -1,0 +1,37 @@
+{
+  "schema_version": "0.1.0",
+  "source_revision": "569aa5a",
+  "count": 6,
+  "capabilities": [
+    {
+      "capability_id": "code-generation",
+      "name": "Code Generation",
+      "description": "The ability to write, complete, explain, and debug code across multiple programming languages."
+    },
+    {
+      "capability_id": "embeddings",
+      "name": "Embeddings",
+      "description": "The ability to convert text into high-dimensional vector representations for semantic search and retrieval."
+    },
+    {
+      "capability_id": "reasoning",
+      "name": "Reasoning",
+      "description": "Enhanced step-by-step thinking capability for complex logical and mathematical problems."
+    },
+    {
+      "capability_id": "text-generation",
+      "name": "Text Generation",
+      "description": "The ability to generate coherent and contextually relevant text from a prompt."
+    },
+    {
+      "capability_id": "tool-calling",
+      "name": "Tool Calling",
+      "description": "The ability to call external functions or tools as part of a response (also known as function calling)."
+    },
+    {
+      "capability_id": "vision",
+      "name": "Vision",
+      "description": "The ability to understand and analyze images provided as input."
+    }
+  ]
+}

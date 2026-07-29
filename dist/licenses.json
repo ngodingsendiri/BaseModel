@@ -1,0 +1,42 @@
+{
+  "schema_version": "0.1.0",
+  "source_revision": "569aa5a",
+  "count": 4,
+  "licenses": [
+    {
+      "license_id": "apache-2.0",
+      "name": "Apache License 2.0",
+      "commercial_use": true,
+      "redistribution": true,
+      "modification": true,
+      "source_available": true,
+      "url": "https://www.apache.org/licenses/LICENSE-2.0"
+    },
+    {
+      "license_id": "llama-3-community",
+      "name": "Llama 3 Community License",
+      "commercial_use": true,
+      "redistribution": true,
+      "modification": true,
+      "source_available": true,
+      "url": "https://llama.meta.com/llama3/license/"
+    },
+    {
+      "license_id": "mit",
+      "name": "MIT License",
+      "commercial_use": true,
+      "redistribution": true,
+      "modification": true,
+      "source_available": true,
+      "url": "https://opensource.org/licenses/MIT"
+    },
+    {
+      "license_id": "proprietary",
+      "name": "Proprietary",
+      "commercial_use": true,
+      "redistribution": false,
+      "modification": false,
+      "source_available": false
+    }
+  ]
+}

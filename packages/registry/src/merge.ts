@@ -41,8 +41,7 @@ export function mergeModelData(
 
   for (const [key, value] of Object.entries(incoming)) {
     if (value !== undefined) {
-      // @ts-expect-error dynamic assignment
-      merged[key] = value;
+      (merged as Record<string, unknown>)[key] = value;
     }
   }
 

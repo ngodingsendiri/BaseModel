@@ -1,0 +1,57 @@
+{
+  "schema_version": "0.1.0",
+  "source_revision": "569aa5a",
+  "count": 5,
+  "providers": [
+    {
+      "provider_id": "anthropic",
+      "name": "Anthropic",
+      "organization": "Anthropic, PBC",
+      "website": "https://anthropic.com",
+      "documentation": "https://docs.anthropic.com",
+      "country": "US",
+      "description": "AI safety company and developer of the Claude model family.",
+      "status": "active"
+    },
+    {
+      "provider_id": "google",
+      "name": "Google",
+      "organization": "Google LLC (DeepMind)",
+      "website": "https://ai.google.dev",
+      "documentation": "https://ai.google.dev/docs",
+      "country": "US",
+      "description": "Technology company and developer of the Gemini model family and other AI research.",
+      "status": "active"
+    },
+    {
+      "provider_id": "meta",
+      "name": "Meta AI",
+      "organization": "Meta Platforms, Inc.",
+      "website": "https://ai.meta.com",
+      "documentation": "https://llama.meta.com",
+      "country": "US",
+      "description": "Technology company and developer of the Llama open-weight model family.",
+      "status": "active"
+    },
+    {
+      "provider_id": "mistral-ai",
+      "name": "Mistral AI",
+      "organization": "Mistral AI SAS",
+      "website": "https://mistral.ai",
+      "documentation": "https://docs.mistral.ai",
+      "country": "FR",
+      "description": "French AI company known for open-weight and efficient language models.",
+      "status": "active"
+    },
+    {
+      "provider_id": "openai",
+      "name": "OpenAI",
+      "organization": "OpenAI, L.P.",
+      "website": "https://openai.com",
+      "documentation": "https://platform.openai.com/docs",
+      "country": "US",
+      "description": "American AI research laboratory and developer of the GPT model family, DALL-E, and other AI systems.",
+      "status": "active"
+    }
+  ]
+}

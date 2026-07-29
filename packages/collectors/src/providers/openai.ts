@@ -32,7 +32,7 @@ export class OpenAICollector implements ModelCollector {
         'Content-Type': 'application/json',
       };
       if (apiKey) {
-        headers['Authorization'] = `Bearer ${apiKey}`;
+        headers.Authorization = `Bearer ${apiKey}`;
       }
 
       const response = await fetch('https://api.openai.com/v1/models', { headers });

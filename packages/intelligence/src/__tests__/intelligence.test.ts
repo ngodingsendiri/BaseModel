@@ -27,6 +27,7 @@ describe('Intelligence Layer', () => {
       audio_support: false,
       image_generation: false,
       embedding_support: false,
+      capability_ids: [],
     };
 
     const claude: Model = {
@@ -44,6 +45,7 @@ describe('Intelligence Layer', () => {
       audio_support: false,
       image_generation: false,
       embedding_support: false,
+      capability_ids: [],
     };
 
     const llama: Model = {
@@ -61,6 +63,7 @@ describe('Intelligence Layer', () => {
       audio_support: false,
       image_generation: false,
       embedding_support: false,
+      capability_ids: [],
     };
 
     engine.models = [gpt4o, claude, llama];
@@ -84,8 +87,7 @@ describe('Intelligence Layer', () => {
 
     engine.pricing = [pricing1, pricing2];
 
-    // Simulate init
-    // @ts-expect-error accessing private
+    // Simulate init (isLoaded is public)
     engine.isLoaded = true;
   });
 
@@ -96,7 +98,8 @@ describe('Intelligence Layer', () => {
         flags: ['open_weight'],
       });
       expect(results).toHaveLength(1);
-      expect(results[0].model_id).toBe('meta/llama-3-8b');
+      const first = results[0];
+      expect(first?.model_id).toBe('meta/llama-3-8b');
     });
 
     it('filters by modality and context window', () => {
@@ -105,7 +108,8 @@ describe('Intelligence Layer', () => {
         minContextWindow: 150000,
       });
       expect(results).toHaveLength(1);
-      expect(results[0].model_id).toBe('anthropic/claude-3-5-sonnet');
+      const first = results[0];
+      expect(first?.model_id).toBe('anthropic/claude-3-5-sonnet');
     });
   });
 
@@ -133,8 +137,9 @@ describe('Intelligence Layer', () => {
       // Claude has text, image and function calling
       // Llama only has text, no function calling
       expect(alts).toHaveLength(1);
-      expect(alts[0].model.model_id).toBe('anthropic/claude-3-5-sonnet');
-      expect(alts[0].reason).toContain(
+      const firstAlt = alts[0];
+      expect(firstAlt?.model.model_id).toBe('anthropic/claude-3-5-sonnet');
+      expect(firstAlt?.reason).toContain(
         'Cross-provider alternative from anthropic with larger context window (200000)',
       );
     });

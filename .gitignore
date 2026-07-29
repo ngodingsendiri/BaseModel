@@ -2,7 +2,8 @@
 node_modules/
 
 # Build output
-dist/
+apps/*/dist/
+packages/*/dist/
 *.tsbuildinfo
 
 # IDE

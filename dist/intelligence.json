@@ -1,0 +1,158 @@
+{
+  "schema_version": "0.1.0",
+  "source_revision": "569aa5a",
+  "count": 8,
+  "intelligence": [
+    {
+      "model_id": "anthropic/claude-3-5-haiku",
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 1.6,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-1.5-flash",
+          "name": "Gemini 1.5 Flash",
+          "reason": "Cross-provider alternative from google with larger context window (1000000)"
+        },
+        {
+          "model_id": "anthropic/claude-3-5-sonnet",
+          "name": "Claude 3.5 Sonnet",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "anthropic/claude-3-5-sonnet",
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 6,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-1.5-flash",
+          "name": "Gemini 1.5 Flash",
+          "reason": "Cross-provider alternative from google with larger context window (1000000)"
+        },
+        {
+          "model_id": "anthropic/claude-3-5-haiku",
+          "name": "Claude 3.5 Haiku",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-1.5-flash",
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.13124999999999998,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-1.5-pro",
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 2.1875,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-flash",
+          "name": "Gemini 1.5 Flash",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "meta/llama-3.1-70b",
+      "cost_tier": "Free",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-1.5-flash",
+          "name": "Gemini 1.5 Flash",
+          "reason": "Cross-provider alternative from google with larger context window (1000000)"
+        },
+        {
+          "model_id": "anthropic/claude-3-5-haiku",
+          "name": "Claude 3.5 Haiku",
+          "reason": "Cross-provider alternative from anthropic with larger context window (200000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-large",
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 3,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-1.5-flash",
+          "name": "Gemini 1.5 Flash",
+          "reason": "Cross-provider alternative from google with larger context window (1000000)"
+        },
+        {
+          "model_id": "anthropic/claude-3-5-haiku",
+          "name": "Claude 3.5 Haiku",
+          "reason": "Cross-provider alternative from anthropic with larger context window (200000)"
+        }
+      ]
+    },
+    {
+      "model_id": "openai/gpt-4o-mini",
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.26249999999999996,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-1.5-flash",
+          "name": "Gemini 1.5 Flash",
+          "reason": "Cross-provider alternative from google with larger context window (1000000)"
+        },
+        {
+          "model_id": "anthropic/claude-3-5-haiku",
+          "name": "Claude 3.5 Haiku",
+          "reason": "Cross-provider alternative from anthropic with larger context window (200000)"
+        }
+      ]
+    },
+    {
+      "model_id": "openai/gpt-4o",
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 4.375,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-1.5-flash",
+          "name": "Gemini 1.5 Flash",
+          "reason": "Cross-provider alternative from google with larger context window (1000000)"
+        }
+      ]
+    }
+  ]
+}

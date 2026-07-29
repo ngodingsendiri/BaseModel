@@ -8,6 +8,8 @@ import {
   IntelligenceEngine,
 } from '@basemodel/intelligence';
 import {
+  getAllApis,
+  getAllBenchmarks,
   getAllCapabilities,
   getAllLicenses,
   getAllModels,
@@ -49,18 +51,15 @@ function getSourceRevision(): string {
 }
 
 async function generate(): Promise<void> {
-  const generated_at = new Date().toISOString();
   const source_revision = getSourceRevision();
 
   const meta = {
     schema_version: SCHEMA_VERSION,
-    generated_at,
     source_revision,
   };
 
   console.log('📦 BaseModel — Dataset Generator');
   console.log(`   schema_version : ${meta.schema_version}`);
-  console.log(`   generated_at   : ${meta.generated_at}`);
   console.log(`   source_revision: ${meta.source_revision}`);
   console.log(`   output_dir     : ${OUTPUT_DIR}`);
   console.log('');
@@ -72,7 +71,7 @@ async function generate(): Promise<void> {
   const providers = await getAllProviders();
   await writeFile(
     join(OUTPUT_DIR, 'providers.json'),
-    JSON.stringify({ ...meta, count: providers.length, providers }, null, 2) + '\n',
+    `${JSON.stringify({ ...meta, count: providers.length, providers }, null, 2)}\n`,
   );
   console.log(`✅ providers.json — ${providers.length} records`);
 
@@ -81,7 +80,7 @@ async function generate(): Promise<void> {
   const models = await getAllModels();
   await writeFile(
     join(OUTPUT_DIR, 'models.json'),
-    JSON.stringify({ ...meta, count: models.length, models }, null, 2) + '\n',
+    `${JSON.stringify({ ...meta, count: models.length, models }, null, 2)}\n`,
   );
   console.log(`✅ models.json — ${models.length} records`);
 
@@ -90,7 +89,7 @@ async function generate(): Promise<void> {
   const capabilities = await getAllCapabilities();
   await writeFile(
     join(OUTPUT_DIR, 'capabilities.json'),
-    JSON.stringify({ ...meta, count: capabilities.length, capabilities }, null, 2) + '\n',
+    `${JSON.stringify({ ...meta, count: capabilities.length, capabilities }, null, 2)}\n`,
   );
   console.log(`✅ capabilities.json — ${capabilities.length} records`);
 
@@ -99,20 +98,62 @@ async function generate(): Promise<void> {
   const licenses = await getAllLicenses();
   await writeFile(
     join(OUTPUT_DIR, 'licenses.json'),
-    JSON.stringify({ ...meta, count: licenses.length, licenses }, null, 2) + '\n',
+    `${JSON.stringify({ ...meta, count: licenses.length, licenses }, null, 2)}\n`,
   );
   console.log(`✅ licenses.json — ${licenses.length} records`);
 
+  // --- apis.json ---
+  console.log('⏳ Reading apis...');
+  const apis = await getAllApis();
+  await writeFile(
+    join(OUTPUT_DIR, 'apis.json'),
+    `${JSON.stringify({ ...meta, count: apis.length, apis }, null, 2)}\n`,
+  );
+  console.log(`✅ apis.json — ${apis.length} records`);
+
+  // --- benchmarks.json ---
+  console.log('⏳ Reading benchmarks...');
+  const benchmarks = await getAllBenchmarks();
+  await writeFile(
+    join(OUTPUT_DIR, 'benchmarks.json'),
+    `${JSON.stringify({ ...meta, count: benchmarks.length, benchmarks }, null, 2)}\n`,
+  );
+  console.log(`✅ benchmarks.json — ${benchmarks.length} records`);
+
+  // --- pricing.json ---
+  console.log('⏳ Reading pricing...');
+  const pricing = await getAllPricing();
+  await writeFile(
+    join(OUTPUT_DIR, 'pricing.json'),
+    `${JSON.stringify({ ...meta, count: pricing.length, pricing }, null, 2)}\n`,
+  );
+  console.log(`✅ pricing.json — ${pricing.length} records`);
+
+  console.log('🔍 Validating relations...');
+  const providerIds = new Set(providers.map(p => p.provider_id));
+  const capabilityIds = new Set(capabilities.map(c => c.capability_id));
+  for (const model of models) {
+    if (!providerIds.has(model.provider_id)) {
+      throw new Error(`Model ${model.model_id} references unknown provider ${model.provider_id}`);
+    }
+    if (model.capability_ids) {
+      for (const cap of model.capability_ids) {
+        if (!capabilityIds.has(cap)) {
+          throw new Error(`Model ${model.model_id} references unknown capability ${cap}`);
+        }
+      }
+    }
+  }
+  console.log('✅ Relations are valid.');
+
   // --- intelligence.json ---
   console.log('⏳ Deriving intelligence...');
-  const pricing = await getAllPricing();
   const engine = new IntelligenceEngine();
   engine.models = models;
   engine.providers = providers;
   engine.capabilities = capabilities;
   engine.pricing = pricing;
-  // Mark engine as loaded
-  // @ts-expect-error accessing private member
+  // isLoaded is public; mark engine as loaded before running intelligence queries
   engine.isLoaded = true;
 
   const intelligenceRecords = models.map((model) => {
@@ -132,11 +173,11 @@ async function generate(): Promise<void> {
 
   await writeFile(
     join(OUTPUT_DIR, 'intelligence.json'),
-    JSON.stringify(
+    `${JSON.stringify(
       { ...meta, count: intelligenceRecords.length, intelligence: intelligenceRecords },
       null,
       2,
-    ) + '\n',
+    )}\n`,
   );
   console.log(`✅ intelligence.json — ${intelligenceRecords.length} records`);
 

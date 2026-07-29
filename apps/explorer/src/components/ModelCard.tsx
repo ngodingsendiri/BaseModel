@@ -16,10 +16,10 @@ export function ModelCard({ model, tier, onClick }: ModelCardProps) {
 
   const getTierClass = (tierName: string) => {
     const map: Record<string, string> = {
-      'Free': 'badge-tier-free',
+      Free: 'badge-tier-free',
       'Budget-Friendly': 'badge-tier-budget',
-      'Balanced': 'badge-tier-balanced',
-      'Premium': 'badge-tier-premium',
+      Balanced: 'badge-tier-balanced',
+      Premium: 'badge-tier-premium',
     };
     return map[tierName] || 'badge-tier-unknown';
   };
@@ -28,14 +28,16 @@ export function ModelCard({ model, tier, onClick }: ModelCardProps) {
     <div className="compact-card" onClick={() => onClick(model.model_id)}>
       {/* Col 1: Name & ID */}
       <div>
-        <div className="model-name" title={model.name}>{model.name}</div>
-        <div className="model-id" title={model.model_id}>{model.model_id}</div>
+        <div className="model-name" title={model.name}>
+          {model.name}
+        </div>
+        <div className="model-id" title={model.model_id}>
+          {model.model_id}
+        </div>
       </div>
 
       {/* Col 2: Context */}
-      <div className="stat-info">
-        {formatContext(model.context_window ?? 0)} ctx
-      </div>
+      <div className="stat-info">{formatContext(model.context_window ?? 0)} ctx</div>
 
       {/* Col 3: Modalities */}
       <div className="modality-dots">
@@ -46,14 +48,17 @@ export function ModelCard({ model, tier, onClick }: ModelCardProps) {
 
       {/* Col 4: Date */}
       <div className="stat-info">
-        {model.release_date ? new Date(model.release_date).toLocaleDateString(undefined, { year: 'numeric', month: 'short' }) : 'Unknown'}
+        {model.release_date
+          ? new Date(model.release_date).toLocaleDateString(undefined, {
+              year: 'numeric',
+              month: 'short',
+            })
+          : 'Unknown'}
       </div>
 
       {/* Col 5: Tier Badge */}
       <div>
-        <span className={`badge ${getTierClass(tier)}`}>
-          {tier}
-        </span>
+        <span className={`badge ${getTierClass(tier)}`}>{tier}</span>
       </div>
     </div>
   );

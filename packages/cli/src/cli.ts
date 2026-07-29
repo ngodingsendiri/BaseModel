@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import {
   calculateCostEfficiency,
   findAlternatives,
@@ -66,12 +68,11 @@ async function cmdSearch(args: string[]): Promise<void> {
     const arg = args[i];
 
     if (arg === '--provider' && args[i + 1]) {
-      criteria.providerIds = args[++i]!.split(',');
+      criteria.providerIds = args[++i]?.split(',');
     } else if (arg === '--modality' && args[i + 1]) {
-      criteria.modalities = args[++i]!.split(',');
+      criteria.modalities = args[++i]?.split(',');
     } else if (arg === '--flag' && args[i + 1]) {
-      // @ts-expect-error string cast
-      criteria.flags = args[++i]!.split(',');
+      criteria.flags = args[++i]?.split(',') as NonNullable<typeof criteria.flags>;
     } else if (arg === '--min-context' && args[i + 1]) {
       criteria.minContextWindow = Number(args[++i]);
     }

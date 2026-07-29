@@ -101,6 +101,6 @@ describe('mergeModelData', () => {
     const result = mergeModelData(null, incoming);
     expect(result.success).toBe(false);
     expect(result.errors).toBeDefined();
-    expect(result.errors![0]).toContain('model_id');
+    expect(result.errors?.[0]).toContain('model_id');
   });
 });

@@ -1,0 +1,125 @@
+{
+  "schema_version": "0.1.0",
+  "source_revision": "569aa5a",
+  "count": 15,
+  "pricing": [
+    {
+      "pricing_id": "anthropic-claude-3-5-sonnet-input",
+      "model_id": "anthropic/claude-3-5-sonnet",
+      "pricing_type": "input-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 3
+    },
+    {
+      "pricing_id": "anthropic-claude-3-5-sonnet-output",
+      "model_id": "anthropic/claude-3-5-sonnet",
+      "pricing_type": "output-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 15
+    },
+    {
+      "pricing_id": "anthropic-claude-3-5-haiku-input",
+      "model_id": "anthropic/claude-3-5-haiku",
+      "pricing_type": "input-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.8
+    },
+    {
+      "pricing_id": "anthropic-claude-3-5-haiku-output",
+      "model_id": "anthropic/claude-3-5-haiku",
+      "pricing_type": "output-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 4
+    },
+    {
+      "pricing_id": "google-gemini-1-5-pro-input",
+      "model_id": "google/gemini-1.5-pro",
+      "pricing_type": "input-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 1.25
+    },
+    {
+      "pricing_id": "google-gemini-1-5-pro-output",
+      "model_id": "google/gemini-1.5-pro",
+      "pricing_type": "output-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 5
+    },
+    {
+      "pricing_id": "google-gemini-1-5-flash-input",
+      "model_id": "google/gemini-1.5-flash",
+      "pricing_type": "input-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.075
+    },
+    {
+      "pricing_id": "google-gemini-1-5-flash-output",
+      "model_id": "google/gemini-1.5-flash",
+      "pricing_type": "output-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.3
+    },
+    {
+      "pricing_id": "meta-llama-3-1-70b-free",
+      "model_id": "meta/llama-3.1-70b",
+      "pricing_type": "free",
+      "notes": "Open-weight model. Free to self-host. Hosted API pricing varies by provider."
+    },
+    {
+      "pricing_id": "mistral-ai-mistral-large-input",
+      "model_id": "mistral-ai/mistral-large",
+      "pricing_type": "input-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 2
+    },
+    {
+      "pricing_id": "mistral-ai-mistral-large-output",
+      "model_id": "mistral-ai/mistral-large",
+      "pricing_type": "output-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 6
+    },
+    {
+      "pricing_id": "openai-gpt-4o-mini-input",
+      "model_id": "openai/gpt-4o-mini",
+      "pricing_type": "input-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.15
+    },
+    {
+      "pricing_id": "openai-gpt-4o-mini-output",
+      "model_id": "openai/gpt-4o-mini",
+      "pricing_type": "output-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.6
+    },
+    {
+      "pricing_id": "openai-gpt-4o-input",
+      "model_id": "openai/gpt-4o",
+      "pricing_type": "input-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 2.5
+    },
+    {
+      "pricing_id": "openai-gpt-4o-output",
+      "model_id": "openai/gpt-4o",
+      "pricing_type": "output-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 10
+    }
+  ]
+}

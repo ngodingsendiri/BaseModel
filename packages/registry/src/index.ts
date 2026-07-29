@@ -33,7 +33,7 @@ export * from './validation.js';
 
 export async function getAllProviders(): Promise<Provider[]> {
   const raw = await readAllFromDirectory('providers');
-  return raw.filter((r) => ProviderSchema.safeParse(r).success) as Provider[];
+  return raw.map((r) => ProviderSchema.parse(r));
 }
 
 export async function getProvider(providerId: string): Promise<Provider | null> {
@@ -51,7 +51,7 @@ export async function saveProvider(provider: Provider): Promise<void> {
 
 export async function getAllModels(): Promise<Model[]> {
   const raw = await readAllFromDirectory('models');
-  return raw.filter((r) => ModelSchema.safeParse(r).success) as Model[];
+  return raw.map((r) => ModelSchema.parse(r));
 }
 
 export async function getModel(modelId: string): Promise<Model | null> {
@@ -70,35 +70,35 @@ export async function saveModel(model: Model): Promise<void> {
 
 export async function getAllCapabilities(): Promise<Capability[]> {
   const raw = await readAllFromDirectory('capabilities');
-  return raw.filter((r) => CapabilitySchema.safeParse(r).success) as Capability[];
+  return raw.map((r) => CapabilitySchema.parse(r));
 }
 
 // --- Benchmark ---
 
 export async function getAllBenchmarks(): Promise<Benchmark[]> {
   const raw = await readAllFromDirectory('benchmarks');
-  return raw.filter((r) => BenchmarkSchema.safeParse(r).success) as Benchmark[];
+  return raw.map((r) => BenchmarkSchema.parse(r));
 }
 
 // --- Pricing ---
 
 export async function getAllPricing(): Promise<Pricing[]> {
   const raw = await readAllArraysFromDirectory('pricing');
-  return raw.filter((r) => PricingSchema.safeParse(r).success) as Pricing[];
+  return raw.map((r) => PricingSchema.parse(r));
 }
 
 // --- API ---
 
 export async function getAllApis(): Promise<Api[]> {
   const raw = await readAllFromDirectory('apis');
-  return raw.filter((r) => ApiSchema.safeParse(r).success) as Api[];
+  return raw.map((r) => ApiSchema.parse(r));
 }
 
 // --- License ---
 
 export async function getAllLicenses(): Promise<License[]> {
   const raw = await readAllFromDirectory('licenses');
-  return raw.filter((r) => LicenseSchema.safeParse(r).success) as License[];
+  return raw.map((r) => LicenseSchema.parse(r));
 }
 
 export async function getLicense(licenseId: string): Promise<License | null> {
