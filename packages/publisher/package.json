@@ -1,0 +1,35 @@
+{
+  "name": "@basemodel/publisher",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Publishing layer — dataset generation and distribution",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean",
+    "generate": "tsx src/generate.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "@basemodel/schema": "workspace:*",
+    "@basemodel/registry": "workspace:*",
+    "@basemodel/intelligence": "workspace:*"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.2.0",
+    "rimraf": "^6.0.0"
+  }
+}

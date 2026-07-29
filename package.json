@@ -1,0 +1,30 @@
+{
+  "name": "basemodel",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Open-source AI Model Intelligence Platform",
+  "author": "BaseModel Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ngodingsendiri/BaseModel.git"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "packageManager": "pnpm@10.12.1",
+  "scripts": {
+    "build": "pnpm -r run build",
+    "test": "pnpm -r run test",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format": "biome format --write .",
+    "typecheck": "pnpm -r run typecheck",
+    "generate": "pnpm --filter @basemodel/publisher run generate",
+    "clean": "pnpm -r run clean"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.6"
+  }
+}

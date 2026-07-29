@@ -387,6 +387,11 @@ Identifiers should be:
 * Human-readable whenever practical
 * Independent of provider-specific implementations
 
+**Identifier Convention:**
+BaseModel exclusively uses a `kebab-case` convention.
+* **provider_id**: A URL-safe slug representing the provider (e.g., `openai`, `anthropic`, `google`).
+* **model_id**: A combination of the provider ID and the model slug (e.g., `openai/gpt-4o`, `google/gemini-1.5-pro`).
+
 Identifiers are the foundation of every relationship inside BaseModel.
 
 ---

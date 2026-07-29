@@ -257,6 +257,19 @@ The complete data lifecycle is defined separately in:
 
 > **04_Pipeline.md**
 
+While the architecture and pipeline are separate concepts, they interact closely. The table below maps the pipeline stages to their responsible architectural layers:
+
+| Pipeline Stage | Architecture Layer |
+|---|---|
+| Discovery | Discovery Layer |
+| Collection | Discovery Layer |
+| Validation | Registry Layer (ingestion) |
+| Normalization | Registry Layer (ingestion) |
+| Registry | Registry Layer (storage) |
+| Intelligence | Intelligence Layer |
+| Generation | Publishing Layer |
+| Publication | Publishing Layer |
+
 Keeping architecture and pipeline separate allows each to evolve independently.
 
 ---
