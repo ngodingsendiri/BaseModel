@@ -1,7 +1,6 @@
 {
   "name": "@basemodel/schema",
   "version": "0.1.0",
-  "private": true,
   "description": "Canonical Zod schemas and TypeScript types for all BaseModel entities",
   "type": "module",
   "main": "dist/index.js",
@@ -12,6 +11,23 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basemodel/basemodel"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ai",
+    "models",
+    "schema",
+    "zod",
+    "typescript",
+    "basemodel"
+  ],
   "scripts": {
     "build": "tsup src/index.ts --format esm --dts --clean",
     "typecheck": "tsc --noEmit",

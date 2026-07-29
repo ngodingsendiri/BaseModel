@@ -13,7 +13,7 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5.00
+    "value": 5.0
   },
   {
     "pricing_id": "google-gemini-1-5-flash-input",
@@ -29,6 +29,6 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.30
+    "value": 0.3
   }
 ]

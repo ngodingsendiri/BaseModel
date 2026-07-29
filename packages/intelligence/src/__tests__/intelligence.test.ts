@@ -1,16 +1,16 @@
-import { describe, it, expect, beforeEach } from 'vitest';
-import { IntelligenceEngine } from '../core/engine';
-import { searchModels } from '../features/search';
-import { calculateCostEfficiency } from '../features/cost';
-import { findAlternatives } from '../features/alternatives';
 import type { Model, Pricing } from '@basemodel/schema';
+import { beforeEach, describe, expect, it } from 'vitest';
+import { IntelligenceEngine } from '../core/engine';
+import { findAlternatives } from '../features/alternatives';
+import { calculateCostEfficiency } from '../features/cost';
+import { searchModels } from '../features/search';
 
 describe('Intelligence Layer', () => {
   let engine: IntelligenceEngine;
 
   beforeEach(() => {
     engine = new IntelligenceEngine();
-    
+
     // Mock the loaded data
     const gpt4o: Model = {
       model_id: 'openai/gpt-4o',
@@ -81,9 +81,9 @@ describe('Intelligence Layer', () => {
       value: 15.0,
       currency: 'USD',
     };
-    
+
     engine.pricing = [pricing1, pricing2];
-    
+
     // Simulate init
     // @ts-expect-error accessing private
     engine.isLoaded = true;
@@ -93,7 +93,7 @@ describe('Intelligence Layer', () => {
     it('filters by provider and flag', () => {
       const results = searchModels(engine, {
         providerIds: ['meta'],
-        flags: ['open_weight']
+        flags: ['open_weight'],
       });
       expect(results).toHaveLength(1);
       expect(results[0].model_id).toBe('meta/llama-3-8b');
@@ -102,7 +102,7 @@ describe('Intelligence Layer', () => {
     it('filters by modality and context window', () => {
       const results = searchModels(engine, {
         modalities: ['image'],
-        minContextWindow: 150000
+        minContextWindow: 150000,
       });
       expect(results).toHaveLength(1);
       expect(results[0].model_id).toBe('anthropic/claude-3-5-sonnet');
@@ -128,13 +128,15 @@ describe('Intelligence Layer', () => {
   describe('Alternatives', () => {
     it('finds alternatives based on modalities and function calling', () => {
       const alts = findAlternatives(engine, 'openai/gpt-4o');
-      
+
       // GPT-4o has text, image and function calling
       // Claude has text, image and function calling
       // Llama only has text, no function calling
       expect(alts).toHaveLength(1);
       expect(alts[0].model.model_id).toBe('anthropic/claude-3-5-sonnet');
-      expect(alts[0].reason).toContain('Cross-provider alternative from anthropic with larger context window (200000)');
+      expect(alts[0].reason).toContain(
+        'Cross-provider alternative from anthropic with larger context window (200000)',
+      );
     });
   });
 });

@@ -1,7 +1,7 @@
-import { describe, it, expect } from 'vitest';
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { ProviderSchema } from '@basemodel/schema';
+import { describe, expect, it } from 'vitest';
 import { validate } from '../validation';
 
 // Resolve data/registry path relative to workspace root (4 levels up from __tests__)

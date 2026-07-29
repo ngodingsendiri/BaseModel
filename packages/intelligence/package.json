@@ -1,8 +1,7 @@
 {
   "name": "@basemodel/intelligence",
   "version": "0.1.0",
-  "private": true,
-  "description": "Intelligence layer — rankings, recommendations, and derived insights",
+  "description": "Intelligence layer — rankings, recommendations, and derived insights from AI model registry data",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,6 +11,23 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basemodel/basemodel"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ai",
+    "models",
+    "intelligence",
+    "search",
+    "recommendations",
+    "basemodel"
+  ],
   "scripts": {
     "build": "tsup src/index.ts --format esm --dts --clean",
     "typecheck": "tsc --noEmit",

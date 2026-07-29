@@ -1,12 +1,10 @@
-import { ZodSchema, ZodError } from 'zod';
+import type { ZodError, ZodSchema } from 'zod';
 
 /**
  * The result of a validation attempt — a proper discriminated union
  * so TypeScript can narrow the type based on `success`.
  */
-export type ValidationResult<T> =
-  | { success: true; data: T }
-  | { success: false; errors: string[] };
+export type ValidationResult<T> = { success: true; data: T } | { success: false; errors: string[] };
 
 /**
  * Validates a raw unknown value against a Zod schema.

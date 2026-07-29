@@ -1,21 +1,18 @@
-import { getModel, saveModel, mergeModelData } from '@basemodel/registry';
-import { OpenAICollector } from './providers/openai';
-import { AnthropicCollector } from './providers/anthropic';
+import { getModel, mergeModelData, saveModel } from '@basemodel/registry';
 import type { ModelCollector } from './core/collector';
+import { AnthropicCollector } from './providers/anthropic';
+import { OpenAICollector } from './providers/openai';
 
 async function runCollectors() {
   console.log('🚀 Starting Data Collection Pipeline...');
 
-  const collectors: ModelCollector[] = [
-    new OpenAICollector(),
-    new AnthropicCollector(),
-  ];
+  const collectors: ModelCollector[] = [new OpenAICollector(), new AnthropicCollector()];
 
   for (const collector of collectors) {
     console.log(`\n⏳ Running collector: ${collector.providerId}...`);
-    
+
     const result = await collector.fetchModels();
-    
+
     if (result.errors.length > 0) {
       console.warn(`⚠️  Collector ${collector.providerId} encountered errors:`, result.errors);
     }
@@ -31,7 +28,7 @@ async function runCollectors() {
 
       // 1. Fetch existing data from registry (if it exists)
       const existing = await getModel(partialModel.model_id);
-      
+
       // 2. Merge API data with existing manual data
       const mergedResult = mergeModelData(existing, partialModel);
 

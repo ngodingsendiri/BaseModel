@@ -1,4 +1,4 @@
-import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { AnthropicCollector } from '../providers/anthropic';
 
 // Mock the global fetch
@@ -26,7 +26,7 @@ describe('AnthropicCollector', () => {
 
   it('parses valid API responses and normalizes them', async () => {
     process.env.ANTHROPIC_API_KEY = 'test-key';
-    
+
     fetchMock.mockResolvedValueOnce({
       ok: true,
       json: async () => ({

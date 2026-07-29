@@ -1,9 +1,19 @@
-import { writeFile, mkdir } from 'node:fs/promises';
-import { existsSync, readFileSync } from 'node:fs';
-import { join, dirname } from 'node:path';
 import { execSync } from 'node:child_process';
-import { getAllProviders, getAllModels, getAllCapabilities, getAllLicenses, getAllPricing } from '@basemodel/registry';
-import { IntelligenceEngine, calculateCostEfficiency, findAlternatives } from '@basemodel/intelligence';
+import { existsSync, readFileSync } from 'node:fs';
+import { mkdir, writeFile } from 'node:fs/promises';
+import { dirname, join } from 'node:path';
+import {
+  calculateCostEfficiency,
+  findAlternatives,
+  IntelligenceEngine,
+} from '@basemodel/intelligence';
+import {
+  getAllCapabilities,
+  getAllLicenses,
+  getAllModels,
+  getAllPricing,
+  getAllProviders,
+} from '@basemodel/registry';
 
 const SCHEMA_VERSION = '0.1.0';
 
@@ -122,7 +132,11 @@ async function generate(): Promise<void> {
 
   await writeFile(
     join(OUTPUT_DIR, 'intelligence.json'),
-    JSON.stringify({ ...meta, count: intelligenceRecords.length, intelligence: intelligenceRecords }, null, 2) + '\n',
+    JSON.stringify(
+      { ...meta, count: intelligenceRecords.length, intelligence: intelligenceRecords },
+      null,
+      2,
+    ) + '\n',
   );
   console.log(`✅ intelligence.json — ${intelligenceRecords.length} records`);
 

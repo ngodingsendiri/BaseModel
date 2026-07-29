@@ -13,9 +13,12 @@ export const BenchmarkSchema = z.object({
   version: z.string().optional(),
   score: z.number().min(0).max(100), // Normalized 0-100 score
   score_raw: z.union([z.string(), z.number()]).optional(), // Original reported score
-  evaluation_date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, {
-    message: 'evaluation_date must be ISO 8601 date (YYYY-MM-DD)',
-  }).optional(),
+  evaluation_date: z
+    .string()
+    .regex(/^\d{4}-\d{2}-\d{2}$/, {
+      message: 'evaluation_date must be ISO 8601 date (YYYY-MM-DD)',
+    })
+    .optional(),
   source: z.string().url(),
 });
 

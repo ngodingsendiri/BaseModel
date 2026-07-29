@@ -15,9 +15,9 @@ export const ModelSchema = z.object({
   provider_id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
 
   // --- Core Attributes ---
-  name: z.string().min(1),           // Human-readable name, e.g. "GPT-4o"
-  family: z.string().optional(),     // Model family, e.g. "GPT-4"
-  version: z.string().optional(),    // Specific version string, e.g. "2024-08-06"
+  name: z.string().min(1), // Human-readable name, e.g. "GPT-4o"
+  family: z.string().optional(), // Model family, e.g. "GPT-4"
+  version: z.string().optional(), // Specific version string, e.g. "2024-08-06"
   release_date: z
     .string()
     .regex(/^\d{4}-\d{2}-\d{2}$/, {
@@ -27,12 +27,10 @@ export const ModelSchema = z.object({
   description: z.string().optional(),
 
   // --- Technical Characteristics ---
-  architecture: z.string().optional(),      // e.g. "transformer", "mixture-of-experts"
-  parameter_size: z.string().optional(),    // e.g. "70B", "~200B"
+  architecture: z.string().optional(), // e.g. "transformer", "mixture-of-experts"
+  parameter_size: z.string().optional(), // e.g. "70B", "~200B"
   context_window: z.number().int().positive().optional(), // in tokens
-  modality: z.array(
-    z.enum(['text', 'image', 'audio', 'video', 'code', 'embedding']),
-  ),
+  modality: z.array(z.enum(['text', 'image', 'audio', 'video', 'code', 'embedding'])),
 
   // --- Capability Flags ---
   open_weight: z.boolean(),

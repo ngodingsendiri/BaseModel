@@ -1,5 +1,5 @@
-import type { IntelligenceEngine } from '../core/engine';
 import type { Model } from '@basemodel/schema';
+import type { IntelligenceEngine } from '../core/engine';
 
 export interface AlternativeResult {
   model: Model;
@@ -8,7 +8,7 @@ export interface AlternativeResult {
 
 /**
  * Finds comparable alternative models for a given model.
- * 
+ *
  * Criteria for alternatives:
  * 1. Must support ALL modalities of the original model.
  * 2. Context window must be >= 50% of the original model's context window.
@@ -17,7 +17,7 @@ export interface AlternativeResult {
 export function findAlternatives(
   engine: IntelligenceEngine,
   modelId: string,
-  limit = 3
+  limit = 3,
 ): AlternativeResult[] {
   engine.ensureLoaded();
 
@@ -33,9 +33,7 @@ export function findAlternatives(
     if (candidate.status !== 'active') continue;
 
     // Must have at least all modalities of the original
-    const hasAllModalities = original.modality.every((m) =>
-      candidate.modality.includes(m)
-    );
+    const hasAllModalities = original.modality.every((m) => candidate.modality.includes(m));
     if (!hasAllModalities) continue;
 
     // Context window check (allow slight downgrades, e.g., 100k instead of 128k)

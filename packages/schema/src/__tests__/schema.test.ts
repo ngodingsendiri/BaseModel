@@ -1,12 +1,12 @@
-import { describe, it, expect } from 'vitest';
+import { describe, expect, it } from 'vitest';
 import {
-  ProviderSchema,
-  ModelSchema,
-  CapabilitySchema,
-  BenchmarkSchema,
-  PricingSchema,
   ApiSchema,
+  BenchmarkSchema,
+  CapabilitySchema,
   LicenseSchema,
+  ModelSchema,
+  PricingSchema,
+  ProviderSchema,
 } from '../index';
 
 describe('Schema exports', () => {

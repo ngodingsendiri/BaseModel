@@ -5,7 +5,7 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.00
+    "value": 2.0
   },
   {
     "pricing_id": "mistral-ai-mistral-large-output",
@@ -13,6 +13,6 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 6.00
+    "value": 6.0
   }
 ]

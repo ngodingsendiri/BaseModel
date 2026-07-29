@@ -16,7 +16,7 @@ export interface CostEfficiencyReport {
  */
 export function calculateCostEfficiency(
   engine: IntelligenceEngine,
-  modelId: string
+  modelId: string,
 ): CostEfficiencyReport {
   engine.ensureLoaded();
 
@@ -65,7 +65,8 @@ export function calculateCostEfficiency(
 
   let tier: CostTier = 'Unknown';
   if (blendedCost > 0) {
-    if (blendedCost < 0.5) tier = 'Budget-Friendly'; // Under $0.50 per blended 1M
+    if (blendedCost < 0.5)
+      tier = 'Budget-Friendly'; // Under $0.50 per blended 1M
     else if (blendedCost <= 5) tier = 'Balanced';
     else tier = 'Premium'; // Over $5 per blended 1M
   }

@@ -1,6 +1,6 @@
-import { z } from 'zod';
-import type { ModelCollector, CollectionResult } from '../core/collector';
 import type { Model } from '@basemodel/schema';
+import { z } from 'zod';
+import type { CollectionResult, ModelCollector } from '../core/collector';
 
 // Minimal Zod schema for OpenAI API response validation
 const OpenAIModelResponseSchema = z.object({
@@ -9,7 +9,7 @@ const OpenAIModelResponseSchema = z.object({
       id: z.string(),
       created: z.number(),
       owned_by: z.string(),
-    })
+    }),
   ),
 });
 
@@ -36,16 +36,16 @@ export class OpenAICollector implements ModelCollector {
       }
 
       const response = await fetch('https://api.openai.com/v1/models', { headers });
-      
+
       if (!response.ok) {
         throw new Error(`OpenAI API responded with status ${response.status}`);
       }
 
-      const rawJson = await response.json() as unknown;
-      
+      const rawJson = (await response.json()) as unknown;
+
       // Validate raw payload strictly
       const parsed = OpenAIModelResponseSchema.safeParse(rawJson);
-      
+
       if (!parsed.success) {
         result.errors.push(`Failed to parse OpenAI response: ${parsed.error.message}`);
         return result;

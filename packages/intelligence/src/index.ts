@@ -21,6 +21,6 @@
  */
 
 export * from './core/engine';
-export * from './features/search';
-export * from './features/cost';
 export * from './features/alternatives';
+export * from './features/cost';
+export * from './features/search';

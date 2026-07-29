@@ -1,6 +1,6 @@
-import { z } from 'zod';
-import type { ModelCollector, CollectionResult } from '../core/collector';
 import type { Model } from '@basemodel/schema';
+import { z } from 'zod';
+import type { CollectionResult, ModelCollector } from '../core/collector';
 
 // Minimal Zod schema for Anthropic API response validation
 const AnthropicModelResponseSchema = z.object({
@@ -9,7 +9,7 @@ const AnthropicModelResponseSchema = z.object({
       id: z.string(),
       display_name: z.string().optional(),
       created_at: z.string().optional(),
-    })
+    }),
   ),
 });
 
@@ -41,11 +41,11 @@ export class AnthropicCollector implements ModelCollector {
         throw new Error(`Anthropic API responded with status ${response.status}`);
       }
 
-      const rawJson = await response.json() as unknown;
-      
+      const rawJson = (await response.json()) as unknown;
+
       // Validate raw payload strictly
       const parsed = AnthropicModelResponseSchema.safeParse(rawJson);
-      
+
       if (!parsed.success) {
         result.errors.push(`Failed to parse Anthropic response: ${parsed.error.message}`);
         return result;

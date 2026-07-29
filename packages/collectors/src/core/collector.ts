@@ -14,7 +14,7 @@ export interface CollectionResult {
 export interface ModelCollector {
   /** The unique identifier of the provider this collector is for. */
   providerId: string;
-  
+
   /** Fetches models from the provider's API, validates raw data, and normalizes it. */
   fetchModels(): Promise<CollectionResult>;
 }

@@ -1,6 +1,6 @@
-import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
-import { join, dirname } from 'node:path';
 import { existsSync } from 'node:fs';
+import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
+import { dirname, join } from 'node:path';
 
 /**
  * Resolves the absolute path to the data/registry directory.
@@ -112,4 +112,3 @@ export async function readAllArraysFromDirectory<T>(subDir: string): Promise<T[]
   }
   return results;
 }
-

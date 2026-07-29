@@ -1,28 +1,33 @@
-import {
-  ProviderSchema,
-  ModelSchema,
-  CapabilitySchema,
-  BenchmarkSchema,
-  PricingSchema,
-  ApiSchema,
-  LicenseSchema,
-} from '@basemodel/schema';
 import type {
-  Provider,
-  Model,
-  Capability,
-  Benchmark,
-  Pricing,
   Api,
+  Benchmark,
+  Capability,
   License,
+  Model,
+  Pricing,
+  Provider,
 } from '@basemodel/schema';
-import { readAllFromDirectory, readRegistryFile, writeRegistryFile, readAllArraysFromDirectory } from './storage.js';
+import {
+  ApiSchema,
+  BenchmarkSchema,
+  CapabilitySchema,
+  LicenseSchema,
+  ModelSchema,
+  PricingSchema,
+  ProviderSchema,
+} from '@basemodel/schema';
+import {
+  readAllArraysFromDirectory,
+  readAllFromDirectory,
+  readRegistryFile,
+  writeRegistryFile,
+} from './storage.js';
 import { validate } from './validation.js';
 
+export * from './merge.js';
 // Re-export storage, validation, and merge utilities for convenience
 export * from './storage.js';
 export * from './validation.js';
-export * from './merge.js';
 
 // --- Provider ---
 

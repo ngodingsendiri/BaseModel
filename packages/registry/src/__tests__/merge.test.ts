@@ -1,6 +1,6 @@
-import { describe, it, expect } from 'vitest';
-import { mergeModelData } from '../merge';
 import type { Model } from '@basemodel/schema';
+import { describe, expect, it } from 'vitest';
+import { mergeModelData } from '../merge';
 
 describe('mergeModelData', () => {
   it('creates a new model with defaults when existing is null', () => {
@@ -12,7 +12,7 @@ describe('mergeModelData', () => {
     };
 
     const result = mergeModelData(null, incoming);
-    
+
     expect(result.success).toBe(true);
     const data = result.data as Model;
     expect(data.model_id).toBe('openai/new-model');
@@ -49,12 +49,12 @@ describe('mergeModelData', () => {
 
     const result = mergeModelData(existing, incoming);
     expect(result.success).toBe(true);
-    
+
     const data = result.data as Model;
     expect(data.name).toBe('GPT-4o');
     expect(data.context_window).toBe(128000);
     // Preserved manual flag
-    expect(data.open_weight).toBe(true); 
+    expect(data.open_weight).toBe(true);
   });
 
   it('preserves existing capability_ids and license_id', () => {
@@ -85,7 +85,7 @@ describe('mergeModelData', () => {
 
     const result = mergeModelData(existing, incoming);
     expect(result.success).toBe(true);
-    
+
     const data = result.data as Model;
     expect(data.capability_ids).toEqual(['cap-1', 'cap-2']);
     expect(data.license_id).toBe('mit');

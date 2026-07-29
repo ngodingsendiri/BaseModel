@@ -4,12 +4,12 @@ import { validate } from './validation';
 
 /**
  * Safely merges data collected from an API (incoming) with the existing static data.
- * 
+ *
  * Rules:
  * - incoming data takes precedence for basic attributes (like context_window, status).
  * - existing data takes precedence for manually curated flags (like open_weight, capabilities)
  *   IF the incoming data doesn't explicitly provide them or if we want to preserve manual edits.
- * 
+ *
  * @param existing The existing model data from data/registry/models/... (can be null if it's a new model)
  * @param incoming The normalized partial model data from the collector
  */
@@ -18,10 +18,10 @@ export function mergeModelData(
   incoming: Partial<Model>,
 ): { success: boolean; data?: Model; errors?: string[] } {
   // If it's a completely new model, we just use incoming.
-  // Note: incoming might be missing required fields (like open_weight). 
-  // We apply default safe values for new models so they pass validation, 
+  // Note: incoming might be missing required fields (like open_weight).
+  // We apply default safe values for new models so they pass validation,
   // or we let them fail so a human knows they need curation.
-  
+
   const base: Partial<Model> = existing || {
     // Default manual flags for new models (requires human curation later)
     open_weight: false,
@@ -38,7 +38,7 @@ export function mergeModelData(
 
   // Merge: incoming overrides base for everything it explicitly provides
   const merged = { ...base };
-  
+
   for (const [key, value] of Object.entries(incoming)) {
     if (value !== undefined) {
       // @ts-expect-error dynamic assignment
