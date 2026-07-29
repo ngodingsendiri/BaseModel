@@ -14,19 +14,22 @@
   },
   "scripts": {
     "build": "tsup src/index.ts --format esm --dts --clean",
+    "collect": "tsx src/run.ts",
     "typecheck": "tsc --noEmit",
     "test": "vitest run --passWithNoTests",
     "test:watch": "vitest",
     "clean": "rimraf dist"
   },
   "dependencies": {
+    "@basemodel/registry": "workspace:*",
     "@basemodel/schema": "workspace:*",
-    "@basemodel/registry": "workspace:*"
+    "zod": "^4.4.3"
   },
   "devDependencies": {
+    "@types/node": "^26.1.2",
+    "rimraf": "^6.0.0",
     "tsup": "^8.0.0",
     "typescript": "^5.8.0",
-    "vitest": "^3.2.0",
-    "rimraf": "^6.0.0"
+    "vitest": "^3.2.0"
   }
 }

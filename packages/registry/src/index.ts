@@ -19,9 +19,10 @@ import type {
 import { readAllFromDirectory, readRegistryFile, writeRegistryFile } from './storage.js';
 import { validate } from './validation.js';
 
-// Re-export storage and validation utilities for convenience
+// Re-export storage, validation, and merge utilities for convenience
 export * from './storage.js';
 export * from './validation.js';
+export * from './merge.js';
 
 // --- Provider ---
 
