@@ -20,4 +20,7 @@
  * @see docs/04_Pipeline.md — Stage 6
  */
 
-export {};
+export * from './core/engine';
+export * from './features/search';
+export * from './features/cost';
+export * from './features/alternatives';

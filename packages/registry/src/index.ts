@@ -16,7 +16,7 @@ import type {
   Api,
   License,
 } from '@basemodel/schema';
-import { readAllFromDirectory, readRegistryFile, writeRegistryFile } from './storage.js';
+import { readAllFromDirectory, readRegistryFile, writeRegistryFile, readAllArraysFromDirectory } from './storage.js';
 import { validate } from './validation.js';
 
 // Re-export storage, validation, and merge utilities for convenience
@@ -78,7 +78,7 @@ export async function getAllBenchmarks(): Promise<Benchmark[]> {
 // --- Pricing ---
 
 export async function getAllPricing(): Promise<Pricing[]> {
-  const raw = await readAllFromDirectory('pricing');
+  const raw = await readAllArraysFromDirectory('pricing');
   return raw.filter((r) => PricingSchema.safeParse(r).success) as Pricing[];
 }
 

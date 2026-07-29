@@ -1,0 +1,18 @@
+[
+  {
+    "pricing_id": "openai-gpt-4o-mini-input",
+    "model_id": "openai/gpt-4o-mini",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.15
+  },
+  {
+    "pricing_id": "openai-gpt-4o-mini-output",
+    "model_id": "openai/gpt-4o-mini",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.60
+  }
+]

@@ -95,3 +95,21 @@ export async function readAllFromDirectory<T>(subDir: string): Promise<T[]> {
   }
   return results;
 }
+
+/**
+ * Reads all JSON files from a subdirectory where each file contains an ARRAY of records.
+ * Flattens all arrays into a single typed result array.
+ * Used for data types like Pricing where multiple records share a single file.
+ */
+export async function readAllArraysFromDirectory<T>(subDir: string): Promise<T[]> {
+  const files = await listRegistryFiles(subDir);
+  const results: T[] = [];
+  for (const file of files) {
+    const data = await readRegistryFile<T[]>(join(subDir, file));
+    if (data !== null && Array.isArray(data)) {
+      results.push(...data);
+    }
+  }
+  return results;
+}
+

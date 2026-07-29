@@ -1,0 +1,34 @@
+[
+  {
+    "pricing_id": "google-gemini-1-5-pro-input",
+    "model_id": "google/gemini-1.5-pro",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.25
+  },
+  {
+    "pricing_id": "google-gemini-1-5-pro-output",
+    "model_id": "google/gemini-1.5-pro",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 5.00
+  },
+  {
+    "pricing_id": "google-gemini-1-5-flash-input",
+    "model_id": "google/gemini-1.5-flash",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.075
+  },
+  {
+    "pricing_id": "google-gemini-1-5-flash-output",
+    "model_id": "google/gemini-1.5-flash",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.30
+  }
+]

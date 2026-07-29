@@ -2,7 +2,8 @@ import { writeFile, mkdir } from 'node:fs/promises';
 import { existsSync, readFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { execSync } from 'node:child_process';
-import { getAllProviders, getAllModels, getAllCapabilities, getAllLicenses } from '@basemodel/registry';
+import { getAllProviders, getAllModels, getAllCapabilities, getAllLicenses, getAllPricing } from '@basemodel/registry';
+import { IntelligenceEngine, calculateCostEfficiency, findAlternatives } from '@basemodel/intelligence';
 
 const SCHEMA_VERSION = '0.1.0';
 
@@ -91,6 +92,39 @@ async function generate(): Promise<void> {
     JSON.stringify({ ...meta, count: licenses.length, licenses }, null, 2) + '\n',
   );
   console.log(`✅ licenses.json — ${licenses.length} records`);
+
+  // --- intelligence.json ---
+  console.log('⏳ Deriving intelligence...');
+  const pricing = await getAllPricing();
+  const engine = new IntelligenceEngine();
+  engine.models = models;
+  engine.providers = providers;
+  engine.capabilities = capabilities;
+  engine.pricing = pricing;
+  // Mark engine as loaded
+  // @ts-expect-error accessing private member
+  engine.isLoaded = true;
+
+  const intelligenceRecords = models.map((model) => {
+    const cost = calculateCostEfficiency(engine, model.model_id);
+    const alternatives = findAlternatives(engine, model.model_id, 3).map((a) => ({
+      model_id: a.model.model_id,
+      name: a.model.name,
+      reason: a.reason,
+    }));
+    return {
+      model_id: model.model_id,
+      cost_tier: cost.tier,
+      blended_cost_per_1m: cost.blendedCost,
+      alternatives,
+    };
+  });
+
+  await writeFile(
+    join(OUTPUT_DIR, 'intelligence.json'),
+    JSON.stringify({ ...meta, count: intelligenceRecords.length, intelligence: intelligenceRecords }, null, 2) + '\n',
+  );
+  console.log(`✅ intelligence.json — ${intelligenceRecords.length} records`);
 
   console.log('');
   console.log(`🎉 Done. Datasets written to: ${OUTPUT_DIR}`);
