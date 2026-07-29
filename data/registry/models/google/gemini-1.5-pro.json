@@ -1,0 +1,22 @@
+{
+  "model_id": "google/gemini-1.5-pro",
+  "provider_id": "google",
+  "name": "Gemini 1.5 Pro",
+  "family": "Gemini 1.5",
+  "release_date": "2024-05-23",
+  "description": "Google's best performing multimodal model with a long context window of up to 2 million tokens.",
+  "architecture": "mixture-of-experts",
+  "context_window": 2000000,
+  "modality": ["text", "image", "audio", "video"],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": true,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": ["text-generation", "code-generation", "vision", "tool-calling"],
+  "license_id": "proprietary",
+  "status": "active"
+}

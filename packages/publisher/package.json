@@ -16,7 +16,7 @@
     "build": "tsup src/index.ts --format esm --dts --clean",
     "generate": "tsx src/generate.ts",
     "typecheck": "tsc --noEmit",
-    "test": "vitest run",
+    "test": "vitest run --passWithNoTests",
     "test:watch": "vitest",
     "clean": "rimraf dist"
   },

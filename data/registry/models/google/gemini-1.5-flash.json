@@ -1,0 +1,22 @@
+{
+  "model_id": "google/gemini-1.5-flash",
+  "provider_id": "google",
+  "name": "Gemini 1.5 Flash",
+  "family": "Gemini 1.5",
+  "release_date": "2024-05-24",
+  "description": "Google's fast and versatile multimodal model for diverse tasks at scale.",
+  "architecture": "mixture-of-experts",
+  "context_window": 1000000,
+  "modality": ["text", "image", "audio", "video"],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": true,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": ["text-generation", "code-generation", "vision", "tool-calling"],
+  "license_id": "proprietary",
+  "status": "active"
+}

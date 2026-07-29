@@ -1,0 +1,5 @@
+{
+  "capability_id": "tool-calling",
+  "name": "Tool Calling",
+  "description": "The ability to call external functions or tools as part of a response (also known as function calling)."
+}
