@@ -1,4 +1,4 @@
-import type { Model } from '@basemodel/schema';
+﻿import type { Model } from '@basemodel/schema';
 
 export interface CollectionResult {
   provider_id: string;
@@ -6,55 +6,54 @@ export interface CollectionResult {
   errors: string[];
 }
 
+export const MAX_PLUGIN_MODELS = 10_000;
+export const MAX_PLUGIN_RESPONSE_BYTES = 10 * 1024 * 1024;
+
 /**
- * The standard interface for all API scrapers/collectors.
- * Implementing classes must fetch data from their respective provider's API
- * and normalize it into a list of Partial<Model> objects.
+ * Interface for provider-specific collectors.
+ * Implementations fetch provider data and normalize it into Partial<Model>
+ * records that the registry can merge.
  */
 export interface ModelCollector {
-  /** The unique identifier of the provider this collector is for. */
+  /** The unique identifier of the provider this collector serves. */
   providerId: string;
 
-  /** Fetches models from the provider's API, validates raw data, and normalizes it. */
+  /** Fetches, validates, and normalizes models from the provider source. */
   fetchModels(): Promise<CollectionResult>;
 }
 
-// ---------------------------------------------------------------------------
-// Gateway Plugin System
-// ---------------------------------------------------------------------------
-
 /**
- * A "Simple" plugin for gateways that follow the OpenAI-compatible API format.
- * The runner engine knows how to handle these without any custom code.
- * Just drop a file in gateways/ with these 4 fields and you're done.
+ * Gateway plugin metadata for OpenAI-compatible providers.
  */
 export interface SimpleGateway {
   type: 'openai-compatible';
-  /** Unique provider/gateway ID, e.g. 'openrouter'. Used as namespace prefix. */
+  /** Unique provider or gateway ID, for example `openrouter`. */
   id: string;
-  /** Base URL of the OpenAI-compatible endpoint, e.g. 'https://openrouter.ai/api/v1' */
+  /** Base URL of the OpenAI-compatible endpoint. */
   baseUrl: string;
-  /**
-   * The NAME of the environment variable (GitHub Secret) that holds the API key.
-   * e.g. 'OPENROUTER_API_KEY'. The runner will look up process.env[secretKeyName].
-   */
+  /** Approved secret name for the API key used by this gateway. */
   secretKeyName: string;
 }
 
 /**
- * A "Custom" plugin for gateways with unique API formats (e.g. Anthropic, Google Gemini).
- * You write the full fetch & normalization logic inside `collect()`.
+ * Gateway plugin metadata for custom providers.
+ * The custom `collect()` implementation runs in an isolated worker.
  */
 export interface CustomGateway {
   type: 'custom';
-  /** Unique provider/gateway ID, e.g. 'anthropic'. */
+  /** Unique provider or gateway ID, for example `anthropic`. */
   id: string;
-  /**
-   * Full collection logic. Secrets (env vars) are injected by the runner.
-   * Must return a CollectionResult with normalized Partial<Model> objects.
-   */
+  /** Full collection logic executed with only approved secrets. */
   collect(secrets: Record<string, string | undefined>): Promise<CollectionResult>;
 }
 
-/** Union type for any gateway plugin. */
+/** Union type for supported gateway plugins. */
 export type GatewayPlugin = SimpleGateway | CustomGateway;
+
+/**
+ * Serializable plugin metadata returned from the isolated worker process.
+ * The collector process never imports a plugin directly.
+ */
+export type GatewayDescriptor =
+  | Pick<SimpleGateway, 'type' | 'id' | 'baseUrl' | 'secretKeyName'>
+  | Pick<CustomGateway, 'type' | 'id'>;

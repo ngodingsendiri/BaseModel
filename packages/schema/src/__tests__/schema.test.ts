@@ -8,6 +8,7 @@ import {
   PricingSchema,
   ProviderSchema,
 } from '../index';
+import { HttpUrlSchema } from '../url';
 
 describe('Schema exports', () => {
   it('exports ProviderSchema', () => {
@@ -61,6 +62,26 @@ describe('ProviderSchema', () => {
       status: 'active',
     });
     expect(result.success).toBe(false);
+  });
+
+  it.each(['javascript:alert(1)', 'data:text/html,hello', 'file:///tmp/model.json'])(
+    'rejects non-web URL scheme: %s',
+    (website) => {
+      const result = ProviderSchema.safeParse({
+        provider_id: 'openai',
+        name: 'OpenAI',
+        organization: 'OpenAI LP',
+        website,
+        provider_type: 'first-party',
+        status: 'active',
+      });
+      expect(result.success).toBe(false);
+    },
+  );
+
+  it('accepts HTTP and HTTPS URLs', () => {
+    expect(HttpUrlSchema.safeParse('http://example.com').success).toBe(true);
+    expect(HttpUrlSchema.safeParse('https://example.com/docs').success).toBe(true);
   });
 });
 

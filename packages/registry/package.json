@@ -1,8 +1,8 @@
-{
+﻿{
   "name": "@basemodel/registry",
   "version": "0.1.0",
   "private": true,
-  "description": "Registry layer — validation, normalization, and storage of canonical AI model data",
+  "description": "Registry layer - validation, normalization, and storage of canonical AI model data",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -31,3 +31,4 @@
     "vitest": "^3.2.0"
   }
 }
+

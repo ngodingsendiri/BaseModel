@@ -1,10 +1,11 @@
-import { z } from 'zod';
+﻿import { z } from 'zod';
+import { HttpUrlSchema } from './url.js';
 
 /**
  * Canonical Zod schema for the Benchmark entity.
  *
  * Represents an evaluation result for a specific model on a specific benchmark.
- * @see docs/05_Data_Model.md — Entity: Benchmark
+ * @see docs/05_Data_Model.md - Entity: Benchmark
  */
 export const BenchmarkSchema = z.object({
   benchmark_id: z.string().min(1),
@@ -19,7 +20,7 @@ export const BenchmarkSchema = z.object({
       message: 'evaluation_date must be ISO 8601 date (YYYY-MM-DD)',
     })
     .optional(),
-  source: z.string().url(),
+  source: HttpUrlSchema,
 });
 
 export type Benchmark = z.infer<typeof BenchmarkSchema>;

@@ -1,453 +1,168 @@
-# BaseModel Data Model
+﻿# BaseModel Data Model
 
-This document defines the canonical domain model of BaseModel.
+This document defines the canonical domain model for BaseModel.
 
-The data model describes the core concepts of the AI ecosystem independently from any programming language, database, API, or serialization format.
+## Purpose
 
-Every collector, validator, registry, dataset, API, SDK, and application built on BaseModel must derive from this model.
+The data model defines:
 
----
+- The entities that exist in BaseModel
+- The responsibility of each entity
+- The relationships between entities
+- The canonical identifiers
+- The ownership of information
 
-# Purpose
+## Design Principles
 
-The purpose of the data model is to define:
+- Canonical: each real-world concept has one canonical representation.
+- Provider agnostic: the model describes the ecosystem, not a single provider.
+- Stable: the domain model should evolve slowly.
+- Extensible: future entities should extend the model rather than replace it.
+- Normalized: each entity owns the information that belongs to it.
 
-* The entities that exist within BaseModel.
-* The responsibility of each entity.
-* The relationships between entities.
-* The canonical identifiers.
-* The ownership of information.
+## Core Entities
 
-The data model is the single source of truth for every schema used by BaseModel.
-
----
-
-# Design Principles
-
-The data model follows these principles.
-
-## Canonical
-
-Each real-world concept has exactly one canonical representation.
-
----
-
-## Provider Agnostic
-
-The model represents the AI ecosystem rather than any individual provider.
-
-Every provider follows the same structure.
-
----
-
-## Stable
-
-The domain model should evolve slowly.
-
-Implementations may change.
-
-The model should remain stable.
-
----
-
-## Extensible
-
-Future entities should extend the model rather than replace existing ones.
-
-Breaking changes should be avoided whenever possible.
-
----
-
-## Normalized
-
-Each entity owns only the information that belongs to it.
-
-Information should not be duplicated across entities.
-
----
-
-# Core Entities
-
-```text
-Provider
-    │
-    └── owns
-            │
-            ▼
-          Model
-        ┌──┼──────────────┬─────────────┬─────────────┐
-        ▼  ▼              ▼             ▼             ▼
-Capability Benchmark   Pricing         API        License
-```
-
-Each entity has a single responsibility.
-
----
-
-# Entity: Provider
+### Provider
 
 Represents an organization that develops, publishes, hosts, or distributes AI models.
 
-Examples:
+Fields:
 
-* OpenAI
-* Anthropic
-* Google
-* Meta
-* Alibaba
-* Mistral AI
+- `provider_id`
+- `name`
+- `organization`
+- `website`
+- `documentation` (optional)
+- `country` (optional)
+- `description` (optional)
+- `provider_type`
+- `status`
 
-Primary Identifier
-
-* provider_id
-
-Core Attributes
-
-* name
-* organization
-* website
-* documentation
-* country
-* description
-* status
-
-Relationships
-
-* Owns zero or more models.
-
-A Provider represents the organization itself.
-
-It does not describe how individual models are accessed.
-
----
-
-# Entity: Model
+### Model
 
 Represents a uniquely identifiable AI model.
 
-Examples:
+Fields:
 
-* GPT-5
-* Claude Sonnet
-* Gemini 3 Pro
-* DeepSeek R1
-* Qwen3-Coder
+- `model_id`
+- `provider_id`
+- `name`
+- `family` (optional)
+- `version` (optional)
+- `release_date` (optional)
+- `description` (optional)
+- `architecture` (optional)
+- `parameter_size` (optional)
+- `context_window` (optional)
+- `modality`
+- `open_weight`
+- `reasoning_support`
+- `function_calling`
+- `structured_output`
+- `vision_support`
+- `audio_support`
+- `image_generation`
+- `embedding_support`
+- `capability_ids`
+- `license_id` (optional)
+- `status`
 
-Primary Identifier
+### Capability
 
-* model_id
+Represents a normalized capability that can be shared by many models.
 
-Relationships
+Fields:
 
-* Belongs to one Provider.
-* Supports many Capabilities.
-* Has zero or more Benchmark results.
-* Has one or more Pricing records.
-* Is exposed through one or more APIs.
-* Is governed by one License.
+- `capability_id`
+- `name`
+- `description` (optional)
 
-Core Attributes
-
-* name
-* family
-* version
-* release_date
-* architecture
-* parameter_size
-* context_window
-* modality
-* open_weight
-* reasoning_support
-* function_calling
-* structured_output
-* vision_support
-* audio_support
-* image_support
-* embedding_support
-* status
-
-The Model is the central entity of BaseModel.
-
----
-
-# Entity: Capability
-
-Represents a capability that can be supported by multiple models.
-
-Examples include:
-
-* Text Generation
-* Code Generation
-* Vision
-* Image Generation
-* Audio Understanding
-* Embeddings
-* Tool Calling
-* Reasoning
-
-Primary Identifier
-
-* capability_id
-
-Relationships
-
-* Shared by many Models.
-
----
-
-# Entity: Benchmark
+### Benchmark
 
 Represents an evaluation result for a model.
 
-Examples include:
+Fields:
 
-* MMLU
-* GPQA
-* SWE-bench
-* HumanEval
-* MMMU
+- `benchmark_id`
+- `model_id`
+- `benchmark_name`
+- `version` (optional)
+- `score`
+- `score_raw` (optional)
+- `evaluation_date` (optional)
+- `source`
 
-Primary Identifier
+### Pricing
 
-* benchmark_id
+Represents pricing information for a model.
 
-Core Attributes
+Fields:
 
-* benchmark_name
-* version
-* score
-* evaluation_date
-* source
+- `pricing_id`
+- `model_id`
+- `pricing_type`
+- `currency` (optional)
+- `unit` (optional)
+- `value` (optional)
+- `notes` (optional)
 
-Relationships
-
-* References one Model.
-
----
-
-# Entity: Pricing
-
-Represents how a model is priced.
-
-Examples include:
-
-* Free
-* Input Token
-* Output Token
-* Cached Token
-* Rate Limit
-
-Primary Identifier
-
-* pricing_id
-
-Core Attributes
-
-* pricing_type
-* currency
-* unit
-* value
-
-Relationships
-
-* References one Model.
-
----
-
-# Entity: API
+### API
 
 Represents one method of accessing a model.
 
-Examples include:
+Fields:
 
-* OpenAI Compatible API
-* Native REST API
-* Ollama
-* LM Studio
-* vLLM
+- `api_id`
+- `model_id`
+- `protocol`
+- `endpoint` (optional)
+- `compatibility` (optional)
+- `authentication`
+- `rate_limits` (optional)
 
-Primary Identifier
-
-* api_id
-
-Core Attributes
-
-* protocol
-* endpoint
-* compatibility
-* authentication
-* rate_limits
-
-Relationships
-
-* References one Model.
-
-API describes **how a model is consumed**, not the organization that owns it.
-
----
-
-# Entity: License
+### License
 
 Represents the legal terms governing a model.
 
-Examples include:
+Fields:
 
-* MIT
-* Apache 2.0
-* Proprietary
-* Llama License
+- `license_id`
+- `name`
+- `commercial_use`
+- `redistribution`
+- `modification`
+- `source_available`
+- `url` (optional)
 
-Primary Identifier
+## Identifiers
 
-* license_id
+- `provider_id` uses kebab-case.
+- `model_id` uses the format `{provider_id}/{model-slug}`.
+- Other entity identifiers use stable, human-readable identifiers whenever practical.
 
-Core Attributes
+## Dataset Metadata
 
-* name
-* commercial_use
-* redistribution
-* modification
-* source_available
+Generated datasets include:
 
-Relationships
+- `schema_version`
+- `source_revision`
+- `count`
 
-* References one Model.
+The current generator does not emit a `generated_at` field.
 
----
-
-# Entity Relationships
-
-```text
-Provider
-    │
-    └── owns
-            │
-            ▼
-          Model
-        ├───────────────┐
-        │               │
-        ▼               ▼
- Capability        Benchmark
-        │
-        ├───────────────┬──────────────┐
-        ▼               ▼              ▼
-    Pricing           API         License
-```
-
-Relationships describe ownership and association only.
-
-They never define implementation details.
-
----
-
-# Entity Ownership
-
-Each entity owns its own information.
-
-Provider owns:
-
-* Organization metadata.
-
-Model owns:
-
-* Technical characteristics.
-
-Capability owns:
-
-* Functional features.
-
-Benchmark owns:
-
-* Evaluation results.
-
-Pricing owns:
-
-* Commercial information.
-
-API owns:
-
-* Access information.
-
-License owns:
-
-* Legal information.
-
-This separation prevents duplicated information and keeps the model normalized.
-
----
-
-# Identifiers
-
-Every entity must have a globally unique identifier.
-
-Identifiers should be:
-
-* Stable
-* Immutable
-* Human-readable whenever practical
-* Independent of provider-specific implementations
-
-**Identifier Convention:**
-BaseModel exclusively uses a `kebab-case` convention.
-* **provider_id**: A URL-safe slug representing the provider (e.g., `openai`, `anthropic`, `google`).
-* **model_id**: A combination of the provider ID and the model slug (e.g., `openai/gpt-4o`, `google/gemini-1.5-pro`).
-
-Identifiers are the foundation of every relationship inside BaseModel.
-
----
-
-# Versioning
-
-The data model itself is versioned.
-
-Generated datasets should include:
-
-* schema_version
-* generated_at
-* source_revision
-
-This allows consumers to safely migrate across releases.
-
----
-
-# Future Expansion
-
-The model intentionally starts small.
-
-Potential future entities include:
-
-* Hardware Requirements
-* Safety Evaluations
-* Region Availability
-* Fine-tuning Support
-* Deployment Targets
-
-New entities should extend the model without changing existing relationships.
-
----
-
-# Out of Scope
+## Out Of Scope
 
 The data model intentionally excludes:
 
-* AI inference
-* Prompt templates
-* Conversations
-* Chat history
-* GPU execution
-* User accounts
-* Billing systems
-* Authentication
-* Runtime orchestration
+- AI inference
+- Prompt templates
+- Conversations
+- Chat history
+- GPU execution
+- User accounts
+- Billing systems
+- Runtime orchestration
 
-These belong to applications built on top of BaseModel.
+## Final Statement
 
----
-
-# Final Statement
-
-The BaseModel Data Model defines the canonical representation of the AI ecosystem.
-
-Every implementation—whether JSON datasets, APIs, SDKs, databases, or future applications—should derive from this model.
-
-By separating entities according to their responsibilities, BaseModel remains provider-agnostic, extensible, and maintainable while preserving a consistent understanding of AI models across the ecosystem.
+Every implementation in BaseModel should derive from this domain model.

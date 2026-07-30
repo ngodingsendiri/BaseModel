@@ -143,5 +143,41 @@ describe('Intelligence Layer', () => {
         'Cross-provider alternative from anthropic with larger context window (200000)',
       );
     });
+
+    it('does not treat an unknown context window as compatible', () => {
+      const original = engine.models[0];
+      const candidate = engine.models[1];
+      if (!original || !candidate) throw new Error('Test fixture is incomplete');
+      engine.models = [
+        original,
+        {
+          ...candidate,
+          model_id: 'anthropic/unknown-context',
+          context_window: undefined,
+        },
+      ];
+
+      expect(findAlternatives(engine, original.model_id)).toEqual([]);
+    });
+  });
+
+  describe('Snapshot hydration', () => {
+    it('rejects invalid runtime data', () => {
+      expect(() =>
+        engine.hydrate({ models: [{}] as Model[], providers: [], capabilities: [], pricing: [] }),
+      ).toThrow('Invalid intelligence snapshot');
+    });
+
+    it('copies snapshot arrays instead of retaining caller references', () => {
+      const snapshot = {
+        models: [engine.models[0] as Model],
+        providers: [],
+        capabilities: [],
+        pricing: [],
+      };
+      engine.hydrate(snapshot);
+      snapshot.models.length = 0;
+      expect(engine.models).toHaveLength(1);
+    });
   });
 });

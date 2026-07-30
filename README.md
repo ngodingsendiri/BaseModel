@@ -1,14 +1,34 @@
 # BaseModel
 
-BaseModel is an open-source **AI Model Intelligence Platform**. It continuously discovers, organizes, normalizes, evaluates, and publishes structured knowledge about AI models across the global AI ecosystem.
+BaseModel is an open-source AI model intelligence platform. It discovers,
+validates, normalizes, stores, analyzes, and publishes structured knowledge
+about AI models.
 
-BaseModel is **not** an AI provider, inference gateway, runtime, coding assistant, or user-facing application. 
+BaseModel is not an inference runtime, model host, chatbot, coding assistant,
+or end-user application. It is the data layer that other systems consume.
 
-It is designed strictly as an **infrastructure layer** that produces normalized, high-quality intelligence. This allows developers, runtimes, autonomous AI agents, IDEs, and other applications to make informed, dynamic decisions when selecting and integrating AI models.
+## Repository Layout
+
+- `packages/schema` - Canonical Zod schemas and TypeScript types.
+- `packages/registry` - Registry storage, validation, and merge utilities.
+- `packages/collectors` - Provider and gateway collectors.
+- `packages/intelligence` - Derived rankings, search, and recommendations.
+- `packages/publisher` - Dataset generation for `dist/`.
+- `packages/cli` - Command-line interface for querying intelligence.
+
+Canonical records live in `data/registry/`. Generated datasets are written to
+`dist/` and include:
+
+- `providers.json`
+- `models.json`
+- `capabilities.json`
+- `licenses.json`
+- `apis.json`
+- `benchmarks.json`
+- `pricing.json`
+- `intelligence.json`
 
 ## Documentation
-
-Our core documentation serves as the blueprint for this project:
 
 - [Vision](docs/01_Vision.md)
 - [Philosophy](docs/02_Philosophy.md)
@@ -16,27 +36,24 @@ Our core documentation serves as the blueprint for this project:
 - [Pipeline](docs/04_Pipeline.md)
 - [Data Model](docs/05_Data_Model.md)
 - [Roadmap](docs/06_Roadmap.md)
+- [Developer Access](docs/07_Developer_Access.md)
+- [Gateway Plugin Security](docs/08_Gateway_Plugin_Security.md)
 
-## Project Structure
-
-This is a pnpm monorepo containing the following packages:
-- `@basemodel/schema` - Canonical Zod schemas and TypeScript types
-- `@basemodel/registry` - Validation, normalization, and canonical storage logic
-- `@basemodel/collectors` - Provider-specific data collectors
-- `@basemodel/intelligence` - Derived insights, rankings, and recommendations
-- `@basemodel/publisher` - Dataset generation and distribution
-
-Canonical data is stored in the `data/registry/` directory as version-controlled JSON files.
-
-## Getting Started
+## Development
 
 ```bash
 pnpm install
-pnpm build
+pnpm lint
+pnpm typecheck
 pnpm test
+pnpm build
+pnpm generate
 ```
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
+Useful package-level commands:
+
+- `pnpm --filter @basemodel/collectors run collect`
+- `pnpm --filter @basemodel/collectors run verify packages/collectors/src/gateways/openai.ts`
 
 ## License
 

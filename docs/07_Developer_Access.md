@@ -1,116 +1,112 @@
-# Developer Access & Integration
+﻿# Developer Access & Integration
 
-BaseModel is designed to be easily consumed by external applications (AI runtimes, IDEs, Agents, Dashboards, and SDKs). This document outlines the primary ways to integrate BaseModel into your projects.
+BaseModel is designed to be consumed by SDKs, CLIs, agents, dashboards, and
+other applications that need structured AI model intelligence.
 
-## 1. Using the npm SDK
+## 1. npm Packages
 
-BaseModel publishes its types, schemas, and intelligence logic as npm packages. You can use these in your TypeScript or JavaScript projects.
+The repository publishes four reusable libraries:
 
-### Installation
+- `@basemodel/schema` for canonical schemas and TypeScript types.
+- `@basemodel/registry` for reading and writing canonical registry data.
+- `@basemodel/intelligence` for search, alternatives, and cost heuristics.
+- `@basemodel/publisher` for generating the public JSON datasets.
+
+Install the packages you need:
 
 ```bash
 npm install @basemodel/schema @basemodel/intelligence
 ```
 
-### Usage: Schemas and Types
-
-You can use the Zod schemas from `@basemodel/schema` to validate data, or use the TypeScript types for your own data structures.
+### Schemas and Types
 
 ```typescript
 import { ModelSchema, type Model } from '@basemodel/schema';
 
-// Validate raw JSON data
 const rawData = { /* ... */ };
-const parseResult = ModelSchema.safeParse(rawData);
+const parsed = ModelSchema.safeParse(rawData);
 
-if (parseResult.success) {
-  const model: Model = parseResult.data;
-  console.log(`Loaded model: ${model.name}`);
+if (parsed.success) {
+  const model: Model = parsed.data;
+  console.log(model.name);
 }
 ```
 
-### Usage: Intelligence Engine
+### Intelligence Engine
 
-If you want to use the ranking, search, and cost efficiency logic in your app, you can use the `@basemodel/intelligence` package. You will need to load the raw JSON datasets from `dist/` and inject them into the engine.
+`IntelligenceEngine` can load the registry from Node.js or hydrate from an
+already loaded snapshot in environments without filesystem access.
 
 ```typescript
-import { IntelligenceEngine, searchModels, calculateCostEfficiency } from '@basemodel/intelligence';
+import { IntelligenceEngine, calculateCostEfficiency, searchModels } from '@basemodel/intelligence';
 
-// 1. Fetch the raw datasets (e.g. from the BaseModel GitHub Pages or a CDN)
-const modelsResponse = await fetch('https://raw.githubusercontent.com/basemodel/basemodel/main/dist/models.json');
-const modelsData = await modelsResponse.json();
-
-const pricingResponse = await fetch('https://raw.githubusercontent.com/basemodel/basemodel/main/dist/pricing.json');
-const pricingData = await pricingResponse.json();
-
-// 2. Initialize the Engine
 const engine = new IntelligenceEngine();
-engine.models = modelsData.models;
-engine.pricing = pricingData; // Assuming pricing is extracted appropriately
-// @ts-expect-error
-engine.isLoaded = true; // Mark as manually loaded
+await engine.init();
 
-// 3. Search for models
-const results = searchModels(engine, {
+const matches = searchModels(engine, {
+  providerIds: ['openai'],
   modalities: ['image'],
   flags: ['vision_support'],
-  minContextWindow: 100000
+  minContextWindow: 100000,
 });
 
-console.log(results);
-
-// 4. Calculate cost
-const costReport = calculateCostEfficiency(engine, 'openai/gpt-4o');
-console.log(costReport.tier); // e.g. "Balanced"
+const cost = calculateCostEfficiency(engine, 'openai/gpt-4o');
+console.log(cost.tier);
 ```
 
-## 2. Using the CLI
+In browser-like environments, hydrate the engine manually:
 
-BaseModel provides a command-line interface for quickly querying the intelligence engine from your terminal.
-
-### Installation
-
-```bash
-npm install -g @basemodel/cli
+```typescript
+engine.hydrate({ models, providers, capabilities, pricing });
 ```
 
-### Commands
+## 2. CLI
 
-**Search Models**
-Search for models matching specific criteria.
-```bash
-basemodel search --modality image --flag vision_support --min-context 100000
-```
+The CLI exposes the same intelligence logic from the terminal.
 
-**Model Info**
-View detailed information, capabilities, and pricing tier for a specific model.
 ```bash
+basemodel search --provider openai --modality image --flag vision_support --min-context 100000
 basemodel info openai/gpt-4o
-```
-
-**Find Alternatives**
-Find comparable alternative models that have the same modalities and similar context windows.
-```bash
 basemodel alternatives anthropic/claude-3-5-sonnet
 ```
 
+Supported search filters are:
+
+- `--provider`
+- `--modality`
+- `--flag`
+- `--min-context`
+
 ## 3. Direct JSON Consumption
 
-If you are not using JavaScript/TypeScript, the easiest way to consume BaseModel is to fetch the static JSON datasets directly from the `dist/` directory on GitHub.
+The publisher writes static datasets to `dist/`. Consumers can fetch those
+files directly from the repository or from any distribution mirror.
 
-The datasets are structured according to the canonical Zod schemas, making them easy to parse in Python, Go, Rust, or any other language.
-
-- `models.json`: All active models and their capabilities.
-- `providers.json`: Metadata about API providers.
-- `intelligence.json`: Derived intelligence (cost tiers, alternative models).
+- `models.json` - Models and their capabilities.
+- `providers.json` - Provider metadata.
+- `capabilities.json` - Canonical capability vocabulary.
+- `licenses.json` - License metadata.
+- `apis.json` - Model access methods.
+- `benchmarks.json` - Benchmark results.
+- `pricing.json` - Pricing records.
+- `intelligence.json` - Derived cost and alternative data.
 
 ```python
 import requests
 
-url = "https://raw.githubusercontent.com/basemodel/basemodel/main/dist/intelligence.json"
+url = 'https://raw.githubusercontent.com/ngodingsendiri/BaseModel/main/dist/intelligence.json'
 response = requests.get(url)
 data = response.json()
 
-for record in data["intelligence"]:
-    print(f"{record['model_id']} - Tier: {record['cost_tier']}")
+for record in data['intelligence']:
+    print(f"{record['model_id']} - {record['cost_tier']}")
 ```
+
+## 4. Gateway Plugins
+
+Gateway plugins live in `packages/collectors/src/gateways/`. The collector
+validates plugin paths, runs plugins in isolated workers, and only injects the
+secrets registered for that gateway.
+
+If you add a new plugin, update the secret registry and the security doc at the
+same time.

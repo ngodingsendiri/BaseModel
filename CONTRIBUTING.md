@@ -1,39 +1,55 @@
 # Contributing to BaseModel
 
-Thank you for your interest in contributing to BaseModel! We are building the open, continuously updated intelligence layer for the AI ecosystem.
+BaseModel is a data infrastructure project. Changes should improve the
+quality, correctness, reproducibility, or usability of the published datasets.
 
-Please review our core documentation in `docs/` before contributing to understand our architecture and philosophy.
+## Before You Start
 
-## Development Workflow
+- Use Node.js 20 or newer.
+- Use pnpm 9 or newer.
+- Read the docs in `docs/` before changing behavior.
 
-### Prerequisites
-- Node.js (v20+)
-- pnpm (v9+)
+## Setup
 
-### Getting Started
-1. Clone the repository
-2. Install dependencies: `pnpm install`
-3. Build the project: `pnpm build`
+```bash
+pnpm install
+pnpm build
+```
 
-### Commands
-- `pnpm lint`: Run Biome to check formatting and linting
-- `pnpm lint:fix`: Auto-fix formatting and linting issues
-- `pnpm typecheck`: Run TypeScript compiler without emitting files
-- `pnpm test`: Run tests with Vitest
+## Daily Commands
 
-## Pull Request Guidelines
+- `pnpm lint` - Check formatting and static issues.
+- `pnpm typecheck` - Run TypeScript checks across the workspace.
+- `pnpm test` - Run the workspace test suite.
+- `pnpm generate` - Regenerate the published datasets in `dist/`.
 
-1. **Keep it small**: Smaller PRs are easier to review.
-2. **Follow the schema**: Any changes to data must respect the Zod schemas in `@basemodel/schema`.
-3. **Tests**: Add tests for any new logic.
-4. **Linting**: Ensure `pnpm lint` and `pnpm typecheck` pass.
+## What To Update With Code Changes
 
-## Adding a New Provider or Model
+- Update the relevant schemas in `packages/schema` when data shape changes.
+- Update registry merge or validation logic in `packages/registry` when record
+  handling changes.
+- Update collectors in `packages/collectors` when provider or gateway inputs
+  change.
+- Update `packages/publisher` when dataset outputs change.
+- Update the docs that describe the changed behavior.
 
-We are currently in the early milestones of development. Please check the `data/registry/` folder structure and ensure any new entries follow the defined schemas.
+## Pull Requests
 
-For automated collectors (Milestone 3+), please see `@basemodel/collectors`.
+- Keep PRs small and focused.
+- Add or update tests for behavior changes.
+- Do not introduce undocumented fields or outputs.
+- Keep examples in sync with current commands and repository paths.
 
-## Code of Conduct
+## Adding Providers Or Gateways
 
-Please be respectful and constructive in all interactions.
+New providers or gateways must follow the existing schema contracts.
+
+- Add the collector or gateway under `packages/collectors/src/`.
+- Add the required secret names to `packages/collectors/src/core/gateway-secrets.ts`.
+- Add tests for the happy path and the failure path.
+- Update `docs/07_Developer_Access.md` and `docs/08_Gateway_Plugin_Security.md`
+  when the integration surface changes.
+
+## Code Of Conduct
+
+Be respectful, precise, and constructive.

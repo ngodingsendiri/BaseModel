@@ -1,11 +1,11 @@
-import { z } from 'zod';
+﻿import { z } from 'zod';
 
 /**
  * Canonical Zod schema for the Model entity.
  *
  * The Model is the central entity of BaseModel. It belongs to one Provider
  * and is related to Capabilities, Benchmarks, Pricing, APIs, and a License.
- * @see docs/05_Data_Model.md — Entity: Model
+ * @see docs/05_Data_Model.md - Entity: Model
  */
 export const ModelSchema = z.object({
   // --- Identifiers ---

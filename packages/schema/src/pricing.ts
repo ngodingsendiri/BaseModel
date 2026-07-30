@@ -1,11 +1,11 @@
-import { z } from 'zod';
+﻿import { z } from 'zod';
 
 /**
  * Canonical Zod schema for the Pricing entity.
  *
  * Represents how a model is priced. A model can have multiple pricing records
  * (e.g., one for input tokens, one for output tokens).
- * @see docs/05_Data_Model.md — Entity: Pricing
+ * @see docs/05_Data_Model.md - Entity: Pricing
  */
 export const PricingSchema = z.object({
   pricing_id: z.string().min(1),

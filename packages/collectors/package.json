@@ -1,8 +1,8 @@
-{
+﻿{
   "name": "@basemodel/collectors",
   "version": "0.1.0",
   "private": true,
-  "description": "Discovery layer — provider-specific data collectors for the AI ecosystem",
+  "description": "Discovery layer - provider-specific data collectors for the AI ecosystem",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -35,3 +35,4 @@
     "vitest": "^3.2.0"
   }
 }
+

@@ -39,9 +39,7 @@ export function findAlternatives(
     // Context window check (allow slight downgrades, e.g., 100k instead of 128k)
     const origCw = original.context_window || 0;
     const candCw = candidate.context_window || 0;
-    if (candCw > 0 && origCw > 0 && candCw < origCw * 0.5) {
-      continue;
-    }
+    if (origCw > 0 && (candCw === 0 || candCw < origCw * 0.5)) continue;
 
     // Must have function calling if original has it
     if (original.function_calling && !candidate.function_calling) continue;
@@ -66,7 +64,8 @@ export function findAlternatives(
 
   // Sort by context window descending as a basic ranking heuristic
   results.sort((a, b) => {
-    return (b.model.context_window || 0) - (a.model.context_window || 0);
+    const contextDifference = (b.model.context_window || 0) - (a.model.context_window || 0);
+    return contextDifference || a.model.model_id.localeCompare(b.model.model_id);
   });
 
   return results.slice(0, limit);

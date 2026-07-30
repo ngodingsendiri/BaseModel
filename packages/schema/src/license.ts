@@ -1,10 +1,11 @@
-import { z } from 'zod';
+﻿import { z } from 'zod';
+import { HttpUrlSchema } from './url.js';
 
 /**
  * Canonical Zod schema for the License entity.
  *
  * Represents the legal terms governing a model.
- * @see docs/05_Data_Model.md — Entity: License
+ * @see docs/05_Data_Model.md - Entity: License
  */
 export const LicenseSchema = z.object({
   license_id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9.]+)*$/, {
@@ -15,7 +16,7 @@ export const LicenseSchema = z.object({
   redistribution: z.boolean(),
   modification: z.boolean(),
   source_available: z.boolean(),
-  url: z.string().url().optional(),
+  url: HttpUrlSchema.optional(),
 });
 
 export type License = z.infer<typeof LicenseSchema>;

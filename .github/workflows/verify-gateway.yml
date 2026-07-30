@@ -1,13 +1,15 @@
 name: Verify New Gateway Plugin
 
-# Triggered automatically whenever a new or modified .ts file appears in gateways/
+# Triggered automatically whenever a gateway plugin changes.
 on:
   push:
     paths:
-      - 'packages/collectors/src/gateways/**.ts'
+      - 'packages/collectors/src/gateways/**/*.ts'
+      - 'packages/collectors/src/gateways/**/*.js'
   pull_request:
     paths:
-      - 'packages/collectors/src/gateways/**.ts'
+      - 'packages/collectors/src/gateways/**/*.ts'
+      - 'packages/collectors/src/gateways/**/*.js'
 
 permissions:
   contents: read
@@ -20,6 +22,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       - name: Install pnpm
         uses: pnpm/action-setup@v3
@@ -42,7 +46,7 @@ jobs:
         id: changed
         run: |
           # Get list of changed files in gateways/
-          CHANGED=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep 'packages/collectors/src/gateways/.*\.ts' || true)
+          CHANGED=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -E 'packages/collectors/src/gateways/.*\.(ts|js)$' || true)
           echo "files=$CHANGED" >> $GITHUB_OUTPUT
           echo "Changed gateways: $CHANGED"
 
@@ -51,7 +55,7 @@ jobs:
           FILES="${{ steps.changed.outputs.files }}"
           if [ -z "$FILES" ]; then
             echo "No changed gateway files detected. Running all gateways verification..."
-            for f in packages/collectors/src/gateways/*.ts; do
+            for f in packages/collectors/src/gateways/*.{ts,js}; do
               echo "--- Verifying: $f ---"
               pnpm --filter @basemodel/collectors run verify "$f" || true
             done

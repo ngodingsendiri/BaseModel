@@ -1,14 +1,12 @@
-import type { ZodError, ZodSchema } from 'zod';
+﻿import type { ZodError, ZodSchema } from 'zod';
 
 /**
- * The result of a validation attempt — a proper discriminated union
- * so TypeScript can narrow the type based on `success`.
+ * Validation result returned by the registry helpers.
  */
 export type ValidationResult<T> = { success: true; data: T } | { success: false; errors: string[] };
 
 /**
- * Validates a raw unknown value against a Zod schema.
- * Returns a typed ValidationResult — never throws.
+ * Validates a raw value against a Zod schema without throwing.
  */
 export function validate<T>(schema: ZodSchema<T>, raw: unknown): ValidationResult<T> {
   const result = schema.safeParse(raw);
@@ -22,8 +20,7 @@ export function validate<T>(schema: ZodSchema<T>, raw: unknown): ValidationResul
 }
 
 /**
- * Validates an array of records against a schema.
- * Returns both the valid records and a list of errors for failed ones.
+ * Validates a list of records against a schema and collects row-level errors.
  */
 export function validateMany<T>(
   schema: ZodSchema<T>,

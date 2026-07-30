@@ -1,17 +1,18 @@
-import { z } from 'zod';
+﻿import { z } from 'zod';
+import { HttpUrlSchema } from './url.js';
 
 /**
  * Canonical Zod schema for the API entity.
  *
  * Represents one method of accessing a model.
  * Describes HOW a model is consumed, not who owns it.
- * @see docs/05_Data_Model.md — Entity: API
+ * @see docs/05_Data_Model.md - Entity: API
  */
 export const ApiSchema = z.object({
   api_id: z.string().min(1),
   model_id: z.string().min(1),
   protocol: z.enum(['openai-compatible', 'native-rest', 'grpc', 'ollama', 'other']),
-  endpoint: z.string().url().optional(),
+  endpoint: HttpUrlSchema.optional(),
   compatibility: z.array(z.string()).optional(), // e.g. ["openai", "anthropic"]
   authentication: z.enum(['api-key', 'oauth2', 'none', 'other']),
   rate_limits: z

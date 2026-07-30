@@ -1,9 +1,8 @@
-/**
+﻿/**
  * @basemodel/schema
  *
- * Canonical Zod schemas and TypeScript types for all BaseModel entities.
- * This package is the single source of truth for data structures used across
- * the entire BaseModel platform.
+ * Canonical Zod schemas and TypeScript types for BaseModel entities.
+ * This package is the source of truth for shared data contracts.
  *
  * @see docs/05_Data_Model.md
  */

@@ -1,7 +1,7 @@
-{
+﻿{
   "name": "@basemodel/intelligence",
   "version": "0.1.0",
-  "description": "Intelligence layer — rankings, recommendations, and derived insights from AI model registry data",
+  "description": "Intelligence layer - rankings, recommendations, and derived insights from AI model registry data",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/basemodel/basemodel"
+    "url": "https://github.com/ngodingsendiri/BaseModel.git"
   },
   "license": "MIT",
   "keywords": [
@@ -46,3 +46,4 @@
     "rimraf": "^6.0.0"
   }
 }
+
