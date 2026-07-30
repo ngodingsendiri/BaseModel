@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "2b62e9c",
+  "source_revision": "6b538db",
   "count": 5,
   "providers": [
     {
@@ -11,6 +11,7 @@
       "documentation": "https://docs.anthropic.com",
       "country": "US",
       "description": "AI safety company and developer of the Claude model family.",
+      "provider_type": "first-party",
       "status": "active"
     },
     {
@@ -21,6 +22,7 @@
       "documentation": "https://ai.google.dev/docs",
       "country": "US",
       "description": "Technology company and developer of the Gemini model family and other AI research.",
+      "provider_type": "first-party",
       "status": "active"
     },
     {
@@ -31,6 +33,7 @@
       "documentation": "https://llama.meta.com",
       "country": "US",
       "description": "Technology company and developer of the Llama open-weight model family.",
+      "provider_type": "first-party",
       "status": "active"
     },
     {
@@ -41,6 +44,7 @@
       "documentation": "https://docs.mistral.ai",
       "country": "FR",
       "description": "French AI company known for open-weight and efficient language models.",
+      "provider_type": "first-party",
       "status": "active"
     },
     {
@@ -51,6 +55,7 @@
       "documentation": "https://platform.openai.com/docs",
       "country": "US",
       "description": "American AI research laboratory and developer of the GPT model family, DALL-E, and other AI systems.",
+      "provider_type": "first-party",
       "status": "active"
     }
   ]
