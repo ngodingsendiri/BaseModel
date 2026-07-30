@@ -6,5 +6,6 @@
   "documentation": "https://docs.anthropic.com",
   "country": "US",
   "description": "AI safety company and developer of the Claude model family.",
-  "status": "active"
+  "status": "active",
+  "provider_type": "first-party"
 }

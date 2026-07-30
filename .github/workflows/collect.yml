@@ -1,0 +1,69 @@
+name: Nightly Data Collection
+
+# Runs every night at 00:00 UTC (07:00 WIB)
+# Also can be triggered manually from GitHub Actions UI
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write  # Needed for auto-commit of dist/ and registry data
+
+jobs:
+  collect:
+    name: Collect & Publish Dataset
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 9
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build all packages
+        run: pnpm build
+
+      - name: Run Gateway Collectors (Universal Pipeline)
+        run: pnpm --filter @basemodel/collectors run collect
+        env:
+          # Gateway API Keys — add these as GitHub Secrets in repository settings
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_AI_API_KEY: ${{ secrets.GOOGLE_AI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
+          DEEPINFRA_API_KEY: ${{ secrets.DEEPINFRA_API_KEY }}
+          FIREWORKS_API_KEY: ${{ secrets.FIREWORKS_API_KEY }}
+          CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
+          HYPERBOLIC_API_KEY: ${{ secrets.HYPERBOLIC_API_KEY }}
+          REQUESTY_API_KEY: ${{ secrets.REQUESTY_API_KEY }}
+          PORTKEY_API_KEY: ${{ secrets.PORTKEY_API_KEY }}
+          LITELLM_BASE_URL: ${{ secrets.LITELLM_BASE_URL }}
+          LITELLM_API_KEY: ${{ secrets.LITELLM_API_KEY }}
+
+      - name: Generate Published Datasets (dist/)
+        run: pnpm --filter @basemodel/publisher run generate
+
+      - name: Commit collected data
+        run: |
+          git config user.name "BaseModel Bot"
+          git config user.email "bot@basemodel"
+          git add data/registry/ dist/
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "chore(data): nightly sync [skip ci]"
+          git push

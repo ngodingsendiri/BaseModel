@@ -30,6 +30,7 @@ describe('Provider seed data validation', () => {
       name: 'OpenAI',
       organization: 'OpenAI LP',
       website: 'https://openai.com',
+      provider_type: 'first-party',
       status: 'active',
     });
     expect(result.success).toBe(false);
@@ -41,6 +42,7 @@ describe('Provider seed data validation', () => {
       name: 'OpenAI',
       organization: 'OpenAI LP',
       website: 'not-a-url',
+      provider_type: 'first-party',
       status: 'active',
     });
     expect(result.success).toBe(false);
@@ -52,6 +54,7 @@ describe('Provider seed data validation', () => {
       name: 'OpenAI',
       organization: 'OpenAI LP',
       website: 'https://openai.com',
+      provider_type: 'first-party',
       status: 'unknown',
     });
     expect(result.success).toBe(false);

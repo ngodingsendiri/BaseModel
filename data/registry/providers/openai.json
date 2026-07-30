@@ -6,5 +6,6 @@
   "documentation": "https://platform.openai.com/docs",
   "country": "US",
   "description": "American AI research laboratory and developer of the GPT model family, DALL-E, and other AI systems.",
-  "status": "active"
+  "status": "active",
+  "provider_type": "first-party"
 }

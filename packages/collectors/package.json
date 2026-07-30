@@ -15,6 +15,7 @@
   "scripts": {
     "build": "tsup src/index.ts --format esm --dts --clean",
     "collect": "tsx src/run.ts",
+    "verify": "tsx src/core/verify.ts",
     "typecheck": "tsc --noEmit",
     "test": "vitest run --passWithNoTests",
     "test:watch": "vitest",
@@ -29,6 +30,7 @@
     "@types/node": "^26.1.2",
     "rimraf": "^6.0.0",
     "tsup": "^8.0.0",
+    "tsx": "^4.19.0",
     "typescript": "^5.8.0",
     "vitest": "^3.2.0"
   }

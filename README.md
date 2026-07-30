@@ -2,7 +2,9 @@
 
 BaseModel is an open-source **AI Model Intelligence Platform**. It continuously discovers, organizes, normalizes, evaluates, and publishes structured knowledge about AI models across the global AI ecosystem.
 
-BaseModel is **not** an AI provider, inference gateway, runtime, or coding assistant. It serves as the intelligence layer that enables developers, runtimes, AI agents, IDEs, research tools, and applications to make informed decisions when selecting and integrating AI models.
+BaseModel is **not** an AI provider, inference gateway, runtime, coding assistant, or user-facing application. 
+
+It is designed strictly as an **infrastructure layer** that produces normalized, high-quality intelligence. This allows developers, runtimes, autonomous AI agents, IDEs, and other applications to make informed, dynamic decisions when selecting and integrating AI models.
 
 ## Documentation
 

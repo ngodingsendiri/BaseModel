@@ -46,6 +46,7 @@ describe('ProviderSchema', () => {
       name: 'OpenAI',
       organization: 'OpenAI LP',
       website: 'https://openai.com',
+      provider_type: 'first-party',
       status: 'active',
     });
     expect(result.success).toBe(true);

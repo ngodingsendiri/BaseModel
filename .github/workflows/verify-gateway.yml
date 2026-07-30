@@ -1,0 +1,79 @@
+name: Verify New Gateway Plugin
+
+# Triggered automatically whenever a new or modified .ts file appears in gateways/
+on:
+  push:
+    paths:
+      - 'packages/collectors/src/gateways/**.ts'
+  pull_request:
+    paths:
+      - 'packages/collectors/src/gateways/**.ts'
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Verify Gateway Plugin(s)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 9
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build workspace packages (deps)
+        run: pnpm --filter @basemodel/schema --filter @basemodel/registry build
+
+      - name: Get changed gateway files
+        id: changed
+        run: |
+          # Get list of changed files in gateways/
+          CHANGED=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep 'packages/collectors/src/gateways/.*\.ts' || true)
+          echo "files=$CHANGED" >> $GITHUB_OUTPUT
+          echo "Changed gateways: $CHANGED"
+
+      - name: Verify changed gateway plugins
+        run: |
+          FILES="${{ steps.changed.outputs.files }}"
+          if [ -z "$FILES" ]; then
+            echo "No changed gateway files detected. Running all gateways verification..."
+            for f in packages/collectors/src/gateways/*.ts; do
+              echo "--- Verifying: $f ---"
+              pnpm --filter @basemodel/collectors run verify "$f" || true
+            done
+          else
+            for f in $FILES; do
+              echo "--- Verifying: $f ---"
+              pnpm --filter @basemodel/collectors run verify "$f"
+            done
+          fi
+        env:
+          # Add your gateway API keys as GitHub Secrets in repository settings
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_AI_API_KEY: ${{ secrets.GOOGLE_AI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
+          DEEPINFRA_API_KEY: ${{ secrets.DEEPINFRA_API_KEY }}
+          FIREWORKS_API_KEY: ${{ secrets.FIREWORKS_API_KEY }}
+          CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
+          HYPERBOLIC_API_KEY: ${{ secrets.HYPERBOLIC_API_KEY }}
+          REQUESTY_API_KEY: ${{ secrets.REQUESTY_API_KEY }}
+          PORTKEY_API_KEY: ${{ secrets.PORTKEY_API_KEY }}
+          LITELLM_BASE_URL: ${{ secrets.LITELLM_BASE_URL }}
+          LITELLM_API_KEY: ${{ secrets.LITELLM_API_KEY }}

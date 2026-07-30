@@ -130,8 +130,8 @@ async function generate(): Promise<void> {
   console.log(`✅ pricing.json — ${pricing.length} records`);
 
   console.log('🔍 Validating relations...');
-  const providerIds = new Set(providers.map(p => p.provider_id));
-  const capabilityIds = new Set(capabilities.map(c => c.capability_id));
+  const providerIds = new Set(providers.map((p) => p.provider_id));
+  const capabilityIds = new Set(capabilities.map((c) => c.capability_id));
   for (const model of models) {
     if (!providerIds.has(model.provider_id)) {
       throw new Error(`Model ${model.model_id} references unknown provider ${model.provider_id}`);

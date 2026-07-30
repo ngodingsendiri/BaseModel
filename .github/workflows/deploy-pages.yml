@@ -40,11 +40,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Build intelligence and schemas (deps)
-        run: pnpm --filter @basemodel/schema --filter @basemodel/registry --filter @basemodel/intelligence build
-
-      - name: Build Explorer App
-        run: pnpm --filter explorer run build
+      - name: Generate static APIs
+        run: pnpm --filter @basemodel/publisher run generate
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -52,7 +49,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './apps/explorer/dist'
+          path: './dist'
 
       - name: Deploy to GitHub Pages
         id: deployment

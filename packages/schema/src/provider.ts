@@ -16,6 +16,7 @@ export const ProviderSchema = z.object({
   documentation: z.string().url().optional(),
   country: z.string().min(2).optional(),
   description: z.string().optional(),
+  provider_type: z.enum(['first-party', 'gateway', 'router']),
   status: z.enum(['active', 'inactive', 'deprecated']),
 });
 
