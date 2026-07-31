@@ -1,4 +1,4 @@
-﻿import { z } from 'zod';
+import { z } from 'zod';
 import type { CollectionResult, CustomGateway } from '../core/collector';
 
 const Schema = z.object({
