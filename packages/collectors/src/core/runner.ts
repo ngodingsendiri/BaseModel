@@ -2,7 +2,16 @@ import { fork } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { getModel, mergeModelData, saveModel } from '@basemodel/registry';
+import {
+  getModel,
+  getProvider,
+  mergeModelData,
+  saveModel,
+  saveProvider,
+  validate,
+} from '@basemodel/registry';
+import type { Provider } from '@basemodel/schema';
+import { ProviderSchema } from '@basemodel/schema';
 import { z } from 'zod';
 import type { CollectionResult, GatewayDescriptor } from './collector.js';
 import { getGatewaySecretKeys } from './gateway-secrets.js';
@@ -16,6 +25,33 @@ const OpenAICompatibleResponseSchema = z.object({
     }),
   ),
 });
+
+/**
+ * Normalizes a raw API model id into a schema-valid model slug.
+ * OpenAI-compatible APIs may return ids that are prefixed with an organization
+ * (e.g. "sesame/csm-1b") or carry route suffixes (e.g. "gpt-4o:free"), none of
+ * which are valid in a `{provider}/{slug}` model_id. We take the last path
+ * segment and keep only the characters allowed by the ModelSchema slug regex.
+ */
+export function toModelSlug(apiId: string): string {
+  const lastSegment = (apiId.split('/').pop() ?? apiId).toLowerCase();
+  const slug = lastSegment
+    .replace(/[^a-z0-9.-]+/g, '-')
+    .replace(/-{2,}/g, '-')
+    .replace(/^[-.]+|[-.]+$/g, '');
+  return slug || 'model';
+}
+
+/**
+ * Guarantees every persisted model uses a schema-valid `{provider}/{slug}`
+ * model_id. Custom gateways may emit org-prefixed or routed ids (e.g.
+ * "vercel/openai/gpt-4o"), so we re-key the id against the provider that
+ * actually reported the model. Idempotent for already-valid ids.
+ */
+export function normalizeModelId(modelId: string, providerId: string): string {
+  const slug = toModelSlug(modelId.split('/').pop() ?? modelId);
+  return `${providerId}/${slug}`;
+}
 
 const PLUGIN_TIMEOUT_MS = 60_000;
 const RUNTIME_ENVIRONMENT_KEYS = [
@@ -136,8 +172,9 @@ async function runSimpleGateway(
       return result;
     }
     for (const apiModel of parsed.data.data) {
+      const slug = toModelSlug(apiModel.id);
       result.models.push({
-        model_id: `${plugin.id}/${apiModel.id}`,
+        model_id: `${plugin.id}/${slug}`,
         provider_id: plugin.id,
         name: apiModel.id,
         context_window: apiModel.context_length,
@@ -183,20 +220,131 @@ export async function executeGatewayPlugin(
   return response.result;
 }
 
+interface ProviderInfo {
+  name: string;
+  organization: string;
+  website: string;
+  provider_type: Provider['provider_type'];
+}
+
+/**
+ * Metadata used to auto-register a provider the first time a gateway collects
+ * models for it. Providers that already exist in data/registry/providers
+ * (openai, anthropic, google, meta, mistral-ai) are never overwritten.
+ */
+const PROVIDER_INFO: Record<string, ProviderInfo> = {
+  cerebras: {
+    name: 'Cerebras',
+    organization: 'Cerebras Systems',
+    website: 'https://www.cerebras.ai',
+    provider_type: 'first-party',
+  },
+  deepinfra: {
+    name: 'DeepInfra',
+    organization: 'DeepInfra',
+    website: 'https://deepinfra.com',
+    provider_type: 'first-party',
+  },
+  fireworks: {
+    name: 'Fireworks AI',
+    organization: 'Fireworks AI',
+    website: 'https://fireworks.ai',
+    provider_type: 'first-party',
+  },
+  groq: {
+    name: 'Groq',
+    organization: 'Groq, Inc.',
+    website: 'https://groq.com',
+    provider_type: 'first-party',
+  },
+  helicone: {
+    name: 'Helicone',
+    organization: 'Helicone',
+    website: 'https://www.helicone.ai',
+    provider_type: 'gateway',
+  },
+  hyperbolic: {
+    name: 'Hyperbolic',
+    organization: 'Hyperbolic Labs, Inc.',
+    website: 'https://hyperbolic.xyz',
+    provider_type: 'first-party',
+  },
+  openrouter: {
+    name: 'OpenRouter',
+    organization: 'OpenRouter',
+    website: 'https://openrouter.ai',
+    provider_type: 'router',
+  },
+  portkey: {
+    name: 'Portkey',
+    organization: 'Portkey AI',
+    website: 'https://portkey.ai',
+    provider_type: 'gateway',
+  },
+  requesty: {
+    name: 'Requesty',
+    organization: 'Requesty',
+    website: 'https://requesty.ai',
+    provider_type: 'gateway',
+  },
+  together: {
+    name: 'Together AI',
+    organization: 'Together AI',
+    website: 'https://www.together.ai',
+    provider_type: 'first-party',
+  },
+  vercel: {
+    name: 'Vercel',
+    organization: 'Vercel, Inc.',
+    website: 'https://vercel.com',
+    provider_type: 'gateway',
+  },
+};
+
+function toTitleCase(value: string): string {
+  return value.replace(/-/g, ' ').replace(/\b\w/g, (char) => char.toUpperCase());
+}
+
+/** Registers a minimal Provider record the first time models reference it. */
+async function ensureProviderRegistered(providerId: string): Promise<void> {
+  const existing = await getProvider(providerId);
+  if (existing) return;
+  const info = PROVIDER_INFO[providerId];
+  const provider: Provider = {
+    provider_id: providerId,
+    name: info?.name ?? toTitleCase(providerId),
+    organization: info?.organization ?? toTitleCase(providerId),
+    website: info?.website ?? `https://${providerId}.com`,
+    provider_type: info?.provider_type ?? 'gateway',
+    status: 'active',
+  };
+  const result = validate(ProviderSchema, provider);
+  if (result.success) {
+    await saveProvider(result.data);
+    console.log(`Registered provider ${providerId}`);
+  } else {
+    console.warn(`Could not register provider ${providerId}:`, result.errors);
+  }
+}
+
 async function persistResult(result: CollectionResult): Promise<void> {
+  if (result.models.length > 0) {
+    await ensureProviderRegistered(result.provider_id);
+  }
   let updatedCount = 0;
   let newCount = 0;
   let failedCount = 0;
   for (const partialModel of result.models) {
-    if (!partialModel.model_id) continue;
-    const existing = await getModel(partialModel.model_id);
-    const mergedResult = mergeModelData(existing, partialModel);
+    if (!partialModel.model_id || !partialModel.provider_id) continue;
+    const modelId = normalizeModelId(partialModel.model_id, partialModel.provider_id);
+    const existing = await getModel(modelId);
+    const mergedResult = mergeModelData(existing, { ...partialModel, model_id: modelId });
     if (mergedResult.success && mergedResult.data) {
       await saveModel(mergedResult.data);
       if (existing) updatedCount++;
       else newCount++;
     } else {
-      console.error(`Failed to merge or validate ${partialModel.model_id}:`, mergedResult.errors);
+      console.error(`Failed to merge or validate ${modelId}:`, mergedResult.errors);
       failedCount++;
     }
   }
