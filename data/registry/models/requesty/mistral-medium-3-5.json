@@ -2,6 +2,7 @@
   "model_id": "requesty/mistral-medium-3-5",
   "provider_id": "requesty",
   "name": "mistral/mistral-medium-3-5",
+  "context_window": 262144,
   "modality": [
     "text"
   ],
@@ -13,6 +14,11 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 262144
+  },
   "capability_ids": [],
   "status": "active"
 }

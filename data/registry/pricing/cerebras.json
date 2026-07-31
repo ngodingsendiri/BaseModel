@@ -1,0 +1,18 @@
+[
+  {
+    "pricing_id": "cerebras-gpt-oss-120b-input",
+    "model_id": "cerebras/gpt-oss-120b",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.037
+  },
+  {
+    "pricing_id": "cerebras-gpt-oss-120b-output",
+    "model_id": "cerebras/gpt-oss-120b",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.17
+  }
+]

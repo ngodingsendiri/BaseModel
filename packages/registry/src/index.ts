@@ -17,6 +17,7 @@ import {
   ProviderSchema,
 } from '@basemodel/schema';
 import {
+  clearRegistryDirectory,
   readAllArraysFromDirectory,
   readAllFromDirectory,
   readRegistryFile,
@@ -85,6 +86,21 @@ export async function getAllBenchmarks(): Promise<Benchmark[]> {
 export async function getAllPricing(): Promise<Pricing[]> {
   const raw = await readAllArraysFromDirectory('pricing');
   return raw.map((r) => PricingSchema.parse(r));
+}
+
+/**
+ * Persists all pricing records for a single provider as one array file.
+ * Overwrites any existing records for that provider.
+ */
+export async function savePricingRecords(providerId: string, records: Pricing[]): Promise<void> {
+  await writeRegistryFile(`pricing/${providerId}.json`, records);
+}
+
+/**
+ * Removes all pricing files so the registry can be rewritten atomically.
+ */
+export async function clearPricingRegistry(): Promise<void> {
+  await clearRegistryDirectory('pricing');
 }
 
 // --- API ---

@@ -2,6 +2,7 @@
   "model_id": "openai/gpt-5.6-luna",
   "provider_id": "openai",
   "name": "gpt-5.6-luna",
+  "context_window": 1050000,
   "modality": [
     "text"
   ],
@@ -13,6 +14,11 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
+  "is_free": false,
+  "tier": "budget",
+  "limits": {
+    "max_input_tokens": 1050000
+  },
   "capability_ids": [],
   "status": "active"
 }

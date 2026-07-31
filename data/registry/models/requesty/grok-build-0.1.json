@@ -2,6 +2,7 @@
   "model_id": "requesty/grok-build-0.1",
   "provider_id": "requesty",
   "name": "xai/grok-build-0.1",
+  "context_window": 256000,
   "modality": [
     "text"
   ],
@@ -13,6 +14,11 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 256000
+  },
   "capability_ids": [],
   "status": "active"
 }

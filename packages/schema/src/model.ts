@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { ModelLimitsSchema } from './limits.js';
 
 /**
  * Canonical Zod schema for the Model entity.
@@ -41,6 +42,11 @@ export const ModelSchema = z.object({
   audio_support: z.boolean(),
   image_generation: z.boolean(),
   embedding_support: z.boolean(),
+
+  // --- Economics & Limits (filled by the enrichment pipeline) ---
+  is_free: z.boolean().optional(),
+  tier: z.enum(['free', 'budget', 'balanced', 'premium']).optional(),
+  limits: ModelLimitsSchema.optional(),
 
   // --- Relationships (arrays of IDs, resolved separately) ---
   capability_ids: z.array(z.string()).default([]),

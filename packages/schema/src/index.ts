@@ -15,6 +15,8 @@ export type { Capability } from './capability.js';
 export { CapabilitySchema } from './capability.js';
 export type { License } from './license.js';
 export { LicenseSchema } from './license.js';
+export type { ModelLimits } from './limits.js';
+export { ModelLimitsSchema } from './limits.js';
 export type { Model } from './model.js';
 export { ModelSchema } from './model.js';
 export type { Pricing } from './pricing.js';

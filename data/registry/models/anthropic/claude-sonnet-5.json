@@ -3,6 +3,7 @@
   "provider_id": "anthropic",
   "name": "Claude Sonnet 5",
   "release_date": "2026-06-29",
+  "context_window": 1000000,
   "modality": [
     "text"
   ],
@@ -14,6 +15,11 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 1000000
+  },
   "capability_ids": [],
   "status": "active"
 }

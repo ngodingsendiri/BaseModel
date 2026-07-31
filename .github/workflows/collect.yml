@@ -61,6 +61,11 @@ jobs:
           LITELLM_BASE_URL: ${{ secrets.LITELLM_BASE_URL }}
           LITELLM_API_KEY: ${{ secrets.LITELLM_API_KEY }}
 
+      - name: Enrich registry with pricing, limits, and tiers
+        run: pnpm --filter @basemodel/collectors run enrich
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+
       - name: Generate Published Datasets (dist/)
         run: pnpm --filter @basemodel/publisher run generate
 

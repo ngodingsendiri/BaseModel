@@ -19,6 +19,11 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 128000
+  },
   "capability_ids": [
     "text-generation",
     "code-generation",

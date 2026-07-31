@@ -1,0 +1,66 @@
+[
+  {
+    "pricing_id": "groq-gpt-oss-120b-input",
+    "model_id": "groq/gpt-oss-120b",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.037
+  },
+  {
+    "pricing_id": "groq-gpt-oss-120b-output",
+    "model_id": "groq/gpt-oss-120b",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.17
+  },
+  {
+    "pricing_id": "groq-gpt-oss-20b-input",
+    "model_id": "groq/gpt-oss-20b",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.03
+  },
+  {
+    "pricing_id": "groq-gpt-oss-20b-output",
+    "model_id": "groq/gpt-oss-20b",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.14
+  },
+  {
+    "pricing_id": "groq-gpt-oss-safeguard-20b-input",
+    "model_id": "groq/gpt-oss-safeguard-20b",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.075
+  },
+  {
+    "pricing_id": "groq-gpt-oss-safeguard-20b-output",
+    "model_id": "groq/gpt-oss-safeguard-20b",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.3
+  },
+  {
+    "pricing_id": "groq-qwen3.6-27b-input",
+    "model_id": "groq/qwen3.6-27b",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.3
+  },
+  {
+    "pricing_id": "groq-qwen3.6-27b-output",
+    "model_id": "groq/qwen3.6-27b",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2
+  }
+]

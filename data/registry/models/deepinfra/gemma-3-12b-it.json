@@ -2,6 +2,7 @@
   "model_id": "deepinfra/gemma-3-12b-it",
   "provider_id": "deepinfra",
   "name": "google/gemma-3-12b-it",
+  "context_window": 131072,
   "modality": [
     "text"
   ],
@@ -13,6 +14,11 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
+  "is_free": false,
+  "tier": "budget",
+  "limits": {
+    "max_input_tokens": 131072
+  },
   "capability_ids": [],
   "status": "active"
 }

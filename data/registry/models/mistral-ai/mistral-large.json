@@ -8,7 +8,9 @@
   "description": "Mistral AI's top-tier frontier model for complex reasoning, multilingual tasks, and code generation.",
   "architecture": "transformer",
   "context_window": 128000,
-  "modality": ["text"],
+  "modality": [
+    "text"
+  ],
   "open_weight": false,
   "reasoning_support": false,
   "function_calling": true,
@@ -17,7 +19,16 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "capability_ids": ["text-generation", "code-generation", "tool-calling"],
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 128000
+  },
+  "capability_ids": [
+    "text-generation",
+    "code-generation",
+    "tool-calling"
+  ],
   "license_id": "proprietary",
   "status": "active"
 }

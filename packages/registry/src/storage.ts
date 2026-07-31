@@ -1,5 +1,5 @@
 import { existsSync } from 'node:fs';
-import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 
 /**
@@ -111,4 +111,14 @@ export async function readAllArraysFromDirectory<T>(subDir: string): Promise<T[]
     }
   }
   return results;
+}
+
+/**
+ * Deletes every JSON file inside a registry subdirectory.
+ * Used to remove stale files when a directory is rewritten from scratch.
+ */
+export async function clearRegistryDirectory(subDir: string): Promise<void> {
+  const fullPath = join(REGISTRY_ROOT, subDir);
+  if (!existsSync(fullPath)) return;
+  await rm(fullPath, { recursive: true, force: true });
 }

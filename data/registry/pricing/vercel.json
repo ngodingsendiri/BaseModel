@@ -1,0 +1,2226 @@
+[
+  {
+    "pricing_id": "vercel-claude-3-haiku-input",
+    "model_id": "vercel/claude-3-haiku",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.25
+  },
+  {
+    "pricing_id": "vercel-claude-3-haiku-output",
+    "model_id": "vercel/claude-3-haiku",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.25
+  },
+  {
+    "pricing_id": "vercel-claude-fable-5-input",
+    "model_id": "vercel/claude-fable-5",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 10
+  },
+  {
+    "pricing_id": "vercel-claude-fable-5-output",
+    "model_id": "vercel/claude-fable-5",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 50
+  },
+  {
+    "pricing_id": "vercel-claude-haiku-4.5-input",
+    "model_id": "vercel/claude-haiku-4.5",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1
+  },
+  {
+    "pricing_id": "vercel-claude-haiku-4.5-output",
+    "model_id": "vercel/claude-haiku-4.5",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 5
+  },
+  {
+    "pricing_id": "vercel-claude-opus-4.1-input",
+    "model_id": "vercel/claude-opus-4.1",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 15
+  },
+  {
+    "pricing_id": "vercel-claude-opus-4.1-output",
+    "model_id": "vercel/claude-opus-4.1",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 75
+  },
+  {
+    "pricing_id": "vercel-claude-opus-4.5-input",
+    "model_id": "vercel/claude-opus-4.5",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 5
+  },
+  {
+    "pricing_id": "vercel-claude-opus-4.5-output",
+    "model_id": "vercel/claude-opus-4.5",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 25
+  },
+  {
+    "pricing_id": "vercel-claude-opus-4.6-input",
+    "model_id": "vercel/claude-opus-4.6",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 5
+  },
+  {
+    "pricing_id": "vercel-claude-opus-4.6-output",
+    "model_id": "vercel/claude-opus-4.6",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 25
+  },
+  {
+    "pricing_id": "vercel-claude-opus-4.7-input",
+    "model_id": "vercel/claude-opus-4.7",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 5
+  },
+  {
+    "pricing_id": "vercel-claude-opus-4.7-output",
+    "model_id": "vercel/claude-opus-4.7",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 25
+  },
+  {
+    "pricing_id": "vercel-claude-opus-4.8-fast-input",
+    "model_id": "vercel/claude-opus-4.8-fast",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 10
+  },
+  {
+    "pricing_id": "vercel-claude-opus-4.8-fast-output",
+    "model_id": "vercel/claude-opus-4.8-fast",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 50
+  },
+  {
+    "pricing_id": "vercel-claude-opus-4.8-input",
+    "model_id": "vercel/claude-opus-4.8",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 5
+  },
+  {
+    "pricing_id": "vercel-claude-opus-4.8-output",
+    "model_id": "vercel/claude-opus-4.8",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 25
+  },
+  {
+    "pricing_id": "vercel-claude-opus-4-input",
+    "model_id": "vercel/claude-opus-4",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 15
+  },
+  {
+    "pricing_id": "vercel-claude-opus-4-output",
+    "model_id": "vercel/claude-opus-4",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 75
+  },
+  {
+    "pricing_id": "vercel-claude-opus-5-fast-input",
+    "model_id": "vercel/claude-opus-5-fast",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 10
+  },
+  {
+    "pricing_id": "vercel-claude-opus-5-fast-output",
+    "model_id": "vercel/claude-opus-5-fast",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 50
+  },
+  {
+    "pricing_id": "vercel-claude-opus-5-input",
+    "model_id": "vercel/claude-opus-5",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 5
+  },
+  {
+    "pricing_id": "vercel-claude-opus-5-output",
+    "model_id": "vercel/claude-opus-5",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 25
+  },
+  {
+    "pricing_id": "vercel-claude-sonnet-4.5-input",
+    "model_id": "vercel/claude-sonnet-4.5",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 3
+  },
+  {
+    "pricing_id": "vercel-claude-sonnet-4.5-output",
+    "model_id": "vercel/claude-sonnet-4.5",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 15
+  },
+  {
+    "pricing_id": "vercel-claude-sonnet-4.6-input",
+    "model_id": "vercel/claude-sonnet-4.6",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 3
+  },
+  {
+    "pricing_id": "vercel-claude-sonnet-4.6-output",
+    "model_id": "vercel/claude-sonnet-4.6",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 15
+  },
+  {
+    "pricing_id": "vercel-claude-sonnet-4-input",
+    "model_id": "vercel/claude-sonnet-4",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 3
+  },
+  {
+    "pricing_id": "vercel-claude-sonnet-4-output",
+    "model_id": "vercel/claude-sonnet-4",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 15
+  },
+  {
+    "pricing_id": "vercel-claude-sonnet-5-input",
+    "model_id": "vercel/claude-sonnet-5",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2
+  },
+  {
+    "pricing_id": "vercel-claude-sonnet-5-output",
+    "model_id": "vercel/claude-sonnet-5",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 10
+  },
+  {
+    "pricing_id": "vercel-command-a-input",
+    "model_id": "vercel/command-a",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2.5
+  },
+  {
+    "pricing_id": "vercel-command-a-output",
+    "model_id": "vercel/command-a",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 10
+  },
+  {
+    "pricing_id": "vercel-deepseek-r1-input",
+    "model_id": "vercel/deepseek-r1",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.7
+  },
+  {
+    "pricing_id": "vercel-deepseek-r1-output",
+    "model_id": "vercel/deepseek-r1",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2.5
+  },
+  {
+    "pricing_id": "vercel-deepseek-v3.1-terminus-input",
+    "model_id": "vercel/deepseek-v3.1-terminus",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.27
+  },
+  {
+    "pricing_id": "vercel-deepseek-v3.1-terminus-output",
+    "model_id": "vercel/deepseek-v3.1-terminus",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1
+  },
+  {
+    "pricing_id": "vercel-deepseek-v3.2-input",
+    "model_id": "vercel/deepseek-v3.2",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.269
+  },
+  {
+    "pricing_id": "vercel-deepseek-v3.2-output",
+    "model_id": "vercel/deepseek-v3.2",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.4
+  },
+  {
+    "pricing_id": "vercel-deepseek-v4-flash-input",
+    "model_id": "vercel/deepseek-v4-flash",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.14
+  },
+  {
+    "pricing_id": "vercel-deepseek-v4-flash-output",
+    "model_id": "vercel/deepseek-v4-flash",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.28
+  },
+  {
+    "pricing_id": "vercel-deepseek-v4-pro-input",
+    "model_id": "vercel/deepseek-v4-pro",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.435
+  },
+  {
+    "pricing_id": "vercel-deepseek-v4-pro-output",
+    "model_id": "vercel/deepseek-v4-pro",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.87
+  },
+  {
+    "pricing_id": "vercel-fugu-ultra-input",
+    "model_id": "vercel/fugu-ultra",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 5
+  },
+  {
+    "pricing_id": "vercel-fugu-ultra-output",
+    "model_id": "vercel/fugu-ultra",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 30
+  },
+  {
+    "pricing_id": "vercel-gemini-2.5-flash-image-input",
+    "model_id": "vercel/gemini-2.5-flash-image",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.3
+  },
+  {
+    "pricing_id": "vercel-gemini-2.5-flash-image-output",
+    "model_id": "vercel/gemini-2.5-flash-image",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2.5
+  },
+  {
+    "pricing_id": "vercel-gemini-2.5-flash-lite-input",
+    "model_id": "vercel/gemini-2.5-flash-lite",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.1
+  },
+  {
+    "pricing_id": "vercel-gemini-2.5-flash-lite-output",
+    "model_id": "vercel/gemini-2.5-flash-lite",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.4
+  },
+  {
+    "pricing_id": "vercel-gemini-2.5-flash-input",
+    "model_id": "vercel/gemini-2.5-flash",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.3
+  },
+  {
+    "pricing_id": "vercel-gemini-2.5-flash-output",
+    "model_id": "vercel/gemini-2.5-flash",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2.5
+  },
+  {
+    "pricing_id": "vercel-gemini-2.5-pro-input",
+    "model_id": "vercel/gemini-2.5-pro",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.25
+  },
+  {
+    "pricing_id": "vercel-gemini-2.5-pro-output",
+    "model_id": "vercel/gemini-2.5-pro",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 10
+  },
+  {
+    "pricing_id": "vercel-gemini-3-pro-image-input",
+    "model_id": "vercel/gemini-3-pro-image",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2
+  },
+  {
+    "pricing_id": "vercel-gemini-3-pro-image-output",
+    "model_id": "vercel/gemini-3-pro-image",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 12
+  },
+  {
+    "pricing_id": "vercel-gemini-3.1-flash-image-preview-input",
+    "model_id": "vercel/gemini-3.1-flash-image-preview",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.5
+  },
+  {
+    "pricing_id": "vercel-gemini-3.1-flash-image-preview-output",
+    "model_id": "vercel/gemini-3.1-flash-image-preview",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 3
+  },
+  {
+    "pricing_id": "vercel-gemini-3.1-flash-image-input",
+    "model_id": "vercel/gemini-3.1-flash-image",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.5
+  },
+  {
+    "pricing_id": "vercel-gemini-3.1-flash-image-output",
+    "model_id": "vercel/gemini-3.1-flash-image",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 3
+  },
+  {
+    "pricing_id": "vercel-gemini-3.1-flash-lite-image-input",
+    "model_id": "vercel/gemini-3.1-flash-lite-image",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.25
+  },
+  {
+    "pricing_id": "vercel-gemini-3.1-flash-lite-image-output",
+    "model_id": "vercel/gemini-3.1-flash-lite-image",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.5
+  },
+  {
+    "pricing_id": "vercel-gemini-3.1-flash-lite-input",
+    "model_id": "vercel/gemini-3.1-flash-lite",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.25
+  },
+  {
+    "pricing_id": "vercel-gemini-3.1-flash-lite-output",
+    "model_id": "vercel/gemini-3.1-flash-lite",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.5
+  },
+  {
+    "pricing_id": "vercel-gemini-3.1-pro-preview-input",
+    "model_id": "vercel/gemini-3.1-pro-preview",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2
+  },
+  {
+    "pricing_id": "vercel-gemini-3.1-pro-preview-output",
+    "model_id": "vercel/gemini-3.1-pro-preview",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 12
+  },
+  {
+    "pricing_id": "vercel-gemini-3.5-flash-lite-input",
+    "model_id": "vercel/gemini-3.5-flash-lite",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.3
+  },
+  {
+    "pricing_id": "vercel-gemini-3.5-flash-lite-output",
+    "model_id": "vercel/gemini-3.5-flash-lite",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2.5
+  },
+  {
+    "pricing_id": "vercel-gemini-3.5-flash-input",
+    "model_id": "vercel/gemini-3.5-flash",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.5
+  },
+  {
+    "pricing_id": "vercel-gemini-3.5-flash-output",
+    "model_id": "vercel/gemini-3.5-flash",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 9
+  },
+  {
+    "pricing_id": "vercel-gemini-3.6-flash-input",
+    "model_id": "vercel/gemini-3.6-flash",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.5
+  },
+  {
+    "pricing_id": "vercel-gemini-3.6-flash-output",
+    "model_id": "vercel/gemini-3.6-flash",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 7.5
+  },
+  {
+    "pricing_id": "vercel-gemma-4-26b-a4b-it-input",
+    "model_id": "vercel/gemma-4-26b-a4b-it",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.07
+  },
+  {
+    "pricing_id": "vercel-gemma-4-26b-a4b-it-output",
+    "model_id": "vercel/gemma-4-26b-a4b-it",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.34
+  },
+  {
+    "pricing_id": "vercel-gemma-4-31b-it-input",
+    "model_id": "vercel/gemma-4-31b-it",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.1
+  },
+  {
+    "pricing_id": "vercel-gemma-4-31b-it-output",
+    "model_id": "vercel/gemma-4-31b-it",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.34
+  },
+  {
+    "pricing_id": "vercel-glm-4.5-air-input",
+    "model_id": "vercel/glm-4.5-air",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.13
+  },
+  {
+    "pricing_id": "vercel-glm-4.5-air-output",
+    "model_id": "vercel/glm-4.5-air",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.85
+  },
+  {
+    "pricing_id": "vercel-glm-4.5-input",
+    "model_id": "vercel/glm-4.5",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.6
+  },
+  {
+    "pricing_id": "vercel-glm-4.5-output",
+    "model_id": "vercel/glm-4.5",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2.2
+  },
+  {
+    "pricing_id": "vercel-glm-4.5v-input",
+    "model_id": "vercel/glm-4.5v",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.6
+  },
+  {
+    "pricing_id": "vercel-glm-4.5v-output",
+    "model_id": "vercel/glm-4.5v",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.8
+  },
+  {
+    "pricing_id": "vercel-glm-4.6-input",
+    "model_id": "vercel/glm-4.6",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.5
+  },
+  {
+    "pricing_id": "vercel-glm-4.6-output",
+    "model_id": "vercel/glm-4.6",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2
+  },
+  {
+    "pricing_id": "vercel-glm-4.6v-input",
+    "model_id": "vercel/glm-4.6v",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.3
+  },
+  {
+    "pricing_id": "vercel-glm-4.6v-output",
+    "model_id": "vercel/glm-4.6v",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.9
+  },
+  {
+    "pricing_id": "vercel-glm-4.7-flash-input",
+    "model_id": "vercel/glm-4.7-flash",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.06
+  },
+  {
+    "pricing_id": "vercel-glm-4.7-flash-output",
+    "model_id": "vercel/glm-4.7-flash",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.4
+  },
+  {
+    "pricing_id": "vercel-glm-4.7-input",
+    "model_id": "vercel/glm-4.7",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.4
+  },
+  {
+    "pricing_id": "vercel-glm-4.7-output",
+    "model_id": "vercel/glm-4.7",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.75
+  },
+  {
+    "pricing_id": "vercel-glm-5-turbo-input",
+    "model_id": "vercel/glm-5-turbo",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.2
+  },
+  {
+    "pricing_id": "vercel-glm-5-turbo-output",
+    "model_id": "vercel/glm-5-turbo",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 4
+  },
+  {
+    "pricing_id": "vercel-glm-5.1-input",
+    "model_id": "vercel/glm-5.1",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.966
+  },
+  {
+    "pricing_id": "vercel-glm-5.1-output",
+    "model_id": "vercel/glm-5.1",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 3.036
+  },
+  {
+    "pricing_id": "vercel-glm-5.2-input",
+    "model_id": "vercel/glm-5.2",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.12
+  },
+  {
+    "pricing_id": "vercel-glm-5.2-output",
+    "model_id": "vercel/glm-5.2",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 3.52
+  },
+  {
+    "pricing_id": "vercel-glm-5-input",
+    "model_id": "vercel/glm-5",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.95
+  },
+  {
+    "pricing_id": "vercel-glm-5-output",
+    "model_id": "vercel/glm-5",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2.55
+  },
+  {
+    "pricing_id": "vercel-glm-5v-turbo-input",
+    "model_id": "vercel/glm-5v-turbo",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.2
+  },
+  {
+    "pricing_id": "vercel-glm-5v-turbo-output",
+    "model_id": "vercel/glm-5v-turbo",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 4
+  },
+  {
+    "pricing_id": "vercel-gpt-3.5-turbo-input",
+    "model_id": "vercel/gpt-3.5-turbo",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.5
+  },
+  {
+    "pricing_id": "vercel-gpt-3.5-turbo-output",
+    "model_id": "vercel/gpt-3.5-turbo",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.5
+  },
+  {
+    "pricing_id": "vercel-gpt-4-turbo-input",
+    "model_id": "vercel/gpt-4-turbo",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 10
+  },
+  {
+    "pricing_id": "vercel-gpt-4-turbo-output",
+    "model_id": "vercel/gpt-4-turbo",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 30
+  },
+  {
+    "pricing_id": "vercel-gpt-4.1-mini-input",
+    "model_id": "vercel/gpt-4.1-mini",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.4
+  },
+  {
+    "pricing_id": "vercel-gpt-4.1-mini-output",
+    "model_id": "vercel/gpt-4.1-mini",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.6
+  },
+  {
+    "pricing_id": "vercel-gpt-4.1-nano-input",
+    "model_id": "vercel/gpt-4.1-nano",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.1
+  },
+  {
+    "pricing_id": "vercel-gpt-4.1-nano-output",
+    "model_id": "vercel/gpt-4.1-nano",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.4
+  },
+  {
+    "pricing_id": "vercel-gpt-4.1-input",
+    "model_id": "vercel/gpt-4.1",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2
+  },
+  {
+    "pricing_id": "vercel-gpt-4.1-output",
+    "model_id": "vercel/gpt-4.1",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 8
+  },
+  {
+    "pricing_id": "vercel-gpt-4o-mini-input",
+    "model_id": "vercel/gpt-4o-mini",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.15
+  },
+  {
+    "pricing_id": "vercel-gpt-4o-mini-output",
+    "model_id": "vercel/gpt-4o-mini",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.6
+  },
+  {
+    "pricing_id": "vercel-gpt-4o-input",
+    "model_id": "vercel/gpt-4o",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2.5
+  },
+  {
+    "pricing_id": "vercel-gpt-4o-output",
+    "model_id": "vercel/gpt-4o",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 10
+  },
+  {
+    "pricing_id": "vercel-gpt-5-mini-input",
+    "model_id": "vercel/gpt-5-mini",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.25
+  },
+  {
+    "pricing_id": "vercel-gpt-5-mini-output",
+    "model_id": "vercel/gpt-5-mini",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2
+  },
+  {
+    "pricing_id": "vercel-gpt-5-nano-input",
+    "model_id": "vercel/gpt-5-nano",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.05
+  },
+  {
+    "pricing_id": "vercel-gpt-5-nano-output",
+    "model_id": "vercel/gpt-5-nano",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.4
+  },
+  {
+    "pricing_id": "vercel-gpt-5-pro-input",
+    "model_id": "vercel/gpt-5-pro",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 15
+  },
+  {
+    "pricing_id": "vercel-gpt-5-pro-output",
+    "model_id": "vercel/gpt-5-pro",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 120
+  },
+  {
+    "pricing_id": "vercel-gpt-5.1-codex-max-input",
+    "model_id": "vercel/gpt-5.1-codex-max",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.25
+  },
+  {
+    "pricing_id": "vercel-gpt-5.1-codex-max-output",
+    "model_id": "vercel/gpt-5.1-codex-max",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 10
+  },
+  {
+    "pricing_id": "vercel-gpt-5.1-codex-mini-input",
+    "model_id": "vercel/gpt-5.1-codex-mini",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.25
+  },
+  {
+    "pricing_id": "vercel-gpt-5.1-codex-mini-output",
+    "model_id": "vercel/gpt-5.1-codex-mini",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2
+  },
+  {
+    "pricing_id": "vercel-gpt-5.1-codex-input",
+    "model_id": "vercel/gpt-5.1-codex",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.25
+  },
+  {
+    "pricing_id": "vercel-gpt-5.1-codex-output",
+    "model_id": "vercel/gpt-5.1-codex",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 10
+  },
+  {
+    "pricing_id": "vercel-gpt-5.2-codex-input",
+    "model_id": "vercel/gpt-5.2-codex",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.75
+  },
+  {
+    "pricing_id": "vercel-gpt-5.2-codex-output",
+    "model_id": "vercel/gpt-5.2-codex",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 14
+  },
+  {
+    "pricing_id": "vercel-gpt-5.2-pro-input",
+    "model_id": "vercel/gpt-5.2-pro",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 21
+  },
+  {
+    "pricing_id": "vercel-gpt-5.2-pro-output",
+    "model_id": "vercel/gpt-5.2-pro",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 168
+  },
+  {
+    "pricing_id": "vercel-gpt-5.2-input",
+    "model_id": "vercel/gpt-5.2",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.75
+  },
+  {
+    "pricing_id": "vercel-gpt-5.2-output",
+    "model_id": "vercel/gpt-5.2",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 14
+  },
+  {
+    "pricing_id": "vercel-gpt-5.3-chat-input",
+    "model_id": "vercel/gpt-5.3-chat",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.75
+  },
+  {
+    "pricing_id": "vercel-gpt-5.3-chat-output",
+    "model_id": "vercel/gpt-5.3-chat",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 14
+  },
+  {
+    "pricing_id": "vercel-gpt-5.3-codex-input",
+    "model_id": "vercel/gpt-5.3-codex",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.75
+  },
+  {
+    "pricing_id": "vercel-gpt-5.3-codex-output",
+    "model_id": "vercel/gpt-5.3-codex",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 14
+  },
+  {
+    "pricing_id": "vercel-gpt-5.4-mini-input",
+    "model_id": "vercel/gpt-5.4-mini",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.75
+  },
+  {
+    "pricing_id": "vercel-gpt-5.4-mini-output",
+    "model_id": "vercel/gpt-5.4-mini",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 4.5
+  },
+  {
+    "pricing_id": "vercel-gpt-5.4-nano-input",
+    "model_id": "vercel/gpt-5.4-nano",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.2
+  },
+  {
+    "pricing_id": "vercel-gpt-5.4-nano-output",
+    "model_id": "vercel/gpt-5.4-nano",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.25
+  },
+  {
+    "pricing_id": "vercel-gpt-5.4-pro-input",
+    "model_id": "vercel/gpt-5.4-pro",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 30
+  },
+  {
+    "pricing_id": "vercel-gpt-5.4-pro-output",
+    "model_id": "vercel/gpt-5.4-pro",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 180
+  },
+  {
+    "pricing_id": "vercel-gpt-5.4-input",
+    "model_id": "vercel/gpt-5.4",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2.5
+  },
+  {
+    "pricing_id": "vercel-gpt-5.4-output",
+    "model_id": "vercel/gpt-5.4",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 15
+  },
+  {
+    "pricing_id": "vercel-gpt-5.5-pro-input",
+    "model_id": "vercel/gpt-5.5-pro",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 30
+  },
+  {
+    "pricing_id": "vercel-gpt-5.5-pro-output",
+    "model_id": "vercel/gpt-5.5-pro",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 180
+  },
+  {
+    "pricing_id": "vercel-gpt-5.5-input",
+    "model_id": "vercel/gpt-5.5",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 5
+  },
+  {
+    "pricing_id": "vercel-gpt-5.5-output",
+    "model_id": "vercel/gpt-5.5",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 30
+  },
+  {
+    "pricing_id": "vercel-gpt-5.6-luna-input",
+    "model_id": "vercel/gpt-5.6-luna",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.1
+  },
+  {
+    "pricing_id": "vercel-gpt-5.6-luna-output",
+    "model_id": "vercel/gpt-5.6-luna",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.6
+  },
+  {
+    "pricing_id": "vercel-gpt-5.6-sol-input",
+    "model_id": "vercel/gpt-5.6-sol",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 5
+  },
+  {
+    "pricing_id": "vercel-gpt-5.6-sol-output",
+    "model_id": "vercel/gpt-5.6-sol",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 30
+  },
+  {
+    "pricing_id": "vercel-gpt-5.6-terra-input",
+    "model_id": "vercel/gpt-5.6-terra",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1
+  },
+  {
+    "pricing_id": "vercel-gpt-5.6-terra-output",
+    "model_id": "vercel/gpt-5.6-terra",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 6
+  },
+  {
+    "pricing_id": "vercel-gpt-5-input",
+    "model_id": "vercel/gpt-5",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.25
+  },
+  {
+    "pricing_id": "vercel-gpt-5-output",
+    "model_id": "vercel/gpt-5",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 10
+  },
+  {
+    "pricing_id": "vercel-gpt-oss-120b-input",
+    "model_id": "vercel/gpt-oss-120b",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.037
+  },
+  {
+    "pricing_id": "vercel-gpt-oss-120b-output",
+    "model_id": "vercel/gpt-oss-120b",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.17
+  },
+  {
+    "pricing_id": "vercel-gpt-oss-20b-input",
+    "model_id": "vercel/gpt-oss-20b",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.03
+  },
+  {
+    "pricing_id": "vercel-gpt-oss-20b-output",
+    "model_id": "vercel/gpt-oss-20b",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.14
+  },
+  {
+    "pricing_id": "vercel-gpt-oss-safeguard-20b-input",
+    "model_id": "vercel/gpt-oss-safeguard-20b",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.075
+  },
+  {
+    "pricing_id": "vercel-gpt-oss-safeguard-20b-output",
+    "model_id": "vercel/gpt-oss-safeguard-20b",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.3
+  },
+  {
+    "pricing_id": "vercel-grok-4.20-multi-agent-input",
+    "model_id": "vercel/grok-4.20-multi-agent",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.25
+  },
+  {
+    "pricing_id": "vercel-grok-4.20-multi-agent-output",
+    "model_id": "vercel/grok-4.20-multi-agent",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2.5
+  },
+  {
+    "pricing_id": "vercel-grok-4.3-input",
+    "model_id": "vercel/grok-4.3",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.25
+  },
+  {
+    "pricing_id": "vercel-grok-4.3-output",
+    "model_id": "vercel/grok-4.3",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2.5
+  },
+  {
+    "pricing_id": "vercel-grok-4.5-input",
+    "model_id": "vercel/grok-4.5",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2
+  },
+  {
+    "pricing_id": "vercel-grok-4.5-output",
+    "model_id": "vercel/grok-4.5",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 6
+  },
+  {
+    "pricing_id": "vercel-grok-build-0.1-input",
+    "model_id": "vercel/grok-build-0.1",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1
+  },
+  {
+    "pricing_id": "vercel-grok-build-0.1-output",
+    "model_id": "vercel/grok-build-0.1",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2
+  },
+  {
+    "pricing_id": "vercel-hy3-input",
+    "model_id": "vercel/hy3",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.132
+  },
+  {
+    "pricing_id": "vercel-hy3-output",
+    "model_id": "vercel/hy3",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.528
+  },
+  {
+    "pricing_id": "vercel-inkling-input",
+    "model_id": "vercel/inkling",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1
+  },
+  {
+    "pricing_id": "vercel-inkling-output",
+    "model_id": "vercel/inkling",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 4.05
+  },
+  {
+    "pricing_id": "vercel-kat-coder-air-v2.5-input",
+    "model_id": "vercel/kat-coder-air-v2.5",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.15
+  },
+  {
+    "pricing_id": "vercel-kat-coder-air-v2.5-output",
+    "model_id": "vercel/kat-coder-air-v2.5",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.6
+  },
+  {
+    "pricing_id": "vercel-kat-coder-pro-v2.5-input",
+    "model_id": "vercel/kat-coder-pro-v2.5",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.74
+  },
+  {
+    "pricing_id": "vercel-kat-coder-pro-v2.5-output",
+    "model_id": "vercel/kat-coder-pro-v2.5",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2.96
+  },
+  {
+    "pricing_id": "vercel-kat-coder-pro-v2-input",
+    "model_id": "vercel/kat-coder-pro-v2",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.3
+  },
+  {
+    "pricing_id": "vercel-kat-coder-pro-v2-output",
+    "model_id": "vercel/kat-coder-pro-v2",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.2
+  },
+  {
+    "pricing_id": "vercel-kimi-k2-thinking-input",
+    "model_id": "vercel/kimi-k2-thinking",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.6
+  },
+  {
+    "pricing_id": "vercel-kimi-k2-thinking-output",
+    "model_id": "vercel/kimi-k2-thinking",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2.5
+  },
+  {
+    "pricing_id": "vercel-kimi-k2.5-input",
+    "model_id": "vercel/kimi-k2.5",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.57
+  },
+  {
+    "pricing_id": "vercel-kimi-k2.5-output",
+    "model_id": "vercel/kimi-k2.5",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2.85
+  },
+  {
+    "pricing_id": "vercel-kimi-k2.6-input",
+    "model_id": "vercel/kimi-k2.6",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.95
+  },
+  {
+    "pricing_id": "vercel-kimi-k2.6-output",
+    "model_id": "vercel/kimi-k2.6",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 4
+  },
+  {
+    "pricing_id": "vercel-kimi-k2.7-code-input",
+    "model_id": "vercel/kimi-k2.7-code",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.73
+  },
+  {
+    "pricing_id": "vercel-kimi-k2.7-code-output",
+    "model_id": "vercel/kimi-k2.7-code",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 3.5
+  },
+  {
+    "pricing_id": "vercel-kimi-k2-input",
+    "model_id": "vercel/kimi-k2",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.57
+  },
+  {
+    "pricing_id": "vercel-kimi-k2-output",
+    "model_id": "vercel/kimi-k2",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2.3
+  },
+  {
+    "pricing_id": "vercel-kimi-k3-input",
+    "model_id": "vercel/kimi-k3",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 3
+  },
+  {
+    "pricing_id": "vercel-kimi-k3-output",
+    "model_id": "vercel/kimi-k3",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 15
+  },
+  {
+    "pricing_id": "vercel-laguna-s-2.1-input",
+    "model_id": "vercel/laguna-s-2.1",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.09
+  },
+  {
+    "pricing_id": "vercel-laguna-s-2.1-output",
+    "model_id": "vercel/laguna-s-2.1",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.18
+  },
+  {
+    "pricing_id": "vercel-llama-4-maverick-input",
+    "model_id": "vercel/llama-4-maverick",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.2
+  },
+  {
+    "pricing_id": "vercel-llama-4-maverick-output",
+    "model_id": "vercel/llama-4-maverick",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.8
+  },
+  {
+    "pricing_id": "vercel-llama-4-scout-input",
+    "model_id": "vercel/llama-4-scout",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.1
+  },
+  {
+    "pricing_id": "vercel-llama-4-scout-output",
+    "model_id": "vercel/llama-4-scout",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.3
+  },
+  {
+    "pricing_id": "vercel-mercury-2-input",
+    "model_id": "vercel/mercury-2",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.25
+  },
+  {
+    "pricing_id": "vercel-mercury-2-output",
+    "model_id": "vercel/mercury-2",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.75
+  },
+  {
+    "pricing_id": "vercel-mimo-v2.5-pro-input",
+    "model_id": "vercel/mimo-v2.5-pro",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.435
+  },
+  {
+    "pricing_id": "vercel-mimo-v2.5-pro-output",
+    "model_id": "vercel/mimo-v2.5-pro",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.87
+  },
+  {
+    "pricing_id": "vercel-mimo-v2.5-input",
+    "model_id": "vercel/mimo-v2.5",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.14
+  },
+  {
+    "pricing_id": "vercel-mimo-v2.5-output",
+    "model_id": "vercel/mimo-v2.5",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.28
+  },
+  {
+    "pricing_id": "vercel-minimax-m2.1-input",
+    "model_id": "vercel/minimax-m2.1",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.3
+  },
+  {
+    "pricing_id": "vercel-minimax-m2.1-output",
+    "model_id": "vercel/minimax-m2.1",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.2
+  },
+  {
+    "pricing_id": "vercel-minimax-m2.5-input",
+    "model_id": "vercel/minimax-m2.5",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.15
+  },
+  {
+    "pricing_id": "vercel-minimax-m2.5-output",
+    "model_id": "vercel/minimax-m2.5",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.9
+  },
+  {
+    "pricing_id": "vercel-minimax-m2.7-input",
+    "model_id": "vercel/minimax-m2.7",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.25
+  },
+  {
+    "pricing_id": "vercel-minimax-m2.7-output",
+    "model_id": "vercel/minimax-m2.7",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1
+  },
+  {
+    "pricing_id": "vercel-minimax-m2-input",
+    "model_id": "vercel/minimax-m2",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.255
+  },
+  {
+    "pricing_id": "vercel-minimax-m2-output",
+    "model_id": "vercel/minimax-m2",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.02
+  },
+  {
+    "pricing_id": "vercel-minimax-m3-input",
+    "model_id": "vercel/minimax-m3",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.3
+  },
+  {
+    "pricing_id": "vercel-minimax-m3-output",
+    "model_id": "vercel/minimax-m3",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.2
+  },
+  {
+    "pricing_id": "vercel-mistral-nemo-input",
+    "model_id": "vercel/mistral-nemo",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.019
+  },
+  {
+    "pricing_id": "vercel-mistral-nemo-output",
+    "model_id": "vercel/mistral-nemo",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.03
+  },
+  {
+    "pricing_id": "vercel-morph-v3-fast-input",
+    "model_id": "vercel/morph-v3-fast",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.8
+  },
+  {
+    "pricing_id": "vercel-morph-v3-fast-output",
+    "model_id": "vercel/morph-v3-fast",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.2
+  },
+  {
+    "pricing_id": "vercel-morph-v3-large-input",
+    "model_id": "vercel/morph-v3-large",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.9
+  },
+  {
+    "pricing_id": "vercel-morph-v3-large-output",
+    "model_id": "vercel/morph-v3-large",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.9
+  },
+  {
+    "pricing_id": "vercel-muse-spark-1.1-input",
+    "model_id": "vercel/muse-spark-1.1",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.25
+  },
+  {
+    "pricing_id": "vercel-muse-spark-1.1-output",
+    "model_id": "vercel/muse-spark-1.1",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 4.25
+  },
+  {
+    "pricing_id": "vercel-nemotron-3-nano-30b-a3b-input",
+    "model_id": "vercel/nemotron-3-nano-30b-a3b",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.05
+  },
+  {
+    "pricing_id": "vercel-nemotron-3-nano-30b-a3b-output",
+    "model_id": "vercel/nemotron-3-nano-30b-a3b",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.2
+  },
+  {
+    "pricing_id": "vercel-nemotron-3-super-120b-a12b-input",
+    "model_id": "vercel/nemotron-3-super-120b-a12b",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.085
+  },
+  {
+    "pricing_id": "vercel-nemotron-3-super-120b-a12b-output",
+    "model_id": "vercel/nemotron-3-super-120b-a12b",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.4
+  },
+  {
+    "pricing_id": "vercel-nemotron-3-ultra-550b-a55b-input",
+    "model_id": "vercel/nemotron-3-ultra-550b-a55b",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.6
+  },
+  {
+    "pricing_id": "vercel-nemotron-3-ultra-550b-a55b-output",
+    "model_id": "vercel/nemotron-3-ultra-550b-a55b",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 3.6
+  },
+  {
+    "pricing_id": "vercel-o1-input",
+    "model_id": "vercel/o1",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 15
+  },
+  {
+    "pricing_id": "vercel-o1-output",
+    "model_id": "vercel/o1",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 60
+  },
+  {
+    "pricing_id": "vercel-o3-mini-input",
+    "model_id": "vercel/o3-mini",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.1
+  },
+  {
+    "pricing_id": "vercel-o3-mini-output",
+    "model_id": "vercel/o3-mini",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 4.4
+  },
+  {
+    "pricing_id": "vercel-o3-pro-input",
+    "model_id": "vercel/o3-pro",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 20
+  },
+  {
+    "pricing_id": "vercel-o3-pro-output",
+    "model_id": "vercel/o3-pro",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 80
+  },
+  {
+    "pricing_id": "vercel-o3-input",
+    "model_id": "vercel/o3",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2
+  },
+  {
+    "pricing_id": "vercel-o3-output",
+    "model_id": "vercel/o3",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 8
+  },
+  {
+    "pricing_id": "vercel-o4-mini-input",
+    "model_id": "vercel/o4-mini",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.1
+  },
+  {
+    "pricing_id": "vercel-o4-mini-output",
+    "model_id": "vercel/o4-mini",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 4.4
+  },
+  {
+    "pricing_id": "vercel-qwen3-coder-next-input",
+    "model_id": "vercel/qwen3-coder-next",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.12
+  },
+  {
+    "pricing_id": "vercel-qwen3-coder-next-output",
+    "model_id": "vercel/qwen3-coder-next",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.8
+  },
+  {
+    "pricing_id": "vercel-qwen3-coder-plus-input",
+    "model_id": "vercel/qwen3-coder-plus",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.65
+  },
+  {
+    "pricing_id": "vercel-qwen3-coder-plus-output",
+    "model_id": "vercel/qwen3-coder-plus",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 3.25
+  },
+  {
+    "pricing_id": "vercel-qwen3-coder-input",
+    "model_id": "vercel/qwen3-coder",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.3
+  },
+  {
+    "pricing_id": "vercel-qwen3-coder-output",
+    "model_id": "vercel/qwen3-coder",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1
+  },
+  {
+    "pricing_id": "vercel-qwen3-max-thinking-input",
+    "model_id": "vercel/qwen3-max-thinking",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.78
+  },
+  {
+    "pricing_id": "vercel-qwen3-max-thinking-output",
+    "model_id": "vercel/qwen3-max-thinking",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 3.9
+  },
+  {
+    "pricing_id": "vercel-qwen3-max-input",
+    "model_id": "vercel/qwen3-max",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.78
+  },
+  {
+    "pricing_id": "vercel-qwen3-max-output",
+    "model_id": "vercel/qwen3-max",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 3.9
+  },
+  {
+    "pricing_id": "vercel-qwen3-next-80b-a3b-instruct-input",
+    "model_id": "vercel/qwen3-next-80b-a3b-instruct",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.1
+  },
+  {
+    "pricing_id": "vercel-qwen3-next-80b-a3b-instruct-output",
+    "model_id": "vercel/qwen3-next-80b-a3b-instruct",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.1
+  },
+  {
+    "pricing_id": "vercel-qwen3-next-80b-a3b-thinking-input",
+    "model_id": "vercel/qwen3-next-80b-a3b-thinking",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.15
+  },
+  {
+    "pricing_id": "vercel-qwen3-next-80b-a3b-thinking-output",
+    "model_id": "vercel/qwen3-next-80b-a3b-thinking",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.2
+  },
+  {
+    "pricing_id": "vercel-qwen3-vl-235b-a22b-instruct-input",
+    "model_id": "vercel/qwen3-vl-235b-a22b-instruct",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.21
+  },
+  {
+    "pricing_id": "vercel-qwen3-vl-235b-a22b-instruct-output",
+    "model_id": "vercel/qwen3-vl-235b-a22b-instruct",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.9
+  },
+  {
+    "pricing_id": "vercel-qwen3.6-27b-input",
+    "model_id": "vercel/qwen3.6-27b",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.3
+  },
+  {
+    "pricing_id": "vercel-qwen3.6-27b-output",
+    "model_id": "vercel/qwen3.6-27b",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2
+  },
+  {
+    "pricing_id": "vercel-qwen3.6-plus-input",
+    "model_id": "vercel/qwen3.6-plus",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.325
+  },
+  {
+    "pricing_id": "vercel-qwen3.6-plus-output",
+    "model_id": "vercel/qwen3.6-plus",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.95
+  },
+  {
+    "pricing_id": "vercel-qwen3.7-flash-input",
+    "model_id": "vercel/qwen3.7-flash",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.03
+  },
+  {
+    "pricing_id": "vercel-qwen3.7-flash-output",
+    "model_id": "vercel/qwen3.7-flash",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.13
+  },
+  {
+    "pricing_id": "vercel-qwen3.7-max-input",
+    "model_id": "vercel/qwen3.7-max",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.475
+  },
+  {
+    "pricing_id": "vercel-qwen3.7-max-output",
+    "model_id": "vercel/qwen3.7-max",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 4.425
+  },
+  {
+    "pricing_id": "vercel-qwen3.7-plus-input",
+    "model_id": "vercel/qwen3.7-plus",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.32
+  },
+  {
+    "pricing_id": "vercel-qwen3.7-plus-output",
+    "model_id": "vercel/qwen3.7-plus",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.28
+  },
+  {
+    "pricing_id": "vercel-seed-1.6-input",
+    "model_id": "vercel/seed-1.6",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.25
+  },
+  {
+    "pricing_id": "vercel-seed-1.6-output",
+    "model_id": "vercel/seed-1.6",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2
+  },
+  {
+    "pricing_id": "vercel-sonar-pro-input",
+    "model_id": "vercel/sonar-pro",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 3
+  },
+  {
+    "pricing_id": "vercel-sonar-pro-output",
+    "model_id": "vercel/sonar-pro",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 15
+  },
+  {
+    "pricing_id": "vercel-sonar-reasoning-pro-input",
+    "model_id": "vercel/sonar-reasoning-pro",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2
+  },
+  {
+    "pricing_id": "vercel-sonar-reasoning-pro-output",
+    "model_id": "vercel/sonar-reasoning-pro",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 8
+  },
+  {
+    "pricing_id": "vercel-sonar-input",
+    "model_id": "vercel/sonar",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1
+  },
+  {
+    "pricing_id": "vercel-sonar-output",
+    "model_id": "vercel/sonar",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1
+  },
+  {
+    "pricing_id": "vercel-step-3.5-flash-input",
+    "model_id": "vercel/step-3.5-flash",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.1
+  },
+  {
+    "pricing_id": "vercel-step-3.5-flash-output",
+    "model_id": "vercel/step-3.5-flash",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.3
+  },
+  {
+    "pricing_id": "vercel-step-3.7-flash-input",
+    "model_id": "vercel/step-3.7-flash",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.2
+  },
+  {
+    "pricing_id": "vercel-step-3.7-flash-output",
+    "model_id": "vercel/step-3.7-flash",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.15
+  },
+  {
+    "pricing_id": "vercel-trinity-large-thinking-input",
+    "model_id": "vercel/trinity-large-thinking",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.22
+  },
+  {
+    "pricing_id": "vercel-trinity-large-thinking-output",
+    "model_id": "vercel/trinity-large-thinking",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.85
+  }
+]

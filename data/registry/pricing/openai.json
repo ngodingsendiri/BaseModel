@@ -1,5 +1,181 @@
 [
   {
+    "pricing_id": "openai-gpt-3.5-turbo-16k-input",
+    "model_id": "openai/gpt-3.5-turbo-16k",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 3
+  },
+  {
+    "pricing_id": "openai-gpt-3.5-turbo-16k-output",
+    "model_id": "openai/gpt-3.5-turbo-16k",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 4
+  },
+  {
+    "pricing_id": "openai-gpt-3.5-turbo-instruct-input",
+    "model_id": "openai/gpt-3.5-turbo-instruct",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.5
+  },
+  {
+    "pricing_id": "openai-gpt-3.5-turbo-instruct-output",
+    "model_id": "openai/gpt-3.5-turbo-instruct",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2
+  },
+  {
+    "pricing_id": "openai-gpt-3.5-turbo-input",
+    "model_id": "openai/gpt-3.5-turbo",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.5
+  },
+  {
+    "pricing_id": "openai-gpt-3.5-turbo-output",
+    "model_id": "openai/gpt-3.5-turbo",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.5
+  },
+  {
+    "pricing_id": "openai-gpt-4.1-mini-input",
+    "model_id": "openai/gpt-4.1-mini",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.4
+  },
+  {
+    "pricing_id": "openai-gpt-4.1-mini-output",
+    "model_id": "openai/gpt-4.1-mini",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.6
+  },
+  {
+    "pricing_id": "openai-gpt-4.1-nano-input",
+    "model_id": "openai/gpt-4.1-nano",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.1
+  },
+  {
+    "pricing_id": "openai-gpt-4.1-nano-output",
+    "model_id": "openai/gpt-4.1-nano",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.4
+  },
+  {
+    "pricing_id": "openai-gpt-4.1-input",
+    "model_id": "openai/gpt-4.1",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2
+  },
+  {
+    "pricing_id": "openai-gpt-4.1-output",
+    "model_id": "openai/gpt-4.1",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 8
+  },
+  {
+    "pricing_id": "openai-gpt-4o-2024-05-13-input",
+    "model_id": "openai/gpt-4o-2024-05-13",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 5
+  },
+  {
+    "pricing_id": "openai-gpt-4o-2024-05-13-output",
+    "model_id": "openai/gpt-4o-2024-05-13",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 15
+  },
+  {
+    "pricing_id": "openai-gpt-4o-2024-08-06-input",
+    "model_id": "openai/gpt-4o-2024-08-06",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2.5
+  },
+  {
+    "pricing_id": "openai-gpt-4o-2024-08-06-output",
+    "model_id": "openai/gpt-4o-2024-08-06",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 10
+  },
+  {
+    "pricing_id": "openai-gpt-4o-2024-11-20-input",
+    "model_id": "openai/gpt-4o-2024-11-20",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2.5
+  },
+  {
+    "pricing_id": "openai-gpt-4o-2024-11-20-output",
+    "model_id": "openai/gpt-4o-2024-11-20",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 10
+  },
+  {
+    "pricing_id": "openai-gpt-4o-mini-2024-07-18-input",
+    "model_id": "openai/gpt-4o-mini-2024-07-18",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.15
+  },
+  {
+    "pricing_id": "openai-gpt-4o-mini-2024-07-18-output",
+    "model_id": "openai/gpt-4o-mini-2024-07-18",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.6
+  },
+  {
+    "pricing_id": "openai-gpt-4o-mini-input",
+    "model_id": "openai/gpt-4o-mini",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.15
+  },
+  {
+    "pricing_id": "openai-gpt-4o-mini-output",
+    "model_id": "openai/gpt-4o-mini",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.6
+  },
+  {
     "pricing_id": "openai-gpt-4o-input",
     "model_id": "openai/gpt-4o",
     "pricing_type": "input-token",
@@ -13,6 +189,438 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10.0
+    "value": 10
+  },
+  {
+    "pricing_id": "openai-gpt-5-mini-input",
+    "model_id": "openai/gpt-5-mini",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.25
+  },
+  {
+    "pricing_id": "openai-gpt-5-mini-output",
+    "model_id": "openai/gpt-5-mini",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2
+  },
+  {
+    "pricing_id": "openai-gpt-5-nano-input",
+    "model_id": "openai/gpt-5-nano",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.05
+  },
+  {
+    "pricing_id": "openai-gpt-5-nano-output",
+    "model_id": "openai/gpt-5-nano",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.4
+  },
+  {
+    "pricing_id": "openai-gpt-5-pro-input",
+    "model_id": "openai/gpt-5-pro",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 15
+  },
+  {
+    "pricing_id": "openai-gpt-5-pro-output",
+    "model_id": "openai/gpt-5-pro",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 120
+  },
+  {
+    "pricing_id": "openai-gpt-5.1-codex-max-input",
+    "model_id": "openai/gpt-5.1-codex-max",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.25
+  },
+  {
+    "pricing_id": "openai-gpt-5.1-codex-max-output",
+    "model_id": "openai/gpt-5.1-codex-max",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 10
+  },
+  {
+    "pricing_id": "openai-gpt-5.1-codex-mini-input",
+    "model_id": "openai/gpt-5.1-codex-mini",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.25
+  },
+  {
+    "pricing_id": "openai-gpt-5.1-codex-mini-output",
+    "model_id": "openai/gpt-5.1-codex-mini",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2
+  },
+  {
+    "pricing_id": "openai-gpt-5.1-codex-input",
+    "model_id": "openai/gpt-5.1-codex",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.25
+  },
+  {
+    "pricing_id": "openai-gpt-5.1-codex-output",
+    "model_id": "openai/gpt-5.1-codex",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 10
+  },
+  {
+    "pricing_id": "openai-gpt-5.1-input",
+    "model_id": "openai/gpt-5.1",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.25
+  },
+  {
+    "pricing_id": "openai-gpt-5.1-output",
+    "model_id": "openai/gpt-5.1",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 10
+  },
+  {
+    "pricing_id": "openai-gpt-5.2-codex-input",
+    "model_id": "openai/gpt-5.2-codex",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.75
+  },
+  {
+    "pricing_id": "openai-gpt-5.2-codex-output",
+    "model_id": "openai/gpt-5.2-codex",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 14
+  },
+  {
+    "pricing_id": "openai-gpt-5.2-pro-input",
+    "model_id": "openai/gpt-5.2-pro",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 21
+  },
+  {
+    "pricing_id": "openai-gpt-5.2-pro-output",
+    "model_id": "openai/gpt-5.2-pro",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 168
+  },
+  {
+    "pricing_id": "openai-gpt-5.2-input",
+    "model_id": "openai/gpt-5.2",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.75
+  },
+  {
+    "pricing_id": "openai-gpt-5.2-output",
+    "model_id": "openai/gpt-5.2",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 14
+  },
+  {
+    "pricing_id": "openai-gpt-5.3-codex-input",
+    "model_id": "openai/gpt-5.3-codex",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.75
+  },
+  {
+    "pricing_id": "openai-gpt-5.3-codex-output",
+    "model_id": "openai/gpt-5.3-codex",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 14
+  },
+  {
+    "pricing_id": "openai-gpt-5.4-mini-input",
+    "model_id": "openai/gpt-5.4-mini",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.75
+  },
+  {
+    "pricing_id": "openai-gpt-5.4-mini-output",
+    "model_id": "openai/gpt-5.4-mini",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 4.5
+  },
+  {
+    "pricing_id": "openai-gpt-5.4-nano-input",
+    "model_id": "openai/gpt-5.4-nano",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.2
+  },
+  {
+    "pricing_id": "openai-gpt-5.4-nano-output",
+    "model_id": "openai/gpt-5.4-nano",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.25
+  },
+  {
+    "pricing_id": "openai-gpt-5.4-pro-input",
+    "model_id": "openai/gpt-5.4-pro",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 30
+  },
+  {
+    "pricing_id": "openai-gpt-5.4-pro-output",
+    "model_id": "openai/gpt-5.4-pro",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 180
+  },
+  {
+    "pricing_id": "openai-gpt-5.4-input",
+    "model_id": "openai/gpt-5.4",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2.5
+  },
+  {
+    "pricing_id": "openai-gpt-5.4-output",
+    "model_id": "openai/gpt-5.4",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 15
+  },
+  {
+    "pricing_id": "openai-gpt-5.5-pro-input",
+    "model_id": "openai/gpt-5.5-pro",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 30
+  },
+  {
+    "pricing_id": "openai-gpt-5.5-pro-output",
+    "model_id": "openai/gpt-5.5-pro",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 180
+  },
+  {
+    "pricing_id": "openai-gpt-5.5-input",
+    "model_id": "openai/gpt-5.5",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 5
+  },
+  {
+    "pricing_id": "openai-gpt-5.5-output",
+    "model_id": "openai/gpt-5.5",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 30
+  },
+  {
+    "pricing_id": "openai-gpt-5.6-luna-input",
+    "model_id": "openai/gpt-5.6-luna",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.1
+  },
+  {
+    "pricing_id": "openai-gpt-5.6-luna-output",
+    "model_id": "openai/gpt-5.6-luna",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.6
+  },
+  {
+    "pricing_id": "openai-gpt-5.6-sol-input",
+    "model_id": "openai/gpt-5.6-sol",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 5
+  },
+  {
+    "pricing_id": "openai-gpt-5.6-sol-output",
+    "model_id": "openai/gpt-5.6-sol",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 30
+  },
+  {
+    "pricing_id": "openai-gpt-5.6-terra-input",
+    "model_id": "openai/gpt-5.6-terra",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1
+  },
+  {
+    "pricing_id": "openai-gpt-5.6-terra-output",
+    "model_id": "openai/gpt-5.6-terra",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 6
+  },
+  {
+    "pricing_id": "openai-gpt-5-input",
+    "model_id": "openai/gpt-5",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.25
+  },
+  {
+    "pricing_id": "openai-gpt-5-output",
+    "model_id": "openai/gpt-5",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 10
+  },
+  {
+    "pricing_id": "openai-gpt-audio-mini-input",
+    "model_id": "openai/gpt-audio-mini",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.6
+  },
+  {
+    "pricing_id": "openai-gpt-audio-mini-output",
+    "model_id": "openai/gpt-audio-mini",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2.4
+  },
+  {
+    "pricing_id": "openai-gpt-audio-input",
+    "model_id": "openai/gpt-audio",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2.5
+  },
+  {
+    "pricing_id": "openai-gpt-audio-output",
+    "model_id": "openai/gpt-audio",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 10
+  },
+  {
+    "pricing_id": "openai-o1-input",
+    "model_id": "openai/o1",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 15
+  },
+  {
+    "pricing_id": "openai-o1-output",
+    "model_id": "openai/o1",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 60
+  },
+  {
+    "pricing_id": "openai-o3-mini-input",
+    "model_id": "openai/o3-mini",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.1
+  },
+  {
+    "pricing_id": "openai-o3-mini-output",
+    "model_id": "openai/o3-mini",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 4.4
+  },
+  {
+    "pricing_id": "openai-o3-input",
+    "model_id": "openai/o3",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2
+  },
+  {
+    "pricing_id": "openai-o3-output",
+    "model_id": "openai/o3",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 8
+  },
+  {
+    "pricing_id": "openai-o4-mini-input",
+    "model_id": "openai/o4-mini",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.1
+  },
+  {
+    "pricing_id": "openai-o4-mini-output",
+    "model_id": "openai/o4-mini",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 4.4
   }
 ]

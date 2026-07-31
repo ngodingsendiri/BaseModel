@@ -2,6 +2,7 @@
   "model_id": "deepinfra/gemini-2.5-pro",
   "provider_id": "deepinfra",
   "name": "google/gemini-2.5-pro",
+  "context_window": 1048576,
   "modality": [
     "text"
   ],
@@ -13,6 +14,11 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 1048576
+  },
   "capability_ids": [],
   "status": "active"
 }

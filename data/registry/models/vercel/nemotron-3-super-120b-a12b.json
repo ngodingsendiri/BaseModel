@@ -2,6 +2,7 @@
   "model_id": "vercel/nemotron-3-super-120b-a12b",
   "provider_id": "vercel",
   "name": "nvidia/nemotron-3-super-120b-a12b",
+  "context_window": 1000000,
   "modality": [
     "text"
   ],
@@ -13,6 +14,11 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
+  "is_free": false,
+  "tier": "budget",
+  "limits": {
+    "max_input_tokens": 1000000
+  },
   "capability_ids": [],
   "status": "active"
 }
