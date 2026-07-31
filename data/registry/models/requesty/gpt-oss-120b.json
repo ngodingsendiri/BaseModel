@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gpt-oss-120b",
   "provider_id": "requesty",
-  "name": "fireworks/gpt-oss-120b",
+  "name": "groq/openai/gpt-oss-120b",
   "modality": [
     "text"
   ],

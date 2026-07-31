@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "117e179",
-  "count": 1481,
+  "source_revision": "71822a6",
+  "count": 1533,
   "models": [
     {
       "model_id": "anthropic/claude-3-5-haiku",
@@ -5091,6 +5091,420 @@
       "status": "active"
     },
     {
+      "model_id": "mistral-ai/codestral-2508",
+      "provider_id": "mistral-ai",
+      "name": "codestral-2508",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/codestral-embed-2505",
+      "provider_id": "mistral-ai",
+      "name": "codestral-embed-2505",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/codestral-embed",
+      "provider_id": "mistral-ai",
+      "name": "codestral-embed",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/codestral-latest",
+      "provider_id": "mistral-ai",
+      "name": "codestral-latest",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/devstral-2512",
+      "provider_id": "mistral-ai",
+      "name": "devstral-2512",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/devstral-latest",
+      "provider_id": "mistral-ai",
+      "name": "devstral-latest",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/devstral-medium-latest",
+      "provider_id": "mistral-ai",
+      "name": "devstral-medium-latest",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/labs-leanstral-1-5-1",
+      "provider_id": "mistral-ai",
+      "name": "labs-leanstral-1-5-1",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/labs-leanstral-1-5",
+      "provider_id": "mistral-ai",
+      "name": "labs-leanstral-1-5",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/magistral-small-latest",
+      "provider_id": "mistral-ai",
+      "name": "magistral-small-latest",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/ministral-14b-2512",
+      "provider_id": "mistral-ai",
+      "name": "ministral-14b-2512",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/ministral-14b-latest",
+      "provider_id": "mistral-ai",
+      "name": "ministral-14b-latest",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/ministral-3b-2512",
+      "provider_id": "mistral-ai",
+      "name": "ministral-3b-2512",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/ministral-3b-latest",
+      "provider_id": "mistral-ai",
+      "name": "ministral-3b-latest",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/ministral-8b-2512",
+      "provider_id": "mistral-ai",
+      "name": "ministral-8b-2512",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/ministral-8b-latest",
+      "provider_id": "mistral-ai",
+      "name": "ministral-8b-latest",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-code-agent-latest",
+      "provider_id": "mistral-ai",
+      "name": "mistral-code-agent-latest",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-code-fim-latest",
+      "provider_id": "mistral-ai",
+      "name": "mistral-code-fim-latest",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-code-latest",
+      "provider_id": "mistral-ai",
+      "name": "mistral-code-latest",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-embed-2312",
+      "provider_id": "mistral-ai",
+      "name": "mistral-embed-2312",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-embed",
+      "provider_id": "mistral-ai",
+      "name": "mistral-embed",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-large-2512",
+      "provider_id": "mistral-ai",
+      "name": "mistral-large-2512",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-large-latest",
+      "provider_id": "mistral-ai",
+      "name": "mistral-large-latest",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
       "model_id": "mistral-ai/mistral-large",
       "provider_id": "mistral-ai",
       "name": "Mistral Large",
@@ -5117,6 +5531,528 @@
         "tool-calling"
       ],
       "license_id": "proprietary",
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-medium-2505",
+      "provider_id": "mistral-ai",
+      "name": "mistral-medium-2505",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-medium-2508",
+      "provider_id": "mistral-ai",
+      "name": "mistral-medium-2508",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-medium-2604",
+      "provider_id": "mistral-ai",
+      "name": "mistral-medium-2604",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-medium-3-5",
+      "provider_id": "mistral-ai",
+      "name": "mistral-medium-3-5",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-medium-3.5",
+      "provider_id": "mistral-ai",
+      "name": "mistral-medium-3.5",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-medium-3",
+      "provider_id": "mistral-ai",
+      "name": "mistral-medium-3",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-medium-latest",
+      "provider_id": "mistral-ai",
+      "name": "mistral-medium-latest",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-medium",
+      "provider_id": "mistral-ai",
+      "name": "mistral-medium",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-moderation-2603",
+      "provider_id": "mistral-ai",
+      "name": "mistral-moderation-2603",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-ocr-2512",
+      "provider_id": "mistral-ai",
+      "name": "mistral-ocr-2512",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-ocr-3-0",
+      "provider_id": "mistral-ai",
+      "name": "mistral-ocr-3-0",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-ocr-3",
+      "provider_id": "mistral-ai",
+      "name": "mistral-ocr-3",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-ocr-4-0",
+      "provider_id": "mistral-ai",
+      "name": "mistral-ocr-4-0",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-ocr-4",
+      "provider_id": "mistral-ai",
+      "name": "mistral-ocr-4",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-ocr-latest",
+      "provider_id": "mistral-ai",
+      "name": "mistral-ocr-latest",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-small-2603",
+      "provider_id": "mistral-ai",
+      "name": "mistral-small-2603",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-small-latest",
+      "provider_id": "mistral-ai",
+      "name": "mistral-small-latest",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-vibe-cli-fast",
+      "provider_id": "mistral-ai",
+      "name": "mistral-vibe-cli-fast",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-vibe-cli-latest",
+      "provider_id": "mistral-ai",
+      "name": "mistral-vibe-cli-latest",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/mistral-vibe-cli-with-tools",
+      "provider_id": "mistral-ai",
+      "name": "mistral-vibe-cli-with-tools",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/voxtral-mini-2602",
+      "provider_id": "mistral-ai",
+      "name": "voxtral-mini-2602",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/voxtral-mini-latest",
+      "provider_id": "mistral-ai",
+      "name": "voxtral-mini-latest",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/voxtral-mini-realtime-2602",
+      "provider_id": "mistral-ai",
+      "name": "voxtral-mini-realtime-2602",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/voxtral-mini-realtime-latest",
+      "provider_id": "mistral-ai",
+      "name": "voxtral-mini-realtime-latest",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/voxtral-mini-transcribe-realtime-2602",
+      "provider_id": "mistral-ai",
+      "name": "voxtral-mini-transcribe-realtime-2602",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/voxtral-mini-tts-2603",
+      "provider_id": "mistral-ai",
+      "name": "voxtral-mini-tts-2603",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/voxtral-mini-tts-latest",
+      "provider_id": "mistral-ai",
+      "name": "voxtral-mini-tts-latest",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/voxtral-small-2507",
+      "provider_id": "mistral-ai",
+      "name": "voxtral-small-2507",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "mistral-ai/voxtral-small-latest",
+      "provider_id": "mistral-ai",
+      "name": "voxtral-small-latest",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
       "status": "active"
     },
     {
@@ -16005,7 +16941,7 @@
     {
       "model_id": "requesty/deepseek-r1-distill-llama-70b",
       "provider_id": "requesty",
-      "name": "novita/deepseek/deepseek-r1-distill-llama-70b",
+      "name": "deepinfra/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
       "modality": [
         "text"
       ],
@@ -16041,7 +16977,7 @@
     {
       "model_id": "requesty/deepseek-r1",
       "provider_id": "requesty",
-      "name": "novita/deepseek/deepseek-r1",
+      "name": "deepinfra/deepseek-ai/DeepSeek-R1",
       "modality": [
         "text"
       ],
@@ -16149,7 +17085,7 @@
     {
       "model_id": "requesty/deepseek-v3",
       "provider_id": "requesty",
-      "name": "novita/deepseek/deepseek_v3",
+      "name": "deepinfra/deepseek-ai/DeepSeek-V3",
       "modality": [
         "text"
       ],
@@ -16185,7 +17121,7 @@
     {
       "model_id": "requesty/deepseek-v4-flash",
       "provider_id": "requesty",
-      "name": "fireworks/deepseek-v4-flash",
+      "name": "deepseek/deepseek-v4-flash",
       "modality": [
         "text"
       ],
@@ -16221,7 +17157,7 @@
     {
       "model_id": "requesty/deepseek-v4-pro",
       "provider_id": "requesty",
-      "name": "fireworks/deepseek-v4-pro",
+      "name": "deepseek/deepseek-v4-pro",
       "modality": [
         "text"
       ],
@@ -16815,7 +17751,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-lite",
       "provider_id": "requesty",
-      "name": "google/gemini-2.5-flash-lite",
+      "name": "vertex/gemini-2.5-flash-lite",
       "modality": [
         "text"
       ],
@@ -17157,7 +18093,7 @@
     {
       "model_id": "requesty/gemini-3-flash-preview",
       "provider_id": "requesty",
-      "name": "google/gemini-3-flash-preview",
+      "name": "vertex/gemini-3-flash-preview",
       "modality": [
         "text"
       ],
@@ -17193,7 +18129,7 @@
     {
       "model_id": "requesty/gemini-3-pro-preview",
       "provider_id": "requesty",
-      "name": "google/gemini-3-pro-preview",
+      "name": "vertex/gemini-3-pro-preview",
       "modality": [
         "text"
       ],
@@ -17211,7 +18147,7 @@
     {
       "model_id": "requesty/gemini-3.1-flash-image",
       "provider_id": "requesty",
-      "name": "google/gemini-3.1-flash-image",
+      "name": "vertex/gemini-3.1-flash-image",
       "modality": [
         "text"
       ],
@@ -17265,7 +18201,7 @@
     {
       "model_id": "requesty/gemini-3.1-flash-lite",
       "provider_id": "requesty",
-      "name": "google/gemini-3.1-flash-lite",
+      "name": "vertex/gemini-3.1-flash-lite",
       "modality": [
         "text"
       ],
@@ -17301,7 +18237,7 @@
     {
       "model_id": "requesty/gemini-3.1-pro-preview",
       "provider_id": "requesty",
-      "name": "google/gemini-3.1-pro-preview",
+      "name": "vertex/gemini-3.1-pro-preview",
       "modality": [
         "text"
       ],
@@ -17445,7 +18381,7 @@
     {
       "model_id": "requesty/gemma-4-26b-a4b-it",
       "provider_id": "requesty",
-      "name": "novita/google/gemma-4-26b-a4b-it",
+      "name": "deepinfra/google/gemma-4-26B-A4B-it",
       "modality": [
         "text"
       ],
@@ -17499,7 +18435,7 @@
     {
       "model_id": "requesty/glm-4.5",
       "provider_id": "requesty",
-      "name": "zai/GLM-4.5",
+      "name": "deepinfra/zai-org/GLM-4.5",
       "modality": [
         "text"
       ],
@@ -17661,7 +18597,7 @@
     {
       "model_id": "requesty/gpt-4.1-francecentral",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-4.1@francecentral",
+      "name": "azure/gpt-4.1@francecentral",
       "modality": [
         "text"
       ],
@@ -17679,7 +18615,7 @@
     {
       "model_id": "requesty/gpt-4.1-mini-eastus2",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-4.1-mini@eastus2",
+      "name": "azure/gpt-4.1-mini@eastus2",
       "modality": [
         "text"
       ],
@@ -17697,7 +18633,7 @@
     {
       "model_id": "requesty/gpt-4.1-mini-francecentral",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-4.1-mini@francecentral",
+      "name": "azure/gpt-4.1-mini@francecentral",
       "modality": [
         "text"
       ],
@@ -17733,7 +18669,7 @@
     {
       "model_id": "requesty/gpt-4.1-mini-westus3",
       "provider_id": "requesty",
-      "name": "azure/gpt-4.1-mini@westus3",
+      "name": "azure/openai-responses/gpt-4.1-mini@westus3",
       "modality": [
         "text"
       ],
@@ -17805,7 +18741,7 @@
     {
       "model_id": "requesty/gpt-4.1-nano-swedencentral",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-4.1-nano@swedencentral",
+      "name": "azure/gpt-4.1-nano@swedencentral",
       "modality": [
         "text"
       ],
@@ -17841,7 +18777,7 @@
     {
       "model_id": "requesty/gpt-4.1-nano-westus3",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-4.1-nano@westus3",
+      "name": "azure/gpt-4.1-nano@westus3",
       "modality": [
         "text"
       ],
@@ -17859,7 +18795,7 @@
     {
       "model_id": "requesty/gpt-4.1-nano",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-4.1-nano",
+      "name": "openai/gpt-4.1-nano",
       "modality": [
         "text"
       ],
@@ -17931,7 +18867,7 @@
     {
       "model_id": "requesty/gpt-4.1",
       "provider_id": "requesty",
-      "name": "azure/gpt-4.1",
+      "name": "openai/gpt-4.1",
       "modality": [
         "text"
       ],
@@ -18255,7 +19191,7 @@
     {
       "model_id": "requesty/gpt-5-mini",
       "provider_id": "requesty",
-      "name": "azure/gpt-5-mini",
+      "name": "openai/gpt-5-mini",
       "modality": [
         "text"
       ],
@@ -18345,7 +19281,7 @@
     {
       "model_id": "requesty/gpt-5-nano",
       "provider_id": "requesty",
-      "name": "azure/gpt-5-nano",
+      "name": "openai/gpt-5-nano",
       "modality": [
         "text"
       ],
@@ -18525,7 +19461,7 @@
     {
       "model_id": "requesty/gpt-5.1",
       "provider_id": "requesty",
-      "name": "azure/gpt-5.1",
+      "name": "openai/gpt-5.1",
       "modality": [
         "text"
       ],
@@ -18687,7 +19623,7 @@
     {
       "model_id": "requesty/gpt-5.4-eastus2",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-5.4@eastus2",
+      "name": "azure/gpt-5.4@eastus2",
       "modality": [
         "text"
       ],
@@ -18741,7 +19677,7 @@
     {
       "model_id": "requesty/gpt-5.4-mini",
       "provider_id": "requesty",
-      "name": "azure/gpt-5.4-mini",
+      "name": "openai/gpt-5.4-mini",
       "modality": [
         "text"
       ],
@@ -18813,7 +19749,7 @@
     {
       "model_id": "requesty/gpt-5.4-swedencentral",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-5.4@swedencentral",
+      "name": "azure/gpt-5.4@swedencentral",
       "modality": [
         "text"
       ],
@@ -18885,7 +19821,7 @@
     {
       "model_id": "requesty/gpt-5.4",
       "provider_id": "requesty",
-      "name": "azure/gpt-5.4",
+      "name": "openai/gpt-5.4",
       "modality": [
         "text"
       ],
@@ -19173,7 +20109,7 @@
     {
       "model_id": "requesty/gpt-5",
       "provider_id": "requesty",
-      "name": "azure/gpt-5",
+      "name": "openai/gpt-5",
       "modality": [
         "text"
       ],
@@ -19191,7 +20127,7 @@
     {
       "model_id": "requesty/gpt-oss-120b",
       "provider_id": "requesty",
-      "name": "fireworks/gpt-oss-120b",
+      "name": "groq/openai/gpt-oss-120b",
       "modality": [
         "text"
       ],
@@ -19209,7 +20145,7 @@
     {
       "model_id": "requesty/gpt-oss-20b",
       "provider_id": "requesty",
-      "name": "fireworks/gpt-oss-20b",
+      "name": "groq/openai/gpt-oss-20b",
       "modality": [
         "text"
       ],
@@ -19695,7 +20631,7 @@
     {
       "model_id": "requesty/kimi-k2.5",
       "provider_id": "requesty",
-      "name": "moonshot/kimi-k2.5",
+      "name": "deepinfra/Kimi K2.5",
       "modality": [
         "text"
       ],
@@ -19983,7 +20919,7 @@
     {
       "model_id": "requesty/llama-3.3-70b-instruct",
       "provider_id": "requesty",
-      "name": "novita/meta-llama/llama-3.3-70b-instruct",
+      "name": "deepinfra/meta-llama/Llama-3.3-70B-Instruct",
       "modality": [
         "text"
       ],
@@ -20073,7 +21009,7 @@
     {
       "model_id": "requesty/mimo-v2.5-pro",
       "provider_id": "requesty",
-      "name": "xiaomi/mimo-v2.5-pro",
+      "name": "deepinfra/XiaomiMiMo/MiMo-V2.5-Pro",
       "modality": [
         "text"
       ],
@@ -20091,7 +21027,7 @@
     {
       "model_id": "requesty/mimo-v2.5",
       "provider_id": "requesty",
-      "name": "xiaomi/mimo-v2.5",
+      "name": "deepinfra/XiaomiMiMo/MiMo-V2.5",
       "modality": [
         "text"
       ],
@@ -20487,7 +21423,7 @@
     {
       "model_id": "requesty/nemotron-3-nano-30b-a3b",
       "provider_id": "requesty",
-      "name": "nvidia/nemotron-3-nano-30b-a3b",
+      "name": "deepinfra/nvidia/Nemotron-3-Nano-30B-A3B",
       "modality": [
         "text"
       ],
@@ -21261,7 +22197,7 @@
     {
       "model_id": "requesty/qwen3-235b-a22b-instruct-2507",
       "provider_id": "requesty",
-      "name": "nebius/qwen/qwen3-235b-a22b-instruct-2507",
+      "name": "deepinfra/Qwen/Qwen3-235B-A22B-Instruct-2507",
       "modality": [
         "text"
       ],
@@ -21315,7 +22251,7 @@
     {
       "model_id": "requesty/qwen3-30b-a3b-instruct-2507",
       "provider_id": "requesty",
-      "name": "nebius/qwen/qwen3-30b-a3b-instruct-2507",
+      "name": "alibaba/qwen3-30b-a3b-instruct-2507",
       "modality": [
         "text"
       ],
@@ -21333,7 +22269,7 @@
     {
       "model_id": "requesty/qwen3-32b",
       "provider_id": "requesty",
-      "name": "nebius/qwen/qwen3-32b",
+      "name": "deepinfra/Qwen/Qwen3-32B",
       "modality": [
         "text"
       ],
@@ -21513,7 +22449,7 @@
     {
       "model_id": "requesty/qwen3.5-397b-a17b",
       "provider_id": "requesty",
-      "name": "novita/qwen/qwen3.5-397b-a17b",
+      "name": "deepinfra/Qwen/Qwen3.5-397B-A17B",
       "modality": [
         "text"
       ],

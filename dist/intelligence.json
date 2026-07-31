@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "117e179",
-  "count": 1481,
+  "source_revision": "71822a6",
+  "count": 1533,
   "intelligence": [
     {
       "model_id": "anthropic/claude-3-5-haiku",
@@ -5856,6 +5856,512 @@
       ]
     },
     {
+      "model_id": "mistral-ai/codestral-2508",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/codestral-embed-2505",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/codestral-embed",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/codestral-latest",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/devstral-2512",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/devstral-latest",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/devstral-medium-latest",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/labs-leanstral-1-5-1",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/labs-leanstral-1-5",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/magistral-small-latest",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/ministral-14b-2512",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/ministral-14b-latest",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/ministral-3b-2512",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/ministral-3b-latest",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/ministral-8b-2512",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/ministral-8b-latest",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-code-agent-latest",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-code-fim-latest",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-code-latest",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-embed-2312",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-embed",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-large-2512",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-large-latest",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
       "model_id": "mistral-ai/mistral-large",
       "cost_tier": "Balanced",
       "blended_cost_per_1m": 3,
@@ -5874,6 +6380,644 @@
           "model_id": "google/gemini-2.0-flash-001",
           "name": "Gemini 2.0 Flash 001",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-medium-2505",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-medium-2508",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-medium-2604",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-medium-3-5",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-medium-3.5",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-medium-3",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-medium-latest",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-medium",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-moderation-2603",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-ocr-2512",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-ocr-3-0",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-ocr-3",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-ocr-4-0",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-ocr-4",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-ocr-latest",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-small-2603",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-small-latest",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-vibe-cli-fast",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-vibe-cli-latest",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/mistral-vibe-cli-with-tools",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/voxtral-mini-2602",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/voxtral-mini-latest",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/voxtral-mini-realtime-2602",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/voxtral-mini-realtime-latest",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/voxtral-mini-transcribe-realtime-2602",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/voxtral-mini-tts-2603",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/voxtral-mini-tts-latest",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/voxtral-small-2507",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "mistral-ai/voxtral-small-latest",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
         }
       ]
     },

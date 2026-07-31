@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gemini-3.1-pro-preview",
   "provider_id": "requesty",
-  "name": "google/gemini-3.1-pro-preview",
+  "name": "vertex/gemini-3.1-pro-preview",
   "modality": [
     "text"
   ],

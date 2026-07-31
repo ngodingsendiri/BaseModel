@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gpt-4.1-mini-westus3",
   "provider_id": "requesty",
-  "name": "azure/gpt-4.1-mini@westus3",
+  "name": "azure/openai-responses/gpt-4.1-mini@westus3",
   "modality": [
     "text"
   ],
