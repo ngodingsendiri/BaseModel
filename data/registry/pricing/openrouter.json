@@ -2532,6 +2532,22 @@
     "value": 0.528
   },
   {
+    "pricing_id": "openrouter-inkling-small-input",
+    "model_id": "openrouter/inkling-small",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.58
+  },
+  {
+    "pricing_id": "openrouter-inkling-small-output",
+    "model_id": "openrouter/inkling-small",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.44
+  },
+  {
     "pricing_id": "openrouter-inkling-input",
     "model_id": "openrouter/inkling",
     "pricing_type": "input-token",

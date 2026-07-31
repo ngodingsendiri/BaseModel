@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/claude-sonnet-5",
   "provider_id": "requesty",
-  "name": "anthropic/claude-sonnet-5",
+  "name": "bedrock/claude-sonnet-5",
   "context_window": 1000000,
   "modality": [
     "text"

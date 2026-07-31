@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/claude-opus-4-8",
   "provider_id": "requesty",
-  "name": "anthropic/claude-opus-4-8",
+  "name": "bedrock/claude-opus-4-8",
   "modality": [
     "text"
   ],

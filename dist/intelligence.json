@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "f036033",
-  "count": 1533,
+  "source_revision": "8a335a3",
+  "count": 1535,
   "intelligence": [
     {
       "model_id": "anthropic/claude-3-5-haiku",
@@ -2141,6 +2141,28 @@
       "model_id": "deepinfra/hy3",
       "cost_tier": "Budget-Friendly",
       "blended_cost_per_1m": 0.231,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "deepinfra/inkling-small",
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.7949999999999999,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -13845,6 +13867,28 @@
       "model_id": "openrouter/hy3",
       "cost_tier": "Budget-Friendly",
       "blended_cost_per_1m": 0.231,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Cross-provider alternative from google with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "openrouter/inkling-small",
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.7949999999999999,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -30123,8 +30167,8 @@
     },
     {
       "model_id": "vercel/inkling-small",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.7949999999999999,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",

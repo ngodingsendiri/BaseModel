@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "f036033",
-  "count": 1533,
+  "source_revision": "8a335a3",
+  "count": 1535,
   "models": [
     {
       "model_id": "anthropic/claude-3-5-haiku",
@@ -1998,6 +1998,30 @@
       "tier": "budget",
       "limits": {
         "max_input_tokens": 262144
+      },
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "deepinfra/inkling-small",
+      "provider_id": "deepinfra",
+      "name": "thinkingmachines/Inkling-Small",
+      "context_window": 524288,
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 524288
       },
       "capability_ids": [],
       "status": "active"
@@ -13498,6 +13522,30 @@
       "status": "active"
     },
     {
+      "model_id": "openrouter/inkling-small",
+      "provider_id": "openrouter",
+      "name": "thinkingmachines/inkling-small",
+      "context_window": 524288,
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 524288
+      },
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
       "model_id": "openrouter/inkling",
       "provider_id": "openrouter",
       "name": "thinkingmachines/inkling",
@@ -17639,7 +17687,7 @@
     {
       "model_id": "requesty/claude-fable-5",
       "provider_id": "requesty",
-      "name": "anthropic/claude-fable-5",
+      "name": "vertex/claude-fable-5",
       "context_window": 1000000,
       "modality": [
         "text"
@@ -17843,7 +17891,7 @@
     {
       "model_id": "requesty/claude-haiku-4-5",
       "provider_id": "requesty",
-      "name": "anthropic/claude-haiku-4-5",
+      "name": "bedrock/claude-haiku-4-5",
       "modality": [
         "text"
       ],
@@ -17879,7 +17927,7 @@
     {
       "model_id": "requesty/claude-opus-4-1",
       "provider_id": "requesty",
-      "name": "anthropic/claude-opus-4-1",
+      "name": "vertex/claude-opus-4-1",
       "modality": [
         "text"
       ],
@@ -18059,7 +18107,7 @@
     {
       "model_id": "requesty/claude-opus-4-5",
       "provider_id": "requesty",
-      "name": "anthropic/claude-opus-4-5",
+      "name": "bedrock/claude-opus-4-5",
       "modality": [
         "text"
       ],
@@ -18113,7 +18161,7 @@
     {
       "model_id": "requesty/claude-opus-4-6",
       "provider_id": "requesty",
-      "name": "anthropic/claude-opus-4-6",
+      "name": "bedrock/claude-opus-4-6",
       "modality": [
         "text"
       ],
@@ -18239,7 +18287,7 @@
     {
       "model_id": "requesty/claude-opus-4-7",
       "provider_id": "requesty",
-      "name": "anthropic/claude-opus-4-7",
+      "name": "bedrock/claude-opus-4-7",
       "modality": [
         "text"
       ],
@@ -18383,7 +18431,7 @@
     {
       "model_id": "requesty/claude-opus-4-8",
       "provider_id": "requesty",
-      "name": "anthropic/claude-opus-4-8",
+      "name": "bedrock/claude-opus-4-8",
       "modality": [
         "text"
       ],
@@ -18569,7 +18617,7 @@
     {
       "model_id": "requesty/claude-opus-5",
       "provider_id": "requesty",
-      "name": "anthropic/claude-opus-5",
+      "name": "bedrock/claude-opus-5",
       "context_window": 1000000,
       "modality": [
         "text"
@@ -18755,7 +18803,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-5",
       "provider_id": "requesty",
-      "name": "anthropic/claude-sonnet-4-5",
+      "name": "bedrock/claude-sonnet-4-5",
       "modality": [
         "text"
       ],
@@ -18953,7 +19001,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-6",
       "provider_id": "requesty",
-      "name": "anthropic/claude-sonnet-4-6",
+      "name": "bedrock/claude-sonnet-4-6",
       "modality": [
         "text"
       ],
@@ -19337,7 +19385,7 @@
     {
       "model_id": "requesty/claude-sonnet-5",
       "provider_id": "requesty",
-      "name": "anthropic/claude-sonnet-5",
+      "name": "bedrock/claude-sonnet-5",
       "context_window": 1000000,
       "modality": [
         "text"
@@ -20255,7 +20303,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-lite",
       "provider_id": "requesty",
-      "name": "vertex/gemini-2.5-flash-lite",
+      "name": "google/gemini-2.5-flash-lite",
       "context_window": 1048576,
       "modality": [
         "text"
@@ -20369,7 +20417,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash",
       "provider_id": "requesty",
-      "name": "coding/gemini-2.5-flash",
+      "name": "google/gemini-2.5-flash",
       "context_window": 1048576,
       "modality": [
         "text"
@@ -20573,7 +20621,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro",
       "provider_id": "requesty",
-      "name": "coding/gemini-2.5-pro",
+      "name": "google/gemini-2.5-pro",
       "context_window": 1048576,
       "modality": [
         "text"
@@ -20615,7 +20663,7 @@
     {
       "model_id": "requesty/gemini-3-flash-preview",
       "provider_id": "requesty",
-      "name": "vertex/gemini-3-flash-preview",
+      "name": "google/gemini-3-flash-preview",
       "context_window": 1048576,
       "modality": [
         "text"
@@ -20663,7 +20711,7 @@
     {
       "model_id": "requesty/gemini-3-pro-preview",
       "provider_id": "requesty",
-      "name": "vertex/gemini-3-pro-preview",
+      "name": "google/gemini-3-pro-preview",
       "modality": [
         "text"
       ],
@@ -20681,7 +20729,7 @@
     {
       "model_id": "requesty/gemini-3.1-flash-image",
       "provider_id": "requesty",
-      "name": "vertex/gemini-3.1-flash-image",
+      "name": "google/gemini-3.1-flash-image",
       "context_window": 131072,
       "modality": [
         "text"
@@ -20741,7 +20789,7 @@
     {
       "model_id": "requesty/gemini-3.1-flash-lite",
       "provider_id": "requesty",
-      "name": "vertex/gemini-3.1-flash-lite",
+      "name": "google/gemini-3.1-flash-lite",
       "context_window": 1048576,
       "modality": [
         "text"
@@ -20783,7 +20831,7 @@
     {
       "model_id": "requesty/gemini-3.1-pro-preview",
       "provider_id": "requesty",
-      "name": "vertex/gemini-3.1-pro-preview",
+      "name": "google/gemini-3.1-pro-preview",
       "context_window": 1048576,
       "modality": [
         "text"
@@ -21101,7 +21149,7 @@
     {
       "model_id": "requesty/glm-5.1",
       "provider_id": "requesty",
-      "name": "fireworks/glm-5.1",
+      "name": "deepinfra/zai-org/GLM-5.1",
       "context_window": 204800,
       "modality": [
         "text"
@@ -21161,7 +21209,7 @@
     {
       "model_id": "requesty/glm-5.2",
       "provider_id": "requesty",
-      "name": "fireworks/glm-5.2",
+      "name": "inceptron/glm-5.2",
       "context_window": 1048576,
       "modality": [
         "text"
@@ -21209,7 +21257,7 @@
     {
       "model_id": "requesty/gpt-4.1-eastus2",
       "provider_id": "requesty",
-      "name": "azure/gpt-4.1@eastus2",
+      "name": "azure/openai-responses/gpt-4.1@eastus2",
       "modality": [
         "text"
       ],
@@ -21227,7 +21275,7 @@
     {
       "model_id": "requesty/gpt-4.1-francecentral",
       "provider_id": "requesty",
-      "name": "azure/gpt-4.1@francecentral",
+      "name": "azure/openai-responses/gpt-4.1@francecentral",
       "modality": [
         "text"
       ],
@@ -21377,7 +21425,7 @@
     {
       "model_id": "requesty/gpt-4.1-nano-swedencentral",
       "provider_id": "requesty",
-      "name": "azure/gpt-4.1-nano@swedencentral",
+      "name": "azure/openai-responses/gpt-4.1-nano@swedencentral",
       "modality": [
         "text"
       ],
@@ -21455,7 +21503,7 @@
     {
       "model_id": "requesty/gpt-4.1-swedencentral",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-4.1@swedencentral",
+      "name": "azure/gpt-4.1@swedencentral",
       "modality": [
         "text"
       ],
@@ -21491,7 +21539,7 @@
     {
       "model_id": "requesty/gpt-4.1-westus3",
       "provider_id": "requesty",
-      "name": "azure/gpt-4.1@westus3",
+      "name": "azure/openai-responses/gpt-4.1@westus3",
       "modality": [
         "text"
       ],
@@ -22367,7 +22415,7 @@
     {
       "model_id": "requesty/gpt-5.4-eastus2",
       "provider_id": "requesty",
-      "name": "azure/gpt-5.4@eastus2",
+      "name": "azure/openai-responses/gpt-5.4@eastus2",
       "modality": [
         "text"
       ],
@@ -22385,7 +22433,7 @@
     {
       "model_id": "requesty/gpt-5.4-francecentral",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-5.4@francecentral",
+      "name": "azure/gpt-5.4@francecentral",
       "modality": [
         "text"
       ],
@@ -22511,7 +22559,7 @@
     {
       "model_id": "requesty/gpt-5.4-swedencentral",
       "provider_id": "requesty",
-      "name": "azure/gpt-5.4@swedencentral",
+      "name": "azure/openai-responses/gpt-5.4@swedencentral",
       "modality": [
         "text"
       ],
@@ -22649,7 +22697,7 @@
     {
       "model_id": "requesty/gpt-5.5-swedencentral",
       "provider_id": "requesty",
-      "name": "azure/gpt-5.5@swedencentral",
+      "name": "azure/openai-responses/gpt-5.5@swedencentral",
       "modality": [
         "text"
       ],
@@ -22787,7 +22835,7 @@
     {
       "model_id": "requesty/gpt-5.6-sol-eastus2",
       "provider_id": "requesty",
-      "name": "azure/gpt-5.6-sol@eastus2",
+      "name": "azure/openai-responses/gpt-5.6-sol@eastus2",
       "modality": [
         "text"
       ],
@@ -22847,7 +22895,7 @@
     {
       "model_id": "requesty/gpt-5.6-terra-eastus2",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-5.6-terra@eastus2",
+      "name": "azure/gpt-5.6-terra@eastus2",
       "modality": [
         "text"
       ],
@@ -22865,7 +22913,7 @@
     {
       "model_id": "requesty/gpt-5.6-terra-swedencentral",
       "provider_id": "requesty",
-      "name": "azure/gpt-5.6-terra@swedencentral",
+      "name": "azure/openai-responses/gpt-5.6-terra@swedencentral",
       "modality": [
         "text"
       ],
@@ -23513,7 +23561,7 @@
     {
       "model_id": "requesty/kimi-k2.6",
       "provider_id": "requesty",
-      "name": "fireworks/kimi-k2.6",
+      "name": "inceptron/kimi-k2.6",
       "context_window": 262144,
       "modality": [
         "text"
@@ -23537,7 +23585,7 @@
     {
       "model_id": "requesty/kimi-k2.7-code",
       "provider_id": "requesty",
-      "name": "fireworks/kimi-k2.7-code",
+      "name": "inceptron/kimi-k2.7-Code",
       "context_window": 262144,
       "modality": [
         "text"
@@ -23585,7 +23633,7 @@
     {
       "model_id": "requesty/kimi-k3",
       "provider_id": "requesty",
-      "name": "fireworks/kimi-k3",
+      "name": "nebius/kimi-k3",
       "context_window": 1048576,
       "modality": [
         "text"
@@ -24137,7 +24185,7 @@
     {
       "model_id": "requesty/minimax-m2.7-highspeed",
       "provider_id": "requesty",
-      "name": "novita/minimax/minimax-m2.7-highspeed",
+      "name": "minimaxi/minimax-m2.7-highspeed",
       "modality": [
         "text"
       ],
@@ -24155,7 +24203,7 @@
     {
       "model_id": "requesty/minimax-m2.7",
       "provider_id": "requesty",
-      "name": "fireworks/minimax-m2.7",
+      "name": "minimaxi/minimax-m2.7",
       "context_window": 204800,
       "modality": [
         "text"
@@ -24203,7 +24251,7 @@
     {
       "model_id": "requesty/minimax-m3",
       "provider_id": "requesty",
-      "name": "fireworks/minimax-m3",
+      "name": "minimaxi/minimax-m3",
       "context_window": 1048576,
       "modality": [
         "text"
@@ -25445,7 +25493,7 @@
     {
       "model_id": "requesty/qwen3-max",
       "provider_id": "requesty",
-      "name": "deepinfra/Qwen/Qwen3-Max",
+      "name": "alibaba/qwen3-max",
       "context_window": 262144,
       "modality": [
         "text"
@@ -25631,7 +25679,7 @@
     {
       "model_id": "requesty/qwen3.7-plus",
       "provider_id": "requesty",
-      "name": "fireworks/qwen3.7-plus",
+      "name": "alibaba/qwen3.7-plus",
       "context_window": 1000000,
       "modality": [
         "text"
@@ -29040,6 +29088,7 @@
       "model_id": "vercel/inkling-small",
       "provider_id": "vercel",
       "name": "thinkingmachines/inkling-small",
+      "context_window": 524288,
       "modality": [
         "text"
       ],
@@ -29051,6 +29100,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 524288
+      },
       "capability_ids": [],
       "status": "active"
     },

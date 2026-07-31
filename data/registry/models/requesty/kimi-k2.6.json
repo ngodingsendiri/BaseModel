@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/kimi-k2.6",
   "provider_id": "requesty",
-  "name": "fireworks/kimi-k2.6",
+  "name": "inceptron/kimi-k2.6",
   "context_window": 262144,
   "modality": [
     "text"

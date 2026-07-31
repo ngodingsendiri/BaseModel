@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gemini-2.5-flash",
   "provider_id": "requesty",
-  "name": "coding/gemini-2.5-flash",
+  "name": "google/gemini-2.5-flash",
   "context_window": 1048576,
   "modality": [
     "text"

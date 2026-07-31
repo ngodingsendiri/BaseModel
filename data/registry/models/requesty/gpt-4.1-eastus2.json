@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gpt-4.1-eastus2",
   "provider_id": "requesty",
-  "name": "azure/gpt-4.1@eastus2",
+  "name": "azure/openai-responses/gpt-4.1@eastus2",
   "modality": [
     "text"
   ],

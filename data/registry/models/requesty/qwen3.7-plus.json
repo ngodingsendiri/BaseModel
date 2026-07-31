@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/qwen3.7-plus",
   "provider_id": "requesty",
-  "name": "fireworks/qwen3.7-plus",
+  "name": "alibaba/qwen3.7-plus",
   "context_window": 1000000,
   "modality": [
     "text"

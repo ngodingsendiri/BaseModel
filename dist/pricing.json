@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "f036033",
-  "count": 1457,
+  "source_revision": "8a335a3",
+  "count": 1463,
   "pricing": [
     {
       "pricing_id": "anthropic-claude-3-5-sonnet-input",
@@ -562,6 +562,22 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 0.528
+    },
+    {
+      "pricing_id": "deepinfra-inkling-small-input",
+      "model_id": "deepinfra/inkling-small",
+      "pricing_type": "input-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.58
+    },
+    {
+      "pricing_id": "deepinfra-inkling-small-output",
+      "model_id": "deepinfra/inkling-small",
+      "pricing_type": "output-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 1.44
     },
     {
       "pricing_id": "deepinfra-inkling-input",
@@ -4888,6 +4904,22 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 0.528
+    },
+    {
+      "pricing_id": "openrouter-inkling-small-input",
+      "model_id": "openrouter/inkling-small",
+      "pricing_type": "input-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.58
+    },
+    {
+      "pricing_id": "openrouter-inkling-small-output",
+      "model_id": "openrouter/inkling-small",
+      "pricing_type": "output-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 1.44
     },
     {
       "pricing_id": "openrouter-inkling-input",
@@ -10788,6 +10820,22 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 0.528
+    },
+    {
+      "pricing_id": "vercel-inkling-small-input",
+      "model_id": "vercel/inkling-small",
+      "pricing_type": "input-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.58
+    },
+    {
+      "pricing_id": "vercel-inkling-small-output",
+      "model_id": "vercel/inkling-small",
+      "pricing_type": "output-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 1.44
     },
     {
       "pricing_id": "vercel-inkling-input",

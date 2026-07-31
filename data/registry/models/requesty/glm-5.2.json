@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/glm-5.2",
   "provider_id": "requesty",
-  "name": "fireworks/glm-5.2",
+  "name": "inceptron/glm-5.2",
   "context_window": 1048576,
   "modality": [
     "text"

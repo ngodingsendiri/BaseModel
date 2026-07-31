@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gemini-2.5-pro",
   "provider_id": "requesty",
-  "name": "coding/gemini-2.5-pro",
+  "name": "google/gemini-2.5-pro",
   "context_window": 1048576,
   "modality": [
     "text"

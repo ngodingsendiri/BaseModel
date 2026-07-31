@@ -1376,6 +1376,22 @@
     "value": 0.528
   },
   {
+    "pricing_id": "vercel-inkling-small-input",
+    "model_id": "vercel/inkling-small",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.58
+  },
+  {
+    "pricing_id": "vercel-inkling-small-output",
+    "model_id": "vercel/inkling-small",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.44
+  },
+  {
     "pricing_id": "vercel-inkling-input",
     "model_id": "vercel/inkling",
     "pricing_type": "input-token",

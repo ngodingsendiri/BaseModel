@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gpt-5.5-swedencentral",
   "provider_id": "requesty",
-  "name": "azure/gpt-5.5@swedencentral",
+  "name": "azure/openai-responses/gpt-5.5@swedencentral",
   "modality": [
     "text"
   ],

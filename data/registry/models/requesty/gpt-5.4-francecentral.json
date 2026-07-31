@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gpt-5.4-francecentral",
   "provider_id": "requesty",
-  "name": "azure/openai-responses/gpt-5.4@francecentral",
+  "name": "azure/gpt-5.4@francecentral",
   "modality": [
     "text"
   ],

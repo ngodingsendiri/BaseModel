@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/qwen3-max",
   "provider_id": "requesty",
-  "name": "deepinfra/Qwen/Qwen3-Max",
+  "name": "alibaba/qwen3-max",
   "context_window": 262144,
   "modality": [
     "text"
