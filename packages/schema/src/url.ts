@@ -5,6 +5,10 @@ export const HttpUrlSchema = z
   .string()
   .url()
   .refine((value) => {
-    const protocol = new URL(value).protocol;
-    return protocol === 'http:' || protocol === 'https:';
+    try {
+      const protocol = new URL(value).protocol;
+      return protocol === 'http:' || protocol === 'https:';
+    } catch {
+      return false;
+    }
   }, 'URL must use the http or https scheme');
