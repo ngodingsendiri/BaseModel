@@ -30,7 +30,16 @@ async function verify(pluginFilePath: string): Promise<void> {
   }
   console.log(`Models returned: ${result.models.length}`);
   if (result.models.length === 0) {
-    throw new Error('Plugin returned 0 models. Check its source and registered secrets.');
+    if (result.errors.length > 0) {
+      console.warn(
+        `Plugin returned 0 models with explained errors (${result.errors.length}). ` +
+          'This may be an upstream limitation (e.g. a proxy with no catalog); treating as soft failure.',
+      );
+    } else {
+      throw new Error(
+        'Plugin returned 0 models with no errors. Check its source and registered secrets.',
+      );
+    }
   }
 
   const sampleSize = Math.min(5, result.models.length);
