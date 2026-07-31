@@ -73,14 +73,25 @@ jobs:
           git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git add data/registry/ dist/
           git commit -m "chore(data): nightly sync" || echo "No changes to commit"
-          if git pull --rebase origin main --autostash; then
-            git push origin HEAD:main
-          else
-            echo "Rebase conflicted; keeping collected data and regenerating dist/"
-            git checkout --theirs -- data/registry/ dist/
-            git add data/registry/ dist/
-            pnpm --filter @basemodel/publisher run generate
-            git add dist/
-            git -c core.editor=true rebase --continue
-            git push origin HEAD:main
-          fi
+          # Retry loop: concurrent collect runs race on main. Rebase and push
+          # until we land; resolve conflicts by keeping collected data and
+          # regenerating dist/.
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase origin main --autostash; then
+              if git push origin HEAD:main; then
+                echo "Pushed successfully on attempt ${attempt}."
+                exit 0
+              fi
+              echo "Push raced on attempt ${attempt}; retrying..."
+            else
+              echo "Rebase conflicted; keeping collected data and regenerating dist/"
+              git checkout --theirs -- data/registry/ dist/
+              git add data/registry/ dist/
+              pnpm --filter @basemodel/publisher run generate
+              git add dist/
+              git -c core.editor=true rebase --continue
+            fi
+            sleep 5
+          done
+          echo "Failed to push after 5 attempts."
+          exit 1
