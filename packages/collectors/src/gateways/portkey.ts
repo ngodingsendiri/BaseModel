@@ -18,10 +18,21 @@ export default {
       const res = await fetch('https://api.portkey.ai/v1/models', {
         headers: { 'x-portkey-api-key': k },
       });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      if (!res.ok) {
+        const body = await res.text();
+        throw new Error(`HTTP ${res.status}${body.trim() ? `: ${body.trim().slice(0, 200)}` : ''}`);
+      }
       const p = Schema.safeParse(await res.json());
       if (!p.success) {
         r.errors.push(p.error.message);
+        return r;
+      }
+      if (p.data.data.length === 0) {
+        r.errors.push(
+          'Portkey returned an empty model catalog. This is a known upstream issue ' +
+            '(https://github.com/Portkey-AI/gateway/issues/1371); Portkey lists no models until ' +
+            'a provider or virtual key is configured in the account.',
+        );
         return r;
       }
       for (const m of p.data.data)

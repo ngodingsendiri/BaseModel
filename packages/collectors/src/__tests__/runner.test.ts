@@ -1,8 +1,15 @@
+import { join } from 'node:path';
 import { ModelSchema } from '@basemodel/schema';
-import { describe, expect, it } from 'vitest';
-import { normalizeModelId, toModelSlug } from '../core/runner';
+import { afterEach, describe, expect, it, vi } from 'vitest';
+import {
+  describeGatewayPlugin,
+  executeGatewayPlugin,
+  normalizeModelId,
+  toModelSlug,
+} from '../core/runner';
 
 const MODEL_SLUG_REGEX = /^[a-z0-9]+(?:[-.][a-z0-9]+)*$/;
+const GROQ_PATH = join(__dirname, '..', 'gateways', 'groq.ts');
 
 describe('toModelSlug', () => {
   it.each([
@@ -51,5 +58,78 @@ describe('normalizeModelId', () => {
       'anthropic/claude-3-5-sonnet-20241022',
     );
     expect(normalizeModelId('openai/gpt-4o', 'openai')).toBe('openai/gpt-4o');
+  });
+});
+
+describe('runSimpleGateway resilience', () => {
+  afterEach(() => {
+    vi.restoreAllMocks();
+    delete process.env.GROQ_API_KEY;
+  });
+
+  it('accepts a bare top-level model array (Together-style response)', async () => {
+    process.env.GROQ_API_KEY = 'test-key';
+    vi.stubGlobal(
+      'fetch',
+      vi.fn().mockResolvedValue({
+        ok: true,
+        status: 200,
+        json: async () => [
+          { id: 'meta-llama/Llama-3.3-70B-Instruct-Turbo', context_length: 131072 },
+        ],
+      }),
+    );
+    const plugin = await describeGatewayPlugin(GROQ_PATH);
+    const result = await executeGatewayPlugin(GROQ_PATH, plugin);
+    expect(result.models).toHaveLength(1);
+    expect(result.models[0]?.model_id).toBe('groq/llama-3.3-70b-instruct-turbo');
+    expect(result.errors).toEqual([]);
+  });
+
+  it('accepts the OpenAI-style { data: [...] } wrapper', async () => {
+    process.env.GROQ_API_KEY = 'test-key';
+    vi.stubGlobal(
+      'fetch',
+      vi.fn().mockResolvedValue({
+        ok: true,
+        status: 200,
+        json: async () => ({ data: [{ id: 'groq/llama-3.3-70b-versatile' }] }),
+      }),
+    );
+    const plugin = await describeGatewayPlugin(GROQ_PATH);
+    const result = await executeGatewayPlugin(GROQ_PATH, plugin);
+    expect(result.models).toHaveLength(1);
+    expect(result.errors).toEqual([]);
+  });
+
+  it('retries transient statuses (429) and succeeds on a later attempt', async () => {
+    process.env.GROQ_API_KEY = 'test-key';
+    const fetchMock = vi
+      .fn()
+      .mockResolvedValueOnce({ ok: false, status: 429, statusText: 'Too Many Requests' })
+      .mockResolvedValueOnce({
+        ok: true,
+        status: 200,
+        json: async () => ({ data: [{ id: 'groq/llama-3.3-70b-versatile' }] }),
+      });
+    vi.stubGlobal('fetch', fetchMock);
+    const plugin = await describeGatewayPlugin(GROQ_PATH);
+    const result = await executeGatewayPlugin(GROQ_PATH, plugin);
+    expect(fetchMock).toHaveBeenCalledTimes(2);
+    expect(result.models).toHaveLength(1);
+    expect(result.errors).toEqual([]);
+  });
+
+  it('reports actionable hints for non-retryable HTTP failures', async () => {
+    process.env.GROQ_API_KEY = 'test-key';
+    vi.stubGlobal(
+      'fetch',
+      vi.fn().mockResolvedValue({ ok: false, status: 401, statusText: 'Unauthorized' }),
+    );
+    const plugin = await describeGatewayPlugin(GROQ_PATH);
+    const result = await executeGatewayPlugin(GROQ_PATH, plugin);
+    expect(result.models).toEqual([]);
+    expect(result.errors.join(' ')).toMatch(/Unauthorized/);
+    expect(result.errors.join(' ')).toMatch(/check that the API key/);
   });
 });

@@ -16,15 +16,70 @@ import { z } from 'zod';
 import type { CollectionResult, GatewayDescriptor } from './collector.js';
 import { getGatewaySecretKeys } from './gateway-secrets.js';
 
-const OpenAICompatibleResponseSchema = z.object({
-  data: z.array(
-    z.object({
-      id: z.string(),
-      context_length: z.number().optional(),
-      created: z.number().optional(),
-    }),
-  ),
+const OpenAICompatibleModelSchema = z.object({
+  id: z.string(),
+  context_length: z.number().optional(),
+  created: z.number().optional(),
 });
+
+/**
+ * OpenAI-compatible `/models` endpoints return one of two shapes:
+ * - OpenAI-style wrapper: `{ data: [...] }`
+ * - Bare top-level array (e.g. Together AI's `ModelInfoList`)
+ * Both are accepted and normalized to a plain array.
+ */
+const OpenAICompatibleResponseSchema = z.union([
+  z.object({ data: z.array(OpenAICompatibleModelSchema) }),
+  z.array(OpenAICompatibleModelSchema),
+]);
+
+/** Transient HTTP statuses that are safe to retry with backoff. */
+const RETRYABLE_STATUSES = new Set([408, 429, 500, 502, 503, 504]);
+
+const HTTP_ERROR_HINTS: Record<number, string> = {
+  401: 'Unauthorized: check that the API key is valid and has not expired or been rotated.',
+  403: 'Forbidden: the API key may lack permission to list models.',
+  404: 'Not found: verify the gateway base URL and the /models path.',
+  412: 'Precondition failed: the provider may require billing setup, or the account is suspended or rate-limited.',
+  429: 'Rate limited: retried with backoff, but the limit persisted.',
+};
+
+async function fetchWithRetry(
+  url: string,
+  init: RequestInit,
+  attempts = 3,
+  backoffMs = 1000,
+): Promise<Response> {
+  let lastResponse: Response | undefined;
+  for (let attempt = 1; attempt <= attempts; attempt++) {
+    const response = await fetch(url, init);
+    if (!RETRYABLE_STATUSES.has(response.status)) return response;
+    lastResponse = response;
+    if (attempt < attempts) {
+      await new Promise((resolve) => setTimeout(resolve, backoffMs * attempt));
+    }
+  }
+  return lastResponse as Response;
+}
+
+/** Extracts the model array from either an OpenAI wrapper or a bare array. */
+function responseModelArray(parsed: z.infer<typeof OpenAICompatibleResponseSchema>): Array<{
+  id: string;
+  context_length?: number;
+}> {
+  return Array.isArray(parsed) ? parsed : parsed.data;
+}
+
+/** Pulls a short JSON body snippet for diagnostics without leaking secrets. */
+async function errorBodyHint(response: Response): Promise<string> {
+  try {
+    const text = await response.clone().text();
+    const trimmed = text.trim().slice(0, 200);
+    return trimmed ? `: ${trimmed}` : '';
+  } catch {
+    return '';
+  }
+}
 
 /**
  * Normalizes a raw API model id into a schema-valid model slug.
@@ -157,21 +212,27 @@ async function runSimpleGateway(
 ): Promise<CollectionResult> {
   const result: CollectionResult = { provider_id: plugin.id, models: [], errors: [] };
   try {
-    const headers: Record<string, string> = { 'Content-Type': 'application/json' };
+    const headers: Record<string, string> = { Accept: 'application/json' };
     if (apiKey) headers.Authorization = `Bearer ${apiKey}`;
     else result.errors.push(`No API key is registered for gateway ${plugin.id}.`);
 
-    const response = await fetch(`${plugin.baseUrl}/models`, {
+    const response = await fetchWithRetry(`${plugin.baseUrl}/models`, {
       headers,
+      method: 'GET',
       signal: AbortSignal.timeout(15_000),
     });
-    if (!response.ok) throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+    if (!response.ok) {
+      const hint = HTTP_ERROR_HINTS[response.status];
+      throw new Error(
+        `HTTP ${response.status}: ${response.statusText}${hint ? ` (${hint})` : ''}${await errorBodyHint(response)}`,
+      );
+    }
     const parsed = OpenAICompatibleResponseSchema.safeParse((await response.json()) as unknown);
     if (!parsed.success) {
       result.errors.push(`Failed to parse response from ${plugin.id}: ${parsed.error.message}`);
       return result;
     }
-    for (const apiModel of parsed.data.data) {
+    for (const apiModel of responseModelArray(parsed.data)) {
       const slug = toModelSlug(apiModel.id);
       result.models.push({
         model_id: `${plugin.id}/${slug}`,
