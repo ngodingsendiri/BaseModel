@@ -94,4 +94,20 @@ describe('cloudflare gateway', () => {
     });
     expect(result.errors).toHaveLength(1);
   });
+
+  it('explains a 404 from the Workers AI catalog', async () => {
+    fetchMock.mockResolvedValueOnce({
+      ok: false,
+      status: 404,
+      statusText: 'Not Found',
+    });
+
+    const result = await cloudflareGateway.collect({
+      CLOUDFLARE_ACCOUNT_ID: 'wrong-account',
+      CLOUDFLARE_API_TOKEN: 'token',
+    });
+    expect(result.errors).toHaveLength(1);
+    expect(result.errors[0]).toContain('CLOUDFLARE_ACCOUNT_ID');
+    expect(result.errors[0]).toContain('Workers AI');
+  });
 });

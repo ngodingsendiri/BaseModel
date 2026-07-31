@@ -2,7 +2,7 @@ import { z } from 'zod';
 import type { CollectionResult, CustomGateway } from '../core/collector';
 
 // Cloudflare Workers AI model catalog.
-// Docs: https://developers.cloudflare.com/api/resources/workers_ai/subresources/models/methods/search/
+// Docs: https://developers.cloudflare.com/ai/models/
 const CloudflareModelSchema = z.object({
   id: z.string(),
   name: z.string().optional(),
@@ -68,7 +68,16 @@ export default {
           },
           signal: AbortSignal.timeout(15_000),
         });
-        if (!response.ok) throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        if (!response.ok) {
+          if (response.status === 404) {
+            throw new Error(
+              'HTTP 404: Cloudflare returned Not Found for the Workers AI catalog. ' +
+                'Check that CLOUDFLARE_ACCOUNT_ID is correct, Workers AI is enabled on the ' +
+                'account, and CLOUDFLARE_API_TOKEN has the Workers AI "AI Models" read permission.',
+            );
+          }
+          throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        }
 
         const raw = (await response.json()) as unknown;
         const parsed = CloudflareResponseSchema.safeParse(raw);
