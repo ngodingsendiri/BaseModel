@@ -1,0 +1,20 @@
+{
+  "model_id": "google/gemini-embedding-2",
+  "provider_id": "google",
+  "name": "Gemini Embedding 2",
+  "description": "Obtain a distributed representation of multimodal content.",
+  "context_window": 8192,
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": true,
+  "capability_ids": [],
+  "status": "active"
+}

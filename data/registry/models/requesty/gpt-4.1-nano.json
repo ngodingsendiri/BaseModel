@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gpt-4.1-nano",
   "provider_id": "requesty",
-  "name": "openai-responses/gpt-4.1-nano",
+  "name": "azure/openai-responses/gpt-4.1-nano",
   "modality": [
     "text"
   ],

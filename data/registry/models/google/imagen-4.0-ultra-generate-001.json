@@ -1,0 +1,21 @@
+{
+  "model_id": "google/imagen-4.0-ultra-generate-001",
+  "provider_id": "google",
+  "name": "Imagen 4 Ultra",
+  "description": "Vertex served Imagen 4.0 ultra model",
+  "context_window": 480,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": true,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active"
+}

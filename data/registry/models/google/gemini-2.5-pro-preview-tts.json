@@ -1,0 +1,23 @@
+{
+  "model_id": "google/gemini-2.5-pro-preview-tts",
+  "provider_id": "google",
+  "name": "Gemini 2.5 Pro Preview TTS",
+  "description": "Gemini 2.5 Pro Preview TTS",
+  "context_window": 8192,
+  "modality": [
+    "text",
+    "image",
+    "audio",
+    "video"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": true,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active"
+}

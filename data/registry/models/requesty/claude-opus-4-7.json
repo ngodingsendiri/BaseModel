@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/claude-opus-4-7",
   "provider_id": "requesty",
-  "name": "vertex/claude-opus-4-7",
+  "name": "anthropic/claude-opus-4-7",
   "modality": [
     "text"
   ],

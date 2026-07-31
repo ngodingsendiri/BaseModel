@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/nemotron-3-nano-30b-a3b",
   "provider_id": "requesty",
-  "name": "deepinfra/nvidia/Nemotron-3-Nano-30B-A3B",
+  "name": "nvidia/nemotron-3-nano-30b-a3b",
   "modality": [
     "text"
   ],

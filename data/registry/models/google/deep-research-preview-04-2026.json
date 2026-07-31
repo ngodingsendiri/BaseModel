@@ -1,0 +1,20 @@
+{
+  "model_id": "google/deep-research-preview-04-2026",
+  "provider_id": "google",
+  "name": "Deep Research Preview (Apr-21-2026)",
+  "description": "Preview release (April 21th, 2026) of Deep Research",
+  "context_window": 131072,
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active"
+}

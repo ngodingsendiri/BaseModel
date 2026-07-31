@@ -1,0 +1,20 @@
+{
+  "model_id": "google/nano-banana-pro-preview",
+  "provider_id": "google",
+  "name": "Nano Banana Pro",
+  "description": "Gemini 3 Pro Image Preview",
+  "context_window": 131072,
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active"
+}

@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/claude-haiku-4-5",
   "provider_id": "requesty",
-  "name": "vertex/claude-haiku-4-5",
+  "name": "anthropic/claude-haiku-4-5",
   "modality": [
     "text"
   ],

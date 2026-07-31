@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gemini-2.5-flash-lite",
   "provider_id": "requesty",
-  "name": "vertex/gemini-2.5-flash-lite",
+  "name": "google/gemini-2.5-flash-lite",
   "modality": [
     "text"
   ],

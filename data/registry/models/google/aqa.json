@@ -1,0 +1,20 @@
+{
+  "model_id": "google/aqa",
+  "provider_id": "google",
+  "name": "Model that performs Attributed Question Answering.",
+  "description": "Model trained to return answers to questions that are grounded in provided sources, along with estimating answerable probability.",
+  "context_window": 7168,
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active"
+}

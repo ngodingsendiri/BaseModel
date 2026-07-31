@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "6101f88",
-  "count": 1431,
+  "source_revision": "117e179",
+  "count": 1481,
   "models": [
     {
       "model_id": "anthropic/claude-3-5-haiku",
@@ -3515,6 +3515,106 @@
       "status": "active"
     },
     {
+      "model_id": "google/antigravity-preview-05-2026",
+      "provider_id": "google",
+      "name": "Antigravity Agent Preview",
+      "description": "Preview release of Antigravity Agent (05-2026)",
+      "context_window": 131072,
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/aqa",
+      "provider_id": "google",
+      "name": "Model that performs Attributed Question Answering.",
+      "description": "Model trained to return answers to questions that are grounded in provided sources, along with estimating answerable probability.",
+      "context_window": 7168,
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/deep-research-max-preview-04-2026",
+      "provider_id": "google",
+      "name": "Deep Research Max Preview (Apr-21-2026)",
+      "description": "Preview release (April 21st, 2026) of Deep Research Max",
+      "context_window": 131072,
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/deep-research-preview-04-2026",
+      "provider_id": "google",
+      "name": "Deep Research Preview (Apr-21-2026)",
+      "description": "Preview release (April 21th, 2026) of Deep Research",
+      "context_window": 131072,
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/deep-research-pro-preview-12-2025",
+      "provider_id": "google",
+      "name": "Deep Research Pro Preview (Dec-12-2025)",
+      "description": "Preview release (December 12th, 2025) of Deep Research Pro",
+      "context_window": 131072,
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
       "model_id": "google/gemini-1.5-flash",
       "provider_id": "google",
       "name": "Gemini 1.5 Flash",
@@ -3576,6 +3676,1008 @@
         "tool-calling"
       ],
       "license_id": "proprietary",
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-2.0-flash-001",
+      "provider_id": "google",
+      "name": "Gemini 2.0 Flash 001",
+      "description": "Stable version of Gemini 2.0 Flash, our fast and versatile multimodal model for scaling across diverse tasks, released in January of 2025.",
+      "context_window": 1048576,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-2.0-flash-lite-001",
+      "provider_id": "google",
+      "name": "Gemini 2.0 Flash-Lite 001",
+      "description": "Stable version of Gemini 2.0 Flash-Lite",
+      "context_window": 1048576,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-2.0-flash-lite",
+      "provider_id": "google",
+      "name": "Gemini 2.0 Flash-Lite",
+      "description": "Gemini 2.0 Flash-Lite",
+      "context_window": 1048576,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-2.0-flash",
+      "provider_id": "google",
+      "name": "Gemini 2.0 Flash",
+      "description": "Gemini 2.0 Flash",
+      "context_window": 1048576,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-2.5-computer-use-preview-10-2025",
+      "provider_id": "google",
+      "name": "Gemini 2.5 Computer Use Preview 10-2025",
+      "description": "Gemini 2.5 Computer Use Preview 10-2025",
+      "context_window": 131072,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-2.5-flash-image",
+      "provider_id": "google",
+      "name": "Nano Banana",
+      "description": "Gemini 2.5 Flash Preview Image",
+      "context_window": 32768,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-2.5-flash-lite",
+      "provider_id": "google",
+      "name": "Gemini 2.5 Flash-Lite",
+      "description": "Stable version of Gemini 2.5 Flash-Lite, released in July of 2025",
+      "context_window": 1048576,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-2.5-flash-preview-tts",
+      "provider_id": "google",
+      "name": "Gemini 2.5 Flash Preview TTS",
+      "description": "Gemini 2.5 Flash Preview TTS",
+      "context_window": 8192,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-2.5-flash",
+      "provider_id": "google",
+      "name": "Gemini 2.5 Flash",
+      "description": "Stable version of Gemini 2.5 Flash, our mid-size multimodal model that supports up to 1 million tokens, released in June of 2025.",
+      "context_window": 1048576,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-2.5-pro-preview-tts",
+      "provider_id": "google",
+      "name": "Gemini 2.5 Pro Preview TTS",
+      "description": "Gemini 2.5 Pro Preview TTS",
+      "context_window": 8192,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-2.5-pro",
+      "provider_id": "google",
+      "name": "Gemini 2.5 Pro",
+      "description": "Stable release (June 17th, 2025) of Gemini 2.5 Pro",
+      "context_window": 1048576,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-3-flash-preview",
+      "provider_id": "google",
+      "name": "Gemini 3 Flash Preview",
+      "description": "Gemini 3 Flash Preview",
+      "context_window": 1048576,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-3-pro-image-preview",
+      "provider_id": "google",
+      "name": "Nano Banana Pro",
+      "description": "Gemini 3 Pro Image Preview",
+      "context_window": 131072,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-3-pro-image",
+      "provider_id": "google",
+      "name": "Nano Banana Pro",
+      "description": "Gemini 3 Pro Image",
+      "context_window": 131072,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-3-pro-preview",
+      "provider_id": "google",
+      "name": "Gemini 3 Pro Preview",
+      "description": "Gemini 3 Pro Preview",
+      "context_window": 1048576,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-3.1-flash-image-preview",
+      "provider_id": "google",
+      "name": "Nano Banana 2",
+      "description": "Gemini 3.1 Flash Image Preview.",
+      "context_window": 65536,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-3.1-flash-image",
+      "provider_id": "google",
+      "name": "Nano Banana 2",
+      "description": "Gemini 3.1 Flash Image.",
+      "context_window": 65536,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-3.1-flash-lite-image",
+      "provider_id": "google",
+      "name": "Nano Banana 2 Lite",
+      "description": "Gemini 3.1 Flash Lite Image.",
+      "context_window": 65536,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-3.1-flash-lite-preview",
+      "provider_id": "google",
+      "name": "Gemini 3.1 Flash Lite Preview",
+      "description": "Gemini 3.1 Flash Lite Preview",
+      "context_window": 1048576,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-3.1-flash-lite",
+      "provider_id": "google",
+      "name": "Gemini 3.1 Flash Lite",
+      "description": "Gemini 3.1 Flash Lite",
+      "context_window": 1048576,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-3.1-flash-tts-preview",
+      "provider_id": "google",
+      "name": "Gemini 3.1 Flash TTS Preview",
+      "description": "Gemini 3.1 Flash TTS Preview",
+      "context_window": 8192,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-3.1-pro-preview-customtools",
+      "provider_id": "google",
+      "name": "Gemini 3.1 Pro Preview Custom Tools",
+      "description": "Gemini 3.1 Pro Preview optimized for custom tool usage",
+      "context_window": 1048576,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-3.1-pro-preview",
+      "provider_id": "google",
+      "name": "Gemini 3.1 Pro Preview",
+      "description": "Gemini 3.1 Pro Preview",
+      "context_window": 1048576,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-3.5-flash-lite",
+      "provider_id": "google",
+      "name": "Gemini 3.5 Flash Lite",
+      "description": "Gemini 3.5 Flash Lite",
+      "context_window": 1048576,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-3.5-flash",
+      "provider_id": "google",
+      "name": "Gemini 3.5 Flash",
+      "description": "Gemini 3.5 Flash",
+      "context_window": 1048576,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-3.6-flash",
+      "provider_id": "google",
+      "name": "Gemini 3.6 Flash",
+      "description": "Gemini 3.6 Flash",
+      "context_window": 1048576,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-embedding-001",
+      "provider_id": "google",
+      "name": "Gemini Embedding 001",
+      "description": "Obtain a distributed representation of a text.",
+      "context_window": 2048,
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": true,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-embedding-2-preview",
+      "provider_id": "google",
+      "name": "Gemini Embedding 2 Preview",
+      "description": "Obtain a distributed representation of multimodal content.",
+      "context_window": 8192,
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": true,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-embedding-2",
+      "provider_id": "google",
+      "name": "Gemini Embedding 2",
+      "description": "Obtain a distributed representation of multimodal content.",
+      "context_window": 8192,
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": true,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-flash-latest",
+      "provider_id": "google",
+      "name": "Gemini Flash Latest",
+      "description": "Latest release of Gemini Flash",
+      "context_window": 1048576,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-flash-lite-latest",
+      "provider_id": "google",
+      "name": "Gemini Flash-Lite Latest",
+      "description": "Latest release of Gemini Flash-Lite",
+      "context_window": 1048576,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-omni-flash-preview",
+      "provider_id": "google",
+      "name": "Gemini Omni Flash Preview",
+      "description": "Gemini Omni Flash Preview",
+      "context_window": 131072,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-pro-latest",
+      "provider_id": "google",
+      "name": "Gemini Pro Latest",
+      "description": "Latest release of Gemini Pro",
+      "context_window": 1048576,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-robotics-er-1.5-preview",
+      "provider_id": "google",
+      "name": "Gemini Robotics-ER 1.5 Preview",
+      "description": "Gemini Robotics-ER 1.5 Preview",
+      "context_window": 1048576,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-robotics-er-1.6-preview",
+      "provider_id": "google",
+      "name": "Gemini Robotics-ER 1.6 Preview",
+      "description": "Gemini Robotics-ER 1.6 Preview",
+      "context_window": 131072,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemini-robotics-er-2-preview",
+      "provider_id": "google",
+      "name": "Gemini Robotics-ER 2 Preview",
+      "description": "Gemini Robotics-ER 2 Preview",
+      "context_window": 131072,
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemma-4-26b-a4b-it",
+      "provider_id": "google",
+      "name": "Gemma 4 26B A4B IT",
+      "description": "Gemma 4 26B A4B IT",
+      "context_window": 262144,
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/gemma-4-31b-it",
+      "provider_id": "google",
+      "name": "Gemma 4 31B IT",
+      "description": "Gemma 4 31B IT",
+      "context_window": 262144,
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/imagen-4.0-fast-generate-001",
+      "provider_id": "google",
+      "name": "Imagen 4 Fast",
+      "description": "Vertex served Imagen 4.0 Fast model",
+      "context_window": 480,
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": true,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/imagen-4.0-generate-001",
+      "provider_id": "google",
+      "name": "Imagen 4",
+      "description": "Vertex served Imagen 4.0 model",
+      "context_window": 480,
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": true,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/imagen-4.0-ultra-generate-001",
+      "provider_id": "google",
+      "name": "Imagen 4 Ultra",
+      "description": "Vertex served Imagen 4.0 ultra model",
+      "context_window": 480,
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": true,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/lyria-3-clip-preview",
+      "provider_id": "google",
+      "name": "Lyria 3 Clip Preview",
+      "description": "Lyria 3 30s model Preview",
+      "context_window": 1048576,
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/lyria-3-pro-preview",
+      "provider_id": "google",
+      "name": "Lyria 3 Pro Preview",
+      "description": "Lyria 3 Pro Preview",
+      "context_window": 1048576,
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/nano-banana-pro-preview",
+      "provider_id": "google",
+      "name": "Nano Banana Pro",
+      "description": "Gemini 3 Pro Image Preview",
+      "context_window": 131072,
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "google/veo-3.1-generate-preview",
+      "provider_id": "google",
+      "name": "Veo 3.1",
+      "description": "Veo 3.1",
+      "context_window": 480,
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
       "status": "active"
     },
     {
@@ -13175,7 +14277,7 @@
     {
       "model_id": "requesty/claude-fable-5",
       "provider_id": "requesty",
-      "name": "vertex/claude-fable-5",
+      "name": "anthropic/claude-fable-5",
       "modality": [
         "text"
       ],
@@ -13373,7 +14475,7 @@
     {
       "model_id": "requesty/claude-haiku-4-5",
       "provider_id": "requesty",
-      "name": "vertex/claude-haiku-4-5",
+      "name": "anthropic/claude-haiku-4-5",
       "modality": [
         "text"
       ],
@@ -13409,7 +14511,7 @@
     {
       "model_id": "requesty/claude-opus-4-1",
       "provider_id": "requesty",
-      "name": "vertex/claude-opus-4-1",
+      "name": "anthropic/claude-opus-4-1",
       "modality": [
         "text"
       ],
@@ -13589,7 +14691,7 @@
     {
       "model_id": "requesty/claude-opus-4-5",
       "provider_id": "requesty",
-      "name": "vertex/claude-opus-4-5",
+      "name": "anthropic/claude-opus-4-5",
       "modality": [
         "text"
       ],
@@ -13643,7 +14745,7 @@
     {
       "model_id": "requesty/claude-opus-4-6",
       "provider_id": "requesty",
-      "name": "vertex/claude-opus-4-6",
+      "name": "anthropic/claude-opus-4-6",
       "modality": [
         "text"
       ],
@@ -13769,7 +14871,7 @@
     {
       "model_id": "requesty/claude-opus-4-7",
       "provider_id": "requesty",
-      "name": "vertex/claude-opus-4-7",
+      "name": "anthropic/claude-opus-4-7",
       "modality": [
         "text"
       ],
@@ -13913,7 +15015,7 @@
     {
       "model_id": "requesty/claude-opus-4-8",
       "provider_id": "requesty",
-      "name": "vertex/claude-opus-4-8",
+      "name": "anthropic/claude-opus-4-8",
       "modality": [
         "text"
       ],
@@ -14093,7 +15195,7 @@
     {
       "model_id": "requesty/claude-opus-5",
       "provider_id": "requesty",
-      "name": "vertex/claude-opus-5",
+      "name": "anthropic/claude-opus-5",
       "modality": [
         "text"
       ],
@@ -14273,7 +15375,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-5",
       "provider_id": "requesty",
-      "name": "vertex/claude-sonnet-4-5",
+      "name": "anthropic/claude-sonnet-4-5",
       "modality": [
         "text"
       ],
@@ -14471,7 +15573,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-6",
       "provider_id": "requesty",
-      "name": "vertex/claude-sonnet-4-6",
+      "name": "anthropic/claude-sonnet-4-6",
       "modality": [
         "text"
       ],
@@ -14651,7 +15753,7 @@
     {
       "model_id": "requesty/claude-sonnet-4",
       "provider_id": "requesty",
-      "name": "vertex/claude-sonnet-4",
+      "name": "bedrock/claude-sonnet-4",
       "modality": [
         "text"
       ],
@@ -14849,7 +15951,7 @@
     {
       "model_id": "requesty/claude-sonnet-5",
       "provider_id": "requesty",
-      "name": "vertex/claude-sonnet-5",
+      "name": "anthropic/claude-sonnet-5",
       "modality": [
         "text"
       ],
@@ -14903,7 +16005,7 @@
     {
       "model_id": "requesty/deepseek-r1-distill-llama-70b",
       "provider_id": "requesty",
-      "name": "deepinfra/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "name": "novita/deepseek/deepseek-r1-distill-llama-70b",
       "modality": [
         "text"
       ],
@@ -14939,7 +16041,7 @@
     {
       "model_id": "requesty/deepseek-r1",
       "provider_id": "requesty",
-      "name": "deepinfra/deepseek-ai/DeepSeek-R1",
+      "name": "novita/deepseek/deepseek-r1",
       "modality": [
         "text"
       ],
@@ -15029,7 +16131,7 @@
     {
       "model_id": "requesty/deepseek-v3.2",
       "provider_id": "requesty",
-      "name": "vertex/deepseek-v3.2",
+      "name": "novita/deepseek/deepseek-v3.2",
       "modality": [
         "text"
       ],
@@ -15047,7 +16149,7 @@
     {
       "model_id": "requesty/deepseek-v3",
       "provider_id": "requesty",
-      "name": "deepinfra/deepseek-ai/DeepSeek-V3",
+      "name": "novita/deepseek/deepseek_v3",
       "modality": [
         "text"
       ],
@@ -15083,7 +16185,7 @@
     {
       "model_id": "requesty/deepseek-v4-flash",
       "provider_id": "requesty",
-      "name": "deepseek/deepseek-v4-flash",
+      "name": "fireworks/deepseek-v4-flash",
       "modality": [
         "text"
       ],
@@ -15119,7 +16221,7 @@
     {
       "model_id": "requesty/deepseek-v4-pro",
       "provider_id": "requesty",
-      "name": "deepseek/deepseek-v4-pro",
+      "name": "fireworks/deepseek-v4-pro",
       "modality": [
         "text"
       ],
@@ -15191,7 +16293,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-europe-central2",
       "provider_id": "requesty",
-      "name": "vertex/gemini-2.5-flash@europe-central2",
+      "name": "coding/gemini-2.5-flash@europe-central2",
       "modality": [
         "text"
       ],
@@ -15209,7 +16311,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-europe-north1",
       "provider_id": "requesty",
-      "name": "vertex/gemini-2.5-flash@europe-north1",
+      "name": "coding/gemini-2.5-flash@europe-north1",
       "modality": [
         "text"
       ],
@@ -15227,7 +16329,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-europe-west1",
       "provider_id": "requesty",
-      "name": "vertex/gemini-2.5-flash@europe-west1",
+      "name": "coding/gemini-2.5-flash@europe-west1",
       "modality": [
         "text"
       ],
@@ -15245,7 +16347,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-europe-west4",
       "provider_id": "requesty",
-      "name": "vertex/gemini-2.5-flash@europe-west4",
+      "name": "coding/gemini-2.5-flash@europe-west4",
       "modality": [
         "text"
       ],
@@ -15263,7 +16365,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-europe-west8",
       "provider_id": "requesty",
-      "name": "vertex/gemini-2.5-flash@europe-west8",
+      "name": "coding/gemini-2.5-flash@europe-west8",
       "modality": [
         "text"
       ],
@@ -15713,7 +16815,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-lite",
       "provider_id": "requesty",
-      "name": "vertex/gemini-2.5-flash-lite",
+      "name": "google/gemini-2.5-flash-lite",
       "modality": [
         "text"
       ],
@@ -15731,7 +16833,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-us-central1",
       "provider_id": "requesty",
-      "name": "vertex/gemini-2.5-flash@us-central1",
+      "name": "coding/gemini-2.5-flash@us-central1",
       "modality": [
         "text"
       ],
@@ -15749,7 +16851,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-us-east1",
       "provider_id": "requesty",
-      "name": "vertex/gemini-2.5-flash@us-east1",
+      "name": "coding/gemini-2.5-flash@us-east1",
       "modality": [
         "text"
       ],
@@ -15767,7 +16869,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-us-east5",
       "provider_id": "requesty",
-      "name": "vertex/gemini-2.5-flash@us-east5",
+      "name": "coding/gemini-2.5-flash@us-east5",
       "modality": [
         "text"
       ],
@@ -15785,7 +16887,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-us-south1",
       "provider_id": "requesty",
-      "name": "vertex/gemini-2.5-flash@us-south1",
+      "name": "coding/gemini-2.5-flash@us-south1",
       "modality": [
         "text"
       ],
@@ -15803,7 +16905,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-us-west1",
       "provider_id": "requesty",
-      "name": "vertex/gemini-2.5-flash@us-west1",
+      "name": "coding/gemini-2.5-flash@us-west1",
       "modality": [
         "text"
       ],
@@ -15821,7 +16923,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash",
       "provider_id": "requesty",
-      "name": "vertex/gemini-2.5-flash",
+      "name": "coding/gemini-2.5-flash",
       "modality": [
         "text"
       ],
@@ -15839,7 +16941,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-europe-central2",
       "provider_id": "requesty",
-      "name": "vertex/gemini-2.5-pro@europe-central2",
+      "name": "coding/gemini-2.5-pro@europe-central2",
       "modality": [
         "text"
       ],
@@ -15857,7 +16959,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-europe-north1",
       "provider_id": "requesty",
-      "name": "vertex/gemini-2.5-pro@europe-north1",
+      "name": "coding/gemini-2.5-pro@europe-north1",
       "modality": [
         "text"
       ],
@@ -15875,7 +16977,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-europe-west1",
       "provider_id": "requesty",
-      "name": "vertex/gemini-2.5-pro@europe-west1",
+      "name": "coding/gemini-2.5-pro@europe-west1",
       "modality": [
         "text"
       ],
@@ -15893,7 +16995,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-europe-west4",
       "provider_id": "requesty",
-      "name": "vertex/gemini-2.5-pro@europe-west4",
+      "name": "coding/gemini-2.5-pro@europe-west4",
       "modality": [
         "text"
       ],
@@ -15911,7 +17013,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-europe-west8",
       "provider_id": "requesty",
-      "name": "vertex/gemini-2.5-pro@europe-west8",
+      "name": "coding/gemini-2.5-pro@europe-west8",
       "modality": [
         "text"
       ],
@@ -15929,7 +17031,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-us-central1",
       "provider_id": "requesty",
-      "name": "vertex/gemini-2.5-pro@us-central1",
+      "name": "coding/gemini-2.5-pro@us-central1",
       "modality": [
         "text"
       ],
@@ -15947,7 +17049,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-us-east1",
       "provider_id": "requesty",
-      "name": "vertex/gemini-2.5-pro@us-east1",
+      "name": "coding/gemini-2.5-pro@us-east1",
       "modality": [
         "text"
       ],
@@ -15965,7 +17067,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-us-east5",
       "provider_id": "requesty",
-      "name": "vertex/gemini-2.5-pro@us-east5",
+      "name": "coding/gemini-2.5-pro@us-east5",
       "modality": [
         "text"
       ],
@@ -15983,7 +17085,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-us-south1",
       "provider_id": "requesty",
-      "name": "vertex/gemini-2.5-pro@us-south1",
+      "name": "coding/gemini-2.5-pro@us-south1",
       "modality": [
         "text"
       ],
@@ -16001,7 +17103,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-us-west1",
       "provider_id": "requesty",
-      "name": "vertex/gemini-2.5-pro@us-west1",
+      "name": "coding/gemini-2.5-pro@us-west1",
       "modality": [
         "text"
       ],
@@ -16019,7 +17121,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro",
       "provider_id": "requesty",
-      "name": "vertex/gemini-2.5-pro",
+      "name": "coding/gemini-2.5-pro",
       "modality": [
         "text"
       ],
@@ -16055,7 +17157,7 @@
     {
       "model_id": "requesty/gemini-3-flash-preview",
       "provider_id": "requesty",
-      "name": "vertex/gemini-3-flash-preview",
+      "name": "google/gemini-3-flash-preview",
       "modality": [
         "text"
       ],
@@ -16091,7 +17193,7 @@
     {
       "model_id": "requesty/gemini-3-pro-preview",
       "provider_id": "requesty",
-      "name": "vertex/gemini-3-pro-preview",
+      "name": "google/gemini-3-pro-preview",
       "modality": [
         "text"
       ],
@@ -16109,7 +17211,7 @@
     {
       "model_id": "requesty/gemini-3.1-flash-image",
       "provider_id": "requesty",
-      "name": "vertex/gemini-3.1-flash-image",
+      "name": "google/gemini-3.1-flash-image",
       "modality": [
         "text"
       ],
@@ -16163,7 +17265,7 @@
     {
       "model_id": "requesty/gemini-3.1-flash-lite",
       "provider_id": "requesty",
-      "name": "vertex/gemini-3.1-flash-lite",
+      "name": "google/gemini-3.1-flash-lite",
       "modality": [
         "text"
       ],
@@ -16199,7 +17301,7 @@
     {
       "model_id": "requesty/gemini-3.1-pro-preview",
       "provider_id": "requesty",
-      "name": "vertex/gemini-3.1-pro-preview",
+      "name": "google/gemini-3.1-pro-preview",
       "modality": [
         "text"
       ],
@@ -16343,7 +17445,7 @@
     {
       "model_id": "requesty/gemma-4-26b-a4b-it",
       "provider_id": "requesty",
-      "name": "deepinfra/google/gemma-4-26B-A4B-it",
+      "name": "novita/google/gemma-4-26b-a4b-it",
       "modality": [
         "text"
       ],
@@ -16397,7 +17499,7 @@
     {
       "model_id": "requesty/glm-4.5",
       "provider_id": "requesty",
-      "name": "deepinfra/zai-org/GLM-4.5",
+      "name": "zai/GLM-4.5",
       "modality": [
         "text"
       ],
@@ -16415,7 +17517,7 @@
     {
       "model_id": "requesty/glm-4.6",
       "provider_id": "requesty",
-      "name": "zai/GLM-4.6",
+      "name": "novita/zai-org/glm-4.6",
       "modality": [
         "text"
       ],
@@ -16451,7 +17553,7 @@
     {
       "model_id": "requesty/glm-5.1",
       "provider_id": "requesty",
-      "name": "deepinfra/zai-org/GLM-5.1",
+      "name": "fireworks/glm-5.1",
       "modality": [
         "text"
       ],
@@ -16523,7 +17625,7 @@
     {
       "model_id": "requesty/glm-5",
       "provider_id": "requesty",
-      "name": "zai/GLM-5",
+      "name": "novita/GLM-5",
       "modality": [
         "text"
       ],
@@ -16577,7 +17679,7 @@
     {
       "model_id": "requesty/gpt-4.1-mini-eastus2",
       "provider_id": "requesty",
-      "name": "azure/gpt-4.1-mini@eastus2",
+      "name": "azure/openai-responses/gpt-4.1-mini@eastus2",
       "modality": [
         "text"
       ],
@@ -16649,7 +17751,7 @@
     {
       "model_id": "requesty/gpt-4.1-mini",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-4.1-mini",
+      "name": "openai/gpt-4.1-mini",
       "modality": [
         "text"
       ],
@@ -16757,7 +17859,7 @@
     {
       "model_id": "requesty/gpt-4.1-nano",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-4.1-nano",
+      "name": "azure/openai-responses/gpt-4.1-nano",
       "modality": [
         "text"
       ],
@@ -16829,7 +17931,7 @@
     {
       "model_id": "requesty/gpt-4.1",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-4.1",
+      "name": "azure/gpt-4.1",
       "modality": [
         "text"
       ],
@@ -17153,7 +18255,7 @@
     {
       "model_id": "requesty/gpt-5-mini",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-5-mini",
+      "name": "azure/gpt-5-mini",
       "modality": [
         "text"
       ],
@@ -17243,7 +18345,7 @@
     {
       "model_id": "requesty/gpt-5-nano",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-5-nano",
+      "name": "azure/gpt-5-nano",
       "modality": [
         "text"
       ],
@@ -17423,7 +18525,7 @@
     {
       "model_id": "requesty/gpt-5.1",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-5.1",
+      "name": "azure/gpt-5.1",
       "modality": [
         "text"
       ],
@@ -17513,7 +18615,7 @@
     {
       "model_id": "requesty/gpt-5.2",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-5.2",
+      "name": "openai/gpt-5.2",
       "modality": [
         "text"
       ],
@@ -17531,7 +18633,7 @@
     {
       "model_id": "requesty/gpt-5.3-chat",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-5.3-chat",
+      "name": "openai/gpt-5.3-chat",
       "modality": [
         "text"
       ],
@@ -17585,7 +18687,7 @@
     {
       "model_id": "requesty/gpt-5.4-eastus2",
       "provider_id": "requesty",
-      "name": "azure/gpt-5.4@eastus2",
+      "name": "azure/openai-responses/gpt-5.4@eastus2",
       "modality": [
         "text"
       ],
@@ -17639,7 +18741,7 @@
     {
       "model_id": "requesty/gpt-5.4-mini",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-5.4-mini",
+      "name": "azure/gpt-5.4-mini",
       "modality": [
         "text"
       ],
@@ -17657,7 +18759,7 @@
     {
       "model_id": "requesty/gpt-5.4-nano",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-5.4-nano",
+      "name": "openai/gpt-5.4-nano",
       "modality": [
         "text"
       ],
@@ -17711,7 +18813,7 @@
     {
       "model_id": "requesty/gpt-5.4-swedencentral",
       "provider_id": "requesty",
-      "name": "azure/gpt-5.4@swedencentral",
+      "name": "azure/openai-responses/gpt-5.4@swedencentral",
       "modality": [
         "text"
       ],
@@ -17783,7 +18885,7 @@
     {
       "model_id": "requesty/gpt-5.4",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-5.4",
+      "name": "azure/gpt-5.4",
       "modality": [
         "text"
       ],
@@ -17801,7 +18903,7 @@
     {
       "model_id": "requesty/gpt-5.5-eastus2",
       "provider_id": "requesty",
-      "name": "azure/gpt-5.5@eastus2",
+      "name": "azure/openai-responses/gpt-5.5@eastus2",
       "modality": [
         "text"
       ],
@@ -17837,7 +18939,7 @@
     {
       "model_id": "requesty/gpt-5.5-swedencentral",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-5.5@swedencentral",
+      "name": "azure/gpt-5.5@swedencentral",
       "modality": [
         "text"
       ],
@@ -17891,7 +18993,7 @@
     {
       "model_id": "requesty/gpt-5.5",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-5.5",
+      "name": "openai/gpt-5.5",
       "modality": [
         "text"
       ],
@@ -17927,7 +19029,7 @@
     {
       "model_id": "requesty/gpt-5.6-luna-swedencentral",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-5.6-luna@swedencentral",
+      "name": "azure/gpt-5.6-luna@swedencentral",
       "modality": [
         "text"
       ],
@@ -17945,7 +19047,7 @@
     {
       "model_id": "requesty/gpt-5.6-luna",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-5.6-luna",
+      "name": "openai/gpt-5.6-luna",
       "modality": [
         "text"
       ],
@@ -17999,7 +19101,7 @@
     {
       "model_id": "requesty/gpt-5.6-sol",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-5.6-sol",
+      "name": "openai/gpt-5.6-sol",
       "modality": [
         "text"
       ],
@@ -18035,7 +19137,7 @@
     {
       "model_id": "requesty/gpt-5.6-terra-swedencentral",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-5.6-terra@swedencentral",
+      "name": "azure/gpt-5.6-terra@swedencentral",
       "modality": [
         "text"
       ],
@@ -18053,7 +19155,7 @@
     {
       "model_id": "requesty/gpt-5.6-terra",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-5.6-terra",
+      "name": "openai/gpt-5.6-terra",
       "modality": [
         "text"
       ],
@@ -18071,7 +19173,7 @@
     {
       "model_id": "requesty/gpt-5",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-5",
+      "name": "azure/gpt-5",
       "modality": [
         "text"
       ],
@@ -18593,7 +19695,7 @@
     {
       "model_id": "requesty/kimi-k2.5",
       "provider_id": "requesty",
-      "name": "deepinfra/Kimi K2.5",
+      "name": "moonshot/kimi-k2.5",
       "modality": [
         "text"
       ],
@@ -18611,7 +19713,7 @@
     {
       "model_id": "requesty/kimi-k2.6",
       "provider_id": "requesty",
-      "name": "deepinfra/moonshotai/Kimi-K2.6",
+      "name": "fireworks/kimi-k2.6",
       "modality": [
         "text"
       ],
@@ -18629,7 +19731,7 @@
     {
       "model_id": "requesty/kimi-k2.7-code",
       "provider_id": "requesty",
-      "name": "moonshot/kimi-k2.7-code",
+      "name": "fireworks/kimi-k2.7-code",
       "modality": [
         "text"
       ],
@@ -18665,7 +19767,7 @@
     {
       "model_id": "requesty/kimi-k3",
       "provider_id": "requesty",
-      "name": "moonshot/kimi-k3",
+      "name": "fireworks/kimi-k3",
       "modality": [
         "text"
       ],
@@ -18881,7 +19983,7 @@
     {
       "model_id": "requesty/llama-3.3-70b-instruct",
       "provider_id": "requesty",
-      "name": "deepinfra/meta-llama/Llama-3.3-70B-Instruct",
+      "name": "novita/meta-llama/llama-3.3-70b-instruct",
       "modality": [
         "text"
       ],
@@ -18971,7 +20073,7 @@
     {
       "model_id": "requesty/mimo-v2.5-pro",
       "provider_id": "requesty",
-      "name": "deepinfra/XiaomiMiMo/MiMo-V2.5-Pro",
+      "name": "xiaomi/mimo-v2.5-pro",
       "modality": [
         "text"
       ],
@@ -18989,7 +20091,7 @@
     {
       "model_id": "requesty/mimo-v2.5",
       "provider_id": "requesty",
-      "name": "deepinfra/XiaomiMiMo/MiMo-V2.5",
+      "name": "xiaomi/mimo-v2.5",
       "modality": [
         "text"
       ],
@@ -19169,7 +20271,7 @@
     {
       "model_id": "requesty/minimax-m2.7-highspeed",
       "provider_id": "requesty",
-      "name": "minimaxi/minimax-m2.7-highspeed",
+      "name": "novita/minimax/minimax-m2.7-highspeed",
       "modality": [
         "text"
       ],
@@ -19385,7 +20487,7 @@
     {
       "model_id": "requesty/nemotron-3-nano-30b-a3b",
       "provider_id": "requesty",
-      "name": "deepinfra/nvidia/Nemotron-3-Nano-30B-A3B",
+      "name": "nvidia/nemotron-3-nano-30b-a3b",
       "modality": [
         "text"
       ],
@@ -19439,7 +20541,7 @@
     {
       "model_id": "requesty/nemotron-3-super-120b-a12b",
       "provider_id": "requesty",
-      "name": "nebius/nvidia/nemotron-3-super-120b-a12b",
+      "name": "nvidia/nemotron-3-super-120b-a12b",
       "modality": [
         "text"
       ],
@@ -19457,7 +20559,7 @@
     {
       "model_id": "requesty/nemotron-3-ultra-550b-a55b",
       "provider_id": "requesty",
-      "name": "nebius/nvidia/nemotron-3-ultra-550b-a55b",
+      "name": "nvidia/nemotron-3-ultra-550b-a55b",
       "modality": [
         "text"
       ],
@@ -19709,7 +20811,7 @@
     {
       "model_id": "requesty/o3-mini",
       "provider_id": "requesty",
-      "name": "openai-responses/o3-mini",
+      "name": "openai/o3-mini",
       "modality": [
         "text"
       ],
@@ -19907,7 +21009,7 @@
     {
       "model_id": "requesty/o4-mini",
       "provider_id": "requesty",
-      "name": "openai-responses/o4-mini",
+      "name": "openai/o4-mini",
       "modality": [
         "text"
       ],
@@ -20159,7 +21261,7 @@
     {
       "model_id": "requesty/qwen3-235b-a22b-instruct-2507",
       "provider_id": "requesty",
-      "name": "deepinfra/Qwen/Qwen3-235B-A22B-Instruct-2507",
+      "name": "nebius/qwen/qwen3-235b-a22b-instruct-2507",
       "modality": [
         "text"
       ],
@@ -20231,7 +21333,7 @@
     {
       "model_id": "requesty/qwen3-32b",
       "provider_id": "requesty",
-      "name": "deepinfra/Qwen/Qwen3-32B",
+      "name": "nebius/qwen/qwen3-32b",
       "modality": [
         "text"
       ],
@@ -20411,7 +21513,7 @@
     {
       "model_id": "requesty/qwen3.5-397b-a17b",
       "provider_id": "requesty",
-      "name": "deepinfra/Qwen/Qwen3.5-397B-A17B",
+      "name": "novita/qwen/qwen3.5-397b-a17b",
       "modality": [
         "text"
       ],

@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "6101f88",
-  "count": 1431,
+  "source_revision": "117e179",
+  "count": 1481,
   "intelligence": [
     {
       "model_id": "anthropic/claude-3-5-haiku",
@@ -14,14 +14,14 @@
           "reason": "Cross-provider alternative from google with larger context window (2000000)"
         },
         {
-          "model_id": "google/gemini-1.5-flash",
-          "name": "Gemini 1.5 Flash",
-          "reason": "Cross-provider alternative from google with larger context window (1000000)"
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
         },
         {
-          "model_id": "anthropic/claude-3-5-sonnet",
-          "name": "Claude 3.5 Sonnet",
-          "reason": "Alternative from the same provider"
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
     },
@@ -36,14 +36,14 @@
           "reason": "Cross-provider alternative from google with larger context window (2000000)"
         },
         {
-          "model_id": "google/gemini-1.5-flash",
-          "name": "Gemini 1.5 Flash",
-          "reason": "Cross-provider alternative from google with larger context window (1000000)"
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
         },
         {
-          "model_id": "anthropic/claude-3-5-haiku",
-          "name": "Claude 3.5 Haiku",
-          "reason": "Alternative from the same provider"
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
     },
@@ -4250,6 +4250,116 @@
       ]
     },
     {
+      "model_id": "google/antigravity-preview-05-2026",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/aqa",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/deep-research-max-preview-04-2026",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/deep-research-preview-04-2026",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/deep-research-pro-preview-12-2025",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
       "model_id": "google/gemini-1.5-flash",
       "cost_tier": "Budget-Friendly",
       "blended_cost_per_1m": 0.13124999999999998,
@@ -4258,6 +4368,16 @@
           "model_id": "google/gemini-1.5-pro",
           "name": "Gemini 1.5 Pro",
           "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
         }
       ]
     },
@@ -4267,9 +4387,1009 @@
       "blended_cost_per_1m": 2.1875,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-flash",
-          "name": "Gemini 1.5 Flash",
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
           "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-lite",
+          "name": "Gemini 2.0 Flash-Lite",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-2.0-flash-001",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-lite",
+          "name": "Gemini 2.0 Flash-Lite",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-2.0-flash-lite-001",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-2.0-flash-lite",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-2.0-flash",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-lite",
+          "name": "Gemini 2.0 Flash-Lite",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-2.5-computer-use-preview-10-2025",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-2.5-flash-image",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-2.5-flash-lite",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-2.5-flash-preview-tts",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-2.5-flash",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-2.5-pro-preview-tts",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-2.5-pro",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-3-flash-preview",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-3-pro-image-preview",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-3-pro-image",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-3-pro-preview",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-3.1-flash-image-preview",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-3.1-flash-image",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-3.1-flash-lite-image",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-3.1-flash-lite-preview",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-3.1-flash-lite",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-3.1-flash-tts-preview",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-3.1-pro-preview-customtools",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-3.1-pro-preview",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-3.5-flash-lite",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-3.5-flash",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-3.6-flash",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-embedding-001",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-embedding-2-preview",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-embedding-2",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-flash-latest",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-flash-lite-latest",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-omni-flash-preview",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-pro-latest",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-robotics-er-1.5-preview",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-robotics-er-1.6-preview",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-robotics-er-2-preview",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemma-4-26b-a4b-it",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemma-4-31b-it",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/imagen-4.0-fast-generate-001",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/imagen-4.0-generate-001",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/imagen-4.0-ultra-generate-001",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/lyria-3-clip-preview",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/lyria-3-pro-preview",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/nano-banana-pro-preview",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/veo-3.1-generate-preview",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-1.5-pro",
+          "name": "Gemini 1.5 Pro",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto",
+          "name": "openrouter/auto",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/auto-beta",
+          "name": "openrouter/auto-beta",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
         }
       ]
     },
@@ -4724,14 +5844,14 @@
           "reason": "Cross-provider alternative from google with larger context window (2000000)"
         },
         {
-          "model_id": "google/gemini-1.5-flash",
-          "name": "Gemini 1.5 Flash",
-          "reason": "Cross-provider alternative from google with larger context window (1000000)"
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
         },
         {
-          "model_id": "anthropic/claude-3-5-haiku",
-          "name": "Claude 3.5 Haiku",
-          "reason": "Cross-provider alternative from anthropic with larger context window (200000)"
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
     },
@@ -4746,14 +5866,14 @@
           "reason": "Cross-provider alternative from google with larger context window (2000000)"
         },
         {
-          "model_id": "google/gemini-1.5-flash",
-          "name": "Gemini 1.5 Flash",
-          "reason": "Cross-provider alternative from google with larger context window (1000000)"
+          "model_id": "google/gemini-2.0-flash",
+          "name": "Gemini 2.0 Flash",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
         },
         {
-          "model_id": "anthropic/claude-3-5-haiku",
-          "name": "Claude 3.5 Haiku",
-          "reason": "Cross-provider alternative from anthropic with larger context window (200000)"
+          "model_id": "google/gemini-2.0-flash-001",
+          "name": "Gemini 2.0 Flash 001",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
     },

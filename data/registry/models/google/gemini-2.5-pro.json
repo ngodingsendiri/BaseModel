@@ -1,0 +1,23 @@
+{
+  "model_id": "google/gemini-2.5-pro",
+  "provider_id": "google",
+  "name": "Gemini 2.5 Pro",
+  "description": "Stable release (June 17th, 2025) of Gemini 2.5 Pro",
+  "context_window": 1048576,
+  "modality": [
+    "text",
+    "image",
+    "audio",
+    "video"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": true,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active"
+}

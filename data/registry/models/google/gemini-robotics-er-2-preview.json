@@ -1,0 +1,23 @@
+{
+  "model_id": "google/gemini-robotics-er-2-preview",
+  "provider_id": "google",
+  "name": "Gemini Robotics-ER 2 Preview",
+  "description": "Gemini Robotics-ER 2 Preview",
+  "context_window": 131072,
+  "modality": [
+    "text",
+    "image",
+    "audio",
+    "video"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": true,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active"
+}

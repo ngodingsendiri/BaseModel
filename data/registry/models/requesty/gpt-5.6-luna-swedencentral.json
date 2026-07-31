@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gpt-5.6-luna-swedencentral",
   "provider_id": "requesty",
-  "name": "azure/openai-responses/gpt-5.6-luna@swedencentral",
+  "name": "azure/gpt-5.6-luna@swedencentral",
   "modality": [
     "text"
   ],

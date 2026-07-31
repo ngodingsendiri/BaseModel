@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/claude-sonnet-5",
   "provider_id": "requesty",
-  "name": "vertex/claude-sonnet-5",
+  "name": "anthropic/claude-sonnet-5",
   "modality": [
     "text"
   ],

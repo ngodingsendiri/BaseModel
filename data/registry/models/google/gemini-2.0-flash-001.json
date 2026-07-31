@@ -1,0 +1,23 @@
+{
+  "model_id": "google/gemini-2.0-flash-001",
+  "provider_id": "google",
+  "name": "Gemini 2.0 Flash 001",
+  "description": "Stable version of Gemini 2.0 Flash, our fast and versatile multimodal model for scaling across diverse tasks, released in January of 2025.",
+  "context_window": 1048576,
+  "modality": [
+    "text",
+    "image",
+    "audio",
+    "video"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": true,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active"
+}
