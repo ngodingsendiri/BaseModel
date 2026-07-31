@@ -69,5 +69,15 @@ jobs:
           git config user.email "bot@basemodel"
           git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git add data/registry/ dist/
-          git diff --cached --quiet && echo "No changes to commit" || git commit -m "chore(data): nightly sync [skip ci]"
-          git push origin HEAD:main
+          git commit -m "chore(data): nightly sync [skip ci]" || echo "No changes to commit"
+          if git pull --rebase origin main --autostash; then
+            git push origin HEAD:main
+          else
+            echo "Rebase conflicted; keeping collected data and regenerating dist/"
+            git checkout --theirs -- data/registry/ dist/
+            git add data/registry/ dist/
+            pnpm --filter @basemodel/publisher run generate
+            git add dist/
+            git -c core.editor=true rebase --continue
+            git push origin HEAD:main
+          fi
