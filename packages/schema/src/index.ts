@@ -1,4 +1,4 @@
-﻿/**
+/**
  * @basemodel/schema
  *
  * Canonical Zod schemas and TypeScript types for BaseModel entities.

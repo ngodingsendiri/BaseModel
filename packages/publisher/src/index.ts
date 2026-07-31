@@ -1,4 +1,4 @@
-﻿/**
+/**
  * @basemodel/publisher
  *
  * Generates the public JSON datasets from the registry and intelligence layer.

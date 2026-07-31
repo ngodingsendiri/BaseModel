@@ -1,4 +1,4 @@
-﻿/**
+/**
  * @basemodel/intelligence
  *
  * Derived intelligence over canonical registry data.

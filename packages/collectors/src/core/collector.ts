@@ -1,4 +1,4 @@
-﻿import type { Model } from '@basemodel/schema';
+import type { Model } from '@basemodel/schema';
 
 export interface CollectionResult {
   provider_id: string;

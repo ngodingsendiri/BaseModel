@@ -1,4 +1,4 @@
-﻿import type { SimpleGateway } from '../core/collector';
+import type { SimpleGateway } from '../core/collector';
 
 /**
  * Groq — Ultra-fast inference gateway.

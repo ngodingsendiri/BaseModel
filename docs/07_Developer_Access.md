@@ -1,4 +1,4 @@
-﻿# Developer Access & Integration
+# Developer Access & Integration
 
 BaseModel is designed to be consumed by SDKs, CLIs, agents, dashboards, and
 other applications that need structured AI model intelligence.

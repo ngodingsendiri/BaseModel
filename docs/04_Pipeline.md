@@ -1,4 +1,4 @@
-﻿# BaseModel Pipeline
+# BaseModel Pipeline
 
 This document describes how data moves through BaseModel.
 

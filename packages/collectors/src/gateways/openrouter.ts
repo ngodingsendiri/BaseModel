@@ -1,4 +1,4 @@
-﻿import type { SimpleGateway } from '../core/collector';
+import type { SimpleGateway } from '../core/collector';
 
 /**
  * OpenRouter — Aggregator gateway with 200+ models.

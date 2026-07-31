@@ -1,4 +1,4 @@
-﻿# BaseModel Vision
+# BaseModel Vision
 
 ## What BaseModel Is
 

@@ -1,4 +1,4 @@
-﻿# BaseModel Philosophy
+# BaseModel Philosophy
 
 This document defines the principles that should remain stable even when the implementation changes.
 

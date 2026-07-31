@@ -1,4 +1,4 @@
-﻿import type { ZodError, ZodSchema } from 'zod';
+import type { ZodError, ZodSchema } from 'zod';
 
 /**
  * Validation result returned by the registry helpers.

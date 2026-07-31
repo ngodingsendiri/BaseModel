@@ -1,4 +1,4 @@
-﻿import type { Model } from '@basemodel/schema';
+import type { Model } from '@basemodel/schema';
 import { ModelSchema } from '@basemodel/schema';
 import { validate } from './validation';
 

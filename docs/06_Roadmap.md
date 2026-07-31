@@ -1,4 +1,4 @@
-﻿# BaseModel Roadmap
+# BaseModel Roadmap
 
 This document describes the current direction of the project rather than a fixed delivery schedule.
 

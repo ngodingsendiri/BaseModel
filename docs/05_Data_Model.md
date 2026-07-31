@@ -1,4 +1,4 @@
-﻿# BaseModel Data Model
+# BaseModel Data Model
 
 This document defines the canonical domain model for BaseModel.
 

@@ -1,4 +1,4 @@
-﻿# BaseModel Architecture
+# BaseModel Architecture
 
 This document describes the major components of BaseModel and the responsibility of each component.
 

@@ -1,4 +1,4 @@
-﻿# Gateway Plugin Security
+# Gateway Plugin Security
 
 Gateway plugins are executable code. BaseModel treats them as untrusted until
 their source, path, and secret requirements are reviewed.
