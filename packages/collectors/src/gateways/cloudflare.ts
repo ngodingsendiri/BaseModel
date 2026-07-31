@@ -1,0 +1,118 @@
+import { z } from 'zod';
+import type { CollectionResult, CustomGateway } from '../core/collector';
+
+// Cloudflare Workers AI model catalog.
+// Docs: https://developers.cloudflare.com/api/resources/workers_ai/subresources/models/methods/search/
+const CloudflareModelSchema = z.object({
+  id: z.string(),
+  name: z.string().optional(),
+  description: z.string().optional(),
+  task: z
+    .object({
+      id: z.string(),
+      name: z.string().optional(),
+    })
+    .optional(),
+});
+
+const CloudflareResponseSchema = z.object({
+  success: z.boolean(),
+  result: z.array(CloudflareModelSchema),
+  result_info: z
+    .object({
+      page: z.number(),
+      per_page: z.number(),
+      total_count: z.number(),
+    })
+    .optional(),
+});
+
+function toSlug(apiId: string): string {
+  const lastSegment = (apiId.split('/').pop() ?? apiId).toLowerCase();
+  const slug = lastSegment
+    .replace(/[^a-z0-9.-]+/g, '-')
+    .replace(/-{2,}/g, '-')
+    .replace(/^[-.]+|[-.]+$/g, '');
+  return slug || 'model';
+}
+
+export default {
+  type: 'custom',
+  id: 'cloudflare',
+
+  async collect(secrets): Promise<CollectionResult> {
+    const result: CollectionResult = { provider_id: 'cloudflare', models: [], errors: [] };
+    const accountId = secrets.CLOUDFLARE_ACCOUNT_ID;
+    const apiToken = secrets.CLOUDFLARE_API_TOKEN;
+
+    if (!accountId || !apiToken) {
+      result.errors.push(
+        'CLOUDFLARE_ACCOUNT_ID and CLOUDFLARE_API_TOKEN are required. Add them to GitHub Secrets.',
+      );
+      return result;
+    }
+
+    try {
+      let page = 1;
+      for (;;) {
+        const url = new URL(
+          `https://api.cloudflare.com/client/v4/accounts/${encodeURIComponent(accountId)}/ai/models/search`,
+        );
+        url.searchParams.set('page', String(page));
+        url.searchParams.set('per_page', '100');
+
+        const response = await fetch(url, {
+          headers: {
+            Authorization: `Bearer ${apiToken}`,
+            'Content-Type': 'application/json',
+          },
+          signal: AbortSignal.timeout(15_000),
+        });
+        if (!response.ok) throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+
+        const raw = (await response.json()) as unknown;
+        const parsed = CloudflareResponseSchema.safeParse(raw);
+        if (!parsed.success) {
+          result.errors.push(`Parse failed: ${parsed.error.message}`);
+          return result;
+        }
+        if (!parsed.data.success) {
+          result.errors.push('Cloudflare API returned success=false.');
+          return result;
+        }
+
+        for (const m of parsed.data.result) {
+          const slug = toSlug(m.id);
+          const taskId = (m.task?.id ?? '').toLowerCase();
+          const isImage = taskId.includes('image') || taskId.includes('text-to-image');
+          const isEmbedding = taskId.includes('embedding');
+
+          result.models.push({
+            model_id: `cloudflare/${slug}`,
+            provider_id: 'cloudflare',
+            name: m.name ?? m.id,
+            description: m.description,
+            status: 'active',
+            modality: isEmbedding ? ['text'] : isImage ? ['text', 'image'] : ['text'],
+            open_weight: true,
+            reasoning_support: false,
+            function_calling: false,
+            structured_output: false,
+            vision_support: isImage || taskId.includes('image'),
+            audio_support: taskId.includes('audio') || taskId.includes('speech'),
+            image_generation: isImage,
+            embedding_support: isEmbedding,
+          });
+        }
+
+        const info = parsed.data.result_info;
+        if (!info || page * info.per_page >= info.total_count) break;
+        page += 1;
+      }
+    } catch (e: unknown) {
+      result.errors.push(e instanceof Error ? e.message : 'Unknown error');
+    }
+
+    return result;
+  },
+} satisfies CustomGateway;

@@ -239,6 +239,12 @@ const PROVIDER_INFO: Record<string, ProviderInfo> = {
     website: 'https://www.cerebras.ai',
     provider_type: 'first-party',
   },
+  cloudflare: {
+    name: 'Cloudflare',
+    organization: 'Cloudflare, Inc.',
+    website: 'https://www.cloudflare.com',
+    provider_type: 'first-party',
+  },
   deepinfra: {
     name: 'DeepInfra',
     organization: 'DeepInfra',
@@ -267,6 +273,12 @@ const PROVIDER_INFO: Record<string, ProviderInfo> = {
     name: 'Hyperbolic',
     organization: 'Hyperbolic Labs, Inc.',
     website: 'https://hyperbolic.xyz',
+    provider_type: 'first-party',
+  },
+  'mistral-ai': {
+    name: 'Mistral AI',
+    organization: 'Mistral AI SAS',
+    website: 'https://mistral.ai',
     provider_type: 'first-party',
   },
   openrouter: {
