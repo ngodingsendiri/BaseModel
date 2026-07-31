@@ -1,0 +1,18 @@
+{
+  "model_id": "deepinfra/qwen3.6-35b-a3b",
+  "provider_id": "deepinfra",
+  "name": "Qwen/Qwen3.6-35B-A3B",
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active"
+}

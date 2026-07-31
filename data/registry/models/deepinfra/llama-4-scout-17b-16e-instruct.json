@@ -1,0 +1,18 @@
+{
+  "model_id": "deepinfra/llama-4-scout-17b-16e-instruct",
+  "provider_id": "deepinfra",
+  "name": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active"
+}

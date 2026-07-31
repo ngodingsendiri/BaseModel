@@ -1,0 +1,18 @@
+{
+  "model_id": "requesty/llama-3.3-70b-instruct",
+  "provider_id": "requesty",
+  "name": "deepinfra/meta-llama/Llama-3.3-70B-Instruct",
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active"
+}

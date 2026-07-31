@@ -1,0 +1,18 @@
+{
+  "model_id": "requesty/nemotron-3.5-content-safety",
+  "provider_id": "requesty",
+  "name": "nvidia/nemotron-3.5-content-safety",
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active"
+}

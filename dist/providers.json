@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "3077a88",
-  "count": 5,
+  "source_revision": "4570785",
+  "count": 12,
   "providers": [
     {
       "provider_id": "anthropic",
@@ -15,6 +15,22 @@
       "status": "active"
     },
     {
+      "provider_id": "cerebras",
+      "name": "Cerebras",
+      "organization": "Cerebras Systems",
+      "website": "https://www.cerebras.ai",
+      "provider_type": "first-party",
+      "status": "active"
+    },
+    {
+      "provider_id": "deepinfra",
+      "name": "DeepInfra",
+      "organization": "DeepInfra",
+      "website": "https://deepinfra.com",
+      "provider_type": "first-party",
+      "status": "active"
+    },
+    {
       "provider_id": "google",
       "name": "Google",
       "organization": "Google LLC (DeepMind)",
@@ -22,6 +38,22 @@
       "documentation": "https://ai.google.dev/docs",
       "country": "US",
       "description": "Technology company and developer of the Gemini model family and other AI research.",
+      "provider_type": "first-party",
+      "status": "active"
+    },
+    {
+      "provider_id": "groq",
+      "name": "Groq",
+      "organization": "Groq, Inc.",
+      "website": "https://groq.com",
+      "provider_type": "first-party",
+      "status": "active"
+    },
+    {
+      "provider_id": "hyperbolic",
+      "name": "Hyperbolic",
+      "organization": "Hyperbolic Labs, Inc.",
+      "website": "https://hyperbolic.xyz",
       "provider_type": "first-party",
       "status": "active"
     },
@@ -56,6 +88,30 @@
       "country": "US",
       "description": "American AI research laboratory and developer of the GPT model family, DALL-E, and other AI systems.",
       "provider_type": "first-party",
+      "status": "active"
+    },
+    {
+      "provider_id": "openrouter",
+      "name": "OpenRouter",
+      "organization": "OpenRouter",
+      "website": "https://openrouter.ai",
+      "provider_type": "router",
+      "status": "active"
+    },
+    {
+      "provider_id": "requesty",
+      "name": "Requesty",
+      "organization": "Requesty",
+      "website": "https://requesty.ai",
+      "provider_type": "gateway",
+      "status": "active"
+    },
+    {
+      "provider_id": "vercel",
+      "name": "Vercel",
+      "organization": "Vercel, Inc.",
+      "website": "https://vercel.com",
+      "provider_type": "gateway",
       "status": "active"
     }
   ]

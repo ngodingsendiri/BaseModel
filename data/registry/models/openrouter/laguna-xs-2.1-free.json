@@ -1,0 +1,19 @@
+{
+  "model_id": "openrouter/laguna-xs-2.1-free",
+  "provider_id": "openrouter",
+  "name": "poolside/laguna-xs-2.1:free",
+  "context_window": 262144,
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active"
+}

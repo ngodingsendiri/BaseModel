@@ -1,0 +1,19 @@
+{
+  "model_id": "openrouter/llama-guard-4-12b",
+  "provider_id": "openrouter",
+  "name": "meta-llama/llama-guard-4-12b",
+  "context_window": 1048576,
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active"
+}

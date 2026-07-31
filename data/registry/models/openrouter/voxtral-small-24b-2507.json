@@ -1,0 +1,19 @@
+{
+  "model_id": "openrouter/voxtral-small-24b-2507",
+  "provider_id": "openrouter",
+  "name": "mistralai/voxtral-small-24b-2507",
+  "context_window": 32000,
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active"
+}

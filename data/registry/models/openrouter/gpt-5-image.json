@@ -1,0 +1,19 @@
+{
+  "model_id": "openrouter/gpt-5-image",
+  "provider_id": "openrouter",
+  "name": "openai/gpt-5-image",
+  "context_window": 400000,
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active"
+}

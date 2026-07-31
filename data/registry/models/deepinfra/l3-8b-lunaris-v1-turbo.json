@@ -1,0 +1,18 @@
+{
+  "model_id": "deepinfra/l3-8b-lunaris-v1-turbo",
+  "provider_id": "deepinfra",
+  "name": "Sao10K/L3-8B-Lunaris-v1-Turbo",
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active"
+}

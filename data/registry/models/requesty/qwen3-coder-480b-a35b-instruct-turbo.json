@@ -1,0 +1,18 @@
+{
+  "model_id": "requesty/qwen3-coder-480b-a35b-instruct-turbo",
+  "provider_id": "requesty",
+  "name": "deepinfra/Qwen/Qwen3-Coder-480B-A35B-Instruct-Turbo",
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active"
+}

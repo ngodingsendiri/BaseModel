@@ -1,0 +1,18 @@
+{
+  "model_id": "deepinfra/bge-base-en-v1.5",
+  "provider_id": "deepinfra",
+  "name": "BAAI/bge-base-en-v1.5",
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active"
+}

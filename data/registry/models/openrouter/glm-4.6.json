@@ -1,0 +1,19 @@
+{
+  "model_id": "openrouter/glm-4.6",
+  "provider_id": "openrouter",
+  "name": "z-ai/glm-4.6",
+  "context_window": 204800,
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active"
+}

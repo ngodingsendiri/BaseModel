@@ -1,0 +1,19 @@
+{
+  "model_id": "openrouter/weaver",
+  "provider_id": "openrouter",
+  "name": "mancer/weaver",
+  "context_window": 8000,
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active"
+}

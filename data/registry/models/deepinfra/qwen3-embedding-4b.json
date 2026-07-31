@@ -1,0 +1,18 @@
+{
+  "model_id": "deepinfra/qwen3-embedding-4b",
+  "provider_id": "deepinfra",
+  "name": "Qwen/Qwen3-Embedding-4B",
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active"
+}

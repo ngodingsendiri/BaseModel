@@ -1,0 +1,18 @@
+{
+  "model_id": "requesty/l31-70b-euryale-v2.2",
+  "provider_id": "requesty",
+  "name": "novita/sao10k/l31-70b-euryale-v2.2",
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active"
+}

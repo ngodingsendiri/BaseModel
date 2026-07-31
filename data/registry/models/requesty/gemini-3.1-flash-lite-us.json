@@ -1,0 +1,18 @@
+{
+  "model_id": "requesty/gemini-3.1-flash-lite-us",
+  "provider_id": "requesty",
+  "name": "vertex/gemini-3.1-flash-lite@us",
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active"
+}
