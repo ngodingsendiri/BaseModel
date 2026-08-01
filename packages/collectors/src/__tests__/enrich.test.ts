@@ -124,4 +124,71 @@ describe('findOpenRouterMatch', () => {
     const index = { byId: new Map(), bySlug: new Map() };
     expect(findOpenRouterMatch(sampleModel(), index)).toBeUndefined();
   });
+
+  it('matches a catalog `:free` route to the collected `-free` model id', () => {
+    const entry = sampleOpenRouter({
+      id: 'nvidia/nemotron-3-nano-30b-a3b:free',
+      provider: 'nvidia',
+      slug: 'nemotron-3-nano-30b-a3b-free',
+      inputPer1M: 0,
+      outputPer1M: 0,
+      isFree: true,
+    });
+    const model = sampleModel({
+      provider_id: 'openrouter',
+      model_id: 'openrouter/nemotron-3-nano-30b-a3b-free',
+    });
+    const index = {
+      byId: new Map([['nvidia/nemotron-3-nano-30b-a3b:free', entry]]),
+      bySlug: new Map([['nemotron-3-nano-30b-a3b-free', [entry]]]),
+    };
+    expect(findOpenRouterMatch(model, index)).toBe(entry);
+  });
+
+  it('resolves paid and `:free` variants of the same model to distinct entries', () => {
+    const paid = sampleOpenRouter({
+      id: 'nvidia/nemotron-3-nano-30b-a3b',
+      provider: 'nvidia',
+      slug: 'nemotron-3-nano-30b-a3b',
+      inputPer1M: 0.05,
+      outputPer1M: 0.2,
+      isFree: false,
+    });
+    const free = sampleOpenRouter({
+      id: 'nvidia/nemotron-3-nano-30b-a3b:free',
+      provider: 'nvidia',
+      slug: 'nemotron-3-nano-30b-a3b-free',
+      inputPer1M: 0,
+      outputPer1M: 0,
+      isFree: true,
+    });
+    const index = {
+      byId: new Map([
+        ['nvidia/nemotron-3-nano-30b-a3b', paid],
+        ['nvidia/nemotron-3-nano-30b-a3b:free', free],
+      ]),
+      bySlug: new Map([
+        ['nemotron-3-nano-30b-a3b', [paid]],
+        ['nemotron-3-nano-30b-a3b-free', [free]],
+      ]),
+    };
+    expect(
+      findOpenRouterMatch(
+        sampleModel({
+          provider_id: 'openrouter',
+          model_id: 'openrouter/nemotron-3-nano-30b-a3b',
+        }),
+        index,
+      ),
+    ).toBe(paid);
+    expect(
+      findOpenRouterMatch(
+        sampleModel({
+          provider_id: 'openrouter',
+          model_id: 'openrouter/nemotron-3-nano-30b-a3b-free',
+        }),
+        index,
+      ),
+    ).toBe(free);
+  });
 });

@@ -49,6 +49,13 @@ export function calculateCostEfficiency(
   let inputCost = 0;
   let outputCost = 0;
 
+  const hasInputRecord = pricingRecords.some(
+    (p) => p.pricing_type === 'input-token' && p.unit?.includes('1M'),
+  );
+  const hasOutputRecord = pricingRecords.some(
+    (p) => p.pricing_type === 'output-token' && p.unit?.includes('1M'),
+  );
+
   for (const record of pricingRecords) {
     if (record.pricing_type === 'input-token' && record.unit?.includes('1M')) {
       inputCost = record.value || 0;
@@ -64,7 +71,11 @@ export function calculateCostEfficiency(
   const blendedCost = (inputCost * 3 + outputCost * 1) / 4;
 
   let tier: CostTier = 'Unknown';
-  if (blendedCost > 0) {
+  if (blendedCost === 0 && hasInputRecord && hasOutputRecord) {
+    // Both input and output are explicitly priced at 0 (without a `free` tag,
+    // e.g. custom-gateway records). Mirror classifyTier: free.
+    tier = 'Free';
+  } else if (blendedCost > 0) {
     if (blendedCost < 0.5)
       tier = 'Budget-Friendly'; // Under $0.50 per blended 1M
     else if (blendedCost <= 5) tier = 'Balanced';
@@ -73,7 +84,7 @@ export function calculateCostEfficiency(
 
   return {
     modelId,
-    isFree: false,
+    isFree: tier === 'Free',
     inputCostPer1M: inputCost,
     outputCostPer1M: outputCost,
     blendedCost,

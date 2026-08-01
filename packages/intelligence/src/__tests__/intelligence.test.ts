@@ -127,6 +127,33 @@ describe('Intelligence Layer', () => {
       const report = calculateCostEfficiency(engine, 'meta/llama-3-8b');
       expect(report.tier).toBe('Unknown');
     });
+
+    it('treats input and output both priced at 0 as Free', () => {
+      const zeroPricing: Pricing[] = [
+        {
+          pricing_id: 'free-model-in',
+          model_id: 'meta/llama-3-8b',
+          pricing_type: 'input-token',
+          unit: '1M tokens',
+          value: 0,
+          currency: 'USD',
+        },
+        {
+          pricing_id: 'free-model-out',
+          model_id: 'meta/llama-3-8b',
+          pricing_type: 'output-token',
+          unit: '1M tokens',
+          value: 0,
+          currency: 'USD',
+        },
+      ];
+      engine.pricing = zeroPricing;
+
+      const report = calculateCostEfficiency(engine, 'meta/llama-3-8b');
+      expect(report.isFree).toBe(true);
+      expect(report.blendedCost).toBe(0);
+      expect(report.tier).toBe('Free');
+    });
   });
 
   describe('Alternatives', () => {
