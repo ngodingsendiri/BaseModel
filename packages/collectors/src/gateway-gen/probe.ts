@@ -166,7 +166,10 @@ export async function probeGateway(
   gateway: ManifestGateway,
   env: NodeJS.ProcessEnv = process.env,
 ): Promise<ProbeResult> {
-  if (gateway.sample !== undefined) {
+  const { headers, ok, missing } = buildHeaders(gateway, env);
+  const hasSample = gateway.sample !== undefined;
+
+  const sampleResult = async (): Promise<ProbeResult> => {
     const fixturePath = await saveFixture(gateway.id, gateway.sample, gateway.secrets);
     return {
       gatewayId: gateway.id,
@@ -176,46 +179,61 @@ export async function probeGateway(
       raw: gateway.sample,
       shape: extractShape(gateway.sample),
     };
-  }
+  };
 
-  const { headers, ok, missing } = buildHeaders(gateway, env);
+  const liveResult = async (): Promise<ProbeResult> => {
+    const endpoints = gateway.endpoint ? [gateway.endpoint] : DEFAULT_ENDPOINTS;
+    const failures: string[] = [];
+    for (const endpoint of endpoints) {
+      const url = new URL(endpoint, gateway.baseUrl).toString();
+      try {
+        const result = await fetchJson(url, {
+          method: gateway.method,
+          headers,
+          signal: AbortSignal.timeout(15_000),
+        });
+        if (result.ok && result.data !== null) {
+          const fixturePath = await saveFixture(gateway.id, result.data, gateway.secrets);
+          return {
+            gatewayId: gateway.id,
+            fixturePath,
+            endpoint,
+            fromSample: false,
+            raw: result.data,
+            shape: extractShape(result.data),
+          };
+        }
+        failures.push(`${endpoint} -> HTTP ${result.status}`);
+      } catch (error: unknown) {
+        failures.push(`${endpoint} -> ${error instanceof Error ? error.message : String(error)}`);
+      }
+    }
+    throw new Error(
+      `Probe for ${gateway.id} failed on all candidate endpoints: ${failures.join(' | ')}`,
+    );
+  };
+
+  if (hasSample && !ok) {
+    console.warn(`  probe : no API key available, using manifest sample`);
+    return sampleResult();
+  }
+  if (hasSample && ok) {
+    try {
+      return await liveResult();
+    } catch (error) {
+      console.warn(
+        `  probe : live probe failed (${error instanceof Error ? error.message : String(error)}), using manifest sample`,
+      );
+      return sampleResult();
+    }
+  }
   if (!ok) {
     throw new Error(
       `Cannot probe ${gateway.id}: missing API key(s) ${missing.join(', ')}. ` +
         'Set them in the environment, or add a "sample" to the manifest to skip live probing.',
     );
   }
-
-  const endpoints = gateway.endpoint ? [gateway.endpoint] : DEFAULT_ENDPOINTS;
-  const failures: string[] = [];
-  for (const endpoint of endpoints) {
-    const url = new URL(endpoint, gateway.baseUrl).toString();
-    try {
-      const result = await fetchJson(url, {
-        method: gateway.method,
-        headers,
-        signal: AbortSignal.timeout(15_000),
-      });
-      if (result.ok && result.data !== null) {
-        const fixturePath = await saveFixture(gateway.id, result.data, gateway.secrets);
-        return {
-          gatewayId: gateway.id,
-          fixturePath,
-          endpoint,
-          fromSample: false,
-          raw: result.data,
-          shape: extractShape(result.data),
-        };
-      }
-      failures.push(`${endpoint} -> HTTP ${result.status}`);
-    } catch (error: unknown) {
-      failures.push(`${endpoint} -> ${error instanceof Error ? error.message : String(error)}`);
-    }
-  }
-
-  throw new Error(
-    `Probe for ${gateway.id} failed on all candidate endpoints: ${failures.join(' | ')}`,
-  );
+  return liveResult();
 }
 
 export async function saveFixture(
