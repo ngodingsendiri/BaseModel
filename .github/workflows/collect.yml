@@ -66,6 +66,11 @@ jobs:
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
 
+      - name: Collect and Enrich Benchmarks
+        run: pnpm --filter @basemodel/collectors run collect-benchmarks
+        env:
+          BENCHMARKS_FETCH_TOKEN: ${{ secrets.BENCHMARKS_FETCH_TOKEN }}
+
       - name: Generate Published Datasets (dist/)
         run: pnpm --filter @basemodel/publisher run generate
 

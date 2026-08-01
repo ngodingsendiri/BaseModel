@@ -81,6 +81,21 @@ export async function getAllBenchmarks(): Promise<Benchmark[]> {
   return raw.map((r) => BenchmarkSchema.parse(r));
 }
 
+export async function getBenchmark(benchmarkId: string): Promise<Benchmark | null> {
+  const raw = await readRegistryFile<unknown>(`benchmarks/${benchmarkId}.json`);
+  if (!raw) return null;
+  const result = validate(BenchmarkSchema, raw);
+  return result.success ? (result.data as Benchmark) : null;
+}
+
+export async function saveBenchmark(benchmark: Benchmark): Promise<void> {
+  await writeRegistryFile(`benchmarks/${benchmark.benchmark_id}.json`, benchmark);
+}
+
+export async function clearBenchmarksRegistry(): Promise<void> {
+  await clearRegistryDirectory('benchmarks');
+}
+
 // --- Pricing ---
 
 export async function getAllPricing(): Promise<Pricing[]> {

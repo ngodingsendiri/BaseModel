@@ -16,6 +16,7 @@
     "build": "tsup src/index.ts --format esm --dts --clean",
     "collect": "tsx src/run.ts",
     "enrich": "tsx src/enrich/run.ts",
+    "collect-benchmarks": "tsx src/enrich/benchmarks-run.ts",
     "verify": "tsx src/core/verify.ts",
     "typecheck": "tsc --noEmit",
     "test": "vitest run --passWithNoTests",
