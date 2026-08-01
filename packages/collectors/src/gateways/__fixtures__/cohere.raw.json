@@ -9,8 +9,16 @@
         "summarize",
         "classify"
       ],
+      "finetuned": false,
       "context_length": 128000,
-      "tokenizer_url": "https://docs.cohere.com/docs/tokenizer"
+      "tokenizer_url": "https://docs.cohere.com/docs/tokenizer",
+      "default_endpoints": [
+        "chat"
+      ],
+      "features": [
+        "supports_rag",
+        "experimental_chat"
+      ]
     },
     {
       "name": "command-r",
@@ -21,7 +29,14 @@
         "summarize",
         "classify"
       ],
-      "context_length": 128000
+      "finetuned": false,
+      "context_length": 128000,
+      "default_endpoints": [
+        "chat"
+      ],
+      "features": [
+        "supports_rag"
+      ]
     },
     {
       "name": "command-light",
@@ -30,21 +45,39 @@
         "generate",
         "summarize"
       ],
-      "context_length": 4096
+      "finetuned": false,
+      "context_length": 4096,
+      "default_endpoints": [
+        "chat"
+      ],
+      "features": null
     },
     {
       "name": "embed-english-v3.0",
       "endpoints": [
         "embed"
       ],
-      "context_length": 512
+      "finetuned": false,
+      "context_length": 512,
+      "default_endpoints": [
+        "embed"
+      ],
+      "features": [
+        "search",
+        "classification"
+      ]
     },
     {
       "name": "rerank-english-v3.0",
       "endpoints": [
         "rerank"
       ],
-      "context_length": 4096
+      "finetuned": false,
+      "context_length": 4096,
+      "default_endpoints": [
+        "rerank"
+      ],
+      "features": null
     }
   ],
   "next_page_token": "cD0yCg=="

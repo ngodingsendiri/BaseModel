@@ -2,29 +2,39 @@ import type { ManifestGateway } from './manifest.js';
 import type { ShapeSummary } from './probe.js';
 
 const MODEL_SCHEMA_DOC = `
-Canonical "Model" fields (TypeScript, from @basemodel/schema). Fields marked [required] must always be set:
-- model_id: string [required] must match /^[a-z0-9-]+\\/[a-z0-9]+(?:[-.][a-z0-9]+)*$/ e.g. "cohere/command-r-plus" (provider slug / model slug)
-- provider_id: string [required] e.g. "cohere"
-- name: string [required] human-readable model name
-- family: string (optional) e.g. "Command"
-- version: string (optional)
-- release_date: string (optional) YYYY-MM-DD
-- description: string (optional)
-- architecture: string (optional)
-- parameter_size: string (optional) e.g. "70B"
-- context_window: number (optional) in tokens
-- modality: array of "text"|"image"|"audio"|"video"|"code"|"embedding" [required]
-- open_weight: boolean [required]
-- reasoning_support: boolean [required]
-- function_calling: boolean [required]
-- structured_output: boolean [required]
-- vision_support: boolean [required]
-- audio_support: boolean [required]
-- image_generation: boolean [required]
-- embedding_support: boolean [required]
-- capability_ids: string[] (optional)
-- license_id: string (optional)
-- status: "active"|"preview"|"deprecated"|"discontinued" [required]
+Canonical "Model" type (TypeScript, from @basemodel/schema). Each catalog entry must map to an object satisfying this shape:
+type Model = {
+  model_id: string;            // [required] matches /^[a-z0-9-]+\\/[a-z0-9]+(?:[-.][a-z0-9]+)*$/  e.g. "cohere/command-r-plus"
+  provider_id: string;         // [required] e.g. "cohere"
+  name: string;                // [required] human-readable name
+  family?: string;
+  version?: string;
+  release_date?: string;       // ISO YYYY-MM-DD
+  description?: string;
+  architecture?: string;
+  parameter_size?: string;
+  context_window?: number;     // positive integer (tokens); omit when unknown
+  modality: ('text'|'image'|'audio'|'video'|'code'|'embedding')[];  // [required]
+  open_weight: boolean;        // [required]
+  reasoning_support: boolean;  // [required]
+  function_calling: boolean;   // [required]
+  structured_output: boolean;  // [required]
+  vision_support: boolean;     // [required]
+  audio_support: boolean;      // [required]
+  image_generation: boolean;   // [required]
+  embedding_support: boolean;  // [required]
+  is_free?: boolean;
+  tier?: 'free'|'budget'|'balanced'|'premium';
+  limits?: object;             // omit unless you have exact pricing/limits data
+  capability_ids?: string[];   // defaults to []
+  license_id?: string;
+  status: 'active'|'preview'|'deprecated'|'discontinued';  // [required]
+};
+Rules:
+- Set every required field; every key must be spelled exactly as above (this is a strict TS type).
+- When a source value is null or missing, OMIT the optional field (or map to undefined) - never assign null.
+- context_window must be a positive integer or absent - never null, never 0.
+- Derive modality from source hints (e.g. "embed" -> 'embedding'); default to ['text'].
 `;
 
 const PLUGIN_CONTRACT = `
