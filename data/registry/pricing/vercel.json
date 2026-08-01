@@ -320,6 +320,22 @@
     "value": 0.4
   },
   {
+    "pricing_id": "vercel-deepseek-v4-flash-0731-input",
+    "model_id": "vercel/deepseek-v4-flash-0731",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.14
+  },
+  {
+    "pricing_id": "vercel-deepseek-v4-flash-0731-output",
+    "model_id": "vercel/deepseek-v4-flash-0731",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.28
+  },
+  {
     "pricing_id": "vercel-deepseek-v4-flash-input",
     "model_id": "vercel/deepseek-v4-flash",
     "pricing_type": "input-token",
@@ -757,7 +773,7 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.12
+    "value": 0.699
   },
   {
     "pricing_id": "vercel-glm-5.2-output",
@@ -765,7 +781,7 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3.52
+    "value": 2.198
   },
   {
     "pricing_id": "vercel-glm-5-input",
@@ -1381,7 +1397,7 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.58
+    "value": 0.5
   },
   {
     "pricing_id": "vercel-inkling-small-output",
@@ -1389,7 +1405,7 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.44
+    "value": 1.2
   },
   {
     "pricing_id": "vercel-inkling-input",
@@ -1493,7 +1509,7 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.95
+    "value": 0.6
   },
   {
     "pricing_id": "vercel-kimi-k2.6-output",
@@ -1501,7 +1517,7 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4
+    "value": 3.41
   },
   {
     "pricing_id": "vercel-kimi-k2.7-code-input",

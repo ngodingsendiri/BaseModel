@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/nemotron-3-super-120b-a12b",
   "provider_id": "requesty",
-  "name": "nvidia/nemotron-3-super-120b-a12b",
+  "name": "nebius/nvidia/nemotron-3-super-120b-a12b",
   "context_window": 1000000,
   "modality": [
     "text"

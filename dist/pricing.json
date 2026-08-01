@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "8a335a3",
-  "count": 1463,
+  "source_revision": "6c4509a",
+  "count": 1469,
   "pricing": [
     {
       "pricing_id": "anthropic-claude-3-5-sonnet-input",
@@ -194,6 +194,22 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 0.4
+    },
+    {
+      "pricing_id": "deepinfra-deepseek-v4-flash-0731-input",
+      "model_id": "deepinfra/deepseek-v4-flash-0731",
+      "pricing_type": "input-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.14
+    },
+    {
+      "pricing_id": "deepinfra-deepseek-v4-flash-0731-output",
+      "model_id": "deepinfra/deepseek-v4-flash-0731",
+      "pricing_type": "output-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.28
     },
     {
       "pricing_id": "deepinfra-deepseek-v4-flash-input",
@@ -457,7 +473,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1.12
+      "value": 0.699
     },
     {
       "pricing_id": "deepinfra-glm-5.2-output",
@@ -465,7 +481,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 3.52
+      "value": 2.198
     },
     {
       "pricing_id": "deepinfra-glm-5-input",
@@ -569,7 +585,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.58
+      "value": 0.5
     },
     {
       "pricing_id": "deepinfra-inkling-small-output",
@@ -577,7 +593,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1.44
+      "value": 1.2
     },
     {
       "pricing_id": "deepinfra-inkling-input",
@@ -617,7 +633,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.95
+      "value": 0.6
     },
     {
       "pricing_id": "deepinfra-kimi-k2.6-output",
@@ -625,7 +641,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 4
+      "value": 3.41
     },
     {
       "pricing_id": "deepinfra-kimi-k2.7-code-input",
@@ -2404,6 +2420,22 @@
       "value": 0
     },
     {
+      "pricing_id": "openrouter-gpt-5.1-chat-input",
+      "model_id": "openrouter/gpt-5.1-chat",
+      "pricing_type": "input-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 1.25
+    },
+    {
+      "pricing_id": "openrouter-gpt-5.1-chat-output",
+      "model_id": "openrouter/gpt-5.1-chat",
+      "pricing_type": "output-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 10
+    },
+    {
       "pricing_id": "openrouter-aion-2.0-input",
       "model_id": "openrouter/aion-2.0",
       "pricing_type": "input-token",
@@ -3759,7 +3791,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1.12
+      "value": 0.699
     },
     {
       "pricing_id": "openrouter-glm-5.2-output",
@@ -3767,7 +3799,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 3.52
+      "value": 2.198
     },
     {
       "pricing_id": "openrouter-glm-5-input",
@@ -4136,22 +4168,6 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 120
-    },
-    {
-      "pricing_id": "openrouter-gpt-5.1-chat-input",
-      "model_id": "openrouter/gpt-5.1-chat",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 1.25
-    },
-    {
-      "pricing_id": "openrouter-gpt-5.1-chat-output",
-      "model_id": "openrouter/gpt-5.1-chat",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 10
     },
     {
       "pricing_id": "openrouter-gpt-5.1-codex-max-input",
@@ -4911,7 +4927,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.58
+      "value": 0.5
     },
     {
       "pricing_id": "openrouter-inkling-small-output",
@@ -4919,7 +4935,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1.44
+      "value": 1.2
     },
     {
       "pricing_id": "openrouter-inkling-input",
@@ -5055,7 +5071,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.95
+      "value": 0.6
     },
     {
       "pricing_id": "openrouter-kimi-k2.6-output",
@@ -5063,7 +5079,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 4
+      "value": 3.41
     },
     {
       "pricing_id": "openrouter-kimi-k2.7-code-input",
@@ -6515,7 +6531,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.27
+      "value": 0.28
     },
     {
       "pricing_id": "openrouter-qwen3-coder-flash-input",
@@ -7446,6 +7462,22 @@
       "value": 0.62
     },
     {
+      "pricing_id": "requesty-gpt-5.1-chat-input",
+      "model_id": "requesty/gpt-5.1-chat",
+      "pricing_type": "input-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 1.25
+    },
+    {
+      "pricing_id": "requesty-gpt-5.1-chat-output",
+      "model_id": "requesty/gpt-5.1-chat",
+      "pricing_type": "output-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 10
+    },
+    {
       "pricing_id": "requesty-claude-fable-5-input",
       "model_id": "requesty/claude-fable-5",
       "pricing_type": "input-token",
@@ -7588,6 +7620,22 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 0.4
+    },
+    {
+      "pricing_id": "requesty-deepseek-v4-flash-0731-input",
+      "model_id": "requesty/deepseek-v4-flash-0731",
+      "pricing_type": "input-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.14
+    },
+    {
+      "pricing_id": "requesty-deepseek-v4-flash-0731-output",
+      "model_id": "requesty/deepseek-v4-flash-0731",
+      "pricing_type": "output-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.28
     },
     {
       "pricing_id": "requesty-deepseek-v4-flash-input",
@@ -7963,7 +8011,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1.12
+      "value": 0.699
     },
     {
       "pricing_id": "requesty-glm-5.2-output",
@@ -7971,7 +8019,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 3.52
+      "value": 2.198
     },
     {
       "pricing_id": "requesty-glm-5-input",
@@ -8164,22 +8212,6 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 120
-    },
-    {
-      "pricing_id": "requesty-gpt-5.1-chat-input",
-      "model_id": "requesty/gpt-5.1-chat",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 1.25
-    },
-    {
-      "pricing_id": "requesty-gpt-5.1-chat-output",
-      "model_id": "requesty/gpt-5.1-chat",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 10
     },
     {
       "pricing_id": "requesty-gpt-5.1-codex-input",
@@ -8619,7 +8651,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.95
+      "value": 0.6
     },
     {
       "pricing_id": "requesty-kimi-k2.6-output",
@@ -8627,7 +8659,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 4
+      "value": 3.41
     },
     {
       "pricing_id": "requesty-kimi-k2.7-code-input",
@@ -9766,6 +9798,22 @@
       "value": 0.4
     },
     {
+      "pricing_id": "vercel-deepseek-v4-flash-0731-input",
+      "model_id": "vercel/deepseek-v4-flash-0731",
+      "pricing_type": "input-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.14
+    },
+    {
+      "pricing_id": "vercel-deepseek-v4-flash-0731-output",
+      "model_id": "vercel/deepseek-v4-flash-0731",
+      "pricing_type": "output-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.28
+    },
+    {
       "pricing_id": "vercel-deepseek-v4-flash-input",
       "model_id": "vercel/deepseek-v4-flash",
       "pricing_type": "input-token",
@@ -10203,7 +10251,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1.12
+      "value": 0.699
     },
     {
       "pricing_id": "vercel-glm-5.2-output",
@@ -10211,7 +10259,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 3.52
+      "value": 2.198
     },
     {
       "pricing_id": "vercel-glm-5-input",
@@ -10827,7 +10875,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.58
+      "value": 0.5
     },
     {
       "pricing_id": "vercel-inkling-small-output",
@@ -10835,7 +10883,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1.44
+      "value": 1.2
     },
     {
       "pricing_id": "vercel-inkling-input",
@@ -10939,7 +10987,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.95
+      "value": 0.6
     },
     {
       "pricing_id": "vercel-kimi-k2.6-output",
@@ -10947,7 +10995,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 4
+      "value": 3.41
     },
     {
       "pricing_id": "vercel-kimi-k2.7-code-input",

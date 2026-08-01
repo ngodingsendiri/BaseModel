@@ -2,6 +2,7 @@
   "model_id": "deepinfra/inkling-small",
   "provider_id": "deepinfra",
   "name": "thinkingmachines/Inkling-Small",
+  "context_window": 524288,
   "modality": [
     "text"
   ],
@@ -13,12 +14,11 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "capability_ids": [],
-  "status": "active",
   "is_free": false,
   "tier": "balanced",
   "limits": {
     "max_input_tokens": 524288
   },
-  "context_window": 524288
+  "capability_ids": [],
+  "status": "active"
 }

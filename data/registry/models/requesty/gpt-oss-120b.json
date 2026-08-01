@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gpt-oss-120b",
   "provider_id": "requesty",
-  "name": "groq/openai/gpt-oss-120b",
+  "name": "nebius/openai/gpt-oss-120b",
   "context_window": 131072,
   "modality": [
     "text"

@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/nemotron-3-ultra-550b-a55b",
   "provider_id": "requesty",
-  "name": "nvidia/nemotron-3-ultra-550b-a55b",
+  "name": "nebius/nvidia/nemotron-3-ultra-550b-a55b",
   "context_window": 512288,
   "modality": [
     "text"

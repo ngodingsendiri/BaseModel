@@ -1,8 +1,7 @@
 {
-  "model_id": "requesty/gpt-4.1",
+  "model_id": "requesty/deepseek-v4-flash-0731",
   "provider_id": "requesty",
-  "name": "openai-responses/gpt-4.1",
-  "context_window": 1047576,
+  "name": "sference/deepseek-v4-flash-0731",
   "modality": [
     "text"
   ],
@@ -14,11 +13,12 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "is_free": false,
-  "tier": "balanced",
-  "limits": {
-    "max_input_tokens": 1047576
-  },
   "capability_ids": [],
-  "status": "active"
+  "status": "active",
+  "is_free": false,
+  "tier": "budget",
+  "limits": {
+    "max_input_tokens": 1048576
+  },
+  "context_window": 1048576
 }

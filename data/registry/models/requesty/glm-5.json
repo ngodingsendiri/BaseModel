@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/glm-5",
   "provider_id": "requesty",
-  "name": "novita/GLM-5",
+  "name": "zai/GLM-5",
   "context_window": 204800,
   "modality": [
     "text"

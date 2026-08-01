@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/deepseek-r1",
   "provider_id": "requesty",
-  "name": "deepinfra/deepseek-ai/DeepSeek-R1",
+  "name": "novita/deepseek/deepseek-r1",
   "context_window": 163840,
   "modality": [
     "text"

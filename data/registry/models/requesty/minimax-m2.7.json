@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/minimax-m2.7",
   "provider_id": "requesty",
-  "name": "minimaxi/minimax-m2.7",
+  "name": "fireworks/minimax-m2.7",
   "context_window": 204800,
   "modality": [
     "text"

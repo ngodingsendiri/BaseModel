@@ -30,6 +30,22 @@
     "value": 0
   },
   {
+    "pricing_id": "openrouter-gpt-5.1-chat-input",
+    "model_id": "openrouter/gpt-5.1-chat",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.25
+  },
+  {
+    "pricing_id": "openrouter-gpt-5.1-chat-output",
+    "model_id": "openrouter/gpt-5.1-chat",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 10
+  },
+  {
     "pricing_id": "openrouter-aion-2.0-input",
     "model_id": "openrouter/aion-2.0",
     "pricing_type": "input-token",
@@ -1385,7 +1401,7 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.12
+    "value": 0.699
   },
   {
     "pricing_id": "openrouter-glm-5.2-output",
@@ -1393,7 +1409,7 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3.52
+    "value": 2.198
   },
   {
     "pricing_id": "openrouter-glm-5-input",
@@ -1762,22 +1778,6 @@
     "currency": "USD",
     "unit": "1M tokens",
     "value": 120
-  },
-  {
-    "pricing_id": "openrouter-gpt-5.1-chat-input",
-    "model_id": "openrouter/gpt-5.1-chat",
-    "pricing_type": "input-token",
-    "currency": "USD",
-    "unit": "1M tokens",
-    "value": 1.25
-  },
-  {
-    "pricing_id": "openrouter-gpt-5.1-chat-output",
-    "model_id": "openrouter/gpt-5.1-chat",
-    "pricing_type": "output-token",
-    "currency": "USD",
-    "unit": "1M tokens",
-    "value": 10
   },
   {
     "pricing_id": "openrouter-gpt-5.1-codex-max-input",
@@ -2537,7 +2537,7 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.58
+    "value": 0.5
   },
   {
     "pricing_id": "openrouter-inkling-small-output",
@@ -2545,7 +2545,7 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.44
+    "value": 1.2
   },
   {
     "pricing_id": "openrouter-inkling-input",
@@ -2681,7 +2681,7 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.95
+    "value": 0.6
   },
   {
     "pricing_id": "openrouter-kimi-k2.6-output",
@@ -2689,7 +2689,7 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4
+    "value": 3.41
   },
   {
     "pricing_id": "openrouter-kimi-k2.7-code-input",
@@ -4141,7 +4141,7 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.27
+    "value": 0.28
   },
   {
     "pricing_id": "openrouter-qwen3-coder-flash-input",

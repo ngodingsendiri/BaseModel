@@ -1,5 +1,21 @@
 [
   {
+    "pricing_id": "requesty-gpt-5.1-chat-input",
+    "model_id": "requesty/gpt-5.1-chat",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.25
+  },
+  {
+    "pricing_id": "requesty-gpt-5.1-chat-output",
+    "model_id": "requesty/gpt-5.1-chat",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 10
+  },
+  {
     "pricing_id": "requesty-claude-fable-5-input",
     "model_id": "requesty/claude-fable-5",
     "pricing_type": "input-token",
@@ -142,6 +158,22 @@
     "currency": "USD",
     "unit": "1M tokens",
     "value": 0.4
+  },
+  {
+    "pricing_id": "requesty-deepseek-v4-flash-0731-input",
+    "model_id": "requesty/deepseek-v4-flash-0731",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.14
+  },
+  {
+    "pricing_id": "requesty-deepseek-v4-flash-0731-output",
+    "model_id": "requesty/deepseek-v4-flash-0731",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.28
   },
   {
     "pricing_id": "requesty-deepseek-v4-flash-input",
@@ -517,7 +549,7 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.12
+    "value": 0.699
   },
   {
     "pricing_id": "requesty-glm-5.2-output",
@@ -525,7 +557,7 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3.52
+    "value": 2.198
   },
   {
     "pricing_id": "requesty-glm-5-input",
@@ -718,22 +750,6 @@
     "currency": "USD",
     "unit": "1M tokens",
     "value": 120
-  },
-  {
-    "pricing_id": "requesty-gpt-5.1-chat-input",
-    "model_id": "requesty/gpt-5.1-chat",
-    "pricing_type": "input-token",
-    "currency": "USD",
-    "unit": "1M tokens",
-    "value": 1.25
-  },
-  {
-    "pricing_id": "requesty-gpt-5.1-chat-output",
-    "model_id": "requesty/gpt-5.1-chat",
-    "pricing_type": "output-token",
-    "currency": "USD",
-    "unit": "1M tokens",
-    "value": 10
   },
   {
     "pricing_id": "requesty-gpt-5.1-codex-input",
@@ -1173,7 +1189,7 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.95
+    "value": 0.6
   },
   {
     "pricing_id": "requesty-kimi-k2.6-output",
@@ -1181,7 +1197,7 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4
+    "value": 3.41
   },
   {
     "pricing_id": "requesty-kimi-k2.7-code-input",

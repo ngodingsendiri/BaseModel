@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "8a335a3",
-  "count": 1535,
+  "source_revision": "6c4509a",
+  "count": 1539,
   "models": [
     {
       "model_id": "anthropic/claude-3-5-haiku",
@@ -943,6 +943,30 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "deepinfra/deepseek-v4-flash-0731",
+      "provider_id": "deepinfra",
+      "name": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "context_window": 1048576,
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
+      "limits": {
+        "max_input_tokens": 1048576
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -19451,7 +19475,7 @@
     {
       "model_id": "requesty/deepseek-r1-distill-llama-70b",
       "provider_id": "requesty",
-      "name": "deepinfra/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "name": "novita/deepseek/deepseek-r1-distill-llama-70b",
       "context_window": 8192,
       "modality": [
         "text"
@@ -19493,7 +19517,7 @@
     {
       "model_id": "requesty/deepseek-r1",
       "provider_id": "requesty",
-      "name": "deepinfra/deepseek-ai/DeepSeek-R1",
+      "name": "novita/deepseek/deepseek-r1",
       "context_window": 163840,
       "modality": [
         "text"
@@ -19613,7 +19637,7 @@
     {
       "model_id": "requesty/deepseek-v3",
       "provider_id": "requesty",
-      "name": "deepinfra/deepseek-ai/DeepSeek-V3",
+      "name": "novita/deepseek/deepseek_v3",
       "modality": [
         "text"
       ],
@@ -19625,6 +19649,30 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "requesty/deepseek-v4-flash-0731",
+      "provider_id": "requesty",
+      "name": "sference/deepseek-v4-flash-0731",
+      "context_window": 1048576,
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
+      "limits": {
+        "max_input_tokens": 1048576
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -19649,7 +19697,7 @@
     {
       "model_id": "requesty/deepseek-v4-flash",
       "provider_id": "requesty",
-      "name": "deepseek/deepseek-v4-flash",
+      "name": "fireworks/deepseek-v4-flash",
       "context_window": 1048576,
       "modality": [
         "text"
@@ -19691,7 +19739,7 @@
     {
       "model_id": "requesty/deepseek-v4-pro",
       "provider_id": "requesty",
-      "name": "deepseek/deepseek-v4-pro",
+      "name": "nebius/deepseek-ai/deepseek-v4-pro",
       "context_window": 1048576,
       "modality": [
         "text"
@@ -20303,7 +20351,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-lite",
       "provider_id": "requesty",
-      "name": "google/gemini-2.5-flash-lite",
+      "name": "vertex/gemini-2.5-flash-lite",
       "context_window": 1048576,
       "modality": [
         "text"
@@ -20417,7 +20465,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash",
       "provider_id": "requesty",
-      "name": "google/gemini-2.5-flash",
+      "name": "coding/gemini-2.5-flash",
       "context_window": 1048576,
       "modality": [
         "text"
@@ -20621,7 +20669,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro",
       "provider_id": "requesty",
-      "name": "google/gemini-2.5-pro",
+      "name": "coding/gemini-2.5-pro",
       "context_window": 1048576,
       "modality": [
         "text"
@@ -20663,7 +20711,7 @@
     {
       "model_id": "requesty/gemini-3-flash-preview",
       "provider_id": "requesty",
-      "name": "google/gemini-3-flash-preview",
+      "name": "vertex/gemini-3-flash-preview",
       "context_window": 1048576,
       "modality": [
         "text"
@@ -20711,7 +20759,7 @@
     {
       "model_id": "requesty/gemini-3-pro-preview",
       "provider_id": "requesty",
-      "name": "google/gemini-3-pro-preview",
+      "name": "vertex/gemini-3-pro-preview",
       "modality": [
         "text"
       ],
@@ -20729,7 +20777,7 @@
     {
       "model_id": "requesty/gemini-3.1-flash-image",
       "provider_id": "requesty",
-      "name": "google/gemini-3.1-flash-image",
+      "name": "vertex/gemini-3.1-flash-image",
       "context_window": 131072,
       "modality": [
         "text"
@@ -20789,7 +20837,7 @@
     {
       "model_id": "requesty/gemini-3.1-flash-lite",
       "provider_id": "requesty",
-      "name": "google/gemini-3.1-flash-lite",
+      "name": "vertex/gemini-3.1-flash-lite",
       "context_window": 1048576,
       "modality": [
         "text"
@@ -20831,7 +20879,7 @@
     {
       "model_id": "requesty/gemini-3.1-pro-preview",
       "provider_id": "requesty",
-      "name": "google/gemini-3.1-pro-preview",
+      "name": "vertex/gemini-3.1-pro-preview",
       "context_window": 1048576,
       "modality": [
         "text"
@@ -21005,7 +21053,7 @@
     {
       "model_id": "requesty/gemma-4-26b-a4b-it",
       "provider_id": "requesty",
-      "name": "deepinfra/google/gemma-4-26B-A4B-it",
+      "name": "parasail/google/gemma-4-26B-A4B-it",
       "context_window": 262144,
       "modality": [
         "text"
@@ -21077,7 +21125,7 @@
     {
       "model_id": "requesty/glm-4.5",
       "provider_id": "requesty",
-      "name": "deepinfra/zai-org/GLM-4.5",
+      "name": "zai/GLM-4.5",
       "context_window": 131072,
       "modality": [
         "text"
@@ -21101,7 +21149,7 @@
     {
       "model_id": "requesty/glm-4.6",
       "provider_id": "requesty",
-      "name": "novita/zai-org/glm-4.6",
+      "name": "zai/GLM-4.6",
       "context_window": 204800,
       "modality": [
         "text"
@@ -21149,7 +21197,7 @@
     {
       "model_id": "requesty/glm-5.1",
       "provider_id": "requesty",
-      "name": "deepinfra/zai-org/GLM-5.1",
+      "name": "zai/glm-5.1",
       "context_window": 204800,
       "modality": [
         "text"
@@ -21209,7 +21257,7 @@
     {
       "model_id": "requesty/glm-5.2",
       "provider_id": "requesty",
-      "name": "inceptron/glm-5.2",
+      "name": "zai/glm-5.2",
       "context_window": 1048576,
       "modality": [
         "text"
@@ -21233,7 +21281,7 @@
     {
       "model_id": "requesty/glm-5",
       "provider_id": "requesty",
-      "name": "novita/GLM-5",
+      "name": "zai/GLM-5",
       "context_window": 204800,
       "modality": [
         "text"
@@ -21293,7 +21341,7 @@
     {
       "model_id": "requesty/gpt-4.1-mini-eastus2",
       "provider_id": "requesty",
-      "name": "azure/gpt-4.1-mini@eastus2",
+      "name": "azure/openai-responses/gpt-4.1-mini@eastus2",
       "modality": [
         "text"
       ],
@@ -21311,7 +21359,7 @@
     {
       "model_id": "requesty/gpt-4.1-mini-francecentral",
       "provider_id": "requesty",
-      "name": "azure/gpt-4.1-mini@francecentral",
+      "name": "azure/openai-responses/gpt-4.1-mini@francecentral",
       "modality": [
         "text"
       ],
@@ -21365,7 +21413,7 @@
     {
       "model_id": "requesty/gpt-4.1-mini",
       "provider_id": "requesty",
-      "name": "openai/gpt-4.1-mini",
+      "name": "openai-responses/gpt-4.1-mini",
       "context_window": 1047576,
       "modality": [
         "text"
@@ -21389,7 +21437,7 @@
     {
       "model_id": "requesty/gpt-4.1-nano-eastus2",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-4.1-nano@eastus2",
+      "name": "azure/gpt-4.1-nano@eastus2",
       "modality": [
         "text"
       ],
@@ -21407,7 +21455,7 @@
     {
       "model_id": "requesty/gpt-4.1-nano-francecentral",
       "provider_id": "requesty",
-      "name": "azure/gpt-4.1-nano@francecentral",
+      "name": "azure/openai-responses/gpt-4.1-nano@francecentral",
       "modality": [
         "text"
       ],
@@ -21425,7 +21473,7 @@
     {
       "model_id": "requesty/gpt-4.1-nano-swedencentral",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-4.1-nano@swedencentral",
+      "name": "azure/gpt-4.1-nano@swedencentral",
       "modality": [
         "text"
       ],
@@ -21461,7 +21509,7 @@
     {
       "model_id": "requesty/gpt-4.1-nano-westus3",
       "provider_id": "requesty",
-      "name": "azure/gpt-4.1-nano@westus3",
+      "name": "azure/openai-responses/gpt-4.1-nano@westus3",
       "modality": [
         "text"
       ],
@@ -21479,7 +21527,7 @@
     {
       "model_id": "requesty/gpt-4.1-nano",
       "provider_id": "requesty",
-      "name": "openai/gpt-4.1-nano",
+      "name": "openai-responses/gpt-4.1-nano",
       "context_window": 1047576,
       "modality": [
         "text"
@@ -21557,7 +21605,7 @@
     {
       "model_id": "requesty/gpt-4.1",
       "provider_id": "requesty",
-      "name": "openai/gpt-4.1",
+      "name": "openai-responses/gpt-4.1",
       "context_window": 1047576,
       "modality": [
         "text"
@@ -21917,7 +21965,7 @@
     {
       "model_id": "requesty/gpt-5-mini",
       "provider_id": "requesty",
-      "name": "openai/gpt-5-mini",
+      "name": "openai-responses/gpt-5-mini",
       "context_window": 400000,
       "modality": [
         "text"
@@ -22013,7 +22061,7 @@
     {
       "model_id": "requesty/gpt-5-nano",
       "provider_id": "requesty",
-      "name": "openai/gpt-5-nano",
+      "name": "openai-responses/gpt-5-nano",
       "context_window": 400000,
       "modality": [
         "text"
@@ -22217,7 +22265,7 @@
     {
       "model_id": "requesty/gpt-5.1",
       "provider_id": "requesty",
-      "name": "openai/gpt-5.1",
+      "name": "openai-responses/gpt-5.1",
       "context_window": 400000,
       "modality": [
         "text"
@@ -22325,7 +22373,7 @@
     {
       "model_id": "requesty/gpt-5.2",
       "provider_id": "requesty",
-      "name": "openai/gpt-5.2",
+      "name": "openai-responses/gpt-5.2",
       "context_window": 400000,
       "modality": [
         "text"
@@ -22349,7 +22397,7 @@
     {
       "model_id": "requesty/gpt-5.3-chat",
       "provider_id": "requesty",
-      "name": "openai/gpt-5.3-chat",
+      "name": "openai-responses/gpt-5.3-chat",
       "context_window": 128000,
       "modality": [
         "text"
@@ -22469,7 +22517,7 @@
     {
       "model_id": "requesty/gpt-5.4-mini",
       "provider_id": "requesty",
-      "name": "openai/gpt-5.4-mini",
+      "name": "openai-responses/gpt-5.4-mini",
       "context_window": 400000,
       "modality": [
         "text"
@@ -22493,7 +22541,7 @@
     {
       "model_id": "requesty/gpt-5.4-nano",
       "provider_id": "requesty",
-      "name": "openai/gpt-5.4-nano",
+      "name": "openai-responses/gpt-5.4-nano",
       "context_window": 400000,
       "modality": [
         "text"
@@ -22559,7 +22607,7 @@
     {
       "model_id": "requesty/gpt-5.4-swedencentral",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-5.4@swedencentral",
+      "name": "azure/gpt-5.4@swedencentral",
       "modality": [
         "text"
       ],
@@ -22631,7 +22679,7 @@
     {
       "model_id": "requesty/gpt-5.4",
       "provider_id": "requesty",
-      "name": "openai/gpt-5.4",
+      "name": "openai-responses/gpt-5.4",
       "context_window": 1050000,
       "modality": [
         "text"
@@ -22751,7 +22799,7 @@
     {
       "model_id": "requesty/gpt-5.5",
       "provider_id": "requesty",
-      "name": "openai/gpt-5.5",
+      "name": "openai-responses/gpt-5.5",
       "context_window": 1050000,
       "modality": [
         "text"
@@ -22775,7 +22823,7 @@
     {
       "model_id": "requesty/gpt-5.6-luna-eastus2",
       "provider_id": "requesty",
-      "name": "azure/gpt-5.6-luna@eastus2",
+      "name": "azure/openai-responses/gpt-5.6-luna@eastus2",
       "modality": [
         "text"
       ],
@@ -22793,7 +22841,7 @@
     {
       "model_id": "requesty/gpt-5.6-luna-swedencentral",
       "provider_id": "requesty",
-      "name": "azure/gpt-5.6-luna@swedencentral",
+      "name": "azure/openai-responses/gpt-5.6-luna@swedencentral",
       "modality": [
         "text"
       ],
@@ -22811,7 +22859,7 @@
     {
       "model_id": "requesty/gpt-5.6-luna",
       "provider_id": "requesty",
-      "name": "openai/gpt-5.6-luna",
+      "name": "openai-responses/gpt-5.6-luna",
       "context_window": 1050000,
       "modality": [
         "text"
@@ -22835,7 +22883,7 @@
     {
       "model_id": "requesty/gpt-5.6-sol-eastus2",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-5.6-sol@eastus2",
+      "name": "azure/gpt-5.6-sol@eastus2",
       "modality": [
         "text"
       ],
@@ -22853,7 +22901,7 @@
     {
       "model_id": "requesty/gpt-5.6-sol-swedencentral",
       "provider_id": "requesty",
-      "name": "azure/gpt-5.6-sol@swedencentral",
+      "name": "azure/openai-responses/gpt-5.6-sol@swedencentral",
       "modality": [
         "text"
       ],
@@ -22871,7 +22919,7 @@
     {
       "model_id": "requesty/gpt-5.6-sol",
       "provider_id": "requesty",
-      "name": "openai/gpt-5.6-sol",
+      "name": "openai-responses/gpt-5.6-sol",
       "context_window": 1050000,
       "modality": [
         "text"
@@ -22931,7 +22979,7 @@
     {
       "model_id": "requesty/gpt-5.6-terra",
       "provider_id": "requesty",
-      "name": "openai/gpt-5.6-terra",
+      "name": "openai-responses/gpt-5.6-terra",
       "context_window": 1050000,
       "modality": [
         "text"
@@ -22955,7 +23003,7 @@
     {
       "model_id": "requesty/gpt-5",
       "provider_id": "requesty",
-      "name": "openai/gpt-5",
+      "name": "openai-responses/gpt-5",
       "context_window": 400000,
       "modality": [
         "text"
@@ -22979,7 +23027,7 @@
     {
       "model_id": "requesty/gpt-oss-120b",
       "provider_id": "requesty",
-      "name": "groq/openai/gpt-oss-120b",
+      "name": "nebius/openai/gpt-oss-120b",
       "context_window": 131072,
       "modality": [
         "text"
@@ -23537,7 +23585,7 @@
     {
       "model_id": "requesty/kimi-k2.5",
       "provider_id": "requesty",
-      "name": "deepinfra/Kimi K2.5",
+      "name": "moonshot/kimi-k2.5",
       "context_window": 262144,
       "modality": [
         "text"
@@ -23561,7 +23609,7 @@
     {
       "model_id": "requesty/kimi-k2.6",
       "provider_id": "requesty",
-      "name": "inceptron/kimi-k2.6",
+      "name": "nebius/moonshotai/kimi-k2.6",
       "context_window": 262144,
       "modality": [
         "text"
@@ -23585,7 +23633,7 @@
     {
       "model_id": "requesty/kimi-k2.7-code",
       "provider_id": "requesty",
-      "name": "inceptron/kimi-k2.7-Code",
+      "name": "parasail/kimi-k2.7-code",
       "context_window": 262144,
       "modality": [
         "text"
@@ -23873,7 +23921,7 @@
     {
       "model_id": "requesty/llama-3.3-70b-instruct",
       "provider_id": "requesty",
-      "name": "deepinfra/meta-llama/Llama-3.3-70B-Instruct",
+      "name": "nebius/meta-llama/Llama-3.3-70B-Instruct",
       "context_window": 131072,
       "modality": [
         "text"
@@ -23969,7 +24017,7 @@
     {
       "model_id": "requesty/mimo-v2.5-pro",
       "provider_id": "requesty",
-      "name": "deepinfra/XiaomiMiMo/MiMo-V2.5-Pro",
+      "name": "xiaomi/mimo-v2.5-pro",
       "context_window": 1050000,
       "modality": [
         "text"
@@ -23993,7 +24041,7 @@
     {
       "model_id": "requesty/mimo-v2.5",
       "provider_id": "requesty",
-      "name": "deepinfra/XiaomiMiMo/MiMo-V2.5",
+      "name": "xiaomi/mimo-v2.5",
       "context_window": 1050000,
       "modality": [
         "text"
@@ -24161,7 +24209,7 @@
     {
       "model_id": "requesty/minimax-m2.5",
       "provider_id": "requesty",
-      "name": "inceptron/minimax-m2.5",
+      "name": "nebius/minimaxi/minimax-m2.5",
       "context_window": 204800,
       "modality": [
         "text"
@@ -24185,7 +24233,7 @@
     {
       "model_id": "requesty/minimax-m2.7-highspeed",
       "provider_id": "requesty",
-      "name": "minimaxi/minimax-m2.7-highspeed",
+      "name": "novita/minimax/minimax-m2.7-highspeed",
       "modality": [
         "text"
       ],
@@ -24203,7 +24251,7 @@
     {
       "model_id": "requesty/minimax-m2.7",
       "provider_id": "requesty",
-      "name": "minimaxi/minimax-m2.7",
+      "name": "fireworks/minimax-m2.7",
       "context_window": 204800,
       "modality": [
         "text"
@@ -24251,7 +24299,7 @@
     {
       "model_id": "requesty/minimax-m3",
       "provider_id": "requesty",
-      "name": "minimaxi/minimax-m3",
+      "name": "fireworks/minimax-m3",
       "context_window": 1048576,
       "modality": [
         "text"
@@ -24503,7 +24551,7 @@
     {
       "model_id": "requesty/nemotron-3-super-120b-a12b",
       "provider_id": "requesty",
-      "name": "nvidia/nemotron-3-super-120b-a12b",
+      "name": "nebius/nvidia/nemotron-3-super-120b-a12b",
       "context_window": 1000000,
       "modality": [
         "text"
@@ -24527,7 +24575,7 @@
     {
       "model_id": "requesty/nemotron-3-ultra-550b-a55b",
       "provider_id": "requesty",
-      "name": "nvidia/nemotron-3-ultra-550b-a55b",
+      "name": "nebius/nvidia/nemotron-3-ultra-550b-a55b",
       "context_window": 512288,
       "modality": [
         "text"
@@ -24797,7 +24845,7 @@
     {
       "model_id": "requesty/o3-mini",
       "provider_id": "requesty",
-      "name": "openai/o3-mini",
+      "name": "openai-responses/o3-mini",
       "context_window": 200000,
       "modality": [
         "text"
@@ -25019,7 +25067,7 @@
     {
       "model_id": "requesty/o4-mini",
       "provider_id": "requesty",
-      "name": "openai/o4-mini",
+      "name": "openai-responses/o4-mini",
       "context_window": 200000,
       "modality": [
         "text"
@@ -25295,7 +25343,7 @@
     {
       "model_id": "requesty/qwen3-235b-a22b-instruct-2507",
       "provider_id": "requesty",
-      "name": "deepinfra/Qwen/Qwen3-235B-A22B-Instruct-2507",
+      "name": "nebius/qwen/qwen3-235b-a22b-instruct-2507",
       "modality": [
         "text"
       ],
@@ -25361,7 +25409,7 @@
     {
       "model_id": "requesty/qwen3-30b-a3b-instruct-2507",
       "provider_id": "requesty",
-      "name": "alibaba/qwen3-30b-a3b-instruct-2507",
+      "name": "nebius/qwen/qwen3-30b-a3b-instruct-2507",
       "context_window": 262144,
       "modality": [
         "text"
@@ -25385,7 +25433,7 @@
     {
       "model_id": "requesty/qwen3-32b",
       "provider_id": "requesty",
-      "name": "deepinfra/Qwen/Qwen3-32B",
+      "name": "nebius/qwen/qwen3-32b",
       "context_window": 131072,
       "modality": [
         "text"
@@ -25607,7 +25655,7 @@
     {
       "model_id": "requesty/qwen3.5-397b-a17b",
       "provider_id": "requesty",
-      "name": "deepinfra/Qwen/Qwen3.5-397B-A17B",
+      "name": "nebius/qwen/qwen3.5-397b-a17b",
       "context_window": 262144,
       "modality": [
         "text"
@@ -25679,7 +25727,7 @@
     {
       "model_id": "requesty/qwen3.7-plus",
       "provider_id": "requesty",
-      "name": "alibaba/qwen3.7-plus",
+      "name": "fireworks/qwen3.7-plus",
       "context_window": 1000000,
       "modality": [
         "text"
@@ -26525,6 +26573,30 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "vercel/deepseek-v4-flash-0731",
+      "provider_id": "vercel",
+      "name": "deepseek/deepseek-v4-flash-0731",
+      "context_window": 1048576,
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
+      "limits": {
+        "max_input_tokens": 1048576
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -32004,6 +32076,24 @@
       "model_id": "vercel/veo-3.1-generate-001",
       "provider_id": "vercel",
       "name": "google/veo-3.1-generate-001",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active"
+    },
+    {
+      "model_id": "vercel/veo-3.1-lite-generate-001",
+      "provider_id": "vercel",
+      "name": "google/veo-3.1-lite-generate-001",
       "modality": [
         "text"
       ],

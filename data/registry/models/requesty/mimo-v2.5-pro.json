@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/mimo-v2.5-pro",
   "provider_id": "requesty",
-  "name": "deepinfra/XiaomiMiMo/MiMo-V2.5-Pro",
+  "name": "xiaomi/mimo-v2.5-pro",
   "context_window": 1050000,
   "modality": [
     "text"

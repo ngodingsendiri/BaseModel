@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gpt-4.1-nano-swedencentral",
   "provider_id": "requesty",
-  "name": "azure/openai-responses/gpt-4.1-nano@swedencentral",
+  "name": "azure/gpt-4.1-nano@swedencentral",
   "modality": [
     "text"
   ],

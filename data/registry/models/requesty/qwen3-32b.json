@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/qwen3-32b",
   "provider_id": "requesty",
-  "name": "deepinfra/Qwen/Qwen3-32B",
+  "name": "nebius/qwen/qwen3-32b",
   "context_window": 131072,
   "modality": [
     "text"
