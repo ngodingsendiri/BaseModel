@@ -6,6 +6,7 @@ import {
   savePricingRecords,
 } from '@basemodel/registry';
 import type { Model, Pricing } from '@basemodel/schema';
+import { toModelSlug } from '../core/slug.js';
 import { classifyTier } from './classify.js';
 import { fetchOpenRouterModels, type OpenRouterModel } from './sources/openrouter.js';
 
@@ -48,7 +49,7 @@ export function findOpenRouterMatch(
   model: Model,
   index: { byId: Map<string, OpenRouterModel>; bySlug: Map<string, OpenRouterModel[]> },
 ): OpenRouterModel | undefined {
-  const slug = model.model_id.split('/').pop() ?? model.model_id;
+  const slug = toModelSlug(model.model_id.split('/').pop() ?? model.model_id);
   const exactId = `${model.provider_id}/${slug}`.toLowerCase();
 
   const exact = index.byId.get(exactId);

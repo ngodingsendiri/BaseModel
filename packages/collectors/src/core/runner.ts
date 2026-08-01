@@ -15,6 +15,9 @@ import { ProviderSchema } from '@basemodel/schema';
 import { z } from 'zod';
 import type { CollectionResult, GatewayDescriptor } from './collector.js';
 import { getGatewaySecretKeys } from './gateway-secrets.js';
+import { normalizeModelId, toModelSlug } from './slug.js';
+
+export { normalizeModelId, toModelSlug } from './slug.js';
 
 const OpenAICompatibleModelSchema = z.object({
   id: z.string(),
@@ -79,33 +82,6 @@ async function errorBodyHint(response: Response): Promise<string> {
   } catch {
     return '';
   }
-}
-
-/**
- * Normalizes a raw API model id into a schema-valid model slug.
- * OpenAI-compatible APIs may return ids that are prefixed with an organization
- * (e.g. "sesame/csm-1b") or carry route suffixes (e.g. "gpt-4o:free"), none of
- * which are valid in a `{provider}/{slug}` model_id. We take the last path
- * segment and keep only the characters allowed by the ModelSchema slug regex.
- */
-export function toModelSlug(apiId: string): string {
-  const lastSegment = (apiId.split('/').pop() ?? apiId).toLowerCase();
-  const slug = lastSegment
-    .replace(/[^a-z0-9.-]+/g, '-')
-    .replace(/-{2,}/g, '-')
-    .replace(/^[-.]+|[-.]+$/g, '');
-  return slug || 'model';
-}
-
-/**
- * Guarantees every persisted model uses a schema-valid `{provider}/{slug}`
- * model_id. Custom gateways may emit org-prefixed or routed ids (e.g.
- * "vercel/openai/gpt-4o"), so we re-key the id against the provider that
- * actually reported the model. Idempotent for already-valid ids.
- */
-export function normalizeModelId(modelId: string, providerId: string): string {
-  const slug = toModelSlug(modelId.split('/').pop() ?? modelId);
-  return `${providerId}/${slug}`;
 }
 
 const PLUGIN_TIMEOUT_MS = 60_000;

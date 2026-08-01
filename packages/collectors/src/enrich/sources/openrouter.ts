@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { toModelSlug } from '../../core/slug.js';
 
 /**
  * OpenRouter — Aggregated pricing source.
@@ -26,7 +27,11 @@ const OpenRouterResponseSchema = z.object({
 export interface OpenRouterModel {
   /** Full OpenRouter id, e.g. "openai/gpt-4o". */
   id: string;
-  /** Lowercased last path segment, e.g. "gpt-4o". */
+  /**
+   * Schema-normalized slug, computed with the same normalization the gateway
+   * collector uses (see toModelSlug). Route suffixes such as "gpt-4o:free"
+   * become "gpt-4o-free" so enrichment matches collected model ids exactly.
+   */
   slug: string;
   /** Lowercased first path segment, e.g. "openai". */
   provider: string;
@@ -67,7 +72,7 @@ export async function fetchOpenRouterModels(
     const outputPer1M = perTokenToPer1M(model.pricing?.completion);
     const segments = model.id.toLowerCase().split('/');
     const provider = segments.shift() ?? model.id;
-    const slug = segments.join('/') || provider;
+    const slug = toModelSlug(model.id);
     return {
       id: model.id,
       slug,
