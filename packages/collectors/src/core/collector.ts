@@ -1,9 +1,22 @@
 import type { Model } from '@basemodel/schema';
 
+/**
+ * Per-model pricing captured directly from a provider's API response.
+ * Values are USD per 1M tokens. A model whose input AND output are both 0
+ * is free; the fields are omitted when the provider does not expose them.
+ */
+export interface ProviderPricing {
+  model_id: string;
+  inputPer1M?: number;
+  outputPer1M?: number;
+}
+
 export interface CollectionResult {
   provider_id: string;
   models: Partial<Model>[];
   errors: string[];
+  /** Optional per-model pricing captured from the provider API response. */
+  pricing?: ProviderPricing[];
 }
 
 export const MAX_PLUGIN_MODELS = 10_000;

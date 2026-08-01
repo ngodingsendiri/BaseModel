@@ -1,6 +1,10 @@
-import type { Model } from '@basemodel/schema';
+import type { Model, Pricing } from '@basemodel/schema';
 import { describe, expect, it } from 'vitest';
 import { classifyTier } from '../enrich/classify';
+import {
+  indexProviderPricing,
+  PROVIDER_PRICING_SOURCE,
+} from '../enrich/index';
 import { findOpenRouterMatch } from '../enrich/index';
 import type { OpenRouterModel } from '../enrich/sources/openrouter';
 import { perTokenToPer1M } from '../enrich/sources/openrouter';
@@ -69,6 +73,41 @@ describe('perTokenToPer1M', () => {
     expect(perTokenToPer1M(undefined)).toBeUndefined();
     expect(perTokenToPer1M('')).toBeUndefined();
     expect(perTokenToPer1M('not-a-number')).toBeUndefined();
+  });
+});
+
+describe('indexProviderPricing', () => {
+  function record(overrides: Partial<Pricing>): Pricing {
+    return {
+      pricing_id: 'x',
+      model_id: 'requesty/m-1',
+      pricing_type: 'input-token',
+      value: 2.5,
+      notes: PROVIDER_PRICING_SOURCE,
+      ...overrides,
+    };
+  }
+
+  it('ignores non-provider records', () => {
+    const map = indexProviderPricing([
+      record({ notes: 'source: openrouter', model_id: 'openai/gpt-4o' }),
+    ]);
+    expect(map.has('openai/gpt-4o')).toBe(false);
+  });
+
+  it('aggregates input/output/free records per model', () => {
+    const map = indexProviderPricing([
+      record({ model_id: 'requesty/m-1', pricing_type: 'input-token', value: 2.5 }),
+      record({ model_id: 'requesty/m-1', pricing_type: 'output-token', value: 10 }),
+    ]);
+    expect(map.get('requesty/m-1')).toEqual({ inputPer1M: 2.5, outputPer1M: 10, isFree: false });
+  });
+
+  it('marks a model free when a free record exists', () => {
+    const map = indexProviderPricing([
+      record({ model_id: 'requesty/free-1', pricing_type: 'free', value: 0 }),
+    ]);
+    expect(map.get('requesty/free-1')?.isFree).toBe(true);
   });
 });
 

@@ -10,6 +10,11 @@ import { toModelSlug } from '../core/slug.js';
 import { classifyTier } from './classify.js';
 import { fetchOpenRouterModels, type OpenRouterModel } from './sources/openrouter.js';
 
+/** Marks pricing records captured directly from a provider's API at collection time. */
+export const PROVIDER_PRICING_SOURCE = 'source: provider-api';
+/** Marks pricing records derived from the OpenRouter aggregate catalog. */
+export const OPENROUTER_PRICING_SOURCE = 'source: openrouter';
+
 export interface EnrichmentSummary {
   enrichedModels: number;
   pricingRecords: number;
@@ -72,16 +77,6 @@ export function findOpenRouterMatch(
 function buildPricingRecords(model: Model, match: OpenRouterModel): Pricing[] {
   const slug = model.model_id.split('/').pop() ?? model.model_id;
   const records: Pricing[] = [];
-  const push = (pricingType: 'input-token' | 'output-token', value: number): void => {
-    records.push({
-      pricing_id: `${model.provider_id}-${slug}-${pricingType === 'input-token' ? 'input' : 'output'}`,
-      model_id: model.model_id,
-      pricing_type: pricingType,
-      currency: 'USD',
-      unit: '1M tokens',
-      value,
-    });
-  };
 
   if (match.isFree) {
     records.push({
@@ -89,12 +84,33 @@ function buildPricingRecords(model: Model, match: OpenRouterModel): Pricing[] {
       model_id: model.model_id,
       pricing_type: 'free',
       value: 0,
+      notes: OPENROUTER_PRICING_SOURCE,
     });
     return records;
   }
 
-  if (match.inputPer1M !== undefined) push('input-token', match.inputPer1M);
-  if (match.outputPer1M !== undefined) push('output-token', match.outputPer1M);
+  if (match.inputPer1M !== undefined) {
+    records.push({
+      pricing_id: `${model.provider_id}-${slug}-input`,
+      model_id: model.model_id,
+      pricing_type: 'input-token',
+      currency: 'USD',
+      unit: '1M tokens',
+      value: match.inputPer1M,
+      notes: OPENROUTER_PRICING_SOURCE,
+    });
+  }
+  if (match.outputPer1M !== undefined) {
+    records.push({
+      pricing_id: `${model.provider_id}-${slug}-output`,
+      model_id: model.model_id,
+      pricing_type: 'output-token',
+      currency: 'USD',
+      unit: '1M tokens',
+      value: match.outputPer1M,
+      notes: OPENROUTER_PRICING_SOURCE,
+    });
+  }
   return records;
 }
 
@@ -104,6 +120,47 @@ function buildLimits(match: OpenRouterModel): Model['limits'] {
     limits.max_input_tokens = match.contextLength;
   }
   return Object.keys(limits).length > 0 ? limits : undefined;
+}
+
+interface ProviderPricingInfo {
+  inputPer1M?: number;
+  outputPer1M?: number;
+  isFree: boolean;
+}
+
+/**
+ * Builds a model_id → pricing map from pricing records captured directly from
+ * provider APIs during collection (see runner.persistProviderPricing). These
+ * are used as a secondary source for models the OpenRouter catalog does not cover.
+ */
+export function indexProviderPricing(
+  records: readonly Pricing[],
+): Map<string, ProviderPricingInfo> {
+  const byModel = new Map<string, ProviderPricingInfo>();
+  for (const record of records) {
+    if (record.notes !== PROVIDER_PRICING_SOURCE) continue;
+    const entry = byModel.get(record.model_id) ?? { isFree: false };
+    if (record.pricing_type === 'free') entry.isFree = true;
+    else if (record.pricing_type === 'input-token') entry.inputPer1M = record.value;
+    else if (record.pricing_type === 'output-token') entry.outputPer1M = record.value;
+    byModel.set(record.model_id, entry);
+  }
+  return byModel;
+}
+
+/**
+ * Applies economics (is_free/tier) to a model from a secondary pricing source
+ * when OpenRouter has no match.
+ */
+async function applyProviderPricing(model: Model, info: ProviderPricingInfo): Promise<void> {
+  const classified = classifyTier(info.inputPer1M ?? 0, info.outputPer1M ?? 0);
+  const isFree = info.isFree;
+  const tier: Model['tier'] = isFree
+    ? 'free'
+    : classified.tier === 'free'
+      ? undefined
+      : classified.tier;
+  await saveModel({ ...model, is_free: isFree, tier });
 }
 
 /**
@@ -143,12 +200,30 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
   }
 
   const index = indexOpenRouter(catalog);
+  const existingPricing = await getAllPricing();
+  const providerPricing = indexProviderPricing(existingPricing);
   const newPricing: Pricing[] = [];
   const enrichedModelIds = new Set<string>();
   let updated = 0;
 
   for (const model of models) {
     const match = findOpenRouterMatch(model, index);
+    const providerInfo = providerPricing.get(model.model_id);
+    // An OpenRouter entry is authoritative only for exact same-provider ids.
+    // Slug-fallback matches can point at a *different* provider's entry
+    // (e.g. requesty/mistral-x falling back to OpenRouter's mistral/x), so a
+    // provider's own captured pricing wins over those.
+    const exactOpenRouter = match !== undefined && stripTilde(match.provider) === model.provider_id;
+
+    if (providerInfo && !exactOpenRouter) {
+      // Provider's own API pricing is the most accurate signal.
+      await applyProviderPricing(model, providerInfo);
+      updated++;
+      summary.enrichedModels++;
+      if (providerInfo.isFree) summary.freeModels++;
+      continue;
+    }
+
     if (!match) continue;
 
     const hasPricing = match.inputPer1M !== undefined || match.outputPer1M !== undefined;
@@ -185,10 +260,14 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
     }
   }
 
-  // Merge: keep existing records for models we did not enrich, then
-  // append newly derived records for enriched models.
-  const allPricing = await getAllPricing();
-  const merged = allPricing.filter((record) => !enrichedModelIds.has(record.model_id));
+  // Merge: replace records for OpenRouter-enriched models, keep only
+  // provider-captured records for models priced from their own API, and
+  // preserve anything else untouched.
+  const merged = existingPricing.filter((record) => {
+    if (enrichedModelIds.has(record.model_id)) return false;
+    if (providerPricing.has(record.model_id)) return record.notes === PROVIDER_PRICING_SOURCE;
+    return true;
+  });
   merged.push(...newPricing);
   summary.pricingRecords = merged.length;
 
