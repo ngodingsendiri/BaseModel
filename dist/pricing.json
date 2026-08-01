@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "6ad8a09",
-  "count": 1487,
+  "source_revision": "7ad45bf",
+  "count": 1486,
   "pricing": [
     {
       "pricing_id": "anthropic-claude-3-5-sonnet-input",
@@ -1614,12 +1614,6 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 0.4
-    },
-    {
-      "pricing_id": "meta-llama-3-1-70b-free",
-      "model_id": "meta/llama-3.1-70b",
-      "pricing_type": "free",
-      "notes": "Open-weight model. Free to self-host. Hosted API pricing varies by provider."
     },
     {
       "pricing_id": "mistral-ai-codestral-2508-input",

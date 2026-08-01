@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "6ad8a09",
+  "source_revision": "7ad45bf",
   "count": 1539,
   "intelligence": [
     {
@@ -5879,7 +5879,7 @@
     },
     {
       "model_id": "meta/llama-3.1-70b",
-      "cost_tier": "Free",
+      "cost_tier": "Unknown",
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
