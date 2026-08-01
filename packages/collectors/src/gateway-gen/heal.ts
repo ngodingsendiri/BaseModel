@@ -8,7 +8,7 @@ import {
   ensureFinalNewline,
   extractTsCode,
   type GeneratedPlugin,
-  validatePluginModule,
+  validateGeneratedPlugin,
 } from './write.js';
 
 export interface HealPluginOptions {
@@ -18,10 +18,19 @@ export interface HealPluginOptions {
   errors?: string[];
   env?: NodeJS.ProcessEnv;
   maxAttempts?: number;
+  liveSecrets?: Record<string, string | undefined>;
 }
 
 export async function healPlugin(options: HealPluginOptions): Promise<GeneratedPlugin> {
-  const { gateway, shape, raw, errors = [], env = process.env, maxAttempts = 3 } = options;
+  const {
+    gateway,
+    shape,
+    raw,
+    errors = [],
+    env = process.env,
+    maxAttempts = 3,
+    liveSecrets,
+  } = options;
   const filePath = getGatewayPluginPath(gateway.id);
   const currentCode = await readFile(filePath, 'utf-8');
   let prompt = buildHealPrompt(gateway, shape, raw, currentCode, errors);
@@ -31,7 +40,7 @@ export async function healPlugin(options: HealPluginOptions): Promise<GeneratedP
     const text = await generateText({ prompt }, env);
     const code = ensureFinalNewline(extractTsCode(text));
     await writeFile(filePath, code, 'utf-8');
-    const validation = await validatePluginModule(filePath, gateway.id);
+    const validation = await validateGeneratedPlugin(filePath, gateway.id, liveSecrets);
     if (validation.ok) return { filePath, code, attempts: attempt };
     lastErrors.push(...validation.errors);
     console.warn(`[heal] attempt ${attempt} failed validation: ${validation.errors.join('; ')}`);

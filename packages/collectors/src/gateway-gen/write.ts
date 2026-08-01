@@ -1,5 +1,7 @@
-import { writeFile } from 'node:fs/promises';
-import { pathToFileURL } from 'node:url';
+import { spawnSync } from 'node:child_process';
+import { readFile, writeFile } from 'node:fs/promises';
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import { ModelSchema } from '@basemodel/schema';
 import type { CollectionResult, GatewayPlugin } from '../core/collector.js';
 import { generateText } from './llm.js';
@@ -8,12 +10,16 @@ import { getGatewayPluginPath } from './manifest.js';
 import type { ShapeSummary } from './probe.js';
 import { buildPluginPrompt } from './prompts.js';
 
+const packageRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..', '..');
+const tscBin = resolve(packageRoot, 'node_modules', 'typescript', 'lib', 'tsc.js');
+
 export interface GeneratePluginOptions {
   gateway: ManifestGateway;
   shape: ShapeSummary;
   raw: unknown;
   env?: NodeJS.ProcessEnv;
   maxAttempts?: number;
+  liveSecrets?: Record<string, string | undefined>;
 }
 
 export interface GeneratedPlugin {
@@ -103,8 +109,56 @@ export async function checkCollection(
   return { modelCount: result.models.length, validCount, errors: result.errors };
 }
 
+export function runTypecheck(cwd: string = packageRoot): string[] {
+  const result = spawnSync(process.execPath, [tscBin, '--noEmit'], {
+    cwd,
+    encoding: 'utf-8',
+    timeout: 120_000,
+  });
+  const output = `${result.stdout ?? ''}\n${result.stderr ?? ''}`;
+  if (result.status === 0) return [];
+  const errors = output
+    .split('\n')
+    .filter((line) => /error TS\d+/.test(line))
+    .map((line) => line.trim())
+    .filter(Boolean);
+  return errors.length > 0 ? errors : [result.error?.message ?? 'typecheck failed'];
+}
+
+export interface GeneratedPluginValidation {
+  ok: boolean;
+  errors: string[];
+  liveCheck?: CollectionCheck;
+}
+
+export async function validateGeneratedPlugin(
+  filePath: string,
+  gatewayId: string,
+  liveSecrets?: Record<string, string | undefined>,
+): Promise<GeneratedPluginValidation> {
+  const code = await readFile(filePath, 'utf-8');
+  const errors = [...checkForbiddenPatterns(code)];
+  const validation = await validatePluginModule(filePath, gatewayId);
+  errors.push(...validation.errors);
+  if (errors.length === 0) {
+    errors.push(...runTypecheck().map((e) => `typecheck: ${e}`));
+  }
+  let liveCheck: CollectionCheck | undefined;
+  if (errors.length === 0 && liveSecrets && validation.plugin) {
+    liveCheck = await checkCollection(validation.plugin, liveSecrets);
+    console.log(
+      `  live check : ${liveCheck.modelCount} models, ${liveCheck.validCount} valid`,
+      liveCheck.errors.length > 0 ? `| errors: ${liveCheck.errors.join(' | ')}` : '',
+    );
+    if (liveCheck.errors.length > 0) {
+      errors.push(...liveCheck.errors.map((e) => `live check: ${e}`));
+    }
+  }
+  return { ok: errors.length === 0, errors, liveCheck };
+}
+
 export async function generatePlugin(options: GeneratePluginOptions): Promise<GeneratedPlugin> {
-  const { gateway, shape, raw, env = process.env, maxAttempts = 3 } = options;
+  const { gateway, shape, raw, env = process.env, maxAttempts = 3, liveSecrets } = options;
   const filePath = getGatewayPluginPath(gateway.id);
   let prompt = buildPluginPrompt(gateway, shape, raw);
   const lastErrors: string[] = [];
@@ -113,13 +167,11 @@ export async function generatePlugin(options: GeneratePluginOptions): Promise<Ge
     const text = await generateText({ prompt }, env);
     const code = ensureFinalNewline(extractTsCode(text));
     await writeFile(filePath, code, 'utf-8');
-    const problems = checkForbiddenPatterns(code);
-    const validation = await validatePluginModule(filePath, gateway.id);
-    const allErrors = [...problems, ...validation.errors];
-    if (allErrors.length === 0) return { filePath, code, attempts: attempt };
-    lastErrors.push(...allErrors);
-    console.warn(`[gen] attempt ${attempt} failed validation: ${allErrors.join('; ')}`);
-    prompt += `\n\nThe previous attempt failed validation:\n${allErrors.join('\n')}\n\nReturn the corrected file only.`;
+    const validation = await validateGeneratedPlugin(filePath, gateway.id, liveSecrets);
+    if (validation.ok) return { filePath, code, attempts: attempt };
+    lastErrors.push(...validation.errors);
+    console.warn(`[gen] attempt ${attempt} failed validation: ${validation.errors.join('; ')}`);
+    prompt += `\n\nThe previous attempt failed validation:\n${validation.errors.join('\n')}\n\nReturn the corrected file only.`;
   }
 
   throw new Error(

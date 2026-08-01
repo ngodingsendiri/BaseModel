@@ -1,14 +1,15 @@
 import { z } from 'zod';
 import type { CollectionResult, CustomGateway } from '../core/collector';
 
-const cohereModelSchema = z.object({
-  name: z.string(),
-  endpoints: z.array(z.string()).optional(),
-  context_length: z.number().optional(),
-});
-
-const cohereResponseSchema = z.object({
-  models: z.array(cohereModelSchema),
+const cohereRawSchema = z.object({
+  models: z.array(
+    z.object({
+      name: z.string(),
+      endpoints: z.array(z.string()).optional(),
+      context_length: z.number().optional(),
+      tokenizer_url: z.string().optional(),
+    }),
+  ),
   next_page_token: z.string().optional(),
 });
 
@@ -18,11 +19,6 @@ export default {
   async collect(secrets: Record<string, string | undefined>): Promise<CollectionResult> {
     const result: CollectionResult = { provider_id: 'cohere', models: [], errors: [] };
     const apiKey = secrets.COHERE_API_KEY;
-
-    if (!apiKey) {
-      result.errors.push('Missing secret COHERE_API_KEY');
-      return result;
-    }
 
     let url: string | undefined = 'https://api.cohere.com/v1/models';
     let pagesFetched = 0;
@@ -34,76 +30,68 @@ export default {
         const response = await fetch(url, {
           method: 'GET',
           headers: {
-            Authorization: `Bearer ${apiKey}`,
-            Accept: 'application/json',
+            ...(apiKey ? { Authorization: `Bearer ${apiKey}` } : {}),
+            'Content-Type': 'application/json',
           },
           signal: AbortSignal.timeout(15_000),
         });
 
         if (!response.ok) {
           result.errors.push(`Failed to fetch models: ${response.status} ${response.statusText}`);
-          break;
+          return result;
         }
 
         const json = await response.json();
-        const parsed = cohereResponseSchema.safeParse(json);
+        const parsed = cohereRawSchema.safeParse(json);
 
         if (!parsed.success) {
           result.errors.push(`Failed to parse response: ${parsed.error.message}`);
-          break;
+          return result;
         }
 
-        for (const item of parsed.data.models) {
-          const rawName = item.name;
+        for (const rawModel of parsed.data.models) {
+          const rawName = rawModel.name;
           const slug = rawName
             .toLowerCase()
-            .replace(/[^a-z0-9.-]/g, '-')
+            .replace(/[^a-z0-9.-]+/g, '-')
             .replace(/-+/g, '-')
             .replace(/^-|-$/g, '');
           const model_id = `cohere/${slug}`;
 
-          const endpoints = item.endpoints || [];
+          const endpoints = rawModel.endpoints ?? [];
           const isEmbed = endpoints.includes('embed') || rawName.includes('embed');
-          const isChat = endpoints.includes('chat') || endpoints.includes('generate');
 
-          const modality: ('text' | 'image' | 'audio' | 'video' | 'code' | 'embedding')[] = [];
-          if (isChat) {
-            modality.push('text');
-          }
-          if (isEmbed) {
-            modality.push('embedding');
-          }
-          if (modality.length === 0) {
-            modality.push('text');
-          }
+          const modality: Array<'text' | 'image' | 'audio' | 'video' | 'code' | 'embedding'> =
+            isEmbed ? ['embedding'] : ['text'];
+          const embedding_support = isEmbed;
+          const function_calling = endpoints.includes('chat') && !isEmbed;
+          const structured_output = endpoints.includes('chat') && !isEmbed;
 
           result.models.push({
             model_id,
             provider_id: 'cohere',
             name: rawName,
-            family: rawName.includes('command') ? 'Command' : undefined,
-            context_window: item.context_length,
+            family: rawName.toLowerCase().includes('command') ? 'Command' : undefined,
+            context_window: rawModel.context_length,
             modality,
             open_weight: false,
             reasoning_support: false,
-            function_calling: false,
-            structured_output: false,
+            function_calling,
+            structured_output,
             vision_support: false,
             audio_support: false,
             image_generation: false,
-            embedding_support: isEmbed,
+            embedding_support,
             status: 'active',
           });
         }
 
-        url = undefined;
+        url = parsed.data.next_page_token;
       }
-    } catch (err: unknown) {
-      if (err instanceof Error) {
-        result.errors.push(err.message);
-      } else {
-        result.errors.push(String(err));
-      }
+    } catch (error) {
+      result.errors.push(
+        `Network or parsing error: ${error instanceof Error ? error.message : String(error)}`,
+      );
     }
 
     return result;

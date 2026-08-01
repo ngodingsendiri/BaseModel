@@ -1,8 +1,8 @@
 import { readFile } from 'node:fs/promises';
 import { healPlugin } from './heal.js';
-import { findGateway, getGatewayPluginPath } from './manifest.js';
+import { findGateway } from './manifest.js';
 import { extractShape, probeGateway, readFixture } from './probe.js';
-import { checkCollection, generatePlugin, validatePluginModule } from './write.js';
+import { generatePlugin } from './write.js';
 
 function hasAnySecret(
   gateway: { secrets: string[]; auth?: { secret?: string } },
@@ -13,18 +13,11 @@ function hasAnySecret(
   return names.some((name) => Boolean(env[name]));
 }
 
-async function runLiveCheck(gatewayId: string, env: NodeJS.ProcessEnv): Promise<void> {
-  const filePath = getGatewayPluginPath(gatewayId);
-  const validation = await validatePluginModule(filePath, gatewayId);
-  if (!validation.ok || !validation.plugin) {
-    console.warn(`  (skip live check: ${validation.errors.join('; ')})`);
-    return;
-  }
-  const check = await checkCollection(validation.plugin, env);
-  console.log(
-    `  live check : ${check.modelCount} models, ${check.validCount} valid`,
-    check.errors.length > 0 ? `| errors: ${check.errors.join(' | ')}` : '',
-  );
+function liveSecretsFor(
+  gateway: { secrets: string[]; auth?: { secret?: string } },
+  env: NodeJS.ProcessEnv,
+): Record<string, string | undefined> | undefined {
+  return hasAnySecret(gateway, env) ? env : undefined;
 }
 
 async function bootstrap(gatewayId: string, env: NodeJS.ProcessEnv): Promise<void> {
@@ -39,15 +32,19 @@ async function bootstrap(gatewayId: string, env: NodeJS.ProcessEnv): Promise<voi
     `  shape     : ${probe.shape.modelArray ? `model array at "${probe.shape.modelArray.path}" (${probe.shape.modelArray.count} items)` : 'no model array detected'}`,
   );
 
+  const liveSecrets = liveSecretsFor(gateway, env);
   console.log(`Generating plugin via LLM...`);
-  const generated = await generatePlugin({ gateway, shape: probe.shape, raw: probe.raw, env });
+  const generated = await generatePlugin({
+    gateway,
+    shape: probe.shape,
+    raw: probe.raw,
+    env,
+    liveSecrets,
+  });
   console.log(`  wrote     : ${generated.filePath} (attempt ${generated.attempts})`);
-
-  if (hasAnySecret(gateway, env)) {
-    await runLiveCheck(gateway.id, env);
-  } else {
+  if (!liveSecrets) {
     console.warn(
-      `  live check : skipped (no API key in env). The generated plugin was structurally validated; ` +
+      `  live check : skipped (no API key in env). The generated plugin was validated for structure and types; ` +
         'add a fixture-based unit test or set the gateway key to verify mapping.',
     );
   }
@@ -63,9 +60,15 @@ async function heal(gatewayId: string, env: NodeJS.ProcessEnv, errorsFile?: stri
     errors = Array.isArray(parsed) ? parsed.map(String) : [String(parsed)];
   }
   console.log(`Healing plugin for ${gateway.id}...`);
-  const healed = await healPlugin({ gateway, shape, raw, errors, env });
+  const healed = await healPlugin({
+    gateway,
+    shape,
+    raw,
+    errors,
+    env,
+    liveSecrets: liveSecretsFor(gateway, env),
+  });
   console.log(`  wrote     : ${healed.filePath} (attempt ${healed.attempts})`);
-  if (hasAnySecret(gateway, env)) await runLiveCheck(gateway.id, env);
 }
 
 async function main(): Promise<void> {
