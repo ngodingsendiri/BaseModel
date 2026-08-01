@@ -89,6 +89,21 @@ export interface CollectionCheck {
   errors: string[];
 }
 
+function formatIssuePath(issue: { path?: ReadonlyArray<string | number> }): string {
+  return (issue.path ?? [])
+    .map((segment) => (typeof segment === 'number' ? `[${segment}]` : `.${segment}`))
+    .join('')
+    .replace(/^\./, '');
+}
+
+function formatModelIssue(issue: { message: string; expected?: unknown; received?: unknown }): string {
+  const extra =
+    issue.expected !== undefined
+      ? ` (expected ${String(issue.expected)}, received ${String(issue.received)})`
+      : '';
+  return `${issue.message}${extra}`;
+}
+
 export async function checkCollection(
   plugin: GatewayPlugin,
   secrets: Record<string, string | undefined>,
@@ -99,12 +114,25 @@ export async function checkCollection(
     }
   ).collect(secrets);
   let validCount = 0;
+  const seen = new Set<string>();
   for (const model of result.models) {
     const parsed = ModelSchema.safeParse(model);
-    if (parsed.success) validCount += 1;
+    if (parsed.success) {
+      validCount += 1;
+      continue;
+    }
+    const issue = (parsed.error.issues ?? [])[0] as
+      | { path?: ReadonlyArray<string | number>; message: string; expected?: unknown; received?: unknown }
+      | undefined;
+    if (issue) {
+      const label = `${formatIssuePath(issue)}: ${formatModelIssue(issue)}`;
+      if (seen.size < 5) seen.add(label);
+    }
   }
-  if (result.models.length !== validCount) {
-    result.errors.push(`${result.models.length - validCount} models failed ModelSchema validation`);
+  const invalid = result.models.length - validCount;
+  if (invalid > 0) {
+    result.errors.push(`${invalid} models failed ModelSchema validation`);
+    for (const label of seen) result.errors.push(`  e.g. model ${label}`);
   }
   return { modelCount: result.models.length, validCount, errors: result.errors };
 }
