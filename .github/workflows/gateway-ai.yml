@@ -98,18 +98,43 @@ jobs:
 
       - name: Open PR
         run: |
-          BRANCH="ai/gateway/${{ github.event.inputs.gateway_id }}"
-          gh pr create \
-            --base main \
-            --head "$BRANCH" \
-            --title "feat(gateways): AI-generated plugin for ${{ github.event.inputs.gateway_id }}" \
-            --body "AI-generated gateway plugin for \`${{ github.event.inputs.gateway_id }}\` (mode: ${{ github.event.inputs.mode }}).
+          ID="${{ github.event.inputs.gateway_id }}"
+          MODE="${{ github.event.inputs.mode }}"
+          python3 - "$ID" "$MODE" <<'PYEOF'
+          import json, os, sys, urllib.request, urllib.error
+          gateway, mode = sys.argv[1], sys.argv[2]
+          token = os.environ['GH_TOKEN']
+          repo = os.environ['GITHUB_REPOSITORY']
+          body = f"""AI-generated gateway plugin for `{gateway}` (mode: {mode}).
 
           Reviewed before merge, per docs/08_Gateway_Plugin_Security.md:
-          - Confirm the plugin only uses secrets registered in \`packages/collectors/src/core/gateway-secrets.ts\`.
-          - Add the gateway's API key as a repository secret so nightly collection can use it.
-          - Run \`pnpm --filter @basemodel/collectors run verify <path>\` to smoke-test with a live key." \
-            || echo "PR may already exist for this gateway."
+          - Confirm the plugin only uses secrets registered in `packages/collectors/src/core/gateway-secrets.ts`.
+          - Add the gateway API key as a repository secret so nightly collection can use it.
+          - Run `pnpm --filter @basemodel/collectors run verify <path>` to smoke-test with a live key."""
+          payload = {
+              'title': f'feat(gateways): AI-generated plugin for {gateway}',
+              'head': f'ai/gateway/{gateway}',
+              'base': 'main',
+              'body': body,
+          }
+          req = urllib.request.Request(
+              f'https://api.github.com/repos/{repo}/pulls',
+              data=json.dumps(payload).encode(),
+              headers={'Authorization': f'Bearer {token}', 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json'},
+              method='POST',
+          )
+          try:
+              with urllib.request.urlopen(req) as resp:
+                  data = json.load(resp)
+              print(f'Created PR #{data["number"]}: {data["html_url"]}')
+          except urllib.error.HTTPError as e:
+              err = json.load(e)
+              if e.code == 422 and any('A pull request already exists' in m.get('message', '') for m in err.get('errors', [])):
+                  print('PR already exists for this gateway.')
+              else:
+                  print(f'Failed to create PR: {e.code} {json.dumps(err)}')
+                  sys.exit(1)
+          PYEOF
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
