@@ -1,0 +1,142 @@
+name: AI Gateway Generation
+
+# Generates a custom gateway plugin with a free-tier LLM.
+# 1. Register the gateway in packages/collectors/manifest.json (url + key + optional sample).
+# 2. Add the gateway's API key as a repository secret (it must be listed in
+#    packages/collectors/src/core/gateway-secrets.ts before collection can use it).
+# 3. Run this workflow with the gateway id, or open a PR that touches manifest.json
+#    to validate the manifest without generating anything.
+on:
+  workflow_dispatch:
+    inputs:
+      gateway_id:
+        description: 'Gateway id listed in packages/collectors/manifest.json'
+        required: true
+        type: string
+      mode:
+        description: 'bootstrap (new plugin) or heal (fix existing plugin)'
+        required: false
+        default: bootstrap
+        type: choice
+        options:
+          - bootstrap
+          - heal
+  pull_request:
+    types: [opened, synchronize]
+    paths:
+      - 'packages/collectors/manifest.json'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  generate:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 9
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build schema & registry
+        run: pnpm --filter @basemodel/schema --filter @basemodel/registry build
+
+      - name: Generate gateway plugin via LLM
+        run: |
+          FLAGS=""
+          if [ "${{ github.event.inputs.mode }}" == "heal" ]; then FLAGS="--heal"; fi
+          pnpm --filter @basemodel/collectors run gen-gateway "${{ github.event.inputs.gateway_id }}" $FLAGS
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_AI_API_KEY: ${{ secrets.GOOGLE_AI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
+          DEEPINFRA_API_KEY: ${{ secrets.DEEPINFRA_API_KEY }}
+          FIREWORKS_API_KEY: ${{ secrets.FIREWORKS_API_KEY }}
+          CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
+          HYPERBOLIC_API_KEY: ${{ secrets.HYPERBOLIC_API_KEY }}
+          REQUESTY_API_KEY: ${{ secrets.REQUESTY_API_KEY }}
+          PORTKEY_API_KEY: ${{ secrets.PORTKEY_API_KEY }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          COHERE_API_KEY: ${{ secrets.COHERE_API_KEY }}
+          LITELLM_BASE_URL: ${{ secrets.LITELLM_BASE_URL }}
+          LITELLM_API_KEY: ${{ secrets.LITELLM_API_KEY }}
+
+      - name: Validate generated plugin
+        run: |
+          pnpm --filter @basemodel/collectors run typecheck
+          pnpm --filter @basemodel/collectors run test
+
+      - name: Commit generated plugin
+        run: |
+          BRANCH="ai/gateway/${{ github.event.inputs.gateway_id }}"
+          git config user.name "BaseModel Bot"
+          git config user.email "bot@basemodel"
+          git checkout -b "$BRANCH"
+          git add packages/collectors/src/gateways packages/collectors/manifest.json
+          git commit -m "feat(gateways): AI-generated plugin for ${{ github.event.inputs.gateway_id }}" || echo "No changes to commit"
+          git push -u origin "$BRANCH"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Open PR
+        run: |
+          BRANCH="ai/gateway/${{ github.event.inputs.gateway_id }}"
+          gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title "feat(gateways): AI-generated plugin for ${{ github.event.inputs.gateway_id }}" \
+            --body "AI-generated gateway plugin for \`${{ github.event.inputs.gateway_id }}\` (mode: ${{ github.event.inputs.mode }}).
+
+          Reviewed before merge, per docs/08_Gateway_Plugin_Security.md:
+          - Confirm the plugin only uses secrets registered in \`packages/collectors/src/core/gateway-secrets.ts\`.
+          - Add the gateway's API key as a repository secret so nightly collection can use it.
+          - Run \`pnpm --filter @basemodel/collectors run verify <path>\` to smoke-test with a live key." \
+            || echo "PR may already exist for this gateway."
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  validate-manifest:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 9
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build schema & registry
+        run: pnpm --filter @basemodel/schema --filter @basemodel/registry build
+
+      - name: Validate manifest
+        run: |
+          pnpm --filter @basemodel/collectors exec tsx -e "(async () => { const m = await import('./src/gateway-gen/manifest.js'); await m.loadManifest(); console.log('manifest OK'); })()"
