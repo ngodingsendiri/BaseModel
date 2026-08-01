@@ -1,0 +1,50 @@
+{
+  "models": [
+    {
+      "name": "command-r-plus",
+      "endpoints": [
+        "chat",
+        "embed",
+        "generate",
+        "summarize",
+        "classify"
+      ],
+      "context_length": 128000,
+      "tokenizer_url": "https://docs.cohere.com/docs/tokenizer"
+    },
+    {
+      "name": "command-r",
+      "endpoints": [
+        "chat",
+        "embed",
+        "generate",
+        "summarize",
+        "classify"
+      ],
+      "context_length": 128000
+    },
+    {
+      "name": "command-light",
+      "endpoints": [
+        "chat",
+        "generate",
+        "summarize"
+      ],
+      "context_length": 4096
+    },
+    {
+      "name": "embed-english-v3.0",
+      "endpoints": [
+        "embed"
+      ],
+      "context_length": 512
+    },
+    {
+      "name": "rerank-english-v3.0",
+      "endpoints": [
+        "rerank"
+      ],
+      "context_length": 4096
+    }
+  ]
+}

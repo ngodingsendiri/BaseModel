@@ -6,6 +6,7 @@ export const GATEWAY_SECRET_KEYS = {
   anthropic: ['ANTHROPIC_API_KEY'],
   cerebras: ['CEREBRAS_API_KEY'],
   cloudflare: ['CLOUDFLARE_ACCOUNT_ID', 'CLOUDFLARE_API_TOKEN'],
+  cohere: ['COHERE_API_KEY'],
   deepinfra: ['DEEPINFRA_API_KEY'],
   fireworks: ['FIREWORKS_API_KEY'],
   google: ['GOOGLE_AI_API_KEY'],
