@@ -1,165 +1,157 @@
 import { z } from 'zod';
 import type { CollectionResult, CustomGateway } from '../core/collector';
 
+function slugify(text: string): string {
+  return text.toLowerCase().replace(/[^a-z0-9.-]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+}
+
 const rawModelSchema = z.object({
   name: z.string(),
-  endpoints: z.array(z.string()).nullable().optional(),
-  finetuned: z.boolean().optional(),
-  context_length: z.number().nullable().optional(),
-  tokenizer_url: z.string().nullable().optional(),
-  default_endpoints: z.array(z.string()).nullable().optional(),
-  features: z.array(z.string()).nullable().optional(),
+  endpoints: z.array(z.string()).nullable(),
+  finetuned: z.boolean(),
+  context_length: z.number().nullable(),
+  tokenizer_url: z.string().nullable(),
+  features: z.array(z.string()).nullable(),
+  default_endpoints: z.array(z.string()).nullable(),
 });
 
 const rawResponseSchema = z.object({
   models: z.array(rawModelSchema),
-  next_page_token: z.string().nullable().optional(),
 });
 
-function slugify(name: string): string {
-  return name
-    .toLowerCase()
-    .replace(/[^a-z0-9.]+/g, '-')
-    .replace(/-+/g, '-')
-    .replace(/^-|-$/g, '');
-}
-
-function deriveModality(
-  endpoints: string[] | null | undefined,
-  features: string[] | null | undefined,
-): ('text' | 'image' | 'audio' | 'video' | 'code' | 'embedding')[] {
+function deriveModality(features: string[] | null | undefined): ('text' | 'image' | 'audio' | 'video' | 'code' | 'embedding')[] {
+  const f = features ?? [];
   const modalities: ('text' | 'image' | 'audio' | 'video' | 'code' | 'embedding')[] = ['text'];
-
-  if (endpoints?.includes('embed')) {
-    if (!modalities.includes('embedding')) modalities.push('embedding');
-  }
-  if (endpoints?.includes('classify') || features?.includes('classification')) {
-    if (!modalities.includes('embedding')) modalities.push('embedding');
-  }
-  if (
-    endpoints?.includes('generate') ||
-    features?.includes('image_generation') ||
-    features?.includes('image')
-  ) {
-    if (!modalities.includes('image')) modalities.push('image');
-  }
-  if (features?.includes('audio')) {
-    if (!modalities.includes('audio')) modalities.push('audio');
-  }
-  if (features?.includes('code')) {
-    if (!modalities.includes('code')) modalities.push('code');
-  }
+  if (f.includes('vision')) modalities.push('image');
+  if (f.includes('audio')) modalities.push('audio');
+  if (f.includes('transcriptions')) modalities.push('audio');
+  if (f.includes('embed')) modalities.push('embedding');
   return modalities;
 }
 
-function deriveCapabilities(
-  endpoints: string[] | null | undefined,
-  features: string[] | null | undefined,
-): string[] {
+function deriveCapabilities(features: string[] | null | undefined): string[] {
+  const f = features ?? [];
   const caps: string[] = [];
-  if (endpoints?.includes('chat')) caps.push('chat');
-  if (endpoints?.includes('embed') || features?.includes('classification')) caps.push('embedding');
-  if (endpoints?.includes('classify')) caps.push('classification');
-  if (endpoints?.includes('rerank')) caps.push('reranking');
-  if (features?.includes('supports_rag')) caps.push('rag');
-  if (features?.includes('search')) caps.push('search');
-  if (endpoints?.includes('summarize')) caps.push('summarization');
-  if (features?.includes('experimental_chat')) caps.push('experimental_chat');
+  if (f.includes('reasoning')) caps.push('reasoning');
+  if (f.includes('tools')) caps.push('function_calling');
+  if (f.includes('json_mode') || f.includes('json_schema')) caps.push('structured_output');
+  if (f.includes('vision')) caps.push('vision_support');
+  if (f.includes('logprobs')) caps.push('logprobs');
+  if (f.includes('citations')) caps.push('citations');
+  if (f.includes('safety_modes')) caps.push('safety_modes');
+  if (f.includes('transcriptions')) caps.push('audio_support');
+  if (f.includes('embed')) caps.push('embedding_support');
   return caps;
+}
+
+function deriveBooleanFlags(features: string[] | null | undefined): {
+  reasoning_support: boolean;
+  function_calling: boolean;
+  structured_output: boolean;
+  vision_support: boolean;
+  audio_support: boolean;
+  image_generation: boolean;
+  embedding_support: boolean;
+} {
+  const f = features ?? [];
+  return {
+    reasoning_support: f.includes('reasoning'),
+    function_calling: f.includes('tools'),
+    structured_output: f.includes('json_mode') || f.includes('json_schema'),
+    vision_support: f.includes('vision'),
+    audio_support: f.includes('transcriptions'),
+    image_generation: false,
+    embedding_support: f.includes('embed'),
+  };
 }
 
 export default {
   type: 'custom',
   id: 'cohere',
   async collect(secrets: Record<string, string | undefined>): Promise<CollectionResult> {
+    const result: CollectionResult = { provider_id: 'cohere', models: [], errors: [] };
     const apiKey = secrets['COHERE_API_KEY'];
     if (!apiKey) {
-      return { provider_id: 'cohere', models: [], errors: ['COHERE_API_KEY secret is missing'] };
+      result.errors.push('COHERE_API_KEY secret is missing');
+      return result;
     }
 
-    const baseUrl = 'https://api.cohere.com';
-    const endpoint = '/v1/models';
-    const url = `${baseUrl}${endpoint}`;
-
+    const url = 'https://api.cohere.com/v1/models';
     let response: Response;
     try {
       response = await fetch(url, {
         method: 'GET',
-        headers: {
-          Authorization: `Bearer ${apiKey}`,
-          'Content-Type': 'application/json',
-        },
+        headers: { Authorization: `Bearer ${apiKey}` },
         signal: AbortSignal.timeout(15_000),
       });
     } catch (err) {
       const message = err instanceof Error ? err.message : 'Unknown fetch error';
-      return { provider_id: 'cohere', models: [], errors: [`Failed to fetch: ${message}`] };
+      result.errors.push(`Failed to fetch models: ${message}`);
+      return result;
     }
 
-    let data: unknown;
+    if (!response.ok) {
+      result.errors.push(`HTTP ${response.status}: ${response.statusText}`);
+      return result;
+    }
+
+    let raw: unknown;
     try {
-      data = await response.json();
-    } catch {
-      return { provider_id: 'cohere', models: [], errors: ['Invalid JSON response'] };
+      raw = await response.json();
+    } catch (err) {
+      const message = err instanceof Error ? err.message : 'Unknown parse error';
+      result.errors.push(`Failed to parse JSON: ${message}`);
+      return result;
     }
 
-    const parsed = rawResponseSchema.safeParse(data);
+    const parsed = rawResponseSchema.safeParse(raw);
     if (!parsed.success) {
-      return {
-        provider_id: 'cohere',
-        models: [],
-        errors: [`Validation error: ${parsed.error.message}`],
-      };
+      result.errors.push(`Invalid response shape: ${parsed.error.issues.map(i => i.message).join(', ')}`);
+      return result;
     }
 
-    const models: CollectionResult['models'] = [];
-    for (const raw of parsed.data.models) {
-      const name = raw.name;
-      const slug = slugify(name);
+    for (const rawModel of parsed.data.models) {
+      const slug = slugify(rawModel.name);
       const modelId = `cohere/${slug}`;
-      const endpoints = raw.endpoints ?? undefined;
-      const features = raw.features ?? undefined;
-      const modality = deriveModality(endpoints, features);
-      const capabilities = deriveCapabilities(endpoints, features);
-      const contextLength = raw.context_length;
-      const contextWindow =
-        typeof contextLength === 'number' && contextLength > 0 ? contextLength : undefined;
+      const features = rawModel.features ?? undefined;
+      const modality = deriveModality(features);
+      const caps = deriveCapabilities(features);
+      const flags = deriveBooleanFlags(features);
 
-      models.push({
+      const contextWindow = typeof rawModel.context_length === 'number' && rawModel.context_length > 0
+        ? rawModel.context_length
+        : undefined;
+
+      const model = {
         model_id: modelId,
         provider_id: 'cohere',
-        name: name,
-        family: name.includes('command')
-          ? 'command'
-          : name.includes('embed')
-            ? 'embed'
-            : name.includes('rerank')
-              ? 'rerank'
-              : undefined,
-        version: name.includes('v') ? name.split('v')[1]?.split('.')[0] : undefined,
-        release_date: undefined,
-        description: undefined,
-        architecture: undefined,
+        name: rawModel.name,
+        family: rawModel.name.split('-').slice(0, -1).join('-') || undefined,
+        version: rawModel.name.split('-').pop() || undefined,
+        description: rawModel.name,
+        architecture: 'unknown',
         parameter_size: undefined,
         context_window: contextWindow,
-        modality: modality,
+        modality,
         open_weight: false,
-        reasoning_support: false,
-        function_calling: endpoints?.includes('chat') ?? false,
-        structured_output: endpoints?.includes('chat') ?? false,
-        vision_support: endpoints?.includes('chat') ?? false,
-        audio_support: endpoints?.includes('chat') ?? false,
-        image_generation: false,
-        embedding_support: endpoints?.includes('embed') ?? false,
+        reasoning_support: flags.reasoning_support,
+        function_calling: flags.function_calling,
+        structured_output: flags.structured_output,
+        vision_support: flags.vision_support,
+        audio_support: flags.audio_support,
+        image_generation: flags.image_generation,
+        embedding_support: flags.embedding_support,
         is_free: undefined,
         tier: undefined,
         limits: undefined,
-        capability_ids: capabilities.length > 0 ? capabilities : undefined,
+        capability_ids: caps,
         license_id: undefined,
-        status: raw.finetuned ? 'preview' : 'active',
-      });
+        status: 'active' as const,
+      };
+
+      result.models.push(model);
     }
 
-    return { provider_id: 'cohere', models, errors: [] };
+    return result;
   },
 } satisfies CustomGateway;
