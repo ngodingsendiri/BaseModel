@@ -7,13 +7,14 @@ import {
   getProvider,
   mergeModelData,
   saveModel,
+  savePricingRecords,
   saveProvider,
   validate,
 } from '@basemodel/registry';
-import type { Provider } from '@basemodel/schema';
+import type { Pricing, Provider } from '@basemodel/schema';
 import { ProviderSchema } from '@basemodel/schema';
 import { z } from 'zod';
-import type { CollectionResult, GatewayDescriptor } from './collector.js';
+import type { CollectionResult, GatewayDescriptor, ProviderPricing } from './collector.js';
 import { getGatewaySecretKeys } from './gateway-secrets.js';
 import { normalizeModelId, toModelSlug } from './slug.js';
 
@@ -23,6 +24,10 @@ const OpenAICompatibleModelSchema = z.object({
   id: z.string(),
   context_length: z.number().optional(),
   created: z.number().optional(),
+  // Many OpenAI-compatible /models endpoints expose pricing as USD per token
+  // (e.g. Requesty). Values may arrive as numbers or numeric strings.
+  input_price: z.union([z.number(), z.string()]).optional(),
+  output_price: z.union([z.number(), z.string()]).optional(),
 });
 
 /**
@@ -69,8 +74,20 @@ async function fetchWithRetry(
 function responseModelArray(parsed: z.infer<typeof OpenAICompatibleResponseSchema>): Array<{
   id: string;
   context_length?: number;
+  input_price?: number | string;
+  output_price?: number | string;
 }> {
   return Array.isArray(parsed) ? parsed : parsed.data;
+}
+
+/** Normalizes a provider-supplied price (USD per token) to USD per 1M tokens. */
+function toPer1M(value: number | string | undefined): number | undefined {
+  if (value === undefined || value === '') return undefined;
+  const parsed = typeof value === 'number' ? value : Number.parseFloat(value);
+  if (!Number.isFinite(parsed) || parsed < 0) return undefined;
+  // OpenAI-compatible model-listing endpoints report prices per token in
+  // USD (e.g. Requesty: qwen3.7-max = 0.0000025 => $2.5/1M).
+  return Math.round(parsed * 1_000_000 * 1000) / 1000;
 }
 
 /** Pulls a short JSON body snippet for diagnostics without leaking secrets. */
@@ -208,12 +225,14 @@ async function runSimpleGateway(
       result.errors.push(`Failed to parse response from ${plugin.id}: ${parsed.error.message}`);
       return result;
     }
+    const pricing: ProviderPricing[] = [];
     for (const apiModel of responseModelArray(parsed.data)) {
       const slug = toModelSlug(apiModel.id);
+      const modelId = `${plugin.id}/${slug}`;
       result.models.push({
-        model_id: `${plugin.id}/${slug}`,
+        model_id: modelId,
         provider_id: plugin.id,
-        name: apiModel.id,
+        name: apiModel.id.split('/').pop() ?? apiModel.id,
         context_window: apiModel.context_length,
         status: 'active',
         modality: ['text'],
@@ -226,7 +245,13 @@ async function runSimpleGateway(
         image_generation: false,
         embedding_support: false,
       });
+      const inputPer1M = toPer1M(apiModel.input_price);
+      const outputPer1M = toPer1M(apiModel.output_price);
+      if (inputPer1M !== undefined || outputPer1M !== undefined) {
+        pricing.push({ model_id: modelId, inputPer1M, outputPer1M });
+      }
     }
+    if (pricing.length > 0) result.pricing = pricing;
   } catch (error: unknown) {
     result.errors.push(error instanceof Error ? error.message : 'Unknown error');
   }
@@ -398,6 +423,53 @@ async function persistResult(result: CollectionResult): Promise<void> {
     }
   }
   console.log(`New: ${newCount} | Updated: ${updatedCount} | Failed: ${failedCount}`);
+  await persistProviderPricing(result);
+}
+
+/** Persists provider-captured pricing as registry records so enrichment can reuse it. */
+async function persistProviderPricing(result: CollectionResult): Promise<void> {
+  if (!result.pricing || result.pricing.length === 0) return;
+  const records: Pricing[] = [];
+  for (const entry of result.pricing) {
+    const modelId = normalizeModelId(entry.model_id, result.provider_id);
+    const slug = modelId.split('/').pop() ?? modelId;
+    const isFree = entry.inputPer1M === 0 && entry.outputPer1M === 0;
+    if (isFree) {
+      records.push({
+        pricing_id: `${result.provider_id}-${slug}-free`,
+        model_id: modelId,
+        pricing_type: 'free',
+        value: 0,
+        notes: 'source: provider-api',
+      });
+      continue;
+    }
+    if (entry.inputPer1M !== undefined) {
+      records.push({
+        pricing_id: `${result.provider_id}-${slug}-input`,
+        model_id: modelId,
+        pricing_type: 'input-token',
+        currency: 'USD',
+        unit: '1M tokens',
+        value: entry.inputPer1M,
+        notes: 'source: provider-api',
+      });
+    }
+    if (entry.outputPer1M !== undefined) {
+      records.push({
+        pricing_id: `${result.provider_id}-${slug}-output`,
+        model_id: modelId,
+        pricing_type: 'output-token',
+        currency: 'USD',
+        unit: '1M tokens',
+        value: entry.outputPer1M,
+        notes: 'source: provider-api',
+      });
+    }
+  }
+  if (records.length > 0) {
+    await savePricingRecords(result.provider_id, records);
+  }
 }
 
 export async function runAllGateways(): Promise<void> {

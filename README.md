@@ -54,6 +54,7 @@ Useful package-level commands:
 
 - `pnpm --filter @basemodel/collectors run collect`
 - `pnpm --filter @basemodel/collectors run verify packages/collectors/src/gateways/openai.ts`
+- `pnpm --filter @basemodel/collectors run gen-gateway <id>` - generate a custom gateway plugin for a gateway registered in `packages/collectors/manifest.json`
 
 ## License
 

@@ -25,6 +25,26 @@ Collectors fetch data from official APIs, documentation, or other approved sourc
 
 Current collector support includes both OpenAI-compatible gateway plugins and custom gateway plugins.
 
+#### AI Gateway Generation
+
+Providers whose APIs do not match the OpenAI-compatible shape can register a
+gateway in `packages/collectors/manifest.json` (base URL, auth, and optionally a
+static sample response). A free-tier LLM then generates a custom gateway plugin:
+
+1. `pnpm --filter @basemodel/collectors run gen-gateway <id>` probes the
+   endpoint (or uses the sample), captures a redacted fixture, and summarizes
+   the response shape.
+2. The LLM writes `packages/collectors/src/gateways/<id>.ts` implementing the
+   `CustomGateway` contract.
+3. Output is structurally validated before use (importable module, correct id,
+   `collect()` present, no forbidden patterns such as `any` or hardcoded keys)
+   and retried up to 3 times.
+4. `--heal` regenerates a plugin from its existing fixture when a sample changes
+   or a mapping breaks.
+
+Generated plugins are proposed through a pull request and must be reviewed
+before merge. See `docs/08_Gateway_Plugin_Security.md`.
+
 ### Validation
 
 Validation checks required fields, identifier formats, schema compliance, URL validity, and timestamp formats.
@@ -98,3 +118,4 @@ The pipeline is automated through GitHub Actions:
 - `publish.yml` regenerates datasets on push to `main`.
 - `deploy-pages.yml` publishes the generated static files.
 - `verify-gateway.yml` checks gateway plugin changes.
+- `gateway-ai.yml` generates gateway plugins with an LLM and opens a review PR; it also validates the manifest on PRs that touch it.
