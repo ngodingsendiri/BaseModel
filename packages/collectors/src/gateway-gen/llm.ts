@@ -1,27 +1,59 @@
 const GEMINI_ENDPOINT = 'https://generativelanguage.googleapis.com/v1beta/models';
 const OPENROUTER_ENDPOINT = 'https://openrouter.ai/api/v1/chat/completions';
+const REQUESTY_ENDPOINT = 'https://router.requesty.ai/v1/chat/completions';
 
 export interface LlmConfig {
   prompt: string;
   temperature?: number;
 }
 
-export type Provider = 'gemini' | 'openrouter';
+export type Provider = 'gemini' | 'openrouter' | 'requesty';
 
 function resolveProviders(env: NodeJS.ProcessEnv): Provider[] {
   const forced = env.LLM_PROVIDER;
-  if (forced === 'openrouter') return ['openrouter'];
-  if (forced === 'gemini') return ['gemini'];
+  if (forced === 'openrouter' || forced === 'gemini' || forced === 'requesty') return [forced];
   const list: Provider[] = [];
-  if (env.OPENROUTER_API_KEY) list.push('openrouter');
+  if (env.REQUESTY_API_KEY) list.push('requesty');
   if (env.GEMINI_API_KEY) list.push('gemini');
+  if (env.OPENROUTER_API_KEY) list.push('openrouter');
   if (list.length === 0) {
     throw new Error(
-      'No LLM provider configured. Set OPENROUTER_API_KEY (free models) or ' +
-        'GEMINI_API_KEY (Gemini free tier) to generate gateway plugins.',
+      'No LLM provider configured. Set REQUESTY_API_KEY, GEMINI_API_KEY, or ' +
+        'OPENROUTER_API_KEY (all have free tiers) to generate gateway plugins.',
     );
   }
   return list;
+}
+
+async function callRequesty(prompt: string, env: NodeJS.ProcessEnv): Promise<string> {
+  const apiKey = env.REQUESTY_API_KEY;
+  const model = env.REQUESTY_MODEL ?? 'mistral/leanstral-1-5';
+  const response = await fetch(REQUESTY_ENDPOINT, {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${apiKey}`,
+      'Content-Type': 'application/json',
+      'HTTP-Referer': 'https://basemodel.ai',
+      'X-Title': 'BaseModel gateway generator',
+    },
+    body: JSON.stringify({
+      model,
+      messages: [{ role: 'user', content: prompt }],
+      temperature: 0.2,
+      max_tokens: 8192,
+    }),
+    signal: AbortSignal.timeout(120_000),
+  });
+  if (!response.ok) {
+    const body = await response.text().catch(() => '');
+    throw new Error(`Requesty HTTP ${response.status}: ${body.slice(0, 300)}`);
+  }
+  const data = (await response.json()) as {
+    choices?: Array<{ message?: { content?: string } }>;
+  };
+  const text = data.choices?.[0]?.message?.content;
+  if (!text) throw new Error('Requesty returned an empty response.');
+  return text;
 }
 
 async function callGemini(prompt: string, env: NodeJS.ProcessEnv): Promise<string> {
@@ -48,35 +80,53 @@ async function callGemini(prompt: string, env: NodeJS.ProcessEnv): Promise<strin
   return text;
 }
 
+const OPENROUTER_FREE_CANDIDATES = [
+  'cohere/north-mini-code:free',
+  'google/gemma-4-31b-it:free',
+  'openai/gpt-oss-20b:free',
+  'google/gemma-4-26b-a4b-it:free',
+  'poolside/laguna-s-2.1:free',
+];
+
 async function callOpenRouter(prompt: string, env: NodeJS.ProcessEnv): Promise<string> {
   const apiKey = env.OPENROUTER_API_KEY;
-  const model = env.OPENROUTER_MODEL ?? 'deepseek/deepseek-chat-v3-0324:free';
-  const response = await fetch(OPENROUTER_ENDPOINT, {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${apiKey}`,
-      'Content-Type': 'application/json',
-      'HTTP-Referer': 'https://basemodel.ai',
-      'X-Title': 'BaseModel gateway generator',
-    },
-    body: JSON.stringify({
-      model,
-      messages: [{ role: 'user', content: prompt }],
-      temperature: 0.2,
-      max_tokens: 8192,
-    }),
-    signal: AbortSignal.timeout(120_000),
-  });
-  if (!response.ok) {
-    const body = await response.text().catch(() => '');
-    throw new Error(`OpenRouter HTTP ${response.status}: ${body.slice(0, 300)}`);
+  const candidates = env.OPENROUTER_MODEL ? [env.OPENROUTER_MODEL] : OPENROUTER_FREE_CANDIDATES;
+  const failures: string[] = [];
+  for (const model of candidates) {
+    try {
+      const response = await fetch(OPENROUTER_ENDPOINT, {
+        method: 'POST',
+        headers: {
+          Authorization: `Bearer ${apiKey}`,
+          'Content-Type': 'application/json',
+          'HTTP-Referer': 'https://basemodel.ai',
+          'X-Title': 'BaseModel gateway generator',
+        },
+        body: JSON.stringify({
+          model,
+          messages: [{ role: 'user', content: prompt }],
+          temperature: 0.2,
+          max_tokens: 8192,
+        }),
+        signal: AbortSignal.timeout(120_000),
+      });
+      if (!response.ok) {
+        const body = await response.text().catch(() => '');
+        throw new Error(`HTTP ${response.status}: ${body.slice(0, 200)}`);
+      }
+      const data = (await response.json()) as {
+        choices?: Array<{ message?: { content?: string } }>;
+      };
+      const text = data.choices?.[0]?.message?.content;
+      if (!text) throw new Error('empty response');
+      return text;
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      failures.push(`${model}: ${message}`);
+      console.warn(`[llm] openrouter ${model} failed: ${message}`);
+    }
   }
-  const data = (await response.json()) as {
-    choices?: Array<{ message?: { content?: string } }>;
-  };
-  const text = data.choices?.[0]?.message?.content;
-  if (!text) throw new Error('OpenRouter returned an empty response.');
-  return text;
+  throw new Error(`OpenRouter failed on all candidate models: ${failures.join(' | ')}`);
 }
 
 export async function generateText(
@@ -88,11 +138,14 @@ export async function generateText(
   for (const provider of providers) {
     try {
       if (provider === 'gemini') return await callGemini(config.prompt, env);
-      return await callOpenRouter(config.prompt, env);
+      if (provider === 'openrouter') return await callOpenRouter(config.prompt, env);
+      return await callRequesty(config.prompt, env);
     } catch (error) {
       const message = error instanceof Error ? error.message : String(error);
       failures.push(`${provider}: ${message}`);
-      console.warn(`[llm] ${provider} failed, ${providers.length - 1 > 0 ? 'trying next provider' : 'no fallback left'}: ${message}`);
+      console.warn(
+        `[llm] ${provider} failed, ${providers.length > 1 ? 'trying next provider' : 'no fallback left'}: ${message}`,
+      );
     }
   }
   throw new Error(`All LLM providers failed: ${failures.join(' | ')}`);

@@ -28,7 +28,7 @@ export async function healPlugin(options: HealPluginOptions): Promise<GeneratedP
     raw,
     errors = [],
     env = process.env,
-    maxAttempts = 3,
+    maxAttempts = 4,
     liveSecrets,
   } = options;
   const filePath = getGatewayPluginPath(gateway.id);

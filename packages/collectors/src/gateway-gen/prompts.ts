@@ -51,6 +51,7 @@ Guidelines:
 - Handle pagination if the response exposes it (next page URL / total counts); never loop forever (cap pages).
 - Use AbortSignal.timeout(15_000) on fetch. Catch errors and push them to result.errors (do not throw).
 - Never use the "any" type anywhere. Type catch variables as "unknown" and narrow with instanceof/typeof. Do not use "as any".
+- Do not declare unused variables or helper functions; every declared name must be referenced, or the file fails typecheck (noUnusedLocals).
 - Never hardcode real API keys; only reference secrets by their env names.
 - Do not add code comments.
 `;

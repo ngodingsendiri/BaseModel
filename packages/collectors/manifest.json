@@ -37,8 +37,15 @@
             "name": "rerank-english-v3.0",
             "endpoints": ["rerank"],
             "context_length": 4096
+          },
+          {
+            "name": "embed-english-light-v3.0",
+            "endpoints": ["embed"],
+            "context_length": null,
+            "tokenizer_url": null
           }
-        ]
+        ],
+        "next_page_token": "cD0yCg=="
       },
       "notes": "Example gateway for the AI generator: non-OpenAI-compatible response shape ({ models: [...] }). A static sample is provided so the generator can run without a live API key."
     }
