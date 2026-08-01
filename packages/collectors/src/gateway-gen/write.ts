@@ -199,7 +199,10 @@ export async function generatePlugin(options: GeneratePluginOptions): Promise<Ge
     if (validation.ok) return { filePath, code, attempts: attempt };
     lastErrors.push(...validation.errors);
     console.warn(`[gen] attempt ${attempt} failed validation: ${validation.errors.join('; ')}`);
-    prompt += `\n\nThe previous attempt failed validation:\n${validation.errors.join('\n')}\n\nReturn the corrected file only.`;
+    const truncated = validation.errors.map((e) =>
+      e.length > 300 ? `${e.slice(0, 300)}... (truncated)` : e,
+    );
+    prompt += `\n\nThe previous attempt failed validation:\n${truncated.join('\n')}\n\nReturn the corrected file only.`;
   }
 
   throw new Error(

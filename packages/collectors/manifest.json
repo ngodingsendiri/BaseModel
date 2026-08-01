@@ -61,6 +61,14 @@
             "tokenizer_url": null,
             "default_endpoints": ["embed"],
             "features": null
+          },
+          {
+            "name": "command-nightly-finetuned",
+            "endpoints": [],
+            "finetuned": true,
+            "context_length": 0,
+            "default_endpoints": [],
+            "features": null
           }
         ],
         "next_page_token": "cD0yCg=="
