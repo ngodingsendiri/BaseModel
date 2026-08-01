@@ -105,10 +105,10 @@ jobs:
             --title "feat(gateways): AI-generated plugin for ${{ github.event.inputs.gateway_id }}" \
             --body "AI-generated gateway plugin for \`${{ github.event.inputs.gateway_id }}\` (mode: ${{ github.event.inputs.mode }}).
 
-Reviewed before merge, per docs/08_Gateway_Plugin_Security.md:
-- Confirm the plugin only uses secrets registered in \`packages/collectors/src/core/gateway-secrets.ts\`.
-- Add the gateway's API key as a repository secret so nightly collection can use it.
-- Run \`pnpm --filter @basemodel/collectors run verify <path>\` to smoke-test with a live key." \
+          Reviewed before merge, per docs/08_Gateway_Plugin_Security.md:
+          - Confirm the plugin only uses secrets registered in \`packages/collectors/src/core/gateway-secrets.ts\`.
+          - Add the gateway's API key as a repository secret so nightly collection can use it.
+          - Run \`pnpm --filter @basemodel/collectors run verify <path>\` to smoke-test with a live key." \
             || echo "PR may already exist for this gateway."
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
