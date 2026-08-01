@@ -6,15 +6,22 @@ export interface LlmConfig {
   temperature?: number;
 }
 
-type Provider = 'gemini' | 'openrouter';
+export type Provider = 'gemini' | 'openrouter';
 
-function pickProvider(env: NodeJS.ProcessEnv): Provider {
-  if (env.GEMINI_API_KEY) return 'gemini';
-  if (env.OPENROUTER_API_KEY) return 'openrouter';
-  throw new Error(
-    'No LLM provider configured. Set GEMINI_API_KEY (Gemini free tier) or ' +
-      'OPENROUTER_API_KEY (free models) to generate gateway plugins.',
-  );
+function resolveProviders(env: NodeJS.ProcessEnv): Provider[] {
+  const forced = env.LLM_PROVIDER;
+  if (forced === 'openrouter') return ['openrouter'];
+  if (forced === 'gemini') return ['gemini'];
+  const list: Provider[] = [];
+  if (env.OPENROUTER_API_KEY) list.push('openrouter');
+  if (env.GEMINI_API_KEY) list.push('gemini');
+  if (list.length === 0) {
+    throw new Error(
+      'No LLM provider configured. Set OPENROUTER_API_KEY (free models) or ' +
+        'GEMINI_API_KEY (Gemini free tier) to generate gateway plugins.',
+    );
+  }
+  return list;
 }
 
 async function callGemini(prompt: string, env: NodeJS.ProcessEnv): Promise<string> {
@@ -76,7 +83,17 @@ export async function generateText(
   config: LlmConfig,
   env: NodeJS.ProcessEnv = process.env,
 ): Promise<string> {
-  const provider = pickProvider(env);
-  if (provider === 'gemini') return callGemini(config.prompt, env);
-  return callOpenRouter(config.prompt, env);
+  const providers = resolveProviders(env);
+  const failures: string[] = [];
+  for (const provider of providers) {
+    try {
+      if (provider === 'gemini') return await callGemini(config.prompt, env);
+      return await callOpenRouter(config.prompt, env);
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      failures.push(`${provider}: ${message}`);
+      console.warn(`[llm] ${provider} failed, ${providers.length - 1 > 0 ? 'trying next provider' : 'no fallback left'}: ${message}`);
+    }
+  }
+  throw new Error(`All LLM providers failed: ${failures.join(' | ')}`);
 }
