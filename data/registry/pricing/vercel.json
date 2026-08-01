@@ -773,7 +773,7 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.699
+    "value": 0.76
   },
   {
     "pricing_id": "vercel-glm-5.2-output",
@@ -781,7 +781,7 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.198
+    "value": 2.389
   },
   {
     "pricing_id": "vercel-glm-5-input",
@@ -1568,6 +1568,12 @@
     "value": 15
   },
   {
+    "pricing_id": "vercel-laguna-s-2.1-free-free",
+    "model_id": "vercel/laguna-s-2.1-free",
+    "pricing_type": "free",
+    "value": 0
+  },
+  {
     "pricing_id": "vercel-laguna-s-2.1-input",
     "model_id": "vercel/laguna-s-2.1",
     "pricing_type": "input-token",
@@ -1582,6 +1588,12 @@
     "currency": "USD",
     "unit": "1M tokens",
     "value": 0.18
+  },
+  {
+    "pricing_id": "vercel-ling-3.0-flash-free-free",
+    "model_id": "vercel/ling-3.0-flash-free",
+    "pricing_type": "free",
+    "value": 0
   },
   {
     "pricing_id": "vercel-llama-4-maverick-input",

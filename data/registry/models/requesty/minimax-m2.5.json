@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/minimax-m2.5",
   "provider_id": "requesty",
-  "name": "nebius/minimaxi/minimax-m2.5",
+  "name": "minimaxi/minimax-m2.5",
   "context_window": 204800,
   "modality": [
     "text"

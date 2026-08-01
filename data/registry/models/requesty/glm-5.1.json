@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/glm-5.1",
   "provider_id": "requesty",
-  "name": "zai/glm-5.1",
+  "name": "nebius/zai-org/glm-5.1",
   "context_window": 204800,
   "modality": [
     "text"

@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "19b20f0",
+  "source_revision": "6ad8a09",
   "count": 1539,
   "models": [
     {
@@ -11341,6 +11341,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": true,
+      "tier": "free",
+      "limits": {
+        "max_input_tokens": 262144
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -11384,6 +11389,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": true,
+      "tier": "free",
+      "limits": {
+        "max_input_tokens": 262144
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -13134,6 +13144,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": true,
+      "tier": "free",
+      "limits": {
+        "max_input_tokens": 131072
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -13969,6 +13984,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": true,
+      "tier": "free",
+      "limits": {
+        "max_input_tokens": 262144
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -14012,6 +14032,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": true,
+      "tier": "free",
+      "limits": {
+        "max_input_tokens": 262144
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -14103,6 +14128,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": true,
+      "tier": "free",
+      "limits": {
+        "max_input_tokens": 262144
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -15173,6 +15203,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": true,
+      "tier": "free",
+      "limits": {
+        "max_input_tokens": 256000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -15216,6 +15251,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": true,
+      "tier": "free",
+      "limits": {
+        "max_input_tokens": 256000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -15235,6 +15275,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": true,
+      "tier": "free",
+      "limits": {
+        "max_input_tokens": 262144
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -15278,6 +15323,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": true,
+      "tier": "free",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -15321,6 +15371,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": true,
+      "tier": "free",
+      "limits": {
+        "max_input_tokens": 128000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -15340,6 +15395,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": true,
+      "tier": "free",
+      "limits": {
+        "max_input_tokens": 128000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -15359,6 +15419,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": true,
+      "tier": "free",
+      "limits": {
+        "max_input_tokens": 128000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -15426,6 +15491,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": true,
+      "tier": "free",
+      "limits": {
+        "max_input_tokens": 256000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -15947,6 +16017,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -17711,7 +17786,7 @@
     {
       "model_id": "requesty/claude-fable-5",
       "provider_id": "requesty",
-      "name": "vertex/claude-fable-5",
+      "name": "anthropic/claude-fable-5",
       "context_window": 1000000,
       "modality": [
         "text"
@@ -17951,7 +18026,7 @@
     {
       "model_id": "requesty/claude-opus-4-1",
       "provider_id": "requesty",
-      "name": "vertex/claude-opus-4-1",
+      "name": "anthropic/claude-opus-4-1",
       "modality": [
         "text"
       ],
@@ -19475,7 +19550,7 @@
     {
       "model_id": "requesty/deepseek-r1-distill-llama-70b",
       "provider_id": "requesty",
-      "name": "novita/deepseek/deepseek-r1-distill-llama-70b",
+      "name": "deepinfra/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
       "context_window": 8192,
       "modality": [
         "text"
@@ -19517,7 +19592,7 @@
     {
       "model_id": "requesty/deepseek-r1",
       "provider_id": "requesty",
-      "name": "novita/deepseek/deepseek-r1",
+      "name": "deepinfra/deepseek-ai/DeepSeek-R1",
       "context_window": 163840,
       "modality": [
         "text"
@@ -19613,7 +19688,7 @@
     {
       "model_id": "requesty/deepseek-v3.2",
       "provider_id": "requesty",
-      "name": "novita/deepseek/deepseek-v3.2",
+      "name": "vertex/deepseek-v3.2",
       "context_window": 163840,
       "modality": [
         "text"
@@ -19637,7 +19712,7 @@
     {
       "model_id": "requesty/deepseek-v3",
       "provider_id": "requesty",
-      "name": "novita/deepseek/deepseek_v3",
+      "name": "deepinfra/deepseek-ai/DeepSeek-V3",
       "modality": [
         "text"
       ],
@@ -19823,7 +19898,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-europe-central2",
       "provider_id": "requesty",
-      "name": "coding/gemini-2.5-flash@europe-central2",
+      "name": "vertex/gemini-2.5-flash@europe-central2",
       "modality": [
         "text"
       ],
@@ -19841,7 +19916,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-europe-north1",
       "provider_id": "requesty",
-      "name": "coding/gemini-2.5-flash@europe-north1",
+      "name": "vertex/gemini-2.5-flash@europe-north1",
       "modality": [
         "text"
       ],
@@ -19859,7 +19934,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-europe-west1",
       "provider_id": "requesty",
-      "name": "coding/gemini-2.5-flash@europe-west1",
+      "name": "vertex/gemini-2.5-flash@europe-west1",
       "modality": [
         "text"
       ],
@@ -19877,7 +19952,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-europe-west4",
       "provider_id": "requesty",
-      "name": "coding/gemini-2.5-flash@europe-west4",
+      "name": "vertex/gemini-2.5-flash@europe-west4",
       "modality": [
         "text"
       ],
@@ -19895,7 +19970,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-europe-west8",
       "provider_id": "requesty",
-      "name": "coding/gemini-2.5-flash@europe-west8",
+      "name": "vertex/gemini-2.5-flash@europe-west8",
       "modality": [
         "text"
       ],
@@ -20375,7 +20450,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-us-central1",
       "provider_id": "requesty",
-      "name": "coding/gemini-2.5-flash@us-central1",
+      "name": "vertex/gemini-2.5-flash@us-central1",
       "modality": [
         "text"
       ],
@@ -20393,7 +20468,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-us-east1",
       "provider_id": "requesty",
-      "name": "coding/gemini-2.5-flash@us-east1",
+      "name": "vertex/gemini-2.5-flash@us-east1",
       "modality": [
         "text"
       ],
@@ -20411,7 +20486,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-us-east5",
       "provider_id": "requesty",
-      "name": "coding/gemini-2.5-flash@us-east5",
+      "name": "vertex/gemini-2.5-flash@us-east5",
       "modality": [
         "text"
       ],
@@ -20429,7 +20504,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-us-south1",
       "provider_id": "requesty",
-      "name": "coding/gemini-2.5-flash@us-south1",
+      "name": "vertex/gemini-2.5-flash@us-south1",
       "modality": [
         "text"
       ],
@@ -20447,7 +20522,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-us-west1",
       "provider_id": "requesty",
-      "name": "coding/gemini-2.5-flash@us-west1",
+      "name": "vertex/gemini-2.5-flash@us-west1",
       "modality": [
         "text"
       ],
@@ -20465,7 +20540,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash",
       "provider_id": "requesty",
-      "name": "coding/gemini-2.5-flash",
+      "name": "vertex/gemini-2.5-flash",
       "context_window": 1048576,
       "modality": [
         "text"
@@ -20489,7 +20564,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-europe-central2",
       "provider_id": "requesty",
-      "name": "coding/gemini-2.5-pro@europe-central2",
+      "name": "vertex/gemini-2.5-pro@europe-central2",
       "modality": [
         "text"
       ],
@@ -20507,7 +20582,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-europe-north1",
       "provider_id": "requesty",
-      "name": "coding/gemini-2.5-pro@europe-north1",
+      "name": "vertex/gemini-2.5-pro@europe-north1",
       "modality": [
         "text"
       ],
@@ -20525,7 +20600,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-europe-west1",
       "provider_id": "requesty",
-      "name": "coding/gemini-2.5-pro@europe-west1",
+      "name": "vertex/gemini-2.5-pro@europe-west1",
       "modality": [
         "text"
       ],
@@ -20543,7 +20618,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-europe-west4",
       "provider_id": "requesty",
-      "name": "coding/gemini-2.5-pro@europe-west4",
+      "name": "vertex/gemini-2.5-pro@europe-west4",
       "modality": [
         "text"
       ],
@@ -20561,7 +20636,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-europe-west8",
       "provider_id": "requesty",
-      "name": "coding/gemini-2.5-pro@europe-west8",
+      "name": "vertex/gemini-2.5-pro@europe-west8",
       "modality": [
         "text"
       ],
@@ -20579,7 +20654,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-us-central1",
       "provider_id": "requesty",
-      "name": "coding/gemini-2.5-pro@us-central1",
+      "name": "vertex/gemini-2.5-pro@us-central1",
       "modality": [
         "text"
       ],
@@ -20597,7 +20672,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-us-east1",
       "provider_id": "requesty",
-      "name": "coding/gemini-2.5-pro@us-east1",
+      "name": "vertex/gemini-2.5-pro@us-east1",
       "modality": [
         "text"
       ],
@@ -20615,7 +20690,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-us-east5",
       "provider_id": "requesty",
-      "name": "coding/gemini-2.5-pro@us-east5",
+      "name": "vertex/gemini-2.5-pro@us-east5",
       "modality": [
         "text"
       ],
@@ -20633,7 +20708,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-us-south1",
       "provider_id": "requesty",
-      "name": "coding/gemini-2.5-pro@us-south1",
+      "name": "vertex/gemini-2.5-pro@us-south1",
       "modality": [
         "text"
       ],
@@ -20651,7 +20726,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-us-west1",
       "provider_id": "requesty",
-      "name": "coding/gemini-2.5-pro@us-west1",
+      "name": "vertex/gemini-2.5-pro@us-west1",
       "modality": [
         "text"
       ],
@@ -20669,7 +20744,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro",
       "provider_id": "requesty",
-      "name": "coding/gemini-2.5-pro",
+      "name": "vertex/gemini-2.5-pro",
       "context_window": 1048576,
       "modality": [
         "text"
@@ -21053,7 +21128,7 @@
     {
       "model_id": "requesty/gemma-4-26b-a4b-it",
       "provider_id": "requesty",
-      "name": "parasail/google/gemma-4-26B-A4B-it",
+      "name": "deepinfra/google/gemma-4-26B-A4B-it",
       "context_window": 262144,
       "modality": [
         "text"
@@ -21125,7 +21200,7 @@
     {
       "model_id": "requesty/glm-4.5",
       "provider_id": "requesty",
-      "name": "zai/GLM-4.5",
+      "name": "deepinfra/zai-org/GLM-4.5",
       "context_window": 131072,
       "modality": [
         "text"
@@ -21197,7 +21272,7 @@
     {
       "model_id": "requesty/glm-5.1",
       "provider_id": "requesty",
-      "name": "zai/glm-5.1",
+      "name": "nebius/zai-org/glm-5.1",
       "context_window": 204800,
       "modality": [
         "text"
@@ -21257,7 +21332,7 @@
     {
       "model_id": "requesty/glm-5.2",
       "provider_id": "requesty",
-      "name": "zai/glm-5.2",
+      "name": "nebius/glm-5.2",
       "context_window": 1048576,
       "modality": [
         "text"
@@ -21305,7 +21380,7 @@
     {
       "model_id": "requesty/gpt-4.1-eastus2",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-4.1@eastus2",
+      "name": "azure/gpt-4.1@eastus2",
       "modality": [
         "text"
       ],
@@ -21341,7 +21416,7 @@
     {
       "model_id": "requesty/gpt-4.1-mini-eastus2",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-4.1-mini@eastus2",
+      "name": "azure/gpt-4.1-mini@eastus2",
       "modality": [
         "text"
       ],
@@ -21395,7 +21470,7 @@
     {
       "model_id": "requesty/gpt-4.1-mini-westus3",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-4.1-mini@westus3",
+      "name": "azure/gpt-4.1-mini@westus3",
       "modality": [
         "text"
       ],
@@ -21413,7 +21488,7 @@
     {
       "model_id": "requesty/gpt-4.1-mini",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-4.1-mini",
+      "name": "openai/gpt-4.1-mini",
       "context_window": 1047576,
       "modality": [
         "text"
@@ -21437,7 +21512,7 @@
     {
       "model_id": "requesty/gpt-4.1-nano-eastus2",
       "provider_id": "requesty",
-      "name": "azure/gpt-4.1-nano@eastus2",
+      "name": "azure/openai-responses/gpt-4.1-nano@eastus2",
       "modality": [
         "text"
       ],
@@ -21473,7 +21548,7 @@
     {
       "model_id": "requesty/gpt-4.1-nano-swedencentral",
       "provider_id": "requesty",
-      "name": "azure/gpt-4.1-nano@swedencentral",
+      "name": "azure/openai-responses/gpt-4.1-nano@swedencentral",
       "modality": [
         "text"
       ],
@@ -21509,7 +21584,7 @@
     {
       "model_id": "requesty/gpt-4.1-nano-westus3",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-4.1-nano@westus3",
+      "name": "azure/gpt-4.1-nano@westus3",
       "modality": [
         "text"
       ],
@@ -21527,7 +21602,7 @@
     {
       "model_id": "requesty/gpt-4.1-nano",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-4.1-nano",
+      "name": "azure/openai-responses/gpt-4.1-nano",
       "context_window": 1047576,
       "modality": [
         "text"
@@ -21551,7 +21626,7 @@
     {
       "model_id": "requesty/gpt-4.1-swedencentral",
       "provider_id": "requesty",
-      "name": "azure/gpt-4.1@swedencentral",
+      "name": "azure/openai-responses/gpt-4.1@swedencentral",
       "modality": [
         "text"
       ],
@@ -21605,7 +21680,7 @@
     {
       "model_id": "requesty/gpt-4.1",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-4.1",
+      "name": "azure/openai-responses/gpt-4.1",
       "context_window": 1047576,
       "modality": [
         "text"
@@ -21965,7 +22040,7 @@
     {
       "model_id": "requesty/gpt-5-mini",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-5-mini",
+      "name": "azure/gpt-5-mini",
       "context_window": 400000,
       "modality": [
         "text"
@@ -22061,7 +22136,7 @@
     {
       "model_id": "requesty/gpt-5-nano",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-5-nano",
+      "name": "azure/gpt-5-nano",
       "context_window": 400000,
       "modality": [
         "text"
@@ -22265,7 +22340,7 @@
     {
       "model_id": "requesty/gpt-5.1",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-5.1",
+      "name": "azure/gpt-5.1",
       "context_window": 400000,
       "modality": [
         "text"
@@ -22373,7 +22448,7 @@
     {
       "model_id": "requesty/gpt-5.2",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-5.2",
+      "name": "openai/gpt-5.2",
       "context_window": 400000,
       "modality": [
         "text"
@@ -22397,7 +22472,7 @@
     {
       "model_id": "requesty/gpt-5.3-chat",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-5.3-chat",
+      "name": "openai/gpt-5.3-chat",
       "context_window": 128000,
       "modality": [
         "text"
@@ -22463,7 +22538,7 @@
     {
       "model_id": "requesty/gpt-5.4-eastus2",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-5.4@eastus2",
+      "name": "azure/gpt-5.4@eastus2",
       "modality": [
         "text"
       ],
@@ -22517,7 +22592,7 @@
     {
       "model_id": "requesty/gpt-5.4-mini",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-5.4-mini",
+      "name": "azure/gpt-5.4-mini",
       "context_window": 400000,
       "modality": [
         "text"
@@ -22541,7 +22616,7 @@
     {
       "model_id": "requesty/gpt-5.4-nano",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-5.4-nano",
+      "name": "openai/gpt-5.4-nano",
       "context_window": 400000,
       "modality": [
         "text"
@@ -22607,7 +22682,7 @@
     {
       "model_id": "requesty/gpt-5.4-swedencentral",
       "provider_id": "requesty",
-      "name": "azure/gpt-5.4@swedencentral",
+      "name": "azure/openai-responses/gpt-5.4@swedencentral",
       "modality": [
         "text"
       ],
@@ -22679,7 +22754,7 @@
     {
       "model_id": "requesty/gpt-5.4",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-5.4",
+      "name": "azure/gpt-5.4",
       "context_window": 1050000,
       "modality": [
         "text"
@@ -22703,7 +22778,7 @@
     {
       "model_id": "requesty/gpt-5.5-eastus2",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-5.5@eastus2",
+      "name": "azure/gpt-5.5@eastus2",
       "modality": [
         "text"
       ],
@@ -22745,7 +22820,7 @@
     {
       "model_id": "requesty/gpt-5.5-swedencentral",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-5.5@swedencentral",
+      "name": "azure/gpt-5.5@swedencentral",
       "modality": [
         "text"
       ],
@@ -22799,7 +22874,7 @@
     {
       "model_id": "requesty/gpt-5.5",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-5.5",
+      "name": "openai/gpt-5.5",
       "context_window": 1050000,
       "modality": [
         "text"
@@ -22859,7 +22934,7 @@
     {
       "model_id": "requesty/gpt-5.6-luna",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-5.6-luna",
+      "name": "openai/gpt-5.6-luna",
       "context_window": 1050000,
       "modality": [
         "text"
@@ -22901,7 +22976,7 @@
     {
       "model_id": "requesty/gpt-5.6-sol-swedencentral",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-5.6-sol@swedencentral",
+      "name": "azure/gpt-5.6-sol@swedencentral",
       "modality": [
         "text"
       ],
@@ -22919,7 +22994,7 @@
     {
       "model_id": "requesty/gpt-5.6-sol",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-5.6-sol",
+      "name": "openai/gpt-5.6-sol",
       "context_window": 1050000,
       "modality": [
         "text"
@@ -22961,7 +23036,7 @@
     {
       "model_id": "requesty/gpt-5.6-terra-swedencentral",
       "provider_id": "requesty",
-      "name": "azure/openai-responses/gpt-5.6-terra@swedencentral",
+      "name": "azure/gpt-5.6-terra@swedencentral",
       "modality": [
         "text"
       ],
@@ -22979,7 +23054,7 @@
     {
       "model_id": "requesty/gpt-5.6-terra",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-5.6-terra",
+      "name": "openai/gpt-5.6-terra",
       "context_window": 1050000,
       "modality": [
         "text"
@@ -23003,7 +23078,7 @@
     {
       "model_id": "requesty/gpt-5",
       "provider_id": "requesty",
-      "name": "openai-responses/gpt-5",
+      "name": "azure/gpt-5",
       "context_window": 400000,
       "modality": [
         "text"
@@ -23051,7 +23126,7 @@
     {
       "model_id": "requesty/gpt-oss-20b",
       "provider_id": "requesty",
-      "name": "groq/openai/gpt-oss-20b",
+      "name": "fireworks/gpt-oss-20b",
       "context_window": 131072,
       "modality": [
         "text"
@@ -23633,7 +23708,7 @@
     {
       "model_id": "requesty/kimi-k2.7-code",
       "provider_id": "requesty",
-      "name": "parasail/kimi-k2.7-code",
+      "name": "moonshot/kimi-k2.7-code",
       "context_window": 262144,
       "modality": [
         "text"
@@ -24017,7 +24092,7 @@
     {
       "model_id": "requesty/mimo-v2.5-pro",
       "provider_id": "requesty",
-      "name": "xiaomi/mimo-v2.5-pro",
+      "name": "deepinfra/XiaomiMiMo/MiMo-V2.5-Pro",
       "context_window": 1050000,
       "modality": [
         "text"
@@ -24041,7 +24116,7 @@
     {
       "model_id": "requesty/mimo-v2.5",
       "provider_id": "requesty",
-      "name": "xiaomi/mimo-v2.5",
+      "name": "deepinfra/XiaomiMiMo/MiMo-V2.5",
       "context_window": 1050000,
       "modality": [
         "text"
@@ -24209,7 +24284,7 @@
     {
       "model_id": "requesty/minimax-m2.5",
       "provider_id": "requesty",
-      "name": "nebius/minimaxi/minimax-m2.5",
+      "name": "minimaxi/minimax-m2.5",
       "context_window": 204800,
       "modality": [
         "text"
@@ -24233,7 +24308,7 @@
     {
       "model_id": "requesty/minimax-m2.7-highspeed",
       "provider_id": "requesty",
-      "name": "novita/minimax/minimax-m2.7-highspeed",
+      "name": "minimaxi/minimax-m2.7-highspeed",
       "modality": [
         "text"
       ],
@@ -24251,7 +24326,7 @@
     {
       "model_id": "requesty/minimax-m2.7",
       "provider_id": "requesty",
-      "name": "fireworks/minimax-m2.7",
+      "name": "minimaxi/minimax-m2.7",
       "context_window": 204800,
       "modality": [
         "text"
@@ -24299,7 +24374,7 @@
     {
       "model_id": "requesty/minimax-m3",
       "provider_id": "requesty",
-      "name": "fireworks/minimax-m3",
+      "name": "minimaxi/minimax-m3",
       "context_window": 1048576,
       "modality": [
         "text"
@@ -24491,7 +24566,7 @@
     {
       "model_id": "requesty/nemotron-3-nano-30b-a3b",
       "provider_id": "requesty",
-      "name": "deepinfra/nvidia/Nemotron-3-Nano-30B-A3B",
+      "name": "nvidia/nemotron-3-nano-30b-a3b",
       "context_window": 262144,
       "modality": [
         "text"
@@ -24845,7 +24920,7 @@
     {
       "model_id": "requesty/o3-mini",
       "provider_id": "requesty",
-      "name": "openai-responses/o3-mini",
+      "name": "openai/o3-mini",
       "context_window": 200000,
       "modality": [
         "text"
@@ -25067,7 +25142,7 @@
     {
       "model_id": "requesty/o4-mini",
       "provider_id": "requesty",
-      "name": "openai-responses/o4-mini",
+      "name": "openai/o4-mini",
       "context_window": 200000,
       "modality": [
         "text"
@@ -25409,7 +25484,7 @@
     {
       "model_id": "requesty/qwen3-30b-a3b-instruct-2507",
       "provider_id": "requesty",
-      "name": "nebius/qwen/qwen3-30b-a3b-instruct-2507",
+      "name": "alibaba/qwen3-30b-a3b-instruct-2507",
       "context_window": 262144,
       "modality": [
         "text"
@@ -25727,7 +25802,7 @@
     {
       "model_id": "requesty/qwen3.7-plus",
       "provider_id": "requesty",
-      "name": "fireworks/qwen3.7-plus",
+      "name": "alibaba/qwen3.7-plus",
       "context_window": 1000000,
       "modality": [
         "text"
@@ -29640,6 +29715,7 @@
       "model_id": "vercel/laguna-s-2.1-free",
       "provider_id": "vercel",
       "name": "poolside/laguna-s-2.1-free",
+      "context_window": 262144,
       "modality": [
         "text"
       ],
@@ -29651,6 +29727,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": true,
+      "tier": "free",
+      "limits": {
+        "max_input_tokens": 262144
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -29682,6 +29763,7 @@
       "model_id": "vercel/ling-3.0-flash-free",
       "provider_id": "vercel",
       "name": "inclusionai/ling-3.0-flash-free",
+      "context_window": 262144,
       "modality": [
         "text"
       ],
@@ -29693,6 +29775,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": true,
+      "tier": "free",
+      "limits": {
+        "max_input_tokens": 262144
+      },
       "capability_ids": [],
       "status": "active"
     },

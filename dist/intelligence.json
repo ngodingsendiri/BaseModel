@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "19b20f0",
+  "source_revision": "6ad8a09",
   "count": 1539,
   "intelligence": [
     {
@@ -1920,7 +1920,7 @@
     {
       "model_id": "deepinfra/glm-5.2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.07375,
+      "blended_cost_per_1m": 1.1672500000000001,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -11819,7 +11819,7 @@
     },
     {
       "model_id": "openrouter/gemma-4-26b-a4b-it-free",
-      "cost_tier": "Unknown",
+      "cost_tier": "Free",
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
@@ -11863,7 +11863,7 @@
     },
     {
       "model_id": "openrouter/gemma-4-31b-it-free",
-      "cost_tier": "Unknown",
+      "cost_tier": "Free",
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
@@ -12106,7 +12106,7 @@
     {
       "model_id": "openrouter/glm-5.2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.07375,
+      "blended_cost_per_1m": 1.1672500000000001,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -13513,7 +13513,7 @@
     },
     {
       "model_id": "openrouter/gpt-oss-20b-free",
-      "cost_tier": "Unknown",
+      "cost_tier": "Free",
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
@@ -14283,7 +14283,7 @@
     },
     {
       "model_id": "openrouter/laguna-s-2.1-free",
-      "cost_tier": "Unknown",
+      "cost_tier": "Free",
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
@@ -14327,7 +14327,7 @@
     },
     {
       "model_id": "openrouter/laguna-xs-2.1-free",
-      "cost_tier": "Unknown",
+      "cost_tier": "Free",
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
@@ -14415,7 +14415,7 @@
     },
     {
       "model_id": "openrouter/ling-3.0-flash-free",
-      "cost_tier": "Unknown",
+      "cost_tier": "Free",
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
@@ -15405,7 +15405,7 @@
     },
     {
       "model_id": "openrouter/nemotron-3-nano-30b-a3b-free",
-      "cost_tier": "Unknown",
+      "cost_tier": "Free",
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
@@ -15449,7 +15449,7 @@
     },
     {
       "model_id": "openrouter/nemotron-3-nano-omni-30b-a3b-reasoning-free",
-      "cost_tier": "Unknown",
+      "cost_tier": "Free",
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
@@ -15471,7 +15471,7 @@
     },
     {
       "model_id": "openrouter/nemotron-3-super-120b-a12b-free",
-      "cost_tier": "Unknown",
+      "cost_tier": "Free",
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
@@ -15515,7 +15515,7 @@
     },
     {
       "model_id": "openrouter/nemotron-3-ultra-550b-a55b-free",
-      "cost_tier": "Unknown",
+      "cost_tier": "Free",
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
@@ -15559,7 +15559,7 @@
     },
     {
       "model_id": "openrouter/nemotron-3.5-content-safety-free",
-      "cost_tier": "Unknown",
+      "cost_tier": "Free",
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
@@ -15581,7 +15581,7 @@
     },
     {
       "model_id": "openrouter/nemotron-nano-12b-v2-vl-free",
-      "cost_tier": "Unknown",
+      "cost_tier": "Free",
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
@@ -15603,7 +15603,7 @@
     },
     {
       "model_id": "openrouter/nemotron-nano-9b-v2-free",
-      "cost_tier": "Unknown",
+      "cost_tier": "Free",
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
@@ -15669,7 +15669,7 @@
     },
     {
       "model_id": "openrouter/north-mini-code-free",
-      "cost_tier": "Unknown",
+      "cost_tier": "Free",
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
@@ -16153,8 +16153,8 @@
     },
     {
       "model_id": "openrouter/qwen-plus-2025-07-28-thinking",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.6000000000000001,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -21896,7 +21896,7 @@
     {
       "model_id": "requesty/glm-5.2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.07375,
+      "blended_cost_per_1m": 1.1672500000000001,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -28650,7 +28650,7 @@
     {
       "model_id": "vercel/glm-5.2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.07375,
+      "blended_cost_per_1m": 1.1672500000000001,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -30739,7 +30739,7 @@
     },
     {
       "model_id": "vercel/laguna-s-2.1-free",
-      "cost_tier": "Unknown",
+      "cost_tier": "Free",
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
@@ -30783,7 +30783,7 @@
     },
     {
       "model_id": "vercel/ling-3.0-flash-free",
-      "cost_tier": "Unknown",
+      "cost_tier": "Free",
       "blended_cost_per_1m": 0,
       "alternatives": [
         {

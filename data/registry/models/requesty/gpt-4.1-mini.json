@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gpt-4.1-mini",
   "provider_id": "requesty",
-  "name": "openai-responses/gpt-4.1-mini",
+  "name": "openai/gpt-4.1-mini",
   "context_window": 1047576,
   "modality": [
     "text"

@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "19b20f0",
-  "count": 1469,
+  "source_revision": "6ad8a09",
+  "count": 1487,
   "pricing": [
     {
       "pricing_id": "anthropic-claude-3-5-sonnet-input",
@@ -473,7 +473,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.699
+      "value": 0.76
     },
     {
       "pricing_id": "deepinfra-glm-5.2-output",
@@ -481,7 +481,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2.198
+      "value": 2.389
     },
     {
       "pricing_id": "deepinfra-glm-5-input",
@@ -3610,6 +3610,12 @@
       "value": 0.12
     },
     {
+      "pricing_id": "openrouter-gemma-4-26b-a4b-it-free-free",
+      "model_id": "openrouter/gemma-4-26b-a4b-it-free",
+      "pricing_type": "free",
+      "value": 0
+    },
+    {
       "pricing_id": "openrouter-gemma-4-26b-a4b-it-input",
       "model_id": "openrouter/gemma-4-26b-a4b-it",
       "pricing_type": "input-token",
@@ -3624,6 +3630,12 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 0.34
+    },
+    {
+      "pricing_id": "openrouter-gemma-4-31b-it-free-free",
+      "model_id": "openrouter/gemma-4-31b-it-free",
+      "pricing_type": "free",
+      "value": 0
     },
     {
       "pricing_id": "openrouter-gemma-4-31b-it-input",
@@ -3791,7 +3803,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.699
+      "value": 0.76
     },
     {
       "pricing_id": "openrouter-glm-5.2-output",
@@ -3799,7 +3811,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2.198
+      "value": 2.389
     },
     {
       "pricing_id": "openrouter-glm-5-input",
@@ -4650,6 +4662,12 @@
       "value": 0.17
     },
     {
+      "pricing_id": "openrouter-gpt-oss-20b-free-free",
+      "model_id": "openrouter/gpt-oss-20b-free",
+      "pricing_type": "free",
+      "value": 0
+    },
+    {
       "pricing_id": "openrouter-gpt-oss-20b-input",
       "model_id": "openrouter/gpt-oss-20b",
       "pricing_type": "input-token",
@@ -5194,6 +5212,12 @@
       "value": 0.75
     },
     {
+      "pricing_id": "openrouter-laguna-s-2.1-free-free",
+      "model_id": "openrouter/laguna-s-2.1-free",
+      "pricing_type": "free",
+      "value": 0
+    },
+    {
       "pricing_id": "openrouter-laguna-s-2.1-input",
       "model_id": "openrouter/laguna-s-2.1",
       "pricing_type": "input-token",
@@ -5208,6 +5232,12 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 0.18
+    },
+    {
+      "pricing_id": "openrouter-laguna-xs-2.1-free-free",
+      "model_id": "openrouter/laguna-xs-2.1-free",
+      "pricing_type": "free",
+      "value": 0
     },
     {
       "pricing_id": "openrouter-laguna-xs-2.1-input",
@@ -5256,6 +5286,12 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 0.03
+    },
+    {
+      "pricing_id": "openrouter-ling-3.0-flash-free-free",
+      "model_id": "openrouter/ling-3.0-flash-free",
+      "pricing_type": "free",
+      "value": 0
     },
     {
       "pricing_id": "openrouter-llama-3.1-70b-instruct-input",
@@ -5926,6 +5962,12 @@
       "value": 0.06
     },
     {
+      "pricing_id": "openrouter-nemotron-3-nano-30b-a3b-free-free",
+      "model_id": "openrouter/nemotron-3-nano-30b-a3b-free",
+      "pricing_type": "free",
+      "value": 0
+    },
+    {
       "pricing_id": "openrouter-nemotron-3-nano-30b-a3b-input",
       "model_id": "openrouter/nemotron-3-nano-30b-a3b",
       "pricing_type": "input-token",
@@ -5940,6 +5982,18 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 0.2
+    },
+    {
+      "pricing_id": "openrouter-nemotron-3-nano-omni-30b-a3b-reasoning-free-free",
+      "model_id": "openrouter/nemotron-3-nano-omni-30b-a3b-reasoning-free",
+      "pricing_type": "free",
+      "value": 0
+    },
+    {
+      "pricing_id": "openrouter-nemotron-3-super-120b-a12b-free-free",
+      "model_id": "openrouter/nemotron-3-super-120b-a12b-free",
+      "pricing_type": "free",
+      "value": 0
     },
     {
       "pricing_id": "openrouter-nemotron-3-super-120b-a12b-input",
@@ -5958,6 +6012,12 @@
       "value": 0.4
     },
     {
+      "pricing_id": "openrouter-nemotron-3-ultra-550b-a55b-free-free",
+      "model_id": "openrouter/nemotron-3-ultra-550b-a55b-free",
+      "pricing_type": "free",
+      "value": 0
+    },
+    {
       "pricing_id": "openrouter-nemotron-3-ultra-550b-a55b-input",
       "model_id": "openrouter/nemotron-3-ultra-550b-a55b",
       "pricing_type": "input-token",
@@ -5972,6 +6032,24 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 3.6
+    },
+    {
+      "pricing_id": "openrouter-nemotron-3.5-content-safety-free-free",
+      "model_id": "openrouter/nemotron-3.5-content-safety-free",
+      "pricing_type": "free",
+      "value": 0
+    },
+    {
+      "pricing_id": "openrouter-nemotron-nano-12b-v2-vl-free-free",
+      "model_id": "openrouter/nemotron-nano-12b-v2-vl-free",
+      "pricing_type": "free",
+      "value": 0
+    },
+    {
+      "pricing_id": "openrouter-nemotron-nano-9b-v2-free-free",
+      "model_id": "openrouter/nemotron-nano-9b-v2-free",
+      "pricing_type": "free",
+      "value": 0
     },
     {
       "pricing_id": "openrouter-nex-n2-mini-input",
@@ -6004,6 +6082,12 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 1
+    },
+    {
+      "pricing_id": "openrouter-north-mini-code-free-free",
+      "model_id": "openrouter/north-mini-code-free",
+      "pricing_type": "free",
+      "value": 0
     },
     {
       "pricing_id": "openrouter-nova-2-lite-v1-input",
@@ -6324,6 +6408,22 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 1
+    },
+    {
+      "pricing_id": "openrouter-qwen-plus-2025-07-28-thinking-input",
+      "model_id": "openrouter/qwen-plus-2025-07-28-thinking",
+      "pricing_type": "input-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.4
+    },
+    {
+      "pricing_id": "openrouter-qwen-plus-2025-07-28-thinking-output",
+      "model_id": "openrouter/qwen-plus-2025-07-28-thinking",
+      "pricing_type": "output-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 1.2
     },
     {
       "pricing_id": "openrouter-qwen-plus-2025-07-28-input",
@@ -8011,7 +8111,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.699
+      "value": 0.76
     },
     {
       "pricing_id": "requesty-glm-5.2-output",
@@ -8019,7 +8119,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2.198
+      "value": 2.389
     },
     {
       "pricing_id": "requesty-glm-5-input",
@@ -10251,7 +10351,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.699
+      "value": 0.76
     },
     {
       "pricing_id": "vercel-glm-5.2-output",
@@ -10259,7 +10359,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2.198
+      "value": 2.389
     },
     {
       "pricing_id": "vercel-glm-5-input",
@@ -11046,6 +11146,12 @@
       "value": 15
     },
     {
+      "pricing_id": "vercel-laguna-s-2.1-free-free",
+      "model_id": "vercel/laguna-s-2.1-free",
+      "pricing_type": "free",
+      "value": 0
+    },
+    {
       "pricing_id": "vercel-laguna-s-2.1-input",
       "model_id": "vercel/laguna-s-2.1",
       "pricing_type": "input-token",
@@ -11060,6 +11166,12 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 0.18
+    },
+    {
+      "pricing_id": "vercel-ling-3.0-flash-free-free",
+      "model_id": "vercel/ling-3.0-flash-free",
+      "pricing_type": "free",
+      "value": 0
     },
     {
       "pricing_id": "vercel-llama-4-maverick-input",
