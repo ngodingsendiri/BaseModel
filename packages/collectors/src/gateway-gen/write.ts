@@ -186,7 +186,7 @@ export async function validateGeneratedPlugin(
 }
 
 export async function generatePlugin(options: GeneratePluginOptions): Promise<GeneratedPlugin> {
-  const { gateway, shape, raw, env = process.env, maxAttempts = 4, liveSecrets } = options;
+  const { gateway, shape, raw, env = process.env, maxAttempts = 6, liveSecrets } = options;
   const filePath = getGatewayPluginPath(gateway.id);
   let prompt = buildPluginPrompt(gateway, shape, raw);
   const lastErrors: string[] = [];

@@ -58,6 +58,10 @@ Guidelines:
 - The raw response zod schema must describe ONLY what the API actually returns, using permissive types: numbers may be null or 0, arrays may be null, strings may be absent. Do NOT copy the BaseModel Model constraints above (model_id regex, positive context_window, status/modality enums) into the raw response schema - those apply ONLY when building the output Model objects.
 - Validate the raw JSON with a zod schema; on parse failure push a short message to result.errors and return.
 - Map each catalog entry to a Model. model_id must be "<gateway-id>/<slug>"; derive the slug from the provider's id/name using .toLowerCase() and replacing characters outside [a-z0-9.-] with '-', collapsing repeats.
+- Use this exact slugify helper (the two-argument form of .replace is required, otherwise typecheck fails with TS2554):
+    function slugify(text: string): string {
+      return text.toLowerCase().replace(/[^a-z0-9.-]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+    }
 - Set every required boolean field. Derive modality/capability flags from hints in the response (e.g. name/keywords like "embed", "image", "audio", "vision", "code") when available, otherwise default to text-only.
 - When building a Model, map raw context_length to context_window ONLY if it is a positive integer; otherwise omit context_window entirely.
 - Raw nullable fields (e.g. features or endpoints that can be null) must be normalized before passing to helpers: write const features = raw.features ?? undefined and pass the normalized value, or type the helper parameter as 'string[] | null | undefined'. Never pass a string[] | null | undefined value to a parameter typed string[] | undefined.
