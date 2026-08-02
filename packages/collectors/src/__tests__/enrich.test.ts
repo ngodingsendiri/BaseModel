@@ -145,6 +145,56 @@ describe('findOpenRouterMatch', () => {
     expect(findOpenRouterMatch(model, index)).toBe(entry);
   });
 
+  it('matches a regional variant to its base model slug', () => {
+    const entry = sampleOpenRouter({
+      id: 'anthropic/claude-fable-5',
+      provider: 'anthropic',
+      slug: 'claude-fable-5',
+      inputPer1M: 10,
+      outputPer1M: 50,
+    });
+    const model = sampleModel({
+      provider_id: 'requesty',
+      model_id: 'requesty/claude-fable-5-eu',
+      name: 'claude-fable-5-eu',
+    });
+    const index = {
+      byId: new Map(),
+      bySlug: new Map([['claude-fable-5', [entry]]]),
+    };
+    expect(findOpenRouterMatch(model, index)).toBe(entry);
+  });
+
+  it('does not region-strip when a slug match already exists', () => {
+    const base = sampleOpenRouter({
+      id: 'anthropic/claude-fable-5',
+      provider: 'anthropic',
+      slug: 'claude-fable-5',
+      inputPer1M: 10,
+      outputPer1M: 50,
+    });
+    const model = sampleModel({
+      provider_id: 'requesty',
+      model_id: 'requesty/claude-fable-5-eu',
+      name: 'claude-fable-5-eu',
+    });
+    const index = {
+      byId: new Map(),
+      bySlug: new Map([['claude-fable-5-eu', [base]]]),
+    };
+    expect(findOpenRouterMatch(model, index)).toBe(base);
+  });
+
+  it('returns undefined when region-stripped slug also has no match', () => {
+    const index = { byId: new Map(), bySlug: new Map() };
+    const model = sampleModel({
+      provider_id: 'requesty',
+      model_id: 'requesty/some-model-eu',
+      name: 'some-model-eu',
+    });
+    expect(findOpenRouterMatch(model, index)).toBeUndefined();
+  });
+
   it('resolves paid and `:free` variants of the same model to distinct entries', () => {
     const paid = sampleOpenRouter({
       id: 'nvidia/nemotron-3-nano-30b-a3b',

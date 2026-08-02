@@ -89,6 +89,40 @@ Publication distributes the generated datasets through GitHub Pages, repository 
 - Errors are logged.
 - The registry should not contain partially processed data.
 
+## Benchmark Sources
+
+Benchmark and ranking data is collected by `@basemodel/collectors` from three
+public sources. All of them are open and do not require a paid API key, so the
+pipeline works out of the box:
+
+| Source | Data | Endpoint | Auth |
+|---|---|---|---|
+| LMArena | Elo rankings (text/webdev/vision) | Hugging Face datasets-server | none (optional token) |
+| Open LLM Leaderboard | Benchmark scores (MMLU-PRO, GPQA, ...) | Hugging Face datasets-server | none (optional token) |
+| Mirror | Daily text/code leaderboard snapshot | GitHub raw files | none |
+
+When LMArena is unreachable or rate-limited, the pipeline automatically falls
+back to the Mirror snapshot so ranked data is still emitted on a degraded path.
+
+### Hugging Face token (optional)
+
+LMArena and Open LLM Leaderboard are served by the public Hugging Face
+datasets-server. Without a token, unauthenticated requests share a rate limit
+and can return `HTTP 429 Too Many Requests`, which triggers the Mirror fallback.
+
+To get higher limits, create a free access token:
+
+1. Sign up at <https://huggingface.co>.
+2. Go to **Settings → Access Tokens** → **Create new token**.
+3. Choose **Read** permissions and copy the token (e.g. `hf_xxxxxxxx`).
+4. Add it as a repository secret named `BENCHMARKS_FETCH_TOKEN` in
+   **Settings → Secrets and variables → Actions**.
+5. `collect.yml` already injects it into the `collect-benchmarks` step.
+
+The token is optional. Without it, the Mirror fallback still produces ranked
+text/code data; with it, the primary LMArena and Open LLM Leaderboard sources
+are used and the catalog is much larger.
+
 ## Automation
 
 The pipeline is automated through GitHub Actions:

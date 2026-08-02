@@ -38,6 +38,14 @@ function stripTilde(provider: string): string {
   return provider.replace(/^~/, '');
 }
 
+/** Region/deployment suffixes that identify a regional endpoint of a base model. */
+const REGION_SUFFIX_RE = /-(eu|us|ap|sa|me|ca|global)(?:-[a-z0-9]+)*$/i;
+
+/** Strips a trailing region suffix, e.g. "claude-fable-5-eu" -> "claude-fable-5". */
+function stripRegionSuffix(slug: string): string {
+  return slug.replace(REGION_SUFFIX_RE, '');
+}
+
 /**
  * Finds the best OpenRouter entry for a registry model.
  *
@@ -59,7 +67,19 @@ export function findOpenRouterMatch(
   if (exactTilde) return exactTilde;
 
   const candidates = index.bySlug.get(slug.toLowerCase()) ?? [];
-  if (candidates.length === 0) return undefined;
+  if (candidates.length === 0) {
+    // Fall back to the region-stripped slug so regional variants
+    // (e.g. requesty/claude-fable-5-eu) inherit base-model pricing.
+    const regionalSlug = stripRegionSuffix(slug);
+    if (regionalSlug !== slug) {
+      const regionalCandidates = index.bySlug.get(regionalSlug.toLowerCase()) ?? [];
+      return (
+        regionalCandidates.find((candidate) => !candidate.provider.startsWith('~')) ??
+        regionalCandidates[0]
+      );
+    }
+    return undefined;
+  }
 
   const providerMatch = candidates.find(
     (candidate) => stripTilde(candidate.provider) === model.provider_id,
@@ -146,6 +166,7 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
   const index = indexOpenRouter(catalog);
   const newPricing: Pricing[] = [];
   const enrichedModelIds = new Set<string>();
+  const economicsModelIds = new Set<string>();
   let updated = 0;
 
   for (const model of models) {
@@ -179,6 +200,10 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
     updated++;
     summary.enrichedModels++;
 
+    if (updatedModel.tier || updatedModel.is_free === true) {
+      economicsModelIds.add(updatedModel.model_id);
+    }
+
     if (isFree) summary.freeModels++;
     if (pricing.length > 0) {
       newPricing.push(...pricing);
@@ -187,9 +212,13 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
   }
 
   // Merge: keep existing records for models we did not enrich, then
-  // append newly derived records for enriched models.
+  // append newly derived records for enriched models. Records for models
+  // that ended up with no economics (no tier and not free) are dropped so
+  // the pricing registry stays consistent with the model registry.
   const allPricing = await getAllPricing();
-  const merged = allPricing.filter((record) => !enrichedModelIds.has(record.model_id));
+  const merged = allPricing.filter(
+    (record) => !enrichedModelIds.has(record.model_id) && economicsModelIds.has(record.model_id),
+  );
   merged.push(...newPricing);
   summary.pricingRecords = merged.length;
 
