@@ -2,6 +2,7 @@
   "model_id": "vercel/laguna-s-2.1-free",
   "provider_id": "vercel",
   "name": "poolside/laguna-s-2.1-free",
+  "context_window": 262144,
   "modality": [
     "text"
   ],
@@ -13,12 +14,11 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "capability_ids": [],
-  "status": "active",
   "is_free": true,
   "tier": "free",
   "limits": {
     "max_input_tokens": 262144
   },
-  "context_window": 262144
+  "capability_ids": [],
+  "status": "active"
 }

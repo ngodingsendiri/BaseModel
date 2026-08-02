@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "e02fdb6",
+  "source_revision": "d55e27e",
   "count": 1539,
   "models": [
     {
@@ -17751,6 +17751,7 @@
       "model_id": "requesty/claude-fable-5-eu",
       "provider_id": "requesty",
       "name": "vertex/claude-fable-5@eu",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -17762,6 +17763,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -17769,6 +17775,7 @@
       "model_id": "requesty/claude-fable-5-us-east-1",
       "provider_id": "requesty",
       "name": "bedrock/claude-fable-5@us-east-1",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -17780,6 +17787,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -18549,6 +18561,7 @@
       "model_id": "requesty/claude-opus-4-us-east5",
       "provider_id": "requesty",
       "name": "vertex/claude-opus-4@us-east5",
+      "context_window": 200000,
       "modality": [
         "text"
       ],
@@ -18560,6 +18573,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
+      "limits": {
+        "max_input_tokens": 200000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -18591,6 +18609,7 @@
       "model_id": "requesty/claude-opus-5-ap-northeast-1",
       "provider_id": "requesty",
       "name": "bedrock/claude-opus-5@ap-northeast-1",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -18602,6 +18621,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -18609,6 +18633,7 @@
       "model_id": "requesty/claude-opus-5-eu-central-1",
       "provider_id": "requesty",
       "name": "bedrock/claude-opus-5@eu-central-1",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -18620,6 +18645,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -18627,6 +18657,7 @@
       "model_id": "requesty/claude-opus-5-eu-north-1",
       "provider_id": "requesty",
       "name": "bedrock/claude-opus-5@eu-north-1",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -18638,6 +18669,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -18645,6 +18681,7 @@
       "model_id": "requesty/claude-opus-5-eu-west-1",
       "provider_id": "requesty",
       "name": "bedrock/claude-opus-5@eu-west-1",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -18656,6 +18693,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -18663,6 +18705,7 @@
       "model_id": "requesty/claude-opus-5-eu-west-3",
       "provider_id": "requesty",
       "name": "bedrock/claude-opus-5@eu-west-3",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -18674,6 +18717,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -18681,6 +18729,7 @@
       "model_id": "requesty/claude-opus-5-eu",
       "provider_id": "requesty",
       "name": "vertex/claude-opus-5@eu",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -18692,6 +18741,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -18699,6 +18753,7 @@
       "model_id": "requesty/claude-opus-5-us",
       "provider_id": "requesty",
       "name": "vertex/claude-opus-5@us",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -18710,6 +18765,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -19119,6 +19179,7 @@
       "model_id": "requesty/claude-sonnet-4-eu-central-1",
       "provider_id": "requesty",
       "name": "bedrock/claude-sonnet-4@eu-central-1",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -19130,6 +19191,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -19137,6 +19203,7 @@
       "model_id": "requesty/claude-sonnet-4-eu-north-1",
       "provider_id": "requesty",
       "name": "bedrock/claude-sonnet-4@eu-north-1",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -19148,6 +19215,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -19155,6 +19227,7 @@
       "model_id": "requesty/claude-sonnet-4-eu-west-1",
       "provider_id": "requesty",
       "name": "bedrock/claude-sonnet-4@eu-west-1",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -19166,6 +19239,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -19173,6 +19251,7 @@
       "model_id": "requesty/claude-sonnet-4-eu-west-3",
       "provider_id": "requesty",
       "name": "bedrock/claude-sonnet-4@eu-west-3",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -19184,6 +19263,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -19209,6 +19293,7 @@
       "model_id": "requesty/claude-sonnet-4-us-east-1",
       "provider_id": "requesty",
       "name": "bedrock/claude-sonnet-4@us-east-1",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -19220,6 +19305,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -19227,6 +19317,7 @@
       "model_id": "requesty/claude-sonnet-4-us-east-2",
       "provider_id": "requesty",
       "name": "bedrock/claude-sonnet-4@us-east-2",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -19238,6 +19329,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -19245,6 +19341,7 @@
       "model_id": "requesty/claude-sonnet-4-us-east5",
       "provider_id": "requesty",
       "name": "vertex/claude-sonnet-4@us-east5",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -19256,6 +19353,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -19263,6 +19365,7 @@
       "model_id": "requesty/claude-sonnet-4-us-west-2",
       "provider_id": "requesty",
       "name": "bedrock/claude-sonnet-4@us-west-2",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -19274,6 +19377,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -19305,6 +19413,7 @@
       "model_id": "requesty/claude-sonnet-5-ap-southeast-2",
       "provider_id": "requesty",
       "name": "bedrock/claude-sonnet-5@ap-southeast-2",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -19316,6 +19425,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -19323,6 +19437,7 @@
       "model_id": "requesty/claude-sonnet-5-eu-central-1",
       "provider_id": "requesty",
       "name": "bedrock/claude-sonnet-5@eu-central-1",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -19334,6 +19449,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -19341,6 +19461,7 @@
       "model_id": "requesty/claude-sonnet-5-eu-north-1",
       "provider_id": "requesty",
       "name": "bedrock/claude-sonnet-5@eu-north-1",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -19352,6 +19473,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -19359,6 +19485,7 @@
       "model_id": "requesty/claude-sonnet-5-eu-west-1",
       "provider_id": "requesty",
       "name": "bedrock/claude-sonnet-5@eu-west-1",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -19370,6 +19497,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -19377,6 +19509,7 @@
       "model_id": "requesty/claude-sonnet-5-eu-west-2",
       "provider_id": "requesty",
       "name": "bedrock/claude-sonnet-5@eu-west-2",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -19388,6 +19521,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -19395,6 +19533,7 @@
       "model_id": "requesty/claude-sonnet-5-eu",
       "provider_id": "requesty",
       "name": "vertex/claude-sonnet-5@eu",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -19406,6 +19545,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -19413,6 +19557,7 @@
       "model_id": "requesty/claude-sonnet-5-us-east-1",
       "provider_id": "requesty",
       "name": "bedrock/claude-sonnet-5@us-east-1",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -19424,6 +19569,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -19431,6 +19581,7 @@
       "model_id": "requesty/claude-sonnet-5-us-east-2",
       "provider_id": "requesty",
       "name": "bedrock/claude-sonnet-5@us-east-2",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -19442,6 +19593,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -19449,6 +19605,7 @@
       "model_id": "requesty/claude-sonnet-5-us-west-2",
       "provider_id": "requesty",
       "name": "bedrock/claude-sonnet-5@us-west-2",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -19460,6 +19617,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -19467,6 +19629,7 @@
       "model_id": "requesty/claude-sonnet-5-us",
       "provider_id": "requesty",
       "name": "vertex/claude-sonnet-5@us",
+      "context_window": 1000000,
       "modality": [
         "text"
       ],
@@ -19478,6 +19641,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 1000000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -20097,6 +20265,7 @@
       "model_id": "requesty/gemini-2.5-flash-image-us-central1",
       "provider_id": "requesty",
       "name": "vertex/gemini-2.5-flash-image@us-central1",
+      "context_window": 32768,
       "modality": [
         "text"
       ],
@@ -20108,6 +20277,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 32768
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -20115,6 +20289,7 @@
       "model_id": "requesty/gemini-2.5-flash-image-us-east1",
       "provider_id": "requesty",
       "name": "vertex/gemini-2.5-flash-image@us-east1",
+      "context_window": 32768,
       "modality": [
         "text"
       ],
@@ -20126,6 +20301,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 32768
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -20133,6 +20313,7 @@
       "model_id": "requesty/gemini-2.5-flash-image-us-east4",
       "provider_id": "requesty",
       "name": "vertex/gemini-2.5-flash-image@us-east4",
+      "context_window": 32768,
       "modality": [
         "text"
       ],
@@ -20144,6 +20325,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 32768
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -20151,6 +20337,7 @@
       "model_id": "requesty/gemini-2.5-flash-image-us-east5",
       "provider_id": "requesty",
       "name": "vertex/gemini-2.5-flash-image@us-east5",
+      "context_window": 32768,
       "modality": [
         "text"
       ],
@@ -20162,6 +20349,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 32768
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -20169,6 +20361,7 @@
       "model_id": "requesty/gemini-2.5-flash-image-us-south1",
       "provider_id": "requesty",
       "name": "vertex/gemini-2.5-flash-image@us-south1",
+      "context_window": 32768,
       "modality": [
         "text"
       ],
@@ -20180,6 +20373,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 32768
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -20187,6 +20385,7 @@
       "model_id": "requesty/gemini-2.5-flash-image-us-west1",
       "provider_id": "requesty",
       "name": "vertex/gemini-2.5-flash-image@us-west1",
+      "context_window": 32768,
       "modality": [
         "text"
       ],
@@ -20198,6 +20397,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 32768
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -20205,6 +20409,7 @@
       "model_id": "requesty/gemini-2.5-flash-image-us-west4",
       "provider_id": "requesty",
       "name": "vertex/gemini-2.5-flash-image@us-west4",
+      "context_window": 32768,
       "modality": [
         "text"
       ],
@@ -20216,6 +20421,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 32768
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -20337,6 +20547,7 @@
       "model_id": "requesty/gemini-2.5-flash-lite-us-central1",
       "provider_id": "requesty",
       "name": "vertex/gemini-2.5-flash-lite@us-central1",
+      "context_window": 1048576,
       "modality": [
         "text"
       ],
@@ -20348,6 +20559,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
+      "limits": {
+        "max_input_tokens": 1048576
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -20355,6 +20571,7 @@
       "model_id": "requesty/gemini-2.5-flash-lite-us-east1",
       "provider_id": "requesty",
       "name": "vertex/gemini-2.5-flash-lite@us-east1",
+      "context_window": 1048576,
       "modality": [
         "text"
       ],
@@ -20366,6 +20583,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
+      "limits": {
+        "max_input_tokens": 1048576
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -20373,6 +20595,7 @@
       "model_id": "requesty/gemini-2.5-flash-lite-us-east5",
       "provider_id": "requesty",
       "name": "vertex/gemini-2.5-flash-lite@us-east5",
+      "context_window": 1048576,
       "modality": [
         "text"
       ],
@@ -20384,6 +20607,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
+      "limits": {
+        "max_input_tokens": 1048576
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -20391,6 +20619,7 @@
       "model_id": "requesty/gemini-2.5-flash-lite-us-south1",
       "provider_id": "requesty",
       "name": "vertex/gemini-2.5-flash-lite@us-south1",
+      "context_window": 1048576,
       "modality": [
         "text"
       ],
@@ -20402,6 +20631,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
+      "limits": {
+        "max_input_tokens": 1048576
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -20409,6 +20643,7 @@
       "model_id": "requesty/gemini-2.5-flash-lite-us-west1",
       "provider_id": "requesty",
       "name": "vertex/gemini-2.5-flash-lite@us-west1",
+      "context_window": 1048576,
       "modality": [
         "text"
       ],
@@ -20420,6 +20655,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
+      "limits": {
+        "max_input_tokens": 1048576
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -20451,6 +20691,7 @@
       "model_id": "requesty/gemini-2.5-flash-us-central1",
       "provider_id": "requesty",
       "name": "vertex/gemini-2.5-flash@us-central1",
+      "context_window": 1048576,
       "modality": [
         "text"
       ],
@@ -20462,6 +20703,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 1048576
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -20469,6 +20715,7 @@
       "model_id": "requesty/gemini-2.5-flash-us-east1",
       "provider_id": "requesty",
       "name": "vertex/gemini-2.5-flash@us-east1",
+      "context_window": 1048576,
       "modality": [
         "text"
       ],
@@ -20480,6 +20727,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 1048576
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -20487,6 +20739,7 @@
       "model_id": "requesty/gemini-2.5-flash-us-east5",
       "provider_id": "requesty",
       "name": "vertex/gemini-2.5-flash@us-east5",
+      "context_window": 1048576,
       "modality": [
         "text"
       ],
@@ -20498,6 +20751,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 1048576
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -20505,6 +20763,7 @@
       "model_id": "requesty/gemini-2.5-flash-us-south1",
       "provider_id": "requesty",
       "name": "vertex/gemini-2.5-flash@us-south1",
+      "context_window": 1048576,
       "modality": [
         "text"
       ],
@@ -20516,6 +20775,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 1048576
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -20523,6 +20787,7 @@
       "model_id": "requesty/gemini-2.5-flash-us-west1",
       "provider_id": "requesty",
       "name": "vertex/gemini-2.5-flash@us-west1",
+      "context_window": 1048576,
       "modality": [
         "text"
       ],
@@ -20534,6 +20799,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 1048576
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -20655,6 +20925,7 @@
       "model_id": "requesty/gemini-2.5-pro-us-central1",
       "provider_id": "requesty",
       "name": "vertex/gemini-2.5-pro@us-central1",
+      "context_window": 1048576,
       "modality": [
         "text"
       ],
@@ -20666,6 +20937,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 1048576
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -20673,6 +20949,7 @@
       "model_id": "requesty/gemini-2.5-pro-us-east1",
       "provider_id": "requesty",
       "name": "vertex/gemini-2.5-pro@us-east1",
+      "context_window": 1048576,
       "modality": [
         "text"
       ],
@@ -20684,6 +20961,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 1048576
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -20691,6 +20973,7 @@
       "model_id": "requesty/gemini-2.5-pro-us-east5",
       "provider_id": "requesty",
       "name": "vertex/gemini-2.5-pro@us-east5",
+      "context_window": 1048576,
       "modality": [
         "text"
       ],
@@ -20702,6 +20985,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 1048576
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -20709,6 +20997,7 @@
       "model_id": "requesty/gemini-2.5-pro-us-south1",
       "provider_id": "requesty",
       "name": "vertex/gemini-2.5-pro@us-south1",
+      "context_window": 1048576,
       "modality": [
         "text"
       ],
@@ -20720,6 +21009,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 1048576
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -20727,6 +21021,7 @@
       "model_id": "requesty/gemini-2.5-pro-us-west1",
       "provider_id": "requesty",
       "name": "vertex/gemini-2.5-pro@us-west1",
+      "context_window": 1048576,
       "modality": [
         "text"
       ],
@@ -20738,6 +21033,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 1048576
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -20877,6 +21177,7 @@
       "model_id": "requesty/gemini-3.1-flash-lite-eu",
       "provider_id": "requesty",
       "name": "vertex/gemini-3.1-flash-lite@eu",
+      "context_window": 1048576,
       "modality": [
         "text"
       ],
@@ -20888,6 +21189,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 1048576
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -20895,6 +21201,7 @@
       "model_id": "requesty/gemini-3.1-flash-lite-us",
       "provider_id": "requesty",
       "name": "vertex/gemini-3.1-flash-lite@us",
+      "context_window": 1048576,
       "modality": [
         "text"
       ],
@@ -20906,6 +21213,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 1048576
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -20979,6 +21291,7 @@
       "model_id": "requesty/gemini-3.5-flash-eu",
       "provider_id": "requesty",
       "name": "vertex/gemini-3.5-flash@eu",
+      "context_window": 1048576,
       "modality": [
         "text"
       ],
@@ -20990,6 +21303,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 1048576
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -20997,6 +21315,7 @@
       "model_id": "requesty/gemini-3.5-flash-lite-eu",
       "provider_id": "requesty",
       "name": "vertex/gemini-3.5-flash-lite@eu",
+      "context_window": 1048576,
       "modality": [
         "text"
       ],
@@ -21008,6 +21327,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 1048576
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -21039,6 +21363,7 @@
       "model_id": "requesty/gemini-3.5-flash-us",
       "provider_id": "requesty",
       "name": "vertex/gemini-3.5-flash@us",
+      "context_window": 1048576,
       "modality": [
         "text"
       ],
@@ -21050,6 +21375,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 1048576
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -22701,6 +23031,7 @@
       "model_id": "requesty/gpt-5.4-us-east-1",
       "provider_id": "requesty",
       "name": "bedrock/gpt-5.4@us-east-1",
+      "context_window": 1050000,
       "modality": [
         "text"
       ],
@@ -22712,6 +23043,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
+      "limits": {
+        "max_input_tokens": 1050000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -22719,6 +23055,7 @@
       "model_id": "requesty/gpt-5.4-us-east-2",
       "provider_id": "requesty",
       "name": "bedrock/gpt-5.4@us-east-2",
+      "context_window": 1050000,
       "modality": [
         "text"
       ],
@@ -22730,6 +23067,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
+      "limits": {
+        "max_input_tokens": 1050000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -22737,6 +23079,7 @@
       "model_id": "requesty/gpt-5.4-us-west-2",
       "provider_id": "requesty",
       "name": "bedrock/gpt-5.4@us-west-2",
+      "context_window": 1050000,
       "modality": [
         "text"
       ],
@@ -22748,6 +23091,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
+      "limits": {
+        "max_input_tokens": 1050000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -22839,6 +23187,7 @@
       "model_id": "requesty/gpt-5.5-us-east-1",
       "provider_id": "requesty",
       "name": "bedrock/gpt-5.5@us-east-1",
+      "context_window": 1050000,
       "modality": [
         "text"
       ],
@@ -22850,6 +23199,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
+      "limits": {
+        "max_input_tokens": 1050000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -22857,6 +23211,7 @@
       "model_id": "requesty/gpt-5.5-us-east-2",
       "provider_id": "requesty",
       "name": "bedrock/gpt-5.5@us-east-2",
+      "context_window": 1050000,
       "modality": [
         "text"
       ],
@@ -22868,6 +23223,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
+      "limits": {
+        "max_input_tokens": 1050000
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -23571,6 +23931,7 @@
       "model_id": "requesty/kimi-k2.5-eu-north-1",
       "provider_id": "requesty",
       "name": "bedrock/kimi-k2.5@eu-north-1",
+      "context_window": 262144,
       "modality": [
         "text"
       ],
@@ -23582,6 +23943,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 262144
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -23589,6 +23955,7 @@
       "model_id": "requesty/kimi-k2.5-eu-west-2",
       "provider_id": "requesty",
       "name": "bedrock/kimi-k2.5@eu-west-2",
+      "context_window": 262144,
       "modality": [
         "text"
       ],
@@ -23600,6 +23967,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 262144
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -23607,6 +23979,7 @@
       "model_id": "requesty/kimi-k2.5-us-east-1",
       "provider_id": "requesty",
       "name": "bedrock/kimi-k2.5@us-east-1",
+      "context_window": 262144,
       "modality": [
         "text"
       ],
@@ -23618,6 +23991,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 262144
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -23625,6 +24003,7 @@
       "model_id": "requesty/kimi-k2.5-us-east-2",
       "provider_id": "requesty",
       "name": "bedrock/kimi-k2.5@us-east-2",
+      "context_window": 262144,
       "modality": [
         "text"
       ],
@@ -23636,6 +24015,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 262144
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -23643,6 +24027,7 @@
       "model_id": "requesty/kimi-k2.5-us-west-2",
       "provider_id": "requesty",
       "name": "bedrock/kimi-k2.5@us-west-2",
+      "context_window": 262144,
       "modality": [
         "text"
       ],
@@ -23654,6 +24039,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
+      "limits": {
+        "max_input_tokens": 262144
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -24141,6 +24531,7 @@
       "model_id": "requesty/minimax-m2.5-eu-central-1",
       "provider_id": "requesty",
       "name": "bedrock/minimax-m2.5@eu-central-1",
+      "context_window": 204800,
       "modality": [
         "text"
       ],
@@ -24152,6 +24543,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
+      "limits": {
+        "max_input_tokens": 204800
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -24159,6 +24555,7 @@
       "model_id": "requesty/minimax-m2.5-eu-north-1",
       "provider_id": "requesty",
       "name": "bedrock/minimax-m2.5@eu-north-1",
+      "context_window": 204800,
       "modality": [
         "text"
       ],
@@ -24170,6 +24567,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
+      "limits": {
+        "max_input_tokens": 204800
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -24177,6 +24579,7 @@
       "model_id": "requesty/minimax-m2.5-eu-south-1",
       "provider_id": "requesty",
       "name": "bedrock/minimax-m2.5@eu-south-1",
+      "context_window": 204800,
       "modality": [
         "text"
       ],
@@ -24188,6 +24591,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
+      "limits": {
+        "max_input_tokens": 204800
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -24195,6 +24603,7 @@
       "model_id": "requesty/minimax-m2.5-eu-west-1",
       "provider_id": "requesty",
       "name": "bedrock/minimax-m2.5@eu-west-1",
+      "context_window": 204800,
       "modality": [
         "text"
       ],
@@ -24206,6 +24615,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
+      "limits": {
+        "max_input_tokens": 204800
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -24231,6 +24645,7 @@
       "model_id": "requesty/minimax-m2.5-us-east-1",
       "provider_id": "requesty",
       "name": "bedrock/minimax-m2.5@us-east-1",
+      "context_window": 204800,
       "modality": [
         "text"
       ],
@@ -24242,6 +24657,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
+      "limits": {
+        "max_input_tokens": 204800
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -24249,6 +24669,7 @@
       "model_id": "requesty/minimax-m2.5-us-east-2",
       "provider_id": "requesty",
       "name": "bedrock/minimax-m2.5@us-east-2",
+      "context_window": 204800,
       "modality": [
         "text"
       ],
@@ -24260,6 +24681,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
+      "limits": {
+        "max_input_tokens": 204800
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -24267,6 +24693,7 @@
       "model_id": "requesty/minimax-m2.5-us-west-2",
       "provider_id": "requesty",
       "name": "bedrock/minimax-m2.5@us-west-2",
+      "context_window": 204800,
       "modality": [
         "text"
       ],
@@ -24278,6 +24705,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
+      "limits": {
+        "max_input_tokens": 204800
+      },
       "capability_ids": [],
       "status": "active"
     },

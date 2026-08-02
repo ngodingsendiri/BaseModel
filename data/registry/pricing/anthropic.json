@@ -1,37 +1,5 @@
 [
   {
-    "pricing_id": "anthropic-claude-3-5-sonnet-input",
-    "model_id": "anthropic/claude-3-5-sonnet",
-    "pricing_type": "input-token",
-    "currency": "USD",
-    "unit": "1M tokens",
-    "value": 3
-  },
-  {
-    "pricing_id": "anthropic-claude-3-5-sonnet-output",
-    "model_id": "anthropic/claude-3-5-sonnet",
-    "pricing_type": "output-token",
-    "currency": "USD",
-    "unit": "1M tokens",
-    "value": 15
-  },
-  {
-    "pricing_id": "anthropic-claude-3-5-haiku-input",
-    "model_id": "anthropic/claude-3-5-haiku",
-    "pricing_type": "input-token",
-    "currency": "USD",
-    "unit": "1M tokens",
-    "value": 0.8
-  },
-  {
-    "pricing_id": "anthropic-claude-3-5-haiku-output",
-    "model_id": "anthropic/claude-3-5-haiku",
-    "pricing_type": "output-token",
-    "currency": "USD",
-    "unit": "1M tokens",
-    "value": 4
-  },
-  {
     "pricing_id": "anthropic-claude-fable-5-input",
     "model_id": "anthropic/claude-fable-5",
     "pricing_type": "input-token",

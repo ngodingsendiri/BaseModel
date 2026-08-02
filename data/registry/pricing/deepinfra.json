@@ -101,7 +101,7 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.14
+    "value": 0.09
   },
   {
     "pricing_id": "deepinfra-deepseek-v4-flash-0731-output",
@@ -109,7 +109,7 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.28
+    "value": 0.18
   },
   {
     "pricing_id": "deepinfra-deepseek-v4-flash-input",
@@ -373,7 +373,7 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.76
+    "value": 0.393
   },
   {
     "pricing_id": "deepinfra-glm-5.2-output",
@@ -381,7 +381,7 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.389
+    "value": 1.236
   },
   {
     "pricing_id": "deepinfra-glm-5-input",
@@ -429,7 +429,7 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.14
+    "value": 0.13
   },
   {
     "pricing_id": "deepinfra-hermes-3-llama-3.1-405b-input",

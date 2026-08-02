@@ -1,12 +1,12 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "e02fdb6",
+  "source_revision": "d55e27e",
   "count": 1539,
   "intelligence": [
     {
       "model_id": "anthropic/claude-3-5-haiku",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.6,
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -27,8 +27,8 @@
     },
     {
       "model_id": "anthropic/claude-3-5-sonnet",
-      "cost_tier": "Premium",
-      "blended_cost_per_1m": 6,
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -1040,7 +1040,7 @@
     {
       "model_id": "deepinfra/deepseek-v4-flash-0731",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.1125,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -1920,7 +1920,7 @@
     {
       "model_id": "deepinfra/glm-5.2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.1672500000000001,
+      "blended_cost_per_1m": 0.60375,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -2030,7 +2030,7 @@
     {
       "model_id": "deepinfra/gpt-oss-20b",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.0575,
+      "blended_cost_per_1m": 0.055,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -4405,8 +4405,8 @@
     },
     {
       "model_id": "google/gemini-1.5-flash",
-      "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.13124999999999998,
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -4427,8 +4427,8 @@
     },
     {
       "model_id": "google/gemini-1.5-pro",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.1875,
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
       "alternatives": [
         {
           "model_id": "google/gemini-2.0-flash",
@@ -5528,7 +5528,7 @@
     {
       "model_id": "groq/gpt-oss-20b",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.0575,
+      "blended_cost_per_1m": 0.055,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -9773,7 +9773,7 @@
     },
     {
       "model_id": "openrouter/auto-beta",
-      "cost_tier": "Free",
+      "cost_tier": "Unknown",
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
@@ -9795,7 +9795,7 @@
     },
     {
       "model_id": "openrouter/auto",
-      "cost_tier": "Free",
+      "cost_tier": "Unknown",
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
@@ -9817,7 +9817,7 @@
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "cost_tier": "Free",
+      "cost_tier": "Unknown",
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
@@ -10852,7 +10852,7 @@
     {
       "model_id": "openrouter/deepseek-v4-flash-0731",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.1125,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -11027,7 +11027,7 @@
     },
     {
       "model_id": "openrouter/fusion",
-      "cost_tier": "Free",
+      "cost_tier": "Unknown",
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
@@ -12106,7 +12106,7 @@
     {
       "model_id": "openrouter/glm-5.2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.1672500000000001,
+      "blended_cost_per_1m": 0.60375,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -12721,8 +12721,8 @@
     },
     {
       "model_id": "openrouter/gpt-5.1-chat",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.4375,
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -13536,7 +13536,7 @@
     {
       "model_id": "openrouter/gpt-oss-20b",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.0575,
+      "blended_cost_per_1m": 0.055,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -16021,7 +16021,7 @@
     },
     {
       "model_id": "openrouter/pareto-code",
-      "cost_tier": "Free",
+      "cost_tier": "Unknown",
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
@@ -17759,8 +17759,8 @@
     },
     {
       "model_id": "requesty/claude-fable-5-eu",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 20,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -17781,8 +17781,8 @@
     },
     {
       "model_id": "requesty/claude-fable-5-us-east-1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 20,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -18727,8 +18727,8 @@
     },
     {
       "model_id": "requesty/claude-opus-4-us-east5",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 30,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -18771,8 +18771,8 @@
     },
     {
       "model_id": "requesty/claude-opus-5-ap-northeast-1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 10,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -18793,8 +18793,8 @@
     },
     {
       "model_id": "requesty/claude-opus-5-eu-central-1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 10,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -18815,8 +18815,8 @@
     },
     {
       "model_id": "requesty/claude-opus-5-eu-north-1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 10,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -18837,8 +18837,8 @@
     },
     {
       "model_id": "requesty/claude-opus-5-eu-west-1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 10,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -18859,8 +18859,8 @@
     },
     {
       "model_id": "requesty/claude-opus-5-eu-west-3",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 10,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -18881,8 +18881,8 @@
     },
     {
       "model_id": "requesty/claude-opus-5-eu",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 10,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -18903,8 +18903,8 @@
     },
     {
       "model_id": "requesty/claude-opus-5-us",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 10,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -19409,8 +19409,8 @@
     },
     {
       "model_id": "requesty/claude-sonnet-4-eu-central-1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 6,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -19431,8 +19431,8 @@
     },
     {
       "model_id": "requesty/claude-sonnet-4-eu-north-1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 6,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -19453,8 +19453,8 @@
     },
     {
       "model_id": "requesty/claude-sonnet-4-eu-west-1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 6,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -19475,8 +19475,8 @@
     },
     {
       "model_id": "requesty/claude-sonnet-4-eu-west-3",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 6,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -19519,8 +19519,8 @@
     },
     {
       "model_id": "requesty/claude-sonnet-4-us-east-1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 6,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -19541,8 +19541,8 @@
     },
     {
       "model_id": "requesty/claude-sonnet-4-us-east-2",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 6,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -19563,8 +19563,8 @@
     },
     {
       "model_id": "requesty/claude-sonnet-4-us-east5",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 6,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -19585,8 +19585,8 @@
     },
     {
       "model_id": "requesty/claude-sonnet-4-us-west-2",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 6,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -19629,8 +19629,8 @@
     },
     {
       "model_id": "requesty/claude-sonnet-5-ap-southeast-2",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 4,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -19651,8 +19651,8 @@
     },
     {
       "model_id": "requesty/claude-sonnet-5-eu-central-1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 4,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -19673,8 +19673,8 @@
     },
     {
       "model_id": "requesty/claude-sonnet-5-eu-north-1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 4,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -19695,8 +19695,8 @@
     },
     {
       "model_id": "requesty/claude-sonnet-5-eu-west-1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 4,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -19717,8 +19717,8 @@
     },
     {
       "model_id": "requesty/claude-sonnet-5-eu-west-2",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 4,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -19739,8 +19739,8 @@
     },
     {
       "model_id": "requesty/claude-sonnet-5-eu",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 4,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -19761,8 +19761,8 @@
     },
     {
       "model_id": "requesty/claude-sonnet-5-us-east-1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 4,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -19783,8 +19783,8 @@
     },
     {
       "model_id": "requesty/claude-sonnet-5-us-east-2",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 4,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -19805,8 +19805,8 @@
     },
     {
       "model_id": "requesty/claude-sonnet-5-us-west-2",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 4,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -19827,8 +19827,8 @@
     },
     {
       "model_id": "requesty/claude-sonnet-5-us",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 4,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -20114,7 +20114,7 @@
     {
       "model_id": "requesty/deepseek-v4-flash-0731",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.1125,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -20531,8 +20531,8 @@
     },
     {
       "model_id": "requesty/gemini-2.5-flash-image-us-central1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.85,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -20553,8 +20553,8 @@
     },
     {
       "model_id": "requesty/gemini-2.5-flash-image-us-east1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.85,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -20575,8 +20575,8 @@
     },
     {
       "model_id": "requesty/gemini-2.5-flash-image-us-east4",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.85,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -20597,8 +20597,8 @@
     },
     {
       "model_id": "requesty/gemini-2.5-flash-image-us-east5",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.85,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -20619,8 +20619,8 @@
     },
     {
       "model_id": "requesty/gemini-2.5-flash-image-us-south1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.85,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -20641,8 +20641,8 @@
     },
     {
       "model_id": "requesty/gemini-2.5-flash-image-us-west1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.85,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -20663,8 +20663,8 @@
     },
     {
       "model_id": "requesty/gemini-2.5-flash-image-us-west4",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.85,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -20817,8 +20817,8 @@
     },
     {
       "model_id": "requesty/gemini-2.5-flash-lite-us-central1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.17500000000000002,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -20839,8 +20839,8 @@
     },
     {
       "model_id": "requesty/gemini-2.5-flash-lite-us-east1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.17500000000000002,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -20861,8 +20861,8 @@
     },
     {
       "model_id": "requesty/gemini-2.5-flash-lite-us-east5",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.17500000000000002,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -20883,8 +20883,8 @@
     },
     {
       "model_id": "requesty/gemini-2.5-flash-lite-us-south1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.17500000000000002,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -20905,8 +20905,8 @@
     },
     {
       "model_id": "requesty/gemini-2.5-flash-lite-us-west1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.17500000000000002,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -20949,8 +20949,8 @@
     },
     {
       "model_id": "requesty/gemini-2.5-flash-us-central1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.85,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -20971,8 +20971,8 @@
     },
     {
       "model_id": "requesty/gemini-2.5-flash-us-east1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.85,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -20993,8 +20993,8 @@
     },
     {
       "model_id": "requesty/gemini-2.5-flash-us-east5",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.85,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -21015,8 +21015,8 @@
     },
     {
       "model_id": "requesty/gemini-2.5-flash-us-south1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.85,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -21037,8 +21037,8 @@
     },
     {
       "model_id": "requesty/gemini-2.5-flash-us-west1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.85,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -21191,8 +21191,8 @@
     },
     {
       "model_id": "requesty/gemini-2.5-pro-us-central1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 3.4375,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -21213,8 +21213,8 @@
     },
     {
       "model_id": "requesty/gemini-2.5-pro-us-east1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 3.4375,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -21235,8 +21235,8 @@
     },
     {
       "model_id": "requesty/gemini-2.5-pro-us-east5",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 3.4375,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -21257,8 +21257,8 @@
     },
     {
       "model_id": "requesty/gemini-2.5-pro-us-south1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 3.4375,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -21279,8 +21279,8 @@
     },
     {
       "model_id": "requesty/gemini-2.5-pro-us-west1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 3.4375,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -21433,8 +21433,8 @@
     },
     {
       "model_id": "requesty/gemini-3.1-flash-lite-eu",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.5625,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -21455,8 +21455,8 @@
     },
     {
       "model_id": "requesty/gemini-3.1-flash-lite-us",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.5625,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -21543,8 +21543,8 @@
     },
     {
       "model_id": "requesty/gemini-3.5-flash-eu",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 3.375,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -21565,8 +21565,8 @@
     },
     {
       "model_id": "requesty/gemini-3.5-flash-lite-eu",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.85,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -21609,8 +21609,8 @@
     },
     {
       "model_id": "requesty/gemini-3.5-flash-us",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 3.375,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -21896,7 +21896,7 @@
     {
       "model_id": "requesty/glm-5.2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.1672500000000001,
+      "blended_cost_per_1m": 0.60375,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -22907,8 +22907,8 @@
     },
     {
       "model_id": "requesty/gpt-5.1-chat",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.4375,
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -23391,8 +23391,8 @@
     },
     {
       "model_id": "requesty/gpt-5.4-us-east-1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 5.625,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -23413,8 +23413,8 @@
     },
     {
       "model_id": "requesty/gpt-5.4-us-east-2",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 5.625,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -23435,8 +23435,8 @@
     },
     {
       "model_id": "requesty/gpt-5.4-us-west-2",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 5.625,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -23545,8 +23545,8 @@
     },
     {
       "model_id": "requesty/gpt-5.5-us-east-1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 11.25,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -23567,8 +23567,8 @@
     },
     {
       "model_id": "requesty/gpt-5.5-us-east-2",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 11.25,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -23854,7 +23854,7 @@
     {
       "model_id": "requesty/gpt-oss-20b",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.0575,
+      "blended_cost_per_1m": 0.055,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -24337,8 +24337,8 @@
     },
     {
       "model_id": "requesty/kimi-k2.5-eu-north-1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 1.1400000000000001,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -24359,8 +24359,8 @@
     },
     {
       "model_id": "requesty/kimi-k2.5-eu-west-2",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 1.1400000000000001,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -24381,8 +24381,8 @@
     },
     {
       "model_id": "requesty/kimi-k2.5-us-east-1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 1.1400000000000001,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -24403,8 +24403,8 @@
     },
     {
       "model_id": "requesty/kimi-k2.5-us-east-2",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 1.1400000000000001,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -24425,8 +24425,8 @@
     },
     {
       "model_id": "requesty/kimi-k2.5-us-west-2",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 1.1400000000000001,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -24953,8 +24953,8 @@
     },
     {
       "model_id": "requesty/minimax-m2.5-eu-central-1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.3375,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -24975,8 +24975,8 @@
     },
     {
       "model_id": "requesty/minimax-m2.5-eu-north-1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.3375,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -24997,8 +24997,8 @@
     },
     {
       "model_id": "requesty/minimax-m2.5-eu-south-1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.3375,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -25019,8 +25019,8 @@
     },
     {
       "model_id": "requesty/minimax-m2.5-eu-west-1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.3375,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -25063,8 +25063,8 @@
     },
     {
       "model_id": "requesty/minimax-m2.5-us-east-1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.3375,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -25085,8 +25085,8 @@
     },
     {
       "model_id": "requesty/minimax-m2.5-us-east-2",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.3375,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -25107,8 +25107,8 @@
     },
     {
       "model_id": "requesty/minimax-m2.5-us-west-2",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.3375,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -27572,7 +27572,7 @@
     {
       "model_id": "vercel/deepseek-v4-flash-0731",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.1125,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -28650,7 +28650,7 @@
     {
       "model_id": "vercel/glm-5.2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.1672500000000001,
+      "blended_cost_per_1m": 0.60375,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -29574,7 +29574,7 @@
     {
       "model_id": "vercel/gpt-oss-20b",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.0575,
+      "blended_cost_per_1m": 0.055,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
