@@ -2,6 +2,7 @@ import { execSync } from 'node:child_process';
 import { existsSync, readFileSync } from 'node:fs';
 import { mkdir, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import {
   calculateCostEfficiency,
   findAlternatives,
@@ -23,7 +24,7 @@ const SCHEMA_VERSION = '0.1.0';
  * Finds the workspace root by walking up from process.cwd() until
  * we find a directory that contains package.json with name "basemodel".
  */
-function getWorkspaceRoot(): string {
+export function getWorkspaceRoot(): string {
   let dir = process.cwd();
   for (let i = 0; i < 6; i++) {
     const pkgPath = join(dir, 'package.json');
@@ -42,7 +43,7 @@ function getWorkspaceRoot(): string {
 
 const OUTPUT_DIR = join(getWorkspaceRoot(), 'dist');
 
-function getSourceRevision(): string {
+export function getSourceRevision(): string {
   try {
     return execSync('git rev-parse --short HEAD', { encoding: 'utf-8' }).trim();
   } catch {
@@ -50,7 +51,7 @@ function getSourceRevision(): string {
   }
 }
 
-async function generate(): Promise<void> {
+export async function generate(outputDir = OUTPUT_DIR): Promise<void> {
   const source_revision = getSourceRevision();
 
   const meta = {
@@ -61,16 +62,16 @@ async function generate(): Promise<void> {
   console.log('📦 BaseModel — Dataset Generator');
   console.log(`   schema_version : ${meta.schema_version}`);
   console.log(`   source_revision: ${meta.source_revision}`);
-  console.log(`   output_dir     : ${OUTPUT_DIR}`);
+  console.log(`   output_dir     : ${outputDir}`);
   console.log('');
 
-  await mkdir(OUTPUT_DIR, { recursive: true });
+  await mkdir(outputDir, { recursive: true });
 
   // --- providers.json ---
   console.log('⏳ Reading providers...');
   const providers = await getAllProviders();
   await writeFile(
-    join(OUTPUT_DIR, 'providers.json'),
+    join(outputDir, 'providers.json'),
     `${JSON.stringify({ ...meta, count: providers.length, providers }, null, 2)}\n`,
   );
   console.log(`✅ providers.json — ${providers.length} records`);
@@ -79,7 +80,7 @@ async function generate(): Promise<void> {
   console.log('⏳ Reading models...');
   const models = await getAllModels();
   await writeFile(
-    join(OUTPUT_DIR, 'models.json'),
+    join(outputDir, 'models.json'),
     `${JSON.stringify({ ...meta, count: models.length, models }, null, 2)}\n`,
   );
   console.log(`✅ models.json — ${models.length} records`);
@@ -88,7 +89,7 @@ async function generate(): Promise<void> {
   console.log('⏳ Reading capabilities...');
   const capabilities = await getAllCapabilities();
   await writeFile(
-    join(OUTPUT_DIR, 'capabilities.json'),
+    join(outputDir, 'capabilities.json'),
     `${JSON.stringify({ ...meta, count: capabilities.length, capabilities }, null, 2)}\n`,
   );
   console.log(`✅ capabilities.json — ${capabilities.length} records`);
@@ -97,7 +98,7 @@ async function generate(): Promise<void> {
   console.log('⏳ Reading licenses...');
   const licenses = await getAllLicenses();
   await writeFile(
-    join(OUTPUT_DIR, 'licenses.json'),
+    join(outputDir, 'licenses.json'),
     `${JSON.stringify({ ...meta, count: licenses.length, licenses }, null, 2)}\n`,
   );
   console.log(`✅ licenses.json — ${licenses.length} records`);
@@ -106,7 +107,7 @@ async function generate(): Promise<void> {
   console.log('⏳ Reading apis...');
   const apis = await getAllApis();
   await writeFile(
-    join(OUTPUT_DIR, 'apis.json'),
+    join(outputDir, 'apis.json'),
     `${JSON.stringify({ ...meta, count: apis.length, apis }, null, 2)}\n`,
   );
   console.log(`✅ apis.json — ${apis.length} records`);
@@ -115,7 +116,7 @@ async function generate(): Promise<void> {
   console.log('⏳ Reading benchmarks...');
   const benchmarks = await getAllBenchmarks();
   await writeFile(
-    join(OUTPUT_DIR, 'benchmarks.json'),
+    join(outputDir, 'benchmarks.json'),
     `${JSON.stringify({ ...meta, count: benchmarks.length, benchmarks }, null, 2)}\n`,
   );
   console.log(`✅ benchmarks.json — ${benchmarks.length} records`);
@@ -124,7 +125,7 @@ async function generate(): Promise<void> {
   console.log('⏳ Reading pricing...');
   const pricing = await getAllPricing();
   await writeFile(
-    join(OUTPUT_DIR, 'pricing.json'),
+    join(outputDir, 'pricing.json'),
     `${JSON.stringify({ ...meta, count: pricing.length, pricing }, null, 2)}\n`,
   );
   console.log(`✅ pricing.json — ${pricing.length} records`);
@@ -172,7 +173,7 @@ async function generate(): Promise<void> {
   });
 
   await writeFile(
-    join(OUTPUT_DIR, 'intelligence.json'),
+    join(outputDir, 'intelligence.json'),
     `${JSON.stringify(
       { ...meta, count: intelligenceRecords.length, intelligence: intelligenceRecords },
       null,
@@ -182,10 +183,13 @@ async function generate(): Promise<void> {
   console.log(`✅ intelligence.json — ${intelligenceRecords.length} records`);
 
   console.log('');
-  console.log(`🎉 Done. Datasets written to: ${OUTPUT_DIR}`);
+  console.log(`🎉 Done. Datasets written to: ${outputDir}`);
 }
 
-generate().catch((err: unknown) => {
-  console.error('❌ Generation failed:', err);
-  process.exit(1);
-});
+// Auto-run only when invoked directly (`pnpm generate`), not on import.
+if (process.argv[1] && fileURLToPath(import.meta.url) === pathToFileURL(process.argv[1]).pathname) {
+  generate().catch((err: unknown) => {
+    console.error('❌ Generation failed:', err);
+    process.exit(1);
+  });
+}

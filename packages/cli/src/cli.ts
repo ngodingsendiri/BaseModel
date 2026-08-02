@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import {
   calculateCostEfficiency,
   findAlternatives,
@@ -56,12 +57,10 @@ function tierColor(tier: string): string {
   return dim(tier);
 }
 
-// ─── Commands ─────────────────────────────────────────────────────────────────
-
-async function cmdSearch(args: string[]): Promise<void> {
-  const engine = new IntelligenceEngine();
-  await engine.init();
-
+/**
+ * Parses `search` command flags into search criteria. Exported for testing.
+ */
+export function parseSearchCriteria(args: string[]): Parameters<typeof searchModels>[1] {
   const criteria: Parameters<typeof searchModels>[1] = {};
 
   for (let i = 0; i < args.length; i++) {
@@ -77,6 +76,17 @@ async function cmdSearch(args: string[]): Promise<void> {
       criteria.minContextWindow = Number(args[++i]);
     }
   }
+
+  return criteria;
+}
+
+// ─── Commands ─────────────────────────────────────────────────────────────────
+
+async function cmdSearch(args: string[]): Promise<void> {
+  const engine = new IntelligenceEngine();
+  await engine.init();
+
+  const criteria = parseSearchCriteria(args);
 
   const results = searchModels(engine, criteria);
 
@@ -210,7 +220,10 @@ async function main(): Promise<void> {
   }
 }
 
-main().catch((err: unknown) => {
-  console.error('Error:', err instanceof Error ? err.message : err);
-  process.exit(1);
-});
+// Auto-run only when invoked directly (`basemodel ...`), not on import.
+if (process.argv[1] && fileURLToPath(import.meta.url) === pathToFileURL(process.argv[1]).pathname) {
+  main().catch((err: unknown) => {
+    console.error('Error:', err instanceof Error ? err.message : err);
+    process.exit(1);
+  });
+}

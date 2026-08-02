@@ -42,7 +42,7 @@ const BENCHMARKS = [
 ];
 
 /** Extracts a YYYY-MM-DD date from any date-ish string, if present. */
-function toIsoDate(value: unknown): string | undefined {
+export function toIsoDate(value: unknown): string | undefined {
   if (typeof value !== 'string') return undefined;
   const match = /^(\d{4}-\d{2}-\d{2})/.exec(value.trim());
   return match?.[1];
