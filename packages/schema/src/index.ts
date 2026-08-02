@@ -13,6 +13,7 @@ export type { Benchmark } from './benchmark.js';
 export { BenchmarkSchema } from './benchmark.js';
 export type { Capability } from './capability.js';
 export { CapabilitySchema } from './capability.js';
+export { BLENDED_DIVISOR, blendedCost, INPUT_WEIGHT, OUTPUT_WEIGHT } from './cost.js';
 export type { License } from './license.js';
 export { LicenseSchema } from './license.js';
 export type { ModelLimits } from './limits.js';

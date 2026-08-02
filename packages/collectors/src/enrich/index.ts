@@ -1,7 +1,8 @@
 import {
-  clearPricingRegistry,
+  deleteRegistryFile,
   getAllModels,
   getAllPricing,
+  listRegistryFiles,
   saveModel,
   savePricingRecords,
 } from '@basemodel/registry';
@@ -200,9 +201,18 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
     byProvider.set(provider, list);
   }
 
-  await clearPricingRegistry();
+  // Write each provider's pricing file directly (each write is atomic).
+  // Then clean up stale providers that are no longer enriched.
+  const writtenProviders = new Set<string>();
   for (const [provider, records] of byProvider) {
     await savePricingRecords(provider, records);
+    writtenProviders.add(provider);
+  }
+  for (const file of await listRegistryFiles('pricing')) {
+    const providerName = file.replace(/\.json$/, '');
+    if (!writtenProviders.has(providerName)) {
+      await deleteRegistryFile(`pricing/${file}`);
+    }
   }
 
   console.log(`Enriched ${summary.enrichedModels} models (${updated} saved)`);

@@ -90,7 +90,7 @@ jobs:
               echo "Push raced on attempt ${attempt}; retrying..."
             else
               echo "Rebase conflicted; keeping collected data and regenerating dist/"
-              git checkout --theirs -- data/registry/ dist/
+              git checkout --ours -- data/registry/ dist/
               git add data/registry/ dist/
               pnpm --filter @basemodel/publisher run generate
               git add dist/

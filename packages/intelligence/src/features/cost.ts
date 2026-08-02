@@ -1,3 +1,4 @@
+import { blendedCost } from '@basemodel/schema';
 import type { IntelligenceEngine } from '../core/engine';
 
 export type CostTier = 'Free' | 'Budget-Friendly' | 'Balanced' | 'Premium' | 'Unknown';
@@ -7,7 +8,7 @@ export interface CostEfficiencyReport {
   isFree: boolean;
   inputCostPer1M: number;
   outputCostPer1M: number;
-  blendedCost: number; // Simple average of input and output for a quick heuristic
+  blendedCost: number;
   tier: CostTier;
 }
 
@@ -65,21 +66,17 @@ export function calculateCostEfficiency(
     }
   }
 
-  // Blended cost heuristic: assume 3 input tokens for every 1 output token
-  // So a chunk of 4M tokens has 3M input, 1M output
-  // Blended per 1M = ( (inputCost * 3) + (outputCost * 1) ) / 4
-  const blendedCost = (inputCost * 3 + outputCost * 1) / 4;
+  const blended = blendedCost(inputCost, outputCost);
 
   let tier: CostTier = 'Unknown';
-  if (blendedCost === 0 && hasInputRecord && hasOutputRecord) {
+  if (blended === 0 && hasInputRecord && hasOutputRecord) {
     // Both input and output are explicitly priced at 0 (without a `free` tag,
     // e.g. custom-gateway records). Mirror classifyTier: free.
     tier = 'Free';
-  } else if (blendedCost > 0) {
-    if (blendedCost < 0.5)
-      tier = 'Budget-Friendly'; // Under $0.50 per blended 1M
-    else if (blendedCost <= 5) tier = 'Balanced';
-    else tier = 'Premium'; // Over $5 per blended 1M
+  } else if (blended > 0) {
+    if (blended < 0.5) tier = 'Budget-Friendly';
+    else if (blended <= 5) tier = 'Balanced';
+    else tier = 'Premium';
   }
 
   return {
@@ -87,7 +84,7 @@ export function calculateCostEfficiency(
     isFree: tier === 'Free',
     inputCostPer1M: inputCost,
     outputCostPer1M: outputCost,
-    blendedCost,
+    blendedCost: blended,
     tier,
   };
 }

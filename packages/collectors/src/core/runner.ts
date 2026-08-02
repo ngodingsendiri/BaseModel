@@ -416,21 +416,21 @@ export async function runAllGateways(): Promise<void> {
   }
 
   console.log(`Found ${files.length} gateway plugin(s): ${files.join(', ')}`);
-  for (const file of files) {
-    const pluginPath = path.join(gatewaysDirectory, file);
-    const pluginName = path.basename(file, path.extname(file));
-    console.log(`Running gateway: ${pluginName}`);
-    try {
+  const results = await Promise.allSettled(
+    files.map(async (file) => {
+      const pluginPath = path.join(gatewaysDirectory, file);
+      const pluginName = path.basename(file, path.extname(file));
+      console.log(`Running gateway: ${pluginName}`);
       const plugin = await describeGatewayPlugin(pluginPath);
       const result = await executeGatewayPlugin(pluginPath, plugin);
       if (result.errors.length > 0) console.warn('Collection errors:', result.errors);
       console.log(`Fetched ${result.models.length} models from ${plugin.id}`);
       await persistResult(result);
-    } catch (error: unknown) {
-      console.error(
-        `Failed to load or run gateway ${pluginName}:`,
-        error instanceof Error ? error.message : error,
-      );
+    }),
+  );
+  for (const [index, outcome] of results.entries()) {
+    if (outcome.status === 'rejected') {
+      console.error(`Failed to load or run gateway ${files[index]}:`, outcome.reason);
     }
   }
 }

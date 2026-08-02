@@ -31,9 +31,7 @@
     "clean": "rimraf dist"
   },
   "dependencies": {
-    "@basemodel/intelligence": "workspace:*",
-    "@basemodel/registry": "workspace:*",
-    "@basemodel/schema": "workspace:*"
+    "@basemodel/intelligence": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
