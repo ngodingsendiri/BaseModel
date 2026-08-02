@@ -2,6 +2,7 @@
   "model_id": "vercel/minimax-m2.7-highspeed",
   "provider_id": "vercel",
   "name": "minimax/minimax-m2.7-highspeed",
+  "context_window": 200000,
   "modality": [
     "text"
   ],
@@ -13,12 +14,12 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "capability_ids": [],
-  "status": "active",
   "is_free": false,
   "tier": "balanced",
   "limits": {
     "max_input_tokens": 200000
   },
-  "context_window": 200000
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-02T06:05:07.304Z"
 }

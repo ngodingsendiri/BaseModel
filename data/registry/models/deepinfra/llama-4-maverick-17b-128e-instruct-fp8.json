@@ -2,6 +2,7 @@
   "model_id": "deepinfra/llama-4-maverick-17b-128e-instruct-fp8",
   "provider_id": "deepinfra",
   "name": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+  "context_window": 1048576,
   "modality": [
     "text"
   ],
@@ -13,12 +14,12 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "capability_ids": [],
-  "status": "active",
   "is_free": false,
   "tier": "budget",
   "limits": {
     "max_input_tokens": 1048576
   },
-  "context_window": 1048576
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-02T06:05:07.760Z"
 }

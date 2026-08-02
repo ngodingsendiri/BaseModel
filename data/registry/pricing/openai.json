@@ -5,7 +5,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3
+    "value": 3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-3.5-turbo-16k-output",
@@ -13,7 +15,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4
+    "value": 4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-3.5-turbo-instruct-input",
@@ -21,7 +25,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.5
+    "value": 1.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-3.5-turbo-instruct-output",
@@ -29,7 +35,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-3.5-turbo-input",
@@ -37,7 +45,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.5
+    "value": 0.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-3.5-turbo-output",
@@ -45,7 +55,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.5
+    "value": 1.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-4.1-mini-input",
@@ -53,7 +65,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-4.1-mini-output",
@@ -61,7 +75,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.6
+    "value": 1.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-4.1-nano-input",
@@ -69,7 +85,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-4.1-nano-output",
@@ -77,7 +95,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-4.1-input",
@@ -85,7 +105,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-4.1-output",
@@ -93,7 +115,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 8
+    "value": 8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-4o-2024-05-13-input",
@@ -101,7 +125,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-4o-2024-05-13-output",
@@ -109,7 +135,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-4o-2024-08-06-input",
@@ -117,7 +145,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-4o-2024-08-06-output",
@@ -125,7 +155,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-4o-2024-11-20-input",
@@ -133,7 +165,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-4o-2024-11-20-output",
@@ -141,7 +175,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-4o-mini-2024-07-18-input",
@@ -149,7 +185,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.15
+    "value": 0.15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-4o-mini-2024-07-18-output",
@@ -157,7 +195,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-4o-mini-input",
@@ -165,7 +205,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.15
+    "value": 0.15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-4o-mini-output",
@@ -173,7 +215,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-4o-input",
@@ -181,7 +225,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-4o-output",
@@ -189,7 +235,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5-mini-input",
@@ -197,7 +245,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.25
+    "value": 0.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5-mini-output",
@@ -205,7 +255,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5-nano-input",
@@ -213,7 +265,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.05
+    "value": 0.05,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5-nano-output",
@@ -221,7 +275,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5-pro-input",
@@ -229,7 +285,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5-pro-output",
@@ -237,7 +295,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 120
+    "value": 120,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.1-codex-max-input",
@@ -245,7 +305,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.1-codex-max-output",
@@ -253,7 +315,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.1-codex-mini-input",
@@ -261,7 +325,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.25
+    "value": 0.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.1-codex-mini-output",
@@ -269,7 +335,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.1-codex-input",
@@ -277,7 +345,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.1-codex-output",
@@ -285,7 +355,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.1-input",
@@ -293,7 +365,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.1-output",
@@ -301,7 +375,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.2-codex-input",
@@ -309,7 +385,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.75
+    "value": 1.75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.2-codex-output",
@@ -317,7 +395,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 14
+    "value": 14,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.2-pro-input",
@@ -325,7 +405,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 21
+    "value": 21,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.2-pro-output",
@@ -333,7 +415,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 168
+    "value": 168,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.2-input",
@@ -341,7 +425,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.75
+    "value": 1.75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.2-output",
@@ -349,7 +435,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 14
+    "value": 14,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.3-codex-input",
@@ -357,7 +445,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.75
+    "value": 1.75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.3-codex-output",
@@ -365,7 +455,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 14
+    "value": 14,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.4-mini-input",
@@ -373,7 +465,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.75
+    "value": 0.75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.4-mini-output",
@@ -381,7 +475,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4.5
+    "value": 4.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.4-nano-input",
@@ -389,7 +485,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.2
+    "value": 0.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.4-nano-output",
@@ -397,7 +495,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.4-pro-input",
@@ -405,7 +505,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 30
+    "value": 30,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.4-pro-output",
@@ -413,7 +515,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 180
+    "value": 180,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.4-input",
@@ -421,7 +525,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.4-output",
@@ -429,7 +535,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.5-pro-input",
@@ -437,7 +545,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 30
+    "value": 30,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.5-pro-output",
@@ -445,7 +555,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 180
+    "value": 180,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.5-input",
@@ -453,7 +565,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.5-output",
@@ -461,7 +575,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 30
+    "value": 30,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.6-luna-input",
@@ -469,7 +585,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.6-luna-output",
@@ -477,7 +595,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.6-sol-input",
@@ -485,7 +605,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.6-sol-output",
@@ -493,7 +615,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 30
+    "value": 30,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.6-terra-input",
@@ -501,7 +625,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5.6-terra-output",
@@ -509,7 +635,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 6
+    "value": 6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5-input",
@@ -517,7 +645,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-5-output",
@@ -525,7 +655,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-audio-mini-input",
@@ -533,7 +665,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-audio-mini-output",
@@ -541,7 +675,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.4
+    "value": 2.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-audio-input",
@@ -549,7 +685,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-gpt-audio-output",
@@ -557,7 +695,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-o1-input",
@@ -565,7 +705,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-o1-output",
@@ -573,7 +715,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 60
+    "value": 60,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-o3-mini-input",
@@ -581,7 +725,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.1
+    "value": 1.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-o3-mini-output",
@@ -589,7 +735,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4.4
+    "value": 4.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-o3-input",
@@ -597,7 +745,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-o3-output",
@@ -605,7 +755,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 8
+    "value": 8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-o4-mini-input",
@@ -613,7 +765,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.1
+    "value": 1.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   },
   {
     "pricing_id": "openai-o4-mini-output",
@@ -621,6 +775,8 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4.4
+    "value": 4.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.820Z"
   }
 ]

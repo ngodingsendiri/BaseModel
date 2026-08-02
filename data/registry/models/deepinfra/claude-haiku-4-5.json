@@ -2,6 +2,7 @@
   "model_id": "deepinfra/claude-haiku-4-5",
   "provider_id": "deepinfra",
   "name": "anthropic/claude-haiku-4-5",
+  "context_window": 200000,
   "modality": [
     "text"
   ],
@@ -13,12 +14,12 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "capability_ids": [],
-  "status": "active",
   "is_free": false,
   "tier": "balanced",
   "limits": {
     "max_input_tokens": 200000
   },
-  "context_window": 200000
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-02T06:05:07.960Z"
 }

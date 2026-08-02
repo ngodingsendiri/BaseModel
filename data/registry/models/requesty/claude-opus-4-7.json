@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/claude-opus-4-7",
   "provider_id": "requesty",
-  "name": "bedrock/claude-opus-4-7",
+  "name": "anthropic/claude-opus-4-7",
   "context_window": 1000000,
   "modality": [
     "text"
@@ -20,5 +20,6 @@
     "max_input_tokens": 1000000
   },
   "capability_ids": [],
-  "status": "active"
+  "status": "active",
+  "updated_at": "2026-08-02T06:06:08.879Z"
 }

@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gpt-5-nano",
   "provider_id": "requesty",
-  "name": "azure/gpt-5-nano",
+  "name": "openai/gpt-5-nano",
   "context_window": 400000,
   "modality": [
     "text"
@@ -20,5 +20,6 @@
     "max_input_tokens": 400000
   },
   "capability_ids": [],
-  "status": "active"
+  "status": "active",
+  "updated_at": "2026-08-02T06:06:09.215Z"
 }

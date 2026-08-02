@@ -5,7 +5,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.25
+    "value": 0.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-3-haiku-output",
@@ -13,7 +15,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-fable-5-input",
@@ -21,7 +25,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-fable-5-output",
@@ -29,7 +35,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 50
+    "value": 50,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-haiku-4.5-input",
@@ -37,7 +45,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-haiku-4.5-output",
@@ -45,7 +55,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-opus-4.1-input",
@@ -53,7 +65,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-opus-4.1-output",
@@ -61,7 +75,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 75
+    "value": 75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-opus-4.5-input",
@@ -69,7 +85,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-opus-4.5-output",
@@ -77,7 +95,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 25
+    "value": 25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-opus-4.6-input",
@@ -85,7 +105,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-opus-4.6-output",
@@ -93,7 +115,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 25
+    "value": 25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-opus-4.7-input",
@@ -101,7 +125,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-opus-4.7-output",
@@ -109,7 +135,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 25
+    "value": 25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-opus-4.8-fast-input",
@@ -117,7 +145,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-opus-4.8-fast-output",
@@ -125,7 +155,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 50
+    "value": 50,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-opus-4.8-input",
@@ -133,7 +165,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-opus-4.8-output",
@@ -141,7 +175,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 25
+    "value": 25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-opus-4-input",
@@ -149,7 +185,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-opus-4-output",
@@ -157,7 +195,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 75
+    "value": 75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-opus-5-fast-input",
@@ -165,7 +205,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-opus-5-fast-output",
@@ -173,7 +215,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 50
+    "value": 50,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-opus-5-input",
@@ -181,7 +225,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-opus-5-output",
@@ -189,7 +235,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 25
+    "value": 25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-sonnet-4.5-input",
@@ -197,7 +245,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3
+    "value": 3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-sonnet-4.5-output",
@@ -205,7 +255,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-sonnet-4.6-input",
@@ -213,7 +265,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3
+    "value": 3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-sonnet-4.6-output",
@@ -221,7 +275,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-sonnet-4-input",
@@ -229,7 +285,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3
+    "value": 3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-sonnet-4-output",
@@ -237,7 +295,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-sonnet-5-input",
@@ -245,7 +305,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-claude-sonnet-5-output",
@@ -253,7 +315,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-command-a-input",
@@ -261,7 +325,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-command-a-output",
@@ -269,7 +335,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-deepseek-r1-input",
@@ -277,7 +345,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.7
+    "value": 0.7,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-deepseek-r1-output",
@@ -285,7 +355,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-deepseek-v3.1-terminus-input",
@@ -293,7 +365,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.27
+    "value": 0.27,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-deepseek-v3.1-terminus-output",
@@ -301,7 +375,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-deepseek-v3.2-input",
@@ -309,7 +385,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.269
+    "value": 0.269,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-deepseek-v3.2-output",
@@ -317,7 +395,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-deepseek-v4-flash-0731-input",
@@ -325,7 +405,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.09
+    "value": 0.09,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-deepseek-v4-flash-0731-output",
@@ -333,7 +415,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.18
+    "value": 0.18,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-deepseek-v4-flash-input",
@@ -341,7 +425,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.14
+    "value": 0.14,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-deepseek-v4-flash-output",
@@ -349,7 +435,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.28
+    "value": 0.28,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-deepseek-v4-pro-input",
@@ -357,7 +445,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.435
+    "value": 0.435,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-deepseek-v4-pro-output",
@@ -365,7 +455,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.87
+    "value": 0.87,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-fugu-ultra-input",
@@ -373,7 +465,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-fugu-ultra-output",
@@ -381,7 +475,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 30
+    "value": 30,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemini-2.5-flash-image-input",
@@ -389,7 +485,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemini-2.5-flash-image-output",
@@ -397,7 +495,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemini-2.5-flash-lite-input",
@@ -405,7 +505,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemini-2.5-flash-lite-output",
@@ -413,7 +515,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemini-2.5-flash-input",
@@ -421,7 +525,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemini-2.5-flash-output",
@@ -429,7 +535,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemini-2.5-pro-input",
@@ -437,7 +545,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemini-2.5-pro-output",
@@ -445,7 +555,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemini-3-pro-image-input",
@@ -453,7 +565,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemini-3-pro-image-output",
@@ -461,7 +575,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 12
+    "value": 12,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemini-3.1-flash-image-preview-input",
@@ -469,7 +585,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.5
+    "value": 0.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemini-3.1-flash-image-preview-output",
@@ -477,7 +595,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3
+    "value": 3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemini-3.1-flash-image-input",
@@ -485,7 +605,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.5
+    "value": 0.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemini-3.1-flash-image-output",
@@ -493,7 +615,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3
+    "value": 3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemini-3.1-flash-lite-image-input",
@@ -501,7 +625,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.25
+    "value": 0.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemini-3.1-flash-lite-image-output",
@@ -509,7 +635,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.5
+    "value": 1.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemini-3.1-flash-lite-input",
@@ -517,7 +645,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.25
+    "value": 0.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemini-3.1-flash-lite-output",
@@ -525,7 +655,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.5
+    "value": 1.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemini-3.1-pro-preview-input",
@@ -533,7 +665,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemini-3.1-pro-preview-output",
@@ -541,7 +675,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 12
+    "value": 12,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemini-3.5-flash-lite-input",
@@ -549,7 +685,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemini-3.5-flash-lite-output",
@@ -557,7 +695,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemini-3.5-flash-input",
@@ -565,7 +705,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.5
+    "value": 1.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemini-3.5-flash-output",
@@ -573,7 +715,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 9
+    "value": 9,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemini-3.6-flash-input",
@@ -581,7 +725,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.5
+    "value": 1.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemini-3.6-flash-output",
@@ -589,7 +735,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 7.5
+    "value": 7.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemma-4-26b-a4b-it-input",
@@ -597,7 +745,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.07
+    "value": 0.07,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemma-4-26b-a4b-it-output",
@@ -605,7 +755,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.34
+    "value": 0.34,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemma-4-31b-it-input",
@@ -613,7 +765,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gemma-4-31b-it-output",
@@ -621,7 +775,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.34
+    "value": 0.34,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-glm-4.5-air-input",
@@ -629,7 +785,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.13
+    "value": 0.13,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-glm-4.5-air-output",
@@ -637,7 +795,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.85
+    "value": 0.85,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-glm-4.5-input",
@@ -645,7 +805,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-glm-4.5-output",
@@ -653,7 +815,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.2
+    "value": 2.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-glm-4.5v-input",
@@ -661,7 +825,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-glm-4.5v-output",
@@ -669,7 +835,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.8
+    "value": 1.8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-glm-4.6-input",
@@ -677,7 +845,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.5
+    "value": 0.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-glm-4.6-output",
@@ -685,7 +855,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-glm-4.6v-input",
@@ -693,7 +865,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-glm-4.6v-output",
@@ -701,7 +875,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.9
+    "value": 0.9,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-glm-4.7-flash-input",
@@ -709,7 +885,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.06
+    "value": 0.06,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-glm-4.7-flash-output",
@@ -717,7 +895,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-glm-4.7-input",
@@ -725,7 +905,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-glm-4.7-output",
@@ -733,7 +915,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.75
+    "value": 1.75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-glm-5-turbo-input",
@@ -741,7 +925,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.2
+    "value": 1.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-glm-5-turbo-output",
@@ -749,7 +935,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4
+    "value": 4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-glm-5.1-input",
@@ -757,7 +945,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.966
+    "value": 0.966,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-glm-5.1-output",
@@ -765,7 +955,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3.036
+    "value": 3.036,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-glm-5.2-input",
@@ -773,7 +965,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.36
+    "value": 0.351,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-glm-5.2-output",
@@ -781,7 +975,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.131
+    "value": 1.104,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-glm-5-input",
@@ -789,7 +985,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.95
+    "value": 0.95,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-glm-5-output",
@@ -797,7 +995,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.55
+    "value": 2.55,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-glm-5v-turbo-input",
@@ -805,7 +1005,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.2
+    "value": 1.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-glm-5v-turbo-output",
@@ -813,7 +1015,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4
+    "value": 4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-3.5-turbo-input",
@@ -821,7 +1025,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.5
+    "value": 0.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-3.5-turbo-output",
@@ -829,7 +1035,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.5
+    "value": 1.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-4-turbo-input",
@@ -837,7 +1045,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-4-turbo-output",
@@ -845,7 +1055,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 30
+    "value": 30,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-4.1-mini-input",
@@ -853,7 +1065,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-4.1-mini-output",
@@ -861,7 +1075,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.6
+    "value": 1.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-4.1-nano-input",
@@ -869,7 +1085,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-4.1-nano-output",
@@ -877,7 +1095,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-4.1-input",
@@ -885,7 +1105,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-4.1-output",
@@ -893,7 +1115,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 8
+    "value": 8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-4o-mini-input",
@@ -901,7 +1125,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.15
+    "value": 0.15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-4o-mini-output",
@@ -909,7 +1135,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-4o-input",
@@ -917,7 +1145,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-4o-output",
@@ -925,7 +1155,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5-mini-input",
@@ -933,7 +1165,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.25
+    "value": 0.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5-mini-output",
@@ -941,7 +1175,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5-nano-input",
@@ -949,7 +1185,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.05
+    "value": 0.05,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5-nano-output",
@@ -957,7 +1195,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5-pro-input",
@@ -965,7 +1205,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5-pro-output",
@@ -973,7 +1215,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 120
+    "value": 120,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.1-codex-max-input",
@@ -981,7 +1225,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.1-codex-max-output",
@@ -989,7 +1235,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.1-codex-mini-input",
@@ -997,7 +1245,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.25
+    "value": 0.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.1-codex-mini-output",
@@ -1005,7 +1255,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.1-codex-input",
@@ -1013,7 +1265,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.1-codex-output",
@@ -1021,7 +1275,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.2-codex-input",
@@ -1029,7 +1285,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.75
+    "value": 1.75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.2-codex-output",
@@ -1037,7 +1295,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 14
+    "value": 14,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.2-pro-input",
@@ -1045,7 +1305,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 21
+    "value": 21,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.2-pro-output",
@@ -1053,7 +1315,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 168
+    "value": 168,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.2-input",
@@ -1061,7 +1325,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.75
+    "value": 1.75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.2-output",
@@ -1069,7 +1335,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 14
+    "value": 14,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.3-chat-input",
@@ -1077,7 +1345,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.75
+    "value": 1.75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.3-chat-output",
@@ -1085,7 +1355,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 14
+    "value": 14,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.3-codex-input",
@@ -1093,7 +1365,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.75
+    "value": 1.75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.3-codex-output",
@@ -1101,7 +1375,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 14
+    "value": 14,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.4-mini-input",
@@ -1109,7 +1385,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.75
+    "value": 0.75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.4-mini-output",
@@ -1117,7 +1395,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4.5
+    "value": 4.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.4-nano-input",
@@ -1125,7 +1405,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.2
+    "value": 0.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.4-nano-output",
@@ -1133,7 +1415,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.4-pro-input",
@@ -1141,7 +1425,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 30
+    "value": 30,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.4-pro-output",
@@ -1149,7 +1435,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 180
+    "value": 180,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.4-input",
@@ -1157,7 +1445,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.4-output",
@@ -1165,7 +1455,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.5-pro-input",
@@ -1173,7 +1465,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 30
+    "value": 30,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.5-pro-output",
@@ -1181,7 +1475,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 180
+    "value": 180,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.5-input",
@@ -1189,7 +1485,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.5-output",
@@ -1197,7 +1495,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 30
+    "value": 30,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.6-luna-input",
@@ -1205,7 +1505,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.6-luna-output",
@@ -1213,7 +1515,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.6-sol-input",
@@ -1221,7 +1525,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.6-sol-output",
@@ -1229,7 +1535,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 30
+    "value": 30,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.6-terra-input",
@@ -1237,7 +1545,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5.6-terra-output",
@@ -1245,7 +1555,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 6
+    "value": 6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5-input",
@@ -1253,7 +1565,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-5-output",
@@ -1261,7 +1575,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-oss-120b-input",
@@ -1269,7 +1585,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.037
+    "value": 0.037,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-oss-120b-output",
@@ -1277,7 +1595,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.17
+    "value": 0.17,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-oss-20b-input",
@@ -1285,7 +1605,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.03
+    "value": 0.03,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-oss-20b-output",
@@ -1293,7 +1615,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.13
+    "value": 0.13,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-oss-safeguard-20b-input",
@@ -1301,7 +1625,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.075
+    "value": 0.075,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-gpt-oss-safeguard-20b-output",
@@ -1309,7 +1635,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-grok-4.20-multi-agent-input",
@@ -1317,7 +1645,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-grok-4.20-multi-agent-output",
@@ -1325,7 +1655,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-grok-4.3-input",
@@ -1333,7 +1665,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-grok-4.3-output",
@@ -1341,7 +1675,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-grok-4.5-input",
@@ -1349,7 +1685,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-grok-4.5-output",
@@ -1357,7 +1695,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 6
+    "value": 6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-grok-build-0.1-input",
@@ -1365,7 +1705,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-grok-build-0.1-output",
@@ -1373,7 +1715,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-hy3-input",
@@ -1381,7 +1725,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.132
+    "value": 0.132,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-hy3-output",
@@ -1389,7 +1735,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.528
+    "value": 0.528,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-inkling-small-input",
@@ -1397,7 +1745,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.5
+    "value": 0.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-inkling-small-output",
@@ -1405,7 +1755,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.2
+    "value": 1.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-inkling-input",
@@ -1413,7 +1765,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-inkling-output",
@@ -1421,7 +1775,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4.05
+    "value": 4.05,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-kat-coder-air-v2.5-input",
@@ -1429,7 +1785,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.15
+    "value": 0.15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-kat-coder-air-v2.5-output",
@@ -1437,7 +1795,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-kat-coder-pro-v2.5-input",
@@ -1445,7 +1805,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.74
+    "value": 0.74,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-kat-coder-pro-v2.5-output",
@@ -1453,7 +1815,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.96
+    "value": 2.96,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-kat-coder-pro-v2-input",
@@ -1461,7 +1825,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-kat-coder-pro-v2-output",
@@ -1469,7 +1835,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.2
+    "value": 1.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-kimi-k2-thinking-input",
@@ -1477,7 +1845,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-kimi-k2-thinking-output",
@@ -1485,7 +1855,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-kimi-k2.5-input",
@@ -1493,7 +1865,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.57
+    "value": 0.57,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-kimi-k2.5-output",
@@ -1501,7 +1875,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.85
+    "value": 2.85,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-kimi-k2.6-input",
@@ -1509,7 +1885,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-kimi-k2.6-output",
@@ -1517,7 +1895,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3.41
+    "value": 3.41,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-kimi-k2.7-code-input",
@@ -1525,7 +1905,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.73
+    "value": 0.73,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-kimi-k2.7-code-output",
@@ -1533,7 +1915,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3.5
+    "value": 3.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-kimi-k2-input",
@@ -1541,7 +1925,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.57
+    "value": 0.57,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-kimi-k2-output",
@@ -1549,7 +1935,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.3
+    "value": 2.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-kimi-k3-input",
@@ -1557,7 +1945,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3
+    "value": 3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-kimi-k3-output",
@@ -1565,13 +1955,17 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-laguna-s-2.1-free-free",
     "model_id": "vercel/laguna-s-2.1-free",
     "pricing_type": "free",
-    "value": 0
+    "value": 0,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-laguna-s-2.1-input",
@@ -1579,7 +1973,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.09
+    "value": 0.09,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-laguna-s-2.1-output",
@@ -1587,13 +1983,17 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.18
+    "value": 0.18,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-ling-3.0-flash-free-free",
     "model_id": "vercel/ling-3.0-flash-free",
     "pricing_type": "free",
-    "value": 0
+    "value": 0,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-llama-4-maverick-input",
@@ -1601,7 +2001,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.2
+    "value": 0.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-llama-4-maverick-output",
@@ -1609,7 +2011,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.8
+    "value": 0.8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-llama-4-scout-input",
@@ -1617,7 +2021,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-llama-4-scout-output",
@@ -1625,7 +2031,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-mercury-2-input",
@@ -1633,7 +2041,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.25
+    "value": 0.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-mercury-2-output",
@@ -1641,7 +2051,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.75
+    "value": 0.75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-mimo-v2.5-pro-input",
@@ -1649,7 +2061,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.435
+    "value": 0.435,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-mimo-v2.5-pro-output",
@@ -1657,7 +2071,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.87
+    "value": 0.87,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-mimo-v2.5-input",
@@ -1665,7 +2081,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.14
+    "value": 0.14,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-mimo-v2.5-output",
@@ -1673,7 +2091,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.28
+    "value": 0.28,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-minimax-m2.1-input",
@@ -1681,7 +2101,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-minimax-m2.1-output",
@@ -1689,7 +2111,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.2
+    "value": 1.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-minimax-m2.5-input",
@@ -1697,7 +2121,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.15
+    "value": 0.15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-minimax-m2.5-output",
@@ -1705,7 +2131,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.9
+    "value": 0.9,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-minimax-m2.7-input",
@@ -1713,7 +2141,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.25
+    "value": 0.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-minimax-m2.7-output",
@@ -1721,7 +2151,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-minimax-m2-input",
@@ -1729,7 +2161,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.255
+    "value": 0.255,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-minimax-m2-output",
@@ -1737,7 +2171,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.02
+    "value": 1.02,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-minimax-m3-input",
@@ -1745,7 +2181,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-minimax-m3-output",
@@ -1753,7 +2191,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.2
+    "value": 1.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-mistral-nemo-input",
@@ -1761,7 +2201,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.019
+    "value": 0.019,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-mistral-nemo-output",
@@ -1769,7 +2211,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.03
+    "value": 0.03,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-morph-v3-fast-input",
@@ -1777,7 +2221,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.8
+    "value": 0.8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-morph-v3-fast-output",
@@ -1785,7 +2231,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.2
+    "value": 1.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-morph-v3-large-input",
@@ -1793,7 +2241,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.9
+    "value": 0.9,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-morph-v3-large-output",
@@ -1801,7 +2251,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.9
+    "value": 1.9,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-muse-spark-1.1-input",
@@ -1809,7 +2261,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-muse-spark-1.1-output",
@@ -1817,7 +2271,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4.25
+    "value": 4.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-nemotron-3-nano-30b-a3b-input",
@@ -1825,7 +2281,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.05
+    "value": 0.05,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-nemotron-3-nano-30b-a3b-output",
@@ -1833,7 +2291,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.2
+    "value": 0.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-nemotron-3-super-120b-a12b-input",
@@ -1841,7 +2301,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.085
+    "value": 0.085,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-nemotron-3-super-120b-a12b-output",
@@ -1849,7 +2311,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-nemotron-3-ultra-550b-a55b-input",
@@ -1857,7 +2321,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-nemotron-3-ultra-550b-a55b-output",
@@ -1865,7 +2331,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3.6
+    "value": 3.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-o1-input",
@@ -1873,7 +2341,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-o1-output",
@@ -1881,7 +2351,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 60
+    "value": 60,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-o3-mini-input",
@@ -1889,7 +2361,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.1
+    "value": 1.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-o3-mini-output",
@@ -1897,7 +2371,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4.4
+    "value": 4.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-o3-pro-input",
@@ -1905,7 +2381,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 20
+    "value": 20,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-o3-pro-output",
@@ -1913,7 +2391,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 80
+    "value": 80,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-o3-input",
@@ -1921,7 +2401,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-o3-output",
@@ -1929,7 +2411,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 8
+    "value": 8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-o4-mini-input",
@@ -1937,7 +2421,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.1
+    "value": 1.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-o4-mini-output",
@@ -1945,7 +2431,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4.4
+    "value": 4.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-qwen3-coder-next-input",
@@ -1953,7 +2441,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.12
+    "value": 0.12,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-qwen3-coder-next-output",
@@ -1961,7 +2451,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.8
+    "value": 0.8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-qwen3-coder-plus-input",
@@ -1969,7 +2461,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.65
+    "value": 0.65,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-qwen3-coder-plus-output",
@@ -1977,7 +2471,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3.25
+    "value": 3.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-qwen3-coder-input",
@@ -1985,7 +2481,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-qwen3-coder-output",
@@ -1993,7 +2491,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-qwen3-max-thinking-input",
@@ -2001,7 +2501,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.78
+    "value": 0.78,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-qwen3-max-thinking-output",
@@ -2009,7 +2511,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3.9
+    "value": 3.9,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-qwen3-max-input",
@@ -2017,7 +2521,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.78
+    "value": 0.78,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-qwen3-max-output",
@@ -2025,7 +2531,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3.9
+    "value": 3.9,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-qwen3-next-80b-a3b-instruct-input",
@@ -2033,7 +2541,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-qwen3-next-80b-a3b-instruct-output",
@@ -2041,7 +2551,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.1
+    "value": 1.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-qwen3-next-80b-a3b-thinking-input",
@@ -2049,7 +2561,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.15
+    "value": 0.15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-qwen3-next-80b-a3b-thinking-output",
@@ -2057,7 +2571,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.2
+    "value": 1.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-qwen3-vl-235b-a22b-instruct-input",
@@ -2065,7 +2581,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.21
+    "value": 0.21,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-qwen3-vl-235b-a22b-instruct-output",
@@ -2073,7 +2591,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.9
+    "value": 1.9,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-qwen3.6-27b-input",
@@ -2081,7 +2601,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-qwen3.6-27b-output",
@@ -2089,7 +2611,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-qwen3.6-plus-input",
@@ -2097,7 +2621,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.325
+    "value": 0.325,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-qwen3.6-plus-output",
@@ -2105,7 +2631,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.95
+    "value": 1.95,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-qwen3.7-flash-input",
@@ -2113,7 +2641,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.03
+    "value": 0.03,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-qwen3.7-flash-output",
@@ -2121,7 +2651,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.13
+    "value": 0.13,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-qwen3.7-max-input",
@@ -2129,7 +2661,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.475
+    "value": 1.475,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-qwen3.7-max-output",
@@ -2137,7 +2671,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4.425
+    "value": 4.425,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-qwen3.7-plus-input",
@@ -2145,7 +2681,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.32
+    "value": 0.32,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-qwen3.7-plus-output",
@@ -2153,7 +2691,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.28
+    "value": 1.28,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-seed-1.6-input",
@@ -2161,7 +2701,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.25
+    "value": 0.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-seed-1.6-output",
@@ -2169,7 +2711,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-sonar-pro-input",
@@ -2177,7 +2721,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3
+    "value": 3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-sonar-pro-output",
@@ -2185,7 +2731,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-sonar-reasoning-pro-input",
@@ -2193,7 +2741,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-sonar-reasoning-pro-output",
@@ -2201,7 +2751,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 8
+    "value": 8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-sonar-input",
@@ -2209,7 +2761,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-sonar-output",
@@ -2217,7 +2771,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-step-3.5-flash-input",
@@ -2225,7 +2781,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-step-3.5-flash-output",
@@ -2233,7 +2791,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-step-3.7-flash-input",
@@ -2241,7 +2801,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.2
+    "value": 0.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-step-3.7-flash-output",
@@ -2249,7 +2811,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.15
+    "value": 1.15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-trinity-large-thinking-input",
@@ -2257,7 +2821,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.22
+    "value": 0.22,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   },
   {
     "pricing_id": "vercel-trinity-large-thinking-output",
@@ -2265,6 +2831,8 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.85
+    "value": 0.85,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.830Z"
   }
 ]

@@ -5,7 +5,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.5
+    "value": 0.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.817Z"
   },
   {
     "pricing_id": "hyperbolic-deepseek-r1-0528-output",
@@ -13,7 +15,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.15
+    "value": 2.15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.817Z"
   },
   {
     "pricing_id": "hyperbolic-deepseek-r1-input",
@@ -21,7 +25,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.7
+    "value": 0.7,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.817Z"
   },
   {
     "pricing_id": "hyperbolic-deepseek-r1-output",
@@ -29,7 +35,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.817Z"
   },
   {
     "pricing_id": "hyperbolic-llama-3.3-70b-instruct-input",
@@ -37,7 +45,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.13
+    "value": 0.13,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.817Z"
   },
   {
     "pricing_id": "hyperbolic-llama-3.3-70b-instruct-output",
@@ -45,6 +55,8 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.817Z"
   }
 ]

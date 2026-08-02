@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/glm-5.1",
   "provider_id": "requesty",
-  "name": "nebius/zai-org/glm-5.1",
+  "name": "zai/glm-5.1",
   "context_window": 204800,
   "modality": [
     "text"
@@ -17,8 +17,9 @@
   "is_free": false,
   "tier": "balanced",
   "limits": {
-    "max_input_tokens": 200000
+    "max_input_tokens": 204800
   },
   "capability_ids": [],
-  "status": "active"
+  "status": "active",
+  "updated_at": "2026-08-02T06:06:09.136Z"
 }

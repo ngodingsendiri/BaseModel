@@ -5,7 +5,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.037
+    "value": 0.037,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.815Z"
   },
   {
     "pricing_id": "groq-gpt-oss-120b-output",
@@ -13,7 +15,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.17
+    "value": 0.17,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.815Z"
   },
   {
     "pricing_id": "groq-gpt-oss-20b-input",
@@ -21,7 +25,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.03
+    "value": 0.03,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.815Z"
   },
   {
     "pricing_id": "groq-gpt-oss-20b-output",
@@ -29,7 +35,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.13
+    "value": 0.13,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.815Z"
   },
   {
     "pricing_id": "groq-gpt-oss-safeguard-20b-input",
@@ -37,7 +45,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.075
+    "value": 0.075,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.815Z"
   },
   {
     "pricing_id": "groq-gpt-oss-safeguard-20b-output",
@@ -45,7 +55,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.815Z"
   },
   {
     "pricing_id": "groq-qwen3.6-27b-input",
@@ -53,7 +65,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.815Z"
   },
   {
     "pricing_id": "groq-qwen3.6-27b-output",
@@ -61,6 +75,8 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.815Z"
   }
 ]

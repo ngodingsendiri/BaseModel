@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/kimi-k2.6",
   "provider_id": "requesty",
-  "name": "nebius/moonshotai/kimi-k2.6",
+  "name": "moonshot/kimi-k2.6",
   "context_window": 262144,
   "modality": [
     "text"
@@ -17,8 +17,9 @@
   "is_free": false,
   "tier": "balanced",
   "limits": {
-    "max_input_tokens": 256000
+    "max_input_tokens": 262144
   },
   "capability_ids": [],
-  "status": "active"
+  "status": "active",
+  "updated_at": "2026-08-02T06:06:09.342Z"
 }

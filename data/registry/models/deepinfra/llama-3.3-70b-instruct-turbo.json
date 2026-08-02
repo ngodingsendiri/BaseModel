@@ -2,6 +2,7 @@
   "model_id": "deepinfra/llama-3.3-70b-instruct-turbo",
   "provider_id": "deepinfra",
   "name": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "context_window": 131072,
   "modality": [
     "text"
   ],
@@ -13,12 +14,12 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "capability_ids": [],
-  "status": "active",
   "is_free": false,
   "tier": "budget",
   "limits": {
     "max_input_tokens": 131072
   },
-  "context_window": 131072
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-02T06:05:08.029Z"
 }

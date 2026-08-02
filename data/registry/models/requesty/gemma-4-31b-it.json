@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gemma-4-31b-it",
   "provider_id": "requesty",
-  "name": "deepinfra/google/gemma-4-31B-it",
+  "name": "google/gemma-4-31b-it",
   "context_window": 262144,
   "modality": [
     "text"
@@ -14,11 +14,12 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "is_free": true,
-  "tier": "free",
+  "is_free": false,
+  "tier": "budget",
   "limits": {
     "max_input_tokens": 262144
   },
   "capability_ids": [],
-  "status": "active"
+  "status": "active",
+  "updated_at": "2026-08-02T06:06:09.125Z"
 }

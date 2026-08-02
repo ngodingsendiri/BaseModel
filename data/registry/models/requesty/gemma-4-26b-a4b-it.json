@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gemma-4-26b-a4b-it",
   "provider_id": "requesty",
-  "name": "deepinfra/google/gemma-4-26B-A4B-it",
+  "name": "novita/google/gemma-4-26b-a4b-it",
   "context_window": 262144,
   "modality": [
     "text"
@@ -20,5 +20,6 @@
     "max_input_tokens": 262144
   },
   "capability_ids": [],
-  "status": "active"
+  "status": "active",
+  "updated_at": "2026-08-02T06:06:09.124Z"
 }

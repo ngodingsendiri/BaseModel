@@ -1,0 +1,27 @@
+{
+  "schema_version": "0.1.0",
+  "source_revision": "ffdef5a",
+  "generated_at": "2026-08-02T06:06:11.265Z",
+  "tier_definitions": {
+    "free": "Both input and output cost $0 per 1M tokens.",
+    "budget": "Blended cost < $0.50 per 1M tokens.",
+    "balanced": "Blended cost >= $0.50 and <= $5 per 1M tokens.",
+    "premium": "Blended cost > $5 per 1M tokens."
+  },
+  "blend": {
+    "input_weight": 3,
+    "output_weight": 1,
+    "divisor": 4,
+    "formula": "blended = (input * 3 + output * 1) / 4 per 1M tokens"
+  },
+  "enrichment": {
+    "generated_at": "2026-08-02T06:06:09.833Z",
+    "fatal": false,
+    "sources": {
+      "openrouter": "ok",
+      "provider_pricing_models": 591,
+      "huggingface_models": 130
+    },
+    "errors": []
+  }
+}

@@ -5,7 +5,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.8
+    "value": 0.8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-aion-2.0-output",
@@ -13,7 +15,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.6
+    "value": 1.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-aion-3.0-mini-input",
@@ -21,7 +25,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.7
+    "value": 0.7,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-aion-3.0-mini-output",
@@ -29,7 +35,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.4
+    "value": 1.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-aion-3.0-input",
@@ -37,7 +45,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3
+    "value": 3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-aion-3.0-output",
@@ -45,7 +55,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 6
+    "value": 6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-aion-rp-llama-3.1-8b-input",
@@ -53,7 +65,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.8
+    "value": 0.8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-aion-rp-llama-3.1-8b-output",
@@ -61,7 +75,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.6
+    "value": 1.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-3-haiku-input",
@@ -69,7 +85,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.25
+    "value": 0.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-3-haiku-output",
@@ -77,7 +95,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-fable-5-input",
@@ -85,7 +105,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-fable-5-output",
@@ -93,7 +115,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 50
+    "value": 50,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-fable-latest-input",
@@ -101,7 +125,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-fable-latest-output",
@@ -109,7 +135,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 50
+    "value": 50,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-haiku-4.5-input",
@@ -117,7 +145,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-haiku-4.5-output",
@@ -125,7 +155,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-haiku-latest-input",
@@ -133,7 +165,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-haiku-latest-output",
@@ -141,7 +175,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-opus-4.1-input",
@@ -149,7 +185,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-opus-4.1-output",
@@ -157,7 +195,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 75
+    "value": 75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-opus-4.5-input",
@@ -165,7 +205,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-opus-4.5-output",
@@ -173,7 +215,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 25
+    "value": 25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-opus-4.6-input",
@@ -181,7 +225,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-opus-4.6-output",
@@ -189,7 +235,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 25
+    "value": 25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-opus-4.7-fast-input",
@@ -197,7 +245,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 30
+    "value": 30,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-opus-4.7-fast-output",
@@ -205,7 +255,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 150
+    "value": 150,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-opus-4.7-input",
@@ -213,7 +265,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-opus-4.7-output",
@@ -221,7 +275,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 25
+    "value": 25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-opus-4.8-fast-input",
@@ -229,7 +285,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-opus-4.8-fast-output",
@@ -237,7 +295,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 50
+    "value": 50,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-opus-4.8-input",
@@ -245,7 +305,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-opus-4.8-output",
@@ -253,7 +315,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 25
+    "value": 25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-opus-4-input",
@@ -261,7 +325,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-opus-4-output",
@@ -269,7 +335,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 75
+    "value": 75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-opus-5-fast-input",
@@ -277,7 +345,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-opus-5-fast-output",
@@ -285,7 +355,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 50
+    "value": 50,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-opus-5-input",
@@ -293,7 +365,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-opus-5-output",
@@ -301,7 +375,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 25
+    "value": 25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-opus-latest-input",
@@ -309,7 +385,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-opus-latest-output",
@@ -317,7 +395,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 25
+    "value": 25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.822Z"
   },
   {
     "pricing_id": "openrouter-claude-sonnet-4.5-input",
@@ -325,7 +405,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3
+    "value": 3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-claude-sonnet-4.5-output",
@@ -333,7 +415,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-claude-sonnet-4.6-input",
@@ -341,7 +425,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3
+    "value": 3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-claude-sonnet-4.6-output",
@@ -349,7 +435,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-claude-sonnet-4-input",
@@ -357,7 +445,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3
+    "value": 3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-claude-sonnet-4-output",
@@ -365,7 +455,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-claude-sonnet-5-input",
@@ -373,7 +465,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-claude-sonnet-5-output",
@@ -381,7 +475,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-claude-sonnet-latest-input",
@@ -389,7 +485,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-claude-sonnet-latest-output",
@@ -397,7 +495,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-codestral-2508-input",
@@ -405,7 +505,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-codestral-2508-output",
@@ -413,7 +515,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.9
+    "value": 0.9,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-cogito-v2.1-671b-input",
@@ -421,7 +525,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-cogito-v2.1-671b-output",
@@ -429,7 +535,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-command-a-input",
@@ -437,7 +545,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-command-a-output",
@@ -445,7 +555,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-command-r-08-2024-input",
@@ -453,7 +565,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.15
+    "value": 0.15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-command-r-08-2024-output",
@@ -461,7 +575,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-command-r-plus-08-2024-input",
@@ -469,7 +585,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-command-r-plus-08-2024-output",
@@ -477,7 +595,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-command-r7b-12-2024-input",
@@ -485,7 +605,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.038
+    "value": 0.038,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-command-r7b-12-2024-output",
@@ -493,7 +615,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.15
+    "value": 0.15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-cydonia-24b-v4.1-input",
@@ -501,7 +625,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-cydonia-24b-v4.1-output",
@@ -509,7 +635,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.5
+    "value": 0.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-deepseek-chat-v3-0324-input",
@@ -517,7 +645,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.27
+    "value": 0.27,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-deepseek-chat-v3-0324-output",
@@ -525,7 +655,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.12
+    "value": 1.12,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-deepseek-chat-v3.1-input",
@@ -533,7 +665,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.25
+    "value": 0.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-deepseek-chat-v3.1-output",
@@ -541,7 +675,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.95
+    "value": 0.95,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-deepseek-chat-input",
@@ -549,7 +685,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.257
+    "value": 0.257,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-deepseek-chat-output",
@@ -557,7 +695,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.029
+    "value": 1.029,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-deepseek-r1-0528-input",
@@ -565,7 +705,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.5
+    "value": 0.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-deepseek-r1-0528-output",
@@ -573,7 +715,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.15
+    "value": 2.15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-deepseek-r1-distill-llama-70b-input",
@@ -581,7 +725,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.8
+    "value": 0.8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-deepseek-r1-distill-llama-70b-output",
@@ -589,7 +735,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.8
+    "value": 0.8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-deepseek-r1-input",
@@ -597,7 +745,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.7
+    "value": 0.7,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-deepseek-r1-output",
@@ -605,7 +755,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-deepseek-v3.1-terminus-input",
@@ -613,7 +765,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.27
+    "value": 0.27,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-deepseek-v3.1-terminus-output",
@@ -621,7 +775,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-deepseek-v3.2-exp-input",
@@ -629,7 +785,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.27
+    "value": 0.27,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-deepseek-v3.2-exp-output",
@@ -637,7 +795,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.41
+    "value": 0.41,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-deepseek-v3.2-input",
@@ -645,7 +805,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.269
+    "value": 0.269,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-deepseek-v3.2-output",
@@ -653,7 +815,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-deepseek-v4-flash-0731-input",
@@ -661,7 +825,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.09
+    "value": 0.09,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-deepseek-v4-flash-0731-output",
@@ -669,7 +835,29 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.18
+    "value": 0.18,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
+  },
+  {
+    "pricing_id": "openrouter-deepseek-v4-flash-latest-input",
+    "model_id": "openrouter/deepseek-v4-flash-latest",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.09,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
+  },
+  {
+    "pricing_id": "openrouter-deepseek-v4-flash-latest-output",
+    "model_id": "openrouter/deepseek-v4-flash-latest",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.18,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-deepseek-v4-flash-input",
@@ -677,7 +865,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.14
+    "value": 0.14,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-deepseek-v4-flash-output",
@@ -685,7 +875,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.28
+    "value": 0.28,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-deepseek-v4-pro-input",
@@ -693,7 +885,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.435
+    "value": 0.435,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-deepseek-v4-pro-output",
@@ -701,7 +895,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.87
+    "value": 0.87,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-dolphin-mistral-24b-venice-edition-input",
@@ -709,7 +905,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.2
+    "value": 0.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-dolphin-mistral-24b-venice-edition-output",
@@ -717,7 +915,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.9
+    "value": 0.9,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-ernie-4.5-vl-424b-a47b-input",
@@ -725,7 +925,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.42
+    "value": 0.42,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-ernie-4.5-vl-424b-a47b-output",
@@ -733,13 +935,17 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-free-free",
     "model_id": "openrouter/free",
     "pricing_type": "free",
-    "value": 0
+    "value": 0,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-fugu-ultra-input",
@@ -747,7 +953,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-fugu-ultra-output",
@@ -755,7 +963,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 30
+    "value": 30,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-2.5-flash-image-input",
@@ -763,7 +973,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-2.5-flash-image-output",
@@ -771,7 +983,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-2.5-flash-lite-input",
@@ -779,7 +993,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-2.5-flash-lite-output",
@@ -787,7 +1003,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-2.5-flash-input",
@@ -795,7 +1013,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-2.5-flash-output",
@@ -803,7 +1023,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-2.5-pro-preview-05-06-input",
@@ -811,7 +1033,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-2.5-pro-preview-05-06-output",
@@ -819,7 +1043,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-2.5-pro-preview-input",
@@ -827,7 +1053,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-2.5-pro-preview-output",
@@ -835,7 +1063,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-2.5-pro-input",
@@ -843,7 +1073,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-2.5-pro-output",
@@ -851,7 +1083,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-3-flash-preview-input",
@@ -859,7 +1093,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.5
+    "value": 0.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-3-flash-preview-output",
@@ -867,7 +1103,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3
+    "value": 3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-3-pro-image-preview-input",
@@ -875,7 +1113,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-3-pro-image-preview-output",
@@ -883,7 +1123,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 12
+    "value": 12,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-3-pro-image-input",
@@ -891,7 +1133,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-3-pro-image-output",
@@ -899,7 +1143,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 12
+    "value": 12,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-3.1-flash-image-preview-input",
@@ -907,7 +1153,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.5
+    "value": 0.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-3.1-flash-image-preview-output",
@@ -915,7 +1163,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3
+    "value": 3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-3.1-flash-image-input",
@@ -923,7 +1173,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.5
+    "value": 0.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-3.1-flash-image-output",
@@ -931,7 +1183,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3
+    "value": 3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-3.1-flash-lite-image-input",
@@ -939,7 +1193,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.25
+    "value": 0.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-3.1-flash-lite-image-output",
@@ -947,7 +1203,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.5
+    "value": 1.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-3.1-flash-lite-preview-input",
@@ -955,7 +1213,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.25
+    "value": 0.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-3.1-flash-lite-preview-output",
@@ -963,7 +1223,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.5
+    "value": 1.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-3.1-flash-lite-input",
@@ -971,7 +1233,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.25
+    "value": 0.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-3.1-flash-lite-output",
@@ -979,7 +1243,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.5
+    "value": 1.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-3.1-pro-preview-customtools-input",
@@ -987,7 +1253,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-3.1-pro-preview-customtools-output",
@@ -995,7 +1263,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 12
+    "value": 12,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-3.1-pro-preview-input",
@@ -1003,7 +1273,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-3.1-pro-preview-output",
@@ -1011,7 +1283,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 12
+    "value": 12,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-3.5-flash-lite-input",
@@ -1019,7 +1293,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-3.5-flash-lite-output",
@@ -1027,7 +1303,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-3.5-flash-input",
@@ -1035,7 +1313,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.5
+    "value": 1.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-3.5-flash-output",
@@ -1043,7 +1323,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 9
+    "value": 9,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-3.6-flash-input",
@@ -1051,7 +1333,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.5
+    "value": 1.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-3.6-flash-output",
@@ -1059,7 +1343,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 7.5
+    "value": 7.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-flash-latest-input",
@@ -1067,7 +1353,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.5
+    "value": 1.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-flash-latest-output",
@@ -1075,7 +1363,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 7.5
+    "value": 7.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-pro-latest-input",
@@ -1083,7 +1373,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemini-pro-latest-output",
@@ -1091,7 +1383,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 12
+    "value": 12,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemma-2-27b-it-input",
@@ -1099,7 +1393,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.65
+    "value": 0.65,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemma-2-27b-it-output",
@@ -1107,7 +1403,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.65
+    "value": 0.65,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemma-3-12b-it-input",
@@ -1115,7 +1413,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.05
+    "value": 0.05,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemma-3-12b-it-output",
@@ -1123,7 +1423,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.15
+    "value": 0.15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemma-3-27b-it-input",
@@ -1131,7 +1433,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.08
+    "value": 0.08,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemma-3-27b-it-output",
@@ -1139,7 +1443,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.45
+    "value": 0.45,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemma-3-4b-it-input",
@@ -1147,7 +1453,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.05
+    "value": 0.05,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemma-3-4b-it-output",
@@ -1155,7 +1463,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemma-3n-e4b-it-input",
@@ -1163,7 +1473,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.06
+    "value": 0.06,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemma-3n-e4b-it-output",
@@ -1171,13 +1483,17 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.12
+    "value": 0.12,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemma-4-26b-a4b-it-free-free",
     "model_id": "openrouter/gemma-4-26b-a4b-it-free",
     "pricing_type": "free",
-    "value": 0
+    "value": 0,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemma-4-26b-a4b-it-input",
@@ -1185,7 +1501,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.07
+    "value": 0.07,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemma-4-26b-a4b-it-output",
@@ -1193,13 +1511,17 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.34
+    "value": 0.34,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemma-4-31b-it-free-free",
     "model_id": "openrouter/gemma-4-31b-it-free",
     "pricing_type": "free",
-    "value": 0
+    "value": 0,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemma-4-31b-it-input",
@@ -1207,7 +1529,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gemma-4-31b-it-output",
@@ -1215,7 +1539,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.34
+    "value": 0.34,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-glm-4.5-air-input",
@@ -1223,7 +1549,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.13
+    "value": 0.13,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-glm-4.5-air-output",
@@ -1231,7 +1559,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.85
+    "value": 0.85,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-glm-4.5-input",
@@ -1239,7 +1569,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-glm-4.5-output",
@@ -1247,7 +1579,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.2
+    "value": 2.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-glm-4.5v-input",
@@ -1255,7 +1589,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-glm-4.5v-output",
@@ -1263,7 +1599,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.8
+    "value": 1.8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-glm-4.6-input",
@@ -1271,7 +1609,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.5
+    "value": 0.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-glm-4.6-output",
@@ -1279,7 +1619,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-glm-4.6v-input",
@@ -1287,7 +1629,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-glm-4.6v-output",
@@ -1295,7 +1639,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.9
+    "value": 0.9,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-glm-4.7-flash-input",
@@ -1303,7 +1649,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.06
+    "value": 0.06,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-glm-4.7-flash-output",
@@ -1311,7 +1659,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-glm-4.7-input",
@@ -1319,7 +1669,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-glm-4.7-output",
@@ -1327,7 +1679,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.75
+    "value": 1.75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-glm-5-turbo-input",
@@ -1335,7 +1689,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.2
+    "value": 1.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-glm-5-turbo-output",
@@ -1343,7 +1699,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4
+    "value": 4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-glm-5.1-input",
@@ -1351,7 +1709,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.966
+    "value": 0.966,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-glm-5.1-output",
@@ -1359,7 +1719,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3.036
+    "value": 3.036,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-glm-5.2-input",
@@ -1367,7 +1729,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.36
+    "value": 0.351,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-glm-5.2-output",
@@ -1375,7 +1739,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.131
+    "value": 1.104,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-glm-5-input",
@@ -1383,7 +1749,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.95
+    "value": 0.95,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-glm-5-output",
@@ -1391,7 +1759,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.55
+    "value": 2.55,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-glm-5v-turbo-input",
@@ -1399,7 +1769,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.2
+    "value": 1.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-glm-5v-turbo-output",
@@ -1407,7 +1779,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4
+    "value": 4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-3.5-turbo-0613-input",
@@ -1415,7 +1789,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-3.5-turbo-0613-output",
@@ -1423,7 +1799,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-3.5-turbo-16k-input",
@@ -1431,7 +1809,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3
+    "value": 3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-3.5-turbo-16k-output",
@@ -1439,7 +1819,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4
+    "value": 4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-3.5-turbo-instruct-input",
@@ -1447,7 +1829,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.5
+    "value": 1.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-3.5-turbo-instruct-output",
@@ -1455,7 +1839,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-3.5-turbo-input",
@@ -1463,7 +1849,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.5
+    "value": 0.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-3.5-turbo-output",
@@ -1471,7 +1859,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.5
+    "value": 1.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-4-turbo-preview-input",
@@ -1479,7 +1869,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-4-turbo-preview-output",
@@ -1487,7 +1879,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 30
+    "value": 30,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-4-turbo-input",
@@ -1495,7 +1889,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-4-turbo-output",
@@ -1503,7 +1899,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 30
+    "value": 30,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-4.1-mini-input",
@@ -1511,7 +1909,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-4.1-mini-output",
@@ -1519,7 +1919,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.6
+    "value": 1.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-4.1-nano-input",
@@ -1527,7 +1929,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-4.1-nano-output",
@@ -1535,7 +1939,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-4.1-input",
@@ -1543,7 +1949,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-4.1-output",
@@ -1551,7 +1959,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 8
+    "value": 8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-4-input",
@@ -1559,7 +1969,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 30
+    "value": 30,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-4-output",
@@ -1567,7 +1979,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 60
+    "value": 60,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-4o-2024-05-13-input",
@@ -1575,7 +1989,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-4o-2024-05-13-output",
@@ -1583,7 +1999,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-4o-2024-08-06-input",
@@ -1591,7 +2009,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-4o-2024-08-06-output",
@@ -1599,7 +2019,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-4o-2024-11-20-input",
@@ -1607,7 +2029,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-4o-2024-11-20-output",
@@ -1615,7 +2039,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-4o-mini-2024-07-18-input",
@@ -1623,7 +2049,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.15
+    "value": 0.15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-4o-mini-2024-07-18-output",
@@ -1631,7 +2059,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-4o-mini-input",
@@ -1639,7 +2069,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.15
+    "value": 0.15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-4o-mini-output",
@@ -1647,7 +2079,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-4o-input",
@@ -1655,7 +2089,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-4o-output",
@@ -1663,7 +2099,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5-image-mini-input",
@@ -1671,7 +2109,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5-image-mini-output",
@@ -1679,7 +2119,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5-image-input",
@@ -1687,7 +2129,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5-image-output",
@@ -1695,7 +2139,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5-mini-input",
@@ -1703,7 +2149,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.25
+    "value": 0.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5-mini-output",
@@ -1711,7 +2159,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5-nano-input",
@@ -1719,7 +2169,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.05
+    "value": 0.05,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5-nano-output",
@@ -1727,7 +2179,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5-pro-input",
@@ -1735,7 +2189,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5-pro-output",
@@ -1743,7 +2199,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 120
+    "value": 120,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.1-codex-max-input",
@@ -1751,7 +2209,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.1-codex-max-output",
@@ -1759,7 +2219,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.1-codex-mini-input",
@@ -1767,7 +2229,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.25
+    "value": 0.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.1-codex-mini-output",
@@ -1775,7 +2239,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.1-codex-input",
@@ -1783,7 +2249,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.1-codex-output",
@@ -1791,7 +2259,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.1-input",
@@ -1799,7 +2269,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.1-output",
@@ -1807,7 +2279,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.2-chat-input",
@@ -1815,7 +2289,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.75
+    "value": 1.75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.2-chat-output",
@@ -1823,7 +2299,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 14
+    "value": 14,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.2-codex-input",
@@ -1831,7 +2309,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.75
+    "value": 1.75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.2-codex-output",
@@ -1839,7 +2319,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 14
+    "value": 14,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.2-pro-input",
@@ -1847,7 +2329,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 21
+    "value": 21,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.2-pro-output",
@@ -1855,7 +2339,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 168
+    "value": 168,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.2-input",
@@ -1863,7 +2349,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.75
+    "value": 1.75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.2-output",
@@ -1871,7 +2359,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 14
+    "value": 14,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.3-chat-input",
@@ -1879,7 +2369,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.75
+    "value": 1.75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.3-chat-output",
@@ -1887,7 +2379,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 14
+    "value": 14,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.3-codex-input",
@@ -1895,7 +2389,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.75
+    "value": 1.75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.3-codex-output",
@@ -1903,7 +2399,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 14
+    "value": 14,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.4-image-2-input",
@@ -1911,7 +2409,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 8
+    "value": 8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.4-image-2-output",
@@ -1919,7 +2419,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.4-mini-input",
@@ -1927,7 +2429,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.75
+    "value": 0.75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.4-mini-output",
@@ -1935,7 +2439,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4.5
+    "value": 4.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.4-nano-input",
@@ -1943,7 +2449,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.2
+    "value": 0.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.4-nano-output",
@@ -1951,7 +2459,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.4-pro-input",
@@ -1959,7 +2469,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 30
+    "value": 30,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.4-pro-output",
@@ -1967,7 +2479,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 180
+    "value": 180,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.4-input",
@@ -1975,7 +2489,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.4-output",
@@ -1983,7 +2499,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.5-pro-input",
@@ -1991,7 +2509,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 30
+    "value": 30,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.5-pro-output",
@@ -1999,7 +2519,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 180
+    "value": 180,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.5-input",
@@ -2007,7 +2529,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.5-output",
@@ -2015,7 +2539,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 30
+    "value": 30,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.6-luna-pro-input",
@@ -2023,7 +2549,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.6-luna-pro-output",
@@ -2031,7 +2559,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.6-luna-input",
@@ -2039,7 +2569,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.6-luna-output",
@@ -2047,7 +2579,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.6-sol-pro-input",
@@ -2055,7 +2589,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.6-sol-pro-output",
@@ -2063,7 +2599,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 30
+    "value": 30,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.6-sol-input",
@@ -2071,7 +2609,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.6-sol-output",
@@ -2079,7 +2619,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 30
+    "value": 30,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.6-terra-pro-input",
@@ -2087,7 +2629,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.6-terra-pro-output",
@@ -2095,7 +2639,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 6
+    "value": 6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.6-terra-input",
@@ -2103,7 +2649,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5.6-terra-output",
@@ -2111,7 +2659,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 6
+    "value": 6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5-input",
@@ -2119,7 +2669,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-5-output",
@@ -2127,7 +2679,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-audio-mini-input",
@@ -2135,7 +2689,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-audio-mini-output",
@@ -2143,7 +2699,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.4
+    "value": 2.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-audio-input",
@@ -2151,7 +2709,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-audio-output",
@@ -2159,7 +2719,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 10
+    "value": 10,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-chat-latest-input",
@@ -2167,7 +2729,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-chat-latest-output",
@@ -2175,7 +2739,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 30
+    "value": 30,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-latest-input",
@@ -2183,7 +2749,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-latest-output",
@@ -2191,7 +2759,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 30
+    "value": 30,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-mini-latest-input",
@@ -2199,7 +2769,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.75
+    "value": 0.75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-mini-latest-output",
@@ -2207,7 +2779,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4.5
+    "value": 4.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-oss-120b-input",
@@ -2215,7 +2789,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.037
+    "value": 0.037,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-oss-120b-output",
@@ -2223,13 +2799,17 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.17
+    "value": 0.17,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-oss-20b-free-free",
     "model_id": "openrouter/gpt-oss-20b-free",
     "pricing_type": "free",
-    "value": 0
+    "value": 0,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-oss-20b-input",
@@ -2237,7 +2817,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.03
+    "value": 0.03,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-oss-20b-output",
@@ -2245,7 +2827,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.13
+    "value": 0.13,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-oss-safeguard-20b-input",
@@ -2253,7 +2837,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.075
+    "value": 0.075,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-gpt-oss-safeguard-20b-output",
@@ -2261,7 +2847,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-granite-4.0-h-micro-input",
@@ -2269,7 +2857,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.017
+    "value": 0.017,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-granite-4.0-h-micro-output",
@@ -2277,7 +2867,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.112
+    "value": 0.112,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-granite-4.1-8b-input",
@@ -2285,7 +2877,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.05
+    "value": 0.05,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-granite-4.1-8b-output",
@@ -2293,7 +2887,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-grok-4.20-multi-agent-input",
@@ -2301,7 +2897,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-grok-4.20-multi-agent-output",
@@ -2309,7 +2907,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-grok-4.20-input",
@@ -2317,7 +2917,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-grok-4.20-output",
@@ -2325,7 +2927,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-grok-4.3-input",
@@ -2333,7 +2937,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-grok-4.3-output",
@@ -2341,7 +2947,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-grok-4.5-input",
@@ -2349,7 +2957,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-grok-4.5-output",
@@ -2357,7 +2967,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 6
+    "value": 6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-grok-build-0.1-input",
@@ -2365,7 +2977,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-grok-build-0.1-output",
@@ -2373,7 +2987,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-grok-latest-input",
@@ -2381,7 +2997,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-grok-latest-output",
@@ -2389,7 +3007,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 6
+    "value": 6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-hermes-3-llama-3.1-405b-input",
@@ -2397,7 +3017,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-hermes-3-llama-3.1-405b-output",
@@ -2405,7 +3027,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-hermes-3-llama-3.1-70b-input",
@@ -2413,7 +3037,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.7
+    "value": 0.7,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-hermes-3-llama-3.1-70b-output",
@@ -2421,7 +3047,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.7
+    "value": 0.7,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-hermes-4-405b-input",
@@ -2429,7 +3057,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-hermes-4-405b-output",
@@ -2437,7 +3067,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3
+    "value": 3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-hermes-4-70b-input",
@@ -2445,7 +3077,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.13
+    "value": 0.13,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-hermes-4-70b-output",
@@ -2453,7 +3087,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-hunyuan-a13b-instruct-input",
@@ -2461,7 +3097,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.14
+    "value": 0.14,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-hunyuan-a13b-instruct-output",
@@ -2469,7 +3107,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.57
+    "value": 0.57,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-hy3-preview-input",
@@ -2477,7 +3117,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.063
+    "value": 0.063,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-hy3-preview-output",
@@ -2485,7 +3127,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.21
+    "value": 0.21,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-hy3-input",
@@ -2493,7 +3137,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.132
+    "value": 0.132,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-hy3-output",
@@ -2501,7 +3147,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.528
+    "value": 0.528,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-inkling-small-input",
@@ -2509,7 +3157,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.5
+    "value": 0.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-inkling-small-output",
@@ -2517,7 +3167,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.2
+    "value": 1.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-inkling-input",
@@ -2525,7 +3177,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-inkling-output",
@@ -2533,7 +3187,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4.05
+    "value": 4.05,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-jamba-large-1.7-input",
@@ -2541,7 +3197,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-jamba-large-1.7-output",
@@ -2549,7 +3207,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 8
+    "value": 8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-kat-coder-air-v2.5-input",
@@ -2557,7 +3217,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.15
+    "value": 0.15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-kat-coder-air-v2.5-output",
@@ -2565,7 +3227,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-kat-coder-pro-v2.5-input",
@@ -2573,7 +3237,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.74
+    "value": 0.74,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-kat-coder-pro-v2.5-output",
@@ -2581,7 +3247,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.96
+    "value": 2.96,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-kat-coder-pro-v2-input",
@@ -2589,7 +3257,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-kat-coder-pro-v2-output",
@@ -2597,7 +3267,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.2
+    "value": 1.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-kimi-k2-0905-input",
@@ -2605,7 +3277,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-kimi-k2-0905-output",
@@ -2613,7 +3287,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-kimi-k2-thinking-input",
@@ -2621,7 +3297,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-kimi-k2-thinking-output",
@@ -2629,7 +3307,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-kimi-k2.5-input",
@@ -2637,7 +3317,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.57
+    "value": 0.57,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-kimi-k2.5-output",
@@ -2645,7 +3327,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.85
+    "value": 2.85,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-kimi-k2.6-input",
@@ -2653,7 +3337,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-kimi-k2.6-output",
@@ -2661,7 +3347,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3.41
+    "value": 3.41,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-kimi-k2.7-code-input",
@@ -2669,7 +3357,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.73
+    "value": 0.73,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-kimi-k2.7-code-output",
@@ -2677,7 +3367,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3.5
+    "value": 3.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-kimi-k2-input",
@@ -2685,7 +3377,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.57
+    "value": 0.57,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-kimi-k2-output",
@@ -2693,7 +3387,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.3
+    "value": 2.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-kimi-k3-input",
@@ -2701,7 +3397,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3
+    "value": 3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-kimi-k3-output",
@@ -2709,7 +3407,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-kimi-latest-input",
@@ -2717,7 +3417,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.9
+    "value": 2.9,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-kimi-latest-output",
@@ -2725,7 +3427,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 14
+    "value": 14,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-l3-lunaris-8b-input",
@@ -2733,7 +3437,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.04
+    "value": 0.04,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-l3-lunaris-8b-output",
@@ -2741,7 +3447,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.05
+    "value": 0.05,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-l3.1-euryale-70b-input",
@@ -2749,7 +3457,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.85
+    "value": 0.85,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-l3.1-euryale-70b-output",
@@ -2757,7 +3467,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.85
+    "value": 0.85,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-l3.3-euryale-70b-input",
@@ -2765,7 +3477,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.65
+    "value": 0.65,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-l3.3-euryale-70b-output",
@@ -2773,13 +3487,17 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.75
+    "value": 0.75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-laguna-s-2.1-free-free",
     "model_id": "openrouter/laguna-s-2.1-free",
     "pricing_type": "free",
-    "value": 0
+    "value": 0,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-laguna-s-2.1-input",
@@ -2787,7 +3505,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.09
+    "value": 0.09,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-laguna-s-2.1-output",
@@ -2795,13 +3515,17 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.18
+    "value": 0.18,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-laguna-xs-2.1-free-free",
     "model_id": "openrouter/laguna-xs-2.1-free",
     "pricing_type": "free",
-    "value": 0
+    "value": 0,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-laguna-xs-2.1-input",
@@ -2809,7 +3533,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.06
+    "value": 0.06,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-laguna-xs-2.1-output",
@@ -2817,7 +3543,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.12
+    "value": 0.12,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-ling-2.6-1t-input",
@@ -2825,7 +3553,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.075
+    "value": 0.075,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-ling-2.6-1t-output",
@@ -2833,7 +3563,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.625
+    "value": 0.625,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-ling-2.6-flash-input",
@@ -2841,7 +3573,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.01
+    "value": 0.01,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-ling-2.6-flash-output",
@@ -2849,13 +3583,17 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.03
+    "value": 0.03,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-ling-3.0-flash-free-free",
     "model_id": "openrouter/ling-3.0-flash-free",
     "pricing_type": "free",
-    "value": 0
+    "value": 0,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-llama-3.1-70b-instruct-input",
@@ -2863,7 +3601,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-llama-3.1-70b-instruct-output",
@@ -2871,7 +3611,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-llama-3.1-8b-instruct-input",
@@ -2879,7 +3621,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.05
+    "value": 0.05,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-llama-3.1-8b-instruct-output",
@@ -2887,7 +3631,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.08
+    "value": 0.08,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-llama-3.2-1b-instruct-input",
@@ -2895,7 +3641,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.027
+    "value": 0.027,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-llama-3.2-1b-instruct-output",
@@ -2903,7 +3651,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.201
+    "value": 0.201,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-llama-3.2-3b-instruct-input",
@@ -2911,7 +3661,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.05
+    "value": 0.05,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-llama-3.2-3b-instruct-output",
@@ -2919,7 +3671,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.33
+    "value": 0.33,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-llama-3.3-70b-instruct-input",
@@ -2927,7 +3681,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.13
+    "value": 0.13,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-llama-3.3-70b-instruct-output",
@@ -2935,7 +3691,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-llama-4-maverick-input",
@@ -2943,7 +3701,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.2
+    "value": 0.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-llama-4-maverick-output",
@@ -2951,7 +3711,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.8
+    "value": 0.8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-llama-4-scout-input",
@@ -2959,7 +3721,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-llama-4-scout-output",
@@ -2967,7 +3731,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-llama-guard-4-12b-input",
@@ -2975,7 +3741,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.18
+    "value": 0.18,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-llama-guard-4-12b-output",
@@ -2983,7 +3751,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.18
+    "value": 0.18,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-longcat-2.0-input",
@@ -2991,7 +3761,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-longcat-2.0-output",
@@ -2999,19 +3771,25 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.2
+    "value": 1.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-lyria-3-clip-preview-free",
     "model_id": "openrouter/lyria-3-clip-preview",
     "pricing_type": "free",
-    "value": 0
+    "value": 0,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-lyria-3-pro-preview-free",
     "model_id": "openrouter/lyria-3-pro-preview",
     "pricing_type": "free",
-    "value": 0
+    "value": 0,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-magnum-v4-72b-input",
@@ -3019,7 +3797,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3
+    "value": 3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-magnum-v4-72b-output",
@@ -3027,7 +3807,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 5
+    "value": 5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mercury-2-input",
@@ -3035,7 +3817,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.25
+    "value": 0.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mercury-2-output",
@@ -3043,7 +3827,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.75
+    "value": 0.75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mimo-v2.5-pro-input",
@@ -3051,7 +3837,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.435
+    "value": 0.435,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mimo-v2.5-pro-output",
@@ -3059,7 +3847,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.87
+    "value": 0.87,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mimo-v2.5-input",
@@ -3067,7 +3857,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.14
+    "value": 0.14,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mimo-v2.5-output",
@@ -3075,7 +3867,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.28
+    "value": 0.28,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-minimax-01-input",
@@ -3083,7 +3877,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.2
+    "value": 0.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-minimax-01-output",
@@ -3091,7 +3887,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.1
+    "value": 1.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-minimax-m1-input",
@@ -3099,7 +3897,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.55
+    "value": 0.55,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-minimax-m1-output",
@@ -3107,7 +3907,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.2
+    "value": 2.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-minimax-m2-her-input",
@@ -3115,7 +3917,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-minimax-m2-her-output",
@@ -3123,7 +3927,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.2
+    "value": 1.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-minimax-m2.1-input",
@@ -3131,7 +3937,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-minimax-m2.1-output",
@@ -3139,7 +3947,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.2
+    "value": 1.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-minimax-m2.5-input",
@@ -3147,7 +3957,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.15
+    "value": 0.15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-minimax-m2.5-output",
@@ -3155,7 +3967,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.9
+    "value": 0.9,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-minimax-m2.7-input",
@@ -3163,7 +3977,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.25
+    "value": 0.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-minimax-m2.7-output",
@@ -3171,7 +3987,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-minimax-m2-input",
@@ -3179,7 +3997,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.255
+    "value": 0.255,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-minimax-m2-output",
@@ -3187,7 +4007,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.02
+    "value": 1.02,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-minimax-m3-input",
@@ -3195,7 +4017,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-minimax-m3-output",
@@ -3203,7 +4027,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.2
+    "value": 1.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-ministral-14b-2512-input",
@@ -3211,7 +4037,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.2
+    "value": 0.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-ministral-14b-2512-output",
@@ -3219,7 +4047,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.2
+    "value": 0.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-ministral-3b-2512-input",
@@ -3227,7 +4057,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-ministral-3b-2512-output",
@@ -3235,7 +4067,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-ministral-8b-2512-input",
@@ -3243,7 +4077,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.15
+    "value": 0.15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-ministral-8b-2512-output",
@@ -3251,7 +4087,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.15
+    "value": 0.15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mistral-large-2407-input",
@@ -3259,7 +4097,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mistral-large-2407-output",
@@ -3267,7 +4107,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 6
+    "value": 6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mistral-large-2512-input",
@@ -3275,7 +4117,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.5
+    "value": 0.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mistral-large-2512-output",
@@ -3283,7 +4127,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.5
+    "value": 1.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mistral-large-input",
@@ -3291,7 +4137,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mistral-large-output",
@@ -3299,7 +4147,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 6
+    "value": 6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mistral-medium-3-5-input",
@@ -3307,7 +4157,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.5
+    "value": 1.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mistral-medium-3-5-output",
@@ -3315,7 +4167,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 7.5
+    "value": 7.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mistral-medium-3.1-input",
@@ -3323,7 +4177,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mistral-medium-3.1-output",
@@ -3331,7 +4187,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mistral-medium-3-input",
@@ -3339,7 +4197,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mistral-medium-3-output",
@@ -3347,7 +4207,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mistral-nemo-input",
@@ -3355,7 +4217,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.019
+    "value": 0.019,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mistral-nemo-output",
@@ -3363,7 +4227,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.03
+    "value": 0.03,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mistral-saba-input",
@@ -3371,7 +4237,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.2
+    "value": 0.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mistral-saba-output",
@@ -3379,7 +4247,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mistral-small-24b-instruct-2501-input",
@@ -3387,7 +4257,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.05
+    "value": 0.05,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mistral-small-24b-instruct-2501-output",
@@ -3395,7 +4267,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.08
+    "value": 0.08,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mistral-small-2603-input",
@@ -3403,7 +4277,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.15
+    "value": 0.15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mistral-small-2603-output",
@@ -3411,7 +4287,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mistral-small-3.1-24b-instruct-input",
@@ -3419,7 +4297,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.351
+    "value": 0.351,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mistral-small-3.1-24b-instruct-output",
@@ -3427,7 +4307,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.555
+    "value": 0.555,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mistral-small-3.2-24b-instruct-input",
@@ -3435,7 +4317,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.075
+    "value": 0.075,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mistral-small-3.2-24b-instruct-output",
@@ -3443,7 +4327,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.2
+    "value": 0.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mixtral-8x22b-instruct-input",
@@ -3451,7 +4337,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mixtral-8x22b-instruct-output",
@@ -3459,7 +4347,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 6
+    "value": 6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-morph-v3-fast-input",
@@ -3467,7 +4357,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.8
+    "value": 0.8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-morph-v3-fast-output",
@@ -3475,7 +4367,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.2
+    "value": 1.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-morph-v3-large-input",
@@ -3483,7 +4377,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.9
+    "value": 0.9,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-morph-v3-large-output",
@@ -3491,7 +4387,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.9
+    "value": 1.9,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-muse-spark-1.1-input",
@@ -3499,7 +4397,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-muse-spark-1.1-output",
@@ -3507,7 +4407,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4.25
+    "value": 4.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mythomax-l2-13b-input",
@@ -3515,7 +4417,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.06
+    "value": 0.06,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-mythomax-l2-13b-output",
@@ -3523,13 +4427,17 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.06
+    "value": 0.06,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nemotron-3-nano-30b-a3b-free-free",
     "model_id": "openrouter/nemotron-3-nano-30b-a3b-free",
     "pricing_type": "free",
-    "value": 0
+    "value": 0,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nemotron-3-nano-30b-a3b-input",
@@ -3537,7 +4445,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.05
+    "value": 0.05,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nemotron-3-nano-30b-a3b-output",
@@ -3545,19 +4455,25 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.2
+    "value": 0.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nemotron-3-nano-omni-30b-a3b-reasoning-free-free",
     "model_id": "openrouter/nemotron-3-nano-omni-30b-a3b-reasoning-free",
     "pricing_type": "free",
-    "value": 0
+    "value": 0,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nemotron-3-super-120b-a12b-free-free",
     "model_id": "openrouter/nemotron-3-super-120b-a12b-free",
     "pricing_type": "free",
-    "value": 0
+    "value": 0,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nemotron-3-super-120b-a12b-input",
@@ -3565,7 +4481,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.085
+    "value": 0.085,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nemotron-3-super-120b-a12b-output",
@@ -3573,13 +4491,17 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nemotron-3-ultra-550b-a55b-free-free",
     "model_id": "openrouter/nemotron-3-ultra-550b-a55b-free",
     "pricing_type": "free",
-    "value": 0
+    "value": 0,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nemotron-3-ultra-550b-a55b-input",
@@ -3587,7 +4509,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nemotron-3-ultra-550b-a55b-output",
@@ -3595,25 +4519,33 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3.6
+    "value": 3.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nemotron-3.5-content-safety-free-free",
     "model_id": "openrouter/nemotron-3.5-content-safety-free",
     "pricing_type": "free",
-    "value": 0
+    "value": 0,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nemotron-nano-12b-v2-vl-free-free",
     "model_id": "openrouter/nemotron-nano-12b-v2-vl-free",
     "pricing_type": "free",
-    "value": 0
+    "value": 0,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nemotron-nano-9b-v2-free-free",
     "model_id": "openrouter/nemotron-nano-9b-v2-free",
     "pricing_type": "free",
-    "value": 0
+    "value": 0,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nex-n2-mini-input",
@@ -3621,7 +4553,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.025
+    "value": 0.025,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nex-n2-mini-output",
@@ -3629,7 +4563,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nex-n2-pro-input",
@@ -3637,7 +4573,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.25
+    "value": 0.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nex-n2-pro-output",
@@ -3645,13 +4583,17 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-north-mini-code-free-free",
     "model_id": "openrouter/north-mini-code-free",
     "pricing_type": "free",
-    "value": 0
+    "value": 0,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nova-2-lite-v1-input",
@@ -3659,7 +4601,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nova-2-lite-v1-output",
@@ -3667,7 +4611,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nova-lite-v1-input",
@@ -3675,7 +4621,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.06
+    "value": 0.06,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nova-lite-v1-output",
@@ -3683,7 +4631,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.24
+    "value": 0.24,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nova-micro-v1-input",
@@ -3691,7 +4641,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.035
+    "value": 0.035,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nova-micro-v1-output",
@@ -3699,7 +4651,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.14
+    "value": 0.14,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nova-premier-v1-input",
@@ -3707,7 +4661,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.5
+    "value": 2.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nova-premier-v1-output",
@@ -3715,7 +4671,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 12.5
+    "value": 12.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nova-pro-v1-input",
@@ -3723,7 +4681,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.8
+    "value": 0.8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-nova-pro-v1-output",
@@ -3731,7 +4691,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3.2
+    "value": 3.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-o1-pro-input",
@@ -3739,7 +4701,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 150
+    "value": 150,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-o1-pro-output",
@@ -3747,7 +4711,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 600
+    "value": 600,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-o1-input",
@@ -3755,7 +4721,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-o1-output",
@@ -3763,7 +4731,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 60
+    "value": 60,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-o3-mini-high-input",
@@ -3771,7 +4741,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.1
+    "value": 1.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-o3-mini-high-output",
@@ -3779,7 +4751,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4.4
+    "value": 4.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-o3-mini-input",
@@ -3787,7 +4761,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.1
+    "value": 1.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-o3-mini-output",
@@ -3795,7 +4771,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4.4
+    "value": 4.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-o3-pro-input",
@@ -3803,7 +4781,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 20
+    "value": 20,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-o3-pro-output",
@@ -3811,7 +4791,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 80
+    "value": 80,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-o3-input",
@@ -3819,7 +4801,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-o3-output",
@@ -3827,7 +4811,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 8
+    "value": 8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-o4-mini-high-input",
@@ -3835,7 +4821,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.1
+    "value": 1.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-o4-mini-high-output",
@@ -3843,7 +4831,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4.4
+    "value": 4.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-o4-mini-input",
@@ -3851,7 +4841,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.1
+    "value": 1.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-o4-mini-output",
@@ -3859,7 +4851,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4.4
+    "value": 4.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-olmo-3-32b-think-input",
@@ -3867,7 +4861,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.15
+    "value": 0.15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-olmo-3-32b-think-output",
@@ -3875,7 +4871,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.5
+    "value": 0.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-palmyra-x5-input",
@@ -3883,7 +4881,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-palmyra-x5-output",
@@ -3891,7 +4891,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 6
+    "value": 6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-perceptron-mk1-input",
@@ -3899,7 +4901,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.15
+    "value": 0.15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-perceptron-mk1-output",
@@ -3907,7 +4911,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.5
+    "value": 1.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-phi-4-input",
@@ -3915,7 +4921,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.07
+    "value": 0.07,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-phi-4-output",
@@ -3923,7 +4931,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.14
+    "value": 0.14,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen-2.5-72b-instruct-input",
@@ -3931,7 +4941,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.36
+    "value": 0.36,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen-2.5-72b-instruct-output",
@@ -3939,7 +4951,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen-2.5-7b-instruct-input",
@@ -3947,7 +4961,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen-2.5-7b-instruct-output",
@@ -3955,7 +4971,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.2
+    "value": 0.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen-2.5-coder-32b-instruct-input",
@@ -3963,7 +4981,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.66
+    "value": 0.66,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen-2.5-coder-32b-instruct-output",
@@ -3971,7 +4991,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen-plus-2025-07-28-thinking-input",
@@ -3979,7 +5001,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen-plus-2025-07-28-thinking-output",
@@ -3987,7 +5011,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.2
+    "value": 1.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen-plus-2025-07-28-input",
@@ -3995,7 +5021,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.26
+    "value": 0.26,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen-plus-2025-07-28-output",
@@ -4003,7 +5031,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.78
+    "value": 0.78,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen-plus-input",
@@ -4011,7 +5041,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.26
+    "value": 0.26,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen-plus-output",
@@ -4019,7 +5051,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.78
+    "value": 0.78,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen2.5-vl-72b-instruct-input",
@@ -4027,7 +5061,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.8
+    "value": 0.8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen2.5-vl-72b-instruct-output",
@@ -4035,7 +5071,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-14b-input",
@@ -4043,7 +5081,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.227
+    "value": 0.227,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-14b-output",
@@ -4051,7 +5091,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.91
+    "value": 0.91,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-235b-a22b-2507-input",
@@ -4059,7 +5101,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.09
+    "value": 0.09,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-235b-a22b-2507-output",
@@ -4067,7 +5111,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.55
+    "value": 0.55,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-235b-a22b-thinking-2507-input",
@@ -4075,7 +5121,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.23
+    "value": 0.23,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-235b-a22b-thinking-2507-output",
@@ -4083,7 +5131,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.3
+    "value": 2.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-235b-a22b-input",
@@ -4091,7 +5141,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.455
+    "value": 0.455,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-235b-a22b-output",
@@ -4099,7 +5151,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.82
+    "value": 1.82,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-30b-a3b-instruct-2507-input",
@@ -4107,7 +5161,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.048
+    "value": 0.048,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-30b-a3b-instruct-2507-output",
@@ -4115,7 +5171,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.193
+    "value": 0.193,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-30b-a3b-thinking-2507-input",
@@ -4123,7 +5181,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.2
+    "value": 0.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-30b-a3b-thinking-2507-output",
@@ -4131,7 +5191,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.4
+    "value": 2.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-30b-a3b-input",
@@ -4139,7 +5201,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.12
+    "value": 0.12,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-30b-a3b-output",
@@ -4147,7 +5211,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.5
+    "value": 0.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-32b-input",
@@ -4155,7 +5221,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.08
+    "value": 0.08,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-32b-output",
@@ -4163,7 +5231,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.28
+    "value": 0.28,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-8b-input",
@@ -4171,7 +5241,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.117
+    "value": 0.117,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-8b-output",
@@ -4179,7 +5251,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.455
+    "value": 0.455,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-coder-30b-a3b-instruct-input",
@@ -4187,7 +5261,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.07
+    "value": 0.07,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-coder-30b-a3b-instruct-output",
@@ -4195,7 +5271,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.28
+    "value": 0.28,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-coder-flash-input",
@@ -4203,7 +5281,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.195
+    "value": 0.195,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-coder-flash-output",
@@ -4211,7 +5291,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.975
+    "value": 0.975,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-coder-next-input",
@@ -4219,7 +5301,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.12
+    "value": 0.12,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-coder-next-output",
@@ -4227,7 +5311,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.8
+    "value": 0.8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-coder-plus-input",
@@ -4235,7 +5321,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.65
+    "value": 0.65,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-coder-plus-output",
@@ -4243,7 +5331,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3.25
+    "value": 3.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-coder-input",
@@ -4251,7 +5341,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-coder-output",
@@ -4259,7 +5351,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-max-thinking-input",
@@ -4267,7 +5361,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.78
+    "value": 0.78,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-max-thinking-output",
@@ -4275,7 +5371,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3.9
+    "value": 3.9,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-max-input",
@@ -4283,7 +5381,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.78
+    "value": 0.78,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-max-output",
@@ -4291,7 +5391,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3.9
+    "value": 3.9,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-next-80b-a3b-instruct-input",
@@ -4299,7 +5401,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-next-80b-a3b-instruct-output",
@@ -4307,7 +5411,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.1
+    "value": 1.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-next-80b-a3b-thinking-input",
@@ -4315,7 +5421,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.15
+    "value": 0.15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-next-80b-a3b-thinking-output",
@@ -4323,7 +5431,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.2
+    "value": 1.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-vl-235b-a22b-instruct-input",
@@ -4331,7 +5441,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.21
+    "value": 0.21,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-vl-235b-a22b-instruct-output",
@@ -4339,7 +5451,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.9
+    "value": 1.9,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-vl-235b-a22b-thinking-input",
@@ -4347,7 +5461,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-vl-235b-a22b-thinking-output",
@@ -4355,7 +5471,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4
+    "value": 4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-vl-30b-a3b-instruct-input",
@@ -4363,7 +5481,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.13
+    "value": 0.13,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-vl-30b-a3b-instruct-output",
@@ -4371,7 +5491,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.52
+    "value": 0.52,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-vl-30b-a3b-thinking-input",
@@ -4379,7 +5501,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.2
+    "value": 0.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-vl-30b-a3b-thinking-output",
@@ -4387,7 +5511,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.4
+    "value": 2.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-vl-32b-instruct-input",
@@ -4395,7 +5521,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.104
+    "value": 0.104,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-vl-32b-instruct-output",
@@ -4403,7 +5531,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.416
+    "value": 0.416,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-vl-8b-instruct-input",
@@ -4411,7 +5541,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.117
+    "value": 0.117,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-vl-8b-instruct-output",
@@ -4419,7 +5551,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.455
+    "value": 0.455,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-vl-8b-thinking-input",
@@ -4427,7 +5561,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.18
+    "value": 0.18,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3-vl-8b-thinking-output",
@@ -4435,7 +5571,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.1
+    "value": 2.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.5-122b-a10b-input",
@@ -4443,7 +5581,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.26
+    "value": 0.26,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.5-122b-a10b-output",
@@ -4451,7 +5591,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.08
+    "value": 2.08,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.5-27b-input",
@@ -4459,7 +5601,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.195
+    "value": 0.195,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.5-27b-output",
@@ -4467,7 +5611,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.56
+    "value": 1.56,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.5-35b-a3b-input",
@@ -4475,7 +5621,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.14
+    "value": 0.14,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.5-35b-a3b-output",
@@ -4483,7 +5631,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.5-397b-a17b-input",
@@ -4491,7 +5641,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.39
+    "value": 0.39,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.5-397b-a17b-output",
@@ -4499,7 +5651,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.34
+    "value": 2.34,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.5-9b-input",
@@ -4507,7 +5661,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.5-9b-output",
@@ -4515,7 +5671,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.15
+    "value": 0.15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.5-flash-02-23-input",
@@ -4523,7 +5681,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.065
+    "value": 0.065,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.5-flash-02-23-output",
@@ -4531,7 +5691,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.26
+    "value": 0.26,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.5-plus-02-15-input",
@@ -4539,7 +5701,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.26
+    "value": 0.26,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.5-plus-02-15-output",
@@ -4547,7 +5711,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.56
+    "value": 1.56,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.5-plus-20260420-input",
@@ -4555,7 +5721,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.5-plus-20260420-output",
@@ -4563,7 +5731,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.8
+    "value": 1.8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.6-27b-input",
@@ -4571,7 +5741,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.6-27b-output",
@@ -4579,7 +5751,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.6-35b-a3b-input",
@@ -4587,7 +5761,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.14
+    "value": 0.14,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.6-35b-a3b-output",
@@ -4595,7 +5771,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.6-flash-input",
@@ -4603,7 +5781,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.188
+    "value": 0.188,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.6-flash-output",
@@ -4611,7 +5791,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.125
+    "value": 1.125,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.6-max-preview-input",
@@ -4619,7 +5801,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.027
+    "value": 1.027,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.6-max-preview-output",
@@ -4627,7 +5811,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 6.162
+    "value": 6.162,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.6-plus-input",
@@ -4635,7 +5821,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.325
+    "value": 0.325,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.6-plus-output",
@@ -4643,7 +5831,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.95
+    "value": 1.95,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.7-flash-input",
@@ -4651,7 +5841,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.03
+    "value": 0.03,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.7-flash-output",
@@ -4659,7 +5851,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.13
+    "value": 0.13,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.7-max-input",
@@ -4667,7 +5861,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.475
+    "value": 1.475,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.7-max-output",
@@ -4675,7 +5871,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 4.425
+    "value": 4.425,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.7-plus-input",
@@ -4683,7 +5881,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.32
+    "value": 0.32,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-qwen3.7-plus-output",
@@ -4691,7 +5891,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.28
+    "value": 1.28,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-reka-edge-input",
@@ -4699,7 +5901,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-reka-edge-output",
@@ -4707,7 +5911,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-reka-flash-3-input",
@@ -4715,7 +5921,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-reka-flash-3-output",
@@ -4723,7 +5931,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.2
+    "value": 0.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-relace-apply-3-input",
@@ -4731,7 +5941,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.85
+    "value": 0.85,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-relace-apply-3-output",
@@ -4739,7 +5951,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.25
+    "value": 1.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-relace-search-input",
@@ -4747,7 +5961,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-relace-search-output",
@@ -4755,7 +5971,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3
+    "value": 3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-remm-slerp-l2-13b-input",
@@ -4763,7 +5981,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.45
+    "value": 0.45,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-remm-slerp-l2-13b-output",
@@ -4771,7 +5991,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.65
+    "value": 0.65,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-ring-2.6-1t-input",
@@ -4779,7 +6001,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.075
+    "value": 0.075,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-ring-2.6-1t-output",
@@ -4787,7 +6011,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.625
+    "value": 0.625,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-rocinante-12b-input",
@@ -4795,7 +6021,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.25
+    "value": 0.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-rocinante-12b-output",
@@ -4803,7 +6031,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.5
+    "value": 0.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-seed-1.6-flash-input",
@@ -4811,7 +6041,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.075
+    "value": 0.075,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-seed-1.6-flash-output",
@@ -4819,7 +6051,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-seed-1.6-input",
@@ -4827,7 +6061,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.25
+    "value": 0.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-seed-1.6-output",
@@ -4835,7 +6071,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-seed-2.0-lite-input",
@@ -4843,7 +6081,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.25
+    "value": 0.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-seed-2.0-lite-output",
@@ -4851,7 +6091,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-seed-2.0-mini-input",
@@ -4859,7 +6101,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-seed-2.0-mini-output",
@@ -4867,7 +6111,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-skyfall-36b-v2-input",
@@ -4875,7 +6121,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.55
+    "value": 0.55,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-skyfall-36b-v2-output",
@@ -4883,7 +6131,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.8
+    "value": 0.8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-solar-pro-3-input",
@@ -4891,7 +6141,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.15
+    "value": 0.15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-solar-pro-3-output",
@@ -4899,7 +6151,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6
+    "value": 0.6,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-sonar-deep-research-input",
@@ -4907,7 +6161,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-sonar-deep-research-output",
@@ -4915,7 +6171,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 8
+    "value": 8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-sonar-pro-search-input",
@@ -4923,7 +6181,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3
+    "value": 3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-sonar-pro-search-output",
@@ -4931,7 +6191,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-sonar-pro-input",
@@ -4939,7 +6201,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3
+    "value": 3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-sonar-pro-output",
@@ -4947,7 +6211,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 15
+    "value": 15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-sonar-reasoning-pro-input",
@@ -4955,7 +6221,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2
+    "value": 2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-sonar-reasoning-pro-output",
@@ -4963,7 +6231,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 8
+    "value": 8,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-sonar-input",
@@ -4971,7 +6241,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-sonar-output",
@@ -4979,7 +6251,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1
+    "value": 1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-step-3.5-flash-input",
@@ -4987,7 +6261,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-step-3.5-flash-output",
@@ -4995,7 +6271,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-step-3.7-flash-input",
@@ -5003,7 +6281,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.2
+    "value": 0.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-step-3.7-flash-output",
@@ -5011,7 +6291,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.15
+    "value": 1.15,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-trinity-large-thinking-input",
@@ -5019,7 +6301,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.22
+    "value": 0.22,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-trinity-large-thinking-output",
@@ -5027,7 +6311,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.85
+    "value": 0.85,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-ui-tars-1.5-7b-input",
@@ -5035,7 +6321,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-ui-tars-1.5-7b-output",
@@ -5043,7 +6331,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.2
+    "value": 0.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-unslopnemo-12b-input",
@@ -5051,7 +6341,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-unslopnemo-12b-output",
@@ -5059,7 +6351,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.4
+    "value": 0.4,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-virtuoso-large-input",
@@ -5067,7 +6361,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.75
+    "value": 0.75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-virtuoso-large-output",
@@ -5075,7 +6371,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.2
+    "value": 1.2,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-voxtral-small-24b-2507-input",
@@ -5083,7 +6381,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1
+    "value": 0.1,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-voxtral-small-24b-2507-output",
@@ -5091,7 +6391,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.3
+    "value": 0.3,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-weaver-input",
@@ -5099,7 +6401,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.5
+    "value": 0.5,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-weaver-output",
@@ -5107,7 +6411,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.75
+    "value": 0.75,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-wizardlm-2-8x22b-input",
@@ -5115,7 +6421,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.62
+    "value": 0.62,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   },
   {
     "pricing_id": "openrouter-wizardlm-2-8x22b-output",
@@ -5123,6 +6431,8 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.62
+    "value": 0.62,
+    "source": "openrouter",
+    "updated_at": "2026-08-02T06:06:09.823Z"
   }
 ]

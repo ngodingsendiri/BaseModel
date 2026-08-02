@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/deepseek-v4-pro",
   "provider_id": "requesty",
-  "name": "nebius/deepseek-ai/deepseek-v4-pro",
+  "name": "deepseek/deepseek-v4-pro",
   "context_window": 1048576,
   "modality": [
     "text"
@@ -17,8 +17,9 @@
   "is_free": false,
   "tier": "balanced",
   "limits": {
-    "max_input_tokens": 164000
+    "max_input_tokens": 1048576
   },
   "capability_ids": [],
-  "status": "active"
+  "status": "active",
+  "updated_at": "2026-08-02T06:06:09.005Z"
 }
