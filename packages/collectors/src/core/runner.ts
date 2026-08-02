@@ -52,10 +52,16 @@ async function fetchWithRetry(
   init: RequestInit,
   attempts = 3,
   backoffMs = 1000,
+  timeoutMs = 15_000,
 ): Promise<Response> {
   let lastResponse: Response | undefined;
   for (let attempt = 1; attempt <= attempts; attempt++) {
-    const response = await fetch(url, init);
+    // Build a fresh signal per attempt so an aborted timeout on one attempt
+    // does not poison the retries. `AbortSignal.any` is available on Node 20.3+.
+    const signal = init.signal
+      ? AbortSignal.any([init.signal, AbortSignal.timeout(timeoutMs)])
+      : AbortSignal.timeout(timeoutMs);
+    const response = await fetch(url, { ...init, signal });
     if (!RETRYABLE_STATUSES.has(response.status)) return response;
     lastResponse = response;
     if (attempt < attempts) {
@@ -195,7 +201,6 @@ async function runSimpleGateway(
     const response = await fetchWithRetry(`${plugin.baseUrl}/models`, {
       headers,
       method: 'GET',
-      signal: AbortSignal.timeout(15_000),
     });
     if (!response.ok) {
       const hint = HTTP_ERROR_HINTS[response.status];

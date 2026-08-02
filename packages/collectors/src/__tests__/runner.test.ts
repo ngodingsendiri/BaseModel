@@ -120,6 +120,30 @@ describe('runSimpleGateway resilience', () => {
     expect(result.errors).toEqual([]);
   });
 
+  it('gives each retry attempt a fresh timeout signal', async () => {
+    process.env.GROQ_API_KEY = 'test-key';
+    const signals: Array<AbortSignal> = [];
+    const fetchMock = vi.fn().mockImplementation(async (_url: string, init: RequestInit) => {
+      signals.push(init.signal as AbortSignal);
+      if (signals.length === 1) {
+        return { ok: false, status: 429, statusText: 'Too Many Requests' };
+      }
+      return {
+        ok: true,
+        status: 200,
+        json: async () => ({ data: [{ id: 'groq/llama-3.3-70b-versatile' }] }),
+      };
+    });
+    vi.stubGlobal('fetch', fetchMock);
+    const plugin = await describeGatewayPlugin(GROQ_PATH);
+    const result = await executeGatewayPlugin(GROQ_PATH, plugin);
+    expect(fetchMock).toHaveBeenCalledTimes(2);
+    expect(signals).toHaveLength(2);
+    expect(signals[0]).not.toBe(signals[1]);
+    expect(signals[1]?.aborted).toBe(false);
+    expect(result.errors).toEqual([]);
+  });
+
   it('reports actionable hints for non-retryable HTTP failures', async () => {
     process.env.GROQ_API_KEY = 'test-key';
     vi.stubGlobal(

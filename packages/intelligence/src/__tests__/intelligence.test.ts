@@ -186,6 +186,79 @@ describe('Intelligence Layer', () => {
 
       expect(findAlternatives(engine, original.model_id)).toEqual([]);
     });
+
+    it('skips OpenRouter router endpoints that are not real models', () => {
+      const original = engine.models[0];
+      if (!original) throw new Error('Test fixture is incomplete');
+      engine.models = [
+        original,
+        {
+          ...original,
+          model_id: 'openrouter/auto',
+          provider_id: 'openrouter',
+          name: 'openrouter/auto',
+        },
+        {
+          ...original,
+          model_id: 'openrouter/gpt-4o',
+          provider_id: 'openrouter',
+          name: 'openai/gpt-4o',
+        },
+      ];
+
+      const alts = findAlternatives(engine, original.model_id);
+      expect(alts.some((a) => a.model.model_id === 'openrouter/auto')).toBe(false);
+      expect(alts.some((a) => a.model.model_id === 'openrouter/gpt-4o')).toBe(false);
+    });
+
+    it('does not recommend the same physical model re-served by a router provider', () => {
+      const original = engine.models[0];
+      const claude = engine.models[1];
+      if (!original || !claude) throw new Error('Test fixture is incomplete');
+      engine.models = [
+        original,
+        claude,
+        {
+          ...original,
+          model_id: 'vercel/gpt-4o',
+          provider_id: 'vercel',
+          name: 'openai/gpt-4o',
+        },
+      ];
+
+      const alts = findAlternatives(engine, original.model_id);
+      expect(alts.some((a) => a.model.model_id === 'vercel/gpt-4o')).toBe(false);
+    });
+
+    it('treats dot/dash slug variants as the same physical model', () => {
+      const claude = engine.models[1];
+      if (!claude) throw new Error('Test fixture is incomplete');
+      const base: Model = {
+        ...claude,
+        modality: ['text'],
+        context_window: 262144,
+        function_calling: false,
+        vision_support: false,
+      };
+      engine.models = [
+        {
+          ...base,
+          model_id: 'mistral-ai/mistral-medium-3-5',
+          provider_id: 'mistral-ai',
+          name: 'mistral-medium-3-5',
+        },
+        {
+          ...base,
+          model_id: 'mistral-ai/mistral-medium-3.5',
+          provider_id: 'mistral-ai',
+          name: 'mistral-medium-3.5',
+        },
+      ];
+
+      const alts = findAlternatives(engine, 'mistral-ai/mistral-medium-3-5');
+      expect(alts.some((a) => a.model.model_id === 'mistral-ai/mistral-medium-3.5')).toBe(false);
+      expect(alts).toEqual([]);
+    });
   });
 
   describe('Snapshot hydration', () => {

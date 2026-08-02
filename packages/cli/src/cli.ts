@@ -139,7 +139,9 @@ async function cmdInfo(args: string[]): Promise<void> {
   console.log(`  ${dim('Status:')}           ${model.status}`);
   console.log(`  ${dim('Modalities:')}       ${model.modality.join(', ')}`);
   if (model.context_window) {
-    console.log(`  ${dim('Context Window:')}   ${model.context_window.toLocaleString()} tokens`);
+    console.log(
+      `  ${dim('Context Window:')}   ${model.context_window.toLocaleString('en-US')} tokens`,
+    );
   }
   if (model.release_date) {
     console.log(`  ${dim('Release Date:')}     ${model.release_date}`);
@@ -194,7 +196,9 @@ async function cmdAlternatives(args: string[]): Promise<void> {
     console.log(`    ${dim('Reason:')} ${alt.reason}`);
     console.log(`    ${dim('Cost:')}   ${tierColor(cost.tier)}`);
     if (alt.model.context_window) {
-      console.log(`    ${dim('Context:')} ${alt.model.context_window.toLocaleString()} tokens`);
+      console.log(
+        `    ${dim('Context:')} ${alt.model.context_window.toLocaleString('en-US')} tokens`,
+      );
     }
     console.log('');
   }
