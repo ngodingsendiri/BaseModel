@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "mirror-code-gemma-4-31b",
+  "model_id": "gemma-4-31b",
+  "benchmark_name": "code",
+  "score": 70.375,
+  "score_raw": 1363,
+  "evaluation_date": "2026-08-01",
+  "source": "mirror",
+  "category": [
+    "code"
+  ],
+  "rank": 72
+}

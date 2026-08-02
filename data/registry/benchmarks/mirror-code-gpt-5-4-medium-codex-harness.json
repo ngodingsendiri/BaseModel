@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "mirror-code-gpt-5-4-medium-codex-harness",
+  "model_id": "gpt-5.4-medium (codex-harness)",
+  "benchmark_name": "code",
+  "score": 80.5,
+  "score_raw": 1444,
+  "evaluation_date": "2026-08-01",
+  "source": "mirror",
+  "category": [
+    "code"
+  ],
+  "rank": 43
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "mirror-text-gpt-5-6-sol-xhigh",
+  "model_id": "gpt-5.6-sol-xhigh",
+  "benchmark_name": "text",
+  "score": 85.625,
+  "score_raw": 1485,
+  "evaluation_date": "2026-08-01",
+  "source": "mirror",
+  "category": [
+    "text"
+  ],
+  "rank": 13
+}

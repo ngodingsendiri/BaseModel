@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "mirror-code-qwen3-5-122b-a10b",
+  "model_id": "qwen3.5-122b-a10b",
+  "benchmark_name": "code",
+  "score": 69.875,
+  "score_raw": 1359,
+  "evaluation_date": "2026-08-01",
+  "source": "mirror",
+  "category": [
+    "code"
+  ],
+  "rank": 74
+}

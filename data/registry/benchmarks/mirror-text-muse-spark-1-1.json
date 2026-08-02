@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "mirror-text-muse-spark-1-1",
+  "model_id": "muse-spark-1.1",
+  "benchmark_name": "text",
+  "score": 86.375,
+  "score_raw": 1491,
+  "evaluation_date": "2026-08-01",
+  "source": "mirror",
+  "category": [
+    "text"
+  ],
+  "rank": 8
+}

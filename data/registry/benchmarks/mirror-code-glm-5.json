@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "mirror-code-glm-5",
+  "model_id": "glm-5",
+  "benchmark_name": "code",
+  "score": 79.375,
+  "score_raw": 1435,
+  "evaluation_date": "2026-08-01",
+  "source": "mirror",
+  "category": [
+    "code"
+  ],
+  "rank": 48
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "mirror-code-claude-opus-4-5-20251101",
+  "model_id": "claude-opus-4-5-20251101",
+  "benchmark_name": "code",
+  "score": 83.375,
+  "score_raw": 1467,
+  "evaluation_date": "2026-08-01",
+  "source": "mirror",
+  "category": [
+    "code"
+  ],
+  "rank": 35
+}

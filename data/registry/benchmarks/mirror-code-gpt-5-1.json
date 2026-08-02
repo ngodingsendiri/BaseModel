@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "mirror-code-gpt-5-1",
+  "model_id": "gpt-5.1",
+  "benchmark_name": "code",
+  "score": 67.625,
+  "score_raw": 1341,
+  "evaluation_date": "2026-08-01",
+  "source": "mirror",
+  "category": [
+    "code"
+  ],
+  "rank": 79
+}
