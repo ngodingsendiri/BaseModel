@@ -126,15 +126,17 @@ are used and the catalog is much larger.
 ## Pricing Enrichment
 
 The enrich step derives pricing, limits, and cost tiers for every registry
-model from two public catalogs:
+model from three public catalogs:
 
 | Source | Scope | Endpoint | Auth |
 |---|---|---|---|
 | OpenRouter | Aggregated pricing for hundreds of models | `https://openrouter.ai/api/v1/models` | none (optional key) |
+| Requesty | Requesty's own resale prices for all routable models | `https://router.requesty.ai/v1/models` | none (optional key) |
 | Hugging Face Inference Providers | Open-weight models served by partner backends | `https://router.huggingface.co/v1/models` | none (optional token) |
 
-OpenRouter is the primary source. When it has no entry, Hugging Face is tried
-as a fallback for open-weight models (for example `deepinfra/deepseek-v3-0324`).
+OpenRouter is the primary source. When it has no entry, Requesty's catalog is
+tried (the most accurate price for `requesty/*` models), then Hugging Face as a
+fallback for open-weight models (for example `deepinfra/deepseek-v3-0324`).
 Only entries that report pricing are used, so a catalog hit can never clear an
 existing tier.
 

@@ -15,6 +15,7 @@ import {
   indexHuggingFace,
 } from './sources/huggingface.js';
 import { fetchOpenRouterModels, type OpenRouterModel } from './sources/openrouter.js';
+import { fetchRequestyModels, findRequestyMatch, indexRequesty } from './sources/requesty.js';
 
 export interface EnrichmentSummary {
   enrichedModels: number;
@@ -22,6 +23,7 @@ export interface EnrichmentSummary {
   freeModels: number;
   errors: string[];
   huggingFaceModels: number;
+  requestyModels: number;
   tierPropagated: number;
 }
 
@@ -191,9 +193,9 @@ function buildLimits(match: OpenRouterModel): Model['limits'] {
 /**
  * Runs the enrichment pipeline:
  * 1. Loads every model from the registry.
- * 2. Fetches OpenRouter's aggregated pricing catalog (primary) and the
- *    Hugging Face Inference Providers catalog (fallback for open-weight
- *    models missing from OpenRouter).
+ * 2. Fetches pricing catalogs: OpenRouter (primary), Requesty (router
+ *    provider's own catalog), and Hugging Face Inference Providers
+ *    (open-weight fallback).
  * 3. Matches each model to a catalog entry and derives tier, free status,
  *    limits, and pricing records.
  * 4. Propagates tiers to router aliases that re-serve an already-priced
@@ -207,6 +209,7 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
     freeModels: 0,
     errors: [],
     huggingFaceModels: 0,
+    requestyModels: 0,
     tierPropagated: 0,
   };
 
@@ -244,6 +247,19 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
     );
   }
 
+  // Requesty's own catalog is the most accurate pricing source for models
+  // routed through Requesty. It is public and requires no token.
+  let requestyIndex = new Map<string, OpenRouterModel[]>();
+  try {
+    const requestyModels = await fetchRequestyModels(process.env.REQUESTY_API_KEY);
+    requestyIndex = indexRequesty(requestyModels);
+    summary.requestyModels = requestyModels.length;
+  } catch (error: unknown) {
+    summary.errors.push(
+      `Failed to fetch Requesty catalog: ${error instanceof Error ? error.message : String(error)}`,
+    );
+  }
+
   const index = indexOpenRouter(catalog);
   const newPricing: Pricing[] = [];
   const enrichedModelIds = new Set<string>();
@@ -253,7 +269,10 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
   let updated = 0;
 
   for (const model of models) {
-    const match = findOpenRouterMatch(model, index) ?? findHuggingFaceMatch(model, hfIndex);
+    const match =
+      findOpenRouterMatch(model, index) ??
+      findRequestyMatch(model, requestyIndex) ??
+      findHuggingFaceMatch(model, hfIndex);
     if (!match) continue;
 
     const hasPricing = match.inputPer1M !== undefined || match.outputPer1M !== undefined;

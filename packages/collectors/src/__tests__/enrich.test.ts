@@ -9,6 +9,7 @@ import {
 } from '../enrich/sources/huggingface';
 import type { OpenRouterModel } from '../enrich/sources/openrouter';
 import { perTokenToPer1M } from '../enrich/sources/openrouter';
+import { findRequestyMatch, indexRequesty } from '../enrich/sources/requesty';
 
 function sampleModel(overrides: Partial<Model> = {}): Model {
   return {
@@ -316,6 +317,82 @@ describe('huggingface source', () => {
         index,
       ),
     ).toBeUndefined();
+  });
+});
+
+describe('requesty source', () => {
+  function sampleRequesty(overrides: Partial<OpenRouterModel> = {}): OpenRouterModel {
+    return {
+      id: 'bedrock/claude-haiku-4-5@ap-northeast-1',
+      slug: 'claude-haiku-4-5-ap-northeast-1',
+      provider: 'requesty',
+      contextLength: 200000,
+      inputPer1M: 0.5,
+      outputPer1M: 3,
+      isFree: false,
+      ...overrides,
+    };
+  }
+
+  it('indexes catalog entries by slug', () => {
+    const index = indexRequesty([sampleRequesty()]);
+    expect(index.get('claude-haiku-4-5-ap-northeast-1')).toHaveLength(1);
+    expect(index.get('missing')).toBeUndefined();
+  });
+
+  it('matches an exact slug including the region suffix', () => {
+    const entry = sampleRequesty();
+    const index = indexRequesty([entry]);
+    const model = sampleModel({
+      provider_id: 'requesty',
+      model_id: 'requesty/claude-haiku-4-5-ap-northeast-1',
+      name: 'claude-haiku-4-5-ap-northeast-1',
+    });
+    expect(findRequestyMatch(model, index)).toBe(entry);
+  });
+
+  it('falls back to the region-stripped slug', () => {
+    const base = sampleRequesty({
+      id: 'vertex/claude-haiku-4-5',
+      slug: 'claude-haiku-4-5',
+    });
+    const index = indexRequesty([base]);
+    const model = sampleModel({
+      provider_id: 'requesty',
+      model_id: 'requesty/claude-haiku-4-5-eu',
+      name: 'claude-haiku-4-5-eu',
+    });
+    expect(findRequestyMatch(model, index)).toBe(base);
+  });
+
+  it('does not region-strip when an exact slug match exists', () => {
+    const exact = sampleRequesty({ slug: 'claude-haiku-4-5-eu' });
+    const base = sampleRequesty({ slug: 'claude-haiku-4-5' });
+    const index = indexRequesty([exact, base]);
+    const model = sampleModel({
+      provider_id: 'requesty',
+      model_id: 'requesty/claude-haiku-4-5-eu',
+      name: 'claude-haiku-4-5-eu',
+    });
+    expect(findRequestyMatch(model, index)).toBe(exact);
+  });
+
+  it('returns undefined when no slug matches', () => {
+    expect(findRequestyMatch(sampleModel(), indexRequesty([]))).toBeUndefined();
+  });
+
+  it('collapses dot/dash slug variants like the collectors', () => {
+    const entry = sampleRequesty({
+      id: 'novita/baichuan/baichuan-m2-32b',
+      slug: 'baichuan-m2-32b',
+    });
+    const index = indexRequesty([entry]);
+    const model = sampleModel({
+      provider_id: 'requesty',
+      model_id: 'requesty/baichuan-m2-32b',
+      name: 'baichuan-m2-32b',
+    });
+    expect(findRequestyMatch(model, index)).toBe(entry);
   });
 });
 
