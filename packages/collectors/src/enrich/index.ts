@@ -1,3 +1,6 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import {
   deleteRegistryFile,
   getAllModels,
@@ -7,6 +10,8 @@ import {
   savePricingRecords,
 } from '@basemodel/registry';
 import type { Model, Pricing } from '@basemodel/schema';
+import type { PricingSourceSpec } from '../core/collector.js';
+import { describeGatewayPlugin } from '../core/runner.js';
 import { toModelSlug } from '../core/slug.js';
 import { classifyTier } from './classify.js';
 import {
@@ -15,7 +20,7 @@ import {
   indexHuggingFace,
 } from './sources/huggingface.js';
 import { fetchOpenRouterModels, type OpenRouterModel } from './sources/openrouter.js';
-import { fetchRequestyModels, findRequestyMatch, indexRequesty } from './sources/requesty.js';
+import { fetchPricingCatalog, findPricingMatch, indexPricingCatalog } from './sources/provider.js';
 
 export interface EnrichmentSummary {
   enrichedModels: number;
@@ -23,7 +28,7 @@ export interface EnrichmentSummary {
   freeModels: number;
   errors: string[];
   huggingFaceModels: number;
-  requestyModels: number;
+  providerPricingModels: number;
   tierPropagated: number;
 }
 
@@ -41,6 +46,45 @@ function indexOpenRouter(models: OpenRouterModel[]): {
     bySlug.set(entry.slug, slugList);
   }
   return { byId, bySlug };
+}
+
+interface ProviderPricingCatalog {
+  providerId: string;
+  baseUrl: string;
+  secretKeyName: string;
+  source: PricingSourceSpec;
+}
+
+/**
+ * Discovers gateways that declare a `pricingSource`, reading their plugin
+ * descriptors through the same isolated worker used by collection. The enrich
+ * step never imports a plugin module directly.
+ */
+async function discoverPricingCatalogs(): Promise<ProviderPricingCatalog[]> {
+  const currentFile = fileURLToPath(import.meta.url);
+  const gatewaysDirectory = path.join(path.dirname(currentFile), '..', 'gateways');
+  if (!fs.existsSync(gatewaysDirectory)) return [];
+  const files = fs
+    .readdirSync(gatewaysDirectory)
+    .filter((file) => (file.endsWith('.ts') || file.endsWith('.js')) && !file.startsWith('_'));
+
+  const catalogs: ProviderPricingCatalog[] = [];
+  for (const file of files) {
+    try {
+      const descriptor = await describeGatewayPlugin(path.join(gatewaysDirectory, file));
+      if (descriptor.type === 'openai-compatible' && descriptor.pricingSource) {
+        catalogs.push({
+          providerId: descriptor.id,
+          baseUrl: descriptor.baseUrl,
+          secretKeyName: descriptor.secretKeyName,
+          source: descriptor.pricingSource,
+        });
+      }
+    } catch {
+      // Best-effort: an unreadable plugin is a collection concern, not enrichment.
+    }
+  }
+  return catalogs;
 }
 
 function stripTilde(provider: string): string {
@@ -193,9 +237,9 @@ function buildLimits(match: OpenRouterModel): Model['limits'] {
 /**
  * Runs the enrichment pipeline:
  * 1. Loads every model from the registry.
- * 2. Fetches pricing catalogs: OpenRouter (primary), Requesty (router
- *    provider's own catalog), and Hugging Face Inference Providers
- *    (open-weight fallback).
+ * 2. Fetches pricing catalogs: per-gateway declared sources (provider's own
+ *    prices), OpenRouter (aggregate primary), and Hugging Face Inference
+ *    Providers (open-weight fallback).
  * 3. Matches each model to a catalog entry and derives tier, free status,
  *    limits, and pricing records.
  * 4. Propagates tiers to router aliases that re-serve an already-priced
@@ -209,7 +253,7 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
     freeModels: 0,
     errors: [],
     huggingFaceModels: 0,
-    requestyModels: 0,
+    providerPricingModels: 0,
     tierPropagated: 0,
   };
 
@@ -247,17 +291,21 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
     );
   }
 
-  // Requesty's own catalog is the most accurate pricing source for models
-  // routed through Requesty. It is public and requires no token.
-  let requestyIndex = new Map<string, OpenRouterModel[]>();
-  try {
-    const requestyModels = await fetchRequestyModels(process.env.REQUESTY_API_KEY);
-    requestyIndex = indexRequesty(requestyModels);
-    summary.requestyModels = requestyModels.length;
-  } catch (error: unknown) {
-    summary.errors.push(
-      `Failed to fetch Requesty catalog: ${error instanceof Error ? error.message : String(error)}`,
-    );
+  // Gateways may declare their own pricing catalog (`pricingSource`). A
+  // provider's own prices are the most accurate source for its models, so
+  // these catalogs are fetched best-effort and matched before the aggregate
+  // sources. Providers without a declared source simply skip this step.
+  const providerIndexes = new Map<string, Map<string, OpenRouterModel[]>>();
+  for (const { providerId, baseUrl, secretKeyName, source } of await discoverPricingCatalogs()) {
+    try {
+      const providerModels = await fetchPricingCatalog(source, process.env[secretKeyName], baseUrl);
+      providerIndexes.set(providerId, indexPricingCatalog(providerModels));
+      summary.providerPricingModels += providerModels.length;
+    } catch (error: unknown) {
+      summary.errors.push(
+        `Failed to fetch ${providerId} pricing catalog: ${error instanceof Error ? error.message : String(error)}`,
+      );
+    }
   }
 
   const index = indexOpenRouter(catalog);
@@ -269,9 +317,10 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
   let updated = 0;
 
   for (const model of models) {
+    const providerIndex = providerIndexes.get(model.provider_id);
     const match =
+      (providerIndex ? findPricingMatch(model, providerIndex) : undefined) ??
       findOpenRouterMatch(model, index) ??
-      findRequestyMatch(model, requestyIndex) ??
       findHuggingFaceMatch(model, hfIndex);
     if (!match) continue;
 
@@ -364,11 +413,12 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
   }
 
   console.log(`Enriched ${summary.enrichedModels} models (${updated} saved)`);
-  console.log(`  free models      : ${summary.freeModels}`);
-  console.log(`  HF catalog models: ${summary.huggingFaceModels}`);
-  console.log(`  tier propagated  : ${summary.tierPropagated}`);
+  console.log(`  free models        : ${summary.freeModels}`);
+  console.log(`  provider catalogs  : ${summary.providerPricingModels}`);
+  console.log(`  HF catalog models  : ${summary.huggingFaceModels}`);
+  console.log(`  tier propagated    : ${summary.tierPropagated}`);
   console.log(
-    `  pricing          : ${summary.pricingRecords} records across ${byProvider.size} providers`,
+    `  pricing            : ${summary.pricingRecords} records across ${byProvider.size} providers`,
   );
   if (summary.errors.length > 0) {
     console.warn('Enrichment errors:', summary.errors);

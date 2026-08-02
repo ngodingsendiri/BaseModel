@@ -1,5 +1,6 @@
 import type { Model } from '@basemodel/schema';
 import { describe, expect, it } from 'vitest';
+import type { PricingSourceSpec } from '../core/collector';
 import { classifyTier } from '../enrich/classify';
 import { findOpenRouterMatch, physicalSlug, propagateTiers } from '../enrich/index';
 import {
@@ -9,7 +10,11 @@ import {
 } from '../enrich/sources/huggingface';
 import type { OpenRouterModel } from '../enrich/sources/openrouter';
 import { perTokenToPer1M } from '../enrich/sources/openrouter';
-import { findRequestyMatch, indexRequesty } from '../enrich/sources/requesty';
+import {
+  findPricingMatch,
+  indexPricingCatalog,
+  parsePricingEntry,
+} from '../enrich/sources/provider';
 
 function sampleModel(overrides: Partial<Model> = {}): Model {
   return {
@@ -320,12 +325,17 @@ describe('huggingface source', () => {
   });
 });
 
-describe('requesty source', () => {
-  function sampleRequesty(overrides: Partial<OpenRouterModel> = {}): OpenRouterModel {
+describe('provider pricing source', () => {
+  const requestySpec: PricingSourceSpec = {
+    url: 'https://router.requesty.ai/v1/models',
+    auth: 'none',
+  };
+
+  function samplePricing(overrides: Partial<OpenRouterModel> = {}): OpenRouterModel {
     return {
       id: 'bedrock/claude-haiku-4-5@ap-northeast-1',
       slug: 'claude-haiku-4-5-ap-northeast-1',
-      provider: 'requesty',
+      provider: 'provider-catalog',
       contextLength: 200000,
       inputPer1M: 0.5,
       outputPer1M: 3,
@@ -334,65 +344,124 @@ describe('requesty source', () => {
     };
   }
 
+  it('parses Requesty-style per-token numeric prices into per-1M', () => {
+    const entry = parsePricingEntry(
+      {
+        id: 'bedrock/claude-haiku-4-5@ap-northeast-1',
+        input_price: 0.0000005,
+        output_price: 0.000003,
+        context_window: 200000,
+      },
+      requestySpec,
+    );
+    expect(entry).toMatchObject({
+      id: 'bedrock/claude-haiku-4-5@ap-northeast-1',
+      slug: 'claude-haiku-4-5-ap-northeast-1',
+      inputPer1M: 0.5,
+      outputPer1M: 3,
+      contextLength: 200000,
+      isFree: false,
+    });
+  });
+
+  it('never marks a model free when a price is missing', () => {
+    const entry = parsePricingEntry({ id: 'acme/gpt-9', input_price: 0.5 }, requestySpec);
+    expect(entry.isFree).toBe(false);
+    expect(entry.outputPer1M).toBeUndefined();
+  });
+
+  it('marks explicitly zero-priced models as free', () => {
+    const entry = parsePricingEntry(
+      { id: 'poolside/laguna-m.1', input_price: 0, output_price: 0 },
+      requestySpec,
+    );
+    expect(entry.isFree).toBe(true);
+  });
+
+  it('parses string prices and respects the per-1m unit', () => {
+    const entry = parsePricingEntry(
+      { id: 'acme/gpt-9', input_price: '0.5', output_price: '1.5' },
+      { ...requestySpec, pricingUnit: 'per-1m' },
+    );
+    expect(entry.inputPer1M).toBe(0.5);
+    expect(entry.outputPer1M).toBe(1.5);
+  });
+
+  it('reads nested and remapped fields via dot-paths', () => {
+    const entry = parsePricingEntry(
+      {
+        model: 'acme/gpt-9',
+        pricing: { prompt: '0.0000025', completion: '0.00001' },
+        context: 128000,
+      },
+      {
+        idField: 'model',
+        inputPriceField: 'pricing.prompt',
+        outputPriceField: 'pricing.completion',
+        contextField: 'context',
+      },
+    );
+    expect(entry).toMatchObject({
+      slug: 'gpt-9',
+      inputPer1M: 2.5,
+      outputPer1M: 10,
+      contextLength: 128000,
+    });
+  });
+
   it('indexes catalog entries by slug', () => {
-    const index = indexRequesty([sampleRequesty()]);
+    const index = indexPricingCatalog([samplePricing()]);
     expect(index.get('claude-haiku-4-5-ap-northeast-1')).toHaveLength(1);
     expect(index.get('missing')).toBeUndefined();
   });
 
   it('matches an exact slug including the region suffix', () => {
-    const entry = sampleRequesty();
-    const index = indexRequesty([entry]);
+    const entry = samplePricing();
+    const index = indexPricingCatalog([entry]);
     const model = sampleModel({
       provider_id: 'requesty',
       model_id: 'requesty/claude-haiku-4-5-ap-northeast-1',
       name: 'claude-haiku-4-5-ap-northeast-1',
     });
-    expect(findRequestyMatch(model, index)).toBe(entry);
+    expect(findPricingMatch(model, index)).toBe(entry);
   });
 
   it('falls back to the region-stripped slug', () => {
-    const base = sampleRequesty({
-      id: 'vertex/claude-haiku-4-5',
-      slug: 'claude-haiku-4-5',
-    });
-    const index = indexRequesty([base]);
+    const base = samplePricing({ id: 'vertex/claude-haiku-4-5', slug: 'claude-haiku-4-5' });
+    const index = indexPricingCatalog([base]);
     const model = sampleModel({
       provider_id: 'requesty',
       model_id: 'requesty/claude-haiku-4-5-eu',
       name: 'claude-haiku-4-5-eu',
     });
-    expect(findRequestyMatch(model, index)).toBe(base);
+    expect(findPricingMatch(model, index)).toBe(base);
   });
 
   it('does not region-strip when an exact slug match exists', () => {
-    const exact = sampleRequesty({ slug: 'claude-haiku-4-5-eu' });
-    const base = sampleRequesty({ slug: 'claude-haiku-4-5' });
-    const index = indexRequesty([exact, base]);
+    const exact = samplePricing({ slug: 'claude-haiku-4-5-eu' });
+    const base = samplePricing({ slug: 'claude-haiku-4-5' });
+    const index = indexPricingCatalog([exact, base]);
     const model = sampleModel({
       provider_id: 'requesty',
       model_id: 'requesty/claude-haiku-4-5-eu',
       name: 'claude-haiku-4-5-eu',
     });
-    expect(findRequestyMatch(model, index)).toBe(exact);
+    expect(findPricingMatch(model, index)).toBe(exact);
   });
 
   it('returns undefined when no slug matches', () => {
-    expect(findRequestyMatch(sampleModel(), indexRequesty([]))).toBeUndefined();
+    expect(findPricingMatch(sampleModel(), indexPricingCatalog([]))).toBeUndefined();
   });
 
   it('collapses dot/dash slug variants like the collectors', () => {
-    const entry = sampleRequesty({
-      id: 'novita/baichuan/baichuan-m2-32b',
-      slug: 'baichuan-m2-32b',
-    });
-    const index = indexRequesty([entry]);
+    const entry = samplePricing({ id: 'novita/baichuan/baichuan-m2-32b', slug: 'baichuan-m2-32b' });
+    const index = indexPricingCatalog([entry]);
     const model = sampleModel({
       provider_id: 'requesty',
       model_id: 'requesty/baichuan-m2-32b',
       name: 'baichuan-m2-32b',
     });
-    expect(findRequestyMatch(model, index)).toBe(entry);
+    expect(findPricingMatch(model, index)).toBe(entry);
   });
 });
 

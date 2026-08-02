@@ -23,6 +23,33 @@ export interface ModelCollector {
 }
 
 /**
+ * Declarative pricing catalog source for an OpenAI-compatible gateway.
+ *
+ * When set, the enrich step fetches the catalog (best-effort) and uses it to
+ * price models collected from that gateway. Field paths are optional and
+ * default to the OpenAI-compatible `/models` shape the collectors use, so a
+ * minimal declaration is just `{ url }`.
+ */
+export interface PricingSourceSpec {
+  /** Catalog URL. Defaults to `${baseUrl}/models`. */
+  url?: string;
+  /** Whether to send the gateway secret as a Bearer token. Default: `none`. */
+  auth?: 'none' | 'secret';
+  /** Dot-path to the catalog array. Default: `data`. */
+  itemsPath?: string;
+  /** Field holding the model id. Default: `id`. */
+  idField?: string;
+  /** Dot-path to the input price. Default: `input_price`. */
+  inputPriceField?: string;
+  /** Dot-path to the output price. Default: `output_price`. */
+  outputPriceField?: string;
+  /** Field holding the context length. Default: `context_window`. */
+  contextField?: string;
+  /** Unit of the price fields. Default: `per-token`. */
+  pricingUnit?: 'per-token' | 'per-1m';
+}
+
+/**
  * Gateway plugin metadata for OpenAI-compatible providers.
  */
 export interface SimpleGateway {
@@ -33,6 +60,8 @@ export interface SimpleGateway {
   baseUrl: string;
   /** Approved secret name for the API key used by this gateway. */
   secretKeyName: string;
+  /** Optional pricing catalog consumed by the enrich step. */
+  pricingSource?: PricingSourceSpec;
 }
 
 /**
@@ -55,5 +84,5 @@ export type GatewayPlugin = SimpleGateway | CustomGateway;
  * The collector process never imports a plugin directly.
  */
 export type GatewayDescriptor =
-  | Pick<SimpleGateway, 'type' | 'id' | 'baseUrl' | 'secretKeyName'>
+  | Pick<SimpleGateway, 'type' | 'id' | 'baseUrl' | 'secretKeyName' | 'pricingSource'>
   | Pick<CustomGateway, 'type' | 'id'>;

@@ -65,6 +65,7 @@ function getDescriptor(plugin: GatewayPlugin): GatewayDescriptor {
       id: plugin.id,
       baseUrl: plugin.baseUrl,
       secretKeyName: plugin.secretKeyName,
+      pricingSource: plugin.pricingSource,
     };
   }
 

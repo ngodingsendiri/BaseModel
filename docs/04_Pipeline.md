@@ -126,19 +126,29 @@ are used and the catalog is much larger.
 ## Pricing Enrichment
 
 The enrich step derives pricing, limits, and cost tiers for every registry
-model from three public catalogs:
+model from three kinds of catalogs:
 
 | Source | Scope | Endpoint | Auth |
 |---|---|---|---|
+| Provider `pricingSource` | A gateway's own resale prices (declared per plugin) | declared by each gateway | none or secret |
 | OpenRouter | Aggregated pricing for hundreds of models | `https://openrouter.ai/api/v1/models` | none (optional key) |
-| Requesty | Requesty's own resale prices for all routable models | `https://router.requesty.ai/v1/models` | none (optional key) |
 | Hugging Face Inference Providers | Open-weight models served by partner backends | `https://router.huggingface.co/v1/models` | none (optional token) |
 
-OpenRouter is the primary source. When it has no entry, Requesty's catalog is
-tried (the most accurate price for `requesty/*` models), then Hugging Face as a
-fallback for open-weight models (for example `deepinfra/deepseek-v3-0324`).
-Only entries that report pricing are used, so a catalog hit can never clear an
-existing tier.
+A gateway declares its own pricing catalog with the optional `pricingSource`
+field on its plugin config (for example Requesty's
+`https://router.requesty.ai/v1/models`, which is public and needs no token).
+The enrich step discovers those declarations, fetches the catalogs best-effort,
+and prices each provider's models from its own source first. Providers without
+a `pricingSource` keep relying on the aggregate catalogs. Field paths default
+to the OpenAI-compatible `/models` shape (`data`, `id`, `input_price`,
+`output_price`, `context_window`, prices in USD per token), so a minimal
+declaration is just `{ url }`.
+
+OpenRouter is the aggregate primary source. When neither a provider's own
+catalog nor OpenRouter has an entry, Hugging Face is tried as a fallback for
+open-weight models (for example `deepinfra/deepseek-v3-0324`). Only entries
+that report pricing are used, so a catalog hit can never clear an existing
+tier.
 
 ### Tier propagation
 
