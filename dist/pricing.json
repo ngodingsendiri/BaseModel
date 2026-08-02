@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "d55e27e",
-  "count": 1613,
+  "source_revision": "a16437c",
+  "count": 1625,
   "pricing": [
     {
       "pricing_id": "anthropic-claude-fable-5-input",
@@ -132,6 +132,22 @@
       "value": 2.15
     },
     {
+      "pricing_id": "deepinfra-deepseek-v3-0324-input",
+      "model_id": "deepinfra/deepseek-v3-0324",
+      "pricing_type": "input-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.24000000000000002
+    },
+    {
+      "pricing_id": "deepinfra-deepseek-v3-0324-output",
+      "model_id": "deepinfra/deepseek-v3-0324",
+      "pricing_type": "output-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.9
+    },
+    {
       "pricing_id": "deepinfra-deepseek-v3.1-terminus-input",
       "model_id": "deepinfra/deepseek-v3.1-terminus",
       "pricing_type": "input-token",
@@ -148,6 +164,22 @@
       "value": 1
     },
     {
+      "pricing_id": "deepinfra-deepseek-v3.1-input",
+      "model_id": "deepinfra/deepseek-v3.1",
+      "pricing_type": "input-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.25
+    },
+    {
+      "pricing_id": "deepinfra-deepseek-v3.1-output",
+      "model_id": "deepinfra/deepseek-v3.1",
+      "pricing_type": "output-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.95
+    },
+    {
       "pricing_id": "deepinfra-deepseek-v3.2-input",
       "model_id": "deepinfra/deepseek-v3.2",
       "pricing_type": "input-token",
@@ -162,6 +194,22 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 0.4
+    },
+    {
+      "pricing_id": "deepinfra-deepseek-v3-input",
+      "model_id": "deepinfra/deepseek-v3",
+      "pricing_type": "input-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.32
+    },
+    {
+      "pricing_id": "deepinfra-deepseek-v3-output",
+      "model_id": "deepinfra/deepseek-v3",
+      "pricing_type": "output-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.8899999999999999
     },
     {
       "pricing_id": "deepinfra-deepseek-v4-flash-0731-input",
@@ -441,7 +489,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.393
+      "value": 0.377
     },
     {
       "pricing_id": "deepinfra-glm-5.2-output",
@@ -449,7 +497,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1.236
+      "value": 1.184
     },
     {
       "pricing_id": "deepinfra-glm-5-input",
@@ -628,6 +676,22 @@
       "value": 3.5
     },
     {
+      "pricing_id": "deepinfra-llama-4-scout-17b-16e-instruct-input",
+      "model_id": "deepinfra/llama-4-scout-17b-16e-instruct",
+      "pricing_type": "input-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.1
+    },
+    {
+      "pricing_id": "deepinfra-llama-4-scout-17b-16e-instruct-output",
+      "model_id": "deepinfra/llama-4-scout-17b-16e-instruct",
+      "pricing_type": "output-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.3
+    },
+    {
       "pricing_id": "deepinfra-llama-guard-4-12b-input",
       "model_id": "deepinfra/llama-guard-4-12b",
       "pricing_type": "input-token",
@@ -772,6 +836,22 @@
       "value": 0.14
     },
     {
+      "pricing_id": "deepinfra-qwen2.5-72b-instruct-input",
+      "model_id": "deepinfra/qwen2.5-72b-instruct",
+      "pricing_type": "input-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.36
+    },
+    {
+      "pricing_id": "deepinfra-qwen2.5-72b-instruct-output",
+      "model_id": "deepinfra/qwen2.5-72b-instruct",
+      "pricing_type": "output-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.4
+    },
+    {
       "pricing_id": "deepinfra-qwen3-14b-input",
       "model_id": "deepinfra/qwen3-14b",
       "pricing_type": "input-token",
@@ -786,6 +866,22 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 0.91
+    },
+    {
+      "pricing_id": "deepinfra-qwen3-235b-a22b-instruct-2507-input",
+      "model_id": "deepinfra/qwen3-235b-a22b-instruct-2507",
+      "pricing_type": "input-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.09
+    },
+    {
+      "pricing_id": "deepinfra-qwen3-235b-a22b-instruct-2507-output",
+      "model_id": "deepinfra/qwen3-235b-a22b-instruct-2507",
+      "pricing_type": "output-token",
+      "currency": "USD",
+      "unit": "1M tokens",
+      "value": 0.55
     },
     {
       "pricing_id": "deepinfra-qwen3-235b-a22b-thinking-2507-input",
@@ -3687,7 +3783,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.393
+      "value": 0.377
     },
     {
       "pricing_id": "openrouter-glm-5.2-output",
@@ -3695,7 +3791,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1.236
+      "value": 1.184
     },
     {
       "pricing_id": "openrouter-glm-5-input",
@@ -8859,7 +8955,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.393
+      "value": 0.377
     },
     {
       "pricing_id": "requesty-glm-5.2-output",
@@ -8867,7 +8963,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1.236
+      "value": 1.184
     },
     {
       "pricing_id": "requesty-glm-5-input",
@@ -11371,7 +11467,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.393
+      "value": 0.377
     },
     {
       "pricing_id": "vercel-glm-5.2-output",
@@ -11379,7 +11475,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1.236
+      "value": 1.184
     },
     {
       "pricing_id": "vercel-glm-5-input",

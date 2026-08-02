@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "d55e27e",
+  "source_revision": "a16437c",
   "count": 1539,
   "models": [
     {
@@ -848,6 +848,7 @@
       "model_id": "deepinfra/deepseek-v3-0324",
       "provider_id": "deepinfra",
       "name": "deepseek-ai/DeepSeek-V3-0324",
+      "context_window": 163840,
       "modality": [
         "text"
       ],
@@ -859,6 +860,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
+      "limits": {
+        "max_input_tokens": 163840
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -890,6 +896,7 @@
       "model_id": "deepinfra/deepseek-v3.1",
       "provider_id": "deepinfra",
       "name": "deepseek-ai/DeepSeek-V3.1",
+      "context_window": 163840,
       "modality": [
         "text"
       ],
@@ -901,6 +908,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
+      "limits": {
+        "max_input_tokens": 163840
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -932,6 +944,7 @@
       "model_id": "deepinfra/deepseek-v3",
       "provider_id": "deepinfra",
       "name": "deepseek-ai/DeepSeek-V3",
+      "context_window": 163840,
       "modality": [
         "text"
       ],
@@ -943,6 +956,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
+      "limits": {
+        "max_input_tokens": 163840
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -2240,6 +2258,7 @@
       "model_id": "deepinfra/llama-4-scout-17b-16e-instruct",
       "provider_id": "deepinfra",
       "name": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+      "context_window": 327680,
       "modality": [
         "text"
       ],
@@ -2251,6 +2270,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
+      "limits": {
+        "max_input_tokens": 327680
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -2942,6 +2966,7 @@
       "model_id": "deepinfra/qwen2.5-72b-instruct",
       "provider_id": "deepinfra",
       "name": "Qwen/Qwen2.5-72B-Instruct",
+      "context_window": 32768,
       "modality": [
         "text"
       ],
@@ -2953,6 +2978,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
+      "limits": {
+        "max_input_tokens": 32768
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -2984,6 +3014,7 @@
       "model_id": "deepinfra/qwen3-235b-a22b-instruct-2507",
       "provider_id": "deepinfra",
       "name": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+      "context_window": 262144,
       "modality": [
         "text"
       ],
@@ -2995,6 +3026,11 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
+      "limits": {
+        "max_input_tokens": 262144
+      },
       "capability_ids": [],
       "status": "active"
     },
@@ -18032,6 +18068,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
       "capability_ids": [],
       "status": "active"
     },
@@ -18050,6 +18088,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
       "capability_ids": [],
       "status": "active"
     },
@@ -18068,6 +18108,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
       "capability_ids": [],
       "status": "active"
     },
@@ -18086,6 +18128,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
       "capability_ids": [],
       "status": "active"
     },
@@ -18104,6 +18148,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
       "capability_ids": [],
       "status": "active"
     },
@@ -18122,6 +18168,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
       "capability_ids": [],
       "status": "active"
     },
@@ -18158,6 +18206,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
       "capability_ids": [],
       "status": "active"
     },
@@ -18176,6 +18226,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
       "capability_ids": [],
       "status": "active"
     },
@@ -18194,6 +18246,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
       "capability_ids": [],
       "status": "active"
     },
@@ -18212,6 +18266,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
       "capability_ids": [],
       "status": "active"
     },
@@ -18230,6 +18286,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
       "capability_ids": [],
       "status": "active"
     },
@@ -18812,6 +18870,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
       "capability_ids": [],
       "status": "active"
     },
@@ -18830,6 +18890,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
       "capability_ids": [],
       "status": "active"
     },
@@ -18848,6 +18910,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
       "capability_ids": [],
       "status": "active"
     },
@@ -18866,6 +18930,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
       "capability_ids": [],
       "status": "active"
     },
@@ -18902,6 +18968,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
       "capability_ids": [],
       "status": "active"
     },
@@ -18920,6 +18988,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
       "capability_ids": [],
       "status": "active"
     },
@@ -18938,6 +19008,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
       "capability_ids": [],
       "status": "active"
     },
@@ -18956,6 +19028,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
       "capability_ids": [],
       "status": "active"
     },
@@ -18974,6 +19048,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "premium",
       "capability_ids": [],
       "status": "active"
     },
@@ -19814,6 +19890,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
       "capability_ids": [],
       "status": "active"
     },
@@ -19850,6 +19928,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
       "capability_ids": [],
       "status": "active"
     },
@@ -19892,6 +19972,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
       "capability_ids": [],
       "status": "active"
     },
@@ -25808,6 +25890,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
       "capability_ids": [],
       "status": "active"
     },
@@ -25862,6 +25946,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
       "capability_ids": [],
       "status": "active"
     },
@@ -27020,6 +27106,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
       "capability_ids": [],
       "status": "active"
     },
@@ -27080,6 +27168,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "budget",
       "capability_ids": [],
       "status": "active"
     },
@@ -30740,6 +30830,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "is_free": false,
+      "tier": "balanced",
       "capability_ids": [],
       "status": "active"
     },

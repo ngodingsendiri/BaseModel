@@ -2,6 +2,7 @@
   "model_id": "deepinfra/llama-4-scout-17b-16e-instruct",
   "provider_id": "deepinfra",
   "name": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+  "context_window": 327680,
   "modality": [
     "text"
   ],
@@ -13,6 +14,11 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
+  "is_free": false,
+  "tier": "budget",
+  "limits": {
+    "max_input_tokens": 327680
+  },
   "capability_ids": [],
   "status": "active"
 }

@@ -14,5 +14,7 @@
   "image_generation": false,
   "embedding_support": false,
   "capability_ids": [],
-  "status": "active"
+  "status": "active",
+  "tier": "budget",
+  "is_free": false
 }

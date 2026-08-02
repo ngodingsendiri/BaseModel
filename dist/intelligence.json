@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "d55e27e",
+  "source_revision": "a16437c",
   "count": 1539,
   "intelligence": [
     {
@@ -929,8 +929,8 @@
     },
     {
       "model_id": "deepinfra/deepseek-v3-0324",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.405,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -973,8 +973,8 @@
     },
     {
       "model_id": "deepinfra/deepseek-v3.1",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.425,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -1017,8 +1017,8 @@
     },
     {
       "model_id": "deepinfra/deepseek-v3",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.46249999999999997,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -1920,7 +1920,7 @@
     {
       "model_id": "deepinfra/glm-5.2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.60375,
+      "blended_cost_per_1m": 0.57875,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -2403,8 +2403,8 @@
     },
     {
       "model_id": "deepinfra/llama-4-scout-17b-16e-instruct",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.15000000000000002,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -3195,8 +3195,8 @@
     },
     {
       "model_id": "deepinfra/qwen2.5-72b-instruct",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.37,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -3239,8 +3239,8 @@
     },
     {
       "model_id": "deepinfra/qwen3-235b-a22b-instruct-2507",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.20500000000000002,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -12106,7 +12106,7 @@
     {
       "model_id": "openrouter/glm-5.2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.60375,
+      "blended_cost_per_1m": 0.57875,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -21896,7 +21896,7 @@
     {
       "model_id": "requesty/glm-5.2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.60375,
+      "blended_cost_per_1m": 0.57875,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
@@ -28650,7 +28650,7 @@
     {
       "model_id": "vercel/glm-5.2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.60375,
+      "blended_cost_per_1m": 0.57875,
       "alternatives": [
         {
           "model_id": "google/gemini-1.5-pro",
