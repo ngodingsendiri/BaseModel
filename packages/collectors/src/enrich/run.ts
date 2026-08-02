@@ -7,9 +7,12 @@ async function main() {
   const summary = await runEnrichment();
 
   console.log('');
+  if (summary.fatal) {
+    console.log('❌ Enrichment failed: all primary pricing sources were unavailable.');
+    process.exit(1);
+  }
   if (summary.errors.length > 0) {
     console.log('⚠️ Enrichment completed with warnings.');
-    process.exitCode = 0;
   } else {
     console.log('🎉 Enrichment finished successfully.');
   }

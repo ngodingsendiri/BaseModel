@@ -53,6 +53,30 @@ describe('ProviderSchema', () => {
     expect(result.success).toBe(true);
   });
 
+  it('accepts a provider without a website (never fabricated)', () => {
+    const result = ProviderSchema.safeParse({
+      provider_id: 'unknown-gw',
+      name: 'Unknown GW',
+      organization: 'Unknown GW',
+      provider_type: 'gateway',
+      status: 'active',
+    });
+    expect(result.success).toBe(true);
+  });
+
+  it('accepts a provider with an updated_at timestamp', () => {
+    const result = ProviderSchema.safeParse({
+      provider_id: 'openai',
+      name: 'OpenAI',
+      organization: 'OpenAI LP',
+      website: 'https://openai.com',
+      provider_type: 'first-party',
+      status: 'active',
+      updated_at: '2026-08-02T00:00:00.000Z',
+    });
+    expect(result.success).toBe(true);
+  });
+
   it('rejects an invalid provider_id (spaces)', () => {
     const result = ProviderSchema.safeParse({
       provider_id: 'open ai',
@@ -121,5 +145,37 @@ describe('ModelSchema', () => {
   it('rejects a negative context_window', () => {
     const result = ModelSchema.safeParse({ ...validModel, context_window: -1 });
     expect(result.success).toBe(false);
+  });
+
+  it('accepts a model with an updated_at timestamp', () => {
+    const result = ModelSchema.safeParse({
+      ...validModel,
+      updated_at: '2026-08-02T00:00:00.000Z',
+    });
+    expect(result.success).toBe(true);
+  });
+});
+
+describe('PricingSchema', () => {
+  const validPricing = {
+    pricing_id: 'openai-gpt-4o-input',
+    model_id: 'openai/gpt-4o',
+    pricing_type: 'input-token',
+    currency: 'USD',
+    unit: '1M tokens',
+    value: 5,
+  };
+
+  it('parses a valid pricing record', () => {
+    expect(PricingSchema.safeParse(validPricing).success).toBe(true);
+  });
+
+  it('accepts source provenance and updated_at', () => {
+    const result = PricingSchema.safeParse({
+      ...validPricing,
+      source: 'openrouter',
+      updated_at: '2026-08-02T00:00:00.000Z',
+    });
+    expect(result.success).toBe(true);
   });
 });

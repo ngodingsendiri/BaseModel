@@ -8,6 +8,7 @@ import {
   listRegistryFiles,
   saveModel,
   savePricingRecords,
+  writeRegistryFile,
 } from '@basemodel/registry';
 import type { Model, Pricing } from '@basemodel/schema';
 import type { PricingSourceSpec } from '../core/collector.js';
@@ -30,6 +31,8 @@ export interface EnrichmentSummary {
   huggingFaceModels: number;
   providerPricingModels: number;
   tierPropagated: number;
+  /** True when the primary pricing sources all failed and output is unusable. */
+  fatal: boolean;
 }
 
 /** Builds an exact-id lookup and a slug lookup from the OpenRouter catalog. */
@@ -197,7 +200,7 @@ export function findOpenRouterMatch(
   return firstParty ?? candidates[0];
 }
 
-function buildPricingRecords(model: Model, match: OpenRouterModel): Pricing[] {
+function buildPricingRecords(model: Model, match: OpenRouterModel, source: string): Pricing[] {
   const slug = model.model_id.split('/').pop() ?? model.model_id;
   const records: Pricing[] = [];
   const push = (pricingType: 'input-token' | 'output-token', value: number): void => {
@@ -208,6 +211,7 @@ function buildPricingRecords(model: Model, match: OpenRouterModel): Pricing[] {
       currency: 'USD',
       unit: '1M tokens',
       value,
+      source,
     });
   };
 
@@ -217,6 +221,7 @@ function buildPricingRecords(model: Model, match: OpenRouterModel): Pricing[] {
       model_id: model.model_id,
       pricing_type: 'free',
       value: 0,
+      source,
     });
     return records;
   }
@@ -255,6 +260,7 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
     huggingFaceModels: 0,
     providerPricingModels: 0,
     tierPropagated: 0,
+    fatal: false,
   };
 
   let models: Model[];
@@ -267,14 +273,17 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
     return summary;
   }
 
-  let catalog: OpenRouterModel[];
+  let catalog: OpenRouterModel[] = [];
+  let openRouterFailed = false;
   try {
     catalog = await fetchOpenRouterModels(process.env.OPENROUTER_API_KEY);
   } catch (error: unknown) {
+    // Do not return early: gateway-declared catalogs and Hugging Face may
+    // still produce useful pricing. Fatal is decided once all sources ran.
+    openRouterFailed = true;
     summary.errors.push(
       `Failed to fetch OpenRouter catalog: ${error instanceof Error ? error.message : String(error)}`,
     );
-    return summary;
   }
 
   // Hugging Face Inference Providers is a best-effort secondary source.
@@ -318,10 +327,20 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
 
   for (const model of models) {
     const providerIndex = providerIndexes.get(model.provider_id);
-    const match =
-      (providerIndex ? findPricingMatch(model, providerIndex) : undefined) ??
-      findOpenRouterMatch(model, index) ??
-      findHuggingFaceMatch(model, hfIndex);
+    let match: OpenRouterModel | undefined;
+    let matchSource: 'provider' | 'openrouter' | 'huggingface' | undefined;
+    if (providerIndex) {
+      match = findPricingMatch(model, providerIndex);
+      if (match) matchSource = 'provider';
+    }
+    if (!match) {
+      match = findOpenRouterMatch(model, index);
+      if (match) matchSource = 'openrouter';
+    }
+    if (!match) {
+      match = findHuggingFaceMatch(model, hfIndex);
+      if (match) matchSource = 'huggingface';
+    }
     if (!match) continue;
 
     const hasPricing = match.inputPer1M !== undefined || match.outputPer1M !== undefined;
@@ -335,7 +354,11 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
         ? undefined
         : classified.tier;
     const limits = buildLimits(match);
-    const pricing = buildPricingRecords(model, match);
+    // Provenance: name the exact source. For provider-declared catalogs the
+    // source is the gateway id (e.g. "requesty"); for aggregates it is the
+    // catalog name.
+    const priceSource = matchSource === 'provider' ? model.provider_id : (matchSource ?? 'unknown');
+    const pricing = buildPricingRecords(model, match, priceSource);
 
     const updatedModel: Model = {
       ...model,
@@ -389,7 +412,6 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
   );
   merged.push(...newPricing);
   summary.pricingRecords = merged.length;
-
   const byProvider = new Map<string, Pricing[]>();
   for (const record of merged) {
     const provider = record.model_id.split('/')[0] ?? 'unknown';
@@ -420,7 +442,26 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
   console.log(
     `  pricing            : ${summary.pricingRecords} records across ${byProvider.size} providers`,
   );
-  if (summary.errors.length > 0) {
+
+  // Fail loudly: when the primary pricing sources are all unavailable the
+  // enriched output would silently mislead consumers. Surface it in the
+  // summary, persist it to meta.json, and let the CLI exit non-zero.
+  summary.fatal =
+    openRouterFailed && summary.providerPricingModels === 0 && summary.huggingFaceModels === 0;
+  await writeRegistryFile('meta.json', {
+    generated_at: new Date().toISOString(),
+    fatal: summary.fatal,
+    sources: {
+      openrouter: openRouterFailed ? 'failed' : 'ok',
+      provider_pricing_models: summary.providerPricingModels,
+      huggingface_models: summary.huggingFaceModels,
+    },
+    errors: summary.errors,
+  });
+
+  if (summary.fatal) {
+    console.error('❌ Enrichment FATAL: all primary pricing sources failed.');
+  } else if (summary.errors.length > 0) {
     console.warn('Enrichment errors:', summary.errors);
   }
   return summary;

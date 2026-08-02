@@ -16,7 +16,9 @@ import {
   getAllModels,
   getAllPricing,
   getAllProviders,
+  readRegistryFile,
 } from '@basemodel/registry';
+import { BLENDED_DIVISOR, INPUT_WEIGHT, OUTPUT_WEIGHT } from '@basemodel/schema';
 
 const SCHEMA_VERSION = '0.1.0';
 
@@ -53,15 +55,18 @@ export function getSourceRevision(): string {
 
 export async function generate(outputDir = OUTPUT_DIR): Promise<void> {
   const source_revision = getSourceRevision();
+  const generated_at = new Date().toISOString();
 
   const meta = {
     schema_version: SCHEMA_VERSION,
     source_revision,
+    generated_at,
   };
 
   console.log('📦 BaseModel — Dataset Generator');
   console.log(`   schema_version : ${meta.schema_version}`);
   console.log(`   source_revision: ${meta.source_revision}`);
+  console.log(`   generated_at   : ${meta.generated_at}`);
   console.log(`   output_dir     : ${outputDir}`);
   console.log('');
 
@@ -180,7 +185,35 @@ export async function generate(outputDir = OUTPUT_DIR): Promise<void> {
       2,
     )}\n`,
   );
-  console.log(`✅ intelligence.json — ${intelligenceRecords.length} records`);
+  console.log('✅ intelligence.json —', intelligenceRecords.length, 'records');
+
+  // --- metadata.json ---
+  console.log('⏳ Writing metadata...');
+  const enrichMeta =
+    (await readRegistryFile<{
+      generated_at?: string;
+      fatal?: boolean;
+      sources?: Record<string, unknown>;
+      errors?: string[];
+    }>('meta.json')) ?? {};
+  const metadata = {
+    ...meta,
+    tier_definitions: {
+      free: 'Both input and output cost $0 per 1M tokens.',
+      budget: 'Blended cost < $0.50 per 1M tokens.',
+      balanced: 'Blended cost >= $0.50 and <= $5 per 1M tokens.',
+      premium: 'Blended cost > $5 per 1M tokens.',
+    },
+    blend: {
+      input_weight: INPUT_WEIGHT,
+      output_weight: OUTPUT_WEIGHT,
+      divisor: BLENDED_DIVISOR,
+      formula: 'blended = (input * 3 + output * 1) / 4 per 1M tokens',
+    },
+    enrichment: enrichMeta,
+  };
+  await writeFile(join(outputDir, 'metadata.json'), `${JSON.stringify(metadata, null, 2)}\n`);
+  console.log('✅ metadata.json');
 
   console.log('');
   console.log(`🎉 Done. Datasets written to: ${outputDir}`);

@@ -22,6 +22,13 @@ export const PricingSchema = z.object({
   unit: z.string().optional(), // e.g. "1M tokens", "request"
   value: z.number().nonnegative().optional(), // Cost per unit. 0 for free.
   notes: z.string().optional(),
+  // --- Provenance ---
+  // Which source produced this price: "openrouter", "huggingface", or a
+  // provider gateway id (e.g. "requesty") for provider-owned catalogs.
+  source: z.string().min(1).optional(),
+  // --- Freshness ---
+  // ISO 8601 timestamp set on every save.
+  updated_at: z.string().datetime().optional(),
 });
 
 export type Pricing = z.infer<typeof PricingSchema>;

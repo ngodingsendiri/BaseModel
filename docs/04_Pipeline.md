@@ -75,8 +75,9 @@ Current outputs are:
 - `benchmarks.json`
 - `pricing.json`
 - `intelligence.json`
+- `metadata.json`
 
-Each file includes `schema_version`, `source_revision`, and `count` metadata.
+Each file includes `schema_version`, `source_revision`, `generated_at`, and `count` metadata.
 
 ### Publication
 
@@ -158,6 +159,66 @@ enrich step propagates the coarse cost **tier** (and free flag) from any other
 provider of the same physical model, preferring first-party sources. Prices are
 never copied between providers, because router markup differs from the upstream
 provider.
+
+## Data Governance
+
+The pipeline publishes enough metadata for consumers to judge how fresh and
+trustworthy a snapshot is.
+
+### Freshness
+
+- Every saved `Model`, `Pricing`, and `Provider` record carries an `updated_at`
+  ISO 8601 timestamp set on each write. Records that were never re-saved lack
+  the field entirely, which consumers can use to detect stale entries.
+- Every generated dataset and `metadata.json` carries a `generated_at` timestamp
+  for the run.
+
+### Lifecycle
+
+Models carry a `status` of `active`, `preview`, `deprecated`, or `discontinued`.
+After a collection round, any model that a successfully fetched gateway catalog
+no longer lists is marked `discontinued` (`reconcileLifecycle`). Reconciliation
+only runs for error-free collections, so a failed fetch (auth, rate limit,
+outage) can never deprecate an entire provider's models.
+
+### Provenance
+
+Every pricing record reports which source produced it via `source`:
+`openrouter`, `huggingface`, or a gateway id such as `requesty` for a
+provider-declared catalog.
+
+### Tier definitions
+
+Tiers are derived from a blended per-1M-token cost
+`(input * 3 + output * 1) / 4`:
+
+| Tier | Rule |
+|---|---|
+| `free` | Both input and output cost $0 |
+| `budget` | Blended < $0.50 |
+| `balanced` | Blended >= $0.50 and <= $5 |
+| `premium` | Blended > $5 |
+
+The same definitions are published in `dist/metadata.json` (`tier_definitions`
+and `blend`).
+
+### Fail loudly
+
+Enrichment no longer degrades silently:
+
+- If the OpenRouter catalog fails, enrichment continues with the provider and
+  Hugging Face sources instead of aborting early.
+- If **all** primary pricing sources fail (OpenRouter plus every provider
+  catalog plus Hugging Face), the run is marked `fatal` and the CLI exits
+  non-zero so CI cannot commit stale data as if it were healthy.
+- A `data/registry/meta.json` written by enrichment records `generated_at`,
+  per-source status, and errors; the publisher surfaces it inside
+  `dist/metadata.json`.
+
+### Provider metadata
+
+Provider `website` is optional and never fabricated. Unknown providers are
+registered with derived name/type only; URLs are added when verified.
 
 ## Automation
 

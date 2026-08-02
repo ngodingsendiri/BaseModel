@@ -30,6 +30,15 @@ export * from './merge.js';
 export * from './storage.js';
 export * from './validation.js';
 
+/**
+ * Stamps `updated_at` on an entity so the registry records when a row was
+ * last refreshed. Consumers can compare it across snapshots to detect stale
+ * or never-refreshed entries (which lack the field entirely).
+ */
+export function stampUpdatedAt<T extends object>(entity: T): T & { updated_at: string } {
+  return { ...entity, updated_at: new Date().toISOString() };
+}
+
 // --- Provider ---
 
 export async function getAllProviders(): Promise<Provider[]> {
@@ -45,7 +54,7 @@ export async function getProvider(providerId: string): Promise<Provider | null> 
 }
 
 export async function saveProvider(provider: Provider): Promise<void> {
-  await writeRegistryFile(`providers/${provider.provider_id}.json`, provider);
+  await writeRegistryFile(`providers/${provider.provider_id}.json`, stampUpdatedAt(provider));
 }
 
 // --- Model ---
@@ -63,8 +72,13 @@ export async function getModel(modelId: string): Promise<Model | null> {
   return result.success ? (result.data as Model) : null;
 }
 
+export async function getModelsByProvider(providerId: string): Promise<Model[]> {
+  const all = await getAllModels();
+  return all.filter((m) => m.provider_id === providerId);
+}
+
 export async function saveModel(model: Model): Promise<void> {
-  await writeRegistryFile(`models/${model.model_id}.json`, model);
+  await writeRegistryFile(`models/${model.model_id}.json`, stampUpdatedAt(model));
 }
 
 // --- Capability ---
@@ -108,7 +122,10 @@ export async function getAllPricing(): Promise<Pricing[]> {
  * Overwrites any existing records for that provider.
  */
 export async function savePricingRecords(providerId: string, records: Pricing[]): Promise<void> {
-  await writeRegistryFile(`pricing/${providerId}.json`, records);
+  await writeRegistryFile(
+    `pricing/${providerId}.json`,
+    records.map((r) => stampUpdatedAt(r)),
+  );
 }
 
 /**

@@ -4,6 +4,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
   getModel,
+  getModelsByProvider,
   getProvider,
   mergeModelData,
   saveModel,
@@ -362,13 +363,19 @@ function toTitleCase(value: string): string {
 /** Registers a minimal Provider record the first time models reference it. */
 async function ensureProviderRegistered(providerId: string): Promise<void> {
   const existing = await getProvider(providerId);
-  if (existing) return;
+  if (existing) {
+    // Stamp freshness on every successful collection so consumers can tell
+    // when a provider record was last verified against its gateway.
+    await saveProvider(existing);
+    return;
+  }
   const info = PROVIDER_INFO[providerId];
   const provider: Provider = {
     provider_id: providerId,
     name: info?.name ?? toTitleCase(providerId),
     organization: info?.organization ?? toTitleCase(providerId),
-    website: info?.website ?? `https://${providerId}.com`,
+    // Never fabricate a URL: website is optional and only set when known.
+    website: info?.website,
     provider_type: info?.provider_type ?? 'gateway',
     status: 'active',
   };
@@ -405,6 +412,35 @@ async function persistResult(result: CollectionResult): Promise<void> {
   console.log(`New: ${newCount} | Updated: ${updatedCount} | Failed: ${failedCount}`);
 }
 
+interface GatewayOutcome {
+  success: boolean;
+  seen: Set<string>;
+}
+
+/**
+ * Marks registry models `discontinued` when their gateway's catalog was
+ * fetched successfully but no longer lists them. Reconciliation only runs for
+ * error-free collections: a failed fetch (auth, rate limit, outage) must never
+ * deprecate an entire provider's models.
+ */
+async function reconcileLifecycle(outcomes: Map<string, GatewayOutcome>): Promise<void> {
+  let deprecatedCount = 0;
+  for (const [providerId, outcome] of outcomes) {
+    if (!outcome.success) continue;
+    const existing = await getModelsByProvider(providerId);
+    for (const model of existing) {
+      if (outcome.seen.has(model.model_id)) continue;
+      if (model.status === 'deprecated' || model.status === 'discontinued') continue;
+      await saveModel({ ...model, status: 'discontinued' });
+      deprecatedCount++;
+      console.log(`Discontinued ${model.model_id} (no longer listed by ${providerId})`);
+    }
+  }
+  if (deprecatedCount > 0) {
+    console.log(`Reconciled ${deprecatedCount} discontinued model(s)`);
+  }
+}
+
 export async function runAllGateways(): Promise<void> {
   const directory = path.dirname(fileURLToPath(import.meta.url));
   const gatewaysDirectory = path.join(directory, '..', 'gateways');
@@ -421,6 +457,7 @@ export async function runAllGateways(): Promise<void> {
   }
 
   console.log(`Found ${files.length} gateway plugin(s): ${files.join(', ')}`);
+  const outcomes = new Map<string, GatewayOutcome>();
   const results = await Promise.allSettled(
     files.map(async (file) => {
       const pluginPath = path.join(gatewaysDirectory, file);
@@ -430,6 +467,17 @@ export async function runAllGateways(): Promise<void> {
       const result = await executeGatewayPlugin(pluginPath, plugin);
       if (result.errors.length > 0) console.warn('Collection errors:', result.errors);
       console.log(`Fetched ${result.models.length} models from ${plugin.id}`);
+      outcomes.set(plugin.id, {
+        success: result.errors.length === 0,
+        seen: new Set(
+          result.models
+            .map((m) => {
+              if (!m.model_id || !m.provider_id) return null;
+              return normalizeModelId(m.model_id, m.provider_id);
+            })
+            .filter((id): id is string => id !== null),
+        ),
+      });
       await persistResult(result);
     }),
   );
@@ -438,4 +486,5 @@ export async function runAllGateways(): Promise<void> {
       console.error(`Failed to load or run gateway ${files[index]}:`, outcome.reason);
     }
   }
+  await reconcileLifecycle(outcomes);
 }

@@ -12,6 +12,7 @@ const registry = vi.hoisted(() => ({
   getAllModels: vi.fn(),
   getAllPricing: vi.fn(),
   getAllProviders: vi.fn(),
+  readRegistryFile: vi.fn(),
 }));
 
 const intelligence = vi.hoisted(() => ({
@@ -81,6 +82,7 @@ describe('generate', () => {
     registry.getAllModels.mockResolvedValue([sampleModel()]);
     registry.getAllPricing.mockResolvedValue([samplePricing()]);
     registry.getAllProviders.mockResolvedValue([sampleProvider()]);
+    registry.readRegistryFile.mockResolvedValue(null);
     intelligence.calculateCostEfficiency.mockReturnValue({
       modelId: 'openai/gpt-4o',
       isFree: false,
@@ -119,10 +121,12 @@ describe('generate', () => {
     const intelligenceOut = JSON.parse(
       await readFile(join(outputDir, 'intelligence.json'), 'utf-8'),
     );
+    const metadata = JSON.parse(await readFile(join(outputDir, 'metadata.json'), 'utf-8'));
 
     expect(providers.schema_version).toBe('0.1.0');
     expect(providers.count).toBe(1);
     expect(providers.providers[0]?.provider_id).toBe('openai');
+    expect(providers.generated_at).toMatch(/^\d{4}-\d{2}-\d{2}T/);
     expect(models.count).toBe(1);
     expect(models.models[0]?.model_id).toBe('openai/gpt-4o');
     expect(capabilities.count).toBe(0);
@@ -133,6 +137,9 @@ describe('generate', () => {
     expect(intelligenceOut.count).toBe(1);
     expect(intelligenceOut.intelligence[0]?.cost_tier).toBe('Premium');
     expect(intelligenceOut.intelligence[0]?.blended_cost_per_1m).toBe(7.5);
+    expect(metadata.generated_at).toMatch(/^\d{4}-\d{2}-\d{2}T/);
+    expect(metadata.tier_definitions.free).toBeDefined();
+    expect(metadata.enrichment).toEqual({});
   });
 
   it('throws when a model references an unknown provider', async () => {

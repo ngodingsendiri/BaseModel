@@ -13,12 +13,16 @@ export const ProviderSchema = z.object({
   }),
   name: z.string().min(1),
   organization: z.string().min(1),
-  website: HttpUrlSchema,
+  // Optional: never fabricate a URL. Only set when we have real data.
+  website: HttpUrlSchema.optional(),
   documentation: HttpUrlSchema.optional(),
   country: z.string().min(2).optional(),
   description: z.string().optional(),
   provider_type: z.enum(['first-party', 'gateway', 'router']),
   status: z.enum(['active', 'inactive', 'deprecated']),
+  // --- Freshness ---
+  // ISO 8601 timestamp set on every save.
+  updated_at: z.string().datetime().optional(),
 });
 
 export type Provider = z.infer<typeof ProviderSchema>;

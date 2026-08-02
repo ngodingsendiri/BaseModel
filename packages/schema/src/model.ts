@@ -54,6 +54,11 @@ export const ModelSchema = z.object({
 
   // --- Status ---
   status: z.enum(['active', 'preview', 'deprecated', 'discontinued']),
+
+  // --- Freshness ---
+  // ISO 8601 timestamp set on every save; records that were never re-saved
+  // lack it, which consumers can use to detect stale entries.
+  updated_at: z.string().datetime().optional(),
 });
 
 export type Model = z.infer<typeof ModelSchema>;
