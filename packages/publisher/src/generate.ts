@@ -2,7 +2,7 @@ import { execSync } from 'node:child_process';
 import { existsSync, readFileSync } from 'node:fs';
 import { mkdir, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
-import { fileURLToPath, pathToFileURL } from 'node:url';
+import { pathToFileURL } from 'node:url';
 import {
   calculateCostEfficiency,
   findAlternatives,
@@ -187,7 +187,7 @@ export async function generate(outputDir = OUTPUT_DIR): Promise<void> {
 }
 
 // Auto-run only when invoked directly (`pnpm generate`), not on import.
-if (process.argv[1] && fileURLToPath(import.meta.url) === pathToFileURL(process.argv[1]).pathname) {
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   generate().catch((err: unknown) => {
     console.error('❌ Generation failed:', err);
     process.exit(1);

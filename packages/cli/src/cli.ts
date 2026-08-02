@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { fileURLToPath, pathToFileURL } from 'node:url';
+import { pathToFileURL } from 'node:url';
 import {
   calculateCostEfficiency,
   findAlternatives,
@@ -221,7 +221,7 @@ async function main(): Promise<void> {
 }
 
 // Auto-run only when invoked directly (`basemodel ...`), not on import.
-if (process.argv[1] && fileURLToPath(import.meta.url) === pathToFileURL(process.argv[1]).pathname) {
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   main().catch((err: unknown) => {
     console.error('Error:', err instanceof Error ? err.message : err);
     process.exit(1);
