@@ -112,6 +112,22 @@
     "value": 12
   },
   {
+    "pricing_id": "google-gemini-3-pro-preview-input",
+    "model_id": "google/gemini-3-pro-preview",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 2
+  },
+  {
+    "pricing_id": "google-gemini-3-pro-preview-output",
+    "model_id": "google/gemini-3-pro-preview",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 12
+  },
+  {
     "pricing_id": "google-gemini-3.1-flash-image-preview-input",
     "model_id": "google/gemini-3.1-flash-image-preview",
     "pricing_type": "input-token",

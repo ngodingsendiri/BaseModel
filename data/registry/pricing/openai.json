@@ -192,6 +192,22 @@
     "value": 10
   },
   {
+    "pricing_id": "openai-gpt-5-codex-input",
+    "model_id": "openai/gpt-5-codex",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.25
+  },
+  {
+    "pricing_id": "openai-gpt-5-codex-output",
+    "model_id": "openai/gpt-5-codex",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 10
+  },
+  {
     "pricing_id": "openai-gpt-5-mini-input",
     "model_id": "openai/gpt-5-mini",
     "pricing_type": "input-token",

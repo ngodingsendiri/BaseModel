@@ -15,5 +15,10 @@
   "image_generation": false,
   "embedding_support": false,
   "capability_ids": [],
-  "status": "active"
+  "status": "active",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 262144
+  }
 }

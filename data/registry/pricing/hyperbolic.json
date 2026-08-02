@@ -32,6 +32,22 @@
     "value": 2.5
   },
   {
+    "pricing_id": "hyperbolic-deepseek-v3-0324-input",
+    "model_id": "hyperbolic/deepseek-v3-0324",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.4
+  },
+  {
+    "pricing_id": "hyperbolic-deepseek-v3-0324-output",
+    "model_id": "hyperbolic/deepseek-v3-0324",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.3
+  },
+  {
     "pricing_id": "hyperbolic-llama-3.3-70b-instruct-input",
     "model_id": "hyperbolic/llama-3.3-70b-instruct",
     "pricing_type": "input-token",
@@ -46,5 +62,21 @@
     "currency": "USD",
     "unit": "1M tokens",
     "value": 0.4
+  },
+  {
+    "pricing_id": "hyperbolic-qwen3-coder-480b-a35b-instruct-input",
+    "model_id": "hyperbolic/qwen3-coder-480b-a35b-instruct",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.4
+  },
+  {
+    "pricing_id": "hyperbolic-qwen3-coder-480b-a35b-instruct-output",
+    "model_id": "hyperbolic/qwen3-coder-480b-a35b-instruct",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 1.6
   }
 ]
