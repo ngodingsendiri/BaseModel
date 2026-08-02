@@ -123,6 +123,30 @@ The token is optional. Without it, the Mirror fallback still produces ranked
 text/code data; with it, the primary LMArena and Open LLM Leaderboard sources
 are used and the catalog is much larger.
 
+## Pricing Enrichment
+
+The enrich step derives pricing, limits, and cost tiers for every registry
+model from two public catalogs:
+
+| Source | Scope | Endpoint | Auth |
+|---|---|---|---|
+| OpenRouter | Aggregated pricing for hundreds of models | `https://openrouter.ai/api/v1/models` | none (optional key) |
+| Hugging Face Inference Providers | Open-weight models served by partner backends | `https://router.huggingface.co/v1/models` | none (optional token) |
+
+OpenRouter is the primary source. When it has no entry, Hugging Face is tried
+as a fallback for open-weight models (for example `deepinfra/deepseek-v3-0324`).
+Only entries that report pricing are used, so a catalog hit can never clear an
+existing tier.
+
+### Tier propagation
+
+Models re-served by router providers (`requesty`, `vercel`, `openrouter`) do
+not have their own price; they resell an upstream model. For those aliases the
+enrich step propagates the coarse cost **tier** (and free flag) from any other
+provider of the same physical model, preferring first-party sources. Prices are
+never copied between providers, because router markup differs from the upstream
+provider.
+
 ## Automation
 
 The pipeline is automated through GitHub Actions:

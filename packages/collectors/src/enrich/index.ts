@@ -9,6 +9,11 @@ import {
 import type { Model, Pricing } from '@basemodel/schema';
 import { toModelSlug } from '../core/slug.js';
 import { classifyTier } from './classify.js';
+import {
+  fetchHuggingFaceModels,
+  findHuggingFaceMatch,
+  indexHuggingFace,
+} from './sources/huggingface.js';
 import { fetchOpenRouterModels, type OpenRouterModel } from './sources/openrouter.js';
 
 export interface EnrichmentSummary {
@@ -16,6 +21,8 @@ export interface EnrichmentSummary {
   pricingRecords: number;
   freeModels: number;
   errors: string[];
+  huggingFaceModels: number;
+  tierPropagated: number;
 }
 
 /** Builds an exact-id lookup and a slug lookup from the OpenRouter catalog. */
@@ -44,6 +51,60 @@ const REGION_SUFFIX_RE = /-(eu|us|ap|sa|me|ca|global)(?:-[a-z0-9]+)*$/i;
 /** Strips a trailing region suffix, e.g. "claude-fable-5-eu" -> "claude-fable-5". */
 function stripRegionSuffix(slug: string): string {
   return slug.replace(REGION_SUFFIX_RE, '');
+}
+
+/** Router providers that re-serve upstream models; tier equals the source model. */
+const ROUTER_PROVIDERS = new Set(['requesty', 'vercel', 'openrouter']);
+
+/** Canonicalizes a model_id into a physical slug shared across providers. */
+export function physicalSlug(modelId: string): string {
+  const slug = toModelSlug(modelId.split('/').pop() ?? modelId);
+  return stripRegionSuffix(slug.toLowerCase().replace(/\./g, '-'));
+}
+
+export interface TierPropagationResult {
+  model: Model;
+  source: Model;
+}
+
+/**
+ * Propagates tiers to router aliases that re-serve an already-priced physical
+ * model. Only the coarse tier and free flag are inherited; per-provider prices
+ * are never fabricated because router markup differs from the upstream
+ * provider.
+ *
+ * Prefers first-party (non-router) sources when multiple providers share the
+ * same physical slug.
+ */
+export function propagateTiers(models: Model[]): TierPropagationResult[] {
+  const byPhysicalSlug = new Map<string, Model[]>();
+  for (const model of models) {
+    const key = physicalSlug(model.model_id);
+    const list = byPhysicalSlug.get(key) ?? [];
+    list.push(model);
+    byPhysicalSlug.set(key, list);
+  }
+
+  const results: TierPropagationResult[] = [];
+  for (const model of models) {
+    if (model.tier || model.is_free === true) continue;
+    if (!ROUTER_PROVIDERS.has(model.provider_id)) continue;
+
+    const key = physicalSlug(model.model_id);
+    const candidates = byPhysicalSlug.get(key) ?? [];
+    const source =
+      candidates.find((candidate) => !ROUTER_PROVIDERS.has(candidate.provider_id)) ??
+      candidates.find((candidate) => candidate.model_id !== model.model_id);
+    if (!source) continue;
+
+    // Only propagate when it changes the target's economics state; a router
+    // alias may have been stripped of its tier during catalog matching.
+    const sourceTier: Model['tier'] | undefined = source.is_free === true ? 'free' : source.tier;
+    if (model.tier === sourceTier && model.is_free === source.is_free) continue;
+
+    results.push({ model, source });
+  }
+  return results;
 }
 
 /**
@@ -130,10 +191,14 @@ function buildLimits(match: OpenRouterModel): Model['limits'] {
 /**
  * Runs the enrichment pipeline:
  * 1. Loads every model from the registry.
- * 2. Fetches OpenRouter's aggregated pricing catalog.
+ * 2. Fetches OpenRouter's aggregated pricing catalog (primary) and the
+ *    Hugging Face Inference Providers catalog (fallback for open-weight
+ *    models missing from OpenRouter).
  * 3. Matches each model to a catalog entry and derives tier, free status,
  *    limits, and pricing records.
- * 4. Persists updated models and regenerated pricing records.
+ * 4. Propagates tiers to router aliases that re-serve an already-priced
+ *    physical model (tier only; no fabricated per-provider prices).
+ * 5. Persists updated models and regenerated pricing records.
  */
 export async function runEnrichment(): Promise<EnrichmentSummary> {
   const summary: EnrichmentSummary = {
@@ -141,6 +206,8 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
     pricingRecords: 0,
     freeModels: 0,
     errors: [],
+    huggingFaceModels: 0,
+    tierPropagated: 0,
   };
 
   let models: Model[];
@@ -163,14 +230,30 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
     return summary;
   }
 
+  // Hugging Face Inference Providers is a best-effort secondary source.
+  let hfIndex = new Map<string, Map<string, OpenRouterModel>>();
+  try {
+    const hfModels = await fetchHuggingFaceModels(
+      process.env.BENCHMARKS_FETCH_TOKEN ?? process.env.HF_TOKEN,
+    );
+    hfIndex = indexHuggingFace(hfModels);
+    summary.huggingFaceModels = hfModels.length;
+  } catch (error: unknown) {
+    summary.errors.push(
+      `Failed to fetch HuggingFace catalog: ${error instanceof Error ? error.message : String(error)}`,
+    );
+  }
+
   const index = indexOpenRouter(catalog);
   const newPricing: Pricing[] = [];
   const enrichedModelIds = new Set<string>();
   const economicsModelIds = new Set<string>();
+  const byModelId = new Map<string, Model>();
+  for (const model of models) byModelId.set(model.model_id, model);
   let updated = 0;
 
   for (const model of models) {
-    const match = findOpenRouterMatch(model, index);
+    const match = findOpenRouterMatch(model, index) ?? findHuggingFaceMatch(model, hfIndex);
     if (!match) continue;
 
     const hasPricing = match.inputPer1M !== undefined || match.outputPer1M !== undefined;
@@ -197,6 +280,7 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
     };
 
     await saveModel(updatedModel);
+    byModelId.set(model.model_id, updatedModel);
     updated++;
     summary.enrichedModels++;
 
@@ -209,6 +293,22 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
       newPricing.push(...pricing);
       enrichedModelIds.add(model.model_id);
     }
+  }
+
+  // Propagate tiers to router aliases (requesty/vercel/openrouter) that
+  // re-serve an already-priced physical model. Only the coarse tier and
+  // free flag are inherited; no per-provider price is fabricated because
+  // router markup differs from the upstream provider.
+  for (const { model, source } of propagateTiers([...byModelId.values()])) {
+    const updatedModel: Model = {
+      ...model,
+      tier: source.tier,
+      is_free: source.is_free,
+    };
+    await saveModel(updatedModel);
+    byModelId.set(model.model_id, updatedModel);
+    economicsModelIds.add(model.model_id);
+    summary.tierPropagated++;
   }
 
   // Merge: keep existing records for models we did not enrich, then
@@ -245,9 +345,11 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
   }
 
   console.log(`Enriched ${summary.enrichedModels} models (${updated} saved)`);
-  console.log(`  free models  : ${summary.freeModels}`);
+  console.log(`  free models      : ${summary.freeModels}`);
+  console.log(`  HF catalog models: ${summary.huggingFaceModels}`);
+  console.log(`  tier propagated  : ${summary.tierPropagated}`);
   console.log(
-    `  pricing      : ${summary.pricingRecords} records across ${byProvider.size} providers`,
+    `  pricing          : ${summary.pricingRecords} records across ${byProvider.size} providers`,
   );
   if (summary.errors.length > 0) {
     console.warn('Enrichment errors:', summary.errors);

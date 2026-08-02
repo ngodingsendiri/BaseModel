@@ -1,7 +1,12 @@
 import type { Model } from '@basemodel/schema';
 import { describe, expect, it } from 'vitest';
 import { classifyTier } from '../enrich/classify';
-import { findOpenRouterMatch } from '../enrich/index';
+import { findOpenRouterMatch, physicalSlug, propagateTiers } from '../enrich/index';
+import {
+  findHuggingFaceMatch,
+  type HuggingFaceModel,
+  indexHuggingFace,
+} from '../enrich/sources/huggingface';
 import type { OpenRouterModel } from '../enrich/sources/openrouter';
 import { perTokenToPer1M } from '../enrich/sources/openrouter';
 
@@ -240,5 +245,125 @@ describe('findOpenRouterMatch', () => {
         index,
       ),
     ).toBe(free);
+  });
+});
+
+function sampleHuggingFace(overrides: Partial<HuggingFaceModel> = {}): HuggingFaceModel {
+  return {
+    id: 'deepseek-ai/DeepSeek-V4-Flash',
+    slug: 'deepseek-v4-flash',
+    providers: [
+      {
+        name: 'deepinfra',
+        contextLength: 1048576,
+        inputPer1M: 0.14,
+        outputPer1M: 0.28,
+        isFree: false,
+      },
+    ],
+    ...overrides,
+  };
+}
+
+describe('huggingface source', () => {
+  it('normalizes HF ids into dash-separated slugs', () => {
+    expect(indexHuggingFace([])).toEqual(new Map());
+  });
+
+  it('matches a registry model to its HF provider backend', () => {
+    const entry = sampleHuggingFace();
+    const index = indexHuggingFace([entry]);
+    const model = sampleModel({
+      provider_id: 'deepinfra',
+      model_id: 'deepinfra/deepseek-v4-flash',
+    });
+    expect(findHuggingFaceMatch(model, index)).toMatchObject({
+      provider: 'deepinfra',
+      inputPer1M: 0.14,
+      outputPer1M: 0.28,
+    });
+  });
+
+  it('collapses dot/dash slug variants for HF matching', () => {
+    const entry = sampleHuggingFace({ id: 'mistralai/Mixtral-8x7B' });
+    const index = indexHuggingFace([entry]);
+    expect(
+      findHuggingFaceMatch(
+        sampleModel({ provider_id: 'mistral-ai', model_id: 'mistral-ai/mixtral-8x7b' }),
+        index,
+      ),
+    ).toBeUndefined();
+  });
+
+  it('returns undefined when the provider does not serve the model', () => {
+    const index = indexHuggingFace([sampleHuggingFace()]);
+    expect(
+      findHuggingFaceMatch(
+        sampleModel({ provider_id: 'groq', model_id: 'groq/deepseek-v4-flash' }),
+        index,
+      ),
+    ).toBeUndefined();
+  });
+
+  it('does not match a backend that serves the model without pricing', () => {
+    const entry = sampleHuggingFace({
+      providers: [{ name: 'deepinfra', isFree: false }],
+    });
+    const index = indexHuggingFace([entry]);
+    expect(
+      findHuggingFaceMatch(
+        sampleModel({ provider_id: 'deepinfra', model_id: 'deepinfra/deepseek-v4-flash' }),
+        index,
+      ),
+    ).toBeUndefined();
+  });
+});
+
+describe('tier propagation', () => {
+  it('propagates tier from a first-party model to a router alias', () => {
+    const priced = sampleModel({
+      model_id: 'openai/gpt-5.2',
+      provider_id: 'openai',
+      tier: 'premium' as const,
+    });
+    const alias = sampleModel({
+      model_id: 'requesty/gpt-5.2',
+      provider_id: 'requesty',
+    });
+    const results = propagateTiers([priced, alias]);
+    expect(results).toHaveLength(1);
+    const result = results[0];
+    if (result) {
+      expect(result.model.model_id).toBe('requesty/gpt-5.2');
+      expect(result.source).toBe(priced);
+    }
+  });
+
+  it('does not propagate tier to non-router providers', () => {
+    const priced = sampleModel({
+      model_id: 'openai/gpt-5.2',
+      provider_id: 'openai',
+      tier: 'premium' as const,
+    });
+    const other = sampleModel({ model_id: 'openai/gpt-5.2-clone', provider_id: 'openai' });
+    expect(propagateTiers([priced, other])).toHaveLength(0);
+  });
+
+  it('prefers the first-party source over another router alias', () => {
+    const priced = sampleModel({
+      model_id: 'openai/gpt-5.2',
+      provider_id: 'openai',
+      tier: 'premium' as const,
+    });
+    const vercel = sampleModel({ model_id: 'vercel/gpt-5.2', provider_id: 'vercel' });
+    const requesty = sampleModel({ model_id: 'requesty/gpt-5.2', provider_id: 'requesty' });
+    const results = propagateTiers([priced, vercel, requesty]);
+    expect(results.find((r) => r.model.model_id === 'requesty/gpt-5.2')?.source).toBe(priced);
+    expect(results.find((r) => r.model.model_id === 'vercel/gpt-5.2')?.source).toBe(priced);
+  });
+
+  it('canonicalizes physical slugs across dot/dash and region suffixes', () => {
+    expect(physicalSlug('requesty/claude-haiku-4.5-ap-northeast-1')).toBe('claude-haiku-4-5');
+    expect(physicalSlug('vercel/claude-haiku-4-5')).toBe('claude-haiku-4-5');
   });
 });
