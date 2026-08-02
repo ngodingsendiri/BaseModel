@@ -2,6 +2,7 @@
   "model_id": "requesty/llama-3.2-90b-vision-instruct",
   "provider_id": "requesty",
   "name": "deepinfra/meta-llama/Llama-3.2-90B-Vision-Instruct",
+  "context_window": 131072,
   "modality": [
     "text"
   ],
@@ -13,12 +14,11 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "capability_ids": [],
-  "status": "active",
   "is_free": false,
   "tier": "budget",
   "limits": {
     "max_input_tokens": 131072
   },
-  "context_window": 131072
+  "capability_ids": [],
+  "status": "active"
 }

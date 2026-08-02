@@ -2,6 +2,7 @@
   "model_id": "requesty/claude-sonnet-4-6",
   "provider_id": "requesty",
   "name": "bedrock/claude-sonnet-4-6",
+  "context_window": 1000000,
   "modality": [
     "text"
   ],
@@ -13,12 +14,11 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "capability_ids": [],
-  "status": "active",
   "is_free": false,
   "tier": "premium",
   "limits": {
     "max_input_tokens": 1000000
   },
-  "context_window": 1000000
+  "capability_ids": [],
+  "status": "active"
 }

@@ -15,7 +15,7 @@
   "image_generation": false,
   "embedding_support": false,
   "is_free": false,
-  "tier": "budget",
+  "tier": "balanced",
   "limits": {
     "max_input_tokens": 262144
   },

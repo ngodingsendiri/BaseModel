@@ -2,6 +2,7 @@
   "model_id": "requesty/grok-code-fast-1",
   "provider_id": "requesty",
   "name": "xai/grok-code-fast-1",
+  "context_window": 256000,
   "modality": [
     "text"
   ],
@@ -13,12 +14,11 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "capability_ids": [],
-  "status": "active",
   "is_free": false,
   "tier": "balanced",
   "limits": {
     "max_input_tokens": 256000
   },
-  "context_window": 256000
+  "capability_ids": [],
+  "status": "active"
 }

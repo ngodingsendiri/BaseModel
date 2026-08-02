@@ -2,6 +2,7 @@
   "model_id": "requesty/nvidia-nemotron-3-ultra-flex",
   "provider_id": "requesty",
   "name": "doubleword/nvidia-nemotron-3-ultra:flex",
+  "context_window": 262144,
   "modality": [
     "text"
   ],
@@ -13,12 +14,11 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "capability_ids": [],
-  "status": "active",
   "is_free": false,
   "tier": "balanced",
   "limits": {
     "max_input_tokens": 262144
   },
-  "context_window": 262144
+  "capability_ids": [],
+  "status": "active"
 }

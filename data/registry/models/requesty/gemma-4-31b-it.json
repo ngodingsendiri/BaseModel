@@ -14,8 +14,8 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "is_free": false,
-  "tier": "budget",
+  "is_free": true,
+  "tier": "free",
   "limits": {
     "max_input_tokens": 262144
   },

@@ -2,6 +2,7 @@
   "model_id": "requesty/gemini-2.5-pro-europe-north1",
   "provider_id": "requesty",
   "name": "vertex/gemini-2.5-pro@europe-north1",
+  "context_window": 1048576,
   "modality": [
     "text"
   ],
@@ -13,12 +14,11 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "capability_ids": [],
-  "status": "active",
   "is_free": false,
   "tier": "balanced",
   "limits": {
     "max_input_tokens": 1048576
   },
-  "context_window": 1048576
+  "capability_ids": [],
+  "status": "active"
 }

@@ -2,6 +2,7 @@
   "model_id": "requesty/grok-4-fast-non-reasoning",
   "provider_id": "requesty",
   "name": "xai/grok-4-fast-non-reasoning",
+  "context_window": 2000000,
   "modality": [
     "text"
   ],
@@ -13,12 +14,11 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "capability_ids": [],
-  "status": "active",
   "is_free": false,
   "tier": "budget",
   "limits": {
     "max_input_tokens": 2000000
   },
-  "context_window": 2000000
+  "capability_ids": [],
+  "status": "active"
 }

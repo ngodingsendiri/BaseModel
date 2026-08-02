@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "6b88e58",
+  "source_revision": "9a6f1d4",
   "count": 1539,
   "models": [
     {
@@ -909,9 +909,9 @@
       "image_generation": false,
       "embedding_support": false,
       "is_free": false,
-      "tier": "balanced",
+      "tier": "budget",
       "limits": {
-        "max_input_tokens": 128000
+        "max_input_tokens": 163840
       },
       "capability_ids": [],
       "status": "active"
@@ -1005,9 +1005,9 @@
       "image_generation": false,
       "embedding_support": false,
       "is_free": false,
-      "tier": "balanced",
+      "tier": "budget",
       "limits": {
-        "max_input_tokens": 64000
+        "max_input_tokens": 163840
       },
       "capability_ids": [],
       "status": "active"
@@ -3053,7 +3053,7 @@
       "is_free": false,
       "tier": "budget",
       "limits": {
-        "max_input_tokens": 131072
+        "max_input_tokens": 32768
       },
       "capability_ids": [],
       "status": "active"
@@ -20283,7 +20283,7 @@
       "is_free": false,
       "tier": "budget",
       "limits": {
-        "max_input_tokens": 163840
+        "max_input_tokens": 1000000
       },
       "capability_ids": [],
       "status": "active"
@@ -20307,7 +20307,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 8192
+        "max_input_tokens": 32000
       },
       "capability_ids": [],
       "status": "active"
@@ -20355,7 +20355,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 163840
+        "max_input_tokens": 64000
       },
       "capability_ids": [],
       "status": "active"
@@ -20619,7 +20619,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 1048576
+        "max_input_tokens": 164000
       },
       "capability_ids": [],
       "status": "active"
@@ -20691,7 +20691,7 @@
       "is_free": false,
       "tier": "premium",
       "limits": {
-        "max_input_tokens": 1000000
+        "max_input_tokens": 1048576
       },
       "capability_ids": [],
       "status": "active"
@@ -20979,7 +20979,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 32768
+        "max_input_tokens": 1048576
       },
       "capability_ids": [],
       "status": "active"
@@ -21003,7 +21003,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 32768
+        "max_input_tokens": 1048576
       },
       "capability_ids": [],
       "status": "active"
@@ -21027,7 +21027,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 32768
+        "max_input_tokens": 1048576
       },
       "capability_ids": [],
       "status": "active"
@@ -21051,7 +21051,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 32768
+        "max_input_tokens": 1048576
       },
       "capability_ids": [],
       "status": "active"
@@ -21075,7 +21075,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 32768
+        "max_input_tokens": 1048576
       },
       "capability_ids": [],
       "status": "active"
@@ -21099,7 +21099,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 32768
+        "max_input_tokens": 1048576
       },
       "capability_ids": [],
       "status": "active"
@@ -21123,7 +21123,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 32768
+        "max_input_tokens": 1048576
       },
       "capability_ids": [],
       "status": "active"
@@ -21147,7 +21147,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 32768
+        "max_input_tokens": 1048576
       },
       "capability_ids": [],
       "status": "active"
@@ -21891,7 +21891,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 131072
+        "max_input_tokens": 1048576
       },
       "capability_ids": [],
       "status": "active"
@@ -22227,7 +22227,7 @@
       "is_free": false,
       "tier": "budget",
       "limits": {
-        "max_input_tokens": 262144
+        "max_input_tokens": 128000
       },
       "capability_ids": [],
       "status": "active"
@@ -22272,8 +22272,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "is_free": false,
-      "tier": "budget",
+      "is_free": true,
+      "tier": "free",
       "limits": {
         "max_input_tokens": 262144
       },
@@ -22347,7 +22347,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 204800
+        "max_input_tokens": 200000
       },
       "capability_ids": [],
       "status": "active"
@@ -22371,7 +22371,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 204800
+        "max_input_tokens": 200000
       },
       "capability_ids": [],
       "status": "active"
@@ -22395,7 +22395,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 204800
+        "max_input_tokens": 200000
       },
       "capability_ids": [],
       "status": "active"
@@ -22467,7 +22467,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 1048576
+        "max_input_tokens": 1000000
       },
       "capability_ids": [],
       "status": "active"
@@ -22491,7 +22491,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 204800
+        "max_input_tokens": 200000
       },
       "capability_ids": [],
       "status": "active"
@@ -22921,7 +22921,7 @@
       "image_generation": false,
       "embedding_support": false,
       "is_free": false,
-      "tier": "premium",
+      "tier": "balanced",
       "limits": {
         "max_input_tokens": 128000
       },
@@ -24579,7 +24579,7 @@
       "is_free": false,
       "tier": "budget",
       "limits": {
-        "max_input_tokens": 131072
+        "max_input_tokens": 131000
       },
       "capability_ids": [],
       "status": "active"
@@ -24963,7 +24963,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 131072
+        "max_input_tokens": 128000
       },
       "capability_ids": [],
       "status": "active"
@@ -24987,7 +24987,7 @@
       "is_free": false,
       "tier": "budget",
       "limits": {
-        "max_input_tokens": 131072
+        "max_input_tokens": 128000
       },
       "capability_ids": [],
       "status": "active"
@@ -25059,7 +25059,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 1048576
+        "max_input_tokens": 65536
       },
       "capability_ids": [],
       "status": "active"
@@ -25131,7 +25131,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 262144
+        "max_input_tokens": 128000
       },
       "capability_ids": [],
       "status": "active"
@@ -25155,7 +25155,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 262144
+        "max_input_tokens": 128000
       },
       "capability_ids": [],
       "status": "active"
@@ -25179,7 +25179,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 262144
+        "max_input_tokens": 128000
       },
       "capability_ids": [],
       "status": "active"
@@ -25203,7 +25203,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 262144
+        "max_input_tokens": 128000
       },
       "capability_ids": [],
       "status": "active"
@@ -25227,7 +25227,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 262144
+        "max_input_tokens": 128000
       },
       "capability_ids": [],
       "status": "active"
@@ -25275,7 +25275,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 262144
+        "max_input_tokens": 256000
       },
       "capability_ids": [],
       "status": "active"
@@ -25323,7 +25323,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 131072
+        "max_input_tokens": 262144
       },
       "capability_ids": [],
       "status": "active"
@@ -25513,7 +25513,7 @@
       "image_generation": false,
       "embedding_support": false,
       "is_free": false,
-      "tier": "budget",
+      "tier": "balanced",
       "limits": {
         "max_input_tokens": 262144
       },
@@ -25563,7 +25563,7 @@
       "is_free": false,
       "tier": "budget",
       "limits": {
-        "max_input_tokens": 131072
+        "max_input_tokens": 16384
       },
       "capability_ids": [],
       "status": "active"
@@ -25635,7 +25635,7 @@
       "is_free": false,
       "tier": "budget",
       "limits": {
-        "max_input_tokens": 131072
+        "max_input_tokens": 128000
       },
       "capability_ids": [],
       "status": "active"
@@ -25755,7 +25755,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 1050000
+        "max_input_tokens": 1048576
       },
       "capability_ids": [],
       "status": "active"
@@ -25779,7 +25779,7 @@
       "is_free": false,
       "tier": "budget",
       "limits": {
-        "max_input_tokens": 1050000
+        "max_input_tokens": 1048576
       },
       "capability_ids": [],
       "status": "active"
@@ -25801,9 +25801,9 @@
       "image_generation": false,
       "embedding_support": false,
       "is_free": false,
-      "tier": "budget",
+      "tier": "balanced",
       "limits": {
-        "max_input_tokens": 204800
+        "max_input_tokens": 128000
       },
       "capability_ids": [],
       "status": "active"
@@ -25825,9 +25825,9 @@
       "image_generation": false,
       "embedding_support": false,
       "is_free": false,
-      "tier": "budget",
+      "tier": "balanced",
       "limits": {
-        "max_input_tokens": 204800
+        "max_input_tokens": 128000
       },
       "capability_ids": [],
       "status": "active"
@@ -25849,9 +25849,9 @@
       "image_generation": false,
       "embedding_support": false,
       "is_free": false,
-      "tier": "budget",
+      "tier": "balanced",
       "limits": {
-        "max_input_tokens": 204800
+        "max_input_tokens": 128000
       },
       "capability_ids": [],
       "status": "active"
@@ -25873,9 +25873,9 @@
       "image_generation": false,
       "embedding_support": false,
       "is_free": false,
-      "tier": "budget",
+      "tier": "balanced",
       "limits": {
-        "max_input_tokens": 204800
+        "max_input_tokens": 128000
       },
       "capability_ids": [],
       "status": "active"
@@ -25921,9 +25921,9 @@
       "image_generation": false,
       "embedding_support": false,
       "is_free": false,
-      "tier": "budget",
+      "tier": "balanced",
       "limits": {
-        "max_input_tokens": 204800
+        "max_input_tokens": 128000
       },
       "capability_ids": [],
       "status": "active"
@@ -25945,9 +25945,9 @@
       "image_generation": false,
       "embedding_support": false,
       "is_free": false,
-      "tier": "budget",
+      "tier": "balanced",
       "limits": {
-        "max_input_tokens": 204800
+        "max_input_tokens": 128000
       },
       "capability_ids": [],
       "status": "active"
@@ -25969,9 +25969,9 @@
       "image_generation": false,
       "embedding_support": false,
       "is_free": false,
-      "tier": "budget",
+      "tier": "balanced",
       "limits": {
-        "max_input_tokens": 204800
+        "max_input_tokens": 128000
       },
       "capability_ids": [],
       "status": "active"
@@ -25993,9 +25993,9 @@
       "image_generation": false,
       "embedding_support": false,
       "is_free": false,
-      "tier": "budget",
+      "tier": "balanced",
       "limits": {
-        "max_input_tokens": 204800
+        "max_input_tokens": 128000
       },
       "capability_ids": [],
       "status": "active"
@@ -26041,9 +26041,9 @@
       "image_generation": false,
       "embedding_support": false,
       "is_free": false,
-      "tier": "budget",
+      "tier": "balanced",
       "limits": {
-        "max_input_tokens": 204800
+        "max_input_tokens": 200000
       },
       "capability_ids": [],
       "status": "active"
@@ -26065,9 +26065,9 @@
       "image_generation": false,
       "embedding_support": false,
       "is_free": false,
-      "tier": "budget",
+      "tier": "balanced",
       "limits": {
-        "max_input_tokens": 204800
+        "max_input_tokens": 200000
       },
       "capability_ids": [],
       "status": "active"
@@ -26091,7 +26091,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 1048576
+        "max_input_tokens": 1000000
       },
       "capability_ids": [],
       "status": "active"
@@ -26235,7 +26235,7 @@
       "is_free": false,
       "tier": "budget",
       "limits": {
-        "max_input_tokens": 262144
+        "max_input_tokens": 256000
       },
       "capability_ids": [],
       "status": "active"
@@ -26283,7 +26283,7 @@
       "is_free": false,
       "tier": "budget",
       "limits": {
-        "max_input_tokens": 8192
+        "max_input_tokens": 4096
       },
       "capability_ids": [],
       "status": "active"
@@ -26304,8 +26304,8 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "is_free": false,
-      "tier": "budget",
+      "is_free": true,
+      "tier": "free",
       "limits": {
         "max_input_tokens": 262144
       },
@@ -26379,7 +26379,7 @@
       "is_free": false,
       "tier": "budget",
       "limits": {
-        "max_input_tokens": 1000000
+        "max_input_tokens": 128000
       },
       "capability_ids": [],
       "status": "active"
@@ -26403,7 +26403,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 512288
+        "max_input_tokens": 128000
       },
       "capability_ids": [],
       "status": "active"
@@ -27171,7 +27171,7 @@
       "is_free": false,
       "tier": "budget",
       "limits": {
-        "max_input_tokens": 32768
+        "max_input_tokens": 32000
       },
       "capability_ids": [],
       "status": "active"
@@ -27217,9 +27217,9 @@
       "image_generation": false,
       "embedding_support": false,
       "is_free": false,
-      "tier": "budget",
+      "tier": "balanced",
       "limits": {
-        "max_input_tokens": 1000000
+        "max_input_tokens": 131072
       },
       "capability_ids": [],
       "status": "active"
@@ -27339,7 +27339,7 @@
       "is_free": false,
       "tier": "budget",
       "limits": {
-        "max_input_tokens": 262144
+        "max_input_tokens": 128000
       },
       "capability_ids": [],
       "status": "active"
@@ -27385,9 +27385,9 @@
       "image_generation": false,
       "embedding_support": false,
       "is_free": false,
-      "tier": "balanced",
+      "tier": "budget",
       "limits": {
-        "max_input_tokens": 131072
+        "max_input_tokens": 40960
       },
       "capability_ids": [],
       "status": "active"
@@ -27411,7 +27411,7 @@
       "is_free": false,
       "tier": "budget",
       "limits": {
-        "max_input_tokens": 262144
+        "max_input_tokens": 128000
       },
       "capability_ids": [],
       "status": "active"
@@ -27435,7 +27435,7 @@
       "is_free": false,
       "tier": "budget",
       "limits": {
-        "max_input_tokens": 131072
+        "max_input_tokens": 128000
       },
       "capability_ids": [],
       "status": "active"
@@ -27505,9 +27505,9 @@
       "image_generation": false,
       "embedding_support": false,
       "is_free": false,
-      "tier": "budget",
+      "tier": "balanced",
       "limits": {
-        "max_input_tokens": 1000000
+        "max_input_tokens": 1048576
       },
       "capability_ids": [],
       "status": "active"
@@ -27531,7 +27531,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 1000000
+        "max_input_tokens": 1048576
       },
       "capability_ids": [],
       "status": "active"
@@ -27579,7 +27579,7 @@
       "is_free": false,
       "tier": "budget",
       "limits": {
-        "max_input_tokens": 262144
+        "max_input_tokens": 128000
       },
       "capability_ids": [],
       "status": "active"
@@ -27675,7 +27675,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 262144
+        "max_input_tokens": 128000
       },
       "capability_ids": [],
       "status": "active"
@@ -27723,7 +27723,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 1000000
+        "max_input_tokens": 1048576
       },
       "capability_ids": [],
       "status": "active"
@@ -27747,7 +27747,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 1000000
+        "max_input_tokens": 262144
       },
       "capability_ids": [],
       "status": "active"
@@ -27769,7 +27769,7 @@
       "image_generation": false,
       "embedding_support": false,
       "is_free": false,
-      "tier": "budget",
+      "tier": "balanced",
       "limits": {
         "max_input_tokens": 262144
       },
@@ -27843,7 +27843,7 @@
       "is_free": false,
       "tier": "budget",
       "limits": {
-        "max_input_tokens": 262144
+        "max_input_tokens": 256000
       },
       "capability_ids": [],
       "status": "active"
@@ -27891,7 +27891,7 @@
       "is_free": false,
       "tier": "premium",
       "limits": {
-        "max_input_tokens": 200000
+        "max_input_tokens": 204800
       },
       "capability_ids": [],
       "status": "active"
@@ -27915,7 +27915,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 128000
+        "max_input_tokens": 131072
       },
       "capability_ids": [],
       "status": "active"
@@ -27939,7 +27939,7 @@
       "is_free": false,
       "tier": "balanced",
       "limits": {
-        "max_input_tokens": 127072
+        "max_input_tokens": 131072
       },
       "capability_ids": [],
       "status": "active"

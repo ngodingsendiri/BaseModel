@@ -16,54 +16,6 @@
     "value": 50
   },
   {
-    "pricing_id": "anthropic-claude-opus-4-6-input",
-    "model_id": "anthropic/claude-opus-4-6",
-    "pricing_type": "input-token",
-    "currency": "USD",
-    "unit": "1M tokens",
-    "value": 5
-  },
-  {
-    "pricing_id": "anthropic-claude-opus-4-6-output",
-    "model_id": "anthropic/claude-opus-4-6",
-    "pricing_type": "output-token",
-    "currency": "USD",
-    "unit": "1M tokens",
-    "value": 25
-  },
-  {
-    "pricing_id": "anthropic-claude-opus-4-7-input",
-    "model_id": "anthropic/claude-opus-4-7",
-    "pricing_type": "input-token",
-    "currency": "USD",
-    "unit": "1M tokens",
-    "value": 5
-  },
-  {
-    "pricing_id": "anthropic-claude-opus-4-7-output",
-    "model_id": "anthropic/claude-opus-4-7",
-    "pricing_type": "output-token",
-    "currency": "USD",
-    "unit": "1M tokens",
-    "value": 25
-  },
-  {
-    "pricing_id": "anthropic-claude-opus-4-8-input",
-    "model_id": "anthropic/claude-opus-4-8",
-    "pricing_type": "input-token",
-    "currency": "USD",
-    "unit": "1M tokens",
-    "value": 5
-  },
-  {
-    "pricing_id": "anthropic-claude-opus-4-8-output",
-    "model_id": "anthropic/claude-opus-4-8",
-    "pricing_type": "output-token",
-    "currency": "USD",
-    "unit": "1M tokens",
-    "value": 25
-  },
-  {
     "pricing_id": "anthropic-claude-opus-5-input",
     "model_id": "anthropic/claude-opus-5",
     "pricing_type": "input-token",
@@ -78,22 +30,6 @@
     "currency": "USD",
     "unit": "1M tokens",
     "value": 25
-  },
-  {
-    "pricing_id": "anthropic-claude-sonnet-4-6-input",
-    "model_id": "anthropic/claude-sonnet-4-6",
-    "pricing_type": "input-token",
-    "currency": "USD",
-    "unit": "1M tokens",
-    "value": 3
-  },
-  {
-    "pricing_id": "anthropic-claude-sonnet-4-6-output",
-    "model_id": "anthropic/claude-sonnet-4-6",
-    "pricing_type": "output-token",
-    "currency": "USD",
-    "unit": "1M tokens",
-    "value": 15
   },
   {
     "pricing_id": "anthropic-claude-sonnet-5-input",

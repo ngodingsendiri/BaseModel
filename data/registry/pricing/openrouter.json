@@ -1367,7 +1367,7 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.368
+    "value": 0.36
   },
   {
     "pricing_id": "openrouter-glm-5.2-output",
@@ -1375,7 +1375,7 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.157
+    "value": 1.131
   },
   {
     "pricing_id": "openrouter-glm-5-input",
@@ -1744,22 +1744,6 @@
     "currency": "USD",
     "unit": "1M tokens",
     "value": 120
-  },
-  {
-    "pricing_id": "openrouter-gpt-5.1-chat-input",
-    "model_id": "openrouter/gpt-5.1-chat",
-    "pricing_type": "input-token",
-    "currency": "USD",
-    "unit": "1M tokens",
-    "value": 1.25
-  },
-  {
-    "pricing_id": "openrouter-gpt-5.1-chat-output",
-    "model_id": "openrouter/gpt-5.1-chat",
-    "pricing_type": "output-token",
-    "currency": "USD",
-    "unit": "1M tokens",
-    "value": 10
   },
   {
     "pricing_id": "openrouter-gpt-5.1-codex-max-input",

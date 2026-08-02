@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "6b88e58",
-  "count": 2134,
+  "source_revision": "9a6f1d4",
+  "count": 2066,
   "pricing": [
     {
       "pricing_id": "anthropic-claude-fable-5-input",
@@ -20,54 +20,6 @@
       "value": 50
     },
     {
-      "pricing_id": "anthropic-claude-opus-4-6-input",
-      "model_id": "anthropic/claude-opus-4-6",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 5
-    },
-    {
-      "pricing_id": "anthropic-claude-opus-4-6-output",
-      "model_id": "anthropic/claude-opus-4-6",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 25
-    },
-    {
-      "pricing_id": "anthropic-claude-opus-4-7-input",
-      "model_id": "anthropic/claude-opus-4-7",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 5
-    },
-    {
-      "pricing_id": "anthropic-claude-opus-4-7-output",
-      "model_id": "anthropic/claude-opus-4-7",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 25
-    },
-    {
-      "pricing_id": "anthropic-claude-opus-4-8-input",
-      "model_id": "anthropic/claude-opus-4-8",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 5
-    },
-    {
-      "pricing_id": "anthropic-claude-opus-4-8-output",
-      "model_id": "anthropic/claude-opus-4-8",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 25
-    },
-    {
       "pricing_id": "anthropic-claude-opus-5-input",
       "model_id": "anthropic/claude-opus-5",
       "pricing_type": "input-token",
@@ -82,22 +34,6 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 25
-    },
-    {
-      "pricing_id": "anthropic-claude-sonnet-4-6-input",
-      "model_id": "anthropic/claude-sonnet-4-6",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 3
-    },
-    {
-      "pricing_id": "anthropic-claude-sonnet-4-6-output",
-      "model_id": "anthropic/claude-sonnet-4-6",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 15
     },
     {
       "pricing_id": "anthropic-claude-sonnet-5-input",
@@ -148,54 +84,6 @@
       "value": 50
     },
     {
-      "pricing_id": "deepinfra-claude-haiku-4-5-input",
-      "model_id": "deepinfra/claude-haiku-4-5",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 1
-    },
-    {
-      "pricing_id": "deepinfra-claude-haiku-4-5-output",
-      "model_id": "deepinfra/claude-haiku-4-5",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 5
-    },
-    {
-      "pricing_id": "deepinfra-claude-opus-4-7-input",
-      "model_id": "deepinfra/claude-opus-4-7",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 5
-    },
-    {
-      "pricing_id": "deepinfra-claude-opus-4-7-output",
-      "model_id": "deepinfra/claude-opus-4-7",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 25
-    },
-    {
-      "pricing_id": "deepinfra-claude-opus-4-8-input",
-      "model_id": "deepinfra/claude-opus-4-8",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 5
-    },
-    {
-      "pricing_id": "deepinfra-claude-opus-4-8-output",
-      "model_id": "deepinfra/claude-opus-4-8",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 25
-    },
-    {
       "pricing_id": "deepinfra-claude-opus-5-input",
       "model_id": "deepinfra/claude-opus-5",
       "pricing_type": "input-token",
@@ -210,22 +98,6 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 25
-    },
-    {
-      "pricing_id": "deepinfra-claude-sonnet-4-6-input",
-      "model_id": "deepinfra/claude-sonnet-4-6",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 3
-    },
-    {
-      "pricing_id": "deepinfra-claude-sonnet-4-6-output",
-      "model_id": "deepinfra/claude-sonnet-4-6",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 15
     },
     {
       "pricing_id": "deepinfra-claude-sonnet-5-input",
@@ -265,7 +137,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.4
+      "value": 0.24000000000000002
     },
     {
       "pricing_id": "deepinfra-deepseek-v3-0324-output",
@@ -273,7 +145,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1.3
+      "value": 0.9
     },
     {
       "pricing_id": "deepinfra-deepseek-v3.1-terminus-input",
@@ -297,7 +169,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.3
+      "value": 0.25
     },
     {
       "pricing_id": "deepinfra-deepseek-v3.1-output",
@@ -305,7 +177,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1
+      "value": 0.95
     },
     {
       "pricing_id": "deepinfra-deepseek-v3.2-input",
@@ -329,7 +201,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.89
+      "value": 0.32
     },
     {
       "pricing_id": "deepinfra-deepseek-v3-output",
@@ -337,7 +209,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.89
+      "value": 0.8899999999999999
     },
     {
       "pricing_id": "deepinfra-deepseek-v4-flash-0731-input",
@@ -617,7 +489,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.368
+      "value": 0.36
     },
     {
       "pricing_id": "deepinfra-glm-5.2-output",
@@ -625,7 +497,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1.157
+      "value": 1.131
     },
     {
       "pricing_id": "deepinfra-glm-5-input",
@@ -804,38 +676,6 @@
       "value": 3.5
     },
     {
-      "pricing_id": "deepinfra-llama-3.3-70b-instruct-turbo-input",
-      "model_id": "deepinfra/llama-3.3-70b-instruct-turbo",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.12
-    },
-    {
-      "pricing_id": "deepinfra-llama-3.3-70b-instruct-turbo-output",
-      "model_id": "deepinfra/llama-3.3-70b-instruct-turbo",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.3
-    },
-    {
-      "pricing_id": "deepinfra-llama-4-maverick-17b-128e-instruct-fp8-input",
-      "model_id": "deepinfra/llama-4-maverick-17b-128e-instruct-fp8",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.2
-    },
-    {
-      "pricing_id": "deepinfra-llama-4-maverick-17b-128e-instruct-fp8-output",
-      "model_id": "deepinfra/llama-4-maverick-17b-128e-instruct-fp8",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.85
-    },
-    {
       "pricing_id": "deepinfra-llama-4-scout-17b-16e-instruct-input",
       "model_id": "deepinfra/llama-4-scout-17b-16e-instruct",
       "pricing_type": "input-token",
@@ -866,22 +706,6 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 0.18
-    },
-    {
-      "pricing_id": "deepinfra-meta-llama-3.1-8b-instruct-turbo-input",
-      "model_id": "deepinfra/meta-llama-3.1-8b-instruct-turbo",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.02
-    },
-    {
-      "pricing_id": "deepinfra-meta-llama-3.1-8b-instruct-turbo-output",
-      "model_id": "deepinfra/meta-llama-3.1-8b-instruct-turbo",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.05
     },
     {
       "pricing_id": "deepinfra-mimo-v2.5-pro-input",
@@ -996,22 +820,6 @@
       "value": 0.2
     },
     {
-      "pricing_id": "deepinfra-nvidia-nemotron-3-super-120b-a12b-input",
-      "model_id": "deepinfra/nvidia-nemotron-3-super-120b-a12b",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.1
-    },
-    {
-      "pricing_id": "deepinfra-nvidia-nemotron-3-super-120b-a12b-output",
-      "model_id": "deepinfra/nvidia-nemotron-3-super-120b-a12b",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.5
-    },
-    {
       "pricing_id": "deepinfra-phi-4-input",
       "model_id": "deepinfra/phi-4",
       "pricing_type": "input-token",
@@ -1033,7 +841,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.23
+      "value": 0.36
     },
     {
       "pricing_id": "deepinfra-qwen2.5-72b-instruct-output",
@@ -1065,7 +873,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.071
+      "value": 0.09
     },
     {
       "pricing_id": "deepinfra-qwen3-235b-a22b-instruct-2507-output",
@@ -1073,7 +881,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.1
+      "value": 0.55
     },
     {
       "pricing_id": "deepinfra-qwen3-235b-a22b-thinking-2507-input",
@@ -1122,22 +930,6 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 0.28
-    },
-    {
-      "pricing_id": "deepinfra-qwen3-coder-480b-a35b-instruct-turbo-input",
-      "model_id": "deepinfra/qwen3-coder-480b-a35b-instruct-turbo",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.3
-    },
-    {
-      "pricing_id": "deepinfra-qwen3-coder-480b-a35b-instruct-turbo-output",
-      "model_id": "deepinfra/qwen3-coder-480b-a35b-instruct-turbo",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 1
     },
     {
       "pricing_id": "deepinfra-qwen3-max-thinking-input",
@@ -1348,38 +1140,6 @@
       "value": 4.425
     },
     {
-      "pricing_id": "deepinfra-seed-1.8-input",
-      "model_id": "deepinfra/seed-1.8",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.25
-    },
-    {
-      "pricing_id": "deepinfra-seed-1.8-output",
-      "model_id": "deepinfra/seed-1.8",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 2
-    },
-    {
-      "pricing_id": "deepinfra-seed-2.0-code-input",
-      "model_id": "deepinfra/seed-2.0-code",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.5
-    },
-    {
-      "pricing_id": "deepinfra-seed-2.0-code-output",
-      "model_id": "deepinfra/seed-2.0-code",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 3
-    },
-    {
       "pricing_id": "deepinfra-seed-2.0-mini-input",
       "model_id": "deepinfra/seed-2.0-mini",
       "pricing_type": "input-token",
@@ -1394,22 +1154,6 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 0.4
-    },
-    {
-      "pricing_id": "deepinfra-seed-2.0-pro-input",
-      "model_id": "deepinfra/seed-2.0-pro",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.5
-    },
-    {
-      "pricing_id": "deepinfra-seed-2.0-pro-output",
-      "model_id": "deepinfra/seed-2.0-pro",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 3
     },
     {
       "pricing_id": "deepinfra-step-3.7-flash-input",
@@ -1550,22 +1294,6 @@
     {
       "pricing_id": "google-gemini-3-pro-image-output",
       "model_id": "google/gemini-3-pro-image",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 12
-    },
-    {
-      "pricing_id": "google-gemini-3-pro-preview-input",
-      "model_id": "google/gemini-3-pro-preview",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 2
-    },
-    {
-      "pricing_id": "google-gemini-3-pro-preview-output",
-      "model_id": "google/gemini-3-pro-preview",
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
@@ -1904,22 +1632,6 @@
       "value": 2.5
     },
     {
-      "pricing_id": "hyperbolic-deepseek-v3-0324-input",
-      "model_id": "hyperbolic/deepseek-v3-0324",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.4
-    },
-    {
-      "pricing_id": "hyperbolic-deepseek-v3-0324-output",
-      "model_id": "hyperbolic/deepseek-v3-0324",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 1.3
-    },
-    {
       "pricing_id": "hyperbolic-llama-3.3-70b-instruct-input",
       "model_id": "hyperbolic/llama-3.3-70b-instruct",
       "pricing_type": "input-token",
@@ -1936,22 +1648,6 @@
       "value": 0.4
     },
     {
-      "pricing_id": "hyperbolic-qwen3-coder-480b-a35b-instruct-input",
-      "model_id": "hyperbolic/qwen3-coder-480b-a35b-instruct",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.4
-    },
-    {
-      "pricing_id": "hyperbolic-qwen3-coder-480b-a35b-instruct-output",
-      "model_id": "hyperbolic/qwen3-coder-480b-a35b-instruct",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 1.6
-    },
-    {
       "pricing_id": "mistral-ai-codestral-2508-input",
       "model_id": "mistral-ai/codestral-2508",
       "pricing_type": "input-token",
@@ -1966,38 +1662,6 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 0.9
-    },
-    {
-      "pricing_id": "mistral-ai-codestral-latest-input",
-      "model_id": "mistral-ai/codestral-latest",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.33
-    },
-    {
-      "pricing_id": "mistral-ai-codestral-latest-output",
-      "model_id": "mistral-ai/codestral-latest",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.99
-    },
-    {
-      "pricing_id": "mistral-ai-devstral-latest-input",
-      "model_id": "mistral-ai/devstral-latest",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.44
-    },
-    {
-      "pricing_id": "mistral-ai-devstral-latest-output",
-      "model_id": "mistral-ai/devstral-latest",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 2.2
     },
     {
       "pricing_id": "mistral-ai-ministral-14b-2512-input",
@@ -2064,22 +1728,6 @@
       "value": 1.5
     },
     {
-      "pricing_id": "mistral-ai-mistral-large-latest-input",
-      "model_id": "mistral-ai/mistral-large-latest",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.55
-    },
-    {
-      "pricing_id": "mistral-ai-mistral-large-latest-output",
-      "model_id": "mistral-ai/mistral-large-latest",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 1.65
-    },
-    {
       "pricing_id": "mistral-ai-mistral-large-input",
       "model_id": "mistral-ai/mistral-large",
       "pricing_type": "input-token",
@@ -2128,22 +1776,6 @@
       "value": 2
     },
     {
-      "pricing_id": "mistral-ai-mistral-medium-latest-input",
-      "model_id": "mistral-ai/mistral-medium-latest",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.44
-    },
-    {
-      "pricing_id": "mistral-ai-mistral-medium-latest-output",
-      "model_id": "mistral-ai/mistral-medium-latest",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 2.2
-    },
-    {
       "pricing_id": "mistral-ai-mistral-small-2603-input",
       "model_id": "mistral-ai/mistral-small-2603",
       "pricing_type": "input-token",
@@ -2158,22 +1790,6 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 0.6
-    },
-    {
-      "pricing_id": "mistral-ai-mistral-small-latest-input",
-      "model_id": "mistral-ai/mistral-small-latest",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.165
-    },
-    {
-      "pricing_id": "mistral-ai-mistral-small-latest-output",
-      "model_id": "mistral-ai/mistral-small-latest",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.66
     },
     {
       "pricing_id": "openai-gpt-3.5-turbo-16k-input",
@@ -2362,22 +1978,6 @@
     {
       "pricing_id": "openai-gpt-4o-output",
       "model_id": "openai/gpt-4o",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 10
-    },
-    {
-      "pricing_id": "openai-gpt-5-codex-input",
-      "model_id": "openai/gpt-5-codex",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 1.25
-    },
-    {
-      "pricing_id": "openai-gpt-5-codex-output",
-      "model_id": "openai/gpt-5-codex",
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
@@ -4183,7 +3783,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.368
+      "value": 0.36
     },
     {
       "pricing_id": "openrouter-glm-5.2-output",
@@ -4191,7 +3791,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1.157
+      "value": 1.131
     },
     {
       "pricing_id": "openrouter-glm-5-input",
@@ -4560,22 +4160,6 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 120
-    },
-    {
-      "pricing_id": "openrouter-gpt-5.1-chat-input",
-      "model_id": "openrouter/gpt-5.1-chat",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 1.25
-    },
-    {
-      "pricing_id": "openrouter-gpt-5.1-chat-output",
-      "model_id": "openrouter/gpt-5.1-chat",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 10
     },
     {
       "pricing_id": "openrouter-gpt-5.1-codex-max-input",
@@ -7979,7 +7563,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 10
+      "value": 11
     },
     {
       "pricing_id": "requesty-claude-fable-5-eu-output",
@@ -7987,7 +7571,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 50
+      "value": 55
     },
     {
       "pricing_id": "requesty-claude-fable-5-us-east-1-input",
@@ -7995,7 +7579,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 10
+      "value": 11
     },
     {
       "pricing_id": "requesty-claude-fable-5-us-east-1-output",
@@ -8003,7 +7587,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 50
+      "value": 55
     },
     {
       "pricing_id": "requesty-claude-fable-5-input",
@@ -8715,7 +8299,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 5
+      "value": 5.5
     },
     {
       "pricing_id": "requesty-claude-opus-5-ap-northeast-1-output",
@@ -8723,7 +8307,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 25
+      "value": 27.5
     },
     {
       "pricing_id": "requesty-claude-opus-5-eu-central-1-input",
@@ -8731,7 +8315,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 5
+      "value": 5.5
     },
     {
       "pricing_id": "requesty-claude-opus-5-eu-central-1-output",
@@ -8739,7 +8323,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 25
+      "value": 27.5
     },
     {
       "pricing_id": "requesty-claude-opus-5-eu-north-1-input",
@@ -8747,7 +8331,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 5
+      "value": 5.5
     },
     {
       "pricing_id": "requesty-claude-opus-5-eu-north-1-output",
@@ -8755,7 +8339,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 25
+      "value": 27.5
     },
     {
       "pricing_id": "requesty-claude-opus-5-eu-west-1-input",
@@ -8763,7 +8347,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 5
+      "value": 5.5
     },
     {
       "pricing_id": "requesty-claude-opus-5-eu-west-1-output",
@@ -8771,7 +8355,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 25
+      "value": 27.5
     },
     {
       "pricing_id": "requesty-claude-opus-5-eu-west-3-input",
@@ -8779,7 +8363,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 5
+      "value": 5.5
     },
     {
       "pricing_id": "requesty-claude-opus-5-eu-west-3-output",
@@ -8787,7 +8371,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 25
+      "value": 27.5
     },
     {
       "pricing_id": "requesty-claude-opus-5-eu-input",
@@ -8795,7 +8379,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 5
+      "value": 5.5
     },
     {
       "pricing_id": "requesty-claude-opus-5-eu-output",
@@ -8803,7 +8387,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 25
+      "value": 27.5
     },
     {
       "pricing_id": "requesty-claude-opus-5-us-input",
@@ -8811,7 +8395,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 5
+      "value": 5.5
     },
     {
       "pricing_id": "requesty-claude-opus-5-us-output",
@@ -8819,7 +8403,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 25
+      "value": 27.5
     },
     {
       "pricing_id": "requesty-claude-opus-5-input",
@@ -9339,7 +8923,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2
+      "value": 2.2
     },
     {
       "pricing_id": "requesty-claude-sonnet-5-ap-southeast-2-output",
@@ -9347,7 +8931,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 10
+      "value": 11
     },
     {
       "pricing_id": "requesty-claude-sonnet-5-eu-central-1-input",
@@ -9355,7 +8939,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2
+      "value": 2.2
     },
     {
       "pricing_id": "requesty-claude-sonnet-5-eu-central-1-output",
@@ -9363,7 +8947,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 10
+      "value": 11
     },
     {
       "pricing_id": "requesty-claude-sonnet-5-eu-north-1-input",
@@ -9371,7 +8955,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2
+      "value": 2.2
     },
     {
       "pricing_id": "requesty-claude-sonnet-5-eu-north-1-output",
@@ -9379,7 +8963,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 10
+      "value": 11
     },
     {
       "pricing_id": "requesty-claude-sonnet-5-eu-west-1-input",
@@ -9387,7 +8971,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2
+      "value": 2.2
     },
     {
       "pricing_id": "requesty-claude-sonnet-5-eu-west-1-output",
@@ -9395,7 +8979,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 10
+      "value": 11
     },
     {
       "pricing_id": "requesty-claude-sonnet-5-eu-west-2-input",
@@ -9403,7 +8987,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2
+      "value": 2.2
     },
     {
       "pricing_id": "requesty-claude-sonnet-5-eu-west-2-output",
@@ -9411,7 +8995,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 10
+      "value": 11
     },
     {
       "pricing_id": "requesty-claude-sonnet-5-eu-input",
@@ -9419,7 +9003,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2
+      "value": 2.2
     },
     {
       "pricing_id": "requesty-claude-sonnet-5-eu-output",
@@ -9427,7 +9011,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 10
+      "value": 11
     },
     {
       "pricing_id": "requesty-claude-sonnet-5-us-east-1-input",
@@ -9435,7 +9019,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2
+      "value": 2.2
     },
     {
       "pricing_id": "requesty-claude-sonnet-5-us-east-1-output",
@@ -9443,7 +9027,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 10
+      "value": 11
     },
     {
       "pricing_id": "requesty-claude-sonnet-5-us-east-2-input",
@@ -9451,7 +9035,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2
+      "value": 2.2
     },
     {
       "pricing_id": "requesty-claude-sonnet-5-us-east-2-output",
@@ -9459,7 +9043,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 10
+      "value": 11
     },
     {
       "pricing_id": "requesty-claude-sonnet-5-us-west-2-input",
@@ -9467,7 +9051,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2
+      "value": 2.2
     },
     {
       "pricing_id": "requesty-claude-sonnet-5-us-west-2-output",
@@ -9475,7 +9059,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 10
+      "value": 11
     },
     {
       "pricing_id": "requesty-claude-sonnet-5-us-input",
@@ -9483,7 +9067,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2
+      "value": 2.2
     },
     {
       "pricing_id": "requesty-claude-sonnet-5-us-output",
@@ -9491,7 +9075,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 10
+      "value": 11
     },
     {
       "pricing_id": "requesty-claude-sonnet-5-input",
@@ -9531,7 +9115,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.257
+      "value": 0.14
     },
     {
       "pricing_id": "requesty-deepseek-chat-output",
@@ -9539,7 +9123,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1.029
+      "value": 0.28
     },
     {
       "pricing_id": "requesty-deepseek-r1-distill-llama-70b-input",
@@ -9579,7 +9163,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.7
+      "value": 4
     },
     {
       "pricing_id": "requesty-deepseek-r1-output",
@@ -9587,7 +9171,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2.5
+      "value": 4
     },
     {
       "pricing_id": "requesty-deepseek-reasoner-input",
@@ -9691,7 +9275,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.09
+      "value": 0.14
     },
     {
       "pricing_id": "requesty-deepseek-v4-flash-0731-output",
@@ -9699,7 +9283,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.18
+      "value": 0.28
     },
     {
       "pricing_id": "requesty-deepseek-v4-flash-flex-input",
@@ -9755,7 +9339,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.435
+      "value": 1.75
     },
     {
       "pricing_id": "requesty-deepseek-v4-pro-output",
@@ -9763,7 +9347,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.87
+      "value": 3.5
     },
     {
       "pricing_id": "requesty-devstral-latest-input",
@@ -10643,7 +10227,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 3
+      "value": 2
     },
     {
       "pricing_id": "requesty-gemini-3.1-flash-lite-eu-input",
@@ -10819,7 +10403,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 7.5
+      "value": 7
     },
     {
       "pricing_id": "requesty-gemma-3-27b-it-input",
@@ -10827,7 +10411,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.08
+      "value": 0.1
     },
     {
       "pricing_id": "requesty-gemma-3-27b-it-output",
@@ -10835,7 +10419,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.45
+      "value": 0.3
     },
     {
       "pricing_id": "requesty-gemma-4-26b-a4b-it-input",
@@ -10843,7 +10427,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.07
+      "value": 0.13
     },
     {
       "pricing_id": "requesty-gemma-4-26b-a4b-it-output",
@@ -10851,23 +10435,13 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.34
+      "value": 0.4
     },
     {
-      "pricing_id": "requesty-gemma-4-31b-it-input",
+      "pricing_id": "requesty-gemma-4-31b-it-free",
       "model_id": "requesty/gemma-4-31b-it",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.1
-    },
-    {
-      "pricing_id": "requesty-gemma-4-31b-it-output",
-      "model_id": "requesty/gemma-4-31b-it",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.34
+      "pricing_type": "free",
+      "value": 0
     },
     {
       "pricing_id": "requesty-glm-4.5-air-input",
@@ -10875,7 +10449,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.13
+      "value": 0.2
     },
     {
       "pricing_id": "requesty-glm-4.5-air-output",
@@ -10883,7 +10457,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.85
+      "value": 1.1
     },
     {
       "pricing_id": "requesty-glm-4.5-input",
@@ -10907,7 +10481,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.5
+      "value": 0.6
     },
     {
       "pricing_id": "requesty-glm-4.6-output",
@@ -10915,7 +10489,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2
+      "value": 2.2
     },
     {
       "pricing_id": "requesty-glm-4.7-input",
@@ -10923,7 +10497,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.4
+      "value": 0.6
     },
     {
       "pricing_id": "requesty-glm-4.7-output",
@@ -10931,7 +10505,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1.75
+      "value": 2.2
     },
     {
       "pricing_id": "requesty-glm-5.1-input",
@@ -10939,7 +10513,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.966
+      "value": 1.4
     },
     {
       "pricing_id": "requesty-glm-5.1-output",
@@ -10947,7 +10521,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 3.036
+      "value": 4.4
     },
     {
       "pricing_id": "requesty-glm-5.2-fast-input",
@@ -10987,7 +10561,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.368
+      "value": 1.4
     },
     {
       "pricing_id": "requesty-glm-5.2-output",
@@ -10995,7 +10569,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1.157
+      "value": 4.4
     },
     {
       "pricing_id": "requesty-glm-5-input",
@@ -11003,7 +10577,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.95
+      "value": 1
     },
     {
       "pricing_id": "requesty-glm-5-output",
@@ -11011,7 +10585,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2.55
+      "value": 3.2
     },
     {
       "pricing_id": "requesty-gpt-4.1-eastus2-input",
@@ -11291,7 +10865,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 5
+      "value": 2.5
     },
     {
       "pricing_id": "requesty-gpt-4o-2024-05-13-output",
@@ -11299,7 +10873,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 15
+      "value": 10
     },
     {
       "pricing_id": "requesty-gpt-4o-2024-08-06-input",
@@ -11963,7 +11537,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2.75
+      "value": 2.5
     },
     {
       "pricing_id": "requesty-gpt-5.4-francecentral-output",
@@ -11971,7 +11545,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 16.5
+      "value": 15
     },
     {
       "pricing_id": "requesty-gpt-5.4-mini-eastus2-input",
@@ -12075,7 +11649,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2.5
+      "value": 2.75
     },
     {
       "pricing_id": "requesty-gpt-5.4-us-east-1-output",
@@ -12083,7 +11657,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 15
+      "value": 16.5
     },
     {
       "pricing_id": "requesty-gpt-5.4-us-east-2-input",
@@ -12091,7 +11665,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2.5
+      "value": 2.75
     },
     {
       "pricing_id": "requesty-gpt-5.4-us-east-2-output",
@@ -12099,7 +11673,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 15
+      "value": 16.5
     },
     {
       "pricing_id": "requesty-gpt-5.4-us-west-2-input",
@@ -12107,7 +11681,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2.5
+      "value": 2.75
     },
     {
       "pricing_id": "requesty-gpt-5.4-us-west-2-output",
@@ -12115,7 +11689,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 15
+      "value": 16.5
     },
     {
       "pricing_id": "requesty-gpt-5.4-input",
@@ -12187,7 +11761,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 5
+      "value": 5.5
     },
     {
       "pricing_id": "requesty-gpt-5.5-us-east-1-output",
@@ -12195,7 +11769,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 30
+      "value": 33
     },
     {
       "pricing_id": "requesty-gpt-5.5-us-east-2-input",
@@ -12203,7 +11777,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 5
+      "value": 5.5
     },
     {
       "pricing_id": "requesty-gpt-5.5-us-east-2-output",
@@ -12211,7 +11785,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 30
+      "value": 33
     },
     {
       "pricing_id": "requesty-gpt-5.5-input",
@@ -12267,7 +11841,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.1
+      "value": 0.2
     },
     {
       "pricing_id": "requesty-gpt-5.6-luna-output",
@@ -12275,7 +11849,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.6
+      "value": 1.2
     },
     {
       "pricing_id": "requesty-gpt-5.6-sol-eastus2-input",
@@ -12363,7 +11937,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1
+      "value": 2
     },
     {
       "pricing_id": "requesty-gpt-5.6-terra-output",
@@ -12371,7 +11945,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 6
+      "value": 12
     },
     {
       "pricing_id": "requesty-gpt-5-input",
@@ -12395,7 +11969,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.037
+      "value": 0.15
     },
     {
       "pricing_id": "requesty-gpt-oss-120b-output",
@@ -12403,7 +11977,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.17
+      "value": 0.6
     },
     {
       "pricing_id": "requesty-gpt-oss-20b-input",
@@ -12411,7 +11985,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.03
+      "value": 0.1
     },
     {
       "pricing_id": "requesty-gpt-oss-20b-output",
@@ -12419,7 +11993,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.13
+      "value": 0.5
     },
     {
       "pricing_id": "requesty-grok-3-mini-high-input",
@@ -12683,7 +12257,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.132
+      "value": 0.14
     },
     {
       "pricing_id": "requesty-hy3-output",
@@ -12691,7 +12265,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.528
+      "value": 0.58
     },
     {
       "pricing_id": "requesty-inkling-256k-input",
@@ -12715,7 +12289,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1
+      "value": 1.87
     },
     {
       "pricing_id": "requesty-inkling-output",
@@ -12723,7 +12297,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 4.05
+      "value": 4.68
     },
     {
       "pricing_id": "requesty-kat-coder-pro-input",
@@ -12763,7 +12337,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.57
+      "value": 0.72
     },
     {
       "pricing_id": "requesty-kimi-k2.5-eu-north-1-output",
@@ -12771,7 +12345,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2.85
+      "value": 3.6
     },
     {
       "pricing_id": "requesty-kimi-k2.5-eu-west-2-input",
@@ -12779,7 +12353,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.57
+      "value": 0.72
     },
     {
       "pricing_id": "requesty-kimi-k2.5-eu-west-2-output",
@@ -12787,7 +12361,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2.85
+      "value": 3.6
     },
     {
       "pricing_id": "requesty-kimi-k2.5-us-east-1-input",
@@ -12795,7 +12369,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.57
+      "value": 0.6
     },
     {
       "pricing_id": "requesty-kimi-k2.5-us-east-1-output",
@@ -12803,7 +12377,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2.85
+      "value": 3
     },
     {
       "pricing_id": "requesty-kimi-k2.5-us-east-2-input",
@@ -12811,7 +12385,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.57
+      "value": 0.6
     },
     {
       "pricing_id": "requesty-kimi-k2.5-us-east-2-output",
@@ -12819,7 +12393,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2.85
+      "value": 3
     },
     {
       "pricing_id": "requesty-kimi-k2.5-us-west-2-input",
@@ -12827,7 +12401,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.57
+      "value": 0.6
     },
     {
       "pricing_id": "requesty-kimi-k2.5-us-west-2-output",
@@ -12835,7 +12409,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2.85
+      "value": 3
     },
     {
       "pricing_id": "requesty-kimi-k2.5-input",
@@ -12843,7 +12417,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.57
+      "value": 0.6
     },
     {
       "pricing_id": "requesty-kimi-k2.5-output",
@@ -12851,7 +12425,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2.85
+      "value": 3
     },
     {
       "pricing_id": "requesty-kimi-k2.6-input",
@@ -12859,7 +12433,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.6
+      "value": 0.95
     },
     {
       "pricing_id": "requesty-kimi-k2.6-output",
@@ -12867,7 +12441,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 3.41
+      "value": 4
     },
     {
       "pricing_id": "requesty-kimi-k2.7-code-input",
@@ -12875,7 +12449,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.73
+      "value": 0.95
     },
     {
       "pricing_id": "requesty-kimi-k2.7-code-output",
@@ -12883,7 +12457,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 3.5
+      "value": 4
     },
     {
       "pricing_id": "requesty-kimi-k2-input",
@@ -12891,7 +12465,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.57
+      "value": 0.6
     },
     {
       "pricing_id": "requesty-kimi-k2-output",
@@ -12899,7 +12473,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2.3
+      "value": 2.5
     },
     {
       "pricing_id": "requesty-kimi-k3-input",
@@ -12989,7 +12563,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.075
+      "value": 0.3
     },
     {
       "pricing_id": "requesty-ling-2.6-1t-output",
@@ -12997,7 +12571,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.625
+      "value": 2.5
     },
     {
       "pricing_id": "requesty-ling-2.6-flash-input",
@@ -13005,7 +12579,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.01
+      "value": 0.1
     },
     {
       "pricing_id": "requesty-ling-2.6-flash-output",
@@ -13013,7 +12587,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.03
+      "value": 0.3
     },
     {
       "pricing_id": "requesty-llama-3.1-8b-instruct-input",
@@ -13029,7 +12603,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.08
+      "value": 0.05
     },
     {
       "pricing_id": "requesty-llama-3.2-90b-vision-instruct-input",
@@ -13181,7 +12755,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.15
+      "value": 0.36
     },
     {
       "pricing_id": "requesty-minimax-m2.5-eu-central-1-output",
@@ -13189,7 +12763,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.9
+      "value": 1.44
     },
     {
       "pricing_id": "requesty-minimax-m2.5-eu-north-1-input",
@@ -13197,7 +12771,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.15
+      "value": 0.36
     },
     {
       "pricing_id": "requesty-minimax-m2.5-eu-north-1-output",
@@ -13205,7 +12779,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.9
+      "value": 1.44
     },
     {
       "pricing_id": "requesty-minimax-m2.5-eu-south-1-input",
@@ -13213,7 +12787,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.15
+      "value": 0.36
     },
     {
       "pricing_id": "requesty-minimax-m2.5-eu-south-1-output",
@@ -13221,7 +12795,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.9
+      "value": 1.44
     },
     {
       "pricing_id": "requesty-minimax-m2.5-eu-west-1-input",
@@ -13229,7 +12803,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.15
+      "value": 0.36
     },
     {
       "pricing_id": "requesty-minimax-m2.5-eu-west-1-output",
@@ -13237,7 +12811,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.9
+      "value": 1.44
     },
     {
       "pricing_id": "requesty-minimax-m2.5-highspeed-input",
@@ -13261,7 +12835,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.15
+      "value": 0.3
     },
     {
       "pricing_id": "requesty-minimax-m2.5-us-east-1-output",
@@ -13269,7 +12843,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.9
+      "value": 1.2
     },
     {
       "pricing_id": "requesty-minimax-m2.5-us-east-2-input",
@@ -13277,7 +12851,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.15
+      "value": 0.3
     },
     {
       "pricing_id": "requesty-minimax-m2.5-us-east-2-output",
@@ -13285,7 +12859,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.9
+      "value": 1.2
     },
     {
       "pricing_id": "requesty-minimax-m2.5-us-west-2-input",
@@ -13293,7 +12867,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.15
+      "value": 0.3
     },
     {
       "pricing_id": "requesty-minimax-m2.5-us-west-2-output",
@@ -13301,7 +12875,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.9
+      "value": 1.2
     },
     {
       "pricing_id": "requesty-minimax-m2.5-input",
@@ -13309,7 +12883,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.15
+      "value": 0.3
     },
     {
       "pricing_id": "requesty-minimax-m2.5-output",
@@ -13317,7 +12891,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.9
+      "value": 1.2
     },
     {
       "pricing_id": "requesty-minimax-m2.7-highspeed-input",
@@ -13341,7 +12915,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.25
+      "value": 0.3
     },
     {
       "pricing_id": "requesty-minimax-m2.7-output",
@@ -13349,7 +12923,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1
+      "value": 1.2
     },
     {
       "pricing_id": "requesty-minimax-m2-input",
@@ -13357,7 +12931,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.255
+      "value": 0.3
     },
     {
       "pricing_id": "requesty-minimax-m2-output",
@@ -13365,7 +12939,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1.02
+      "value": 1.2
     },
     {
       "pricing_id": "requesty-minimax-m3-input",
@@ -13405,7 +12979,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1.5
+      "value": 1.65
     },
     {
       "pricing_id": "requesty-mistral-medium-3-5-output",
@@ -13413,7 +12987,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 7.5
+      "value": 8.25
     },
     {
       "pricing_id": "requesty-mistral-medium-latest-input",
@@ -13437,7 +13011,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.019
+      "value": 0.17
     },
     {
       "pricing_id": "requesty-mistral-nemo-output",
@@ -13445,7 +13019,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.03
+      "value": 0.17
     },
     {
       "pricing_id": "requesty-mistral-small-2503-input",
@@ -13469,7 +13043,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.15
+      "value": 0.165
     },
     {
       "pricing_id": "requesty-mistral-small-2603-output",
@@ -13477,7 +13051,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.6
+      "value": 0.66
     },
     {
       "pricing_id": "requesty-mistral-small-latest-input",
@@ -13501,7 +13075,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.06
+      "value": 0.09
     },
     {
       "pricing_id": "requesty-mythomax-l2-13b-output",
@@ -13509,23 +13083,13 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.06
+      "value": 0.09
     },
     {
-      "pricing_id": "requesty-nemotron-3-nano-30b-a3b-input",
+      "pricing_id": "requesty-nemotron-3-nano-30b-a3b-free",
       "model_id": "requesty/nemotron-3-nano-30b-a3b",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.05
-    },
-    {
-      "pricing_id": "requesty-nemotron-3-nano-30b-a3b-output",
-      "model_id": "requesty/nemotron-3-nano-30b-a3b",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.2
+      "pricing_type": "free",
+      "value": 0
     },
     {
       "pricing_id": "requesty-nemotron-3-nano-omni-30b-a3b-reasoning-free",
@@ -13555,7 +13119,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.085
+      "value": 0.3
     },
     {
       "pricing_id": "requesty-nemotron-3-super-120b-a12b-output",
@@ -13563,7 +13127,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.4
+      "value": 0.9
     },
     {
       "pricing_id": "requesty-nemotron-3-ultra-550b-a55b-input",
@@ -13571,7 +13135,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.6
+      "value": 1
     },
     {
       "pricing_id": "requesty-nemotron-3-ultra-550b-a55b-output",
@@ -13579,7 +13143,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 3.6
+      "value": 3
     },
     {
       "pricing_id": "requesty-nemotron-3-ultra-nvfp4-input",
@@ -14073,7 +13637,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.36
+      "value": 0.38
     },
     {
       "pricing_id": "requesty-qwen-2.5-72b-instruct-output",
@@ -14105,7 +13669,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.26
+      "value": 0.4
     },
     {
       "pricing_id": "requesty-qwen-plus-output",
@@ -14113,7 +13677,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.78
+      "value": 1.2
     },
     {
       "pricing_id": "requesty-qwen-turbo-input",
@@ -14185,7 +13749,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.071
+      "value": 0.2
     },
     {
       "pricing_id": "requesty-qwen3-235b-a22b-instruct-2507-output",
@@ -14193,7 +13757,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.1
+      "value": 0.6
     },
     {
       "pricing_id": "requesty-qwen3-235b-a22b-thinking-2507-input",
@@ -14217,7 +13781,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.455
+      "value": 0.2
     },
     {
       "pricing_id": "requesty-qwen3-235b-a22b-output",
@@ -14225,7 +13789,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1.82
+      "value": 0.6
     },
     {
       "pricing_id": "requesty-qwen3-30b-a3b-instruct-2507-input",
@@ -14233,7 +13797,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.048
+      "value": 0.1
     },
     {
       "pricing_id": "requesty-qwen3-30b-a3b-instruct-2507-output",
@@ -14241,7 +13805,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.193
+      "value": 0.3
     },
     {
       "pricing_id": "requesty-qwen3-32b-input",
@@ -14249,7 +13813,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.08
+      "value": 0.1
     },
     {
       "pricing_id": "requesty-qwen3-32b-output",
@@ -14257,7 +13821,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.28
+      "value": 0.3
     },
     {
       "pricing_id": "requesty-qwen3-coder-480b-a35b-instruct-turbo-input",
@@ -14297,7 +13861,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.195
+      "value": 0.3
     },
     {
       "pricing_id": "requesty-qwen3-coder-flash-output",
@@ -14305,7 +13869,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.975
+      "value": 1.5
     },
     {
       "pricing_id": "requesty-qwen3-coder-plus-input",
@@ -14313,7 +13877,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.65
+      "value": 1
     },
     {
       "pricing_id": "requesty-qwen3-coder-plus-output",
@@ -14321,7 +13885,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 3.25
+      "value": 5
     },
     {
       "pricing_id": "requesty-qwen3-max-input",
@@ -14329,7 +13893,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.78
+      "value": 0.861
     },
     {
       "pricing_id": "requesty-qwen3-max-output",
@@ -14337,7 +13901,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 3.9
+      "value": 3.441
     },
     {
       "pricing_id": "requesty-qwen3-next-80b-a3b-thinking-input",
@@ -14361,7 +13925,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.195
+      "value": 0.26
     },
     {
       "pricing_id": "requesty-qwen3.5-27b-output",
@@ -14369,7 +13933,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1.56
+      "value": 2.6
     },
     {
       "pricing_id": "requesty-qwen3.5-2b-input",
@@ -14409,7 +13973,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.39
+      "value": 0.6
     },
     {
       "pricing_id": "requesty-qwen3.5-397b-a17b-output",
@@ -14417,7 +13981,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 2.34
+      "value": 3.6
     },
     {
       "pricing_id": "requesty-qwen3.6-plus-input",
@@ -14425,7 +13989,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.325
+      "value": 0.5
     },
     {
       "pricing_id": "requesty-qwen3.6-plus-output",
@@ -14433,7 +13997,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1.95
+      "value": 3
     },
     {
       "pricing_id": "requesty-qwen3.7-max-input",
@@ -14441,7 +14005,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1.475
+      "value": 2.5
     },
     {
       "pricing_id": "requesty-qwen3.7-max-output",
@@ -14449,7 +14013,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 4.425
+      "value": 7.5
     },
     {
       "pricing_id": "requesty-qwen3.7-plus-input",
@@ -14457,7 +14021,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.32
+      "value": 0.4
     },
     {
       "pricing_id": "requesty-qwen3.7-plus-output",
@@ -14465,7 +14029,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1.28
+      "value": 1.6
     },
     {
       "pricing_id": "requesty-ring-2.6-1t-input",
@@ -14473,7 +14037,7 @@
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.075
+      "value": 0.3
     },
     {
       "pricing_id": "requesty-ring-2.6-1t-output",
@@ -14481,7 +14045,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.625
+      "value": 2.5
     },
     {
       "pricing_id": "requesty-seed-1.8-input",
@@ -14948,22 +14512,6 @@
       "value": 1
     },
     {
-      "pricing_id": "vercel-deepseek-v3.1-input",
-      "model_id": "vercel/deepseek-v3.1",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.3
-    },
-    {
-      "pricing_id": "vercel-deepseek-v3.1-output",
-      "model_id": "vercel/deepseek-v3.1",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 1
-    },
-    {
       "pricing_id": "vercel-deepseek-v3.2-input",
       "model_id": "vercel/deepseek-v3.2",
       "pricing_type": "input-token",
@@ -14978,22 +14526,6 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 0.4
-    },
-    {
-      "pricing_id": "vercel-deepseek-v3-input",
-      "model_id": "vercel/deepseek-v3",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.89
-    },
-    {
-      "pricing_id": "vercel-deepseek-v3-output",
-      "model_id": "vercel/deepseek-v3",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.89
     },
     {
       "pricing_id": "vercel-deepseek-v4-flash-0731-input",
@@ -15444,28 +14976,12 @@
       "value": 3.036
     },
     {
-      "pricing_id": "vercel-glm-5.2-fast-input",
-      "model_id": "vercel/glm-5.2-fast",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 2.1
-    },
-    {
-      "pricing_id": "vercel-glm-5.2-fast-output",
-      "model_id": "vercel/glm-5.2-fast",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 6.6
-    },
-    {
       "pricing_id": "vercel-glm-5.2-input",
       "model_id": "vercel/glm-5.2",
       "pricing_type": "input-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 0.368
+      "value": 0.36
     },
     {
       "pricing_id": "vercel-glm-5.2-output",
@@ -15473,7 +14989,7 @@
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
-      "value": 1.157
+      "value": 1.131
     },
     {
       "pricing_id": "vercel-glm-5-input",
@@ -15614,22 +15130,6 @@
     {
       "pricing_id": "vercel-gpt-4o-output",
       "model_id": "vercel/gpt-4o",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 10
-    },
-    {
-      "pricing_id": "vercel-gpt-5-codex-input",
-      "model_id": "vercel/gpt-5-codex",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 1.25
-    },
-    {
-      "pricing_id": "vercel-gpt-5-codex-output",
-      "model_id": "vercel/gpt-5-codex",
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",
@@ -16400,22 +15900,6 @@
       "value": 1.2
     },
     {
-      "pricing_id": "vercel-minimax-m2.5-highspeed-input",
-      "model_id": "vercel/minimax-m2.5-highspeed",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.6
-    },
-    {
-      "pricing_id": "vercel-minimax-m2.5-highspeed-output",
-      "model_id": "vercel/minimax-m2.5-highspeed",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 2.4
-    },
-    {
       "pricing_id": "vercel-minimax-m2.5-input",
       "model_id": "vercel/minimax-m2.5",
       "pricing_type": "input-token",
@@ -16430,22 +15914,6 @@
       "currency": "USD",
       "unit": "1M tokens",
       "value": 0.9
-    },
-    {
-      "pricing_id": "vercel-minimax-m2.7-highspeed-input",
-      "model_id": "vercel/minimax-m2.7-highspeed",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.6
-    },
-    {
-      "pricing_id": "vercel-minimax-m2.7-highspeed-output",
-      "model_id": "vercel/minimax-m2.7-highspeed",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 2.4
     },
     {
       "pricing_id": "vercel-minimax-m2.7-input",
@@ -16906,22 +16374,6 @@
     {
       "pricing_id": "vercel-seed-1.6-output",
       "model_id": "vercel/seed-1.6",
-      "pricing_type": "output-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 2
-    },
-    {
-      "pricing_id": "vercel-seed-1.8-input",
-      "model_id": "vercel/seed-1.8",
-      "pricing_type": "input-token",
-      "currency": "USD",
-      "unit": "1M tokens",
-      "value": 0.25
-    },
-    {
-      "pricing_id": "vercel-seed-1.8-output",
-      "model_id": "vercel/seed-1.8",
       "pricing_type": "output-token",
       "currency": "USD",
       "unit": "1M tokens",

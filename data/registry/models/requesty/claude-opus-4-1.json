@@ -2,6 +2,7 @@
   "model_id": "requesty/claude-opus-4-1",
   "provider_id": "requesty",
   "name": "anthropic/claude-opus-4-1",
+  "context_window": 200000,
   "modality": [
     "text"
   ],
@@ -15,10 +16,9 @@
   "embedding_support": false,
   "is_free": false,
   "tier": "premium",
-  "capability_ids": [],
-  "status": "active",
   "limits": {
     "max_input_tokens": 200000
   },
-  "context_window": 200000
+  "capability_ids": [],
+  "status": "active"
 }
