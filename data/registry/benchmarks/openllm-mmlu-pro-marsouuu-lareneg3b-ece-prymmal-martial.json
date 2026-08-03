@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-marsouuu-lareneg3b-ece-prymmal-martial",
+  "model_id": "Marsouuu/lareneg3B-ECE-PRYMMAL-Martial",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.740248226950357,
+  "score_raw": 30.740248226950357,
+  "evaluation_date": "2024-11-06",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1674
+}

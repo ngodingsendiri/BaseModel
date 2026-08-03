@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sam-paech-darkest-muse-v1",
+  "model_id": "sam-paech/Darkest-muse-v1",
+  "benchmark_name": "musr",
+  "score": 15.276041666666671,
+  "score_raw": 15.276041666666671,
+  "evaluation_date": "2024-10-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 804
+}

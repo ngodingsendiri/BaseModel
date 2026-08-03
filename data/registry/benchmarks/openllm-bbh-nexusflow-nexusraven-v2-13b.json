@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-nexusflow-nexusraven-v2-13b",
+  "model_id": "Nexusflow/NexusRaven-V2-13B",
+  "benchmark_name": "bbh",
+  "score": 15.336448395229596,
+  "score_raw": 15.336448395229596,
+  "evaluation_date": "2023-12-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3481
+}

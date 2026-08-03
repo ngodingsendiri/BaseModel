@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-maldv-qwentile2-5-32b-instruct",
+  "model_id": "maldv/Qwentile2.5-32B-Instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 54.214686761229316,
+  "score_raw": 54.214686761229316,
+  "evaluation_date": "2024-12-19",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 22
+}

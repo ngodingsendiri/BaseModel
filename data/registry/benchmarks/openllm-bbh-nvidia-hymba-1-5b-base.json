@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-nvidia-hymba-1-5b-base",
+  "model_id": "nvidia/Hymba-1.5B-Base",
+  "benchmark_name": "bbh",
+  "score": 7.689941118138137,
+  "score_raw": 7.689941118138137,
+  "evaluation_date": "2024-10-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3799
+}

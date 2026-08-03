@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-occiglot-occiglot-7b-es-en-instruct",
+  "model_id": "occiglot/occiglot-7b-es-en-instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 14.561170212765957,
+  "score_raw": 14.561170212765957,
+  "evaluation_date": "2024-03-05",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3488
+}

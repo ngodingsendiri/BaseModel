@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-kukedlc-qwen-2-5-7b-spanish-o1-cot",
+  "model_id": "Kukedlc/Qwen-2.5-7b-Spanish-o1-CoT",
+  "benchmark_name": "mmlu-pro",
+  "score": 37.37071513002365,
+  "score_raw": 37.37071513002365,
+  "evaluation_date": "2024-12-03",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 935
+}

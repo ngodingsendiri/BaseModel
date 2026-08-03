@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-cohereforai-aya-23-35b",
+  "model_id": "CohereForAI/aya-23-35B",
+  "benchmark_name": "ifeval",
+  "score": 64.61932117891638,
+  "score_raw": 64.61932117891638,
+  "evaluation_date": "2024-05-19",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1049
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-togethercomputer-redpajama-incite-base-3b-v1",
+  "model_id": "togethercomputer/RedPajama-INCITE-Base-3B-v1",
+  "benchmark_name": "ifeval",
+  "score": 22.936253584932423,
+  "score_raw": 22.936253584932423,
+  "evaluation_date": "2023-05-04",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3822
+}

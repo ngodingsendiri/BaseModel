@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-saxo-linkbricks-horizon-ai-korean-superb-22b",
+  "model_id": "Saxo/Linkbricks-Horizon-AI-Korean-Superb-22B",
+  "benchmark_name": "gpqa",
+  "score": 10.17897091722595,
+  "score_raw": 10.17897091722595,
+  "evaluation_date": "2024-11-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 967
+}

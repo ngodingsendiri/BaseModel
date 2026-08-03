@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ontocord-redpajama-3b-v1-autoredteam",
+  "model_id": "ontocord/RedPajama-3B-v1-AutoRedteam",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.1986554373522447,
+  "score_raw": 1.1986554373522447,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4483
+}

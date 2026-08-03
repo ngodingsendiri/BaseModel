@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-jpacifico-lucie-boosted-7b-instruct",
+  "model_id": "jpacifico/Lucie-Boosted-7B-Instruct",
+  "benchmark_name": "musr",
+  "score": 3.4010416666666683,
+  "score_raw": 3.4010416666666683,
+  "evaluation_date": "2025-01-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3835
+}

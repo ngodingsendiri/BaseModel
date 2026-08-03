@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-win10-arliai-rpmax-v1-3-merge-13-3b",
+  "model_id": "win10/ArliAI-RPMax-v1.3-merge-13.3B",
+  "benchmark_name": "mmlu-pro",
+  "score": 24.442228132387704,
+  "score_raw": 24.442228132387704,
+  "evaluation_date": "2024-11-16",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2568
+}

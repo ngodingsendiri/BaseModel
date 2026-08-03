@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-informatiker-qwen2-7b-instruct-abliterated",
+  "model_id": "informatiker/Qwen2-7B-Instruct-abliterated",
+  "benchmark_name": "average",
+  "score": 27.991694247930226,
+  "score_raw": 27.991694247930226,
+  "evaluation_date": "2024-07-10",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1295
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-arliai-llama-3-1-8b-arliai-rpmax-v1-1",
+  "model_id": "ArliAI/Llama-3.1-8B-ArliAI-RPMax-v1.1",
+  "benchmark_name": "musr",
+  "score": 5.3109375000000005,
+  "score_raw": 5.3109375000000005,
+  "evaluation_date": "2024-08-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3381
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-epistemeai2-fireball-mathmistral-nemo-base-2407-v2dpo",
+  "model_id": "EpistemeAI2/Fireball-MathMistral-Nemo-Base-2407-v2dpo",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.6419178486997636,
+  "score_raw": 1.6419178486997636,
+  "evaluation_date": "2024-08-21",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4265
+}

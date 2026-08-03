@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-lemon07r-gemma-2-ataraxy-v2f-9b",
+  "model_id": "lemon07r/Gemma-2-Ataraxy-v2f-9B",
+  "benchmark_name": "bbh",
+  "score": 31.421336195418803,
+  "score_raw": 31.421336195418803,
+  "evaluation_date": "2024-09-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1961
+}

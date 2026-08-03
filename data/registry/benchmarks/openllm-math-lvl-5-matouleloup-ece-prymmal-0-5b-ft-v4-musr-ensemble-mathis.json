@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-matouleloup-ece-prymmal-0-5b-ft-v4-musr-ensemble-mathis",
+  "model_id": "matouLeLoup/ECE-PRYMMAL-0.5B-FT-V4-MUSR-ENSEMBLE-Mathis",
+  "benchmark_name": "math-lvl-5",
+  "score": 2.643504531722054,
+  "score_raw": 2.643504531722054,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3784
+}

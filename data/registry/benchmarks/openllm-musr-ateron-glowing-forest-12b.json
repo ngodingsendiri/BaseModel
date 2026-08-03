@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-ateron-glowing-forest-12b",
+  "model_id": "Ateron/Glowing-Forest-12B",
+  "benchmark_name": "musr",
+  "score": 15.179947916666663,
+  "score_raw": 15.179947916666663,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 825
+}

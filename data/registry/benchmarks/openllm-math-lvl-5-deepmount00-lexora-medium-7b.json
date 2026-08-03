@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-deepmount00-lexora-medium-7b",
+  "model_id": "DeepMount00/Lexora-Medium-7B",
+  "benchmark_name": "math-lvl-5",
+  "score": 22.20543806646526,
+  "score_raw": 22.20543806646526,
+  "evaluation_date": "2024-09-24",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1129
+}

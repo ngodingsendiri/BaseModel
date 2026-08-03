@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-noname0202-gemma-2-2b-it-ties",
+  "model_id": "noname0202/gemma-2-2b-it-ties",
+  "benchmark_name": "musr",
+  "score": 7.144010416666667,
+  "score_raw": 7.144010416666667,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3035
+}

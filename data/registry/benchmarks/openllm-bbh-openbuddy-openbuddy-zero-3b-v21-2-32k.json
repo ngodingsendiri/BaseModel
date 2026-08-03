@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-openbuddy-openbuddy-zero-3b-v21-2-32k",
+  "model_id": "OpenBuddy/openbuddy-zero-3b-v21.2-32k",
+  "benchmark_name": "bbh",
+  "score": 15.293406418468868,
+  "score_raw": 15.293406418468868,
+  "evaluation_date": "2024-06-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3485
+}

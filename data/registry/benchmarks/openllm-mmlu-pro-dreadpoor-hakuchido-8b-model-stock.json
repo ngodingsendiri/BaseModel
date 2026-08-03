@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-hakuchido-8b-model-stock",
+  "model_id": "DreadPoor/hakuchido-8B-MODEL_STOCK",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.906471631205672,
+  "score_raw": 30.906471631205672,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1628
+}

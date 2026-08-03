@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-rsh345-mistral-ft-optimized-1218-neuralhermes-2-5-mistral-7b",
+  "model_id": "rsh345/mistral-ft-optimized-1218-NeuralHermes-2.5-Mistral-7B",
+  "benchmark_name": "musr",
+  "score": 17.26640625,
+  "score_raw": 17.26640625,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 534
+}

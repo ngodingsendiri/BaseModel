@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-recoilme-recoilme-gemma-2-9b-v0-3",
+  "model_id": "recoilme/recoilme-gemma-2-9B-v0.3",
+  "benchmark_name": "ifeval",
+  "score": 57.60759229954299,
+  "score_raw": 57.60759229954299,
+  "evaluation_date": "2024-09-18",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1382
+}

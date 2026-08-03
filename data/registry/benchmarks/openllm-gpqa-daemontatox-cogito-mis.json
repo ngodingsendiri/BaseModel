@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-daemontatox-cogito-mis",
+  "model_id": "Daemontatox/Cogito-MIS",
+  "benchmark_name": "gpqa",
+  "score": 0.8948545861297527,
+  "score_raw": 0.8948545861297527,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4143
+}

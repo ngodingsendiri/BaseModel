@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-zhliu627-zephyr-7b-gemma-dpo-avg",
+  "model_id": "ZHLiu627/zephyr-7b-gemma-dpo-avg",
+  "benchmark_name": "average",
+  "score": 14.667993195924751,
+  "score_raw": 14.667993195924751,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3334
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-triangle104-q2-5-14b-instruct-1m-harmony",
+  "model_id": "Triangle104/Q2.5-14B-Instruct-1M-Harmony",
+  "benchmark_name": "gpqa",
+  "score": 16.666666666666664,
+  "score_raw": 16.666666666666664,
+  "evaluation_date": "2025-02-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 286
+}

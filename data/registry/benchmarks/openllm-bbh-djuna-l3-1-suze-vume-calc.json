@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-djuna-l3-1-suze-vume-calc",
+  "model_id": "djuna/L3.1-Suze-Vume-calc",
+  "benchmark_name": "bbh",
+  "score": 31.136638199988273,
+  "score_raw": 31.136638199988273,
+  "evaluation_date": "2024-08-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2015
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-tensopolis-falcon3-10b-tensopolis-v1",
+  "model_id": "tensopolis/falcon3-10b-tensopolis-v1",
+  "benchmark_name": "musr",
+  "score": 14.191406249999995,
+  "score_raw": 14.191406249999995,
+  "evaluation_date": "2025-01-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1012
+}

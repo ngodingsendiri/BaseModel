@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sourjayon-deepseek-r1-8b-sify",
+  "model_id": "Sourjayon/DeepSeek-R1-8b-Sify",
+  "benchmark_name": "math-lvl-5",
+  "score": 24.47129909365559,
+  "score_raw": 24.47129909365559,
+  "evaluation_date": "2025-02-05",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1018
+}

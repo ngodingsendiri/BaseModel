@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-jaspionjader-slu-14",
+  "model_id": "jaspionjader/slu-14",
+  "benchmark_name": "musr",
+  "score": 7.738541666666667,
+  "score_raw": 7.738541666666667,
+  "evaluation_date": "2025-02-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2916
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-v000000-l3-1-storniitova-8b",
+  "model_id": "v000000/L3.1-Storniitova-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.841829196217496,
+  "score_raw": 30.841829196217496,
+  "evaluation_date": "2024-09-12",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1650
+}

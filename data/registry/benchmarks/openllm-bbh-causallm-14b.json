@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-causallm-14b",
+  "model_id": "CausalLM/14B",
+  "benchmark_name": "bbh",
+  "score": 24.780942674518666,
+  "score_raw": 24.780942674518666,
+  "evaluation_date": "2023-10-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2838
+}

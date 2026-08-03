@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-leroydyer-checkpoint-r1",
+  "model_id": "LeroyDyer/CheckPoint_R1",
+  "benchmark_name": "math-lvl-5",
+  "score": 4.305135951661631,
+  "score_raw": 4.305135951661631,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3438
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-epistemeai-polypsyche-llama-3-1-8b-instruct-agent-0-003-128k-code-ds-auto-empathy",
+  "model_id": "EpistemeAI/Polypsyche-Llama-3.1-8B-Instruct-Agent-0.003-128K-code-ds-auto-Empathy",
+  "benchmark_name": "bbh",
+  "score": 24.419414132832703,
+  "score_raw": 24.419414132832703,
+  "evaluation_date": "2024-12-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2863
+}

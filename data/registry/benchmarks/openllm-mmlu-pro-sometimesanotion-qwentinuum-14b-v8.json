@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sometimesanotion-qwentinuum-14b-v8",
+  "model_id": "sometimesanotion/Qwentinuum-14B-v8",
+  "benchmark_name": "mmlu-pro",
+  "score": 49.02482269503546,
+  "score_raw": 49.02482269503546,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 141
+}

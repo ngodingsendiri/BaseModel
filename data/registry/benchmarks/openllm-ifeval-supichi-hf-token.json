@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-supichi-hf-token",
+  "model_id": "Supichi/HF_TOKEN",
+  "benchmark_name": "ifeval",
+  "score": 13.798720727669249,
+  "score_raw": 13.798720727669249,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4394
+}

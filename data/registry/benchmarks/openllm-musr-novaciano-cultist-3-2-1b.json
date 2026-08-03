@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-novaciano-cultist-3-2-1b",
+  "model_id": "Novaciano/Cultist-3.2-1B",
+  "benchmark_name": "musr",
+  "score": 1.8929687500000008,
+  "score_raw": 1.8929687500000008,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4221
+}

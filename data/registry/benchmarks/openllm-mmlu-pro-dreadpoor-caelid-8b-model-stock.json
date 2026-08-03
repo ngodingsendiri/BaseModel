@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-caelid-8b-model-stock",
+  "model_id": "DreadPoor/Caelid-8B-Model_Stock",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.29432624113476,
+  "score_raw": 31.29432624113476,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1539
+}

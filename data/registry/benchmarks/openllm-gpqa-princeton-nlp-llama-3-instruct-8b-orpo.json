@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-princeton-nlp-llama-3-instruct-8b-orpo",
+  "model_id": "princeton-nlp/Llama-3-Instruct-8B-ORPO",
+  "benchmark_name": "gpqa",
+  "score": 1.1185682326621946,
+  "score_raw": 1.1185682326621946,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4100
+}

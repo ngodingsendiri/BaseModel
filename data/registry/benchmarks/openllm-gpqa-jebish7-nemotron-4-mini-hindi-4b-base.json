@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-jebish7-nemotron-4-mini-hindi-4b-base",
+  "model_id": "jebish7/Nemotron-4-Mini-Hindi-4B-Base",
+  "benchmark_name": "gpqa",
+  "score": 4.4742729306487705,
+  "score_raw": 4.4742729306487705,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2806
+}

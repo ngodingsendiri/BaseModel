@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nvidia-hymba-1-5b-instruct",
+  "model_id": "nvidia/Hymba-1.5B-Instruct",
+  "benchmark_name": "average",
+  "score": 14.192383567083992,
+  "score_raw": 14.192383567083992,
+  "evaluation_date": "2024-10-31",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3395
+}

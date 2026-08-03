@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-hotmailuser-gemma2magnum-27b",
+  "model_id": "hotmailuser/Gemma2magnum-27b",
+  "benchmark_name": "bbh",
+  "score": 46.10114598574725,
+  "score_raw": 46.10114598574725,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 640
+}

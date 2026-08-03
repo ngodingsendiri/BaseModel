@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-delta-vector-baldur-8b",
+  "model_id": "Delta-Vector/Baldur-8B",
+  "benchmark_name": "ifeval",
+  "score": 47.818233398493774,
+  "score_raw": 47.818233398493774,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2025
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-dreadpoor-aurora-faustus-8b-linear",
+  "model_id": "DreadPoor/Aurora_faustus-8B-LINEAR",
+  "benchmark_name": "average",
+  "score": 29.619908170064097,
+  "score_raw": 29.619908170064097,
+  "evaluation_date": "2024-09-25",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1093
+}

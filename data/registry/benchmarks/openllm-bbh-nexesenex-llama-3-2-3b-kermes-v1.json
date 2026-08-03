@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-nexesenex-llama-3-2-3b-kermes-v1",
+  "model_id": "Nexesenex/Llama_3.2_3b_Kermes_v1",
+  "benchmark_name": "bbh",
+  "score": 21.16913127462915,
+  "score_raw": 21.16913127462915,
+  "evaluation_date": "2025-02-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3129
+}

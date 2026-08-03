@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-goekdeniz-guelmez-j-o-s-i-e-v4o-1-5b-dpo-stage1-v1",
+  "model_id": "Goekdeniz-Guelmez/j.o.s.i.e.v4o-1.5b-dpo-stage1-v1",
+  "benchmark_name": "mmlu-pro",
+  "score": 17.2761524822695,
+  "score_raw": 17.2761524822695,
+  "evaluation_date": "2024-10-07",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3365
+}

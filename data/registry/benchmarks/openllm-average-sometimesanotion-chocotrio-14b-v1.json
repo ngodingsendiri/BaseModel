@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-sometimesanotion-chocotrio-14b-v1",
+  "model_id": "sometimesanotion/ChocoTrio-14B-v1",
+  "benchmark_name": "average",
+  "score": 41.158305672336745,
+  "score_raw": 41.158305672336745,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 188
+}

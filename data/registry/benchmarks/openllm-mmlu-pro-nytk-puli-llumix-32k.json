@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-nytk-puli-llumix-32k",
+  "model_id": "NYTK/PULI-LlumiX-32K",
+  "benchmark_name": "mmlu-pro",
+  "score": 7.561317966903072,
+  "score_raw": 7.561317966903072,
+  "evaluation_date": "2024-03-12",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3752
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-dans-discountmodels-dans-instruct-mix-8b-chatml",
+  "model_id": "Dans-DiscountModels/Dans-Instruct-Mix-8b-ChatML",
+  "benchmark_name": "math-lvl-5",
+  "score": 5.5135951661631415,
+  "score_raw": 5.5135951661631415,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3157
+}

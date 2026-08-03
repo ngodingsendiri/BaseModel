@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-arcee-ai-llama-3-1-supernova-lite",
+  "model_id": "arcee-ai/Llama-3.1-SuperNova-Lite",
+  "benchmark_name": "bbh",
+  "score": 31.572340212980667,
+  "score_raw": 31.572340212980667,
+  "evaluation_date": "2024-09-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1934
+}

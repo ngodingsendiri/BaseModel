@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-cpayne1303-cp2024-instruct",
+  "model_id": "cpayne1303/cp2024-instruct",
+  "benchmark_name": "gpqa",
+  "score": 1.342281879194629,
+  "score_raw": 1.342281879194629,
+  "evaluation_date": "2024-11-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3965
+}

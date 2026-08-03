@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-yam-peleg-hebrew-mistral-7b-200k",
+  "model_id": "yam-peleg/Hebrew-Mistral-7B-200K",
+  "benchmark_name": "musr",
+  "score": 4.416666666666667,
+  "score_raw": 4.416666666666667,
+  "evaluation_date": "2024-05-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3581
+}

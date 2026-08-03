@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-danielbrdz-barcenas-3b-grpo",
+  "model_id": "Danielbrdz/Barcenas-3b-GRPO",
+  "benchmark_name": "musr",
+  "score": 6.065885416666667,
+  "score_raw": 6.065885416666667,
+  "evaluation_date": "2025-02-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3238
+}

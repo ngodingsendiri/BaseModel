@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-tinycompany-sigmaboi-ib",
+  "model_id": "tinycompany/SigmaBoi-ib",
+  "benchmark_name": "musr",
+  "score": 11.254427083333335,
+  "score_raw": 11.254427083333335,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1882
+}

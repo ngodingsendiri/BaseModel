@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-delta-vector-tor-8b",
+  "model_id": "Delta-Vector/Tor-8B",
+  "benchmark_name": "ifeval",
+  "score": 23.815476269631244,
+  "score_raw": 23.815476269631244,
+  "evaluation_date": "2024-09-21",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3761
+}

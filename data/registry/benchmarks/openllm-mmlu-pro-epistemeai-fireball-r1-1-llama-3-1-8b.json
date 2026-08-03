@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-epistemeai-fireball-r1-1-llama-3-1-8b",
+  "model_id": "EpistemeAI/Fireball-R1.1-Llama-3.1-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.2817671394799046,
+  "score_raw": 1.2817671394799046,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4448
+}

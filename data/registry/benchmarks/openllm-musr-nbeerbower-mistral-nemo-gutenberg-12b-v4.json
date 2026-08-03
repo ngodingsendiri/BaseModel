@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-nbeerbower-mistral-nemo-gutenberg-12b-v4",
+  "model_id": "nbeerbower/mistral-nemo-gutenberg-12B-v4",
+  "benchmark_name": "musr",
+  "score": 13.203385416666663,
+  "score_raw": 13.203385416666663,
+  "evaluation_date": "2024-08-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1244
+}

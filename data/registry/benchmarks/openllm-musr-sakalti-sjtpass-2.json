@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sakalti-sjtpass-2",
+  "model_id": "Sakalti/SJTPass-2",
+  "benchmark_name": "musr",
+  "score": 0.7812499999999996,
+  "score_raw": 0.7812499999999996,
+  "evaluation_date": "2025-01-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4543
+}

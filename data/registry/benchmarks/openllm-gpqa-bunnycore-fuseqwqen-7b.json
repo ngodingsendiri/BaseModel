@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-bunnycore-fuseqwqen-7b",
+  "model_id": "bunnycore/FuseQwQen-7B",
+  "benchmark_name": "gpqa",
+  "score": 5.92841163310962,
+  "score_raw": 5.92841163310962,
+  "evaluation_date": "2024-12-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2300
+}

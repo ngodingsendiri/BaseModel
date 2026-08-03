@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-minghaowu-qwen1-5-1-8b-openhermes-2-5",
+  "model_id": "minghaowu/Qwen1.5-1.8B-OpenHermes-2.5",
+  "benchmark_name": "ifeval",
+  "score": 27.779735546128713,
+  "score_raw": 27.779735546128713,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3427
+}

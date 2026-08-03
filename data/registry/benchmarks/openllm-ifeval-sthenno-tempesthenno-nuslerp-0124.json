@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-sthenno-tempesthenno-nuslerp-0124",
+  "model_id": "sthenno/tempesthenno-nuslerp-0124",
+  "benchmark_name": "ifeval",
+  "score": 70.03982765728267,
+  "score_raw": 70.03982765728267,
+  "evaluation_date": "2025-01-27",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 768
+}

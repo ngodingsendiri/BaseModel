@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-speakleash-bielik-11b-v2-1-instruct",
+  "model_id": "speakleash/Bielik-11B-v2.1-Instruct",
+  "benchmark_name": "gpqa",
+  "score": 11.633109619686799,
+  "score_raw": 11.633109619686799,
+  "evaluation_date": "2024-08-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 761
+}

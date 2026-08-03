@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-coolspring-qwen2-0-5b-abyme-merge2",
+  "model_id": "CoolSpring/Qwen2-0.5B-Abyme-merge2",
+  "benchmark_name": "musr",
+  "score": 3.8911458333333346,
+  "score_raw": 3.8911458333333346,
+  "evaluation_date": "2024-07-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3702
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-norquinal-alpha",
+  "model_id": "Norquinal/Alpha",
+  "benchmark_name": "average",
+  "score": 12.081123216031896,
+  "score_raw": 12.081123216031896,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3585
+}

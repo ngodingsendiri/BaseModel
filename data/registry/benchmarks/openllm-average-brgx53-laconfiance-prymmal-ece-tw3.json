@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-brgx53-laconfiance-prymmal-ece-tw3",
+  "model_id": "brgx53/LaConfiance-PRYMMAL-ECE-TW3",
+  "benchmark_name": "average",
+  "score": 4.255168913434492,
+  "score_raw": 4.255168913434492,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4406
+}

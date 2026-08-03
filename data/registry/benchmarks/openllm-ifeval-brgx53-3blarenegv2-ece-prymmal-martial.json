@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-brgx53-3blarenegv2-ece-prymmal-martial",
+  "model_id": "brgx53/3Blarenegv2-ECE-PRYMMAL-Martial",
+  "benchmark_name": "ifeval",
+  "score": 56.6184390749877,
+  "score_raw": 56.6184390749877,
+  "evaluation_date": "2024-11-08",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1429
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-tensopolis-mistral-small-r1-tensopolis",
+  "model_id": "tensopolis/mistral-small-r1-tensopolis",
+  "benchmark_name": "musr",
+  "score": 7.385416666666669,
+  "score_raw": 7.385416666666669,
+  "evaluation_date": "2025-02-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2987
+}

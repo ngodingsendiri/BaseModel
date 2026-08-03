@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-baai-infinity-instruct-7m-gen-llama3-1-70b",
+  "model_id": "BAAI/Infinity-Instruct-7M-Gen-Llama3_1-70B",
+  "benchmark_name": "average",
+  "score": 37.48445364047765,
+  "score_raw": 37.48445364047765,
+  "evaluation_date": "2024-07-25",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 445
+}

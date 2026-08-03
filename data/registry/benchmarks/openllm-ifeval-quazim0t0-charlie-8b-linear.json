@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-quazim0t0-charlie-8b-linear",
+  "model_id": "Quazim0t0/Charlie-8B-Linear",
+  "benchmark_name": "ifeval",
+  "score": 73.80672172059025,
+  "score_raw": 73.80672172059025,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 518
+}

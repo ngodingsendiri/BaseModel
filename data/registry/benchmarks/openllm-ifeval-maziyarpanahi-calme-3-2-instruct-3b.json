@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-maziyarpanahi-calme-3-2-instruct-3b",
+  "model_id": "MaziyarPanahi/calme-3.2-instruct-3b",
+  "benchmark_name": "ifeval",
+  "score": 55.33196363426819,
+  "score_raw": 55.33196363426819,
+  "evaluation_date": "2024-11-07",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1504
+}

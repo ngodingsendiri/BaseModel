@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-cultrix-seqwence-14bv1",
+  "model_id": "CultriX/SeQwence-14Bv1",
+  "benchmark_name": "musr",
+  "score": 18.80338541666666,
+  "score_raw": 18.80338541666666,
+  "evaluation_date": "2024-11-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 370
+}

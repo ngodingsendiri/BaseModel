@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-mtsair-cotype-nano",
+  "model_id": "MTSAIR/Cotype-Nano",
+  "benchmark_name": "musr",
+  "score": 2.114583333333334,
+  "score_raw": 2.114583333333334,
+  "evaluation_date": "2024-11-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4148
+}

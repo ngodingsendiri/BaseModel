@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-daemontatox-pathfinderai2-0",
+  "model_id": "Daemontatox/PathFinderAI2.0",
+  "benchmark_name": "mmlu-pro",
+  "score": 50.520833333333336,
+  "score_raw": 50.520833333333336,
+  "evaluation_date": "2024-12-30",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 64
+}

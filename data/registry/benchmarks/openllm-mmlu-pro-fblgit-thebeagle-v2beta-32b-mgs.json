@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-fblgit-thebeagle-v2beta-32b-mgs",
+  "model_id": "fblgit/TheBeagle-v2beta-32B-MGS",
+  "benchmark_name": "mmlu-pro",
+  "score": 54.565602836879435,
+  "score_raw": 54.565602836879435,
+  "evaluation_date": "2024-10-20",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 15
+}

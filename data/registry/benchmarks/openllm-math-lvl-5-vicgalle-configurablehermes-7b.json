@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-vicgalle-configurablehermes-7b",
+  "model_id": "vicgalle/ConfigurableHermes-7B",
+  "benchmark_name": "math-lvl-5",
+  "score": 4.758308157099698,
+  "score_raw": 4.758308157099698,
+  "evaluation_date": "2024-02-17",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3343
+}

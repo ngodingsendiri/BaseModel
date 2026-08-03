@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-altomek-yism-34b-0rn",
+  "model_id": "altomek/YiSM-34B-0rn",
+  "benchmark_name": "math-lvl-5",
+  "score": 22.80966767371601,
+  "score_raw": 22.80966767371601,
+  "evaluation_date": "2024-05-26",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1082
+}

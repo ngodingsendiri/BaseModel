@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-stark2008-gutenlaserpi",
+  "model_id": "Stark2008/GutenLaserPi",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.39871453900709,
+  "score_raw": 23.39871453900709,
+  "evaluation_date": "2024-07-11",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2725
+}

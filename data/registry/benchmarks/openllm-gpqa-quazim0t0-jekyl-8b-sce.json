@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-quazim0t0-jekyl-8b-sce",
+  "model_id": "Quazim0t0/Jekyl-8b-sce",
+  "benchmark_name": "gpqa",
+  "score": 11.74496644295302,
+  "score_raw": 11.74496644295302,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 735
+}

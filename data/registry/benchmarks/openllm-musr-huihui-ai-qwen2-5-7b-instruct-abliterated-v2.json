@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-huihui-ai-qwen2-5-7b-instruct-abliterated-v2",
+  "model_id": "huihui-ai/Qwen2.5-7B-Instruct-abliterated-v2",
+  "benchmark_name": "musr",
+  "score": 8.091145833333334,
+  "score_raw": 8.091145833333334,
+  "evaluation_date": "2024-09-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2828
+}

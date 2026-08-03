@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-abacusai-bigstral-12b-32k",
+  "model_id": "abacusai/bigstral-12b-32k",
+  "benchmark_name": "average",
+  "score": 18.135141503206025,
+  "score_raw": 18.135141503206025,
+  "evaluation_date": "2024-03-06",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2932
+}

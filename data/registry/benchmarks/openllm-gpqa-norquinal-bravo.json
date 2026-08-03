@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-norquinal-bravo",
+  "model_id": "Norquinal/Bravo",
+  "benchmark_name": "gpqa",
+  "score": 4.250559284116329,
+  "score_raw": 4.250559284116329,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2882
+}

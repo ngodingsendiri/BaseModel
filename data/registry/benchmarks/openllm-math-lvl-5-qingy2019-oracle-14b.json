@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-qingy2019-oracle-14b",
+  "model_id": "qingy2019/Oracle-14B",
+  "benchmark_name": "math-lvl-5",
+  "score": 6.419939577039275,
+  "score_raw": 6.419939577039275,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2971
+}

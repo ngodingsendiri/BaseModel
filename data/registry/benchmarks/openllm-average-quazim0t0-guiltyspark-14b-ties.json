@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-quazim0t0-guiltyspark-14b-ties",
+  "model_id": "Quazim0t0/GuiltySpark-14B-ties",
+  "benchmark_name": "average",
+  "score": 40.52404330224518,
+  "score_raw": 40.52404330224518,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 232
+}

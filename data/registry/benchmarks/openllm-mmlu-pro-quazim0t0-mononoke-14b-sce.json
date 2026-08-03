@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-quazim0t0-mononoke-14b-sce",
+  "model_id": "Quazim0t0/Mononoke-14B-sce",
+  "benchmark_name": "mmlu-pro",
+  "score": 47.75044326241135,
+  "score_raw": 47.75044326241135,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 337
+}

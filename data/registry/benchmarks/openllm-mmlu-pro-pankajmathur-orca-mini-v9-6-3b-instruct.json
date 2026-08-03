@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-pankajmathur-orca-mini-v9-6-3b-instruct",
+  "model_id": "pankajmathur/orca_mini_v9_6_3B-Instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 20.563682033096924,
+  "score_raw": 20.563682033096924,
+  "evaluation_date": "2025-01-03",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3097
+}

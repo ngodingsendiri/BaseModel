@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-unbabel-towerinstruct-mistral-7b-v0-2",
+  "model_id": "Unbabel/TowerInstruct-Mistral-7B-v0.2",
+  "benchmark_name": "math-lvl-5",
+  "score": 2.0392749244712993,
+  "score_raw": 2.0392749244712993,
+  "evaluation_date": "2024-03-26",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3903
+}

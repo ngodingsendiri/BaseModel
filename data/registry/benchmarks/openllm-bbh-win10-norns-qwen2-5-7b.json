@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-win10-norns-qwen2-5-7b",
+  "model_id": "win10/Norns-Qwen2.5-7B",
+  "benchmark_name": "bbh",
+  "score": 30.250415044309648,
+  "score_raw": 30.250415044309648,
+  "evaluation_date": "2024-11-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2161
+}

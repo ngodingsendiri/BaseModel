@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-gritlm-gritlm-7b-kto",
+  "model_id": "GritLM/GritLM-7B-KTO",
+  "benchmark_name": "mmlu-pro",
+  "score": 18.670582151300238,
+  "score_raw": 18.670582151300238,
+  "evaluation_date": "2024-04-16",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3271
+}

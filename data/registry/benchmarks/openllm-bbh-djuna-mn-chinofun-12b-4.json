@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-djuna-mn-chinofun-12b-4",
+  "model_id": "djuna/MN-Chinofun-12B-4",
+  "benchmark_name": "bbh",
+  "score": 34.17304204588476,
+  "score_raw": 34.17304204588476,
+  "evaluation_date": "2025-01-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1488
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-prithivmlmods-tulu-mathlingo-8b",
+  "model_id": "prithivMLmods/Tulu-MathLingo-8B",
+  "benchmark_name": "gpqa",
+  "score": 5.369127516778524,
+  "score_raw": 5.369127516778524,
+  "evaluation_date": "2024-12-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2534
+}

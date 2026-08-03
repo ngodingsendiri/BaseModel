@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-khulaifi95-llama-3-1-8b-reason-blend-888k",
+  "model_id": "khulaifi95/Llama-3.1-8B-Reason-Blend-888k",
+  "benchmark_name": "musr",
+  "score": 2.9421874999999997,
+  "score_raw": 2.9421874999999997,
+  "evaluation_date": "2024-12-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3941
+}

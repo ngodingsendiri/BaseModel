@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-bee-spoke-data-tfine-900m-e16-d32-instruct-2e",
+  "model_id": "BEE-spoke-data/tFINE-900m-e16-d32-instruct_2e",
+  "benchmark_name": "gpqa",
+  "score": 1.230425055928408,
+  "score_raw": 1.230425055928408,
+  "evaluation_date": "2024-09-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3998
+}

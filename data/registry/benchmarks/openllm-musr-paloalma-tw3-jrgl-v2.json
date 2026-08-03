@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-paloalma-tw3-jrgl-v2",
+  "model_id": "paloalma/TW3-JRGL-v2",
+  "benchmark_name": "musr",
+  "score": 20.69583333333333,
+  "score_raw": 20.69583333333333,
+  "evaluation_date": "2024-04-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 188
+}

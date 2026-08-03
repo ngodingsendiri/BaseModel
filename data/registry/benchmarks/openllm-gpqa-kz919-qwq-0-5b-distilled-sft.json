@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-kz919-qwq-0-5b-distilled-sft",
+  "model_id": "kz919/QwQ-0.5B-Distilled-SFT",
+  "benchmark_name": "gpqa",
+  "score": 1.4541387024608499,
+  "score_raw": 1.4541387024608499,
+  "evaluation_date": "2025-01-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3911
+}

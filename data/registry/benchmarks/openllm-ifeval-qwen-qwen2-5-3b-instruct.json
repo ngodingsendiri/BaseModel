@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-qwen-qwen2-5-3b-instruct",
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "benchmark_name": "ifeval",
+  "score": 64.74919879253714,
+  "score_raw": 64.74919879253714,
+  "evaluation_date": "2024-09-17",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1045
+}

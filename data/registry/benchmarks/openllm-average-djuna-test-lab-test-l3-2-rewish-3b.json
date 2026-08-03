@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-djuna-test-lab-test-l3-2-rewish-3b",
+  "model_id": "djuna-test-lab/TEST-L3.2-ReWish-3B",
+  "benchmark_name": "average",
+  "score": 22.57139360581495,
+  "score_raw": 22.57139360581495,
+  "evaluation_date": "2024-10-23",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2190
+}

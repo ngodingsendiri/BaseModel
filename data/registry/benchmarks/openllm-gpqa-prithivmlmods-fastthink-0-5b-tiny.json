@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-prithivmlmods-fastthink-0-5b-tiny",
+  "model_id": "prithivMLmods/FastThink-0.5B-Tiny",
+  "benchmark_name": "gpqa",
+  "score": 1.4541387024608499,
+  "score_raw": 1.4541387024608499,
+  "evaluation_date": "2025-01-20",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3922
+}

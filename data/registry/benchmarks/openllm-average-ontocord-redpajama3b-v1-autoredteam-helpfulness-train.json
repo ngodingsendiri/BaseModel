@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ontocord-redpajama3b-v1-autoredteam-helpfulness-train",
+  "model_id": "ontocord/RedPajama3b_v1-autoredteam_helpfulness-train",
+  "benchmark_name": "average",
+  "score": 6.038454723335806,
+  "score_raw": 6.038454723335806,
+  "evaluation_date": "2025-01-26",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4149
+}

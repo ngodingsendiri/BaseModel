@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-leroydyer-spydaz-web-ai-chatml-002",
+  "model_id": "LeroyDyer/_Spydaz_Web_AI_ChatML_002",
+  "benchmark_name": "ifeval",
+  "score": 24.12277202267761,
+  "score_raw": 24.12277202267761,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3729
+}

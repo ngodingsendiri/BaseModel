@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-deci-decilm-7b-instruct",
+  "model_id": "Deci/DeciLM-7B-instruct",
+  "benchmark_name": "ifeval",
+  "score": 48.802399854608,
+  "score_raw": 48.802399854608,
+  "evaluation_date": "2023-12-10",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1953
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-nbeerbower-mistral-nemo-moderne-12b-fft-experimental",
+  "model_id": "nbeerbower/Mistral-Nemo-Moderne-12B-FFT-experimental",
+  "benchmark_name": "mmlu-pro",
+  "score": 27.277260638297868,
+  "score_raw": 27.277260638297868,
+  "evaluation_date": "2024-11-19",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2279
+}

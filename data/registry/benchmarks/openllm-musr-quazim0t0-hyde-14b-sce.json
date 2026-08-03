@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-quazim0t0-hyde-14b-sce",
+  "model_id": "Quazim0t0/Hyde-14b-sce",
+  "benchmark_name": "musr",
+  "score": 10.595052083333334,
+  "score_raw": 10.595052083333334,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2116
+}

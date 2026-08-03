@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-jaspionjader-auro-kosmos-evaa-v2-1-8b",
+  "model_id": "jaspionjader/Auro-Kosmos-EVAA-v2.1-8B",
+  "benchmark_name": "bbh",
+  "score": 35.195114448894905,
+  "score_raw": 35.195114448894905,
+  "evaluation_date": "2024-12-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1331
+}

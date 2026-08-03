@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-saisexperiments-not-so-small-alpaca-24b",
+  "model_id": "SaisExperiments/Not-So-Small-Alpaca-24B",
+  "benchmark_name": "musr",
+  "score": 12.0875,
+  "score_raw": 12.0875,
+  "evaluation_date": "2025-02-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1566
+}

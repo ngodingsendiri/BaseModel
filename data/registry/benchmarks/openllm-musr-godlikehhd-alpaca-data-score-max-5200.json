@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-godlikehhd-alpaca-data-score-max-5200",
+  "model_id": "godlikehhd/alpaca_data_score_max_5200",
+  "benchmark_name": "musr",
+  "score": 7.440625,
+  "score_raw": 7.440625,
+  "evaluation_date": "2025-01-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2982
+}

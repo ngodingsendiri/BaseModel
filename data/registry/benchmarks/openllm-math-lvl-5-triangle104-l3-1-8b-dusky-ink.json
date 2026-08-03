@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-triangle104-l3-1-8b-dusky-ink",
+  "model_id": "Triangle104/L3.1-8B-Dusky-Ink",
+  "benchmark_name": "math-lvl-5",
+  "score": 12.311178247734139,
+  "score_raw": 12.311178247734139,
+  "evaluation_date": "2025-02-02",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2036
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-allknowingroger-multimash3-12b-slerp",
+  "model_id": "allknowingroger/Multimash3-12B-slerp",
+  "benchmark_name": "musr",
+  "score": 13.0328125,
+  "score_raw": 13.0328125,
+  "evaluation_date": "2024-05-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1290
+}

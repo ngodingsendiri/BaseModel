@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-triangle104-rombohermes3-r1-llama3-2-3b",
+  "model_id": "Triangle104/RomboHermes3-R1-Llama3.2-3b",
+  "benchmark_name": "gpqa",
+  "score": 4.4742729306487705,
+  "score_raw": 4.4742729306487705,
+  "evaluation_date": "2025-02-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2795
+}

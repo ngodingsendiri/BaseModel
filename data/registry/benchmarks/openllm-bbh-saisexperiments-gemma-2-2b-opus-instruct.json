@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-saisexperiments-gemma-2-2b-opus-instruct",
+  "model_id": "SaisExperiments/Gemma-2-2B-Opus-Instruct",
+  "benchmark_name": "bbh",
+  "score": 19.529532994538695,
+  "score_raw": 19.529532994538695,
+  "evaluation_date": "2024-09-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3236
+}

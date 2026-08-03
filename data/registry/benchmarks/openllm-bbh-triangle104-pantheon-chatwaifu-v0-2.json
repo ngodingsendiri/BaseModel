@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-triangle104-pantheon-chatwaifu-v0-2",
+  "model_id": "Triangle104/Pantheon_ChatWaifu_V0.2",
+  "benchmark_name": "bbh",
+  "score": 36.74319895362526,
+  "score_raw": 36.74319895362526,
+  "evaluation_date": "2024-10-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1106
+}

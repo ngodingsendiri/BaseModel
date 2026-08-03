@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-yanng1242-marcoro14-7b-slerp",
+  "model_id": "yanng1242/Marcoro14-7B-slerp",
+  "benchmark_name": "musr",
+  "score": 17.844791666666662,
+  "score_raw": 17.844791666666662,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 470
+}

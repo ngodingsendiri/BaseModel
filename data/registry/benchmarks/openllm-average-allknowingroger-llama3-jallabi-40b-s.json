@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-allknowingroger-llama3-jallabi-40b-s",
+  "model_id": "allknowingroger/llama3-Jallabi-40B-s",
+  "benchmark_name": "average",
+  "score": 5.029701636906855,
+  "score_raw": 5.029701636906855,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4294
+}

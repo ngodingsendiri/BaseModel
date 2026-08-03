@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-cckm-tinymistral-950m",
+  "model_id": "cckm/tinymistral_950m",
+  "benchmark_name": "ifeval",
+  "score": 23.952889444451834,
+  "score_raw": 23.952889444451834,
+  "evaluation_date": "2025-01-12",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3747
+}

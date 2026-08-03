@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-freewheelin-free-evo-qwen72b-v0-8-re",
+  "model_id": "freewheelin/free-evo-qwen72b-v0.8-re",
+  "benchmark_name": "math-lvl-5",
+  "score": 18.051359516616312,
+  "score_raw": 18.051359516616312,
+  "evaluation_date": "2024-05-02",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1479
+}

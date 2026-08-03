@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-cultrix-seqwence-14b-evolmerge",
+  "model_id": "CultriX/SeQwence-14B-EvolMerge",
+  "benchmark_name": "math-lvl-5",
+  "score": 36.70694864048338,
+  "score_raw": 36.70694864048338,
+  "evaluation_date": "2024-11-27",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 585
+}

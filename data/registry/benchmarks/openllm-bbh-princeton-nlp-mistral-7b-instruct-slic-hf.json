@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-princeton-nlp-mistral-7b-instruct-slic-hf",
+  "model_id": "princeton-nlp/Mistral-7B-Instruct-SLiC-HF",
+  "benchmark_name": "bbh",
+  "score": 16.653429432655862,
+  "score_raw": 16.653429432655862,
+  "evaluation_date": "2024-07-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3422
+}

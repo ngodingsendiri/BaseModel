@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-jeanmichela-o-distil-qwen",
+  "model_id": "jeanmichela/o-distil-qwen",
+  "benchmark_name": "math-lvl-5",
+  "score": 56.49546827794561,
+  "score_raw": 56.49546827794561,
+  "evaluation_date": "2025-02-24",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 28
+}

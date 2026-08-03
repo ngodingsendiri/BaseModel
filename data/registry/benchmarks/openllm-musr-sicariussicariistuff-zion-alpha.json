@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sicariussicariistuff-zion-alpha",
+  "model_id": "SicariusSicariiStuff/Zion_Alpha",
+  "benchmark_name": "musr",
+  "score": 18.452604166666667,
+  "score_raw": 18.452604166666667,
+  "evaluation_date": "2024-05-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 408
+}

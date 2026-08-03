@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-davidau-deephermes-3-llama-3-8b-preview-16-5b-brainstorm",
+  "model_id": "DavidAU/DeepHermes-3-Llama-3-8B-Preview-16.5B-Brainstorm",
+  "benchmark_name": "mmlu-pro",
+  "score": 24.543809101654844,
+  "score_raw": 24.543809101654844,
+  "evaluation_date": "2025-02-21",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2560
+}

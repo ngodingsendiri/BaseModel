@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-ehristoforu-falcon3-moe-2x7b-insruct",
+  "model_id": "ehristoforu/Falcon3-MoE-2x7B-Insruct",
+  "benchmark_name": "musr",
+  "score": 21.605208333333334,
+  "score_raw": 21.605208333333334,
+  "evaluation_date": "2024-12-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 129
+}

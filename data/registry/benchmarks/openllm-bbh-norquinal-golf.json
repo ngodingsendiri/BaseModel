@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-norquinal-golf",
+  "model_id": "Norquinal/Golf",
+  "benchmark_name": "bbh",
+  "score": 9.898588822688339,
+  "score_raw": 9.898588822688339,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3665
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-fblgit-una-thepitbull-21-4b-v2",
+  "model_id": "fblgit/UNA-ThePitbull-21.4B-v2",
+  "benchmark_name": "musr",
+  "score": 6.420833333333333,
+  "score_raw": 6.420833333333333,
+  "evaluation_date": "2024-05-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3167
+}

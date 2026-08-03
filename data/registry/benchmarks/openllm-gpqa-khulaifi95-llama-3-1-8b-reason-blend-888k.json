@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-khulaifi95-llama-3-1-8b-reason-blend-888k",
+  "model_id": "khulaifi95/Llama-3.1-8B-Reason-Blend-888k",
+  "benchmark_name": "gpqa",
+  "score": 3.9149888143176734,
+  "score_raw": 3.9149888143176734,
+  "evaluation_date": "2024-12-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3012
+}

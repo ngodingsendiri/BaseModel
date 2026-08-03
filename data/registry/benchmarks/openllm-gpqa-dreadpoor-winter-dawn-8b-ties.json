@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-winter-dawn-8b-ties",
+  "model_id": "DreadPoor/Winter_Dawn-8B-TIES",
+  "benchmark_name": "gpqa",
+  "score": 7.941834451901568,
+  "score_raw": 7.941834451901568,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1491
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-epistemeai-fireball-alpaca-llama3-1-07-8b-philos-math-kto-beta",
+  "model_id": "EpistemeAI/Fireball-Alpaca-Llama3.1.07-8B-Philos-Math-KTO-beta",
+  "benchmark_name": "ifeval",
+  "score": 72.74010735958367,
+  "score_raw": 72.74010735958367,
+  "evaluation_date": "2024-09-12",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 603
+}

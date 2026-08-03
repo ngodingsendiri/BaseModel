@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-braindao-deepseek-r1-distill-qwen-14b",
+  "model_id": "braindao/DeepSeek-R1-Distill-Qwen-14B",
+  "benchmark_name": "ifeval",
+  "score": 41.71575863154209,
+  "score_raw": 41.71575863154209,
+  "evaluation_date": "2025-03-04",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2614
+}

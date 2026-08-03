@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-lgai-exaone-exaone-3-5-2-4b-instruct",
+  "model_id": "LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct",
+  "benchmark_name": "average",
+  "score": 27.143883211239544,
+  "score_raw": 27.143883211239544,
+  "evaluation_date": "2024-12-01",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1379
+}

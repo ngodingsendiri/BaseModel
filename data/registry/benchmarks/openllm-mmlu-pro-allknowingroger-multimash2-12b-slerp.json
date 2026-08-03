@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-allknowingroger-multimash2-12b-slerp",
+  "model_id": "allknowingroger/MultiMash2-12B-slerp",
+  "benchmark_name": "mmlu-pro",
+  "score": 22.696882387706854,
+  "score_raw": 22.696882387706854,
+  "evaluation_date": "2024-05-20",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2837
+}

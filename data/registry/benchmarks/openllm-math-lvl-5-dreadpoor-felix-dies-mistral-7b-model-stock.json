@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-dreadpoor-felix-dies-mistral-7b-model-stock",
+  "model_id": "DreadPoor/felix_dies-mistral-7B-model_stock",
+  "benchmark_name": "math-lvl-5",
+  "score": 5.362537764350453,
+  "score_raw": 5.362537764350453,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3191
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-lemon07r-gemma-2-ataraxy-v3j-9b",
+  "model_id": "lemon07r/Gemma-2-Ataraxy-v3j-9B",
+  "benchmark_name": "mmlu-pro",
+  "score": 34.821956264775416,
+  "score_raw": 34.821956264775416,
+  "evaluation_date": "2024-10-09",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1125
+}

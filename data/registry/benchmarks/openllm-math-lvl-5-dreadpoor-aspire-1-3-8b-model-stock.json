@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-dreadpoor-aspire-1-3-8b-model-stock",
+  "model_id": "DreadPoor/Aspire_1.3-8B_model-stock",
+  "benchmark_name": "math-lvl-5",
+  "score": 16.91842900302115,
+  "score_raw": 16.91842900302115,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1575
+}

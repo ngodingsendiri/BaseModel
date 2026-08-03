@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-triangle104-distilled-darkplanet-allades-8b-ties",
+  "model_id": "Triangle104/Distilled-DarkPlanet-Allades-8B_TIES",
+  "benchmark_name": "gpqa",
+  "score": 8.612975391498878,
+  "score_raw": 8.612975391498878,
+  "evaluation_date": "2025-02-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1305
+}

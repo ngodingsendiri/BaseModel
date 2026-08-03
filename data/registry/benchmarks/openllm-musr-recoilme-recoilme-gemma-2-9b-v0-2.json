@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-recoilme-recoilme-gemma-2-9b-v0-2",
+  "model_id": "recoilme/recoilme-gemma-2-9B-v0.2",
+  "benchmark_name": "musr",
+  "score": 10.401041666666664,
+  "score_raw": 10.401041666666664,
+  "evaluation_date": "2024-09-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2171
+}

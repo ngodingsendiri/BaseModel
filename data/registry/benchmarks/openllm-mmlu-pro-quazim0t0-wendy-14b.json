@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-quazim0t0-wendy-14b",
+  "model_id": "Quazim0t0/Wendy-14B",
+  "benchmark_name": "mmlu-pro",
+  "score": 49.27415780141844,
+  "score_raw": 49.27415780141844,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 92
+}

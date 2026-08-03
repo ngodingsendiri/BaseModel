@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sometimesanotion-kytheramix-7b-v0-2",
+  "model_id": "sometimesanotion/KytheraMix-7B-v0.2",
+  "benchmark_name": "mmlu-pro",
+  "score": 38.949837470449175,
+  "score_raw": 38.949837470449175,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 744
+}

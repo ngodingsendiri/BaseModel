@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-daemontatox-llama-cot",
+  "model_id": "Daemontatox/Llama_cot",
+  "benchmark_name": "mmlu-pro",
+  "score": 27.979092789598102,
+  "score_raw": 27.979092789598102,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2187
+}

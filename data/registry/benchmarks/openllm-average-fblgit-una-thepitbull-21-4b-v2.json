@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-fblgit-una-thepitbull-21-4b-v2",
+  "model_id": "fblgit/UNA-ThePitbull-21.4B-v2",
+  "benchmark_name": "average",
+  "score": 23.0265687976468,
+  "score_raw": 23.0265687976468,
+  "evaluation_date": "2024-05-28",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2090
+}

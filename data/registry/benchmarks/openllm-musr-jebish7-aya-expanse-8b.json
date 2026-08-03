@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-jebish7-aya-expanse-8b",
+  "model_id": "jebish7/aya-expanse-8b",
+  "benchmark_name": "musr",
+  "score": 6.495312500000001,
+  "score_raw": 6.495312500000001,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3155
+}

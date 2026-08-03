@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-maldv-badger-lambda-llama-3-8b",
+  "model_id": "maldv/badger-lambda-llama-3-8b",
+  "benchmark_name": "musr",
+  "score": 4.520572916666667,
+  "score_raw": 4.520572916666667,
+  "evaluation_date": "2024-06-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3566
+}

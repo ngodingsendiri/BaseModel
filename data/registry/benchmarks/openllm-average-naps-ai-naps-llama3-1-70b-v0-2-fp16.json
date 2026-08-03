@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-naps-ai-naps-llama3-1-70b-v0-2-fp16",
+  "model_id": "NAPS-ai/naps-llama3.1-70B-v0.2-fp16",
+  "benchmark_name": "average",
+  "score": 4.215465224433852,
+  "score_raw": 4.215465224433852,
+  "evaluation_date": "2024-12-10",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4413
+}

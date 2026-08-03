@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-brainwave-ml-llama3-2-3b-maths-orpo",
+  "model_id": "BrainWave-ML/llama3.2-3B-maths-orpo",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.8635490543735225,
+  "score_raw": 1.8635490543735225,
+  "evaluation_date": "2024-10-24",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4189
+}

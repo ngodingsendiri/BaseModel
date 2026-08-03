@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-damasteel-8b-linear",
+  "model_id": "DreadPoor/Damasteel-8B-LINEAR",
+  "benchmark_name": "gpqa",
+  "score": 6.487695749440718,
+  "score_raw": 6.487695749440718,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2059
+}

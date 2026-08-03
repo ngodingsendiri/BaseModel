@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-asymmetric-linearity-8b-model-stock",
+  "model_id": "DreadPoor/Asymmetric_Linearity-8B-Model_Stock",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.599069148936167,
+  "score_raw": 31.599069148936167,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1463
+}

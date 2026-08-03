@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-triangle104-minerva-8b",
+  "model_id": "Triangle104/Minerva-8b",
+  "benchmark_name": "musr",
+  "score": 11.378124999999999,
+  "score_raw": 11.378124999999999,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1843
+}

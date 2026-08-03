@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sao10k-l3-8b-lunaris-v1",
+  "model_id": "Sao10K/L3-8B-Lunaris-v1",
+  "benchmark_name": "average",
+  "score": 25.577983918433663,
+  "score_raw": 25.577983918433663,
+  "evaluation_date": "2024-06-26",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1561
+}

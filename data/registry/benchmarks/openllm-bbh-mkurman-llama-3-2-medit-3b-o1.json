@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-mkurman-llama-3-2-medit-3b-o1",
+  "model_id": "mkurman/llama-3.2-MEDIT-3B-o1",
+  "benchmark_name": "bbh",
+  "score": 20.819346310345164,
+  "score_raw": 20.819346310345164,
+  "evaluation_date": "2025-01-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3150
+}

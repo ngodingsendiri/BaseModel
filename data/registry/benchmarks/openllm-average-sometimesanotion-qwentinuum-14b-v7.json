@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-sometimesanotion-qwentinuum-14b-v7",
+  "model_id": "sometimesanotion/Qwentinuum-14B-v7",
+  "benchmark_name": "average",
+  "score": 39.15035648193577,
+  "score_raw": 39.15035648193577,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 337
+}

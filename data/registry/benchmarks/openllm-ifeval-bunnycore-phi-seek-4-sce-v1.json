@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-bunnycore-phi-seek-4-sce-v1",
+  "model_id": "bunnycore/Phi-Seek-4-Sce-V1",
+  "benchmark_name": "ifeval",
+  "score": 29.348462080612777,
+  "score_raw": 29.348462080612777,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3346
+}

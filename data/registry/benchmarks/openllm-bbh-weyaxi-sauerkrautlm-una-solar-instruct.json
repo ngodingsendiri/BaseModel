@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-weyaxi-sauerkrautlm-una-solar-instruct",
+  "model_id": "Weyaxi/SauerkrautLM-UNA-SOLAR-Instruct",
+  "benchmark_name": "bbh",
+  "score": 31.824686783543132,
+  "score_raw": 31.824686783543132,
+  "evaluation_date": "2023-12-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1880
+}

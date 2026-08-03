@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-columbia-nlp-lion-gemma-2b-odpo-v1-0",
+  "model_id": "Columbia-NLP/LION-Gemma-2b-odpo-v1.0",
+  "benchmark_name": "mmlu-pro",
+  "score": 7.690602836879433,
+  "score_raw": 7.690602836879433,
+  "evaluation_date": "2024-06-28",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3742
+}

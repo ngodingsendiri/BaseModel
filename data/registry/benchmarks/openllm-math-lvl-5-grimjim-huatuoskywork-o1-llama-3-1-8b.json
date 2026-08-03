@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-grimjim-huatuoskywork-o1-llama-3-1-8b",
+  "model_id": "grimjim/HuatuoSkywork-o1-Llama-3.1-8B",
+  "benchmark_name": "math-lvl-5",
+  "score": 38.82175226586103,
+  "score_raw": 38.82175226586103,
+  "evaluation_date": "2025-01-02",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 485
+}

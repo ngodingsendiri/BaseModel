@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-pocketdoc-dans-personalityengine-v1-1-0-12b",
+  "model_id": "PocketDoc/Dans-PersonalityEngine-V1.1.0-12b",
+  "benchmark_name": "mmlu-pro",
+  "score": 25.134825650118202,
+  "score_raw": 25.134825650118202,
+  "evaluation_date": "2024-12-19",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2514
+}

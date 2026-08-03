@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-allknowingroger-qwenslerp3-14b",
+  "model_id": "allknowingroger/Qwenslerp3-14B",
+  "benchmark_name": "musr",
+  "score": 18.017187499999995,
+  "score_raw": 18.017187499999995,
+  "evaluation_date": "2024-10-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 457
+}

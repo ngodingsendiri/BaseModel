@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-allknowingroger-gemma2slerp4-27b",
+  "model_id": "allknowingroger/Gemma2Slerp4-27B",
+  "benchmark_name": "mmlu-pro",
+  "score": 40.54742907801418,
+  "score_raw": 40.54742907801418,
+  "evaluation_date": "2024-12-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 667
+}

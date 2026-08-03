@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-lemon07r-llama-3-redmagic4-8b",
+  "model_id": "lemon07r/Llama-3-RedMagic4-8B",
+  "benchmark_name": "ifeval",
+  "score": 48.64005283758206,
+  "score_raw": 48.64005283758206,
+  "evaluation_date": "2024-06-19",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1964
+}

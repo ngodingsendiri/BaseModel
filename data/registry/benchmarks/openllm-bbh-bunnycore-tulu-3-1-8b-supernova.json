@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-bunnycore-tulu-3-1-8b-supernova",
+  "model_id": "bunnycore/Tulu-3.1-8B-SuperNova",
+  "benchmark_name": "bbh",
+  "score": 32.499170772496946,
+  "score_raw": 32.499170772496946,
+  "evaluation_date": "2024-11-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1751
+}

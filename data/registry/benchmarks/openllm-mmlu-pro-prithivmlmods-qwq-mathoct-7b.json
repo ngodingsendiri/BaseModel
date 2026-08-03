@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-prithivmlmods-qwq-mathoct-7b",
+  "model_id": "prithivMLmods/QwQ-MathOct-7B",
+  "benchmark_name": "mmlu-pro",
+  "score": 37.00132978723404,
+  "score_raw": 37.00132978723404,
+  "evaluation_date": "2025-01-11",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 983
+}

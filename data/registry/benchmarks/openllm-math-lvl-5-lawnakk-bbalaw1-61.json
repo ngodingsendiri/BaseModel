@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-lawnakk-bbalaw1-61",
+  "model_id": "Lawnakk/BBALAW1.61",
+  "benchmark_name": "math-lvl-5",
+  "score": 36.631419939577036,
+  "score_raw": 36.631419939577036,
+  "evaluation_date": "2025-02-28",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 589
+}

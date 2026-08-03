@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-hotmailuser-qwenslerp3-14b",
+  "model_id": "hotmailuser/QwenSlerp3-14B",
+  "benchmark_name": "musr",
+  "score": 19.964322916666664,
+  "score_raw": 19.964322916666664,
+  "evaluation_date": "2025-01-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 236
+}

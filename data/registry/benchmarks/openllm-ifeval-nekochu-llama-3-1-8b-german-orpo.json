@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-nekochu-llama-3-1-8b-german-orpo",
+  "model_id": "Nekochu/Llama-3.1-8B-German-ORPO",
+  "benchmark_name": "ifeval",
+  "score": 46.10710692074806,
+  "score_raw": 46.10710692074806,
+  "evaluation_date": "2024-09-13",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2183
+}

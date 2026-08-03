@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-danielbrdz-barcenas-llama3-8b-orpo",
+  "model_id": "Danielbrdz/Barcenas-Llama3-8b-ORPO",
+  "benchmark_name": "bbh",
+  "score": 28.600623499981847,
+  "score_raw": 28.600623499981847,
+  "evaluation_date": "2024-04-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2416
+}

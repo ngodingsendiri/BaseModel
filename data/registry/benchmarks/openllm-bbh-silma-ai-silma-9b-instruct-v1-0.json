@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-silma-ai-silma-9b-instruct-v1-0",
+  "model_id": "silma-ai/SILMA-9B-Instruct-v1.0",
+  "benchmark_name": "bbh",
+  "score": 30.71300262979214,
+  "score_raw": 30.71300262979214,
+  "evaluation_date": "2024-08-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2087
+}

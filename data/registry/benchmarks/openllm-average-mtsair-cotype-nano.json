@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-mtsair-cotype-nano",
+  "model_id": "MTSAIR/Cotype-Nano",
+  "benchmark_name": "average",
+  "score": 13.812756376126401,
+  "score_raw": 13.812756376126401,
+  "evaluation_date": "2024-11-22",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3444
+}

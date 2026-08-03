@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-etherll-qwen2-5-coder-7b-instruct-ties",
+  "model_id": "Etherll/Qwen2.5-Coder-7B-Instruct-Ties",
+  "benchmark_name": "ifeval",
+  "score": 50.05385709916355,
+  "score_raw": 50.05385709916355,
+  "evaluation_date": "2024-09-30",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1861
+}

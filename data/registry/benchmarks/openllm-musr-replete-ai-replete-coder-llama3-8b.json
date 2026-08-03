@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-replete-ai-replete-coder-llama3-8b",
+  "model_id": "Replete-AI/Replete-Coder-Llama3-8B",
+  "benchmark_name": "musr",
+  "score": 7.512760416666666,
+  "score_raw": 7.512760416666666,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2967
+}

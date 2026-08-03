@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-marcuscedricridia-etr1o-explicit-v1-1",
+  "model_id": "marcuscedricridia/etr1o-explicit-v1.1",
+  "benchmark_name": "musr",
+  "score": 9.348177083333333,
+  "score_raw": 9.348177083333333,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2488
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-tanliboy-lambda-gemma-2-9b-dpo",
+  "model_id": "tanliboy/lambda-gemma-2-9b-dpo",
+  "benchmark_name": "bbh",
+  "score": 35.554545346782085,
+  "score_raw": 35.554545346782085,
+  "evaluation_date": "2024-07-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1285
+}

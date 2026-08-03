@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-zelk12-mt-merge3-gemma-2-9b",
+  "model_id": "zelk12/MT-Merge3-gemma-2-9B",
+  "benchmark_name": "math-lvl-5",
+  "score": 22.054380664652566,
+  "score_raw": 22.054380664652566,
+  "evaluation_date": "2024-12-11",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1151
+}

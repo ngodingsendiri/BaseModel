@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-icefog72-icedrinkbyfrankensteinv3rp",
+  "model_id": "icefog72/IceDrinkByFrankensteinV3RP",
+  "benchmark_name": "mmlu-pro",
+  "score": 21.413268321513,
+  "score_raw": 21.413268321513,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3007
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-quazim0t0-charlie-8b-linear",
+  "model_id": "Quazim0t0/Charlie-8B-Linear",
+  "benchmark_name": "gpqa",
+  "score": 2.796420581655479,
+  "score_raw": 2.796420581655479,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3387
+}

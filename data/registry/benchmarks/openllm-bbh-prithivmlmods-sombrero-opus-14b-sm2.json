@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-prithivmlmods-sombrero-opus-14b-sm2",
+  "model_id": "prithivMLmods/Sombrero-Opus-14B-Sm2",
+  "benchmark_name": "bbh",
+  "score": 51.25185799428797,
+  "score_raw": 51.25185799428797,
+  "evaluation_date": "2025-03-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 267
+}

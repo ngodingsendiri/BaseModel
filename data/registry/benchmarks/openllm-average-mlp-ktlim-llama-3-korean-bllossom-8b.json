@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-mlp-ktlim-llama-3-korean-bllossom-8b",
+  "model_id": "MLP-KTLim/llama-3-Korean-Bllossom-8B",
+  "benchmark_name": "average",
+  "score": 20.39691634614766,
+  "score_raw": 20.39691634614766,
+  "evaluation_date": "2024-04-25",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2613
+}

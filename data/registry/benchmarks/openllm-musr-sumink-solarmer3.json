@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sumink-solarmer3",
+  "model_id": "sumink/solarmer3",
+  "benchmark_name": "musr",
+  "score": 15.050260416666665,
+  "score_raw": 15.050260416666665,
+  "evaluation_date": "2025-01-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 855
+}

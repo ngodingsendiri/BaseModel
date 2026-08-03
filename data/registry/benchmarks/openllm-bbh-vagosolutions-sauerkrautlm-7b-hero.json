@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-vagosolutions-sauerkrautlm-7b-hero",
+  "model_id": "VAGOsolutions/SauerkrautLM-7b-HerO",
+  "benchmark_name": "bbh",
+  "score": 27.991873536830212,
+  "score_raw": 27.991873536830212,
+  "evaluation_date": "2023-11-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2506
+}

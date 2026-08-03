@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-cran-may-merge-model-20250308-4",
+  "model_id": "Cran-May/merge_model_20250308_4",
+  "benchmark_name": "math-lvl-5",
+  "score": 41.99395770392749,
+  "score_raw": 41.99395770392749,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 384
+}

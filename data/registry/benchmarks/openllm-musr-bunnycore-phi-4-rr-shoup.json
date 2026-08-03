@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-bunnycore-phi-4-rr-shoup",
+  "model_id": "bunnycore/Phi-4-RR-Shoup",
+  "benchmark_name": "musr",
+  "score": 14.93854166666666,
+  "score_raw": 14.93854166666666,
+  "evaluation_date": "2025-02-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 875
+}

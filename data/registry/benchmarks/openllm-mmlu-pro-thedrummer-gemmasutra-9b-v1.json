@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-thedrummer-gemmasutra-9b-v1",
+  "model_id": "TheDrummer/Gemmasutra-9B-v1",
+  "benchmark_name": "mmlu-pro",
+  "score": 33.83385047281324,
+  "score_raw": 33.83385047281324,
+  "evaluation_date": "2024-07-17",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1177
+}

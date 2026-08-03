@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-allknowingroger-gemmaslerp5-10b",
+  "model_id": "allknowingroger/GemmaSlerp5-10B",
+  "benchmark_name": "musr",
+  "score": 16.764322916666668,
+  "score_raw": 16.764322916666668,
+  "evaluation_date": "2024-10-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 603
+}

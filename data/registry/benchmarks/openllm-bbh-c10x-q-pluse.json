@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-c10x-q-pluse",
+  "model_id": "c10x/Q-Pluse",
+  "benchmark_name": "bbh",
+  "score": 1.9479450969539605,
+  "score_raw": 1.9479450969539605,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4497
+}

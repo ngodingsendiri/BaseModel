@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-bamec66557-vicious-mesh-12b-0-1v",
+  "model_id": "bamec66557/VICIOUS_MESH-12B-0.1v",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.807550236406616,
+  "score_raw": 29.807550236406616,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1874
+}

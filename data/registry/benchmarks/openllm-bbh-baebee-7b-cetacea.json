@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-baebee-7b-cetacea",
+  "model_id": "baebee/7B-Cetacea",
+  "benchmark_name": "bbh",
+  "score": 25.75266015070167,
+  "score_raw": 25.75266015070167,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2754
+}

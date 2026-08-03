@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-khulaifi95-llama-3-1-8b-reason-blend-888k",
+  "model_id": "khulaifi95/Llama-3.1-8B-Reason-Blend-888k",
+  "benchmark_name": "average",
+  "score": 21.101958513598035,
+  "score_raw": 21.101958513598035,
+  "evaluation_date": "2024-12-24",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2470
+}

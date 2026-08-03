@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-netcat420-mfann3bv1-3",
+  "model_id": "netcat420/MFANN3bv1.3",
+  "benchmark_name": "musr",
+  "score": 3.801041666666667,
+  "score_raw": 3.801041666666667,
+  "evaluation_date": "2025-01-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3731
+}

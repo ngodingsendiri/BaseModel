@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-irina-8b-model-stock",
+  "model_id": "DreadPoor/Irina-8B-model_stock",
+  "benchmark_name": "bbh",
+  "score": 32.08833034979686,
+  "score_raw": 32.08833034979686,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1829
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-mistralai-mistral-nemo-instruct-2407",
+  "model_id": "mistralai/Mistral-Nemo-Instruct-2407",
+  "benchmark_name": "gpqa",
+  "score": 5.369127516778524,
+  "score_raw": 5.369127516778524,
+  "evaluation_date": "2024-07-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2527
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-noname0202-gemma-2-2b-it-ties",
+  "model_id": "noname0202/gemma-2-2b-it-ties",
+  "benchmark_name": "gpqa",
+  "score": 2.684563758389265,
+  "score_raw": 2.684563758389265,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3446
+}

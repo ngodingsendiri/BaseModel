@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-zelk12-recoilme-gemma-2-ataraxy-9b-v0-1",
+  "model_id": "zelk12/recoilme-gemma-2-Ataraxy-9B-v0.1",
+  "benchmark_name": "math-lvl-5",
+  "score": 22.80966767371601,
+  "score_raw": 22.80966767371601,
+  "evaluation_date": "2024-10-03",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1084
+}

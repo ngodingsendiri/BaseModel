@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-tensopolis-phi-4-tensopolis-v1",
+  "model_id": "tensopolis/phi-4-tensopolis-v1",
+  "benchmark_name": "mmlu-pro",
+  "score": 48.71084515366431,
+  "score_raw": 48.71084515366431,
+  "evaluation_date": "2025-02-07",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 220
+}

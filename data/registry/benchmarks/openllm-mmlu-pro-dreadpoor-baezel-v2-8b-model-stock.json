@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-baezel-v2-8b-model-stock",
+  "model_id": "DreadPoor/BaeZel_V2-8B-Model_Stock",
+  "benchmark_name": "mmlu-pro",
+  "score": 32.74416371158392,
+  "score_raw": 32.74416371158392,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1257
+}

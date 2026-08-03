@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-etherll-chocolatine-3b-instruct-dpo-revised-ties",
+  "model_id": "Etherll/Chocolatine-3B-Instruct-DPO-Revised-Ties",
+  "benchmark_name": "bbh",
+  "score": 35.58334267696659,
+  "score_raw": 35.58334267696659,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1280
+}

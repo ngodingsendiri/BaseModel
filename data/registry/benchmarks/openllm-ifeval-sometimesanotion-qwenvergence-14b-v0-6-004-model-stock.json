@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-sometimesanotion-qwenvergence-14b-v0-6-004-model-stock",
+  "model_id": "sometimesanotion/Qwenvergence-14B-v0.6-004-model_stock",
+  "benchmark_name": "ifeval",
+  "score": 68.59854076073707,
+  "score_raw": 68.59854076073707,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 840
+}

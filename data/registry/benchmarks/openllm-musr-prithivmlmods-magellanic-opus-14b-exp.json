@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-prithivmlmods-magellanic-opus-14b-exp",
+  "model_id": "prithivMLmods/Magellanic-Opus-14B-Exp",
+  "benchmark_name": "musr",
+  "score": 21.644791666666663,
+  "score_raw": 21.644791666666663,
+  "evaluation_date": "2025-02-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 128
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nitral-ai-nera-noctis-12b",
+  "model_id": "Nitral-AI/Nera_Noctis-12B",
+  "benchmark_name": "average",
+  "score": 20.661351605876916,
+  "score_raw": 20.661351605876916,
+  "evaluation_date": "2025-01-01",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2560
+}

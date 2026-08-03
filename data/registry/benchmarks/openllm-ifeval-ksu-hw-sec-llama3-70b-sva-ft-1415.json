@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-ksu-hw-sec-llama3-70b-sva-ft-1415",
+  "model_id": "KSU-HW-SEC/Llama3-70b-SVA-FT-1415",
+  "benchmark_name": "ifeval",
+  "score": 61.79913739987677,
+  "score_raw": 61.79913739987677,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1177
+}

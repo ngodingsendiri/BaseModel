@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-theprint-boptruth-agatha-7b",
+  "model_id": "theprint/Boptruth-Agatha-7B",
+  "benchmark_name": "ifeval",
+  "score": 31.241882649148703,
+  "score_raw": 31.241882649148703,
+  "evaluation_date": "2024-09-11",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3239
+}

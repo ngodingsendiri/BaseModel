@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-allknowingroger-mixtao-19b-pass",
+  "model_id": "allknowingroger/MixTAO-19B-pass",
+  "benchmark_name": "average",
+  "score": 20.627592394280352,
+  "score_raw": 20.627592394280352,
+  "evaluation_date": "2024-06-02",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2566
+}

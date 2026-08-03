@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-neopolita-loki-v0-1-virtuoso",
+  "model_id": "neopolita/loki-v0.1-virtuoso",
+  "benchmark_name": "bbh",
+  "score": 49.45293175936923,
+  "score_raw": 49.45293175936923,
+  "evaluation_date": "2025-01-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 436
+}

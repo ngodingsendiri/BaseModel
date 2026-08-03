@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-lkoenig-bbai-456-qwenkoen",
+  "model_id": "lkoenig/BBAI_456_QwenKoen",
+  "benchmark_name": "ifeval",
+  "score": 45.29282304285961,
+  "score_raw": 45.29282304285961,
+  "evaluation_date": "2025-03-01",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2274
+}

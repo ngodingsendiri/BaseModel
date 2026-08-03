@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sci-m-wang-phi-3-mini-4k-instruct-sa-v0-1",
+  "model_id": "sci-m-wang/Phi-3-mini-4k-instruct-sa-v0.1",
+  "benchmark_name": "average",
+  "score": 25.82414451642259,
+  "score_raw": 25.82414451642259,
+  "evaluation_date": "2024-06-01",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1534
+}

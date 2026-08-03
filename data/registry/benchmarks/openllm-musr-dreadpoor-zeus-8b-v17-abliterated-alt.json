@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-zeus-8b-v17-abliterated-alt",
+  "model_id": "DreadPoor/ZEUS-8B-V17-Abliterated_ALT",
+  "benchmark_name": "musr",
+  "score": 11.265885416666663,
+  "score_raw": 11.265885416666663,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1876
+}

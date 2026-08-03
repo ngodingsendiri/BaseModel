@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-quazim0t0-imbue-14b",
+  "model_id": "Quazim0t0/Imbue-14b",
+  "benchmark_name": "ifeval",
+  "score": 51.99725616918665,
+  "score_raw": 51.99725616918665,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1727
+}

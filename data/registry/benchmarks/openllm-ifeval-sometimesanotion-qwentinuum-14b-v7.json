@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-sometimesanotion-qwentinuum-14b-v7",
+  "model_id": "sometimesanotion/Qwentinuum-14B-v7",
+  "benchmark_name": "ifeval",
+  "score": 61.092235269086025,
+  "score_raw": 61.092235269086025,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1213
+}

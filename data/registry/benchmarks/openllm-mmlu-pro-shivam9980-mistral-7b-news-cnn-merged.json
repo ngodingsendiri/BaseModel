@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-shivam9980-mistral-7b-news-cnn-merged",
+  "model_id": "shivam9980/mistral-7b-news-cnn-merged",
+  "benchmark_name": "mmlu-pro",
+  "score": 20.305112293144205,
+  "score_raw": 20.305112293144205,
+  "evaluation_date": "2024-03-18",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3117
+}

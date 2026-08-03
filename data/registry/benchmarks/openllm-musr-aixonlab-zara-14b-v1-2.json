@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-aixonlab-zara-14b-v1-2",
+  "model_id": "aixonlab/Zara-14b-v1.2",
+  "benchmark_name": "musr",
+  "score": 17.46822916666667,
+  "score_raw": 17.46822916666667,
+  "evaluation_date": "2025-01-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 514
+}

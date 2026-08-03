@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-01-ai-yi-1-5-9b-chat-16k",
+  "model_id": "01-ai/Yi-1.5-9B-Chat-16K",
+  "benchmark_name": "average",
+  "score": 23.76539234993476,
+  "score_raw": 23.76539234993476,
+  "evaluation_date": "2024-05-15",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1902
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-alibaba-nlp-gte-qwen2-7b-instruct",
+  "model_id": "Alibaba-NLP/gte-Qwen2-7B-instruct",
+  "benchmark_name": "musr",
+  "score": 6.315104166666665,
+  "score_raw": 6.315104166666665,
+  "evaluation_date": "2024-06-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3190
+}

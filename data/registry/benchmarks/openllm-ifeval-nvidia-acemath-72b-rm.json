@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-nvidia-acemath-72b-rm",
+  "model_id": "nvidia/AceMath-72B-RM",
+  "benchmark_name": "ifeval",
+  "score": 14.12596355447989,
+  "score_raw": 14.12596355447989,
+  "evaluation_date": "2025-01-14",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4380
+}

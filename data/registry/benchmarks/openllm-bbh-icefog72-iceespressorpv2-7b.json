@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-icefog72-iceespressorpv2-7b",
+  "model_id": "icefog72/IceEspressoRPv2-7b",
+  "benchmark_name": "bbh",
+  "score": 31.303238558418098,
+  "score_raw": 31.303238558418098,
+  "evaluation_date": "2024-09-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1984
+}

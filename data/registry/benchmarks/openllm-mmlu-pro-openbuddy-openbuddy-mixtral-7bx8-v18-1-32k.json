@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-openbuddy-openbuddy-mixtral-7bx8-v18-1-32k",
+  "model_id": "OpenBuddy/openbuddy-mixtral-7bx8-v18.1-32k",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.155806737588655,
+  "score_raw": 31.155806737588655,
+  "evaluation_date": "2024-02-12",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1574
+}

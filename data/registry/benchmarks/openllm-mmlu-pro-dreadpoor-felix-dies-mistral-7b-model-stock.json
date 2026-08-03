@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-felix-dies-mistral-7b-model-stock",
+  "model_id": "DreadPoor/felix_dies-mistral-7B-model_stock",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.43565307328605,
+  "score_raw": 23.43565307328605,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2718
+}

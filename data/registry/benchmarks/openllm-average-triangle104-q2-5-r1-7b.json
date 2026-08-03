@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-triangle104-q2-5-r1-7b",
+  "model_id": "Triangle104/Q2.5-R1-7B",
+  "benchmark_name": "average",
+  "score": 3.783468006938507,
+  "score_raw": 3.783468006938507,
+  "evaluation_date": "2025-02-24",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4479
+}

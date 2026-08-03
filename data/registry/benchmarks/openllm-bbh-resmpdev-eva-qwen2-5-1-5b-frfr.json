@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-resmpdev-eva-qwen2-5-1-5b-frfr",
+  "model_id": "RESMPDEV/EVA-Qwen2.5-1.5B-FRFR",
+  "benchmark_name": "bbh",
+  "score": 15.629561469371746,
+  "score_raw": 15.629561469371746,
+  "evaluation_date": "2024-12-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3466
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-dreadpoor-caelid-8b-model-stock",
+  "model_id": "DreadPoor/Caelid-8B-Model_Stock",
+  "benchmark_name": "ifeval",
+  "score": 72.47281657114235,
+  "score_raw": 72.47281657114235,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 616
+}

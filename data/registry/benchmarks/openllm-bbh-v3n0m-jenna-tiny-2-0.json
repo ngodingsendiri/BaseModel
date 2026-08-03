@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-v3n0m-jenna-tiny-2-0",
+  "model_id": "V3N0M/Jenna-Tiny-2.0",
+  "benchmark_name": "bbh",
+  "score": 4.829999905649889,
+  "score_raw": 4.829999905649889,
+  "evaluation_date": "2024-06-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4125
+}

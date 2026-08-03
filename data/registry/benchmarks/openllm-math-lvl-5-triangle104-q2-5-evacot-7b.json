@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-triangle104-q2-5-evacot-7b",
+  "model_id": "Triangle104/Q2.5-EVACOT-7b",
+  "benchmark_name": "math-lvl-5",
+  "score": 28.247734138972806,
+  "score_raw": 28.247734138972806,
+  "evaluation_date": "2025-01-26",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 885
+}

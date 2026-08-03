@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-jaspionjader-bh-2",
+  "model_id": "jaspionjader/bh-2",
+  "benchmark_name": "average",
+  "score": 24.25166292008038,
+  "score_raw": 24.25166292008038,
+  "evaluation_date": "2025-02-02",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1755
+}

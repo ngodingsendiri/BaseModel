@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dwikitheduck-gen-inst-1",
+  "model_id": "dwikitheduck/gen-inst-1",
+  "benchmark_name": "mmlu-pro",
+  "score": 45.43255023640663,
+  "score_raw": 45.43255023640663,
+  "evaluation_date": "2024-11-18",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 533
+}

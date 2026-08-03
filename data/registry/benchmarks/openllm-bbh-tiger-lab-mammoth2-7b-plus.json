@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-tiger-lab-mammoth2-7b-plus",
+  "model_id": "TIGER-Lab/MAmmoTH2-7B-Plus",
+  "benchmark_name": "bbh",
+  "score": 18.925953227555734,
+  "score_raw": 18.925953227555734,
+  "evaluation_date": "2024-05-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3279
+}

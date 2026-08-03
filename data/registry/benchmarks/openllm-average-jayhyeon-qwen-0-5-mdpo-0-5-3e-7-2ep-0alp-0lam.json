@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-jayhyeon-qwen-0-5-mdpo-0-5-3e-7-2ep-0alp-0lam",
+  "model_id": "JayHyeon/Qwen_0.5-MDPO_0.5_3e-7-2ep_0alp_0lam",
+  "benchmark_name": "average",
+  "score": 7.7092768708900685,
+  "score_raw": 7.7092768708900685,
+  "evaluation_date": "2025-01-15",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3945
+}

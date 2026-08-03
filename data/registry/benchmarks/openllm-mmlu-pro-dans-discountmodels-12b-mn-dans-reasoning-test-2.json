@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dans-discountmodels-12b-mn-dans-reasoning-test-2",
+  "model_id": "Dans-DiscountModels/12b-mn-dans-reasoning-test-2",
+  "benchmark_name": "mmlu-pro",
+  "score": 16.749778368794324,
+  "score_raw": 16.749778368794324,
+  "evaluation_date": "2025-03-07",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3389
+}

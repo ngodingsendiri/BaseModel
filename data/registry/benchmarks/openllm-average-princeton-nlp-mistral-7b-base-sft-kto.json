@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-princeton-nlp-mistral-7b-base-sft-kto",
+  "model_id": "princeton-nlp/Mistral-7B-Base-SFT-KTO",
+  "benchmark_name": "average",
+  "score": 19.012992284438702,
+  "score_raw": 19.012992284438702,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2833
+}

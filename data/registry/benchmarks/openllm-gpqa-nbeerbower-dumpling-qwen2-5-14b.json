@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-nbeerbower-dumpling-qwen2-5-14b",
+  "model_id": "nbeerbower/Dumpling-Qwen2.5-14B",
+  "benchmark_name": "gpqa",
+  "score": 6.823266219239373,
+  "score_raw": 6.823266219239373,
+  "evaluation_date": "2025-02-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1956
+}

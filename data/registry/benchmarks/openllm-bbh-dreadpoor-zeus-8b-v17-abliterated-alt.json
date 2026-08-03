@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-zeus-8b-v17-abliterated-alt",
+  "model_id": "DreadPoor/ZEUS-8B-V17-Abliterated_ALT",
+  "benchmark_name": "bbh",
+  "score": 32.2576119397764,
+  "score_raw": 32.2576119397764,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1805
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-lesubra-ece-prymmal-3b-slerp-v1",
+  "model_id": "lesubra/ECE-PRYMMAL-3B-SLERP-V1",
+  "benchmark_name": "ifeval",
+  "score": 29.328404189772023,
+  "score_raw": 29.328404189772023,
+  "evaluation_date": "2024-10-28",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3347
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-magellanic-qwen-25b-r999",
+  "model_id": "prithivMLmods/Magellanic-Qwen-25B-R999",
+  "benchmark_name": "average",
+  "score": 4.9765268528155335,
+  "score_raw": 4.9765268528155335,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4303
+}

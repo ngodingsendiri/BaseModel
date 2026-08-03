@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-dreadpoor-tests-pending-do-not-use-yet",
+  "model_id": "DreadPoor/tests_pending-do_not_use_yet",
+  "benchmark_name": "ifeval",
+  "score": 76.91414336183549,
+  "score_raw": 76.91414336183549,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 326
+}

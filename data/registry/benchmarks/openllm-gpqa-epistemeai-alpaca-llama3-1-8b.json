@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-epistemeai-alpaca-llama3-1-8b",
+  "model_id": "EpistemeAI/Alpaca-Llama3.1-8B",
+  "benchmark_name": "gpqa",
+  "score": 5.369127516778524,
+  "score_raw": 5.369127516778524,
+  "evaluation_date": "2024-09-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2492
+}

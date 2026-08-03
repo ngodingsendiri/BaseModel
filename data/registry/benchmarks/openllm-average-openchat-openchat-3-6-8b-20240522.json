@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-openchat-openchat-3-6-8b-20240522",
+  "model_id": "openchat/openchat-3.6-8b-20240522",
+  "benchmark_name": "average",
+  "score": 23.10731592675394,
+  "score_raw": 23.10731592675394,
+  "evaluation_date": "2024-05-07",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2074
+}

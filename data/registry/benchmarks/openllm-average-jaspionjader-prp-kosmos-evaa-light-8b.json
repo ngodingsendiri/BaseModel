@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-jaspionjader-prp-kosmos-evaa-light-8b",
+  "model_id": "jaspionjader/PRP-Kosmos-EVAA-light-8B",
+  "benchmark_name": "average",
+  "score": 22.818510021314523,
+  "score_raw": 22.818510021314523,
+  "evaluation_date": "2024-12-29",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2126
+}

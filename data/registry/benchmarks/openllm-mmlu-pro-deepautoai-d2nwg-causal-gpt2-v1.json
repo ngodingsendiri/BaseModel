@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-deepautoai-d2nwg-causal-gpt2-v1",
+  "model_id": "DeepAutoAI/d2nwg_causal_gpt2_v1",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.5033983451536632,
+  "score_raw": 1.5033983451536632,
+  "evaluation_date": "2024-10-18",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4325
+}

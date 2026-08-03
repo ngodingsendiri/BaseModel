@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-deepautoai-ldm-soup-llama-3-1-8b-instruct-v0-1",
+  "model_id": "DeepAutoAI/ldm_soup_Llama-3.1-8B-Instruct-v0.1",
+  "benchmark_name": "ifeval",
+  "score": 78.89499860370483,
+  "score_raw": 78.89499860370483,
+  "evaluation_date": "2024-09-15",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 186
+}

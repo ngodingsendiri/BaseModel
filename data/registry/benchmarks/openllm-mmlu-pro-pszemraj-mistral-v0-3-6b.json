@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-pszemraj-mistral-v0-3-6b",
+  "model_id": "pszemraj/Mistral-v0.3-6B",
+  "benchmark_name": "mmlu-pro",
+  "score": 12.695774231678486,
+  "score_raw": 12.695774231678486,
+  "evaluation_date": "2024-05-25",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3548
+}

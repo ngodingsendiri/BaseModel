@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-bamec66557-mischievous-12b-mix-0-1v",
+  "model_id": "bamec66557/MISCHIEVOUS-12B-Mix_0.1v",
+  "benchmark_name": "math-lvl-5",
+  "score": 13.293051359516618,
+  "score_raw": 13.293051359516618,
+  "evaluation_date": "2024-12-14",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1879
+}

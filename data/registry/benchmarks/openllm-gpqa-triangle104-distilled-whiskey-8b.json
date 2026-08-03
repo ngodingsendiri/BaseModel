@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-triangle104-distilled-whiskey-8b",
+  "model_id": "Triangle104/Distilled-Whiskey-8b",
+  "benchmark_name": "gpqa",
+  "score": 10.850111856823268,
+  "score_raw": 10.850111856823268,
+  "evaluation_date": "2025-01-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 863
+}

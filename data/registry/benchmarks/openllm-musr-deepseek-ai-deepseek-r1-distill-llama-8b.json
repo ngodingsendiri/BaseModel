@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-deepseek-ai-deepseek-r1-distill-llama-8b",
+  "model_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+  "benchmark_name": "musr",
+  "score": 0.45572916666666624,
+  "score_raw": 0.45572916666666624,
+  "evaluation_date": "2025-01-20",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4571
+}

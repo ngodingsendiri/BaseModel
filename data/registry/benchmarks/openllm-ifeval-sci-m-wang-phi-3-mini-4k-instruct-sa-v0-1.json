@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-sci-m-wang-phi-3-mini-4k-instruct-sa-v0-1",
+  "model_id": "sci-m-wang/Phi-3-mini-4k-instruct-sa-v0.1",
+  "benchmark_name": "ifeval",
+  "score": 50.206230579307345,
+  "score_raw": 50.206230579307345,
+  "evaluation_date": "2024-06-01",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1851
+}

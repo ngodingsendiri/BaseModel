@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-quazim0t0-imagine-v0-5-16bit",
+  "model_id": "Quazim0t0/Imagine-v0.5-16bit",
+  "benchmark_name": "mmlu-pro",
+  "score": 48.37839834515367,
+  "score_raw": 48.37839834515367,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 277
+}

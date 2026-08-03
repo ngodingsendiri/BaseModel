@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sicariussicariistuff-phi-lthy4",
+  "model_id": "SicariusSicariiStuff/Phi-lthy4",
+  "benchmark_name": "musr",
+  "score": 9.036458333333334,
+  "score_raw": 9.036458333333334,
+  "evaluation_date": "2025-02-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2566
+}

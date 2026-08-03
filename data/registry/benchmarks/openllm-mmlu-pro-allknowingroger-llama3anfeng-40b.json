@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-allknowingroger-llama3anfeng-40b",
+  "model_id": "allknowingroger/llama3AnFeng-40B",
+  "benchmark_name": "mmlu-pro",
+  "score": 10.885786052009454,
+  "score_raw": 10.885786052009454,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3592
+}

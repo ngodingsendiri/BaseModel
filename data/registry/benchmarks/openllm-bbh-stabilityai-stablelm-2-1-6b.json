@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-stabilityai-stablelm-2-1-6b",
+  "model_id": "stabilityai/stablelm-2-1_6b",
+  "benchmark_name": "bbh",
+  "score": 8.632695204968835,
+  "score_raw": 8.632695204968835,
+  "evaluation_date": "2024-01-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3735
+}

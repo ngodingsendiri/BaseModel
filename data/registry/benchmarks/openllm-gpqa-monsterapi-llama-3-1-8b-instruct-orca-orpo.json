@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-monsterapi-llama-3-1-8b-instruct-orca-orpo",
+  "model_id": "monsterapi/Llama-3_1-8B-Instruct-orca-ORPO",
+  "benchmark_name": "gpqa",
+  "score": 0,
+  "score_raw": 0,
+  "evaluation_date": "2024-08-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4526
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-incidental-8b-model-stock",
+  "model_id": "DreadPoor/Incidental-8B-Model_Stock",
+  "benchmark_name": "bbh",
+  "score": 35.15766080254052,
+  "score_raw": 35.15766080254052,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1333
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-helpingai-cipher-20b",
+  "model_id": "HelpingAI/Cipher-20B",
+  "benchmark_name": "average",
+  "score": 26.976007616737775,
+  "score_raw": 26.976007616737775,
+  "evaluation_date": "2024-12-14",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1392
+}

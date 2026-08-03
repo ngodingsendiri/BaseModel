@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-mistralai-mistral-7b-instruct-v0-2",
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.2",
+  "benchmark_name": "ifeval",
+  "score": 54.96227786717022,
+  "score_raw": 54.96227786717022,
+  "evaluation_date": "2023-12-11",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1528
+}

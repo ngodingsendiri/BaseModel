@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-prithivmlmods-megatron-corpus-14b-exp",
+  "model_id": "prithivMLmods/Megatron-Corpus-14B-Exp",
+  "benchmark_name": "math-lvl-5",
+  "score": 34.29003021148036,
+  "score_raw": 34.29003021148036,
+  "evaluation_date": "2025-02-04",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 688
+}

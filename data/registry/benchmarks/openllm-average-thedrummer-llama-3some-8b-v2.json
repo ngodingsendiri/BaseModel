@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-thedrummer-llama-3some-8b-v2",
+  "model_id": "TheDrummer/Llama-3SOME-8B-v2",
+  "benchmark_name": "average",
+  "score": 21.812966856684692,
+  "score_raw": 21.812966856684692,
+  "evaluation_date": "2024-06-21",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2314
+}

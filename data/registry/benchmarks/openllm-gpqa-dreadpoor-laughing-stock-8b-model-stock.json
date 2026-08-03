@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-laughing-stock-8b-model-stock",
+  "model_id": "DreadPoor/Laughing_Stock-8B-Model_Stock",
+  "benchmark_name": "gpqa",
+  "score": 5.257270693512303,
+  "score_raw": 5.257270693512303,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2540
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-mxode-nanolm-0-3b-instruct-v2",
+  "model_id": "Mxode/NanoLM-0.3B-Instruct-v2",
+  "benchmark_name": "bbh",
+  "score": 2.2094810446663793,
+  "score_raw": 2.2094810446663793,
+  "evaluation_date": "2024-09-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4457
+}

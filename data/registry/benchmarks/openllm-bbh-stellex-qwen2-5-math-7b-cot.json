@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-stellex-qwen2-5-math-7b-cot",
+  "model_id": "StelleX/Qwen2.5_Math_7B_Cot",
+  "benchmark_name": "bbh",
+  "score": 19.796911486609314,
+  "score_raw": 19.796911486609314,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3219
+}

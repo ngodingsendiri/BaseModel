@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-mlabonne-meta-llama-3-1-8b-instruct-abliterated",
+  "model_id": "mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated",
+  "benchmark_name": "average",
+  "score": 23.202552271437714,
+  "score_raw": 23.202552271437714,
+  "evaluation_date": "2024-07-24",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2054
+}

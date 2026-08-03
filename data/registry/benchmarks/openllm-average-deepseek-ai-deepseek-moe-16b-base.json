@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-deepseek-ai-deepseek-moe-16b-base",
+  "model_id": "deepseek-ai/deepseek-moe-16b-base",
+  "benchmark_name": "average",
+  "score": 7.466333791660237,
+  "score_raw": 7.466333791660237,
+  "evaluation_date": "2024-01-08",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4005
+}

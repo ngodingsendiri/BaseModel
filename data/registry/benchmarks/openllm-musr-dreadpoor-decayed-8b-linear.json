@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-decayed-8b-linear",
+  "model_id": "DreadPoor/Decayed-8B-LINEAR",
+  "benchmark_name": "musr",
+  "score": 11.226822916666665,
+  "score_raw": 11.226822916666665,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1896
+}

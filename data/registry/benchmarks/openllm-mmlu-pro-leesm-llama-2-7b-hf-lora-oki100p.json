@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-leesm-llama-2-7b-hf-lora-oki100p",
+  "model_id": "LEESM/llama-2-7b-hf-lora-oki100p",
+  "benchmark_name": "mmlu-pro",
+  "score": 9.509825650118202,
+  "score_raw": 9.509825650118202,
+  "evaluation_date": "2024-07-17",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3648
+}

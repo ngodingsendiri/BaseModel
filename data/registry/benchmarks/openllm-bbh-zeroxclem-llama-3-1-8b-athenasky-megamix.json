@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-zeroxclem-llama-3-1-8b-athenasky-megamix",
+  "model_id": "ZeroXClem/Llama-3.1-8B-AthenaSky-MegaMix",
+  "benchmark_name": "bbh",
+  "score": 31.385283673059273,
+  "score_raw": 31.385283673059273,
+  "evaluation_date": "2025-03-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1969
+}

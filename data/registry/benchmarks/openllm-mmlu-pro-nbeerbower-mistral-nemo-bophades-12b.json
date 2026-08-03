@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-nbeerbower-mistral-nemo-bophades-12b",
+  "model_id": "nbeerbower/mistral-nemo-bophades-12B",
+  "benchmark_name": "mmlu-pro",
+  "score": 27.785165484633573,
+  "score_raw": 27.785165484633573,
+  "evaluation_date": "2024-08-13",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2219
+}

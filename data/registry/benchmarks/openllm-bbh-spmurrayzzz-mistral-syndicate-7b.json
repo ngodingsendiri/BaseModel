@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-spmurrayzzz-mistral-syndicate-7b",
+  "model_id": "spmurrayzzz/Mistral-Syndicate-7B",
+  "benchmark_name": "bbh",
+  "score": 20.50625197041595,
+  "score_raw": 20.50625197041595,
+  "evaluation_date": "2023-12-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3172
+}

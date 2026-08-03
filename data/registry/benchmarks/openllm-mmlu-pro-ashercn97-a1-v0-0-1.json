@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ashercn97-a1-v0-0-1",
+  "model_id": "ashercn97/a1-v0.0.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 35.163637706855795,
+  "score_raw": 35.163637706855795,
+  "evaluation_date": "2024-11-28",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1104
+}

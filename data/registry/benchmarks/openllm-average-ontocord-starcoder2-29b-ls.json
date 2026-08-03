@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ontocord-starcoder2-29b-ls",
+  "model_id": "ontocord/starcoder2-29b-ls",
+  "benchmark_name": "average",
+  "score": 8.448973787058975,
+  "score_raw": 8.448973787058975,
+  "evaluation_date": "2025-02-12",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3830
+}

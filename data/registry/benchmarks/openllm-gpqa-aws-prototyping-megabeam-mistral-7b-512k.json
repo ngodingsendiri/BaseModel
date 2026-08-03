@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-aws-prototyping-megabeam-mistral-7b-512k",
+  "model_id": "aws-prototyping/MegaBeam-Mistral-7B-512k",
+  "benchmark_name": "gpqa",
+  "score": 4.36241610738255,
+  "score_raw": 4.36241610738255,
+  "evaluation_date": "2024-07-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2852
+}

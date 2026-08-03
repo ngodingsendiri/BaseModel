@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-omkar1102-code-yi",
+  "model_id": "Omkar1102/code-yi",
+  "benchmark_name": "ifeval",
+  "score": 21.477457590304837,
+  "score_raw": 21.477457590304837,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3922
+}

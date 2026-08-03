@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-openllm-france-lucie-7b-instruct-v1-1",
+  "model_id": "OpenLLM-France/Lucie-7B-Instruct-v1.1",
+  "benchmark_name": "math-lvl-5",
+  "score": 3.1722054380664653,
+  "score_raw": 3.1722054380664653,
+  "evaluation_date": "2025-02-13",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3663
+}

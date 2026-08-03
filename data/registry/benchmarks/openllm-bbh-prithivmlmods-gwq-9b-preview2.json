@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-prithivmlmods-gwq-9b-preview2",
+  "model_id": "prithivMLmods/GWQ-9B-Preview2",
+  "benchmark_name": "bbh",
+  "score": 40.184860533159515,
+  "score_raw": 40.184860533159515,
+  "evaluation_date": "2025-01-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 951
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-yoyo-ai-qwen2-5-14b-yoyo-latest",
+  "model_id": "YOYO-AI/Qwen2.5-14B-YOYO-latest",
+  "benchmark_name": "bbh",
+  "score": 52.03543238956396,
+  "score_raw": 52.03543238956396,
+  "evaluation_date": "2025-02-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 238
+}

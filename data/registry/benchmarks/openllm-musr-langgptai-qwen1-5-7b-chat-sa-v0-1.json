@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-langgptai-qwen1-5-7b-chat-sa-v0-1",
+  "model_id": "langgptai/qwen1.5-7b-chat-sa-v0.1",
+  "benchmark_name": "musr",
+  "score": 3.0598958333333326,
+  "score_raw": 3.0598958333333326,
+  "evaluation_date": "2024-05-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3912
+}

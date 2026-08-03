@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-marcuscedricridia-cheng-2",
+  "model_id": "marcuscedricridia/Cheng-2",
+  "benchmark_name": "mmlu-pro",
+  "score": 44.59219858156028,
+  "score_raw": 44.59219858156028,
+  "evaluation_date": "2025-03-12",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 560
+}

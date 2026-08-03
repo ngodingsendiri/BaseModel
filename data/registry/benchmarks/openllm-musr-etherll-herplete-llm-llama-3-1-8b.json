@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-etherll-herplete-llm-llama-3-1-8b",
+  "model_id": "Etherll/Herplete-LLM-Llama-3.1-8b",
+  "benchmark_name": "musr",
+  "score": 6.6833333333333345,
+  "score_raw": 6.6833333333333345,
+  "evaluation_date": "2024-08-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3120
+}

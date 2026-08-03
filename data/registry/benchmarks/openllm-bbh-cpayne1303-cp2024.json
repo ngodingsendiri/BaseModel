@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-cpayne1303-cp2024",
+  "model_id": "cpayne1303/cp2024",
+  "benchmark_name": "bbh",
+  "score": 2.7391414141414145,
+  "score_raw": 2.7391414141414145,
+  "evaluation_date": "2024-11-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4363
+}

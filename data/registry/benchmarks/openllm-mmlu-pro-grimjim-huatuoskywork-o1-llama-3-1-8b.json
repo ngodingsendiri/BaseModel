@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-grimjim-huatuoskywork-o1-llama-3-1-8b",
+  "model_id": "grimjim/HuatuoSkywork-o1-Llama-3.1-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.278664302600472,
+  "score_raw": 23.278664302600472,
+  "evaluation_date": "2025-01-02",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2750
+}

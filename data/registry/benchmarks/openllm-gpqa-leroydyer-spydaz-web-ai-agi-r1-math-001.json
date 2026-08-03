@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-leroydyer-spydaz-web-ai-agi-r1-math-001",
+  "model_id": "LeroyDyer/_Spydaz_Web_AI_AGI_R1_Math_001",
+  "benchmark_name": "gpqa",
+  "score": 3.5794183445190177,
+  "score_raw": 3.5794183445190177,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3099
+}

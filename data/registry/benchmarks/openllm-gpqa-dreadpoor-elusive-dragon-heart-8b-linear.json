@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-elusive-dragon-heart-8b-linear",
+  "model_id": "DreadPoor/Elusive_Dragon_Heart-8B-LINEAR",
+  "benchmark_name": "gpqa",
+  "score": 7.494407158836691,
+  "score_raw": 7.494407158836691,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1670
+}

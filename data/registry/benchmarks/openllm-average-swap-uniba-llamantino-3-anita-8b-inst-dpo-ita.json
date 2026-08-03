@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-swap-uniba-llamantino-3-anita-8b-inst-dpo-ita",
+  "model_id": "swap-uniba/LLaMAntino-3-ANITA-8B-Inst-DPO-ITA",
+  "benchmark_name": "average",
+  "score": 21.82755308278925,
+  "score_raw": 21.82755308278925,
+  "evaluation_date": "2024-04-29",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2309
+}

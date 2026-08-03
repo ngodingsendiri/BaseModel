@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-icefog72-ice0-15-02-10-rp",
+  "model_id": "icefog72/Ice0.15-02.10-RP",
+  "benchmark_name": "math-lvl-5",
+  "score": 5.740181268882175,
+  "score_raw": 5.740181268882175,
+  "evaluation_date": "2024-10-02",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3113
+}

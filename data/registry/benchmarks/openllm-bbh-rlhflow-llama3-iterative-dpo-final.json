@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-rlhflow-llama3-iterative-dpo-final",
+  "model_id": "RLHFlow/LLaMA3-iterative-DPO-final",
+  "benchmark_name": "bbh",
+  "score": 29.787760272097795,
+  "score_raw": 29.787760272097795,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2241
+}

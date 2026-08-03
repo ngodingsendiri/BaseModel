@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-meta-llama-meta-llama-3-70b-instruct",
+  "model_id": "meta-llama/Meta-Llama-3-70B-Instruct",
+  "benchmark_name": "ifeval",
+  "score": 80.99077115387172,
+  "score_raw": 80.99077115387172,
+  "evaluation_date": "2024-04-17",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 76
+}

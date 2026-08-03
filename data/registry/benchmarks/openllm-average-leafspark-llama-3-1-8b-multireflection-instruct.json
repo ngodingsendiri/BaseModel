@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-leafspark-llama-3-1-8b-multireflection-instruct",
+  "model_id": "leafspark/Llama-3.1-8B-MultiReflection-Instruct",
+  "benchmark_name": "average",
+  "score": 26.87834660945809,
+  "score_raw": 26.87834660945809,
+  "evaluation_date": "2024-09-15",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1408
+}

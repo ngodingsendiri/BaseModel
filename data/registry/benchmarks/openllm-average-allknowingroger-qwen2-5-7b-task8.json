@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-allknowingroger-qwen2-5-7b-task8",
+  "model_id": "allknowingroger/Qwen2.5-7B-task8",
+  "benchmark_name": "average",
+  "score": 30.109425461585875,
+  "score_raw": 30.109425461585875,
+  "evaluation_date": "2024-11-04",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1010
+}

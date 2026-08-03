@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-rombodawg-rombos-llm-v2-6-nemotron-70b",
+  "model_id": "rombodawg/Rombos-LLM-V2.6-Nemotron-70b",
+  "benchmark_name": "mmlu-pro",
+  "score": 48.101359338061464,
+  "score_raw": 48.101359338061464,
+  "evaluation_date": "2024-10-17",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 304
+}

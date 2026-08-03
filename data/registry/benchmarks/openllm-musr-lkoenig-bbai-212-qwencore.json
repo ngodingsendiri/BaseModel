@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-lkoenig-bbai-212-qwencore",
+  "model_id": "lkoenig/BBAI_212_Qwencore",
+  "benchmark_name": "musr",
+  "score": 12.625000000000002,
+  "score_raw": 12.625000000000002,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1397
+}

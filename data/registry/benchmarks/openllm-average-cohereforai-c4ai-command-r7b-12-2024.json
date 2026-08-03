@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-cohereforai-c4ai-command-r7b-12-2024",
+  "model_id": "CohereForAI/c4ai-command-r7b-12-2024",
+  "benchmark_name": "average",
+  "score": 31.61752928799648,
+  "score_raw": 31.61752928799648,
+  "evaluation_date": "2024-12-11",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 880
+}

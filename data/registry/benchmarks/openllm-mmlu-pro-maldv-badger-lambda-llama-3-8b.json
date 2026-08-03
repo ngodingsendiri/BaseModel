@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-maldv-badger-lambda-llama-3-8b",
+  "model_id": "maldv/badger-lambda-llama-3-8b",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.740248226950357,
+  "score_raw": 30.740248226950357,
+  "evaluation_date": "2024-06-10",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1676
+}

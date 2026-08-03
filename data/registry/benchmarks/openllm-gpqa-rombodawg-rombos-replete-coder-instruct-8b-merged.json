@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-rombodawg-rombos-replete-coder-instruct-8b-merged",
+  "model_id": "rombodawg/rombos_Replete-Coder-Instruct-8b-Merged",
+  "benchmark_name": "gpqa",
+  "score": 2.572706935123044,
+  "score_raw": 2.572706935123044,
+  "evaluation_date": "2024-10-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3483
+}

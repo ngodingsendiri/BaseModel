@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-deepseek-ai-deepseek-r1-distill-qwen-7b",
+  "model_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+  "benchmark_name": "average",
+  "score": 14.99492256865316,
+  "score_raw": 14.99492256865316,
+  "evaluation_date": "2025-01-20",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3310
+}

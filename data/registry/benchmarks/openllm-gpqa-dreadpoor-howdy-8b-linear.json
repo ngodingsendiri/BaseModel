@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-howdy-8b-linear",
+  "model_id": "DreadPoor/Howdy-8B-LINEAR",
+  "benchmark_name": "gpqa",
+  "score": 8.612975391498878,
+  "score_raw": 8.612975391498878,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1299
+}

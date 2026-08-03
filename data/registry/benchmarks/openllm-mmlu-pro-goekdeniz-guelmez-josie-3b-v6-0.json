@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-goekdeniz-guelmez-josie-3b-v6-0",
+  "model_id": "Goekdeniz-Guelmez/josie-3b-v6.0",
+  "benchmark_name": "mmlu-pro",
+  "score": 24.66385933806146,
+  "score_raw": 24.66385933806146,
+  "evaluation_date": "2024-12-29",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2551
+}

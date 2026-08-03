@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-nbailab-nb-llama-3-1-8b-instruct",
+  "model_id": "NbAiLab/nb-llama-3.1-8B-Instruct",
+  "benchmark_name": "gpqa",
+  "score": 3.1319910514541416,
+  "score_raw": 3.1319910514541416,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3260
+}

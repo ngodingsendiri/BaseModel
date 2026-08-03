@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-quazim0t0-cot-phi",
+  "model_id": "Quazim0t0/CoT_Phi",
+  "benchmark_name": "bbh",
+  "score": 53.36568538313751,
+  "score_raw": 53.36568538313751,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 181
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-daemontatox-sphinx",
+  "model_id": "Daemontatox/SphinX",
+  "benchmark_name": "ifeval",
+  "score": 57.25042886208593,
+  "score_raw": 57.25042886208593,
+  "evaluation_date": "2024-12-21",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1399
+}

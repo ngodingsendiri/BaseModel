@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-theprint-conversely-mistral-7b",
+  "model_id": "theprint/Conversely-Mistral-7B",
+  "benchmark_name": "gpqa",
+  "score": 4.697986577181204,
+  "score_raw": 4.697986577181204,
+  "evaluation_date": "2024-12-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2743
+}

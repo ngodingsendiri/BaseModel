@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-minghaowu-qwen1-5-1-8b-openhermes-2-5",
+  "model_id": "minghaowu/Qwen1.5-1.8B-OpenHermes-2.5",
+  "benchmark_name": "average",
+  "score": 8.684751175879422,
+  "score_raw": 8.684751175879422,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3810
+}

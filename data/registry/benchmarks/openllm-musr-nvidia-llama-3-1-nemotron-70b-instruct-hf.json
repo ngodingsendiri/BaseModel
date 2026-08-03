@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-nvidia-llama-3-1-nemotron-70b-instruct-hf",
+  "model_id": "nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
+  "benchmark_name": "musr",
+  "score": 13.195052083333335,
+  "score_raw": 13.195052083333335,
+  "evaluation_date": "2024-10-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1246
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-mergekit-community-diabolic6045-eln-aoc-cain",
+  "model_id": "mergekit-community/diabolic6045_ELN-AOC-CAIN",
+  "benchmark_name": "bbh",
+  "score": 4.63001485442662,
+  "score_raw": 4.63001485442662,
+  "evaluation_date": "2025-01-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4151
+}

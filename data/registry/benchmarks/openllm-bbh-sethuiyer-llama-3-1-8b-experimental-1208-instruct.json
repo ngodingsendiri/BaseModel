@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-sethuiyer-llama-3-1-8b-experimental-1208-instruct",
+  "model_id": "sethuiyer/Llama-3.1-8B-Experimental-1208-Instruct",
+  "benchmark_name": "bbh",
+  "score": 29.491580809437377,
+  "score_raw": 29.491580809437377,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2288
+}

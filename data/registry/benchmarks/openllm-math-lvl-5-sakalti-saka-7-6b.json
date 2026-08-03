@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sakalti-saka-7-6b",
+  "model_id": "Sakalti/Saka-7.6B",
+  "benchmark_name": "math-lvl-5",
+  "score": 32.55287009063444,
+  "score_raw": 32.55287009063444,
+  "evaluation_date": "2025-02-07",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 746
+}

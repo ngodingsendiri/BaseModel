@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-bunnycore-qwen-2-5-7b-deep-sky-t1",
+  "model_id": "bunnycore/Qwen-2.5-7B-Deep-Sky-T1",
+  "benchmark_name": "average",
+  "score": 15.009116031308366,
+  "score_raw": 15.009116031308366,
+  "evaluation_date": "2025-02-16",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3308
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-microsoft-dialogpt-medium",
+  "model_id": "microsoft/DialoGPT-medium",
+  "benchmark_name": "average",
+  "score": 5.251433606790305,
+  "score_raw": 5.251433606790305,
+  "evaluation_date": "2022-03-02",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4251
+}

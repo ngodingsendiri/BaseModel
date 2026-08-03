@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-vagosolutions-sauerkrautlm-gemma-2-2b-it",
+  "model_id": "VAGOsolutions/SauerkrautLM-gemma-2-2b-it",
+  "benchmark_name": "math-lvl-5",
+  "score": 2.190332326283988,
+  "score_raw": 2.190332326283988,
+  "evaluation_date": "2024-08-03",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3878
+}

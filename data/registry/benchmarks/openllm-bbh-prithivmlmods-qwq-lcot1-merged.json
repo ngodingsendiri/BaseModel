@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-prithivmlmods-qwq-lcot1-merged",
+  "model_id": "prithivMLmods/QwQ-LCoT1-Merged",
+  "benchmark_name": "bbh",
+  "score": 35.166254489441975,
+  "score_raw": 35.166254489441975,
+  "evaluation_date": "2025-01-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1332
+}

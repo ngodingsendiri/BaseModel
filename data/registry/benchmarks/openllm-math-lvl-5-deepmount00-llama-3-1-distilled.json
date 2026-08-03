@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-deepmount00-llama-3-1-distilled",
+  "model_id": "DeepMount00/Llama-3.1-Distilled",
+  "benchmark_name": "math-lvl-5",
+  "score": 20.31722054380665,
+  "score_raw": 20.31722054380665,
+  "evaluation_date": "2024-10-25",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1291
+}

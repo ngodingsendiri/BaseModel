@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-mlabonne-alphamonarch-7b",
+  "model_id": "mlabonne/AlphaMonarch-7B",
+  "benchmark_name": "musr",
+  "score": 9.316927083333331,
+  "score_raw": 9.316927083333331,
+  "evaluation_date": "2024-02-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2500
+}

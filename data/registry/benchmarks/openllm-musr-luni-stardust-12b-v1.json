@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-luni-stardust-12b-v1",
+  "model_id": "Luni/StarDust-12b-v1",
+  "benchmark_name": "musr",
+  "score": 13.755989583333331,
+  "score_raw": 13.755989583333331,
+  "evaluation_date": "2024-08-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1106
+}

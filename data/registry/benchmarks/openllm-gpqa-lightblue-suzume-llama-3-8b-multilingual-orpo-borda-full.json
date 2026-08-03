@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-lightblue-suzume-llama-3-8b-multilingual-orpo-borda-full",
+  "model_id": "lightblue/suzume-llama-3-8B-multilingual-orpo-borda-full",
+  "benchmark_name": "gpqa",
+  "score": 1.230425055928408,
+  "score_raw": 1.230425055928408,
+  "evaluation_date": "2024-04-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4030
+}

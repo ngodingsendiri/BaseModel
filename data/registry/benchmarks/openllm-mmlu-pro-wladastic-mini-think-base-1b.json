@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-wladastic-mini-think-base-1b",
+  "model_id": "Wladastic/Mini-Think-Base-1B",
+  "benchmark_name": "mmlu-pro",
+  "score": 8.577127659574469,
+  "score_raw": 8.577127659574469,
+  "evaluation_date": "2025-02-18",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3693
+}

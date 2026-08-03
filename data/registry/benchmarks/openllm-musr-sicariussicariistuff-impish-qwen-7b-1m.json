@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sicariussicariistuff-impish-qwen-7b-1m",
+  "model_id": "SicariusSicariiStuff/Impish_QWEN_7B-1M",
+  "benchmark_name": "musr",
+  "score": 9.557812500000002,
+  "score_raw": 9.557812500000002,
+  "evaluation_date": "2025-01-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2423
+}

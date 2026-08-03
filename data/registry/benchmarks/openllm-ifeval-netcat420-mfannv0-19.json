@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-netcat420-mfannv0-19",
+  "model_id": "netcat420/MFANNv0.19",
+  "benchmark_name": "ifeval",
+  "score": 30.567449921763146,
+  "score_raw": 30.567449921763146,
+  "evaluation_date": "2024-07-27",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3276
+}

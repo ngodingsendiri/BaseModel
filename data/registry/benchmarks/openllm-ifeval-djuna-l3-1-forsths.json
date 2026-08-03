@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-djuna-l3-1-forsths",
+  "model_id": "djuna/L3.1-ForStHS",
+  "benchmark_name": "ifeval",
+  "score": 78.13313120298585,
+  "score_raw": 78.13313120298585,
+  "evaluation_date": "2024-09-10",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 258
+}

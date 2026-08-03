@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sakalti-sakalfusion-7b-alpha",
+  "model_id": "Sakalti/SakalFusion-7B-Alpha",
+  "benchmark_name": "mmlu-pro",
+  "score": 38.598921394799056,
+  "score_raw": 38.598921394799056,
+  "evaluation_date": "2025-01-13",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 771
+}

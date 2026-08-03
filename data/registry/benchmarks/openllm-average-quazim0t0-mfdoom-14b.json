@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-quazim0t0-mfdoom-14b",
+  "model_id": "Quazim0t0/MFDOOM-14B",
+  "benchmark_name": "average",
+  "score": 41.4412132005641,
+  "score_raw": 41.4412132005641,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 161
+}

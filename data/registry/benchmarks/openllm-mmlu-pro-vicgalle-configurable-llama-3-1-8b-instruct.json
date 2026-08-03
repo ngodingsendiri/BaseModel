@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-vicgalle-configurable-llama-3-1-8b-instruct",
+  "model_id": "vicgalle/Configurable-Llama-3.1-8B-Instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 28.800975177304966,
+  "score_raw": 28.800975177304966,
+  "evaluation_date": "2024-07-24",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2080
+}

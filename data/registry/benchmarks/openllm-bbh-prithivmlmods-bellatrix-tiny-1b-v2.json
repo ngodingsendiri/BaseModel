@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-prithivmlmods-bellatrix-tiny-1b-v2",
+  "model_id": "prithivMLmods/Bellatrix-Tiny-1B-v2",
+  "benchmark_name": "bbh",
+  "score": 6.032561968055522,
+  "score_raw": 6.032561968055522,
+  "evaluation_date": "2025-01-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4037
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-leroydyer-spydaz-web-ai-agi-r1-teacher-coder",
+  "model_id": "LeroyDyer/_Spydaz_Web_AI_AGI_R1_Teacher_Coder",
+  "benchmark_name": "bbh",
+  "score": 27.13550121385457,
+  "score_raw": 27.13550121385457,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2607
+}

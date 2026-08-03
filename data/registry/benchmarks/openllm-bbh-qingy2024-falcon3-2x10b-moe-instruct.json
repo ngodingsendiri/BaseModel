@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-qingy2024-falcon3-2x10b-moe-instruct",
+  "model_id": "qingy2024/Falcon3-2x10B-MoE-Instruct",
+  "benchmark_name": "bbh",
+  "score": 45.073852659055916,
+  "score_raw": 45.073852659055916,
+  "evaluation_date": "2024-12-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 669
+}

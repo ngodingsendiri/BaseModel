@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-quazim0t0-vine-14b-sce",
+  "model_id": "Quazim0t0/Vine-14b-sce",
+  "benchmark_name": "mmlu-pro",
+  "score": 48.97864952718677,
+  "score_raw": 48.97864952718677,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 152
+}

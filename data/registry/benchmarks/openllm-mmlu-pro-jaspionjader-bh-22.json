@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-jaspionjader-bh-22",
+  "model_id": "jaspionjader/bh-22",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.712544326241126,
+  "score_raw": 30.712544326241126,
+  "evaluation_date": "2025-02-02",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1686
+}

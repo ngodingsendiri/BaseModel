@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-teknium-openhermes-2-5-mistral-7b",
+  "model_id": "teknium/OpenHermes-2.5-Mistral-7B",
+  "benchmark_name": "ifeval",
+  "score": 55.71417173100706,
+  "score_raw": 55.71417173100706,
+  "evaluation_date": "2023-10-29",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1476
+}

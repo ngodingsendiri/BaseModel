@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-yuma42-llama3-1-superhawk-8b",
+  "model_id": "Yuma42/Llama3.1-SuperHawk-8B",
+  "benchmark_name": "math-lvl-5",
+  "score": 23.48942598187311,
+  "score_raw": 23.48942598187311,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1049
+}

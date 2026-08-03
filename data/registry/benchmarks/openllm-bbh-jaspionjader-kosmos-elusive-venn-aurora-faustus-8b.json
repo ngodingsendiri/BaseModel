@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-jaspionjader-kosmos-elusive-venn-aurora-faustus-8b",
+  "model_id": "jaspionjader/Kosmos-Elusive-VENN-Aurora_faustus-8B",
+  "benchmark_name": "bbh",
+  "score": 33.008333200343884,
+  "score_raw": 33.008333200343884,
+  "evaluation_date": "2024-12-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1646
+}

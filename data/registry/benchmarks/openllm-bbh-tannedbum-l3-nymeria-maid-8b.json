@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-tannedbum-l3-nymeria-maid-8b",
+  "model_id": "tannedbum/L3-Nymeria-Maid-8B",
+  "benchmark_name": "bbh",
+  "score": 31.240944775904463,
+  "score_raw": 31.240944775904463,
+  "evaluation_date": "2024-06-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1996
+}

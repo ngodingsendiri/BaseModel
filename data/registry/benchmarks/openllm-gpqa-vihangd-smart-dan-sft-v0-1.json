@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-vihangd-smart-dan-sft-v0-1",
+  "model_id": "vihangd/smart-dan-sft-v0.1",
+  "benchmark_name": "gpqa",
+  "score": 0.6711409395973182,
+  "score_raw": 0.6711409395973182,
+  "evaluation_date": "2024-08-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4211
+}

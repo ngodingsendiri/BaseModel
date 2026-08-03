@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sakalti-saba1-1-8b",
+  "model_id": "Sakalti/Saba1-1.8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 21.39479905437352,
+  "score_raw": 21.39479905437352,
+  "evaluation_date": "2024-12-08",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3009
+}

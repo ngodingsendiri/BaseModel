@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-deepmount00-qwen2-1-5b-ita-v2",
+  "model_id": "DeepMount00/Qwen2-1.5B-Ita_v2",
+  "benchmark_name": "bbh",
+  "score": 15.106125348603845,
+  "score_raw": 15.106125348603845,
+  "evaluation_date": "2024-06-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3495
+}

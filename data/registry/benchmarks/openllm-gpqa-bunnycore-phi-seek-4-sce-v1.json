@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-bunnycore-phi-seek-4-sce-v1",
+  "model_id": "bunnycore/Phi-Seek-4-Sce-V1",
+  "benchmark_name": "gpqa",
+  "score": 3.467561521252797,
+  "score_raw": 3.467561521252797,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3142
+}

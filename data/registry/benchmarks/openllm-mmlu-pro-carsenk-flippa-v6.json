@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-carsenk-flippa-v6",
+  "model_id": "carsenk/flippa-v6",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.6413268321513,
+  "score_raw": 29.6413268321513,
+  "evaluation_date": "2024-08-24",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1917
+}

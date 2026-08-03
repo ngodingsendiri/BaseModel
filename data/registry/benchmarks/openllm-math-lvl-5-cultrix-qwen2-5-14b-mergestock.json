@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-cultrix-qwen2-5-14b-mergestock",
+  "model_id": "CultriX/Qwen2.5-14B-MergeStock",
+  "benchmark_name": "math-lvl-5",
+  "score": 41.46525679758308,
+  "score_raw": 41.46525679758308,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 397
+}

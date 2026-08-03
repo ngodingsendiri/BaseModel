@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-nguyentd-financialadvice-qwen2-5-7b",
+  "model_id": "nguyentd/FinancialAdvice-Qwen2.5-7B",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.583259456264773,
+  "score_raw": 30.583259456264773,
+  "evaluation_date": "2024-10-21",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1716
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-win10-qwen2-5-2b-instruct",
+  "model_id": "win10/Qwen2.5-2B-Instruct",
+  "benchmark_name": "bbh",
+  "score": 12.07194568570475,
+  "score_raw": 12.07194568570475,
+  "evaluation_date": "2024-10-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3601
+}

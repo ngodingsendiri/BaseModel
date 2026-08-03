@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-saisexperiments-qwowo-7b-v1",
+  "model_id": "SaisExperiments/QwOwO-7B-V1",
+  "benchmark_name": "average",
+  "score": 27.075777072300355,
+  "score_raw": 27.075777072300355,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1385
+}

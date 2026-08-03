@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-genvradmin-aryabhatta-gemmaorca-2-merged",
+  "model_id": "GenVRadmin/AryaBhatta-GemmaOrca-2-Merged",
+  "benchmark_name": "average",
+  "score": 14.006450277637631,
+  "score_raw": 14.006450277637631,
+  "evaluation_date": "2024-04-09",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3416
+}

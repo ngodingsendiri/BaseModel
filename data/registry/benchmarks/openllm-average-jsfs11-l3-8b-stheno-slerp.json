@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-jsfs11-l3-8b-stheno-slerp",
+  "model_id": "jsfs11/L3-8B-Stheno-slerp",
+  "benchmark_name": "average",
+  "score": 24.999084327806248,
+  "score_raw": 24.999084327806248,
+  "evaluation_date": "2024-06-18",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1626
+}

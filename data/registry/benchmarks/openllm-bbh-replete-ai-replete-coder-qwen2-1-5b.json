@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-replete-ai-replete-coder-qwen2-1-5b",
+  "model_id": "Replete-AI/Replete-Coder-Qwen2-1.5b",
+  "benchmark_name": "bbh",
+  "score": 10.4265158026681,
+  "score_raw": 10.4265158026681,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3648
+}

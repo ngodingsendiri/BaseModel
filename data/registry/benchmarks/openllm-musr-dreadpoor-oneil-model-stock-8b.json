@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-oneil-model-stock-8b",
+  "model_id": "DreadPoor/ONeil-model_stock-8B",
+  "benchmark_name": "musr",
+  "score": 10.967968749999995,
+  "score_raw": 10.967968749999995,
+  "evaluation_date": "2024-07-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1987
+}

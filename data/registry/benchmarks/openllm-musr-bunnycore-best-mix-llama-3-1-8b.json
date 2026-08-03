@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-bunnycore-best-mix-llama-3-1-8b",
+  "model_id": "bunnycore/Best-Mix-Llama-3.1-8B",
+  "benchmark_name": "musr",
+  "score": 1.1067708333333328,
+  "score_raw": 1.1067708333333328,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4474
+}

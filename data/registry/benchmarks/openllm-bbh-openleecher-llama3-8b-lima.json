@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-openleecher-llama3-8b-lima",
+  "model_id": "OpenLeecher/llama3-8b-lima",
+  "benchmark_name": "bbh",
+  "score": 19.573064881964964,
+  "score_raw": 19.573064881964964,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3232
+}

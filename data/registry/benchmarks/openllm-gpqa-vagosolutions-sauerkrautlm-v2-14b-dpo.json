@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-vagosolutions-sauerkrautlm-v2-14b-dpo",
+  "model_id": "VAGOsolutions/SauerkrautLM-v2-14b-DPO",
+  "benchmark_name": "gpqa",
+  "score": 9.284116331096197,
+  "score_raw": 9.284116331096197,
+  "evaluation_date": "2024-10-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1153
+}

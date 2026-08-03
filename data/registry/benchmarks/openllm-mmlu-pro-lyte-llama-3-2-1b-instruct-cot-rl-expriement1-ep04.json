@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-lyte-llama-3-2-1b-instruct-cot-rl-expriement1-ep04",
+  "model_id": "Lyte/Llama-3.2-1B-Instruct-COT-RL-Expriement1-EP04",
+  "benchmark_name": "mmlu-pro",
+  "score": 9.362071513002363,
+  "score_raw": 9.362071513002363,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3652
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-microsoft-phi-3-medium-4k-instruct",
+  "model_id": "microsoft/Phi-3-medium-4k-instruct",
+  "benchmark_name": "average",
+  "score": 33.09765943937642,
+  "score_raw": 33.09765943937642,
+  "evaluation_date": "2024-05-07",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 778
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-assskelad-smollm2-360m-sft-smallthoughts",
+  "model_id": "assskelad/smollm2-360M-sft_SmallThoughts",
+  "benchmark_name": "gpqa",
+  "score": 1.230425055928408,
+  "score_raw": 1.230425055928408,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4023
+}

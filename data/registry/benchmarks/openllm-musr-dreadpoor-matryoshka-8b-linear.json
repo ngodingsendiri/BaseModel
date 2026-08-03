@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-matryoshka-8b-linear",
+  "model_id": "DreadPoor/Matryoshka-8B-LINEAR",
+  "benchmark_name": "musr",
+  "score": 12.456249999999999,
+  "score_raw": 12.456249999999999,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1447
+}

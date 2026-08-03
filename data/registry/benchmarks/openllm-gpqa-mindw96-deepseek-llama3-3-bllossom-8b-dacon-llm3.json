@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-mindw96-deepseek-llama3-3-bllossom-8b-dacon-llm3",
+  "model_id": "mindw96/DeepSeek-llama3.3-Bllossom-8B-DACON-LLM3",
+  "benchmark_name": "gpqa",
+  "score": 0.11185682326622093,
+  "score_raw": 0.11185682326622093,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4333
+}

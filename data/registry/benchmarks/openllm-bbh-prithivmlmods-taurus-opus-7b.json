@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-prithivmlmods-taurus-opus-7b",
+  "model_id": "prithivMLmods/Taurus-Opus-7B",
+  "benchmark_name": "bbh",
+  "score": 34.23401639666226,
+  "score_raw": 34.23401639666226,
+  "evaluation_date": "2025-01-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1479
+}

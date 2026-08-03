@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-allknowingroger-phi3mash1-17b-pass",
+  "model_id": "allknowingroger/Phi3mash1-17B-pass",
+  "benchmark_name": "average",
+  "score": 21.34996880563698,
+  "score_raw": 21.34996880563698,
+  "evaluation_date": "2024-08-28",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2425
+}

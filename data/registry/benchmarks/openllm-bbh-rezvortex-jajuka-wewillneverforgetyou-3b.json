@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-rezvortex-jajuka-wewillneverforgetyou-3b",
+  "model_id": "RezVortex/JAJUKA-WEWILLNEVERFORGETYOU-3B",
+  "benchmark_name": "bbh",
+  "score": 23.76082401416404,
+  "score_raw": 23.76082401416404,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2927
+}

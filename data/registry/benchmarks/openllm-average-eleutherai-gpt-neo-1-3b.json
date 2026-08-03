@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-eleutherai-gpt-neo-1-3b",
+  "model_id": "EleutherAI/gpt-neo-1.3B",
+  "benchmark_name": "average",
+  "score": 5.391090848825532,
+  "score_raw": 5.391090848825532,
+  "evaluation_date": "2022-03-02",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4236
+}

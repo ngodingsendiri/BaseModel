@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-kavonalds-lancer-1-1b-instruct",
+  "model_id": "kavonalds/Lancer-1-1b-Instruct",
+  "benchmark_name": "ifeval",
+  "score": 55.459403272206636,
+  "score_raw": 55.459403272206636,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1496
+}

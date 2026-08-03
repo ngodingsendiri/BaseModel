@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-lordjia-qwen2-cantonese-7b-instruct",
+  "model_id": "lordjia/Qwen2-Cantonese-7B-Instruct",
+  "benchmark_name": "musr",
+  "score": 7.814843749999999,
+  "score_raw": 7.814843749999999,
+  "evaluation_date": "2024-07-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2896
+}

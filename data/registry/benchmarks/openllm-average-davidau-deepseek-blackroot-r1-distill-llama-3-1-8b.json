@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-davidau-deepseek-blackroot-r1-distill-llama-3-1-8b",
+  "model_id": "DavidAU/DeepSeek-BlackRoot-R1-Distill-Llama-3.1-8B",
+  "benchmark_name": "average",
+  "score": 19.075555358413183,
+  "score_raw": 19.075555358413183,
+  "evaluation_date": "2025-02-15",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2824
+}

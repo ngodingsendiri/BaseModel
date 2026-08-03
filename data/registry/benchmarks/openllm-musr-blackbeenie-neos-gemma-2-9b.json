@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-blackbeenie-neos-gemma-2-9b",
+  "model_id": "BlackBeenie/Neos-Gemma-2-9b",
+  "benchmark_name": "musr",
+  "score": 5.785416666666667,
+  "score_raw": 5.785416666666667,
+  "evaluation_date": "2024-11-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3287
+}

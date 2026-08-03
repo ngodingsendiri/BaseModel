@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-infinirc-infinirc-llama3-8b-2g-release-v1-0",
+  "model_id": "Infinirc/Infinirc-Llama3-8B-2G-Release-v1.0",
+  "benchmark_name": "musr",
+  "score": 16.750520833333336,
+  "score_raw": 16.750520833333336,
+  "evaluation_date": "2024-06-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 606
+}

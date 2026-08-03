@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-skyorbis-sky-ko-llama3-2-1b-lora-v2-epoch3",
+  "model_id": "SkyOrbis/SKY-Ko-Llama3.2-1B-lora-v2-epoch3",
+  "benchmark_name": "musr",
+  "score": 4.1265625,
+  "score_raw": 4.1265625,
+  "evaluation_date": "2024-12-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3640
+}

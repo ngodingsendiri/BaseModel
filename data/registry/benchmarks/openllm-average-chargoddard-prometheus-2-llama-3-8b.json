@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-chargoddard-prometheus-2-llama-3-8b",
+  "model_id": "chargoddard/prometheus-2-llama-3-8b",
+  "benchmark_name": "average",
+  "score": 19.318861828334345,
+  "score_raw": 19.318861828334345,
+  "evaluation_date": "2024-05-26",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2788
+}

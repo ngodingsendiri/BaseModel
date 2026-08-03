@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-thedrunkensnail-daughter-of-rhodia-12b",
+  "model_id": "TheDrunkenSnail/Daughter-of-Rhodia-12B",
+  "benchmark_name": "gpqa",
+  "score": 8.948545861297541,
+  "score_raw": 8.948545861297541,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1218
+}

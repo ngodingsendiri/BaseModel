@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-norquinal-delta",
+  "model_id": "Norquinal/Delta",
+  "benchmark_name": "average",
+  "score": 11.354799915155942,
+  "score_raw": 11.354799915155942,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3648
+}

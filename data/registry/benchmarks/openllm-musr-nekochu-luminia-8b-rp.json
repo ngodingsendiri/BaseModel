@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-nekochu-luminia-8b-rp",
+  "model_id": "Nekochu/Luminia-8B-RP",
+  "benchmark_name": "musr",
+  "score": 11.070052083333328,
+  "score_raw": 11.070052083333328,
+  "evaluation_date": "2024-09-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1954
+}

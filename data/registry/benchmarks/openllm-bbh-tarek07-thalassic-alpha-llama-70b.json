@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-tarek07-thalassic-alpha-llama-70b",
+  "model_id": "Tarek07/Thalassic-Alpha-LLaMa-70B",
+  "benchmark_name": "bbh",
+  "score": 55.95412538254855,
+  "score_raw": 55.95412538254855,
+  "evaluation_date": "2025-01-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 93
+}

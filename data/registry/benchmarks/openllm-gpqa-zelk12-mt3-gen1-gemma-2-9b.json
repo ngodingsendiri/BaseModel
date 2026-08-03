@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-zelk12-mt3-gen1-gemma-2-9b",
+  "model_id": "zelk12/MT3-Gen1-gemma-2-9B",
+  "benchmark_name": "gpqa",
+  "score": 12.863534675615215,
+  "score_raw": 12.863534675615215,
+  "evaluation_date": "2024-10-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 616
+}

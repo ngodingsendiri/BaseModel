@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-epiculous-azure-dusk-v0-2",
+  "model_id": "Epiculous/Azure_Dusk-v0.2",
+  "benchmark_name": "average",
+  "score": 14.239648971826766,
+  "score_raw": 14.239648971826766,
+  "evaluation_date": "2024-09-09",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3389
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-abacusai-bigstral-12b-32k",
+  "model_id": "abacusai/bigstral-12b-32k",
+  "benchmark_name": "bbh",
+  "score": 25.5569024540723,
+  "score_raw": 25.5569024540723,
+  "evaluation_date": "2024-03-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2776
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-godlikehhd-alpaca-data-ins-ans-max-5200",
+  "model_id": "godlikehhd/alpaca_data_ins_ans_max_5200",
+  "benchmark_name": "ifeval",
+  "score": 34.78647765706104,
+  "score_raw": 34.78647765706104,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3041
+}

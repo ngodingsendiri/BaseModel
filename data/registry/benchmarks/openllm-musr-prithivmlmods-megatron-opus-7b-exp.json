@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-prithivmlmods-megatron-opus-7b-exp",
+  "model_id": "prithivMLmods/Megatron-Opus-7B-Exp",
+  "benchmark_name": "musr",
+  "score": 11.056249999999997,
+  "score_raw": 11.056249999999997,
+  "evaluation_date": "2025-02-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1963
+}

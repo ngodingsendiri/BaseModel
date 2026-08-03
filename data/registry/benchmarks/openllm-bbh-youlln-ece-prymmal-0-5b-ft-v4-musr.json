@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-youlln-ece-prymmal-0-5b-ft-v4-musr",
+  "model_id": "Youlln/ECE-PRYMMAL-0.5B-FT-V4-MUSR",
+  "benchmark_name": "bbh",
+  "score": 4.949091743380625,
+  "score_raw": 4.949091743380625,
+  "evaluation_date": "2024-10-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4116
+}

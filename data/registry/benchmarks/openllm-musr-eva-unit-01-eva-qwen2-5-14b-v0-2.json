@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-eva-unit-01-eva-qwen2-5-14b-v0-2",
+  "model_id": "EVA-UNIT-01/EVA-Qwen2.5-14B-v0.2",
+  "benchmark_name": "musr",
+  "score": 19.630989583333328,
+  "score_raw": 19.630989583333328,
+  "evaluation_date": "2024-11-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 267
+}

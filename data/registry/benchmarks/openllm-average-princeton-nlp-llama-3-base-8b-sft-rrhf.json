@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-princeton-nlp-llama-3-base-8b-sft-rrhf",
+  "model_id": "princeton-nlp/Llama-3-Base-8B-SFT-RRHF",
+  "benchmark_name": "average",
+  "score": 16.28272427355282,
+  "score_raw": 16.28272427355282,
+  "evaluation_date": "2024-07-06",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3165
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-zhangshenao-selm-llama-3-8b-instruct-iter-3",
+  "model_id": "ZhangShenao/SELM-Llama-3-8B-Instruct-iter-3",
+  "benchmark_name": "bbh",
+  "score": 29.07853088402274,
+  "score_raw": 29.07853088402274,
+  "evaluation_date": "2024-05-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2344
+}

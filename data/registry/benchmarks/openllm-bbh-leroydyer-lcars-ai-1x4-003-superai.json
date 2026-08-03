@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-leroydyer-lcars-ai-1x4-003-superai",
+  "model_id": "LeroyDyer/LCARS_AI_1x4_003_SuperAI",
+  "benchmark_name": "bbh",
+  "score": 28.423430655930204,
+  "score_raw": 28.423430655930204,
+  "evaluation_date": "2024-04-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2447
+}

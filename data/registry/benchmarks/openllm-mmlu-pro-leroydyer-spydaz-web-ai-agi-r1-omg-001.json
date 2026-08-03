@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-leroydyer-spydaz-web-ai-agi-r1-omg-001",
+  "model_id": "LeroyDyer/_Spydaz_Web_AI_AGI_R1_OmG_001",
+  "benchmark_name": "mmlu-pro",
+  "score": 21.17316784869976,
+  "score_raw": 21.17316784869976,
+  "evaluation_date": "2025-03-02",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3037
+}

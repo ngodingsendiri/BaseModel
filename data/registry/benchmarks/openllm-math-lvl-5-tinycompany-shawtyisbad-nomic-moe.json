@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-tinycompany-shawtyisbad-nomic-moe",
+  "model_id": "tinycompany/ShawtyIsBad-nomic-moe",
+  "benchmark_name": "math-lvl-5",
+  "score": 4.305135951661631,
+  "score_raw": 4.305135951661631,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3445
+}

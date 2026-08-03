@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-not-even-my-final-form-8b-model-stock",
+  "model_id": "DreadPoor/Not_Even_My_Final_Form-8B-Model_Stock",
+  "benchmark_name": "musr",
+  "score": 10.70911458333333,
+  "score_raw": 10.70911458333333,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2073
+}

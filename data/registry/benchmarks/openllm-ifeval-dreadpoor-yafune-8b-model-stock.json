@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-dreadpoor-yafune-8b-model-stock",
+  "model_id": "DreadPoor/Yafune-8B-Model_Stock",
+  "benchmark_name": "ifeval",
+  "score": 75.33045652202821,
+  "score_raw": 75.33045652202821,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 418
+}

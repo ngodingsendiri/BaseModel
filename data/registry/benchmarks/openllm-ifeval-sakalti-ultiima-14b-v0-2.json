@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-sakalti-ultiima-14b-v0-2",
+  "model_id": "Sakalti/ultiima-14B-v0.2",
+  "benchmark_name": "ifeval",
+  "score": 70.69930007934502,
+  "score_raw": 70.69930007934502,
+  "evaluation_date": "2025-01-24",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 731
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-prithivmlmods-porpoise-opus-14b-exp",
+  "model_id": "prithivMLmods/Porpoise-Opus-14B-Exp",
+  "benchmark_name": "musr",
+  "score": 21.303645833333334,
+  "score_raw": 21.303645833333334,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 144
+}

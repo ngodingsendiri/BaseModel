@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-prithivmlmods-pegasus-opus-14b-exp",
+  "model_id": "prithivMLmods/Pegasus-Opus-14B-Exp",
+  "benchmark_name": "mmlu-pro",
+  "score": 49.02482269503546,
+  "score_raw": 49.02482269503546,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 140
+}

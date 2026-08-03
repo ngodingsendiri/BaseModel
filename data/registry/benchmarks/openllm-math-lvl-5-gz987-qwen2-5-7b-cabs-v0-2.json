@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-gz987-qwen2-5-7b-cabs-v0-2",
+  "model_id": "gz987/qwen2.5-7b-cabs-v0.2",
+  "benchmark_name": "math-lvl-5",
+  "score": 49.01812688821752,
+  "score_raw": 49.01812688821752,
+  "evaluation_date": "2025-02-18",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 172
+}

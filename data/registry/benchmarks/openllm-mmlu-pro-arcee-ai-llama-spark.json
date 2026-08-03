@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-arcee-ai-llama-spark",
+  "model_id": "arcee-ai/Llama-Spark",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.232343380614658,
+  "score_raw": 30.232343380614658,
+  "evaluation_date": "2024-07-26",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1782
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-thomas-yanxin-xinyuan-qwen2-7b",
+  "model_id": "thomas-yanxin/XinYuan-Qwen2-7B",
+  "benchmark_name": "average",
+  "score": 22.431711657583364,
+  "score_raw": 22.431711657583364,
+  "evaluation_date": "2024-08-21",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2214
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-qwen-qwen1-5-14b-chat",
+  "model_id": "Qwen/Qwen1.5-14B-Chat",
+  "benchmark_name": "ifeval",
+  "score": 47.68082022367319,
+  "score_raw": 47.68082022367319,
+  "evaluation_date": "2024-01-30",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2036
+}

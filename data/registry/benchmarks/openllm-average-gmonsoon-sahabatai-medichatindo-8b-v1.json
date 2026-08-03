@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-gmonsoon-sahabatai-medichatindo-8b-v1",
+  "model_id": "gmonsoon/SahabatAI-MediChatIndo-8B-v1",
+  "benchmark_name": "average",
+  "score": 17.29986493129456,
+  "score_raw": 17.29986493129456,
+  "evaluation_date": "2024-11-19",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3033
+}

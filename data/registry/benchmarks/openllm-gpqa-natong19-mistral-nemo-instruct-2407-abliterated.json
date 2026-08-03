@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-natong19-mistral-nemo-instruct-2407-abliterated",
+  "model_id": "natong19/Mistral-Nemo-Instruct-2407-abliterated",
+  "benchmark_name": "gpqa",
+  "score": 4.921700223713646,
+  "score_raw": 4.921700223713646,
+  "evaluation_date": "2024-08-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2667
+}

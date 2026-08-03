@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-oobabooga-codebooga-34b-v0-1",
+  "model_id": "oobabooga/CodeBooga-34B-v0.1",
+  "benchmark_name": "math-lvl-5",
+  "score": 3.927492447129909,
+  "score_raw": 3.927492447129909,
+  "evaluation_date": "2023-10-19",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3534
+}

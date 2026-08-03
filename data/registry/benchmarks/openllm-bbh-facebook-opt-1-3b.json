@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-facebook-opt-1-3b",
+  "model_id": "facebook/opt-1.3b",
+  "benchmark_name": "bbh",
+  "score": 3.6480520895226785,
+  "score_raw": 3.6480520895226785,
+  "evaluation_date": "2022-05-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4236
+}

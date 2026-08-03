@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-bunnycore-llama-3-2-3b-toxickod",
+  "model_id": "bunnycore/Llama-3.2-3B-ToxicKod",
+  "benchmark_name": "average",
+  "score": 21.269124274869156,
+  "score_raw": 21.269124274869156,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2447
+}

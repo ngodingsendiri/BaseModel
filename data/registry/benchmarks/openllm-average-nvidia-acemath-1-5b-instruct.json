@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nvidia-acemath-1-5b-instruct",
+  "model_id": "nvidia/AceMath-1.5B-Instruct",
+  "benchmark_name": "average",
+  "score": 20.18985986442293,
+  "score_raw": 20.18985986442293,
+  "evaluation_date": "2025-01-13",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2653
+}

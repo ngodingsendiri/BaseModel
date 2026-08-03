@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-epiculous-azure-dusk-v0-2",
+  "model_id": "Epiculous/Azure_Dusk-v0.2",
+  "benchmark_name": "mmlu-pro",
+  "score": 22.604536052009458,
+  "score_raw": 22.604536052009458,
+  "evaluation_date": "2024-09-09",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2850
+}

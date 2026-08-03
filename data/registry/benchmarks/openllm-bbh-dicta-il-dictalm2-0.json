@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-dicta-il-dictalm2-0",
+  "model_id": "dicta-il/dictalm2.0",
+  "benchmark_name": "bbh",
+  "score": 16.48984561578202,
+  "score_raw": 16.48984561578202,
+  "evaluation_date": "2024-04-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3429
+}

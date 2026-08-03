@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-godlikehhd-qwen-2-5-1-5b-cherry-new",
+  "model_id": "godlikehhd/qwen_2.5-1.5b-cherry_new",
+  "benchmark_name": "math-lvl-5",
+  "score": 9.667673716012084,
+  "score_raw": 9.667673716012084,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2443
+}

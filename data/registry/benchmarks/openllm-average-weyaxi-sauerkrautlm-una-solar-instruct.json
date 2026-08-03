@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-weyaxi-sauerkrautlm-una-solar-instruct",
+  "model_id": "Weyaxi/SauerkrautLM-UNA-SOLAR-Instruct",
+  "benchmark_name": "average",
+  "score": 20.476008390270348,
+  "score_raw": 20.476008390270348,
+  "evaluation_date": "2023-12-21",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2593
+}

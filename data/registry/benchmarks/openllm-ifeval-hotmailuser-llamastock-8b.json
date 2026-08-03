@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-hotmailuser-llamastock-8b",
+  "model_id": "hotmailuser/LlamaStock-8B",
+  "benchmark_name": "ifeval",
+  "score": 42.495135130343044,
+  "score_raw": 42.495135130343044,
+  "evaluation_date": "2024-12-30",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2546
+}

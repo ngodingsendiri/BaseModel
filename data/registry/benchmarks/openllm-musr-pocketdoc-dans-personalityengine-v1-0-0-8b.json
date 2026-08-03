@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-pocketdoc-dans-personalityengine-v1-0-0-8b",
+  "model_id": "PocketDoc/Dans-PersonalityEngine-v1.0.0-8b",
+  "benchmark_name": "musr",
+  "score": 3.9361979166666683,
+  "score_raw": 3.9361979166666683,
+  "evaluation_date": "2024-10-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3687
+}

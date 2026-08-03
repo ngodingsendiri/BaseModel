@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ozone-research-chirp-01",
+  "model_id": "ozone-research/Chirp-01",
+  "benchmark_name": "mmlu-pro",
+  "score": 27.868277186761226,
+  "score_raw": 27.868277186761226,
+  "evaluation_date": "2025-02-23",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2206
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-prithivmlmods-viper-coder-hybrid-v1-2",
+  "model_id": "prithivMLmods/Viper-Coder-Hybrid-v1.2",
+  "benchmark_name": "musr",
+  "score": 20.305468749999996,
+  "score_raw": 20.305468749999996,
+  "evaluation_date": "2025-02-20",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 215
+}

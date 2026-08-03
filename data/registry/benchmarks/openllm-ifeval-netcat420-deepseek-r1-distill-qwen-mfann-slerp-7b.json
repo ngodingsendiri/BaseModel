@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-netcat420-deepseek-r1-distill-qwen-mfann-slerp-7b",
+  "model_id": "netcat420/DeepSeek-R1-Distill-Qwen-MFANN-Slerp-7b",
+  "benchmark_name": "ifeval",
+  "score": 11.500596195871399,
+  "score_raw": 11.500596195871399,
+  "evaluation_date": "2025-01-23",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4470
+}

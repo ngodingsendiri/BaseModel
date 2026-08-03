@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-doppelreflex-mn-12b-wolframe",
+  "model_id": "DoppelReflEx/MN-12B-WolFrame",
+  "benchmark_name": "average",
+  "score": 22.078719684057372,
+  "score_raw": 22.078719684057372,
+  "evaluation_date": "2025-01-29",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2267
+}

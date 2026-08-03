@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-lilrg-10prymmal-3b-slerp",
+  "model_id": "LilRg/10PRYMMAL-3B-slerp",
+  "benchmark_name": "math-lvl-5",
+  "score": 14.954682779456194,
+  "score_raw": 14.954682779456194,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1731
+}

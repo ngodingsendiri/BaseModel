@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-kingnish-qwen-1b-continued-v2-1",
+  "model_id": "KingNish/qwen-1b-continued-v2.1",
+  "benchmark_name": "average",
+  "score": 5.461814579103264,
+  "score_raw": 5.461814579103264,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4230
+}

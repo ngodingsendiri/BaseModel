@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-q-bert-metamath-1b",
+  "model_id": "Q-bert/MetaMath-1B",
+  "benchmark_name": "average",
+  "score": 12.36906160654443,
+  "score_raw": 12.36906160654443,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3558
+}

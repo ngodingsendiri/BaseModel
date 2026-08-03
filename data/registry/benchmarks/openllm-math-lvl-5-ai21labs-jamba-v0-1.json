@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-ai21labs-jamba-v0-1",
+  "model_id": "ai21labs/Jamba-v0.1",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.5861027190332326,
+  "score_raw": 1.5861027190332326,
+  "evaluation_date": "2024-03-28",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4026
+}

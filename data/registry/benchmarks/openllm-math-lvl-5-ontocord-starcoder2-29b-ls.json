@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-ontocord-starcoder2-29b-ls",
+  "model_id": "ontocord/starcoder2-29b-ls",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.8882175226586102,
+  "score_raw": 1.8882175226586102,
+  "evaluation_date": "2025-02-12",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3961
+}

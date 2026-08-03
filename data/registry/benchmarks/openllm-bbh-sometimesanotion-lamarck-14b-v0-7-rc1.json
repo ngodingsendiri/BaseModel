@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-sometimesanotion-lamarck-14b-v0-7-rc1",
+  "model_id": "sometimesanotion/Lamarck-14B-v0.7-rc1",
+  "benchmark_name": "bbh",
+  "score": 49.50816072696898,
+  "score_raw": 49.50816072696898,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 432
+}

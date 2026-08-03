@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-dreadpoor-decayed-8b-linear",
+  "model_id": "DreadPoor/Decayed-8B-LINEAR",
+  "benchmark_name": "ifeval",
+  "score": 76.76176988169169,
+  "score_raw": 76.76176988169169,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 339
+}

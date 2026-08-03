@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-kimargin-gpt-neo-1-3b-wiki",
+  "model_id": "Kimargin/GPT-NEO-1.3B-wiki",
+  "benchmark_name": "ifeval",
+  "score": 19.2068156934711,
+  "score_raw": 19.2068156934711,
+  "evaluation_date": "2024-10-23",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4069
+}

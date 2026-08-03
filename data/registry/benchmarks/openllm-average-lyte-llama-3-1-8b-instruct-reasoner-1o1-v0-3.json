@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-lyte-llama-3-1-8b-instruct-reasoner-1o1-v0-3",
+  "model_id": "Lyte/Llama-3.1-8B-Instruct-Reasoner-1o1_v0.3",
+  "benchmark_name": "average",
+  "score": 25.75346114088417,
+  "score_raw": 25.75346114088417,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1542
+}

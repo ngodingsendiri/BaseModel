@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-vicgalle-merge-mistral-prometheus-7b",
+  "model_id": "vicgalle/Merge-Mistral-Prometheus-7B",
+  "benchmark_name": "ifeval",
+  "score": 48.48014379623842,
+  "score_raw": 48.48014379623842,
+  "evaluation_date": "2024-05-04",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1975
+}

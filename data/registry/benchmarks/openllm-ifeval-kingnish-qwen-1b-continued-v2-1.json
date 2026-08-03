@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-kingnish-qwen-1b-continued-v2-1",
+  "model_id": "KingNish/qwen-1b-continued-v2.1",
+  "benchmark_name": "ifeval",
+  "score": 11.26832360359402,
+  "score_raw": 11.26832360359402,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4473
+}

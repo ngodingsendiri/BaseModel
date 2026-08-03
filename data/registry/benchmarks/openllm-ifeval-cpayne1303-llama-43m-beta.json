@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-cpayne1303-llama-43m-beta",
+  "model_id": "cpayne1303/llama-43m-beta",
+  "benchmark_name": "ifeval",
+  "score": 19.156837191983936,
+  "score_raw": 19.156837191983936,
+  "evaluation_date": "2024-11-30",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4073
+}

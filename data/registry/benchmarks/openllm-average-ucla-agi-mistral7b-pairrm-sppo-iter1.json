@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ucla-agi-mistral7b-pairrm-sppo-iter1",
+  "model_id": "UCLA-AGI/Mistral7B-PairRM-SPPO-Iter1",
+  "benchmark_name": "average",
+  "score": 17.91774579525423,
+  "score_raw": 17.91774579525423,
+  "evaluation_date": "2024-05-04",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2963
+}

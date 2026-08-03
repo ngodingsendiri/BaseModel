@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-prithivmlmods-tadpole-opus-14b-exp",
+  "model_id": "prithivMLmods/Tadpole-Opus-14B-Exp",
+  "benchmark_name": "ifeval",
+  "score": 57.495223784004224,
+  "score_raw": 57.495223784004224,
+  "evaluation_date": "2025-02-25",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1392
+}

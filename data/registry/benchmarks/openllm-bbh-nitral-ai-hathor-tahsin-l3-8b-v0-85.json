@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-nitral-ai-hathor-tahsin-l3-8b-v0-85",
+  "model_id": "Nitral-AI/Hathor_Tahsin-L3-8B-v0.85",
+  "benchmark_name": "bbh",
+  "score": 32.71311306903596,
+  "score_raw": 32.71311306903596,
+  "evaluation_date": "2024-07-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1705
+}

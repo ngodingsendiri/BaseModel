@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-princeton-nlp-mistral-7b-base-sft-ipo",
+  "model_id": "princeton-nlp/Mistral-7B-Base-SFT-IPO",
+  "benchmark_name": "average",
+  "score": 17.273368181499578,
+  "score_raw": 17.273368181499578,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3036
+}

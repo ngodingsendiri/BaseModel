@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-allenai-olmo-1-7-7b-hf",
+  "model_id": "allenai/OLMo-1.7-7B-hf",
+  "benchmark_name": "bbh",
+  "score": 2.7703163925041445,
+  "score_raw": 2.7703163925041445,
+  "evaluation_date": "2024-04-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4359
+}

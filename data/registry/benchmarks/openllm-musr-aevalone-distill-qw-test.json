@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-aevalone-distill-qw-test",
+  "model_id": "aevalone/distill_qw_test",
+  "benchmark_name": "musr",
+  "score": 6.046093750000002,
+  "score_raw": 6.046093750000002,
+  "evaluation_date": "2025-03-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3244
+}

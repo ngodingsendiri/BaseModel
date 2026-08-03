@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-leroydyer-spydaz-web-ai-agi-r1-omg-math",
+  "model_id": "LeroyDyer/_Spydaz_Web_AI_AGI_R1_OmG_Math",
+  "benchmark_name": "musr",
+  "score": 13.171614583333335,
+  "score_raw": 13.171614583333335,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1250
+}

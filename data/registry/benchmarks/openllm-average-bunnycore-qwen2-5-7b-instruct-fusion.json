@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-bunnycore-qwen2-5-7b-instruct-fusion",
+  "model_id": "bunnycore/Qwen2.5-7B-Instruct-Fusion",
+  "benchmark_name": "average",
+  "score": 33.10123026617861,
+  "score_raw": 33.10123026617861,
+  "evaluation_date": "2024-10-31",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 777
+}

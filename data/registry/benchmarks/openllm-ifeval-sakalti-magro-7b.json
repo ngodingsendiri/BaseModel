@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-sakalti-magro-7b",
+  "model_id": "Sakalti/magro-7B",
+  "benchmark_name": "ifeval",
+  "score": 13.439008497453422,
+  "score_raw": 13.439008497453422,
+  "evaluation_date": "2024-12-11",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4412
+}

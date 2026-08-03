@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-doppelreflex-mn-12b-lilithframe",
+  "model_id": "DoppelReflEx/MN-12B-LilithFrame",
+  "benchmark_name": "math-lvl-5",
+  "score": 5.8912386706948645,
+  "score_raw": 5.8912386706948645,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3074
+}

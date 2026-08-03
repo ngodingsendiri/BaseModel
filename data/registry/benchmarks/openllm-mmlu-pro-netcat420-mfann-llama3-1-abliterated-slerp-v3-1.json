@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-netcat420-mfann-llama3-1-abliterated-slerp-v3-1",
+  "model_id": "netcat420/MFANN-llama3.1-abliterated-SLERP-v3.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 28.25613179669031,
+  "score_raw": 28.25613179669031,
+  "evaluation_date": "2024-10-08",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2154
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-pegasus-opus-14b-exp",
+  "model_id": "prithivMLmods/Pegasus-Opus-14B-Exp",
+  "benchmark_name": "average",
+  "score": 41.62328046376648,
+  "score_raw": 41.62328046376648,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 140
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-arcee-ai-arcee-spark",
+  "model_id": "arcee-ai/Arcee-Spark",
+  "benchmark_name": "bbh",
+  "score": 36.92439043586489,
+  "score_raw": 36.92439043586489,
+  "evaluation_date": "2024-06-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1087
+}

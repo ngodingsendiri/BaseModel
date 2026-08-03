@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-quazim0t0-mononoke-14b-sce",
+  "model_id": "Quazim0t0/Mononoke-14B-sce",
+  "benchmark_name": "math-lvl-5",
+  "score": 46.97885196374622,
+  "score_raw": 46.97885196374622,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 236
+}

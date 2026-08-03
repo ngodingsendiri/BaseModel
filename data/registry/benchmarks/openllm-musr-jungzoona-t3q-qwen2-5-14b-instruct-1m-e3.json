@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-jungzoona-t3q-qwen2-5-14b-instruct-1m-e3",
+  "model_id": "JungZoona/T3Q-Qwen2.5-14B-Instruct-1M-e3",
+  "benchmark_name": "musr",
+  "score": 38.688020833333326,
+  "score_raw": 38.688020833333326,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1
+}

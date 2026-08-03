@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-modelspace-gemmax2-28-9b-v0-1",
+  "model_id": "ModelSpace/GemmaX2-28-9B-v0.1",
+  "benchmark_name": "bbh",
+  "score": 11.707676917585223,
+  "score_raw": 11.707676917585223,
+  "evaluation_date": "2024-11-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3611
+}

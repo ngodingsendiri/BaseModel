@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-google-recurrentgemma-2b-it",
+  "model_id": "google/recurrentgemma-2b-it",
+  "benchmark_name": "ifeval",
+  "score": 29.493299999556733,
+  "score_raw": 29.493299999556733,
+  "evaluation_date": "2024-04-08",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3338
+}

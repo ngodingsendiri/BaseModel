@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-jaspionjader-test-11",
+  "model_id": "jaspionjader/test-11",
+  "benchmark_name": "ifeval",
+  "score": 45.41272711959822,
+  "score_raw": 45.41272711959822,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2260
+}

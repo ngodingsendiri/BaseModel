@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-c10x-q-pluse",
+  "model_id": "c10x/Q-Pluse",
+  "benchmark_name": "average",
+  "score": 3.634370763516103,
+  "score_raw": 3.634370763516103,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4500
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-hpai-bsc-qwen2-5-aloe-beta-7b",
+  "model_id": "HPAI-BSC/Qwen2.5-Aloe-Beta-7B",
+  "benchmark_name": "bbh",
+  "score": 30.33160459968833,
+  "score_raw": 30.33160459968833,
+  "evaluation_date": "2024-12-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2148
+}

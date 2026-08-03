@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-baconnier-napoleon-24b-v0-2",
+  "model_id": "baconnier/Napoleon_24B_V0.2",
+  "benchmark_name": "average",
+  "score": 24.007932141039515,
+  "score_raw": 24.007932141039515,
+  "evaluation_date": "2025-02-17",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1836
+}

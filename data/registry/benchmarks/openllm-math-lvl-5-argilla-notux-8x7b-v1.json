@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-argilla-notux-8x7b-v1",
+  "model_id": "argilla/notux-8x7b-v1",
+  "benchmark_name": "math-lvl-5",
+  "score": 9.969788519637463,
+  "score_raw": 9.969788519637463,
+  "evaluation_date": "2023-12-12",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2389
+}

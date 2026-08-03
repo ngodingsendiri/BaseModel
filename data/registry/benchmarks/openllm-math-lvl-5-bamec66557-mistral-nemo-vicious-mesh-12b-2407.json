@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-bamec66557-mistral-nemo-vicious-mesh-12b-2407",
+  "model_id": "bamec66557/Mistral-Nemo-VICIOUS_MESH-12B-2407",
+  "benchmark_name": "math-lvl-5",
+  "score": 13.670694864048338,
+  "score_raw": 13.670694864048338,
+  "evaluation_date": "2024-12-22",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1839
+}

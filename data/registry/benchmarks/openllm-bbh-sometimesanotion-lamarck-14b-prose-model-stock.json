@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-sometimesanotion-lamarck-14b-prose-model-stock",
+  "model_id": "sometimesanotion/lamarck-14b-prose-model_stock",
+  "benchmark_name": "bbh",
+  "score": 49.383875963761994,
+  "score_raw": 49.383875963761994,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 442
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-sometimesanotion-qwen2-5-7b-gordion-v0-1",
+  "model_id": "sometimesanotion/Qwen2.5-7B-Gordion-v0.1",
+  "benchmark_name": "average",
+  "score": 32.15683651529989,
+  "score_raw": 32.15683651529989,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 836
+}

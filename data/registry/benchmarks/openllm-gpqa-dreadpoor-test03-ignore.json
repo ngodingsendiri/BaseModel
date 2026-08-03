@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-test03-ignore",
+  "model_id": "DreadPoor/TEST03-ignore",
+  "benchmark_name": "gpqa",
+  "score": 7.829977628635347,
+  "score_raw": 7.829977628635347,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1530
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-rombodawg-rombos-llm-v2-6-nemotron-70b",
+  "model_id": "rombodawg/Rombos-LLM-V2.6-Nemotron-70b",
+  "benchmark_name": "ifeval",
+  "score": 75.26551771521784,
+  "score_raw": 75.26551771521784,
+  "evaluation_date": "2024-10-17",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 430
+}

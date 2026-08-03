@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-yanng1242-marcoro14-7b-slerp",
+  "model_id": "yanng1242/Marcoro14-7B-slerp",
+  "benchmark_name": "ifeval",
+  "score": 40.59916576904835,
+  "score_raw": 40.59916576904835,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2697
+}

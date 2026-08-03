@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-cpayne1303-llama-43m-beta",
+  "model_id": "cpayne1303/llama-43m-beta",
+  "benchmark_name": "musr",
+  "score": 6.1638020833333345,
+  "score_raw": 6.1638020833333345,
+  "evaluation_date": "2024-11-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3215
+}

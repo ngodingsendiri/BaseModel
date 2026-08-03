@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-dreadpoor-rpmash-8b-model-stock",
+  "model_id": "DreadPoor/RPMash-8B-Model_Stock",
+  "benchmark_name": "average",
+  "score": 21.700898440005755,
+  "score_raw": 21.700898440005755,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2346
+}

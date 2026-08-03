@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-eric111-catunamayo",
+  "model_id": "Eric111/CatunaMayo",
+  "benchmark_name": "math-lvl-5",
+  "score": 8.459214501510575,
+  "score_raw": 8.459214501510575,
+  "evaluation_date": "2024-02-15",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2610
+}

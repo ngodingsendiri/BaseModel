@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-eleutherai-pythia-160m",
+  "model_id": "EleutherAI/pythia-160m",
+  "benchmark_name": "bbh",
+  "score": 2.198832279508135,
+  "score_raw": 2.198832279508135,
+  "evaluation_date": "2023-02-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4459
+}

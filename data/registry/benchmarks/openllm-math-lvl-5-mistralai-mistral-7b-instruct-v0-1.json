@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-mistralai-mistral-7b-instruct-v0-1",
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.1",
+  "benchmark_name": "math-lvl-5",
+  "score": 2.2658610271903323,
+  "score_raw": 2.2658610271903323,
+  "evaluation_date": "2023-09-27",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3862
+}

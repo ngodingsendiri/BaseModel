@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-triangle104-chronos-prism-v1-0",
+  "model_id": "Triangle104/Chronos-Prism_V1.0",
+  "benchmark_name": "gpqa",
+  "score": 7.941834451901568,
+  "score_raw": 7.941834451901568,
+  "evaluation_date": "2024-11-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1505
+}

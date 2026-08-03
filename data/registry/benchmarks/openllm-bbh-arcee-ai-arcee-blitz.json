@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-arcee-ai-arcee-blitz",
+  "model_id": "arcee-ai/Arcee-Blitz",
+  "benchmark_name": "bbh",
+  "score": 50.72663255795833,
+  "score_raw": 50.72663255795833,
+  "evaluation_date": "2025-02-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 301
+}

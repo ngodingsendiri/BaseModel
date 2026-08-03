@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-bunnycore-qandoraexp-7b",
+  "model_id": "bunnycore/QandoraExp-7B",
+  "benchmark_name": "average",
+  "score": 36.26500037492428,
+  "score_raw": 36.26500037492428,
+  "evaluation_date": "2024-11-11",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 542
+}

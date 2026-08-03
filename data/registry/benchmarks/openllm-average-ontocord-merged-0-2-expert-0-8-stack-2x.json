@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ontocord-merged-0-2-expert-0-8-stack-2x",
+  "model_id": "ontocord/merged_0.2_expert_0.8-stack_2x",
+  "benchmark_name": "average",
+  "score": 4.697285033470183,
+  "score_raw": 4.697285033470183,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4346
+}

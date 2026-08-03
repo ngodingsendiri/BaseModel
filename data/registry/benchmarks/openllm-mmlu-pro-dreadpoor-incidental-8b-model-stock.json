@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-incidental-8b-model-stock",
+  "model_id": "DreadPoor/Incidental-8B-Model_Stock",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.922281323877062,
+  "score_raw": 31.922281323877062,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1402
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-kayfour-t3q-qwen2-5-7b-it-kor-safe",
+  "model_id": "kayfour/T3Q-Qwen2.5-7B-it-KOR-Safe",
+  "benchmark_name": "gpqa",
+  "score": 9.507829977628639,
+  "score_raw": 9.507829977628639,
+  "evaluation_date": "2024-11-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1106
+}

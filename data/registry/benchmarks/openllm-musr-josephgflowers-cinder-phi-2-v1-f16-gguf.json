@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-josephgflowers-cinder-phi-2-v1-f16-gguf",
+  "model_id": "Josephgflowers/Cinder-Phi-2-V1-F16-gguf",
+  "benchmark_name": "musr",
+  "score": 1.965625,
+  "score_raw": 1.965625,
+  "evaluation_date": "2024-02-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4197
+}

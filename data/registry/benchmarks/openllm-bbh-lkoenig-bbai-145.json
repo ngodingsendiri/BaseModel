@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-lkoenig-bbai-145",
+  "model_id": "lkoenig/BBAI_145_",
+  "benchmark_name": "bbh",
+  "score": 36.73010277668871,
+  "score_raw": 36.73010277668871,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1108
+}

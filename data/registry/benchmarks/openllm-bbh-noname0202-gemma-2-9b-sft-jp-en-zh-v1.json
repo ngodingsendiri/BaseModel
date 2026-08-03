@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-noname0202-gemma-2-9b-sft-jp-en-zh-v1",
+  "model_id": "noname0202/gemma-2-9b-sft-jp-en-zh-v1",
+  "benchmark_name": "bbh",
+  "score": 22.0002402150018,
+  "score_raw": 22.0002402150018,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3075
+}

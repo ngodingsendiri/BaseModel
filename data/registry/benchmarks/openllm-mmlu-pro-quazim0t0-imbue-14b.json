@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-quazim0t0-imbue-14b",
+  "model_id": "Quazim0t0/Imbue-14b",
+  "benchmark_name": "mmlu-pro",
+  "score": 48.91400709219858,
+  "score_raw": 48.91400709219858,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 168
+}

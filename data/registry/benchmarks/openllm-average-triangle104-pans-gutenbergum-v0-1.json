@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-triangle104-pans-gutenbergum-v0-1",
+  "model_id": "Triangle104/Pans_Gutenbergum_V0.1",
+  "benchmark_name": "average",
+  "score": 22.27617513692708,
+  "score_raw": 22.27617513692708,
+  "evaluation_date": "2024-10-27",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2244
+}

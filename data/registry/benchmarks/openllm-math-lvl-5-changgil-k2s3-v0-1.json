@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-changgil-k2s3-v0-1",
+  "model_id": "Changgil/K2S3-v0.1",
+  "benchmark_name": "math-lvl-5",
+  "score": 4.607250755287009,
+  "score_raw": 4.607250755287009,
+  "evaluation_date": "2024-04-29",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3361
+}

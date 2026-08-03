@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-ehristoforu-falcon3-ultraset",
+  "model_id": "ehristoforu/falcon3-ultraset",
+  "benchmark_name": "musr",
+  "score": 20.99739583333334,
+  "score_raw": 20.99739583333334,
+  "evaluation_date": "2024-12-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 166
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sethuiyer-llama-3-1-8b-experimental-1208-instruct",
+  "model_id": "sethuiyer/Llama-3.1-8B-Experimental-1208-Instruct",
+  "benchmark_name": "math-lvl-5",
+  "score": 8.91238670694864,
+  "score_raw": 8.91238670694864,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2552
+}

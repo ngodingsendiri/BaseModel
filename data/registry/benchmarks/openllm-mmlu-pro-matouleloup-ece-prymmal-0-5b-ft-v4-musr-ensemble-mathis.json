@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-matouleloup-ece-prymmal-0-5b-ft-v4-musr-ensemble-mathis",
+  "model_id": "matouLeLoup/ECE-PRYMMAL-0.5B-FT-V4-MUSR-ENSEMBLE-Mathis",
+  "benchmark_name": "mmlu-pro",
+  "score": 7.99534574468085,
+  "score_raw": 7.99534574468085,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3728
+}

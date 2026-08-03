@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-prithivmlmods-llama-8b-distill-cot",
+  "model_id": "prithivMLmods/Llama-8B-Distill-CoT",
+  "benchmark_name": "gpqa",
+  "score": 5.257270693512303,
+  "score_raw": 5.257270693512303,
+  "evaluation_date": "2025-01-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2568
+}

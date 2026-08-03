@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-duyhv1411-llama-3-2-1b-en-vi",
+  "model_id": "duyhv1411/Llama-3.2-1B-en-vi",
+  "benchmark_name": "mmlu-pro",
+  "score": 3.793587470449173,
+  "score_raw": 3.793587470449173,
+  "evaluation_date": "2025-03-06",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4054
+}

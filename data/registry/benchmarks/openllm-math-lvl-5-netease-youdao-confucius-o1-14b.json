@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-netease-youdao-confucius-o1-14b",
+  "model_id": "netease-youdao/Confucius-o1-14B",
+  "benchmark_name": "math-lvl-5",
+  "score": 43.126888217522655,
+  "score_raw": 43.126888217522655,
+  "evaluation_date": "2025-01-20",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 348
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-tannedbum-l3-rhaenys-8b",
+  "model_id": "tannedbum/L3-Rhaenys-8B",
+  "benchmark_name": "musr",
+  "score": 5.726562500000003,
+  "score_raw": 5.726562500000003,
+  "evaluation_date": "2024-07-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3302
+}

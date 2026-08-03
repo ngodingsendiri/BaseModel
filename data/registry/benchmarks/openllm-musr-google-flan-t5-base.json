@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-google-flan-t5-base",
+  "model_id": "google/flan-t5-base",
+  "benchmark_name": "musr",
+  "score": 3.2226562499999996,
+  "score_raw": 3.2226562499999996,
+  "evaluation_date": "2022-10-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3870
+}

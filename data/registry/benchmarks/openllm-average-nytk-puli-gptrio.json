@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nytk-puli-gptrio",
+  "model_id": "NYTK/PULI-GPTrio",
+  "benchmark_name": "average",
+  "score": 5.833727911056492,
+  "score_raw": 5.833727911056492,
+  "evaluation_date": "2023-06-08",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4176
+}

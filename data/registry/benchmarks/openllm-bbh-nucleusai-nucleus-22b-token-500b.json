@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-nucleusai-nucleus-22b-token-500b",
+  "model_id": "NucleusAI/nucleus-22B-token-500B",
+  "benchmark_name": "bbh",
+  "score": 1.8879990685708254,
+  "score_raw": 1.8879990685708254,
+  "evaluation_date": "2023-10-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4506
+}

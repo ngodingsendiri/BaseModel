@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-tensopolis-qwen2-5-7b-tensopolis-v2",
+  "model_id": "tensopolis/qwen2.5-7b-tensopolis-v2",
+  "benchmark_name": "ifeval",
+  "score": 75.21055244528961,
+  "score_raw": 75.21055244528961,
+  "evaluation_date": "2025-03-07",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 433
+}

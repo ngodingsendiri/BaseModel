@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sicariussicariistuff-eximius-persona-5b",
+  "model_id": "SicariusSicariiStuff/Eximius_Persona_5B",
+  "benchmark_name": "math-lvl-5",
+  "score": 10.196374622356496,
+  "score_raw": 10.196374622356496,
+  "evaluation_date": "2025-01-21",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2358
+}

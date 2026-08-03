@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-ksu-hw-sec-llama3-70b-sva-ft-500",
+  "model_id": "KSU-HW-SEC/Llama3-70b-SVA-FT-500",
+  "benchmark_name": "average",
+  "score": 35.953711985827894,
+  "score_raw": 35.953711985827894,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 570
+}

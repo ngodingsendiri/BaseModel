@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-youngpanda-qwenqwen",
+  "model_id": "YoungPanda/qwenqwen",
+  "benchmark_name": "math-lvl-5",
+  "score": 3.5498489425981874,
+  "score_raw": 3.5498489425981874,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3606
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-sometimesanotion-lamarck-14b-v0-4-qwenvergence",
+  "model_id": "sometimesanotion/Lamarck-14B-v0.4-Qwenvergence",
+  "benchmark_name": "ifeval",
+  "score": 49.06470387460827,
+  "score_raw": 49.06470387460827,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1940
+}

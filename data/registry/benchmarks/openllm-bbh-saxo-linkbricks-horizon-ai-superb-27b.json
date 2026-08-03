@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-saxo-linkbricks-horizon-ai-superb-27b",
+  "model_id": "Saxo/Linkbricks-Horizon-AI-Superb-27B",
+  "benchmark_name": "bbh",
+  "score": 45.694323910043586,
+  "score_raw": 45.694323910043586,
+  "evaluation_date": "2024-12-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 649
+}

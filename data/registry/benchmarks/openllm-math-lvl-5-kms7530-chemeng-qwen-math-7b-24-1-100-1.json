@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-kms7530-chemeng-qwen-math-7b-24-1-100-1",
+  "model_id": "kms7530/chemeng_qwen-math-7b_24_1_100_1",
+  "benchmark_name": "math-lvl-5",
+  "score": 22.432024169184288,
+  "score_raw": 22.432024169184288,
+  "evaluation_date": "2024-10-10",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1111
+}

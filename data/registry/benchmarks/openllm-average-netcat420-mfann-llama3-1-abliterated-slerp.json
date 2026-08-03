@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-netcat420-mfann-llama3-1-abliterated-slerp",
+  "model_id": "netcat420/MFANN-llama3.1-Abliterated-SLERP",
+  "benchmark_name": "average",
+  "score": 13.881633563903852,
+  "score_raw": 13.881633563903852,
+  "evaluation_date": "2024-09-25",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3437
+}

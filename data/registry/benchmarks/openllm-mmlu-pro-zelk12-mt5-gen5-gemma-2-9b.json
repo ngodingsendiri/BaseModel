@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-zelk12-mt5-gen5-gemma-2-9b",
+  "model_id": "zelk12/MT5-Gen5-gemma-2-9B",
+  "benchmark_name": "mmlu-pro",
+  "score": 36.99209515366431,
+  "score_raw": 36.99209515366431,
+  "evaluation_date": "2024-12-29",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 984
+}

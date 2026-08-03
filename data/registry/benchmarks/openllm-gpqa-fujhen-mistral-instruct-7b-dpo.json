@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-fujhen-mistral-instruct-7b-dpo",
+  "model_id": "FuJhen/mistral-instruct-7B-DPO",
+  "benchmark_name": "gpqa",
+  "score": 3.6912751677852316,
+  "score_raw": 3.6912751677852316,
+  "evaluation_date": "2024-09-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3051
+}

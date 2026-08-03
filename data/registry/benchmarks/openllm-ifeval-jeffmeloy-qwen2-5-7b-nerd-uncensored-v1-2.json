@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-jeffmeloy-qwen2-5-7b-nerd-uncensored-v1-2",
+  "model_id": "jeffmeloy/Qwen2.5-7B-nerd-uncensored-v1.2",
+  "benchmark_name": "ifeval",
+  "score": 49.64671516021933,
+  "score_raw": 49.64671516021933,
+  "evaluation_date": "2024-11-01",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1892
+}

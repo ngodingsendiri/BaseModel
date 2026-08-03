@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-daemontatox-phi-4-cot",
+  "model_id": "Daemontatox/Phi-4-COT",
+  "benchmark_name": "mmlu-pro",
+  "score": 44.49985224586289,
+  "score_raw": 44.49985224586289,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 562
+}

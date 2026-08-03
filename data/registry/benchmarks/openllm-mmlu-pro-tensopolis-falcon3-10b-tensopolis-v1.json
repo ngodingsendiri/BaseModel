@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-tensopolis-falcon3-10b-tensopolis-v1",
+  "model_id": "tensopolis/falcon3-10b-tensopolis-v1",
+  "benchmark_name": "mmlu-pro",
+  "score": 37.99867021276595,
+  "score_raw": 37.99867021276595,
+  "evaluation_date": "2025-01-29",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 828
+}

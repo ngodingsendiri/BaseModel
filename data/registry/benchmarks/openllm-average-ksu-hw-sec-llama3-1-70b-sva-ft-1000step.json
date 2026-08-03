@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-ksu-hw-sec-llama3-1-70b-sva-ft-1000step",
+  "model_id": "KSU-HW-SEC/Llama3.1-70b-SVA-FT-1000step",
+  "benchmark_name": "average",
+  "score": 40.75025867079505,
+  "score_raw": 40.75025867079505,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 216
+}

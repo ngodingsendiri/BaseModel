@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-ehristoforu-rqwen-v0-1",
+  "model_id": "ehristoforu/RQwen-v0.1",
+  "benchmark_name": "musr",
+  "score": 10.438281250000003,
+  "score_raw": 10.438281250000003,
+  "evaluation_date": "2024-11-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2161
+}

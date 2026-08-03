@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-lalainy-ece-prymmal-yl-1b-slerp-v3",
+  "model_id": "lalainy/ECE-PRYMMAL-YL-1B-SLERP-V3",
+  "benchmark_name": "ifeval",
+  "score": 32.500875454904104,
+  "score_raw": 32.500875454904104,
+  "evaluation_date": "2024-11-12",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3174
+}

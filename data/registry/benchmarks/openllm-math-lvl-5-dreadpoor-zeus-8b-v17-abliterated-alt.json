@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-dreadpoor-zeus-8b-v17-abliterated-alt",
+  "model_id": "DreadPoor/ZEUS-8B-V17-Abliterated_ALT",
+  "benchmark_name": "math-lvl-5",
+  "score": 19.033232628398792,
+  "score_raw": 19.033232628398792,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1394
+}

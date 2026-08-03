@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-vonjack-smollm2-1-7b-merged",
+  "model_id": "vonjack/SmolLM2-1.7B-Merged",
+  "benchmark_name": "musr",
+  "score": 3.832291666666668,
+  "score_raw": 3.832291666666668,
+  "evaluation_date": "2024-11-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3722
+}

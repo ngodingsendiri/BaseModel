@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-epistemeai-fireball-meta-llama-3-1-8b-instruct-agent-0-003-128k-code-ds",
+  "model_id": "EpistemeAI/Fireball-Meta-Llama-3.1-8B-Instruct-Agent-0.003-128K-code-ds",
+  "benchmark_name": "math-lvl-5",
+  "score": 13.36858006042296,
+  "score_raw": 13.36858006042296,
+  "evaluation_date": "2024-10-14",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1871
+}

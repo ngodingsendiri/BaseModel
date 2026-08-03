@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-dreadpoor-blunt-edge-8b-slerp",
+  "model_id": "DreadPoor/Blunt_Edge-8B-SLERP",
+  "benchmark_name": "math-lvl-5",
+  "score": 18.580060422960727,
+  "score_raw": 18.580060422960727,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1431
+}

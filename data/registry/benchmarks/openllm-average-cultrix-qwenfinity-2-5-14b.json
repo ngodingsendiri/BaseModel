@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-cultrix-qwenfinity-2-5-14b",
+  "model_id": "CultriX/Qwenfinity-2.5-14B",
+  "benchmark_name": "average",
+  "score": 32.322008098684286,
+  "score_raw": 32.322008098684286,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 830
+}

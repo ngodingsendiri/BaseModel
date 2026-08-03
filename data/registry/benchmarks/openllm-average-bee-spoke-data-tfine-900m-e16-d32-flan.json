@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-bee-spoke-data-tfine-900m-e16-d32-flan",
+  "model_id": "BEE-spoke-data/tFINE-900m-e16-d32-flan",
+  "benchmark_name": "average",
+  "score": 4.597533011984676,
+  "score_raw": 4.597533011984676,
+  "evaluation_date": "2024-09-06",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4355
+}

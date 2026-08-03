@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-supichi-bbai-135-gemma",
+  "model_id": "Supichi/BBAI_135_Gemma",
+  "benchmark_name": "ifeval",
+  "score": 6.562144000141846,
+  "score_raw": 6.562144000141846,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4521
+}

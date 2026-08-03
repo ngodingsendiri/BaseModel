@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-recoilme-recoilme-gemma-2-9b-v0-4",
+  "model_id": "recoilme/recoilme-gemma-2-9B-v0.4",
+  "benchmark_name": "mmlu-pro",
+  "score": 37.841681442080386,
+  "score_raw": 37.841681442080386,
+  "evaluation_date": "2024-09-18",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 849
+}

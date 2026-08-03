@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-icefog72-icetea21energydrinkrpv13-dpov3",
+  "model_id": "icefog72/IceTea21EnergyDrinkRPV13-DPOv3",
+  "benchmark_name": "bbh",
+  "score": 30.6127340167025,
+  "score_raw": 30.6127340167025,
+  "evaluation_date": "2024-09-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2100
+}

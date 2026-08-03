@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-lightblue-suzume-llama-3-8b-multilingual-orpo-borda-half",
+  "model_id": "lightblue/suzume-llama-3-8B-multilingual-orpo-borda-half",
+  "benchmark_name": "musr",
+  "score": 2.114583333333334,
+  "score_raw": 2.114583333333334,
+  "evaluation_date": "2024-04-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4150
+}

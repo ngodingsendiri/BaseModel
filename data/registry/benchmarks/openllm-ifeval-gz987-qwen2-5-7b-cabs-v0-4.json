@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-gz987-qwen2-5-7b-cabs-v0-4",
+  "model_id": "gz987/qwen2.5-7b-cabs-v0.4",
+  "benchmark_name": "ifeval",
+  "score": 75.82503313430587,
+  "score_raw": 75.82503313430587,
+  "evaluation_date": "2025-02-18",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 395
+}

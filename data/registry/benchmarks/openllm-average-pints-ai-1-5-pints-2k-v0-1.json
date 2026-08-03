@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-pints-ai-1-5-pints-2k-v0-1",
+  "model_id": "pints-ai/1.5-Pints-2K-v0.1",
+  "benchmark_name": "average",
+  "score": 4.044439684591542,
+  "score_raw": 4.044439684591542,
+  "evaluation_date": "2024-08-07",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4436
+}

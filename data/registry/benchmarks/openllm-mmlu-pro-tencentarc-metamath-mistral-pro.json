@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-tencentarc-metamath-mistral-pro",
+  "model_id": "TencentARC/MetaMath-Mistral-Pro",
+  "benchmark_name": "mmlu-pro",
+  "score": 16.35268912529551,
+  "score_raw": 16.35268912529551,
+  "evaluation_date": "2024-02-26",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3412
+}

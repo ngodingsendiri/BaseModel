@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-win10-norns-qwen2-5-7b",
+  "model_id": "win10/Norns-Qwen2.5-7B",
+  "benchmark_name": "math-lvl-5",
+  "score": 26.283987915407852,
+  "score_raw": 26.283987915407852,
+  "evaluation_date": "2024-11-17",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 951
+}

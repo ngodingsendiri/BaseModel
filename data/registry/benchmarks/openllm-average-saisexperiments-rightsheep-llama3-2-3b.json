@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-saisexperiments-rightsheep-llama3-2-3b",
+  "model_id": "SaisExperiments/RightSheep-Llama3.2-3B",
+  "benchmark_name": "average",
+  "score": 15.857393775364821,
+  "score_raw": 15.857393775364821,
+  "evaluation_date": "2025-01-25",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3216
+}

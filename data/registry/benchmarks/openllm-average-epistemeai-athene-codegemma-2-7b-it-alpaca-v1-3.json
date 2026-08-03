@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-epistemeai-athene-codegemma-2-7b-it-alpaca-v1-3",
+  "model_id": "EpistemeAI/Athene-codegemma-2-7b-it-alpaca-v1.3",
+  "benchmark_name": "average",
+  "score": 17.314021588433324,
+  "score_raw": 17.314021588433324,
+  "evaluation_date": "2024-09-06",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3030
+}

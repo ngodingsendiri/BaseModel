@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-v3n0m-jenna-tiny-2-0",
+  "model_id": "V3N0M/Jenna-Tiny-2.0",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.6326832151300221,
+  "score_raw": 1.6326832151300221,
+  "evaluation_date": "2024-06-18",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4269
+}

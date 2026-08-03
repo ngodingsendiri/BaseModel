@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-alibaba-nlp-gte-qwen2-7b-instruct",
+  "model_id": "Alibaba-NLP/gte-Qwen2-7B-instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 25.790484633569736,
+  "score_raw": 25.790484633569736,
+  "evaluation_date": "2024-06-15",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2431
+}

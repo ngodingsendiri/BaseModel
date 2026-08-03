@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-vonjack-smollm2-1-7b-merged",
+  "model_id": "vonjack/SmolLM2-1.7B-Merged",
+  "benchmark_name": "mmlu-pro",
+  "score": 11.643026004728133,
+  "score_raw": 11.643026004728133,
+  "evaluation_date": "2024-11-18",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3575
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-qingy2019-qwen2-5-ultimate-14b-instruct",
+  "model_id": "qingy2019/Qwen2.5-Ultimate-14B-Instruct",
+  "benchmark_name": "musr",
+  "score": 9.887500000000003,
+  "score_raw": 9.887500000000003,
+  "evaluation_date": "2024-12-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2324
+}

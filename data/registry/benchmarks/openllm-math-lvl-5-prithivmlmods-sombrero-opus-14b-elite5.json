@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-prithivmlmods-sombrero-opus-14b-elite5",
+  "model_id": "prithivMLmods/Sombrero-Opus-14B-Elite5",
+  "benchmark_name": "math-lvl-5",
+  "score": 53.54984894259819,
+  "score_raw": 53.54984894259819,
+  "evaluation_date": "2025-02-12",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 68
+}

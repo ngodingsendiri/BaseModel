@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-sophosympatheia-midnight-miqu-70b-v1-5",
+  "model_id": "sophosympatheia/Midnight-Miqu-70B-v1.5",
+  "benchmark_name": "ifeval",
+  "score": 61.18465671086051,
+  "score_raw": 61.18465671086051,
+  "evaluation_date": "2024-03-11",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1208
+}

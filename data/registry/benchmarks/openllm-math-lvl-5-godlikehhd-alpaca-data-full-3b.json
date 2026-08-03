@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-godlikehhd-alpaca-data-full-3b",
+  "model_id": "godlikehhd/alpaca_data_full_3B",
+  "benchmark_name": "math-lvl-5",
+  "score": 13.36858006042296,
+  "score_raw": 13.36858006042296,
+  "evaluation_date": "2025-01-15",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1875
+}

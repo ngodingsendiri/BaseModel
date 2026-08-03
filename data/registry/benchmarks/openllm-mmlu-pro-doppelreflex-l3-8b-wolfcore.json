@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-doppelreflex-l3-8b-wolfcore",
+  "model_id": "DoppelReflEx/L3-8B-WolfCore",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.056885342789595,
+  "score_raw": 30.056885342789595,
+  "evaluation_date": "2025-02-28",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1812
+}

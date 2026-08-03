@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-rwitz-go-bruins-v2",
+  "model_id": "rwitz/go-bruins-v2",
+  "benchmark_name": "bbh",
+  "score": 12.69326018768569,
+  "score_raw": 12.69326018768569,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3588
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-yifai-llama-3-8b-instruct-sppo-score-iter3-gp-8b-table-0-002",
+  "model_id": "yifAI/Llama-3-8B-Instruct-SPPO-score-Iter3_gp_8b-table-0.002",
+  "benchmark_name": "average",
+  "score": 22.73807535003498,
+  "score_raw": 22.73807535003498,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2146
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-saisexperiments-gemma-2-2b-stheno-filtered",
+  "model_id": "SaisExperiments/Gemma-2-2B-Stheno-Filtered",
+  "benchmark_name": "bbh",
+  "score": 17.47886723805338,
+  "score_raw": 17.47886723805338,
+  "evaluation_date": "2024-09-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3375
+}

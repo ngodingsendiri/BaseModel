@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-uukuguy-speechless-llama2-hermes-orca-platypus-wizardlm-13b",
+  "model_id": "uukuguy/speechless-llama2-hermes-orca-platypus-wizardlm-13b",
+  "benchmark_name": "bbh",
+  "score": 26.79172729423422,
+  "score_raw": 26.79172729423422,
+  "evaluation_date": "2023-09-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2646
+}

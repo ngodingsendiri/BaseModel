@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-limyeri-codemind-llama3-8b-unsloth-v3-merged",
+  "model_id": "LimYeri/CodeMind-Llama3-8B-unsloth_v3-merged",
+  "benchmark_name": "musr",
+  "score": 1.1518229166666667,
+  "score_raw": 1.1518229166666667,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4430
+}

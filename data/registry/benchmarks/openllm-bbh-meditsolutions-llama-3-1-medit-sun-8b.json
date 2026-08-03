@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-meditsolutions-llama-3-1-medit-sun-8b",
+  "model_id": "meditsolutions/Llama-3.1-MedIT-SUN-8B",
+  "benchmark_name": "bbh",
+  "score": 32.001650567550215,
+  "score_raw": 32.001650567550215,
+  "evaluation_date": "2024-11-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1844
+}

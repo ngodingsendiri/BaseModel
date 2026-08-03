@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ylalain-ece-prymmal-yl-1b-slerp-v8",
+  "model_id": "ylalain/ECE-PRYMMAL-YL-1B-SLERP-V8",
+  "benchmark_name": "average",
+  "score": 9.679667500944214,
+  "score_raw": 9.679667500944214,
+  "evaluation_date": "2024-11-13",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3743
+}

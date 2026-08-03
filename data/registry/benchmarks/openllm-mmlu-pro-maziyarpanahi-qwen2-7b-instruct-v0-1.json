@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-maziyarpanahi-qwen2-7b-instruct-v0-1",
+  "model_id": "MaziyarPanahi/Qwen2-7B-Instruct-v0.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.746823286052013,
+  "score_raw": 31.746823286052013,
+  "evaluation_date": "2024-06-27",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1436
+}

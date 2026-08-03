@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-doppelreflex-l3-8b-r1-wolfcore-v1-5-test",
+  "model_id": "DoppelReflEx/L3-8B-R1-WolfCore-V1.5-test",
+  "benchmark_name": "gpqa",
+  "score": 10.17897091722595,
+  "score_raw": 10.17897091722595,
+  "evaluation_date": "2025-03-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 963
+}

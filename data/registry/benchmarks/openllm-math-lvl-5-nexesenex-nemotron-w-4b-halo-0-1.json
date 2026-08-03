@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-nexesenex-nemotron-w-4b-halo-0-1",
+  "model_id": "Nexesenex/Nemotron_W_4b_Halo_0.1",
+  "benchmark_name": "math-lvl-5",
+  "score": 4.229607250755287,
+  "score_raw": 4.229607250755287,
+  "evaluation_date": "2025-02-16",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3460
+}

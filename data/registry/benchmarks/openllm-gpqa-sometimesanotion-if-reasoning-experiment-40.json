@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-sometimesanotion-if-reasoning-experiment-40",
+  "model_id": "sometimesanotion/IF-reasoning-experiment-40",
+  "benchmark_name": "gpqa",
+  "score": 17.337807606263986,
+  "score_raw": 17.337807606263986,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 238
+}

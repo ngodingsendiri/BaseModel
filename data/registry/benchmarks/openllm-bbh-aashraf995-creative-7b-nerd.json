@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-aashraf995-creative-7b-nerd",
+  "model_id": "Aashraf995/Creative-7B-nerd",
+  "benchmark_name": "bbh",
+  "score": 37.080153817355196,
+  "score_raw": 37.080153817355196,
+  "evaluation_date": "2024-12-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1075
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-triangle104-q2-5-14b-instruct-1m-harmony",
+  "model_id": "Triangle104/Q2.5-14B-Instruct-1M-Harmony",
+  "benchmark_name": "average",
+  "score": 37.73826910663008,
+  "score_raw": 37.73826910663008,
+  "evaluation_date": "2025-02-02",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 423
+}

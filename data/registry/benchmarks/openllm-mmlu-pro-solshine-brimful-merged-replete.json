@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-solshine-brimful-merged-replete",
+  "model_id": "Solshine/Brimful-merged-replete",
+  "benchmark_name": "mmlu-pro",
+  "score": 0.9400856973995264,
+  "score_raw": 0.9400856973995264,
+  "evaluation_date": "2024-10-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4553
+}

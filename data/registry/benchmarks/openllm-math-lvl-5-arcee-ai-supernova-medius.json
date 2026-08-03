@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-arcee-ai-supernova-medius",
+  "model_id": "arcee-ai/SuperNova-Medius",
+  "benchmark_name": "math-lvl-5",
+  "score": 46.903323262839876,
+  "score_raw": 46.903323262839876,
+  "evaluation_date": "2024-10-02",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 238
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-allknowingroger-rogermerge-7b-slerp",
+  "model_id": "allknowingroger/RogerMerge-7B-slerp",
+  "benchmark_name": "math-lvl-5",
+  "score": 6.873111782477341,
+  "score_raw": 6.873111782477341,
+  "evaluation_date": "2024-04-11",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2870
+}

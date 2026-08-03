@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-thedrummer-gemmasutra-mini-2b-v1",
+  "model_id": "TheDrummer/Gemmasutra-Mini-2B-v1",
+  "benchmark_name": "math-lvl-5",
+  "score": 3.7764350453172204,
+  "score_raw": 3.7764350453172204,
+  "evaluation_date": "2024-08-03",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3570
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-toastypigeon-sto-vo-kor-12b",
+  "model_id": "ToastyPigeon/Sto-vo-kor-12B",
+  "benchmark_name": "ifeval",
+  "score": 55.01225636865739,
+  "score_raw": 55.01225636865739,
+  "evaluation_date": "2025-01-21",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1523
+}

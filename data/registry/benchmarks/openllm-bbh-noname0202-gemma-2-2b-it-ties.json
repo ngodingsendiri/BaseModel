@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-noname0202-gemma-2-2b-it-ties",
+  "model_id": "noname0202/gemma-2-2b-it-ties",
+  "benchmark_name": "bbh",
+  "score": 18.13956937900525,
+  "score_raw": 18.13956937900525,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3324
+}

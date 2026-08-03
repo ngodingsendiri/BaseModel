@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-delta-vector-control-8b-v1-1",
+  "model_id": "Delta-Vector/Control-8B-V1.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.500147754137117,
+  "score_raw": 30.500147754137117,
+  "evaluation_date": "2024-10-30",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1725
+}

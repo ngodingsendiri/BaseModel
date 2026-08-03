@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-nbeerbower-llama3-1-kartoffeldes-70b",
+  "model_id": "nbeerbower/llama3.1-kartoffeldes-70B",
+  "benchmark_name": "bbh",
+  "score": 55.593932574971824,
+  "score_raw": 55.593932574971824,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 109
+}

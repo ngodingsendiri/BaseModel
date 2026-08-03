@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-netcat420-mfann3bv0-24",
+  "model_id": "netcat420/MFANN3bv0.24",
+  "benchmark_name": "bbh",
+  "score": 21.545384724695676,
+  "score_raw": 21.545384724695676,
+  "evaluation_date": "2024-11-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3103
+}

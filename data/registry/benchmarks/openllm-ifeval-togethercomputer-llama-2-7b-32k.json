@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-togethercomputer-llama-2-7b-32k",
+  "model_id": "togethercomputer/LLaMA-2-7B-32K",
+  "benchmark_name": "ifeval",
+  "score": 18.649738250065383,
+  "score_raw": 18.649738250065383,
+  "evaluation_date": "2023-07-26",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4105
+}

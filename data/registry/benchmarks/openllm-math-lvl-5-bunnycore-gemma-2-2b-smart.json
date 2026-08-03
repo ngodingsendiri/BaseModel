@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-bunnycore-gemma-2-2b-smart",
+  "model_id": "bunnycore/Gemma-2-2B-Smart",
+  "benchmark_name": "math-lvl-5",
+  "score": 3.3232628398791544,
+  "score_raw": 3.3232628398791544,
+  "evaluation_date": "2025-01-13",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3641
+}

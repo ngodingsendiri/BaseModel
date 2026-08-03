@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-isaak-carter-josiefied-qwen2-5-7b-instruct-abliterated",
+  "model_id": "Isaak-Carter/Josiefied-Qwen2.5-7B-Instruct-abliterated",
+  "benchmark_name": "math-lvl-5",
+  "score": 49.244712990936556,
+  "score_raw": 49.244712990936556,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 164
+}

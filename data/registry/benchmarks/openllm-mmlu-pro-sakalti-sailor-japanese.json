@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sakalti-sailor-japanese",
+  "model_id": "Sakalti/Sailor-japanese",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.8266105200945615,
+  "score_raw": 1.8266105200945615,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4211
+}

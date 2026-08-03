@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-davidau-qwen2-5-moe-2x7b-deepseek-abliterated-censored-19b",
+  "model_id": "DavidAU/Qwen2.5-MOE-2X7B-DeepSeek-Abliterated-Censored-19B",
+  "benchmark_name": "average",
+  "score": 13.021728019791546,
+  "score_raw": 13.021728019791546,
+  "evaluation_date": "2025-03-06",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3510
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-supichi-bbai-525-tsu-gz-xia0",
+  "model_id": "Supichi/BBAI_525_Tsu_gZ_Xia0",
+  "benchmark_name": "bbh",
+  "score": 36.525252487756354,
+  "score_raw": 36.525252487756354,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1134
+}

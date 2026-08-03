@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-allknowingroger-llama3-jallabi-40b-s",
+  "model_id": "allknowingroger/llama3-Jallabi-40B-s",
+  "benchmark_name": "gpqa",
+  "score": 0,
+  "score_raw": 0,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4469
+}

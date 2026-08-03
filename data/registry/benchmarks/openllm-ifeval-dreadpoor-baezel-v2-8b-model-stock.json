@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-dreadpoor-baezel-v2-8b-model-stock",
+  "model_id": "DreadPoor/BaeZel_V2-8B-Model_Stock",
+  "benchmark_name": "ifeval",
+  "score": 76.76675665013276,
+  "score_raw": 76.76675665013276,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 337
+}

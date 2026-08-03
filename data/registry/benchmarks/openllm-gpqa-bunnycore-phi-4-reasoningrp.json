@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-bunnycore-phi-4-reasoningrp",
+  "model_id": "bunnycore/Phi-4-ReasoningRP",
+  "benchmark_name": "gpqa",
+  "score": 12.527964205816552,
+  "score_raw": 12.527964205816552,
+  "evaluation_date": "2025-01-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 649
+}

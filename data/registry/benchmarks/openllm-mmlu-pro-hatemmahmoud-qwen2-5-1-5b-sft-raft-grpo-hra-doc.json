@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-hatemmahmoud-qwen2-5-1-5b-sft-raft-grpo-hra-doc",
+  "model_id": "hatemmahmoud/qwen2.5-1.5b-sft-raft-grpo-hra-doc",
+  "benchmark_name": "mmlu-pro",
+  "score": 19.73256501182033,
+  "score_raw": 19.73256501182033,
+  "evaluation_date": "2025-03-07",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3180
+}

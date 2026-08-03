@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-haoranxu-llama-3-instruct-8b-simpo",
+  "model_id": "haoranxu/Llama-3-Instruct-8B-SimPO",
+  "benchmark_name": "musr",
+  "score": 3.7421875000000004,
+  "score_raw": 3.7421875000000004,
+  "evaluation_date": "2024-06-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3746
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-fujhen-mistral-instruct-7b-dpo",
+  "model_id": "FuJhen/mistral-instruct-7B-DPO",
+  "benchmark_name": "musr",
+  "score": 9.428645833333329,
+  "score_raw": 9.428645833333329,
+  "evaluation_date": "2024-09-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2465
+}

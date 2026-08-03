@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-thomas-yanxin-xinyuan-qwen2-5-7b-0917",
+  "model_id": "thomas-yanxin/XinYuan-Qwen2.5-7B-0917",
+  "benchmark_name": "gpqa",
+  "score": 4.138702460850116,
+  "score_raw": 4.138702460850116,
+  "evaluation_date": "2024-09-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2932
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-nbeerbower-mistral-nemo-wissenschaft-12b",
+  "model_id": "nbeerbower/mistral-nemo-wissenschaft-12B",
+  "benchmark_name": "musr",
+  "score": 12.289322916666665,
+  "score_raw": 12.289322916666665,
+  "evaluation_date": "2024-08-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1497
+}

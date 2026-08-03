@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-baai-opi-llama-3-1-8b-instruct",
+  "model_id": "BAAI/OPI-Llama-3.1-8B-Instruct",
+  "benchmark_name": "bbh",
+  "score": 9.76871171424153,
+  "score_raw": 9.76871171424153,
+  "evaluation_date": "2024-09-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3669
+}

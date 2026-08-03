@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-vhab10-llama-3-8b-merged-linear",
+  "model_id": "vhab10/llama-3-8b-merged-linear",
+  "benchmark_name": "musr",
+  "score": 11.681510416666667,
+  "score_raw": 11.681510416666667,
+  "evaluation_date": "2024-09-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1702
+}

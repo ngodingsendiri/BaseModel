@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-silma-ai-silma-kashif-2b-instruct-v1-0",
+  "model_id": "silma-ai/SILMA-Kashif-2B-Instruct-v1.0",
+  "benchmark_name": "ifeval",
+  "score": 11.807781131841292,
+  "score_raw": 11.807781131841292,
+  "evaluation_date": "2025-01-26",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4465
+}

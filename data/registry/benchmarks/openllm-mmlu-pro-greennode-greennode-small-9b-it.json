@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-greennode-greennode-small-9b-it",
+  "model_id": "GreenNode/GreenNode-small-9B-it",
+  "benchmark_name": "mmlu-pro",
+  "score": 32.52253250591017,
+  "score_raw": 32.52253250591017,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1302
+}

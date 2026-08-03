@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-qwen-qwen2-vl-72b-instruct",
+  "model_id": "Qwen/Qwen2-VL-72B-Instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 52.41393321513003,
+  "score_raw": 52.41393321513003,
+  "evaluation_date": "2024-09-17",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 43
+}

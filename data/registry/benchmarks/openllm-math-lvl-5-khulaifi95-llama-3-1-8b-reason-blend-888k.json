@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-khulaifi95-llama-3-1-8b-reason-blend-888k",
+  "model_id": "khulaifi95/Llama-3.1-8B-Reason-Blend-888k",
+  "benchmark_name": "math-lvl-5",
+  "score": 11.555891238670695,
+  "score_raw": 11.555891238670695,
+  "evaluation_date": "2024-12-24",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2170
+}

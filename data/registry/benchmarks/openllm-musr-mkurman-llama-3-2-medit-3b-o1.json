@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-mkurman-llama-3-2-medit-3b-o1",
+  "model_id": "mkurman/llama-3.2-MEDIT-3B-o1",
+  "benchmark_name": "musr",
+  "score": 3.001041666666666,
+  "score_raw": 3.001041666666666,
+  "evaluation_date": "2025-01-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3928
+}

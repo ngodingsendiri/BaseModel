@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-tinycompany-shawtyisbad-bgem3",
+  "model_id": "tinycompany/ShawtyIsBad-bgem3",
+  "benchmark_name": "bbh",
+  "score": 13.857811570359898,
+  "score_raw": 13.857811570359898,
+  "evaluation_date": "2025-03-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3545
+}

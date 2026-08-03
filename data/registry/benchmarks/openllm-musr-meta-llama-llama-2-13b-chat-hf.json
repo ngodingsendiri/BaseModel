@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-meta-llama-llama-2-13b-chat-hf",
+  "model_id": "meta-llama/Llama-2-13b-chat-hf",
+  "benchmark_name": "musr",
+  "score": 8.1578125,
+  "score_raw": 8.1578125,
+  "evaluation_date": "2023-07-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2813
+}

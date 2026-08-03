@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-microsoft-phi-4",
+  "model_id": "microsoft/phi-4",
+  "benchmark_name": "musr",
+  "score": 23.719270833333326,
+  "score_raw": 23.719270833333326,
+  "evaluation_date": "2024-12-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 71
+}

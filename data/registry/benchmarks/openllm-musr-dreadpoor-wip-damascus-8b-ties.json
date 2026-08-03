@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-wip-damascus-8b-ties",
+  "model_id": "DreadPoor/WIP_Damascus-8B-TIES",
+  "benchmark_name": "musr",
+  "score": 12.715104166666663,
+  "score_raw": 12.715104166666663,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1378
+}

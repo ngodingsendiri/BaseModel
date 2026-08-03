@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-mistral-community-mixtral-8x22b-v0-3",
+  "model_id": "mistral-community/mixtral-8x22B-v0.3",
+  "benchmark_name": "ifeval",
+  "score": 25.826362939223486,
+  "score_raw": 25.826362939223486,
+  "evaluation_date": "2024-05-25",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3536
+}

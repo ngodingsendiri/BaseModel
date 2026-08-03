@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-nikolasigmoid-acemath-1-5b-instruct-1epoch",
+  "model_id": "NikolaSigmoid/AceMath-1.5B-Instruct-1epoch",
+  "benchmark_name": "musr",
+  "score": 7.230468750000003,
+  "score_raw": 7.230468750000003,
+  "evaluation_date": "2025-03-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3016
+}

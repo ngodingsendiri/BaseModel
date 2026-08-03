@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sonthenguyen-ft-unsloth-zephyr-sft-bnb-4bit-20241014-170522",
+  "model_id": "sonthenguyen/ft-unsloth-zephyr-sft-bnb-4bit-20241014-170522",
+  "benchmark_name": "average",
+  "score": 13.424509088727826,
+  "score_raw": 13.424509088727826,
+  "evaluation_date": "2024-10-15",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3480
+}

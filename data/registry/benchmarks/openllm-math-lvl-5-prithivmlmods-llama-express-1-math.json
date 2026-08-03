@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-prithivmlmods-llama-express-1-math",
+  "model_id": "prithivMLmods/Llama-Express.1-Math",
+  "benchmark_name": "math-lvl-5",
+  "score": 5.589123867069486,
+  "score_raw": 5.589123867069486,
+  "evaluation_date": "2025-01-21",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3155
+}

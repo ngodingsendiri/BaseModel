@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-hotmailuser-falcon3slerp2-10b",
+  "model_id": "hotmailuser/Falcon3Slerp2-10B",
+  "benchmark_name": "mmlu-pro",
+  "score": 37.43535756501182,
+  "score_raw": 37.43535756501182,
+  "evaluation_date": "2024-12-19",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 919
+}

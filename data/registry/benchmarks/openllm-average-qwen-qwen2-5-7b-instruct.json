@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-qwen-qwen2-5-7b-instruct",
+  "model_id": "Qwen/Qwen2.5-7B-Instruct",
+  "benchmark_name": "average",
+  "score": 35.200108659947965,
+  "score_raw": 35.200108659947965,
+  "evaluation_date": "2024-09-16",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 623
+}

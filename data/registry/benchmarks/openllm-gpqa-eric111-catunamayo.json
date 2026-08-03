@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-eric111-catunamayo",
+  "model_id": "Eric111/CatunaMayo",
+  "benchmark_name": "gpqa",
+  "score": 5.592841163310966,
+  "score_raw": 5.592841163310966,
+  "evaluation_date": "2024-02-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2405
+}

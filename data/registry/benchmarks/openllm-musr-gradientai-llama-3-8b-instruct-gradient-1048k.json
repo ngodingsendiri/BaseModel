@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-gradientai-llama-3-8b-instruct-gradient-1048k",
+  "model_id": "gradientai/Llama-3-8B-Instruct-Gradient-1048k",
+  "benchmark_name": "musr",
+  "score": 13.518749999999997,
+  "score_raw": 13.518749999999997,
+  "evaluation_date": "2024-04-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1161
+}

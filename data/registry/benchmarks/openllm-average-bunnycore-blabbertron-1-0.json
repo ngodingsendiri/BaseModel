@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-bunnycore-blabbertron-1-0",
+  "model_id": "bunnycore/Blabbertron-1.0",
+  "benchmark_name": "average",
+  "score": 36.2247146459169,
+  "score_raw": 36.2247146459169,
+  "evaluation_date": "2025-03-03",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 549
+}

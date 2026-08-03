@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-cultrix-qwen2-5-14b-reasoningmerge",
+  "model_id": "CultriX/Qwen2.5-14B-ReasoningMerge",
+  "benchmark_name": "gpqa",
+  "score": 21.029082774049215,
+  "score_raw": 21.029082774049215,
+  "evaluation_date": "2025-02-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 22
+}

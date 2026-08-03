@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-upstage-solar-10-7b-instruct-v1-0",
+  "model_id": "upstage/SOLAR-10.7B-Instruct-v1.0",
+  "benchmark_name": "math-lvl-5",
+  "score": 5.664652567975831,
+  "score_raw": 5.664652567975831,
+  "evaluation_date": "2023-12-12",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3141
+}

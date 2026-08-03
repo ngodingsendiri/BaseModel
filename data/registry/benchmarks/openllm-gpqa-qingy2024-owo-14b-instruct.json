@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-qingy2024-owo-14b-instruct",
+  "model_id": "qingy2024/OwO-14B-Instruct",
+  "benchmark_name": "gpqa",
+  "score": 15.212527964205815,
+  "score_raw": 15.212527964205815,
+  "evaluation_date": "2024-12-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 395
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-pjmixers-llama-3-cursedstock-v2-0-8b",
+  "model_id": "PJMixers/LLaMa-3-CursedStock-v2.0-8B",
+  "benchmark_name": "ifeval",
+  "score": 63.30791189599152,
+  "score_raw": 63.30791189599152,
+  "evaluation_date": "2024-06-26",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1113
+}

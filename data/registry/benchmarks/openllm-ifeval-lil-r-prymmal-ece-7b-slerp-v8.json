@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-lil-r-prymmal-ece-7b-slerp-v8",
+  "model_id": "Lil-R/PRYMMAL-ECE-7B-SLERP-V8",
+  "benchmark_name": "ifeval",
+  "score": 12.58471965495995,
+  "score_raw": 12.58471965495995,
+  "evaluation_date": "2024-10-28",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4442
+}

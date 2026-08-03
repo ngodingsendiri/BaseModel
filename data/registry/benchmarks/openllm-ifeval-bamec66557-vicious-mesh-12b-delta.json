@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-bamec66557-vicious-mesh-12b-delta",
+  "model_id": "bamec66557/VICIOUS_MESH-12B-DELTA",
+  "benchmark_name": "ifeval",
+  "score": 64.68924675416784,
+  "score_raw": 64.68924675416784,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1047
+}

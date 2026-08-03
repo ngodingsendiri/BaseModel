@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-cran-may-t-e-8-1",
+  "model_id": "Cran-May/T.E-8.1",
+  "benchmark_name": "musr",
+  "score": 15.31510416666667,
+  "score_raw": 15.31510416666667,
+  "evaluation_date": "2024-09-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 791
+}

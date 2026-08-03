@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-ibm-powerlm-3b",
+  "model_id": "ibm/PowerLM-3b",
+  "benchmark_name": "math-lvl-5",
+  "score": 3.625377643504532,
+  "score_raw": 3.625377643504532,
+  "evaluation_date": "2024-08-14",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3598
+}

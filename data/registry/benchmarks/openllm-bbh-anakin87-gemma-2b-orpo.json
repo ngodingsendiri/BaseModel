@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-anakin87-gemma-2b-orpo",
+  "model_id": "anakin87/gemma-2b-orpo",
+  "benchmark_name": "bbh",
+  "score": 7.94944502776896,
+  "score_raw": 7.94944502776896,
+  "evaluation_date": "2024-03-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3775
+}

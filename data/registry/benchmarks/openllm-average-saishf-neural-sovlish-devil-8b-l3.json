@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-saishf-neural-sovlish-devil-8b-l3",
+  "model_id": "saishf/Neural-SOVLish-Devil-8B-L3",
+  "benchmark_name": "average",
+  "score": 21.691330731173803,
+  "score_raw": 21.691330731173803,
+  "evaluation_date": "2024-05-28",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2348
+}

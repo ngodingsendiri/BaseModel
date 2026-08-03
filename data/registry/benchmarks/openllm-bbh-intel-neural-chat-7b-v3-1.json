@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-intel-neural-chat-7b-v3-1",
+  "model_id": "Intel/neural-chat-7b-v3-1",
+  "benchmark_name": "bbh",
+  "score": 29.7397523676162,
+  "score_raw": 29.7397523676162,
+  "evaluation_date": "2023-11-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2249
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-grimjim-llama-3-1-8b-instruct-abliterated-via-adapter",
+  "model_id": "grimjim/Llama-3.1-8B-Instruct-abliterated_via_adapter",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.4566341607565,
+  "score_raw": 29.4566341607565,
+  "evaluation_date": "2024-07-25",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1961
+}

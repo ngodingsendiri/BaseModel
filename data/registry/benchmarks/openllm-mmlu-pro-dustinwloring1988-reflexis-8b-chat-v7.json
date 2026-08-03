@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dustinwloring1988-reflexis-8b-chat-v7",
+  "model_id": "dustinwloring1988/Reflexis-8b-chat-v7",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.364287825059105,
+  "score_raw": 29.364287825059105,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1985
+}

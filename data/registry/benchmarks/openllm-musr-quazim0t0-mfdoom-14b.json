@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-quazim0t0-mfdoom-14b",
+  "model_id": "Quazim0t0/MFDOOM-14B",
+  "benchmark_name": "musr",
+  "score": 14.207031250000005,
+  "score_raw": 14.207031250000005,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1010
+}

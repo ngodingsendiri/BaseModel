@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-greennode-greennode-small-9b-it",
+  "model_id": "GreenNode/GreenNode-small-9B-it",
+  "benchmark_name": "musr",
+  "score": 11.652083333333337,
+  "score_raw": 11.652083333333337,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1713
+}

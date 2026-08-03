@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-nbeerbower-mahou-1-5-mistral-nemo-12b-lorablated",
+  "model_id": "nbeerbower/Mahou-1.5-mistral-nemo-12B-lorablated",
+  "benchmark_name": "math-lvl-5",
+  "score": 8.91238670694864,
+  "score_raw": 8.91238670694864,
+  "evaluation_date": "2024-10-19",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2548
+}

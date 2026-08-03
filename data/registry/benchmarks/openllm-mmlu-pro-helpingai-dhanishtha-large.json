@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-helpingai-dhanishtha-large",
+  "model_id": "HelpingAI/Dhanishtha-Large",
+  "benchmark_name": "mmlu-pro",
+  "score": 19.501699172576835,
+  "score_raw": 19.501699172576835,
+  "evaluation_date": "2025-02-24",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3200
+}

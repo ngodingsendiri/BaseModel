@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-ntqai-nxcode-cq-7b-orpo",
+  "model_id": "NTQAI/Nxcode-CQ-7B-orpo",
+  "benchmark_name": "bbh",
+  "score": 17.58000487008142,
+  "score_raw": 17.58000487008142,
+  "evaluation_date": "2024-04-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3358
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-pankajmathur-model-007-13b-v2",
+  "model_id": "pankajmathur/model_007_13b_v2",
+  "benchmark_name": "gpqa",
+  "score": 4.4742729306487705,
+  "score_raw": 4.4742729306487705,
+  "evaluation_date": "2023-08-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2813
+}

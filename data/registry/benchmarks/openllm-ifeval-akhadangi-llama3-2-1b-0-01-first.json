@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-akhadangi-llama3-2-1b-0-01-first",
+  "model_id": "akhadangi/Llama3.2.1B.0.01-First",
+  "benchmark_name": "ifeval",
+  "score": 8.135857303066974,
+  "score_raw": 8.135857303066974,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4511
+}

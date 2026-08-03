@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-1024m-phi-4-hindi",
+  "model_id": "1024m/PHI-4-Hindi",
+  "benchmark_name": "average",
+  "score": 27.48785095027712,
+  "score_raw": 27.48785095027712,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1345
+}

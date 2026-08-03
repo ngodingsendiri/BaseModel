@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-sao10k-fimbulvetr-11b-v2",
+  "model_id": "Sao10K/Fimbulvetr-11B-v2",
+  "benchmark_name": "ifeval",
+  "score": 51.000567383431516,
+  "score_raw": 51.000567383431516,
+  "evaluation_date": "2024-02-06",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1774
+}

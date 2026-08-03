@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-enno-ai-ennoai-pro-llama-3-1-8b-v0-9",
+  "model_id": "Enno-Ai/EnnoAi-Pro-Llama-3.1-8B-v0.9",
+  "benchmark_name": "mmlu-pro",
+  "score": 17.728649527186757,
+  "score_raw": 17.728649527186757,
+  "evaluation_date": "2024-08-22",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3329
+}

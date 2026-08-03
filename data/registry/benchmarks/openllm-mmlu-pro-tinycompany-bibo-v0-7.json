@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-tinycompany-bibo-v0-7",
+  "model_id": "tinycompany/BiBo-v0.7",
+  "benchmark_name": "mmlu-pro",
+  "score": 18.3381353427896,
+  "score_raw": 18.3381353427896,
+  "evaluation_date": "2025-03-12",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3294
+}

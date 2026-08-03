@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-zelk12-recoilme-gemma-2-ataraxy-9b-v0-1-t0-75",
+  "model_id": "zelk12/recoilme-gemma-2-Ataraxy-9B-v0.1-t0.75",
+  "benchmark_name": "bbh",
+  "score": 42.487153128065906,
+  "score_raw": 42.487153128065906,
+  "evaluation_date": "2024-10-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 843
+}

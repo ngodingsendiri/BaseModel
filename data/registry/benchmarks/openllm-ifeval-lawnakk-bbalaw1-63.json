@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-lawnakk-bbalaw1-63",
+  "model_id": "Lawnakk/BBALAW1.63",
+  "benchmark_name": "ifeval",
+  "score": 44.073835201709244,
+  "score_raw": 44.073835201709244,
+  "evaluation_date": "2025-02-28",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2385
+}

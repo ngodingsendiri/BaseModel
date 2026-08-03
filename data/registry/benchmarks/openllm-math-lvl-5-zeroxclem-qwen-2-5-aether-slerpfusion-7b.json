@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-zeroxclem-qwen-2-5-aether-slerpfusion-7b",
+  "model_id": "ZeroXClem/Qwen-2.5-Aether-SlerpFusion-7B",
+  "benchmark_name": "math-lvl-5",
+  "score": 27.341389728096676,
+  "score_raw": 27.341389728096676,
+  "evaluation_date": "2024-11-13",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 926
+}

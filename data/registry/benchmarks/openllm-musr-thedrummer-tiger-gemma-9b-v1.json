@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-thedrummer-tiger-gemma-9b-v1",
+  "model_id": "TheDrummer/Tiger-Gemma-9B-v1",
+  "benchmark_name": "musr",
+  "score": 10.487500000000002,
+  "score_raw": 10.487500000000002,
+  "evaluation_date": "2024-07-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2145
+}

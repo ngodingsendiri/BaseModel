@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-aaditya-llama3-openbiollm-70b",
+  "model_id": "aaditya/Llama3-OpenBioLLM-70B",
+  "benchmark_name": "average",
+  "score": 34.979020412011955,
+  "score_raw": 34.979020412011955,
+  "evaluation_date": "2024-04-24",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 637
+}

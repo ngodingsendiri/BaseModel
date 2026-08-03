@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-upstage-solar-pro-preview-instruct",
+  "model_id": "upstage/solar-pro-preview-instruct",
+  "benchmark_name": "average",
+  "score": 39.93865486453309,
+  "score_raw": 39.93865486453309,
+  "evaluation_date": "2024-09-09",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 272
+}

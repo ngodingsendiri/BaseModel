@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-lordjia-qwen2-cantonese-7b-instruct",
+  "model_id": "lordjia/Qwen2-Cantonese-7B-Instruct",
+  "benchmark_name": "ifeval",
+  "score": 54.35278394659503,
+  "score_raw": 54.35278394659503,
+  "evaluation_date": "2024-07-13",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1571
+}

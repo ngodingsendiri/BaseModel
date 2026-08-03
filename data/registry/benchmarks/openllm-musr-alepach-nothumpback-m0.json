@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-alepach-nothumpback-m0",
+  "model_id": "Alepach/notHumpback-M0",
+  "benchmark_name": "musr",
+  "score": 2.8382812499999996,
+  "score_raw": 2.8382812499999996,
+  "evaluation_date": "2024-12-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3973
+}

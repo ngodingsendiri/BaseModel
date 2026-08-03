@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-dnhkng-rys-xlarge",
+  "model_id": "dnhkng/RYS-XLarge",
+  "benchmark_name": "gpqa",
+  "score": 17.897091722595075,
+  "score_raw": 17.897091722595075,
+  "evaluation_date": "2024-07-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 185
+}

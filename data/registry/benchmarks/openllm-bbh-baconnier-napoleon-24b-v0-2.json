@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-baconnier-napoleon-24b-v0-2",
+  "model_id": "baconnier/Napoleon_24B_V0.2",
+  "benchmark_name": "bbh",
+  "score": 41.20548669811284,
+  "score_raw": 41.20548669811284,
+  "evaluation_date": "2025-02-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 903
+}

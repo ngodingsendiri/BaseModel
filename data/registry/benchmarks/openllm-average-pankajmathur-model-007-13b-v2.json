@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-pankajmathur-model-007-13b-v2",
+  "model_id": "pankajmathur/model_007_13b_v2",
+  "benchmark_name": "average",
+  "score": 16.00740369607647,
+  "score_raw": 16.00740369607647,
+  "evaluation_date": "2023-08-12",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3194
+}

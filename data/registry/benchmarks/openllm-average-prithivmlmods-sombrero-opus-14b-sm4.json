@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-sombrero-opus-14b-sm4",
+  "model_id": "prithivMLmods/Sombrero-Opus-14B-Sm4",
+  "benchmark_name": "average",
+  "score": 39.38545109416284,
+  "score_raw": 39.38545109416284,
+  "evaluation_date": "2025-03-06",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 317
+}

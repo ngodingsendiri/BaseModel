@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-allknowingroger-multimash5-12b-slerp",
+  "model_id": "allknowingroger/MultiMash5-12B-slerp",
+  "benchmark_name": "gpqa",
+  "score": 3.6912751677852316,
+  "score_raw": 3.6912751677852316,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3071
+}

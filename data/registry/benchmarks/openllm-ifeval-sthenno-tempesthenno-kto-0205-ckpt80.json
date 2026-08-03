@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-sthenno-tempesthenno-kto-0205-ckpt80",
+  "model_id": "sthenno/tempesthenno-kto-0205-ckpt80",
+  "benchmark_name": "ifeval",
+  "score": 80.54362425032248,
+  "score_raw": 80.54362425032248,
+  "evaluation_date": "2025-02-05",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 91
+}

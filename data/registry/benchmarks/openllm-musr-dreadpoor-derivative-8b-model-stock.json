@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-derivative-8b-model-stock",
+  "model_id": "DreadPoor/Derivative-8B-Model_Stock",
+  "benchmark_name": "musr",
+  "score": 11.605208333333328,
+  "score_raw": 11.605208333333328,
+  "evaluation_date": "2025-01-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1730
+}

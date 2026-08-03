@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-allura-org-teleut-7b",
+  "model_id": "allura-org/Teleut-7b",
+  "benchmark_name": "math-lvl-5",
+  "score": 24.093655589123866,
+  "score_raw": 24.093655589123866,
+  "evaluation_date": "2024-11-24",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1029
+}

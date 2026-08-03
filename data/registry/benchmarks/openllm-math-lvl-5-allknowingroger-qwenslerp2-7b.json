@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-allknowingroger-qwenslerp2-7b",
+  "model_id": "allknowingroger/Qwenslerp2-7B",
+  "benchmark_name": "math-lvl-5",
+  "score": 34.21450151057402,
+  "score_raw": 34.21450151057402,
+  "evaluation_date": "2024-10-31",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 689
+}

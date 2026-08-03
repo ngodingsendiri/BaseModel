@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-jpacifico-chocolatine-3b-instruct-dpo-revised",
+  "model_id": "jpacifico/Chocolatine-3B-Instruct-DPO-Revised",
+  "benchmark_name": "gpqa",
+  "score": 9.61968680089485,
+  "score_raw": 9.61968680089485,
+  "evaluation_date": "2024-07-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1078
+}

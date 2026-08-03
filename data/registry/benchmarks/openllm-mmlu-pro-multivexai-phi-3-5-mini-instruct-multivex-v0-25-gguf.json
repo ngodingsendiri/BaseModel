@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-multivexai-phi-3-5-mini-instruct-multivex-v0-25-gguf",
+  "model_id": "MultivexAI/Phi-3.5-Mini-Instruct-MultiVex-v0.25-GGUF",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.2078900709219857,
+  "score_raw": 1.2078900709219857,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4479
+}

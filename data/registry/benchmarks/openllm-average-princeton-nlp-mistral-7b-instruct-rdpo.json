@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-princeton-nlp-mistral-7b-instruct-rdpo",
+  "model_id": "princeton-nlp/Mistral-7B-Instruct-RDPO",
+  "benchmark_name": "average",
+  "score": 16.433078686509017,
+  "score_raw": 16.433078686509017,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3143
+}

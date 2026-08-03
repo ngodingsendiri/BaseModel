@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-sakalti-sjtpass-5",
+  "model_id": "Sakalti/SJTPass-5",
+  "benchmark_name": "bbh",
+  "score": 4.049294123683027,
+  "score_raw": 4.049294123683027,
+  "evaluation_date": "2025-01-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4209
+}

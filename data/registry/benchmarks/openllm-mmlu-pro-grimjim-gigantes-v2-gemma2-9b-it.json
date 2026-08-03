@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-grimjim-gigantes-v2-gemma2-9b-it",
+  "model_id": "grimjim/Gigantes-v2-gemma2-9b-it",
+  "benchmark_name": "mmlu-pro",
+  "score": 36.21638593380615,
+  "score_raw": 36.21638593380615,
+  "evaluation_date": "2024-12-29",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1035
+}

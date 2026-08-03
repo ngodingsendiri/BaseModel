@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-tensopolis-virtuoso-small-v2-tensopolis-v1",
+  "model_id": "tensopolis/virtuoso-small-v2-tensopolis-v1",
+  "benchmark_name": "mmlu-pro",
+  "score": 46.39295212765958,
+  "score_raw": 46.39295212765958,
+  "evaluation_date": "2025-02-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 474
+}

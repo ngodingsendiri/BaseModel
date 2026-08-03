@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-cloudyu-yi-34bx2-moe-60b-dpo",
+  "model_id": "cloudyu/Yi-34Bx2-MoE-60B-DPO",
+  "benchmark_name": "gpqa",
+  "score": 9.61968680089485,
+  "score_raw": 9.61968680089485,
+  "evaluation_date": "2024-01-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1072
+}

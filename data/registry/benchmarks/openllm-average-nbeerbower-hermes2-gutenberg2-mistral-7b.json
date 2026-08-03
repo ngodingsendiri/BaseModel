@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nbeerbower-hermes2-gutenberg2-mistral-7b",
+  "model_id": "nbeerbower/Hermes2-Gutenberg2-Mistral-7B",
+  "benchmark_name": "average",
+  "score": 19.363860758860653,
+  "score_raw": 19.363860758860653,
+  "evaluation_date": "2024-09-30",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2784
+}

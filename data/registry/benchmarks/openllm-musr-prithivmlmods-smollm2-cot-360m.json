@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-prithivmlmods-smollm2-cot-360m",
+  "model_id": "prithivMLmods/SmolLM2-CoT-360M",
+  "benchmark_name": "musr",
+  "score": 5.757812500000003,
+  "score_raw": 5.757812500000003,
+  "evaluation_date": "2025-01-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3292
+}

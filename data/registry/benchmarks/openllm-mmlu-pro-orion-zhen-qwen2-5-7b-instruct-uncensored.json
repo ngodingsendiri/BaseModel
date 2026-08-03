@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-orion-zhen-qwen2-5-7b-instruct-uncensored",
+  "model_id": "Orion-zhen/Qwen2.5-7B-Instruct-Uncensored",
+  "benchmark_name": "mmlu-pro",
+  "score": 38.07254728132387,
+  "score_raw": 38.07254728132387,
+  "evaluation_date": "2024-09-26",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 821
+}

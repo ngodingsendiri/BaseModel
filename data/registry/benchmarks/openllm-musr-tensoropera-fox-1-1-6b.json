@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-tensoropera-fox-1-1-6b",
+  "model_id": "tensoropera/Fox-1-1.6B",
+  "benchmark_name": "musr",
+  "score": 3.873697916666666,
+  "score_raw": 3.873697916666666,
+  "evaluation_date": "2024-06-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3713
+}

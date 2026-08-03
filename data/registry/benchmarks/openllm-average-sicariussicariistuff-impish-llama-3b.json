@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sicariussicariistuff-impish-llama-3b",
+  "model_id": "SicariusSicariiStuff/Impish_LLAMA_3B",
+  "benchmark_name": "average",
+  "score": 17.791947493881953,
+  "score_raw": 17.791947493881953,
+  "evaluation_date": "2024-10-01",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2975
+}

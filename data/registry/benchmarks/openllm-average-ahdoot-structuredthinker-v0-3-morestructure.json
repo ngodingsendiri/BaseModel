@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ahdoot-structuredthinker-v0-3-morestructure",
+  "model_id": "Ahdoot/StructuredThinker-v0.3-MoreStructure",
+  "benchmark_name": "average",
+  "score": 23.924082152035727,
+  "score_raw": 23.924082152035727,
+  "evaluation_date": "2024-12-31",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1863
+}

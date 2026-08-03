@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-automerger-yamshadowexperiment28-7b",
+  "model_id": "automerger/YamshadowExperiment28-7B",
+  "benchmark_name": "musr",
+  "score": 12.693489583333337,
+  "score_raw": 12.693489583333337,
+  "evaluation_date": "2024-03-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1381
+}

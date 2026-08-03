@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-triangle104-ds-distilled-hermes-llama-3-1",
+  "model_id": "Triangle104/DS-Distilled-Hermes-Llama-3.1",
+  "benchmark_name": "bbh",
+  "score": 30.312465517244533,
+  "score_raw": 30.312465517244533,
+  "evaluation_date": "2025-01-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2150
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-gmonsoon-gemma2-9b-sahabatai-v1-instruct-baseties",
+  "model_id": "gmonsoon/gemma2-9b-sahabatai-v1-instruct-BaseTIES",
+  "benchmark_name": "bbh",
+  "score": 43.401341987357206,
+  "score_raw": 43.401341987357206,
+  "evaluation_date": "2024-11-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 798
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-ehristoforu-qwen2-5-with-lora-think-3b-it",
+  "model_id": "ehristoforu/qwen2.5-with-lora-think-3b-it",
+  "benchmark_name": "bbh",
+  "score": 25.07946347199629,
+  "score_raw": 25.07946347199629,
+  "evaluation_date": "2025-01-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2819
+}

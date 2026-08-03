@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-ateron-lotus-magpic",
+  "model_id": "Ateron/Lotus-Magpic",
+  "benchmark_name": "musr",
+  "score": 12.781770833333335,
+  "score_raw": 12.781770833333335,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1360
+}

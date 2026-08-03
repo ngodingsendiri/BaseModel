@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-leroydyer-checkpoint-a",
+  "model_id": "LeroyDyer/CheckPoint_A",
+  "benchmark_name": "mmlu-pro",
+  "score": 20.886894208037827,
+  "score_raw": 20.886894208037827,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3066
+}

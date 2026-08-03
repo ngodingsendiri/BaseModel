@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-ozone-ai-0x-lite",
+  "model_id": "ozone-ai/0x-lite",
+  "benchmark_name": "ifeval",
+  "score": 77.39874643723098,
+  "score_raw": 77.39874643723098,
+  "evaluation_date": "2025-01-25",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 305
+}

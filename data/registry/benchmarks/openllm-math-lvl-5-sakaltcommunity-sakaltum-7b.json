@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sakaltcommunity-sakaltum-7b",
+  "model_id": "sakaltcommunity/sakaltum-7b",
+  "benchmark_name": "math-lvl-5",
+  "score": 2.9456193353474323,
+  "score_raw": 2.9456193353474323,
+  "evaluation_date": "2024-12-13",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3719
+}

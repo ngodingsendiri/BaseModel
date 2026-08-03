@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-maziyarpanahi-calme-3-3-baguette-3b",
+  "model_id": "MaziyarPanahi/calme-3.3-baguette-3b",
+  "benchmark_name": "average",
+  "score": 27.407100524692495,
+  "score_raw": 27.407100524692495,
+  "evaluation_date": "2024-11-07",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1351
+}

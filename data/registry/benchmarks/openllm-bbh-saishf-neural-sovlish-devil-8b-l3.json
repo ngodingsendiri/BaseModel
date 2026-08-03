@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-saishf-neural-sovlish-devil-8b-l3",
+  "model_id": "saishf/Neural-SOVLish-Devil-8B-L3",
+  "benchmark_name": "bbh",
+  "score": 30.100237081099607,
+  "score_raw": 30.100237081099607,
+  "evaluation_date": "2024-05-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2181
+}

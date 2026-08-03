@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-abhishek-autotrain-llama3-70b-orpo-v1",
+  "model_id": "abhishek/autotrain-llama3-70b-orpo-v1",
+  "benchmark_name": "average",
+  "score": 14.813377033004464,
+  "score_raw": 14.813377033004464,
+  "evaluation_date": "2024-05-02",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3322
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-blackbeenie-llama-3-1-8b-galore-openassistant-guanaco",
+  "model_id": "BlackBeenie/llama-3.1-8B-Galore-openassistant-guanaco",
+  "benchmark_name": "mmlu-pro",
+  "score": 24.516105200945624,
+  "score_raw": 24.516105200945624,
+  "evaluation_date": "2024-10-16",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2561
+}

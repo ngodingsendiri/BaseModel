@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-azure99-blossom-v6-7b",
+  "model_id": "Azure99/Blossom-V6-7B",
+  "benchmark_name": "musr",
+  "score": 13.395052083333335,
+  "score_raw": 13.395052083333335,
+  "evaluation_date": "2025-01-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1188
+}

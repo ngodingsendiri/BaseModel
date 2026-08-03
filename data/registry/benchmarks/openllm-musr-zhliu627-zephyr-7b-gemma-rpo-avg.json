@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-zhliu627-zephyr-7b-gemma-rpo-avg",
+  "model_id": "ZHLiu627/zephyr-7b-gemma-rpo-avg",
+  "benchmark_name": "musr",
+  "score": 9.546354166666669,
+  "score_raw": 9.546354166666669,
+  "evaluation_date": "2025-02-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2426
+}

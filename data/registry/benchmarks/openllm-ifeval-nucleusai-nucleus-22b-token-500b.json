@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-nucleusai-nucleus-22b-token-500b",
+  "model_id": "NucleusAI/nucleus-22B-token-500B",
+  "benchmark_name": "ifeval",
+  "score": 2.5654153202391874,
+  "score_raw": 2.5654153202391874,
+  "evaluation_date": "2023-10-06",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4556
+}

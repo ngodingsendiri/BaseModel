@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-wanlige-li-14b-v0-4",
+  "model_id": "wanlige/li-14b-v0.4",
+  "benchmark_name": "mmlu-pro",
+  "score": 46.30060579196218,
+  "score_raw": 46.30060579196218,
+  "evaluation_date": "2025-02-22",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 487
+}

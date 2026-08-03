@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-seppev-smollm-pretrained-with-sft-trained-with-1pc-data-on-a-preference-dpo",
+  "model_id": "SeppeV/SmolLM_pretrained_with_sft_trained_with_1pc_data_on_a_preference_dpo",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.2084592145015105,
+  "score_raw": 1.2084592145015105,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4157
+}

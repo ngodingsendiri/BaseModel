@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-mlx-community-josiefied-qwen2-5-0-5b-instruct-abliterated-v1-float32",
+  "model_id": "mlx-community/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1-float32",
+  "benchmark_name": "ifeval",
+  "score": 33.68983186833158,
+  "score_raw": 33.68983186833158,
+  "evaluation_date": "2024-11-17",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3111
+}

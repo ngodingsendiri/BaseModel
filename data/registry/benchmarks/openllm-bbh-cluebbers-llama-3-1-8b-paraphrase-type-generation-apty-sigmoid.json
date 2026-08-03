@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-cluebbers-llama-3-1-8b-paraphrase-type-generation-apty-sigmoid",
+  "model_id": "cluebbers/Llama-3.1-8B-paraphrase-type-generation-apty-sigmoid",
+  "benchmark_name": "bbh",
+  "score": 12.757325206130604,
+  "score_raw": 12.757325206130604,
+  "evaluation_date": "2024-11-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3585
+}

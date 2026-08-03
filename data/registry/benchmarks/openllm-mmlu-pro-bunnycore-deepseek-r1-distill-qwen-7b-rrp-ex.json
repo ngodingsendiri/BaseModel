@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-bunnycore-deepseek-r1-distill-qwen-7b-rrp-ex",
+  "model_id": "bunnycore/DeepSeek-R1-Distill-Qwen-7B-RRP-Ex",
+  "benchmark_name": "mmlu-pro",
+  "score": 16.759013002364064,
+  "score_raw": 16.759013002364064,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3388
+}

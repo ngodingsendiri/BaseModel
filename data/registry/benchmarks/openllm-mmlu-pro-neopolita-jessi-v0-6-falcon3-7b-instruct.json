@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-neopolita-jessi-v0-6-falcon3-7b-instruct",
+  "model_id": "neopolita/jessi-v0.6-falcon3-7b-instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 32.8549793144208,
+  "score_raw": 32.8549793144208,
+  "evaluation_date": "2025-01-20",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1245
+}

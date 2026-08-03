@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-vihangd-smart-dan-sft-v0-1",
+  "model_id": "vihangd/smart-dan-sft-v0.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.5772754137115832,
+  "score_raw": 1.5772754137115832,
+  "evaluation_date": "2024-08-09",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4299
+}

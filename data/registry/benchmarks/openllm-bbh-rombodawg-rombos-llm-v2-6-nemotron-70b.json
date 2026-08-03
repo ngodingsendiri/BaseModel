@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-rombodawg-rombos-llm-v2-6-nemotron-70b",
+  "model_id": "rombodawg/Rombos-LLM-V2.6-Nemotron-70b",
+  "benchmark_name": "bbh",
+  "score": 55.80557342514651,
+  "score_raw": 55.80557342514651,
+  "evaluation_date": "2024-10-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 100
+}

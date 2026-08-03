@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-daemontatox-mini-qwq",
+  "model_id": "Daemontatox/Mini_QwQ",
+  "benchmark_name": "ifeval",
+  "score": 44.97056698449004,
+  "score_raw": 44.97056698449004,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2303
+}

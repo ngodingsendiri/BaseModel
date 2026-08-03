@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-etherll-superhermes",
+  "model_id": "Etherll/SuperHermes",
+  "benchmark_name": "bbh",
+  "score": 32.84031674117277,
+  "score_raw": 32.84031674117277,
+  "evaluation_date": "2024-10-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1678
+}

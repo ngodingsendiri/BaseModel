@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-wanlige-li-14b-v0-4-slerp0-1",
+  "model_id": "wanlige/li-14b-v0.4-slerp0.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 47.71350472813239,
+  "score_raw": 47.71350472813239,
+  "evaluation_date": "2025-02-24",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 344
+}

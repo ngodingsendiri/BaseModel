@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-ibivibiv-colossus-120b",
+  "model_id": "ibivibiv/colossus_120b",
+  "benchmark_name": "ifeval",
+  "score": 42.759877126025614,
+  "score_raw": 42.759877126025614,
+  "evaluation_date": "2024-04-12",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2521
+}

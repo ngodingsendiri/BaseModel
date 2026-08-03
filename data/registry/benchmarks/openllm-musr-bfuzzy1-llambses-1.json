@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-bfuzzy1-llambses-1",
+  "model_id": "bfuzzy1/llambses-1",
+  "benchmark_name": "musr",
+  "score": 15.379947916666667,
+  "score_raw": 15.379947916666667,
+  "evaluation_date": "2024-10-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 782
+}

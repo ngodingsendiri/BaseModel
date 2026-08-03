@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-huihui-ai-deepseek-r1-distill-qwen-14b-abliterated-v2",
+  "model_id": "huihui-ai/DeepSeek-R1-Distill-Qwen-14B-abliterated-v2",
+  "benchmark_name": "mmlu-pro",
+  "score": 10.16548463356974,
+  "score_raw": 10.16548463356974,
+  "evaluation_date": "2025-01-23",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3617
+}

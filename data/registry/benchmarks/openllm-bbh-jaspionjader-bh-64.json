@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-jaspionjader-bh-64",
+  "model_id": "jaspionjader/bh-64",
+  "benchmark_name": "bbh",
+  "score": 33.698327780013834,
+  "score_raw": 33.698327780013834,
+  "evaluation_date": "2025-02-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1548
+}

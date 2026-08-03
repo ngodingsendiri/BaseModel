@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-z1-coder-z1-coder-7b",
+  "model_id": "Z1-Coder/Z1-Coder-7B",
+  "benchmark_name": "gpqa",
+  "score": 3.0201342281879207,
+  "score_raw": 3.0201342281879207,
+  "evaluation_date": "2025-01-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3305
+}

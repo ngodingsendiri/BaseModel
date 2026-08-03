@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-icefog72-icedrinkbyfrankensteinv3rp",
+  "model_id": "icefog72/IceDrinkByFrankensteinV3RP",
+  "benchmark_name": "math-lvl-5",
+  "score": 5.0604229607250755,
+  "score_raw": 5.0604229607250755,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3277
+}

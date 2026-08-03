@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-orenguteng-llama-3-1-8b-lexi-uncensored-v2",
+  "model_id": "Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2",
+  "benchmark_name": "bbh",
+  "score": 29.687032745631218,
+  "score_raw": 29.687032745631218,
+  "evaluation_date": "2024-08-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2256
+}

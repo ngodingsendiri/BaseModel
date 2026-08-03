@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-skyorbis-sky-ko-qwen2-5-7b-instruct-sft-step-15000",
+  "model_id": "SkyOrbis/SKY-Ko-Qwen2.5-7B-Instruct-SFT-step-15000",
+  "benchmark_name": "bbh",
+  "score": 31.32761158066677,
+  "score_raw": 31.32761158066677,
+  "evaluation_date": "2025-01-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1982
+}

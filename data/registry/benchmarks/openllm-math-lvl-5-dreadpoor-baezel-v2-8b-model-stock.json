@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-dreadpoor-baezel-v2-8b-model-stock",
+  "model_id": "DreadPoor/BaeZel_V2-8B-Model_Stock",
+  "benchmark_name": "math-lvl-5",
+  "score": 17.97583081570997,
+  "score_raw": 17.97583081570997,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1482
+}

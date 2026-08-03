@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-allknowingroger-qwenslerp2-14b",
+  "model_id": "allknowingroger/Qwenslerp2-14B",
+  "benchmark_name": "ifeval",
+  "score": 50.07136619724553,
+  "score_raw": 50.07136619724553,
+  "evaluation_date": "2024-10-19",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1859
+}

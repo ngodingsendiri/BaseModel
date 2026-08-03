@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-securin-securin-llm-v2-5-qwen-1-5b",
+  "model_id": "securin/Securin-LLM-V2.5-Qwen-1.5B",
+  "benchmark_name": "average",
+  "score": 5.2256798816861005,
+  "score_raw": 5.2256798816861005,
+  "evaluation_date": "2024-12-15",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4256
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-ngxson-minithinky-1b-llama-3-2",
+  "model_id": "ngxson/MiniThinky-1B-Llama-3.2",
+  "benchmark_name": "bbh",
+  "score": 4.347795393431276,
+  "score_raw": 4.347795393431276,
+  "evaluation_date": "2025-01-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4177
+}

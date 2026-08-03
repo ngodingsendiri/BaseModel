@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-jpacifico-lucie-7b-instruct-dpo-v1-1-3",
+  "model_id": "jpacifico/Lucie-7B-Instruct-DPO-v1.1.3",
+  "benchmark_name": "mmlu-pro",
+  "score": 8.484781323877066,
+  "score_raw": 8.484781323877066,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3700
+}

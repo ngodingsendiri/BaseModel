@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-jebish7-nemotron-4-mini-hindi-4b-instruct",
+  "model_id": "jebish7/Nemotron-4-Mini-Hindi-4B-Instruct",
+  "benchmark_name": "average",
+  "score": 14.629004135847653,
+  "score_raw": 14.629004135847653,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3343
+}

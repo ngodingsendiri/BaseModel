@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-pocketdoc-dans-personalityengine-v1-0-0-8b",
+  "model_id": "PocketDoc/Dans-PersonalityEngine-v1.0.0-8b",
+  "benchmark_name": "average",
+  "score": 19.207416194838743,
+  "score_raw": 19.207416194838743,
+  "evaluation_date": "2024-10-08",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2806
+}

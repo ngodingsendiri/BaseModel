@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-3rd-degree-burn-llama-squared-8b",
+  "model_id": "3rd-Degree-Burn/Llama-Squared-8B",
+  "benchmark_name": "ifeval",
+  "score": 27.55244972229241,
+  "score_raw": 27.55244972229241,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3443
+}

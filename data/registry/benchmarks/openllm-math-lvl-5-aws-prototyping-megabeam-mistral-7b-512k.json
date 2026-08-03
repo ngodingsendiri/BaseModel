@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-aws-prototyping-megabeam-mistral-7b-512k",
+  "model_id": "aws-prototyping/MegaBeam-Mistral-7B-512k",
+  "benchmark_name": "math-lvl-5",
+  "score": 2.8700906344410875,
+  "score_raw": 2.8700906344410875,
+  "evaluation_date": "2024-07-30",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3731
+}

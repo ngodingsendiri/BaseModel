@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-netcat420-qwen2-5-deepseek-r1-mfann-slerp-7b",
+  "model_id": "netcat420/Qwen2.5-DeepSeek-R1-MFANN-Slerp-7b",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.812688821752266,
+  "score_raw": 1.812688821752266,
+  "evaluation_date": "2025-01-23",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3979
+}

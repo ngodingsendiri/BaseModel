@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-dreadpoor-minthy-8b-model-stock",
+  "model_id": "DreadPoor/Minthy-8B-Model_Stock",
+  "benchmark_name": "ifeval",
+  "score": 76.57692699814271,
+  "score_raw": 76.57692699814271,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 350
+}

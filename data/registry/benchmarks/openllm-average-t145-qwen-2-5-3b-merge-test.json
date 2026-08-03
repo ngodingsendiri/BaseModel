@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-t145-qwen-2-5-3b-merge-test",
+  "model_id": "T145/qwen-2.5-3B-merge-test",
+  "benchmark_name": "average",
+  "score": 25.975399259287943,
+  "score_raw": 25.975399259287943,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1507
+}

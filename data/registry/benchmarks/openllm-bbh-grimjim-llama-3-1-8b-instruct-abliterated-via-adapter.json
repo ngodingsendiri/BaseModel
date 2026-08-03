@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-grimjim-llama-3-1-8b-instruct-abliterated-via-adapter",
+  "model_id": "grimjim/Llama-3.1-8B-Instruct-abliterated_via_adapter",
+  "benchmark_name": "bbh",
+  "score": 29.415990262794168,
+  "score_raw": 29.415990262794168,
+  "evaluation_date": "2024-07-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2297
+}

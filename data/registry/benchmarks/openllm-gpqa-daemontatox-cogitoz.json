@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-daemontatox-cogitoz",
+  "model_id": "Daemontatox/CogitoZ",
+  "benchmark_name": "gpqa",
+  "score": 19.35123042505593,
+  "score_raw": 19.35123042505593,
+  "evaluation_date": "2025-01-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 61
+}

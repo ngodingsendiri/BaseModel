@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-johnsutor-llama-3-8b-instruct-linear",
+  "model_id": "johnsutor/Llama-3-8B-Instruct_linear",
+  "benchmark_name": "gpqa",
+  "score": 6.040268456375841,
+  "score_raw": 6.040268456375841,
+  "evaluation_date": "2024-06-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2266
+}

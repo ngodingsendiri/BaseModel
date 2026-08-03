@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-parissa3-test-model",
+  "model_id": "Parissa3/test-model",
+  "benchmark_name": "musr",
+  "score": 17.53307291666667,
+  "score_raw": 17.53307291666667,
+  "evaluation_date": "2024-11-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 509
+}

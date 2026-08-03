@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-thedrunkensnail-mother-of-rhodia-12b",
+  "model_id": "TheDrunkenSnail/Mother-of-Rhodia-12B",
+  "benchmark_name": "mmlu-pro",
+  "score": 28.34847813238771,
+  "score_raw": 28.34847813238771,
+  "evaluation_date": "2025-01-23",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2137
+}

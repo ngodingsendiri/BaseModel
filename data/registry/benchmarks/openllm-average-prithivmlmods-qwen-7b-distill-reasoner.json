@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-qwen-7b-distill-reasoner",
+  "model_id": "prithivMLmods/Qwen-7B-Distill-Reasoner",
+  "benchmark_name": "average",
+  "score": 21.484736250167103,
+  "score_raw": 21.484736250167103,
+  "evaluation_date": "2025-01-28",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2397
+}

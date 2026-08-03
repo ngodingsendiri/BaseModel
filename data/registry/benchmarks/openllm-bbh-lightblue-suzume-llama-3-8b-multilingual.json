@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-lightblue-suzume-llama-3-8b-multilingual",
+  "model_id": "lightblue/suzume-llama-3-8B-multilingual",
+  "benchmark_name": "bbh",
+  "score": 28.895092037237777,
+  "score_raw": 28.895092037237777,
+  "evaluation_date": "2024-04-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2377
+}

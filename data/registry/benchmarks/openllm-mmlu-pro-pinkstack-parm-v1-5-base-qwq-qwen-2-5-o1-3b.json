@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-pinkstack-parm-v1-5-base-qwq-qwen-2-5-o1-3b",
+  "model_id": "Pinkstack/PARM-V1.5-base-QwQ-Qwen-2.5-o1-3B",
+  "benchmark_name": "mmlu-pro",
+  "score": 27.89598108747045,
+  "score_raw": 27.89598108747045,
+  "evaluation_date": "2024-12-17",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2203
+}

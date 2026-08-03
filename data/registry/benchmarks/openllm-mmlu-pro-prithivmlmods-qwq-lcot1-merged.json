@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-prithivmlmods-qwq-lcot1-merged",
+  "model_id": "prithivMLmods/QwQ-LCoT1-Merged",
+  "benchmark_name": "mmlu-pro",
+  "score": 37.30607269503546,
+  "score_raw": 37.30607269503546,
+  "evaluation_date": "2025-01-21",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 944
+}

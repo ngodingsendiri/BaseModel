@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-prithivmlmods-lwq-reasoner-10b",
+  "model_id": "prithivMLmods/LwQ-Reasoner-10B",
+  "benchmark_name": "bbh",
+  "score": 40.337248394622954,
+  "score_raw": 40.337248394622954,
+  "evaluation_date": "2025-01-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 945
+}

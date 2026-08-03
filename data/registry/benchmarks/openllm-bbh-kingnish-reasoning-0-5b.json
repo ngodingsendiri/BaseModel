@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-kingnish-reasoning-0-5b",
+  "model_id": "KingNish/Reasoning-0.5b",
+  "benchmark_name": "bbh",
+  "score": 7.491210642552303,
+  "score_raw": 7.491210642552303,
+  "evaluation_date": "2024-10-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3822
+}

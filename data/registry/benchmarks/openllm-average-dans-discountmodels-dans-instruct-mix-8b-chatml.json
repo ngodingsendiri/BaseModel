@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-dans-discountmodels-dans-instruct-mix-8b-chatml",
+  "model_id": "Dans-DiscountModels/Dans-Instruct-Mix-8b-ChatML",
+  "benchmark_name": "average",
+  "score": 13.521356471467334,
+  "score_raw": 13.521356471467334,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3474
+}

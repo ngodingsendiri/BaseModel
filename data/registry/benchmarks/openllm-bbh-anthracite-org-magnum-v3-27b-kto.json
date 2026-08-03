@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-anthracite-org-magnum-v3-27b-kto",
+  "model_id": "anthracite-org/magnum-v3-27b-kto",
+  "benchmark_name": "bbh",
+  "score": 41.1601029248443,
+  "score_raw": 41.1601029248443,
+  "evaluation_date": "2024-09-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 910
+}

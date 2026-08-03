@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-tinycompany-shawtyisbad-nomic1-5",
+  "model_id": "tinycompany/ShawtyIsBad-nomic1.5",
+  "benchmark_name": "mmlu-pro",
+  "score": 17.414671985815602,
+  "score_raw": 17.414671985815602,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3353
+}

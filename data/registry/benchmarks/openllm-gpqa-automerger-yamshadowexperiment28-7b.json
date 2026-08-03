@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-automerger-yamshadowexperiment28-7b",
+  "model_id": "automerger/YamshadowExperiment28-7B",
+  "benchmark_name": "gpqa",
+  "score": 4.921700223713646,
+  "score_raw": 4.921700223713646,
+  "evaluation_date": "2024-03-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2653
+}

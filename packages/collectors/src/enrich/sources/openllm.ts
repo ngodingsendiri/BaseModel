@@ -1,6 +1,6 @@
 import { saveBenchmark } from '@basemodel/registry';
 import type { Benchmark } from '@basemodel/schema';
-import { slugify } from './lmarena.js';
+import { fetchWithRetry, sleep, slugify } from './lmarena.js';
 
 /**
  * Open LLM Leaderboard — benchmark collection source.
@@ -63,8 +63,8 @@ async function fetchAllRows(accessToken?: string): Promise<OpenLLMRow[]> {
     });
     if (accessToken) params.set('access_token', accessToken);
 
-    const response = await fetch(`${ROWS_API}?${params.toString()}`, {
-      signal: AbortSignal.timeout(30_000),
+    const response = await fetchWithRetry(`${ROWS_API}?${params.toString()}`, {
+      timeoutMs: 30_000,
     });
     if (!response.ok) {
       throw new Error(
@@ -79,6 +79,8 @@ async function fetchAllRows(accessToken?: string): Promise<OpenLLMRow[]> {
       if (rows.length >= MAX_ROWS) break;
     }
     offset += PAGE_SIZE;
+    // Pace requests: the anonymous datasets-server API rate-limits bursts.
+    await sleep(400);
   }
 
   return rows;

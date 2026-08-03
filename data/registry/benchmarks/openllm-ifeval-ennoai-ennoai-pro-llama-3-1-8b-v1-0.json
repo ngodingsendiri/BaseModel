@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-ennoai-ennoai-pro-llama-3-1-8b-v1-0",
+  "model_id": "EnnoAi/EnnoAi-Pro-Llama-3.1-8B-v1.0",
+  "benchmark_name": "ifeval",
+  "score": 47.04384366813389,
+  "score_raw": 47.04384366813389,
+  "evaluation_date": "2024-08-22",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2091
+}

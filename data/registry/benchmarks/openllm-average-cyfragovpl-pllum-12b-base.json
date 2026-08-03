@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-cyfragovpl-pllum-12b-base",
+  "model_id": "CYFRAGOVPL/PLLuM-12B-base",
+  "benchmark_name": "average",
+  "score": 14.667469455106152,
+  "score_raw": 14.667469455106152,
+  "evaluation_date": "2025-02-07",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3335
+}

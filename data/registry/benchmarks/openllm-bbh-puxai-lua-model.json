@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-puxai-lua-model",
+  "model_id": "PuxAI/LUA_model",
+  "benchmark_name": "bbh",
+  "score": 1.815668408500801,
+  "score_raw": 1.815668408500801,
+  "evaluation_date": "2024-12-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4514
+}

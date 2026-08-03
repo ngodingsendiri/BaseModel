@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-dreadpoor-zeus-8b-v17-abliterated-alt",
+  "model_id": "DreadPoor/ZEUS-8B-V17-Abliterated_ALT",
+  "benchmark_name": "average",
+  "score": 26.250545465114055,
+  "score_raw": 26.250545465114055,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1474
+}

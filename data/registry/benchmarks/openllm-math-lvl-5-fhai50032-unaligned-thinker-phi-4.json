@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-fhai50032-unaligned-thinker-phi-4",
+  "model_id": "fhai50032/Unaligned-Thinker-PHI-4",
+  "benchmark_name": "math-lvl-5",
+  "score": 33.53474320241692,
+  "score_raw": 33.53474320241692,
+  "evaluation_date": "2025-01-16",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 711
+}

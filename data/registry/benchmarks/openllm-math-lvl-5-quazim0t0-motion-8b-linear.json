@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-quazim0t0-motion-8b-linear",
+  "model_id": "Quazim0t0/Motion-8B-Linear",
+  "benchmark_name": "math-lvl-5",
+  "score": 18.882175226586103,
+  "score_raw": 18.882175226586103,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1407
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ashercn97-a1-v002",
+  "model_id": "ashercn97/a1-v002",
+  "benchmark_name": "average",
+  "score": 22.8816161973256,
+  "score_raw": 22.8816161973256,
+  "evaluation_date": "2024-11-29",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2116
+}

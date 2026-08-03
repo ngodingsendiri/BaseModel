@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-epistemeai-reasoningcore-3b-t1-1",
+  "model_id": "EpistemeAI/ReasoningCore-3B-T1_1",
+  "benchmark_name": "average",
+  "score": 23.492474520020917,
+  "score_raw": 23.492474520020917,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1975
+}

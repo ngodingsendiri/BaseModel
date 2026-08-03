@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-deepautoai-ldm-soup-llama-3-1-8b-instruct-v0-1",
+  "model_id": "DeepAutoAI/ldm_soup_Llama-3.1-8B-Instruct-v0.1",
+  "benchmark_name": "math-lvl-5",
+  "score": 19.184290030211482,
+  "score_raw": 19.184290030211482,
+  "evaluation_date": "2024-09-15",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1381
+}

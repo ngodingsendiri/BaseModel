@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-lightblue-suzume-llama-3-8b-multilingual-orpo-borda-full",
+  "model_id": "lightblue/suzume-llama-3-8B-multilingual-orpo-borda-full",
+  "benchmark_name": "average",
+  "score": 20.301707657676165,
+  "score_raw": 20.301707657676165,
+  "evaluation_date": "2024-04-25",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2634
+}

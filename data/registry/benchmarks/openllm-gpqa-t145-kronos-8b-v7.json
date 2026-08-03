@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-t145-kronos-8b-v7",
+  "model_id": "T145/KRONOS-8B-V7",
+  "benchmark_name": "gpqa",
+  "score": 2.2371364653243813,
+  "score_raw": 2.2371364653243813,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3588
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-novaciano-cerberus-3-2-1b",
+  "model_id": "Novaciano/Cerberus-3.2-1B",
+  "benchmark_name": "mmlu-pro",
+  "score": 7.367390661938533,
+  "score_raw": 7.367390661938533,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3768
+}

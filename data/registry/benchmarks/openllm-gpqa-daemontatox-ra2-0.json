@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-daemontatox-ra2-0",
+  "model_id": "Daemontatox/RA2.0",
+  "benchmark_name": "gpqa",
+  "score": 7.38255033557047,
+  "score_raw": 7.38255033557047,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1708
+}

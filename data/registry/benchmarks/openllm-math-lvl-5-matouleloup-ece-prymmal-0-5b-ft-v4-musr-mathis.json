@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-matouleloup-ece-prymmal-0-5b-ft-v4-musr-mathis",
+  "model_id": "matouLeLoup/ECE-PRYMMAL-0.5B-FT-V4-MUSR-Mathis",
+  "benchmark_name": "math-lvl-5",
+  "score": 2.719033232628399,
+  "score_raw": 2.719033232628399,
+  "evaluation_date": "2024-10-25",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3768
+}

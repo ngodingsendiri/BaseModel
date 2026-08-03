@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-bunnycore-qwen2-5-7b-fuse-exp",
+  "model_id": "bunnycore/Qwen2.5-7B-Fuse-Exp",
+  "benchmark_name": "bbh",
+  "score": 29.967150522844417,
+  "score_raw": 29.967150522844417,
+  "evaluation_date": "2025-03-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2205
+}

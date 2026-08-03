@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-nvidia-hymba-1-5b-base",
+  "model_id": "nvidia/Hymba-1.5B-Base",
+  "benchmark_name": "musr",
+  "score": 5.179427083333335,
+  "score_raw": 5.179427083333335,
+  "evaluation_date": "2024-10-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3410
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-prithivmlmods-messier-opus-14b-elite7",
+  "model_id": "prithivMLmods/Messier-Opus-14B-Elite7",
+  "benchmark_name": "ifeval",
+  "score": 71.13392465325336,
+  "score_raw": 71.13392465325336,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 705
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-synergetic-frankenqwen2-5-14b",
+  "model_id": "synergetic/FrankenQwen2.5-14B",
+  "benchmark_name": "gpqa",
+  "score": 2.684563758389265,
+  "score_raw": 2.684563758389265,
+  "evaluation_date": "2024-11-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3453
+}

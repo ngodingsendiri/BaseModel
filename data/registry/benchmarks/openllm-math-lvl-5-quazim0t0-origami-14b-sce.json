@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-quazim0t0-origami-14b-sce",
+  "model_id": "Quazim0t0/Origami-14B-sce",
+  "benchmark_name": "math-lvl-5",
+  "score": 29.154078549848943,
+  "score_raw": 29.154078549848943,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 859
+}

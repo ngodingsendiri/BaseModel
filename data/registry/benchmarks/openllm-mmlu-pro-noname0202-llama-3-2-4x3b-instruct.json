@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-noname0202-llama-3-2-4x3b-instruct",
+  "model_id": "noname0202/Llama-3.2-4x3B-Instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 25.39339539007092,
+  "score_raw": 25.39339539007092,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2488
+}

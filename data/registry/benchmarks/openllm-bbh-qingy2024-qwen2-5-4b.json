@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-qingy2024-qwen2-5-4b",
+  "model_id": "qingy2024/Qwen2.5-4B",
+  "benchmark_name": "bbh",
+  "score": 19.977752146023,
+  "score_raw": 19.977752146023,
+  "evaluation_date": "2025-01-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3203
+}

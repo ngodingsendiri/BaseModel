@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-inexpertus-1-1-8b-linear",
+  "model_id": "DreadPoor/inexpertus_1.1-8B-LINEAR",
+  "benchmark_name": "bbh",
+  "score": 36.1991911954092,
+  "score_raw": 36.1991911954092,
+  "evaluation_date": "2025-03-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1192
+}

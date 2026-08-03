@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-pretergeek-openchat-3-5-0106-8-99b-40layers-interleaved",
+  "model_id": "Pretergeek/OpenChat-3.5-0106_8.99B_40Layers-Interleaved",
+  "benchmark_name": "musr",
+  "score": 11.509114583333334,
+  "score_raw": 11.509114583333334,
+  "evaluation_date": "2024-08-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1772
+}

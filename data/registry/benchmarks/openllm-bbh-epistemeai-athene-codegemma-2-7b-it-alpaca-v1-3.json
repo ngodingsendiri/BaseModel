@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-epistemeai-athene-codegemma-2-7b-it-alpaca-v1-3",
+  "model_id": "EpistemeAI/Athene-codegemma-2-7b-it-alpaca-v1.3",
+  "benchmark_name": "bbh",
+  "score": 20.87379456667128,
+  "score_raw": 20.87379456667128,
+  "evaluation_date": "2024-09-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3146
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-davidau-l3-dark-planet-8b",
+  "model_id": "DavidAU/L3-Dark-Planet-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.40780141843972,
+  "score_raw": 30.40780141843972,
+  "evaluation_date": "2024-09-05",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1741
+}

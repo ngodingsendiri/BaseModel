@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-deepmount00-qwen2-1-5b-ita-v6",
+  "model_id": "DeepMount00/Qwen2-1.5B-Ita_v6",
+  "benchmark_name": "gpqa",
+  "score": 4.36241610738255,
+  "score_raw": 4.36241610738255,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2826
+}

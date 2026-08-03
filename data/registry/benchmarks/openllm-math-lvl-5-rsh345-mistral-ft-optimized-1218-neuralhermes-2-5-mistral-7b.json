@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-rsh345-mistral-ft-optimized-1218-neuralhermes-2-5-mistral-7b",
+  "model_id": "rsh345/mistral-ft-optimized-1218-NeuralHermes-2.5-Mistral-7B",
+  "benchmark_name": "math-lvl-5",
+  "score": 7.326283987915408,
+  "score_raw": 7.326283987915408,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2800
+}

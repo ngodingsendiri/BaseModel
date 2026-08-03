@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-deepmount00-qwen2-1-5b-ita-v2",
+  "model_id": "DeepMount00/Qwen2-1.5B-Ita_v2",
+  "benchmark_name": "mmlu-pro",
+  "score": 22.576832151300238,
+  "score_raw": 22.576832151300238,
+  "evaluation_date": "2024-06-13",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2855
+}

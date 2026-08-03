@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-jayhyeon-qwen2-5-0-5b-sft-7e-5-5ep",
+  "model_id": "JayHyeon/Qwen2.5-0.5B-SFT-7e-5-5ep",
+  "benchmark_name": "musr",
+  "score": 3.7421874999999996,
+  "score_raw": 3.7421874999999996,
+  "evaluation_date": "2024-12-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3750
+}

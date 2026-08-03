@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-youlln-ece-prymmal-yl-7b-slerp-v4",
+  "model_id": "Youlln/ECE-PRYMMAL-YL-7B-SLERP-V4",
+  "benchmark_name": "mmlu-pro",
+  "score": 12.575723995271867,
+  "score_raw": 12.575723995271867,
+  "evaluation_date": "2024-11-06",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3552
+}

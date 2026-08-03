@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-fingu-ai-chocolatine-fusion-14b",
+  "model_id": "FINGU-AI/Chocolatine-Fusion-14B",
+  "benchmark_name": "ifeval",
+  "score": 69.49028577507679,
+  "score_raw": 69.49028577507679,
+  "evaluation_date": "2025-02-02",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 792
+}

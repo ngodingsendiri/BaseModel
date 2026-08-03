@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-quazim0t0-givingtree-8b-sce",
+  "model_id": "Quazim0t0/GivingTree-8b-sce",
+  "benchmark_name": "gpqa",
+  "score": 9.61968680089485,
+  "score_raw": 9.61968680089485,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1066
+}

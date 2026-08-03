@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-bunnycore-phi-4-model-stock",
+  "model_id": "bunnycore/Phi-4-Model-Stock",
+  "benchmark_name": "average",
+  "score": 40.7857160927999,
+  "score_raw": 40.7857160927999,
+  "evaluation_date": "2025-01-11",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 215
+}

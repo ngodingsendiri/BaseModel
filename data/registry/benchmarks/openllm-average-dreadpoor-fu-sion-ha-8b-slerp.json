@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-dreadpoor-fu-sion-ha-8b-slerp",
+  "model_id": "DreadPoor/Fu_sion_HA-8B-SLERP",
+  "benchmark_name": "average",
+  "score": 29.959011604457412,
+  "score_raw": 29.959011604457412,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1038
+}

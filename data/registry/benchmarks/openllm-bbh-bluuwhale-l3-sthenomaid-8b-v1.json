@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-bluuwhale-l3-sthenomaid-8b-v1",
+  "model_id": "bluuwhale/L3-SthenoMaid-8B-V1",
+  "benchmark_name": "bbh",
+  "score": 32.398152503800446,
+  "score_raw": 32.398152503800446,
+  "evaluation_date": "2024-06-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1776
+}

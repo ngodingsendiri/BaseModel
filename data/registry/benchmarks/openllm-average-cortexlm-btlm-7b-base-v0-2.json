@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-cortexlm-btlm-7b-base-v0-2",
+  "model_id": "CortexLM/btlm-7b-base-v0.2",
+  "benchmark_name": "average",
+  "score": 8.920254930681883,
+  "score_raw": 8.920254930681883,
+  "evaluation_date": "2024-06-13",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3788
+}

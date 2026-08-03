@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-lgai-exaone-exaone-3-5-32b-instruct",
+  "model_id": "LGAI-EXAONE/EXAONE-3.5-32B-Instruct",
+  "benchmark_name": "musr",
+  "score": 5.150000000000001,
+  "score_raw": 5.150000000000001,
+  "evaluation_date": "2024-12-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3416
+}

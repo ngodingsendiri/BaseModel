@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-netcat420-mfann-llama3-1-abliterated-slerp-ties-v2",
+  "model_id": "netcat420/MFANN-Llama3.1-Abliterated-SLERP-TIES-V2",
+  "benchmark_name": "bbh",
+  "score": 26.938370096724565,
+  "score_raw": 26.938370096724565,
+  "evaluation_date": "2024-11-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2620
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-prithivmlmods-gwq-9b-preview2",
+  "model_id": "prithivMLmods/GWQ-9B-Preview2",
+  "benchmark_name": "gpqa",
+  "score": 10.17897091722595,
+  "score_raw": 10.17897091722595,
+  "evaluation_date": "2025-01-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 973
+}

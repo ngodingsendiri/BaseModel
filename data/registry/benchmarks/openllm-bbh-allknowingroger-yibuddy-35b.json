@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-allknowingroger-yibuddy-35b",
+  "model_id": "allknowingroger/Yibuddy-35B",
+  "benchmark_name": "bbh",
+  "score": 42.80824233844326,
+  "score_raw": 42.80824233844326,
+  "evaluation_date": "2024-09-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 825
+}

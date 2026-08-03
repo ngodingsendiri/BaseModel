@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-kquant03-cognitivefusion2-4x7b-bf16",
+  "model_id": "Kquant03/CognitiveFusion2-4x7B-BF16",
+  "benchmark_name": "mmlu-pro",
+  "score": 19.917257683215126,
+  "score_raw": 19.917257683215126,
+  "evaluation_date": "2024-04-06",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3164
+}

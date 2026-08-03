@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-quazim0t0-lo-phi-14b",
+  "model_id": "Quazim0t0/Lo-Phi-14b",
+  "benchmark_name": "average",
+  "score": 37.88897941168211,
+  "score_raw": 37.88897941168211,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 419
+}

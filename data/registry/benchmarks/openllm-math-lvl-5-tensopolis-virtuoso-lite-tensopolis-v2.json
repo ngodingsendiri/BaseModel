@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-tensopolis-virtuoso-lite-tensopolis-v2",
+  "model_id": "tensopolis/virtuoso-lite-tensopolis-v2",
+  "benchmark_name": "math-lvl-5",
+  "score": 25,
+  "score_raw": 25,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1000
+}

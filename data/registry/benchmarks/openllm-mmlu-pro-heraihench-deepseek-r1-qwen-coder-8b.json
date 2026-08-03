@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-heraihench-deepseek-r1-qwen-coder-8b",
+  "model_id": "HeraiHench/DeepSeek-R1-Qwen-Coder-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.3648788416075646,
+  "score_raw": 1.3648788416075646,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4401
+}

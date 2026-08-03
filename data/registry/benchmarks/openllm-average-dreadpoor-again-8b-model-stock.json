@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-dreadpoor-again-8b-model-stock",
+  "model_id": "DreadPoor/Again-8B-Model_Stock",
+  "benchmark_name": "average",
+  "score": 26.002387584653476,
+  "score_raw": 26.002387584653476,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1503
+}

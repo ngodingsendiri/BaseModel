@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-argilla-notus-7b-v1",
+  "model_id": "argilla/notus-7b-v1",
+  "benchmark_name": "musr",
+  "score": 6.58541666666667,
+  "score_raw": 6.58541666666667,
+  "evaluation_date": "2023-11-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3143
+}

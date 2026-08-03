@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ehristoforu-gemma2-9b-it-psy10k-mental-health",
+  "model_id": "ehristoforu/Gemma2-9B-it-psy10k-mental_health",
+  "benchmark_name": "average",
+  "score": 27.19248947734485,
+  "score_raw": 27.19248947734485,
+  "evaluation_date": "2024-07-16",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1371
+}

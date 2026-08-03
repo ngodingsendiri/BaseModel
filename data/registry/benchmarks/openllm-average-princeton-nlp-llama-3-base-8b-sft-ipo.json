@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-princeton-nlp-llama-3-base-8b-sft-ipo",
+  "model_id": "princeton-nlp/Llama-3-Base-8B-SFT-IPO",
+  "benchmark_name": "average",
+  "score": 18.722473272112868,
+  "score_raw": 18.722473272112868,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2861
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-q-bert-metamath-1b",
+  "model_id": "Q-bert/MetaMath-1B",
+  "benchmark_name": "bbh",
+  "score": 8.434610644832558,
+  "score_raw": 8.434610644832558,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3743
+}

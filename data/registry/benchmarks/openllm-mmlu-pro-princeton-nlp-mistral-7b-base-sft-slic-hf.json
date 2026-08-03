@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-princeton-nlp-mistral-7b-base-sft-slic-hf",
+  "model_id": "princeton-nlp/Mistral-7B-Base-SFT-SLiC-HF",
+  "benchmark_name": "mmlu-pro",
+  "score": 19.78797281323877,
+  "score_raw": 19.78797281323877,
+  "evaluation_date": "2024-07-06",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3174
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-mtsair-cotype-nano",
+  "model_id": "MTSAIR/Cotype-Nano",
+  "benchmark_name": "bbh",
+  "score": 14.446870023241223,
+  "score_raw": 14.446870023241223,
+  "evaluation_date": "2024-11-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3517
+}

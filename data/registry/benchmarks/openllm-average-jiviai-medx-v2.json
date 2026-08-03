@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-jiviai-medx-v2",
+  "model_id": "jiviai/medX_v2",
+  "benchmark_name": "average",
+  "score": 17.31888331901421,
+  "score_raw": 17.31888331901421,
+  "evaluation_date": "2024-05-31",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3029
+}

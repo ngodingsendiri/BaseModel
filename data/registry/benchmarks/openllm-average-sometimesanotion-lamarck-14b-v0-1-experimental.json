@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-sometimesanotion-lamarck-14b-v0-1-experimental",
+  "model_id": "sometimesanotion/Lamarck-14B-v0.1-experimental",
+  "benchmark_name": "average",
+  "score": 37.552164138470836,
+  "score_raw": 37.552164138470836,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 439
+}

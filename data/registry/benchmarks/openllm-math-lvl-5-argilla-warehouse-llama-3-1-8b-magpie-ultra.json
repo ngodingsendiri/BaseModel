@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-argilla-warehouse-llama-3-1-8b-magpie-ultra",
+  "model_id": "argilla-warehouse/Llama-3.1-8B-MagPie-Ultra",
+  "benchmark_name": "math-lvl-5",
+  "score": 7.7039274924471295,
+  "score_raw": 7.7039274924471295,
+  "evaluation_date": "2024-09-26",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2736
+}

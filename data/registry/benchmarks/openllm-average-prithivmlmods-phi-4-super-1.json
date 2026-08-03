@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-phi-4-super-1",
+  "model_id": "prithivMLmods/Phi-4-Super-1",
+  "benchmark_name": "average",
+  "score": 30.230266805569844,
+  "score_raw": 30.230266805569844,
+  "evaluation_date": "2025-01-24",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 987
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-dwikitheduck-gen-inst-1",
+  "model_id": "dwikitheduck/gen-inst-1",
+  "benchmark_name": "bbh",
+  "score": 48.31674208220422,
+  "score_raw": 48.31674208220422,
+  "evaluation_date": "2024-11-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 531
+}

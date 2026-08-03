@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-arcee-ai-arcee-nova",
+  "model_id": "arcee-ai/Arcee-Nova",
+  "benchmark_name": "gpqa",
+  "score": 18.008948545861294,
+  "score_raw": 18.008948545861294,
+  "evaluation_date": "2024-07-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 175
+}

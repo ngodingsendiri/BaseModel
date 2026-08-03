@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-kms7530-chemeng-qwen-math-7b-24-1-100-1",
+  "model_id": "kms7530/chemeng_qwen-math-7b_24_1_100_1",
+  "benchmark_name": "average",
+  "score": 11.66485615226577,
+  "score_raw": 11.66485615226577,
+  "evaluation_date": "2024-10-10",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3623
+}

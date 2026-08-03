@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-triangle104-rocinante-prism-v2-1",
+  "model_id": "Triangle104/Rocinante-Prism_V2.1",
+  "benchmark_name": "average",
+  "score": 20.79146935600846,
+  "score_raw": 20.79146935600846,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2536
+}

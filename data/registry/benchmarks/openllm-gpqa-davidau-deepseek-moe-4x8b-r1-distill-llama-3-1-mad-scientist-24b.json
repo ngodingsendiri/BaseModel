@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-davidau-deepseek-moe-4x8b-r1-distill-llama-3-1-mad-scientist-24b",
+  "model_id": "DavidAU/DeepSeek-MOE-4X8B-R1-Distill-Llama-3.1-Mad-Scientist-24B",
+  "benchmark_name": "gpqa",
+  "score": 11.633109619686799,
+  "score_raw": 11.633109619686799,
+  "evaluation_date": "2025-02-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 751
+}

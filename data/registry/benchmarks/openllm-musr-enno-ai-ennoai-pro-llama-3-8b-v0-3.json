@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-enno-ai-ennoai-pro-llama-3-8b-v0-3",
+  "model_id": "Enno-Ai/EnnoAi-Pro-Llama-3-8B-v0.3",
+  "benchmark_name": "musr",
+  "score": 12.313281249999996,
+  "score_raw": 12.313281249999996,
+  "evaluation_date": "2024-06-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1490
+}

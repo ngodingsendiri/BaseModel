@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-nbeerbower-doublepotato-mistral-nemo-13b",
+  "model_id": "nbeerbower/DoublePotato-Mistral-Nemo-13B",
+  "benchmark_name": "ifeval",
+  "score": 67.96156420519776,
+  "score_raw": 67.96156420519776,
+  "evaluation_date": "2025-02-13",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 874
+}

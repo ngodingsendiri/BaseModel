@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sakalti-saba2-14b-preview",
+  "model_id": "Sakalti/Saba2-14B-Preview",
+  "benchmark_name": "math-lvl-5",
+  "score": 31.268882175226587,
+  "score_raw": 31.268882175226587,
+  "evaluation_date": "2024-12-14",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 783
+}

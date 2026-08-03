@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-hastagaras-llama-3-1-jamet-8b-mk-i",
+  "model_id": "Hastagaras/Llama-3.1-Jamet-8B-MK.I",
+  "benchmark_name": "average",
+  "score": 25.42380601749484,
+  "score_raw": 25.42380601749484,
+  "evaluation_date": "2024-11-18",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1584
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-sicarius-prototyping-brainy-llama",
+  "model_id": "Sicarius-Prototyping/Brainy_LLAMA",
+  "benchmark_name": "ifeval",
+  "score": 52.042247902232745,
+  "score_raw": 52.042247902232745,
+  "evaluation_date": "2024-12-04",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1724
+}

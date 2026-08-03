@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-grimjim-gigantes-v1-gemma2-9b-it",
+  "model_id": "grimjim/Gigantes-v1-gemma2-9b-it",
+  "benchmark_name": "average",
+  "score": 33.23742832143159,
+  "score_raw": 33.23742832143159,
+  "evaluation_date": "2024-12-28",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 772
+}

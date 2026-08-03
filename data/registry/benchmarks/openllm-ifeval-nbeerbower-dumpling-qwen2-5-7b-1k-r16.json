@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-nbeerbower-dumpling-qwen2-5-7b-1k-r16",
+  "model_id": "nbeerbower/Dumpling-Qwen2.5-7B-1k-r16",
+  "benchmark_name": "ifeval",
+  "score": 48.60004787297703,
+  "score_raw": 48.60004787297703,
+  "evaluation_date": "2025-01-31",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1970
+}

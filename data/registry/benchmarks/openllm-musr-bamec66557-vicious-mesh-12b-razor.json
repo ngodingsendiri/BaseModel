@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-bamec66557-vicious-mesh-12b-razor",
+  "model_id": "bamec66557/VICIOUS_MESH-12B_Razor",
+  "benchmark_name": "musr",
+  "score": 11.544531249999997,
+  "score_raw": 11.544531249999997,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1755
+}

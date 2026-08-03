@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-allura-org-tq2-5-14b-neon-v1",
+  "model_id": "allura-org/TQ2.5-14B-Neon-v1",
+  "benchmark_name": "musr",
+  "score": 17.29166666666666,
+  "score_raw": 17.29166666666666,
+  "evaluation_date": "2024-12-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 531
+}

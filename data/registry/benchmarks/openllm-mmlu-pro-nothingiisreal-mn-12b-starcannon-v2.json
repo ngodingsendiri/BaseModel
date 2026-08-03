@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-nothingiisreal-mn-12b-starcannon-v2",
+  "model_id": "nothingiisreal/MN-12B-Starcannon-v2",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.648049645390067,
+  "score_raw": 23.648049645390067,
+  "evaluation_date": "2024-08-13",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2685
+}

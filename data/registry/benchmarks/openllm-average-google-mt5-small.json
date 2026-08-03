@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-google-mt5-small",
+  "model_id": "google/mt5-small",
+  "benchmark_name": "average",
+  "score": 4.2559281732773515,
+  "score_raw": 4.2559281732773515,
+  "evaluation_date": "2022-03-02",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4404
+}

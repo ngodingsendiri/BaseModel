@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-princeton-nlp-llama-3-base-8b-sft-dpo",
+  "model_id": "princeton-nlp/Llama-3-Base-8B-SFT-DPO",
+  "benchmark_name": "gpqa",
+  "score": 8.05369127516779,
+  "score_raw": 8.05369127516779,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1480
+}

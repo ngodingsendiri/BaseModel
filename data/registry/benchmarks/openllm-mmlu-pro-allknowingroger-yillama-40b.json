@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-allknowingroger-yillama-40b",
+  "model_id": "allknowingroger/Yillama-40B",
+  "benchmark_name": "mmlu-pro",
+  "score": 10.904255319148934,
+  "score_raw": 10.904255319148934,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3590
+}

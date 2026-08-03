@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-grimjim-llama-3-nephilim-v1-8b",
+  "model_id": "grimjim/llama-3-Nephilim-v1-8B",
+  "benchmark_name": "ifeval",
+  "score": 42.772399455666516,
+  "score_raw": 42.772399455666516,
+  "evaluation_date": "2024-06-21",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2518
+}

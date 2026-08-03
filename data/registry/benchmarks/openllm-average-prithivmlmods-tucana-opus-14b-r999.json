@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-tucana-opus-14b-r999",
+  "model_id": "prithivMLmods/Tucana-Opus-14B-r999",
+  "benchmark_name": "average",
+  "score": 39.75066582236797,
+  "score_raw": 39.75066582236797,
+  "evaluation_date": "2025-02-28",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 288
+}

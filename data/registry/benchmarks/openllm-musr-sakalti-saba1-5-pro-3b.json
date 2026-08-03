@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sakalti-saba1-5-pro-3b",
+  "model_id": "Sakalti/Saba1.5-Pro-3B",
+  "benchmark_name": "musr",
+  "score": 14.001041666666667,
+  "score_raw": 14.001041666666667,
+  "evaluation_date": "2024-12-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1052
+}

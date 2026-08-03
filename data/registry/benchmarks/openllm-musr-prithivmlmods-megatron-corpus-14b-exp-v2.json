@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-prithivmlmods-megatron-corpus-14b-exp-v2",
+  "model_id": "prithivMLmods/Megatron-Corpus-14B-Exp.v2",
+  "benchmark_name": "musr",
+  "score": 15.358333333333329,
+  "score_raw": 15.358333333333329,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 786
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-auraindustries-aura-8b",
+  "model_id": "AuraIndustries/Aura-8B",
+  "benchmark_name": "bbh",
+  "score": 30.981348410709717,
+  "score_raw": 30.981348410709717,
+  "evaluation_date": "2024-12-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2043
+}

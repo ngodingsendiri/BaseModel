@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-weathermanj-menda-3b-optim-200",
+  "model_id": "weathermanj/Menda-3b-Optim-200",
+  "benchmark_name": "ifeval",
+  "score": 63.74752323834093,
+  "score_raw": 63.74752323834093,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1086
+}

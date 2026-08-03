@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-tomasmcm-sky-t1-coder-32b-flash",
+  "model_id": "tomasmcm/sky-t1-coder-32b-flash",
+  "benchmark_name": "mmlu-pro",
+  "score": 53.13423463356975,
+  "score_raw": 53.13423463356975,
+  "evaluation_date": "2025-02-22",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 33
+}

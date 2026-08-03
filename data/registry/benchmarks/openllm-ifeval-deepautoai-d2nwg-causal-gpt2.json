@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-deepautoai-d2nwg-causal-gpt2",
+  "model_id": "DeepAutoAI/d2nwg_causal_gpt2",
+  "benchmark_name": "ifeval",
+  "score": 19.161823960425007,
+  "score_raw": 19.161823960425007,
+  "evaluation_date": "2024-10-18",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4072
+}

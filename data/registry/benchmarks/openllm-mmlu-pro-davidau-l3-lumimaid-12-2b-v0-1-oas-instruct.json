@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-davidau-l3-lumimaid-12-2b-v0-1-oas-instruct",
+  "model_id": "DavidAU/L3-Lumimaid-12.2B-v0.1-OAS-Instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.795803782505907,
+  "score_raw": 23.795803782505907,
+  "evaluation_date": "2024-08-24",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2661
+}

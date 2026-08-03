@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-rombo-org-rombo-llm-v2-5-qwen-7b",
+  "model_id": "Rombo-Org/Rombo-LLM-V2.5-Qwen-7b",
+  "benchmark_name": "gpqa",
+  "score": 6.823266219239373,
+  "score_raw": 6.823266219239373,
+  "evaluation_date": "2025-01-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1936
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-quazim0t0-mocha-14b",
+  "model_id": "Quazim0t0/mocha-14B",
+  "benchmark_name": "musr",
+  "score": 12.830468750000003,
+  "score_raw": 12.830468750000003,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1345
+}

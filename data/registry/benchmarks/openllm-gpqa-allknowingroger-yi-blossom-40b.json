@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-allknowingroger-yi-blossom-40b",
+  "model_id": "allknowingroger/Yi-blossom-40B",
+  "benchmark_name": "gpqa",
+  "score": 3.243847874720355,
+  "score_raw": 3.243847874720355,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3228
+}

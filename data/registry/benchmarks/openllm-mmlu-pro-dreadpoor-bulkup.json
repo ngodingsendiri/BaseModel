@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-bulkup",
+  "model_id": "DreadPoor/BulkUp",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.2171247044917257,
+  "score_raw": 1.2171247044917257,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4472
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-sakalti-light-3b-beta",
+  "model_id": "Sakalti/light-3b-beta",
+  "benchmark_name": "gpqa",
+  "score": 6.375838926174497,
+  "score_raw": 6.375838926174497,
+  "evaluation_date": "2025-01-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2120
+}

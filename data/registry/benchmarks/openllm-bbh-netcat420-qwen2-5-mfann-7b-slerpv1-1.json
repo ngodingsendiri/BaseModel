@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-netcat420-qwen2-5-mfann-7b-slerpv1-1",
+  "model_id": "netcat420/qwen2.5-MFANN-7b-SLERPv1.1",
+  "benchmark_name": "bbh",
+  "score": 29.97691243171087,
+  "score_raw": 29.97691243171087,
+  "evaluation_date": "2025-02-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2202
+}

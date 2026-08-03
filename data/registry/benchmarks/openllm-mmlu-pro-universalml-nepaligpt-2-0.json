@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-universalml-nepaligpt-2-0",
+  "model_id": "universalml/NepaliGPT-2.0",
+  "benchmark_name": "mmlu-pro",
+  "score": 25.550384160756494,
+  "score_raw": 25.550384160756494,
+  "evaluation_date": "2024-08-19",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2458
+}

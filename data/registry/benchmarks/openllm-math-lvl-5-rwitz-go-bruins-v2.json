@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-rwitz-go-bruins-v2",
+  "model_id": "rwitz/go-bruins-v2",
+  "benchmark_name": "math-lvl-5",
+  "score": 6.722054380664652,
+  "score_raw": 6.722054380664652,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2904
+}

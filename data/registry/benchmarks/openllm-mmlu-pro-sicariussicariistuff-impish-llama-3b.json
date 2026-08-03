@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sicariussicariistuff-impish-llama-3b",
+  "model_id": "SicariusSicariiStuff/Impish_LLAMA_3B",
+  "benchmark_name": "mmlu-pro",
+  "score": 21.570257092198577,
+  "score_raw": 21.570257092198577,
+  "evaluation_date": "2024-10-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2990
+}

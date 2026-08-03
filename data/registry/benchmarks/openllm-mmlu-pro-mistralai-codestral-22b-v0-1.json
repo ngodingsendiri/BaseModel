@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-mistralai-codestral-22b-v0-1",
+  "model_id": "mistralai/Codestral-22B-v0.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.95279255319149,
+  "score_raw": 23.95279255319149,
+  "evaluation_date": "2024-05-29",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2636
+}

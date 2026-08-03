@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-lyte-llama-3-1-8b-instruct-reasoner-1o1-v0-3",
+  "model_id": "Lyte/Llama-3.1-8B-Instruct-Reasoner-1o1_v0.3",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.08724881796691,
+  "score_raw": 29.08724881796691,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2025
+}

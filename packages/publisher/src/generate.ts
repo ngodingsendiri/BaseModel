@@ -120,11 +120,20 @@ export async function generate(outputDir = OUTPUT_DIR): Promise<void> {
   // --- benchmarks.json ---
   console.log('⏳ Reading benchmarks...');
   const benchmarks = await getAllBenchmarks();
+  // The published dataset feeds the catalog UI, which matches benchmark rows
+  // to catalog models by last path segment. Keep only those rows so the
+  // published file stays lean; the full set remains in the registry.
+  const lastSegment = (id: string): string => {
+    const slash = id.lastIndexOf('/');
+    return (slash === -1 ? id : id.slice(slash + 1)).toLowerCase();
+  };
+  const catalogSegments = new Set(models.map((m) => lastSegment(m.model_id)));
+  const catalogBenchmarks = benchmarks.filter((b) => catalogSegments.has(lastSegment(b.model_id)));
   await writeFile(
     join(outputDir, 'benchmarks.json'),
-    `${JSON.stringify({ ...meta, count: benchmarks.length, benchmarks }, null, 2)}\n`,
+    `${JSON.stringify({ ...meta, count: catalogBenchmarks.length, benchmarks: catalogBenchmarks }, null, 2)}\n`,
   );
-  console.log(`✅ benchmarks.json — ${benchmarks.length} records`);
+  console.log(`✅ benchmarks.json — ${catalogBenchmarks.length} records (catalog-matched)`);
 
   // --- pricing.json ---
   console.log('⏳ Reading pricing...');

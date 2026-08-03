@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-tugstugi-qwen2-5-7b-instruct-qwq-v0-1",
+  "model_id": "tugstugi/Qwen2.5-7B-Instruct-QwQ-v0.1",
+  "benchmark_name": "musr",
+  "score": 5.061718750000002,
+  "score_raw": 5.061718750000002,
+  "evaluation_date": "2025-01-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3439
+}

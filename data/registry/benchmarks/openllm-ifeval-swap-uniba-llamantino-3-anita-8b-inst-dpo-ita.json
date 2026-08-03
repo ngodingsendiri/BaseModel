@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-swap-uniba-llamantino-3-anita-8b-inst-dpo-ita",
+  "model_id": "swap-uniba/LLaMAntino-3-ANITA-8B-Inst-DPO-ITA",
+  "benchmark_name": "ifeval",
+  "score": 48.15046299374548,
+  "score_raw": 48.15046299374548,
+  "evaluation_date": "2024-04-29",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1994
+}

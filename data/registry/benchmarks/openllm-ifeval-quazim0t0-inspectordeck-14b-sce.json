@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-quazim0t0-inspectordeck-14b-sce",
+  "model_id": "Quazim0t0/InspectorDeck-14B-sce",
+  "benchmark_name": "ifeval",
+  "score": 32.40845401312961,
+  "score_raw": 32.40845401312961,
+  "evaluation_date": "2025-02-03",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3179
+}

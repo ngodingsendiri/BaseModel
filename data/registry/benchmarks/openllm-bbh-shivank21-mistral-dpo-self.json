@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-shivank21-mistral-dpo-self",
+  "model_id": "shivank21/mistral_dpo_self",
+  "benchmark_name": "bbh",
+  "score": 5.548411533266127,
+  "score_raw": 5.548411533266127,
+  "evaluation_date": "2025-02-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4071
+}

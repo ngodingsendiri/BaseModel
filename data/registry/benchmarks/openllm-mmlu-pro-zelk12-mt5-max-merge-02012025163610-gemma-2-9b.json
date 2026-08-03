@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-zelk12-mt5-max-merge-02012025163610-gemma-2-9b",
+  "model_id": "zelk12/MT5-Max-Merge_02012025163610-gemma-2-9B",
+  "benchmark_name": "mmlu-pro",
+  "score": 37.66622340425532,
+  "score_raw": 37.66622340425532,
+  "evaluation_date": "2025-01-14",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 874
+}

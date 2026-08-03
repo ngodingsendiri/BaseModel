@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-norquinal-golf",
+  "model_id": "Norquinal/Golf",
+  "benchmark_name": "math-lvl-5",
+  "score": 5.362537764350453,
+  "score_raw": 5.362537764350453,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3199
+}

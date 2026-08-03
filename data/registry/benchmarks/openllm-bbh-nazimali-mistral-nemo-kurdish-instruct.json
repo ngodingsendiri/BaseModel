@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-nazimali-mistral-nemo-kurdish-instruct",
+  "model_id": "nazimali/Mistral-Nemo-Kurdish-Instruct",
+  "benchmark_name": "bbh",
+  "score": 25.56142263482943,
+  "score_raw": 25.56142263482943,
+  "evaluation_date": "2024-10-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2775
+}

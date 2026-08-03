@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-ontocord-redpajama3b-v1-autoredteam-helpfulness-train",
+  "model_id": "ontocord/RedPajama3b_v1-autoredteam_helpfulness-train",
+  "benchmark_name": "math-lvl-5",
+  "score": 0.6797583081570997,
+  "score_raw": 0.6797583081570997,
+  "evaluation_date": "2025-01-26",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4317
+}

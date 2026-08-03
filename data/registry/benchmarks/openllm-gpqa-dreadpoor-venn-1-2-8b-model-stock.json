@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-venn-1-2-8b-model-stock",
+  "model_id": "DreadPoor/VENN_1.2-8B-Model_Stock",
+  "benchmark_name": "gpqa",
+  "score": 6.263982102908276,
+  "score_raw": 6.263982102908276,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2148
+}

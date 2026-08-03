@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-nousresearch-nous-hermes-2-mistral-7b-dpo",
+  "model_id": "NousResearch/Nous-Hermes-2-Mistral-7B-DPO",
+  "benchmark_name": "gpqa",
+  "score": 5.7046979865771785,
+  "score_raw": 5.7046979865771785,
+  "evaluation_date": "2024-02-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2375
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-eridanus-opus-14b-r999",
+  "model_id": "prithivMLmods/Eridanus-Opus-14B-r999",
+  "benchmark_name": "average",
+  "score": 40.111313344425874,
+  "score_raw": 40.111313344425874,
+  "evaluation_date": "2025-02-28",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 260
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-sakaltcommunity-novablast-preview",
+  "model_id": "sakaltcommunity/novablast-preview",
+  "benchmark_name": "bbh",
+  "score": 58.18215998102389,
+  "score_raw": 58.18215998102389,
+  "evaluation_date": "2024-12-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 37
+}

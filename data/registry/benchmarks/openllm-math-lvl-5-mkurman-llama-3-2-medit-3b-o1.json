@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-mkurman-llama-3-2-medit-3b-o1",
+  "model_id": "mkurman/llama-3.2-MEDIT-3B-o1",
+  "benchmark_name": "math-lvl-5",
+  "score": 13.066465256797583,
+  "score_raw": 13.066465256797583,
+  "evaluation_date": "2025-01-03",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1923
+}

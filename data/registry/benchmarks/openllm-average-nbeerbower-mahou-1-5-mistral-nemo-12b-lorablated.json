@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nbeerbower-mahou-1-5-mistral-nemo-12b-lorablated",
+  "model_id": "nbeerbower/Mahou-1.5-mistral-nemo-12B-lorablated",
+  "benchmark_name": "average",
+  "score": 27.050923083044733,
+  "score_raw": 27.050923083044733,
+  "evaluation_date": "2024-10-19",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1386
+}

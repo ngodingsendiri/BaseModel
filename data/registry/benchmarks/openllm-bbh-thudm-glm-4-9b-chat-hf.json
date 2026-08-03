@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-thudm-glm-4-9b-chat-hf",
+  "model_id": "THUDM/glm-4-9b-chat-hf",
+  "benchmark_name": "bbh",
+  "score": 20.668085640285003,
+  "score_raw": 20.668085640285003,
+  "evaluation_date": "2024-10-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3162
+}

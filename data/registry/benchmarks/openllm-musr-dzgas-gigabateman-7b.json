@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-dzgas-gigabateman-7b",
+  "model_id": "DZgas/GIGABATEMAN-7B",
+  "benchmark_name": "musr",
+  "score": 11.972135416666667,
+  "score_raw": 11.972135416666667,
+  "evaluation_date": "2024-04-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1609
+}

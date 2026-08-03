@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-nexesenex-llama-3-1-8b-medusa-v1-01",
+  "model_id": "Nexesenex/Llama_3.1_8b_Medusa_v1.01",
+  "benchmark_name": "math-lvl-5",
+  "score": 14.652567975830816,
+  "score_raw": 14.652567975830816,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1755
+}

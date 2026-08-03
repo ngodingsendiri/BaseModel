@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-thedrummer-llama-3some-8b-v2",
+  "model_id": "TheDrummer/Llama-3SOME-8B-v2",
+  "benchmark_name": "musr",
+  "score": 7.208854166666664,
+  "score_raw": 7.208854166666664,
+  "evaluation_date": "2024-06-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3020
+}

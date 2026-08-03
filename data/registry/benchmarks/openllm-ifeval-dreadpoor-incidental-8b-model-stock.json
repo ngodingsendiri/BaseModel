@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-dreadpoor-incidental-8b-model-stock",
+  "model_id": "DreadPoor/Incidental-8B-Model_Stock",
+  "benchmark_name": "ifeval",
+  "score": 74.81837081166859,
+  "score_raw": 74.81837081166859,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 458
+}

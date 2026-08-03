@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ro-xe-fmixia-7b-ties-1",
+  "model_id": "Ro-xe/FMixIA-7B-TIES-1",
+  "benchmark_name": "average",
+  "score": 19.541189569686495,
+  "score_raw": 19.541189569686495,
+  "evaluation_date": "2024-12-13",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2761
+}

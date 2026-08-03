@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-instruction-pretrain-instructlm-500m",
+  "model_id": "instruction-pretrain/InstructLM-500M",
+  "benchmark_name": "average",
+  "score": 2.8543503197666724,
+  "score_raw": 2.8543503197666724,
+  "evaluation_date": "2024-06-18",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4564
+}

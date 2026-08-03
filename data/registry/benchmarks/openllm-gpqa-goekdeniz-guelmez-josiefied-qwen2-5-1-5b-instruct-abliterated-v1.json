@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-goekdeniz-guelmez-josiefied-qwen2-5-1-5b-instruct-abliterated-v1",
+  "model_id": "Goekdeniz-Guelmez/Josiefied-Qwen2.5-1.5B-Instruct-abliterated-v1",
+  "benchmark_name": "gpqa",
+  "score": 0,
+  "score_raw": 0,
+  "evaluation_date": "2024-09-20",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4367
+}

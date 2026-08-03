@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-deepmount00-qwen2-5-7b-instruct-mathcoder",
+  "model_id": "DeepMount00/Qwen2.5-7B-Instruct-MathCoder",
+  "benchmark_name": "bbh",
+  "score": 2.636670587150039,
+  "score_raw": 2.636670587150039,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4380
+}

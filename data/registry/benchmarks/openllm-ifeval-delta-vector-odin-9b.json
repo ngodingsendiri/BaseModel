@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-delta-vector-odin-9b",
+  "model_id": "Delta-Vector/Odin-9B",
+  "benchmark_name": "ifeval",
+  "score": 36.91970637907419,
+  "score_raw": 36.91970637907419,
+  "evaluation_date": "2024-09-27",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2931
+}

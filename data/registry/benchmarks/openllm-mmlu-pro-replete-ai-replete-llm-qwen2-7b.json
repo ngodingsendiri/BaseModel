@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-replete-ai-replete-llm-qwen2-7b",
+  "model_id": "Replete-AI/Replete-LLM-Qwen2-7b",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.7434988179669018,
+  "score_raw": 1.7434988179669018,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4239
+}

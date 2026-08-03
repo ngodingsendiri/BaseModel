@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-monsterapi-llama-3-1-8b-instruct-orca-orpo",
+  "model_id": "monsterapi/Llama-3_1-8B-Instruct-orca-ORPO",
+  "benchmark_name": "ifeval",
+  "score": 22.728914834860394,
+  "score_raw": 22.728914834860394,
+  "evaluation_date": "2024-08-01",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3837
+}

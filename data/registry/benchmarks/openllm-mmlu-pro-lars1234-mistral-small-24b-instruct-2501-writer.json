@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-lars1234-mistral-small-24b-instruct-2501-writer",
+  "model_id": "lars1234/Mistral-Small-24B-Instruct-2501-writer",
+  "benchmark_name": "mmlu-pro",
+  "score": 49.42191193853428,
+  "score_raw": 49.42191193853428,
+  "evaluation_date": "2025-03-06",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 84
+}

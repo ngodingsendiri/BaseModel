@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-skyorbis-sky-ko-llama3-2-1b-lora-epoch5",
+  "model_id": "SkyOrbis/SKY-Ko-Llama3.2-1B-lora-epoch5",
+  "benchmark_name": "bbh",
+  "score": 8.132119042373503,
+  "score_raw": 8.132119042373503,
+  "evaluation_date": "2024-12-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3767
+}

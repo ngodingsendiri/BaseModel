@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sicariussicariistuff-zion-alpha",
+  "model_id": "SicariusSicariiStuff/Zion_Alpha",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.684988179669027,
+  "score_raw": 23.684988179669027,
+  "evaluation_date": "2024-05-19",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2679
+}

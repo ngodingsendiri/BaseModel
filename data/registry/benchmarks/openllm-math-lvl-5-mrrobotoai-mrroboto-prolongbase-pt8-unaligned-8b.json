@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-mrrobotoai-mrroboto-prolongbase-pt8-unaligned-8b",
+  "model_id": "MrRobotoAI/MrRoboto-ProLongBASE-pt8-unaligned-8b",
+  "benchmark_name": "math-lvl-5",
+  "score": 4.229607250755287,
+  "score_raw": 4.229607250755287,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3459
+}

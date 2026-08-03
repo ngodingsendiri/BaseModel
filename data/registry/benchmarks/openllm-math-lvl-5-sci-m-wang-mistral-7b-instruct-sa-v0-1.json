@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sci-m-wang-mistral-7b-instruct-sa-v0-1",
+  "model_id": "sci-m-wang/Mistral-7B-Instruct-sa-v0.1",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.4350453172205437,
+  "score_raw": 1.4350453172205437,
+  "evaluation_date": "2024-05-31",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4086
+}

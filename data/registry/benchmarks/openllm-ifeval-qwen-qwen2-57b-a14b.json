@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-qwen-qwen2-57b-a14b",
+  "model_id": "Qwen/Qwen2-57B-A14B",
+  "benchmark_name": "ifeval",
+  "score": 31.126965340851164,
+  "score_raw": 31.126965340851164,
+  "evaluation_date": "2024-05-22",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3246
+}

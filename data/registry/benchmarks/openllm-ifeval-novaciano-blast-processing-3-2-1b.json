@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-novaciano-blast-processing-3-2-1b",
+  "model_id": "Novaciano/BLAST_PROCESSING-3.2-1B",
+  "benchmark_name": "ifeval",
+  "score": 39.21783091087204,
+  "score_raw": 39.21783091087204,
+  "evaluation_date": "2025-03-06",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2784
+}

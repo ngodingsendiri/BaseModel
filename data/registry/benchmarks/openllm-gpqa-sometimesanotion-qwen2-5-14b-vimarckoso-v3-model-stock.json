@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-sometimesanotion-qwen2-5-14b-vimarckoso-v3-model-stock",
+  "model_id": "sometimesanotion/Qwen2.5-14B-Vimarckoso-v3-model_stock",
+  "benchmark_name": "gpqa",
+  "score": 17.337807606263986,
+  "score_raw": 17.337807606263986,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 240
+}

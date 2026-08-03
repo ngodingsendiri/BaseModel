@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sakalti-sjt-moe2x7-5b",
+  "model_id": "Sakalti/SJT-Moe2x7.5B",
+  "benchmark_name": "mmlu-pro",
+  "score": 32.81804078014184,
+  "score_raw": 32.81804078014184,
+  "evaluation_date": "2025-02-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1248
+}

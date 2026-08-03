@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-minghaowu-qwen1-5-1-8b-openhermes-2-5",
+  "model_id": "minghaowu/Qwen1.5-1.8B-OpenHermes-2.5",
+  "benchmark_name": "math-lvl-5",
+  "score": 2.416918429003021,
+  "score_raw": 2.416918429003021,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3839
+}

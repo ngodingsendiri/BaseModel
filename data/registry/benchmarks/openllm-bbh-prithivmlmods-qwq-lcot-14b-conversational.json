@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-prithivmlmods-qwq-lcot-14b-conversational",
+  "model_id": "prithivMLmods/QwQ-LCoT-14B-Conversational",
+  "benchmark_name": "bbh",
+  "score": 45.626260309654924,
+  "score_raw": 45.626260309654924,
+  "evaluation_date": "2025-01-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 654
+}

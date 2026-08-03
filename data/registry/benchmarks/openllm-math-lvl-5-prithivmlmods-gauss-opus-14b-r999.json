@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-prithivmlmods-gauss-opus-14b-r999",
+  "model_id": "prithivMLmods/Gauss-Opus-14B-R999",
+  "benchmark_name": "math-lvl-5",
+  "score": 57.55287009063444,
+  "score_raw": 57.55287009063444,
+  "evaluation_date": "2025-03-03",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 23
+}

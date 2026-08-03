@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-corianas-quokka-2-7b",
+  "model_id": "Corianas/Quokka_2.7b",
+  "benchmark_name": "ifeval",
+  "score": 17.490702447284317,
+  "score_raw": 17.490702447284317,
+  "evaluation_date": "2023-03-30",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4183
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-eleutherai-pythia-1-4b",
+  "model_id": "EleutherAI/pythia-1.4b",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.5105740181268883,
+  "score_raw": 1.5105740181268883,
+  "evaluation_date": "2023-02-09",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4042
+}

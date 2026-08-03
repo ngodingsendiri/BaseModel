@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-marsouuu-minimathexpert-2-61b-ece-prymmal-martial",
+  "model_id": "Marsouuu/MiniMathExpert-2_61B-ECE-PRYMMAL-Martial",
+  "benchmark_name": "gpqa",
+  "score": 3.355704697986576,
+  "score_raw": 3.355704697986576,
+  "evaluation_date": "2024-10-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3181
+}

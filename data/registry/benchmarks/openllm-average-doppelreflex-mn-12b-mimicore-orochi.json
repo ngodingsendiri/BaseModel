@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-doppelreflex-mn-12b-mimicore-orochi",
+  "model_id": "DoppelReflEx/MN-12B-Mimicore-Orochi",
+  "benchmark_name": "average",
+  "score": 24.652222849504522,
+  "score_raw": 24.652222849504522,
+  "evaluation_date": "2025-01-28",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1680
+}

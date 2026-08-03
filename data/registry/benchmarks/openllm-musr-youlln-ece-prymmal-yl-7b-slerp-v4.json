@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-youlln-ece-prymmal-yl-7b-slerp-v4",
+  "model_id": "Youlln/ECE-PRYMMAL-YL-7B-SLERP-V4",
+  "benchmark_name": "musr",
+  "score": 7.011197916666666,
+  "score_raw": 7.011197916666666,
+  "evaluation_date": "2024-11-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3059
+}

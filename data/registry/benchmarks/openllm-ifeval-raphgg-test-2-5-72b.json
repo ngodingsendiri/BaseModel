@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-raphgg-test-2-5-72b",
+  "model_id": "raphgg/test-2.5-72B",
+  "benchmark_name": "ifeval",
+  "score": 84.37047035199936,
+  "score_raw": 84.37047035199936,
+  "evaluation_date": "2023-07-27",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 14
+}

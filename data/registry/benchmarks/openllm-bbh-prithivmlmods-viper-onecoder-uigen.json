@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-prithivmlmods-viper-onecoder-uigen",
+  "model_id": "prithivMLmods/Viper-OneCoder-UIGEN",
+  "benchmark_name": "bbh",
+  "score": 42.73215347452439,
+  "score_raw": 42.73215347452439,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 832
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-rubenroy-geneva-12b-gcv2-5m",
+  "model_id": "rubenroy/Geneva-12B-GCv2-5m",
+  "benchmark_name": "gpqa",
+  "score": 5.033557046979867,
+  "score_raw": 5.033557046979867,
+  "evaluation_date": "2025-02-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2633
+}

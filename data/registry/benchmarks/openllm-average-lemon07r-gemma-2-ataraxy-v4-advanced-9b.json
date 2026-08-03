@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-lemon07r-gemma-2-ataraxy-v4-advanced-9b",
+  "model_id": "lemon07r/Gemma-2-Ataraxy-v4-Advanced-9B",
+  "benchmark_name": "average",
+  "score": 33.40277377153587,
+  "score_raw": 33.40277377153587,
+  "evaluation_date": "2024-10-13",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 765
+}

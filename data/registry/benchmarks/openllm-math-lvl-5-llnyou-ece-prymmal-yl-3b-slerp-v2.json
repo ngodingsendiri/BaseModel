@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-llnyou-ece-prymmal-yl-3b-slerp-v2",
+  "model_id": "llnYou/ECE-PRYMMAL-YL-3B-SLERP-V2",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.283987915407855,
+  "score_raw": 1.283987915407855,
+  "evaluation_date": "2024-11-12",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4135
+}

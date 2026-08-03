@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-locutusque-llama-3-yggdrasil-2-0-8b",
+  "model_id": "Locutusque/Llama-3-Yggdrasil-2.0-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 24.072842789598106,
+  "score_raw": 24.072842789598106,
+  "evaluation_date": "2024-06-05",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2616
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-marcuscedricridia-sbr-o1-7b",
+  "model_id": "marcuscedricridia/sbr-o1-7b",
+  "benchmark_name": "math-lvl-5",
+  "score": 49.848942598187314,
+  "score_raw": 49.848942598187314,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 148
+}

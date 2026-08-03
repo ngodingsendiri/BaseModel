@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-databricks-dbrx-base",
+  "model_id": "databricks/dbrx-base",
+  "benchmark_name": "average",
+  "score": 16.35943247356884,
+  "score_raw": 16.35943247356884,
+  "evaluation_date": "2024-03-26",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3156
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-norquinal-echo",
+  "model_id": "Norquinal/Echo",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.278664302600472,
+  "score_raw": 23.278664302600472,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2749
+}

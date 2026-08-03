@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-tests-pending-do-not-use-yet",
+  "model_id": "DreadPoor/tests_pending-do_not_use_yet",
+  "benchmark_name": "bbh",
+  "score": 34.6745089445582,
+  "score_raw": 34.6745089445582,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1408
+}

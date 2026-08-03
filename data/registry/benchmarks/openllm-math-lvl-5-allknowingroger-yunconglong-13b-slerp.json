@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-allknowingroger-yunconglong-13b-slerp",
+  "model_id": "allknowingroger/Yunconglong-13B-slerp",
+  "benchmark_name": "math-lvl-5",
+  "score": 5.438066465256798,
+  "score_raw": 5.438066465256798,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3180
+}

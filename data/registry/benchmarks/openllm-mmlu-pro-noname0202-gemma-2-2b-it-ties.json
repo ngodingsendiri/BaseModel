@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-noname0202-gemma-2-2b-it-ties",
+  "model_id": "noname0202/gemma-2-2b-it-ties",
+  "benchmark_name": "mmlu-pro",
+  "score": 17.340794917257686,
+  "score_raw": 17.340794917257686,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3360
+}

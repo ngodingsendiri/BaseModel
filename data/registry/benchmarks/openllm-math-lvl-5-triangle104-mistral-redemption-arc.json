@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-triangle104-mistral-redemption-arc",
+  "model_id": "Triangle104/Mistral-Redemption-Arc",
+  "benchmark_name": "math-lvl-5",
+  "score": 41.012084592145015,
+  "score_raw": 41.012084592145015,
+  "evaluation_date": "2025-02-07",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 411
+}

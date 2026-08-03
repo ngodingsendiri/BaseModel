@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-dnhkng-rys-llama-3-1-8b-instruct",
+  "model_id": "dnhkng/RYS-Llama-3.1-8B-Instruct",
+  "benchmark_name": "gpqa",
+  "score": 2.348993288590602,
+  "score_raw": 2.348993288590602,
+  "evaluation_date": "2024-08-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3558
+}

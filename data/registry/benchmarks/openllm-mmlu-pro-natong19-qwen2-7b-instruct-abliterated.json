@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-natong19-qwen2-7b-instruct-abliterated",
+  "model_id": "natong19/Qwen2-7B-Instruct-abliterated",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.580599881796683,
+  "score_raw": 31.580599881796683,
+  "evaluation_date": "2024-06-14",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1473
+}

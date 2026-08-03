@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-bllossom-llama-3-2-korean-bllossom-aica-5b",
+  "model_id": "Bllossom/llama-3.2-Korean-Bllossom-AICA-5B",
+  "benchmark_name": "musr",
+  "score": 5.824479166666667,
+  "score_raw": 5.824479166666667,
+  "evaluation_date": "2024-12-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3282
+}

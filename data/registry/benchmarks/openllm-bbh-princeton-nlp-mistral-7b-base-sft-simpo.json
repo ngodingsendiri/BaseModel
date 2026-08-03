@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-princeton-nlp-mistral-7b-base-sft-simpo",
+  "model_id": "princeton-nlp/Mistral-7B-Base-SFT-SimPO",
+  "benchmark_name": "bbh",
+  "score": 22.33288648076616,
+  "score_raw": 22.33288648076616,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3046
+}

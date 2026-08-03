@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-quazim0t0-jigsaw-14b-linear",
+  "model_id": "Quazim0t0/Jigsaw-14B-Linear",
+  "benchmark_name": "musr",
+  "score": 15.932552083333329,
+  "score_raw": 15.932552083333329,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 709
+}

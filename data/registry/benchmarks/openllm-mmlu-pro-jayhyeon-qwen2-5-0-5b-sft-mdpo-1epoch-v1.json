@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-jayhyeon-qwen2-5-0-5b-sft-mdpo-1epoch-v1",
+  "model_id": "JayHyeon/Qwen2.5-0.5B-SFT-MDPO-1epoch_v1",
+  "benchmark_name": "mmlu-pro",
+  "score": 3.7474143026004705,
+  "score_raw": 3.7474143026004705,
+  "evaluation_date": "2024-12-27",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4055
+}

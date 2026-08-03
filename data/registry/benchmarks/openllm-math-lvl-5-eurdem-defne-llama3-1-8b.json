@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-eurdem-defne-llama3-1-8b",
+  "model_id": "Eurdem/Defne-llama3.1-8B",
+  "benchmark_name": "math-lvl-5",
+  "score": 16.012084592145015,
+  "score_raw": 16.012084592145015,
+  "evaluation_date": "2024-07-29",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1643
+}

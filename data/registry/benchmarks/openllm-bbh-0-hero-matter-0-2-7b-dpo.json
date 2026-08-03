@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-0-hero-matter-0-2-7b-dpo",
+  "model_id": "0-hero/Matter-0.2-7B-DPO",
+  "benchmark_name": "bbh",
+  "score": 10.055525080241035,
+  "score_raw": 10.055525080241035,
+  "evaluation_date": "2024-04-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3659
+}

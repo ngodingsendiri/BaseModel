@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sumink-solarmer3",
+  "model_id": "sumink/solarmer3",
+  "benchmark_name": "average",
+  "score": 20.50211421532019,
+  "score_raw": 20.50211421532019,
+  "evaluation_date": "2025-01-23",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2589
+}

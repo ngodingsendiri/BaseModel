@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-supichi-bba-123",
+  "model_id": "Supichi/BBA-123",
+  "benchmark_name": "bbh",
+  "score": 2.218337253816706,
+  "score_raw": 2.218337253816706,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4455
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-theprint-boptruth-agatha-7b",
+  "model_id": "theprint/Boptruth-Agatha-7B",
+  "benchmark_name": "gpqa",
+  "score": 6.599552572706939,
+  "score_raw": 6.599552572706939,
+  "evaluation_date": "2024-09-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2053
+}

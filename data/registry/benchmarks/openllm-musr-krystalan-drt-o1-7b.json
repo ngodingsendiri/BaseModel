@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-krystalan-drt-o1-7b",
+  "model_id": "Krystalan/DRT-o1-7B",
+  "benchmark_name": "musr",
+  "score": 24.08203125,
+  "score_raw": 24.08203125,
+  "evaluation_date": "2024-12-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 57
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-marcuscedricridia-cursor-o1-7b",
+  "model_id": "marcuscedricridia/cursor-o1-7b",
+  "benchmark_name": "ifeval",
+  "score": 41.068808539120646,
+  "score_raw": 41.068808539120646,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2666
+}

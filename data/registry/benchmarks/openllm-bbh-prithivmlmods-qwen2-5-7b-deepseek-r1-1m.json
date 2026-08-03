@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-prithivmlmods-qwen2-5-7b-deepseek-r1-1m",
+  "model_id": "prithivMLmods/Qwen2.5-7B-DeepSeek-R1-1M",
+  "benchmark_name": "bbh",
+  "score": 4.665734765589359,
+  "score_raw": 4.665734765589359,
+  "evaluation_date": "2025-01-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4149
+}

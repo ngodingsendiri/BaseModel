@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-goekdeniz-guelmez-josie-3b-v6-0",
+  "model_id": "Goekdeniz-Guelmez/josie-3b-v6.0",
+  "benchmark_name": "bbh",
+  "score": 22.87108835512943,
+  "score_raw": 22.87108835512943,
+  "evaluation_date": "2024-12-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3000
+}

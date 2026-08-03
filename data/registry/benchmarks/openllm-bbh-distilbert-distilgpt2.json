@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-distilbert-distilgpt2",
+  "model_id": "distilbert/distilgpt2",
+  "benchmark_name": "bbh",
+  "score": 2.835219845513963,
+  "score_raw": 2.835219845513963,
+  "evaluation_date": "2022-03-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4350
+}

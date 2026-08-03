@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-puxai-lua-model",
+  "model_id": "PuxAI/LUA_model",
+  "benchmark_name": "gpqa",
+  "score": 1.342281879194629,
+  "score_raw": 1.342281879194629,
+  "evaluation_date": "2024-12-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3950
+}

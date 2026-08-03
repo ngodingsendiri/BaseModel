@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-sweetened-condensed-milk-8b-model-stock",
+  "model_id": "DreadPoor/Sweetened_Condensed_Milk-8B-Model_Stock",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.645242316784866,
+  "score_raw": 31.645242316784866,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1459
+}

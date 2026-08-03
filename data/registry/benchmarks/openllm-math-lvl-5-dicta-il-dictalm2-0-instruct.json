@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-dicta-il-dictalm2-0-instruct",
+  "model_id": "dicta-il/dictalm2.0-instruct",
+  "benchmark_name": "math-lvl-5",
+  "score": 2.2658610271903323,
+  "score_raw": 2.2658610271903323,
+  "evaluation_date": "2024-04-14",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3859
+}

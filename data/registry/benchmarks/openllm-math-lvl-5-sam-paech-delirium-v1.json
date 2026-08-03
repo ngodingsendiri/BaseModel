@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sam-paech-delirium-v1",
+  "model_id": "sam-paech/Delirium-v1",
+  "benchmark_name": "math-lvl-5",
+  "score": 21.07250755287009,
+  "score_raw": 21.07250755287009,
+  "evaluation_date": "2024-10-17",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1242
+}

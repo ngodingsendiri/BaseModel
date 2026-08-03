@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-lesubra-ece-prymmal-3b-slerp-v2",
+  "model_id": "lesubra/ECE-PRYMMAL-3B-SLERP-V2",
+  "benchmark_name": "musr",
+  "score": 16.638802083333335,
+  "score_raw": 16.638802083333335,
+  "evaluation_date": "2024-10-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 621
+}

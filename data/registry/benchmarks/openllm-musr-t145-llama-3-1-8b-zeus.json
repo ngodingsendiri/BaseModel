@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-t145-llama-3-1-8b-zeus",
+  "model_id": "T145/Llama-3.1-8B-Zeus",
+  "benchmark_name": "musr",
+  "score": 1.58125,
+  "score_raw": 1.58125,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4295
+}

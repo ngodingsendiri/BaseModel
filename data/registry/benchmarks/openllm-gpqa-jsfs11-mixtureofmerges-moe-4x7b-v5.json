@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-jsfs11-mixtureofmerges-moe-4x7b-v5",
+  "model_id": "jsfs11/MixtureofMerges-MoE-4x7b-v5",
+  "benchmark_name": "gpqa",
+  "score": 4.5861297539149914,
+  "score_raw": 4.5861297539149914,
+  "evaluation_date": "2024-02-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2770
+}

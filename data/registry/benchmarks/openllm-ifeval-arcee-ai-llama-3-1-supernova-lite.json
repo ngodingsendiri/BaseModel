@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-arcee-ai-llama-3-1-supernova-lite",
+  "model_id": "arcee-ai/Llama-3.1-SuperNova-Lite",
+  "benchmark_name": "ifeval",
+  "score": 80.1739384832245,
+  "score_raw": 80.1739384832245,
+  "evaluation_date": "2024-09-10",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 115
+}

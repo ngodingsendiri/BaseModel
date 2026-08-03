@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-svak-mn-12b-inferor-v0-1",
+  "model_id": "Svak/MN-12B-Inferor-v0.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.57668439716312,
+  "score_raw": 29.57668439716312,
+  "evaluation_date": "2024-11-08",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1937
+}

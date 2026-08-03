@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-maziyarpanahi-llama-3-8b-instruct-v0-8",
+  "model_id": "MaziyarPanahi/Llama-3-8B-Instruct-v0.8",
+  "benchmark_name": "math-lvl-5",
+  "score": 7.779456193353475,
+  "score_raw": 7.779456193353475,
+  "evaluation_date": "2024-05-01",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2722
+}

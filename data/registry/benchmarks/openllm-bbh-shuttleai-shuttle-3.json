@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-shuttleai-shuttle-3",
+  "model_id": "shuttleai/shuttle-3",
+  "benchmark_name": "bbh",
+  "score": 64.05301565117443,
+  "score_raw": 64.05301565117443,
+  "evaluation_date": "2024-10-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4
+}

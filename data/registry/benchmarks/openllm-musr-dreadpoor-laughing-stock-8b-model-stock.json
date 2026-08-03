@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-laughing-stock-8b-model-stock",
+  "model_id": "DreadPoor/Laughing_Stock-8B-Model_Stock",
+  "benchmark_name": "musr",
+  "score": 10.68567708333333,
+  "score_raw": 10.68567708333333,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2082
+}

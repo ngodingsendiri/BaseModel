@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-tsunami-th-tsunami-0-5-7b-instruct",
+  "model_id": "Tsunami-th/Tsunami-0.5-7B-Instruct",
+  "benchmark_name": "bbh",
+  "score": 36.13825418700338,
+  "score_raw": 36.13825418700338,
+  "evaluation_date": "2024-10-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1196
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-nekochu-luminia-8b-rp",
+  "model_id": "Nekochu/Luminia-8B-RP",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.235002955082745,
+  "score_raw": 29.235002955082745,
+  "evaluation_date": "2024-09-13",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2004
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-shadowml-mixolar-4x7b",
+  "model_id": "shadowml/Mixolar-4x7b",
+  "benchmark_name": "gpqa",
+  "score": 5.7046979865771785,
+  "score_raw": 5.7046979865771785,
+  "evaluation_date": "2023-12-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2398
+}

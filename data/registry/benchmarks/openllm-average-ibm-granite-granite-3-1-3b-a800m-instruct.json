@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ibm-granite-granite-3-1-3b-a800m-instruct",
+  "model_id": "ibm-granite/granite-3.1-3b-a800m-instruct",
+  "benchmark_name": "average",
+  "score": 17.277676062054883,
+  "score_raw": 17.277676062054883,
+  "evaluation_date": "2024-12-06",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3035
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-marcuscedricridia-olmner-7b",
+  "model_id": "marcuscedricridia/olmner-7b",
+  "benchmark_name": "musr",
+  "score": 14.31276041666667,
+  "score_raw": 14.31276041666667,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 984
+}

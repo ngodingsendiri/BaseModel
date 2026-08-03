@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-prithivmlmods-calcium-opus-14b-elite2",
+  "model_id": "prithivMLmods/Calcium-Opus-14B-Elite2",
+  "benchmark_name": "bbh",
+  "score": 46.806149932752305,
+  "score_raw": 46.806149932752305,
+  "evaluation_date": "2025-01-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 606
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-ontocord-llama-3-2-1b-autoredteam-helpfulness-train",
+  "model_id": "ontocord/Llama_3.2_1b-autoredteam_helpfulness-train",
+  "benchmark_name": "ifeval",
+  "score": 27.654844700949038,
+  "score_raw": 27.654844700949038,
+  "evaluation_date": "2025-01-30",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3436
+}

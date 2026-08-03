@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-mergekit-community-mergekit-slerp-fmrazcr",
+  "model_id": "mergekit-community/mergekit-slerp-fmrazcr",
+  "benchmark_name": "musr",
+  "score": 9.840625000000001,
+  "score_raw": 9.840625000000001,
+  "evaluation_date": "2024-12-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2339
+}

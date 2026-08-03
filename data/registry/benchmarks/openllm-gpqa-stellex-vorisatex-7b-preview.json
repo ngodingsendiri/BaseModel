@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-stellex-vorisatex-7b-preview",
+  "model_id": "StelleX/Vorisatex-7B-preview",
+  "benchmark_name": "gpqa",
+  "score": 0.22371364653244186,
+  "score_raw": 0.22371364653244186,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4301
+}

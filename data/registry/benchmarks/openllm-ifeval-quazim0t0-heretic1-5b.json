@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-quazim0t0-heretic1-5b",
+  "model_id": "Quazim0t0/Heretic1.5b",
+  "benchmark_name": "ifeval",
+  "score": 20.615633186611525,
+  "score_raw": 20.615633186611525,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3974
+}

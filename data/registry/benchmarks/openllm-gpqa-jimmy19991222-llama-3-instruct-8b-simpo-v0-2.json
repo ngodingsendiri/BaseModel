@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-jimmy19991222-llama-3-instruct-8b-simpo-v0-2",
+  "model_id": "Jimmy19991222/Llama-3-Instruct-8B-SimPO-v0.2",
+  "benchmark_name": "gpqa",
+  "score": 8.612975391498878,
+  "score_raw": 8.612975391498878,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1301
+}

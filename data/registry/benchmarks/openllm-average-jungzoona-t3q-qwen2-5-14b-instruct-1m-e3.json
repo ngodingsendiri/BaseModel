@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-jungzoona-t3q-qwen2-5-14b-instruct-1m-e3",
+  "model_id": "JungZoona/T3Q-Qwen2.5-14B-Instruct-1M-e3",
+  "benchmark_name": "average",
+  "score": 47.091544713804204,
+  "score_raw": 47.091544713804204,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 13
+}

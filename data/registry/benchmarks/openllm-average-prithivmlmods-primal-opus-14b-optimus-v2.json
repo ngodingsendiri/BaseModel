@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-primal-opus-14b-optimus-v2",
+  "model_id": "prithivMLmods/Primal-Opus-14B-Optimus-v2",
+  "benchmark_name": "average",
+  "score": 40.91271332337514,
+  "score_raw": 40.91271332337514,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 207
+}

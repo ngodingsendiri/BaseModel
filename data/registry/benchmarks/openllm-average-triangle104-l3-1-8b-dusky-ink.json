@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-triangle104-l3-1-8b-dusky-ink",
+  "model_id": "Triangle104/L3.1-8B-Dusky-Ink",
+  "benchmark_name": "average",
+  "score": 22.391498815708132,
+  "score_raw": 22.391498815708132,
+  "evaluation_date": "2025-02-02",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2221
+}

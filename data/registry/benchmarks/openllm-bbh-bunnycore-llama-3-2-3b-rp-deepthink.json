@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-bunnycore-llama-3-2-3b-rp-deepthink",
+  "model_id": "bunnycore/Llama-3.2-3B-RP-DeepThink",
+  "benchmark_name": "bbh",
+  "score": 23.757462281904537,
+  "score_raw": 23.757462281904537,
+  "evaluation_date": "2024-12-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2928
+}

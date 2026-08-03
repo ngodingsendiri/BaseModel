@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-vonjack-smollm2-135m-merged",
+  "model_id": "vonjack/SmolLM2-135M-Merged",
+  "benchmark_name": "bbh",
+  "score": 4.587041236226676,
+  "score_raw": 4.587041236226676,
+  "evaluation_date": "2024-11-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4155
+}

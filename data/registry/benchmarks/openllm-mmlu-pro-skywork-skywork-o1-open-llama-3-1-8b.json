@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-skywork-skywork-o1-open-llama-3-1-8b",
+  "model_id": "Skywork/Skywork-o1-Open-Llama-3.1-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 11.449098699763592,
+  "score_raw": 11.449098699763592,
+  "evaluation_date": "2024-11-26",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3579
+}

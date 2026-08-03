@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-quazim0t0-venti-blend-sce",
+  "model_id": "Quazim0t0/Venti-Blend-sce",
+  "benchmark_name": "ifeval",
+  "score": 68.79335718116819,
+  "score_raw": 68.79335718116819,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 826
+}

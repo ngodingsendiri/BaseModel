@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-hotmailuser-gemma2magnum-27b",
+  "model_id": "hotmailuser/Gemma2magnum-27b",
+  "benchmark_name": "ifeval",
+  "score": 50.50599077115387,
+  "score_raw": 50.50599077115387,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1825
+}

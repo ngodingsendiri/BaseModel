@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-mrrobotoai-mrroboto-prolongbase-pt8-unaligned-8b",
+  "model_id": "MrRobotoAI/MrRoboto-ProLongBASE-pt8-unaligned-8b",
+  "benchmark_name": "average",
+  "score": 15.935345737822864,
+  "score_raw": 15.935345737822864,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3204
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-princeton-nlp-llama-3-instruct-8b-rrhf-v0-2",
+  "model_id": "princeton-nlp/Llama-3-Instruct-8B-RRHF-v0.2",
+  "benchmark_name": "bbh",
+  "score": 28.498723991187727,
+  "score_raw": 28.498723991187727,
+  "evaluation_date": "2024-07-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2433
+}

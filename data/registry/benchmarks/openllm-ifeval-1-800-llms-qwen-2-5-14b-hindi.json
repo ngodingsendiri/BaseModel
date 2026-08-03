@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-1-800-llms-qwen-2-5-14b-hindi",
+  "model_id": "1-800-LLMs/Qwen-2.5-14B-Hindi",
+  "benchmark_name": "ifeval",
+  "score": 58.2570911847232,
+  "score_raw": 58.2570911847232,
+  "evaluation_date": "2025-02-03",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1353
+}

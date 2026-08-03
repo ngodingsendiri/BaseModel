@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-triangle104-phi4-rp-o1-ablit",
+  "model_id": "Triangle104/Phi4-RP-o1-Ablit",
+  "benchmark_name": "ifeval",
+  "score": 2.385559205131274,
+  "score_raw": 2.385559205131274,
+  "evaluation_date": "2025-02-08",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4558
+}

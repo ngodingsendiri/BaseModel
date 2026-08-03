@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-abacusai-liberated-qwen1-5-14b",
+  "model_id": "abacusai/Liberated-Qwen1.5-14B",
+  "benchmark_name": "bbh",
+  "score": 28.020905999685464,
+  "score_raw": 28.020905999685464,
+  "evaluation_date": "2024-03-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2500
+}

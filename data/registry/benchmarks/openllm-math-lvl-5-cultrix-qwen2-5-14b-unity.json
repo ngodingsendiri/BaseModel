@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-cultrix-qwen2-5-14b-unity",
+  "model_id": "CultriX/Qwen2.5-14B-Unity",
+  "benchmark_name": "math-lvl-5",
+  "score": 43.126888217522655,
+  "score_raw": 43.126888217522655,
+  "evaluation_date": "2024-12-21",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 346
+}

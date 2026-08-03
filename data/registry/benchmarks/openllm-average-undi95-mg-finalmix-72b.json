@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-undi95-mg-finalmix-72b",
+  "model_id": "Undi95/MG-FinalMix-72B",
+  "benchmark_name": "average",
+  "score": 44.29736213992491,
+  "score_raw": 44.29736213992491,
+  "evaluation_date": "2024-06-25",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 46
+}

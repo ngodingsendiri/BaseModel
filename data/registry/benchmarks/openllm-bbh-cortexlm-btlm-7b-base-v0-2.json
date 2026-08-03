@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-cortexlm-btlm-7b-base-v0-2",
+  "model_id": "CortexLM/btlm-7b-base-v0.2",
+  "benchmark_name": "bbh",
+  "score": 16.19327709708517,
+  "score_raw": 16.19327709708517,
+  "evaluation_date": "2024-06-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3449
+}

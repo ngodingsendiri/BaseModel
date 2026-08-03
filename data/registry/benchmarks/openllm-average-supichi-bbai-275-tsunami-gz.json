@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-supichi-bbai-275-tsunami-gz",
+  "model_id": "Supichi/BBAI_275_Tsunami_gZ",
+  "benchmark_name": "average",
+  "score": 30.835431920268267,
+  "score_raw": 30.835431920268267,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 928
+}

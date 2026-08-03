@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-microsoft-phi-3-mini-128k-instruct",
+  "model_id": "microsoft/Phi-3-mini-128k-instruct",
+  "benchmark_name": "ifeval",
+  "score": 59.76331688807919,
+  "score_raw": 59.76331688807919,
+  "evaluation_date": "2024-04-22",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1282
+}

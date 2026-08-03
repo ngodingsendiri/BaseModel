@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-djuna-q2-5-veltha-14b",
+  "model_id": "djuna/Q2.5-Veltha-14B",
+  "benchmark_name": "ifeval",
+  "score": 82.91666112581285,
+  "score_raw": 82.91666112581285,
+  "evaluation_date": "2024-12-22",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 36
+}

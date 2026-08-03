@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-qingy2024-qwen2-5-coder-draft-1-5b-instruct",
+  "model_id": "qingy2024/Qwen2.5-Coder-Draft-1.5B-Instruct",
+  "benchmark_name": "average",
+  "score": 14.636502505800076,
+  "score_raw": 14.636502505800076,
+  "evaluation_date": "2025-01-31",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3341
+}

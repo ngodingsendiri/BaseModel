@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-mergekit-community-diabolic6045-eln-aoc-cain",
+  "model_id": "mergekit-community/diabolic6045_ELN-AOC-CAIN",
+  "benchmark_name": "mmlu-pro",
+  "score": 2.1221187943262403,
+  "score_raw": 2.1221187943262403,
+  "evaluation_date": "2025-01-05",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4140
+}

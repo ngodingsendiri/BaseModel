@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-vonjack-qwen2-5-coder-0-5b-merged",
+  "model_id": "vonjack/Qwen2.5-Coder-0.5B-Merged",
+  "benchmark_name": "gpqa",
+  "score": 0.44742729306487633,
+  "score_raw": 0.44742729306487633,
+  "evaluation_date": "2024-11-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4267
+}

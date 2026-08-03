@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-prithivmlmods-triangulum-5b",
+  "model_id": "prithivMLmods/Triangulum-5B",
+  "benchmark_name": "bbh",
+  "score": 4.293501650120951,
+  "score_raw": 4.293501650120951,
+  "evaluation_date": "2024-12-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4184
+}

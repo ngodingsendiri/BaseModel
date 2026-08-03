@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-oopere-pruned60-llama-1b",
+  "model_id": "oopere/pruned60-llama-1b",
+  "benchmark_name": "average",
+  "score": 5.46756672622325,
+  "score_raw": 5.46756672622325,
+  "evaluation_date": "2024-11-16",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4227
+}

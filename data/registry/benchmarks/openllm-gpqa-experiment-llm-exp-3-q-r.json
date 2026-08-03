@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-experiment-llm-exp-3-q-r",
+  "model_id": "experiment-llm/exp-3-q-r",
+  "benchmark_name": "gpqa",
+  "score": 5.8165548098433995,
+  "score_raw": 5.8165548098433995,
+  "evaluation_date": "2024-12-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2346
+}

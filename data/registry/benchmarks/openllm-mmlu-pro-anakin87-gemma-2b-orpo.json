@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-anakin87-gemma-2b-orpo",
+  "model_id": "anakin87/gemma-2b-orpo",
+  "benchmark_name": "mmlu-pro",
+  "score": 3.3964982269503543,
+  "score_raw": 3.3964982269503543,
+  "evaluation_date": "2024-03-24",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4075
+}

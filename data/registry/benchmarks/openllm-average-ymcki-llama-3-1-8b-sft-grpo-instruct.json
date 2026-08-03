@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ymcki-llama-3-1-8b-sft-grpo-instruct",
+  "model_id": "ymcki/Llama-3.1-8B-SFT-GRPO-Instruct",
+  "benchmark_name": "average",
+  "score": 7.6591553865170505,
+  "score_raw": 7.6591553865170505,
+  "evaluation_date": "2025-03-12",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3965
+}

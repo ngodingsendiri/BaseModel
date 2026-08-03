@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-tarek07-thalassic-alpha-llama-70b",
+  "model_id": "Tarek07/Thalassic-Alpha-LLaMa-70B",
+  "benchmark_name": "musr",
+  "score": 20.72473958333333,
+  "score_raw": 20.72473958333333,
+  "evaluation_date": "2025-01-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 185
+}

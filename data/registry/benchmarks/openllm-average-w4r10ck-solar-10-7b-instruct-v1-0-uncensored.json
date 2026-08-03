@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-w4r10ck-solar-10-7b-instruct-v1-0-uncensored",
+  "model_id": "w4r10ck/SOLAR-10.7B-Instruct-v1.0-uncensored",
+  "benchmark_name": "average",
+  "score": 21.621994458789136,
+  "score_raw": 21.621994458789136,
+  "evaluation_date": "2023-12-14",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2371
+}

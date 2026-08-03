@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-lordjia-qwen2-cantonese-7b-instruct",
+  "model_id": "lordjia/Qwen2-Cantonese-7B-Instruct",
+  "benchmark_name": "average",
+  "score": 26.309196155583507,
+  "score_raw": 26.309196155583507,
+  "evaluation_date": "2024-07-13",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1462
+}

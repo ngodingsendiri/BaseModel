@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nvidia-aceinstruct-7b",
+  "model_id": "nvidia/AceInstruct-7B",
+  "benchmark_name": "average",
+  "score": 33.05654347527337,
+  "score_raw": 33.05654347527337,
+  "evaluation_date": "2025-01-15",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 786
+}

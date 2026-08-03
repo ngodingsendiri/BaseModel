@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ontocord-starcoder2-3b-autoredteam",
+  "model_id": "ontocord/starcoder2_3b-AutoRedteam",
+  "benchmark_name": "mmlu-pro",
+  "score": 3.7381796690307305,
+  "score_raw": 3.7381796690307305,
+  "evaluation_date": "2025-01-16",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4057
+}

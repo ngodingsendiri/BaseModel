@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-triangle104-l3-1-8b-dusky-ink-v0-r1",
+  "model_id": "Triangle104/L3.1-8B-Dusky-Ink_v0.r1",
+  "benchmark_name": "musr",
+  "score": 7.820833333333334,
+  "score_raw": 7.820833333333334,
+  "evaluation_date": "2025-02-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2895
+}

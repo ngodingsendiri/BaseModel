@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-damasteel-8b-linear",
+  "model_id": "DreadPoor/Damasteel-8B-LINEAR",
+  "benchmark_name": "bbh",
+  "score": 34.10613777622061,
+  "score_raw": 34.10613777622061,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1500
+}

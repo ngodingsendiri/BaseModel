@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-tiiuae-falcon3-7b-base",
+  "model_id": "tiiuae/Falcon3-7B-Base",
+  "benchmark_name": "mmlu-pro",
+  "score": 32.337839834515364,
+  "score_raw": 32.337839834515364,
+  "evaluation_date": "2024-11-21",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1326
+}

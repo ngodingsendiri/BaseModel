@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-noname0202-gemma-2-9b-sft-jp-en-zh-v2",
+  "model_id": "noname0202/gemma-2-9b-sft-jp-en-zh-v2",
+  "benchmark_name": "ifeval",
+  "score": 39.93470657854493,
+  "score_raw": 39.93470657854493,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2738
+}

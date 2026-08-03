@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sakalti-sailor-japanese",
+  "model_id": "Sakalti/Sailor-japanese",
+  "benchmark_name": "math-lvl-5",
+  "score": 0.3021148036253776,
+  "score_raw": 0.3021148036253776,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4385
+}

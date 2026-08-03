@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-llm4binary-llm4decompile-1-3b-v2",
+  "model_id": "LLM4Binary/llm4decompile-1.3b-v2",
+  "benchmark_name": "average",
+  "score": 6.93902486034668,
+  "score_raw": 6.93902486034668,
+  "evaluation_date": "2024-06-18",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4066
+}

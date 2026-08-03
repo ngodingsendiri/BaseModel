@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-summer-dusk-8b-ties",
+  "model_id": "DreadPoor/Summer_Dusk-8B-TIES",
+  "benchmark_name": "bbh",
+  "score": 33.83081371910365,
+  "score_raw": 33.83081371910365,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1530
+}

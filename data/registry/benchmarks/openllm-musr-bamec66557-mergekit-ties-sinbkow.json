@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-bamec66557-mergekit-ties-sinbkow",
+  "model_id": "bamec66557/mergekit-ties-sinbkow",
+  "benchmark_name": "musr",
+  "score": 10.059895833333334,
+  "score_raw": 10.059895833333334,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2273
+}

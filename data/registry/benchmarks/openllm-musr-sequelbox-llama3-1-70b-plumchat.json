@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sequelbox-llama3-1-70b-plumchat",
+  "model_id": "sequelbox/Llama3.1-70B-PlumChat",
+  "benchmark_name": "musr",
+  "score": 20.138541666666665,
+  "score_raw": 20.138541666666665,
+  "evaluation_date": "2024-11-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 228
+}

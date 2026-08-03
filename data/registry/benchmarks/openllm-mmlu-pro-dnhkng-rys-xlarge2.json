@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dnhkng-rys-xlarge2",
+  "model_id": "dnhkng/RYS-XLarge2",
+  "benchmark_name": "mmlu-pro",
+  "score": 48.646202718676115,
+  "score_raw": 48.646202718676115,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 237
+}

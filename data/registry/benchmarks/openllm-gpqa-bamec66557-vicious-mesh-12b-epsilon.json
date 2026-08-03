@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-bamec66557-vicious-mesh-12b-epsilon",
+  "model_id": "bamec66557/VICIOUS_MESH-12B-EPSILON",
+  "benchmark_name": "gpqa",
+  "score": 8.612975391498878,
+  "score_raw": 8.612975391498878,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1309
+}

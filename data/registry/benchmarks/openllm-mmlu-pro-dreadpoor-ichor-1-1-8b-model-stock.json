@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-ichor-1-1-8b-model-stock",
+  "model_id": "DreadPoor/ichor_1.1-8B-Model_Stock",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.728354018912537,
+  "score_raw": 31.728354018912537,
+  "evaluation_date": "2025-03-04",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1442
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-quazim0t0-ponder-14b-linear",
+  "model_id": "Quazim0t0/Ponder-14B-linear",
+  "benchmark_name": "gpqa",
+  "score": 14.429530201342287,
+  "score_raw": 14.429530201342287,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 447
+}

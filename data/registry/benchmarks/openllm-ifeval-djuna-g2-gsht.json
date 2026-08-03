@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-djuna-g2-gsht",
+  "model_id": "djuna/G2-GSHT",
+  "benchmark_name": "ifeval",
+  "score": 56.301169785059194,
+  "score_raw": 56.301169785059194,
+  "evaluation_date": "2024-09-09",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1440
+}

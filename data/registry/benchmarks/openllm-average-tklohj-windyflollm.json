@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-tklohj-windyflollm",
+  "model_id": "tklohj/WindyFloLLM",
+  "benchmark_name": "average",
+  "score": 14.243655403588258,
+  "score_raw": 14.243655403588258,
+  "evaluation_date": "2024-06-30",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3387
+}

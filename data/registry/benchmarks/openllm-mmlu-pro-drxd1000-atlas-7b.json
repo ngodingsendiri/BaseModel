@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-drxd1000-atlas-7b",
+  "model_id": "DRXD1000/Atlas-7B",
+  "benchmark_name": "mmlu-pro",
+  "score": 4.4584810874704495,
+  "score_raw": 4.4584810874704495,
+  "evaluation_date": "2024-12-10",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4029
+}

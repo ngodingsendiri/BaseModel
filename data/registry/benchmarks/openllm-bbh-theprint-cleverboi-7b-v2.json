@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-theprint-cleverboi-7b-v2",
+  "model_id": "theprint/CleverBoi-7B-v2",
+  "benchmark_name": "bbh",
+  "score": 23.44418148733149,
+  "score_raw": 23.44418148733149,
+  "evaluation_date": "2024-09-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2954
+}

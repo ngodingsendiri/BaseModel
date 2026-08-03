@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sometimesanotion-lamarck-14b-v0-6-002-model-stock",
+  "model_id": "sometimesanotion/Lamarck-14B-v0.6-002-model_stock",
+  "benchmark_name": "mmlu-pro",
+  "score": 45.04469562647754,
+  "score_raw": 45.04469562647754,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 545
+}

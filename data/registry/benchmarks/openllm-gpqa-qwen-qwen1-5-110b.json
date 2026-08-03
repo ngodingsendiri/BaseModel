@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-qwen-qwen1-5-110b",
+  "model_id": "Qwen/Qwen1.5-110B",
+  "benchmark_name": "gpqa",
+  "score": 13.646532438478745,
+  "score_raw": 13.646532438478745,
+  "evaluation_date": "2024-04-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 516
+}

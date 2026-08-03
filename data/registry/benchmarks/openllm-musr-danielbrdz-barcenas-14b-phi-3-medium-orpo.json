@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-danielbrdz-barcenas-14b-phi-3-medium-orpo",
+  "model_id": "Danielbrdz/Barcenas-14b-Phi-3-medium-ORPO",
+  "benchmark_name": "musr",
+  "score": 20.527083333333334,
+  "score_raw": 20.527083333333334,
+  "evaluation_date": "2024-06-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 198
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-abacusai-smaug-mixtral-v0-1",
+  "model_id": "abacusai/Smaug-Mixtral-v0.1",
+  "benchmark_name": "average",
+  "score": 23.821471245327263,
+  "score_raw": 23.821471245327263,
+  "evaluation_date": "2024-02-18",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1883
+}

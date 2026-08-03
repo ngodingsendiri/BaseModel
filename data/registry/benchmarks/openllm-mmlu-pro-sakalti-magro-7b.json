@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sakalti-magro-7b",
+  "model_id": "Sakalti/magro-7B",
+  "benchmark_name": "mmlu-pro",
+  "score": 19.61251477541371,
+  "score_raw": 19.61251477541371,
+  "evaluation_date": "2024-12-11",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3191
+}

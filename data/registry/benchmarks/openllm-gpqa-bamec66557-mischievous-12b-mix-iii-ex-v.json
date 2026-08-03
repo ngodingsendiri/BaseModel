@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-bamec66557-mischievous-12b-mix-iii-ex-v",
+  "model_id": "bamec66557/MISCHIEVOUS-12B-Mix_III_ex_V",
+  "benchmark_name": "gpqa",
+  "score": 9.395973154362418,
+  "score_raw": 9.395973154362418,
+  "evaluation_date": "2024-12-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1131
+}

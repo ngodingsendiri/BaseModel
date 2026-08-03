@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-pszemraj-mistral-v0-3-6b",
+  "model_id": "pszemraj/Mistral-v0.3-6B",
+  "benchmark_name": "musr",
+  "score": 6.613020833333334,
+  "score_raw": 6.613020833333334,
+  "evaluation_date": "2024-05-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3137
+}

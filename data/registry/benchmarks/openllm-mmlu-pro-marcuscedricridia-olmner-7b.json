@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-marcuscedricridia-olmner-7b",
+  "model_id": "marcuscedricridia/olmner-7b",
+  "benchmark_name": "mmlu-pro",
+  "score": 36.77046394799054,
+  "score_raw": 36.77046394799054,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1004
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-volans-opus-14b-exp",
+  "model_id": "prithivMLmods/Volans-Opus-14B-Exp",
+  "benchmark_name": "average",
+  "score": 39.707074751250644,
+  "score_raw": 39.707074751250644,
+  "evaluation_date": "2025-03-11",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 292
+}

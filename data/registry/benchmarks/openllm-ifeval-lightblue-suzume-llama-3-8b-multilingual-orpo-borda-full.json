@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-lightblue-suzume-llama-3-8b-multilingual-orpo-borda-full",
+  "model_id": "lightblue/suzume-llama-3-8B-multilingual-orpo-borda-full",
+  "benchmark_name": "ifeval",
+  "score": 58.174643279830846,
+  "score_raw": 58.174643279830846,
+  "evaluation_date": "2024-04-25",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1359
+}

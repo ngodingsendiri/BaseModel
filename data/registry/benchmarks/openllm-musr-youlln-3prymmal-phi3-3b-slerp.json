@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-youlln-3prymmal-phi3-3b-slerp",
+  "model_id": "Youlln/3PRYMMAL-PHI3-3B-SLERP",
+  "benchmark_name": "musr",
+  "score": 17.77213541666666,
+  "score_raw": 17.77213541666666,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 483
+}

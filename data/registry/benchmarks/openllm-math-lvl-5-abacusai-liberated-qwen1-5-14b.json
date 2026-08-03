@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-abacusai-liberated-qwen1-5-14b",
+  "model_id": "abacusai/Liberated-Qwen1.5-14B",
+  "benchmark_name": "math-lvl-5",
+  "score": 16.012084592145015,
+  "score_raw": 16.012084592145015,
+  "evaluation_date": "2024-03-05",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1647
+}

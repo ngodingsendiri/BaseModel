@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-princeton-nlp-llama-3-base-8b-sft-kto",
+  "model_id": "princeton-nlp/Llama-3-Base-8B-SFT-KTO",
+  "benchmark_name": "mmlu-pro",
+  "score": 22.826167257683213,
+  "score_raw": 22.826167257683213,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2819
+}

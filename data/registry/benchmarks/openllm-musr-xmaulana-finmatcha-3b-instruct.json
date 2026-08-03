@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-xmaulana-finmatcha-3b-instruct",
+  "model_id": "xMaulana/FinMatcha-3B-Instruct",
+  "benchmark_name": "musr",
+  "score": 5.016666666666668,
+  "score_raw": 5.016666666666668,
+  "evaluation_date": "2024-09-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3446
+}

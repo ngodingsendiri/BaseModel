@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-trinas-nectar-8b-model-stock",
+  "model_id": "DreadPoor/Trinas_Nectar-8B-model_stock",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.08724881796691,
+  "score_raw": 29.08724881796691,
+  "evaluation_date": "2024-08-16",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2024
+}

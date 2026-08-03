@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-anthracite-org-magnum-v4-22b",
+  "model_id": "anthracite-org/magnum-v4-22b",
+  "benchmark_name": "ifeval",
+  "score": 56.28620947973599,
+  "score_raw": 56.28620947973599,
+  "evaluation_date": "2024-10-20",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1442
+}

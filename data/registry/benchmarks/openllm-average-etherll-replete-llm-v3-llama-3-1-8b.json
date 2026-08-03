@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-etherll-replete-llm-v3-llama-3-1-8b",
+  "model_id": "Etherll/Replete-LLM-V3-Llama-3.1-8b",
+  "benchmark_name": "average",
+  "score": 21.70431724543067,
+  "score_raw": 21.70431724543067,
+  "evaluation_date": "2024-08-24",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2344
+}

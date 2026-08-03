@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-daemontatox-mini-pathfinder",
+  "model_id": "Daemontatox/mini_Pathfinder",
+  "benchmark_name": "mmlu-pro",
+  "score": 20.10195035460993,
+  "score_raw": 20.10195035460993,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3147
+}

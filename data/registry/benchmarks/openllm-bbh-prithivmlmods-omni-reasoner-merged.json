@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-prithivmlmods-omni-reasoner-merged",
+  "model_id": "prithivMLmods/Omni-Reasoner-Merged",
+  "benchmark_name": "bbh",
+  "score": 35.36177667333275,
+  "score_raw": 35.36177667333275,
+  "evaluation_date": "2025-01-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1309
+}

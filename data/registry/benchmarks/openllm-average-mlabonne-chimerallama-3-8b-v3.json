@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-mlabonne-chimerallama-3-8b-v3",
+  "model_id": "mlabonne/ChimeraLlama-3-8B-v3",
+  "benchmark_name": "average",
+  "score": 20.697130053703557,
+  "score_raw": 20.697130053703557,
+  "evaluation_date": "2024-05-01",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2554
+}

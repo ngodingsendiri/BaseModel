@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-awnr-mistral-7b-v0-1-signtensors-5-over-16",
+  "model_id": "awnr/Mistral-7B-v0.1-signtensors-5-over-16",
+  "benchmark_name": "bbh",
+  "score": 17.543031293477835,
+  "score_raw": 17.543031293477835,
+  "evaluation_date": "2024-07-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3362
+}

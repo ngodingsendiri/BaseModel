@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-zeroxclem-qwen2-5-7b-homeranvita-nerdmix",
+  "model_id": "ZeroXClem/Qwen2.5-7B-HomerAnvita-NerdMix",
+  "benchmark_name": "bbh",
+  "score": 36.579205629985445,
+  "score_raw": 36.579205629985445,
+  "evaluation_date": "2024-11-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1126
+}

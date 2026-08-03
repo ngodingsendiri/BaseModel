@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-theprint-rewiz-7b",
+  "model_id": "theprint/ReWiz-7B",
+  "benchmark_name": "mmlu-pro",
+  "score": 18.559766548463354,
+  "score_raw": 18.559766548463354,
+  "evaluation_date": "2024-10-08",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3279
+}

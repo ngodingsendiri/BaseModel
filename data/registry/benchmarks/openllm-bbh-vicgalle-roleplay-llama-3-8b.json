@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-vicgalle-roleplay-llama-3-8b",
+  "model_id": "vicgalle/Roleplay-Llama-3-8B",
+  "benchmark_name": "bbh",
+  "score": 28.554603909240623,
+  "score_raw": 28.554603909240623,
+  "evaluation_date": "2024-04-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2420
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-raphgg-test-2-5-72b",
+  "model_id": "raphgg/test-2.5-72B",
+  "benchmark_name": "musr",
+  "score": 20.515104166666664,
+  "score_raw": 20.515104166666664,
+  "evaluation_date": "2023-07-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 200
+}

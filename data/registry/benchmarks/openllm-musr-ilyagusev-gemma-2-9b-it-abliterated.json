@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-ilyagusev-gemma-2-9b-it-abliterated",
+  "model_id": "IlyaGusev/gemma-2-9b-it-abliterated",
+  "benchmark_name": "musr",
+  "score": 9.320572916666668,
+  "score_raw": 9.320572916666668,
+  "evaluation_date": "2024-07-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2497
+}

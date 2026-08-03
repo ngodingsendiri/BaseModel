@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-dwikitheduck-gemma-2-2b-id-inst",
+  "model_id": "dwikitheduck/gemma-2-2b-id-inst",
+  "benchmark_name": "average",
+  "score": 14.849648233221265,
+  "score_raw": 14.849648233221265,
+  "evaluation_date": "2024-10-24",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3317
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-norquinal-golf",
+  "model_id": "Norquinal/Golf",
+  "benchmark_name": "gpqa",
+  "score": 5.369127516778524,
+  "score_raw": 5.369127516778524,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2501
+}

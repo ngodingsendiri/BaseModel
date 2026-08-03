@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-t145-llama-3-1-8b-zeus",
+  "model_id": "T145/Llama-3.1-8B-Zeus",
+  "benchmark_name": "average",
+  "score": 9.076440481991643,
+  "score_raw": 9.076440481991643,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3779
+}

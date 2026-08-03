@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-sanjiwatsuki-kunoichi-dpo-v2-7b",
+  "model_id": "SanjiWatsuki/Kunoichi-DPO-v2-7B",
+  "benchmark_name": "ifeval",
+  "score": 54.31034100630771,
+  "score_raw": 54.31034100630771,
+  "evaluation_date": "2024-01-13",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1575
+}

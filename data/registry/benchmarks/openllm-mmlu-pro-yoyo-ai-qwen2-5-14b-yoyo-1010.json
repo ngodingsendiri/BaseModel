@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-yoyo-ai-qwen2-5-14b-yoyo-1010",
+  "model_id": "YOYO-AI/Qwen2.5-14B-YOYO-1010",
+  "benchmark_name": "mmlu-pro",
+  "score": 43.82572399527187,
+  "score_raw": 43.82572399527187,
+  "evaluation_date": "2025-01-25",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 578
+}

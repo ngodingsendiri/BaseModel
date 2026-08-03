@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-weathermanj-menda-3b-optim-200",
+  "model_id": "weathermanj/Menda-3b-Optim-200",
+  "benchmark_name": "musr",
+  "score": 8.712760416666667,
+  "score_raw": 8.712760416666667,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2649
+}

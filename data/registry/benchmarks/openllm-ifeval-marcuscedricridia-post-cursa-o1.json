@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-marcuscedricridia-post-cursa-o1",
+  "model_id": "marcuscedricridia/post-cursa-o1",
+  "benchmark_name": "ifeval",
+  "score": 76.28215357473725,
+  "score_raw": 76.28215357473725,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 367
+}

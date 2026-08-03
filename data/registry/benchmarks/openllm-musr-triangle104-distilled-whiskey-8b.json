@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-triangle104-distilled-whiskey-8b",
+  "model_id": "Triangle104/Distilled-Whiskey-8b",
+  "benchmark_name": "musr",
+  "score": 11.219010416666663,
+  "score_raw": 11.219010416666663,
+  "evaluation_date": "2025-01-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1899
+}

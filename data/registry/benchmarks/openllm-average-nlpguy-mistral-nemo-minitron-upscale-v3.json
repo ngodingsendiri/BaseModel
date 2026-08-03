@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nlpguy-mistral-nemo-minitron-upscale-v3",
+  "model_id": "nlpguy/Mistral-NeMo-Minitron-Upscale-v3",
+  "benchmark_name": "average",
+  "score": 5.202259190321894,
+  "score_raw": 5.202259190321894,
+  "evaluation_date": "2024-10-04",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4261
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-cadence-8b-linear",
+  "model_id": "DreadPoor/Cadence-8B-LINEAR",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.146572104018905,
+  "score_raw": 31.146572104018905,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1577
+}

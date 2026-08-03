@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-isaak-carter-josiefied-qwen2-5-7b-instruct-abliterated",
+  "model_id": "Isaak-Carter/Josiefied-Qwen2.5-7B-Instruct-abliterated",
+  "benchmark_name": "gpqa",
+  "score": 7.046979865771815,
+  "score_raw": 7.046979865771815,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1845
+}

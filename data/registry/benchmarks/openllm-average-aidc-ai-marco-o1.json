@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-aidc-ai-marco-o1",
+  "model_id": "AIDC-AI/Marco-o1",
+  "benchmark_name": "average",
+  "score": 27.639223265636087,
+  "score_raw": 27.639223265636087,
+  "evaluation_date": "2024-11-13",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1333
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-orion-zhen-phi-4-abliterated",
+  "model_id": "Orion-zhen/phi-4-abliterated",
+  "benchmark_name": "bbh",
+  "score": 52.45712922578372,
+  "score_raw": 52.45712922578372,
+  "evaluation_date": "2024-12-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 217
+}

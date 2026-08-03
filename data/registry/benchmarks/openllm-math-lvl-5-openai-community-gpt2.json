@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-openai-community-gpt2",
+  "model_id": "openai-community/gpt2",
+  "benchmark_name": "math-lvl-5",
+  "score": 0.22658610271903326,
+  "score_raw": 0.22658610271903326,
+  "evaluation_date": "2022-03-02",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4405
+}

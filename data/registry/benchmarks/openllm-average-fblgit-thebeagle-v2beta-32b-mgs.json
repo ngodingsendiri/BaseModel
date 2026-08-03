@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-fblgit-thebeagle-v2beta-32b-mgs",
+  "model_id": "fblgit/TheBeagle-v2beta-32B-MGS",
+  "benchmark_name": "average",
+  "score": 40.286669657817164,
+  "score_raw": 40.286669657817164,
+  "evaluation_date": "2024-10-20",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 247
+}

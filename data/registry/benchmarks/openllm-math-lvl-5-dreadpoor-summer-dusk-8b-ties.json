@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-dreadpoor-summer-dusk-8b-ties",
+  "model_id": "DreadPoor/Summer_Dusk-8B-TIES",
+  "benchmark_name": "math-lvl-5",
+  "score": 18.051359516616312,
+  "score_raw": 18.051359516616312,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1473
+}

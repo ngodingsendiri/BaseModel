@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-recoilme-gemma-2-ataraxy-gemmasutra-9b-slerp",
+  "model_id": "recoilme/Gemma-2-Ataraxy-Gemmasutra-9B-slerp",
+  "benchmark_name": "bbh",
+  "score": 42.25120987807252,
+  "score_raw": 42.25120987807252,
+  "evaluation_date": "2024-09-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 854
+}

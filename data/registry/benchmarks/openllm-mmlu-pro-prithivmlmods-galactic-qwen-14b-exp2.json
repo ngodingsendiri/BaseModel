@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-prithivmlmods-galactic-qwen-14b-exp2",
+  "model_id": "prithivMLmods/Galactic-Qwen-14B-Exp2",
+  "benchmark_name": "mmlu-pro",
+  "score": 52.11842494089834,
+  "score_raw": 52.11842494089834,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 45
+}

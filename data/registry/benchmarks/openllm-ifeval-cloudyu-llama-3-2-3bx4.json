@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-cloudyu-llama-3-2-3bx4",
+  "model_id": "cloudyu/Llama-3.2-3Bx4",
+  "benchmark_name": "ifeval",
+  "score": 50.685846886261785,
+  "score_raw": 50.685846886261785,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1804
+}

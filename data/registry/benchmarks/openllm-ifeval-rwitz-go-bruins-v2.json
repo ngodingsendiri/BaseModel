@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-rwitz-go-bruins-v2",
+  "model_id": "rwitz/go-bruins-v2",
+  "benchmark_name": "ifeval",
+  "score": 40.958877999264175,
+  "score_raw": 40.958877999264175,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2671
+}

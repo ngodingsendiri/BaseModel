@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-ladydaina-ece-fdf",
+  "model_id": "ladydaina/ECE-FDF",
+  "benchmark_name": "musr",
+  "score": 15.899479166666666,
+  "score_raw": 15.899479166666666,
+  "evaluation_date": "2024-11-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 714
+}

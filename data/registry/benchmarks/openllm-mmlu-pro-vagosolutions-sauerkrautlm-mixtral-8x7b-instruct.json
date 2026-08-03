@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-vagosolutions-sauerkrautlm-mixtral-8x7b-instruct",
+  "model_id": "VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.44739952718675,
+  "score_raw": 29.44739952718675,
+  "evaluation_date": "2023-12-15",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1962
+}

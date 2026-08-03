@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-xinchen9-mistral-7b-cot",
+  "model_id": "xinchen9/Mistral-7B-CoT",
+  "benchmark_name": "average",
+  "score": 11.26567589705759,
+  "score_raw": 11.26567589705759,
+  "evaluation_date": "2024-09-09",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3650
+}

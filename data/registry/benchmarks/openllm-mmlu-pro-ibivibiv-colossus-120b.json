@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ibivibiv-colossus-120b",
+  "model_id": "ibivibiv/colossus_120b",
+  "benchmark_name": "mmlu-pro",
+  "score": 32.901152482269495,
+  "score_raw": 32.901152482269495,
+  "evaluation_date": "2024-04-12",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1238
+}

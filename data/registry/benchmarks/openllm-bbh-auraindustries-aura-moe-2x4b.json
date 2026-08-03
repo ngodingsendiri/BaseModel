@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-auraindustries-aura-moe-2x4b",
+  "model_id": "AuraIndustries/Aura-MoE-2x4B",
+  "benchmark_name": "bbh",
+  "score": 20.61384808360901,
+  "score_raw": 20.61384808360901,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3167
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-bunnycore-phi-3-5-mini-titanfusion-0-1",
+  "model_id": "bunnycore/Phi-3.5-mini-TitanFusion-0.1",
+  "benchmark_name": "bbh",
+  "score": 35.446219076522446,
+  "score_raw": 35.446219076522446,
+  "evaluation_date": "2024-10-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1299
+}

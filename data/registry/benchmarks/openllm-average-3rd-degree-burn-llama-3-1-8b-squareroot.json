@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-3rd-degree-burn-llama-3-1-8b-squareroot",
+  "model_id": "3rd-Degree-Burn/Llama-3.1-8B-Squareroot",
+  "benchmark_name": "average",
+  "score": 11.223740793316347,
+  "score_raw": 11.223740793316347,
+  "evaluation_date": "2024-10-10",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3655
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ymcki-gemma-2-2b-jpn-it-abliterated-24",
+  "model_id": "ymcki/gemma-2-2b-jpn-it-abliterated-24",
+  "benchmark_name": "average",
+  "score": 16.334186539569448,
+  "score_raw": 16.334186539569448,
+  "evaluation_date": "2024-10-24",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3159
+}

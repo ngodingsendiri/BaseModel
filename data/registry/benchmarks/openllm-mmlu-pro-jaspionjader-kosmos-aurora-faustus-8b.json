@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-jaspionjader-kosmos-aurora-faustus-8b",
+  "model_id": "jaspionjader/Kosmos-Aurora_faustus-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.257387706855795,
+  "score_raw": 31.257387706855795,
+  "evaluation_date": "2024-12-27",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1547
+}

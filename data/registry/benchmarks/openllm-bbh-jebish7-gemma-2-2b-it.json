@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-jebish7-gemma-2-2b-it",
+  "model_id": "jebish7/gemma-2-2b-it",
+  "benchmark_name": "bbh",
+  "score": 20.91911520531148,
+  "score_raw": 20.91911520531148,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3144
+}

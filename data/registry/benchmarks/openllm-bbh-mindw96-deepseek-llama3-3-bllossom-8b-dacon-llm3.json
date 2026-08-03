@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-mindw96-deepseek-llama3-3-bllossom-8b-dacon-llm3",
+  "model_id": "mindw96/DeepSeek-llama3.3-Bllossom-8B-DACON-LLM3",
+  "benchmark_name": "bbh",
+  "score": 3.315965497566667,
+  "score_raw": 3.315965497566667,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4269
+}

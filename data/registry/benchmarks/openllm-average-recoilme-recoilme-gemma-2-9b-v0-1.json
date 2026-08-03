@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-recoilme-recoilme-gemma-2-9b-v0-1",
+  "model_id": "recoilme/recoilme-gemma-2-9B-v0.1",
+  "benchmark_name": "average",
+  "score": 32.72459862019961,
+  "score_raw": 32.72459862019961,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 801
+}

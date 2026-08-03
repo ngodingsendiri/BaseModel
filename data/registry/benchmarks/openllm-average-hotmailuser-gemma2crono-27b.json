@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-hotmailuser-gemma2crono-27b",
+  "model_id": "hotmailuser/Gemma2Crono-27B",
+  "benchmark_name": "average",
+  "score": 36.28874920037128,
+  "score_raw": 36.28874920037128,
+  "evaluation_date": "2024-12-02",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 540
+}

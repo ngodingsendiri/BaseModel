@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-godlikehhd-ifd-new-correct-sample-2500-qwen",
+  "model_id": "godlikehhd/ifd_new_correct_sample_2500_qwen",
+  "benchmark_name": "gpqa",
+  "score": 7.718120805369133,
+  "score_raw": 7.718120805369133,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1566
+}

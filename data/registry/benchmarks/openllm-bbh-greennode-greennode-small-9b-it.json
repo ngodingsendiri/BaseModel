@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-greennode-greennode-small-9b-it",
+  "model_id": "GreenNode/GreenNode-small-9B-it",
+  "benchmark_name": "bbh",
+  "score": 41.899925635193455,
+  "score_raw": 41.899925635193455,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 872
+}

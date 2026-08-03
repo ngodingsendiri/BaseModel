@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-prithivmlmods-qwq-lcot-7b-instruct",
+  "model_id": "prithivMLmods/QwQ-LCoT-7B-Instruct",
+  "benchmark_name": "bbh",
+  "score": 34.780933423406445,
+  "score_raw": 34.780933423406445,
+  "evaluation_date": "2024-12-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1393
+}

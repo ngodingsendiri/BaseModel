@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-alsebay-qwen2-5-7b-test-novelist",
+  "model_id": "Alsebay/Qwen2.5-7B-test-novelist",
+  "benchmark_name": "bbh",
+  "score": 30.417500036352994,
+  "score_raw": 30.417500036352994,
+  "evaluation_date": "2024-12-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2130
+}

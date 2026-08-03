@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-lesubra-merge-test",
+  "model_id": "lesubra/merge-test",
+  "benchmark_name": "bbh",
+  "score": 33.353311441745,
+  "score_raw": 33.353311441745,
+  "evaluation_date": "2024-09-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1582
+}

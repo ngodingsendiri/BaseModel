@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-deepmount00-llama-3-1-distilled",
+  "model_id": "DeepMount00/Llama-3.1-Distilled",
+  "benchmark_name": "average",
+  "score": 29.631398468956544,
+  "score_raw": 29.631398468956544,
+  "evaluation_date": "2024-10-25",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1092
+}

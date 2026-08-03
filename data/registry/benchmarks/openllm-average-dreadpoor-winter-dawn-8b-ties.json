@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-dreadpoor-winter-dawn-8b-ties",
+  "model_id": "DreadPoor/Winter_Dawn-8B-TIES",
+  "benchmark_name": "average",
+  "score": 26.797849910055774,
+  "score_raw": 26.797849910055774,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1411
+}

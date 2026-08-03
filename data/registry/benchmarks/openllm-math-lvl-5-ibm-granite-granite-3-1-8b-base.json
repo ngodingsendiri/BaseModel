@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-ibm-granite-granite-3-1-8b-base",
+  "model_id": "ibm-granite/granite-3.1-8b-base",
+  "benchmark_name": "math-lvl-5",
+  "score": 9.441087613293051,
+  "score_raw": 9.441087613293051,
+  "evaluation_date": "2024-12-06",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2469
+}

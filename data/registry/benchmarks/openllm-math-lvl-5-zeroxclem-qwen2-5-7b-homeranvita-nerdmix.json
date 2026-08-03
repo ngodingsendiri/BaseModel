@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-zeroxclem-qwen2-5-7b-homeranvita-nerdmix",
+  "model_id": "ZeroXClem/Qwen2.5-7B-HomerAnvita-NerdMix",
+  "benchmark_name": "math-lvl-5",
+  "score": 38.368580060422964,
+  "score_raw": 38.368580060422964,
+  "evaluation_date": "2024-11-21",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 509
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-allknowingroger-mistralphi3-11b",
+  "model_id": "allknowingroger/MistralPhi3-11B",
+  "benchmark_name": "musr",
+  "score": 12.23463541666667,
+  "score_raw": 12.23463541666667,
+  "evaluation_date": "2024-08-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1515
+}

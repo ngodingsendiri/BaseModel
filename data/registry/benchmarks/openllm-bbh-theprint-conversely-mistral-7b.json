@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-theprint-conversely-mistral-7b",
+  "model_id": "theprint/Conversely-Mistral-7B",
+  "benchmark_name": "bbh",
+  "score": 25.70696557300103,
+  "score_raw": 25.70696557300103,
+  "evaluation_date": "2024-12-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2758
+}

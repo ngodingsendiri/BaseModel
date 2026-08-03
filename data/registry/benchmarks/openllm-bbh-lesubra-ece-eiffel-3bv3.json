@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-lesubra-ece-eiffel-3bv3",
+  "model_id": "lesubra/ECE-EIFFEL-3Bv3",
+  "benchmark_name": "bbh",
+  "score": 36.46408334995511,
+  "score_raw": 36.46408334995511,
+  "evaluation_date": "2024-10-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1140
+}

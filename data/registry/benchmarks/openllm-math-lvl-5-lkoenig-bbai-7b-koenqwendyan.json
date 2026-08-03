@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-lkoenig-bbai-7b-koenqwendyan",
+  "model_id": "lkoenig/BBAI_7B_KoenQwenDyan",
+  "benchmark_name": "math-lvl-5",
+  "score": 37.38670694864049,
+  "score_raw": 37.38670694864049,
+  "evaluation_date": "2025-03-02",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 552
+}

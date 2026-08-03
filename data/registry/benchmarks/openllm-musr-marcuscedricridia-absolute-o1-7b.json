@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-marcuscedricridia-absolute-o1-7b",
+  "model_id": "marcuscedricridia/absolute-o1-7b",
+  "benchmark_name": "musr",
+  "score": 10.32057291666667,
+  "score_raw": 10.32057291666667,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2195
+}

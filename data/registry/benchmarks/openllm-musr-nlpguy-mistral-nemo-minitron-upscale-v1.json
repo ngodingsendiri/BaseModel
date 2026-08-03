@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-nlpguy-mistral-nemo-minitron-upscale-v1",
+  "model_id": "nlpguy/Mistral-NeMo-Minitron-Upscale-v1",
+  "benchmark_name": "musr",
+  "score": 4.8442708333333355,
+  "score_raw": 4.8442708333333355,
+  "evaluation_date": "2024-09-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3485
+}

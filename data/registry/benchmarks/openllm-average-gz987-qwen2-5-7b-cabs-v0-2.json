@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-gz987-qwen2-5-7b-cabs-v0-2",
+  "model_id": "gz987/qwen2.5-7b-cabs-v0.2",
+  "benchmark_name": "average",
+  "score": 36.614018827547945,
+  "score_raw": 36.614018827547945,
+  "evaluation_date": "2025-02-18",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 507
+}

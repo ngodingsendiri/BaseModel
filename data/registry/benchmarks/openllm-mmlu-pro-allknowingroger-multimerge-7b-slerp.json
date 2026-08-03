@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-allknowingroger-multimerge-7b-slerp",
+  "model_id": "allknowingroger/MultiMerge-7B-slerp",
+  "benchmark_name": "mmlu-pro",
+  "score": 22.632239952718678,
+  "score_raw": 22.632239952718678,
+  "evaluation_date": "2024-04-11",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2847
+}

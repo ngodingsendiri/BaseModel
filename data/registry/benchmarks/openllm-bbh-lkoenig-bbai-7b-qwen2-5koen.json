@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-lkoenig-bbai-7b-qwen2-5koen",
+  "model_id": "lkoenig/BBAI_7B_Qwen2.5koen",
+  "benchmark_name": "bbh",
+  "score": 36.307407586886015,
+  "score_raw": 36.307407586886015,
+  "evaluation_date": "2025-03-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1174
+}

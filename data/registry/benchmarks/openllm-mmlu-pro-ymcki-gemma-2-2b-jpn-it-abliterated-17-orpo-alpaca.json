@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ymcki-gemma-2-2b-jpn-it-abliterated-17-orpo-alpaca",
+  "model_id": "ymcki/gemma-2-2b-jpn-it-abliterated-17-ORPO-alpaca",
+  "benchmark_name": "mmlu-pro",
+  "score": 13.877807328605199,
+  "score_raw": 13.877807328605199,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3510
+}

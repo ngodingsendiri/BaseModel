@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-epistemeai2-fireball-llama-3-1-8b-philos-reflection",
+  "model_id": "EpistemeAI2/Fireball-Llama-3.1-8B-Philos-Reflection",
+  "benchmark_name": "average",
+  "score": 20.37672090429901,
+  "score_raw": 20.37672090429901,
+  "evaluation_date": "2024-09-17",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2617
+}

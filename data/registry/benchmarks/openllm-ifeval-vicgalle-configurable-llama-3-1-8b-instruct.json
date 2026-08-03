@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-vicgalle-configurable-llama-3-1-8b-instruct",
+  "model_id": "vicgalle/Configurable-Llama-3.1-8B-Instruct",
+  "benchmark_name": "ifeval",
+  "score": 83.12399987588486,
+  "score_raw": 83.12399987588486,
+  "evaluation_date": "2024-07-24",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 34
+}

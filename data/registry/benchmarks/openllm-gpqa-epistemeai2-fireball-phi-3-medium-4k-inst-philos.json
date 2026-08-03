@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-epistemeai2-fireball-phi-3-medium-4k-inst-philos",
+  "model_id": "EpistemeAI2/Fireball-Phi-3-medium-4k-inst-Philos",
+  "benchmark_name": "gpqa",
+  "score": 10.96196868008949,
+  "score_raw": 10.96196868008949,
+  "evaluation_date": "2024-09-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 839
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-combinhorizon-josiefied-abliteratedv4-qwen2-5-14b-inst-basemerge-ties",
+  "model_id": "CombinHorizon/Josiefied-abliteratedV4-Qwen2.5-14B-Inst-BaseMerge-TIES",
+  "benchmark_name": "average",
+  "score": 41.765081012881176,
+  "score_raw": 41.765081012881176,
+  "evaluation_date": "2024-12-07",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 131
+}

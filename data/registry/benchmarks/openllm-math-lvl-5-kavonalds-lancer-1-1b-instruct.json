@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-kavonalds-lancer-1-1b-instruct",
+  "model_id": "kavonalds/Lancer-1-1b-Instruct",
+  "benchmark_name": "math-lvl-5",
+  "score": 3.927492447129909,
+  "score_raw": 3.927492447129909,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3533
+}

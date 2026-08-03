@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-minami-su-amara-o2-7b-qwen",
+  "model_id": "Minami-su/Amara-o2-7B-Qwen",
+  "benchmark_name": "ifeval",
+  "score": 71.46615424850509,
+  "score_raw": 71.46615424850509,
+  "evaluation_date": "2025-01-09",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 681
+}

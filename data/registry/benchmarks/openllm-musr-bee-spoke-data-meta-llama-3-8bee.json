@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-bee-spoke-data-meta-llama-3-8bee",
+  "model_id": "BEE-spoke-data/Meta-Llama-3-8Bee",
+  "benchmark_name": "musr",
+  "score": 6.242447916666666,
+  "score_raw": 6.242447916666666,
+  "evaluation_date": "2024-04-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3197
+}

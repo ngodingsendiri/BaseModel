@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-allknowingroger-rombos-llm-v2-5-qwen-42b",
+  "model_id": "allknowingroger/Rombos-LLM-V2.5-Qwen-42b",
+  "benchmark_name": "average",
+  "score": 4.559640996200532,
+  "score_raw": 4.559640996200532,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4360
+}

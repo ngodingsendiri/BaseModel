@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-epistemeai-polypsyche-llama-3-1-8b-instruct-agent-0-003-128k-code-ds-auto-empathy",
+  "model_id": "EpistemeAI/Polypsyche-Llama-3.1-8B-Instruct-Agent-0.003-128K-code-ds-auto-Empathy",
+  "benchmark_name": "ifeval",
+  "score": 71.0090338080737,
+  "score_raw": 71.0090338080737,
+  "evaluation_date": "2024-12-13",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 711
+}

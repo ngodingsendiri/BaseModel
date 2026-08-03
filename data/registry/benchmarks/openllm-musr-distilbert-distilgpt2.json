@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-distilbert-distilgpt2",
+  "model_id": "distilbert/distilgpt2",
+  "benchmark_name": "musr",
+  "score": 11.1578125,
+  "score_raw": 11.1578125,
+  "evaluation_date": "2022-03-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1921
+}

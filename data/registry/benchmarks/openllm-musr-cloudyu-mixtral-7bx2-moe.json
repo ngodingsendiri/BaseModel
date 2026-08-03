@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-cloudyu-mixtral-7bx2-moe",
+  "model_id": "cloudyu/Mixtral_7Bx2_MoE",
+  "benchmark_name": "musr",
+  "score": 14.644791666666661,
+  "score_raw": 14.644791666666661,
+  "evaluation_date": "2023-12-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 923
+}

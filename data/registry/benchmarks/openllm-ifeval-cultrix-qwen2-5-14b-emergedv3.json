@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-cultrix-qwen2-5-14b-emergedv3",
+  "model_id": "CultriX/Qwen2.5-14B-Emergedv3",
+  "benchmark_name": "ifeval",
+  "score": 63.884936413161526,
+  "score_raw": 63.884936413161526,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1075
+}

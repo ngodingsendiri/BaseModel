@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-norquinal-charlie",
+  "model_id": "Norquinal/Charlie",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.250960401891252,
+  "score_raw": 23.250960401891252,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2758
+}

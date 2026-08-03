@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-brgx53-barracuda-prymmal-ece-tw3",
+  "model_id": "brgx53/Barracuda-PRYMMAL-ECE-TW3",
+  "benchmark_name": "bbh",
+  "score": 2.753426597884674,
+  "score_raw": 2.753426597884674,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4361
+}

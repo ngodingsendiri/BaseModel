@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-jacoby746-proto-harpy-spark-v0-1-7b",
+  "model_id": "Jacoby746/Proto-Harpy-Spark-v0.1-7B",
+  "benchmark_name": "ifeval",
+  "score": 43.32692810631347,
+  "score_raw": 43.32692810631347,
+  "evaluation_date": "2024-09-22",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2472
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-fluently-sets-falconthink3-10b-it",
+  "model_id": "fluently-sets/FalconThink3-10B-IT",
+  "benchmark_name": "mmlu-pro",
+  "score": 38.16489361702128,
+  "score_raw": 38.16489361702128,
+  "evaluation_date": "2024-12-29",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 813
+}

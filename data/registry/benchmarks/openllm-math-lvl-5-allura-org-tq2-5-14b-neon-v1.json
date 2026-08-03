@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-allura-org-tq2-5-14b-neon-v1",
+  "model_id": "allura-org/TQ2.5-14B-Neon-v1",
+  "benchmark_name": "math-lvl-5",
+  "score": 36.027190332326285,
+  "score_raw": 36.027190332326285,
+  "evaluation_date": "2024-12-19",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 613
+}

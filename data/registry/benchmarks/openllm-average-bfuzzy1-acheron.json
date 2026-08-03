@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-bfuzzy1-acheron",
+  "model_id": "bfuzzy1/acheron",
+  "benchmark_name": "average",
+  "score": 4.974672842034184,
+  "score_raw": 4.974672842034184,
+  "evaluation_date": "2024-10-12",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4305
+}

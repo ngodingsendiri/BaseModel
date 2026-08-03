@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-jayhyeon-qwen-0-5b-irpo-5epoch",
+  "model_id": "JayHyeon/Qwen-0.5B-IRPO-5epoch",
+  "benchmark_name": "bbh",
+  "score": 5.7113344972692275,
+  "score_raw": 5.7113344972692275,
+  "evaluation_date": "2024-12-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4064
+}

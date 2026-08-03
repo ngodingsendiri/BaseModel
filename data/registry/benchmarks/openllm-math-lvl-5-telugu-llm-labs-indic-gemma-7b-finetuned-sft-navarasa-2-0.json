@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-telugu-llm-labs-indic-gemma-7b-finetuned-sft-navarasa-2-0",
+  "model_id": "Telugu-LLM-Labs/Indic-gemma-7b-finetuned-sft-Navarasa-2.0",
+  "benchmark_name": "math-lvl-5",
+  "score": 2.56797583081571,
+  "score_raw": 2.56797583081571,
+  "evaluation_date": "2024-03-17",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3798
+}

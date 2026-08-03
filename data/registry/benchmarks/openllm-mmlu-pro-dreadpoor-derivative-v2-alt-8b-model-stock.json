@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-derivative-v2-alt-8b-model-stock",
+  "model_id": "DreadPoor/Derivative_V2_ALT-8B-Model_Stock",
+  "benchmark_name": "mmlu-pro",
+  "score": 32.023862293144205,
+  "score_raw": 32.023862293144205,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1377
+}

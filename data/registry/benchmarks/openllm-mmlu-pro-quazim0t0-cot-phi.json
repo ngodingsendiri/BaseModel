@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-quazim0t0-cot-phi",
+  "model_id": "Quazim0t0/CoT_Phi",
+  "benchmark_name": "mmlu-pro",
+  "score": 43.345523049645394,
+  "score_raw": 43.345523049645394,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 592
+}

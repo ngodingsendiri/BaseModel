@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-theprint-boptruth-agatha-7b",
+  "model_id": "theprint/Boptruth-Agatha-7B",
+  "benchmark_name": "musr",
+  "score": 11.758333333333335,
+  "score_raw": 11.758333333333335,
+  "evaluation_date": "2024-09-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1682
+}

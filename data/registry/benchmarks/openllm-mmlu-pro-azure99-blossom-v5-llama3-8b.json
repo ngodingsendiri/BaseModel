@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-azure99-blossom-v5-llama3-8b",
+  "model_id": "Azure99/blossom-v5-llama3-8b",
+  "benchmark_name": "mmlu-pro",
+  "score": 13.397606382978722,
+  "score_raw": 13.397606382978722,
+  "evaluation_date": "2024-04-20",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3524
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-dreadpoor-morphing-8b-model-stock",
+  "model_id": "DreadPoor/Morphing-8B-Model_Stock",
+  "benchmark_name": "math-lvl-5",
+  "score": 18.882175226586103,
+  "score_raw": 18.882175226586103,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1405
+}

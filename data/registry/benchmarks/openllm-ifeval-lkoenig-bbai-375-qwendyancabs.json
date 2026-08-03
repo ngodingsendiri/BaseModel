@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-lkoenig-bbai-375-qwendyancabs",
+  "model_id": "lkoenig/BBAI_375_QwenDyancabs",
+  "benchmark_name": "ifeval",
+  "score": 45.657522041516515,
+  "score_raw": 45.657522041516515,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2231
+}

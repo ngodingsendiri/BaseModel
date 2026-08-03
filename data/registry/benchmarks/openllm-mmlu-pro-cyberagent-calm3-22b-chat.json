@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-cyberagent-calm3-22b-chat",
+  "model_id": "cyberagent/calm3-22b-chat",
+  "benchmark_name": "mmlu-pro",
+  "score": 21.66260342789598,
+  "score_raw": 21.66260342789598,
+  "evaluation_date": "2024-07-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2976
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-neversleep-lumimaid-v0-2-8b",
+  "model_id": "NeverSleep/Lumimaid-v0.2-8B",
+  "benchmark_name": "average",
+  "score": 24.41199658071584,
+  "score_raw": 24.41199658071584,
+  "evaluation_date": "2024-07-24",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1723
+}

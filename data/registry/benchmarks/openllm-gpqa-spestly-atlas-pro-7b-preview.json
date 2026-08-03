@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-spestly-atlas-pro-7b-preview",
+  "model_id": "Spestly/Atlas-Pro-7B-Preview",
+  "benchmark_name": "gpqa",
+  "score": 11.633109619686799,
+  "score_raw": 11.633109619686799,
+  "evaluation_date": "2025-01-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 752
+}

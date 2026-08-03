@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-wladastic-mini-think-base-1b",
+  "model_id": "Wladastic/Mini-Think-Base-1B",
+  "benchmark_name": "musr",
+  "score": 3.1361979166666676,
+  "score_raw": 3.1361979166666676,
+  "evaluation_date": "2025-02-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3895
+}

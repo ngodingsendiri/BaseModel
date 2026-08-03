@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sethuiyer-llamaverse-3-1-8b-instruct",
+  "model_id": "sethuiyer/Llamaverse-3.1-8B-Instruct",
+  "benchmark_name": "musr",
+  "score": 8.420833333333336,
+  "score_raw": 8.420833333333336,
+  "evaluation_date": "2025-01-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2718
+}

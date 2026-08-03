@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-nbeerbower-gemma2-gutenberg-doppel-9b",
+  "model_id": "nbeerbower/Gemma2-Gutenberg-Doppel-9B",
+  "benchmark_name": "gpqa",
+  "score": 10.626398210290827,
+  "score_raw": 10.626398210290827,
+  "evaluation_date": "2024-09-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 896
+}

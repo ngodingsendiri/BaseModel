@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-01-ai-yi-9b-200k",
+  "model_id": "01-ai/Yi-9B-200K",
+  "benchmark_name": "musr",
+  "score": 12.109114583333332,
+  "score_raw": 12.109114583333332,
+  "evaluation_date": "2024-03-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1553
+}

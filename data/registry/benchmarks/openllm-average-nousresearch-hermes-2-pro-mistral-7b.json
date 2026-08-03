@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nousresearch-hermes-2-pro-mistral-7b",
+  "model_id": "NousResearch/Hermes-2-Pro-Mistral-7B",
+  "benchmark_name": "average",
+  "score": 21.840576807207686,
+  "score_raw": 21.840576807207686,
+  "evaluation_date": "2024-03-11",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2303
+}

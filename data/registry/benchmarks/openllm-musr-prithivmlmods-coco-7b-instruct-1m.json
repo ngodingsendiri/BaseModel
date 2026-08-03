@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-prithivmlmods-coco-7b-instruct-1m",
+  "model_id": "prithivMLmods/COCO-7B-Instruct-1M",
+  "benchmark_name": "musr",
+  "score": 13.513281250000004,
+  "score_raw": 13.513281250000004,
+  "evaluation_date": "2025-01-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1163
+}

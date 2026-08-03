@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-etherll-chocolatine-3b-instruct-dpo-revised-ties",
+  "model_id": "Etherll/Chocolatine-3B-Instruct-DPO-Revised-Ties",
+  "benchmark_name": "mmlu-pro",
+  "score": 33.08584515366431,
+  "score_raw": 33.08584515366431,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1220
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-nazimali-mistral-nemo-kurdish",
+  "model_id": "nazimali/Mistral-Nemo-Kurdish",
+  "benchmark_name": "mmlu-pro",
+  "score": 24.830082742316783,
+  "score_raw": 24.830082742316783,
+  "evaluation_date": "2024-10-09",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2537
+}

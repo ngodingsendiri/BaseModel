@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-saishshinde15-tethysai-vortex",
+  "model_id": "saishshinde15/TethysAI_Vortex",
+  "benchmark_name": "mmlu-pro",
+  "score": 24.894725177304963,
+  "score_raw": 24.894725177304963,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2532
+}

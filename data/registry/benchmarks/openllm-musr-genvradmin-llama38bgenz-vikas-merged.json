@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-genvradmin-llama38bgenz-vikas-merged",
+  "model_id": "GenVRadmin/llama38bGenZ_Vikas-Merged",
+  "benchmark_name": "musr",
+  "score": 13.620833333333332,
+  "score_raw": 13.620833333333332,
+  "evaluation_date": "2024-05-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1137
+}

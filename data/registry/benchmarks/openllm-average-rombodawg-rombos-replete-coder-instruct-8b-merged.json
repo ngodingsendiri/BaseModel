@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-rombodawg-rombos-replete-coder-instruct-8b-merged",
+  "model_id": "rombodawg/rombos_Replete-Coder-Instruct-8b-Merged",
+  "benchmark_name": "average",
+  "score": 16.433823987631932,
+  "score_raw": 16.433823987631932,
+  "evaluation_date": "2024-10-06",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3142
+}

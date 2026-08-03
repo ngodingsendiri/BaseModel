@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-tensopolis-qwen2-5-3b-or1-tensopolis",
+  "model_id": "tensopolis/qwen2.5-3b-or1-tensopolis",
+  "benchmark_name": "math-lvl-5",
+  "score": 17.29607250755287,
+  "score_raw": 17.29607250755287,
+  "evaluation_date": "2025-02-15",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1543
+}

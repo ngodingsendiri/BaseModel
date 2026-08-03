@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-stark2008-layleleflampi",
+  "model_id": "Stark2008/LayleleFlamPi",
+  "benchmark_name": "musr",
+  "score": 16.57213541666667,
+  "score_raw": 16.57213541666667,
+  "evaluation_date": "2024-07-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 629
+}

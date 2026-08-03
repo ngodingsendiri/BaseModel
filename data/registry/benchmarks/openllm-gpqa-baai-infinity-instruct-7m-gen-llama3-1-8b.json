@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-baai-infinity-instruct-7m-gen-llama3-1-8b",
+  "model_id": "BAAI/Infinity-Instruct-7M-Gen-Llama3_1-8B",
+  "benchmark_name": "gpqa",
+  "score": 5.7046979865771785,
+  "score_raw": 5.7046979865771785,
+  "evaluation_date": "2024-08-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2364
+}

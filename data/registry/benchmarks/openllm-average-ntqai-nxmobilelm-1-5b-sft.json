@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ntqai-nxmobilelm-1-5b-sft",
+  "model_id": "NTQAI/NxMobileLM-1.5B-SFT",
+  "benchmark_name": "average",
+  "score": 18.734829287552035,
+  "score_raw": 18.734829287552035,
+  "evaluation_date": "2025-01-15",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2859
+}

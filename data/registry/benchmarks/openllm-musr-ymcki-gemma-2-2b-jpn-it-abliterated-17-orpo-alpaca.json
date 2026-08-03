@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-ymcki-gemma-2-2b-jpn-it-abliterated-17-orpo-alpaca",
+  "model_id": "ymcki/gemma-2-2b-jpn-it-abliterated-17-ORPO-alpaca",
+  "benchmark_name": "musr",
+  "score": 7.9145833333333355,
+  "score_raw": 7.9145833333333355,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2875
+}

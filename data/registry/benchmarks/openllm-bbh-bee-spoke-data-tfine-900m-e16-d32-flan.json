@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-bee-spoke-data-tfine-900m-e16-d32-flan",
+  "model_id": "BEE-spoke-data/tFINE-900m-e16-d32-flan",
+  "benchmark_name": "bbh",
+  "score": 4.411893932611097,
+  "score_raw": 4.411893932611097,
+  "evaluation_date": "2024-09-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4171
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-lordjia-llama-3-cantonese-8b-instruct",
+  "model_id": "lordjia/Llama-3-Cantonese-8B-Instruct",
+  "benchmark_name": "math-lvl-5",
+  "score": 8.91238670694864,
+  "score_raw": 8.91238670694864,
+  "evaluation_date": "2024-07-16",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2547
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-bunnycore-qwen-2-5-7b-deep-sky-t1",
+  "model_id": "bunnycore/Qwen-2.5-7B-Deep-Sky-T1",
+  "benchmark_name": "ifeval",
+  "score": 42.08045763019898,
+  "score_raw": 42.08045763019898,
+  "evaluation_date": "2025-02-16",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2583
+}

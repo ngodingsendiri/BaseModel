@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-djuna-l3-1-promissum-mane-8b-della-calc",
+  "model_id": "djuna/L3.1-Promissum_Mane-8B-Della-calc",
+  "benchmark_name": "math-lvl-5",
+  "score": 18.429003021148034,
+  "score_raw": 18.429003021148034,
+  "evaluation_date": "2024-10-07",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1445
+}

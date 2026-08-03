@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-braindao-qwen2-5-14b",
+  "model_id": "braindao/Qwen2.5-14B",
+  "benchmark_name": "musr",
+  "score": 10.444270833333336,
+  "score_raw": 10.444270833333336,
+  "evaluation_date": "2025-03-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2159
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-daemontatox-cogitoz",
+  "model_id": "Daemontatox/CogitoZ",
+  "benchmark_name": "bbh",
+  "score": 53.889571248021504,
+  "score_raw": 53.889571248021504,
+  "evaluation_date": "2025-01-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 168
+}

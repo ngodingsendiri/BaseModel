@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-langgptai-qwen1-5-7b-chat-sa-v0-1",
+  "model_id": "langgptai/qwen1.5-7b-chat-sa-v0.1",
+  "benchmark_name": "bbh",
+  "score": 20.302342129934097,
+  "score_raw": 20.302342129934097,
+  "evaluation_date": "2024-05-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3181
+}

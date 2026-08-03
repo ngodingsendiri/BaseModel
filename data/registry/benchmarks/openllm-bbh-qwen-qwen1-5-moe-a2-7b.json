@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-qwen-qwen1-5-moe-a2-7b",
+  "model_id": "Qwen/Qwen1.5-MoE-A2.7B",
+  "benchmark_name": "bbh",
+  "score": 18.837858500547185,
+  "score_raw": 18.837858500547185,
+  "evaluation_date": "2024-02-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3286
+}

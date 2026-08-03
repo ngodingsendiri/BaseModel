@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-kukedlc-neuralexperiment-7b-magiccoder-v7-5",
+  "model_id": "Kukedlc/NeuralExperiment-7b-MagicCoder-v7.5",
+  "benchmark_name": "bbh",
+  "score": 16.386034485864904,
+  "score_raw": 16.386034485864904,
+  "evaluation_date": "2024-03-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3434
+}

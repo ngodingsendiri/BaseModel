@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-epistemeai-reasoning-llama-3-2-1b-instruct-v1-3",
+  "model_id": "EpistemeAI/Reasoning-Llama-3.2-1B-Instruct-v1.3",
+  "benchmark_name": "ifeval",
+  "score": 32.72816127874041,
+  "score_raw": 32.72816127874041,
+  "evaluation_date": "2025-02-04",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3163
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-monsterapi-gemma-2-2b-lora-monsterinstruct",
+  "model_id": "monsterapi/gemma-2-2b-LoRA-MonsterInstruct",
+  "benchmark_name": "math-lvl-5",
+  "score": 5.0604229607250755,
+  "score_raw": 5.0604229607250755,
+  "evaluation_date": "2024-08-03",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3279
+}

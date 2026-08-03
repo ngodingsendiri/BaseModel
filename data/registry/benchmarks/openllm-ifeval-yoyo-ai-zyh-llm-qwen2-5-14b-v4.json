@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-yoyo-ai-zyh-llm-qwen2-5-14b-v4",
+  "model_id": "YOYO-AI/ZYH-LLM-Qwen2.5-14B-V4",
+  "benchmark_name": "ifeval",
+  "score": 83.64605912312663,
+  "score_raw": 83.64605912312663,
+  "evaluation_date": "2025-03-12",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 28
+}

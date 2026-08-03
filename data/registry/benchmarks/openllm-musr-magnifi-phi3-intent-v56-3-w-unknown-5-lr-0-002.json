@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-magnifi-phi3-intent-v56-3-w-unknown-5-lr-0-002",
+  "model_id": "magnifi/Phi3_intent_v56_3_w_unknown_5_lr_0.002",
+  "benchmark_name": "musr",
+  "score": 9.569791666666667,
+  "score_raw": 9.569791666666667,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2420
+}

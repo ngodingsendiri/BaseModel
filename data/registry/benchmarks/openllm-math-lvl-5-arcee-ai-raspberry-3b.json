@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-arcee-ai-raspberry-3b",
+  "model_id": "arcee-ai/raspberry-3B",
+  "benchmark_name": "math-lvl-5",
+  "score": 10.347432024169184,
+  "score_raw": 10.347432024169184,
+  "evaluation_date": "2024-10-05",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2341
+}

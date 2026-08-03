@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-winter-night-8b-model-stock",
+  "model_id": "DreadPoor/Winter_Night-8B-Model_Stock",
+  "benchmark_name": "musr",
+  "score": 9.595052083333334,
+  "score_raw": 9.595052083333334,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2417
+}

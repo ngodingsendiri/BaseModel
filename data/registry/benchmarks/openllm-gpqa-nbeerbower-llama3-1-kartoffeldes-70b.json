@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-nbeerbower-llama3-1-kartoffeldes-70b",
+  "model_id": "nbeerbower/llama3.1-kartoffeldes-70B",
+  "benchmark_name": "gpqa",
+  "score": 13.534675615212524,
+  "score_raw": 13.534675615212524,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 533
+}

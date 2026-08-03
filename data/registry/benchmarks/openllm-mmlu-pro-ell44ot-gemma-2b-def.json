@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ell44ot-gemma-2b-def",
+  "model_id": "ell44ot/gemma-2b-def",
+  "benchmark_name": "mmlu-pro",
+  "score": 6.3608156028368805,
+  "score_raw": 6.3608156028368805,
+  "evaluation_date": "2024-11-28",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3882
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ayush-singh-llama1b-sft-2",
+  "model_id": "Ayush-Singh/Llama1B-sft-2",
+  "benchmark_name": "average",
+  "score": 3.1693229450767695,
+  "score_raw": 3.1693229450767695,
+  "evaluation_date": "2025-01-28",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4558
+}

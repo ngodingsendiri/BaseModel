@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-tensopolis-qwen2-5-3b-or1-tensopolis",
+  "model_id": "tensopolis/qwen2.5-3b-or1-tensopolis",
+  "benchmark_name": "gpqa",
+  "score": 5.92841163310962,
+  "score_raw": 5.92841163310962,
+  "evaluation_date": "2025-02-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2318
+}

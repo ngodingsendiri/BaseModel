@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-t145-zeus-8b-v18",
+  "model_id": "T145/ZEUS-8B-V18",
+  "benchmark_name": "mmlu-pro",
+  "score": 32.68875591016548,
+  "score_raw": 32.68875591016548,
+  "evaluation_date": "2025-01-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1267
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-leroydyer-spydazweb-ai-humanai-012-instruct-mx",
+  "model_id": "LeroyDyer/SpydazWeb_AI_HumanAI_012_INSTRUCT_MX",
+  "benchmark_name": "gpqa",
+  "score": 5.480984340044745,
+  "score_raw": 5.480984340044745,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2454
+}

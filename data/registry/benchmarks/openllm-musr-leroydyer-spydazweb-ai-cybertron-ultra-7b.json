@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-leroydyer-spydazweb-ai-cybertron-ultra-7b",
+  "model_id": "LeroyDyer/SpydazWeb_AI_CyberTron_Ultra_7b",
+  "benchmark_name": "musr",
+  "score": 10.303125000000003,
+  "score_raw": 10.303125000000003,
+  "evaluation_date": "2024-04-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2202
+}

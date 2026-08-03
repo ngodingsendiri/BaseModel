@@ -2,12 +2,12 @@
   "benchmark_id": "mirror-code-grok-4-5",
   "model_id": "grok-4.5",
   "benchmark_name": "code",
-  "score": 93.75,
-  "score_raw": 1550,
-  "evaluation_date": "2026-08-01",
+  "score": 93.625,
+  "score_raw": 1549,
+  "evaluation_date": "2026-08-03",
   "source": "mirror",
   "category": [
     "code"
   ],
-  "rank": 11
+  "rank": 12
 }

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-lilrg-prymmal-ece-7b-slerp-v5",
+  "model_id": "LilRg/PRYMMAL-ECE-7B-SLERP-V5",
+  "benchmark_name": "musr",
+  "score": 3.193229166666668,
+  "score_raw": 3.193229166666668,
+  "evaluation_date": "2024-10-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3882
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-tensopolis-mistral-small-r1-tensopolis",
+  "model_id": "tensopolis/mistral-small-r1-tensopolis",
+  "benchmark_name": "ifeval",
+  "score": 46.2220242290456,
+  "score_raw": 46.2220242290456,
+  "evaluation_date": "2025-02-08",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2170
+}

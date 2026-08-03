@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-arcee-ai-llama-3-1-supernova-lite",
+  "model_id": "arcee-ai/Llama-3.1-SuperNova-Lite",
+  "benchmark_name": "average",
+  "score": 30.193463980461605,
+  "score_raw": 30.193463980461605,
+  "evaluation_date": "2024-09-10",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 995
+}

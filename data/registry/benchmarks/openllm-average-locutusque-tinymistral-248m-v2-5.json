@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-locutusque-tinymistral-248m-v2-5",
+  "model_id": "Locutusque/TinyMistral-248M-v2.5",
+  "benchmark_name": "average",
+  "score": 4.035439468453137,
+  "score_raw": 4.035439468453137,
+  "evaluation_date": "2024-01-24",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4438
+}

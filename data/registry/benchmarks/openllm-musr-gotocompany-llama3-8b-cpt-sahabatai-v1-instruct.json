@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-gotocompany-llama3-8b-cpt-sahabatai-v1-instruct",
+  "model_id": "GoToCompany/llama3-8b-cpt-sahabatai-v1-instruct",
+  "benchmark_name": "musr",
+  "score": 15.172135416666663,
+  "score_raw": 15.172135416666663,
+  "evaluation_date": "2024-11-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 829
+}

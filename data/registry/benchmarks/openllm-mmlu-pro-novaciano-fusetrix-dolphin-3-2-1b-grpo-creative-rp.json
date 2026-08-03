@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-novaciano-fusetrix-dolphin-3-2-1b-grpo-creative-rp",
+  "model_id": "Novaciano/Fusetrix-Dolphin-3.2-1B-GRPO_Creative_RP",
+  "benchmark_name": "mmlu-pro",
+  "score": 9.149674940898343,
+  "score_raw": 9.149674940898343,
+  "evaluation_date": "2025-03-03",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3661
+}

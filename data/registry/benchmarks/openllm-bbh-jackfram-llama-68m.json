@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-jackfram-llama-68m",
+  "model_id": "JackFram/llama-68m",
+  "benchmark_name": "bbh",
+  "score": 2.5910478068354776,
+  "score_raw": 2.5910478068354776,
+  "evaluation_date": "2023-07-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4391
+}

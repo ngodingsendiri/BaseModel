@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-stellex-vorisatex-7b-preview",
+  "model_id": "StelleX/Vorisatex-7B-preview",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.8450797872340412,
+  "score_raw": 1.8450797872340412,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4204
+}

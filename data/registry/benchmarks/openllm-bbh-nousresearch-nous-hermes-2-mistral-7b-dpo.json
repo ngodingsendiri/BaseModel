@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-nousresearch-nous-hermes-2-mistral-7b-dpo",
+  "model_id": "NousResearch/Nous-Hermes-2-Mistral-7B-DPO",
+  "benchmark_name": "bbh",
+  "score": 27.792545658366084,
+  "score_raw": 27.792545658366084,
+  "evaluation_date": "2024-02-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2535
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-jayasuryajsk-qwen2-5-3b-reasoner",
+  "model_id": "jayasuryajsk/Qwen2.5-3B-reasoner",
+  "benchmark_name": "gpqa",
+  "score": 6.935123042505594,
+  "score_raw": 6.935123042505594,
+  "evaluation_date": "2025-02-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1916
+}

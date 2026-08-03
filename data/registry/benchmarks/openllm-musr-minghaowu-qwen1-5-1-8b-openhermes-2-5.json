@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-minghaowu-qwen1-5-1-8b-openhermes-2-5",
+  "model_id": "minghaowu/Qwen1.5-1.8B-OpenHermes-2.5",
+  "benchmark_name": "musr",
+  "score": 1.0773437500000014,
+  "score_raw": 1.0773437500000014,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4482
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-tangledgroup-tangled-llama-pints-1-5b-v0-2-instruct",
+  "model_id": "tangledgroup/tangled-llama-pints-1.5b-v0.2-instruct",
+  "benchmark_name": "musr",
+  "score": 4.569791666666666,
+  "score_raw": 4.569791666666666,
+  "evaluation_date": "2024-09-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3547
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-tokyotech-llm-llama-3-swallow-8b-instruct-v0-1",
+  "model_id": "tokyotech-llm/Llama-3-Swallow-8B-Instruct-v0.1",
+  "benchmark_name": "gpqa",
+  "score": 5.257270693512303,
+  "score_raw": 5.257270693512303,
+  "evaluation_date": "2024-06-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2569
+}

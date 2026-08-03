@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-oopere-llama-finsent-s",
+  "model_id": "oopere/Llama-FinSent-S",
+  "benchmark_name": "musr",
+  "score": 5.363802083333334,
+  "score_raw": 5.363802083333334,
+  "evaluation_date": "2025-02-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3374
+}

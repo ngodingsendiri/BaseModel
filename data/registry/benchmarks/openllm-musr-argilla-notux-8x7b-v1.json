@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-argilla-notux-8x7b-v1",
+  "model_id": "argilla/notux-8x7b-v1",
+  "benchmark_name": "musr",
+  "score": 10.532552083333334,
+  "score_raw": 10.532552083333334,
+  "evaluation_date": "2023-12-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2132
+}

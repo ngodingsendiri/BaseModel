@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-triangle104-dsr1-distill-llama-lit-8b",
+  "model_id": "Triangle104/DSR1-Distill-Llama-Lit-8B",
+  "benchmark_name": "gpqa",
+  "score": 7.046979865771815,
+  "score_raw": 7.046979865771815,
+  "evaluation_date": "2025-02-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1856
+}

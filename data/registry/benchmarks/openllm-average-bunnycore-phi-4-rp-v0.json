@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-bunnycore-phi-4-rp-v0",
+  "model_id": "bunnycore/Phi-4-RP-v0",
+  "benchmark_name": "average",
+  "score": 38.21180801915013,
+  "score_raw": 38.21180801915013,
+  "evaluation_date": "2025-01-10",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 394
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-experiment-llm-exp-3-q-r",
+  "model_id": "experiment-llm/exp-3-q-r",
+  "benchmark_name": "bbh",
+  "score": 33.9949174008218,
+  "score_raw": 33.9949174008218,
+  "evaluation_date": "2024-12-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1515
+}

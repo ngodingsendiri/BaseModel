@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-asymmetric-linearity-8b-model-stock",
+  "model_id": "DreadPoor/Asymmetric_Linearity-8B-Model_Stock",
+  "benchmark_name": "bbh",
+  "score": 35.4412470409656,
+  "score_raw": 35.4412470409656,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1300
+}

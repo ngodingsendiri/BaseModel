@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-kaist-ai-mistral-orpo-capybara-7k",
+  "model_id": "kaist-ai/mistral-orpo-capybara-7k",
+  "benchmark_name": "ifeval",
+  "score": 53.6733644507684,
+  "score_raw": 53.6733644507684,
+  "evaluation_date": "2024-03-23",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1625
+}

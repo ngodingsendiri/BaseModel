@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-bunnycore-deepthinker-7b-sce-v2",
+  "model_id": "bunnycore/DeepThinker-7B-Sce-v2",
+  "benchmark_name": "ifeval",
+  "score": 16.306621985221433,
+  "score_raw": 16.306621985221433,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4257
+}

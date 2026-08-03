@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-abacusai-smaug-72b-v0-1",
+  "model_id": "abacusai/Smaug-72B-v0.1",
+  "benchmark_name": "bbh",
+  "score": 43.12510043134919,
+  "score_raw": 43.12510043134919,
+  "evaluation_date": "2024-02-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 811
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-mergekit-community-virtuososmall-instructmodelstock",
+  "model_id": "mergekit-community/VirtuosoSmall-InstructModelStock",
+  "benchmark_name": "musr",
+  "score": 19.31328125,
+  "score_raw": 19.31328125,
+  "evaluation_date": "2024-12-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 310
+}

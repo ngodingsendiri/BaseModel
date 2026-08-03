@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-nekochu-luminia-13b-v3",
+  "model_id": "Nekochu/Luminia-13B-v3",
+  "benchmark_name": "ifeval",
+  "score": 25.231829323971507,
+  "score_raw": 25.231829323971507,
+  "evaluation_date": "2024-03-18",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3599
+}

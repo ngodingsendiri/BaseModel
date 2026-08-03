@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-bunnycore-qwen2-5-3b-model-stock-v2",
+  "model_id": "bunnycore/Qwen2.5-3B-Model-Stock-v2",
+  "benchmark_name": "musr",
+  "score": 6.765625,
+  "score_raw": 6.765625,
+  "evaluation_date": "2025-01-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3104
+}

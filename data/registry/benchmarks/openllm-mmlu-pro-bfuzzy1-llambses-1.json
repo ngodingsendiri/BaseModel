@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-bfuzzy1-llambses-1",
+  "model_id": "bfuzzy1/llambses-1",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.777334515366427,
+  "score_raw": 23.777334515366427,
+  "evaluation_date": "2024-10-10",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2665
+}

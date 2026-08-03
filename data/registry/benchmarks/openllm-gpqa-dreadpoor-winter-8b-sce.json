@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-winter-8b-sce",
+  "model_id": "DreadPoor/Winter-8B-SCE",
+  "benchmark_name": "gpqa",
+  "score": 6.599552572706939,
+  "score_raw": 6.599552572706939,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2009
+}

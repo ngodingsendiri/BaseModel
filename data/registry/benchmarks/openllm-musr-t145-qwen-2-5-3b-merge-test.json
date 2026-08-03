@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-t145-qwen-2-5-3b-merge-test",
+  "model_id": "T145/qwen-2.5-3B-merge-test",
+  "benchmark_name": "musr",
+  "score": 8.291145833333333,
+  "score_raw": 8.291145833333333,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2773
+}

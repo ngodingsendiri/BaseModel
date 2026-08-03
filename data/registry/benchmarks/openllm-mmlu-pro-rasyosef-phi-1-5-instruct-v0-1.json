@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-rasyosef-phi-1-5-instruct-v0-1",
+  "model_id": "rasyosef/Phi-1_5-Instruct-v0.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 6.240765366430259,
+  "score_raw": 6.240765366430259,
+  "evaluation_date": "2024-07-24",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3916
+}

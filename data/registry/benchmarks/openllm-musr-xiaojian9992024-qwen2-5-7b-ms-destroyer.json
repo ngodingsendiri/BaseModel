@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-xiaojian9992024-qwen2-5-7b-ms-destroyer",
+  "model_id": "Xiaojian9992024/Qwen2.5-7B-MS-Destroyer",
+  "benchmark_name": "musr",
+  "score": 12.777604166666663,
+  "score_raw": 12.777604166666663,
+  "evaluation_date": "2025-03-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1362
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-zelk12-mt4-max-merge-02012025163610-gemma-2-9b",
+  "model_id": "zelk12/MT4-Max-Merge_02012025163610-gemma-2-9B",
+  "benchmark_name": "ifeval",
+  "score": 17.70790391716202,
+  "score_raw": 17.70790391716202,
+  "evaluation_date": "2025-01-11",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4160
+}

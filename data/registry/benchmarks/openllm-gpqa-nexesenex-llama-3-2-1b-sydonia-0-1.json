@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-nexesenex-llama-3-2-1b-sydonia-0-1",
+  "model_id": "Nexesenex/Llama_3.2_1b_Sydonia_0.1",
+  "benchmark_name": "gpqa",
+  "score": 0,
+  "score_raw": 0,
+  "evaluation_date": "2025-02-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4414
+}

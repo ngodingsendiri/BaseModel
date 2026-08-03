@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-daemontatox-ra2-0",
+  "model_id": "Daemontatox/RA2.0",
+  "benchmark_name": "musr",
+  "score": 9.373958333333333,
+  "score_raw": 9.373958333333333,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2479
+}

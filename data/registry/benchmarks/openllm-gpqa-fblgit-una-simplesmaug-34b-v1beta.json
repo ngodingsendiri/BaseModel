@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-fblgit-una-simplesmaug-34b-v1beta",
+  "model_id": "fblgit/UNA-SimpleSmaug-34b-v1beta",
+  "benchmark_name": "gpqa",
+  "score": 8.948545861297541,
+  "score_raw": 8.948545861297541,
+  "evaluation_date": "2024-02-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1225
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-tensopolis-virtuoso-lite-tensopolis-v1",
+  "model_id": "tensopolis/virtuoso-lite-tensopolis-v1",
+  "benchmark_name": "bbh",
+  "score": 43.94133513211286,
+  "score_raw": 43.94133513211286,
+  "evaluation_date": "2025-02-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 755
+}

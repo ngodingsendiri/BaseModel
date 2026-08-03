@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-sometimesanotion-chocotrio-14b-v1",
+  "model_id": "sometimesanotion/ChocoTrio-14B-v1",
+  "benchmark_name": "gpqa",
+  "score": 18.008948545861294,
+  "score_raw": 18.008948545861294,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 179
+}

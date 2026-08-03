@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-mkurman-phi-4-medit-11b-exp-1",
+  "model_id": "mkurman/phi-4-MedIT-11B-exp-1",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.386672576832154,
+  "score_raw": 31.386672576832154,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1520
+}

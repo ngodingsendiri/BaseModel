@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-sthenno-tempesthenno-0120",
+  "model_id": "sthenno/tempesthenno-0120",
+  "benchmark_name": "bbh",
+  "score": 47.90901771207657,
+  "score_raw": 47.90901771207657,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 561
+}

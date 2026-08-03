@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-epistemeai2-fireball-alpaca-llama3-1-08-8b-c-r1-kto-reflection",
+  "model_id": "EpistemeAI2/Fireball-Alpaca-Llama3.1.08-8B-C-R1-KTO-Reflection",
+  "benchmark_name": "musr",
+  "score": 10.4015625,
+  "score_raw": 10.4015625,
+  "evaluation_date": "2024-09-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2170
+}

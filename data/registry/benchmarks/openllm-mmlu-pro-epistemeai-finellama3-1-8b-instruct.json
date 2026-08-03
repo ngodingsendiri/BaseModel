@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-epistemeai-finellama3-1-8b-instruct",
+  "model_id": "EpistemeAI/FineLlama3.1-8B-Instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.472591607565015,
+  "score_raw": 23.472591607565015,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2712
+}

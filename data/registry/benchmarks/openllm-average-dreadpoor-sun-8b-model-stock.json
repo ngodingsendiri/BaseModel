@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-dreadpoor-sun-8b-model-stock",
+  "model_id": "DreadPoor/Sun-8B-Model_Stock",
+  "benchmark_name": "average",
+  "score": 30.080714550686338,
+  "score_raw": 30.080714550686338,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1018
+}

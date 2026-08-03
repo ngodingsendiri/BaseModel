@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-ksu-hw-sec-llama3-70b-sva-ft-final",
+  "model_id": "KSU-HW-SEC/Llama3-70b-SVA-FT-final",
+  "benchmark_name": "bbh",
+  "score": 51.328741195678994,
+  "score_raw": 51.328741195678994,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 263
+}

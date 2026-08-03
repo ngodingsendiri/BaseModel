@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-godlikehhd-qwen-full-data-alpaca",
+  "model_id": "godlikehhd/qwen_full_data_alpaca",
+  "benchmark_name": "ifeval",
+  "score": 31.361786725887313,
+  "score_raw": 31.361786725887313,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3232
+}

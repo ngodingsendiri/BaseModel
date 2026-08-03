@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ruizhe1217-sft-s1-qwen-0-5b",
+  "model_id": "ruizhe1217/sft-s1-qwen-0.5b",
+  "benchmark_name": "average",
+  "score": 9.240285567836873,
+  "score_raw": 9.240285567836873,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3772
+}

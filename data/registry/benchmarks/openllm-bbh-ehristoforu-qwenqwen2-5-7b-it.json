@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-ehristoforu-qwenqwen2-5-7b-it",
+  "model_id": "ehristoforu/QwenQwen2.5-7B-IT",
+  "benchmark_name": "bbh",
+  "score": 34.96965415936291,
+  "score_raw": 34.96965415936291,
+  "evaluation_date": "2025-01-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1356
+}

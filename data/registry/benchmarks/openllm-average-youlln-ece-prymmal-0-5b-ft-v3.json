@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-youlln-ece-prymmal-0-5b-ft-v3",
+  "model_id": "Youlln/ECE-PRYMMAL-0.5B-FT-V3",
+  "benchmark_name": "average",
+  "score": 4.392856379585042,
+  "score_raw": 4.392856379585042,
+  "evaluation_date": "2024-10-16",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4382
+}

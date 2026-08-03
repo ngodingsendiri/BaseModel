@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-mattshumer-reflection-llama-3-1-70b",
+  "model_id": "mattshumer/Reflection-Llama-3.1-70B",
+  "benchmark_name": "mmlu-pro",
+  "score": 43.94577423167848,
+  "score_raw": 43.94577423167848,
+  "evaluation_date": "2024-09-05",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 577
+}

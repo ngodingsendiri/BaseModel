@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sicariussicariistuff-dn-ep02",
+  "model_id": "SicariusSicariiStuff/dn_ep02",
+  "benchmark_name": "mmlu-pro",
+  "score": 33.30747635933806,
+  "score_raw": 33.30747635933806,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1201
+}

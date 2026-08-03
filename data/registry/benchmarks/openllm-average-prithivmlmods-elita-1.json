@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-elita-1",
+  "model_id": "prithivMLmods/Elita-1",
+  "benchmark_name": "average",
+  "score": 36.545369563806254,
+  "score_raw": 36.545369563806254,
+  "evaluation_date": "2025-02-05",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 513
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-anthracite-org-magnum-v3-9b-customgemma2",
+  "model_id": "anthracite-org/magnum-v3-9b-customgemma2",
+  "benchmark_name": "bbh",
+  "score": 34.11678334094384,
+  "score_raw": 34.11678334094384,
+  "evaluation_date": "2024-08-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1498
+}

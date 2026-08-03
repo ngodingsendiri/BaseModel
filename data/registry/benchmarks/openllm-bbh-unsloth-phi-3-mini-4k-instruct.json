@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-unsloth-phi-3-mini-4k-instruct",
+  "model_id": "unsloth/Phi-3-mini-4k-instruct",
+  "benchmark_name": "bbh",
+  "score": 36.73247326561403,
+  "score_raw": 36.73247326561403,
+  "evaluation_date": "2024-04-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1107
+}

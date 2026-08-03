@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-senseable-westlake-7b-v2",
+  "model_id": "senseable/WestLake-7B-v2",
+  "benchmark_name": "musr",
+  "score": 7.481510416666669,
+  "score_raw": 7.481510416666669,
+  "evaluation_date": "2024-01-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2974
+}

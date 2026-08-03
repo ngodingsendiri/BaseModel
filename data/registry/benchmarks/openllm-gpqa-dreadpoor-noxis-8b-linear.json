@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-noxis-8b-linear",
+  "model_id": "DreadPoor/Noxis-8B-LINEAR",
+  "benchmark_name": "gpqa",
+  "score": 9.172259507829976,
+  "score_raw": 9.172259507829976,
+  "evaluation_date": "2025-03-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1169
+}

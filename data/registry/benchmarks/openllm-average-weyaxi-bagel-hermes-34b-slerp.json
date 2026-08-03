@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-weyaxi-bagel-hermes-34b-slerp",
+  "model_id": "Weyaxi/Bagel-Hermes-34B-Slerp",
+  "benchmark_name": "average",
+  "score": 27.24685762860255,
+  "score_raw": 27.24685762860255,
+  "evaluation_date": "2024-01-12",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1364
+}

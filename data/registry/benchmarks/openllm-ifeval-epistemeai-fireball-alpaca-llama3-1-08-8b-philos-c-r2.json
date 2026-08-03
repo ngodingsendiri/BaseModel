@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-epistemeai-fireball-alpaca-llama3-1-08-8b-philos-c-r2",
+  "model_id": "EpistemeAI/Fireball-Alpaca-Llama3.1.08-8B-Philos-C-R2",
+  "benchmark_name": "ifeval",
+  "score": 46.731561146646456,
+  "score_raw": 46.731561146646456,
+  "evaluation_date": "2024-09-14",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2123
+}

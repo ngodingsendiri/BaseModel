@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-bramvanroy-fietje-2-chat",
+  "model_id": "BramVanroy/fietje-2-chat",
+  "benchmark_name": "ifeval",
+  "score": 29.17359273394593,
+  "score_raw": 29.17359273394593,
+  "evaluation_date": "2024-04-29",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3353
+}

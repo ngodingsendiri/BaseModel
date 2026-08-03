@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-remember-to-breathe-8b-model-stock",
+  "model_id": "DreadPoor/remember_to_breathe-8b-Model-Stock",
+  "benchmark_name": "musr",
+  "score": 11.440624999999997,
+  "score_raw": 11.440624999999997,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1809
+}

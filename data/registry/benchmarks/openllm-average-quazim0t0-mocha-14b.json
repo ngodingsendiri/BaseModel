@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-quazim0t0-mocha-14b",
+  "model_id": "Quazim0t0/mocha-14B",
+  "benchmark_name": "average",
+  "score": 39.84779848605735,
+  "score_raw": 39.84779848605735,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 278
+}

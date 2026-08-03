@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-saxo-linkbricks-horizon-ai-avengers-v6-32b",
+  "model_id": "Saxo/Linkbricks-Horizon-AI-Avengers-V6-32B",
+  "benchmark_name": "mmlu-pro",
+  "score": 51.915263002364064,
+  "score_raw": 51.915263002364064,
+  "evaluation_date": "2025-01-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 48
+}

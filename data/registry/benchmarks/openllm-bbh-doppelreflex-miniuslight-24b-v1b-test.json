@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-doppelreflex-miniuslight-24b-v1b-test",
+  "model_id": "DoppelReflEx/MiniusLight-24B-v1b-test",
+  "benchmark_name": "bbh",
+  "score": 50.63814760323434,
+  "score_raw": 50.63814760323434,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 312
+}

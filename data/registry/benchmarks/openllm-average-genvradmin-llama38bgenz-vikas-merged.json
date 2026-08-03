@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-genvradmin-llama38bgenz-vikas-merged",
+  "model_id": "GenVRadmin/llama38bGenZ_Vikas-Merged",
+  "benchmark_name": "average",
+  "score": 16.09338316937527,
+  "score_raw": 16.09338316937527,
+  "evaluation_date": "2024-05-22",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3182
+}

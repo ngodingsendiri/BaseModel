@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-amu-t1-3b",
+  "model_id": "Amu/t1-3B",
+  "benchmark_name": "mmlu-pro",
+  "score": 3.1563977541371155,
+  "score_raw": 3.1563977541371155,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4080
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-grimjim-llama-3-instruct-8b-simpo-sppo-iter3-merge",
+  "model_id": "grimjim/Llama-3-Instruct-8B-SimPO-SPPO-Iter3-merge",
+  "benchmark_name": "musr",
+  "score": 6.697135416666669,
+  "score_raw": 6.697135416666669,
+  "evaluation_date": "2024-06-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3119
+}

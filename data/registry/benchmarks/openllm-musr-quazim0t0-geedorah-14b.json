@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-quazim0t0-geedorah-14b",
+  "model_id": "Quazim0t0/Geedorah-14B",
+  "benchmark_name": "musr",
+  "score": 16.567968749999995,
+  "score_raw": 16.567968749999995,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 630
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-google-gemma-1-1-2b-it",
+  "model_id": "google/gemma-1.1-2b-it",
+  "benchmark_name": "bbh",
+  "score": 5.862826722774347,
+  "score_raw": 5.862826722774347,
+  "evaluation_date": "2024-03-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4054
+}

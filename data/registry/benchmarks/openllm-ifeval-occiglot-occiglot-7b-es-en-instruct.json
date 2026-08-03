@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-occiglot-occiglot-7b-es-en-instruct",
+  "model_id": "occiglot/occiglot-7b-es-en-instruct",
+  "benchmark_name": "ifeval",
+  "score": 34.851416463871416,
+  "score_raw": 34.851416463871416,
+  "evaluation_date": "2024-03-05",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3039
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-togethercomputer-redpajama-incite-7b-instruct",
+  "model_id": "togethercomputer/RedPajama-INCITE-7B-Instruct",
+  "benchmark_name": "average",
+  "score": 6.456725492718323,
+  "score_raw": 6.456725492718323,
+  "evaluation_date": "2023-05-05",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4117
+}

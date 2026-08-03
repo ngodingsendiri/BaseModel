@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-tiiuae-falcon-40b",
+  "model_id": "tiiuae/falcon-40b",
+  "benchmark_name": "musr",
+  "score": 5.193229166666668,
+  "score_raw": 5.193229166666668,
+  "evaluation_date": "2023-05-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3408
+}

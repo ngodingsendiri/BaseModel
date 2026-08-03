@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-cloudyu-llama-3-2-3bx4",
+  "model_id": "cloudyu/Llama-3.2-3Bx4",
+  "benchmark_name": "bbh",
+  "score": 19.7933281387424,
+  "score_raw": 19.7933281387424,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3220
+}

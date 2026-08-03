@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-johnsutor-llama-3-8b-instruct-dare-ties-density-0-9",
+  "model_id": "johnsutor/Llama-3-8B-Instruct_dare_ties-density-0.9",
+  "benchmark_name": "average",
+  "score": 17.30976967313407,
+  "score_raw": 17.30976967313407,
+  "evaluation_date": "2024-06-07",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3031
+}

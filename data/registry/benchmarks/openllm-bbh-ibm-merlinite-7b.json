@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-ibm-merlinite-7b",
+  "model_id": "ibm/merlinite-7b",
+  "benchmark_name": "bbh",
+  "score": 29.97724776968684,
+  "score_raw": 29.97724776968684,
+  "evaluation_date": "2024-03-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2201
+}

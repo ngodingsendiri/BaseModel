@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-mistralai-mixtral-8x22b-instruct-v0-1",
+  "model_id": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+  "benchmark_name": "musr",
+  "score": 13.489322916666664,
+  "score_raw": 13.489322916666664,
+  "evaluation_date": "2024-04-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1168
+}

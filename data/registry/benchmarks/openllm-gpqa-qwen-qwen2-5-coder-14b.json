@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-qwen-qwen2-5-coder-14b",
+  "model_id": "Qwen/Qwen2.5-Coder-14B",
+  "benchmark_name": "gpqa",
+  "score": 5.7046979865771785,
+  "score_raw": 5.7046979865771785,
+  "evaluation_date": "2024-11-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2376
+}

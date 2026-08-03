@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-rusted-gold-8b-linear",
+  "model_id": "DreadPoor/Rusted_Gold-8B-LINEAR",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.888002364066192,
+  "score_raw": 30.888002364066192,
+  "evaluation_date": "2025-03-07",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1632
+}

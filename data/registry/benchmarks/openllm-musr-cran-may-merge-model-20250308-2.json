@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-cran-may-merge-model-20250308-2",
+  "model_id": "Cran-May/merge_model_20250308_2",
+  "benchmark_name": "musr",
+  "score": 19.519270833333326,
+  "score_raw": 19.519270833333326,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 278
+}

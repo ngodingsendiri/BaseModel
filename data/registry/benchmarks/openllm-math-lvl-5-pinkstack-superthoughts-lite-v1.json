@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-pinkstack-superthoughts-lite-v1",
+  "model_id": "Pinkstack/Superthoughts-lite-v1",
+  "benchmark_name": "math-lvl-5",
+  "score": 2.9456193353474323,
+  "score_raw": 2.9456193353474323,
+  "evaluation_date": "2025-02-12",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3708
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-deepmount00-mergekit-ties-okvgjfz",
+  "model_id": "DeepMount00/mergekit-ties-okvgjfz",
+  "benchmark_name": "ifeval",
+  "score": 15.302508455342934,
+  "score_raw": 15.302508455342934,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4324
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dans-discountmodels-mistral-7b-v0-3-test-e0-7",
+  "model_id": "Dans-DiscountModels/Mistral-7b-v0.3-Test-E0.7",
+  "benchmark_name": "musr",
+  "score": 8.030468749999999,
+  "score_raw": 8.030468749999999,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2842
+}

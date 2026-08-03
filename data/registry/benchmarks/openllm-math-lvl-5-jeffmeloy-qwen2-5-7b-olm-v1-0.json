@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-jeffmeloy-qwen2-5-7b-olm-v1-0",
+  "model_id": "jeffmeloy/Qwen2.5-7B-olm-v1.0",
+  "benchmark_name": "math-lvl-5",
+  "score": 28.625377643504528,
+  "score_raw": 28.625377643504528,
+  "evaluation_date": "2024-12-12",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 877
+}

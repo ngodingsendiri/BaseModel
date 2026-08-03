@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-flammenai-mahou-1-5-llama3-1-70b",
+  "model_id": "flammenai/Mahou-1.5-llama3.1-70B",
+  "benchmark_name": "mmlu-pro",
+  "score": 41.65558510638298,
+  "score_raw": 41.65558510638298,
+  "evaluation_date": "2024-10-14",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 631
+}

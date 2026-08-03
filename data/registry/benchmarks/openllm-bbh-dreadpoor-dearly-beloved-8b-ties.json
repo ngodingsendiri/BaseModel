@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-dearly-beloved-8b-ties",
+  "model_id": "DreadPoor/Dearly_Beloved-8B-TIES",
+  "benchmark_name": "bbh",
+  "score": 16.671812993247975,
+  "score_raw": 16.671812993247975,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3418
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-weyaxi-sauerkrautlm-una-solar-instruct",
+  "model_id": "Weyaxi/SauerkrautLM-UNA-SOLAR-Instruct",
+  "benchmark_name": "musr",
+  "score": 8.601041666666662,
+  "score_raw": 8.601041666666662,
+  "evaluation_date": "2023-12-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2665
+}

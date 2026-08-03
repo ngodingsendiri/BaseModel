@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-siqi00-mistral-7b-dft",
+  "model_id": "siqi00/Mistral-7B-DFT",
+  "benchmark_name": "bbh",
+  "score": 25.364499387227273,
+  "score_raw": 25.364499387227273,
+  "evaluation_date": "2025-02-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2794
+}

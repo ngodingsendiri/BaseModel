@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-bunnycore-qwenmosaic-7b",
+  "model_id": "bunnycore/QwenMosaic-7B",
+  "benchmark_name": "gpqa",
+  "score": 1.4541387024608499,
+  "score_raw": 1.4541387024608499,
+  "evaluation_date": "2024-12-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3901
+}

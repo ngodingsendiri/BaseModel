@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-epistemeai-fireball-meta-llama-3-1-8b-instruct-agent-0-004-128k-code-cot",
+  "model_id": "EpistemeAI/Fireball-Meta-Llama-3.1-8B-Instruct-Agent-0.004-128K-code-COT",
+  "benchmark_name": "mmlu-pro",
+  "score": 27.452718676122934,
+  "score_raw": 27.452718676122934,
+  "evaluation_date": "2024-10-11",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2263
+}

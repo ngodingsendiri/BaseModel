@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-goekdeniz-guelmez-josiefied-qwen2-5-1-5b-instruct-abliterated-v1",
+  "model_id": "Goekdeniz-Guelmez/Josiefied-Qwen2.5-1.5B-Instruct-abliterated-v1",
+  "benchmark_name": "musr",
+  "score": 4.002864583333333,
+  "score_raw": 4.002864583333333,
+  "evaluation_date": "2024-09-20",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3674
+}

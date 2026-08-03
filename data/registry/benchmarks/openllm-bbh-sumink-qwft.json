@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-sumink-qwft",
+  "model_id": "sumink/qwft",
+  "benchmark_name": "bbh",
+  "score": 2.872788366329503,
+  "score_raw": 2.872788366329503,
+  "evaluation_date": "2025-01-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4342
+}

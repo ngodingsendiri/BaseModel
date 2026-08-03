@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-mistralai-mistral-large-instruct-2411",
+  "model_id": "mistralai/Mistral-Large-Instruct-2411",
+  "benchmark_name": "average",
+  "score": 46.524214355965,
+  "score_raw": 46.524214355965,
+  "evaluation_date": "2024-11-14",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 23
+}

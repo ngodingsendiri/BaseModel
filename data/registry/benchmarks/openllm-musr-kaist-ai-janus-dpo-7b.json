@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-kaist-ai-janus-dpo-7b",
+  "model_id": "kaist-ai/janus-dpo-7b",
+  "benchmark_name": "musr",
+  "score": 13.709114583333337,
+  "score_raw": 13.709114583333337,
+  "evaluation_date": "2024-04-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1116
+}

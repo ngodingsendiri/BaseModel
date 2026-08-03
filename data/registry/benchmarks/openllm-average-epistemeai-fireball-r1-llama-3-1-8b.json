@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-epistemeai-fireball-r1-llama-3-1-8b",
+  "model_id": "EpistemeAI/Fireball-R1-Llama-3.1-8B",
+  "benchmark_name": "average",
+  "score": 14.729862999540122,
+  "score_raw": 14.729862999540122,
+  "evaluation_date": "2025-02-11",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3332
+}

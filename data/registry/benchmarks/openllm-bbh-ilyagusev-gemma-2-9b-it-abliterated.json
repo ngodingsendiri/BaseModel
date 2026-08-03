@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-ilyagusev-gemma-2-9b-it-abliterated",
+  "model_id": "IlyaGusev/gemma-2-9b-it-abliterated",
+  "benchmark_name": "bbh",
+  "score": 40.82468502686295,
+  "score_raw": 40.82468502686295,
+  "evaluation_date": "2024-07-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 928
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-t145-qwen-2-5-3b-merge-test",
+  "model_id": "T145/qwen-2.5-3B-merge-test",
+  "benchmark_name": "gpqa",
+  "score": 4.697986577181204,
+  "score_raw": 4.697986577181204,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2720
+}

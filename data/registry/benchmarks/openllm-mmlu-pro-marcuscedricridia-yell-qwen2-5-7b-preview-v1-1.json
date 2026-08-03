@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-marcuscedricridia-yell-qwen2-5-7b-preview-v1-1",
+  "model_id": "marcuscedricridia/Yell-Qwen2.5-7B-Preview-v1.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.460549645390074,
+  "score_raw": 31.460549645390074,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1495
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-thedrummer-gemmasutra-9b-v1",
+  "model_id": "TheDrummer/Gemmasutra-9B-v1",
+  "benchmark_name": "musr",
+  "score": 20.940885416666664,
+  "score_raw": 20.940885416666664,
+  "evaluation_date": "2024-07-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 170
+}

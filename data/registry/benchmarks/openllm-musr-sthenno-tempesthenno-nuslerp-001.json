@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sthenno-tempesthenno-nuslerp-001",
+  "model_id": "sthenno/tempesthenno-nuslerp-001",
+  "benchmark_name": "musr",
+  "score": 13.883333333333331,
+  "score_raw": 13.883333333333331,
+  "evaluation_date": "2025-01-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1075
+}

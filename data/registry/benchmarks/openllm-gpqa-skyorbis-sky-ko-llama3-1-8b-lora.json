@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-skyorbis-sky-ko-llama3-1-8b-lora",
+  "model_id": "SkyOrbis/SKY-Ko-Llama3.1-8B-lora",
+  "benchmark_name": "gpqa",
+  "score": 9.507829977628639,
+  "score_raw": 9.507829977628639,
+  "evaluation_date": "2024-12-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1092
+}

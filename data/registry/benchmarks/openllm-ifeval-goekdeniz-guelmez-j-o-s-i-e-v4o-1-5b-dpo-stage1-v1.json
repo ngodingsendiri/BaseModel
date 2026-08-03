@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-goekdeniz-guelmez-j-o-s-i-e-v4o-1-5b-dpo-stage1-v1",
+  "model_id": "Goekdeniz-Guelmez/j.o.s.i.e.v4o-1.5b-dpo-stage1-v1",
+  "benchmark_name": "ifeval",
+  "score": 41.883092417009095,
+  "score_raw": 41.883092417009095,
+  "evaluation_date": "2024-10-07",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2604
+}

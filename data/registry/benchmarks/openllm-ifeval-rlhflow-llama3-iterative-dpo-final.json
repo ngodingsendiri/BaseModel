@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-rlhflow-llama3-iterative-dpo-final",
+  "model_id": "RLHFlow/LLaMA3-iterative-DPO-final",
+  "benchmark_name": "ifeval",
+  "score": 53.401086893886,
+  "score_raw": 53.401086893886,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1649
+}

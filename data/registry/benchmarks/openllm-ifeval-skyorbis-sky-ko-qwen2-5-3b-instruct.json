@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-skyorbis-sky-ko-qwen2-5-3b-instruct",
+  "model_id": "SkyOrbis/SKY-Ko-Qwen2.5-3B-Instruct",
+  "benchmark_name": "ifeval",
+  "score": 35.34100630770799,
+  "score_raw": 35.34100630770799,
+  "evaluation_date": "2025-01-09",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3014
+}

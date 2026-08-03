@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-triangle104-dsr1-distill-qwen-7b-rp",
+  "model_id": "Triangle104/DSR1-Distill-Qwen-7B-RP",
+  "benchmark_name": "ifeval",
+  "score": 36.092900171544834,
+  "score_raw": 36.092900171544834,
+  "evaluation_date": "2025-02-09",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2980
+}

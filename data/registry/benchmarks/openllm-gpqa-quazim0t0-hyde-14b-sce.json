@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-quazim0t0-hyde-14b-sce",
+  "model_id": "Quazim0t0/Hyde-14b-sce",
+  "benchmark_name": "gpqa",
+  "score": 12.192393736017896,
+  "score_raw": 12.192393736017896,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 686
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-etherll-superhermes",
+  "model_id": "Etherll/SuperHermes",
+  "benchmark_name": "ifeval",
+  "score": 54.590154124389954,
+  "score_raw": 54.590154124389954,
+  "evaluation_date": "2024-10-27",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1555
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sakaltcommunity-sakaltum-7b",
+  "model_id": "sakaltcommunity/sakaltum-7b",
+  "benchmark_name": "musr",
+  "score": 5.754166666666666,
+  "score_raw": 5.754166666666666,
+  "evaluation_date": "2024-12-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3294
+}

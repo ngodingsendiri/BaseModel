@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-allknowingroger-multimerge-7b-slerp",
+  "model_id": "allknowingroger/MultiMerge-7B-slerp",
+  "benchmark_name": "musr",
+  "score": 12.330729166666671,
+  "score_raw": 12.330729166666671,
+  "evaluation_date": "2024-04-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1484
+}

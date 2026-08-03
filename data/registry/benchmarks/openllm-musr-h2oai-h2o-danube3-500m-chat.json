@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-h2oai-h2o-danube3-500m-chat",
+  "model_id": "h2oai/h2o-danube3-500m-chat",
+  "benchmark_name": "musr",
+  "score": 2.824479166666667,
+  "score_raw": 2.824479166666667,
+  "evaluation_date": "2024-07-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3979
+}

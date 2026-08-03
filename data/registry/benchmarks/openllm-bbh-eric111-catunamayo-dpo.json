@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-eric111-catunamayo-dpo",
+  "model_id": "Eric111/CatunaMayo-DPO",
+  "benchmark_name": "bbh",
+  "score": 33.08995159999345,
+  "score_raw": 33.08995159999345,
+  "evaluation_date": "2024-02-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1624
+}

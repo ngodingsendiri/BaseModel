@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-harbingerx-zeitgeist-3b-v1-2",
+  "model_id": "HarbingerX/Zeitgeist-3b-V1.2",
+  "benchmark_name": "bbh",
+  "score": 21.6297148573501,
+  "score_raw": 21.6297148573501,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3098
+}

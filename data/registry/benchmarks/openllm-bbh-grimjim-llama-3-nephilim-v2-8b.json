@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-grimjim-llama-3-nephilim-v2-8b",
+  "model_id": "grimjim/llama-3-Nephilim-v2-8B",
+  "benchmark_name": "bbh",
+  "score": 29.896263840620197,
+  "score_raw": 29.896263840620197,
+  "evaluation_date": "2024-06-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2220
+}

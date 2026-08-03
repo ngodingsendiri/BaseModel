@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-asharsha30-llama-harsha-8-b-ordp-10k",
+  "model_id": "asharsha30/LLAMA_Harsha_8_B_ORDP_10k",
+  "benchmark_name": "average",
+  "score": 16.221361486666726,
+  "score_raw": 16.221361486666726,
+  "evaluation_date": "2024-12-01",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3173
+}

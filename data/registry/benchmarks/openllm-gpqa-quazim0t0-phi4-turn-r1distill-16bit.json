@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-quazim0t0-phi4-turn-r1distill-16bit",
+  "model_id": "Quazim0t0/Phi4.Turn.R1Distill.16bit",
+  "benchmark_name": "gpqa",
+  "score": 5.92841163310962,
+  "score_raw": 5.92841163310962,
+  "evaluation_date": "2025-01-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2288
+}

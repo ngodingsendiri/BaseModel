@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-maldv-badger-mu-llama-3-8b",
+  "model_id": "maldv/badger-mu-llama-3-8b",
+  "benchmark_name": "average",
+  "score": 20.322170525640896,
+  "score_raw": 20.322170525640896,
+  "evaluation_date": "2024-06-27",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2628
+}

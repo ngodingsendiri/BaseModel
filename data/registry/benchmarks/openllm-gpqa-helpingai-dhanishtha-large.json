@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-helpingai-dhanishtha-large",
+  "model_id": "HelpingAI/Dhanishtha-Large",
+  "benchmark_name": "gpqa",
+  "score": 7.046979865771815,
+  "score_raw": 7.046979865771815,
+  "evaluation_date": "2025-02-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1843
+}

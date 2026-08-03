@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-allknowingroger-yammaths-7b-slerp",
+  "model_id": "allknowingroger/YamMaths-7B-slerp",
+  "benchmark_name": "gpqa",
+  "score": 4.026845637583895,
+  "score_raw": 4.026845637583895,
+  "evaluation_date": "2024-06-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2959
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-rusted-platinum-8b-model-stock",
+  "model_id": "DreadPoor/Rusted_Platinum-8B-Model_Stock",
+  "benchmark_name": "mmlu-pro",
+  "score": 28.29307033096927,
+  "score_raw": 28.29307033096927,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2146
+}

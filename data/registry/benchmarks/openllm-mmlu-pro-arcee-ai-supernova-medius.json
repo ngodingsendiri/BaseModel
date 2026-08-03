@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-arcee-ai-supernova-medius",
+  "model_id": "arcee-ai/SuperNova-Medius",
+  "benchmark_name": "mmlu-pro",
+  "score": 44.83229905437352,
+  "score_raw": 44.83229905437352,
+  "evaluation_date": "2024-10-02",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 552
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-bamec66557-vicious-mesh-12b-razor",
+  "model_id": "bamec66557/VICIOUS_MESH-12B_Razor",
+  "benchmark_name": "ifeval",
+  "score": 37.36430448986467,
+  "score_raw": 37.36430448986467,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2901
+}

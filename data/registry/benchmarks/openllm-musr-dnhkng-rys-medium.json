@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-dnhkng-rys-medium",
+  "model_id": "dnhkng/RYS-Medium",
+  "benchmark_name": "musr",
+  "score": 8.732552083333331,
+  "score_raw": 8.732552083333331,
+  "evaluation_date": "2024-07-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2637
+}

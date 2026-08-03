@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-google-umt5-base",
+  "model_id": "google/umt5-base",
+  "benchmark_name": "bbh",
+  "score": 0.8135531788472962,
+  "score_raw": 0.8135531788472962,
+  "evaluation_date": "2023-07-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4573
+}

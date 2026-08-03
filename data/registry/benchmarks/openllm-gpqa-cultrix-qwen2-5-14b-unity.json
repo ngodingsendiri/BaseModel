@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-cultrix-qwen2-5-14b-unity",
+  "model_id": "CultriX/Qwen2.5-14B-Unity",
+  "benchmark_name": "gpqa",
+  "score": 12.975391498881436,
+  "score_raw": 12.975391498881436,
+  "evaluation_date": "2024-12-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 583
+}

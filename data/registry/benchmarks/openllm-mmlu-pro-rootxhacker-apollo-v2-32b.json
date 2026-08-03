@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-rootxhacker-apollo-v2-32b",
+  "model_id": "rootxhacker/Apollo_v2-32B",
+  "benchmark_name": "mmlu-pro",
+  "score": 54.10387115839244,
+  "score_raw": 54.10387115839244,
+  "evaluation_date": "2025-03-04",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 24
+}

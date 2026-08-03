@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dwikitheduck-gemma-2-2b-id-instruct",
+  "model_id": "dwikitheduck/gemma-2-2b-id-instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 13.037455673758863,
+  "score_raw": 13.037455673758863,
+  "evaluation_date": "2024-10-24",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3534
+}

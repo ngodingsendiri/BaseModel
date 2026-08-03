@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-lars1234-mistral-small-24b-instruct-2501-writer",
+  "model_id": "lars1234/Mistral-Small-24B-Instruct-2501-writer",
+  "benchmark_name": "musr",
+  "score": 17.133072916666663,
+  "score_raw": 17.133072916666663,
+  "evaluation_date": "2025-03-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 556
+}

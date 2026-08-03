@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-sometimesanotion-lamarck-14b-v0-3",
+  "model_id": "sometimesanotion/Lamarck-14B-v0.3",
+  "benchmark_name": "ifeval",
+  "score": 50.31616111916382,
+  "score_raw": 50.31616111916382,
+  "evaluation_date": "2024-12-06",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1842
+}

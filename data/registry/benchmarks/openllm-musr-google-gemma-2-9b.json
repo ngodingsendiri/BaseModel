@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-google-gemma-2-9b",
+  "model_id": "google/gemma-2-9b",
+  "benchmark_name": "musr",
+  "score": 14.297656250000001,
+  "score_raw": 14.297656250000001,
+  "evaluation_date": "2024-06-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 986
+}

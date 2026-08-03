@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-nousresearch-nous-hermes-2-mistral-7b-dpo",
+  "model_id": "NousResearch/Nous-Hermes-2-Mistral-7B-DPO",
+  "benchmark_name": "musr",
+  "score": 8.330729166666668,
+  "score_raw": 8.330729166666668,
+  "evaluation_date": "2024-02-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2757
+}

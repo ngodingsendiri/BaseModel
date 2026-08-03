@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-prithivmlmods-phi-4-qwq",
+  "model_id": "prithivMLmods/Phi-4-QwQ",
+  "benchmark_name": "bbh",
+  "score": 52.28684974505503,
+  "score_raw": 52.28684974505503,
+  "evaluation_date": "2025-01-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 228
+}

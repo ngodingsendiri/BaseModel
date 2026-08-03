@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-nbeerbower-mistral-nemo-wissenschaft-12b",
+  "model_id": "nbeerbower/mistral-nemo-wissenschaft-12B",
+  "benchmark_name": "gpqa",
+  "score": 5.7046979865771785,
+  "score_raw": 5.7046979865771785,
+  "evaluation_date": "2024-08-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2393
+}

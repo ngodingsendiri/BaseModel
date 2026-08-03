@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-maziyarpanahi-calme-2-3-llama3-1-70b",
+  "model_id": "MaziyarPanahi/calme-2.3-llama3.1-70b",
+  "benchmark_name": "average",
+  "score": 43.275189943129554,
+  "score_raw": 43.275189943129554,
+  "evaluation_date": "2024-09-10",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 69
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-davielion-lllma-3-2-1b",
+  "model_id": "DavieLion/Lllma-3.2-1B",
+  "benchmark_name": "average",
+  "score": 3.932331961262434,
+  "score_raw": 3.932331961262434,
+  "evaluation_date": "2024-12-27",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4459
+}

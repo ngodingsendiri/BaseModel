@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-epistemeai2-fireball-phi-3-medium-4k-inst-philos",
+  "model_id": "EpistemeAI2/Fireball-Phi-3-medium-4k-inst-Philos",
+  "benchmark_name": "ifeval",
+  "score": 53.128809337003595,
+  "score_raw": 53.128809337003595,
+  "evaluation_date": "2024-09-19",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1673
+}

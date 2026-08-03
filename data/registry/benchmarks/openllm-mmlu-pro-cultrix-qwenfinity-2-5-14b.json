@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-cultrix-qwenfinity-2-5-14b",
+  "model_id": "CultriX/Qwenfinity-2.5-14B",
+  "benchmark_name": "mmlu-pro",
+  "score": 38.86672576832151,
+  "score_raw": 38.86672576832151,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 749
+}

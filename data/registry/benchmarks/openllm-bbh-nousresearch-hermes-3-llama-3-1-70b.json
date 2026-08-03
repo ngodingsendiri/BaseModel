@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-nousresearch-hermes-3-llama-3-1-70b",
+  "model_id": "NousResearch/Hermes-3-Llama-3.1-70B",
+  "benchmark_name": "bbh",
+  "score": 53.76540869130056,
+  "score_raw": 53.76540869130056,
+  "evaluation_date": "2024-07-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 171
+}

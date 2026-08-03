@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-tomasmcm-sky-t1-coder-32b-flash",
+  "model_id": "tomasmcm/sky-t1-coder-32b-flash",
+  "benchmark_name": "average",
+  "score": 44.868558910231286,
+  "score_raw": 44.868558910231286,
+  "evaluation_date": "2025-02-22",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 39
+}

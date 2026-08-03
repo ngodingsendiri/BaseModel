@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-fuseai-fusechat-qwen-2-5-7b-instruct",
+  "model_id": "FuseAI/FuseChat-Qwen-2.5-7B-Instruct",
+  "benchmark_name": "bbh",
+  "score": 36.25134763068275,
+  "score_raw": 36.25134763068275,
+  "evaluation_date": "2024-11-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1185
+}

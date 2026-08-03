@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-cckm-tinymistral-950m",
+  "model_id": "cckm/tinymistral_950m",
+  "benchmark_name": "bbh",
+  "score": 2.371788472964944,
+  "score_raw": 2.371788472964944,
+  "evaluation_date": "2025-01-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4425
+}

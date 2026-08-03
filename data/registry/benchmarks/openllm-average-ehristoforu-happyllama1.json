@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ehristoforu-happyllama1",
+  "model_id": "ehristoforu/HappyLlama1",
+  "benchmark_name": "average",
+  "score": 26.735379379762946,
+  "score_raw": 26.735379379762946,
+  "evaluation_date": "2024-11-29",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1419
+}

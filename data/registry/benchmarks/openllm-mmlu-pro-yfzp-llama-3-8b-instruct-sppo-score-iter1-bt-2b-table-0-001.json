@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-yfzp-llama-3-8b-instruct-sppo-score-iter1-bt-2b-table-0-001",
+  "model_id": "yfzp/Llama-3-8B-Instruct-SPPO-score-Iter1_bt_2b-table-0.001",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.223108747044915,
+  "score_raw": 30.223108747044915,
+  "evaluation_date": "2024-09-29",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1787
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-cultrix-qwen2-5-14b-megamerge-pt2",
+  "model_id": "CultriX/Qwen2.5-14B-MegaMerge-pt2",
+  "benchmark_name": "musr",
+  "score": 18.74270833333333,
+  "score_raw": 18.74270833333333,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 376
+}

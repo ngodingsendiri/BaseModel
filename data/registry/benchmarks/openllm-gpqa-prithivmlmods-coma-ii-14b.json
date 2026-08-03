@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-prithivmlmods-coma-ii-14b",
+  "model_id": "prithivMLmods/Coma-II-14B",
+  "benchmark_name": "gpqa",
+  "score": 20.022371364653242,
+  "score_raw": 20.022371364653242,
+  "evaluation_date": "2025-03-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 44
+}

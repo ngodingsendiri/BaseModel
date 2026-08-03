@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-fblgit-una-thepitbull-21-4b-v2",
+  "model_id": "fblgit/UNA-ThePitbull-21.4B-v2",
+  "benchmark_name": "mmlu-pro",
+  "score": 27.95138888888889,
+  "score_raw": 27.95138888888889,
+  "evaluation_date": "2024-05-28",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2195
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-meditsolutions-msh-lite-7b-v1-bielik-v2-3-instruct-llama-prune",
+  "model_id": "meditsolutions/MSH-Lite-7B-v1-Bielik-v2.3-Instruct-Llama-Prune",
+  "benchmark_name": "musr",
+  "score": 11.56796875,
+  "score_raw": 11.56796875,
+  "evaluation_date": "2024-11-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1742
+}

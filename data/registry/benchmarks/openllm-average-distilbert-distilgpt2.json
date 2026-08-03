@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-distilbert-distilgpt2",
+  "model_id": "distilbert/distilgpt2",
+  "benchmark_name": "average",
+  "score": 4.002273827220365,
+  "score_raw": 4.002273827220365,
+  "evaluation_date": "2022-03-02",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4446
+}

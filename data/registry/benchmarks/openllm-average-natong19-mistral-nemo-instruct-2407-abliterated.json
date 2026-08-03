@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-natong19-mistral-nemo-instruct-2407-abliterated",
+  "model_id": "natong19/Mistral-Nemo-Instruct-2407-abliterated",
+  "benchmark_name": "average",
+  "score": 25.017625420548132,
+  "score_raw": 25.017625420548132,
+  "evaluation_date": "2024-08-15",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1622
+}

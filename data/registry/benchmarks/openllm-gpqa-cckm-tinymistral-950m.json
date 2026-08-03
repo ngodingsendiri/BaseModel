@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-cckm-tinymistral-950m",
+  "model_id": "cckm/tinymistral_950m",
+  "benchmark_name": "gpqa",
+  "score": 1.342281879194629,
+  "score_raw": 1.342281879194629,
+  "evaluation_date": "2025-01-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3964
+}

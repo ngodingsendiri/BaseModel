@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-suayptalha-luminis-phi-4",
+  "model_id": "suayptalha/Luminis-phi-4",
+  "benchmark_name": "average",
+  "score": 41.757466085959734,
+  "score_raw": 41.757466085959734,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 133
+}

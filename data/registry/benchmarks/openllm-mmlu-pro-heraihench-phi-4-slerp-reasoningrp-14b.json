@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-heraihench-phi-4-slerp-reasoningrp-14b",
+  "model_id": "HeraiHench/Phi-4-slerp-ReasoningRP-14B",
+  "benchmark_name": "mmlu-pro",
+  "score": 9.999261229314419,
+  "score_raw": 9.999261229314419,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3627
+}

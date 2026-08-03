@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-qingy2024-qwen2-5-math-14b-instruct-alpha",
+  "model_id": "qingy2024/Qwen2.5-Math-14B-Instruct-Alpha",
+  "benchmark_name": "average",
+  "score": 39.35285681111407,
+  "score_raw": 39.35285681111407,
+  "evaluation_date": "2024-12-03",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 320
+}

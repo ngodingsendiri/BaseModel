@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-allknowingroger-qwen2-5-7b-task8",
+  "model_id": "allknowingroger/Qwen2.5-7B-task8",
+  "benchmark_name": "gpqa",
+  "score": 9.395973154362418,
+  "score_raw": 9.395973154362418,
+  "evaluation_date": "2024-11-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1127
+}

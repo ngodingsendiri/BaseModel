@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-zhliu627-zephyr-7b-gemma-rpo-avg",
+  "model_id": "ZHLiu627/zephyr-7b-gemma-rpo-avg",
+  "benchmark_name": "math-lvl-5",
+  "score": 4.984894259818732,
+  "score_raw": 4.984894259818732,
+  "evaluation_date": "2025-02-23",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3290
+}

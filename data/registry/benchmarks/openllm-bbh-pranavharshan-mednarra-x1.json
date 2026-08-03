@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-pranavharshan-mednarra-x1",
+  "model_id": "PranavHarshan/MedNarra-X1",
+  "benchmark_name": "bbh",
+  "score": 23.52349513234211,
+  "score_raw": 23.52349513234211,
+  "evaluation_date": "2024-10-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2945
+}

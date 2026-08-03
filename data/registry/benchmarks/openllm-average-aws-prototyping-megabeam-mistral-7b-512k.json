@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-aws-prototyping-megabeam-mistral-7b-512k",
+  "model_id": "aws-prototyping/MegaBeam-Mistral-7B-512k",
+  "benchmark_name": "average",
+  "score": 17.582481722488744,
+  "score_raw": 17.582481722488744,
+  "evaluation_date": "2024-07-30",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3000
+}

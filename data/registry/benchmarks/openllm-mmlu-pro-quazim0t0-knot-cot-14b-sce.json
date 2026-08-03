@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-quazim0t0-knot-cot-14b-sce",
+  "model_id": "Quazim0t0/Knot-CoT-14B-sce",
+  "benchmark_name": "mmlu-pro",
+  "score": 46.15285165484633,
+  "score_raw": 46.15285165484633,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 492
+}

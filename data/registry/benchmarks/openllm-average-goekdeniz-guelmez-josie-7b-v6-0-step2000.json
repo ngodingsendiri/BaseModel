@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-goekdeniz-guelmez-josie-7b-v6-0-step2000",
+  "model_id": "Goekdeniz-Guelmez/josie-7b-v6.0-step2000",
+  "benchmark_name": "average",
+  "score": 26.97043751712353,
+  "score_raw": 26.97043751712353,
+  "evaluation_date": "2024-12-11",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1393
+}

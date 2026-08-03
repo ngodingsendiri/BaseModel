@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-paloalma-le-triomphant-ece-tw3",
+  "model_id": "paloalma/Le_Triomphant-ECE-TW3",
+  "benchmark_name": "average",
+  "score": 31.996294194213135,
+  "score_raw": 31.996294194213135,
+  "evaluation_date": "2024-04-01",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 852
+}

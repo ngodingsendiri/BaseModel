@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-prithivmlmods-llama-express-1-math",
+  "model_id": "prithivMLmods/Llama-Express.1-Math",
+  "benchmark_name": "ifeval",
+  "score": 50.84320713484665,
+  "score_raw": 50.84320713484665,
+  "evaluation_date": "2025-01-21",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1789
+}

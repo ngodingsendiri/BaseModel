@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-nbeerbower-doppelkartoffel-mistral-nemo-23b",
+  "model_id": "nbeerbower/DoppelKartoffel-Mistral-Nemo-23B",
+  "benchmark_name": "math-lvl-5",
+  "score": 3.096676737160121,
+  "score_raw": 3.096676737160121,
+  "evaluation_date": "2025-02-15",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3681
+}

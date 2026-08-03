@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-oevortex-helpingai2-5-10b",
+  "model_id": "OEvortex/HelpingAI2.5-10B",
+  "benchmark_name": "average",
+  "score": 13.711774162686112,
+  "score_raw": 13.711774162686112,
+  "evaluation_date": "2024-11-17",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3451
+}

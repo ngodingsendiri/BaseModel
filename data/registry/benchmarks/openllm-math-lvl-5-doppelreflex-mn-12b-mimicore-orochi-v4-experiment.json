@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-doppelreflex-mn-12b-mimicore-orochi-v4-experiment",
+  "model_id": "DoppelReflEx/MN-12B-Mimicore-Orochi-v4-Experiment",
+  "benchmark_name": "math-lvl-5",
+  "score": 12.084592145015106,
+  "score_raw": 12.084592145015106,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2073
+}

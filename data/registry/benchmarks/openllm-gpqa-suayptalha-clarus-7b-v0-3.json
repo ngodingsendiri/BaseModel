@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-suayptalha-clarus-7b-v0-3",
+  "model_id": "suayptalha/Clarus-7B-v0.3",
+  "benchmark_name": "gpqa",
+  "score": 8.277404921700223,
+  "score_raw": 8.277404921700223,
+  "evaluation_date": "2025-02-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1420
+}

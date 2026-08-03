@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-minthy-alt-8b-model-stock",
+  "model_id": "DreadPoor/Minthy_ALT-8B-Model_Stock",
+  "benchmark_name": "musr",
+  "score": 11.648437499999998,
+  "score_raw": 11.648437499999998,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1718
+}

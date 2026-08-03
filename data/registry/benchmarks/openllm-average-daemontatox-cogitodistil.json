@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-daemontatox-cogitodistil",
+  "model_id": "Daemontatox/CogitoDistil",
+  "benchmark_name": "average",
+  "score": 17.180474194347855,
+  "score_raw": 17.180474194347855,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3047
+}

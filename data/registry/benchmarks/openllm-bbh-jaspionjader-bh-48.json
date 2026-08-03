@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-jaspionjader-bh-48",
+  "model_id": "jaspionjader/bh-48",
+  "benchmark_name": "bbh",
+  "score": 36.33510481146546,
+  "score_raw": 36.33510481146546,
+  "evaluation_date": "2025-02-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1171
+}

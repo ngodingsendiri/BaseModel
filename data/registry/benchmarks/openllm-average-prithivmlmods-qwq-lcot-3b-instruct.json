@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-qwq-lcot-3b-instruct",
+  "model_id": "prithivMLmods/QwQ-LCoT-3B-Instruct",
+  "benchmark_name": "average",
+  "score": 24.021306557737763,
+  "score_raw": 24.021306557737763,
+  "evaluation_date": "2024-12-12",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1830
+}

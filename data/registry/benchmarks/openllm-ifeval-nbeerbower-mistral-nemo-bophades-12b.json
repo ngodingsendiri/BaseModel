@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-nbeerbower-mistral-nemo-bophades-12b",
+  "model_id": "nbeerbower/mistral-nemo-bophades-12B",
+  "benchmark_name": "ifeval",
+  "score": 67.94405510711579,
+  "score_raw": 67.94405510711579,
+  "evaluation_date": "2024-08-13",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 875
+}

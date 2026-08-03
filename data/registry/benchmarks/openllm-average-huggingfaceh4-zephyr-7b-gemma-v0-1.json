@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-huggingfaceh4-zephyr-7b-gemma-v0-1",
+  "model_id": "HuggingFaceH4/zephyr-7b-gemma-v0.1",
+  "benchmark_name": "average",
+  "score": 16.030043342251584,
+  "score_raw": 16.030043342251584,
+  "evaluation_date": "2024-03-01",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3190
+}

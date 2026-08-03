@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-epistemeai-reasoningcore-3b-0",
+  "model_id": "EpistemeAI/ReasoningCore-3B-0",
+  "benchmark_name": "ifeval",
+  "score": 73.41454008696924,
+  "score_raw": 73.41454008696924,
+  "evaluation_date": "2025-02-07",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 548
+}

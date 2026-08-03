@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-chargoddard-prometheus-2-llama-3-8b",
+  "model_id": "chargoddard/prometheus-2-llama-3-8b",
+  "benchmark_name": "math-lvl-5",
+  "score": 8.23262839879154,
+  "score_raw": 8.23262839879154,
+  "evaluation_date": "2024-05-26",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2655
+}

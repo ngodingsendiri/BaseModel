@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-abacusai-dracarys-72b-instruct",
+  "model_id": "abacusai/Dracarys-72B-Instruct",
+  "benchmark_name": "gpqa",
+  "score": 18.791946308724835,
+  "score_raw": 18.791946308724835,
+  "evaluation_date": "2024-08-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 110
+}

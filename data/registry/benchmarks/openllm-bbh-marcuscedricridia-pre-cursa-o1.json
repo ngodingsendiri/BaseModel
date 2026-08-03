@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-marcuscedricridia-pre-cursa-o1",
+  "model_id": "marcuscedricridia/pre-cursa-o1",
+  "benchmark_name": "bbh",
+  "score": 35.72155461706918,
+  "score_raw": 35.72155461706918,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1267
+}

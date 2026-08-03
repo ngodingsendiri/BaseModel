@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-again-8b-model-stock",
+  "model_id": "DreadPoor/Again-8B-Model_Stock",
+  "benchmark_name": "musr",
+  "score": 8.701302083333335,
+  "score_raw": 8.701302083333335,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2653
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-danielbrdz-barcenas-14b-phi-3-medium-orpo",
+  "model_id": "Danielbrdz/Barcenas-14b-Phi-3-medium-ORPO",
+  "benchmark_name": "average",
+  "score": 31.88950498581046,
+  "score_raw": 31.88950498581046,
+  "evaluation_date": "2024-06-15",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 862
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-sumink-qwensci",
+  "model_id": "sumink/Qwensci",
+  "benchmark_name": "bbh",
+  "score": 6.3198431947642675,
+  "score_raw": 6.3198431947642675,
+  "evaluation_date": "2025-01-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4000
+}

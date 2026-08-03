@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-aevalone-distill-qw-test",
+  "model_id": "aevalone/distill_qw_test",
+  "benchmark_name": "average",
+  "score": 33.68409846940663,
+  "score_raw": 33.68409846940663,
+  "evaluation_date": "2025-03-01",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 744
+}

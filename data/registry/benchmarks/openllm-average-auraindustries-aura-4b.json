@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-auraindustries-aura-4b",
+  "model_id": "AuraIndustries/Aura-4B",
+  "benchmark_name": "average",
+  "score": 16.063480369846303,
+  "score_raw": 16.063480369846303,
+  "evaluation_date": "2024-12-12",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3185
+}

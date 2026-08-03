@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-decayed-8b-linear",
+  "model_id": "DreadPoor/Decayed-8B-LINEAR",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.703309692671393,
+  "score_raw": 30.703309692671393,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1688
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-lkoenig-bbai-456-qwenkoen",
+  "model_id": "lkoenig/BBAI_456_QwenKoen",
+  "benchmark_name": "mmlu-pro",
+  "score": 38.54351359338061,
+  "score_raw": 38.54351359338061,
+  "evaluation_date": "2025-03-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 779
+}

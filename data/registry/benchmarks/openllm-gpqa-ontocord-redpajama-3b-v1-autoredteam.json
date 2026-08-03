@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-ontocord-redpajama-3b-v1-autoredteam",
+  "model_id": "ontocord/RedPajama-3B-v1-AutoRedteam",
+  "benchmark_name": "gpqa",
+  "score": 0,
+  "score_raw": 0,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4532
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-jebish7-gemma-2-9b-it",
+  "model_id": "jebish7/gemma-2-9b-it",
+  "benchmark_name": "gpqa",
+  "score": 12.975391498881436,
+  "score_raw": 12.975391498881436,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 591
+}

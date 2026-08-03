@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-floflob-smollm2-pretrained-200k-fineweb",
+  "model_id": "FlofloB/smollm2_pretrained_200k_fineweb",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.7712027186761226,
+  "score_raw": 1.7712027186761226,
+  "evaluation_date": "2025-01-08",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4233
+}

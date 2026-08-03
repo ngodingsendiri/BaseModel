@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-wzhouad-gemma-2-9b-it-wpo-hb",
+  "model_id": "wzhouad/gemma-2-9b-it-WPO-HB",
+  "benchmark_name": "gpqa",
+  "score": 13.31096196868009,
+  "score_raw": 13.31096196868009,
+  "evaluation_date": "2024-08-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 564
+}

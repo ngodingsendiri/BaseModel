@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-norquinal-alpha",
+  "model_id": "Norquinal/Alpha",
+  "benchmark_name": "gpqa",
+  "score": 2.0134228187919474,
+  "score_raw": 2.0134228187919474,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3676
+}

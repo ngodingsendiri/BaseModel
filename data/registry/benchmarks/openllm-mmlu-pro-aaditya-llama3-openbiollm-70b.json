@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-aaditya-llama3-openbiollm-70b",
+  "model_id": "aaditya/Llama3-OpenBioLLM-70B",
+  "benchmark_name": "mmlu-pro",
+  "score": 42.96690307328605,
+  "score_raw": 42.96690307328605,
+  "evaluation_date": "2024-04-24",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 603
+}

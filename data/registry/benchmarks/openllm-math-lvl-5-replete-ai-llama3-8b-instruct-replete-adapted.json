@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-replete-ai-llama3-8b-instruct-replete-adapted",
+  "model_id": "Replete-AI/Llama3-8B-Instruct-Replete-Adapted",
+  "benchmark_name": "math-lvl-5",
+  "score": 7.099697885196375,
+  "score_raw": 7.099697885196375,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2831
+}

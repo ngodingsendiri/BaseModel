@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-allknowingroger-neuralmultiverse-7b-slerp",
+  "model_id": "allknowingroger/Neuralmultiverse-7B-slerp",
+  "benchmark_name": "bbh",
+  "score": 32.10018047347172,
+  "score_raw": 32.10018047347172,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1826
+}

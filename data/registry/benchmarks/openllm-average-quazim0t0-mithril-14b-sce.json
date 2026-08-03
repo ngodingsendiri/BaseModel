@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-quazim0t0-mithril-14b-sce",
+  "model_id": "Quazim0t0/Mithril-14B-sce",
+  "benchmark_name": "average",
+  "score": 40.98225259227315,
+  "score_raw": 40.98225259227315,
+  "evaluation_date": "2025-02-04",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 202
+}

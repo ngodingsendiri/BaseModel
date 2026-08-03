@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-nexesenex-llama-3-1-8b-deepdive-3-prev-v1-0",
+  "model_id": "Nexesenex/Llama_3.1_8b_DeepDive_3_Prev_v1.0",
+  "benchmark_name": "musr",
+  "score": 9.456250000000002,
+  "score_raw": 9.456250000000002,
+  "evaluation_date": "2025-02-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2455
+}

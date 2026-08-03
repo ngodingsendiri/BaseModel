@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-facebook-opt-30b",
+  "model_id": "facebook/opt-30b",
+  "benchmark_name": "musr",
+  "score": 4.185416666666667,
+  "score_raw": 4.185416666666667,
+  "evaluation_date": "2022-05-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3633
+}

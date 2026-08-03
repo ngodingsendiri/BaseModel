@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-abacusai-smaug-72b-v0-1",
+  "model_id": "abacusai/Smaug-72B-v0.1",
+  "benchmark_name": "ifeval",
+  "score": 51.67001334237601,
+  "score_raw": 51.67001334237601,
+  "evaluation_date": "2024-02-02",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1746
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-nbeerbower-gemma2-gutenberg-9b",
+  "model_id": "nbeerbower/gemma2-gutenberg-9B",
+  "benchmark_name": "mmlu-pro",
+  "score": 35.4683806146572,
+  "score_raw": 35.4683806146572,
+  "evaluation_date": "2024-07-14",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1086
+}

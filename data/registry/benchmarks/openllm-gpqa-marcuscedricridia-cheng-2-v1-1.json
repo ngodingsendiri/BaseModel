@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-marcuscedricridia-cheng-2-v1-1",
+  "model_id": "marcuscedricridia/Cheng-2-v1.1",
+  "benchmark_name": "gpqa",
+  "score": 12.416107382550338,
+  "score_raw": 12.416107382550338,
+  "evaluation_date": "2025-03-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 662
+}

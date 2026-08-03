@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-xkp24-llama-3-8b-instruct-sppo-iter2-gp-8b-table",
+  "model_id": "xkp24/Llama-3-8B-Instruct-SPPO-Iter2_gp_8b-table",
+  "benchmark_name": "average",
+  "score": 23.073734600438332,
+  "score_raw": 23.073734600438332,
+  "evaluation_date": "2024-09-30",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2082
+}

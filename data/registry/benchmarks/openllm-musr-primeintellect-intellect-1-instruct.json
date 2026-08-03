@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-primeintellect-intellect-1-instruct",
+  "model_id": "PrimeIntellect/INTELLECT-1-Instruct",
+  "benchmark_name": "musr",
+  "score": 3.7109374999999996,
+  "score_raw": 3.7109374999999996,
+  "evaluation_date": "2024-11-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3756
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-pankajmathur-orca-mini-v2-7b",
+  "model_id": "pankajmathur/orca_mini_v2_7b",
+  "benchmark_name": "ifeval",
+  "score": 13.57885964795631,
+  "score_raw": 13.57885964795631,
+  "evaluation_date": "2023-07-03",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4404
+}

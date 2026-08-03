@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-norquinal-echo",
+  "model_id": "Norquinal/Echo",
+  "benchmark_name": "average",
+  "score": 13.446736463673105,
+  "score_raw": 13.446736463673105,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3477
+}

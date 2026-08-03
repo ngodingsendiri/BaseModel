@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-kingnish-qwen-1b-continued",
+  "model_id": "KingNish/qwen-1b-continued",
+  "benchmark_name": "musr",
+  "score": 5.6677083333333345,
+  "score_raw": 5.6677083333333345,
+  "evaluation_date": "2025-03-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3313
+}

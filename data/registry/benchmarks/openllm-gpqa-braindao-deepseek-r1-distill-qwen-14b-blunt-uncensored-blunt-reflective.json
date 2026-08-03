@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-braindao-deepseek-r1-distill-qwen-14b-blunt-uncensored-blunt-reflective",
+  "model_id": "braindao/DeepSeek-R1-Distill-Qwen-14B-Blunt-Uncensored-Blunt-Reflective",
+  "benchmark_name": "gpqa",
+  "score": 3.6912751677852316,
+  "score_raw": 3.6912751677852316,
+  "evaluation_date": "2025-03-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3073
+}

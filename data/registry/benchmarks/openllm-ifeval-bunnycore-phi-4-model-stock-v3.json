@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-bunnycore-phi-4-model-stock-v3",
+  "model_id": "bunnycore/Phi-4-Model-Stock-v3",
+  "benchmark_name": "ifeval",
+  "score": 59.11636679565775,
+  "score_raw": 59.11636679565775,
+  "evaluation_date": "2025-01-18",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1318
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-failspy-meta-llama-3-70b-instruct-abliterated-v3-5",
+  "model_id": "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3.5",
+  "benchmark_name": "bbh",
+  "score": 37.87133313079306,
+  "score_raw": 37.87133313079306,
+  "evaluation_date": "2024-05-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1018
+}

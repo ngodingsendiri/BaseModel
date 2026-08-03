@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-steelskull-l3-3-ms-nevoria-70b",
+  "model_id": "Steelskull/L3.3-MS-Nevoria-70b",
+  "benchmark_name": "bbh",
+  "score": 56.60264873723427,
+  "score_raw": 56.60264873723427,
+  "evaluation_date": "2025-01-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 66
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-rootxhacker-apollo-v2-32b",
+  "model_id": "rootxhacker/Apollo_v2-32B",
+  "benchmark_name": "bbh",
+  "score": 58.274951480798315,
+  "score_raw": 58.274951480798315,
+  "evaluation_date": "2025-03-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 35
+}

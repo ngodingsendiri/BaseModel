@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-talha2001-beast-soul-new",
+  "model_id": "talha2001/Beast-Soul-new",
+  "benchmark_name": "musr",
+  "score": 14.140885416666668,
+  "score_raw": 14.140885416666668,
+  "evaluation_date": "2024-08-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1025
+}

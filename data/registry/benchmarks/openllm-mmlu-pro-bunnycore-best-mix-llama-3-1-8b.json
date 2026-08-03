@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-bunnycore-best-mix-llama-3-1-8b",
+  "model_id": "bunnycore/Best-Mix-Llama-3.1-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 6.277703900709218,
+  "score_raw": 6.277703900709218,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3905
+}

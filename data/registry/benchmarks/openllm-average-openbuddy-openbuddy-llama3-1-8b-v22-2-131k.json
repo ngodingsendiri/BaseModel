@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-openbuddy-openbuddy-llama3-1-8b-v22-2-131k",
+  "model_id": "OpenBuddy/openbuddy-llama3.1-8b-v22.2-131k",
+  "benchmark_name": "average",
+  "score": 24.4181731020086,
+  "score_raw": 24.4181731020086,
+  "evaluation_date": "2024-07-28",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1721
+}

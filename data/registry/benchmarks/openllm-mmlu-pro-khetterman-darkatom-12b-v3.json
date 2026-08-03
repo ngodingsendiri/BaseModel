@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-khetterman-darkatom-12b-v3",
+  "model_id": "Khetterman/DarkAtom-12B-v3",
+  "benchmark_name": "mmlu-pro",
+  "score": 28.29307033096927,
+  "score_raw": 28.29307033096927,
+  "evaluation_date": "2024-11-13",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2147
+}

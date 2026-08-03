@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-epistemeai2-fireball-alpaca-llama3-1-04-8b-philos",
+  "model_id": "EpistemeAI2/Fireball-Alpaca-Llama3.1.04-8B-Philos",
+  "benchmark_name": "math-lvl-5",
+  "score": 12.009063444108762,
+  "score_raw": 12.009063444108762,
+  "evaluation_date": "2024-09-05",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2085
+}

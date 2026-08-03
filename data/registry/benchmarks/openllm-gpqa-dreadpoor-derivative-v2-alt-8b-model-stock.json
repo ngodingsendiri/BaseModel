@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-derivative-v2-alt-8b-model-stock",
+  "model_id": "DreadPoor/Derivative_V2_ALT-8B-Model_Stock",
+  "benchmark_name": "gpqa",
+  "score": 8.165548098434002,
+  "score_raw": 8.165548098434002,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1425
+}

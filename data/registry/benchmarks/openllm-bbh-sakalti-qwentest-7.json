@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-sakalti-qwentest-7",
+  "model_id": "Sakalti/QwenTest-7",
+  "benchmark_name": "bbh",
+  "score": 3.6327089522677753,
+  "score_raw": 3.6327089522677753,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4237
+}

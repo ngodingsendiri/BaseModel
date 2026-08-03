@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-sakalti-tara-3-8b",
+  "model_id": "Sakalti/tara-3.8B",
+  "benchmark_name": "gpqa",
+  "score": 5.92841163310962,
+  "score_raw": 5.92841163310962,
+  "evaluation_date": "2025-01-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2292
+}

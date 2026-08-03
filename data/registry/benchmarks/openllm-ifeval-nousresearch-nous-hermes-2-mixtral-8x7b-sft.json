@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-nousresearch-nous-hermes-2-mixtral-8x7b-sft",
+  "model_id": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-SFT",
+  "benchmark_name": "ifeval",
+  "score": 57.30783210769647,
+  "score_raw": 57.30783210769647,
+  "evaluation_date": "2023-12-26",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1398
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nexesenex-llama-3-1-8b-dolermed-r1-v1-01",
+  "model_id": "Nexesenex/Llama_3.1_8b_Dolermed_R1_V1.01",
+  "benchmark_name": "average",
+  "score": 29.312043044222406,
+  "score_raw": 29.312043044222406,
+  "evaluation_date": "2025-02-28",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1137
+}

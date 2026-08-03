@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-mistralai-codestral-22b-v0-1",
+  "model_id": "mistralai/Codestral-22B-v0.1",
+  "benchmark_name": "musr",
+  "score": 10.738541666666668,
+  "score_raw": 10.738541666666668,
+  "evaluation_date": "2024-05-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2060
+}

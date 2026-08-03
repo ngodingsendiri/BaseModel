@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-aalf-gemma-2-27b-it-simpo-37k-100steps",
+  "model_id": "AALF/gemma-2-27b-it-SimPO-37K-100steps",
+  "benchmark_name": "bbh",
+  "score": 15.261078322847055,
+  "score_raw": 15.261078322847055,
+  "evaluation_date": "2024-08-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3487
+}

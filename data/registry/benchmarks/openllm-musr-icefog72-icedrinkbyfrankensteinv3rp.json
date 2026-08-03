@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-icefog72-icedrinkbyfrankensteinv3rp",
+  "model_id": "icefog72/IceDrinkByFrankensteinV3RP",
+  "benchmark_name": "musr",
+  "score": 12.19739583333333,
+  "score_raw": 12.19739583333333,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1526
+}

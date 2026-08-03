@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-openbuddy-openbuddy-nemotron-70b-v23-2-131k",
+  "model_id": "OpenBuddy/openbuddy-nemotron-70b-v23.2-131k",
+  "benchmark_name": "gpqa",
+  "score": 14.65324384787472,
+  "score_raw": 14.65324384787472,
+  "evaluation_date": "2024-10-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 431
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-qingy2019-oracle-14b",
+  "model_id": "qingy2019/Oracle-14B",
+  "benchmark_name": "gpqa",
+  "score": 1.0067114093959737,
+  "score_raw": 1.0067114093959737,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4138
+}

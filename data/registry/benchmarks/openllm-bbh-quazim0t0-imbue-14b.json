@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-quazim0t0-imbue-14b",
+  "model_id": "Quazim0t0/Imbue-14b",
+  "benchmark_name": "bbh",
+  "score": 54.47623938595546,
+  "score_raw": 54.47623938595546,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 156
+}

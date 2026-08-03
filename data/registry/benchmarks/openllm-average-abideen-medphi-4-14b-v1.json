@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-abideen-medphi-4-14b-v1",
+  "model_id": "abideen/MedPhi-4-14B-v1",
+  "benchmark_name": "average",
+  "score": 36.53594090222929,
+  "score_raw": 36.53594090222929,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 515
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sao10k-l3-8b-stheno-v3-2",
+  "model_id": "Sao10K/L3-8B-Stheno-v3.2",
+  "benchmark_name": "musr",
+  "score": 6.453906249999996,
+  "score_raw": 6.453906249999996,
+  "evaluation_date": "2024-06-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3162
+}

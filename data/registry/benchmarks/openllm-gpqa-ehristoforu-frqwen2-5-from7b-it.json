@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-ehristoforu-frqwen2-5-from7b-it",
+  "model_id": "ehristoforu/frqwen2.5-from7b-it",
+  "benchmark_name": "gpqa",
+  "score": 5.369127516778524,
+  "score_raw": 5.369127516778524,
+  "evaluation_date": "2025-01-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2515
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-doppelreflex-mn-12b-mimicore-whitesnake-v2-experiment-3",
+  "model_id": "DoppelReflEx/MN-12B-Mimicore-WhiteSnake-v2-Experiment-3",
+  "benchmark_name": "bbh",
+  "score": 26.321395450260827,
+  "score_raw": 26.321395450260827,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2696
+}

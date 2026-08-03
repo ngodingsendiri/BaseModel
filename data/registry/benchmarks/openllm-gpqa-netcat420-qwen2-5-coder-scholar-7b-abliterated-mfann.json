@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-netcat420-qwen2-5-coder-scholar-7b-abliterated-mfann",
+  "model_id": "netcat420/Qwen2.5-Coder-Scholar-7B-Abliterated-MFANN",
+  "benchmark_name": "gpqa",
+  "score": 5.7046979865771785,
+  "score_raw": 5.7046979865771785,
+  "evaluation_date": "2024-12-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2396
+}

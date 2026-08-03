@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-paloalma-tw3-jrgl-v2",
+  "model_id": "paloalma/TW3-JRGL-v2",
+  "benchmark_name": "mmlu-pro",
+  "score": 42.86532210401891,
+  "score_raw": 42.86532210401891,
+  "evaluation_date": "2024-04-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 605
+}

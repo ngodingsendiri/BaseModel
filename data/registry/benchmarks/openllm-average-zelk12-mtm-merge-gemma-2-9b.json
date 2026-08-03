@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-zelk12-mtm-merge-gemma-2-9b",
+  "model_id": "zelk12/MTM-Merge-gemma-2-9B",
+  "benchmark_name": "average",
+  "score": 34.61498534418492,
+  "score_raw": 34.61498534418492,
+  "evaluation_date": "2025-01-01",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 676
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-jeonsworld-carbonvillain-en-10-7b-v4",
+  "model_id": "jeonsworld/CarbonVillain-en-10.7B-v4",
+  "benchmark_name": "musr",
+  "score": 8.401041666666663,
+  "score_raw": 8.401041666666663,
+  "evaluation_date": "2023-12-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2727
+}

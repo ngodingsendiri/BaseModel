@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-tremontaine-l3-12b-lunaris-v1",
+  "model_id": "Tremontaine/L3-12B-Lunaris-v1",
+  "benchmark_name": "ifeval",
+  "score": 69.0931173730147,
+  "score_raw": 69.0931173730147,
+  "evaluation_date": "2024-07-14",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 812
+}

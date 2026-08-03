@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-meditsolutions-llama-3-2-sun-2-5b-chat",
+  "model_id": "meditsolutions/Llama-3.2-SUN-2.5B-chat",
+  "benchmark_name": "ifeval",
+  "score": 56.0414145578177,
+  "score_raw": 56.0414145578177,
+  "evaluation_date": "2024-09-27",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1457
+}

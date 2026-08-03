@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-zelk12-mt5-gen5-gemma-2-9b",
+  "model_id": "zelk12/MT5-Gen5-gemma-2-9B",
+  "benchmark_name": "musr",
+  "score": 11.555989583333336,
+  "score_raw": 11.555989583333336,
+  "evaluation_date": "2024-12-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1749
+}

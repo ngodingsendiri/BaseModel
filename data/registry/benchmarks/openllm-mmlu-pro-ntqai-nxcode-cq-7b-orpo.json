@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ntqai-nxcode-cq-7b-orpo",
+  "model_id": "NTQAI/Nxcode-CQ-7B-orpo",
+  "benchmark_name": "mmlu-pro",
+  "score": 6.794843380614658,
+  "score_raw": 6.794843380614658,
+  "evaluation_date": "2024-04-24",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3810
+}

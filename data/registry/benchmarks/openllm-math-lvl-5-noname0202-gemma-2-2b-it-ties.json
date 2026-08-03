@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-noname0202-gemma-2-2b-it-ties",
+  "model_id": "noname0202/gemma-2-2b-it-ties",
+  "benchmark_name": "math-lvl-5",
+  "score": 2.416918429003021,
+  "score_raw": 2.416918429003021,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3840
+}

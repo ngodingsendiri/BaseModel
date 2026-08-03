@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-lenguajenaturalai-leniachat-gemma-2b-v0",
+  "model_id": "LenguajeNaturalAI/leniachat-gemma-2b-v0",
+  "benchmark_name": "bbh",
+  "score": 4.1382969637280675,
+  "score_raw": 4.1382969637280675,
+  "evaluation_date": "2024-04-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4204
+}

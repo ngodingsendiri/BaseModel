@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ehristoforu-testq-32b",
+  "model_id": "ehristoforu/testq-32b",
+  "benchmark_name": "average",
+  "score": 4.53854409737458,
+  "score_raw": 4.53854409737458,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4365
+}

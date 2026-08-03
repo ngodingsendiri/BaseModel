@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-pretergeek-openchat-3-5-0106-9-86b-44layers-appended",
+  "model_id": "Pretergeek/OpenChat-3.5-0106_9.86B_44Layers-Appended",
+  "benchmark_name": "ifeval",
+  "score": 59.60595663949432,
+  "score_raw": 59.60595663949432,
+  "evaluation_date": "2024-07-27",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1295
+}

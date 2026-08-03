@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-sometimesanotion-qwen-14b-prosestock-v4",
+  "model_id": "sometimesanotion/Qwen-14B-ProseStock-v4",
+  "benchmark_name": "bbh",
+  "score": 49.54129977932439,
+  "score_raw": 49.54129977932439,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 428
+}

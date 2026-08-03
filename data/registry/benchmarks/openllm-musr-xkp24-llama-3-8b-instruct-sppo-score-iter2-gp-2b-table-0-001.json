@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-xkp24-llama-3-8b-instruct-sppo-score-iter2-gp-2b-table-0-001",
+  "model_id": "xkp24/Llama-3-8B-Instruct-SPPO-score-Iter2_gp_2b-table-0.001",
+  "benchmark_name": "musr",
+  "score": 2.328385416666666,
+  "score_raw": 2.328385416666666,
+  "evaluation_date": "2024-09-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4097
+}

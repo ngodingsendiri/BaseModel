@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-sometimesanotion-qwen2-5-14b-vimarckoso-v3",
+  "model_id": "sometimesanotion/Qwen2.5-14B-Vimarckoso-v3",
+  "benchmark_name": "bbh",
+  "score": 48.581587256263106,
+  "score_raw": 48.581587256263106,
+  "evaluation_date": "2024-12-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 507
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-locutusque-hercules-6-0-llama-3-1-8b",
+  "model_id": "Locutusque/Hercules-6.0-Llama-3.1-8B",
+  "benchmark_name": "bbh",
+  "score": 26.63965184405082,
+  "score_raw": 26.63965184405082,
+  "evaluation_date": "2024-09-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2660
+}

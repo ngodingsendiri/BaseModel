@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-lkoenig-bbai-7b-qwendyancabslaw",
+  "model_id": "lkoenig/BBAI_7B_QwenDyancabsLAW",
+  "benchmark_name": "ifeval",
+  "score": 55.49685944405289,
+  "score_raw": 55.49685944405289,
+  "evaluation_date": "2025-03-01",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1493
+}

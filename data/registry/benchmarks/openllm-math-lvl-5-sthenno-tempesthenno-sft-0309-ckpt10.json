@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sthenno-tempesthenno-sft-0309-ckpt10",
+  "model_id": "sthenno/tempesthenno-sft-0309-ckpt10",
+  "benchmark_name": "math-lvl-5",
+  "score": 47.205438066465256,
+  "score_raw": 47.205438066465256,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 230
+}

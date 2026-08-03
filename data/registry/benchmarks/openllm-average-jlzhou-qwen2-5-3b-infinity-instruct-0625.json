@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-jlzhou-qwen2-5-3b-infinity-instruct-0625",
+  "model_id": "jlzhou/Qwen2.5-3B-Infinity-Instruct-0625",
+  "benchmark_name": "average",
+  "score": 18.5491918072634,
+  "score_raw": 18.5491918072634,
+  "evaluation_date": "2025-01-21",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2877
+}

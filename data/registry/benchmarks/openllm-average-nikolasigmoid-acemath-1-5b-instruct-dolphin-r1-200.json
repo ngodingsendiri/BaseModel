@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nikolasigmoid-acemath-1-5b-instruct-dolphin-r1-200",
+  "model_id": "NikolaSigmoid/AceMath-1.5B-Instruct-dolphin-r1-200",
+  "benchmark_name": "average",
+  "score": 4.389863637734279,
+  "score_raw": 4.389863637734279,
+  "evaluation_date": "2025-03-05",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4383
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sakaltcommunity-novablast-preview",
+  "model_id": "sakaltcommunity/novablast-preview",
+  "benchmark_name": "musr",
+  "score": 24.497656250000002,
+  "score_raw": 24.497656250000002,
+  "evaluation_date": "2024-12-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 40
+}

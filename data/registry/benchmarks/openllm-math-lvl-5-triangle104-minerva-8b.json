@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-triangle104-minerva-8b",
+  "model_id": "Triangle104/Minerva-8b",
+  "benchmark_name": "math-lvl-5",
+  "score": 0.4531722054380665,
+  "score_raw": 0.4531722054380665,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4361
+}

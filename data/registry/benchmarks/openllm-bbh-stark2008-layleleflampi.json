@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-stark2008-layleleflampi",
+  "model_id": "Stark2008/LayleleFlamPi",
+  "benchmark_name": "bbh",
+  "score": 31.20740955947399,
+  "score_raw": 31.20740955947399,
+  "evaluation_date": "2024-07-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2003
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-fluently-lm-fluentlylm-prinum",
+  "model_id": "fluently-lm/FluentlyLM-Prinum",
+  "benchmark_name": "math-lvl-5",
+  "score": 54.003021148036254,
+  "score_raw": 54.003021148036254,
+  "evaluation_date": "2025-02-16",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 56
+}

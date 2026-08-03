@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-xiaojian9992024-reflection-l3-2-jametminimix-3b",
+  "model_id": "Xiaojian9992024/Reflection-L3.2-JametMiniMix-3B",
+  "benchmark_name": "gpqa",
+  "score": 5.92841163310962,
+  "score_raw": 5.92841163310962,
+  "evaluation_date": "2025-02-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2295
+}

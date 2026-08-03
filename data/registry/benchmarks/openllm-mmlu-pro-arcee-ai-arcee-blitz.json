@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-arcee-ai-arcee-blitz",
+  "model_id": "arcee-ai/Arcee-Blitz",
+  "benchmark_name": "mmlu-pro",
+  "score": 57.2621158392435,
+  "score_raw": 57.2621158392435,
+  "evaluation_date": "2025-02-07",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 6
+}

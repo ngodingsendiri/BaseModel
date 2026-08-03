@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-prithivmlmods-magellanic-qwen-25b-r999",
+  "model_id": "prithivMLmods/Magellanic-Qwen-25B-R999",
+  "benchmark_name": "ifeval",
+  "score": 18.727199386516666,
+  "score_raw": 18.727199386516666,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4101
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-allknowingroger-mistralmash2-7b-s",
+  "model_id": "allknowingroger/Mistralmash2-7B-s",
+  "benchmark_name": "mmlu-pro",
+  "score": 26.0582890070922,
+  "score_raw": 26.0582890070922,
+  "evaluation_date": "2024-08-27",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2404
+}

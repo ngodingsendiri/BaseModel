@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-allknowingroger-homerslerp3-7b",
+  "model_id": "allknowingroger/HomerSlerp3-7B",
+  "benchmark_name": "musr",
+  "score": 14.372135416666671,
+  "score_raw": 14.372135416666671,
+  "evaluation_date": "2024-11-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 967
+}

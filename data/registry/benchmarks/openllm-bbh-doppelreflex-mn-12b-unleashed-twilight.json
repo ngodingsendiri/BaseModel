@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-doppelreflex-mn-12b-unleashed-twilight",
+  "model_id": "DoppelReflEx/MN-12B-Unleashed-Twilight",
+  "benchmark_name": "bbh",
+  "score": 35.97610662338389,
+  "score_raw": 35.97610662338389,
+  "evaluation_date": "2025-02-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1223
+}

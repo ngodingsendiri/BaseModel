@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-leroydyer-lcars-ai-startrek-computer",
+  "model_id": "LeroyDyer/LCARS_AI_StarTrek_Computer",
+  "benchmark_name": "average",
+  "score": 14.613893572975764,
+  "score_raw": 14.613893572975764,
+  "evaluation_date": "2024-05-11",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3346
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-cstr-llama3-1-8b-spaetzle-v90",
+  "model_id": "cstr/llama3.1-8b-spaetzle-v90",
+  "benchmark_name": "musr",
+  "score": 11.146354166666663,
+  "score_raw": 11.146354166666663,
+  "evaluation_date": "2024-09-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1924
+}

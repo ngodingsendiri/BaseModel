@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-saltlux-luxia-21-4b-alignment-v1-2",
+  "model_id": "saltlux/luxia-21.4b-alignment-v1.2",
+  "benchmark_name": "average",
+  "score": 24.58071047593133,
+  "score_raw": 24.58071047593133,
+  "evaluation_date": "2024-05-27",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1695
+}

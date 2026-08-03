@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-combinhorizon-huihui-ai-abliteratedv2-qwen2-5-14b-inst-basemerge-ties",
+  "model_id": "CombinHorizon/huihui-ai-abliteratedV2-Qwen2.5-14B-Inst-BaseMerge-TIES",
+  "benchmark_name": "gpqa",
+  "score": 8.612975391498878,
+  "score_raw": 8.612975391498878,
+  "evaluation_date": "2024-12-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1295
+}

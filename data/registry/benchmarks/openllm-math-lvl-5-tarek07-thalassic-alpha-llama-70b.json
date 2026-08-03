@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-tarek07-thalassic-alpha-llama-70b",
+  "model_id": "Tarek07/Thalassic-Alpha-LLaMa-70B",
+  "benchmark_name": "math-lvl-5",
+  "score": 31.49546827794562,
+  "score_raw": 31.49546827794562,
+  "evaluation_date": "2025-01-27",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 775
+}

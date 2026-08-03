@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-newsbang-homer-v1-0-qwen2-5-72b",
+  "model_id": "newsbang/Homer-v1.0-Qwen2.5-72B",
+  "benchmark_name": "bbh",
+  "score": 62.27406507872839,
+  "score_raw": 62.27406507872839,
+  "evaluation_date": "2024-12-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 10
+}

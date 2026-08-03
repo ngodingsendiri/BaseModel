@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-princeton-nlp-llama-3-base-8b-sft-rdpo",
+  "model_id": "princeton-nlp/Llama-3-Base-8B-SFT-RDPO",
+  "benchmark_name": "average",
+  "score": 19.142302231808696,
+  "score_raw": 19.142302231808696,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2817
+}

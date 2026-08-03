@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-marsouuu-mistralbase-4x7b-moe-ece-prymmal-martial",
+  "model_id": "Marsouuu/MistralBase-4x7B-MoE-ECE-PRYMMAL-Martial",
+  "benchmark_name": "bbh",
+  "score": 8.870227428732667,
+  "score_raw": 8.870227428732667,
+  "evaluation_date": "2024-10-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3720
+}

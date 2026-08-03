@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-eleutherai-pythia-6-9b",
+  "model_id": "EleutherAI/pythia-6.9b",
+  "benchmark_name": "gpqa",
+  "score": 0.22371364653244186,
+  "score_raw": 0.22371364653244186,
+  "evaluation_date": "2023-02-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4293
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sabersaleh-llama2-7b-dpo",
+  "model_id": "sabersaleh/Llama2-7B-DPO",
+  "benchmark_name": "musr",
+  "score": 10.453906250000003,
+  "score_raw": 10.453906250000003,
+  "evaluation_date": "2024-11-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2152
+}

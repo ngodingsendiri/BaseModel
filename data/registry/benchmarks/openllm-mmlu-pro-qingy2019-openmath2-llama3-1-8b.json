@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-qingy2019-openmath2-llama3-1-8b",
+  "model_id": "qingy2019/OpenMath2-Llama3.1-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 6.148419030732861,
+  "score_raw": 6.148419030732861,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3935
+}

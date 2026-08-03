@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-bamec66557-vicious-mesh-12b-union",
+  "model_id": "bamec66557/VICIOUS_MESH-12B-UNION",
+  "benchmark_name": "math-lvl-5",
+  "score": 13.897280966767372,
+  "score_raw": 13.897280966767372,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1820
+}

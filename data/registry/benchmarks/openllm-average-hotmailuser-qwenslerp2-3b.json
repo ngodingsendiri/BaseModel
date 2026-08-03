@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-hotmailuser-qwenslerp2-3b",
+  "model_id": "hotmailuser/QwenSlerp2-3B",
+  "benchmark_name": "average",
+  "score": 24.03431047768953,
+  "score_raw": 24.03431047768953,
+  "evaluation_date": "2025-01-01",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1824
+}

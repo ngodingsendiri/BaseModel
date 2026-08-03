@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-bosonai-higgs-llama-3-70b",
+  "model_id": "bosonai/Higgs-Llama-3-70B",
+  "benchmark_name": "gpqa",
+  "score": 15.548098434004473,
+  "score_raw": 15.548098434004473,
+  "evaluation_date": "2024-06-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 373
+}

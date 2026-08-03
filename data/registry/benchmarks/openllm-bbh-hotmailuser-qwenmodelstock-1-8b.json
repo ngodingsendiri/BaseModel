@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-hotmailuser-qwenmodelstock-1-8b",
+  "model_id": "hotmailuser/QwenModelStock-1.8B",
+  "benchmark_name": "bbh",
+  "score": 17.724176359806876,
+  "score_raw": 17.724176359806876,
+  "evaluation_date": "2025-01-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3346
+}

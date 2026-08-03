@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-autumn-dawn-8b-linear",
+  "model_id": "DreadPoor/Autumn_Dawn-8B-LINEAR",
+  "benchmark_name": "musr",
+  "score": 11.485677083333329,
+  "score_raw": 11.485677083333329,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1789
+}

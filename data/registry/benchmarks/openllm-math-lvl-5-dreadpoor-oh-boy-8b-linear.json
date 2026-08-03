@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-dreadpoor-oh-boy-8b-linear",
+  "model_id": "DreadPoor/Oh_Boy-8B-LINEAR",
+  "benchmark_name": "math-lvl-5",
+  "score": 17.82477341389728,
+  "score_raw": 17.82477341389728,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1494
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-ro-xe-fmixia-7b-dare-0",
+  "model_id": "Ro-xe/FMixIA-7B-DARE-0",
+  "benchmark_name": "musr",
+  "score": 16.81119791666666,
+  "score_raw": 16.81119791666666,
+  "evaluation_date": "2024-12-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 598
+}

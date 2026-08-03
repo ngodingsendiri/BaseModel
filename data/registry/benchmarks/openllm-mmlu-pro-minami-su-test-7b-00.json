@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-minami-su-test-7b-00",
+  "model_id": "Minami-su/test-7B-00",
+  "benchmark_name": "mmlu-pro",
+  "score": 28.75480200945626,
+  "score_raw": 28.75480200945626,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2083
+}

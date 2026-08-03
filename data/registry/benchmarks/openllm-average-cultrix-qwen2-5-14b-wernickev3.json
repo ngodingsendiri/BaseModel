@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-cultrix-qwen2-5-14b-wernickev3",
+  "model_id": "CultriX/Qwen2.5-14B-Wernickev3",
+  "benchmark_name": "average",
+  "score": 38.38114202702078,
+  "score_raw": 38.38114202702078,
+  "evaluation_date": "2024-12-19",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 381
+}

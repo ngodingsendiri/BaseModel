@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-zeus-8b-v17-abliterated-alt",
+  "model_id": "DreadPoor/ZEUS-8B-V17-Abliterated_ALT",
+  "benchmark_name": "gpqa",
+  "score": 7.718120805369126,
+  "score_raw": 7.718120805369126,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1572
+}

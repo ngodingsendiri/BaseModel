@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-orenguteng-llama-3-1-8b-lexi-uncensored-v2",
+  "model_id": "Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.897236997635936,
+  "score_raw": 30.897236997635936,
+  "evaluation_date": "2024-08-09",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1631
+}

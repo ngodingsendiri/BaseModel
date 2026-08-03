@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-youngpanda-qwenqwen",
+  "model_id": "YoungPanda/qwenqwen",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.8635490543735225,
+  "score_raw": 1.8635490543735225,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4192
+}

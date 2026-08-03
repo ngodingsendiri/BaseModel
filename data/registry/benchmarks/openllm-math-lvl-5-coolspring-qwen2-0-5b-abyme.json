@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-coolspring-qwen2-0-5b-abyme",
+  "model_id": "CoolSpring/Qwen2-0.5B-Abyme",
+  "benchmark_name": "math-lvl-5",
+  "score": 2.9456193353474323,
+  "score_raw": 2.9456193353474323,
+  "evaluation_date": "2024-07-18",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3703
+}

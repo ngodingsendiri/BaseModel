@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-theo77186-qwen2-5-coder-7b-instruct-20241106",
+  "model_id": "theo77186/Qwen2.5-Coder-7B-Instruct-20241106",
+  "benchmark_name": "ifeval",
+  "score": 61.01477413263474,
+  "score_raw": 61.01477413263474,
+  "evaluation_date": "2024-11-08",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1219
+}

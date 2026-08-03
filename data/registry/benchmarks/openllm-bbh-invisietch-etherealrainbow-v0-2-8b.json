@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-invisietch-etherealrainbow-v0-2-8b",
+  "model_id": "invisietch/EtherealRainbow-v0.2-8B",
+  "benchmark_name": "bbh",
+  "score": 30.283791366541095,
+  "score_raw": 30.283791366541095,
+  "evaluation_date": "2024-06-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2158
+}

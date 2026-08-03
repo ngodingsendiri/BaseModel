@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-freewheelin-free-evo-qwen72b-v0-8-re",
+  "model_id": "freewheelin/free-evo-qwen72b-v0.8-re",
+  "benchmark_name": "bbh",
+  "score": 45.31740264996691,
+  "score_raw": 45.31740264996691,
+  "evaluation_date": "2024-05-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 663
+}

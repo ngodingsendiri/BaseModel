@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-quazim0t0-givingtree-8b-sce",
+  "model_id": "Quazim0t0/GivingTree-8b-sce",
+  "benchmark_name": "average",
+  "score": 23.90329552226861,
+  "score_raw": 23.90329552226861,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1869
+}

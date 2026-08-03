@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-macadeliccc-magistrate-3-2-3b-it",
+  "model_id": "macadeliccc/magistrate-3.2-3b-it",
+  "benchmark_name": "average",
+  "score": 7.088076253678785,
+  "score_raw": 7.088076253678785,
+  "evaluation_date": "2024-10-01",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4050
+}

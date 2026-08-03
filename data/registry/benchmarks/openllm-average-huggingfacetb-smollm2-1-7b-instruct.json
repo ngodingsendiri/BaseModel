@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-huggingfacetb-smollm2-1-7b-instruct",
+  "model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "benchmark_name": "average",
+  "score": 15.02227766709556,
+  "score_raw": 15.02227766709556,
+  "evaluation_date": "2024-10-31",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3305
+}

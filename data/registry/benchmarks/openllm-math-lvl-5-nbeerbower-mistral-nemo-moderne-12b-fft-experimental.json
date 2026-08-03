@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-nbeerbower-mistral-nemo-moderne-12b-fft-experimental",
+  "model_id": "nbeerbower/Mistral-Nemo-Moderne-12B-FFT-experimental",
+  "benchmark_name": "math-lvl-5",
+  "score": 7.7039274924471295,
+  "score_raw": 7.7039274924471295,
+  "evaluation_date": "2024-11-19",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2740
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-epistemeai-fireball-r1-llama-3-1-8b-medical-cot",
+  "model_id": "EpistemeAI/Fireball-R1-Llama-3.1-8B-Medical-COT",
+  "benchmark_name": "ifeval",
+  "score": 32.16111029845255,
+  "score_raw": 32.16111029845255,
+  "evaluation_date": "2025-02-16",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3193
+}

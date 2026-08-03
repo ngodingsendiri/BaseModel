@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-dwikitheduck-gen-try1",
+  "model_id": "dwikitheduck/gen-try1",
+  "benchmark_name": "average",
+  "score": 39.412127202941626,
+  "score_raw": 39.412127202941626,
+  "evaluation_date": "2024-11-11",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 314
+}

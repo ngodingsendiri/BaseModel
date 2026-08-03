@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-pankajmathur-al-dente-v1-8b",
+  "model_id": "pankajmathur/Al_Dente_v1_8b",
+  "benchmark_name": "ifeval",
+  "score": 36.93721547715617,
+  "score_raw": 36.93721547715617,
+  "evaluation_date": "2024-06-02",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2928
+}

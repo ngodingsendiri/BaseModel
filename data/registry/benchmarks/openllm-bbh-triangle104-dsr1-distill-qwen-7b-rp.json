@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-triangle104-dsr1-distill-qwen-7b-rp",
+  "model_id": "Triangle104/DSR1-Distill-Qwen-7B-RP",
+  "benchmark_name": "bbh",
+  "score": 19.853297811659683,
+  "score_raw": 19.853297811659683,
+  "evaluation_date": "2025-02-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3212
+}

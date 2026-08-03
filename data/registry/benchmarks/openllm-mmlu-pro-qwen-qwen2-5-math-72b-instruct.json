@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-qwen-qwen2-5-math-72b-instruct",
+  "model_id": "Qwen/Qwen2.5-Math-72B-Instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 42.35741725768321,
+  "score_raw": 42.35741725768321,
+  "evaluation_date": "2024-09-16",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 615
+}

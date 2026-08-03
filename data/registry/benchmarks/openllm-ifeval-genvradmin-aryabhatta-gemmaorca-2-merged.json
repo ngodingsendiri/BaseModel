@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-genvradmin-aryabhatta-gemmaorca-2-merged",
+  "model_id": "GenVRadmin/AryaBhatta-GemmaOrca-2-Merged",
+  "benchmark_name": "ifeval",
+  "score": 30.637375497014588,
+  "score_raw": 30.637375497014588,
+  "evaluation_date": "2024-04-09",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3271
+}

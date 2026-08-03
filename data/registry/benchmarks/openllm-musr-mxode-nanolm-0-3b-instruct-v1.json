@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-mxode-nanolm-0-3b-instruct-v1",
+  "model_id": "Mxode/NanoLM-0.3B-Instruct-v1",
+  "benchmark_name": "musr",
+  "score": 10.440104166666668,
+  "score_raw": 10.440104166666668,
+  "evaluation_date": "2024-09-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2160
+}

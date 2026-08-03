@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-mrrobotoai-mrroboto-prolong-8b-v4i",
+  "model_id": "MrRobotoAI/MrRoboto-ProLong-8b-v4i",
+  "benchmark_name": "gpqa",
+  "score": 5.257270693512303,
+  "score_raw": 5.257270693512303,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2546
+}

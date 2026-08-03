@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-leroydyer-spydazweb-ai-humanai-textvision",
+  "model_id": "LeroyDyer/SpydazWeb_AI_HumanAI_TextVision",
+  "benchmark_name": "ifeval",
+  "score": 30.62740196013245,
+  "score_raw": 30.62740196013245,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3273
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sakalti-light-3b-beta",
+  "model_id": "Sakalti/light-3b-beta",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.647901891252953,
+  "score_raw": 30.647901891252953,
+  "evaluation_date": "2025-01-14",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1703
+}

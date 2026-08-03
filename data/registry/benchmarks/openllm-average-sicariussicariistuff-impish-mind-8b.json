@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sicariussicariistuff-impish-mind-8b",
+  "model_id": "SicariusSicariiStuff/Impish_Mind_8B",
+  "benchmark_name": "average",
+  "score": 18.124203063482273,
+  "score_raw": 18.124203063482273,
+  "evaluation_date": "2024-12-05",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2935
+}

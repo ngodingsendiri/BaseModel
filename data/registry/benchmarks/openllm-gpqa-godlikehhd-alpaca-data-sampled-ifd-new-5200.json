@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-godlikehhd-alpaca-data-sampled-ifd-new-5200",
+  "model_id": "godlikehhd/alpaca_data_sampled_ifd_new_5200",
+  "benchmark_name": "gpqa",
+  "score": 5.8165548098433995,
+  "score_raw": 5.8165548098433995,
+  "evaluation_date": "2025-01-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2347
+}

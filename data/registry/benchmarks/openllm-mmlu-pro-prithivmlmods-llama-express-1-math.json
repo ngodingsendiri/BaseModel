@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-prithivmlmods-llama-express-1-math",
+  "model_id": "prithivMLmods/Llama-Express.1-Math",
+  "benchmark_name": "mmlu-pro",
+  "score": 6.776374113475176,
+  "score_raw": 6.776374113475176,
+  "evaluation_date": "2025-01-21",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3811
+}

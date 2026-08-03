@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-tomasmcm-sky-t1-coder-32b-flash",
+  "model_id": "tomasmcm/sky-t1-coder-32b-flash",
+  "benchmark_name": "bbh",
+  "score": 55.46594372212499,
+  "score_raw": 55.46594372212499,
+  "evaluation_date": "2025-02-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 116
+}

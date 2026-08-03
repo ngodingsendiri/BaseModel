@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-nothingiisreal-mn-12b-starcannon-v2",
+  "model_id": "nothingiisreal/MN-12B-Starcannon-v2",
+  "benchmark_name": "ifeval",
+  "score": 39.252738289959524,
+  "score_raw": 39.252738289959524,
+  "evaluation_date": "2024-08-13",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2779
+}

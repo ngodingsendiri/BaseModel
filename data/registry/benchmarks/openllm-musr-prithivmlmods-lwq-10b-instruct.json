@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-prithivmlmods-lwq-10b-instruct",
+  "model_id": "prithivMLmods/LwQ-10B-Instruct",
+  "benchmark_name": "musr",
+  "score": 16.8328125,
+  "score_raw": 16.8328125,
+  "evaluation_date": "2025-01-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 590
+}

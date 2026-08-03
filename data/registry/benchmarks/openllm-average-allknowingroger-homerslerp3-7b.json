@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-allknowingroger-homerslerp3-7b",
+  "model_id": "allknowingroger/HomerSlerp3-7B",
+  "benchmark_name": "average",
+  "score": 28.953652934928698,
+  "score_raw": 28.953652934928698,
+  "evaluation_date": "2024-11-21",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1186
+}

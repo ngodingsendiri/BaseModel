@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-rezvortex-jajuka-wewillneverforgetyou-3b",
+  "model_id": "RezVortex/JAJUKA-WEWILLNEVERFORGETYOU-3B",
+  "benchmark_name": "math-lvl-5",
+  "score": 15.483383685800604,
+  "score_raw": 15.483383685800604,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1685
+}

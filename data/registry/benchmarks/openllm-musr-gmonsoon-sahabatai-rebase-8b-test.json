@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-gmonsoon-sahabatai-rebase-8b-test",
+  "model_id": "gmonsoon/SahabatAI-Rebase-8B-Test",
+  "benchmark_name": "musr",
+  "score": 11.426822916666664,
+  "score_raw": 11.426822916666664,
+  "evaluation_date": "2024-11-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1818
+}

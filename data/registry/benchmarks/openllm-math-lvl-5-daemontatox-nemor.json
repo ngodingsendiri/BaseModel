@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-daemontatox-nemor",
+  "model_id": "Daemontatox/NemoR",
+  "benchmark_name": "math-lvl-5",
+  "score": 8.308157099697885,
+  "score_raw": 8.308157099697885,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2639
+}

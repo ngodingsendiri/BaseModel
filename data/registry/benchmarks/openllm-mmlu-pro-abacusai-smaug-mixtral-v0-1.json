@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-abacusai-smaug-mixtral-v0-1",
+  "model_id": "abacusai/Smaug-Mixtral-v0.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 26.13216607565012,
+  "score_raw": 26.13216607565012,
+  "evaluation_date": "2024-02-18",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2395
+}

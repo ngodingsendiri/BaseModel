@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-01-ai-yi-1-5-9b-chat-16k",
+  "model_id": "01-ai/Yi-1.5-9B-Chat-16K",
+  "benchmark_name": "bbh",
+  "score": 31.497608947018318,
+  "score_raw": 31.497608947018318,
+  "evaluation_date": "2024-05-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1947
+}

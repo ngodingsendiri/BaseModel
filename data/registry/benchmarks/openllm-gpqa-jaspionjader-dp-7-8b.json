@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-jaspionjader-dp-7-8b",
+  "model_id": "jaspionjader/dp-7-8b",
+  "benchmark_name": "gpqa",
+  "score": 7.494407158836691,
+  "score_raw": 7.494407158836691,
+  "evaluation_date": "2025-01-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1691
+}

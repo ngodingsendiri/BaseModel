@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-dfurman-qwen2-72b-orpo-v0-1",
+  "model_id": "dfurman/Qwen2-72B-Orpo-v0.1",
+  "benchmark_name": "bbh",
+  "score": 57.41436351018751,
+  "score_raw": 57.41436351018751,
+  "evaluation_date": "2024-07-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 51
+}

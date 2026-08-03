@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-rwitz-go-bruins-v2",
+  "model_id": "rwitz/go-bruins-v2",
+  "benchmark_name": "gpqa",
+  "score": 1.6778523489932917,
+  "score_raw": 1.6778523489932917,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3827
+}

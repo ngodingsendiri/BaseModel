@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-allknowingroger-weirdslerp2-25b",
+  "model_id": "allknowingroger/Weirdslerp2-25B",
+  "benchmark_name": "ifeval",
+  "score": 17.54068094877148,
+  "score_raw": 17.54068094877148,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4178
+}

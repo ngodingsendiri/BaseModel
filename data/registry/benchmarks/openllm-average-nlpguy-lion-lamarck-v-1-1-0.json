@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nlpguy-lion-lamarck-v-1-1-0",
+  "model_id": "nlpguy/Lion-Lamarck-v.1.1.0",
+  "benchmark_name": "average",
+  "score": 37.03161283098529,
+  "score_raw": 37.03161283098529,
+  "evaluation_date": "2025-01-29",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 469
+}

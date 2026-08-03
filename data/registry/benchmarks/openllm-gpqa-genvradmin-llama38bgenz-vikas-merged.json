@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-genvradmin-llama38bgenz-vikas-merged",
+  "model_id": "GenVRadmin/llama38bGenZ_Vikas-Merged",
+  "benchmark_name": "gpqa",
+  "score": 6.040268456375841,
+  "score_raw": 6.040268456375841,
+  "evaluation_date": "2024-05-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2242
+}

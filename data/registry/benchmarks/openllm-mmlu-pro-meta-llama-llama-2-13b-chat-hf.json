@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-meta-llama-llama-2-13b-chat-hf",
+  "model_id": "meta-llama/Llama-2-13b-chat-hf",
+  "benchmark_name": "mmlu-pro",
+  "score": 10.257830969267138,
+  "score_raw": 10.257830969267138,
+  "evaluation_date": "2023-07-13",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3614
+}

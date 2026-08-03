@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-leroydyer-spydazweb-humanai-m1",
+  "model_id": "LeroyDyer/SpydazWeb_HumanAI_M1",
+  "benchmark_name": "mmlu-pro",
+  "score": 7.367390661938533,
+  "score_raw": 7.367390661938533,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3767
+}

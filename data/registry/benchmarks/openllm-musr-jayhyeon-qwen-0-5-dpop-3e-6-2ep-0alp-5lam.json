@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-jayhyeon-qwen-0-5-dpop-3e-6-2ep-0alp-5lam",
+  "model_id": "JayHyeon/Qwen_0.5-DPOP_3e-6-2ep_0alp_5lam",
+  "benchmark_name": "musr",
+  "score": 1.3734374999999996,
+  "score_raw": 1.3734374999999996,
+  "evaluation_date": "2025-01-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4365
+}

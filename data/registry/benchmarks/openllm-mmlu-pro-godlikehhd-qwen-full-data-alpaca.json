@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-godlikehhd-qwen-full-data-alpaca",
+  "model_id": "godlikehhd/qwen_full_data_alpaca",
+  "benchmark_name": "mmlu-pro",
+  "score": 20.563682033096924,
+  "score_raw": 20.563682033096924,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3096
+}

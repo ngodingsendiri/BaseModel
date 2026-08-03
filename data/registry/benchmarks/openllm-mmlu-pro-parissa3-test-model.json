@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-parissa3-test-model",
+  "model_id": "Parissa3/test-model",
+  "benchmark_name": "mmlu-pro",
+  "score": 22.853871158392433,
+  "score_raw": 22.853871158392433,
+  "evaluation_date": "2024-11-16",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2815
+}

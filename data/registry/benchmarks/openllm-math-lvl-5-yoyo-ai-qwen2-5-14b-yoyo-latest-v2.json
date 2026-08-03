@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-yoyo-ai-qwen2-5-14b-yoyo-latest-v2",
+  "model_id": "YOYO-AI/Qwen2.5-14B-YOYO-latest-V2",
+  "benchmark_name": "math-lvl-5",
+  "score": 51.586102719033235,
+  "score_raw": 51.586102719033235,
+  "evaluation_date": "2025-02-17",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 108
+}

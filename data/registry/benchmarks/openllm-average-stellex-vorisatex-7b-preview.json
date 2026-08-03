@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-stellex-vorisatex-7b-preview",
+  "model_id": "StelleX/Vorisatex-7B-preview",
+  "benchmark_name": "average",
+  "score": 5.954613231174487,
+  "score_raw": 5.954613231174487,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4162
+}

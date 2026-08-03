@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-boltmonkey-superneuraldreaddevil-8b",
+  "model_id": "BoltMonkey/SuperNeuralDreadDevil-8b",
+  "benchmark_name": "average",
+  "score": 27.11105496878025,
+  "score_raw": 27.11105496878025,
+  "evaluation_date": "2024-10-13",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1382
+}

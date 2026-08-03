@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-felladrin-minueza-32m-ultrachat",
+  "model_id": "Felladrin/Minueza-32M-UltraChat",
+  "benchmark_name": "math-lvl-5",
+  "score": 0.4531722054380665,
+  "score_raw": 0.4531722054380665,
+  "evaluation_date": "2024-02-27",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4355
+}

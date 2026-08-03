@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-khoantap-cheap-moe-merge",
+  "model_id": "khoantap/cheap-moe-merge",
+  "benchmark_name": "gpqa",
+  "score": 6.040268456375841,
+  "score_raw": 6.040268456375841,
+  "evaluation_date": "2025-01-20",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2267
+}

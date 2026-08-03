@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-gz987-qwen2-5-7b-cabs-v0-3",
+  "model_id": "gz987/qwen2.5-7b-cabs-v0.3",
+  "benchmark_name": "mmlu-pro",
+  "score": 37.79550827423168,
+  "score_raw": 37.79550827423168,
+  "evaluation_date": "2025-02-18",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 853
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-saxo-linkbricks-horizon-ai-avengers-v2-32b",
+  "model_id": "Saxo/Linkbricks-Horizon-AI-Avengers-V2-32B",
+  "benchmark_name": "average",
+  "score": 43.33912719384693,
+  "score_raw": 43.33912719384693,
+  "evaluation_date": "2024-12-30",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 64
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-fujhen-mistral-7b-v0-1-structeddata-viggo",
+  "model_id": "FuJhen/mistral_7b_v0.1_structedData_viggo",
+  "benchmark_name": "average",
+  "score": 12.440582510781873,
+  "score_raw": 12.440582510781873,
+  "evaluation_date": "2024-09-13",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3549
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-allknowingroger-ministral-8b-slerp",
+  "model_id": "allknowingroger/Ministral-8B-slerp",
+  "benchmark_name": "gpqa",
+  "score": 8.277404921700223,
+  "score_raw": 8.277404921700223,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1395
+}

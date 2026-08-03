@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sometimesanotion-lamarck-14b-v0-7-rc1",
+  "model_id": "sometimesanotion/Lamarck-14B-v0.7-rc1",
+  "benchmark_name": "math-lvl-5",
+  "score": 38.51963746223565,
+  "score_raw": 38.51963746223565,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 502
+}

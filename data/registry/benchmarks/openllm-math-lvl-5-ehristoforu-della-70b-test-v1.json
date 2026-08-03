@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-ehristoforu-della-70b-test-v1",
+  "model_id": "ehristoforu/della-70b-test-v1",
+  "benchmark_name": "math-lvl-5",
+  "score": 0.9818731117824773,
+  "score_raw": 0.9818731117824773,
+  "evaluation_date": "2025-02-02",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4242
+}

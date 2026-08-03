@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-flammenai-flammen15-gutenberg-dpo-v1-7b",
+  "model_id": "flammenai/flammen15-gutenberg-DPO-v1-7B",
+  "benchmark_name": "average",
+  "score": 21.612698429198762,
+  "score_raw": 21.612698429198762,
+  "evaluation_date": "2024-04-05",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2373
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-silma-ai-silma-9b-instruct-v1-0",
+  "model_id": "silma-ai/SILMA-9B-Instruct-v1.0",
+  "benchmark_name": "gpqa",
+  "score": 7.38255033557047,
+  "score_raw": 7.38255033557047,
+  "evaluation_date": "2024-08-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1747
+}

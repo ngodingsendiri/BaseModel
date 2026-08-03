@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-doppelreflex-mn-12b-kakigori",
+  "model_id": "DoppelReflEx/MN-12B-Kakigori",
+  "benchmark_name": "musr",
+  "score": 9.352343750000001,
+  "score_raw": 9.352343750000001,
+  "evaluation_date": "2025-01-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2487
+}

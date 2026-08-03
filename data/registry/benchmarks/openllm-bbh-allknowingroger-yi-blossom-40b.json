@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-allknowingroger-yi-blossom-40b",
+  "model_id": "allknowingroger/Yi-blossom-40B",
+  "benchmark_name": "bbh",
+  "score": 5.539183494900659,
+  "score_raw": 5.539183494900659,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4074
+}

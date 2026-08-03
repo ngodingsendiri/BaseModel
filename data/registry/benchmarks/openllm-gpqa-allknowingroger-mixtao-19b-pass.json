@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-allknowingroger-mixtao-19b-pass",
+  "model_id": "allknowingroger/MixTAO-19B-pass",
+  "benchmark_name": "gpqa",
+  "score": 4.5861297539149914,
+  "score_raw": 4.5861297539149914,
+  "evaluation_date": "2024-06-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2757
+}

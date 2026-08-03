@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-daemontatox-pathfinderai2-0",
+  "model_id": "Daemontatox/PathFinderAI2.0",
+  "benchmark_name": "musr",
+  "score": 10.961979166666666,
+  "score_raw": 10.961979166666666,
+  "evaluation_date": "2024-12-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1995
+}

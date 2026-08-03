@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-nikolasigmoid-acemath-1-5b-instruct-dolphin-r1-200",
+  "model_id": "NikolaSigmoid/AceMath-1.5B-Instruct-dolphin-r1-200",
+  "benchmark_name": "math-lvl-5",
+  "score": 0,
+  "score_raw": 0,
+  "evaluation_date": "2025-03-05",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4470
+}

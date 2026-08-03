@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-summer-dawn-8b-sce",
+  "model_id": "DreadPoor/Summer_Dawn-8B-SCE",
+  "benchmark_name": "musr",
+  "score": 10.671874999999995,
+  "score_raw": 10.671874999999995,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2090
+}

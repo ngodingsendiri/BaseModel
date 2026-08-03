@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-fblgit-cybertron-v4-qw7b-unamgs",
+  "model_id": "fblgit/cybertron-v4-qw7B-UNAMGS",
+  "benchmark_name": "musr",
+  "score": 12.691666666666668,
+  "score_raw": 12.691666666666668,
+  "evaluation_date": "2024-11-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1382
+}

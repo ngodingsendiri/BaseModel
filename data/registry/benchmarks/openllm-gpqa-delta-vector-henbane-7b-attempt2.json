@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-delta-vector-henbane-7b-attempt2",
+  "model_id": "Delta-Vector/Henbane-7b-attempt2",
+  "benchmark_name": "gpqa",
+  "score": 5.369127516778524,
+  "score_raw": 5.369127516778524,
+  "evaluation_date": "2024-09-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2490
+}

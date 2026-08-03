@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-mmnga-llama-3-70b-japanese-suzume-vector-v0-1",
+  "model_id": "mmnga/Llama-3-70B-japanese-suzume-vector-v0.1",
+  "benchmark_name": "gpqa",
+  "score": 4.809843400447425,
+  "score_raw": 4.809843400447425,
+  "evaluation_date": "2024-04-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2702
+}

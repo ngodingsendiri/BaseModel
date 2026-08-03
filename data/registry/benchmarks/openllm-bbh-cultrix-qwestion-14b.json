@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-cultrix-qwestion-14b",
+  "model_id": "CultriX/Qwestion-14B",
+  "benchmark_name": "bbh",
+  "score": 48.75703449690036,
+  "score_raw": 48.75703449690036,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 491
+}

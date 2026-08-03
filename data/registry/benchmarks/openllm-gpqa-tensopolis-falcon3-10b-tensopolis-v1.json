@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-tensopolis-falcon3-10b-tensopolis-v1",
+  "model_id": "tensopolis/falcon3-10b-tensopolis-v1",
+  "benchmark_name": "gpqa",
+  "score": 10.626398210290827,
+  "score_raw": 10.626398210290827,
+  "evaluation_date": "2025-01-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 898
+}

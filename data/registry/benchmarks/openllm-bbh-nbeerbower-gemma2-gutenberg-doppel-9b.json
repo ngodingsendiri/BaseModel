@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-nbeerbower-gemma2-gutenberg-doppel-9b",
+  "model_id": "nbeerbower/Gemma2-Gutenberg-Doppel-9B",
+  "benchmark_name": "bbh",
+  "score": 41.08306318800703,
+  "score_raw": 41.08306318800703,
+  "evaluation_date": "2024-09-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 914
+}

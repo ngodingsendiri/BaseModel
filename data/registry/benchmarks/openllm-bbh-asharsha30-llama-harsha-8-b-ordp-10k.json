@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-asharsha30-llama-harsha-8-b-ordp-10k",
+  "model_id": "asharsha30/LLAMA_Harsha_8_B_ORDP_10k",
+  "benchmark_name": "bbh",
+  "score": 25.725678338583254,
+  "score_raw": 25.725678338583254,
+  "evaluation_date": "2024-12-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2757
+}

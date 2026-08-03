@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-epistemeai-fireball-mistral-nemo-base-2407-v1-dpo2",
+  "model_id": "EpistemeAI/Fireball-Mistral-Nemo-Base-2407-v1-DPO2",
+  "benchmark_name": "average",
+  "score": 15.339340300308171,
+  "score_raw": 15.339340300308171,
+  "evaluation_date": "2024-08-19",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3266
+}

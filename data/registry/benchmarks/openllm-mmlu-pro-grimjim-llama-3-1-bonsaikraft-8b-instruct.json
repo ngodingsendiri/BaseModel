@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-grimjim-llama-3-1-bonsaikraft-8b-instruct",
+  "model_id": "grimjim/Llama-3.1-Bonsaikraft-8B-Instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.712544326241126,
+  "score_raw": 30.712544326241126,
+  "evaluation_date": "2024-11-30",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1685
+}

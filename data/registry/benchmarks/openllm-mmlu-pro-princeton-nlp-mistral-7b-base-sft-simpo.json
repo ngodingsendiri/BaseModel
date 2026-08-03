@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-princeton-nlp-mistral-7b-base-sft-simpo",
+  "model_id": "princeton-nlp/Mistral-7B-Base-SFT-SimPO",
+  "benchmark_name": "mmlu-pro",
+  "score": 18.910682624113473,
+  "score_raw": 18.910682624113473,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3256
+}

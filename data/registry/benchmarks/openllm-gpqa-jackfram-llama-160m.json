@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-jackfram-llama-160m",
+  "model_id": "JackFram/llama-160m",
+  "benchmark_name": "gpqa",
+  "score": 1.5659955257270708,
+  "score_raw": 1.5659955257270708,
+  "evaluation_date": "2023-05-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3838
+}

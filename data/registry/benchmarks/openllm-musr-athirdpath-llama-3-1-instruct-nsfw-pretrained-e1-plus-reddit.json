@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-athirdpath-llama-3-1-instruct-nsfw-pretrained-e1-plus-reddit",
+  "model_id": "athirdpath/Llama-3.1-Instruct_NSFW-pretrained_e1-plus_reddit",
+  "benchmark_name": "musr",
+  "score": 8.299479166666666,
+  "score_raw": 8.299479166666666,
+  "evaluation_date": "2024-07-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2770
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-mlabonne-bigqwen2-5-echo-47b-instruct",
+  "model_id": "mlabonne/BigQwen2.5-Echo-47B-Instruct",
+  "benchmark_name": "ifeval",
+  "score": 73.56691356711303,
+  "score_raw": 73.56691356711303,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 536
+}

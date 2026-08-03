@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-theprint-rudolph-hermes-7b",
+  "model_id": "theprint/RuDolph-Hermes-7B",
+  "benchmark_name": "ifeval",
+  "score": 36.042921670057666,
+  "score_raw": 36.042921670057666,
+  "evaluation_date": "2024-11-10",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2984
+}

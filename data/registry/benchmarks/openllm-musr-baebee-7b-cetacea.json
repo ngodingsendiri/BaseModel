@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-baebee-7b-cetacea",
+  "model_id": "baebee/7B-Cetacea",
+  "benchmark_name": "musr",
+  "score": 9.903125,
+  "score_raw": 9.903125,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2321
+}

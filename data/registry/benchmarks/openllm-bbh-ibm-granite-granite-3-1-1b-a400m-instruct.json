@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-ibm-granite-granite-3-1-1b-a400m-instruct",
+  "model_id": "ibm-granite/granite-3.1-1b-a400m-instruct",
+  "benchmark_name": "bbh",
+  "score": 6.178183215904788,
+  "score_raw": 6.178183215904788,
+  "evaluation_date": "2024-12-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4015
+}

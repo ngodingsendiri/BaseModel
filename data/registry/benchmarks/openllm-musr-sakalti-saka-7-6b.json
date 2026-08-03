@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sakalti-saka-7-6b",
+  "model_id": "Sakalti/Saka-7.6B",
+  "benchmark_name": "musr",
+  "score": 14.950520833333336,
+  "score_raw": 14.950520833333336,
+  "evaluation_date": "2025-02-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 870
+}

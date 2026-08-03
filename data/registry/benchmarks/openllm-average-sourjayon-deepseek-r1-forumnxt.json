@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sourjayon-deepseek-r1-forumnxt",
+  "model_id": "Sourjayon/DeepSeek-R1-ForumNXT",
+  "benchmark_name": "average",
+  "score": 11.959695622199478,
+  "score_raw": 11.959695622199478,
+  "evaluation_date": "2025-01-31",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3600
+}

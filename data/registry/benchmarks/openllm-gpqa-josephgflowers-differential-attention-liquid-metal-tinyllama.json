@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-josephgflowers-differential-attention-liquid-metal-tinyllama",
+  "model_id": "Josephgflowers/Differential-Attention-Liquid-Metal-Tinyllama",
+  "benchmark_name": "gpqa",
+  "score": 0.11185682326622093,
+  "score_raw": 0.11185682326622093,
+  "evaluation_date": "2024-11-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4323
+}

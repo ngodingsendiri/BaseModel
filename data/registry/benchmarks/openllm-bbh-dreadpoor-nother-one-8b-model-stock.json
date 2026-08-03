@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-nother-one-8b-model-stock",
+  "model_id": "DreadPoor/Nother_One-8B-Model_Stock",
+  "benchmark_name": "bbh",
+  "score": 31.92112823138842,
+  "score_raw": 31.92112823138842,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1862
+}

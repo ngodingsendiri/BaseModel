@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-lesubra-merge-test",
+  "model_id": "lesubra/merge-test",
+  "benchmark_name": "math-lvl-5",
+  "score": 12.084592145015106,
+  "score_raw": 12.084592145015106,
+  "evaluation_date": "2024-09-27",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2081
+}

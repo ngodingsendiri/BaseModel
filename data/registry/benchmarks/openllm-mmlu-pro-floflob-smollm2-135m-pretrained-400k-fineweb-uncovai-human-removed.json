@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-floflob-smollm2-135m-pretrained-400k-fineweb-uncovai-human-removed",
+  "model_id": "FlofloB/smollm2-135M_pretrained_400k_fineweb_uncovai_human_removed",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.5311022458628842,
+  "score_raw": 1.5311022458628842,
+  "evaluation_date": "2025-01-18",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4314
+}

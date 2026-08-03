@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-tensopolis-qwen2-5-7b-tensopolis-v2",
+  "model_id": "tensopolis/qwen2.5-7b-tensopolis-v2",
+  "benchmark_name": "bbh",
+  "score": 35.224120159606855,
+  "score_raw": 35.224120159606855,
+  "evaluation_date": "2025-03-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1329
+}

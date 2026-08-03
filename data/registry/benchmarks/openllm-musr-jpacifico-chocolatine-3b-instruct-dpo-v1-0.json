@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-jpacifico-chocolatine-3b-instruct-dpo-v1-0",
+  "model_id": "jpacifico/Chocolatine-3B-Instruct-DPO-v1.0",
+  "benchmark_name": "musr",
+  "score": 19.468229166666664,
+  "score_raw": 19.468229166666664,
+  "evaluation_date": "2024-07-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 286
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-daemontatox-nemor",
+  "model_id": "Daemontatox/NemoR",
+  "benchmark_name": "musr",
+  "score": 9.916927083333329,
+  "score_raw": 9.916927083333329,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2318
+}

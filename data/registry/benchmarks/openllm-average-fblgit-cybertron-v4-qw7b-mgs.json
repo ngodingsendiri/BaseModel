@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-fblgit-cybertron-v4-qw7b-mgs",
+  "model_id": "fblgit/cybertron-v4-qw7B-MGS",
+  "benchmark_name": "average",
+  "score": 32.40351871985633,
+  "score_raw": 32.40351871985633,
+  "evaluation_date": "2024-10-29",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 823
+}

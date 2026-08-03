@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-awnr-mistral-7b-v0-1-signtensors-5-over-16",
+  "model_id": "awnr/Mistral-7B-v0.1-signtensors-5-over-16",
+  "benchmark_name": "mmlu-pro",
+  "score": 21.75494976359338,
+  "score_raw": 21.75494976359338,
+  "evaluation_date": "2024-07-29",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2962
+}

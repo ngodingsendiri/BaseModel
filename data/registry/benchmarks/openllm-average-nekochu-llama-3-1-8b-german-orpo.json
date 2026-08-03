@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nekochu-llama-3-1-8b-german-orpo",
+  "model_id": "Nekochu/Llama-3.1-8B-German-ORPO",
+  "benchmark_name": "average",
+  "score": 23.254052215833834,
+  "score_raw": 23.254052215833834,
+  "evaluation_date": "2024-09-13",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2035
+}

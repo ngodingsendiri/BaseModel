@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-wizardlmteam-wizardlm-70b-v1-0",
+  "model_id": "WizardLMTeam/WizardLM-70B-V1.0",
+  "benchmark_name": "gpqa",
+  "score": 2.1252796420581683,
+  "score_raw": 2.1252796420581683,
+  "evaluation_date": "2023-08-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3640
+}

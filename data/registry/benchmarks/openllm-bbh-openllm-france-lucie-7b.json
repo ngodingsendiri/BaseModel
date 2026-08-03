@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-openllm-france-lucie-7b",
+  "model_id": "OpenLLM-France/Lucie-7B",
+  "benchmark_name": "bbh",
+  "score": 9.91394298206345,
+  "score_raw": 9.91394298206345,
+  "evaluation_date": "2024-10-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3664
+}

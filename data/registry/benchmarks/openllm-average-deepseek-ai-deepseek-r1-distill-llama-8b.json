@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-deepseek-ai-deepseek-r1-distill-llama-8b",
+  "model_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+  "benchmark_name": "average",
+  "score": 13.059950104920146,
+  "score_raw": 13.059950104920146,
+  "evaluation_date": "2025-01-20",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3507
+}

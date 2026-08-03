@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-jsfs11-l3-8b-stheno-slerp",
+  "model_id": "jsfs11/L3-8B-Stheno-slerp",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.43816489361702,
+  "score_raw": 29.43816489361702,
+  "evaluation_date": "2024-06-18",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1966
+}

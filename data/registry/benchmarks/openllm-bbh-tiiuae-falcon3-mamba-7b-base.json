@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-tiiuae-falcon3-mamba-7b-base",
+  "model_id": "tiiuae/Falcon3-Mamba-7B-Base",
+  "benchmark_name": "bbh",
+  "score": 25.534048802953162,
+  "score_raw": 25.534048802953162,
+  "evaluation_date": "2024-12-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2780
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-openai-community-gpt2-medium",
+  "model_id": "openai-community/gpt2-medium",
+  "benchmark_name": "average",
+  "score": 5.902340287154445,
+  "score_raw": 5.902340287154445,
+  "evaluation_date": "2022-03-02",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4167
+}

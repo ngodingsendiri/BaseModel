@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-deepmount00-qwen2-1-5b-ita-v2",
+  "model_id": "DeepMount00/Qwen2-1.5B-Ita_v2",
+  "benchmark_name": "musr",
+  "score": 3.840104166666667,
+  "score_raw": 3.840104166666667,
+  "evaluation_date": "2024-06-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3720
+}

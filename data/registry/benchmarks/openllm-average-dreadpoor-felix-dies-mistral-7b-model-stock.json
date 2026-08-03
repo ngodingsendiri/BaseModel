@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-dreadpoor-felix-dies-mistral-7b-model-stock",
+  "model_id": "DreadPoor/felix_dies-mistral-7B-model_stock",
+  "benchmark_name": "average",
+  "score": 18.13959245219531,
+  "score_raw": 18.13959245219531,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2929
+}

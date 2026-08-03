@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-sakalti-neptuno-alpha",
+  "model_id": "Sakalti/Neptuno-Alpha",
+  "benchmark_name": "ifeval",
+  "score": 37.79649108809071,
+  "score_raw": 37.79649108809071,
+  "evaluation_date": "2025-01-09",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2874
+}

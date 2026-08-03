@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-epiculous-novaspark",
+  "model_id": "Epiculous/NovaSpark",
+  "benchmark_name": "musr",
+  "score": 6.924739583333334,
+  "score_raw": 6.924739583333334,
+  "evaluation_date": "2024-10-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3081
+}

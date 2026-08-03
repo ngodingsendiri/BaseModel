@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-lava-lamp-8b-slerp",
+  "model_id": "DreadPoor/Lava_Lamp-8B-SLERP",
+  "benchmark_name": "musr",
+  "score": 12.00520833333333,
+  "score_raw": 12.00520833333333,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1597
+}

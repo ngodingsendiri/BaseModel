@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-open-orca-mistral-7b-openorca",
+  "model_id": "Open-Orca/Mistral-7B-OpenOrca",
+  "benchmark_name": "mmlu-pro",
+  "score": 18.36583924349882,
+  "score_raw": 18.36583924349882,
+  "evaluation_date": "2023-09-29",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3287
+}

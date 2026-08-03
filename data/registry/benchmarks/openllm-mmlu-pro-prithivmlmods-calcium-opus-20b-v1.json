@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-prithivmlmods-calcium-opus-20b-v1",
+  "model_id": "prithivMLmods/Calcium-Opus-20B-v1",
+  "benchmark_name": "mmlu-pro",
+  "score": 41.48936170212765,
+  "score_raw": 41.48936170212765,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 638
+}

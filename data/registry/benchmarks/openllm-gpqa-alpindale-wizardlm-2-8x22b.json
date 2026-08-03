@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-alpindale-wizardlm-2-8x22b",
+  "model_id": "alpindale/WizardLM-2-8x22B",
+  "benchmark_name": "gpqa",
+  "score": 17.561521252796418,
+  "score_raw": 17.561521252796418,
+  "evaluation_date": "2024-04-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 217
+}

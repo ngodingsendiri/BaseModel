@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-realtreetune-rho-1b-sft-math",
+  "model_id": "realtreetune/rho-1b-sft-MATH",
+  "benchmark_name": "bbh",
+  "score": 4.19762318329166,
+  "score_raw": 4.19762318329166,
+  "evaluation_date": "2024-06-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4194
+}

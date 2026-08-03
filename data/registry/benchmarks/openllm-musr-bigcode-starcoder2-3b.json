@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-bigcode-starcoder2-3b",
+  "model_id": "bigcode/starcoder2-3b",
+  "benchmark_name": "musr",
+  "score": 1.432291666666666,
+  "score_raw": 1.432291666666666,
+  "evaluation_date": "2023-11-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4357
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-bramvanroy-fietje-2-chat",
+  "model_id": "BramVanroy/fietje-2-chat",
+  "benchmark_name": "gpqa",
+  "score": 0,
+  "score_raw": 0,
+  "evaluation_date": "2024-04-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4347
+}

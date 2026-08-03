@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-vagosolutions-sauerkrautlm-gemma-2-9b-it",
+  "model_id": "VAGOsolutions/SauerkrautLM-gemma-2-9b-it",
+  "benchmark_name": "mmlu-pro",
+  "score": 34.34175531914893,
+  "score_raw": 34.34175531914893,
+  "evaluation_date": "2024-08-12",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1161
+}

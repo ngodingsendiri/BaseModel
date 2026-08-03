@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-rakuten-rakutenai-2-0-mini-instruct",
+  "model_id": "Rakuten/RakutenAI-2.0-mini-instruct",
+  "benchmark_name": "ifeval",
+  "score": 67.93906833867472,
+  "score_raw": 67.93906833867472,
+  "evaluation_date": "2025-02-04",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 877
+}

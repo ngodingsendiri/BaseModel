@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-rezvortex-jajuka-3b",
+  "model_id": "RezVortex/Jajuka-3b",
+  "benchmark_name": "bbh",
+  "score": 23.204983328457306,
+  "score_raw": 23.204983328457306,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2963
+}

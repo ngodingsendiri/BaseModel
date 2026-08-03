@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-quazim0t0-supernova14b",
+  "model_id": "Quazim0t0/SuperNova14b",
+  "benchmark_name": "musr",
+  "score": 16.31510416666666,
+  "score_raw": 16.31510416666666,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 662
+}

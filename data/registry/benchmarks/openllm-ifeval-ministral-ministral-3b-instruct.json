@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-ministral-ministral-3b-instruct",
+  "model_id": "ministral/Ministral-3b-instruct",
+  "benchmark_name": "ifeval",
+  "score": 13.57642167227401,
+  "score_raw": 13.57642167227401,
+  "evaluation_date": "2024-03-14",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4405
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-epistemeai-finellama3-1-8b-instruct",
+  "model_id": "EpistemeAI/FineLlama3.1-8B-Instruct",
+  "benchmark_name": "ifeval",
+  "score": 8.000992921005155,
+  "score_raw": 8.000992921005155,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4512
+}

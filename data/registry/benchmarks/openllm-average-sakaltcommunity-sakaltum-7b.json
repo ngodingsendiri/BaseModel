@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sakaltcommunity-sakaltum-7b",
+  "model_id": "sakaltcommunity/sakaltum-7b",
+  "benchmark_name": "average",
+  "score": 13.528323522415517,
+  "score_raw": 13.528323522415517,
+  "evaluation_date": "2024-12-13",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3473
+}

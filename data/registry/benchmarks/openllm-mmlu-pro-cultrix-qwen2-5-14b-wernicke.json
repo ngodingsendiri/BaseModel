@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-cultrix-qwen2-5-14b-wernicke",
+  "model_id": "CultriX/Qwen2.5-14B-Wernicke",
+  "benchmark_name": "mmlu-pro",
+  "score": 49.15410756501182,
+  "score_raw": 49.15410756501182,
+  "evaluation_date": "2024-10-21",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 104
+}

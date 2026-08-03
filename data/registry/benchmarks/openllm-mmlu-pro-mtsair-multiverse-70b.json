@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-mtsair-multiverse-70b",
+  "model_id": "MTSAIR/MultiVerse_70B",
+  "benchmark_name": "mmlu-pro",
+  "score": 42.89302600472813,
+  "score_raw": 42.89302600472813,
+  "evaluation_date": "2024-03-25",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 604
+}

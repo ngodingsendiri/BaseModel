@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-daemontatox-aethertot",
+  "model_id": "Daemontatox/AetherTOT",
+  "benchmark_name": "math-lvl-5",
+  "score": 14.425981873111782,
+  "score_raw": 14.425981873111782,
+  "evaluation_date": "2024-12-27",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1779
+}

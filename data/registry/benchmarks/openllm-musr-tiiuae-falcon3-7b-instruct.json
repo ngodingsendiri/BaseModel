@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-tiiuae-falcon3-7b-instruct",
+  "model_id": "tiiuae/Falcon3-7B-Instruct",
+  "benchmark_name": "musr",
+  "score": 21.167968749999996,
+  "score_raw": 21.167968749999996,
+  "evaluation_date": "2024-11-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 154
+}

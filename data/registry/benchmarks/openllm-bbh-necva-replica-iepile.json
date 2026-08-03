@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-necva-replica-iepile",
+  "model_id": "necva/replica-IEPile",
+  "benchmark_name": "bbh",
+  "score": 25.316518746574474,
+  "score_raw": 25.316518746574474,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2797
+}

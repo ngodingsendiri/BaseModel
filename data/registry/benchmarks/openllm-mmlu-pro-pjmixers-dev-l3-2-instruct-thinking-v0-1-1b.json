@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-pjmixers-dev-l3-2-instruct-thinking-v0-1-1b",
+  "model_id": "PJMixers-Dev/L3.2-Instruct-Thinking-v0.1-1B",
+  "benchmark_name": "mmlu-pro",
+  "score": 5.363475177304964,
+  "score_raw": 5.363475177304964,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4000
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-doppelreflex-mn-12b-mimicore-greensnake",
+  "model_id": "DoppelReflEx/MN-12B-Mimicore-GreenSnake",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.4566341607565,
+  "score_raw": 29.4566341607565,
+  "evaluation_date": "2025-01-27",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1958
+}

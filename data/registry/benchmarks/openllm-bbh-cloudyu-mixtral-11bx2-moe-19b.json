@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-cloudyu-mixtral-11bx2-moe-19b",
+  "model_id": "cloudyu/Mixtral_11Bx2_MoE_19B",
+  "benchmark_name": "bbh",
+  "score": 32.78564048528819,
+  "score_raw": 32.78564048528819,
+  "evaluation_date": "2023-12-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1690
+}

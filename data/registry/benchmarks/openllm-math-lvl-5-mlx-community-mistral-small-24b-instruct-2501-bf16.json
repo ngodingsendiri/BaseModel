@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-mlx-community-mistral-small-24b-instruct-2501-bf16",
+  "model_id": "mlx-community/Mistral-Small-24B-Instruct-2501-bf16",
+  "benchmark_name": "math-lvl-5",
+  "score": 32.25075528700906,
+  "score_raw": 32.25075528700906,
+  "evaluation_date": "2025-01-30",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 752
+}

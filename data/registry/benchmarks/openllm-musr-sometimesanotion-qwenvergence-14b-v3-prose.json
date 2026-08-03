@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sometimesanotion-qwenvergence-14b-v3-prose",
+  "model_id": "sometimesanotion/Qwenvergence-14B-v3-Prose",
+  "benchmark_name": "musr",
+  "score": 21.7703125,
+  "score_raw": 21.7703125,
+  "evaluation_date": "2024-12-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 125
+}

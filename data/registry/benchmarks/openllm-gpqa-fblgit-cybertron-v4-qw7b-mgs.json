@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-fblgit-cybertron-v4-qw7b-mgs",
+  "model_id": "fblgit/cybertron-v4-qw7B-MGS",
+  "benchmark_name": "gpqa",
+  "score": 8.05369127516779,
+  "score_raw": 8.05369127516779,
+  "evaluation_date": "2024-10-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1467
+}

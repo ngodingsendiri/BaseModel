@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-arcee-ai-supernova-medius",
+  "model_id": "arcee-ai/SuperNova-Medius",
+  "benchmark_name": "ifeval",
+  "score": 71.83584001560305,
+  "score_raw": 71.83584001560305,
+  "evaluation_date": "2024-10-02",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 662
+}

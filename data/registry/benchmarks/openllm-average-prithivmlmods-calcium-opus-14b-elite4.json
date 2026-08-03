@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-calcium-opus-14b-elite4",
+  "model_id": "prithivMLmods/Calcium-Opus-14B-Elite4",
+  "benchmark_name": "average",
+  "score": 36.74386944728247,
+  "score_raw": 36.74386944728247,
+  "evaluation_date": "2025-01-25",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 493
+}

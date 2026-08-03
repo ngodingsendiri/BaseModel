@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-qingy2024-qwarkstar-4b",
+  "model_id": "qingy2024/Qwarkstar-4B",
+  "benchmark_name": "gpqa",
+  "score": 9.955257270693513,
+  "score_raw": 9.955257270693513,
+  "evaluation_date": "2025-01-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1015
+}

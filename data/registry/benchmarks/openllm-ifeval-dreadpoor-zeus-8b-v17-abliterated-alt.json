@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-dreadpoor-zeus-8b-v17-abliterated-alt",
+  "model_id": "DreadPoor/ZEUS-8B-V17-Abliterated_ALT",
+  "benchmark_name": "ifeval",
+  "score": 55.11221337163172,
+  "score_raw": 55.11221337163172,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1518
+}

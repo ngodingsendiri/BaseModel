@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-lightblue-suzume-llama-3-8b-multilingual-orpo-borda-top75",
+  "model_id": "lightblue/suzume-llama-3-8B-multilingual-orpo-borda-top75",
+  "benchmark_name": "musr",
+  "score": 5.3109375000000005,
+  "score_raw": 5.3109375000000005,
+  "evaluation_date": "2024-04-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3385
+}

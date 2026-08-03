@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-daemontatox-mini-qwq",
+  "model_id": "Daemontatox/Mini_QwQ",
+  "benchmark_name": "musr",
+  "score": 17.264583333333334,
+  "score_raw": 17.264583333333334,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 535
+}

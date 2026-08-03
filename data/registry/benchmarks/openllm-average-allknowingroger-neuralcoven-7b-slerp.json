@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-allknowingroger-neuralcoven-7b-slerp",
+  "model_id": "allknowingroger/Neuralcoven-7B-slerp",
+  "benchmark_name": "average",
+  "score": 20.363670451495135,
+  "score_raw": 20.363670451495135,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2618
+}

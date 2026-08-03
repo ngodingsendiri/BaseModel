@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-akhadangi-llama3-2-1b-0-01-first",
+  "model_id": "akhadangi/Llama3.2.1B.0.01-First",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.812688821752266,
+  "score_raw": 1.812688821752266,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3971
+}

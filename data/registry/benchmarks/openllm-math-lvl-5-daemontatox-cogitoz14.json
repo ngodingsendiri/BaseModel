@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-daemontatox-cogitoz14",
+  "model_id": "Daemontatox/CogitoZ14",
+  "benchmark_name": "math-lvl-5",
+  "score": 42.220543806646525,
+  "score_raw": 42.220543806646525,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 377
+}

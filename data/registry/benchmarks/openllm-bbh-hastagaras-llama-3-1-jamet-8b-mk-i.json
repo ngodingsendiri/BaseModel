@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-hastagaras-llama-3-1-jamet-8b-mk-i",
+  "model_id": "Hastagaras/Llama-3.1-Jamet-8B-MK.I",
+  "benchmark_name": "bbh",
+  "score": 29.503904748319474,
+  "score_raw": 29.503904748319474,
+  "evaluation_date": "2024-11-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2287
+}

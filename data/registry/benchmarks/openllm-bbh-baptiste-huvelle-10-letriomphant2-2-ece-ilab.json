@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-baptiste-huvelle-10-letriomphant2-2-ece-ilab",
+  "model_id": "Baptiste-HUVELLE-10/LeTriomphant2.2_ECE_iLAB",
+  "benchmark_name": "bbh",
+  "score": 61.61232489960707,
+  "score_raw": 61.61232489960707,
+  "evaluation_date": "2025-01-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 19
+}

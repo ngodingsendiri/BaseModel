@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-hotmailuser-falcon3slerp1-10b",
+  "model_id": "hotmailuser/Falcon3Slerp1-10B",
+  "benchmark_name": "average",
+  "score": 31.776680017784997,
+  "score_raw": 31.776680017784997,
+  "evaluation_date": "2024-12-19",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 873
+}

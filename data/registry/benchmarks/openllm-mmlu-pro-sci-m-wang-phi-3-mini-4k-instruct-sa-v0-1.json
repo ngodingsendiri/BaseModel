@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sci-m-wang-phi-3-mini-4k-instruct-sa-v0-1",
+  "model_id": "sci-m-wang/Phi-3-mini-4k-instruct-sa-v0.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 33.16895685579196,
+  "score_raw": 33.16895685579196,
+  "evaluation_date": "2024-06-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1214
+}

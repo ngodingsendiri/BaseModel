@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-allknowingroger-neuralcoven-7b-slerp",
+  "model_id": "allknowingroger/Neuralcoven-7B-slerp",
+  "benchmark_name": "mmlu-pro",
+  "score": 25.485741725768317,
+  "score_raw": 25.485741725768317,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2468
+}

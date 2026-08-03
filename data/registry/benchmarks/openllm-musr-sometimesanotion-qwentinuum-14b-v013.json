@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-sometimesanotion-qwentinuum-14b-v013",
+  "model_id": "sometimesanotion/Qwentinuum-14B-v013",
+  "benchmark_name": "musr",
+  "score": 24.99374999999999,
+  "score_raw": 24.99374999999999,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 34
+}

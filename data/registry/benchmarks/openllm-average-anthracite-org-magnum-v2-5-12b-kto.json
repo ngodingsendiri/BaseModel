@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-anthracite-org-magnum-v2-5-12b-kto",
+  "model_id": "anthracite-org/magnum-v2.5-12b-kto",
+  "benchmark_name": "average",
+  "score": 18.982789989560633,
+  "score_raw": 18.982789989560633,
+  "evaluation_date": "2024-08-12",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2840
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-darkc0de-buddyglassneversleeps",
+  "model_id": "darkc0de/BuddyGlassNeverSleeps",
+  "benchmark_name": "mmlu-pro",
+  "score": 27.249556737588648,
+  "score_raw": 27.249556737588648,
+  "evaluation_date": "2024-09-16",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2284
+}

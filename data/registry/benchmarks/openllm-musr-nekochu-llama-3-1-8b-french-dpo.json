@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-nekochu-llama-3-1-8b-french-dpo",
+  "model_id": "Nekochu/Llama-3.1-8B-french-DPO",
+  "benchmark_name": "musr",
+  "score": 11.561979166666667,
+  "score_raw": 11.561979166666667,
+  "evaluation_date": "2024-08-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1743
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-securin-securin-llm-v2-5-qwen-1-5b",
+  "model_id": "securin/Securin-LLM-V2.5-Qwen-1.5B",
+  "benchmark_name": "bbh",
+  "score": 4.863456136709561,
+  "score_raw": 4.863456136709561,
+  "evaluation_date": "2024-12-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4122
+}

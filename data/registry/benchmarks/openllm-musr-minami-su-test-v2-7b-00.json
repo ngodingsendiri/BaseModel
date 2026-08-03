@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-minami-su-test-v2-7b-00",
+  "model_id": "Minami-su/test-v2-7B-00",
+  "benchmark_name": "musr",
+  "score": 10.995052083333336,
+  "score_raw": 10.995052083333336,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1977
+}

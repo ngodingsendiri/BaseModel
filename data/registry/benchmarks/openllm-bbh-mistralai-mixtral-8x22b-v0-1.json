@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-mistralai-mixtral-8x22b-v0-1",
+  "model_id": "mistralai/Mixtral-8x22B-v0.1",
+  "benchmark_name": "bbh",
+  "score": 45.58840384342722,
+  "score_raw": 45.58840384342722,
+  "evaluation_date": "2024-04-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 656
+}

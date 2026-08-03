@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-jaspionjader-f-8-8b",
+  "model_id": "jaspionjader/f-8-8b",
+  "benchmark_name": "musr",
+  "score": 13.097656249999995,
+  "score_raw": 13.097656249999995,
+  "evaluation_date": "2025-01-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1272
+}

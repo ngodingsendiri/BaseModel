@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-ifaz-llama32-3b-en-emo-300-stp",
+  "model_id": "iFaz/llama32_3B_en_emo_300_stp",
+  "benchmark_name": "bbh",
+  "score": 22.939796393832058,
+  "score_raw": 22.939796393832058,
+  "evaluation_date": "2025-03-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2989
+}

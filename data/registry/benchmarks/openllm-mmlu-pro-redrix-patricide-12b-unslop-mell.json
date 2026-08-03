@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-redrix-patricide-12b-unslop-mell",
+  "model_id": "redrix/patricide-12B-Unslop-Mell",
+  "benchmark_name": "mmlu-pro",
+  "score": 28.560874704491717,
+  "score_raw": 28.560874704491717,
+  "evaluation_date": "2024-12-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2115
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-triangle104-rocinante-prism-v2-0",
+  "model_id": "Triangle104/Rocinante-Prism_V2.0",
+  "benchmark_name": "bbh",
+  "score": 33.22820642176426,
+  "score_raw": 33.22820642176426,
+  "evaluation_date": "2024-12-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1606
+}

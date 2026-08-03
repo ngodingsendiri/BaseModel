@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-deepseek-ai-deepseek-moe-16b-base",
+  "model_id": "deepseek-ai/deepseek-moe-16b-base",
+  "benchmark_name": "ifeval",
+  "score": 24.497444558216642,
+  "score_raw": 24.497444558216642,
+  "evaluation_date": "2024-01-08",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3695
+}

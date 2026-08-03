@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-yuma42-llama3-1-igneousiguana-8b",
+  "model_id": "Yuma42/Llama3.1-IgneousIguana-8B",
+  "benchmark_name": "average",
+  "score": 31.476166913247212,
+  "score_raw": 31.476166913247212,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 887
+}

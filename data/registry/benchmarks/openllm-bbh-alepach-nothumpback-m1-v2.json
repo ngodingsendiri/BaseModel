@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-alepach-nothumpback-m1-v2",
+  "model_id": "Alepach/notHumpback-M1-v2",
+  "benchmark_name": "bbh",
+  "score": 1.2676708259061196,
+  "score_raw": 1.2676708259061196,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4558
+}

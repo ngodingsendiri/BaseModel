@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-vicgalle-configurable-llama-3-1-8b-instruct",
+  "model_id": "vicgalle/Configurable-Llama-3.1-8B-Instruct",
+  "benchmark_name": "gpqa",
+  "score": 3.243847874720355,
+  "score_raw": 3.243847874720355,
+  "evaluation_date": "2024-07-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3241
+}

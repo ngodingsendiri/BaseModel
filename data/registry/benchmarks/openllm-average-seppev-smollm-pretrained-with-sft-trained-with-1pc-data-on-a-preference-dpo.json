@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-seppev-smollm-pretrained-with-sft-trained-with-1pc-data-on-a-preference-dpo",
+  "model_id": "SeppeV/SmolLM_pretrained_with_sft_trained_with_1pc_data_on_a_preference_dpo",
+  "benchmark_name": "average",
+  "score": 4.299518611352284,
+  "score_raw": 4.299518611352284,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4395
+}

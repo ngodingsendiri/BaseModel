@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-eleutherai-gpt-j-6b",
+  "model_id": "EleutherAI/gpt-j-6b",
+  "benchmark_name": "average",
+  "score": 6.570411768928537,
+  "score_raw": 6.570411768928537,
+  "evaluation_date": "2022-03-02",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4107
+}

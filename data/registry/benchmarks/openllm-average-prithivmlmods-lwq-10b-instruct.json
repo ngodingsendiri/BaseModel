@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-lwq-10b-instruct",
+  "model_id": "prithivMLmods/LwQ-10B-Instruct",
+  "benchmark_name": "average",
+  "score": 20.967461043098936,
+  "score_raw": 20.967461043098936,
+  "evaluation_date": "2025-01-14",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2502
+}

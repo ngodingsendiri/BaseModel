@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-pjmixers-dev-l3-2-instruct-thinking-v0-1-1b",
+  "model_id": "PJMixers-Dev/L3.2-Instruct-Thinking-v0.1-1B",
+  "benchmark_name": "ifeval",
+  "score": 46.27698949897383,
+  "score_raw": 46.27698949897383,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2166
+}

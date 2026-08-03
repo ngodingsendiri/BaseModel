@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-doppelreflex-mn-12b-mimicore-whitesnake-v2-experiment-4",
+  "model_id": "DoppelReflEx/MN-12B-Mimicore-WhiteSnake-v2-Experiment-4",
+  "benchmark_name": "average",
+  "score": 21.794341198490546,
+  "score_raw": 21.794341198490546,
+  "evaluation_date": "2025-01-29",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2317
+}

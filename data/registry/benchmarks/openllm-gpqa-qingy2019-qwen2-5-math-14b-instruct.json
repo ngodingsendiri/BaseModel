@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-qingy2019-qwen2-5-math-14b-instruct",
+  "model_id": "qingy2019/Qwen2.5-Math-14B-Instruct",
+  "benchmark_name": "gpqa",
+  "score": 15.883668903803136,
+  "score_raw": 15.883668903803136,
+  "evaluation_date": "2024-12-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 353
+}

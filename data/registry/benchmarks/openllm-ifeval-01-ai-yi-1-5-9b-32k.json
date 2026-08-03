@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-01-ai-yi-1-5-9b-32k",
+  "model_id": "01-ai/Yi-1.5-9B-32K",
+  "benchmark_name": "ifeval",
+  "score": 23.031113002389215,
+  "score_raw": 23.031113002389215,
+  "evaluation_date": "2024-05-15",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3814
+}

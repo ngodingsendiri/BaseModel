@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-neopolita-jessi-v0-2-falcon3-10b-instruct",
+  "model_id": "neopolita/jessi-v0.2-falcon3-10b-instruct",
+  "benchmark_name": "bbh",
+  "score": 45.02184351970056,
+  "score_raw": 45.02184351970056,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 674
+}

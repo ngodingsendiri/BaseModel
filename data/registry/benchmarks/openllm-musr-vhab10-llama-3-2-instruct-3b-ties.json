@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-vhab10-llama-3-2-instruct-3b-ties",
+  "model_id": "vhab10/Llama-3.2-Instruct-3B-TIES",
+  "benchmark_name": "musr",
+  "score": 3.873697916666666,
+  "score_raw": 3.873697916666666,
+  "evaluation_date": "2024-10-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3715
+}

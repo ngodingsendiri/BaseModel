@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-sometimesanotion-qwen2-5-14b-vimarckoso-v3-prose01",
+  "model_id": "sometimesanotion/Qwen2.5-14B-Vimarckoso-v3-Prose01",
+  "benchmark_name": "average",
+  "score": 40.27916996114231,
+  "score_raw": 40.27916996114231,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 248
+}

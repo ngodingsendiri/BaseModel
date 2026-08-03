@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dans-discountmodels-dans-instruct-mix-8b-chatml-v0-2-0",
+  "model_id": "Dans-DiscountModels/Dans-Instruct-Mix-8b-ChatML-V0.2.0",
+  "benchmark_name": "musr",
+  "score": 3.755989583333333,
+  "score_raw": 3.755989583333333,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3742
+}

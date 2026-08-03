@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-gabrielmbmb-smollm-1-7b-instruct-ifeval",
+  "model_id": "gabrielmbmb/SmolLM-1.7B-Instruct-IFEval",
+  "benchmark_name": "average",
+  "score": 5.399069361603981,
+  "score_raw": 5.399069361603981,
+  "evaluation_date": "2024-10-01",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4235
+}

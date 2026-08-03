@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-huihui-ai-qwq-32b-coder-fusion-7030",
+  "model_id": "huihui-ai/QwQ-32B-Coder-Fusion-7030",
+  "benchmark_name": "gpqa",
+  "score": 4.5861297539149914,
+  "score_raw": 4.5861297539149914,
+  "evaluation_date": "2024-11-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2768
+}

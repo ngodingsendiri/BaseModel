@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-quazim0t0-imagine-v0-5-16bit",
+  "model_id": "Quazim0t0/Imagine-v0.5-16bit",
+  "benchmark_name": "musr",
+  "score": 13.732552083333337,
+  "score_raw": 13.732552083333337,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1110
+}

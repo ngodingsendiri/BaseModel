@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-open-orca-mistral-7b-openorca",
+  "model_id": "Open-Orca/Mistral-7B-OpenOrca",
+  "benchmark_name": "musr",
+  "score": 5.889322916666667,
+  "score_raw": 5.889322916666667,
+  "evaluation_date": "2023-09-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3275
+}

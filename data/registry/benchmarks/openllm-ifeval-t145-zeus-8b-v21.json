@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-t145-zeus-8b-v21",
+  "model_id": "T145/ZEUS-8B-V21",
+  "benchmark_name": "ifeval",
+  "score": 37.85145635801894,
+  "score_raw": 37.85145635801894,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2871
+}

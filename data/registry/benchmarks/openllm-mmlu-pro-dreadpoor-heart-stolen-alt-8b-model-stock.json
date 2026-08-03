@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-heart-stolen-alt-8b-model-stock",
+  "model_id": "DreadPoor/Heart_Stolen-ALT-8B-Model_Stock",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.80489066193854,
+  "score_raw": 30.80489066193854,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1660
+}

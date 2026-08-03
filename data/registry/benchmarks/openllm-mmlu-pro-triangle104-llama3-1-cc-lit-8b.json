@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-triangle104-llama3-1-cc-lit-8b",
+  "model_id": "Triangle104/Llama3.1-cc-Lit-8b",
+  "benchmark_name": "mmlu-pro",
+  "score": 22.272089243498815,
+  "score_raw": 22.272089243498815,
+  "evaluation_date": "2025-02-11",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2903
+}

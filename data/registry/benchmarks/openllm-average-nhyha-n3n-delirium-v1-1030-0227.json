@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nhyha-n3n-delirium-v1-1030-0227",
+  "model_id": "nhyha/N3N_Delirium-v1_1030_0227",
+  "benchmark_name": "average",
+  "score": 33.094478522688185,
+  "score_raw": 33.094478522688185,
+  "evaluation_date": "2024-10-30",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 779
+}

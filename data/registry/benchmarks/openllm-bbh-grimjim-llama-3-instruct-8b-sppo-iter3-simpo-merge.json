@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-grimjim-llama-3-instruct-8b-sppo-iter3-simpo-merge",
+  "model_id": "grimjim/Llama-3-Instruct-8B-SPPO-Iter3-SimPO-merge",
+  "benchmark_name": "bbh",
+  "score": 28.258014912987704,
+  "score_raw": 28.258014912987704,
+  "evaluation_date": "2024-06-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2460
+}

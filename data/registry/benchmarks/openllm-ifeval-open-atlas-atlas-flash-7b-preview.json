@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-open-atlas-atlas-flash-7b-preview",
+  "model_id": "open-atlas/Atlas-Flash-7B-Preview",
+  "benchmark_name": "ifeval",
+  "score": 39.07543096761039,
+  "score_raw": 39.07543096761039,
+  "evaluation_date": "2025-01-26",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2791
+}

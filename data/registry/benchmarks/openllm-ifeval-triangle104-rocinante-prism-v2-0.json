@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-triangle104-rocinante-prism-v2-0",
+  "model_id": "Triangle104/Rocinante-Prism_V2.0",
+  "benchmark_name": "ifeval",
+  "score": 26.16103051015749,
+  "score_raw": 26.16103051015749,
+  "evaluation_date": "2024-12-02",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3510
+}

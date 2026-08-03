@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-triangle104-set-70b",
+  "model_id": "Triangle104/Set-70b",
+  "benchmark_name": "musr",
+  "score": 18.961979166666666,
+  "score_raw": 18.961979166666666,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 351
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-princeton-nlp-mistral-7b-instruct-ipo",
+  "model_id": "princeton-nlp/Mistral-7B-Instruct-IPO",
+  "benchmark_name": "mmlu-pro",
+  "score": 18.975325059101653,
+  "score_raw": 18.975325059101653,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3250
+}

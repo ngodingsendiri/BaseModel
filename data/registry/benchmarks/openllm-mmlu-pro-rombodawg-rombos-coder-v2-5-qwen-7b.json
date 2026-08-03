@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-rombodawg-rombos-coder-v2-5-qwen-7b",
+  "model_id": "rombodawg/Rombos-Coder-V2.5-Qwen-7b",
+  "benchmark_name": "mmlu-pro",
+  "score": 26.640070921985814,
+  "score_raw": 26.640070921985814,
+  "evaluation_date": "2024-10-28",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2343
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-qingy2024-qwen2-5-4b",
+  "model_id": "qingy2024/Qwen2.5-4B",
+  "benchmark_name": "musr",
+  "score": 16.528906250000002,
+  "score_raw": 16.528906250000002,
+  "evaluation_date": "2025-01-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 636
+}

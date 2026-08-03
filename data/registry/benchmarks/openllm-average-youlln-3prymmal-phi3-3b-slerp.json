@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-youlln-3prymmal-phi3-3b-slerp",
+  "model_id": "Youlln/3PRYMMAL-PHI3-3B-SLERP",
+  "benchmark_name": "average",
+  "score": 25.138740994778118,
+  "score_raw": 25.138740994778118,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1609
+}

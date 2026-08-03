@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sabersaleh-llama2-7b-kto",
+  "model_id": "sabersaleh/Llama2-7B-KTO",
+  "benchmark_name": "average",
+  "score": 7.882716013659315,
+  "score_raw": 7.882716013659315,
+  "evaluation_date": "2024-11-30",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3907
+}

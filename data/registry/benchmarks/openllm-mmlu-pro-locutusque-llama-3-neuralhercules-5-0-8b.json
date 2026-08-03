@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-locutusque-llama-3-neuralhercules-5-0-8b",
+  "model_id": "Locutusque/Llama-3-NeuralHercules-5.0-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 21.47791075650118,
+  "score_raw": 21.47791075650118,
+  "evaluation_date": "2024-05-28",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2997
+}

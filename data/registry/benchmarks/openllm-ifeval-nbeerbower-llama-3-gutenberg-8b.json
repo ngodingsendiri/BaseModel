@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-nbeerbower-llama-3-gutenberg-8b",
+  "model_id": "nbeerbower/llama-3-gutenberg-8B",
+  "benchmark_name": "ifeval",
+  "score": 43.71910973993448,
+  "score_raw": 43.71910973993448,
+  "evaluation_date": "2024-05-05",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2426
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-doppelreflex-mn-12b-mimicore-greensnake",
+  "model_id": "DoppelReflEx/MN-12B-Mimicore-GreenSnake",
+  "benchmark_name": "math-lvl-5",
+  "score": 13.897280966767372,
+  "score_raw": 13.897280966767372,
+  "evaluation_date": "2025-01-27",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1817
+}

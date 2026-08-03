@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-hirosekoichi-llama-salad-4x8b-v3",
+  "model_id": "HiroseKoichi/Llama-Salad-4x8B-V3",
+  "benchmark_name": "average",
+  "score": 24.922701724199346,
+  "score_raw": 24.922701724199346,
+  "evaluation_date": "2024-06-17",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1644
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-sakalti-saba1-5-pro-3b",
+  "model_id": "Sakalti/Saba1.5-Pro-3B",
+  "benchmark_name": "bbh",
+  "score": 11.041395854945073,
+  "score_raw": 11.041395854945073,
+  "evaluation_date": "2024-12-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3630
+}

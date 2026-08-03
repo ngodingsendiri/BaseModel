@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-lilrg-10prymmal-3b-slerp",
+  "model_id": "LilRg/10PRYMMAL-3B-slerp",
+  "benchmark_name": "gpqa",
+  "score": 9.507829977628639,
+  "score_raw": 9.507829977628639,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1085
+}

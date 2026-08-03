@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-sometimesanotion-if-reasoning-experiment-40",
+  "model_id": "sometimesanotion/IF-reasoning-experiment-40",
+  "benchmark_name": "bbh",
+  "score": 44.30640768056546,
+  "score_raw": 44.30640768056546,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 706
+}

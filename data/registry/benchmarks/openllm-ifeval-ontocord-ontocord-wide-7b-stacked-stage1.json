@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-ontocord-ontocord-wide-7b-stacked-stage1",
+  "model_id": "ontocord/ontocord_wide_7b-stacked-stage1",
+  "benchmark_name": "ifeval",
+  "score": 14.845388014911546,
+  "score_raw": 14.845388014911546,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4349
+}

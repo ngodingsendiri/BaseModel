@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-lightblue-suzume-llama-3-8b-multilingual-orpo-borda-full",
+  "model_id": "lightblue/suzume-llama-3-8B-multilingual-orpo-borda-full",
+  "benchmark_name": "math-lvl-5",
+  "score": 7.628398791540786,
+  "score_raw": 7.628398791540786,
+  "evaluation_date": "2024-04-25",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2751
+}

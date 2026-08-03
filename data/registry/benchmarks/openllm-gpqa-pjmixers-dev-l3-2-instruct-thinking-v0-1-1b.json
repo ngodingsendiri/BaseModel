@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-pjmixers-dev-l3-2-instruct-thinking-v0-1-1b",
+  "model_id": "PJMixers-Dev/L3.2-Instruct-Thinking-v0.1-1B",
+  "benchmark_name": "gpqa",
+  "score": 1.0067114093959737,
+  "score_raw": 1.0067114093959737,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4123
+}

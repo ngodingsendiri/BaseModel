@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-pjmixers-dev-llama-3-1-rombotiestest-8b",
+  "model_id": "PJMixers-Dev/LLaMa-3.1-RomboTiesTest-8B",
+  "benchmark_name": "average",
+  "score": 28.818375441031588,
+  "score_raw": 28.818375441031588,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1204
+}

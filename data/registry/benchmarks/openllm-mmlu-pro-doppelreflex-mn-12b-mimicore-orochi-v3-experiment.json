@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-doppelreflex-mn-12b-mimicore-orochi-v3-experiment",
+  "model_id": "DoppelReflEx/MN-12B-Mimicore-Orochi-v3-Experiment",
+  "benchmark_name": "mmlu-pro",
+  "score": 26.621601654846334,
+  "score_raw": 26.621601654846334,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2344
+}

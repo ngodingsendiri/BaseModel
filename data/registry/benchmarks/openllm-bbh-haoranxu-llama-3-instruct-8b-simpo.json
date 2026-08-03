@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-haoranxu-llama-3-instruct-8b-simpo",
+  "model_id": "haoranxu/Llama-3-Instruct-8B-SimPO",
+  "benchmark_name": "bbh",
+  "score": 28.2263760762505,
+  "score_raw": 28.2263760762505,
+  "evaluation_date": "2024-06-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2470
+}

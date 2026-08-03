@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-weyaxi-einstein-v6-1-llama3-8b",
+  "model_id": "Weyaxi/Einstein-v6.1-Llama3-8B",
+  "benchmark_name": "bbh",
+  "score": 29.38377348658535,
+  "score_raw": 29.38377348658535,
+  "evaluation_date": "2024-04-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2303
+}

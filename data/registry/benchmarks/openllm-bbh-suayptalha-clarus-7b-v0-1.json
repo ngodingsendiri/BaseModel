@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-suayptalha-clarus-7b-v0-1",
+  "model_id": "suayptalha/Clarus-7B-v0.1",
+  "benchmark_name": "bbh",
+  "score": 36.03116366747631,
+  "score_raw": 36.03116366747631,
+  "evaluation_date": "2025-02-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1214
+}

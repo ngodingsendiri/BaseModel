@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-undi95-mg-finalmix-72b",
+  "model_id": "Undi95/MG-FinalMix-72B",
+  "benchmark_name": "gpqa",
+  "score": 18.008948545861294,
+  "score_raw": 18.008948545861294,
+  "evaluation_date": "2024-06-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 173
+}

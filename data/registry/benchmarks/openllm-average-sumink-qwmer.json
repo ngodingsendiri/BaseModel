@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sumink-qwmer",
+  "model_id": "sumink/qwmer",
+  "benchmark_name": "average",
+  "score": 11.672277450870531,
+  "score_raw": 11.672277450870531,
+  "evaluation_date": "2025-01-15",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3622
+}

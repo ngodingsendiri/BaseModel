@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-isaak-carter-josiev4o-8b-stage1-v4",
+  "model_id": "Isaak-Carter/JOSIEv4o-8b-stage1-v4",
+  "benchmark_name": "average",
+  "score": 15.419272249038903,
+  "score_raw": 15.419272249038903,
+  "evaluation_date": "2024-08-03",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3262
+}

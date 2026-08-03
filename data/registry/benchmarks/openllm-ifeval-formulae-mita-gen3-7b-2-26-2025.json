@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-formulae-mita-gen3-7b-2-26-2025",
+  "model_id": "formulae/mita-gen3-7b-2-26-2025",
+  "benchmark_name": "ifeval",
+  "score": 19.64144026737944,
+  "score_raw": 19.64144026737944,
+  "evaluation_date": "2025-02-25",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4042
+}

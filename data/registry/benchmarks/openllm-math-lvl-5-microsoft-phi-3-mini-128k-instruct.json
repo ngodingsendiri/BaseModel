@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-microsoft-phi-3-mini-128k-instruct",
+  "model_id": "microsoft/Phi-3-mini-128k-instruct",
+  "benchmark_name": "math-lvl-5",
+  "score": 14.04833836858006,
+  "score_raw": 14.04833836858006,
+  "evaluation_date": "2024-04-22",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1806
+}

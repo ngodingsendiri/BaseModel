@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-blackbeenie-neos-phi-3-14b-v0-1",
+  "model_id": "BlackBeenie/Neos-Phi-3-14B-v0.1",
+  "benchmark_name": "average",
+  "score": 27.032306783654633,
+  "score_raw": 27.032306783654633,
+  "evaluation_date": "2024-11-27",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1390
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-lemon07r-gemma-2-ataraxy-v4a-advanced-9b",
+  "model_id": "lemon07r/Gemma-2-Ataraxy-v4a-Advanced-9B",
+  "benchmark_name": "musr",
+  "score": 15.179947916666663,
+  "score_raw": 15.179947916666663,
+  "evaluation_date": "2024-10-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 826
+}

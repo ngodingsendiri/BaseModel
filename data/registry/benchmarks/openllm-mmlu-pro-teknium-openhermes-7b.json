@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-teknium-openhermes-7b",
+  "model_id": "teknium/OpenHermes-7B",
+  "benchmark_name": "mmlu-pro",
+  "score": 10.368646572104018,
+  "score_raw": 10.368646572104018,
+  "evaluation_date": "2023-09-14",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3611
+}

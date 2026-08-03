@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-triangle104-dsr1-distill-llama-lit-8b",
+  "model_id": "Triangle104/DSR1-Distill-Llama-Lit-8B",
+  "benchmark_name": "bbh",
+  "score": 19.225159654639572,
+  "score_raw": 19.225159654639572,
+  "evaluation_date": "2025-02-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3257
+}

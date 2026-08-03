@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-gpt2",
+  "model_id": "gpt2",
+  "benchmark_name": "musr",
+  "score": 12.985416666666667,
+  "score_raw": 12.985416666666667,
+  "evaluation_date": "2022-03-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1302
+}

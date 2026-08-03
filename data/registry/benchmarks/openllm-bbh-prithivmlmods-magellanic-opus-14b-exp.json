@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-prithivmlmods-magellanic-opus-14b-exp",
+  "model_id": "prithivMLmods/Magellanic-Opus-14B-Exp",
+  "benchmark_name": "bbh",
+  "score": 48.00332430163465,
+  "score_raw": 48.00332430163465,
+  "evaluation_date": "2025-02-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 555
+}

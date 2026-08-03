@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-ai21labs-jamba-v0-1",
+  "model_id": "ai21labs/Jamba-v0.1",
+  "benchmark_name": "ifeval",
+  "score": 20.2559209563957,
+  "score_raw": 20.2559209563957,
+  "evaluation_date": "2024-03-28",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4001
+}

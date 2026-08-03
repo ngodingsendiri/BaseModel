@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-zelk12-mt-merge-gemma-2-9b",
+  "model_id": "zelk12/MT-Merge-gemma-2-9B",
+  "benchmark_name": "ifeval",
+  "score": 80.35379459833243,
+  "score_raw": 80.35379459833243,
+  "evaluation_date": "2024-10-22",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 103
+}

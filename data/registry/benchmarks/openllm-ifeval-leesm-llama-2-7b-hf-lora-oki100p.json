@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-leesm-llama-2-7b-hf-lora-oki100p",
+  "model_id": "LEESM/llama-2-7b-hf-lora-oki100p",
+  "benchmark_name": "ifeval",
+  "score": 25.129434345314877,
+  "score_raw": 25.129434345314877,
+  "evaluation_date": "2024-07-17",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3612
+}

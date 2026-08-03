@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-odyssey-labs-astral-1-10b",
+  "model_id": "odyssey-labs/Astral-1-10B",
+  "benchmark_name": "musr",
+  "score": 12.130729166666669,
+  "score_raw": 12.130729166666669,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1546
+}

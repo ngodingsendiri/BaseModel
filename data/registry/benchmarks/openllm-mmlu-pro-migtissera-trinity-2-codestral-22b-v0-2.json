@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-migtissera-trinity-2-codestral-22b-v0-2",
+  "model_id": "migtissera/Trinity-2-Codestral-22B-v0.2",
+  "benchmark_name": "mmlu-pro",
+  "score": 26.002881205673763,
+  "score_raw": 26.002881205673763,
+  "evaluation_date": "2024-08-13",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2416
+}

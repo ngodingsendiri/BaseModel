@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-genvradmin-llama38bgenz-vikas-merged",
+  "model_id": "GenVRadmin/llama38bGenZ_Vikas-Merged",
+  "benchmark_name": "bbh",
+  "score": 23.131910422007774,
+  "score_raw": 23.131910422007774,
+  "evaluation_date": "2024-05-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2969
+}

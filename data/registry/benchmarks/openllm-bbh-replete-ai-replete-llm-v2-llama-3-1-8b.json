@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-replete-ai-replete-llm-v2-llama-3-1-8b",
+  "model_id": "Replete-AI/Replete-LLM-V2-Llama-3.1-8b",
+  "benchmark_name": "bbh",
+  "score": 33.20757217219532,
+  "score_raw": 33.20757217219532,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1610
+}

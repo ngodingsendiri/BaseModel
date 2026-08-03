@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-monsterapi-llama-3-1-8b-instruct-orca-orpo",
+  "model_id": "monsterapi/Llama-3_1-8B-Instruct-orca-ORPO",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.8635490543735225,
+  "score_raw": 1.8635490543735225,
+  "evaluation_date": "2024-08-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4195
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-invisietch-etherealrainbow-v0-2-8b",
+  "model_id": "invisietch/EtherealRainbow-v0.2-8B",
+  "benchmark_name": "ifeval",
+  "score": 39.03298802732306,
+  "score_raw": 39.03298802732306,
+  "evaluation_date": "2024-06-12",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2794
+}

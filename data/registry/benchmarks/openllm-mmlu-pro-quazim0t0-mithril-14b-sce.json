@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-quazim0t0-mithril-14b-sce",
+  "model_id": "Quazim0t0/Mithril-14B-sce",
+  "benchmark_name": "mmlu-pro",
+  "score": 48.92324172576833,
+  "score_raw": 48.92324172576833,
+  "evaluation_date": "2025-02-04",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 164
+}

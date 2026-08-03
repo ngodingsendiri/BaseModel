@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-fu-sion-ha-8b-slerp",
+  "model_id": "DreadPoor/Fu_sion_HA-8B-SLERP",
+  "benchmark_name": "bbh",
+  "score": 34.05290214273217,
+  "score_raw": 34.05290214273217,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1509
+}

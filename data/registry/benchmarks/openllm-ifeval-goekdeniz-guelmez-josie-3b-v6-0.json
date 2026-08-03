@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-goekdeniz-guelmez-josie-3b-v6-0",
+  "model_id": "Goekdeniz-Guelmez/josie-3b-v6.0",
+  "benchmark_name": "ifeval",
+  "score": 60.09554648333089,
+  "score_raw": 60.09554648333089,
+  "evaluation_date": "2024-12-29",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1266
+}

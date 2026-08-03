@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-doppelreflex-mn-12b-lilithframe-experiment-2",
+  "model_id": "DoppelReflEx/MN-12B-LilithFrame-Experiment-2",
+  "benchmark_name": "musr",
+  "score": 8.822656249999996,
+  "score_raw": 8.822656249999996,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2613
+}

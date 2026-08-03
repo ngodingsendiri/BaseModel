@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-1tuanpham-t-visstar-7b-v0-1",
+  "model_id": "1TuanPham/T-VisStar-7B-v0.1",
+  "benchmark_name": "musr",
+  "score": 13.554166666666669,
+  "score_raw": 13.554166666666669,
+  "evaluation_date": "2024-09-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1154
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-gz987-qwen2-5-7b-cabs-v0-1",
+  "model_id": "gz987/qwen2.5-7b-cabs-v0.1",
+  "benchmark_name": "gpqa",
+  "score": 8.501118568232664,
+  "score_raw": 8.501118568232664,
+  "evaluation_date": "2025-02-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1340
+}

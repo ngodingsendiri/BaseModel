@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-prithivmlmods-calcium-opus-14b-merge",
+  "model_id": "prithivMLmods/Calcium-Opus-14B-Merge",
+  "benchmark_name": "gpqa",
+  "score": 16.10738255033557,
+  "score_raw": 16.10738255033557,
+  "evaluation_date": "2025-01-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 338
+}

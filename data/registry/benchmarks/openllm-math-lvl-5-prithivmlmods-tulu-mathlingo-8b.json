@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-prithivmlmods-tulu-mathlingo-8b",
+  "model_id": "prithivMLmods/Tulu-MathLingo-8B",
+  "benchmark_name": "math-lvl-5",
+  "score": 14.501510574018129,
+  "score_raw": 14.501510574018129,
+  "evaluation_date": "2024-12-23",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1778
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-autumn-dawn-8b-linear",
+  "model_id": "DreadPoor/Autumn_Dawn-8B-LINEAR",
+  "benchmark_name": "mmlu-pro",
+  "score": 32.97502955082743,
+  "score_raw": 32.97502955082743,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1232
+}

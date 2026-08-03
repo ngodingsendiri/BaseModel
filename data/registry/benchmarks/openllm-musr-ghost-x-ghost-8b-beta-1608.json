@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-ghost-x-ghost-8b-beta-1608",
+  "model_id": "ghost-x/ghost-8b-beta-1608",
+  "benchmark_name": "musr",
+  "score": 1.58125,
+  "score_raw": 1.58125,
+  "evaluation_date": "2024-08-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4296
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-vihangd-smart-dan-sft-v0-1",
+  "model_id": "vihangd/smart-dan-sft-v0.1",
+  "benchmark_name": "average",
+  "score": 3.871212537831616,
+  "score_raw": 3.871212537831616,
+  "evaluation_date": "2024-08-09",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4469
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-deepmount00-llama-3-1-8b-ita",
+  "model_id": "DeepMount00/Llama-3.1-8b-ITA",
+  "benchmark_name": "musr",
+  "score": 11.399218749999998,
+  "score_raw": 11.399218749999998,
+  "evaluation_date": "2024-08-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1828
+}

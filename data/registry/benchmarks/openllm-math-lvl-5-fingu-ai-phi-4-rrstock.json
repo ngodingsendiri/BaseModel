@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-fingu-ai-phi-4-rrstock",
+  "model_id": "FINGU-AI/Phi-4-RRStock",
+  "benchmark_name": "math-lvl-5",
+  "score": 5.81570996978852,
+  "score_raw": 5.81570996978852,
+  "evaluation_date": "2025-02-05",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3081
+}

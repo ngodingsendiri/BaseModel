@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-steelskull-l3-3-ms-nevoria-70b",
+  "model_id": "Steelskull/L3.3-MS-Nevoria-70b",
+  "benchmark_name": "gpqa",
+  "score": 29.418344519015662,
+  "score_raw": 29.418344519015662,
+  "evaluation_date": "2025-01-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-magpie-align-llama-3-8b-magpie-align-v0-1",
+  "model_id": "Magpie-Align/Llama-3-8B-Magpie-Align-v0.1",
+  "benchmark_name": "bbh",
+  "score": 26.289712088654472,
+  "score_raw": 26.289712088654472,
+  "evaluation_date": "2024-06-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2700
+}

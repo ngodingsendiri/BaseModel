@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-triangle104-minerva-7b",
+  "model_id": "Triangle104/Minerva-7b",
+  "benchmark_name": "bbh",
+  "score": 36.0758653251849,
+  "score_raw": 36.0758653251849,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1209
+}

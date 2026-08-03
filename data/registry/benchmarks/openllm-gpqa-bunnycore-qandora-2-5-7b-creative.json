@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-bunnycore-qandora-2-5-7b-creative",
+  "model_id": "bunnycore/Qandora-2.5-7B-Creative",
+  "benchmark_name": "gpqa",
+  "score": 8.05369127516779,
+  "score_raw": 8.05369127516779,
+  "evaluation_date": "2024-11-20",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1465
+}

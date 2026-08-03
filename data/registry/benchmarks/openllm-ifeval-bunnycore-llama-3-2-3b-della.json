@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-bunnycore-llama-3-2-3b-della",
+  "model_id": "bunnycore/Llama-3.2-3B-Della",
+  "benchmark_name": "ifeval",
+  "score": 35.60829709614933,
+  "score_raw": 35.60829709614933,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3008
+}

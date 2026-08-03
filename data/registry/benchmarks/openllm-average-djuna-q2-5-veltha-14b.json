@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-djuna-q2-5-veltha-14b",
+  "model_id": "djuna/Q2.5-Veltha-14B",
+  "benchmark_name": "average",
+  "score": 42.519512261718894,
+  "score_raw": 42.519512261718894,
+  "evaluation_date": "2024-12-22",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 96
+}

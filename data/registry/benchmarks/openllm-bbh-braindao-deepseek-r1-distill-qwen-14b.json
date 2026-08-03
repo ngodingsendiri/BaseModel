@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-braindao-deepseek-r1-distill-qwen-14b",
+  "model_id": "braindao/DeepSeek-R1-Distill-Qwen-14B",
+  "benchmark_name": "bbh",
+  "score": 3.271232992020663,
+  "score_raw": 3.271232992020663,
+  "evaluation_date": "2025-03-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4278
+}

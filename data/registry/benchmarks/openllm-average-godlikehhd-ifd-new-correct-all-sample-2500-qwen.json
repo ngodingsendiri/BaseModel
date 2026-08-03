@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-godlikehhd-ifd-new-correct-all-sample-2500-qwen",
+  "model_id": "godlikehhd/ifd_new_correct_all_sample_2500_qwen",
+  "benchmark_name": "average",
+  "score": 15.324012443597335,
+  "score_raw": 15.324012443597335,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3268
+}

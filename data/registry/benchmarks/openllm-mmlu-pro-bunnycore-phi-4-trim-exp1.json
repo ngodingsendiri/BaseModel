@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-bunnycore-phi-4-trim-exp1",
+  "model_id": "bunnycore/Phi-4-Trim-Exp1",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.6326832151300221,
+  "score_raw": 1.6326832151300221,
+  "evaluation_date": "2025-02-14",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4270
+}

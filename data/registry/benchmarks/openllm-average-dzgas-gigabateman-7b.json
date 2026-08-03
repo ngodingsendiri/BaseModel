@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-dzgas-gigabateman-7b",
+  "model_id": "DZgas/GIGABATEMAN-7B",
+  "benchmark_name": "average",
+  "score": 20.47146897335566,
+  "score_raw": 20.47146897335566,
+  "evaluation_date": "2024-04-17",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2594
+}

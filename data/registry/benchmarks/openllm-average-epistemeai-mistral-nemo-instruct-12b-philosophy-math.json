@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-epistemeai-mistral-nemo-instruct-12b-philosophy-math",
+  "model_id": "EpistemeAI/Mistral-Nemo-Instruct-12B-Philosophy-Math",
+  "benchmark_name": "average",
+  "score": 16.60399677564458,
+  "score_raw": 16.60399677564458,
+  "evaluation_date": "2024-09-15",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3116
+}

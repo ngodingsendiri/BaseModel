@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-mlabonne-orpollama-3-8b",
+  "model_id": "mlabonne/OrpoLlama-3-8B",
+  "benchmark_name": "musr",
+  "score": 4.0088541666666675,
+  "score_raw": 4.0088541666666675,
+  "evaluation_date": "2024-04-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3671
+}

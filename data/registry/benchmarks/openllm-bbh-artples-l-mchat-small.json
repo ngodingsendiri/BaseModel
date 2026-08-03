@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-artples-l-mchat-small",
+  "model_id": "Artples/L-MChat-Small",
+  "benchmark_name": "bbh",
+  "score": 26.856515500031353,
+  "score_raw": 26.856515500031353,
+  "evaluation_date": "2024-04-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2638
+}

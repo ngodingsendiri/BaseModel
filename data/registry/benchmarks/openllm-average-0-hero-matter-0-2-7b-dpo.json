@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-0-hero-matter-0-2-7b-dpo",
+  "model_id": "0-hero/Matter-0.2-7B-DPO",
+  "benchmark_name": "average",
+  "score": 8.90636130175029,
+  "score_raw": 8.90636130175029,
+  "evaluation_date": "2024-04-13",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3790
+}

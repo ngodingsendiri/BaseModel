@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-noname0202-gemma-2-9b-sft-jp-en-zh-v1",
+  "model_id": "noname0202/gemma-2-9b-sft-jp-en-zh-v1",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.61111111111111,
+  "score_raw": 23.61111111111111,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2695
+}

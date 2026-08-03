@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-vicgalle-configurablebeagle-11b",
+  "model_id": "vicgalle/ConfigurableBeagle-11B",
+  "benchmark_name": "mmlu-pro",
+  "score": 26.381501182033094,
+  "score_raw": 26.381501182033094,
+  "evaluation_date": "2024-02-17",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2367
+}

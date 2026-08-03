@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-promissum-mane-8b-linear-lorablated",
+  "model_id": "DreadPoor/Promissum_Mane-8B-LINEAR-lorablated",
+  "benchmark_name": "gpqa",
+  "score": 7.158836689038028,
+  "score_raw": 7.158836689038028,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1795
+}

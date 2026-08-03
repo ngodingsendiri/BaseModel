@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-daemontatox-aetheruncensored",
+  "model_id": "Daemontatox/AetherUncensored",
+  "benchmark_name": "ifeval",
+  "score": 40.41930965394043,
+  "score_raw": 40.41930965394043,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2704
+}

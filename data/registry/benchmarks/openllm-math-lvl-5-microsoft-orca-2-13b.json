@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-microsoft-orca-2-13b",
+  "model_id": "microsoft/Orca-2-13b",
+  "benchmark_name": "math-lvl-5",
+  "score": 3.1722054380664653,
+  "score_raw": 3.1722054380664653,
+  "evaluation_date": "2023-11-14",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3668
+}

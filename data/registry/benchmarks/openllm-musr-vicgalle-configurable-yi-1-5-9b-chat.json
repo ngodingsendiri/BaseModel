@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-vicgalle-configurable-yi-1-5-9b-chat",
+  "model_id": "vicgalle/Configurable-Yi-1.5-9B-Chat",
+  "benchmark_name": "musr",
+  "score": 12.022656249999999,
+  "score_raw": 12.022656249999999,
+  "evaluation_date": "2024-05-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1585
+}

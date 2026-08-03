@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-intel-neural-chat-7b-v3-1",
+  "model_id": "Intel/neural-chat-7b-v3-1",
+  "benchmark_name": "gpqa",
+  "score": 5.369127516778524,
+  "score_raw": 5.369127516778524,
+  "evaluation_date": "2023-11-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2496
+}

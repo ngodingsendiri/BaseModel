@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-win10-breeze-13b-32k-instruct-v1-0",
+  "model_id": "win10/Breeze-13B-32k-Instruct-v1_0",
+  "benchmark_name": "musr",
+  "score": 11.058072916666667,
+  "score_raw": 11.058072916666667,
+  "evaluation_date": "2024-06-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1962
+}

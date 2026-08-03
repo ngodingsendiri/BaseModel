@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-nbeerbower-mistral-nemo-gutenberg-12b-v4",
+  "model_id": "nbeerbower/mistral-nemo-gutenberg-12B-v4",
+  "benchmark_name": "ifeval",
+  "score": 23.7929804031082,
+  "score_raw": 23.7929804031082,
+  "evaluation_date": "2024-08-22",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3766
+}

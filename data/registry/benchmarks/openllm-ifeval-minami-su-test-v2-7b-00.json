@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-minami-su-test-v2-7b-00",
+  "model_id": "Minami-su/test-v2-7B-00",
+  "benchmark_name": "ifeval",
+  "score": 67.47197436136119,
+  "score_raw": 67.47197436136119,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 905
+}

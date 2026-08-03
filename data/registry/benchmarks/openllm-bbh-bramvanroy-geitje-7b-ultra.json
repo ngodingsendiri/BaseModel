@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-bramvanroy-geitje-7b-ultra",
+  "model_id": "BramVanroy/GEITje-7B-ultra",
+  "benchmark_name": "bbh",
+  "score": 12.879913010035898,
+  "score_raw": 12.879913010035898,
+  "evaluation_date": "2024-01-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3580
+}

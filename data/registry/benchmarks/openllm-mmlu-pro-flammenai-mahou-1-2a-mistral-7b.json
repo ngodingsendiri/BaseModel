@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-flammenai-mahou-1-2a-mistral-7b",
+  "model_id": "flammenai/Mahou-1.2a-mistral-7B",
+  "benchmark_name": "mmlu-pro",
+  "score": 24.03590425531915,
+  "score_raw": 24.03590425531915,
+  "evaluation_date": "2024-05-18",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2620
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-allknowingroger-qwen2-5-42b-agi",
+  "model_id": "allknowingroger/Qwen2.5-42B-AGI",
+  "benchmark_name": "average",
+  "score": 4.47082956616707,
+  "score_raw": 4.47082956616707,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4372
+}

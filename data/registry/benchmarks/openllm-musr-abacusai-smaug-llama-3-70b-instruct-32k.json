@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-abacusai-smaug-llama-3-70b-instruct-32k",
+  "model_id": "abacusai/Smaug-Llama-3-70B-Instruct-32K",
+  "benchmark_name": "musr",
+  "score": 12.432291666666663,
+  "score_raw": 12.432291666666663,
+  "evaluation_date": "2024-06-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1460
+}

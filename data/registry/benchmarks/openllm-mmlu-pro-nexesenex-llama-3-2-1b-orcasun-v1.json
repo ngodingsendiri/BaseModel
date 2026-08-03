@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-nexesenex-llama-3-2-1b-orcasun-v1",
+  "model_id": "Nexesenex/Llama_3.2_1b_OrcaSun_V1",
+  "benchmark_name": "mmlu-pro",
+  "score": 10.045434397163119,
+  "score_raw": 10.045434397163119,
+  "evaluation_date": "2025-03-06",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3623
+}

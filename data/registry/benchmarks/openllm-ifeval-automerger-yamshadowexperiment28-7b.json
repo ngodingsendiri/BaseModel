@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-automerger-yamshadowexperiment28-7b",
+  "model_id": "automerger/YamshadowExperiment28-7B",
+  "benchmark_name": "ifeval",
+  "score": 40.701560747704974,
+  "score_raw": 40.701560747704974,
+  "evaluation_date": "2024-03-18",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2692
+}

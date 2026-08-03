@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-tomasmcm-sky-t1-coder-32b-flash",
+  "model_id": "tomasmcm/sky-t1-coder-32b-flash",
+  "benchmark_name": "musr",
+  "score": 12.808854166666663,
+  "score_raw": 12.808854166666663,
+  "evaluation_date": "2025-02-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1352
+}

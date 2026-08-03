@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-hatemmahmoud-qwen2-5-1-5b-sft-raft-grpo-hra-doc",
+  "model_id": "hatemmahmoud/qwen2.5-1.5b-sft-raft-grpo-hra-doc",
+  "benchmark_name": "ifeval",
+  "score": 41.9580047607016,
+  "score_raw": 41.9580047607016,
+  "evaluation_date": "2025-03-07",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2599
+}

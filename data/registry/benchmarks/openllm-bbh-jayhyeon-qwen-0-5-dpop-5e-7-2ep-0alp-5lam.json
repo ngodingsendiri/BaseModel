@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-jayhyeon-qwen-0-5-dpop-5e-7-2ep-0alp-5lam",
+  "model_id": "JayHyeon/Qwen_0.5-DPOP_5e-7-2ep_0alp_5lam",
+  "benchmark_name": "bbh",
+  "score": 6.769462425761781,
+  "score_raw": 6.769462425761781,
+  "evaluation_date": "2025-01-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3918
+}

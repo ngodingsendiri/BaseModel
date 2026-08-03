@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-epistemeai-fireball-alpaca-llama-3-1-8b-philos-dpo-200",
+  "model_id": "EpistemeAI/Fireball-Alpaca-Llama-3.1-8B-Philos-DPO-200",
+  "benchmark_name": "average",
+  "score": 21.129914482629534,
+  "score_raw": 21.129914482629534,
+  "evaluation_date": "2024-09-16",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2467
+}

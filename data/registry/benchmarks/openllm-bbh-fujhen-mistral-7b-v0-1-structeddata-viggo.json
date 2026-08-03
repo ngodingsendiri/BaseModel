@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-fujhen-mistral-7b-v0-1-structeddata-viggo",
+  "model_id": "FuJhen/mistral_7b_v0.1_structedData_viggo",
+  "benchmark_name": "bbh",
+  "score": 23.960171694414896,
+  "score_raw": 23.960171694414896,
+  "evaluation_date": "2024-09-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2909
+}

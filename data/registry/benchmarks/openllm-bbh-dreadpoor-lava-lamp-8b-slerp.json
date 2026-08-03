@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-lava-lamp-8b-slerp",
+  "model_id": "DreadPoor/Lava_Lamp-8B-SLERP",
+  "benchmark_name": "bbh",
+  "score": 33.802734199229576,
+  "score_raw": 33.802734199229576,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1531
+}

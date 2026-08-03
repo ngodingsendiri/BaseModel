@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-nguyentd-financialadvice-qwen2-5-7b",
+  "model_id": "nguyentd/FinancialAdvice-Qwen2.5-7B",
+  "benchmark_name": "math-lvl-5",
+  "score": 11.48036253776435,
+  "score_raw": 11.48036253776435,
+  "evaluation_date": "2024-10-21",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2185
+}

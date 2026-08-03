@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-fujhen-mistral-7b-v0-1-structeddata-e2e",
+  "model_id": "FuJhen/mistral_7b_v0.1_structedData_e2e",
+  "benchmark_name": "musr",
+  "score": 5.6364583333333345,
+  "score_raw": 5.6364583333333345,
+  "evaluation_date": "2024-09-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3320
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-tensoropera-fox-1-1-6b",
+  "model_id": "tensoropera/Fox-1-1.6B",
+  "benchmark_name": "mmlu-pro",
+  "score": 4.12603427895981,
+  "score_raw": 4.12603427895981,
+  "evaluation_date": "2024-06-13",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4040
+}

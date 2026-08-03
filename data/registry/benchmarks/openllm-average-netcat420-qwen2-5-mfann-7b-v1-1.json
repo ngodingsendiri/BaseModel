@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-netcat420-qwen2-5-mfann-7b-v1-1",
+  "model_id": "netcat420/qwen2.5-MFANN-7b-v1.1",
+  "benchmark_name": "average",
+  "score": 26.134594460492067,
+  "score_raw": 26.134594460492067,
+  "evaluation_date": "2025-02-08",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1491
+}

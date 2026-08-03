@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-iryanbell-arc1-ii",
+  "model_id": "iRyanBell/ARC1-II",
+  "benchmark_name": "musr",
+  "score": 20.311458333333334,
+  "score_raw": 20.311458333333334,
+  "evaluation_date": "2024-06-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 213
+}

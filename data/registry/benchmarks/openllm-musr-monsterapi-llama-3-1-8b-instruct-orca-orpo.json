@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-monsterapi-llama-3-1-8b-instruct-orca-orpo",
+  "model_id": "monsterapi/Llama-3_1-8B-Instruct-orca-ORPO",
+  "benchmark_name": "musr",
+  "score": 3.0598958333333326,
+  "score_raw": 3.0598958333333326,
+  "evaluation_date": "2024-08-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3914
+}

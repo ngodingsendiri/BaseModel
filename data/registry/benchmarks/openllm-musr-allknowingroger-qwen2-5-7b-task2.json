@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-allknowingroger-qwen2-5-7b-task2",
+  "model_id": "allknowingroger/Qwen2.5-7B-task2",
+  "benchmark_name": "musr",
+  "score": 13.054427083333337,
+  "score_raw": 13.054427083333337,
+  "evaluation_date": "2024-10-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1281
+}

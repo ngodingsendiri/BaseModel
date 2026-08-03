@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-tensopolis-qwen2-5-7b-tensopolis-v2",
+  "model_id": "tensopolis/qwen2.5-7b-tensopolis-v2",
+  "benchmark_name": "mmlu-pro",
+  "score": 36.03169326241135,
+  "score_raw": 36.03169326241135,
+  "evaluation_date": "2025-03-07",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1044
+}

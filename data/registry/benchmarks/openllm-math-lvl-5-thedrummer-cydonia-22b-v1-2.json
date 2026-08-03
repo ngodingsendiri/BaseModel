@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-thedrummer-cydonia-22b-v1-2",
+  "model_id": "TheDrummer/Cydonia-22B-v1.2",
+  "benchmark_name": "math-lvl-5",
+  "score": 20.31722054380665,
+  "score_raw": 20.31722054380665,
+  "evaluation_date": "2024-10-07",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1295
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-hakuchido-8b-model-stock",
+  "model_id": "DreadPoor/hakuchido-8B-MODEL_STOCK",
+  "benchmark_name": "musr",
+  "score": 11.316927083333331,
+  "score_raw": 11.316927083333331,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1862
+}

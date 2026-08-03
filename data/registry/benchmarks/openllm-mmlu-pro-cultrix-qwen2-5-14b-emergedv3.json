@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-cultrix-qwen2-5-14b-emergedv3",
+  "model_id": "CultriX/Qwen2.5-14B-Emergedv3",
+  "benchmark_name": "mmlu-pro",
+  "score": 46.3744828605201,
+  "score_raw": 46.3744828605201,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 477
+}

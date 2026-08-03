@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ehristoforu-ruphi-4b",
+  "model_id": "ehristoforu/ruphi-4b",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.4018173758865236,
+  "score_raw": 1.4018173758865236,
+  "evaluation_date": "2025-01-02",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4383
+}

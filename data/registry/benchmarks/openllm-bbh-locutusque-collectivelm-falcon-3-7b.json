@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-locutusque-collectivelm-falcon-3-7b",
+  "model_id": "Locutusque/CollectiveLM-Falcon-3-7B",
+  "benchmark_name": "bbh",
+  "score": 30.787344558496812,
+  "score_raw": 30.787344558496812,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2076
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-aicoressecurity-cybernet-sec-3b-r1-v0",
+  "model_id": "AicoresSecurity/Cybernet-Sec-3B-R1-V0",
+  "benchmark_name": "bbh",
+  "score": 22.32210586978715,
+  "score_raw": 22.32210586978715,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3047
+}

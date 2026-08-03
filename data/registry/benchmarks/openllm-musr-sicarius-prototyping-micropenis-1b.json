@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-sicarius-prototyping-micropenis-1b",
+  "model_id": "Sicarius-Prototyping/Micropenis_1B",
+  "benchmark_name": "musr",
+  "score": 2.7343749999999996,
+  "score_raw": 2.7343749999999996,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4004
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-arliai-llama-3-1-8b-arliai-rpmax-v1-1",
+  "model_id": "ArliAI/Llama-3.1-8B-ArliAI-RPMax-v1.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 28.34847813238771,
+  "score_raw": 28.34847813238771,
+  "evaluation_date": "2024-08-23",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2136
+}

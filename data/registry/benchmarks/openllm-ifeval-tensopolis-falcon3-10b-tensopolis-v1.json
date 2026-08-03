@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-tensopolis-falcon3-10b-tensopolis-v1",
+  "model_id": "tensopolis/falcon3-10b-tensopolis-v1",
+  "benchmark_name": "ifeval",
+  "score": 78.16560060639105,
+  "score_raw": 78.16560060639105,
+  "evaluation_date": "2025-01-29",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 253
+}

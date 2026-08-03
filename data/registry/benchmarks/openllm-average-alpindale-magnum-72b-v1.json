@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-alpindale-magnum-72b-v1",
+  "model_id": "alpindale/magnum-72b-v1",
+  "benchmark_name": "average",
+  "score": 42.9290547455837,
+  "score_raw": 42.9290547455837,
+  "evaluation_date": "2024-06-17",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 78
+}

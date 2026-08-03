@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-epistemeai-finellama3-1-8b-instruct",
+  "model_id": "EpistemeAI/FineLlama3.1-8B-Instruct",
+  "benchmark_name": "average",
+  "score": 11.239255981586004,
+  "score_raw": 11.239255981586004,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3654
+}

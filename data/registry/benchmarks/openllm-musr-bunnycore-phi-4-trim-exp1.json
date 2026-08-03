@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-bunnycore-phi-4-trim-exp1",
+  "model_id": "bunnycore/Phi-4-Trim-Exp1",
+  "benchmark_name": "musr",
+  "score": 10.577604166666667,
+  "score_raw": 10.577604166666667,
+  "evaluation_date": "2025-02-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2121
+}

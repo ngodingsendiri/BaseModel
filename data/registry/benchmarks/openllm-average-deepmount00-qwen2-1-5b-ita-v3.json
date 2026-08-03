@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-deepmount00-qwen2-1-5b-ita-v3",
+  "model_id": "DeepMount00/Qwen2-1.5B-Ita_v3",
+  "benchmark_name": "average",
+  "score": 16.948513223691304,
+  "score_raw": 16.948513223691304,
+  "evaluation_date": "2024-06-13",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3072
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-daemontatox-zirel-7b-math",
+  "model_id": "Daemontatox/Zirel-7B-Math",
+  "benchmark_name": "mmlu-pro",
+  "score": 35.96705082742317,
+  "score_raw": 35.96705082742317,
+  "evaluation_date": "2025-02-28",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1052
+}

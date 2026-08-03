@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-mlabonne-beyonder-4x7b-v3",
+  "model_id": "mlabonne/Beyonder-4x7B-v3",
+  "benchmark_name": "bbh",
+  "score": 24.557209180110334,
+  "score_raw": 24.557209180110334,
+  "evaluation_date": "2024-03-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2852
+}

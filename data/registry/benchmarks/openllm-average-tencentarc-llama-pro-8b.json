@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-tencentarc-llama-pro-8b",
+  "model_id": "TencentARC/LLaMA-Pro-8B",
+  "benchmark_name": "average",
+  "score": 8.816698626146762,
+  "score_raw": 8.816698626146762,
+  "evaluation_date": "2024-01-05",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3797
+}

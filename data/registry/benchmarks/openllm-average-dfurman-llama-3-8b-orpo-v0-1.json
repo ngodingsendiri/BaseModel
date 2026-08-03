@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-dfurman-llama-3-8b-orpo-v0-1",
+  "model_id": "dfurman/Llama-3-8B-Orpo-v0.1",
+  "benchmark_name": "average",
+  "score": 10.89448042775765,
+  "score_raw": 10.89448042775765,
+  "evaluation_date": "2024-04-26",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3678
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-aurora-faustus-8b-lorablated-alt",
+  "model_id": "DreadPoor/Aurora_faustus-8B-LORABLATED_ALT",
+  "benchmark_name": "gpqa",
+  "score": 6.487695749440718,
+  "score_raw": 6.487695749440718,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2058
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-allknowingroger-quen2-65b",
+  "model_id": "allknowingroger/Quen2-65B",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.2632978723404247,
+  "score_raw": 1.2632978723404247,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4454
+}

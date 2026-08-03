@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-cluebbers-llama-3-1-8b-paraphrase-type-generation-etpc",
+  "model_id": "cluebbers/Llama-3.1-8B-paraphrase-type-generation-etpc",
+  "benchmark_name": "musr",
+  "score": 12.048437499999999,
+  "score_raw": 12.048437499999999,
+  "evaluation_date": "2024-11-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1576
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-maziyarpanahi-calme-2-4-llama3-70b",
+  "model_id": "MaziyarPanahi/calme-2.4-llama3-70b",
+  "benchmark_name": "math-lvl-5",
+  "score": 24.47129909365559,
+  "score_raw": 24.47129909365559,
+  "evaluation_date": "2024-04-28",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1016
+}

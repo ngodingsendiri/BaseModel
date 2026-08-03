@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-deepautoai-ldm-soup-llama-3-1-8b-instruct-v0-1",
+  "model_id": "DeepAutoAI/ldm_soup_Llama-3.1-8B-Instruct-v0.1",
+  "benchmark_name": "gpqa",
+  "score": 5.480984340044745,
+  "score_raw": 5.480984340044745,
+  "evaluation_date": "2024-09-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2450
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-davidau-gemma-the-writer-n-restless-quill-10b-uncensored",
+  "model_id": "DavidAU/Gemma-The-Writer-N-Restless-Quill-10B-Uncensored",
+  "benchmark_name": "average",
+  "score": 31.67934579653929,
+  "score_raw": 31.67934579653929,
+  "evaluation_date": "2024-10-30",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 878
+}

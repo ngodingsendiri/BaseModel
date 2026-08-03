@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nbeerbower-llama-3-gutenberg-8b",
+  "model_id": "nbeerbower/llama-3-gutenberg-8B",
+  "benchmark_name": "average",
+  "score": 21.30881705657422,
+  "score_raw": 21.30881705657422,
+  "evaluation_date": "2024-05-05",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2438
+}

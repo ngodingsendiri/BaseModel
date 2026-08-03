@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-cpayne1303-cp2024-instruct",
+  "model_id": "cpayne1303/cp2024-instruct",
+  "benchmark_name": "musr",
+  "score": 3.1794270833333322,
+  "score_raw": 3.1794270833333322,
+  "evaluation_date": "2024-11-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3888
+}

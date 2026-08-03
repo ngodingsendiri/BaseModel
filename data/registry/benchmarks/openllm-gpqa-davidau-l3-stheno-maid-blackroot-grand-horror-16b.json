@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-davidau-l3-stheno-maid-blackroot-grand-horror-16b",
+  "model_id": "DavidAU/L3-Stheno-Maid-Blackroot-Grand-HORROR-16B",
+  "benchmark_name": "gpqa",
+  "score": 2.796420581655479,
+  "score_raw": 2.796420581655479,
+  "evaluation_date": "2024-08-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3367
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-jayhyeon-qwen-0-5-irpo-3e-6-2ep-1alp-0lam",
+  "model_id": "JayHyeon/Qwen_0.5-IRPO_3e-6-2ep_1alp_0lam",
+  "benchmark_name": "math-lvl-5",
+  "score": 3.474320241691843,
+  "score_raw": 3.474320241691843,
+  "evaluation_date": "2025-01-08",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3619
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-johnsutor-llama-3-8b-instruct-ties-density-0-7",
+  "model_id": "johnsutor/Llama-3-8B-Instruct_ties-density-0.7",
+  "benchmark_name": "math-lvl-5",
+  "score": 6.722054380664652,
+  "score_raw": 6.722054380664652,
+  "evaluation_date": "2024-06-07",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2903
+}

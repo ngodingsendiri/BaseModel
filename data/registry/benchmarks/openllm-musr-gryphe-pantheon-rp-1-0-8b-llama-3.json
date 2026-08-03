@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-gryphe-pantheon-rp-1-0-8b-llama-3",
+  "model_id": "Gryphe/Pantheon-RP-1.0-8b-Llama-3",
+  "benchmark_name": "musr",
+  "score": 5.504947916666667,
+  "score_raw": 5.504947916666667,
+  "evaluation_date": "2024-05-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3352
+}

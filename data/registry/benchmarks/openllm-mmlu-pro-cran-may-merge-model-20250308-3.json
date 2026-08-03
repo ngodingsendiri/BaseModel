@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-cran-may-merge-model-20250308-3",
+  "model_id": "Cran-May/merge_model_20250308_3",
+  "benchmark_name": "mmlu-pro",
+  "score": 44.019651300236404,
+  "score_raw": 44.019651300236404,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 574
+}

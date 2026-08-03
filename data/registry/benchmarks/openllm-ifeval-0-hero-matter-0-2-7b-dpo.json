@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-0-hero-matter-0-2-7b-dpo",
+  "model_id": "0-hero/Matter-0.2-7B-DPO",
+  "benchmark_name": "ifeval",
+  "score": 33.02792147058693,
+  "score_raw": 33.02792147058693,
+  "evaluation_date": "2024-04-13",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3147
+}

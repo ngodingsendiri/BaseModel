@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-gmonsoon-sahabatai-rebase-8b-test",
+  "model_id": "gmonsoon/SahabatAI-Rebase-8B-Test",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.595153664302604,
+  "score_raw": 29.595153664302604,
+  "evaluation_date": "2024-11-21",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1932
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-ycros-bagelmisterytour-v2-8x7b",
+  "model_id": "ycros/BagelMIsteryTour-v2-8x7B",
+  "benchmark_name": "musr",
+  "score": 10.31875,
+  "score_raw": 10.31875,
+  "evaluation_date": "2024-01-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2197
+}

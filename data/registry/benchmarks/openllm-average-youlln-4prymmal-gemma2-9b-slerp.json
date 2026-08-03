@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-youlln-4prymmal-gemma2-9b-slerp",
+  "model_id": "Youlln/4PRYMMAL-GEMMA2-9B-SLERP",
+  "benchmark_name": "average",
+  "score": 23.688707771567948,
+  "score_raw": 23.688707771567948,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1924
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-saxo-linkbricks-horizon-ai-korean-avengers-v2-27b",
+  "model_id": "Saxo/Linkbricks-Horizon-AI-Korean-Avengers-V2-27B",
+  "benchmark_name": "bbh",
+  "score": 49.645052903738225,
+  "score_raw": 49.645052903738225,
+  "evaluation_date": "2024-12-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 418
+}

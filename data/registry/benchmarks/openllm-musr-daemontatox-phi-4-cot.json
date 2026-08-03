@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-daemontatox-phi-4-cot",
+  "model_id": "Daemontatox/Phi-4-COT",
+  "benchmark_name": "musr",
+  "score": 15.158333333333337,
+  "score_raw": 15.158333333333337,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 832
+}

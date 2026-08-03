@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-limyeri-codemind-llama3-8b-unsloth-v3-merged",
+  "model_id": "LimYeri/CodeMind-Llama3-8B-unsloth_v3-merged",
+  "benchmark_name": "bbh",
+  "score": 27.02521610839599,
+  "score_raw": 27.02521610839599,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2614
+}

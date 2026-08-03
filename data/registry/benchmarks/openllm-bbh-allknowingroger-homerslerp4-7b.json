@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-allknowingroger-homerslerp4-7b",
+  "model_id": "allknowingroger/HomerSlerp4-7B",
+  "benchmark_name": "bbh",
+  "score": 36.7868341584624,
+  "score_raw": 36.7868341584624,
+  "evaluation_date": "2024-11-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1099
+}

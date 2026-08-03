@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-maziyarpanahi-calme-2-5-qwen2-7b",
+  "model_id": "MaziyarPanahi/calme-2.5-qwen2-7b",
+  "benchmark_name": "musr",
+  "score": 15.791927083333334,
+  "score_raw": 15.791927083333334,
+  "evaluation_date": "2024-06-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 727
+}

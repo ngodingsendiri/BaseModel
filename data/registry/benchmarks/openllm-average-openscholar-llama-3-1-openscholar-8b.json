@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-openscholar-llama-3-1-openscholar-8b",
+  "model_id": "OpenScholar/Llama-3.1_OpenScholar-8B",
+  "benchmark_name": "average",
+  "score": 25.961332257431867,
+  "score_raw": 25.961332257431867,
+  "evaluation_date": "2024-11-15",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1513
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-cloudyu-mixtral-11bx2-moe-19b",
+  "model_id": "cloudyu/Mixtral_11Bx2_MoE_19B",
+  "benchmark_name": "gpqa",
+  "score": 5.369127516778524,
+  "score_raw": 5.369127516778524,
+  "evaluation_date": "2023-12-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2513
+}

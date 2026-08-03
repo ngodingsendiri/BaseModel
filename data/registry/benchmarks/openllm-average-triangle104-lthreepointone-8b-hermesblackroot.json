@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-triangle104-lthreepointone-8b-hermesblackroot",
+  "model_id": "Triangle104/LThreePointOne-8B-HermesBlackroot",
+  "benchmark_name": "average",
+  "score": 15.16012857459314,
+  "score_raw": 15.16012857459314,
+  "evaluation_date": "2025-02-14",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3286
+}

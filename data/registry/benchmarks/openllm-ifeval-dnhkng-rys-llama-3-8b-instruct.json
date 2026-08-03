@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-dnhkng-rys-llama-3-8b-instruct",
+  "model_id": "dnhkng/RYS-Llama-3-8B-Instruct",
+  "benchmark_name": "ifeval",
+  "score": 69.57772044841022,
+  "score_raw": 69.57772044841022,
+  "evaluation_date": "2024-08-06",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 790
+}

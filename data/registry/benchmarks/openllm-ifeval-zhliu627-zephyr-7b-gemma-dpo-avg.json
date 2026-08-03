@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-zhliu627-zephyr-7b-gemma-dpo-avg",
+  "model_id": "ZHLiu627/zephyr-7b-gemma-dpo-avg",
+  "benchmark_name": "ifeval",
+  "score": 30.899679517014853,
+  "score_raw": 30.899679517014853,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3256
+}

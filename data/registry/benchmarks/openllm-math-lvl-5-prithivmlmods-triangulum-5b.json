@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-prithivmlmods-triangulum-5b",
+  "model_id": "prithivMLmods/Triangulum-5B",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.0574018126888218,
+  "score_raw": 1.0574018126888218,
+  "evaluation_date": "2024-12-31",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4220
+}

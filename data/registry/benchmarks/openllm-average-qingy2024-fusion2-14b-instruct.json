@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-qingy2024-fusion2-14b-instruct",
+  "model_id": "qingy2024/Fusion2-14B-Instruct",
+  "benchmark_name": "average",
+  "score": 35.25779713463195,
+  "score_raw": 35.25779713463195,
+  "evaluation_date": "2024-12-05",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 621
+}

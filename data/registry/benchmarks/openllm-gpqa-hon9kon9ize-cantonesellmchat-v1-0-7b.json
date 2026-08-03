@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-hon9kon9ize-cantonesellmchat-v1-0-7b",
+  "model_id": "hon9kon9ize/CantoneseLLMChat-v1.0-7B",
+  "benchmark_name": "gpqa",
+  "score": 9.61968680089485,
+  "score_raw": 9.61968680089485,
+  "evaluation_date": "2024-10-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1074
+}

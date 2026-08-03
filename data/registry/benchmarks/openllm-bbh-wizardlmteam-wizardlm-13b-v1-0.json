@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-wizardlmteam-wizardlm-13b-v1-0",
+  "model_id": "WizardLMTeam/WizardLM-13B-V1.0",
+  "benchmark_name": "bbh",
+  "score": 2.147966883446335,
+  "score_raw": 2.147966883446335,
+  "evaluation_date": "2023-05-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4469
+}

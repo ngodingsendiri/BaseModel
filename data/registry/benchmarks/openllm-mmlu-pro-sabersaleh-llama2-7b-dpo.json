@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sabersaleh-llama2-7b-dpo",
+  "model_id": "sabersaleh/Llama2-7B-DPO",
+  "benchmark_name": "mmlu-pro",
+  "score": 6.951832151300234,
+  "score_raw": 6.951832151300234,
+  "evaluation_date": "2024-11-30",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3800
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-princeton-nlp-mistral-7b-instruct-orpo",
+  "model_id": "princeton-nlp/Mistral-7B-Instruct-ORPO",
+  "benchmark_name": "musr",
+  "score": 6.638281250000001,
+  "score_raw": 6.638281250000001,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3132
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-ehristoforu-phi-4-25b",
+  "model_id": "ehristoforu/phi-4-25b",
+  "benchmark_name": "math-lvl-5",
+  "score": 45.2416918429003,
+  "score_raw": 45.2416918429003,
+  "evaluation_date": "2025-01-12",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 292
+}

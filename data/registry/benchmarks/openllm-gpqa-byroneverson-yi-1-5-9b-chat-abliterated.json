@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-byroneverson-yi-1-5-9b-chat-abliterated",
+  "model_id": "byroneverson/Yi-1.5-9B-Chat-abliterated",
+  "benchmark_name": "gpqa",
+  "score": 5.592841163310966,
+  "score_raw": 5.592841163310966,
+  "evaluation_date": "2024-09-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2427
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-open-atlas-atlas-flash-7b-preview",
+  "model_id": "open-atlas/Atlas-Flash-7B-Preview",
+  "benchmark_name": "gpqa",
+  "score": 5.145413870246088,
+  "score_raw": 5.145413870246088,
+  "evaluation_date": "2025-01-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2598
+}

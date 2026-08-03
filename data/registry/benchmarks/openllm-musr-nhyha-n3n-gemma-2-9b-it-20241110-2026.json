@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-nhyha-n3n-gemma-2-9b-it-20241110-2026",
+  "model_id": "nhyha/N3N_gemma-2-9b-it_20241110_2026",
+  "benchmark_name": "musr",
+  "score": 9.779427083333337,
+  "score_raw": 9.779427083333337,
+  "evaluation_date": "2024-11-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2363
+}

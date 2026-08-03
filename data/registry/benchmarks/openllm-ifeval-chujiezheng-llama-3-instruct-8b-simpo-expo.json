@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-chujiezheng-llama-3-instruct-8b-simpo-expo",
+  "model_id": "chujiezheng/Llama-3-Instruct-8B-SimPO-ExPO",
+  "benchmark_name": "ifeval",
+  "score": 64.33707008515184,
+  "score_raw": 64.33707008515184,
+  "evaluation_date": "2024-05-26",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1051
+}

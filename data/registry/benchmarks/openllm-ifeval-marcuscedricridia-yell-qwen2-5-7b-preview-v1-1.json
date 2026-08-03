@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-marcuscedricridia-yell-qwen2-5-7b-preview-v1-1",
+  "model_id": "marcuscedricridia/Yell-Qwen2.5-7B-Preview-v1.1",
+  "benchmark_name": "ifeval",
+  "score": 57.57013612769673,
+  "score_raw": 57.57013612769673,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1384
+}

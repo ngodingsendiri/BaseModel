@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-sometimesanotion-lamarckinfusion-14b-v2-hi",
+  "model_id": "sometimesanotion/LamarckInfusion-14B-v2-hi",
+  "benchmark_name": "ifeval",
+  "score": 68.5485622592499,
+  "score_raw": 68.5485622592499,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 844
+}

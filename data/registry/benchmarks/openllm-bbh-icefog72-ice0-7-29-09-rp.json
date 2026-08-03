@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-icefog72-ice0-7-29-09-rp",
+  "model_id": "icefog72/Ice0.7-29.09-RP",
+  "benchmark_name": "bbh",
+  "score": 30.72587571429055,
+  "score_raw": 30.72587571429055,
+  "evaluation_date": "2024-09-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2083
+}

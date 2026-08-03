@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-vicgalle-configurablehermes-7b",
+  "model_id": "vicgalle/ConfigurableHermes-7B",
+  "benchmark_name": "average",
+  "score": 19.536295414907375,
+  "score_raw": 19.536295414907375,
+  "evaluation_date": "2024-02-17",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2762
+}

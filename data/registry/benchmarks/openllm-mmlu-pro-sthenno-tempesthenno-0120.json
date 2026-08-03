@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sthenno-tempesthenno-0120",
+  "model_id": "sthenno/tempesthenno-0120",
+  "benchmark_name": "mmlu-pro",
+  "score": 47.667331560283685,
+  "score_raw": 47.667331560283685,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 351
+}

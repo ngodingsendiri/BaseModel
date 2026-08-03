@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-epistemeai-finellama3-1-8b-instruct",
+  "model_id": "EpistemeAI/FineLlama3.1-8B-Instruct",
+  "benchmark_name": "gpqa",
+  "score": 4.026845637583895,
+  "score_raw": 4.026845637583895,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2942
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-sometimesanotion-qwenvergence-14b-qv256",
+  "model_id": "sometimesanotion/Qwenvergence-14B-qv256",
+  "benchmark_name": "average",
+  "score": 40.12038665513343,
+  "score_raw": 40.12038665513343,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 257
+}

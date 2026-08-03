@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-thudm-glm-4-9b-chat-1m-hf",
+  "model_id": "THUDM/glm-4-9b-chat-1m-hf",
+  "benchmark_name": "mmlu-pro",
+  "score": 9.048093971631205,
+  "score_raw": 9.048093971631205,
+  "evaluation_date": "2024-10-24",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3666
+}

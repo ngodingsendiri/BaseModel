@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-orenguteng-llama-3-1-8b-lexi-uncensored",
+  "model_id": "Orenguteng/Llama-3.1-8B-Lexi-Uncensored",
+  "benchmark_name": "gpqa",
+  "score": 2.9082774049216997,
+  "score_raw": 2.9082774049216997,
+  "evaluation_date": "2024-07-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3347
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-lunzima-nqlsg-qwen2-5-14b-megafusion-v7-rebase",
+  "model_id": "Lunzima/NQLSG-Qwen2.5-14B-MegaFusion-v7-rebase",
+  "benchmark_name": "gpqa",
+  "score": 16.666666666666664,
+  "score_raw": 16.666666666666664,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 283
+}

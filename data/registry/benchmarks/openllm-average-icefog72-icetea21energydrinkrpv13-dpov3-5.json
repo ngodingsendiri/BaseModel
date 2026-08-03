@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-icefog72-icetea21energydrinkrpv13-dpov3-5",
+  "model_id": "icefog72/IceTea21EnergyDrinkRPV13-DPOv3.5",
+  "benchmark_name": "average",
+  "score": 17.321387609280592,
+  "score_raw": 17.321387609280592,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3028
+}

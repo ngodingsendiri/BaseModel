@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-jaspionjader-bh-20",
+  "model_id": "jaspionjader/bh-20",
+  "benchmark_name": "musr",
+  "score": 9.515104166666669,
+  "score_raw": 9.515104166666669,
+  "evaluation_date": "2025-02-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2436
+}

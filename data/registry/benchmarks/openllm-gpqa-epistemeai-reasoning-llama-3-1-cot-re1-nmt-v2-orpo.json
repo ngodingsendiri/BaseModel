@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-epistemeai-reasoning-llama-3-1-cot-re1-nmt-v2-orpo",
+  "model_id": "EpistemeAI/Reasoning-Llama-3.1-CoT-RE1-NMT-V2-ORPO",
+  "benchmark_name": "gpqa",
+  "score": 7.606263982102905,
+  "score_raw": 7.606263982102905,
+  "evaluation_date": "2025-01-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1620
+}

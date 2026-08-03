@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-swap-uniba-llamantino-3-anita-8b-inst-dpo-ita",
+  "model_id": "swap-uniba/LLaMAntino-3-ANITA-8B-Inst-DPO-ITA",
+  "benchmark_name": "bbh",
+  "score": 27.990827697552746,
+  "score_raw": 27.990827697552746,
+  "evaluation_date": "2024-04-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2507
+}

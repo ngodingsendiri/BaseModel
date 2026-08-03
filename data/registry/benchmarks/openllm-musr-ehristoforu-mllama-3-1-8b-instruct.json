@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-ehristoforu-mllama-3-1-8b-instruct",
+  "model_id": "ehristoforu/mllama-3.1-8b-instruct",
+  "benchmark_name": "musr",
+  "score": 3.683333333333334,
+  "score_raw": 3.683333333333334,
+  "evaluation_date": "2024-12-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3766
+}

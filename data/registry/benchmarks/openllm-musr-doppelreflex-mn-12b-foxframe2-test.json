@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-doppelreflex-mn-12b-foxframe2-test",
+  "model_id": "DoppelReflEx/MN-12B-FoxFrame2-test",
+  "benchmark_name": "musr",
+  "score": 12.448437499999997,
+  "score_raw": 12.448437499999997,
+  "evaluation_date": "2025-02-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1452
+}

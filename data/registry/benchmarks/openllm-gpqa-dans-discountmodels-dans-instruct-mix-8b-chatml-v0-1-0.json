@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dans-discountmodels-dans-instruct-mix-8b-chatml-v0-1-0",
+  "model_id": "Dans-DiscountModels/Dans-Instruct-Mix-8b-ChatML-V0.1.0",
+  "benchmark_name": "gpqa",
+  "score": 4.809843400447425,
+  "score_raw": 4.809843400447425,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2676
+}

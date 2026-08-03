@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-sometimesanotion-lamarck-14b-reason-model-stock",
+  "model_id": "sometimesanotion/lamarck-14b-reason-model_stock",
+  "benchmark_name": "ifeval",
+  "score": 49.64671516021933,
+  "score_raw": 49.64671516021933,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1893
+}

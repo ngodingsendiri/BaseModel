@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-prithivmlmods-primal-opus-14b-optimus-v2",
+  "model_id": "prithivMLmods/Primal-Opus-14B-Optimus-v2",
+  "benchmark_name": "bbh",
+  "score": 50.1813442955816,
+  "score_raw": 50.1813442955816,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 365
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-causallm-preview-1-hf",
+  "model_id": "CausalLM/preview-1-hf",
+  "benchmark_name": "gpqa",
+  "score": 1.5659955257270708,
+  "score_raw": 1.5659955257270708,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3832
+}

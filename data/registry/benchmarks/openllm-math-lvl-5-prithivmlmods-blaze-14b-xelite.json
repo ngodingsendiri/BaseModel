@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-prithivmlmods-blaze-14b-xelite",
+  "model_id": "prithivMLmods/Blaze-14B-xElite",
+  "benchmark_name": "math-lvl-5",
+  "score": 36.933534743202415,
+  "score_raw": 36.933534743202415,
+  "evaluation_date": "2025-01-28",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 578
+}

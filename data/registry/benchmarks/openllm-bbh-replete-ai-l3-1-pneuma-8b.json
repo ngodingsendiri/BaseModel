@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-replete-ai-l3-1-pneuma-8b",
+  "model_id": "Replete-AI/L3.1-Pneuma-8B",
+  "benchmark_name": "bbh",
+  "score": 30.26262992696204,
+  "score_raw": 30.26262992696204,
+  "evaluation_date": "2024-11-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2160
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-marcuscedricridia-etr1o-explicit-v1-2",
+  "model_id": "marcuscedricridia/etr1o-explicit-v1.2",
+  "benchmark_name": "average",
+  "score": 4.805786982236451,
+  "score_raw": 4.805786982236451,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4325
+}

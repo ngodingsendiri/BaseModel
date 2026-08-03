@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-bunnycore-qwen2-5-7b-mixstock-sce-v0-3",
+  "model_id": "bunnycore/Qwen2.5-7B-MixStock-Sce-V0.3",
+  "benchmark_name": "average",
+  "score": 11.636394077198473,
+  "score_raw": 11.636394077198473,
+  "evaluation_date": "2025-02-13",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3625
+}

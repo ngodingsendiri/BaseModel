@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-qingy2024-qwq-14b-math-v0-2",
+  "model_id": "qingy2024/QwQ-14B-Math-v0.2",
+  "benchmark_name": "math-lvl-5",
+  "score": 48.11178247734139,
+  "score_raw": 48.11178247734139,
+  "evaluation_date": "2024-12-20",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 198
+}

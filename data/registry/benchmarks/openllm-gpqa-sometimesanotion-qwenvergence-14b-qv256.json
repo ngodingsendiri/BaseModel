@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-sometimesanotion-qwenvergence-14b-qv256",
+  "model_id": "sometimesanotion/Qwenvergence-14B-qv256",
+  "benchmark_name": "gpqa",
+  "score": 17.114093959731544,
+  "score_raw": 17.114093959731544,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 263
+}

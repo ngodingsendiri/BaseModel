@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-microsoft-phi-4",
+  "model_id": "microsoft/phi-4",
+  "benchmark_name": "math-lvl-5",
+  "score": 27.870090634441087,
+  "score_raw": 27.870090634441087,
+  "evaluation_date": "2024-12-11",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 901
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-recoilme-gemma-2-ataraxy-gemmasutra-9b-slerp",
+  "model_id": "recoilme/Gemma-2-Ataraxy-Gemmasutra-9B-slerp",
+  "benchmark_name": "gpqa",
+  "score": 10.626398210290827,
+  "score_raw": 10.626398210290827,
+  "evaluation_date": "2024-09-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 897
+}

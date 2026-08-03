@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-quazim0t0-halo-14b-sce",
+  "model_id": "Quazim0t0/Halo-14B-sce",
+  "benchmark_name": "ifeval",
+  "score": 67.53691316817157,
+  "score_raw": 67.53691316817157,
+  "evaluation_date": "2025-02-04",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 899
+}

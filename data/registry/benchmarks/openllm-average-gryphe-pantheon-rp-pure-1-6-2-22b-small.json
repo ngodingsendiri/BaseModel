@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-gryphe-pantheon-rp-pure-1-6-2-22b-small",
+  "model_id": "Gryphe/Pantheon-RP-Pure-1.6.2-22b-Small",
+  "benchmark_name": "average",
+  "score": 28.138635196099433,
+  "score_raw": 28.138635196099433,
+  "evaluation_date": "2024-10-13",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1279
+}

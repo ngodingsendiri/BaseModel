@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-helpingai-cipher-20b",
+  "model_id": "HelpingAI/Cipher-20B",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.49091312056737,
+  "score_raw": 30.49091312056737,
+  "evaluation_date": "2024-12-14",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1728
+}

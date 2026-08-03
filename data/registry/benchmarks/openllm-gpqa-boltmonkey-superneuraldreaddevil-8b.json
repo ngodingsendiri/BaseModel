@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-boltmonkey-superneuraldreaddevil-8b",
+  "model_id": "BoltMonkey/SuperNeuralDreadDevil-8b",
+  "benchmark_name": "gpqa",
+  "score": 5.592841163310966,
+  "score_raw": 5.592841163310966,
+  "evaluation_date": "2024-10-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2400
+}

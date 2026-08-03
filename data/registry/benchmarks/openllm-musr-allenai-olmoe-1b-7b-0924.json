@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-allenai-olmoe-1b-7b-0924",
+  "model_id": "allenai/OLMoE-1B-7B-0924",
+  "benchmark_name": "musr",
+  "score": 3.565625000000001,
+  "score_raw": 3.565625000000001,
+  "evaluation_date": "2024-07-20",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3796
+}

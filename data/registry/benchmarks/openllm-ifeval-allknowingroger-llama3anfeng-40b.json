@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-allknowingroger-llama3anfeng-40b",
+  "model_id": "allknowingroger/llama3AnFeng-40B",
+  "benchmark_name": "ifeval",
+  "score": 17.42077687203287,
+  "score_raw": 17.42077687203287,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4189
+}

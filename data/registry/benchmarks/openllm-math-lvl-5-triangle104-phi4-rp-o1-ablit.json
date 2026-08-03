@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-triangle104-phi4-rp-o1-ablit",
+  "model_id": "Triangle104/Phi4-RP-o1-Ablit",
+  "benchmark_name": "math-lvl-5",
+  "score": 38.82175226586103,
+  "score_raw": 38.82175226586103,
+  "evaluation_date": "2025-02-08",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 483
+}

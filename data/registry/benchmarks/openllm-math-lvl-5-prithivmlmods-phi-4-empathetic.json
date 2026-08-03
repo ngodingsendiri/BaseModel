@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-prithivmlmods-phi-4-empathetic",
+  "model_id": "prithivMLmods/Phi-4-Empathetic",
+  "benchmark_name": "math-lvl-5",
+  "score": 26.208459214501513,
+  "score_raw": 26.208459214501513,
+  "evaluation_date": "2025-01-10",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 953
+}

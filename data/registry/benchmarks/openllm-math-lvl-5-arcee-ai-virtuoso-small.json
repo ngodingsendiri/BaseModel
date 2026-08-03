@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-arcee-ai-virtuoso-small",
+  "model_id": "arcee-ai/Virtuoso-Small",
+  "benchmark_name": "math-lvl-5",
+  "score": 40.93655589123867,
+  "score_raw": 40.93655589123867,
+  "evaluation_date": "2024-12-01",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 416
+}

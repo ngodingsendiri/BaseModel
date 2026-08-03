@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-emu-eggs-9b-model-stock",
+  "model_id": "DreadPoor/Emu_Eggs-9B-Model_Stock",
+  "benchmark_name": "musr",
+  "score": 9.318750000000003,
+  "score_raw": 9.318750000000003,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2498
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-johnsutor-llama-3-8b-instruct-linear",
+  "model_id": "johnsutor/Llama-3-8B-Instruct_linear",
+  "benchmark_name": "average",
+  "score": 21.370872595590694,
+  "score_raw": 21.370872595590694,
+  "evaluation_date": "2024-06-07",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2417
+}

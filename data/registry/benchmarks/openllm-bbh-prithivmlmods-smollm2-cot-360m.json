@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-prithivmlmods-smollm2-cot-360m",
+  "model_id": "prithivMLmods/SmolLM2-CoT-360M",
+  "benchmark_name": "bbh",
+  "score": 4.801205481265894,
+  "score_raw": 4.801205481265894,
+  "evaluation_date": "2025-01-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4129
+}

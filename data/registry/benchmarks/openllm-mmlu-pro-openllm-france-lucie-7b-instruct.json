@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-openllm-france-lucie-7b-instruct",
+  "model_id": "OpenLLM-France/Lucie-7B-Instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 6.176122931442081,
+  "score_raw": 6.176122931442081,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3929
+}

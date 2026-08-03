@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-yoyo-ai-qwen2-5-14b-1m-yoyo-v3",
+  "model_id": "YOYO-AI/Qwen2.5-14B-1M-YOYO-V3",
+  "benchmark_name": "average",
+  "score": 42.55942702673594,
+  "score_raw": 42.55942702673594,
+  "evaluation_date": "2025-02-21",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 93
+}

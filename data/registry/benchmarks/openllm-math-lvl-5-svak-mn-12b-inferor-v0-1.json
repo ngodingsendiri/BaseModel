@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-svak-mn-12b-inferor-v0-1",
+  "model_id": "Svak/MN-12B-Inferor-v0.1",
+  "benchmark_name": "math-lvl-5",
+  "score": 12.613293051359516,
+  "score_raw": 12.613293051359516,
+  "evaluation_date": "2024-11-08",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1988
+}

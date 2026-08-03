@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-triangle104-herodotos-14b-v0-1",
+  "model_id": "Triangle104/Herodotos-14B_V0.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.8266105200945615,
+  "score_raw": 1.8266105200945615,
+  "evaluation_date": "2025-02-11",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4212
+}

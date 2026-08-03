@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-nekochu-luminia-13b-v3",
+  "model_id": "Nekochu/Luminia-13B-v3",
+  "benchmark_name": "bbh",
+  "score": 17.690523920374847,
+  "score_raw": 17.690523920374847,
+  "evaluation_date": "2024-03-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3349
+}

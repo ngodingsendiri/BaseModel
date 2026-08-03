@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-allknowingroger-westlakemaziyar-7b-slerp",
+  "model_id": "allknowingroger/WestlakeMaziyar-7B-slerp",
+  "benchmark_name": "math-lvl-5",
+  "score": 6.646525679758309,
+  "score_raw": 6.646525679758309,
+  "evaluation_date": "2024-05-16",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2921
+}

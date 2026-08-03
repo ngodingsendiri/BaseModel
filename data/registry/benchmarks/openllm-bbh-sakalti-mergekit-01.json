@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-sakalti-mergekit-01",
+  "model_id": "Sakalti/mergekit-01",
+  "benchmark_name": "bbh",
+  "score": 36.37504670970679,
+  "score_raw": 36.37504670970679,
+  "evaluation_date": "2025-02-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1160
+}

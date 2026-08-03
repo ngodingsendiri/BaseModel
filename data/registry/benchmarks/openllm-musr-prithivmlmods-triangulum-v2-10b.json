@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-prithivmlmods-triangulum-v2-10b",
+  "model_id": "prithivMLmods/Triangulum-v2-10B",
+  "benchmark_name": "musr",
+  "score": 12.575781249999997,
+  "score_raw": 12.575781249999997,
+  "evaluation_date": "2025-01-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1410
+}

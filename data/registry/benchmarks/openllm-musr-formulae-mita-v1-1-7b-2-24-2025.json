@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-formulae-mita-v1-1-7b-2-24-2025",
+  "model_id": "formulae/mita-v1.1-7b-2-24-2025",
+  "benchmark_name": "musr",
+  "score": 16.062239583333337,
+  "score_raw": 16.062239583333337,
+  "evaluation_date": "2025-02-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 689
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-tarek07-thalassic-alpha-llama-70b",
+  "model_id": "Tarek07/Thalassic-Alpha-LLaMa-70B",
+  "benchmark_name": "gpqa",
+  "score": 25.838926174496642,
+  "score_raw": 25.838926174496642,
+  "evaluation_date": "2025-01-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 8
+}

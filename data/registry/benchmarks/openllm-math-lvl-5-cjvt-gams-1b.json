@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-cjvt-gams-1b",
+  "model_id": "cjvt/GaMS-1B",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.3595166163141994,
+  "score_raw": 1.3595166163141994,
+  "evaluation_date": "2024-09-18",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4108
+}

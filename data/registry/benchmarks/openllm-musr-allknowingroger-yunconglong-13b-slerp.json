@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-allknowingroger-yunconglong-13b-slerp",
+  "model_id": "allknowingroger/Yunconglong-13B-slerp",
+  "benchmark_name": "musr",
+  "score": 10.842447916666663,
+  "score_raw": 10.842447916666663,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2034
+}

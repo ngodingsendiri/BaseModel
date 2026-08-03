@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-heraihench-deepseek-r1-qwen-coder-8b",
+  "model_id": "HeraiHench/DeepSeek-R1-Qwen-Coder-8B",
+  "benchmark_name": "musr",
+  "score": 3.830468749999999,
+  "score_raw": 3.830468749999999,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3724
+}

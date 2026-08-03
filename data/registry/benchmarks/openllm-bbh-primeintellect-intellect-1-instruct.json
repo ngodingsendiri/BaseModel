@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-primeintellect-intellect-1-instruct",
+  "model_id": "PrimeIntellect/INTELLECT-1-Instruct",
+  "benchmark_name": "bbh",
+  "score": 1.7494478703137453,
+  "score_raw": 1.7494478703137453,
+  "evaluation_date": "2024-11-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4520
+}

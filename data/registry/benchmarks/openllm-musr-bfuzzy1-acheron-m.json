@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-bfuzzy1-acheron-m",
+  "model_id": "bfuzzy1/acheron-m",
+  "benchmark_name": "musr",
+  "score": 2.0833333333333326,
+  "score_raw": 2.0833333333333326,
+  "evaluation_date": "2025-01-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4170
+}

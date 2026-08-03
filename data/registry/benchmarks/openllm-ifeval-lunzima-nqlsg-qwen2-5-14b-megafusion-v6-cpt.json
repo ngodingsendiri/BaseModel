@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-lunzima-nqlsg-qwen2-5-14b-megafusion-v6-cpt",
+  "model_id": "Lunzima/NQLSG-Qwen2.5-14B-MegaFusion-v6-cpt",
+  "benchmark_name": "ifeval",
+  "score": 46.634152936430894,
+  "score_raw": 46.634152936430894,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2136
+}

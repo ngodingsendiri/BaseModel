@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-cultrix-seqwence-14b-evolmerge",
+  "model_id": "CultriX/SeQwence-14B-EvolMerge",
+  "benchmark_name": "average",
+  "score": 38.018640895247245,
+  "score_raw": 38.018640895247245,
+  "evaluation_date": "2024-11-27",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 409
+}

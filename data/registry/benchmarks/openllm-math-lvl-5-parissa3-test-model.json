@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-parissa3-test-model",
+  "model_id": "Parissa3/test-model",
+  "benchmark_name": "math-lvl-5",
+  "score": 6.495468277945619,
+  "score_raw": 6.495468277945619,
+  "evaluation_date": "2024-11-16",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2946
+}

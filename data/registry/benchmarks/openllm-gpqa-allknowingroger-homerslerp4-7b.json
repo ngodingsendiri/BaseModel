@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-allknowingroger-homerslerp4-7b",
+  "model_id": "allknowingroger/HomerSlerp4-7B",
+  "benchmark_name": "gpqa",
+  "score": 9.284116331096197,
+  "score_raw": 9.284116331096197,
+  "evaluation_date": "2024-11-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1157
+}

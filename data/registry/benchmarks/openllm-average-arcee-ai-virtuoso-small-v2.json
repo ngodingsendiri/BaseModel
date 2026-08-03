@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-arcee-ai-virtuoso-small-v2",
+  "model_id": "arcee-ai/Virtuoso-Small-v2",
+  "benchmark_name": "average",
+  "score": 42.475701925930025,
+  "score_raw": 42.475701925930025,
+  "evaluation_date": "2025-01-30",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 98
+}

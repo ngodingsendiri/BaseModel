@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-tomasmcm-sky-t1-coder-32b-flash",
+  "model_id": "tomasmcm/sky-t1-coder-32b-flash",
+  "benchmark_name": "gpqa",
+  "score": 15.771812080536915,
+  "score_raw": 15.771812080536915,
+  "evaluation_date": "2025-02-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 362
+}

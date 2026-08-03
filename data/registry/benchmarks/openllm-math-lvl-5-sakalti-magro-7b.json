@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sakalti-magro-7b",
+  "model_id": "Sakalti/magro-7B",
+  "benchmark_name": "math-lvl-5",
+  "score": 2.0392749244712993,
+  "score_raw": 2.0392749244712993,
+  "evaluation_date": "2024-12-11",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3902
+}

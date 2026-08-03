@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-godlikehhd-alpaca-data-score-max-2600-3b",
+  "model_id": "godlikehhd/alpaca_data_score_max_2600_3B",
+  "benchmark_name": "bbh",
+  "score": 26.00926717613288,
+  "score_raw": 26.00926717613288,
+  "evaluation_date": "2025-01-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2726
+}

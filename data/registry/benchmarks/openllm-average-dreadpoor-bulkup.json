@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-dreadpoor-bulkup",
+  "model_id": "DreadPoor/BulkUp",
+  "benchmark_name": "average",
+  "score": 3.7903724081838015,
+  "score_raw": 3.7903724081838015,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4478
+}

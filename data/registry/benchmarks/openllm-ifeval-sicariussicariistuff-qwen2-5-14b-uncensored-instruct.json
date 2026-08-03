@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-sicariussicariistuff-qwen2-5-14b-uncensored-instruct",
+  "model_id": "SicariusSicariiStuff/Qwen2.5-14B_Uncensored_Instruct",
+  "benchmark_name": "ifeval",
+  "score": 37.89389929830627,
+  "score_raw": 37.89389929830627,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2865
+}

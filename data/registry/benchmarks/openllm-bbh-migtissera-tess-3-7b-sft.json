@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-migtissera-tess-3-7b-sft",
+  "model_id": "migtissera/Tess-3-7B-SFT",
+  "benchmark_name": "bbh",
+  "score": 24.123847398237004,
+  "score_raw": 24.123847398237004,
+  "evaluation_date": "2024-07-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2889
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-youlln-4prymmal-gemma2-9b-slerp",
+  "model_id": "Youlln/4PRYMMAL-GEMMA2-9B-SLERP",
+  "benchmark_name": "bbh",
+  "score": 42.064171912395665,
+  "score_raw": 42.064171912395665,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 864
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-tencentarc-llama-pro-8b",
+  "model_id": "TencentARC/LLaMA-Pro-8B",
+  "benchmark_name": "gpqa",
+  "score": 1.342281879194629,
+  "score_raw": 1.342281879194629,
+  "evaluation_date": "2024-01-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3959
+}

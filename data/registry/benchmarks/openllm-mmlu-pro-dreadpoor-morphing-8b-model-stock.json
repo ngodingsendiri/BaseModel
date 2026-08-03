@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-morphing-8b-model-stock",
+  "model_id": "DreadPoor/Morphing-8B-Model_Stock",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.691415484633573,
+  "score_raw": 31.691415484633573,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1451
+}

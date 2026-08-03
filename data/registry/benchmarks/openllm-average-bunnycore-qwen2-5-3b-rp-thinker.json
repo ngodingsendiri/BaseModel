@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-bunnycore-qwen2-5-3b-rp-thinker",
+  "model_id": "bunnycore/Qwen2.5-3B-RP-Thinker",
+  "benchmark_name": "average",
+  "score": 22.906122256350514,
+  "score_raw": 22.906122256350514,
+  "evaluation_date": "2024-12-31",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2112
+}

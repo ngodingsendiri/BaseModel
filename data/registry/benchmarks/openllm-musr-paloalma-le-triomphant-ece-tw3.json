@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-paloalma-le-triomphant-ece-tw3",
+  "model_id": "paloalma/Le_Triomphant-ECE-TW3",
+  "benchmark_name": "musr",
+  "score": 18.495833333333334,
+  "score_raw": 18.495833333333334,
+  "evaluation_date": "2024-04-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 403
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-aidc-ai-marco-o1",
+  "model_id": "AIDC-AI/Marco-o1",
+  "benchmark_name": "bbh",
+  "score": 34.84254498655976,
+  "score_raw": 34.84254498655976,
+  "evaluation_date": "2024-11-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1383
+}

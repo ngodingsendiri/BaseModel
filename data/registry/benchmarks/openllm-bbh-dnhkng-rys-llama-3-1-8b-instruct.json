@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-dnhkng-rys-llama-3-1-8b-instruct",
+  "model_id": "dnhkng/RYS-Llama-3.1-8B-Instruct",
+  "benchmark_name": "bbh",
+  "score": 31.085445296018978,
+  "score_raw": 31.085445296018978,
+  "evaluation_date": "2024-08-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2029
+}

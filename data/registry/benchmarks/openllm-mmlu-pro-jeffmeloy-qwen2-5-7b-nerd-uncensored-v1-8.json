@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-jeffmeloy-qwen2-5-7b-nerd-uncensored-v1-8",
+  "model_id": "jeffmeloy/Qwen2.5-7B-nerd-uncensored-v1.8",
+  "benchmark_name": "mmlu-pro",
+  "score": 37.149083924349874,
+  "score_raw": 37.149083924349874,
+  "evaluation_date": "2024-11-16",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 968
+}

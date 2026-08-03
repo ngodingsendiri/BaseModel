@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-combinhorizon-huihui-ai-abliteratedv2-qwen2-5-14b-inst-basemerge-ties",
+  "model_id": "CombinHorizon/huihui-ai-abliteratedV2-Qwen2.5-14B-Inst-BaseMerge-TIES",
+  "benchmark_name": "mmlu-pro",
+  "score": 43.44710401891253,
+  "score_raw": 43.44710401891253,
+  "evaluation_date": "2024-12-07",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 587
+}

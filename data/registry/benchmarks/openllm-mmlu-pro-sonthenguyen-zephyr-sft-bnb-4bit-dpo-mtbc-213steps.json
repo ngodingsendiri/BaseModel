@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sonthenguyen-zephyr-sft-bnb-4bit-dpo-mtbc-213steps",
+  "model_id": "sonthenguyen/zephyr-sft-bnb-4bit-DPO-mtbc-213steps",
+  "benchmark_name": "mmlu-pro",
+  "score": 18.98455969267139,
+  "score_raw": 18.98455969267139,
+  "evaluation_date": "2024-10-02",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3248
+}

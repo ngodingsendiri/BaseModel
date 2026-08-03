@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-seallms-seallm-7b-v2-5",
+  "model_id": "SeaLLMs/SeaLLM-7B-v2.5",
+  "benchmark_name": "mmlu-pro",
+  "score": 24.479166666666664,
+  "score_raw": 24.479166666666664,
+  "evaluation_date": "2024-04-03",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2566
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-baezel-8b-model-stock",
+  "model_id": "DreadPoor/BaeZel-8B-Model_Stock",
+  "benchmark_name": "gpqa",
+  "score": 8.501118568232664,
+  "score_raw": 8.501118568232664,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1328
+}

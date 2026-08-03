@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-microsoft-orca-2-7b",
+  "model_id": "microsoft/Orca-2-7b",
+  "benchmark_name": "average",
+  "score": 14.404830081400474,
+  "score_raw": 14.404830081400474,
+  "evaluation_date": "2023-11-14",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3370
+}

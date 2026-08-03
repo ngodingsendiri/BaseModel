@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nisten-tqwendo-36b",
+  "model_id": "nisten/tqwendo-36b",
+  "benchmark_name": "average",
+  "score": 37.04172043230399,
+  "score_raw": 37.04172043230399,
+  "evaluation_date": "2024-12-21",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 467
+}

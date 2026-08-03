@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-sicariussicariistuff-dn-ep02",
+  "model_id": "SicariusSicariiStuff/dn_ep02",
+  "benchmark_name": "ifeval",
+  "score": 50.643403945974455,
+  "score_raw": 50.643403945974455,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1808
+}

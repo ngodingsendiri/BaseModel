@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-3rd-degree-burn-llama-squared-8b",
+  "model_id": "3rd-Degree-Burn/Llama-Squared-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 15.179890661938533,
+  "score_raw": 15.179890661938533,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3460
+}

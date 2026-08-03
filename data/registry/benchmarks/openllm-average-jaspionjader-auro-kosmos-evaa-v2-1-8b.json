@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-jaspionjader-auro-kosmos-evaa-v2-1-8b",
+  "model_id": "jaspionjader/Auro-Kosmos-EVAA-v2.1-8B",
+  "benchmark_name": "average",
+  "score": 24.753245956983775,
+  "score_raw": 24.753245956983775,
+  "evaluation_date": "2024-12-27",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1662
+}

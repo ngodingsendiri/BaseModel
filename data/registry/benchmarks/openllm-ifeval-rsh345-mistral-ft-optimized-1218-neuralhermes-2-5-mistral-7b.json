@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-rsh345-mistral-ft-optimized-1218-neuralhermes-2-5-mistral-7b",
+  "model_id": "rsh345/mistral-ft-optimized-1218-NeuralHermes-2.5-Mistral-7B",
+  "benchmark_name": "ifeval",
+  "score": 38.91807071902552,
+  "score_raw": 38.91807071902552,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2800
+}

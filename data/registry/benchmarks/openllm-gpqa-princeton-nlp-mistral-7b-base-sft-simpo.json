@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-princeton-nlp-mistral-7b-base-sft-simpo",
+  "model_id": "princeton-nlp/Mistral-7B-Base-SFT-SimPO",
+  "benchmark_name": "gpqa",
+  "score": 4.4742729306487705,
+  "score_raw": 4.4742729306487705,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2815
+}

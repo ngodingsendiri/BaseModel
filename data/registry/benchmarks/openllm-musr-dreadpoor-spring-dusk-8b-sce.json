@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-spring-dusk-8b-sce",
+  "model_id": "DreadPoor/Spring_Dusk-8B-SCE",
+  "benchmark_name": "musr",
+  "score": 17.33072916666666,
+  "score_raw": 17.33072916666666,
+  "evaluation_date": "2025-02-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 524
+}

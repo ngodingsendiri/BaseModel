@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-zeroxclem-llama-3-1-8b-supertulu-lexinova",
+  "model_id": "ZeroXClem/Llama-3.1-8B-SuperTulu-LexiNova",
+  "benchmark_name": "average",
+  "score": 23.300170759550948,
+  "score_raw": 23.300170759550948,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2023
+}

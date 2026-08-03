@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-daemontatox-reasontest",
+  "model_id": "Daemontatox/ReasonTest",
+  "benchmark_name": "ifeval",
+  "score": 40.79653098223824,
+  "score_raw": 40.79653098223824,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2681
+}

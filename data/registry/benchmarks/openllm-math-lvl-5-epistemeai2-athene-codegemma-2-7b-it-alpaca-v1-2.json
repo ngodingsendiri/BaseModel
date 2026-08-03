@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-epistemeai2-athene-codegemma-2-7b-it-alpaca-v1-2",
+  "model_id": "EpistemeAI2/Athene-codegemma-2-7b-it-alpaca-v1.2",
+  "benchmark_name": "math-lvl-5",
+  "score": 4.229607250755287,
+  "score_raw": 4.229607250755287,
+  "evaluation_date": "2024-08-26",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3451
+}

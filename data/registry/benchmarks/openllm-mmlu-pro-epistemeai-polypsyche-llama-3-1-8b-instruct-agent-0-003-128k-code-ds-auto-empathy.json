@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-epistemeai-polypsyche-llama-3-1-8b-instruct-agent-0-003-128k-code-ds-auto-empathy",
+  "model_id": "EpistemeAI/Polypsyche-Llama-3.1-8B-Instruct-Agent-0.003-128K-code-ds-auto-Empathy",
+  "benchmark_name": "mmlu-pro",
+  "score": 25.67966903073286,
+  "score_raw": 25.67966903073286,
+  "evaluation_date": "2024-12-13",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2440
+}

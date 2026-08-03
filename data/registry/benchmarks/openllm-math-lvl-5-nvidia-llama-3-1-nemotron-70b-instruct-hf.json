@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-nvidia-llama-3-1-nemotron-70b-instruct-hf",
+  "model_id": "nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
+  "benchmark_name": "math-lvl-5",
+  "score": 42.6737160120846,
+  "score_raw": 42.6737160120846,
+  "evaluation_date": "2024-10-12",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 361
+}

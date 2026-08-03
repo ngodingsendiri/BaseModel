@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-jaspionjader-bbb-1",
+  "model_id": "jaspionjader/bbb-1",
+  "benchmark_name": "ifeval",
+  "score": 48.64005283758206,
+  "score_raw": 48.64005283758206,
+  "evaluation_date": "2025-01-17",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1963
+}

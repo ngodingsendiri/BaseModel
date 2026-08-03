@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-novaciano-astaroth-3-2-1b",
+  "model_id": "Novaciano/ASTAROTH-3.2-1B",
+  "benchmark_name": "musr",
+  "score": 1.2106770833333331,
+  "score_raw": 1.2106770833333331,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4421
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-grimjim-llama3-1-supernovalite-huatuoskywork-o1-8b",
+  "model_id": "grimjim/Llama3.1-SuperNovaLite-HuatuoSkywork-o1-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.81678486997636,
+  "score_raw": 29.81678486997636,
+  "evaluation_date": "2025-01-07",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1869
+}

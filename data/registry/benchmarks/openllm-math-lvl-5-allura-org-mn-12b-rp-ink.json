@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-allura-org-mn-12b-rp-ink",
+  "model_id": "allura-org/MN-12b-RP-Ink",
+  "benchmark_name": "math-lvl-5",
+  "score": 11.858006042296072,
+  "score_raw": 11.858006042296072,
+  "evaluation_date": "2024-12-25",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2115
+}

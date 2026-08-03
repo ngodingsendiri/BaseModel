@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-haoranxu-llama-3-instruct-8b-simpo",
+  "model_id": "haoranxu/Llama-3-Instruct-8B-SimPO",
+  "benchmark_name": "average",
+  "score": 24.990729234610715,
+  "score_raw": 24.990729234610715,
+  "evaluation_date": "2024-06-07",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1627
+}

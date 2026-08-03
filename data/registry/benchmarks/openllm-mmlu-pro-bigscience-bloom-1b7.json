@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-bigscience-bloom-1b7",
+  "model_id": "bigscience/bloom-1b7",
+  "benchmark_name": "mmlu-pro",
+  "score": 0.9585549645390061,
+  "score_raw": 0.9585549645390061,
+  "evaluation_date": "2022-05-19",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4550
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-yifai-llama-3-8b-instruct-sppo-score-iter3-gp-8b-table-0-002",
+  "model_id": "yifAI/Llama-3-8B-Instruct-SPPO-score-Iter3_gp_8b-table-0.002",
+  "benchmark_name": "gpqa",
+  "score": 1.5659955257270708,
+  "score_raw": 1.5659955257270708,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3874
+}

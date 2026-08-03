@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-quazim0t0-jekyl-8b-sce",
+  "model_id": "Quazim0t0/Jekyl-8b-sce",
+  "benchmark_name": "bbh",
+  "score": 28.232789513696968,
+  "score_raw": 28.232789513696968,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2467
+}

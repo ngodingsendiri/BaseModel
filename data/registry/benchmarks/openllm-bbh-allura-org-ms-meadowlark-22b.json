@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-allura-org-ms-meadowlark-22b",
+  "model_id": "allura-org/MS-Meadowlark-22B",
+  "benchmark_name": "bbh",
+  "score": 30.29658044666958,
+  "score_raw": 30.29658044666958,
+  "evaluation_date": "2024-10-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2152
+}

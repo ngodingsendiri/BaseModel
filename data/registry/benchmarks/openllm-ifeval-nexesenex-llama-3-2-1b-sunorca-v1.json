@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-nexesenex-llama-3-2-1b-sunorca-v1",
+  "model_id": "Nexesenex/Llama_3.2_1b_SunOrca_V1",
+  "benchmark_name": "ifeval",
+  "score": 54.295380700984495,
+  "score_raw": 54.295380700984495,
+  "evaluation_date": "2025-03-06",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1576
+}

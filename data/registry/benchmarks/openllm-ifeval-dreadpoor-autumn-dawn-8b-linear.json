@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-dreadpoor-autumn-dawn-8b-linear",
+  "model_id": "DreadPoor/Autumn_Dawn-8B-LINEAR",
+  "benchmark_name": "ifeval",
+  "score": 72.92993701157374,
+  "score_raw": 72.92993701157374,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 586
+}

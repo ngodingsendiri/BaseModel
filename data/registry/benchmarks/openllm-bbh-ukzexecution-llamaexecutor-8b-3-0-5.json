@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-ukzexecution-llamaexecutor-8b-3-0-5",
+  "model_id": "UKzExecution/LlamaExecutor-8B-3.0.5",
+  "benchmark_name": "bbh",
+  "score": 28.41381524085358,
+  "score_raw": 28.41381524085358,
+  "evaluation_date": "2024-07-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2448
+}

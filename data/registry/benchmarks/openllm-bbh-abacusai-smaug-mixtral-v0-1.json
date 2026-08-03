@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-abacusai-smaug-mixtral-v0-1",
+  "model_id": "abacusai/Smaug-Mixtral-v0.1",
+  "benchmark_name": "bbh",
+  "score": 31.919260543426763,
+  "score_raw": 31.919260543426763,
+  "evaluation_date": "2024-02-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1864
+}

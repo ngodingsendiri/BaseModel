@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sakalti-ultiima-32b",
+  "model_id": "Sakalti/ultiima-32B",
+  "benchmark_name": "average",
+  "score": 45.40321787320272,
+  "score_raw": 45.40321787320272,
+  "evaluation_date": "2024-12-23",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 35
+}

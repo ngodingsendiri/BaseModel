@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-supichi-bbai-525-tsu-gz-xia0",
+  "model_id": "Supichi/BBAI_525_Tsu_gZ_Xia0",
+  "benchmark_name": "mmlu-pro",
+  "score": 38.63585992907802,
+  "score_raw": 38.63585992907802,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 767
+}

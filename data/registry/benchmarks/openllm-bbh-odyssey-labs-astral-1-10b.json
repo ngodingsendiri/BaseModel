@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-odyssey-labs-astral-1-10b",
+  "model_id": "odyssey-labs/Astral-1-10B",
+  "benchmark_name": "bbh",
+  "score": 28.313232406760367,
+  "score_raw": 28.313232406760367,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2455
+}

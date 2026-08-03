@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-princeton-nlp-mistral-7b-instruct-orpo",
+  "model_id": "princeton-nlp/Mistral-7B-Instruct-ORPO",
+  "benchmark_name": "gpqa",
+  "score": 3.243847874720355,
+  "score_raw": 3.243847874720355,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3238
+}

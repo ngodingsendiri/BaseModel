@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-rombodawg-rombos-coder-v2-5-qwen-7b",
+  "model_id": "rombodawg/Rombos-Coder-V2.5-Qwen-7b",
+  "benchmark_name": "average",
+  "score": 27.405414768306354,
+  "score_raw": 27.405414768306354,
+  "evaluation_date": "2024-10-28",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1352
+}

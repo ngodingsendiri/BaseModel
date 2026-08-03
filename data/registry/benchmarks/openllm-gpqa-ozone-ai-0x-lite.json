@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-ozone-ai-0x-lite",
+  "model_id": "ozone-ai/0x-lite",
+  "benchmark_name": "gpqa",
+  "score": 9.284116331096204,
+  "score_raw": 9.284116331096204,
+  "evaluation_date": "2025-01-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1140
+}

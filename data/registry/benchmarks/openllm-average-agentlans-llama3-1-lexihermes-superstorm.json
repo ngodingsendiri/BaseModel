@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-agentlans-llama3-1-lexihermes-superstorm",
+  "model_id": "agentlans/Llama3.1-LexiHermes-SuperStorm",
+  "benchmark_name": "average",
+  "score": 29.430987251890873,
+  "score_raw": 29.430987251890873,
+  "evaluation_date": "2025-02-12",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1120
+}

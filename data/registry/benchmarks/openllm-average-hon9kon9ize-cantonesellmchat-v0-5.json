@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-hon9kon9ize-cantonesellmchat-v0-5",
+  "model_id": "hon9kon9ize/CantoneseLLMChat-v0.5",
+  "benchmark_name": "average",
+  "score": 15.959800818271107,
+  "score_raw": 15.959800818271107,
+  "evaluation_date": "2024-07-01",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3201
+}

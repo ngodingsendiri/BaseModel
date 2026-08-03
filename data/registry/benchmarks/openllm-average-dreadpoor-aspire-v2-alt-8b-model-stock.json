@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-dreadpoor-aspire-v2-alt-8b-model-stock",
+  "model_id": "DreadPoor/Aspire_V2_ALT-8B-Model_Stock",
+  "benchmark_name": "average",
+  "score": 29.059893218432236,
+  "score_raw": 29.059893218432236,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1170
+}

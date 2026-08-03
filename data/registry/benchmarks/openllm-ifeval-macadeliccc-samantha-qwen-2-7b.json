@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-macadeliccc-samantha-qwen-2-7b",
+  "model_id": "macadeliccc/Samantha-Qwen-2-7B",
+  "benchmark_name": "ifeval",
+  "score": 43.771526217103954,
+  "score_raw": 43.771526217103954,
+  "evaluation_date": "2024-06-15",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2422
+}

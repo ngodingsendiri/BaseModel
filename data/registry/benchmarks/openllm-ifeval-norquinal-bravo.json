@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-norquinal-bravo",
+  "model_id": "Norquinal/Bravo",
+  "benchmark_name": "ifeval",
+  "score": 30.24519386339357,
+  "score_raw": 30.24519386339357,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3291
+}

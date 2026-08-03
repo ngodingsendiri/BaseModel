@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-abacusai-bigyi-15b",
+  "model_id": "abacusai/bigyi-15b",
+  "benchmark_name": "mmlu-pro",
+  "score": 22.25361997635934,
+  "score_raw": 22.25361997635934,
+  "evaluation_date": "2024-03-06",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2908
+}

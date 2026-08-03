@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-ozone-ai-0x-lite",
+  "model_id": "ozone-ai/0x-lite",
+  "benchmark_name": "math-lvl-5",
+  "score": 50.453172205438065,
+  "score_raw": 50.453172205438065,
+  "evaluation_date": "2025-01-25",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 129
+}

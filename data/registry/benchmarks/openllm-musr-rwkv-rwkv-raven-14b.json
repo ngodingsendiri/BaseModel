@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-rwkv-rwkv-raven-14b",
+  "model_id": "RWKV/rwkv-raven-14b",
+  "benchmark_name": "musr",
+  "score": 7.193229166666666,
+  "score_raw": 7.193229166666666,
+  "evaluation_date": "2023-05-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3025
+}

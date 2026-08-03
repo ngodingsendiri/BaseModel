@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-shivank21-mistral-dpo-self",
+  "model_id": "shivank21/mistral_dpo_self",
+  "benchmark_name": "average",
+  "score": 9.824435617463962,
+  "score_raw": 9.824435617463962,
+  "evaluation_date": "2025-02-03",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3736
+}

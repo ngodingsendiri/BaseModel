@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-youlln-ece-qwen0-5b-ft-v2",
+  "model_id": "Youlln/ECE-Qwen0.5B-FT-V2",
+  "benchmark_name": "bbh",
+  "score": 7.632147610946966,
+  "score_raw": 7.632147610946966,
+  "evaluation_date": "2024-10-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3809
+}

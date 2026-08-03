@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-abacusai-bigyi-15b",
+  "model_id": "abacusai/bigyi-15b",
+  "benchmark_name": "average",
+  "score": 13.051824492532413,
+  "score_raw": 13.051824492532413,
+  "evaluation_date": "2024-03-06",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3508
+}

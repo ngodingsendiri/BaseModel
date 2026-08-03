@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-cultrix-qwen2-5-14b-partialmergept1",
+  "model_id": "CultriX/Qwen2.5-14B-partialmergept1",
+  "benchmark_name": "ifeval",
+  "score": 63.3728507028019,
+  "score_raw": 63.3728507028019,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1109
+}

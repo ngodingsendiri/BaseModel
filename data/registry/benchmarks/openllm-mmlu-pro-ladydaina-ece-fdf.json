@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ladydaina-ece-fdf",
+  "model_id": "ladydaina/ECE-FDF",
+  "benchmark_name": "mmlu-pro",
+  "score": 22.299793144208035,
+  "score_raw": 22.299793144208035,
+  "evaluation_date": "2024-11-14",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2894
+}

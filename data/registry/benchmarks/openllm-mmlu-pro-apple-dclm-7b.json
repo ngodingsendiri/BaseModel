@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-apple-dclm-7b",
+  "model_id": "apple/DCLM-7B",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.45412234042553,
+  "score_raw": 23.45412234042553,
+  "evaluation_date": "2024-07-11",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2715
+}

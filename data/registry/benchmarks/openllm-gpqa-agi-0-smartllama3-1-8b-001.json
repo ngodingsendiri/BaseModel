@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-agi-0-smartllama3-1-8b-001",
+  "model_id": "AGI-0/smartllama3.1-8B-001",
+  "benchmark_name": "gpqa",
+  "score": 7.494407158836691,
+  "score_raw": 7.494407158836691,
+  "evaluation_date": "2024-08-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1666
+}

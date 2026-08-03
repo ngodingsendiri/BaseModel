@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-maldv-lytta2-5-32b-instruct",
+  "model_id": "maldv/Lytta2.5-32B-Instruct",
+  "benchmark_name": "average",
+  "score": 24.790451743833525,
+  "score_raw": 24.790451743833525,
+  "evaluation_date": "2025-01-02",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1656
+}

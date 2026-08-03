@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-dreadpoor-incidental-8b-model-stock",
+  "model_id": "DreadPoor/Incidental-8B-Model_Stock",
+  "benchmark_name": "math-lvl-5",
+  "score": 16.1631419939577,
+  "score_raw": 16.1631419939577,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1630
+}

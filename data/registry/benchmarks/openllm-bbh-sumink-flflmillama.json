@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-sumink-flflmillama",
+  "model_id": "sumink/flflmillama",
+  "benchmark_name": "bbh",
+  "score": 13.745933922898066,
+  "score_raw": 13.745933922898066,
+  "evaluation_date": "2025-02-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3549
+}

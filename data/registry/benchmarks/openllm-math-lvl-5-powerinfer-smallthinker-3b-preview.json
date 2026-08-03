@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-powerinfer-smallthinker-3b-preview",
+  "model_id": "PowerInfer/SmallThinker-3B-Preview",
+  "benchmark_name": "math-lvl-5",
+  "score": 27.794561933534744,
+  "score_raw": 27.794561933534744,
+  "evaluation_date": "2024-12-12",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 903
+}

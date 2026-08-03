@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-google-codegemma-1-1-2b",
+  "model_id": "google/codegemma-1.1-2b",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.283987915407855,
+  "score_raw": 1.283987915407855,
+  "evaluation_date": "2024-04-30",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4133
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-fallenmerick-chewy-lemon-cookie-11b",
+  "model_id": "FallenMerick/Chewy-Lemon-Cookie-11B",
+  "benchmark_name": "ifeval",
+  "score": 48.75242135312082,
+  "score_raw": 48.75242135312082,
+  "evaluation_date": "2024-06-06",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1956
+}

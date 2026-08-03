@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-deepautoai-d2nwg-llama-3-1-8b-instruct-v0-0",
+  "model_id": "DeepAutoAI/d2nwg_Llama-3.1-8B-Instruct-v0.0",
+  "benchmark_name": "math-lvl-5",
+  "score": 18.051359516616312,
+  "score_raw": 18.051359516616312,
+  "evaluation_date": "2024-09-10",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1472
+}

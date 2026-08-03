@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-leesm-llama-3-8b-bnb-4b-kowiki231101",
+  "model_id": "LEESM/llama-3-8b-bnb-4b-kowiki231101",
+  "benchmark_name": "bbh",
+  "score": 16.93486814930169,
+  "score_raw": 16.93486814930169,
+  "evaluation_date": "2024-11-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3400
+}

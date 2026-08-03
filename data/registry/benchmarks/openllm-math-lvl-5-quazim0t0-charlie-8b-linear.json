@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-quazim0t0-charlie-8b-linear",
+  "model_id": "Quazim0t0/Charlie-8B-Linear",
+  "benchmark_name": "math-lvl-5",
+  "score": 26.51057401812689,
+  "score_raw": 26.51057401812689,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 944
+}

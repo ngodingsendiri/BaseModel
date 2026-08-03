@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-quazim0t0-gza-14b-sce",
+  "model_id": "Quazim0t0/GZA-14B-sce",
+  "benchmark_name": "ifeval",
+  "score": 62.740860915703664,
+  "score_raw": 62.740860915703664,
+  "evaluation_date": "2025-01-31",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1142
+}

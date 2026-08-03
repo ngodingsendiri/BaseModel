@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-tarek07-progenitor-v1-1-llama-70b",
+  "model_id": "Tarek07/Progenitor-V1.1-LLaMa-70B",
+  "benchmark_name": "average",
+  "score": 43.00294516350462,
+  "score_raw": 43.00294516350462,
+  "evaluation_date": "2025-01-24",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 75
+}

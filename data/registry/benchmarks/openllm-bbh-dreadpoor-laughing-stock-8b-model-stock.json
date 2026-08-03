@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-laughing-stock-8b-model-stock",
+  "model_id": "DreadPoor/Laughing_Stock-8B-Model_Stock",
+  "benchmark_name": "bbh",
+  "score": 34.93824337423678,
+  "score_raw": 34.93824337423678,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1364
+}

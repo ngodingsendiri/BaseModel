@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nbeerbower-doppelkartoffel-mistral-nemo-23b",
+  "model_id": "nbeerbower/DoppelKartoffel-Mistral-Nemo-23B",
+  "benchmark_name": "average",
+  "score": 19.833865427806835,
+  "score_raw": 19.833865427806835,
+  "evaluation_date": "2025-02-15",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2717
+}

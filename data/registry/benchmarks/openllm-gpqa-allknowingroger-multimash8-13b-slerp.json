@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-allknowingroger-multimash8-13b-slerp",
+  "model_id": "allknowingroger/MultiMash8-13B-slerp",
+  "benchmark_name": "gpqa",
+  "score": 5.145413870246088,
+  "score_raw": 5.145413870246088,
+  "evaluation_date": "2024-05-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2583
+}

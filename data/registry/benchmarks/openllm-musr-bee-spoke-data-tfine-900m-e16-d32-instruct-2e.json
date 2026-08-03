@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-bee-spoke-data-tfine-900m-e16-d32-instruct-2e",
+  "model_id": "BEE-spoke-data/tFINE-900m-e16-d32-instruct_2e",
+  "benchmark_name": "musr",
+  "score": 11.187239583333335,
+  "score_raw": 11.187239583333335,
+  "evaluation_date": "2024-09-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1910
+}

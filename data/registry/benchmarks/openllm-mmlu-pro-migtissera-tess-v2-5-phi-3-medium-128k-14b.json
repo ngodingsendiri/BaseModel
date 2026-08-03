@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-migtissera-tess-v2-5-phi-3-medium-128k-14b",
+  "model_id": "migtissera/Tess-v2.5-Phi-3-medium-128k-14B",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.352393617021285,
+  "score_raw": 30.352393617021285,
+  "evaluation_date": "2024-06-05",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1758
+}

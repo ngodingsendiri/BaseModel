@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-lemon07r-gemma-2-ataraxy-v2f-9b",
+  "model_id": "lemon07r/Gemma-2-Ataraxy-v2f-9B",
+  "benchmark_name": "gpqa",
+  "score": 11.85682326621924,
+  "score_raw": 11.85682326621924,
+  "evaluation_date": "2024-09-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 726
+}

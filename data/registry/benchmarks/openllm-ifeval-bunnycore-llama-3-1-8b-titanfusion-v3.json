@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-bunnycore-llama-3-1-8b-titanfusion-v3",
+  "model_id": "bunnycore/Llama-3.1-8B-TitanFusion-v3",
+  "benchmark_name": "ifeval",
+  "score": 48.095497723817246,
+  "score_raw": 48.095497723817246,
+  "evaluation_date": "2024-09-22",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2002
+}

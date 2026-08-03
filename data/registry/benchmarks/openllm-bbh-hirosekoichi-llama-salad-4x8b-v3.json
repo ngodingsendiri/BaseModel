@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-hirosekoichi-llama-salad-4x8b-v3",
+  "model_id": "HiroseKoichi/Llama-Salad-4x8B-V3",
+  "benchmark_name": "bbh",
+  "score": 31.92884881074505,
+  "score_raw": 31.92884881074505,
+  "evaluation_date": "2024-06-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1859
+}

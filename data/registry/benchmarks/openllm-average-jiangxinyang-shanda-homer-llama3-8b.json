@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-jiangxinyang-shanda-homer-llama3-8b",
+  "model_id": "jiangxinyang-shanda/Homer-LLama3-8B",
+  "benchmark_name": "average",
+  "score": 19.91583079813962,
+  "score_raw": 19.91583079813962,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2700
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-vonjack-qwen2-5-coder-0-5b-merged",
+  "model_id": "vonjack/Qwen2.5-Coder-0.5B-Merged",
+  "benchmark_name": "average",
+  "score": 6.979693269720411,
+  "score_raw": 6.979693269720411,
+  "evaluation_date": "2024-11-19",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4062
+}

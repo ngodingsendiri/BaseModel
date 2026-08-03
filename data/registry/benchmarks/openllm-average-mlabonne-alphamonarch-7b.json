@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-mlabonne-alphamonarch-7b",
+  "model_id": "mlabonne/AlphaMonarch-7B",
+  "benchmark_name": "average",
+  "score": 17.63062119200965,
+  "score_raw": 17.63062119200965,
+  "evaluation_date": "2024-02-14",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2991
+}

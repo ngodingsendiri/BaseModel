@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-triangulum-5b",
+  "model_id": "prithivMLmods/Triangulum-5B",
+  "benchmark_name": "average",
+  "score": 4.0117920459317,
+  "score_raw": 4.0117920459317,
+  "evaluation_date": "2024-12-31",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4443
+}

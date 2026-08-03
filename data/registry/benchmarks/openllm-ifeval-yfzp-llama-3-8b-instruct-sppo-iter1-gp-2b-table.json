@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-yfzp-llama-3-8b-instruct-sppo-iter1-gp-2b-table",
+  "model_id": "yfzp/Llama-3-8B-Instruct-SPPO-Iter1_gp_2b-table",
+  "benchmark_name": "ifeval",
+  "score": 67.84664689690022,
+  "score_raw": 67.84664689690022,
+  "evaluation_date": "2024-09-29",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 886
+}

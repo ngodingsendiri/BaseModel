@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-quazim0t0-loke-14b-sce",
+  "model_id": "Quazim0t0/Loke-14B-sce",
+  "benchmark_name": "average",
+  "score": 40.85820722600513,
+  "score_raw": 40.85820722600513,
+  "evaluation_date": "2025-02-04",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 213
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-fingu-ai-phi-4-rrstock",
+  "model_id": "FINGU-AI/Phi-4-RRStock",
+  "benchmark_name": "gpqa",
+  "score": 17.337807606263986,
+  "score_raw": 17.337807606263986,
+  "evaluation_date": "2025-02-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 233
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-openbuddy-openbuddy-qwq-32b-v24-1-200k",
+  "model_id": "OpenBuddy/openbuddy-qwq-32b-v24.1-200k",
+  "benchmark_name": "mmlu-pro",
+  "score": 49.89287825059102,
+  "score_raw": 49.89287825059102,
+  "evaluation_date": "2024-12-21",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 70
+}

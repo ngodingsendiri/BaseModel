@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-wizardlmteam-wizardlm-13b-v1-0",
+  "model_id": "WizardLMTeam/WizardLM-13B-V1.0",
+  "benchmark_name": "ifeval",
+  "score": 18.504900331121426,
+  "score_raw": 18.504900331121426,
+  "evaluation_date": "2023-05-13",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4114
+}

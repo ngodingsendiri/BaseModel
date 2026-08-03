@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-novaciano-lewd-mental-cultist-3-2-1b",
+  "model_id": "Novaciano/LEWD-Mental-Cultist-3.2-1B",
+  "benchmark_name": "ifeval",
+  "score": 53.08636639671627,
+  "score_raw": 53.08636639671627,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1678
+}

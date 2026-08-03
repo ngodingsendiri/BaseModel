@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ehristoforu-gemma2-9b-it-psy10k-mental-health",
+  "model_id": "ehristoforu/Gemma2-9B-it-psy10k-mental_health",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.432845744680847,
+  "score_raw": 31.432845744680847,
+  "evaluation_date": "2024-07-16",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1506
+}

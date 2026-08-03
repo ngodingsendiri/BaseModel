@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-flammenai-mahou-1-2a-llama3-8b",
+  "model_id": "flammenai/Mahou-1.2a-llama3-8B",
+  "benchmark_name": "math-lvl-5",
+  "score": 8.38368580060423,
+  "score_raw": 8.38368580060423,
+  "evaluation_date": "2024-05-25",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2632
+}

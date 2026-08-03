@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-sometimesanotion-lamarckinfusion-14b-v2-lo",
+  "model_id": "sometimesanotion/LamarckInfusion-14B-v2-lo",
+  "benchmark_name": "average",
+  "score": 41.58407798423975,
+  "score_raw": 41.58407798423975,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 145
+}

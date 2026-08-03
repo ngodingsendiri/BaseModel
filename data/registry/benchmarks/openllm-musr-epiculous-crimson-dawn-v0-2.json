@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-epiculous-crimson-dawn-v0-2",
+  "model_id": "Epiculous/Crimson_Dawn-v0.2",
+  "benchmark_name": "musr",
+  "score": 10.897135416666666,
+  "score_raw": 10.897135416666666,
+  "evaluation_date": "2024-09-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2015
+}

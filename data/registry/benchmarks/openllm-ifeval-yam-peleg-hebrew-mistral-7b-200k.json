@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-yam-peleg-hebrew-mistral-7b-200k",
+  "model_id": "yam-peleg/Hebrew-Mistral-7B-200K",
+  "benchmark_name": "ifeval",
+  "score": 17.698041197356346,
+  "score_raw": 17.698041197356346,
+  "evaluation_date": "2024-05-05",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4161
+}

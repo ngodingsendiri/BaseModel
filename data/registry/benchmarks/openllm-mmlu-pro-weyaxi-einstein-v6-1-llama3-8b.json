@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-weyaxi-einstein-v6-1-llama3-8b",
+  "model_id": "Weyaxi/Einstein-v6.1-Llama3-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.675753546099287,
+  "score_raw": 23.675753546099287,
+  "evaluation_date": "2024-04-19",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2680
+}

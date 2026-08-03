@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-mlabonne-daredevil-8b",
+  "model_id": "mlabonne/Daredevil-8B",
+  "benchmark_name": "gpqa",
+  "score": 7.718120805369126,
+  "score_raw": 7.718120805369126,
+  "evaluation_date": "2024-05-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1600
+}

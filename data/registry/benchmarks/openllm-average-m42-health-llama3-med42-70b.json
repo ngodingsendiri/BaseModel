@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-m42-health-llama3-med42-70b",
+  "model_id": "m42-health/Llama3-Med42-70B",
+  "benchmark_name": "average",
+  "score": 35.68301603364157,
+  "score_raw": 35.68301603364157,
+  "evaluation_date": "2024-06-27",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 585
+}

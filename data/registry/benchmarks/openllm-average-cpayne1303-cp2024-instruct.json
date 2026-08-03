@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-cpayne1303-cp2024-instruct",
+  "model_id": "cpayne1303/cp2024-instruct",
+  "benchmark_name": "average",
+  "score": 4.319731373654743,
+  "score_raw": 4.319731373654743,
+  "evaluation_date": "2024-11-27",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4392
+}

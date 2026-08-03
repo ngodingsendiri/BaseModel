@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-danielbrdz-barcenas-llama3-8b-orpo",
+  "model_id": "Danielbrdz/Barcenas-Llama3-8b-ORPO",
+  "benchmark_name": "math-lvl-5",
+  "score": 6.570996978851963,
+  "score_raw": 6.570996978851963,
+  "evaluation_date": "2024-04-29",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2932
+}

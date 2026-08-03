@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-marinaraspaghetti-nemomix-v4-0-12b",
+  "model_id": "MarinaraSpaghetti/Nemomix-v4.0-12B",
+  "benchmark_name": "ifeval",
+  "score": 55.74664113441224,
+  "score_raw": 55.74664113441224,
+  "evaluation_date": "2024-07-30",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1472
+}

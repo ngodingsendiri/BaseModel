@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sometimesanotion-qwentinuum-14b-v6-prose",
+  "model_id": "sometimesanotion/Qwentinuum-14B-v6-Prose",
+  "benchmark_name": "math-lvl-5",
+  "score": 37.00906344410876,
+  "score_raw": 37.00906344410876,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 575
+}

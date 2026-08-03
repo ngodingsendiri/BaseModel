@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-migtissera-tess-3-7b-sft",
+  "model_id": "migtissera/Tess-3-7B-SFT",
+  "benchmark_name": "ifeval",
+  "score": 39.46262583279033,
+  "score_raw": 39.46262583279033,
+  "evaluation_date": "2024-07-09",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2767
+}

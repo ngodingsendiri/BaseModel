@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-bunnycore-tulu-3-1-8b-supernova",
+  "model_id": "bunnycore/Tulu-3.1-8B-SuperNova",
+  "benchmark_name": "gpqa",
+  "score": 6.935123042505594,
+  "score_raw": 6.935123042505594,
+  "evaluation_date": "2024-11-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1904
+}

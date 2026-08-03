@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-quazim0t0-motion-8b-linear",
+  "model_id": "Quazim0t0/Motion-8B-Linear",
+  "benchmark_name": "ifeval",
+  "score": 76.85917809190724,
+  "score_raw": 76.85917809190724,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 329
+}

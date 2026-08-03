@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-deepseek-ai-deepseek-r1-distill-llama-70b",
+  "model_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+  "benchmark_name": "ifeval",
+  "score": 43.35939750971866,
+  "score_raw": 43.35939750971866,
+  "evaluation_date": "2025-01-20",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2468
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-quazim0t0-vine-14b-sce",
+  "model_id": "Quazim0t0/Vine-14b-sce",
+  "benchmark_name": "average",
+  "score": 41.05675554875142,
+  "score_raw": 41.05675554875142,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 198
+}

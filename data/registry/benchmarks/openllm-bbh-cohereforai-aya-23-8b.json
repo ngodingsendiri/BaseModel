@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-cohereforai-aya-23-8b",
+  "model_id": "CohereForAI/aya-23-8B",
+  "benchmark_name": "bbh",
+  "score": 20.203760646739372,
+  "score_raw": 20.203760646739372,
+  "evaluation_date": "2024-05-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3188
+}

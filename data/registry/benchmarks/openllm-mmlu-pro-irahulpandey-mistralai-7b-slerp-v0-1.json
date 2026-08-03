@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-irahulpandey-mistralai-7b-slerp-v0-1",
+  "model_id": "irahulpandey/mistralai-7B-slerp-v0.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 21.681072695035464,
+  "score_raw": 21.681072695035464,
+  "evaluation_date": "2025-01-30",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2975
+}

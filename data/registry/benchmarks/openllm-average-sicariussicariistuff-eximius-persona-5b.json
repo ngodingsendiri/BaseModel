@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sicariussicariistuff-eximius-persona-5b",
+  "model_id": "SicariusSicariiStuff/Eximius_Persona_5B",
+  "benchmark_name": "average",
+  "score": 21.833611932328903,
+  "score_raw": 21.833611932328903,
+  "evaluation_date": "2025-01-21",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2304
+}

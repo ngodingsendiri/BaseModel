@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-supichi-bba99",
+  "model_id": "Supichi/BBA99",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.2448286052009452,
+  "score_raw": 1.2448286052009452,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4462
+}

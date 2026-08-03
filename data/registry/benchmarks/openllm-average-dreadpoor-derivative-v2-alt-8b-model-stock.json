@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-dreadpoor-derivative-v2-alt-8b-model-stock",
+  "model_id": "DreadPoor/Derivative_V2_ALT-8B-Model_Stock",
+  "benchmark_name": "average",
+  "score": 30.17823315705989,
+  "score_raw": 30.17823315705989,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 998
+}

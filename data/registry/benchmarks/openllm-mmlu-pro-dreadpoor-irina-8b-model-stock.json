@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-irina-8b-model-stock",
+  "model_id": "DreadPoor/Irina-8B-model_stock",
+  "benchmark_name": "mmlu-pro",
+  "score": 28.59781323877068,
+  "score_raw": 28.59781323877068,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2105
+}

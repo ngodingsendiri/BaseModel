@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-fingu-ai-qwq-buddy-32b-alpha",
+  "model_id": "FINGU-AI/QwQ-Buddy-32B-Alpha",
+  "benchmark_name": "ifeval",
+  "score": 34.46422159869147,
+  "score_raw": 34.46422159869147,
+  "evaluation_date": "2025-02-05",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3065
+}

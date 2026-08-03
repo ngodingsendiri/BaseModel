@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-tklohj-windyflollm",
+  "model_id": "tklohj/WindyFloLLM",
+  "benchmark_name": "bbh",
+  "score": 24.39876319785054,
+  "score_raw": 24.39876319785054,
+  "evaluation_date": "2024-06-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2865
+}

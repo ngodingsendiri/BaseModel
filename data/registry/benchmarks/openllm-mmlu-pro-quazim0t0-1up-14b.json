@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-quazim0t0-1up-14b",
+  "model_id": "Quazim0t0/1up-14b",
+  "benchmark_name": "mmlu-pro",
+  "score": 48.96018026004729,
+  "score_raw": 48.96018026004729,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 155
+}

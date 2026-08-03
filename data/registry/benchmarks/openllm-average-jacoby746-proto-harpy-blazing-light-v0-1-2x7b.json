@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-jacoby746-proto-harpy-blazing-light-v0-1-2x7b",
+  "model_id": "Jacoby746/Proto-Harpy-Blazing-Light-v0.1-2x7B",
+  "benchmark_name": "average",
+  "score": 22.481213617019815,
+  "score_raw": 22.481213617019815,
+  "evaluation_date": "2024-09-22",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2204
+}

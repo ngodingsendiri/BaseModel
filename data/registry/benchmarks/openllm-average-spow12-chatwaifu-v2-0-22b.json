@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-spow12-chatwaifu-v2-0-22b",
+  "model_id": "spow12/ChatWaifu_v2.0_22B",
+  "benchmark_name": "average",
+  "score": 28.838097623831434,
+  "score_raw": 28.838097623831434,
+  "evaluation_date": "2024-10-11",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1202
+}

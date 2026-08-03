@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-bamec66557-mischievous-12b-mix-0-5v",
+  "model_id": "bamec66557/MISCHIEVOUS-12B-Mix_0.5v",
+  "benchmark_name": "ifeval",
+  "score": 37.45672593163916,
+  "score_raw": 37.45672593163916,
+  "evaluation_date": "2024-12-16",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2894
+}

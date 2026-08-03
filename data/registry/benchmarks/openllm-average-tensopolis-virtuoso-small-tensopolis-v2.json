@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-tensopolis-virtuoso-small-tensopolis-v2",
+  "model_id": "tensopolis/virtuoso-small-tensopolis-v2",
+  "benchmark_name": "average",
+  "score": 40.113839873543775,
+  "score_raw": 40.113839873543775,
+  "evaluation_date": "2025-01-29",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 258
+}

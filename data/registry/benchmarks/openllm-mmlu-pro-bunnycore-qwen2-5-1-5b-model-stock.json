@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-bunnycore-qwen2-5-1-5b-model-stock",
+  "model_id": "bunnycore/Qwen2.5-1.5B-Model-Stock",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.1155437352245863,
+  "score_raw": 1.1155437352245863,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4505
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-tinyllama-tinyllama-1-1b-chat-v0-1",
+  "model_id": "TinyLlama/TinyLlama-1.1B-Chat-v0.1",
+  "benchmark_name": "bbh",
+  "score": 3.3630106739393377,
+  "score_raw": 3.3630106739393377,
+  "evaluation_date": "2023-09-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4264
+}

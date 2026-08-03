@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-steelskull-l3-3-nevoria-r1-70b",
+  "model_id": "Steelskull/L3.3-Nevoria-R1-70b",
+  "benchmark_name": "average",
+  "score": 43.61308347965567,
+  "score_raw": 43.61308347965567,
+  "evaluation_date": "2025-01-23",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 57
+}

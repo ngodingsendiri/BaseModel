@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-godlikehhd-qwen-2-5-1-5b-cherry-new",
+  "model_id": "godlikehhd/qwen_2.5-1.5b-cherry_new",
+  "benchmark_name": "average",
+  "score": 15.370243206890223,
+  "score_raw": 15.370243206890223,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3264
+}

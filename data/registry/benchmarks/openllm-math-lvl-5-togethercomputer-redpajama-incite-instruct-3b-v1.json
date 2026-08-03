@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-togethercomputer-redpajama-incite-instruct-3b-v1",
+  "model_id": "togethercomputer/RedPajama-INCITE-Instruct-3B-v1",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.283987915407855,
+  "score_raw": 1.283987915407855,
+  "evaluation_date": "2023-05-05",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4148
+}

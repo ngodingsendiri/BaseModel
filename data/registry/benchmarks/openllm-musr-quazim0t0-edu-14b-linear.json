@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-quazim0t0-edu-14b-linear",
+  "model_id": "Quazim0t0/Edu-14B-Linear",
+  "benchmark_name": "musr",
+  "score": 14.318750000000001,
+  "score_raw": 14.318750000000001,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 982
+}

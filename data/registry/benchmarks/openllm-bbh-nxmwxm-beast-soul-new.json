@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-nxmwxm-beast-soul-new",
+  "model_id": "nxmwxm/Beast-Soul-new",
+  "benchmark_name": "bbh",
+  "score": 33.07275916855207,
+  "score_raw": 33.07275916855207,
+  "evaluation_date": "2024-08-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1627
+}

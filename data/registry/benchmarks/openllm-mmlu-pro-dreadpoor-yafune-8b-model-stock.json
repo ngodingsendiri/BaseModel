@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-yafune-8b-model-stock",
+  "model_id": "DreadPoor/Yafune-8B-Model_Stock",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.672946217494097,
+  "score_raw": 31.672946217494097,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1454
+}

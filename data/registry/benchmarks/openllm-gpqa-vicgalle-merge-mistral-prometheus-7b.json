@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-vicgalle-merge-mistral-prometheus-7b",
+  "model_id": "vicgalle/Merge-Mistral-Prometheus-7B",
+  "benchmark_name": "gpqa",
+  "score": 1.7897091722595053,
+  "score_raw": 1.7897091722595053,
+  "evaluation_date": "2024-05-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3793
+}

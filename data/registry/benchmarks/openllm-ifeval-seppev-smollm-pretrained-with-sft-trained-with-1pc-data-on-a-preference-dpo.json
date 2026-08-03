@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-seppev-smollm-pretrained-with-sft-trained-with-1pc-data-on-a-preference-dpo",
+  "model_id": "SeppeV/SmolLM_pretrained_with_sft_trained_with_1pc_data_on_a_preference_dpo",
+  "benchmark_name": "ifeval",
+  "score": 9.554648333089535,
+  "score_raw": 9.554648333089535,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4491
+}

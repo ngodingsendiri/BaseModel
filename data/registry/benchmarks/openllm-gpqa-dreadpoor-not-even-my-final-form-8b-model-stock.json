@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-not-even-my-final-form-8b-model-stock",
+  "model_id": "DreadPoor/Not_Even_My_Final_Form-8B-Model_Stock",
+  "benchmark_name": "gpqa",
+  "score": 6.040268456375841,
+  "score_raw": 6.040268456375841,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2237
+}

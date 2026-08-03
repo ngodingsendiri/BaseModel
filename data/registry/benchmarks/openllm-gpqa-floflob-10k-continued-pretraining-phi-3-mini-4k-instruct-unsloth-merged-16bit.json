@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-floflob-10k-continued-pretraining-phi-3-mini-4k-instruct-unsloth-merged-16bit",
+  "model_id": "FlofloB/10k_continued_pretraining_Phi-3-mini-4k-instruct_Unsloth_merged_16bit",
+  "benchmark_name": "gpqa",
+  "score": 6.599552572706939,
+  "score_raw": 6.599552572706939,
+  "evaluation_date": "2024-11-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2012
+}

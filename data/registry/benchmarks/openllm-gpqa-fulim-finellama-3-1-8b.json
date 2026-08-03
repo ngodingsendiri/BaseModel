@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-fulim-finellama-3-1-8b",
+  "model_id": "fulim/FineLlama-3.1-8B",
+  "benchmark_name": "gpqa",
+  "score": 5.7046979865771785,
+  "score_raw": 5.7046979865771785,
+  "evaluation_date": "2024-12-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2380
+}

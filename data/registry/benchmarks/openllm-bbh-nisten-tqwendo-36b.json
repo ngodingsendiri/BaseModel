@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-nisten-tqwendo-36b",
+  "model_id": "nisten/tqwendo-36b",
+  "benchmark_name": "bbh",
+  "score": 49.41493648187427,
+  "score_raw": 49.41493648187427,
+  "evaluation_date": "2024-12-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 438
+}

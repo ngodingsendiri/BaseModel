@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-aspire-8b-model-stock",
+  "model_id": "DreadPoor/Aspire-8B-model_stock",
+  "benchmark_name": "gpqa",
+  "score": 8.612975391498878,
+  "score_raw": 8.612975391498878,
+  "evaluation_date": "2024-09-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1297
+}

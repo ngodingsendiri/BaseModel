@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-qwen-qwen1-5-14b",
+  "model_id": "Qwen/Qwen1.5-14B",
+  "benchmark_name": "math-lvl-5",
+  "score": 20.241691842900302,
+  "score_raw": 20.241691842900302,
+  "evaluation_date": "2024-01-22",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1303
+}

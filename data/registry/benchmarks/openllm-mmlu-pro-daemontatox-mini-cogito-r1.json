@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-daemontatox-mini-cogito-r1",
+  "model_id": "Daemontatox/mini-Cogito-R1",
+  "benchmark_name": "mmlu-pro",
+  "score": 5.354240543735224,
+  "score_raw": 5.354240543735224,
+  "evaluation_date": "2025-02-22",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4001
+}

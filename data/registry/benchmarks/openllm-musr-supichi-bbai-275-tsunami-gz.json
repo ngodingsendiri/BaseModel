@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-supichi-bbai-275-tsunami-gz",
+  "model_id": "Supichi/BBAI_275_Tsunami_gZ",
+  "benchmark_name": "musr",
+  "score": 13.897656250000002,
+  "score_raw": 13.897656250000002,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1072
+}

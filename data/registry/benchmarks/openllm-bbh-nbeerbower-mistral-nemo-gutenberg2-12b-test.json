@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-nbeerbower-mistral-nemo-gutenberg2-12b-test",
+  "model_id": "nbeerbower/mistral-nemo-gutenberg2-12B-test",
+  "benchmark_name": "bbh",
+  "score": 32.04475928596384,
+  "score_raw": 32.04475928596384,
+  "evaluation_date": "2024-09-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1839
+}

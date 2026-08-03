@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-redrix-angelslayer-12b-unslop-mell-rpmax-darkness",
+  "model_id": "redrix/AngelSlayer-12B-Unslop-Mell-RPMax-DARKNESS",
+  "benchmark_name": "mmlu-pro",
+  "score": 24.220596926713945,
+  "score_raw": 24.220596926713945,
+  "evaluation_date": "2024-12-05",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2597
+}

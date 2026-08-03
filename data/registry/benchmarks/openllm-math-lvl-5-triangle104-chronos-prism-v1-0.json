@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-triangle104-chronos-prism-v1-0",
+  "model_id": "Triangle104/Chronos-Prism_V1.0",
+  "benchmark_name": "math-lvl-5",
+  "score": 12.009063444108762,
+  "score_raw": 12.009063444108762,
+  "evaluation_date": "2024-11-24",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2090
+}

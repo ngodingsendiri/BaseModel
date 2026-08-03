@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-noname0202-llama-math-1b-r16-0to512tokens-test",
+  "model_id": "noname0202/llama-math-1b-r16-0to512tokens-test",
+  "benchmark_name": "musr",
+  "score": 1.255729166666667,
+  "score_raw": 1.255729166666667,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4418
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-kyutai-helium-1-preview-2b",
+  "model_id": "kyutai/helium-1-preview-2b",
+  "benchmark_name": "average",
+  "score": 9.329143600411902,
+  "score_raw": 9.329143600411902,
+  "evaluation_date": "2025-01-13",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3766
+}

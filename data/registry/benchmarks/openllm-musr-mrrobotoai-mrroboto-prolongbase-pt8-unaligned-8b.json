@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-mrrobotoai-mrroboto-prolongbase-pt8-unaligned-8b",
+  "model_id": "MrRobotoAI/MrRoboto-ProLongBASE-pt8-unaligned-8b",
+  "benchmark_name": "musr",
+  "score": 12.152343750000002,
+  "score_raw": 12.152343750000002,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1540
+}

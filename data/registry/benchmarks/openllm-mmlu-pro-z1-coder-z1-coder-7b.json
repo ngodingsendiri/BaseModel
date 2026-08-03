@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-z1-coder-z1-coder-7b",
+  "model_id": "Z1-Coder/Z1-Coder-7B",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.657136524822686,
+  "score_raw": 30.657136524822686,
+  "evaluation_date": "2025-01-18",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1702
+}

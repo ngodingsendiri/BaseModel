@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-princeton-nlp-mistral-7b-base-sft-rdpo",
+  "model_id": "princeton-nlp/Mistral-7B-Base-SFT-RDPO",
+  "benchmark_name": "ifeval",
+  "score": 46.064663980460736,
+  "score_raw": 46.064663980460736,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2185
+}

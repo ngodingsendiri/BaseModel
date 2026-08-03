@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-daemontatox-phi-4-cot",
+  "model_id": "Daemontatox/Phi-4-COT",
+  "benchmark_name": "ifeval",
+  "score": 17.93031378963373,
+  "score_raw": 17.93031378963373,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4142
+}

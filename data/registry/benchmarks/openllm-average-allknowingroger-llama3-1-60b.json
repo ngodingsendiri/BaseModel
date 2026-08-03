@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-allknowingroger-llama3-1-60b",
+  "model_id": "allknowingroger/Llama3.1-60B",
+  "benchmark_name": "average",
+  "score": 9.951594488947727,
+  "score_raw": 9.951594488947727,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3733
+}

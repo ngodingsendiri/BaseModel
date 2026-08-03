@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-sakalti-model-3",
+  "model_id": "Sakalti/model-3",
+  "benchmark_name": "ifeval",
+  "score": 62.63846593704703,
+  "score_raw": 62.63846593704703,
+  "evaluation_date": "2024-12-04",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1144
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-orion-zhen-qwen2-5-7b-instruct-uncensored",
+  "model_id": "Orion-zhen/Qwen2.5-7B-Instruct-Uncensored",
+  "benchmark_name": "gpqa",
+  "score": 7.046979865771815,
+  "score_raw": 7.046979865771815,
+  "evaluation_date": "2024-09-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1851
+}

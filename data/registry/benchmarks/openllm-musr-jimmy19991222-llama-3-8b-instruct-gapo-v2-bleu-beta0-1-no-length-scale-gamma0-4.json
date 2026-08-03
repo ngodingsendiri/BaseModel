@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-jimmy19991222-llama-3-8b-instruct-gapo-v2-bleu-beta0-1-no-length-scale-gamma0-4",
+  "model_id": "Jimmy19991222/llama-3-8b-instruct-gapo-v2-bleu-beta0.1-no-length-scale-gamma0.4",
+  "benchmark_name": "musr",
+  "score": 9.071875000000002,
+  "score_raw": 9.071875000000002,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2555
+}

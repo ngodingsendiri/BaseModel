@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-benevolencemessiah-yi-coder-9b-chat-instruct-ties-moe-v1-0",
+  "model_id": "BenevolenceMessiah/Yi-Coder-9B-Chat-Instruct-TIES-MoE-v1.0",
+  "benchmark_name": "bbh",
+  "score": 26.877991478721707,
+  "score_raw": 26.877991478721707,
+  "evaluation_date": "2024-09-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2635
+}

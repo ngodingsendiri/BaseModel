@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-zeroxclem-qwen2-5-7b-celestialharmony-1m",
+  "model_id": "ZeroXClem/Qwen2.5-7B-CelestialHarmony-1M",
+  "benchmark_name": "musr",
+  "score": 16.742708333333326,
+  "score_raw": 16.742708333333326,
+  "evaluation_date": "2025-01-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 609
+}

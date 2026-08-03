@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-grimjim-llama-3-nephilim-v2-8b",
+  "model_id": "grimjim/llama-3-Nephilim-v2-8B",
+  "benchmark_name": "gpqa",
+  "score": 6.599552572706939,
+  "score_raw": 6.599552572706939,
+  "evaluation_date": "2024-06-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2029
+}

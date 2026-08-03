@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-mercury-in-retrograde-8b-model-stock",
+  "model_id": "DreadPoor/Mercury_In_Retrograde-8b-Model-Stock",
+  "benchmark_name": "bbh",
+  "score": 34.38486477258895,
+  "score_raw": 34.38486477258895,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1459
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-uukuguy-speechless-instruct-mistral-7b-v0-2",
+  "model_id": "uukuguy/speechless-instruct-mistral-7b-v0.2",
+  "benchmark_name": "bbh",
+  "score": 24.558747365322688,
+  "score_raw": 24.558747365322688,
+  "evaluation_date": "2024-05-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2851
+}

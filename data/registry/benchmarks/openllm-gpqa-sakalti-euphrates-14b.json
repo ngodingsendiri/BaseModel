@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-sakalti-euphrates-14b",
+  "model_id": "Sakalti/Euphrates-14B",
+  "benchmark_name": "gpqa",
+  "score": 19.12751677852349,
+  "score_raw": 19.12751677852349,
+  "evaluation_date": "2025-01-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 84
+}

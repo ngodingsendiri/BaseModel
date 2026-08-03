@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-zhengr-mixtao-7bx2-moe-v8-1",
+  "model_id": "zhengr/MixTAO-7Bx2-MoE-v8.1",
+  "benchmark_name": "math-lvl-5",
+  "score": 6.042296072507553,
+  "score_raw": 6.042296072507553,
+  "evaluation_date": "2024-02-26",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3058
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-doppelreflex-l3-8b-r1-wolfcore",
+  "model_id": "DoppelReflEx/L3-8B-R1-WolfCore",
+  "benchmark_name": "average",
+  "score": 23.481232873269377,
+  "score_raw": 23.481232873269377,
+  "evaluation_date": "2025-02-28",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1979
+}

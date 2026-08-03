@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-xinchen9-llama3-1-8b-instruct-cot",
+  "model_id": "xinchen9/Llama3.1_8B_Instruct_CoT",
+  "benchmark_name": "mmlu-pro",
+  "score": 20.877659574468087,
+  "score_raw": 20.877659574468087,
+  "evaluation_date": "2024-09-16",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3070
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-zelus-v2-8b-model-stock",
+  "model_id": "DreadPoor/Zelus_V2-8B-Model_Stock",
+  "benchmark_name": "bbh",
+  "score": 33.66407644966964,
+  "score_raw": 33.66407644966964,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1555
+}

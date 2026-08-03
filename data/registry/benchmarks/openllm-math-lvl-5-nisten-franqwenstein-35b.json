@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-nisten-franqwenstein-35b",
+  "model_id": "nisten/franqwenstein-35b",
+  "benchmark_name": "math-lvl-5",
+  "score": 30.438066465256803,
+  "score_raw": 30.438066465256803,
+  "evaluation_date": "2024-10-03",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 813
+}

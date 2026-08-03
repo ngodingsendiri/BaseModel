@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-etherll-qwen2-5-7b-della-test",
+  "model_id": "Etherll/Qwen2.5-7B-della-test",
+  "benchmark_name": "gpqa",
+  "score": 7.829977628635347,
+  "score_raw": 7.829977628635347,
+  "evaluation_date": "2024-11-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1532
+}

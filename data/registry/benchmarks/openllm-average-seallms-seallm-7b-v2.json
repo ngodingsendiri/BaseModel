@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-seallms-seallm-7b-v2",
+  "model_id": "SeaLLMs/SeaLLM-7B-v2",
+  "benchmark_name": "average",
+  "score": 18.166389781627085,
+  "score_raw": 18.166389781627085,
+  "evaluation_date": "2024-01-29",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2925
+}

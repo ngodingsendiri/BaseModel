@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-kingnish-reasoning-llama-3b-v0-1",
+  "model_id": "KingNish/Reasoning-Llama-3b-v0.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 22.549128250591018,
+  "score_raw": 22.549128250591018,
+  "evaluation_date": "2024-10-10",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2864
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sicariussicariistuff-phi-lthy4",
+  "model_id": "SicariusSicariiStuff/Phi-lthy4",
+  "benchmark_name": "mmlu-pro",
+  "score": 37.038268321512994,
+  "score_raw": 37.038268321512994,
+  "evaluation_date": "2025-02-12",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 978
+}

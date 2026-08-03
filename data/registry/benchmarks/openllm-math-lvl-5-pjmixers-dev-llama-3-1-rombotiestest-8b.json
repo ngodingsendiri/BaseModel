@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-pjmixers-dev-llama-3-1-rombotiestest-8b",
+  "model_id": "PJMixers-Dev/LLaMa-3.1-RomboTiesTest-8B",
+  "benchmark_name": "math-lvl-5",
+  "score": 20.01510574018127,
+  "score_raw": 20.01510574018127,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1321
+}

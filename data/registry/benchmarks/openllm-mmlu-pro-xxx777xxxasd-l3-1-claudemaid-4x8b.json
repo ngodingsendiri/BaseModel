@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-xxx777xxxasd-l3-1-claudemaid-4x8b",
+  "model_id": "xxx777xxxASD/L3.1-ClaudeMaid-4x8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 28.671690307328607,
+  "score_raw": 28.671690307328607,
+  "evaluation_date": "2024-07-27",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2098
+}

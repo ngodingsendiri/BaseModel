@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ehristoforu-fq2-5-7b-it-normalize-false",
+  "model_id": "ehristoforu/fq2.5-7b-it-normalize_false",
+  "benchmark_name": "average",
+  "score": 36.49631491468131,
+  "score_raw": 36.49631491468131,
+  "evaluation_date": "2025-01-16",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 519
+}

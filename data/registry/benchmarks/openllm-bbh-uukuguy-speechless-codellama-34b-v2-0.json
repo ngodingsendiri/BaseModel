@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-uukuguy-speechless-codellama-34b-v2-0",
+  "model_id": "uukuguy/speechless-codellama-34b-v2.0",
+  "benchmark_name": "bbh",
+  "score": 25.993293267840638,
+  "score_raw": 25.993293267840638,
+  "evaluation_date": "2023-10-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2729
+}

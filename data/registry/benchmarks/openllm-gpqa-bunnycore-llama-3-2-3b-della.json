@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-bunnycore-llama-3-2-3b-della",
+  "model_id": "bunnycore/Llama-3.2-3B-Della",
+  "benchmark_name": "gpqa",
+  "score": 3.467561521252797,
+  "score_raw": 3.467561521252797,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3141
+}

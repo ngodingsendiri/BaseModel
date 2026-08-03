@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-openai-community-gpt2-medium",
+  "model_id": "openai-community/gpt2-medium",
+  "benchmark_name": "gpqa",
+  "score": 1.6778523489932917,
+  "score_raw": 1.6778523489932917,
+  "evaluation_date": "2022-03-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3823
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-causallm-preview-1-hf",
+  "model_id": "CausalLM/preview-1-hf",
+  "benchmark_name": "bbh",
+  "score": 10.100940706274752,
+  "score_raw": 10.100940706274752,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3658
+}

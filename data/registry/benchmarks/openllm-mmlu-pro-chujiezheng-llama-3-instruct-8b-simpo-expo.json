@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-chujiezheng-llama-3-instruct-8b-simpo-expo",
+  "model_id": "chujiezheng/Llama-3-Instruct-8B-SimPO-ExPO",
+  "benchmark_name": "mmlu-pro",
+  "score": 26.677009456264773,
+  "score_raw": 26.677009456264773,
+  "evaluation_date": "2024-05-26",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2336
+}

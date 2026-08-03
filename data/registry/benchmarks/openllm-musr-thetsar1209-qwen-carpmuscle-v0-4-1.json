@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-thetsar1209-qwen-carpmuscle-v0-4-1",
+  "model_id": "TheTsar1209/qwen-carpmuscle-v0.4.1",
+  "benchmark_name": "musr",
+  "score": 14.913281250000002,
+  "score_raw": 14.913281250000002,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 878
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-nbeerbower-llama3-1-gutenberg-doppel-70b",
+  "model_id": "nbeerbower/Llama3.1-Gutenberg-Doppel-70B",
+  "benchmark_name": "math-lvl-5",
+  "score": 21.22356495468278,
+  "score_raw": 21.22356495468278,
+  "evaluation_date": "2024-10-11",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1223
+}

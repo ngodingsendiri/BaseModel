@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-tokyotech-llm-llama-3-swallow-8b-instruct-v0-1",
+  "model_id": "tokyotech-llm/Llama-3-Swallow-8B-Instruct-v0.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.195552600472812,
+  "score_raw": 23.195552600472812,
+  "evaluation_date": "2024-06-26",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2766
+}

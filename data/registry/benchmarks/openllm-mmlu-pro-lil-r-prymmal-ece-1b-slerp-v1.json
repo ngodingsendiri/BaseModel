@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-lil-r-prymmal-ece-1b-slerp-v1",
+  "model_id": "Lil-R/PRYMMAL-ECE-1B-SLERP-V1",
+  "benchmark_name": "mmlu-pro",
+  "score": 21.39479905437352,
+  "score_raw": 21.39479905437352,
+  "evaluation_date": "2024-10-29",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3008
+}

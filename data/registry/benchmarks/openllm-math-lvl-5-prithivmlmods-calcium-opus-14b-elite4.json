@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-prithivmlmods-calcium-opus-14b-elite4",
+  "model_id": "prithivMLmods/Calcium-Opus-14B-Elite4",
+  "benchmark_name": "math-lvl-5",
+  "score": 36.25377643504532,
+  "score_raw": 36.25377643504532,
+  "evaluation_date": "2025-01-25",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 604
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-euclaise-remask-3b",
+  "model_id": "euclaise/ReMask-3B",
+  "benchmark_name": "average",
+  "score": 7.294404589328096,
+  "score_raw": 7.294404589328096,
+  "evaluation_date": "2024-03-28",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4030
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-c10x-q-pluse",
+  "model_id": "c10x/Q-Pluse",
+  "benchmark_name": "ifeval",
+  "score": 11.228318638988993,
+  "score_raw": 11.228318638988993,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4477
+}

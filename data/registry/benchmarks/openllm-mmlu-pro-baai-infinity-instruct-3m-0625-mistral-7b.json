@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-baai-infinity-instruct-3m-0625-mistral-7b",
+  "model_id": "BAAI/Infinity-Instruct-3M-0625-Mistral-7B",
+  "benchmark_name": "mmlu-pro",
+  "score": 24.774674940898343,
+  "score_raw": 24.774674940898343,
+  "evaluation_date": "2024-07-09",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2542
+}

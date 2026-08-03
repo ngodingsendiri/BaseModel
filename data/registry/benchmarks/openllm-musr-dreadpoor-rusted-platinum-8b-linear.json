@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-rusted-platinum-8b-linear",
+  "model_id": "DreadPoor/Rusted_Platinum-8B-LINEAR",
+  "benchmark_name": "musr",
+  "score": 8.816666666666663,
+  "score_raw": 8.816666666666663,
+  "evaluation_date": "2025-03-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2622
+}

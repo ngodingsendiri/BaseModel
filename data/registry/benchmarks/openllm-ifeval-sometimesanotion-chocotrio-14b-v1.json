@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-sometimesanotion-chocotrio-14b-v1",
+  "model_id": "sometimesanotion/ChocoTrio-14B-v1",
+  "benchmark_name": "ifeval",
+  "score": 70.88912973133507,
+  "score_raw": 70.88912973133507,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 721
+}

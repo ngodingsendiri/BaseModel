@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-agentlans-llama3-1-superdeepfuse-crashcourse12k",
+  "model_id": "agentlans/Llama3.1-SuperDeepFuse-CrashCourse12K",
+  "benchmark_name": "average",
+  "score": 27.995793391642223,
+  "score_raw": 27.995793391642223,
+  "evaluation_date": "2025-01-24",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1294
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-theprint-rewiz-worldbuilder-7b",
+  "model_id": "theprint/ReWiz-Worldbuilder-7B",
+  "benchmark_name": "gpqa",
+  "score": 2.572706935123044,
+  "score_raw": 2.572706935123044,
+  "evaluation_date": "2024-10-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3485
+}

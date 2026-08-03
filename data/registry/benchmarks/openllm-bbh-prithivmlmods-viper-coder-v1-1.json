@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-prithivmlmods-viper-coder-v1-1",
+  "model_id": "prithivMLmods/Viper-Coder-v1.1",
+  "benchmark_name": "bbh",
+  "score": 49.268009957854,
+  "score_raw": 49.268009957854,
+  "evaluation_date": "2025-02-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 455
+}

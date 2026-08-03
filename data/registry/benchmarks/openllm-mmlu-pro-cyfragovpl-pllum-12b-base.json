@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-cyfragovpl-pllum-12b-base",
+  "model_id": "CYFRAGOVPL/PLLuM-12B-base",
+  "benchmark_name": "mmlu-pro",
+  "score": 19.335475768321512,
+  "score_raw": 19.335475768321512,
+  "evaluation_date": "2025-02-07",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3214
+}

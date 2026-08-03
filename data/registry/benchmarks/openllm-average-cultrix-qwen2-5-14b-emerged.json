@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-cultrix-qwen2-5-14b-emerged",
+  "model_id": "CultriX/Qwen2.5-14B-Emerged",
+  "benchmark_name": "average",
+  "score": 37.95214334488745,
+  "score_raw": 37.95214334488745,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 414
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-quazim0t0-wendy-14b",
+  "model_id": "Quazim0t0/Wendy-14B",
+  "benchmark_name": "bbh",
+  "score": 56.172047866798856,
+  "score_raw": 56.172047866798856,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 80
+}

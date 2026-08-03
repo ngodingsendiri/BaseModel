@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-maldv-lytta2-5-32b-instruct",
+  "model_id": "maldv/Lytta2.5-32B-Instruct",
+  "benchmark_name": "musr",
+  "score": 4.973437500000002,
+  "score_raw": 4.973437500000002,
+  "evaluation_date": "2025-01-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3457
+}

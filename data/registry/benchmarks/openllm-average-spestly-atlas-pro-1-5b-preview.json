@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-spestly-atlas-pro-1-5b-preview",
+  "model_id": "Spestly/Atlas-Pro-1.5B-Preview",
+  "benchmark_name": "average",
+  "score": 13.9538569769866,
+  "score_raw": 13.9538569769866,
+  "evaluation_date": "2025-01-27",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3426
+}

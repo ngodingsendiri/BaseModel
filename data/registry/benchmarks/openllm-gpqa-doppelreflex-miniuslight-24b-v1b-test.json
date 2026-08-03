@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-doppelreflex-miniuslight-24b-v1b-test",
+  "model_id": "DoppelReflEx/MiniusLight-24B-v1b-test",
+  "benchmark_name": "gpqa",
+  "score": 17.225950782997764,
+  "score_raw": 17.225950782997764,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 244
+}

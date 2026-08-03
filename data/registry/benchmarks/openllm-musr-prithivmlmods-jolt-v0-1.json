@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-prithivmlmods-jolt-v0-1",
+  "model_id": "prithivMLmods/Jolt-v0.1",
+  "benchmark_name": "musr",
+  "score": 20.489843749999995,
+  "score_raw": 20.489843749999995,
+  "evaluation_date": "2025-02-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 202
+}

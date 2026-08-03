@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-google-gemma-2-27b-it",
+  "model_id": "google/gemma-2-27b-it",
+  "benchmark_name": "mmlu-pro",
+  "score": 38.34958628841608,
+  "score_raw": 38.34958628841608,
+  "evaluation_date": "2024-06-24",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 800
+}

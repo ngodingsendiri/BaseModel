@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-novaciano-la-mejor-mezcla-3-2-1b",
+  "model_id": "Novaciano/La_Mejor_Mezcla-3.2-1B",
+  "benchmark_name": "math-lvl-5",
+  "score": 8.987915407854985,
+  "score_raw": 8.987915407854985,
+  "evaluation_date": "2025-03-03",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2536
+}

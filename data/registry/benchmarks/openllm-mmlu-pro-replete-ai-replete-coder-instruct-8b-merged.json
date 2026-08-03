@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-replete-ai-replete-coder-instruct-8b-merged",
+  "model_id": "Replete-AI/Replete-Coder-Instruct-8b-Merged",
+  "benchmark_name": "mmlu-pro",
+  "score": 8.946513002364064,
+  "score_raw": 8.946513002364064,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3676
+}

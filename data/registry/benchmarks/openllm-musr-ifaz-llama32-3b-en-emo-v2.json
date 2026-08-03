@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-ifaz-llama32-3b-en-emo-v2",
+  "model_id": "iFaz/llama32_3B_en_emo_v2",
+  "benchmark_name": "musr",
+  "score": 6.761979166666667,
+  "score_raw": 6.761979166666667,
+  "evaluation_date": "2024-12-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3107
+}

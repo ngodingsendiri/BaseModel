@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-tianyil1-mistralforcausallm-cal-dpo",
+  "model_id": "tianyil1/MistralForCausalLM_Cal_DPO",
+  "benchmark_name": "bbh",
+  "score": 21.78360838715177,
+  "score_raw": 21.78360838715177,
+  "evaluation_date": "2025-01-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3089
+}

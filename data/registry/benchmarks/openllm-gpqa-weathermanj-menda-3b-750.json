@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-weathermanj-menda-3b-750",
+  "model_id": "weathermanj/Menda-3b-750",
+  "benchmark_name": "gpqa",
+  "score": 5.033557046979867,
+  "score_raw": 5.033557046979867,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2636
+}

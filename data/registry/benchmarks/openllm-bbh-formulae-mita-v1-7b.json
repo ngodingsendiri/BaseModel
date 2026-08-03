@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-formulae-mita-v1-7b",
+  "model_id": "formulae/mita-v1-7b",
+  "benchmark_name": "bbh",
+  "score": 2.731523677549061,
+  "score_raw": 2.731523677549061,
+  "evaluation_date": "2025-02-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4364
+}

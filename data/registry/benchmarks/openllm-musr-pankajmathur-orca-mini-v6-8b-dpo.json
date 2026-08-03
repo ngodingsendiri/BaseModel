@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-pankajmathur-orca-mini-v6-8b-dpo",
+  "model_id": "pankajmathur/orca_mini_v6_8b_dpo",
+  "benchmark_name": "musr",
+  "score": 9.262239583333335,
+  "score_raw": 9.262239583333335,
+  "evaluation_date": "2024-06-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2513
+}

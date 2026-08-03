@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-noxis-8b-linear",
+  "model_id": "DreadPoor/Noxis-8B-LINEAR",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.558215130023648,
+  "score_raw": 29.558215130023648,
+  "evaluation_date": "2025-03-12",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1941
+}

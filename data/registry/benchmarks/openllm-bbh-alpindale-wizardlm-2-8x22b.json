@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-alpindale-wizardlm-2-8x22b",
+  "model_id": "alpindale/WizardLM-2-8x22B",
+  "benchmark_name": "bbh",
+  "score": 48.57616817936264,
+  "score_raw": 48.57616817936264,
+  "evaluation_date": "2024-04-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 509
+}

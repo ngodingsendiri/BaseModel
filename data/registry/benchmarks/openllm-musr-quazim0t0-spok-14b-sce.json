@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-quazim0t0-spok-14b-sce",
+  "model_id": "Quazim0t0/Spok-14b-sce",
+  "benchmark_name": "musr",
+  "score": 10.66171875,
+  "score_raw": 10.66171875,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2094
+}

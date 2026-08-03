@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-kavonalds-bundermaxx-0710",
+  "model_id": "kavonalds/BunderMaxx-0710",
+  "benchmark_name": "musr",
+  "score": 2.0833333333333326,
+  "score_raw": 2.0833333333333326,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4173
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-hakuchido-8b-model-stock",
+  "model_id": "DreadPoor/hakuchido-8B-MODEL_STOCK",
+  "benchmark_name": "bbh",
+  "score": 34.575610505807134,
+  "score_raw": 34.575610505807134,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1426
+}

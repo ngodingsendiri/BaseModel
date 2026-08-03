@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-oevortex-helpingai2-5-10b",
+  "model_id": "OEvortex/HelpingAI2.5-10B",
+  "benchmark_name": "mmlu-pro",
+  "score": 17.49778368794326,
+  "score_raw": 17.49778368794326,
+  "evaluation_date": "2024-11-17",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3346
+}

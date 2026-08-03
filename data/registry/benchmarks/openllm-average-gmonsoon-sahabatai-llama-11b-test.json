@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-gmonsoon-sahabatai-llama-11b-test",
+  "model_id": "gmonsoon/SahabatAI-Llama-11B-Test",
+  "benchmark_name": "average",
+  "score": 16.26561908313948,
+  "score_raw": 16.26561908313948,
+  "evaluation_date": "2024-11-22",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3167
+}

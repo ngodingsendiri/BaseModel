@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-princeton-nlp-llama-3-base-8b-sft",
+  "model_id": "princeton-nlp/Llama-3-Base-8B-SFT",
+  "benchmark_name": "math-lvl-5",
+  "score": 4.003021148036254,
+  "score_raw": 4.003021148036254,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3516
+}

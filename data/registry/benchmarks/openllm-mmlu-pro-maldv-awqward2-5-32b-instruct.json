@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-maldv-awqward2-5-32b-instruct",
+  "model_id": "maldv/Awqward2.5-32B-Instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 52.478575650118195,
+  "score_raw": 52.478575650118195,
+  "evaluation_date": "2024-12-18",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 40
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-vagosolutions-sauerkrautlm-gemma-2-9b-it",
+  "model_id": "VAGOsolutions/SauerkrautLM-gemma-2-9b-it",
+  "benchmark_name": "ifeval",
+  "score": 30.240096277876034,
+  "score_raw": 30.240096277876034,
+  "evaluation_date": "2024-08-12",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3292
+}

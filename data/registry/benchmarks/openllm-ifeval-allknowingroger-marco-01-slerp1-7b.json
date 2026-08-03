@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-allknowingroger-marco-01-slerp1-7b",
+  "model_id": "allknowingroger/Marco-01-slerp1-7B",
+  "benchmark_name": "ifeval",
+  "score": 46.811571075856506,
+  "score_raw": 46.811571075856506,
+  "evaluation_date": "2024-11-22",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2120
+}

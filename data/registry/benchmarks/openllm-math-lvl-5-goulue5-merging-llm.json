@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-goulue5-merging-llm",
+  "model_id": "goulue5/merging_LLM",
+  "benchmark_name": "math-lvl-5",
+  "score": 9.667673716012084,
+  "score_raw": 9.667673716012084,
+  "evaluation_date": "2024-11-21",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2444
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-internlm-internlm2-5-7b-chat",
+  "model_id": "internlm/internlm2_5-7b-chat",
+  "benchmark_name": "ifeval",
+  "score": 55.386928904196424,
+  "score_raw": 55.386928904196424,
+  "evaluation_date": "2024-06-27",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1501
+}

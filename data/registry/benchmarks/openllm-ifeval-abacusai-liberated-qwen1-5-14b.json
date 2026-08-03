@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-abacusai-liberated-qwen1-5-14b",
+  "model_id": "abacusai/Liberated-Qwen1.5-14B",
+  "benchmark_name": "ifeval",
+  "score": 36.310212458499,
+  "score_raw": 36.310212458499,
+  "evaluation_date": "2024-03-05",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2971
+}

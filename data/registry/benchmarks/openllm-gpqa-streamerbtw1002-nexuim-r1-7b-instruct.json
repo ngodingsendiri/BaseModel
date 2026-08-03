@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-streamerbtw1002-nexuim-r1-7b-instruct",
+  "model_id": "streamerbtw1002/Nexuim-R1-7B-Instruct",
+  "benchmark_name": "gpqa",
+  "score": 1.230425055928408,
+  "score_raw": 1.230425055928408,
+  "evaluation_date": "2025-03-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4044
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-naps-ai-naps-llama3-1-70b-v0-2-fp16",
+  "model_id": "NAPS-ai/naps-llama3.1-70B-v0.2-fp16",
+  "benchmark_name": "musr",
+  "score": 2.675520833333333,
+  "score_raw": 2.675520833333333,
+  "evaluation_date": "2024-12-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4021
+}

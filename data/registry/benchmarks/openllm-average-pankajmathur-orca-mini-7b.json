@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-pankajmathur-orca-mini-7b",
+  "model_id": "pankajmathur/orca_mini_7b",
+  "benchmark_name": "average",
+  "score": 3.405696058391802,
+  "score_raw": 3.405696058391802,
+  "evaluation_date": "2023-06-23",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4538
+}

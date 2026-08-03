@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-doppelreflex-mn-12b-mimicore-whitesnake-v2-experiment-2",
+  "model_id": "DoppelReflEx/MN-12B-Mimicore-WhiteSnake-v2-Experiment-2",
+  "benchmark_name": "math-lvl-5",
+  "score": 11.253776435045317,
+  "score_raw": 11.253776435045317,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2214
+}

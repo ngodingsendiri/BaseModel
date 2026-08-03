@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-neopolita-loki-v0-1-virtuoso",
+  "model_id": "neopolita/loki-v0.1-virtuoso",
+  "benchmark_name": "math-lvl-5",
+  "score": 33.91238670694864,
+  "score_raw": 33.91238670694864,
+  "evaluation_date": "2025-01-22",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 703
+}

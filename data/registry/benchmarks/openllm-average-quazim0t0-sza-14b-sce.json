@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-quazim0t0-sza-14b-sce",
+  "model_id": "Quazim0t0/SZA-14B-sce",
+  "benchmark_name": "average",
+  "score": 39.55774467541249,
+  "score_raw": 39.55774467541249,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 303
+}

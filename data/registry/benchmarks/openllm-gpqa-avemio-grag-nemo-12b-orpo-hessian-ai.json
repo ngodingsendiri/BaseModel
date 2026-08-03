@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-avemio-grag-nemo-12b-orpo-hessian-ai",
+  "model_id": "avemio/GRAG-NEMO-12B-ORPO-HESSIAN-AI",
+  "benchmark_name": "gpqa",
+  "score": 1.230425055928408,
+  "score_raw": 1.230425055928408,
+  "evaluation_date": "2024-12-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4024
+}

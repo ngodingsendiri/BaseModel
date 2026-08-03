@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-jpacifico-chocolatine-14b-instruct-4k-dpo",
+  "model_id": "jpacifico/Chocolatine-14B-Instruct-4k-DPO",
+  "benchmark_name": "average",
+  "score": 30.316420737984473,
+  "score_raw": 30.316420737984473,
+  "evaluation_date": "2024-08-01",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 974
+}

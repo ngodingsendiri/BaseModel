@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-fujhen-mistral-7b-v0-1-structeddata-viggo",
+  "model_id": "FuJhen/mistral_7b_v0.1_structedData_viggo",
+  "benchmark_name": "musr",
+  "score": 3.9265625000000015,
+  "score_raw": 3.9265625000000015,
+  "evaluation_date": "2024-09-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3689
+}

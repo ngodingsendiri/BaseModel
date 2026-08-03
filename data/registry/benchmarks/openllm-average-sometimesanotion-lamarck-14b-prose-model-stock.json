@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-sometimesanotion-lamarck-14b-prose-model-stock",
+  "model_id": "sometimesanotion/lamarck-14b-prose-model_stock",
+  "benchmark_name": "average",
+  "score": 35.677974423595586,
+  "score_raw": 35.677974423595586,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 586
+}

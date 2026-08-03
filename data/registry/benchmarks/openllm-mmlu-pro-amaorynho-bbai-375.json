@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-amaorynho-bbai-375",
+  "model_id": "Amaorynho/BBAI_375",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.3648788416075646,
+  "score_raw": 1.3648788416075646,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4399
+}

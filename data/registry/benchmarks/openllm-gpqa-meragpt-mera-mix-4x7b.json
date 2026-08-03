@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-meragpt-mera-mix-4x7b",
+  "model_id": "meraGPT/mera-mix-4x7B",
+  "benchmark_name": "gpqa",
+  "score": 7.270693512304249,
+  "score_raw": 7.270693512304249,
+  "evaluation_date": "2024-04-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1786
+}

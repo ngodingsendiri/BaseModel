@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-t145-zeus-8b-v29",
+  "model_id": "T145/ZEUS-8B-V29",
+  "benchmark_name": "gpqa",
+  "score": 10.17897091722595,
+  "score_raw": 10.17897091722595,
+  "evaluation_date": "2025-02-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 968
+}

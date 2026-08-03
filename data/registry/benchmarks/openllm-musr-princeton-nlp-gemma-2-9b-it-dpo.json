@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-princeton-nlp-gemma-2-9b-it-dpo",
+  "model_id": "princeton-nlp/gemma-2-9b-it-DPO",
+  "benchmark_name": "musr",
+  "score": 5.653906250000001,
+  "score_raw": 5.653906250000001,
+  "evaluation_date": "2024-07-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3316
+}

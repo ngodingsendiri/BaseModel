@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-qingy2019-qwen2-5-math-14b-instruct-pro",
+  "model_id": "qingy2019/Qwen2.5-Math-14B-Instruct-Pro",
+  "benchmark_name": "ifeval",
+  "score": 19.216789230353243,
+  "score_raw": 19.216789230353243,
+  "evaluation_date": "2024-12-03",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4068
+}

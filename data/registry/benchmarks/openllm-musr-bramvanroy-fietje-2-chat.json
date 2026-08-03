@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-bramvanroy-fietje-2-chat",
+  "model_id": "BramVanroy/fietje-2-chat",
+  "benchmark_name": "musr",
+  "score": 3.195052083333334,
+  "score_raw": 3.195052083333334,
+  "evaluation_date": "2024-04-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3877
+}

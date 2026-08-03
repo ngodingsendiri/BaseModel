@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-ai4bharat-airavata",
+  "model_id": "ai4bharat/Airavata",
+  "benchmark_name": "bbh",
+  "score": 11.57402914482553,
+  "score_raw": 11.57402914482553,
+  "evaluation_date": "2024-01-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3613
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-openllm-france-lucie-7b-instruct-human-data",
+  "model_id": "OpenLLM-France/Lucie-7B-Instruct-human-data",
+  "benchmark_name": "gpqa",
+  "score": 3.355704697986576,
+  "score_raw": 3.355704697986576,
+  "evaluation_date": "2025-01-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3184
+}

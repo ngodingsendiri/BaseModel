@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-baai-infinity-instruct-3m-0625-qwen2-7b",
+  "model_id": "BAAI/Infinity-Instruct-3M-0625-Qwen2-7B",
+  "benchmark_name": "math-lvl-5",
+  "score": 19.259818731117825,
+  "score_raw": 19.259818731117825,
+  "evaluation_date": "2024-07-09",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1370
+}

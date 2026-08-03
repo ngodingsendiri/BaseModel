@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-lmsys-vicuna-7b-v1-3",
+  "model_id": "lmsys/vicuna-7b-v1.3",
+  "benchmark_name": "bbh",
+  "score": 6.461378796018201,
+  "score_raw": 6.461378796018201,
+  "evaluation_date": "2023-06-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3976
+}

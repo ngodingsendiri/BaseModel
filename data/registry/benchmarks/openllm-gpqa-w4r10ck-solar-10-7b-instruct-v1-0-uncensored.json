@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-w4r10ck-solar-10-7b-instruct-v1-0-uncensored",
+  "model_id": "w4r10ck/SOLAR-10.7B-Instruct-v1.0-uncensored",
+  "benchmark_name": "gpqa",
+  "score": 5.92841163310962,
+  "score_raw": 5.92841163310962,
+  "evaluation_date": "2023-12-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2322
+}

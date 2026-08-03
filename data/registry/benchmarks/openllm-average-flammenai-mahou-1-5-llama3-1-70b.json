@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-flammenai-mahou-1-5-llama3-1-70b",
+  "model_id": "flammenai/Mahou-1.5-llama3.1-70B",
+  "benchmark_name": "average",
+  "score": 37.34491319969544,
+  "score_raw": 37.34491319969544,
+  "evaluation_date": "2024-10-14",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 453
+}

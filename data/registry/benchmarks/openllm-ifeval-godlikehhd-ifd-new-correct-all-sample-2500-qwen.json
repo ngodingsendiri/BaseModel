@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-godlikehhd-ifd-new-correct-all-sample-2500-qwen",
+  "model_id": "godlikehhd/ifd_new_correct_all_sample_2500_qwen",
+  "benchmark_name": "ifeval",
+  "score": 33.75731946790073,
+  "score_raw": 33.75731946790073,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3107
+}

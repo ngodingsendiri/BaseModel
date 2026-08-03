@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-arliai-arliai-rpmax-12b-v1-1",
+  "model_id": "ArliAI/ArliAI-RPMax-12B-v1.1",
+  "benchmark_name": "bbh",
+  "score": 24.80906331793277,
+  "score_raw": 24.80906331793277,
+  "evaluation_date": "2024-08-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2836
+}

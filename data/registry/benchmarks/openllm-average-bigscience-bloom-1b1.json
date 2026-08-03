@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-bigscience-bloom-1b1",
+  "model_id": "bigscience/bloom-1b1",
+  "benchmark_name": "average",
+  "score": 4.025155876068456,
+  "score_raw": 4.025155876068456,
+  "evaluation_date": "2022-05-19",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4440
+}

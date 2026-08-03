@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-allknowingroger-quen2-65b",
+  "model_id": "allknowingroger/Quen2-65B",
+  "benchmark_name": "average",
+  "score": 3.5313443657802126,
+  "score_raw": 3.5313443657802126,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4520
+}

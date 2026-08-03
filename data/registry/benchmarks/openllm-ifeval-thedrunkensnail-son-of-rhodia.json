@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-thedrunkensnail-son-of-rhodia",
+  "model_id": "TheDrunkenSnail/Son-of-Rhodia",
+  "benchmark_name": "ifeval",
+  "score": 70.46447869430888,
+  "score_raw": 70.46447869430888,
+  "evaluation_date": "2024-12-31",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 740
+}

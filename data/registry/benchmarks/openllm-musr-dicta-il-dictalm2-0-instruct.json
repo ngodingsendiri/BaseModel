@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-dicta-il-dictalm2-0-instruct",
+  "model_id": "dicta-il/dictalm2.0-instruct",
+  "benchmark_name": "musr",
+  "score": 9.722916666666668,
+  "score_raw": 9.722916666666668,
+  "evaluation_date": "2024-04-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2381
+}

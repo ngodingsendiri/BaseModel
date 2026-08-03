@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-meta-llama-llama-2-70b-chat-hf",
+  "model_id": "meta-llama/Llama-2-70b-chat-hf",
+  "benchmark_name": "bbh",
+  "score": 4.613767082590614,
+  "score_raw": 4.613767082590614,
+  "evaluation_date": "2023-07-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4152
+}

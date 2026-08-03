@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-marcuscedricridia-etr1o-explicit-v1-1",
+  "model_id": "marcuscedricridia/etr1o-explicit-v1.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 2.1682919621749397,
+  "score_raw": 2.1682919621749397,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4137
+}

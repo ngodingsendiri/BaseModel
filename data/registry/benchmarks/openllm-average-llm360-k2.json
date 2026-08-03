@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-llm360-k2",
+  "model_id": "LLM360/K2",
+  "benchmark_name": "average",
+  "score": 14.643753289939289,
+  "score_raw": 14.643753289939289,
+  "evaluation_date": "2024-04-17",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3340
+}

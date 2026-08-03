@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-baebee-mergekit-model-stock-nzjnheg",
+  "model_id": "baebee/mergekit-model_stock-nzjnheg",
+  "benchmark_name": "musr",
+  "score": 6.016666666666668,
+  "score_raw": 6.016666666666668,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3248
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-yasserrmd-coder-grpo-3b",
+  "model_id": "yasserrmd/Coder-GRPO-3B",
+  "benchmark_name": "gpqa",
+  "score": 3.6912751677852316,
+  "score_raw": 3.6912751677852316,
+  "evaluation_date": "2025-02-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3091
+}

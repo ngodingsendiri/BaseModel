@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-bfuzzy1-acheron-m1a-llama",
+  "model_id": "bfuzzy1/acheron-m1a-llama",
+  "benchmark_name": "average",
+  "score": 3.348613471275291,
+  "score_raw": 3.348613471275291,
+  "evaluation_date": "2025-01-10",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4542
+}

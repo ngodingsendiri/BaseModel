@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-bamec66557-vicious-mesh-12b-digamma",
+  "model_id": "bamec66557/VICIOUS_MESH-12B-DIGAMMA",
+  "benchmark_name": "bbh",
+  "score": 29.833229531368332,
+  "score_raw": 29.833229531368332,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2231
+}

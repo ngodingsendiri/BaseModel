@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-ymcki-llama-3-1-8b-sft-grpo-instruct",
+  "model_id": "ymcki/Llama-3.1-8B-SFT-GRPO-Instruct",
+  "benchmark_name": "bbh",
+  "score": 4.467782695872583,
+  "score_raw": 4.467782695872583,
+  "evaluation_date": "2025-03-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4164
+}

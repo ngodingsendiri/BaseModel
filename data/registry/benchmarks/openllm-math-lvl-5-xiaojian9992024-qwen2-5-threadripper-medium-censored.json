@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-xiaojian9992024-qwen2-5-threadripper-medium-censored",
+  "model_id": "Xiaojian9992024/Qwen2.5-THREADRIPPER-Medium-Censored",
+  "benchmark_name": "math-lvl-5",
+  "score": 53.398791540785496,
+  "score_raw": 53.398791540785496,
+  "evaluation_date": "2025-02-07",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 70
+}

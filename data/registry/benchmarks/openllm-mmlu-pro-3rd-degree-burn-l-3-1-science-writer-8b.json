@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-3rd-degree-burn-l-3-1-science-writer-8b",
+  "model_id": "3rd-Degree-Burn/L-3.1-Science-Writer-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.43816489361702,
+  "score_raw": 29.43816489361702,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1965
+}

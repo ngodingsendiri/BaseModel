@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-kaist-ai-janus-rm-7b",
+  "model_id": "kaist-ai/janus-rm-7b",
+  "benchmark_name": "gpqa",
+  "score": 0.22371364653244186,
+  "score_raw": 0.22371364653244186,
+  "evaluation_date": "2024-05-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4310
+}

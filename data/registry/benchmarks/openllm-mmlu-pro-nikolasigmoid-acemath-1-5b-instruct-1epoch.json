@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-nikolasigmoid-acemath-1-5b-instruct-1epoch",
+  "model_id": "NikolaSigmoid/AceMath-1.5B-Instruct-1epoch",
+  "benchmark_name": "mmlu-pro",
+  "score": 15.290706264775414,
+  "score_raw": 15.290706264775414,
+  "evaluation_date": "2025-03-05",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3458
+}

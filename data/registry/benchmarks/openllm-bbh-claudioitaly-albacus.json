@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-claudioitaly-albacus",
+  "model_id": "ClaudioItaly/Albacus",
+  "benchmark_name": "bbh",
+  "score": 31.63886474402479,
+  "score_raw": 31.63886474402479,
+  "evaluation_date": "2024-09-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1919
+}

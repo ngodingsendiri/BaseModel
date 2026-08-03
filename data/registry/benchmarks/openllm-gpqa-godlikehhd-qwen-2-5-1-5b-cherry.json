@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-godlikehhd-qwen-2-5-1-5b-cherry",
+  "model_id": "godlikehhd/qwen-2.5-1.5b-cherry",
+  "benchmark_name": "gpqa",
+  "score": 6.711409395973152,
+  "score_raw": 6.711409395973152,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1987
+}

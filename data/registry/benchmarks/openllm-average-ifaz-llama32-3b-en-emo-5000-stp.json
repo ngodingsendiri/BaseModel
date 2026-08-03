@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ifaz-llama32-3b-en-emo-5000-stp",
+  "model_id": "iFaz/llama32_3B_en_emo_5000_stp",
+  "benchmark_name": "average",
+  "score": 23.22281886664426,
+  "score_raw": 23.22281886664426,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2045
+}

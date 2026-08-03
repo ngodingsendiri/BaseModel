@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-daemontatox-pathfinderai2-0",
+  "model_id": "Daemontatox/PathFinderAI2.0",
+  "benchmark_name": "average",
+  "score": 36.25665231066442,
+  "score_raw": 36.25665231066442,
+  "evaluation_date": "2024-12-30",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 544
+}

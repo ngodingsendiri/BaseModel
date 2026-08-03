@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-djuna-mn-chinofun",
+  "model_id": "djuna/MN-Chinofun",
+  "benchmark_name": "musr",
+  "score": 10.377604166666663,
+  "score_raw": 10.377604166666663,
+  "evaluation_date": "2024-09-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2180
+}

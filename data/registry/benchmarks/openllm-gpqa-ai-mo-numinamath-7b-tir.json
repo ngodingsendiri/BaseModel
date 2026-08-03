@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-ai-mo-numinamath-7b-tir",
+  "model_id": "AI-MO/NuminaMath-7B-TIR",
+  "benchmark_name": "gpqa",
+  "score": 1.1185682326621946,
+  "score_raw": 1.1185682326621946,
+  "evaluation_date": "2024-07-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4062
+}

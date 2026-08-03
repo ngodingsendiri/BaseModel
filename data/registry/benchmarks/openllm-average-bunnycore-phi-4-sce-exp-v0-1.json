@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-bunnycore-phi-4-sce-exp-v0-1",
+  "model_id": "bunnycore/Phi-4-Sce-exp-v0.1",
+  "benchmark_name": "average",
+  "score": 41.33228109882298,
+  "score_raw": 41.33228109882298,
+  "evaluation_date": "2025-02-07",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 170
+}

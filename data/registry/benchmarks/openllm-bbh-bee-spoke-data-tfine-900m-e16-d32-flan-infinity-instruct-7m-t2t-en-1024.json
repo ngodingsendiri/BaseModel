@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-bee-spoke-data-tfine-900m-e16-d32-flan-infinity-instruct-7m-t2t-en-1024",
+  "model_id": "BEE-spoke-data/tFINE-900m-e16-d32-flan-infinity-instruct-7m-T2T_en-1024",
+  "benchmark_name": "bbh",
+  "score": 4.737018282627999,
+  "score_raw": 4.737018282627999,
+  "evaluation_date": "2024-09-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4144
+}

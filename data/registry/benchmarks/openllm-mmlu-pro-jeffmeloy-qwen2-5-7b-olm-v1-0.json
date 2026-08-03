@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-jeffmeloy-qwen2-5-7b-olm-v1-0",
+  "model_id": "jeffmeloy/Qwen2.5-7B-olm-v1.0",
+  "benchmark_name": "mmlu-pro",
+  "score": 39.623965721040186,
+  "score_raw": 39.623965721040186,
+  "evaluation_date": "2024-12-12",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 706
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-sultanr-smoltulu-1-7b-instruct",
+  "model_id": "SultanR/SmolTulu-1.7b-Instruct",
+  "benchmark_name": "bbh",
+  "score": 12.25982971199621,
+  "score_raw": 12.25982971199621,
+  "evaluation_date": "2024-12-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3596
+}

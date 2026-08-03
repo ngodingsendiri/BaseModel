@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-quazim0t0-alien-cot-14b-sce",
+  "model_id": "Quazim0t0/Alien-CoT-14B-sce",
+  "benchmark_name": "musr",
+  "score": 20.448437499999997,
+  "score_raw": 20.448437499999997,
+  "evaluation_date": "2025-02-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 206
+}

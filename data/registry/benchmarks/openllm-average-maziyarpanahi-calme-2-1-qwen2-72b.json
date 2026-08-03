@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-maziyarpanahi-calme-2-1-qwen2-72b",
+  "model_id": "MaziyarPanahi/calme-2.1-qwen2-72b",
+  "benchmark_name": "average",
+  "score": 44.39894388647036,
+  "score_raw": 44.39894388647036,
+  "evaluation_date": "2024-06-08",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 44
+}

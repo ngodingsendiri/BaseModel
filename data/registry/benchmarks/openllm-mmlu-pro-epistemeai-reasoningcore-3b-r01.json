@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-epistemeai-reasoningcore-3b-r01",
+  "model_id": "EpistemeAI/ReasoningCore-3B-R01",
+  "benchmark_name": "mmlu-pro",
+  "score": 17.682476359338057,
+  "score_raw": 17.682476359338057,
+  "evaluation_date": "2025-02-07",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3334
+}

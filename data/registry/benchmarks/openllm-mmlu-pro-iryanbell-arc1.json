@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-iryanbell-arc1",
+  "model_id": "iRyanBell/ARC1",
+  "benchmark_name": "mmlu-pro",
+  "score": 26.34456264775413,
+  "score_raw": 26.34456264775413,
+  "evaluation_date": "2024-05-30",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2369
+}

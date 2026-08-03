@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-caelid-8b-model-stock",
+  "model_id": "DreadPoor/Caelid-8B-Model_Stock",
+  "benchmark_name": "gpqa",
+  "score": 8.05369127516779,
+  "score_raw": 8.05369127516779,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1452
+}

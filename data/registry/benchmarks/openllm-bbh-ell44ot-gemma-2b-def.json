@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-ell44ot-gemma-2b-def",
+  "model_id": "ell44ot/gemma-2b-def",
+  "benchmark_name": "bbh",
+  "score": 4.586419628734295,
+  "score_raw": 4.586419628734295,
+  "evaluation_date": "2024-11-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4156
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-dzakwan-dzakwan-moe-4x7b-beta",
+  "model_id": "dzakwan/dzakwan-MoE-4x7b-Beta",
+  "benchmark_name": "bbh",
+  "score": 32.074208465442545,
+  "score_raw": 32.074208465442545,
+  "evaluation_date": "2024-05-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1831
+}

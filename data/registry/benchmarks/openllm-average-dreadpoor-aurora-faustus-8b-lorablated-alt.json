@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-dreadpoor-aurora-faustus-8b-lorablated-alt",
+  "model_id": "DreadPoor/Aurora_faustus-8B-LORABLATED_ALT",
+  "benchmark_name": "average",
+  "score": 29.00968134721205,
+  "score_raw": 29.00968134721205,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1178
+}

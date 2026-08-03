@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-mescriva-ece-prymmal-0-5b-ft-v5-musr-mathis",
+  "model_id": "MEscriva/ECE-PRYMMAL-0.5B-FT-V5-MUSR-Mathis",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.0574018126888216,
+  "score_raw": 1.0574018126888216,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4227
+}

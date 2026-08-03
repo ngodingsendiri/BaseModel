@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dwikitheduck-gen-try1-notemp",
+  "model_id": "dwikitheduck/gen-try1-notemp",
+  "benchmark_name": "bbh",
+  "score": 45.749092669505465,
+  "score_raw": 45.749092669505465,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 647
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-uukuguy-speechless-instruct-mistral-7b-v0-2",
+  "model_id": "uukuguy/speechless-instruct-mistral-7b-v0.2",
+  "benchmark_name": "ifeval",
+  "score": 32.613243970442866,
+  "score_raw": 32.613243970442866,
+  "evaluation_date": "2024-05-22",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3168
+}

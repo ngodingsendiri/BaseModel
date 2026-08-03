@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-llm360-k2-chat",
+  "model_id": "LLM360/K2-Chat",
+  "benchmark_name": "bbh",
+  "score": 33.79382923599304,
+  "score_raw": 33.79382923599304,
+  "evaluation_date": "2024-05-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1536
+}

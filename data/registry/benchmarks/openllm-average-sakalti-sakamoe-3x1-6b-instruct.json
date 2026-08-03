@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sakalti-sakamoe-3x1-6b-instruct",
+  "model_id": "Sakalti/SakaMoe-3x1.6B-Instruct",
+  "benchmark_name": "average",
+  "score": 8.276328372160824,
+  "score_raw": 8.276328372160824,
+  "evaluation_date": "2024-09-25",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3846
+}

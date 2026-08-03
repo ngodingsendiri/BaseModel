@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-bunnycore-phi-seek-4-sce-v1",
+  "model_id": "bunnycore/Phi-Seek-4-Sce-V1",
+  "benchmark_name": "bbh",
+  "score": 49.2526730890894,
+  "score_raw": 49.2526730890894,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 458
+}

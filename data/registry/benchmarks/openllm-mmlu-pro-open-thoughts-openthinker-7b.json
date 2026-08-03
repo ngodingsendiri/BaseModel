@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-open-thoughts-openthinker-7b",
+  "model_id": "open-thoughts/OpenThinker-7B",
+  "benchmark_name": "mmlu-pro",
+  "score": 35.163637706855795,
+  "score_raw": 35.163637706855795,
+  "evaluation_date": "2025-01-28",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1105
+}

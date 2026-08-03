@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-triangle104-ds-r1-distill-q2-5-7b-rp",
+  "model_id": "Triangle104/DS-R1-Distill-Q2.5-7B-RP",
+  "benchmark_name": "average",
+  "score": 23.29151402275458,
+  "score_raw": 23.29151402275458,
+  "evaluation_date": "2025-01-27",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2025
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ntqai-nxcode-cq-7b-orpo",
+  "model_id": "NTQAI/Nxcode-CQ-7B-orpo",
+  "benchmark_name": "average",
+  "score": 12.373779699446112,
+  "score_raw": 12.373779699446112,
+  "evaluation_date": "2024-04-24",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3556
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-dreadpoor-autumn-dawn-8b-linear",
+  "model_id": "DreadPoor/Autumn_Dawn-8B-LINEAR",
+  "benchmark_name": "average",
+  "score": 29.605469000443268,
+  "score_raw": 29.605469000443268,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1096
+}

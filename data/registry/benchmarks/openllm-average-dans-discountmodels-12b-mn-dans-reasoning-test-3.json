@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-dans-discountmodels-12b-mn-dans-reasoning-test-3",
+  "model_id": "Dans-DiscountModels/12b-mn-dans-reasoning-test-3",
+  "benchmark_name": "average",
+  "score": 19.13127211265294,
+  "score_raw": 19.13127211265294,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2819
+}

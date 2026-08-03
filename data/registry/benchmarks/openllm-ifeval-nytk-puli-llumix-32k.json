@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-nytk-puli-llumix-32k",
+  "model_id": "NYTK/PULI-LlumiX-32K",
+  "benchmark_name": "ifeval",
+  "score": 16.99612583500667,
+  "score_raw": 16.99612583500667,
+  "evaluation_date": "2024-03-12",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4209
+}

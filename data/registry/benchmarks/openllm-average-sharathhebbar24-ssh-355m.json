@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sharathhebbar24-ssh-355m",
+  "model_id": "Sharathhebbar24/SSH_355M",
+  "benchmark_name": "average",
+  "score": 5.371931358828882,
+  "score_raw": 5.371931358828882,
+  "evaluation_date": "2024-02-06",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4239
+}

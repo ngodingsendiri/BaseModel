@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-prithivmlmods-phi4-super",
+  "model_id": "prithivMLmods/Phi4-Super",
+  "benchmark_name": "mmlu-pro",
+  "score": 47.399527186761226,
+  "score_raw": 47.399527186761226,
+  "evaluation_date": "2025-01-23",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 383
+}

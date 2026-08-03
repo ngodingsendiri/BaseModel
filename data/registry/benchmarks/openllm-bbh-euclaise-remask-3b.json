@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-euclaise-remask-3b",
+  "model_id": "euclaise/ReMask-3B",
+  "benchmark_name": "bbh",
+  "score": 8.742082990875964,
+  "score_raw": 8.742082990875964,
+  "evaluation_date": "2024-03-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3727
+}

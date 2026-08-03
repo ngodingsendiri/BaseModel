@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-t145-kronos-8b-v2",
+  "model_id": "T145/KRONOS-8B-V2",
+  "benchmark_name": "ifeval",
+  "score": 51.802439748755525,
+  "score_raw": 51.802439748755525,
+  "evaluation_date": "2024-12-08",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1739
+}

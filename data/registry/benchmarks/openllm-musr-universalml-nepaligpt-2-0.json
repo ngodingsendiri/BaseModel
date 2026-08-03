@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-universalml-nepaligpt-2-0",
+  "model_id": "universalml/NepaliGPT-2.0",
+  "benchmark_name": "musr",
+  "score": 17.50963541666666,
+  "score_raw": 17.50963541666666,
+  "evaluation_date": "2024-08-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 512
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-floflob-smollm2-pretrained-200k-fineweb",
+  "model_id": "FlofloB/smollm2_pretrained_200k_fineweb",
+  "benchmark_name": "math-lvl-5",
+  "score": 0.3776435045317221,
+  "score_raw": 0.3776435045317221,
+  "evaluation_date": "2025-01-08",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4374
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-daemontatox-phi-4-cot",
+  "model_id": "Daemontatox/Phi-4-COT",
+  "benchmark_name": "bbh",
+  "score": 45.34299043065811,
+  "score_raw": 45.34299043065811,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 662
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-allknowingroger-ph3task3-14b",
+  "model_id": "allknowingroger/Ph3task3-14B",
+  "benchmark_name": "gpqa",
+  "score": 12.192393736017896,
+  "score_raw": 12.192393736017896,
+  "evaluation_date": "2024-09-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 689
+}

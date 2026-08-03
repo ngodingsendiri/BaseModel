@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-ontocord-ontocord-wide-7b-stacked-stage1-instruct",
+  "model_id": "ontocord/ontocord_wide_7b-stacked-stage1-instruct",
+  "benchmark_name": "bbh",
+  "score": 1.4889344424638544,
+  "score_raw": 1.4889344424638544,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4542
+}

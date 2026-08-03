@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-skyorbis-sky-ko-llama3-2-1b-lora-epoch3",
+  "model_id": "SkyOrbis/SKY-Ko-Llama3.2-1B-lora-epoch3",
+  "benchmark_name": "average",
+  "score": 7.679539302024469,
+  "score_raw": 7.679539302024469,
+  "evaluation_date": "2024-12-23",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3959
+}

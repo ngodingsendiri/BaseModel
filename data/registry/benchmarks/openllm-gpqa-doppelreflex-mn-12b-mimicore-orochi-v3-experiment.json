@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-doppelreflex-mn-12b-mimicore-orochi-v3-experiment",
+  "model_id": "DoppelReflEx/MN-12B-Mimicore-Orochi-v3-Experiment",
+  "benchmark_name": "gpqa",
+  "score": 5.7046979865771785,
+  "score_raw": 5.7046979865771785,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2367
+}

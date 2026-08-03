@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ro-xe-fmixia-7b-dare-0",
+  "model_id": "Ro-xe/FMixIA-7B-DARE-0",
+  "benchmark_name": "average",
+  "score": 18.934625270181993,
+  "score_raw": 18.934625270181993,
+  "evaluation_date": "2024-12-13",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2843
+}

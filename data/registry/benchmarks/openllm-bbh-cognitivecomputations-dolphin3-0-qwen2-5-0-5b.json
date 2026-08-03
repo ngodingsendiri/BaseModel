@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-cognitivecomputations-dolphin3-0-qwen2-5-0-5b",
+  "model_id": "cognitivecomputations/Dolphin3.0-Qwen2.5-0.5B",
+  "benchmark_name": "bbh",
+  "score": 5.096928104575164,
+  "score_raw": 5.096928104575164,
+  "evaluation_date": "2024-12-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4096
+}

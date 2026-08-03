@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-allknowingroger-meme-7b-slerp",
+  "model_id": "allknowingroger/Meme-7B-slerp",
+  "benchmark_name": "bbh",
+  "score": 24.52948594942413,
+  "score_raw": 24.52948594942413,
+  "evaluation_date": "2024-05-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2854
+}

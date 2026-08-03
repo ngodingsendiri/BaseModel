@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-prithivmlmods-lwq-reasoner-10b",
+  "model_id": "prithivMLmods/LwQ-Reasoner-10B",
+  "benchmark_name": "mmlu-pro",
+  "score": 34.96971040189125,
+  "score_raw": 34.96971040189125,
+  "evaluation_date": "2025-01-18",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1114
+}

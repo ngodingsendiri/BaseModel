@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-fluently-sets-reasoning-1-1k-demo",
+  "model_id": "fluently-sets/reasoning-1-1k-demo",
+  "benchmark_name": "musr",
+  "score": 9.691145833333335,
+  "score_raw": 9.691145833333335,
+  "evaluation_date": "2024-12-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2386
+}

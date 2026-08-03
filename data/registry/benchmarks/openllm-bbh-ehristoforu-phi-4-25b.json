@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-ehristoforu-phi-4-25b",
+  "model_id": "ehristoforu/phi-4-25b",
+  "benchmark_name": "bbh",
+  "score": 55.67261468233141,
+  "score_raw": 55.67261468233141,
+  "evaluation_date": "2025-01-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 107
+}

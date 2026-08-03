@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-epistemeai2-fireball-alpaca-llama3-1-08-8b-c-r1-kto-reflection",
+  "model_id": "EpistemeAI2/Fireball-Alpaca-Llama3.1.08-8B-C-R1-KTO-Reflection",
+  "benchmark_name": "mmlu-pro",
+  "score": 28.8102098108747,
+  "score_raw": 28.8102098108747,
+  "evaluation_date": "2024-09-16",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2079
+}

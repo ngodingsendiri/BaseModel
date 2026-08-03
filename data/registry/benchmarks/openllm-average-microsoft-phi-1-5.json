@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-microsoft-phi-1-5",
+  "model_id": "microsoft/phi-1_5",
+  "benchmark_name": "average",
+  "score": 7.170966845799231,
+  "score_raw": 7.170966845799231,
+  "evaluation_date": "2023-09-10",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4043
+}

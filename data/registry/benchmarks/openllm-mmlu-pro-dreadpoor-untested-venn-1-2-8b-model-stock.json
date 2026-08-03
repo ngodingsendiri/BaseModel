@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-untested-venn-1-2-8b-model-stock",
+  "model_id": "DreadPoor/UNTESTED-VENN_1.2-8B-Model_Stock",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.961879432624112,
+  "score_raw": 30.961879432624112,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1614
+}

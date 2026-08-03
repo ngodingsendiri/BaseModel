@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-cultrix-qwen2-5-14b-mergestock",
+  "model_id": "CultriX/Qwen2.5-14B-MergeStock",
+  "benchmark_name": "gpqa",
+  "score": 16.442953020134222,
+  "score_raw": 16.442953020134222,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 303
+}

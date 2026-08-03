@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-novaciano-cerberus-3-2-1b",
+  "model_id": "Novaciano/Cerberus-3.2-1B",
+  "benchmark_name": "bbh",
+  "score": 16.97415923404232,
+  "score_raw": 16.97415923404232,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3399
+}

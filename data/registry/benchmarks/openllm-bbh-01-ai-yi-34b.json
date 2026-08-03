@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-01-ai-yi-34b",
+  "model_id": "01-ai/Yi-34B",
+  "benchmark_name": "bbh",
+  "score": 35.542431259008794,
+  "score_raw": 35.542431259008794,
+  "evaluation_date": "2023-11-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1290
+}

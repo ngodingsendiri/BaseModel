@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-floflob-smollm2-135m-pretrained-1000k-fineweb",
+  "model_id": "FlofloB/smollm2-135M_pretrained_1000k_fineweb",
+  "benchmark_name": "musr",
+  "score": 3.2911458333333328,
+  "score_raw": 3.2911458333333328,
+  "evaluation_date": "2025-01-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3854
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-thomas-yanxin-xinyuan-qwen2-7b",
+  "model_id": "thomas-yanxin/XinYuan-Qwen2-7B",
+  "benchmark_name": "math-lvl-5",
+  "score": 14.577039274924472,
+  "score_raw": 14.577039274924472,
+  "evaluation_date": "2024-08-21",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1770
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-hpai-bsc-llama3-aloe-8b-alpha",
+  "model_id": "HPAI-BSC/Llama3-Aloe-8B-Alpha",
+  "benchmark_name": "average",
+  "score": 20.23044725696465,
+  "score_raw": 20.23044725696465,
+  "evaluation_date": "2024-04-26",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2648
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-jaspionjader-kstc-11-8b",
+  "model_id": "jaspionjader/kstc-11-8b",
+  "benchmark_name": "gpqa",
+  "score": 7.046979865771815,
+  "score_raw": 7.046979865771815,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1870
+}

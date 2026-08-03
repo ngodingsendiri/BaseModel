@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-cloudyu-llama-3-2-3bx4",
+  "model_id": "cloudyu/Llama-3.2-3Bx4",
+  "benchmark_name": "mmlu-pro",
+  "score": 22.059692671394796,
+  "score_raw": 22.059692671394796,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2933
+}

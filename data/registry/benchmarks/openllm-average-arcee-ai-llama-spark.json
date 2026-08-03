@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-arcee-ai-llama-spark",
+  "model_id": "arcee-ai/Llama-Spark",
+  "benchmark_name": "average",
+  "score": 27.037236901530367,
+  "score_raw": 27.037236901530367,
+  "evaluation_date": "2024-07-26",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1389
+}

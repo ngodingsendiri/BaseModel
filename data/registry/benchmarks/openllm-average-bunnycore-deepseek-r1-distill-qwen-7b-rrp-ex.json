@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-bunnycore-deepseek-r1-distill-qwen-7b-rrp-ex",
+  "model_id": "bunnycore/DeepSeek-R1-Distill-Qwen-7B-RRP-Ex",
+  "benchmark_name": "average",
+  "score": 14.616489832350064,
+  "score_raw": 14.616489832350064,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3344
+}

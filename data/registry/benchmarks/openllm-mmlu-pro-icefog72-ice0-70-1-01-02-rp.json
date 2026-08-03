@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-icefog72-ice0-70-1-01-02-rp",
+  "model_id": "icefog72/Ice0.70.1-01.02-RP",
+  "benchmark_name": "mmlu-pro",
+  "score": 19.42782210401891,
+  "score_raw": 19.42782210401891,
+  "evaluation_date": "2025-02-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3203
+}

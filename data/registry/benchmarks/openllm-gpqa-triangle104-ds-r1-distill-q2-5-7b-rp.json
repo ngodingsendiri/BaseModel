@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-triangle104-ds-r1-distill-q2-5-7b-rp",
+  "model_id": "Triangle104/DS-R1-Distill-Q2.5-7B-RP",
+  "benchmark_name": "gpqa",
+  "score": 8.501118568232664,
+  "score_raw": 8.501118568232664,
+  "evaluation_date": "2025-01-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1335
+}

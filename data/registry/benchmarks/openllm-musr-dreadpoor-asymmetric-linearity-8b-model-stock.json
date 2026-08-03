@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-asymmetric-linearity-8b-model-stock",
+  "model_id": "DreadPoor/Asymmetric_Linearity-8B-Model_Stock",
+  "benchmark_name": "musr",
+  "score": 12.226822916666663,
+  "score_raw": 12.226822916666663,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1517
+}

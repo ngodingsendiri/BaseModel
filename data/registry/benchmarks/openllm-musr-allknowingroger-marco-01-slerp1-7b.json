@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-allknowingroger-marco-01-slerp1-7b",
+  "model_id": "allknowingroger/Marco-01-slerp1-7B",
+  "benchmark_name": "musr",
+  "score": 14.648437500000002,
+  "score_raw": 14.648437500000002,
+  "evaluation_date": "2024-11-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 922
+}

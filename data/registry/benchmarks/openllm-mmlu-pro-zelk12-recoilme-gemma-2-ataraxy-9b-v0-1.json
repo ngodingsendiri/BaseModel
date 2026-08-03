@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-zelk12-recoilme-gemma-2-ataraxy-9b-v0-1",
+  "model_id": "zelk12/recoilme-gemma-2-Ataraxy-9B-v0.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 36.89974881796691,
+  "score_raw": 36.89974881796691,
+  "evaluation_date": "2024-10-03",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 997
+}

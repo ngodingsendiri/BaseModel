@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-allenai-olmoe-1b-7b-0924-instruct",
+  "model_id": "allenai/OLMoE-1B-7B-0924-Instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 9.731456855791961,
+  "score_raw": 9.731456855791961,
+  "evaluation_date": "2024-08-13",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3636
+}

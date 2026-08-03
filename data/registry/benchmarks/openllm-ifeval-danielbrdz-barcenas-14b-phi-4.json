@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-danielbrdz-barcenas-14b-phi-4",
+  "model_id": "Danielbrdz/Barcenas-14b-phi-4",
+  "benchmark_name": "ifeval",
+  "score": 4.97590836757581,
+  "score_raw": 4.97590836757581,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4538
+}

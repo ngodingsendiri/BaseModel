@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-xukp20-llama-3-8b-instruct-sppo-iter3-gp-2b-table",
+  "model_id": "xukp20/Llama-3-8B-Instruct-SPPO-Iter3_gp_2b-table",
+  "benchmark_name": "musr",
+  "score": 3.187239583333333,
+  "score_raw": 3.187239583333333,
+  "evaluation_date": "2024-09-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3887
+}

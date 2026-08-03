@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-openbuddy-openbuddy-mixtral-7bx8-v18-1-32k",
+  "model_id": "OpenBuddy/openbuddy-mixtral-7bx8-v18.1-32k",
+  "benchmark_name": "musr",
+  "score": 5.281510416666666,
+  "score_raw": 5.281510416666666,
+  "evaluation_date": "2024-02-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3389
+}

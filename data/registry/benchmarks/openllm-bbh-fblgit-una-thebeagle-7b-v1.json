@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-fblgit-una-thebeagle-7b-v1",
+  "model_id": "fblgit/UNA-TheBeagle-7b-v1",
+  "benchmark_name": "bbh",
+  "score": 30.173396964633465,
+  "score_raw": 30.173396964633465,
+  "evaluation_date": "2024-01-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2174
+}

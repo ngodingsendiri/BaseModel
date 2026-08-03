@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-thomas-yanxin-xinyuan-qwen2-1-5b",
+  "model_id": "thomas-yanxin/XinYuan-Qwen2-1_5B",
+  "benchmark_name": "mmlu-pro",
+  "score": 15.078309692671397,
+  "score_raw": 15.078309692671397,
+  "evaluation_date": "2024-08-25",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3464
+}

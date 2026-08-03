@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-daemontatox-aetheruncensored",
+  "model_id": "Daemontatox/AetherUncensored",
+  "benchmark_name": "bbh",
+  "score": 21.678618361970496,
+  "score_raw": 21.678618361970496,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3094
+}

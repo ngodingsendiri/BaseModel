@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-thedrummer-gemmasutra-9b-v1",
+  "model_id": "TheDrummer/Gemmasutra-9B-v1",
+  "benchmark_name": "average",
+  "score": 22.74868519843542,
+  "score_raw": 22.74868519843542,
+  "evaluation_date": "2024-07-17",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2144
+}

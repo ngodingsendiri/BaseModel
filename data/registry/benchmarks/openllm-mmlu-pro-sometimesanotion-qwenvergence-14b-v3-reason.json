@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sometimesanotion-qwenvergence-14b-v3-reason",
+  "model_id": "sometimesanotion/Qwenvergence-14B-v3-Reason",
+  "benchmark_name": "mmlu-pro",
+  "score": 48.83089539007093,
+  "score_raw": 48.83089539007093,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 192
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-pjmixers-dev-llama-3-2-instruct-jankmix-v0-2-sft-hailmary-v0-1-kto-3b",
+  "model_id": "PJMixers-Dev/LLaMa-3.2-Instruct-JankMix-v0.2-SFT-HailMary-v0.1-KTO-3B",
+  "benchmark_name": "average",
+  "score": 21.826266808747885,
+  "score_raw": 21.826266808747885,
+  "evaluation_date": "2024-10-28",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2310
+}

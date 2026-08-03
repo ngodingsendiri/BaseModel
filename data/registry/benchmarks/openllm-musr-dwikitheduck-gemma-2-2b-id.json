@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-dwikitheduck-gemma-2-2b-id",
+  "model_id": "dwikitheduck/gemma-2-2b-id",
+  "benchmark_name": "musr",
+  "score": 10.728385416666667,
+  "score_raw": 10.728385416666667,
+  "evaluation_date": "2024-10-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2063
+}

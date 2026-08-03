@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-rombodawg-rombos-llm-v2-5-qwen-7b",
+  "model_id": "rombodawg/Rombos-LLM-V2.5-Qwen-7b",
+  "benchmark_name": "ifeval",
+  "score": 62.3711751486057,
+  "score_raw": 62.3711751486057,
+  "evaluation_date": "2024-10-06",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1157
+}

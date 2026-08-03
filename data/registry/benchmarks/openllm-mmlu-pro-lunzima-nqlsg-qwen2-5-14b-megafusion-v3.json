@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-lunzima-nqlsg-qwen2-5-14b-megafusion-v3",
+  "model_id": "Lunzima/NQLSG-Qwen2.5-14B-MegaFusion-v3",
+  "benchmark_name": "mmlu-pro",
+  "score": 48.82166075650118,
+  "score_raw": 48.82166075650118,
+  "evaluation_date": "2025-02-18",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 193
+}

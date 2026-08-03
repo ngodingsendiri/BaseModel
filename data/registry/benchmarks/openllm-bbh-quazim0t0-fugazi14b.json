@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-quazim0t0-fugazi14b",
+  "model_id": "Quazim0t0/Fugazi14b",
+  "benchmark_name": "bbh",
+  "score": 56.092125930693726,
+  "score_raw": 56.092125930693726,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 84
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-gaverfraxz-meta-llama-3-1-8b-instruct-halfabliterated-ties",
+  "model_id": "gaverfraxz/Meta-Llama-3.1-8B-Instruct-HalfAbliterated-TIES",
+  "benchmark_name": "average",
+  "score": 20.99904174519205,
+  "score_raw": 20.99904174519205,
+  "evaluation_date": "2024-09-19",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2494
+}

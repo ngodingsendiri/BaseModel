@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-3rd-degree-burn-llama-3-1-8b-squareroot-v1",
+  "model_id": "3rd-Degree-Burn/Llama-3.1-8B-Squareroot-v1",
+  "benchmark_name": "musr",
+  "score": 1.7578124999999993,
+  "score_raw": 1.7578124999999993,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4238
+}

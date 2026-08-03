@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-hotmailuser-gemma2crono-27b",
+  "model_id": "hotmailuser/Gemma2Crono-27B",
+  "benchmark_name": "musr",
+  "score": 16.05260416666667,
+  "score_raw": 16.05260416666667,
+  "evaluation_date": "2024-12-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 690
+}

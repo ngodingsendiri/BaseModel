@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-bamec66557-mergekit-ties-sinbkow",
+  "model_id": "bamec66557/mergekit-ties-sinbkow",
+  "benchmark_name": "bbh",
+  "score": 30.62203788717879,
+  "score_raw": 30.62203788717879,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2099
+}

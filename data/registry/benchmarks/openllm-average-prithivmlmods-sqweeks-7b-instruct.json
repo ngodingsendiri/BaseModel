@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-sqweeks-7b-instruct",
+  "model_id": "prithivMLmods/Sqweeks-7B-Instruct",
+  "benchmark_name": "average",
+  "score": 23.920659418100314,
+  "score_raw": 23.920659418100314,
+  "evaluation_date": "2025-02-05",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1864
+}

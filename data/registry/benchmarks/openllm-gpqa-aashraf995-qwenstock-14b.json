@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-aashraf995-qwenstock-14b",
+  "model_id": "Aashraf995/QwenStock-14B",
+  "benchmark_name": "gpqa",
+  "score": 18.568232662192393,
+  "score_raw": 18.568232662192393,
+  "evaluation_date": "2024-12-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 124
+}

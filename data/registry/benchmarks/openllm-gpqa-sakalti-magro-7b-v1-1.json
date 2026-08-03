@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-sakalti-magro-7b-v1-1",
+  "model_id": "Sakalti/Magro-7B-v1.1",
+  "benchmark_name": "gpqa",
+  "score": 6.152125279642054,
+  "score_raw": 6.152125279642054,
+  "evaluation_date": "2024-12-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2200
+}

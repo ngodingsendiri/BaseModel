@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-hon9kon9ize-cantonesellmchat-v0-5",
+  "model_id": "hon9kon9ize/CantoneseLLMChat-v0.5",
+  "benchmark_name": "musr",
+  "score": 18.13072916666667,
+  "score_raw": 18.13072916666667,
+  "evaluation_date": "2024-07-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 447
+}

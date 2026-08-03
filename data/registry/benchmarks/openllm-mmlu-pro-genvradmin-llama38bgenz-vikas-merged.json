@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-genvradmin-llama38bgenz-vikas-merged",
+  "model_id": "GenVRadmin/llama38bGenZ_Vikas-Merged",
+  "benchmark_name": "mmlu-pro",
+  "score": 18.02415780141844,
+  "score_raw": 18.02415780141844,
+  "evaluation_date": "2024-05-22",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3310
+}

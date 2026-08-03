@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-cohereforai-c4ai-command-r-plus-08-2024",
+  "model_id": "CohereForAI/c4ai-command-r-plus-08-2024",
+  "benchmark_name": "musr",
+  "score": 19.835156249999994,
+  "score_raw": 19.835156249999994,
+  "evaluation_date": "2024-08-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 249
+}

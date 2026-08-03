@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sumink-qwenmplus",
+  "model_id": "sumink/Qwenmplus",
+  "benchmark_name": "mmlu-pro",
+  "score": 11.024305555555555,
+  "score_raw": 11.024305555555555,
+  "evaluation_date": "2025-01-03",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3586
+}

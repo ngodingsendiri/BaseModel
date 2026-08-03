@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-hotmailuser-qwenstock-0-5b",
+  "model_id": "hotmailuser/QwenStock-0.5B",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.854314420803781,
+  "score_raw": 1.854314420803781,
+  "evaluation_date": "2025-01-03",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4199
+}

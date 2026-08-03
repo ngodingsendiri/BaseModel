@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-openbuddy-openbuddy-qwen2-5llamaify-14b-v23-3-200k",
+  "model_id": "OpenBuddy/openbuddy-qwen2.5llamaify-14b-v23.3-200k",
+  "benchmark_name": "ifeval",
+  "score": 61.31453432448127,
+  "score_raw": 61.31453432448127,
+  "evaluation_date": "2024-10-02",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1203
+}

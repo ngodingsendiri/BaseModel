@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-qingy2024-falcon3-2x10b-moe-instruct",
+  "model_id": "qingy2024/Falcon3-2x10B-MoE-Instruct",
+  "benchmark_name": "musr",
+  "score": 12.910937499999996,
+  "score_raw": 12.910937499999996,
+  "evaluation_date": "2024-12-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1324
+}

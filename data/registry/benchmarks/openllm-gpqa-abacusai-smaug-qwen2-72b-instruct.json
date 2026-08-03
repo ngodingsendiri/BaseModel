@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-abacusai-smaug-qwen2-72b-instruct",
+  "model_id": "abacusai/Smaug-Qwen2-72B-Instruct",
+  "benchmark_name": "gpqa",
+  "score": 14.876957494407161,
+  "score_raw": 14.876957494407161,
+  "evaluation_date": "2024-06-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 421
+}

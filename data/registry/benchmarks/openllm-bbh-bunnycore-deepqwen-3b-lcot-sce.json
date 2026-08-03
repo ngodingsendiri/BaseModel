@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-bunnycore-deepqwen-3b-lcot-sce",
+  "model_id": "bunnycore/DeepQwen-3B-LCoT-SCE",
+  "benchmark_name": "bbh",
+  "score": 23.559546324044987,
+  "score_raw": 23.559546324044987,
+  "evaluation_date": "2025-02-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2942
+}

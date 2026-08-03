@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-magpie-align-llama-3-8b-magpie-align-v0-3",
+  "model_id": "Magpie-Align/Llama-3-8B-Magpie-Align-v0.3",
+  "benchmark_name": "musr",
+  "score": 3.7421875000000004,
+  "score_raw": 3.7421875000000004,
+  "evaluation_date": "2024-07-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3745
+}

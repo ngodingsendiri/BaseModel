@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-epistemeai-polypsyche-llama-3-1-8b-instruct-agent-0-003-128k-code-ds-auto-divergent",
+  "model_id": "EpistemeAI/Polypsyche-Llama-3.1-8B-Instruct-Agent-0.003-128K-code-ds-auto-divergent",
+  "benchmark_name": "average",
+  "score": 23.02725584049078,
+  "score_raw": 23.02725584049078,
+  "evaluation_date": "2024-12-13",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2089
+}

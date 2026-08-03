@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-cognitivecomputations-dolphin3-0-r1-mistral-24b",
+  "model_id": "cognitivecomputations/Dolphin3.0-R1-Mistral-24B",
+  "benchmark_name": "average",
+  "score": 23.513141611997387,
+  "score_raw": 23.513141611997387,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1966
+}

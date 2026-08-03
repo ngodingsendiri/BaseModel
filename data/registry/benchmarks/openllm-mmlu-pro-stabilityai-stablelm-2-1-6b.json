@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-stabilityai-stablelm-2-1-6b",
+  "model_id": "stabilityai/stablelm-2-1_6b",
+  "benchmark_name": "mmlu-pro",
+  "score": 5.1510786052009445,
+  "score_raw": 5.1510786052009445,
+  "evaluation_date": "2024-01-18",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4009
+}

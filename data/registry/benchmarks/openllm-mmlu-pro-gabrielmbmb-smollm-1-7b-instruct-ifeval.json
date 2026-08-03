@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-gabrielmbmb-smollm-1-7b-instruct-ifeval",
+  "model_id": "gabrielmbmb/SmolLM-1.7B-Instruct-IFEval",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.7342641843971618,
+  "score_raw": 1.7342641843971618,
+  "evaluation_date": "2024-10-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4242
+}

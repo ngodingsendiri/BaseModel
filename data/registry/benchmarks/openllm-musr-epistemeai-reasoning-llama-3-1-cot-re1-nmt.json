@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-epistemeai-reasoning-llama-3-1-cot-re1-nmt",
+  "model_id": "EpistemeAI/Reasoning-Llama-3.1-CoT-RE1-NMT",
+  "benchmark_name": "musr",
+  "score": 0.9440104166666662,
+  "score_raw": 0.9440104166666662,
+  "evaluation_date": "2025-01-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4489
+}

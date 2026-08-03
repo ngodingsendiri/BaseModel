@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-cultrix-qwenfinity-2-5-14b",
+  "model_id": "CultriX/Qwenfinity-2.5-14B",
+  "benchmark_name": "musr",
+  "score": 15.456250000000002,
+  "score_raw": 15.456250000000002,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 771
+}

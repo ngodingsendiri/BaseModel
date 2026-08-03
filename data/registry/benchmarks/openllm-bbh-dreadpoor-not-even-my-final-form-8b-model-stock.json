@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-not-even-my-final-form-8b-model-stock",
+  "model_id": "DreadPoor/Not_Even_My_Final_Form-8B-Model_Stock",
+  "benchmark_name": "bbh",
+  "score": 33.71901446820086,
+  "score_raw": 33.71901446820086,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1546
+}

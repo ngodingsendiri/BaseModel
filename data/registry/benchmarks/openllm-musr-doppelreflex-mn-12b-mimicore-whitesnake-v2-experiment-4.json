@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-doppelreflex-mn-12b-mimicore-whitesnake-v2-experiment-4",
+  "model_id": "DoppelReflEx/MN-12B-Mimicore-WhiteSnake-v2-Experiment-4",
+  "benchmark_name": "musr",
+  "score": 11.458072916666666,
+  "score_raw": 11.458072916666666,
+  "evaluation_date": "2025-01-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1802
+}

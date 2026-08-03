@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ehristoforu-rqwen-v0-1",
+  "model_id": "ehristoforu/RQwen-v0.1",
+  "benchmark_name": "average",
+  "score": 39.73075710536471,
+  "score_raw": 39.73075710536471,
+  "evaluation_date": "2024-11-24",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 290
+}

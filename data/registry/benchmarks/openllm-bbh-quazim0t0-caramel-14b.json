@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-quazim0t0-caramel-14b",
+  "model_id": "Quazim0t0/caramel-14B",
+  "benchmark_name": "bbh",
+  "score": 55.75618206414753,
+  "score_raw": 55.75618206414753,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 103
+}

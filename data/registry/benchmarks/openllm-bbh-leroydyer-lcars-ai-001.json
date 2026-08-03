@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-leroydyer-lcars-ai-001",
+  "model_id": "LeroyDyer/LCARS_AI_001",
+  "benchmark_name": "bbh",
+  "score": 19.460966800253622,
+  "score_raw": 19.460966800253622,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3242
+}

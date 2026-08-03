@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-quazim0t0-mouse-9b",
+  "model_id": "Quazim0t0/Mouse-9B",
+  "benchmark_name": "musr",
+  "score": 4.036458333333333,
+  "score_raw": 4.036458333333333,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3660
+}

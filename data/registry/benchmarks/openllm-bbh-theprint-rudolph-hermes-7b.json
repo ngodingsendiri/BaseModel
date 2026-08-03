@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-theprint-rudolph-hermes-7b",
+  "model_id": "theprint/RuDolph-Hermes-7B",
+  "benchmark_name": "bbh",
+  "score": 30.709648163100884,
+  "score_raw": 30.709648163100884,
+  "evaluation_date": "2024-11-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2089
+}

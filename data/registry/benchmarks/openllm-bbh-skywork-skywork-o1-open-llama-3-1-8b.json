@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-skywork-skywork-o1-open-llama-3-1-8b",
+  "model_id": "Skywork/Skywork-o1-Open-Llama-3.1-8B",
+  "benchmark_name": "bbh",
+  "score": 23.017598928072996,
+  "score_raw": 23.017598928072996,
+  "evaluation_date": "2024-11-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2981
+}

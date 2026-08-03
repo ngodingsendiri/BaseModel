@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-mistralai-mixtral-8x22b-v0-1",
+  "model_id": "mistralai/Mixtral-8x22B-v0.1",
+  "benchmark_name": "ifeval",
+  "score": 25.826362939223486,
+  "score_raw": 25.826362939223486,
+  "evaluation_date": "2024-04-16",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3537
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-huggingfacetb-smollm-1-7b-instruct",
+  "model_id": "HuggingFaceTB/SmolLM-1.7B-Instruct",
+  "benchmark_name": "gpqa",
+  "score": 1.342281879194629,
+  "score_raw": 1.342281879194629,
+  "evaluation_date": "2024-07-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3938
+}

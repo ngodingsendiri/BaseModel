@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-coolercoder-8b-linear",
+  "model_id": "DreadPoor/CoolerCoder-8B-LINEAR",
+  "benchmark_name": "bbh",
+  "score": 26.365382993393997,
+  "score_raw": 26.365382993393997,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2688
+}

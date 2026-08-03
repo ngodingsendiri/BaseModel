@@ -50,6 +50,35 @@ export function slugify(value: string): string {
 }
 
 /** Maps an Elo-style rating onto the canonical 0-100 range. */
+/**
+ * Fetches a URL with exponential backoff on transient failures. The HF
+ * datasets-server API aggressively rate-limits anonymous clients (HTTP 429),
+ * which previously failed an entire nightly benchmark run on the first burst.
+ */
+
+export function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+export async function fetchWithRetry(
+  url: string,
+  options: { timeoutMs?: number; retries?: number } = {},
+): Promise<Response> {
+  const maxRetries = options.retries ?? 4;
+  for (let attempt = 0; ; attempt++) {
+    const response = await fetch(url, {
+      signal: AbortSignal.timeout(options.timeoutMs ?? 30_000),
+    });
+    if (response.ok || attempt >= maxRetries) return response;
+    if (response.status === 429 || response.status >= 500) {
+      const delay = Math.min(60_000, 2 ** attempt * 3_000) + Math.random() * 1_000;
+      await new Promise((resolve) => setTimeout(resolve, delay));
+      continue;
+    }
+    return response;
+  }
+}
+
 export function normalizeElo(rating: number): number {
   const score = ((rating - ELO_FLOOR) / (ELO_CEILING - ELO_FLOOR)) * 100;
   return Math.max(0, Math.min(100, score));
@@ -71,8 +100,8 @@ async function fetchAllRows(config: string, accessToken?: string): Promise<LMAre
     });
     if (accessToken) params.set('access_token', accessToken);
 
-    const response = await fetch(`${ROWS_API}?${params.toString()}`, {
-      signal: AbortSignal.timeout(30_000),
+    const response = await fetchWithRetry(`${ROWS_API}?${params.toString()}`, {
+      timeoutMs: 30_000,
     });
     if (!response.ok) {
       throw new Error(
@@ -86,6 +115,8 @@ async function fetchAllRows(config: string, accessToken?: string): Promise<LMAre
       rows.push(entry.row);
     }
     offset += PAGE_SIZE;
+    // Pace requests: the anonymous datasets-server API rate-limits bursts.
+    await sleep(400);
   }
 
   return rows;

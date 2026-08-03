@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-parissa3-test-model",
+  "model_id": "Parissa3/test-model",
+  "benchmark_name": "average",
+  "score": 20.745917611192755,
+  "score_raw": 20.745917611192755,
+  "evaluation_date": "2024-11-16",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2548
+}

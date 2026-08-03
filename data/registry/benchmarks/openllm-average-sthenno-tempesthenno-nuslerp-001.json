@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sthenno-tempesthenno-nuslerp-001",
+  "model_id": "sthenno/tempesthenno-nuslerp-001",
+  "benchmark_name": "average",
+  "score": 42.58615155936238,
+  "score_raw": 42.58615155936238,
+  "evaluation_date": "2025-01-11",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 92
+}

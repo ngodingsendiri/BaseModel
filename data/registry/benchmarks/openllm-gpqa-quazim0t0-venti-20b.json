@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-quazim0t0-venti-20b",
+  "model_id": "Quazim0t0/Venti-20b",
+  "benchmark_name": "gpqa",
+  "score": 10.96196868008949,
+  "score_raw": 10.96196868008949,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 841
+}

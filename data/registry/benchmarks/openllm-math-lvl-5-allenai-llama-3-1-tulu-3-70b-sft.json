@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-allenai-llama-3-1-tulu-3-70b-sft",
+  "model_id": "allenai/Llama-3.1-Tulu-3-70B-SFT",
+  "benchmark_name": "math-lvl-5",
+  "score": 33.157099697885194,
+  "score_raw": 33.157099697885194,
+  "evaluation_date": "2024-11-18",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 727
+}

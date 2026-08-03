@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-triangle104-bigtalker-lite-8b",
+  "model_id": "Triangle104/BigTalker-Lite-8B",
+  "benchmark_name": "gpqa",
+  "score": 8.05369127516779,
+  "score_raw": 8.05369127516779,
+  "evaluation_date": "2024-12-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1460
+}

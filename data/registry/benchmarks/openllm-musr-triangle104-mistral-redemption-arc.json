@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-triangle104-mistral-redemption-arc",
+  "model_id": "Triangle104/Mistral-Redemption-Arc",
+  "benchmark_name": "musr",
+  "score": 17.172135416666666,
+  "score_raw": 17.172135416666666,
+  "evaluation_date": "2025-02-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 549
+}

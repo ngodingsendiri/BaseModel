@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-mmnga-llama-3-70b-japanese-suzume-vector-v0-1",
+  "model_id": "mmnga/Llama-3-70B-japanese-suzume-vector-v0.1",
+  "benchmark_name": "musr",
+  "score": 10.757812500000002,
+  "score_raw": 10.757812500000002,
+  "evaluation_date": "2024-04-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2055
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-leroydyer-spydazweb-ai-humanai-textvision",
+  "model_id": "LeroyDyer/SpydazWeb_AI_HumanAI_TextVision",
+  "benchmark_name": "gpqa",
+  "score": 5.592841163310966,
+  "score_raw": 5.592841163310966,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2409
+}

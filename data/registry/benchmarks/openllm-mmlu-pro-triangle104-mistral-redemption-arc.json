@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-triangle104-mistral-redemption-arc",
+  "model_id": "Triangle104/Mistral-Redemption-Arc",
+  "benchmark_name": "mmlu-pro",
+  "score": 38.99601063829786,
+  "score_raw": 38.99601063829786,
+  "evaluation_date": "2025-02-07",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 737
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-locutusque-llama-3-yggdrasil-2-0-8b",
+  "model_id": "Locutusque/Llama-3-Yggdrasil-2.0-8B",
+  "benchmark_name": "average",
+  "score": 20.46019749438689,
+  "score_raw": 20.46019749438689,
+  "evaluation_date": "2024-06-05",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2598
+}

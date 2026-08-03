@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-bllossom-llama-3-2-korean-bllossom-aica-5b",
+  "model_id": "Bllossom/llama-3.2-Korean-Bllossom-AICA-5B",
+  "benchmark_name": "average",
+  "score": 19.012851991491477,
+  "score_raw": 19.012851991491477,
+  "evaluation_date": "2024-12-12",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2834
+}

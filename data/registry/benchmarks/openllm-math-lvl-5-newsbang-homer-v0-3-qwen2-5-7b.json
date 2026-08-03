@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-newsbang-homer-v0-3-qwen2-5-7b",
+  "model_id": "newsbang/Homer-v0.3-Qwen2.5-7B",
+  "benchmark_name": "math-lvl-5",
+  "score": 30.891238670694865,
+  "score_raw": 30.891238670694865,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 799
+}

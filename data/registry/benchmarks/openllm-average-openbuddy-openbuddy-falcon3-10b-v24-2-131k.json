@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-openbuddy-openbuddy-falcon3-10b-v24-2-131k",
+  "model_id": "OpenBuddy/openbuddy-falcon3-10b-v24.2-131k",
+  "benchmark_name": "average",
+  "score": 27.273412962757565,
+  "score_raw": 27.273412962757565,
+  "evaluation_date": "2025-01-01",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1363
+}

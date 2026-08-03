@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-josephgflowers-tinyllama-v1-1-math-code-world-test-1",
+  "model_id": "Josephgflowers/TinyLlama_v1.1_math_code-world-test-1",
+  "benchmark_name": "average",
+  "score": 2.0028112750677205,
+  "score_raw": 2.0028112750677205,
+  "evaluation_date": "2024-06-23",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4567
+}

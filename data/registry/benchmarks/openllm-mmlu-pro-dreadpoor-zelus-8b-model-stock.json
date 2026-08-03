@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-zelus-8b-model-stock",
+  "model_id": "DreadPoor/Zelus-8B-Model_Stock",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.57136524822695,
+  "score_raw": 31.57136524822695,
+  "evaluation_date": "2025-01-15",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1474
+}

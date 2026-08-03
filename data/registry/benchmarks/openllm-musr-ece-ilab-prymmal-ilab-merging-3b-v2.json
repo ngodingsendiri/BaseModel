@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-ece-ilab-prymmal-ilab-merging-3b-v2",
+  "model_id": "ECE-ILAB-PRYMMAL/ILAB-Merging-3B-V2",
+  "benchmark_name": "musr",
+  "score": 13.752343749999996,
+  "score_raw": 13.752343749999996,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1107
+}

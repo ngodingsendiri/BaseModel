@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-allknowingroger-qwenstock1-14b",
+  "model_id": "allknowingroger/QwenStock1-14B",
+  "benchmark_name": "mmlu-pro",
+  "score": 49.08946513002365,
+  "score_raw": 49.08946513002365,
+  "evaluation_date": "2024-11-28",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 121
+}

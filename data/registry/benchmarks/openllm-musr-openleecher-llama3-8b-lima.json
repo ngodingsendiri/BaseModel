@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-openleecher-llama3-8b-lima",
+  "model_id": "OpenLeecher/llama3-8b-lima",
+  "benchmark_name": "musr",
+  "score": 3.7421874999999996,
+  "score_raw": 3.7421874999999996,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3751
+}

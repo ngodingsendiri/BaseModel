@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-byroneverson-mistral-small-instruct-2409-abliterated",
+  "model_id": "byroneverson/Mistral-Small-Instruct-2409-abliterated",
+  "benchmark_name": "gpqa",
+  "score": 11.073825503355701,
+  "score_raw": 11.073825503355701,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 830
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-nexesenex-llama-3-2-1b-synopsys-0-11",
+  "model_id": "Nexesenex/Llama_3.2_1b_Synopsys_0.11",
+  "benchmark_name": "musr",
+  "score": 3.1500000000000004,
+  "score_raw": 3.1500000000000004,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3892
+}

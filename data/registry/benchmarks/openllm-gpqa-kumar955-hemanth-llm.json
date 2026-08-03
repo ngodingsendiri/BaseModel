@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-kumar955-hemanth-llm",
+  "model_id": "Kumar955/Hemanth-llm",
+  "benchmark_name": "gpqa",
+  "score": 4.36241610738255,
+  "score_raw": 4.36241610738255,
+  "evaluation_date": "2024-09-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2832
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-nlpguy-starfusion-alpha1",
+  "model_id": "nlpguy/StarFusion-alpha1",
+  "benchmark_name": "musr",
+  "score": 8.879687500000001,
+  "score_raw": 8.879687500000001,
+  "evaluation_date": "2024-04-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2604
+}

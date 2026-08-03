@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-cat-searcher-gemma-2-9b-it-sppo-iter-1-evol-1",
+  "model_id": "cat-searcher/gemma-2-9b-it-sppo-iter-1-evol-1",
+  "benchmark_name": "ifeval",
+  "score": 29.418276838787747,
+  "score_raw": 29.418276838787747,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3342
+}

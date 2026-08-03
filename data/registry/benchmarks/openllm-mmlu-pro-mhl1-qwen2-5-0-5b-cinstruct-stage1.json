@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-mhl1-qwen2-5-0-5b-cinstruct-stage1",
+  "model_id": "mhl1/Qwen2.5-0.5B-cinstruct-stage1",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.549571513002364,
+  "score_raw": 1.549571513002364,
+  "evaluation_date": "2025-01-08",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4310
+}

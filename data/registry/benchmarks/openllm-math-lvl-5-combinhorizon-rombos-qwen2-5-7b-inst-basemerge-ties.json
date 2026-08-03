@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-combinhorizon-rombos-qwen2-5-7b-inst-basemerge-ties",
+  "model_id": "CombinHorizon/Rombos-Qwen2.5-7B-Inst-BaseMerge-TIES",
+  "benchmark_name": "math-lvl-5",
+  "score": 49.320241691842895,
+  "score_raw": 49.320241691842895,
+  "evaluation_date": "2024-10-29",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 162
+}

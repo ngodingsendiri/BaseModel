@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-contactdoctor-bio-medical-llama-3-8b",
+  "model_id": "ContactDoctor/Bio-Medical-Llama-3-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.419695626477544,
+  "score_raw": 29.419695626477544,
+  "evaluation_date": "2024-08-09",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1970
+}

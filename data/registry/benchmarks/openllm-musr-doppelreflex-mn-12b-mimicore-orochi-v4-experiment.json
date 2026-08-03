@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-doppelreflex-mn-12b-mimicore-orochi-v4-experiment",
+  "model_id": "DoppelReflEx/MN-12B-Mimicore-Orochi-v4-Experiment",
+  "benchmark_name": "musr",
+  "score": 15.483854166666667,
+  "score_raw": 15.483854166666667,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 766
+}

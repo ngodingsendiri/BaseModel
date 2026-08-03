@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-triangle104-pans-gutenbergum-v0-1",
+  "model_id": "Triangle104/Pans_Gutenbergum_V0.1",
+  "benchmark_name": "gpqa",
+  "score": 9.731543624161072,
+  "score_raw": 9.731543624161072,
+  "evaluation_date": "2024-10-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1054
+}

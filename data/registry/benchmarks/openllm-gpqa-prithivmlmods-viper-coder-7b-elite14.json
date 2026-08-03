@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-prithivmlmods-viper-coder-7b-elite14",
+  "model_id": "prithivMLmods/Viper-Coder-7B-Elite14",
+  "benchmark_name": "gpqa",
+  "score": 0.6711409395973182,
+  "score_raw": 0.6711409395973182,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4209
+}

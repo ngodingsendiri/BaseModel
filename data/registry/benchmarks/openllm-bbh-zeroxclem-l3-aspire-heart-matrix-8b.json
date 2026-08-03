@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-zeroxclem-l3-aspire-heart-matrix-8b",
+  "model_id": "ZeroXClem/L3-Aspire-Heart-Matrix-8B",
+  "benchmark_name": "bbh",
+  "score": 34.30754710829408,
+  "score_raw": 34.30754710829408,
+  "evaluation_date": "2024-11-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1471
+}

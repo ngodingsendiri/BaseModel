@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-tinycompany-sigmaboi-base",
+  "model_id": "tinycompany/SigmaBoi-base",
+  "benchmark_name": "average",
+  "score": 15.2508076506235,
+  "score_raw": 15.2508076506235,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3274
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-gmonsoon-sahabatai-medichatindo-8b-v1",
+  "model_id": "gmonsoon/SahabatAI-MediChatIndo-8B-v1",
+  "benchmark_name": "musr",
+  "score": 4.557812500000001,
+  "score_raw": 4.557812500000001,
+  "evaluation_date": "2024-11-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3549
+}

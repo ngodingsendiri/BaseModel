@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-virnect-llama-3-korean-8b",
+  "model_id": "VIRNECT/llama-3-Korean-8B",
+  "benchmark_name": "gpqa",
+  "score": 2.796420581655479,
+  "score_raw": 2.796420581655479,
+  "evaluation_date": "2024-07-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3392
+}

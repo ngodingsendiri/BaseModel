@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-limyeri-codemind-llama3-1-8b-unsloth-merged",
+  "model_id": "LimYeri/CodeMind-Llama3.1-8B-unsloth-merged",
+  "benchmark_name": "math-lvl-5",
+  "score": 10.876132930513595,
+  "score_raw": 10.876132930513595,
+  "evaluation_date": "2024-08-31",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2268
+}

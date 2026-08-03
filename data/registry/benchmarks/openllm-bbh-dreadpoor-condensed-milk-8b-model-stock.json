@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-condensed-milk-8b-model-stock",
+  "model_id": "DreadPoor/Condensed_Milk-8B-Model_Stock",
+  "benchmark_name": "bbh",
+  "score": 35.12062025244797,
+  "score_raw": 35.12062025244797,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1339
+}

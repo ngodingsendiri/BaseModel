@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-minus-penus-8b-model-stock",
+  "model_id": "DreadPoor/Minus_Penus-8B-Model_Stock",
+  "benchmark_name": "bbh",
+  "score": 33.57084078325773,
+  "score_raw": 33.57084078325773,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1562
+}

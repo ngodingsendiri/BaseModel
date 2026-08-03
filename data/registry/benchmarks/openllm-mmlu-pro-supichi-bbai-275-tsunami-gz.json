@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-supichi-bbai-275-tsunami-gz",
+  "model_id": "Supichi/BBAI_275_Tsunami_gZ",
+  "benchmark_name": "mmlu-pro",
+  "score": 38.802083333333336,
+  "score_raw": 38.802083333333336,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 753
+}

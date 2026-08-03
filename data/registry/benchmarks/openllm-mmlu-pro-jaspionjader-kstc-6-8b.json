@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-jaspionjader-kstc-6-8b",
+  "model_id": "jaspionjader/kstc-6-8b",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.746823286052013,
+  "score_raw": 31.746823286052013,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1438
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-saxo-linkbricks-horizon-ai-avengers-v6-32b",
+  "model_id": "Saxo/Linkbricks-Horizon-AI-Avengers-V6-32B",
+  "benchmark_name": "gpqa",
+  "score": 11.297539149888143,
+  "score_raw": 11.297539149888143,
+  "evaluation_date": "2025-01-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 800
+}

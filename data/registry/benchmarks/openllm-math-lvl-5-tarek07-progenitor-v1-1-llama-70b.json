@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-tarek07-progenitor-v1-1-llama-70b",
+  "model_id": "Tarek07/Progenitor-V1.1-LLaMa-70B",
+  "benchmark_name": "math-lvl-5",
+  "score": 35.725075528700906,
+  "score_raw": 35.725075528700906,
+  "evaluation_date": "2025-01-24",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 629
+}

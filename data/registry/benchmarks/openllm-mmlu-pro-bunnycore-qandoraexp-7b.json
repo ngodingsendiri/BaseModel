@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-bunnycore-qandoraexp-7b",
+  "model_id": "bunnycore/QandoraExp-7B",
+  "benchmark_name": "mmlu-pro",
+  "score": 37.88785460992907,
+  "score_raw": 37.88785460992907,
+  "evaluation_date": "2024-11-11",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 843
+}

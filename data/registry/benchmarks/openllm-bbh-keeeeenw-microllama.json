@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-keeeeenw-microllama",
+  "model_id": "keeeeenw/MicroLlama",
+  "benchmark_name": "bbh",
+  "score": 2.831363636363637,
+  "score_raw": 2.831363636363637,
+  "evaluation_date": "2024-03-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4351
+}

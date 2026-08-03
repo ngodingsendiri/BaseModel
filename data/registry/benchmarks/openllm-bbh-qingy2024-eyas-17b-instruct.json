@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-qingy2024-eyas-17b-instruct",
+  "model_id": "qingy2024/Eyas-17B-Instruct",
+  "benchmark_name": "bbh",
+  "score": 43.85006553278257,
+  "score_raw": 43.85006553278257,
+  "evaluation_date": "2024-12-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 766
+}

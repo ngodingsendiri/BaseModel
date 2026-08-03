@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-auraindustries-aura-8b",
+  "model_id": "AuraIndustries/Aura-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.93151595744681,
+  "score_raw": 31.93151595744681,
+  "evaluation_date": "2024-12-08",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1398
+}

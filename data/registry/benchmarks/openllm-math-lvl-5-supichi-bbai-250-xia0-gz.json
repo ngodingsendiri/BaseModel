@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-supichi-bbai-250-xia0-gz",
+  "model_id": "Supichi/BBAI_250_Xia0_gZ",
+  "benchmark_name": "math-lvl-5",
+  "score": 36.40483383685801,
+  "score_raw": 36.40483383685801,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 598
+}

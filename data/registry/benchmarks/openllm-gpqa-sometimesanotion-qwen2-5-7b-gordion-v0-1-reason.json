@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-sometimesanotion-qwen2-5-7b-gordion-v0-1-reason",
+  "model_id": "sometimesanotion/Qwen2.5-7B-Gordion-v0.1-Reason",
+  "benchmark_name": "gpqa",
+  "score": 12.080536912751676,
+  "score_raw": 12.080536912751676,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 706
+}

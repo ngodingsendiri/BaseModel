@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-allknowingroger-chocolatine-24b",
+  "model_id": "allknowingroger/Chocolatine-24B",
+  "benchmark_name": "ifeval",
+  "score": 19.581488229010137,
+  "score_raw": 19.581488229010137,
+  "evaluation_date": "2024-09-02",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4049
+}

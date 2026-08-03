@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-tarek07-progenitor-v1-1-llama-70b",
+  "model_id": "Tarek07/Progenitor-V1.1-LLaMa-70B",
+  "benchmark_name": "gpqa",
+  "score": 27.740492170022367,
+  "score_raw": 27.740492170022367,
+  "evaluation_date": "2025-01-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-allknowingroger-multimerge-19b-pass",
+  "model_id": "allknowingroger/Multimerge-19B-pass",
+  "benchmark_name": "musr",
+  "score": 4.303125,
+  "score_raw": 4.303125,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3606
+}

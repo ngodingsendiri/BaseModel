@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-epistemeai-fireball-meta-llama-3-1-8b-instruct-agent-0-003-128k-code",
+  "model_id": "EpistemeAI/Fireball-Meta-Llama-3.1-8B-Instruct-Agent-0.003-128K-code",
+  "benchmark_name": "musr",
+  "score": 8.462239583333334,
+  "score_raw": 8.462239583333334,
+  "evaluation_date": "2024-10-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2709
+}

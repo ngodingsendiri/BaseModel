@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-kavonalds-lancer-1-1b-instruct",
+  "model_id": "kavonalds/Lancer-1-1b-Instruct",
+  "benchmark_name": "gpqa",
+  "score": 1.5659955257270708,
+  "score_raw": 1.5659955257270708,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3860
+}

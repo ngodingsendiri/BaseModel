@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-daemontatox-aetherdrake-sft",
+  "model_id": "Daemontatox/AetherDrake-SFT",
+  "benchmark_name": "gpqa",
+  "score": 9.395973154362418,
+  "score_raw": 9.395973154362418,
+  "evaluation_date": "2024-12-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1111
+}

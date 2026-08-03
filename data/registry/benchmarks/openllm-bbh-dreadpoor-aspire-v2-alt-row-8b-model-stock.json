@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-aspire-v2-alt-row-8b-model-stock",
+  "model_id": "DreadPoor/Aspire_V2_ALT_ROW-8B-Model_Stock",
+  "benchmark_name": "bbh",
+  "score": 32.44516856104618,
+  "score_raw": 32.44516856104618,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1767
+}

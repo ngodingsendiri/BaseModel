@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-mrdayl-opencognito",
+  "model_id": "mrdayl/OpenCognito",
+  "benchmark_name": "bbh",
+  "score": 25.985835789865746,
+  "score_raw": 25.985835789865746,
+  "evaluation_date": "2025-03-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2731
+}

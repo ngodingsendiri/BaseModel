@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-mukaj-llama-3-1-hawkish-8b",
+  "model_id": "mukaj/Llama-3.1-Hawkish-8B",
+  "benchmark_name": "average",
+  "score": 26.581501102977555,
+  "score_raw": 26.581501102977555,
+  "evaluation_date": "2024-10-26",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1435
+}

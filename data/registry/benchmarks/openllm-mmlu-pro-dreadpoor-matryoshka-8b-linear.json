@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-matryoshka-8b-linear",
+  "model_id": "DreadPoor/Matryoshka-8B-LINEAR",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.839169621749413,
+  "score_raw": 31.839169621749413,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1416
+}

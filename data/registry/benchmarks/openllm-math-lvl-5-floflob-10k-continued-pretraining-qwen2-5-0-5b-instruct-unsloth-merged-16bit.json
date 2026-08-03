@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-floflob-10k-continued-pretraining-qwen2-5-0-5b-instruct-unsloth-merged-16bit",
+  "model_id": "FlofloB/10k_continued_pretraining_Qwen2.5-0.5B-Instruct_Unsloth_merged_16bit",
+  "benchmark_name": "math-lvl-5",
+  "score": 3.096676737160121,
+  "score_raw": 3.096676737160121,
+  "evaluation_date": "2024-11-25",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3673
+}

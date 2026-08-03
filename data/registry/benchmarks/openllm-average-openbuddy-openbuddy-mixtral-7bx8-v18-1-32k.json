@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-openbuddy-openbuddy-mixtral-7bx8-v18-1-32k",
+  "model_id": "OpenBuddy/openbuddy-mixtral-7bx8-v18.1-32k",
+  "benchmark_name": "average",
+  "score": 22.329808849468282,
+  "score_raw": 22.329808849468282,
+  "evaluation_date": "2024-02-12",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2236
+}

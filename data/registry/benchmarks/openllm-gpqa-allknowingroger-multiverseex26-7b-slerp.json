@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-allknowingroger-multiverseex26-7b-slerp",
+  "model_id": "allknowingroger/MultiverseEx26-7B-slerp",
+  "benchmark_name": "gpqa",
+  "score": 4.36241610738255,
+  "score_raw": 4.36241610738255,
+  "evaluation_date": "2024-03-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2850
+}

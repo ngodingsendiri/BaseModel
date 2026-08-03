@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-claudioitaly-albacus",
+  "model_id": "ClaudioItaly/Albacus",
+  "benchmark_name": "mmlu-pro",
+  "score": 24.054373522458626,
+  "score_raw": 24.054373522458626,
+  "evaluation_date": "2024-09-08",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2618
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-dreadpoor-untested-venn-1-2-8b-model-stock",
+  "model_id": "DreadPoor/UNTESTED-VENN_1.2-8B-Model_Stock",
+  "benchmark_name": "average",
+  "score": 25.474742716103354,
+  "score_raw": 25.474742716103354,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1580
+}

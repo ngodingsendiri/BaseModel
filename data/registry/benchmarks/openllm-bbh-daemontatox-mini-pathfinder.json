@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-daemontatox-mini-pathfinder",
+  "model_id": "Daemontatox/mini_Pathfinder",
+  "benchmark_name": "bbh",
+  "score": 16.03002789836758,
+  "score_raw": 16.03002789836758,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3454
+}

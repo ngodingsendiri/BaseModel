@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-cognitivecomputations-dolphin3-0-r1-mistral-24b",
+  "model_id": "cognitivecomputations/Dolphin3.0-R1-Mistral-24B",
+  "benchmark_name": "ifeval",
+  "score": 40.6816136739407,
+  "score_raw": 40.6816136739407,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2693
+}

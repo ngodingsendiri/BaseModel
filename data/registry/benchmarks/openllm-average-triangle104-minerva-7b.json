@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-triangle104-minerva-7b",
+  "model_id": "Triangle104/Minerva-7b",
+  "benchmark_name": "average",
+  "score": 26.501050696755055,
+  "score_raw": 26.501050696755055,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1442
+}

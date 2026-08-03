@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-rusted-platinum-8b-model-stock",
+  "model_id": "DreadPoor/Rusted_Platinum-8B-Model_Stock",
+  "benchmark_name": "bbh",
+  "score": 32.36931288487491,
+  "score_raw": 32.36931288487491,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1783
+}

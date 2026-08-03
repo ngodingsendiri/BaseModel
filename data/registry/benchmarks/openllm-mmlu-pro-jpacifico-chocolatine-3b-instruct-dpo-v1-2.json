@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-jpacifico-chocolatine-3b-instruct-dpo-v1-2",
+  "model_id": "jpacifico/Chocolatine-3B-Instruct-DPO-v1.2",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.96845449172577,
+  "score_raw": 31.96845449172577,
+  "evaluation_date": "2024-08-22",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1391
+}

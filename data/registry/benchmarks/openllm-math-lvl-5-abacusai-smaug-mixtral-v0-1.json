@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-abacusai-smaug-mixtral-v0-1",
+  "model_id": "abacusai/Smaug-Mixtral-v0.1",
+  "benchmark_name": "math-lvl-5",
+  "score": 9.516616314199396,
+  "score_raw": 9.516616314199396,
+  "evaluation_date": "2024-02-18",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2461
+}

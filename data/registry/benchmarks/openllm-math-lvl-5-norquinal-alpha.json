@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-norquinal-alpha",
+  "model_id": "Norquinal/Alpha",
+  "benchmark_name": "math-lvl-5",
+  "score": 5.740181268882175,
+  "score_raw": 5.740181268882175,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3107
+}

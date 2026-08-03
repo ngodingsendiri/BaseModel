@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-deepmount00-lexora-lite-3b-v2",
+  "model_id": "DeepMount00/Lexora-Lite-3B_v2",
+  "benchmark_name": "musr",
+  "score": 5.669531250000002,
+  "score_raw": 5.669531250000002,
+  "evaluation_date": "2024-09-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3311
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-t145-llama-3-1-8b-instruct-zeus",
+  "model_id": "T145/Llama-3.1-8B-Instruct-Zeus",
+  "benchmark_name": "ifeval",
+  "score": 79.41207108250552,
+  "score_raw": 79.41207108250552,
+  "evaluation_date": "2024-11-28",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 155
+}

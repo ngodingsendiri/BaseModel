@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-lyte-llama-3-1-8b-instruct-reasoner-1o1-v0-3",
+  "model_id": "Lyte/Llama-3.1-8B-Instruct-Reasoner-1o1_v0.3",
+  "benchmark_name": "math-lvl-5",
+  "score": 19.033232628398792,
+  "score_raw": 19.033232628398792,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1395
+}

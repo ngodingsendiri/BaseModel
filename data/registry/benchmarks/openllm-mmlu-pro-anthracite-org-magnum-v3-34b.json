@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-anthracite-org-magnum-v3-34b",
+  "model_id": "anthracite-org/magnum-v3-34b",
+  "benchmark_name": "mmlu-pro",
+  "score": 41.692523640661946,
+  "score_raw": 41.692523640661946,
+  "evaluation_date": "2024-08-22",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 627
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-matouleloup-ece-prymmal-0-5b-ft-enhancedmusrensemblev3",
+  "model_id": "matouLeLoup/ECE-PRYMMAL-0.5B-FT-EnhancedMUSREnsembleV3",
+  "benchmark_name": "bbh",
+  "score": 7.9185120409032566,
+  "score_raw": 7.9185120409032566,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3779
+}

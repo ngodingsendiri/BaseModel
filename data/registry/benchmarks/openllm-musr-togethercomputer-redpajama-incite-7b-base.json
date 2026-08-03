@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-togethercomputer-redpajama-incite-7b-base",
+  "model_id": "togethercomputer/RedPajama-INCITE-7B-Base",
+  "benchmark_name": "musr",
+  "score": 3.0166666666666657,
+  "score_raw": 3.0166666666666657,
+  "evaluation_date": "2023-05-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3926
+}

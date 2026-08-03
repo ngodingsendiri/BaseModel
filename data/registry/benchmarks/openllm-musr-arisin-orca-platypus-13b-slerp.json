@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-arisin-orca-platypus-13b-slerp",
+  "model_id": "arisin/orca-platypus-13B-slerp",
+  "benchmark_name": "musr",
+  "score": 11.864062500000003,
+  "score_raw": 11.864062500000003,
+  "evaluation_date": "2024-11-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1640
+}

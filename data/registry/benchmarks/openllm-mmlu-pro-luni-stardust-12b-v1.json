@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-luni-stardust-12b-v1",
+  "model_id": "Luni/StarDust-12b-v1",
+  "benchmark_name": "mmlu-pro",
+  "score": 26.797059692671393,
+  "score_raw": 26.797059692671393,
+  "evaluation_date": "2024-08-29",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2325
+}

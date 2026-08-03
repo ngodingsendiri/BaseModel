@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-bunnycore-llama-3-1-8b-titanfusion-mix",
+  "model_id": "bunnycore/Llama-3.1-8B-TitanFusion-Mix",
+  "benchmark_name": "bbh",
+  "score": 39.535483334813364,
+  "score_raw": 39.535483334813364,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 969
+}

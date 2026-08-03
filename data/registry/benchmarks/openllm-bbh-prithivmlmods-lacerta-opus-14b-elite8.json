@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-prithivmlmods-lacerta-opus-14b-elite8",
+  "model_id": "prithivMLmods/Lacerta-Opus-14B-Elite8",
+  "benchmark_name": "bbh",
+  "score": 48.182387387883786,
+  "score_raw": 48.182387387883786,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 541
+}

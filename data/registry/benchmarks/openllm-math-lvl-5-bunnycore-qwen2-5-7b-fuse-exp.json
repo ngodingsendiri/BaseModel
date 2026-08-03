@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-bunnycore-qwen2-5-7b-fuse-exp",
+  "model_id": "bunnycore/Qwen2.5-7B-Fuse-Exp",
+  "benchmark_name": "math-lvl-5",
+  "score": 31.419939577039273,
+  "score_raw": 31.419939577039273,
+  "evaluation_date": "2025-03-12",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 778
+}

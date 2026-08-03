@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-heraihench-deepseek-r1-qwen-coder-8b",
+  "model_id": "HeraiHench/DeepSeek-R1-Qwen-Coder-8B",
+  "benchmark_name": "ifeval",
+  "score": 18.69472998311148,
+  "score_raw": 18.69472998311148,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4103
+}

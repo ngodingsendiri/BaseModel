@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-nousresearch-nous-hermes-2-solar-10-7b",
+  "model_id": "NousResearch/Nous-Hermes-2-SOLAR-10.7B",
+  "benchmark_name": "mmlu-pro",
+  "score": 27.314199172576835,
+  "score_raw": 27.314199172576835,
+  "evaluation_date": "2024-01-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2277
+}

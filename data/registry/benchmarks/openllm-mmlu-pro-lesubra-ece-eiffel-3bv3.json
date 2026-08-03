@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-lesubra-ece-eiffel-3bv3",
+  "model_id": "lesubra/ECE-EIFFEL-3Bv3",
+  "benchmark_name": "mmlu-pro",
+  "score": 33.05814125295508,
+  "score_raw": 33.05814125295508,
+  "evaluation_date": "2024-10-07",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1225
+}

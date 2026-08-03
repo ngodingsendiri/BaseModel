@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-cultrix-qwen2-5-14b-reasoningmerge",
+  "model_id": "CultriX/Qwen2.5-14B-ReasoningMerge",
+  "benchmark_name": "average",
+  "score": 40.645885900911715,
+  "score_raw": 40.645885900911715,
+  "evaluation_date": "2025-02-18",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 224
+}

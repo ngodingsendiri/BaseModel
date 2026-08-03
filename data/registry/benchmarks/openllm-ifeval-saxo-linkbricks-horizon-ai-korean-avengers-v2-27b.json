@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-saxo-linkbricks-horizon-ai-korean-avengers-v2-27b",
+  "model_id": "Saxo/Linkbricks-Horizon-AI-Korean-Avengers-V2-27B",
+  "benchmark_name": "ifeval",
+  "score": 81.45786513118526,
+  "score_raw": 81.45786513118526,
+  "evaluation_date": "2024-12-29",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 64
+}

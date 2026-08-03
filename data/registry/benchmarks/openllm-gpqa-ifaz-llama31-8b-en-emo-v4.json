@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-ifaz-llama31-8b-en-emo-v4",
+  "model_id": "iFaz/llama31_8B_en_emo_v4",
+  "benchmark_name": "gpqa",
+  "score": 6.263982102908276,
+  "score_raw": 6.263982102908276,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2167
+}

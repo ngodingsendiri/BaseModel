@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-nohobby-ms-schisandra-22b-v0-1",
+  "model_id": "Nohobby/MS-Schisandra-22B-v0.1",
+  "benchmark_name": "musr",
+  "score": 9.70546875,
+  "score_raw": 9.70546875,
+  "evaluation_date": "2024-10-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2385
+}

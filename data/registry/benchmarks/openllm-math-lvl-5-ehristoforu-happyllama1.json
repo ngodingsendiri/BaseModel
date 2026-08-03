@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-ehristoforu-happyllama1",
+  "model_id": "ehristoforu/HappyLlama1",
+  "benchmark_name": "math-lvl-5",
+  "score": 14.274924471299094,
+  "score_raw": 14.274924471299094,
+  "evaluation_date": "2024-11-29",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1788
+}

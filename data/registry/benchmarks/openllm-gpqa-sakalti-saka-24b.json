@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-sakalti-saka-24b",
+  "model_id": "Sakalti/Saka-24B",
+  "benchmark_name": "gpqa",
+  "score": 12.304250559284117,
+  "score_raw": 12.304250559284117,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 676
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-qwen-qwen2-5-coder-14b",
+  "model_id": "Qwen/Qwen2.5-Coder-14B",
+  "benchmark_name": "bbh",
+  "score": 40.52300211536303,
+  "score_raw": 40.52300211536303,
+  "evaluation_date": "2024-11-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 941
+}

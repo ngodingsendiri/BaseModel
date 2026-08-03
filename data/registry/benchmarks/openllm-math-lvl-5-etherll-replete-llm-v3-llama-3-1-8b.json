@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-etherll-replete-llm-v3-llama-3-1-8b",
+  "model_id": "Etherll/Replete-LLM-V3-Llama-3.1-8b",
+  "benchmark_name": "math-lvl-5",
+  "score": 22.734138972809667,
+  "score_raw": 22.734138972809667,
+  "evaluation_date": "2024-08-24",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1086
+}

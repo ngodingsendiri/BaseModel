@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-supichi-bbai-135-gemma",
+  "model_id": "Supichi/BBAI_135_Gemma",
+  "benchmark_name": "math-lvl-5",
+  "score": 0,
+  "score_raw": 0,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4489
+}

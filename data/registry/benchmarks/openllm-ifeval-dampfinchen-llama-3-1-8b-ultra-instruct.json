@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-dampfinchen-llama-3-1-8b-ultra-instruct",
+  "model_id": "Dampfinchen/Llama-3.1-8B-Ultra-Instruct",
+  "benchmark_name": "ifeval",
+  "score": 80.81091503876381,
+  "score_raw": 80.81091503876381,
+  "evaluation_date": "2024-08-26",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 84
+}

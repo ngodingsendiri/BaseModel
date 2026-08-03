@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-condensed-milk-8b-model-stock",
+  "model_id": "DreadPoor/Condensed_Milk-8B-Model_Stock",
+  "benchmark_name": "gpqa",
+  "score": 9.507829977628639,
+  "score_raw": 9.507829977628639,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1083
+}

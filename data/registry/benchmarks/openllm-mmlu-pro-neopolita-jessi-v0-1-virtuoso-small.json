@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-neopolita-jessi-v0-1-virtuoso-small",
+  "model_id": "neopolita/jessi-v0.1-virtuoso-small",
+  "benchmark_name": "mmlu-pro",
+  "score": 45.885047281323885,
+  "score_raw": 45.885047281323885,
+  "evaluation_date": "2025-01-15",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 506
+}

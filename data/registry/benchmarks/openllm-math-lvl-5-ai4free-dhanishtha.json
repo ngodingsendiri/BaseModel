@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-ai4free-dhanishtha",
+  "model_id": "AI4free/Dhanishtha",
+  "benchmark_name": "math-lvl-5",
+  "score": 25.604229607250755,
+  "score_raw": 25.604229607250755,
+  "evaluation_date": "2025-02-19",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 975
+}

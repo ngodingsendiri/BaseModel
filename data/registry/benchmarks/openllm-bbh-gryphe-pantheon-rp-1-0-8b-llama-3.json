@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-gryphe-pantheon-rp-1-0-8b-llama-3",
+  "model_id": "Gryphe/Pantheon-RP-1.0-8b-Llama-3",
+  "benchmark_name": "bbh",
+  "score": 23.631914688111305,
+  "score_raw": 23.631914688111305,
+  "evaluation_date": "2024-05-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2937
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-youlln-3prymmal-phi3-3b-slerp",
+  "model_id": "Youlln/3PRYMMAL-PHI3-3B-SLERP",
+  "benchmark_name": "ifeval",
+  "score": 36.555007380417294,
+  "score_raw": 36.555007380417294,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2958
+}

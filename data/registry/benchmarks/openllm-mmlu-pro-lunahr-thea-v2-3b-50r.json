@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-lunahr-thea-v2-3b-50r",
+  "model_id": "lunahr/thea-v2-3b-50r",
+  "benchmark_name": "mmlu-pro",
+  "score": 15.660091607565011,
+  "score_raw": 15.660091607565011,
+  "evaluation_date": "2024-12-13",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3441
+}

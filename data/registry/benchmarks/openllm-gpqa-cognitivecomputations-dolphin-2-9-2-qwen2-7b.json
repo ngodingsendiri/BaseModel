@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-cognitivecomputations-dolphin-2-9-2-qwen2-7b",
+  "model_id": "cognitivecomputations/dolphin-2.9.2-qwen2-7b",
+  "benchmark_name": "gpqa",
+  "score": 5.369127516778524,
+  "score_raw": 5.369127516778524,
+  "evaluation_date": "2024-05-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2514
+}

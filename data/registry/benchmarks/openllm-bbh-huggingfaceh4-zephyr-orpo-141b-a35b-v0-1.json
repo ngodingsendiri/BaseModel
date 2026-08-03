@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-huggingfaceh4-zephyr-orpo-141b-a35b-v0-1",
+  "model_id": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+  "benchmark_name": "bbh",
+  "score": 47.503796286541196,
+  "score_raw": 47.503796286541196,
+  "evaluation_date": "2024-04-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 576
+}

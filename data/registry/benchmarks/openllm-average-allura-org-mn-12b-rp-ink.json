@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-allura-org-mn-12b-rp-ink",
+  "model_id": "allura-org/MN-12b-RP-Ink",
+  "benchmark_name": "average",
+  "score": 24.976661361688898,
+  "score_raw": 24.976661361688898,
+  "evaluation_date": "2024-12-25",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1636
+}

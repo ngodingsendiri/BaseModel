@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-microsoft-phi-3-5-mini-instruct",
+  "model_id": "microsoft/Phi-3.5-mini-instruct",
+  "benchmark_name": "musr",
+  "score": 10.098958333333334,
+  "score_raw": 10.098958333333334,
+  "evaluation_date": "2024-08-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2264
+}

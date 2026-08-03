@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-prithivmlmods-primal-opus-14b-optimus-v2",
+  "model_id": "prithivMLmods/Primal-Opus-14B-Optimus-v2",
+  "benchmark_name": "math-lvl-5",
+  "score": 42.06948640483384,
+  "score_raw": 42.06948640483384,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 383
+}

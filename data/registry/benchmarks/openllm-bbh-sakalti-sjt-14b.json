@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-sakalti-sjt-14b",
+  "model_id": "Sakalti/SJT-14B",
+  "benchmark_name": "bbh",
+  "score": 49.99070835617017,
+  "score_raw": 49.99070835617017,
+  "evaluation_date": "2025-01-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 384
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-neversleep-lumimaid-v0-2-8b",
+  "model_id": "NeverSleep/Lumimaid-v0.2-8B",
+  "benchmark_name": "gpqa",
+  "score": 8.165548098434002,
+  "score_raw": 8.165548098434002,
+  "evaluation_date": "2024-07-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1427
+}

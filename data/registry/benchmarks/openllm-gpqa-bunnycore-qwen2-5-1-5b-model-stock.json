@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-bunnycore-qwen2-5-1-5b-model-stock",
+  "model_id": "bunnycore/Qwen2.5-1.5B-Model-Stock",
+  "benchmark_name": "gpqa",
+  "score": 1.230425055928408,
+  "score_raw": 1.230425055928408,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4026
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-allura-org-teleut-7b",
+  "model_id": "allura-org/Teleut-7b",
+  "benchmark_name": "mmlu-pro",
+  "score": 34.785017730496456,
+  "score_raw": 34.785017730496456,
+  "evaluation_date": "2024-11-24",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1129
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-kms7530-chemeng-phi-3-mini-4k-instruct-bnb-4bit-16-4-100-1-nonmath",
+  "model_id": "kms7530/chemeng_phi-3-mini-4k-instruct-bnb-4bit_16_4_100_1_nonmath",
+  "benchmark_name": "average",
+  "score": 22.110300080411182,
+  "score_raw": 22.110300080411182,
+  "evaluation_date": "2024-11-23",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2263
+}

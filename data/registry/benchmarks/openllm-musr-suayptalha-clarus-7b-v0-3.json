@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-suayptalha-clarus-7b-v0-3",
+  "model_id": "suayptalha/Clarus-7B-v0.3",
+  "benchmark_name": "musr",
+  "score": 14.428645833333336,
+  "score_raw": 14.428645833333336,
+  "evaluation_date": "2025-02-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 957
+}

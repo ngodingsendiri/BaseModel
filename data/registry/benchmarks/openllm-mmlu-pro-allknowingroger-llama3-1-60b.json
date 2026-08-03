@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-allknowingroger-llama3-1-60b",
+  "model_id": "allknowingroger/Llama3.1-60B",
+  "benchmark_name": "mmlu-pro",
+  "score": 25.67043439716312,
+  "score_raw": 25.67043439716312,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2445
+}

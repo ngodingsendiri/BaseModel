@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-sethuiyer-llama-3-1-8b-experimental-1208-instruct",
+  "model_id": "sethuiyer/Llama-3.1-8B-Experimental-1208-Instruct",
+  "benchmark_name": "gpqa",
+  "score": 6.152125279642054,
+  "score_raw": 6.152125279642054,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2228
+}

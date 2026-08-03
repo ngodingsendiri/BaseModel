@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-princeton-nlp-llama-3-base-8b-sft-simpo",
+  "model_id": "princeton-nlp/Llama-3-Base-8B-SFT-SimPO",
+  "benchmark_name": "bbh",
+  "score": 26.39594961870209,
+  "score_raw": 26.39594961870209,
+  "evaluation_date": "2024-05-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2681
+}

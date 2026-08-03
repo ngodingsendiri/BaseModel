@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-saisexperiments-not-so-small-alpaca-24b",
+  "model_id": "SaisExperiments/Not-So-Small-Alpaca-24B",
+  "benchmark_name": "ifeval",
+  "score": 62.436113955416076,
+  "score_raw": 62.436113955416076,
+  "evaluation_date": "2025-02-07",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1155
+}

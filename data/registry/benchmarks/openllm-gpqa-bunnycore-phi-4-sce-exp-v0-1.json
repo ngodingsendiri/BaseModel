@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-bunnycore-phi-4-sce-exp-v0-1",
+  "model_id": "bunnycore/Phi-4-Sce-exp-v0.1",
+  "benchmark_name": "gpqa",
+  "score": 11.409395973154364,
+  "score_raw": 11.409395973154364,
+  "evaluation_date": "2025-02-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 784
+}

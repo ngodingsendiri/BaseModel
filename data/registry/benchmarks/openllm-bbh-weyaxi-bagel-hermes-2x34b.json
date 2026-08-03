@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-weyaxi-bagel-hermes-2x34b",
+  "model_id": "Weyaxi/Bagel-Hermes-2x34B",
+  "benchmark_name": "bbh",
+  "score": 27.409031445428763,
+  "score_raw": 27.409031445428763,
+  "evaluation_date": "2024-01-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2575
+}

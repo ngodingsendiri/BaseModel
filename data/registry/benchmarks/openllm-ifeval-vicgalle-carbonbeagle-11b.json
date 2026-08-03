@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-vicgalle-carbonbeagle-11b",
+  "model_id": "vicgalle/CarbonBeagle-11B",
+  "benchmark_name": "ifeval",
+  "score": 54.152980757722844,
+  "score_raw": 54.152980757722844,
+  "evaluation_date": "2024-01-21",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1590
+}

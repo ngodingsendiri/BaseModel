@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-cultrix-qwen2-5-14b-finalmerge",
+  "model_id": "CultriX/Qwen2.5-14B-FinalMerge",
+  "benchmark_name": "bbh",
+  "score": 38.16247948342354,
+  "score_raw": 38.16247948342354,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1004
+}

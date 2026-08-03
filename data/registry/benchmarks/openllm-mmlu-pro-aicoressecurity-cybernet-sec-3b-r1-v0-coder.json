@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-aicoressecurity-cybernet-sec-3b-r1-v0-coder",
+  "model_id": "AicoresSecurity/Cybernet-Sec-3B-R1-V0-Coder",
+  "benchmark_name": "mmlu-pro",
+  "score": 24.202127659574465,
+  "score_raw": 24.202127659574465,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2598
+}

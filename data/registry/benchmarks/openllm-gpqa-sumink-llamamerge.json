@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-sumink-llamamerge",
+  "model_id": "sumink/llamamerge",
+  "benchmark_name": "gpqa",
+  "score": 6.487695749440718,
+  "score_raw": 6.487695749440718,
+  "evaluation_date": "2025-01-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2094
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-davidau-deephermes-3-llama-3-8b-preview-16-5b-brainstorm",
+  "model_id": "DavidAU/DeepHermes-3-Llama-3-8B-Preview-16.5B-Brainstorm",
+  "benchmark_name": "average",
+  "score": 18.4525815482333,
+  "score_raw": 18.4525815482333,
+  "evaluation_date": "2025-02-21",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2891
+}

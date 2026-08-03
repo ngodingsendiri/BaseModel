@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-pjmixers-dev-llama-3-1-instruct-interleaved-zeroed-13b",
+  "model_id": "PJMixers-Dev/LLaMa-3.1-Instruct-Interleaved-Zeroed-13B",
+  "benchmark_name": "average",
+  "score": 28.894562181103485,
+  "score_raw": 28.894562181103485,
+  "evaluation_date": "2024-12-18",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1196
+}

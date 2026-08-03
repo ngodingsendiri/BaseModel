@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-pjmixers-dev-qwen2-5-rombotiestest-7b",
+  "model_id": "PJMixers-Dev/Qwen2.5-RomboTiesTest-7B",
+  "benchmark_name": "musr",
+  "score": 8.720572916666669,
+  "score_raw": 8.720572916666669,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2643
+}

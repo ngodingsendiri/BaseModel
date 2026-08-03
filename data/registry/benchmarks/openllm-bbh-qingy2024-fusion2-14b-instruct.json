@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-qingy2024-fusion2-14b-instruct",
+  "model_id": "qingy2024/Fusion2-14B-Instruct",
+  "benchmark_name": "bbh",
+  "score": 44.76704383085473,
+  "score_raw": 44.76704383085473,
+  "evaluation_date": "2024-12-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 687
+}

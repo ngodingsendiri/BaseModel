@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-allknowingroger-rombos-llm-v2-5-qwen-42b",
+  "model_id": "allknowingroger/Rombos-LLM-V2.5-Qwen-42b",
+  "benchmark_name": "gpqa",
+  "score": 1.6778523489932917,
+  "score_raw": 1.6778523489932917,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3812
+}

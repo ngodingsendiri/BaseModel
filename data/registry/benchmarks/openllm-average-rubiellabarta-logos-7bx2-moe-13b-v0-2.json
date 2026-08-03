@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-rubiellabarta-logos-7bx2-moe-13b-v0-2",
+  "model_id": "RubielLabarta/LogoS-7Bx2-MoE-13B-v0.2",
+  "benchmark_name": "average",
+  "score": 20.11738926127926,
+  "score_raw": 20.11738926127926,
+  "evaluation_date": "2024-01-21",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2665
+}

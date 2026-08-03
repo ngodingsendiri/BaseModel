@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-thedrunkensnail-son-of-rhodia",
+  "model_id": "TheDrunkenSnail/Son-of-Rhodia",
+  "benchmark_name": "bbh",
+  "score": 30.222057252119924,
+  "score_raw": 30.222057252119924,
+  "evaluation_date": "2024-12-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2166
+}

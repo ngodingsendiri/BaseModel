@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-meta-llama-llama-3-3-70b-instruct",
+  "model_id": "meta-llama/Llama-3.3-70B-Instruct",
+  "benchmark_name": "musr",
+  "score": 15.565624999999999,
+  "score_raw": 15.565624999999999,
+  "evaluation_date": "2024-11-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 754
+}

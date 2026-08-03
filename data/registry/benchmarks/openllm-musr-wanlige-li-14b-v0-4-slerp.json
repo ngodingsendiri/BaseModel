@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-wanlige-li-14b-v0-4-slerp",
+  "model_id": "wanlige/li-14b-v0.4-slerp",
+  "benchmark_name": "musr",
+  "score": 19.127083333333335,
+  "score_raw": 19.127083333333335,
+  "evaluation_date": "2025-02-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 329
+}

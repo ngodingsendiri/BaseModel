@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sumink-somer2",
+  "model_id": "sumink/somer2",
+  "benchmark_name": "average",
+  "score": 20.03735671593734,
+  "score_raw": 20.03735671593734,
+  "evaluation_date": "2025-01-15",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2675
+}

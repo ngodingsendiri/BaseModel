@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-ksu-hw-sec-llama3-1-70b-sva-ft-1000step",
+  "model_id": "KSU-HW-SEC/Llama3.1-70b-SVA-FT-1000step",
+  "benchmark_name": "gpqa",
+  "score": 19.463087248322143,
+  "score_raw": 19.463087248322143,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 57
+}

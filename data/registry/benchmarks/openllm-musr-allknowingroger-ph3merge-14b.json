@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-allknowingroger-ph3merge-14b",
+  "model_id": "allknowingroger/Ph3merge-14B",
+  "benchmark_name": "musr",
+  "score": 13.279687500000001,
+  "score_raw": 13.279687500000001,
+  "evaluation_date": "2024-08-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1216
+}

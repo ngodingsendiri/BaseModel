@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-pinkstack-superthoughts-lite-1-8b-experimental-o1",
+  "model_id": "Pinkstack/Superthoughts-lite-1.8B-experimental-o1",
+  "benchmark_name": "average",
+  "score": 5.104091175053128,
+  "score_raw": 5.104091175053128,
+  "evaluation_date": "2025-01-31",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4277
+}

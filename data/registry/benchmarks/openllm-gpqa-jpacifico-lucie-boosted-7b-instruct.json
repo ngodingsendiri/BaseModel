@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-jpacifico-lucie-boosted-7b-instruct",
+  "model_id": "jpacifico/Lucie-Boosted-7B-Instruct",
+  "benchmark_name": "gpqa",
+  "score": 2.2371364653243813,
+  "score_raw": 2.2371364653243813,
+  "evaluation_date": "2025-01-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3598
+}

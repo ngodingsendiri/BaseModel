@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-yuvraj17-llama3-8b-supernova-spectrum-hermes-dpo",
+  "model_id": "yuvraj17/Llama3-8B-SuperNova-Spectrum-Hermes-DPO",
+  "benchmark_name": "bbh",
+  "score": 21.238562899271304,
+  "score_raw": 21.238562899271304,
+  "evaluation_date": "2024-09-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3123
+}

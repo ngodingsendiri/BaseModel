@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-t145-kronos-8b-v8",
+  "model_id": "T145/KRONOS-8B-V8",
+  "benchmark_name": "average",
+  "score": 28.793303577270123,
+  "score_raw": 28.793303577270123,
+  "evaluation_date": "2025-02-01",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1209
+}

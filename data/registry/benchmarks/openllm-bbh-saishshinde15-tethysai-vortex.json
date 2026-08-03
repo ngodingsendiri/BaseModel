@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-saishshinde15-tethysai-vortex",
+  "model_id": "saishshinde15/TethysAI_Vortex",
+  "benchmark_name": "bbh",
+  "score": 26.91431404565564,
+  "score_raw": 26.91431404565564,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2627
+}

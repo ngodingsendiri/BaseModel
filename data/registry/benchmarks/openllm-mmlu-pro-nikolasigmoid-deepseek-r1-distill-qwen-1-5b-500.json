@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-nikolasigmoid-deepseek-r1-distill-qwen-1-5b-500",
+  "model_id": "NikolaSigmoid/DeepSeek-R1-Distill-Qwen-1.5B-500",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.383348108747044,
+  "score_raw": 1.383348108747044,
+  "evaluation_date": "2025-03-04",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4388
+}

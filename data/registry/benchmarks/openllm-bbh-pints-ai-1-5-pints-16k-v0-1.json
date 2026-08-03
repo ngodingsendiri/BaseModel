@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-pints-ai-1-5-pints-16k-v0-1",
+  "model_id": "pints-ai/1.5-Pints-16K-v0.1",
+  "benchmark_name": "bbh",
+  "score": 3.658292060342125,
+  "score_raw": 3.658292060342125,
+  "evaluation_date": "2024-08-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4234
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-google-gemma-7b-it",
+  "model_id": "google/gemma-7b-it",
+  "benchmark_name": "gpqa",
+  "score": 4.5861297539149914,
+  "score_raw": 4.5861297539149914,
+  "evaluation_date": "2024-02-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2767
+}

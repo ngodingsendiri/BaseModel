@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-lemon07r-llama-3-redmagic4-8b",
+  "model_id": "lemon07r/Llama-3-RedMagic4-8B",
+  "benchmark_name": "musr",
+  "score": 4.379427083333333,
+  "score_raw": 4.379427083333333,
+  "evaluation_date": "2024-06-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3590
+}

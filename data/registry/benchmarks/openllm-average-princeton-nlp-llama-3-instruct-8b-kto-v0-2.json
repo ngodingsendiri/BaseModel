@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-princeton-nlp-llama-3-instruct-8b-kto-v0-2",
+  "model_id": "princeton-nlp/Llama-3-Instruct-8B-KTO-v0.2",
+  "benchmark_name": "average",
+  "score": 24.659390077356022,
+  "score_raw": 24.659390077356022,
+  "evaluation_date": "2024-07-06",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1678
+}

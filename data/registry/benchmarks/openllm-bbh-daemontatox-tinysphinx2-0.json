@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-daemontatox-tinysphinx2-0",
+  "model_id": "Daemontatox/TinySphinx2.0",
+  "benchmark_name": "bbh",
+  "score": 5.004028710418718,
+  "score_raw": 5.004028710418718,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4110
+}

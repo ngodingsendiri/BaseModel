@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-supichi-bbai-525-tsu-gz-xia0",
+  "model_id": "Supichi/BBAI_525_Tsu_gZ_Xia0",
+  "benchmark_name": "ifeval",
+  "score": 53.386126588562796,
+  "score_raw": 53.386126588562796,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1650
+}

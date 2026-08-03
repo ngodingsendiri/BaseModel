@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-sonthenguyen-ft-unsloth-zephyr-sft-bnb-4bit-20241014-161415",
+  "model_id": "sonthenguyen/ft-unsloth-zephyr-sft-bnb-4bit-20241014-161415",
+  "benchmark_name": "bbh",
+  "score": 12.789212309485556,
+  "score_raw": 12.789212309485556,
+  "evaluation_date": "2024-10-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3583
+}

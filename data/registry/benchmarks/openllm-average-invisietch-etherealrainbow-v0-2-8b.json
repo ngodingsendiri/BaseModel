@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-invisietch-etherealrainbow-v0-2-8b",
+  "model_id": "invisietch/EtherealRainbow-v0.2-8B",
+  "benchmark_name": "average",
+  "score": 20.106576639387253,
+  "score_raw": 20.106576639387253,
+  "evaluation_date": "2024-06-12",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2667
+}

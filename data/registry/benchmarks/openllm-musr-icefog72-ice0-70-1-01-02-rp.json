@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-icefog72-ice0-70-1-01-02-rp",
+  "model_id": "icefog72/Ice0.70.1-01.02-RP",
+  "benchmark_name": "musr",
+  "score": 17.456249999999997,
+  "score_raw": 17.456249999999997,
+  "evaluation_date": "2025-02-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 518
+}

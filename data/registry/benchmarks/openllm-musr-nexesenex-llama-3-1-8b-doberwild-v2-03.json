@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-nexesenex-llama-3-1-8b-doberwild-v2-03",
+  "model_id": "Nexesenex/Llama_3.1_8b_DoberWild_v2.03",
+  "benchmark_name": "musr",
+  "score": 9.989583333333336,
+  "score_raw": 9.989583333333336,
+  "evaluation_date": "2025-02-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2294
+}

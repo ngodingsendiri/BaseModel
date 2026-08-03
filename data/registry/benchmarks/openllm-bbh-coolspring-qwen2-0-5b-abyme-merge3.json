@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-coolspring-qwen2-0-5b-abyme-merge3",
+  "model_id": "CoolSpring/Qwen2-0.5B-Abyme-merge3",
+  "benchmark_name": "bbh",
+  "score": 4.301149162861492,
+  "score_raw": 4.301149162861492,
+  "evaluation_date": "2024-07-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4183
+}

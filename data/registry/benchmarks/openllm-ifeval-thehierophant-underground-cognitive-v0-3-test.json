@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-thehierophant-underground-cognitive-v0-3-test",
+  "model_id": "TheHierophant/Underground-Cognitive-V0.3-test",
+  "benchmark_name": "ifeval",
+  "score": 48.08297539417634,
+  "score_raw": 48.08297539417634,
+  "evaluation_date": "2024-11-22",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2003
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-jpacifico-chocolatine-3b-instruct-dpo-revised",
+  "model_id": "jpacifico/Chocolatine-3B-Instruct-DPO-Revised",
+  "benchmark_name": "ifeval",
+  "score": 56.226257441366684,
+  "score_raw": 56.226257441366684,
+  "evaluation_date": "2024-07-17",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1443
+}

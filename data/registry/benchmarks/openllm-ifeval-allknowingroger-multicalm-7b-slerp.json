@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-allknowingroger-multicalm-7b-slerp",
+  "model_id": "allknowingroger/MultiCalm-7B-slerp",
+  "benchmark_name": "ifeval",
+  "score": 39.26526061960044,
+  "score_raw": 39.26526061960044,
+  "evaluation_date": "2024-05-19",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2778
+}

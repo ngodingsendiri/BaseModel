@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-vicgalle-humanish-rp-llama-3-1-8b",
+  "model_id": "vicgalle/Humanish-RP-Llama-3.1-8B",
+  "benchmark_name": "math-lvl-5",
+  "score": 15.181268882175228,
+  "score_raw": 15.181268882175228,
+  "evaluation_date": "2024-08-03",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1723
+}

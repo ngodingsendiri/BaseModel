@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-ucla-agi-llama-3-instruct-8b-sppo-iter2",
+  "model_id": "UCLA-AGI/Llama-3-Instruct-8B-SPPO-Iter2",
+  "benchmark_name": "bbh",
+  "score": 29.86944932809155,
+  "score_raw": 29.86944932809155,
+  "evaluation_date": "2024-06-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2226
+}

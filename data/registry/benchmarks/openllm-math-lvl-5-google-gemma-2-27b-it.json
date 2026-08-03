@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-google-gemma-2-27b-it",
+  "model_id": "google/gemma-2-27b-it",
+  "benchmark_name": "math-lvl-5",
+  "score": 23.867069486404834,
+  "score_raw": 23.867069486404834,
+  "evaluation_date": "2024-06-24",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1035
+}

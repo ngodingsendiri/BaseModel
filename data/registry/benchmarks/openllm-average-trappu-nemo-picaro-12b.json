@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-trappu-nemo-picaro-12b",
+  "model_id": "Trappu/Nemo-Picaro-12B",
+  "benchmark_name": "average",
+  "score": 21.362492548877267,
+  "score_raw": 21.362492548877267,
+  "evaluation_date": "2024-09-10",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2419
+}

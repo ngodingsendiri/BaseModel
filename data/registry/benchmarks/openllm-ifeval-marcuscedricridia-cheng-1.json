@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-marcuscedricridia-cheng-1",
+  "model_id": "marcuscedricridia/Cheng-1",
+  "benchmark_name": "ifeval",
+  "score": 77.88833628106758,
+  "score_raw": 77.88833628106758,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 274
+}

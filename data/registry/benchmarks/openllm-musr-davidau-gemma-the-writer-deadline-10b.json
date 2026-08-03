@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-davidau-gemma-the-writer-deadline-10b",
+  "model_id": "DavidAU/Gemma-The-Writer-DEADLINE-10B",
+  "benchmark_name": "musr",
+  "score": 10.79140625,
+  "score_raw": 10.79140625,
+  "evaluation_date": "2024-10-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2045
+}

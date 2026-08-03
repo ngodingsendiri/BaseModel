@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-netcat420-mfannv0-24",
+  "model_id": "netcat420/MFANNv0.24",
+  "benchmark_name": "math-lvl-5",
+  "score": 6.117824773413897,
+  "score_raw": 6.117824773413897,
+  "evaluation_date": "2024-11-07",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3038
+}

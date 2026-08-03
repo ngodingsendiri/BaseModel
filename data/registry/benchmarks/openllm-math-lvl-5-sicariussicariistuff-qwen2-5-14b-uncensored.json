@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sicariussicariistuff-qwen2-5-14b-uncensored",
+  "model_id": "SicariusSicariiStuff/Qwen2.5-14B_Uncensored",
+  "benchmark_name": "math-lvl-5",
+  "score": 31.797583081570995,
+  "score_raw": 31.797583081570995,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 763
+}

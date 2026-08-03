@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-epiculous-azure-dusk-v0-2",
+  "model_id": "Epiculous/Azure_Dusk-v0.2",
+  "benchmark_name": "bbh",
+  "score": 17.396414392379338,
+  "score_raw": 17.396414392379338,
+  "evaluation_date": "2024-09-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3381
+}

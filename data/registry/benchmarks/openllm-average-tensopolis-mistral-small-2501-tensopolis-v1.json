@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-tensopolis-mistral-small-2501-tensopolis-v1",
+  "model_id": "tensopolis/mistral-small-2501-tensopolis-v1",
+  "benchmark_name": "average",
+  "score": 39.245150466059876,
+  "score_raw": 39.245150466059876,
+  "evaluation_date": "2025-02-08",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 326
+}

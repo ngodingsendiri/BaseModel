@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-maldv-badger-lambda-llama-3-8b",
+  "model_id": "maldv/badger-lambda-llama-3-8b",
+  "benchmark_name": "math-lvl-5",
+  "score": 9.441087613293051,
+  "score_raw": 9.441087613293051,
+  "evaluation_date": "2024-06-10",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2473
+}

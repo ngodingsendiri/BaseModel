@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-icefog72-ice0-54-17-01-rp",
+  "model_id": "icefog72/Ice0.54-17.01-RP",
+  "benchmark_name": "gpqa",
+  "score": 7.941834451901568,
+  "score_raw": 7.941834451901568,
+  "evaluation_date": "2025-01-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1513
+}

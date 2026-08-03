@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-google-flan-t5-small",
+  "model_id": "google/flan-t5-small",
+  "benchmark_name": "mmlu-pro",
+  "score": 2.5930851063829774,
+  "score_raw": 2.5930851063829774,
+  "evaluation_date": "2022-10-21",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4104
+}

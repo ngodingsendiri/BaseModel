@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-win10-norns-qwen2-5-12b",
+  "model_id": "win10/Norns-Qwen2.5-12B",
+  "benchmark_name": "gpqa",
+  "score": 4.4742729306487705,
+  "score_raw": 4.4742729306487705,
+  "evaluation_date": "2024-11-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2823
+}

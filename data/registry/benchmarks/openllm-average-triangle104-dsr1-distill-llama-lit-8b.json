@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-triangle104-dsr1-distill-llama-lit-8b",
+  "model_id": "Triangle104/DSR1-Distill-Llama-Lit-8B",
+  "benchmark_name": "average",
+  "score": 17.835032823738523,
+  "score_raw": 17.835032823738523,
+  "evaluation_date": "2025-02-09",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2970
+}

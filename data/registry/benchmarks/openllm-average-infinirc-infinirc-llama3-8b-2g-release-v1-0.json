@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-infinirc-infinirc-llama3-8b-2g-release-v1-0",
+  "model_id": "Infinirc/Infinirc-Llama3-8B-2G-Release-v1.0",
+  "benchmark_name": "average",
+  "score": 13.16266165602399,
+  "score_raw": 13.16266165602399,
+  "evaluation_date": "2024-06-26",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3502
+}

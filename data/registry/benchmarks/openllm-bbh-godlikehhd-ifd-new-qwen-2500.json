@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-godlikehhd-ifd-new-qwen-2500",
+  "model_id": "godlikehhd/ifd_new_qwen_2500",
+  "benchmark_name": "bbh",
+  "score": 17.63795023834911,
+  "score_raw": 17.63795023834911,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3353
+}

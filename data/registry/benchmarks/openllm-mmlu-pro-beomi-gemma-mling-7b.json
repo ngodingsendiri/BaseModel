@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-beomi-gemma-mling-7b",
+  "model_id": "beomi/gemma-mling-7b",
+  "benchmark_name": "mmlu-pro",
+  "score": 18.144208037825056,
+  "score_raw": 18.144208037825056,
+  "evaluation_date": "2024-04-15",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3302
+}

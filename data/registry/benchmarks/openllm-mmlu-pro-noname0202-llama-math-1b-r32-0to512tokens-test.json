@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-noname0202-llama-math-1b-r32-0to512tokens-test",
+  "model_id": "noname0202/llama-math-1b-r32-0to512tokens-test",
+  "benchmark_name": "mmlu-pro",
+  "score": 8.447842789598107,
+  "score_raw": 8.447842789598107,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3704
+}

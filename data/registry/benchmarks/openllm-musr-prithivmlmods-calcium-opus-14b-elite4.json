@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-prithivmlmods-calcium-opus-14b-elite4",
+  "model_id": "prithivMLmods/Calcium-Opus-14B-Elite4",
+  "benchmark_name": "musr",
+  "score": 17.68984375,
+  "score_raw": 17.68984375,
+  "evaluation_date": "2025-01-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 492
+}

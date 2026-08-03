@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-eva-unit-01-eva-qwen2-5-72b-v0-2",
+  "model_id": "EVA-UNIT-01/EVA-Qwen2.5-72B-v0.2",
+  "benchmark_name": "mmlu-pro",
+  "score": 53.47591607565011,
+  "score_raw": 53.47591607565011,
+  "evaluation_date": "2024-11-21",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 27
+}

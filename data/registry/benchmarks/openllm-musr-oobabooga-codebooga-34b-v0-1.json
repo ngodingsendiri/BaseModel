@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-oobabooga-codebooga-34b-v0-1",
+  "model_id": "oobabooga/CodeBooga-34B-v0.1",
+  "benchmark_name": "musr",
+  "score": 12.977604166666671,
+  "score_raw": 12.977604166666671,
+  "evaluation_date": "2023-10-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1304
+}

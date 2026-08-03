@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-huggingfaceh4-zephyr-orpo-141b-a35b-v0-1",
+  "model_id": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 39.84559692671394,
+  "score_raw": 39.84559692671394,
+  "evaluation_date": "2024-04-10",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 702
+}

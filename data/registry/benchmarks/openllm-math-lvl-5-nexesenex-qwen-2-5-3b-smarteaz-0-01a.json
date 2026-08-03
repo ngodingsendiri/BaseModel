@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-nexesenex-qwen-2-5-3b-smarteaz-0-01a",
+  "model_id": "Nexesenex/Qwen_2.5_3b_Smarteaz_0.01a",
+  "benchmark_name": "math-lvl-5",
+  "score": 18.051359516616312,
+  "score_raw": 18.051359516616312,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1475
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-triangle104-dolphin3-llama3-2-smart",
+  "model_id": "Triangle104/Dolphin3-Llama3.2-Smart",
+  "benchmark_name": "musr",
+  "score": 8.154166666666669,
+  "score_raw": 8.154166666666669,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2814
+}

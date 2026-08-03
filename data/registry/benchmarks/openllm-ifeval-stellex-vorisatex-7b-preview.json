@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-stellex-vorisatex-7b-preview",
+  "model_id": "StelleX/Vorisatex-7B-preview",
+  "benchmark_name": "ifeval",
+  "score": 15.150134975199137,
+  "score_raw": 15.150134975199137,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4331
+}

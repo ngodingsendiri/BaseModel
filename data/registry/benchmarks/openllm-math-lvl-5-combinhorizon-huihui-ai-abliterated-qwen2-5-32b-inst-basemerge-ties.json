@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-combinhorizon-huihui-ai-abliterated-qwen2-5-32b-inst-basemerge-ties",
+  "model_id": "CombinHorizon/huihui-ai-abliterated-Qwen2.5-32B-Inst-BaseMerge-TIES",
+  "benchmark_name": "math-lvl-5",
+  "score": 59.44108761329305,
+  "score_raw": 59.44108761329305,
+  "evaluation_date": "2024-12-07",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 16
+}

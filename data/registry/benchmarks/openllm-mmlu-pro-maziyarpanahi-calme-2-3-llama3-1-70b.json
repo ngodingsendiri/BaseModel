@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-maziyarpanahi-calme-2-3-llama3-1-70b",
+  "model_id": "MaziyarPanahi/calme-2.3-llama3.1-70b",
+  "benchmark_name": "mmlu-pro",
+  "score": 48.4799793144208,
+  "score_raw": 48.4799793144208,
+  "evaluation_date": "2024-09-10",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 272
+}

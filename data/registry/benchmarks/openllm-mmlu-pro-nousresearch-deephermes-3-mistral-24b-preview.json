@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-nousresearch-deephermes-3-mistral-24b-preview",
+  "model_id": "NousResearch/DeepHermes-3-Mistral-24B-Preview",
+  "benchmark_name": "mmlu-pro",
+  "score": 39.891770094562645,
+  "score_raw": 39.891770094562645,
+  "evaluation_date": "2025-03-02",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 696
+}

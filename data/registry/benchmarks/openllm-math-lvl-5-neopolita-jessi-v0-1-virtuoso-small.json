@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-neopolita-jessi-v0-1-virtuoso-small",
+  "model_id": "neopolita/jessi-v0.1-virtuoso-small",
+  "benchmark_name": "math-lvl-5",
+  "score": 33.987915407854985,
+  "score_raw": 33.987915407854985,
+  "evaluation_date": "2025-01-15",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 699
+}

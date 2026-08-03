@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-baptiste-huvelle-10-letriomphant2-2-ece-ilab",
+  "model_id": "Baptiste-HUVELLE-10/LeTriomphant2.2_ECE_iLAB",
+  "benchmark_name": "mmlu-pro",
+  "score": 53.90070921985816,
+  "score_raw": 53.90070921985816,
+  "evaluation_date": "2025-01-24",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 25
+}

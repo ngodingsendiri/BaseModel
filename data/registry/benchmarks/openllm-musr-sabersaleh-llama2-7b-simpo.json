@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sabersaleh-llama2-7b-simpo",
+  "model_id": "sabersaleh/Llama2-7B-SimPO",
+  "benchmark_name": "musr",
+  "score": 8.587239583333334,
+  "score_raw": 8.587239583333334,
+  "evaluation_date": "2024-11-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2674
+}

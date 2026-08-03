@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-lalainy-ece-prymmal-0-5b-ft-v5-musr",
+  "model_id": "lalainy/ECE-PRYMMAL-0.5B-FT-V5-MUSR",
+  "benchmark_name": "bbh",
+  "score": 6.485922419195989,
+  "score_raw": 6.485922419195989,
+  "evaluation_date": "2024-10-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3972
+}

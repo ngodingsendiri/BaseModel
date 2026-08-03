@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-skymizer-llama2-7b-sft-chat-custom-template-dpo",
+  "model_id": "skymizer/Llama2-7b-sft-chat-custom-template-dpo",
+  "benchmark_name": "ifeval",
+  "score": 23.528238407425633,
+  "score_raw": 23.528238407425633,
+  "evaluation_date": "2024-06-11",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3780
+}

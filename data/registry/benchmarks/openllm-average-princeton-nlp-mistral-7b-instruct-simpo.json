@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-princeton-nlp-mistral-7b-instruct-simpo",
+  "model_id": "princeton-nlp/Mistral-7B-Instruct-SimPO",
+  "benchmark_name": "average",
+  "score": 17.607315799541798,
+  "score_raw": 17.607315799541798,
+  "evaluation_date": "2024-05-24",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2996
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sometimesanotion-qwen2-5-7b-gordion-v0-1-reason",
+  "model_id": "sometimesanotion/Qwen2.5-7B-Gordion-v0.1-Reason",
+  "benchmark_name": "mmlu-pro",
+  "score": 36.74276004728132,
+  "score_raw": 36.74276004728132,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1005
+}

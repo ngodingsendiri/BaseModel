@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nbeerbower-gutensuppe-mistral-nemo-12b",
+  "model_id": "nbeerbower/Gutensuppe-mistral-nemo-12B",
+  "benchmark_name": "average",
+  "score": 22.29422199063106,
+  "score_raw": 22.29422199063106,
+  "evaluation_date": "2024-08-23",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2240
+}

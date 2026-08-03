@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-ifaz-llama32-3b-en-emo-5000-stp",
+  "model_id": "iFaz/llama32_3B_en_emo_5000_stp",
+  "benchmark_name": "math-lvl-5",
+  "score": 12.915407854984895,
+  "score_raw": 12.915407854984895,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1944
+}

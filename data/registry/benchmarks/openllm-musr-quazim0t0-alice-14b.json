@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-quazim0t0-alice-14b",
+  "model_id": "Quazim0t0/Alice-14B",
+  "benchmark_name": "musr",
+  "score": 15.42682291666666,
+  "score_raw": 15.42682291666666,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 778
+}

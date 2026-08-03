@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-maziyarpanahi-qwen1-5-moe-a2-7b-wikihow",
+  "model_id": "MaziyarPanahi/Qwen1.5-MoE-A2.7B-Wikihow",
+  "benchmark_name": "average",
+  "score": 12.325434589632001,
+  "score_raw": 12.325434589632001,
+  "evaluation_date": "2024-03-30",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3562
+}

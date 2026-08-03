@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-hongbai12-li-0-4-pre",
+  "model_id": "hongbai12/li-0.4-pre",
+  "benchmark_name": "bbh",
+  "score": 46.725545099612226,
+  "score_raw": 46.725545099612226,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 614
+}

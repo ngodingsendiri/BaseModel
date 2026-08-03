@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-bamec66557-nameless-12b-prob",
+  "model_id": "bamec66557/NameLess-12B-prob",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.826019503546092,
+  "score_raw": 29.826019503546092,
+  "evaluation_date": "2024-12-25",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1864
+}

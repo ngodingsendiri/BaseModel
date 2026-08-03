@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-alepach-nothumpback-m1-v2",
+  "model_id": "Alepach/notHumpback-M1-v2",
+  "benchmark_name": "math-lvl-5",
+  "score": 2.190332326283988,
+  "score_raw": 2.190332326283988,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3865
+}

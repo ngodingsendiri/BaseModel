@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-johnsutor-llama-3-8b-instruct-ties-density-0-3",
+  "model_id": "johnsutor/Llama-3-8B-Instruct_ties-density-0.3",
+  "benchmark_name": "bbh",
+  "score": 27.724506656987163,
+  "score_raw": 27.724506656987163,
+  "evaluation_date": "2024-06-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2543
+}

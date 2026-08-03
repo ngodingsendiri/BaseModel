@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-auraindustries-aura-8b",
+  "model_id": "AuraIndustries/Aura-8B",
+  "benchmark_name": "math-lvl-5",
+  "score": 15.181268882175228,
+  "score_raw": 15.181268882175228,
+  "evaluation_date": "2024-12-08",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1717
+}

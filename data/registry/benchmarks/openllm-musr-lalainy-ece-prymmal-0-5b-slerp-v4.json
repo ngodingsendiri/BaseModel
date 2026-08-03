@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-lalainy-ece-prymmal-0-5b-slerp-v4",
+  "model_id": "lalainy/ECE-PRYMMAL-0.5B-SLERP-V4",
+  "benchmark_name": "musr",
+  "score": 4.99921875,
+  "score_raw": 4.99921875,
+  "evaluation_date": "2024-10-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3452
+}

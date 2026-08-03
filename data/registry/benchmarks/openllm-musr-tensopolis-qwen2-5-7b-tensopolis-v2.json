@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-tensopolis-qwen2-5-7b-tensopolis-v2",
+  "model_id": "tensopolis/qwen2.5-7b-tensopolis-v2",
+  "benchmark_name": "musr",
+  "score": 12.24609375,
+  "score_raw": 12.24609375,
+  "evaluation_date": "2025-03-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1511
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-ashercn97-a1-v0-0-1",
+  "model_id": "ashercn97/a1-v0.0.1",
+  "benchmark_name": "math-lvl-5",
+  "score": 21.45015105740181,
+  "score_raw": 21.45015105740181,
+  "evaluation_date": "2024-11-28",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1200
+}

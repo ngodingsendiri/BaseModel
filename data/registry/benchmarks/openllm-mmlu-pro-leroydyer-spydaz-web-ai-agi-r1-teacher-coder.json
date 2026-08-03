@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-leroydyer-spydaz-web-ai-agi-r1-teacher-coder",
+  "model_id": "LeroyDyer/_Spydaz_Web_AI_AGI_R1_Teacher_Coder",
+  "benchmark_name": "mmlu-pro",
+  "score": 20.499039598108748,
+  "score_raw": 20.499039598108748,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3101
+}

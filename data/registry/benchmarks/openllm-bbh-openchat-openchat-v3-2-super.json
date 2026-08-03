@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-openchat-openchat-v3-2-super",
+  "model_id": "openchat/openchat_v3.2_super",
+  "benchmark_name": "bbh",
+  "score": 19.153539587477535,
+  "score_raw": 19.153539587477535,
+  "evaluation_date": "2023-09-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3261
+}

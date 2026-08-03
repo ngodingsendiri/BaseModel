@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-sicariussicariistuff-impish-llama-3b",
+  "model_id": "SicariusSicariiStuff/Impish_LLAMA_3B",
+  "benchmark_name": "gpqa",
+  "score": 5.033557046979867,
+  "score_raw": 5.033557046979867,
+  "evaluation_date": "2024-10-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2615
+}

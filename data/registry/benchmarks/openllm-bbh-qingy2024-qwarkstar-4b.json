@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-qingy2024-qwarkstar-4b",
+  "model_id": "qingy2024/Qwarkstar-4B",
+  "benchmark_name": "bbh",
+  "score": 16.574205111821954,
+  "score_raw": 16.574205111821954,
+  "evaluation_date": "2025-01-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3426
+}

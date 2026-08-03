@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-gmonsoon-gemma2-9b-sahabatai-v1-instruct-baseties",
+  "model_id": "gmonsoon/gemma2-9b-sahabatai-v1-instruct-BaseTIES",
+  "benchmark_name": "mmlu-pro",
+  "score": 37.186022458628834,
+  "score_raw": 37.186022458628834,
+  "evaluation_date": "2024-11-16",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 963
+}

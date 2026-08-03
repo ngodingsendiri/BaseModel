@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-glaiveai-reflection-llama-3-1-70b",
+  "model_id": "glaiveai/Reflection-Llama-3.1-70B",
+  "benchmark_name": "average",
+  "score": 34.5194783867829,
+  "score_raw": 34.5194783867829,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 683
+}

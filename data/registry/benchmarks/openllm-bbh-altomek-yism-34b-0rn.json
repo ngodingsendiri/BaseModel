@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-altomek-yism-34b-0rn",
+  "model_id": "altomek/YiSM-34B-0rn",
+  "benchmark_name": "bbh",
+  "score": 45.38292724900714,
+  "score_raw": 45.38292724900714,
+  "evaluation_date": "2024-05-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 660
+}

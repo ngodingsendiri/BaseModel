@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-sometimesanotion-qwen-14b-prosestock-v4",
+  "model_id": "sometimesanotion/Qwen-14B-ProseStock-v4",
+  "benchmark_name": "ifeval",
+  "score": 49.42186731206532,
+  "score_raw": 49.42186731206532,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1910
+}

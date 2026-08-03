@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-amd-amd-llama-135m",
+  "model_id": "amd/AMD-Llama-135m",
+  "benchmark_name": "ifeval",
+  "score": 18.42245242622907,
+  "score_raw": 18.42245242622907,
+  "evaluation_date": "2024-07-19",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4116
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-daemontatox-tinysphinx2-0",
+  "model_id": "Daemontatox/TinySphinx2.0",
+  "benchmark_name": "ifeval",
+  "score": 25.351733400710117,
+  "score_raw": 25.351733400710117,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3582
+}

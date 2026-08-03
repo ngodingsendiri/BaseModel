@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-kindling-8b-model-stock",
+  "model_id": "DreadPoor/Kindling-8B-Model_Stock",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.44208037825059,
+  "score_raw": 31.44208037825059,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1502
+}

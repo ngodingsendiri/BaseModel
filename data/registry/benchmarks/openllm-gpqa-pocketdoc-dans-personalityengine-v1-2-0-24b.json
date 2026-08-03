@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-pocketdoc-dans-personalityengine-v1-2-0-24b",
+  "model_id": "PocketDoc/Dans-PersonalityEngine-V1.2.0-24b",
+  "benchmark_name": "gpqa",
+  "score": 9.172259507829976,
+  "score_raw": 9.172259507829976,
+  "evaluation_date": "2025-02-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1170
+}

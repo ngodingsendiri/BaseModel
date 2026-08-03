@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-auraindustries-aura-moe-2x4b",
+  "model_id": "AuraIndustries/Aura-MoE-2x4B",
+  "benchmark_name": "average",
+  "score": 16.79797839924053,
+  "score_raw": 16.79797839924053,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3085
+}

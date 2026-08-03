@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-doppelreflex-mn-12b-mimicore-orochi",
+  "model_id": "DoppelReflEx/MN-12B-Mimicore-Orochi",
+  "benchmark_name": "ifeval",
+  "score": 46.20451513096362,
+  "score_raw": 46.20451513096362,
+  "evaluation_date": "2025-01-28",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2175
+}

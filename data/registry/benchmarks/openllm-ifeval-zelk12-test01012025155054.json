@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-zelk12-test01012025155054",
+  "model_id": "zelk12/Test01012025155054",
+  "benchmark_name": "ifeval",
+  "score": 15.552290145702292,
+  "score_raw": 15.552290145702292,
+  "evaluation_date": "2025-01-01",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4309
+}

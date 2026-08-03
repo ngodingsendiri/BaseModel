@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-summer-rain-8b-sce",
+  "model_id": "DreadPoor/Summer_Rain-8B-SCE",
+  "benchmark_name": "bbh",
+  "score": 40.61854240395792,
+  "score_raw": 40.61854240395792,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 936
+}

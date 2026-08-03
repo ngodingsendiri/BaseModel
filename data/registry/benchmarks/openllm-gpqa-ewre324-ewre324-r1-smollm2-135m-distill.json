@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-ewre324-ewre324-r1-smollm2-135m-distill",
+  "model_id": "ewre324/ewre324-R1-SmolLM2-135M-Distill",
+  "benchmark_name": "gpqa",
+  "score": 1.5659955257270708,
+  "score_raw": 1.5659955257270708,
+  "evaluation_date": "2025-01-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3858
+}

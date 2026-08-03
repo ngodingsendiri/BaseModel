@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-bunnycore-deepqwen-3b-lcot-sce",
+  "model_id": "bunnycore/DeepQwen-3B-LCoT-SCE",
+  "benchmark_name": "musr",
+  "score": 1.7578124999999993,
+  "score_raw": 1.7578124999999993,
+  "evaluation_date": "2025-02-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4250
+}

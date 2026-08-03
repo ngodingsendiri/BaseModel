@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-dzakwan-dzakwan-moe-4x7b-beta",
+  "model_id": "dzakwan/dzakwan-MoE-4x7b-Beta",
+  "benchmark_name": "average",
+  "score": 20.76930305324143,
+  "score_raw": 20.76930305324143,
+  "evaluation_date": "2024-05-26",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2540
+}

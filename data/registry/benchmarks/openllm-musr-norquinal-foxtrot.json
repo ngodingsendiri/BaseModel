@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-norquinal-foxtrot",
+  "model_id": "Norquinal/Foxtrot",
+  "benchmark_name": "musr",
+  "score": 6.318750000000001,
+  "score_raw": 6.318750000000001,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3188
+}

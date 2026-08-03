@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-marcuscedricridia-olmner-della-7b",
+  "model_id": "marcuscedricridia/olmner-della-7b",
+  "benchmark_name": "bbh",
+  "score": 35.896041596647144,
+  "score_raw": 35.896041596647144,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1238
+}

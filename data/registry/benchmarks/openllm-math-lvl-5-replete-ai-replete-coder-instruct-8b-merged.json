@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-replete-ai-replete-coder-instruct-8b-merged",
+  "model_id": "Replete-AI/Replete-Coder-Instruct-8b-Merged",
+  "benchmark_name": "math-lvl-5",
+  "score": 7.779456193353475,
+  "score_raw": 7.779456193353475,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2726
+}

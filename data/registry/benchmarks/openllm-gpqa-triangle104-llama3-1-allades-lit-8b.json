@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-triangle104-llama3-1-allades-lit-8b",
+  "model_id": "Triangle104/Llama3.1-Allades-Lit-8b",
+  "benchmark_name": "gpqa",
+  "score": 4.5861297539149914,
+  "score_raw": 4.5861297539149914,
+  "evaluation_date": "2025-02-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2756
+}

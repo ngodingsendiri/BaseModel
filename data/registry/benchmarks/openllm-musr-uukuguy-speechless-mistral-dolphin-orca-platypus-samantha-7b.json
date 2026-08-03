@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-uukuguy-speechless-mistral-dolphin-orca-platypus-samantha-7b",
+  "model_id": "uukuguy/speechless-mistral-dolphin-orca-platypus-samantha-7b",
+  "benchmark_name": "musr",
+  "score": 13.850260416666663,
+  "score_raw": 13.850260416666663,
+  "evaluation_date": "2023-10-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1080
+}

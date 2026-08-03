@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-sakalti-sakamoe-3x1-6b-instruct",
+  "model_id": "Sakalti/SakaMoe-3x1.6B-Instruct",
+  "benchmark_name": "bbh",
+  "score": 7.525328438833678,
+  "score_raw": 7.525328438833678,
+  "evaluation_date": "2024-09-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3819
+}

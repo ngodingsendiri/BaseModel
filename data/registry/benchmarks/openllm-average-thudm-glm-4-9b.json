@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-thudm-glm-4-9b",
+  "model_id": "THUDM/glm-4-9b",
+  "benchmark_name": "average",
+  "score": 18.006731731716215,
+  "score_raw": 18.006731731716215,
+  "evaluation_date": "2024-06-04",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2952
+}

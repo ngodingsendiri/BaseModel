@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-fluently-lm-llama-ti-8b",
+  "model_id": "fluently-lm/Llama-TI-8B",
+  "benchmark_name": "bbh",
+  "score": 31.984332678202136,
+  "score_raw": 31.984332678202136,
+  "evaluation_date": "2024-12-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1850
+}

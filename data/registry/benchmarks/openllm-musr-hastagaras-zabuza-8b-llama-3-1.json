@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-hastagaras-zabuza-8b-llama-3-1",
+  "model_id": "Hastagaras/Zabuza-8B-Llama-3.1",
+  "benchmark_name": "musr",
+  "score": 4.8989583333333355,
+  "score_raw": 4.8989583333333355,
+  "evaluation_date": "2024-11-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3469
+}

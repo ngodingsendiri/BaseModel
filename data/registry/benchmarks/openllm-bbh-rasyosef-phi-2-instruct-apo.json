@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-rasyosef-phi-2-instruct-apo",
+  "model_id": "rasyosef/phi-2-instruct-apo",
+  "benchmark_name": "bbh",
+  "score": 21.672437586715603,
+  "score_raw": 21.672437586715603,
+  "evaluation_date": "2024-09-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3095
+}

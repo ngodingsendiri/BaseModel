@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-ifaz-llama31-8b-en-emo-v4",
+  "model_id": "iFaz/llama31_8B_en_emo_v4",
+  "benchmark_name": "musr",
+  "score": 6.703125000000003,
+  "score_raw": 6.703125000000003,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3117
+}

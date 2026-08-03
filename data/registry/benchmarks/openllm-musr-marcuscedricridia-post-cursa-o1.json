@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-marcuscedricridia-post-cursa-o1",
+  "model_id": "marcuscedricridia/post-cursa-o1",
+  "benchmark_name": "musr",
+  "score": 13.859895833333335,
+  "score_raw": 13.859895833333335,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1079
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-tijmen2-cosmosage-v3",
+  "model_id": "Tijmen2/cosmosage-v3",
+  "benchmark_name": "gpqa",
+  "score": 4.36241610738255,
+  "score_raw": 4.36241610738255,
+  "evaluation_date": "2024-06-20",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2846
+}

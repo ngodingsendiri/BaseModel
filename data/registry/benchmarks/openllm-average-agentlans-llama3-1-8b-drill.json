@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-agentlans-llama3-1-8b-drill",
+  "model_id": "agentlans/Llama3.1-8B-drill",
+  "benchmark_name": "average",
+  "score": 26.72490725705725,
+  "score_raw": 26.72490725705725,
+  "evaluation_date": "2024-12-27",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1421
+}

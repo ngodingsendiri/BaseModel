@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-kindling-8b-model-stock",
+  "model_id": "DreadPoor/Kindling-8B-Model_Stock",
+  "benchmark_name": "musr",
+  "score": 11.087499999999997,
+  "score_raw": 11.087499999999997,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1947
+}

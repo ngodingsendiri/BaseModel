@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-openllm-france-lucie-7b-instruct-human-data",
+  "model_id": "OpenLLM-France/Lucie-7B-Instruct-human-data",
+  "benchmark_name": "average",
+  "score": 8.574866924872492,
+  "score_raw": 8.574866924872492,
+  "evaluation_date": "2025-01-07",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3820
+}

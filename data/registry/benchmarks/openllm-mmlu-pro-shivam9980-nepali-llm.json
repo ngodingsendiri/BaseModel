@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-shivam9980-nepali-llm",
+  "model_id": "shivam9980/NEPALI-LLM",
+  "benchmark_name": "mmlu-pro",
+  "score": 11.827718676122931,
+  "score_raw": 11.827718676122931,
+  "evaluation_date": "2024-09-17",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3569
+}

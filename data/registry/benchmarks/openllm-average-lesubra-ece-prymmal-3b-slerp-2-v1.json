@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-lesubra-ece-prymmal-3b-slerp-2-v1",
+  "model_id": "lesubra/ECE-PRYMMAL-3B-SLERP_2-V1",
+  "benchmark_name": "average",
+  "score": 24.961424176446453,
+  "score_raw": 24.961424176446453,
+  "evaluation_date": "2024-11-06",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1640
+}

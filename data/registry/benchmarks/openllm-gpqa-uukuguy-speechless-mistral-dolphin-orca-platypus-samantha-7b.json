@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-uukuguy-speechless-mistral-dolphin-orca-platypus-samantha-7b",
+  "model_id": "uukuguy/speechless-mistral-dolphin-orca-platypus-samantha-7b",
+  "benchmark_name": "gpqa",
+  "score": 4.4742729306487705,
+  "score_raw": 4.4742729306487705,
+  "evaluation_date": "2023-10-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2822
+}

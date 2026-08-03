@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-eunoia-vespera-8b-linear",
+  "model_id": "DreadPoor/Eunoia_Vespera-8B-LINEAR",
+  "benchmark_name": "musr",
+  "score": 12.611197916666663,
+  "score_raw": 12.611197916666663,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1400
+}

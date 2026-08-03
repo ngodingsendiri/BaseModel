@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-norquinal-echo",
+  "model_id": "Norquinal/Echo",
+  "benchmark_name": "bbh",
+  "score": 10.011495800063487,
+  "score_raw": 10.011495800063487,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3663
+}

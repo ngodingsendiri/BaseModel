@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-manolopueblo-llm-merge-cc3",
+  "model_id": "ManoloPueblo/LLM_MERGE_CC3",
+  "benchmark_name": "musr",
+  "score": 17.42916666666667,
+  "score_raw": 17.42916666666667,
+  "evaluation_date": "2024-11-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 520
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-allknowingroger-weirdslerp2-25b",
+  "model_id": "allknowingroger/Weirdslerp2-25B",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.4202866430260035,
+  "score_raw": 1.4202866430260035,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4367
+}

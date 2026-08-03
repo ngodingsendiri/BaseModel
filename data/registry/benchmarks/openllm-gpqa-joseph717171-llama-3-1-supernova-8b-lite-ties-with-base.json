@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-joseph717171-llama-3-1-supernova-8b-lite-ties-with-base",
+  "model_id": "Joseph717171/Llama-3.1-SuperNova-8B-Lite_TIES_with_Base",
+  "benchmark_name": "gpqa",
+  "score": 7.941834451901568,
+  "score_raw": 7.941834451901568,
+  "evaluation_date": "2024-10-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1494
+}

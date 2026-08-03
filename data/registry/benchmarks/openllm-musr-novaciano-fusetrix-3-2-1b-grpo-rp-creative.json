@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-novaciano-fusetrix-3-2-1b-grpo-rp-creative",
+  "model_id": "Novaciano/Fusetrix-3.2-1B-GRPO_RP_Creative",
+  "benchmark_name": "musr",
+  "score": 1.58125,
+  "score_raw": 1.58125,
+  "evaluation_date": "2025-03-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4294
+}

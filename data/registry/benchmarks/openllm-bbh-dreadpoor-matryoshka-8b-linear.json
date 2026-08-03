@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-matryoshka-8b-linear",
+  "model_id": "DreadPoor/Matryoshka-8B-LINEAR",
+  "benchmark_name": "bbh",
+  "score": 35.110911704209016,
+  "score_raw": 35.110911704209016,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1340
+}

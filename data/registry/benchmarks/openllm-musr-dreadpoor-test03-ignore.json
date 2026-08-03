@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-test03-ignore",
+  "model_id": "DreadPoor/TEST03-ignore",
+  "benchmark_name": "musr",
+  "score": 11.226822916666665,
+  "score_raw": 11.226822916666665,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1897
+}

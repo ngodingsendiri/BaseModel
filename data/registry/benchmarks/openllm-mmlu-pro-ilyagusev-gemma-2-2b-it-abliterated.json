@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ilyagusev-gemma-2-2b-it-abliterated",
+  "model_id": "IlyaGusev/gemma-2-2b-it-abliterated",
+  "benchmark_name": "mmlu-pro",
+  "score": 17.091459810874703,
+  "score_raw": 17.091459810874703,
+  "evaluation_date": "2024-07-31",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3377
+}

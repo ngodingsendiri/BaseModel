@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-tiiuae-falcon3-3b-instruct",
+  "model_id": "tiiuae/Falcon3-3B-Instruct",
+  "benchmark_name": "gpqa",
+  "score": 5.145413870246088,
+  "score_raw": 5.145413870246088,
+  "evaluation_date": "2024-12-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2604
+}

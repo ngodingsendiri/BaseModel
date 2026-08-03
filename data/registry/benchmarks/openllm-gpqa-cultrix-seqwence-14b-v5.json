@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-cultrix-seqwence-14b-v5",
+  "model_id": "CultriX/SeQwence-14B-v5",
+  "benchmark_name": "gpqa",
+  "score": 15.99552572706935,
+  "score_raw": 15.99552572706935,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 341
+}

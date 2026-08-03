@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-nexesenex-llama-3-1-8b-dolerstormed-v1-04",
+  "model_id": "Nexesenex/Llama_3.1_8b_Dolerstormed_V1.04",
+  "benchmark_name": "mmlu-pro",
+  "score": 32.097739361702125,
+  "score_raw": 32.097739361702125,
+  "evaluation_date": "2025-02-28",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1367
+}

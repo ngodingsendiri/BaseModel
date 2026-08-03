@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sumink-llmer",
+  "model_id": "sumink/llmer",
+  "benchmark_name": "math-lvl-5",
+  "score": 6.495468277945619,
+  "score_raw": 6.495468277945619,
+  "evaluation_date": "2025-01-15",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2955
+}

@@ -2,12 +2,12 @@
   "benchmark_id": "mirror-text-gemini-3-6-flash",
   "model_id": "gemini-3.6-flash",
   "benchmark_name": "text",
-  "score": 85.25,
-  "score_raw": 1482,
-  "evaluation_date": "2026-08-01",
+  "score": 85.375,
+  "score_raw": 1483,
+  "evaluation_date": "2026-08-03",
   "source": "mirror",
   "category": [
     "text"
   ],
-  "rank": 15
+  "rank": 16
 }

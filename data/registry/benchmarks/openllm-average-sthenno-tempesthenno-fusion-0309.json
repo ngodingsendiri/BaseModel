@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sthenno-tempesthenno-fusion-0309",
+  "model_id": "sthenno/tempesthenno-fusion-0309",
+  "benchmark_name": "average",
+  "score": 42.138889973963565,
+  "score_raw": 42.138889973963565,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 113
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-eurdem-defne-llama3-1-8b",
+  "model_id": "Eurdem/Defne-llama3.1-8B",
+  "benchmark_name": "bbh",
+  "score": 32.822381370434904,
+  "score_raw": 32.822381370434904,
+  "evaluation_date": "2024-07-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1683
+}

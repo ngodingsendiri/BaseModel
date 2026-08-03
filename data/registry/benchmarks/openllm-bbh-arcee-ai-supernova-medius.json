@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-arcee-ai-supernova-medius",
+  "model_id": "arcee-ai/SuperNova-Medius",
+  "benchmark_name": "bbh",
+  "score": 48.00501462716327,
+  "score_raw": 48.00501462716327,
+  "evaluation_date": "2024-10-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 554
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-zeroxclem-qwen2-5-7b-homercreative-mix",
+  "model_id": "ZeroXClem/Qwen2.5-7B-HomerCreative-Mix",
+  "benchmark_name": "ifeval",
+  "score": 78.35044348994003,
+  "score_raw": 78.35044348994003,
+  "evaluation_date": "2024-11-21",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 236
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ncsoft-llama-varco-8b-instruct",
+  "model_id": "NCSOFT/Llama-VARCO-8B-Instruct",
+  "benchmark_name": "average",
+  "score": 20.983509272665156,
+  "score_raw": 20.983509272665156,
+  "evaluation_date": "2024-09-12",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2496
+}

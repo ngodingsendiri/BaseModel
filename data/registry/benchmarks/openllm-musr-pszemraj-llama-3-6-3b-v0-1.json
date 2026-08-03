@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-pszemraj-llama-3-6-3b-v0-1",
+  "model_id": "pszemraj/Llama-3-6.3b-v0.1",
+  "benchmark_name": "musr",
+  "score": 6.154166666666666,
+  "score_raw": 6.154166666666666,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3221
+}

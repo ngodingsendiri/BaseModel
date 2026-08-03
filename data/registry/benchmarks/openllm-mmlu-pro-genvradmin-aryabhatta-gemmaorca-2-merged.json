@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-genvradmin-aryabhatta-gemmaorca-2-merged",
+  "model_id": "GenVRadmin/AryaBhatta-GemmaOrca-2-Merged",
+  "benchmark_name": "mmlu-pro",
+  "score": 15.383052600472812,
+  "score_raw": 15.383052600472812,
+  "evaluation_date": "2024-04-09",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3450
+}

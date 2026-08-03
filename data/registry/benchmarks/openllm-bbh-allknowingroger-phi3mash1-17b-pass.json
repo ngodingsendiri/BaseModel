@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-allknowingroger-phi3mash1-17b-pass",
+  "model_id": "allknowingroger/Phi3mash1-17B-pass",
+  "benchmark_name": "bbh",
+  "score": 45.25041934691859,
+  "score_raw": 45.25041934691859,
+  "evaluation_date": "2024-08-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 665
+}

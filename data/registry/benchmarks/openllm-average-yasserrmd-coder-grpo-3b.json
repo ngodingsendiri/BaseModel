@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-yasserrmd-coder-grpo-3b",
+  "model_id": "yasserrmd/Coder-GRPO-3B",
+  "benchmark_name": "average",
+  "score": 25.914051108530288,
+  "score_raw": 25.914051108530288,
+  "evaluation_date": "2025-02-08",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1521
+}

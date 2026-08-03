@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-groq-llama-3-groq-8b-tool-use",
+  "model_id": "Groq/Llama-3-Groq-8B-Tool-Use",
+  "benchmark_name": "ifeval",
+  "score": 60.982304729229554,
+  "score_raw": 60.982304729229554,
+  "evaluation_date": "2024-06-24",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1221
+}

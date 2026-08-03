@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-macadeliccc-magistrate-3-2-3b-it",
+  "model_id": "macadeliccc/magistrate-3.2-3b-it",
+  "benchmark_name": "ifeval",
+  "score": 22.918744486850443,
+  "score_raw": 22.918744486850443,
+  "evaluation_date": "2024-10-01",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3824
+}

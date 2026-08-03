@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-aryanne-shba",
+  "model_id": "Aryanne/SHBA",
+  "benchmark_name": "mmlu-pro",
+  "score": 32.134677895981085,
+  "score_raw": 32.134677895981085,
+  "evaluation_date": "2025-01-05",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1361
+}

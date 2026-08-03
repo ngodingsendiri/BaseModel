@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-allknowingroger-llama3-1-60b",
+  "model_id": "allknowingroger/Llama3.1-60B",
+  "benchmark_name": "bbh",
+  "score": 7.784282802508024,
+  "score_raw": 7.784282802508024,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3791
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-jpacifico-distilucie-7b-math-instruct-dpo-v0-1",
+  "model_id": "jpacifico/Distilucie-7B-Math-Instruct-DPO-v0.1",
+  "benchmark_name": "gpqa",
+  "score": 6.599552572706939,
+  "score_raw": 6.599552572706939,
+  "evaluation_date": "2025-03-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2044
+}

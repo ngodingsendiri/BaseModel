@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-netcat420-mfann-llama3-1-abliterated-slerp",
+  "model_id": "netcat420/MFANN-llama3.1-Abliterated-SLERP",
+  "benchmark_name": "musr",
+  "score": 5.714583333333336,
+  "score_raw": 5.714583333333336,
+  "evaluation_date": "2024-09-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3303
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-maziyarpanahi-calme-4x7b-moe-v0-1",
+  "model_id": "MaziyarPanahi/Calme-4x7B-MoE-v0.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 22.853871158392433,
+  "score_raw": 22.853871158392433,
+  "evaluation_date": "2024-03-17",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2814
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-aryanne-shba",
+  "model_id": "Aryanne/SHBA",
+  "benchmark_name": "gpqa",
+  "score": 7.38255033557047,
+  "score_raw": 7.38255033557047,
+  "evaluation_date": "2025-01-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1705
+}

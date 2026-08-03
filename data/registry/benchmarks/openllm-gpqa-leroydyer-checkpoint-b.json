@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-leroydyer-checkpoint-b",
+  "model_id": "LeroyDyer/CheckPoint_B",
+  "benchmark_name": "gpqa",
+  "score": 5.369127516778524,
+  "score_raw": 5.369127516778524,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2498
+}

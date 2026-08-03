@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-informatiker-qwen2-7b-instruct-abliterated",
+  "model_id": "informatiker/Qwen2-7B-Instruct-abliterated",
+  "benchmark_name": "bbh",
+  "score": 37.79572344136589,
+  "score_raw": 37.79572344136589,
+  "evaluation_date": "2024-07-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1025
+}

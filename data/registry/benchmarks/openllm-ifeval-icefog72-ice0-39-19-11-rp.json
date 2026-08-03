@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-icefog72-ice0-39-19-11-rp",
+  "model_id": "icefog72/Ice0.39-19.11-RP",
+  "benchmark_name": "ifeval",
+  "score": 47.565902915375645,
+  "score_raw": 47.565902915375645,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2048
+}

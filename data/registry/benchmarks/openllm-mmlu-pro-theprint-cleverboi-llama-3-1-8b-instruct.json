@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-theprint-cleverboi-llama-3-1-8b-instruct",
+  "model_id": "theprint/CleverBoi-Llama-3.1-8B-Instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.057033096926716,
+  "score_raw": 23.057033096926716,
+  "evaluation_date": "2024-08-27",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2782
+}

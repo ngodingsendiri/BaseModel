@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-vagosolutions-sauerkrautlm-v2-14b-dpo",
+  "model_id": "VAGOsolutions/SauerkrautLM-v2-14b-DPO",
+  "benchmark_name": "average",
+  "score": 37.583891756672784,
+  "score_raw": 37.583891756672784,
+  "evaluation_date": "2024-10-31",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 436
+}

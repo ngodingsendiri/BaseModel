@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-naps-ai-naps-gemma-2-27b-v-0-1-0",
+  "model_id": "NAPS-ai/naps-gemma-2-27b-v-0.1.0",
+  "benchmark_name": "bbh",
+  "score": 2.3470409575204094,
+  "score_raw": 2.3470409575204094,
+  "evaluation_date": "2024-11-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4430
+}

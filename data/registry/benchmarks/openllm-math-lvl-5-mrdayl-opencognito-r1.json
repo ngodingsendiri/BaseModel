@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-mrdayl-opencognito-r1",
+  "model_id": "mrdayl/OpenCognito-r1",
+  "benchmark_name": "math-lvl-5",
+  "score": 19.033232628398792,
+  "score_raw": 19.033232628398792,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1398
+}

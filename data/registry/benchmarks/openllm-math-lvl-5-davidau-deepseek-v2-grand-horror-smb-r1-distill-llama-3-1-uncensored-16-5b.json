@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-davidau-deepseek-v2-grand-horror-smb-r1-distill-llama-3-1-uncensored-16-5b",
+  "model_id": "DavidAU/DeepSeek-V2-Grand-Horror-SMB-R1-Distill-Llama-3.1-Uncensored-16.5B",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.7371601208459215,
+  "score_raw": 1.7371601208459215,
+  "evaluation_date": "2025-02-09",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3984
+}

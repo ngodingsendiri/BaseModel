@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-allknowingroger-gemma2slerp1-2-6b",
+  "model_id": "allknowingroger/Gemma2Slerp1-2.6B",
+  "benchmark_name": "gpqa",
+  "score": 4.4742729306487705,
+  "score_raw": 4.4742729306487705,
+  "evaluation_date": "2024-12-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2798
+}

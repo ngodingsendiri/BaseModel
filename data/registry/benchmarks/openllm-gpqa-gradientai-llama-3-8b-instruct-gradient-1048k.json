@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-gradientai-llama-3-8b-instruct-gradient-1048k",
+  "model_id": "gradientai/Llama-3-8B-Instruct-Gradient-1048k",
+  "benchmark_name": "gpqa",
+  "score": 3.6912751677852316,
+  "score_raw": 3.6912751677852316,
+  "evaluation_date": "2024-04-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3078
+}

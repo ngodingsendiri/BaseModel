@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-baezel-v2-8b-model-stock",
+  "model_id": "DreadPoor/BaeZel_V2-8B-Model_Stock",
+  "benchmark_name": "bbh",
+  "score": 34.4487493680143,
+  "score_raw": 34.4487493680143,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1444
+}

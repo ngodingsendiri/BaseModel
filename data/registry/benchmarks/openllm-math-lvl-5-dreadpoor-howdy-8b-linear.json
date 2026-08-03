@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-dreadpoor-howdy-8b-linear",
+  "model_id": "DreadPoor/Howdy-8B-LINEAR",
+  "benchmark_name": "math-lvl-5",
+  "score": 17.749244712990937,
+  "score_raw": 17.749244712990937,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1502
+}

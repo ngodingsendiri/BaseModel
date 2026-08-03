@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-weyaxi-bagel-hermes-34b-slerp",
+  "model_id": "Weyaxi/Bagel-Hermes-34B-Slerp",
+  "benchmark_name": "musr",
+  "score": 17.009375000000002,
+  "score_raw": 17.009375000000002,
+  "evaluation_date": "2024-01-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 567
+}

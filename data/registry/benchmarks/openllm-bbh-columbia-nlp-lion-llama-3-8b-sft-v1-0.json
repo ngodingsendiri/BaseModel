@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-columbia-nlp-lion-llama-3-8b-sft-v1-0",
+  "model_id": "Columbia-NLP/LION-LLaMA-3-8b-sft-v1.0",
+  "benchmark_name": "bbh",
+  "score": 30.88426036029,
+  "score_raw": 30.88426036029,
+  "evaluation_date": "2024-07-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2057
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-cluebbers-llama-3-1-8b-paraphrase-type-generation-apty-sigmoid",
+  "model_id": "cluebbers/Llama-3.1-8B-paraphrase-type-generation-apty-sigmoid",
+  "benchmark_name": "musr",
+  "score": 12.019010416666665,
+  "score_raw": 12.019010416666665,
+  "evaluation_date": "2024-11-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1588
+}

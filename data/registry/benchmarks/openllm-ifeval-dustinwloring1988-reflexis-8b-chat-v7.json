@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-dustinwloring1988-reflexis-8b-chat-v7",
+  "model_id": "dustinwloring1988/Reflexis-8b-chat-v7",
+  "benchmark_name": "ifeval",
+  "score": 39.804828964924184,
+  "score_raw": 39.804828964924184,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2744
+}

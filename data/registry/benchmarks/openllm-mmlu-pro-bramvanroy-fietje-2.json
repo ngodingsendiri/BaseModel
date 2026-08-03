@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-bramvanroy-fietje-2",
+  "model_id": "BramVanroy/fietje-2",
+  "benchmark_name": "mmlu-pro",
+  "score": 10.950428486997636,
+  "score_raw": 10.950428486997636,
+  "evaluation_date": "2024-04-09",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3588
+}

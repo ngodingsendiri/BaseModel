@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-hotmailuser-gemma2magnum-27b",
+  "model_id": "hotmailuser/Gemma2magnum-27b",
+  "benchmark_name": "musr",
+  "score": 18.17630208333333,
+  "score_raw": 18.17630208333333,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 442
+}

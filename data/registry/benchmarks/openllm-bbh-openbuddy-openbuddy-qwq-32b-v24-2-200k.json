@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-openbuddy-openbuddy-qwq-32b-v24-2-200k",
+  "model_id": "OpenBuddy/openbuddy-qwq-32b-v24.2-200k",
+  "benchmark_name": "bbh",
+  "score": 54.16349558366793,
+  "score_raw": 54.16349558366793,
+  "evaluation_date": "2024-12-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 162
+}

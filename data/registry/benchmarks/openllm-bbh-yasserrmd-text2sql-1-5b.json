@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-yasserrmd-text2sql-1-5b",
+  "model_id": "yasserrmd/Text2SQL-1.5B",
+  "benchmark_name": "bbh",
+  "score": 13.675719585052784,
+  "score_raw": 13.675719585052784,
+  "evaluation_date": "2025-03-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3553
+}

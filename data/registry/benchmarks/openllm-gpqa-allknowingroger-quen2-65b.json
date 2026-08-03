@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-allknowingroger-quen2-65b",
+  "model_id": "allknowingroger/Quen2-65B",
+  "benchmark_name": "gpqa",
+  "score": 0,
+  "score_raw": 0,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4467
+}

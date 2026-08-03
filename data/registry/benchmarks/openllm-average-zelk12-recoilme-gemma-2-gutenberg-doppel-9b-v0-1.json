@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-zelk12-recoilme-gemma-2-gutenberg-doppel-9b-v0-1",
+  "model_id": "zelk12/recoilme-gemma-2-Gutenberg-Doppel-9B-v0.1",
+  "benchmark_name": "average",
+  "score": 33.904825121052134,
+  "score_raw": 33.904825121052134,
+  "evaluation_date": "2024-10-07",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 729
+}

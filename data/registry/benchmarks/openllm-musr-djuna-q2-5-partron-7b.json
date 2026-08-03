@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-djuna-q2-5-partron-7b",
+  "model_id": "djuna/Q2.5-Partron-7B",
+  "benchmark_name": "musr",
+  "score": 11.067708333333336,
+  "score_raw": 11.067708333333336,
+  "evaluation_date": "2024-11-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1961
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-eworojoshua-vas-01",
+  "model_id": "eworojoshua/vas-01",
+  "benchmark_name": "bbh",
+  "score": 34.808538150886584,
+  "score_raw": 34.808538150886584,
+  "evaluation_date": "2025-02-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1388
+}

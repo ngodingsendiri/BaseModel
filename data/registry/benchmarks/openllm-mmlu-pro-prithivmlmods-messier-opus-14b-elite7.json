@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-prithivmlmods-messier-opus-14b-elite7",
+  "model_id": "prithivMLmods/Messier-Opus-14B-Elite7",
+  "benchmark_name": "mmlu-pro",
+  "score": 48.93247635933806,
+  "score_raw": 48.93247635933806,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 163
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-nexesenex-nemotron-w-4b-maglight-0-1",
+  "model_id": "Nexesenex/Nemotron_W_4b_MagLight_0.1",
+  "benchmark_name": "bbh",
+  "score": 19.287938293762227,
+  "score_raw": 19.287938293762227,
+  "evaluation_date": "2025-02-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3255
+}

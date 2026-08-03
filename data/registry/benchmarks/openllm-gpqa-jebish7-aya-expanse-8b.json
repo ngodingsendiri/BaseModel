@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-jebish7-aya-expanse-8b",
+  "model_id": "jebish7/aya-expanse-8b",
+  "benchmark_name": "gpqa",
+  "score": 4.4742729306487705,
+  "score_raw": 4.4742729306487705,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2807
+}

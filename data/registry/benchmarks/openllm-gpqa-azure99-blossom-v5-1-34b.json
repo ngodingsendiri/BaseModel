@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-azure99-blossom-v5-1-34b",
+  "model_id": "Azure99/blossom-v5.1-34b",
+  "benchmark_name": "gpqa",
+  "score": 7.941834451901568,
+  "score_raw": 7.941834451901568,
+  "evaluation_date": "2024-05-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1485
+}

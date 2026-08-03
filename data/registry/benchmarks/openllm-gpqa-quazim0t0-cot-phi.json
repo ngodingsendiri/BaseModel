@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-quazim0t0-cot-phi",
+  "model_id": "Quazim0t0/CoT_Phi",
+  "benchmark_name": "gpqa",
+  "score": 14.429530201342287,
+  "score_raw": 14.429530201342287,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 446
+}

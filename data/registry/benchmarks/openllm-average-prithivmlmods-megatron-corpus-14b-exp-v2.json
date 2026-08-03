@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-megatron-corpus-14b-exp-v2",
+  "model_id": "prithivMLmods/Megatron-Corpus-14B-Exp.v2",
+  "benchmark_name": "average",
+  "score": 31.898674141338944,
+  "score_raw": 31.898674141338944,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 860
+}

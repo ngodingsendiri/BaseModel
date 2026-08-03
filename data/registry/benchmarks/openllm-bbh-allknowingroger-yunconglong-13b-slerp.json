@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-allknowingroger-yunconglong-13b-slerp",
+  "model_id": "allknowingroger/Yunconglong-13B-slerp",
+  "benchmark_name": "bbh",
+  "score": 32.14072892807635,
+  "score_raw": 32.14072892807635,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1818
+}

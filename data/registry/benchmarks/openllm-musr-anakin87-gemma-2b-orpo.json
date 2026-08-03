@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-anakin87-gemma-2b-orpo",
+  "model_id": "anakin87/gemma-2b-orpo",
+  "benchmark_name": "musr",
+  "score": 4.128385416666667,
+  "score_raw": 4.128385416666667,
+  "evaluation_date": "2024-03-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3638
+}

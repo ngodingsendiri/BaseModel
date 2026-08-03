@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-failspy-meta-llama-3-70b-instruct-abliterated-v3-5",
+  "model_id": "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3.5",
+  "benchmark_name": "average",
+  "score": 30.12935413704135,
+  "score_raw": 30.12935413704135,
+  "evaluation_date": "2024-05-28",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1006
+}

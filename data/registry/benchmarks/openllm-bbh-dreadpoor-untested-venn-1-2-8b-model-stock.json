@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-untested-venn-1-2-8b-model-stock",
+  "model_id": "DreadPoor/UNTESTED-VENN_1.2-8B-Model_Stock",
+  "benchmark_name": "bbh",
+  "score": 35.427098756489926,
+  "score_raw": 35.427098756489926,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1303
+}

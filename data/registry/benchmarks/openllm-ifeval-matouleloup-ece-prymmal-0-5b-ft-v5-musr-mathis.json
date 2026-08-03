@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-matouleloup-ece-prymmal-0-5b-ft-v5-musr-mathis",
+  "model_id": "matouLeLoup/ECE-PRYMMAL-0.5B-FT-V5-MUSR-Mathis",
+  "benchmark_name": "ifeval",
+  "score": 16.521496296493304,
+  "score_raw": 16.521496296493304,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4238
+}

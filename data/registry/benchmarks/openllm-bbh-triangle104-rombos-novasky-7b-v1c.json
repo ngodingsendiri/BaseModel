@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-triangle104-rombos-novasky-7b-v1c",
+  "model_id": "Triangle104/Rombos-Novasky-7B_V1c",
+  "benchmark_name": "bbh",
+  "score": 20.42212501104689,
+  "score_raw": 20.42212501104689,
+  "evaluation_date": "2025-02-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3176
+}

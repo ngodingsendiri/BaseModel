@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-bunnycore-fwf-qwen-7b-0-2",
+  "model_id": "bunnycore/FwF-Qwen-7B-0.2",
+  "benchmark_name": "average",
+  "score": 30.049606790844468,
+  "score_raw": 30.049606790844468,
+  "evaluation_date": "2025-01-07",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1024
+}

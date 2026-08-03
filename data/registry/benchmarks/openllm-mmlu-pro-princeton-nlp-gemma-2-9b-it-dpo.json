@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-princeton-nlp-gemma-2-9b-it-dpo",
+  "model_id": "princeton-nlp/gemma-2-9b-it-DPO",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.26004728132387,
+  "score_raw": 30.26004728132387,
+  "evaluation_date": "2024-07-16",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1775
+}

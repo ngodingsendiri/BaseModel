@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-yfzp-llama-3-8b-instruct-sppo-score-iter1-gp-2b-table-0-001",
+  "model_id": "yfzp/Llama-3-8B-Instruct-SPPO-score-Iter1_gp_2b-table-0.001",
+  "benchmark_name": "math-lvl-5",
+  "score": 9.365558912386707,
+  "score_raw": 9.365558912386707,
+  "evaluation_date": "2024-09-29",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2487
+}

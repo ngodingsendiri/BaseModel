@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-triangle104-robo-gutenberg-v1-0",
+  "model_id": "Triangle104/Robo-Gutenberg_V1.0",
+  "benchmark_name": "musr",
+  "score": 19.195572916666663,
+  "score_raw": 19.195572916666663,
+  "evaluation_date": "2024-12-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 324
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-johnsutor-llama-3-8b-instruct-linear",
+  "model_id": "johnsutor/Llama-3-8B-Instruct_linear",
+  "benchmark_name": "bbh",
+  "score": 28.778577217548463,
+  "score_raw": 28.778577217548463,
+  "evaluation_date": "2024-06-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2394
+}

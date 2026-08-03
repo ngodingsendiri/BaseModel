@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-bfuzzy1-acheron-d",
+  "model_id": "bfuzzy1/acheron-d",
+  "benchmark_name": "bbh",
+  "score": 4.1222474820638,
+  "score_raw": 4.1222474820638,
+  "evaluation_date": "2025-01-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4206
+}

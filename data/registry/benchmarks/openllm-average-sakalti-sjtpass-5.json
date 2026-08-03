@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sakalti-sjtpass-5",
+  "model_id": "Sakalti/SJTPass-5",
+  "benchmark_name": "average",
+  "score": 6.780863382054697,
+  "score_raw": 6.780863382054697,
+  "evaluation_date": "2025-01-25",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4085
+}

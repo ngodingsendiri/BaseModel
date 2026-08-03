@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-pretergeek-openchat-3-5-0106-rebased-mistral-7b-v0-2",
+  "model_id": "Pretergeek/openchat-3.5-0106_Rebased_Mistral-7B-v0.2",
+  "benchmark_name": "musr",
+  "score": 20.56796875,
+  "score_raw": 20.56796875,
+  "evaluation_date": "2024-07-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 196
+}

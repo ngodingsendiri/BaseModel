@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-quazim0t0-sumatra-20b",
+  "model_id": "Quazim0t0/Sumatra-20b",
+  "benchmark_name": "bbh",
+  "score": 55.13298201406423,
+  "score_raw": 55.13298201406423,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 134
+}

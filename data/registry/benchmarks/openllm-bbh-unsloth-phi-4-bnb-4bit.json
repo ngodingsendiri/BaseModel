@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-unsloth-phi-4-bnb-4bit",
+  "model_id": "unsloth/phi-4-bnb-4bit",
+  "benchmark_name": "bbh",
+  "score": 53.53519912141298,
+  "score_raw": 53.53519912141298,
+  "evaluation_date": "2025-01-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 175
+}

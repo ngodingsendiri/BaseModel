@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-mkxu-llama-3-8b-instruct-fpo",
+  "model_id": "mkxu/llama-3-8b-instruct-fpo",
+  "benchmark_name": "mmlu-pro",
+  "score": 28.93949468085106,
+  "score_raw": 28.93949468085106,
+  "evaluation_date": "2025-02-16",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2050
+}

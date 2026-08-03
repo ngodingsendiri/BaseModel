@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-marcuscedricridia-etr1o-explicit-v1-1",
+  "model_id": "marcuscedricridia/etr1o-explicit-v1.1",
+  "benchmark_name": "ifeval",
+  "score": 28.80390696684797,
+  "score_raw": 28.80390696684797,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3378
+}

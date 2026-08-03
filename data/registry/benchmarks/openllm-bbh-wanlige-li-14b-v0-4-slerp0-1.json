@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-wanlige-li-14b-v0-4-slerp0-1",
+  "model_id": "wanlige/li-14b-v0.4-slerp0.1",
+  "benchmark_name": "bbh",
+  "score": 50.88127296750732,
+  "score_raw": 50.88127296750732,
+  "evaluation_date": "2025-02-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 291
+}

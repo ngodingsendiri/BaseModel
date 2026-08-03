@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sicariussicariistuff-zion-alpha",
+  "model_id": "SicariusSicariiStuff/Zion_Alpha",
+  "benchmark_name": "average",
+  "score": 19.186491401477962,
+  "score_raw": 19.186491401477962,
+  "evaluation_date": "2024-05-19",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2809
+}

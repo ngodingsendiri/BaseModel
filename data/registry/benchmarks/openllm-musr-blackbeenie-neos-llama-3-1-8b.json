@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-blackbeenie-neos-llama-3-1-8b",
+  "model_id": "BlackBeenie/Neos-Llama-3.1-8B",
+  "benchmark_name": "musr",
+  "score": 5.740364583333334,
+  "score_raw": 5.740364583333334,
+  "evaluation_date": "2024-11-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3297
+}

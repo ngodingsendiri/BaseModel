@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-bigscience-bloom-3b",
+  "model_id": "bigscience/bloom-3b",
+  "benchmark_name": "bbh",
+  "score": 3.4200982840077354,
+  "score_raw": 3.4200982840077354,
+  "evaluation_date": "2022-05-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4256
+}

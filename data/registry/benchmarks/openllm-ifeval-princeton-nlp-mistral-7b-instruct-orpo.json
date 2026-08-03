@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-princeton-nlp-mistral-7b-instruct-orpo",
+  "model_id": "princeton-nlp/Mistral-7B-Instruct-ORPO",
+  "benchmark_name": "ifeval",
+  "score": 47.19621714827768,
+  "score_raw": 47.19621714827768,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2081
+}

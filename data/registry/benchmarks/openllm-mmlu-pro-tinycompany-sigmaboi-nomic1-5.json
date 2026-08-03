@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-tinycompany-sigmaboi-nomic1-5",
+  "model_id": "tinycompany/SigmaBoi-nomic1.5",
+  "benchmark_name": "mmlu-pro",
+  "score": 20.45286643026005,
+  "score_raw": 20.45286643026005,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3104
+}

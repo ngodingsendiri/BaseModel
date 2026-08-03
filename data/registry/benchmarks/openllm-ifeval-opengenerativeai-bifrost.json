@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-opengenerativeai-bifrost",
+  "model_id": "OpenGenerativeAI/Bifrost",
+  "benchmark_name": "ifeval",
+  "score": 63.47524568145853,
+  "score_raw": 63.47524568145853,
+  "evaluation_date": "2025-03-06",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1101
+}

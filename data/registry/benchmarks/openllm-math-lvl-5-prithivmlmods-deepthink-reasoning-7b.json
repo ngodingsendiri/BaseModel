@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-prithivmlmods-deepthink-reasoning-7b",
+  "model_id": "prithivMLmods/Deepthink-Reasoning-7B",
+  "benchmark_name": "math-lvl-5",
+  "score": 33.45921450151057,
+  "score_raw": 33.45921450151057,
+  "evaluation_date": "2024-12-28",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 713
+}

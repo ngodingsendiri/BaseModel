@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-khetterman-darkatom-12b-v3",
+  "model_id": "Khetterman/DarkAtom-12B-v3",
+  "benchmark_name": "gpqa",
+  "score": 6.375838926174497,
+  "score_raw": 6.375838926174497,
+  "evaluation_date": "2024-11-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2110
+}

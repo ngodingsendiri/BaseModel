@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-daemontatox-cogitoz",
+  "model_id": "Daemontatox/CogitoZ",
+  "benchmark_name": "ifeval",
+  "score": 39.67240255854466,
+  "score_raw": 39.67240255854466,
+  "evaluation_date": "2025-01-03",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2754
+}

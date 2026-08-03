@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-dreadpoor-rusted-platinum-8b-model-stock",
+  "model_id": "DreadPoor/Rusted_Platinum-8B-Model_Stock",
+  "benchmark_name": "math-lvl-5",
+  "score": 10.196374622356496,
+  "score_raw": 10.196374622356496,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2356
+}

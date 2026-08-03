@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-leroydyer-mixtral-ai-swahilitron-7b",
+  "model_id": "LeroyDyer/Mixtral_AI_SwahiliTron_7b",
+  "benchmark_name": "average",
+  "score": 4.358661915319342,
+  "score_raw": 4.358661915319342,
+  "evaluation_date": "2024-04-10",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4390
+}

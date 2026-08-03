@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-quazim0t0-math-phi4-reason",
+  "model_id": "Quazim0t0/Math_Phi4_Reason",
+  "benchmark_name": "average",
+  "score": 28.118748796782256,
+  "score_raw": 28.118748796782256,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1280
+}

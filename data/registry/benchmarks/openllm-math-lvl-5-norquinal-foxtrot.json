@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-norquinal-foxtrot",
+  "model_id": "Norquinal/Foxtrot",
+  "benchmark_name": "math-lvl-5",
+  "score": 5.81570996978852,
+  "score_raw": 5.81570996978852,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3087
+}

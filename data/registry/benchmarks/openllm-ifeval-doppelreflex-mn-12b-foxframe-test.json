@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-doppelreflex-mn-12b-foxframe-test",
+  "model_id": "DoppelReflEx/MN-12B-FoxFrame-test",
+  "benchmark_name": "ifeval",
+  "score": 42.22030878070187,
+  "score_raw": 42.22030878070187,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2568
+}

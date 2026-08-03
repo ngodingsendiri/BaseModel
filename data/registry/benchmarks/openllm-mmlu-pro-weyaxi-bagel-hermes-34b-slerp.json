@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-weyaxi-bagel-hermes-34b-slerp",
+  "model_id": "Weyaxi/Bagel-Hermes-34B-Slerp",
+  "benchmark_name": "mmlu-pro",
+  "score": 41.147680260047274,
+  "score_raw": 41.147680260047274,
+  "evaluation_date": "2024-01-12",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 649
+}

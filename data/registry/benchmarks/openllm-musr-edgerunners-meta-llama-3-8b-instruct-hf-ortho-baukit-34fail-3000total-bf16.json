@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-edgerunners-meta-llama-3-8b-instruct-hf-ortho-baukit-34fail-3000total-bf16",
+  "model_id": "Edgerunners/meta-llama-3-8b-instruct-hf-ortho-baukit-34fail-3000total-bf16",
+  "benchmark_name": "musr",
+  "score": 1.2695312499999996,
+  "score_raw": 1.2695312499999996,
+  "evaluation_date": "2024-05-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4374
+}

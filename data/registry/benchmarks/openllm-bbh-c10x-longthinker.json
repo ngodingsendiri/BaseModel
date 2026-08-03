@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-c10x-longthinker",
+  "model_id": "c10x/longthinker",
+  "benchmark_name": "bbh",
+  "score": 28.4247368611983,
+  "score_raw": 28.4247368611983,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2446
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-doppelreflex-mn-12b-mimicore-greensnake",
+  "model_id": "DoppelReflEx/MN-12B-Mimicore-GreenSnake",
+  "benchmark_name": "bbh",
+  "score": 35.390600609410264,
+  "score_raw": 35.390600609410264,
+  "evaluation_date": "2025-01-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1304
+}

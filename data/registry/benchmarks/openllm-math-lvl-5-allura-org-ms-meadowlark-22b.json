@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-allura-org-ms-meadowlark-22b",
+  "model_id": "allura-org/MS-Meadowlark-22B",
+  "benchmark_name": "math-lvl-5",
+  "score": 18.35347432024169,
+  "score_raw": 18.35347432024169,
+  "evaluation_date": "2024-10-18",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1449
+}

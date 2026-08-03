@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-marcuscedricridia-hush-qwen2-5-7b-mst",
+  "model_id": "marcuscedricridia/Hush-Qwen2.5-7B-MST",
+  "benchmark_name": "average",
+  "score": 33.66195961349608,
+  "score_raw": 33.66195961349608,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 747
+}

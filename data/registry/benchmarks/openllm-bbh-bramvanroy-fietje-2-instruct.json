@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-bramvanroy-fietje-2-instruct",
+  "model_id": "BramVanroy/fietje-2-instruct",
+  "benchmark_name": "bbh",
+  "score": 17.57247980884759,
+  "score_raw": 17.57247980884759,
+  "evaluation_date": "2024-04-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3359
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-cran-may-sce-2-24b",
+  "model_id": "Cran-May/SCE-2-24B",
+  "benchmark_name": "gpqa",
+  "score": 11.633109619686799,
+  "score_raw": 11.633109619686799,
+  "evaluation_date": "2025-02-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 750
+}

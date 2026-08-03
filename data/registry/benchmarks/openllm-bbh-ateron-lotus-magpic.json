@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-ateron-lotus-magpic",
+  "model_id": "Ateron/Lotus-Magpic",
+  "benchmark_name": "bbh",
+  "score": 32.65772737584173,
+  "score_raw": 32.65772737584173,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1721
+}

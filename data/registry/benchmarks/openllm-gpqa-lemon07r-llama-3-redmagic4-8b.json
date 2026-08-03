@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-lemon07r-llama-3-redmagic4-8b",
+  "model_id": "lemon07r/Llama-3-RedMagic4-8B",
+  "benchmark_name": "gpqa",
+  "score": 5.369127516778524,
+  "score_raw": 5.369127516778524,
+  "evaluation_date": "2024-06-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2525
+}

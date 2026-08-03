@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-togethercomputer-llama-2-7b-32k",
+  "model_id": "togethercomputer/LLaMA-2-7B-32K",
+  "benchmark_name": "gpqa",
+  "score": 0,
+  "score_raw": 0,
+  "evaluation_date": "2023-07-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4568
+}

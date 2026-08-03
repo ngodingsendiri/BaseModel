@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-deepmount00-llama-3-8b-ita",
+  "model_id": "DeepMount00/Llama-3-8b-Ita",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.691415484633573,
+  "score_raw": 31.691415484633573,
+  "evaluation_date": "2024-05-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1450
+}

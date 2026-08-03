@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-leroydyer-spydaz-web-ai-temp",
+  "model_id": "LeroyDyer/_Spydaz_Web_AI_TEMP_",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.56493794326241,
+  "score_raw": 23.56493794326241,
+  "evaluation_date": "2025-03-12",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2701
+}

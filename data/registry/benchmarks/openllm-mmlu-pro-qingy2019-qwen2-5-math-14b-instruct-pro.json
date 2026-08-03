@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-qingy2019-qwen2-5-math-14b-instruct-pro",
+  "model_id": "qingy2019/Qwen2.5-Math-14B-Instruct-Pro",
+  "benchmark_name": "mmlu-pro",
+  "score": 28.422355200945624,
+  "score_raw": 28.422355200945624,
+  "evaluation_date": "2024-12-03",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2131
+}

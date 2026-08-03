@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sensellm-reflectioncoder-cl-34b",
+  "model_id": "SenseLLM/ReflectionCoder-CL-34B",
+  "benchmark_name": "average",
+  "score": 12.147932297450376,
+  "score_raw": 12.147932297450376,
+  "evaluation_date": "2024-05-28",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3577
+}

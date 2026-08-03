@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-sao10k-l3-70b-euryale-v2-1",
+  "model_id": "Sao10K/L3-70B-Euryale-v2.1",
+  "benchmark_name": "gpqa",
+  "score": 10.850111856823268,
+  "score_raw": 10.850111856823268,
+  "evaluation_date": "2024-06-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 862
+}

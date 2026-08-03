@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-fluently-sets-falconthink3-10b-it",
+  "model_id": "fluently-sets/FalconThink3-10B-IT",
+  "benchmark_name": "average",
+  "score": 34.620674425220905,
+  "score_raw": 34.620674425220905,
+  "evaluation_date": "2024-12-29",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 675
+}

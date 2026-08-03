@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sorawiz-gemma-9b-base",
+  "model_id": "Sorawiz/Gemma-9B-Base",
+  "benchmark_name": "average",
+  "score": 20.84248400200344,
+  "score_raw": 20.84248400200344,
+  "evaluation_date": "2025-02-11",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2523
+}

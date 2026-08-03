@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-daemontatox-ra-reasoner2-0",
+  "model_id": "Daemontatox/RA_Reasoner2.0",
+  "benchmark_name": "mmlu-pro",
+  "score": 37.259899527186754,
+  "score_raw": 37.259899527186754,
+  "evaluation_date": "2024-12-29",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 957
+}

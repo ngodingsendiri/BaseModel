@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-bunnycore-best-mix-llama-3-1-8b",
+  "model_id": "bunnycore/Best-Mix-Llama-3.1-8B",
+  "benchmark_name": "math-lvl-5",
+  "score": 20.54380664652568,
+  "score_raw": 20.54380664652568,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1274
+}

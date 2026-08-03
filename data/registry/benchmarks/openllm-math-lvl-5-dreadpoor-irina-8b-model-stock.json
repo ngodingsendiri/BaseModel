@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-dreadpoor-irina-8b-model-stock",
+  "model_id": "DreadPoor/Irina-8B-model_stock",
+  "benchmark_name": "math-lvl-5",
+  "score": 10.196374622356496,
+  "score_raw": 10.196374622356496,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2355
+}

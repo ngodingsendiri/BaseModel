@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-sharathhebbar24-chat-gpt2-dpo",
+  "model_id": "Sharathhebbar24/chat_gpt2_dpo",
+  "benchmark_name": "bbh",
+  "score": 1.6986044099668713,
+  "score_raw": 1.6986044099668713,
+  "evaluation_date": "2024-01-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4527
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-icefog72-icetea21energydrinkrpv13-dpov3-5",
+  "model_id": "icefog72/IceTea21EnergyDrinkRPV13-DPOv3.5",
+  "benchmark_name": "gpqa",
+  "score": 4.5861297539149914,
+  "score_raw": 4.5861297539149914,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2769
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-novaciano-cerberus-3-2-1b",
+  "model_id": "Novaciano/Cerberus-3.2-1B",
+  "benchmark_name": "average",
+  "score": 13.731435487093222,
+  "score_raw": 13.731435487093222,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3450
+}

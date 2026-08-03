@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-jaspionjader-kosmos-evaa-v9-8b",
+  "model_id": "jaspionjader/Kosmos-EVAA-v9-8B",
+  "benchmark_name": "gpqa",
+  "score": 7.494407158836691,
+  "score_raw": 7.494407158836691,
+  "evaluation_date": "2024-12-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1688
+}

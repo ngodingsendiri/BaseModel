@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-winglian-llama-3-8b-256k-pose",
+  "model_id": "winglian/llama-3-8b-256k-PoSE",
+  "benchmark_name": "bbh",
+  "score": 5.502848923020156,
+  "score_raw": 5.502848923020156,
+  "evaluation_date": "2024-04-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4077
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-gotocompany-llama3-8b-cpt-sahabatai-v1-instruct",
+  "model_id": "GoToCompany/llama3-8b-cpt-sahabatai-v1-instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 27.258791371158388,
+  "score_raw": 27.258791371158388,
+  "evaluation_date": "2024-11-06",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2282
+}

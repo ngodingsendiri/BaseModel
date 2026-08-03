@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-daemontatox-documentcogito",
+  "model_id": "Daemontatox/DocumentCogito",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.417036052009454,
+  "score_raw": 30.417036052009454,
+  "evaluation_date": "2025-01-16",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1738
+}

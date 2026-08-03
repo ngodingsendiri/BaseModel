@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-pinkstack-superthoughts-cot-14b-16k-o1-qwq",
+  "model_id": "Pinkstack/SuperThoughts-CoT-14B-16k-o1-QwQ",
+  "benchmark_name": "bbh",
+  "score": 52.848496844057365,
+  "score_raw": 52.848496844057365,
+  "evaluation_date": "2025-01-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 193
+}

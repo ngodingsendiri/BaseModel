@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-zelk12-mt2-gen4-gemma-2-9b",
+  "model_id": "zelk12/MT2-Gen4-gemma-2-9B",
+  "benchmark_name": "average",
+  "score": 34.202321593914604,
+  "score_raw": 34.202321593914604,
+  "evaluation_date": "2024-12-15",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 715
+}

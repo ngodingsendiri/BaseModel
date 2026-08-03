@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-aurel9-testmerge-7b",
+  "model_id": "Aurel9/testmerge-7b",
+  "benchmark_name": "musr",
+  "score": 17.133072916666666,
+  "score_raw": 17.133072916666666,
+  "evaluation_date": "2024-11-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 555
+}

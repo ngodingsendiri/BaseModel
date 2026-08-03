@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sequelbox-llama3-1-70b-plumchat",
+  "model_id": "sequelbox/Llama3.1-70B-PlumChat",
+  "benchmark_name": "math-lvl-5",
+  "score": 30.28700906344411,
+  "score_raw": 30.28700906344411,
+  "evaluation_date": "2024-11-17",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 816
+}

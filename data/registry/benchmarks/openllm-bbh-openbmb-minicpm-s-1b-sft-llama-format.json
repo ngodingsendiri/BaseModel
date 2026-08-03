@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-openbmb-minicpm-s-1b-sft-llama-format",
+  "model_id": "openbmb/MiniCPM-S-1B-sft-llama-format",
+  "benchmark_name": "bbh",
+  "score": 3.898455214242885,
+  "score_raw": 3.898455214242885,
+  "evaluation_date": "2024-06-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4218
+}

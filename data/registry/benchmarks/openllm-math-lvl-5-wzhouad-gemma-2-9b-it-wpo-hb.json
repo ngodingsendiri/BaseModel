@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-wzhouad-gemma-2-9b-it-wpo-hb",
+  "model_id": "wzhouad/gemma-2-9b-it-WPO-HB",
+  "benchmark_name": "math-lvl-5",
+  "score": 15.332326283987916,
+  "score_raw": 15.332326283987916,
+  "evaluation_date": "2024-08-08",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1708
+}

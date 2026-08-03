@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-etherll-qwen2-5-7b-della-test",
+  "model_id": "Etherll/Qwen2.5-7B-della-test",
+  "benchmark_name": "bbh",
+  "score": 35.54689390845198,
+  "score_raw": 35.54689390845198,
+  "evaluation_date": "2024-11-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1289
+}

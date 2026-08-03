@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-allknowingroger-gemma2slerp1-2-6b",
+  "model_id": "allknowingroger/Gemma2Slerp1-2.6B",
+  "benchmark_name": "bbh",
+  "score": 19.770254818005952,
+  "score_raw": 19.770254818005952,
+  "evaluation_date": "2024-12-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3221
+}

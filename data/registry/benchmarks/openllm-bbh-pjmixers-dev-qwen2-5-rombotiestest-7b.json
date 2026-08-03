@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-pjmixers-dev-qwen2-5-rombotiestest-7b",
+  "model_id": "PJMixers-Dev/Qwen2.5-RomboTiesTest-7B",
+  "benchmark_name": "bbh",
+  "score": 34.93145651665548,
+  "score_raw": 34.93145651665548,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1366
+}

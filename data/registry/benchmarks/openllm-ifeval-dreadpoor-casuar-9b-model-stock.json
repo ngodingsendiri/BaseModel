@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-dreadpoor-casuar-9b-model-stock",
+  "model_id": "DreadPoor/Casuar-9B-Model_Stock",
+  "benchmark_name": "ifeval",
+  "score": 77.64852812759035,
+  "score_raw": 77.64852812759035,
+  "evaluation_date": "2024-12-20",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 290
+}

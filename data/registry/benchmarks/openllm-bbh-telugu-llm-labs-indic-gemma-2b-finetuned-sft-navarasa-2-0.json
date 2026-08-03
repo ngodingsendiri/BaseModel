@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-telugu-llm-labs-indic-gemma-2b-finetuned-sft-navarasa-2-0",
+  "model_id": "Telugu-LLM-Labs/Indic-gemma-2b-finetuned-sft-Navarasa-2.0",
+  "benchmark_name": "bbh",
+  "score": 6.0210547049870184,
+  "score_raw": 6.0210547049870184,
+  "evaluation_date": "2024-03-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4038
+}

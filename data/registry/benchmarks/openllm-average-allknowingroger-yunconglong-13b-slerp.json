@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-allknowingroger-yunconglong-13b-slerp",
+  "model_id": "allknowingroger/Yunconglong-13B-slerp",
+  "benchmark_name": "average",
+  "score": 19.600104180648433,
+  "score_raw": 19.600104180648433,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2750
+}

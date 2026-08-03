@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dzakwan-dzakwan-moe-4x7b-beta",
+  "model_id": "dzakwan/dzakwan-MoE-4x7b-Beta",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.417183806146575,
+  "score_raw": 23.417183806146575,
+  "evaluation_date": "2024-05-26",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2721
+}

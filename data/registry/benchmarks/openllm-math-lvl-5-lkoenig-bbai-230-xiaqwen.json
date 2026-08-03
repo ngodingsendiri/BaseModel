@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-lkoenig-bbai-230-xiaqwen",
+  "model_id": "lkoenig/BBAI_230_Xiaqwen",
+  "benchmark_name": "math-lvl-5",
+  "score": 36.631419939577036,
+  "score_raw": 36.631419939577036,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 591
+}

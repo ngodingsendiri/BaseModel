@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-lemon07r-llama-3-redmagic4-8b",
+  "model_id": "lemon07r/Llama-3-RedMagic4-8B",
+  "benchmark_name": "average",
+  "score": 19.430990497953946,
+  "score_raw": 19.430990497953946,
+  "evaluation_date": "2024-06-19",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2777
+}

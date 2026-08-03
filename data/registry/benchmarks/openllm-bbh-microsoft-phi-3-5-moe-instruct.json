@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-microsoft-phi-3-5-moe-instruct",
+  "model_id": "microsoft/Phi-3.5-MoE-instruct",
+  "benchmark_name": "bbh",
+  "score": 48.77464635932187,
+  "score_raw": 48.77464635932187,
+  "evaluation_date": "2024-08-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 489
+}

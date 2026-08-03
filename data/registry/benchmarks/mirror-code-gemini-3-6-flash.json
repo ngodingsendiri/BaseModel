@@ -2,12 +2,12 @@
   "benchmark_id": "mirror-code-gemini-3-6-flash",
   "model_id": "gemini-3.6-flash",
   "benchmark_name": "code",
-  "score": 91.375,
-  "score_raw": 1531,
-  "evaluation_date": "2026-08-01",
+  "score": 91.625,
+  "score_raw": 1533,
+  "evaluation_date": "2026-08-03",
   "source": "mirror",
   "category": [
     "code"
   ],
-  "rank": 17
+  "rank": 18
 }

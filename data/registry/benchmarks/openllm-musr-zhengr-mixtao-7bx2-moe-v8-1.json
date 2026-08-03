@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-zhengr-mixtao-7bx2-moe-v8-1",
+  "model_id": "zhengr/MixTAO-7Bx2-MoE-v8.1",
+  "benchmark_name": "musr",
+  "score": 8.303124999999996,
+  "score_raw": 8.303124999999996,
+  "evaluation_date": "2024-02-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2769
+}

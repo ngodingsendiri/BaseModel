@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-kukedlc-neuralllama-3-8b-orpo-v0-3",
+  "model_id": "Kukedlc/NeuralLLaMa-3-8b-ORPO-v0.3",
+  "benchmark_name": "musr",
+  "score": 3.65390625,
+  "score_raw": 3.65390625,
+  "evaluation_date": "2024-05-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3774
+}

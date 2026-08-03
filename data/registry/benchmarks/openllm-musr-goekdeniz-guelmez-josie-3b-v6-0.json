@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-goekdeniz-guelmez-josie-3b-v6-0",
+  "model_id": "Goekdeniz-Guelmez/josie-3b-v6.0",
+  "benchmark_name": "musr",
+  "score": 6.098958333333333,
+  "score_raw": 6.098958333333333,
+  "evaluation_date": "2024-12-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3232
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-yuma42-llama3-1-superhawk-8b",
+  "model_id": "Yuma42/Llama3.1-SuperHawk-8B",
+  "benchmark_name": "ifeval",
+  "score": 79.86420475449586,
+  "score_raw": 79.86420475449586,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 134
+}

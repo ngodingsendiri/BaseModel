@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-sicariussicariistuff-qwen2-5-14b-uncensored",
+  "model_id": "SicariusSicariiStuff/Qwen2.5-14B_Uncensored",
+  "benchmark_name": "bbh",
+  "score": 46.7202351109504,
+  "score_raw": 46.7202351109504,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 616
+}

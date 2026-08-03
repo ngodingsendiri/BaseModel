@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-tinycompany-bibo-v0-7",
+  "model_id": "tinycompany/BiBo-v0.7",
+  "benchmark_name": "average",
+  "score": 15.965356863831778,
+  "score_raw": 15.965356863831778,
+  "evaluation_date": "2025-03-12",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3198
+}

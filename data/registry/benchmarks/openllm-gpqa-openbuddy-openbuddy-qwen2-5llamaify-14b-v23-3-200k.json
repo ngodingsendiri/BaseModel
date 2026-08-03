@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-openbuddy-openbuddy-qwen2-5llamaify-14b-v23-3-200k",
+  "model_id": "OpenBuddy/openbuddy-qwen2.5llamaify-14b-v23.3-200k",
+  "benchmark_name": "gpqa",
+  "score": 10.290827740492169,
+  "score_raw": 10.290827740492169,
+  "evaluation_date": "2024-10-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 945
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-causallm-preview-1-hf",
+  "model_id": "CausalLM/preview-1-hf",
+  "benchmark_name": "math-lvl-5",
+  "score": 3.0211480362537766,
+  "score_raw": 3.0211480362537766,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3686
+}

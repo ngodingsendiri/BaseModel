@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-claudioitaly-evolutionstory-7b-v2-2",
+  "model_id": "ClaudioItaly/Evolutionstory-7B-v2.2",
+  "benchmark_name": "musr",
+  "score": 10.658072916666663,
+  "score_raw": 10.658072916666663,
+  "evaluation_date": "2024-08-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2096
+}

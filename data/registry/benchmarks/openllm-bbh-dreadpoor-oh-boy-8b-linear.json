@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-oh-boy-8b-linear",
+  "model_id": "DreadPoor/Oh_Boy-8B-LINEAR",
+  "benchmark_name": "bbh",
+  "score": 34.14329045372282,
+  "score_raw": 34.14329045372282,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1493
+}

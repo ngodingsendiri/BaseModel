@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-fuseai-fusechat-7b-v2-0",
+  "model_id": "FuseAI/FuseChat-7B-v2.0",
+  "benchmark_name": "average",
+  "score": 20.14636743747765,
+  "score_raw": 20.14636743747765,
+  "evaluation_date": "2024-08-13",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2662
+}

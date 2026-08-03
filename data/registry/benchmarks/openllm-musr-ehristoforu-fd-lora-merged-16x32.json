@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-ehristoforu-fd-lora-merged-16x32",
+  "model_id": "ehristoforu/fd-lora-merged-16x32",
+  "benchmark_name": "musr",
+  "score": 1.5950520833333328,
+  "score_raw": 1.5950520833333328,
+  "evaluation_date": "2025-02-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4289
+}

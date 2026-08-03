@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-l3-1-baezel-8b-della",
+  "model_id": "DreadPoor/L3.1-BaeZel-8B-Della",
+  "benchmark_name": "gpqa",
+  "score": 9.284116331096197,
+  "score_raw": 9.284116331096197,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1143
+}

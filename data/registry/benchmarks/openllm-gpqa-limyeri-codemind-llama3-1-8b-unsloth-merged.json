@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-limyeri-codemind-llama3-1-8b-unsloth-merged",
+  "model_id": "LimYeri/CodeMind-Llama3.1-8B-unsloth-merged",
+  "benchmark_name": "gpqa",
+  "score": 1.9015659955257262,
+  "score_raw": 1.9015659955257262,
+  "evaluation_date": "2024-08-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3718
+}

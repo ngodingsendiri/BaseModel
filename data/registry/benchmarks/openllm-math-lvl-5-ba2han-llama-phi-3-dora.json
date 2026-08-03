@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-ba2han-llama-phi-3-dora",
+  "model_id": "Ba2han/Llama-Phi-3_DoRA",
+  "benchmark_name": "math-lvl-5",
+  "score": 12.16012084592145,
+  "score_raw": 12.16012084592145,
+  "evaluation_date": "2024-05-15",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2054
+}

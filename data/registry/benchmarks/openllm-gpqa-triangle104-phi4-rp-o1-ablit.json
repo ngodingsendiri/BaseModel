@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-triangle104-phi4-rp-o1-ablit",
+  "model_id": "Triangle104/Phi4-RP-o1-Ablit",
+  "benchmark_name": "gpqa",
+  "score": 15.100671140939594,
+  "score_raw": 15.100671140939594,
+  "evaluation_date": "2025-02-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 401
+}

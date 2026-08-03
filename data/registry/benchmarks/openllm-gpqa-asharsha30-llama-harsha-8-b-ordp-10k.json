@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-asharsha30-llama-harsha-8-b-ordp-10k",
+  "model_id": "asharsha30/LLAMA_Harsha_8_B_ORDP_10k",
+  "benchmark_name": "gpqa",
+  "score": 3.1319910514541416,
+  "score_raw": 3.1319910514541416,
+  "evaluation_date": "2024-12-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3266
+}

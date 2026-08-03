@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-unsloth-llama-3-2-1b-instruct-no-system-message",
+  "model_id": "unsloth/Llama-3.2-1B-Instruct-no-system-message",
+  "benchmark_name": "math-lvl-5",
+  "score": 7.552870090634441,
+  "score_raw": 7.552870090634441,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2765
+}

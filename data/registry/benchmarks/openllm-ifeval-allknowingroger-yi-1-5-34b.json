@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-allknowingroger-yi-1-5-34b",
+  "model_id": "allknowingroger/Yi-1.5-34B",
+  "benchmark_name": "ifeval",
+  "score": 16.391618682872554,
+  "score_raw": 16.391618682872554,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4250
+}

@@ -2,12 +2,12 @@
   "benchmark_id": "mirror-code-glm-5-2-max",
   "model_id": "glm-5.2-max",
   "benchmark_name": "code",
-  "score": 98.375,
-  "score_raw": 1587,
-  "evaluation_date": "2026-08-01",
+  "score": 98.25,
+  "score_raw": 1586,
+  "evaluation_date": "2026-08-03",
   "source": "mirror",
   "category": [
     "code"
   ],
-  "rank": 6
+  "rank": 7
 }

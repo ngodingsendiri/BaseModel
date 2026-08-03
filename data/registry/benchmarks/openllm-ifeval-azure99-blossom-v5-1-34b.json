@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-azure99-blossom-v5-1-34b",
+  "model_id": "Azure99/blossom-v5.1-34b",
+  "benchmark_name": "ifeval",
+  "score": 56.96562897556262,
+  "score_raw": 56.96562897556262,
+  "evaluation_date": "2024-05-19",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1411
+}

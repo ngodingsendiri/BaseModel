@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-l-rage-3-prymmal-ece-7b-slerp-v1",
+  "model_id": "L-RAGE/3_PRYMMAL-ECE-7B-SLERP-V1",
+  "benchmark_name": "musr",
+  "score": 6.18359375,
+  "score_raw": 6.18359375,
+  "evaluation_date": "2024-10-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3210
+}

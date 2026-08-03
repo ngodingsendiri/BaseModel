@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-win10-eva-norns-qwen2-5-v0-1",
+  "model_id": "win10/EVA-Norns-Qwen2.5-v0.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 26.944813829787233,
+  "score_raw": 26.944813829787233,
+  "evaluation_date": "2024-11-17",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2314
+}

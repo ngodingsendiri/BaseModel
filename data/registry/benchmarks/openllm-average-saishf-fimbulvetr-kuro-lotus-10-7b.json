@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-saishf-fimbulvetr-kuro-lotus-10-7b",
+  "model_id": "saishf/Fimbulvetr-Kuro-Lotus-10.7B",
+  "benchmark_name": "average",
+  "score": 20.677867158266114,
+  "score_raw": 20.677867158266114,
+  "evaluation_date": "2024-02-13",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2556
+}

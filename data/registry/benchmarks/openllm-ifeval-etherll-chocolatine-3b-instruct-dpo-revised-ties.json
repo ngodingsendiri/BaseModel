@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-etherll-chocolatine-3b-instruct-dpo-revised-ties",
+  "model_id": "Etherll/Chocolatine-3B-Instruct-DPO-Revised-Ties",
+  "benchmark_name": "ifeval",
+  "score": 37.24694920588483,
+  "score_raw": 37.24694920588483,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2907
+}

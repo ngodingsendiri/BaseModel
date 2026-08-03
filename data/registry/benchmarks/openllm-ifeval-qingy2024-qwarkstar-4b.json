@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-qingy2024-qwarkstar-4b",
+  "model_id": "qingy2024/Qwarkstar-4B",
+  "benchmark_name": "ifeval",
+  "score": 19.941200459225964,
+  "score_raw": 19.941200459225964,
+  "evaluation_date": "2025-01-05",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4019
+}

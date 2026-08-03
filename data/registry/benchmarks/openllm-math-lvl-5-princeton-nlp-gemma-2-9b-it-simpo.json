@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-princeton-nlp-gemma-2-9b-it-simpo",
+  "model_id": "princeton-nlp/gemma-2-9b-it-SimPO",
+  "benchmark_name": "math-lvl-5",
+  "score": 7.099697885196375,
+  "score_raw": 7.099697885196375,
+  "evaluation_date": "2024-07-16",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2837
+}

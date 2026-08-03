@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-dreadpoor-summer-rain-8b-sce",
+  "model_id": "DreadPoor/Summer_Rain-8B-SCE",
+  "benchmark_name": "math-lvl-5",
+  "score": 7.02416918429003,
+  "score_raw": 7.02416918429003,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2839
+}

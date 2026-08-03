@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-kno10-ende-chat-0-0-5",
+  "model_id": "kno10/ende-chat-0.0.5",
+  "benchmark_name": "musr",
+  "score": 7.097135416666668,
+  "score_raw": 7.097135416666668,
+  "evaluation_date": "2024-06-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3044
+}

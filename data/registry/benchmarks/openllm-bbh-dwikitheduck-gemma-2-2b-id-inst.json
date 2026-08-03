@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-dwikitheduck-gemma-2-2b-id-inst",
+  "model_id": "dwikitheduck/gemma-2-2b-id-inst",
+  "benchmark_name": "bbh",
+  "score": 15.415129369168449,
+  "score_raw": 15.415129369168449,
+  "evaluation_date": "2024-10-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3476
+}

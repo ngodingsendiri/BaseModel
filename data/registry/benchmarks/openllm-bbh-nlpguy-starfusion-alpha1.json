@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-nlpguy-starfusion-alpha1",
+  "model_id": "nlpguy/StarFusion-alpha1",
+  "benchmark_name": "bbh",
+  "score": 21.933181635654744,
+  "score_raw": 21.933181635654744,
+  "evaluation_date": "2024-04-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3082
+}

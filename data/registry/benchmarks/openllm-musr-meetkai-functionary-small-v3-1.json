@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-meetkai-functionary-small-v3-1",
+  "model_id": "meetkai/functionary-small-v3.1",
+  "benchmark_name": "musr",
+  "score": 6.1872395833333345,
+  "score_raw": 6.1872395833333345,
+  "evaluation_date": "2024-07-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3208
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-spmurrayzzz-mistral-syndicate-7b",
+  "model_id": "spmurrayzzz/Mistral-Syndicate-7B",
+  "benchmark_name": "average",
+  "score": 14.012817664482597,
+  "score_raw": 14.012817664482597,
+  "evaluation_date": "2023-12-30",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3414
+}

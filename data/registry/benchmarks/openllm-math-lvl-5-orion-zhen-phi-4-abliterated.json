@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-orion-zhen-phi-4-abliterated",
+  "model_id": "Orion-zhen/phi-4-abliterated",
+  "benchmark_name": "math-lvl-5",
+  "score": 30.211480362537763,
+  "score_raw": 30.211480362537763,
+  "evaluation_date": "2024-12-17",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 818
+}

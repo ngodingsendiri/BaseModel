@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-tensopolis-mistral-small-r1-tensopolis",
+  "model_id": "tensopolis/mistral-small-r1-tensopolis",
+  "benchmark_name": "mmlu-pro",
+  "score": 33.72303486997636,
+  "score_raw": 33.72303486997636,
+  "evaluation_date": "2025-02-08",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1180
+}

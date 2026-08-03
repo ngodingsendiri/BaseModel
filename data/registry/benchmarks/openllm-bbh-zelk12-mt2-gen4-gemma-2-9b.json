@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-zelk12-mt2-gen4-gemma-2-9b",
+  "model_id": "zelk12/MT2-Gen4-gemma-2-9B",
+  "benchmark_name": "bbh",
+  "score": 43.778361681045226,
+  "score_raw": 43.778361681045226,
+  "evaluation_date": "2024-12-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 773
+}

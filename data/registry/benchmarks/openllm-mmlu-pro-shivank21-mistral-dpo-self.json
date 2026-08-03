@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-shivank21-mistral-dpo-self",
+  "model_id": "shivank21/mistral_dpo_self",
+  "benchmark_name": "mmlu-pro",
+  "score": 13.48995271867612,
+  "score_raw": 13.48995271867612,
+  "evaluation_date": "2025-02-03",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3522
+}

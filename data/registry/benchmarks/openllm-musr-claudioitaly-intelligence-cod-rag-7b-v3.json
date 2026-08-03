@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-claudioitaly-intelligence-cod-rag-7b-v3",
+  "model_id": "ClaudioItaly/intelligence-cod-rag-7b-v3",
+  "benchmark_name": "musr",
+  "score": 10.675520833333335,
+  "score_raw": 10.675520833333335,
+  "evaluation_date": "2024-11-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2085
+}

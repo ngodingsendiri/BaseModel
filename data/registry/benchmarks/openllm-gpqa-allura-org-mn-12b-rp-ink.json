@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-allura-org-mn-12b-rp-ink",
+  "model_id": "allura-org/MN-12b-RP-Ink",
+  "benchmark_name": "gpqa",
+  "score": 4.697986577181204,
+  "score_raw": 4.697986577181204,
+  "evaluation_date": "2024-12-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2724
+}

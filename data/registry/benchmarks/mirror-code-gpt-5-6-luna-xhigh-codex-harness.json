@@ -2,12 +2,12 @@
   "benchmark_id": "mirror-code-gpt-5-6-luna-xhigh-codex-harness",
   "model_id": "gpt-5.6-luna-xhigh (codex-harness)",
   "benchmark_name": "code",
-  "score": 90.5,
-  "score_raw": 1524,
-  "evaluation_date": "2026-08-01",
+  "score": 90.375,
+  "score_raw": 1523,
+  "evaluation_date": "2026-08-03",
   "source": "mirror",
   "category": [
     "code"
   ],
-  "rank": 19
+  "rank": 20
 }

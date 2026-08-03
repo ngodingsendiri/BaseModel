@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-triangle104-ds-distilled-hermes-llama-3-1-ties",
+  "model_id": "Triangle104/DS-Distilled-Hermes-Llama-3.1_TIES",
+  "benchmark_name": "gpqa",
+  "score": 0,
+  "score_raw": 0,
+  "evaluation_date": "2025-01-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4446
+}

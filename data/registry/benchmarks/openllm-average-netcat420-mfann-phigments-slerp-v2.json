@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-netcat420-mfann-phigments-slerp-v2",
+  "model_id": "netcat420/MFANN-phigments-slerp-V2",
+  "benchmark_name": "average",
+  "score": 16.26870816278764,
+  "score_raw": 16.26870816278764,
+  "evaluation_date": "2024-10-23",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3166
+}

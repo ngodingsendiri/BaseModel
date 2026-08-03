@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-gunulhona-gemma-ko-merge-peft",
+  "model_id": "Gunulhona/Gemma-Ko-Merge-PEFT",
+  "benchmark_name": "bbh",
+  "score": 26.015069295888747,
+  "score_raw": 26.015069295888747,
+  "evaluation_date": "2024-09-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2724
+}

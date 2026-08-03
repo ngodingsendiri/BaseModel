@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-quazim0t0-sumatra-20b",
+  "model_id": "Quazim0t0/Sumatra-20b",
+  "benchmark_name": "musr",
+  "score": 16.834635416666664,
+  "score_raw": 16.834635416666664,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 589
+}

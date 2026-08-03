@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-edgerunners-meta-llama-3-8b-instruct-hf-ortho-baukit-34fail-3000total-bf16",
+  "model_id": "Edgerunners/meta-llama-3-8b-instruct-hf-ortho-baukit-34fail-3000total-bf16",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.290410756501185,
+  "score_raw": 29.290410756501185,
+  "evaluation_date": "2024-05-12",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1997
+}

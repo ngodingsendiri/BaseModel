@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-t145-meta-llama-3-1-8b-instruct-ties",
+  "model_id": "T145/Meta-Llama-3.1-8B-Instruct-TIES",
+  "benchmark_name": "gpqa",
+  "score": 5.92841163310962,
+  "score_raw": 5.92841163310962,
+  "evaluation_date": "2024-12-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2294
+}

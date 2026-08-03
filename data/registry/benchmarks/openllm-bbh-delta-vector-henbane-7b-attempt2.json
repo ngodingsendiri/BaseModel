@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-delta-vector-henbane-7b-attempt2",
+  "model_id": "Delta-Vector/Henbane-7b-attempt2",
+  "benchmark_name": "bbh",
+  "score": 30.865849451121658,
+  "score_raw": 30.865849451121658,
+  "evaluation_date": "2024-09-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2061
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-ateron-way-of-magpicaro",
+  "model_id": "Ateron/Way_of_MagPicaro",
+  "benchmark_name": "math-lvl-5",
+  "score": 5.8912386706948645,
+  "score_raw": 5.8912386706948645,
+  "evaluation_date": "2025-02-15",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3071
+}

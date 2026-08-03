@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-leroydyer-spydazweb-ai-humanai-012-instruct-mx",
+  "model_id": "LeroyDyer/SpydazWeb_AI_HumanAI_012_INSTRUCT_MX",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.5105740181268883,
+  "score_raw": 1.5105740181268883,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4046
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-flammenai-mahou-1-2a-llama3-8b",
+  "model_id": "flammenai/Mahou-1.2a-llama3-8B",
+  "benchmark_name": "ifeval",
+  "score": 50.925655039739,
+  "score_raw": 50.925655039739,
+  "evaluation_date": "2024-05-25",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1780
+}

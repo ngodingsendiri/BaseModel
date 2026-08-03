@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-ntqai-nxmobilelm-1-5b-sft",
+  "model_id": "NTQAI/NxMobileLM-1.5B-SFT",
+  "benchmark_name": "bbh",
+  "score": 16.162542725891466,
+  "score_raw": 16.162542725891466,
+  "evaluation_date": "2025-01-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3451
+}

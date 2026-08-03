@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-jpacifico-chocolatine-3b-instruct-dpo-revised",
+  "model_id": "jpacifico/Chocolatine-3B-Instruct-DPO-Revised",
+  "benchmark_name": "bbh",
+  "score": 37.1552860906475,
+  "score_raw": 37.1552860906475,
+  "evaluation_date": "2024-07-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1068
+}

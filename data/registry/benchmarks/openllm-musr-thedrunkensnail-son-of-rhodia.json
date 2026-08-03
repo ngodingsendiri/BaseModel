@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-thedrunkensnail-son-of-rhodia",
+  "model_id": "TheDrunkenSnail/Son-of-Rhodia",
+  "benchmark_name": "musr",
+  "score": 12.103124999999999,
+  "score_raw": 12.103124999999999,
+  "evaluation_date": "2024-12-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1556
+}

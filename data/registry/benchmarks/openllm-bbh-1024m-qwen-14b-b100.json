@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-1024m-qwen-14b-b100",
+  "model_id": "1024m/QWEN-14B-B100",
+  "benchmark_name": "bbh",
+  "score": 49.77664782103219,
+  "score_raw": 49.77664782103219,
+  "evaluation_date": "2025-01-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 405
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-dans-discountmodels-dans-instruct-mix-8b-chatml-v0-1-0",
+  "model_id": "Dans-DiscountModels/Dans-Instruct-Mix-8b-ChatML-V0.1.0",
+  "benchmark_name": "ifeval",
+  "score": 6.682048076880455,
+  "score_raw": 6.682048076880455,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4520
+}

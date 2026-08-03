@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-ateron-glowing-forest-12b",
+  "model_id": "Ateron/Glowing-Forest-12B",
+  "benchmark_name": "bbh",
+  "score": 35.52548240518279,
+  "score_raw": 35.52548240518279,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1293
+}

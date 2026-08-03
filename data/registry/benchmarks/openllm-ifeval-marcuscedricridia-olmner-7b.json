@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-marcuscedricridia-olmner-7b",
+  "model_id": "marcuscedricridia/olmner-7b",
+  "benchmark_name": "ifeval",
+  "score": 72.53775537795272,
+  "score_raw": 72.53775537795272,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 612
+}

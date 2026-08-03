@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-nbailab-nb-llama-3-1-8b-sft",
+  "model_id": "NbAiLab/nb-llama-3.1-8B-sft",
+  "benchmark_name": "mmlu-pro",
+  "score": 2.4638002364066187,
+  "score_raw": 2.4638002364066187,
+  "evaluation_date": "2024-11-25",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4111
+}

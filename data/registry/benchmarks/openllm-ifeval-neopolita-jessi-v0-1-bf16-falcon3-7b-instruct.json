@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-neopolita-jessi-v0-1-bf16-falcon3-7b-instruct",
+  "model_id": "neopolita/jessi-v0.1-bf16-falcon3-7b-instruct",
+  "benchmark_name": "ifeval",
+  "score": 75.27050448365891,
+  "score_raw": 75.27050448365891,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 429
+}

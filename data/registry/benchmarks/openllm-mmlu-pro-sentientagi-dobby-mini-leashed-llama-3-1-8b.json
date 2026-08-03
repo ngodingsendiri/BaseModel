@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sentientagi-dobby-mini-leashed-llama-3-1-8b",
+  "model_id": "SentientAGI/Dobby-Mini-Leashed-Llama-3.1-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.93683510638298,
+  "score_raw": 29.93683510638298,
+  "evaluation_date": "2025-01-22",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1845
+}

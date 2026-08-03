@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-icefog72-icedrinkbyfrankensteinv3rp",
+  "model_id": "icefog72/IceDrinkByFrankensteinV3RP",
+  "benchmark_name": "bbh",
+  "score": 28.84588139816073,
+  "score_raw": 28.84588139816073,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2384
+}

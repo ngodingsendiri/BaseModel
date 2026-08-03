@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-mrdayl-opencogito",
+  "model_id": "mrdayl/OpenCogito",
+  "benchmark_name": "ifeval",
+  "score": 39.33773498761065,
+  "score_raw": 39.33773498761065,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2773
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-shastraai-shastra-llama2-math-commonsense-sft",
+  "model_id": "shastraai/Shastra-LLAMA2-Math-Commonsense-SFT",
+  "benchmark_name": "bbh",
+  "score": 13.659523241343651,
+  "score_raw": 13.659523241343651,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3555
+}

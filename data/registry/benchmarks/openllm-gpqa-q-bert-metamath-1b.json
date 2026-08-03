@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-q-bert-metamath-1b",
+  "model_id": "Q-bert/MetaMath-1B",
+  "benchmark_name": "gpqa",
+  "score": 0.22371364653244186,
+  "score_raw": 0.22371364653244186,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4298
+}

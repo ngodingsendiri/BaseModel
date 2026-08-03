@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-amd-amd-llama-135m",
+  "model_id": "amd/AMD-Llama-135m",
+  "benchmark_name": "gpqa",
+  "score": 0.33557046979865535,
+  "score_raw": 0.33557046979865535,
+  "evaluation_date": "2024-07-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4280
+}

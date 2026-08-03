@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-lilrg-prymmal-slerp-merge",
+  "model_id": "LilRg/PRYMMAL-slerp-Merge",
+  "benchmark_name": "math-lvl-5",
+  "score": 16.1631419939577,
+  "score_raw": 16.1631419939577,
+  "evaluation_date": "2024-09-24",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1631
+}

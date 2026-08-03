@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-blackbeenie-llama-3-luminous-merged",
+  "model_id": "BlackBeenie/llama-3-luminous-merged",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.814125295508273,
+  "score_raw": 30.814125295508273,
+  "evaluation_date": "2024-09-15",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1657
+}

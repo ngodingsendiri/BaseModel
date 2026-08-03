@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-yanng1242-marcoro14-7b-slerp",
+  "model_id": "yanng1242/Marcoro14-7B-slerp",
+  "benchmark_name": "mmlu-pro",
+  "score": 24.09131205673759,
+  "score_raw": 24.09131205673759,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2613
+}

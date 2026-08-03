@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-winter-dawn-8b-ties",
+  "model_id": "DreadPoor/Winter_Dawn-8B-TIES",
+  "benchmark_name": "mmlu-pro",
+  "score": 32.337839834515364,
+  "score_raw": 32.337839834515364,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1325
+}

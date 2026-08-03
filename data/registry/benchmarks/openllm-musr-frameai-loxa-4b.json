@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-frameai-loxa-4b",
+  "model_id": "frameai/Loxa-4B",
+  "benchmark_name": "musr",
+  "score": 3.873697916666666,
+  "score_raw": 3.873697916666666,
+  "evaluation_date": "2025-01-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3712
+}

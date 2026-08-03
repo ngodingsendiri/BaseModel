@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sam-paech-delirium-v1",
+  "model_id": "sam-paech/Delirium-v1",
+  "benchmark_name": "musr",
+  "score": 15.230989583333338,
+  "score_raw": 15.230989583333338,
+  "evaluation_date": "2024-10-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 813
+}

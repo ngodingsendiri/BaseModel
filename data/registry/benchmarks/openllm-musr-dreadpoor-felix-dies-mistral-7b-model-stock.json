@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-felix-dies-mistral-7b-model-stock",
+  "model_id": "DreadPoor/felix_dies-mistral-7B-model_stock",
+  "benchmark_name": "musr",
+  "score": 15.477864583333336,
+  "score_raw": 15.477864583333336,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 769
+}

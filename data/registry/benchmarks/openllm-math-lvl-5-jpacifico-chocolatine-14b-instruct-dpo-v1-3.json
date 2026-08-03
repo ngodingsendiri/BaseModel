@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-jpacifico-chocolatine-14b-instruct-dpo-v1-3",
+  "model_id": "jpacifico/Chocolatine-14B-Instruct-DPO-v1.3",
+  "benchmark_name": "math-lvl-5",
+  "score": 56.19335347432024,
+  "score_raw": 56.19335347432024,
+  "evaluation_date": "2024-12-22",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 30
+}

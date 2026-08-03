@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-llm360-k2",
+  "model_id": "LLM360/K2",
+  "benchmark_name": "gpqa",
+  "score": 3.5794183445190177,
+  "score_raw": 3.5794183445190177,
+  "evaluation_date": "2024-04-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3098
+}

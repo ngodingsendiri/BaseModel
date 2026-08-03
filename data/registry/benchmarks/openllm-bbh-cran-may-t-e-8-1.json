@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-cran-may-t-e-8-1",
+  "model_id": "Cran-May/T.E-8.1",
+  "benchmark_name": "bbh",
+  "score": 37.02437662584371,
+  "score_raw": 37.02437662584371,
+  "evaluation_date": "2024-09-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1079
+}

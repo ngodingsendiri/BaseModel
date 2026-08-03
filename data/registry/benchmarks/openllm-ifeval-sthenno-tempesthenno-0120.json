@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-sthenno-tempesthenno-0120",
+  "model_id": "sthenno/tempesthenno-0120",
+  "benchmark_name": "ifeval",
+  "score": 53.90319906736349,
+  "score_raw": 53.90319906736349,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1605
+}

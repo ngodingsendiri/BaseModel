@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-sakalti-ultiima-32b",
+  "model_id": "Sakalti/ultiima-32B",
+  "benchmark_name": "gpqa",
+  "score": 17.4496644295302,
+  "score_raw": 17.4496644295302,
+  "evaluation_date": "2024-12-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 228
+}

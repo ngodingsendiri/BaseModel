@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-epiculous-crimson-dawn-v0-2",
+  "model_id": "Epiculous/Crimson_Dawn-v0.2",
+  "benchmark_name": "bbh",
+  "score": 21.68824851395527,
+  "score_raw": 21.68824851395527,
+  "evaluation_date": "2024-09-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3093
+}

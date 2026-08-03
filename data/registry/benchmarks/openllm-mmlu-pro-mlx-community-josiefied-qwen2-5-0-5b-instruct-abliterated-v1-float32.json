@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-mlx-community-josiefied-qwen2-5-0-5b-instruct-abliterated-v1-float32",
+  "model_id": "mlx-community/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1-float32",
+  "benchmark_name": "mmlu-pro",
+  "score": 7.0903516548463354,
+  "score_raw": 7.0903516548463354,
+  "evaluation_date": "2024-11-17",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3788
+}

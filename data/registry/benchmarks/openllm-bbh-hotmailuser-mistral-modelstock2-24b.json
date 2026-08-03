@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-hotmailuser-mistral-modelstock2-24b",
+  "model_id": "hotmailuser/Mistral-modelstock2-24B",
+  "benchmark_name": "bbh",
+  "score": 52.387209345108715,
+  "score_raw": 52.387209345108715,
+  "evaluation_date": "2025-02-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 222
+}

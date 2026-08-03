@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-hot-stinking-garbage",
+  "model_id": "DreadPoor/HOT_STINKING_GARBAGE",
+  "benchmark_name": "gpqa",
+  "score": 3.355704697986576,
+  "score_raw": 3.355704697986576,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3170
+}

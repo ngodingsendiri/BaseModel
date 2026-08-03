@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-baai-infinity-instruct-3m-0625-qwen2-7b",
+  "model_id": "BAAI/Infinity-Instruct-3M-0625-Qwen2-7B",
+  "benchmark_name": "average",
+  "score": 26.199808011295485,
+  "score_raw": 26.199808011295485,
+  "evaluation_date": "2024-07-09",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1483
+}

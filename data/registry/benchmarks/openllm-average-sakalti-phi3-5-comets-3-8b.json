@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sakalti-phi3-5-comets-3-8b",
+  "model_id": "Sakalti/Phi3.5-Comets-3.8B",
+  "benchmark_name": "average",
+  "score": 5.760043006242388,
+  "score_raw": 5.760043006242388,
+  "evaluation_date": "2024-12-21",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4182
+}

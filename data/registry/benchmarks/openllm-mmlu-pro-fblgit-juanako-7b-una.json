@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-fblgit-juanako-7b-una",
+  "model_id": "fblgit/juanako-7b-UNA",
+  "benchmark_name": "mmlu-pro",
+  "score": 19.67715721040189,
+  "score_raw": 19.67715721040189,
+  "evaluation_date": "2023-11-27",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3185
+}

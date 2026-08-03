@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-vhab10-llama-3-2-instruct-3b-ties",
+  "model_id": "vhab10/Llama-3.2-Instruct-3B-TIES",
+  "benchmark_name": "ifeval",
+  "score": 47.27367828472896,
+  "score_raw": 47.27367828472896,
+  "evaluation_date": "2024-10-06",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2069
+}

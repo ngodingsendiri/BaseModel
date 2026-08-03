@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sensellm-reflectioncoder-ds-33b",
+  "model_id": "SenseLLM/ReflectionCoder-DS-33B",
+  "benchmark_name": "math-lvl-5",
+  "score": 3.0211480362537766,
+  "score_raw": 3.0211480362537766,
+  "evaluation_date": "2024-05-28",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3693
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ifaz-llama31-8b-en-emo-v4",
+  "model_id": "iFaz/llama31_8B_en_emo_v4",
+  "benchmark_name": "mmlu-pro",
+  "score": 22.761524822695034,
+  "score_raw": 22.761524822695034,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2830
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-davidau-l3-stheno-maid-blackroot-grand-horror-16b",
+  "model_id": "DavidAU/L3-Stheno-Maid-Blackroot-Grand-HORROR-16B",
+  "benchmark_name": "math-lvl-5",
+  "score": 2.190332326283988,
+  "score_raw": 2.190332326283988,
+  "evaluation_date": "2024-08-23",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3867
+}

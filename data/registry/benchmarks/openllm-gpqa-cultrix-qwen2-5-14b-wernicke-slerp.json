@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-cultrix-qwen2-5-14b-wernicke-slerp",
+  "model_id": "CultriX/Qwen2.5-14B-Wernicke-SLERP",
+  "benchmark_name": "gpqa",
+  "score": 12.527964205816552,
+  "score_raw": 12.527964205816552,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 641
+}

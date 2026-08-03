@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-novaciano-sigil-of-satan-3-2-1b",
+  "model_id": "Novaciano/Sigil-Of-Satan-3.2-1B",
+  "benchmark_name": "bbh",
+  "score": 9.400065990891237,
+  "score_raw": 9.400065990891237,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3687
+}

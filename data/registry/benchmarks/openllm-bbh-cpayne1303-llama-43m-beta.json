@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-cpayne1303-llama-43m-beta",
+  "model_id": "cpayne1303/llama-43m-beta",
+  "benchmark_name": "bbh",
+  "score": 2.482040957520409,
+  "score_raw": 2.482040957520409,
+  "evaluation_date": "2024-11-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4410
+}

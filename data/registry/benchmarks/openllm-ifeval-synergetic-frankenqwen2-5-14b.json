@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-synergetic-frankenqwen2-5-14b",
+  "model_id": "synergetic/FrankenQwen2.5-14B",
+  "benchmark_name": "ifeval",
+  "score": 18.69472998311148,
+  "score_raw": 18.69472998311148,
+  "evaluation_date": "2024-11-30",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4104
+}

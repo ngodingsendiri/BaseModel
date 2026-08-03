@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-ontocord-wide-3b-sft-stage1-1-ss1-with-generics-intr-stories-no-issue",
+  "model_id": "ontocord/wide_3b_sft_stage1.1-ss1-with_generics_intr_stories.no_issue",
+  "benchmark_name": "musr",
+  "score": 2.4539062499999997,
+  "score_raw": 2.4539062499999997,
+  "evaluation_date": "2025-03-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4068
+}

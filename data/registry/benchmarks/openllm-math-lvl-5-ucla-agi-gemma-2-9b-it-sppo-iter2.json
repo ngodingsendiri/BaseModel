@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-ucla-agi-gemma-2-9b-it-sppo-iter2",
+  "model_id": "UCLA-AGI/Gemma-2-9B-It-SPPO-Iter2",
+  "benchmark_name": "math-lvl-5",
+  "score": 8.08157099697885,
+  "score_raw": 8.08157099697885,
+  "evaluation_date": "2024-06-29",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2676
+}

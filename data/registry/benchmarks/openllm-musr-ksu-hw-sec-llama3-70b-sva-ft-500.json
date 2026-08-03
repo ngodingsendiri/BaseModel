@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-ksu-hw-sec-llama3-70b-sva-ft-500",
+  "model_id": "KSU-HW-SEC/Llama3-70b-SVA-FT-500",
+  "benchmark_name": "musr",
+  "score": 16.993229166666666,
+  "score_raw": 16.993229166666666,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 570
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-sicariussicariistuff-dusk-rainbow",
+  "model_id": "SicariusSicariiStuff/Dusk_Rainbow",
+  "benchmark_name": "gpqa",
+  "score": 7.829977628635347,
+  "score_raw": 7.829977628635347,
+  "evaluation_date": "2024-08-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1534
+}

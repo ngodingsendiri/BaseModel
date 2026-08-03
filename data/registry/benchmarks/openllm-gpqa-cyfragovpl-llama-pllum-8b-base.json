@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-cyfragovpl-llama-pllum-8b-base",
+  "model_id": "CYFRAGOVPL/Llama-PLLuM-8B-base",
+  "benchmark_name": "gpqa",
+  "score": 4.697986577181204,
+  "score_raw": 4.697986577181204,
+  "evaluation_date": "2025-02-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2712
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-vagosolutions-sauerkrautlm-phi-3-medium",
+  "model_id": "VAGOsolutions/SauerkrautLM-Phi-3-medium",
+  "benchmark_name": "mmlu-pro",
+  "score": 40.72288711583924,
+  "score_raw": 40.72288711583924,
+  "evaluation_date": "2024-06-09",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 661
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-guilhermenaturaumana-nature-reason-1-2-reallysmall",
+  "model_id": "GuilhermeNaturaUmana/Nature-Reason-1.2-reallysmall",
+  "benchmark_name": "math-lvl-5",
+  "score": 25,
+  "score_raw": 25,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 997
+}

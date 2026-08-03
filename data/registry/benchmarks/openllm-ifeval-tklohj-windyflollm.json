@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-tklohj-windyflollm",
+  "model_id": "tklohj/WindyFloLLM",
+  "benchmark_name": "ifeval",
+  "score": 26.685638550158025,
+  "score_raw": 26.685638550158025,
+  "evaluation_date": "2024-06-30",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3489
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-sakalti-llama-3-yanyuedao-8b-instruct",
+  "model_id": "Sakalti/llama-3-yanyuedao-8b-instruct",
+  "benchmark_name": "ifeval",
+  "score": 21.857116894284943,
+  "score_raw": 21.857116894284943,
+  "evaluation_date": "2024-12-13",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3893
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-deepseek-ai-deepseek-llm-7b-base",
+  "model_id": "deepseek-ai/deepseek-llm-7b-base",
+  "benchmark_name": "average",
+  "score": 8.227098434870664,
+  "score_raw": 8.227098434870664,
+  "evaluation_date": "2023-11-29",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3850
+}

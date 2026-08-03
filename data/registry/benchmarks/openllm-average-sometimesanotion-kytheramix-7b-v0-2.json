@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-sometimesanotion-kytheramix-7b-v0-2",
+  "model_id": "sometimesanotion/KytheraMix-7B-v0.2",
+  "benchmark_name": "average",
+  "score": 32.38407922772431,
+  "score_raw": 32.38407922772431,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 824
+}

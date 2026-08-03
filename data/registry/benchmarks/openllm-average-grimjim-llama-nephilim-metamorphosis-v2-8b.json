@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-grimjim-llama-nephilim-metamorphosis-v2-8b",
+  "model_id": "grimjim/Llama-Nephilim-Metamorphosis-v2-8B",
+  "benchmark_name": "average",
+  "score": 23.00221313012307,
+  "score_raw": 23.00221313012307,
+  "evaluation_date": "2024-10-14",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2093
+}

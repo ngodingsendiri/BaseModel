@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-invalid-coder-sakura-solar-instruct-carbonvillain-en-10-7b-v2-slerp",
+  "model_id": "invalid-coder/Sakura-SOLAR-Instruct-CarbonVillain-en-10.7B-v2-slerp",
+  "benchmark_name": "ifeval",
+  "score": 45.54759150166004,
+  "score_raw": 45.54759150166004,
+  "evaluation_date": "2024-01-10",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2244
+}

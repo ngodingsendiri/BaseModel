@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-gotocompany-gemma2-9b-cpt-sahabatai-v1-instruct",
+  "model_id": "GoToCompany/gemma2-9b-cpt-sahabatai-v1-instruct",
+  "benchmark_name": "musr",
+  "score": 19.333072916666662,
+  "score_raw": 19.333072916666662,
+  "evaluation_date": "2024-11-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 309
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sakalti-qwentest-7",
+  "model_id": "Sakalti/QwenTest-7",
+  "benchmark_name": "mmlu-pro",
+  "score": 2.352984633569739,
+  "score_raw": 2.352984633569739,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4120
+}

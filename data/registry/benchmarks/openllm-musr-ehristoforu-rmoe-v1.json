@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-ehristoforu-rmoe-v1",
+  "model_id": "ehristoforu/rmoe-v1",
+  "benchmark_name": "musr",
+  "score": 3.826302083333335,
+  "score_raw": 3.826302083333335,
+  "evaluation_date": "2025-01-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3725
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-ehristoforu-tmoe-v2",
+  "model_id": "ehristoforu/tmoe-v2",
+  "benchmark_name": "math-lvl-5",
+  "score": 0.22658610271903326,
+  "score_raw": 0.22658610271903326,
+  "evaluation_date": "2025-01-24",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4398
+}

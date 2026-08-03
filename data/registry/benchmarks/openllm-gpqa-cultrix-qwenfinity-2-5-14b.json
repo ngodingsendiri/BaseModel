@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-cultrix-qwenfinity-2-5-14b",
+  "model_id": "CultriX/Qwenfinity-2.5-14B",
+  "benchmark_name": "gpqa",
+  "score": 13.19910514541387,
+  "score_raw": 13.19910514541387,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 567
+}

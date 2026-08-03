@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-bunnycore-qwen2-5-1-5b-model-stock",
+  "model_id": "bunnycore/Qwen2.5-1.5B-Model-Stock",
+  "benchmark_name": "math-lvl-5",
+  "score": 0,
+  "score_raw": 0,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4529
+}

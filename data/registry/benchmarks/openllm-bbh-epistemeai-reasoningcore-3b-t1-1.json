@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-epistemeai-reasoningcore-3b-t1-1",
+  "model_id": "EpistemeAI/ReasoningCore-3B-T1_1",
+  "benchmark_name": "bbh",
+  "score": 23.094998793873298,
+  "score_raw": 23.094998793873298,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2973
+}

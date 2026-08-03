@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-riaz-finellama-3-1-8b",
+  "model_id": "riaz/FineLlama-3.1-8B",
+  "benchmark_name": "musr",
+  "score": 7.76979166666667,
+  "score_raw": 7.76979166666667,
+  "evaluation_date": "2024-10-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2910
+}

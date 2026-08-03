@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-allenai-llama-3-1-tulu-3-8b-rm",
+  "model_id": "allenai/Llama-3.1-Tulu-3-8B-RM",
+  "benchmark_name": "musr",
+  "score": 4.252083333333335,
+  "score_raw": 4.252083333333335,
+  "evaluation_date": "2024-11-20",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3619
+}

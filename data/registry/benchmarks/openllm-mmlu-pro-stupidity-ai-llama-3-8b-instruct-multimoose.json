@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-stupidity-ai-llama-3-8b-instruct-multimoose",
+  "model_id": "stupidity-ai/Llama-3-8B-Instruct-MultiMoose",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.041666666666666,
+  "score_raw": 1.041666666666666,
+  "evaluation_date": "2025-02-17",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4531
+}

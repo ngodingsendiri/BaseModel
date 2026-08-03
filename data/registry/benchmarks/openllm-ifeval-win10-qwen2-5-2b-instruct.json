@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-win10-qwen2-5-2b-instruct",
+  "model_id": "win10/Qwen2.5-2B-Instruct",
+  "benchmark_name": "ifeval",
+  "score": 22.728914834860394,
+  "score_raw": 22.728914834860394,
+  "evaluation_date": "2024-10-11",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3838
+}

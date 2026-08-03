@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-huihui-ai-deepseek-r1-distill-qwen-14b-abliterated-v2",
+  "model_id": "huihui-ai/DeepSeek-R1-Distill-Qwen-14B-abliterated-v2",
+  "benchmark_name": "gpqa",
+  "score": 3.467561521252797,
+  "score_raw": 3.467561521252797,
+  "evaluation_date": "2025-01-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3147
+}

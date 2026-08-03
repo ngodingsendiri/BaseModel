@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-triangle104-lthreepointone-8b-hermesblackroot",
+  "model_id": "Triangle104/LThreePointOne-8B-HermesBlackroot",
+  "benchmark_name": "gpqa",
+  "score": 7.606263982102905,
+  "score_raw": 7.606263982102905,
+  "evaluation_date": "2025-02-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1633
+}

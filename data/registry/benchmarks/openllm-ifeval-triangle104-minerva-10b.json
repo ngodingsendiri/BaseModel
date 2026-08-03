@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-triangle104-minerva-10b",
+  "model_id": "Triangle104/Minerva-10b",
+  "benchmark_name": "ifeval",
+  "score": 18.78715142488597,
+  "score_raw": 18.78715142488597,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4095
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-rlhflow-armorm-llama3-8b-v0-1",
+  "model_id": "RLHFlow/ArmoRM-Llama3-8B-v0.1",
+  "benchmark_name": "ifeval",
+  "score": 18.967007539993883,
+  "score_raw": 18.967007539993883,
+  "evaluation_date": "2024-05-23",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4083
+}

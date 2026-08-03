@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-marcuscedricridia-pre-cursa-o1-v1-2",
+  "model_id": "marcuscedricridia/pre-cursa-o1-v1.2",
+  "benchmark_name": "mmlu-pro",
+  "score": 37.80474290780142,
+  "score_raw": 37.80474290780142,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 851
+}

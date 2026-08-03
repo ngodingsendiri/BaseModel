@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-nisten-franqwenstein-35b",
+  "model_id": "nisten/franqwenstein-35b",
+  "benchmark_name": "bbh",
+  "score": 51.68027687329707,
+  "score_raw": 51.68027687329707,
+  "evaluation_date": "2024-10-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 250
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-allknowingroger-multimash3-12b-slerp",
+  "model_id": "allknowingroger/Multimash3-12B-slerp",
+  "benchmark_name": "math-lvl-5",
+  "score": 6.268882175226587,
+  "score_raw": 6.268882175226587,
+  "evaluation_date": "2024-05-21",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2994
+}

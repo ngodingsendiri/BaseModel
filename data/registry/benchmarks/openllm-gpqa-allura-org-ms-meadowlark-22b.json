@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-allura-org-ms-meadowlark-22b",
+  "model_id": "allura-org/MS-Meadowlark-22B",
+  "benchmark_name": "gpqa",
+  "score": 10.067114093959727,
+  "score_raw": 10.067114093959727,
+  "evaluation_date": "2024-10-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 982
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-microsoft-orca-2-13b",
+  "model_id": "microsoft/Orca-2-13b",
+  "benchmark_name": "gpqa",
+  "score": 4.026845637583895,
+  "score_raw": 4.026845637583895,
+  "evaluation_date": "2023-11-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2966
+}

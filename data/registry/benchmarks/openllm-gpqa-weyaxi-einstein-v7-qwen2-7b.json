@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-weyaxi-einstein-v7-qwen2-7b",
+  "model_id": "Weyaxi/Einstein-v7-Qwen2-7B",
+  "benchmark_name": "gpqa",
+  "score": 6.599552572706939,
+  "score_raw": 6.599552572706939,
+  "evaluation_date": "2024-06-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2020
+}

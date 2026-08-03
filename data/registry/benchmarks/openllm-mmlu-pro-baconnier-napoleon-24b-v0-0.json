@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-baconnier-napoleon-24b-v0-0",
+  "model_id": "baconnier/Napoleon_24B_V0.0",
+  "benchmark_name": "mmlu-pro",
+  "score": 44.88770685579197,
+  "score_raw": 44.88770685579197,
+  "evaluation_date": "2025-02-16",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 550
+}

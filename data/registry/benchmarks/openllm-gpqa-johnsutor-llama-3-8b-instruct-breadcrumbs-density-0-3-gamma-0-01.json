@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-johnsutor-llama-3-8b-instruct-breadcrumbs-density-0-3-gamma-0-01",
+  "model_id": "johnsutor/Llama-3-8B-Instruct_breadcrumbs-density-0.3-gamma-0.01",
+  "benchmark_name": "gpqa",
+  "score": 8.277404921700223,
+  "score_raw": 8.277404921700223,
+  "evaluation_date": "2024-06-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1412
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-pszemraj-mistral-v0-3-6b",
+  "model_id": "pszemraj/Mistral-v0.3-6B",
+  "benchmark_name": "ifeval",
+  "score": 24.537449522821667,
+  "score_raw": 24.537449522821667,
+  "evaluation_date": "2024-05-25",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3687
+}

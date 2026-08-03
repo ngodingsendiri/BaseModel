@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ibm-granite-granite-3-0-1b-a400m-instruct",
+  "model_id": "ibm-granite/granite-3.0-1b-a400m-instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 2.713135342789597,
+  "score_raw": 2.713135342789597,
+  "evaluation_date": "2024-10-03",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4097
+}

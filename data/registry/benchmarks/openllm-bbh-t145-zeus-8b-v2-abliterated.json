@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-t145-zeus-8b-v2-abliterated",
+  "model_id": "T145/ZEUS-8B-V2-abliterated",
+  "benchmark_name": "bbh",
+  "score": 30.98256419519066,
+  "score_raw": 30.98256419519066,
+  "evaluation_date": "2024-12-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2042
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-zelk12-recoilme-gemma-2-psy10k-mental-healt-9b-v0-1",
+  "model_id": "zelk12/recoilme-gemma-2-psy10k-mental_healt-9B-v0.1",
+  "benchmark_name": "average",
+  "score": 32.586530614782504,
+  "score_raw": 32.586530614782504,
+  "evaluation_date": "2024-10-07",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 806
+}

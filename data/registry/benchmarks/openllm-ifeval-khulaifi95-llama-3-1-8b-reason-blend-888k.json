@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-khulaifi95-llama-3-1-8b-reason-blend-888k",
+  "model_id": "khulaifi95/Llama-3.1-8B-Reason-Blend-888k",
+  "benchmark_name": "ifeval",
+  "score": 58.317043223092504,
+  "score_raw": 58.317043223092504,
+  "evaluation_date": "2024-12-24",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1352
+}

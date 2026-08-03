@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-allknowingroger-qwen2-5-42b-agi",
+  "model_id": "allknowingroger/Qwen2.5-42B-AGI",
+  "benchmark_name": "musr",
+  "score": 2.2539062500000013,
+  "score_raw": 2.2539062500000013,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4108
+}

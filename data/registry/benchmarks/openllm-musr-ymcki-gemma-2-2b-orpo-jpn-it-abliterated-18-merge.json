@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-ymcki-gemma-2-2b-orpo-jpn-it-abliterated-18-merge",
+  "model_id": "ymcki/gemma-2-2b-ORPO-jpn-it-abliterated-18-merge",
+  "benchmark_name": "musr",
+  "score": 3.357812500000001,
+  "score_raw": 3.357812500000001,
+  "evaluation_date": "2024-10-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3848
+}

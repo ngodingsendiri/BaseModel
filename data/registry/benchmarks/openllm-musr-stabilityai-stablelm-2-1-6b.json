@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-stabilityai-stablelm-2-1-6b",
+  "model_id": "stabilityai/stablelm-2-1_6b",
+  "benchmark_name": "musr",
+  "score": 5.791406249999999,
+  "score_raw": 5.791406249999999,
+  "evaluation_date": "2024-01-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3286
+}

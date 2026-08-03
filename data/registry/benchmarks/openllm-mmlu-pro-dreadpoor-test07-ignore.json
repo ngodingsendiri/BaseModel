@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-test07-ignore",
+  "model_id": "DreadPoor/TEST07-ignore",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.99615839243498,
+  "score_raw": 31.99615839243498,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1384
+}

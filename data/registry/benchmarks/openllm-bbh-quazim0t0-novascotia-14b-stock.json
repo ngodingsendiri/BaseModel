@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-quazim0t0-novascotia-14b-stock",
+  "model_id": "Quazim0t0/NovaScotia-14b-stock",
+  "benchmark_name": "bbh",
+  "score": 56.02714781885254,
+  "score_raw": 56.02714781885254,
+  "evaluation_date": "2025-02-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 89
+}

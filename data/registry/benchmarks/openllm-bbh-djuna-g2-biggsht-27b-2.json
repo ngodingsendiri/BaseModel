@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-djuna-g2-biggsht-27b-2",
+  "model_id": "djuna/G2-BigGSHT-27B-2",
+  "benchmark_name": "bbh",
+  "score": 48.814372082405725,
+  "score_raw": 48.814372082405725,
+  "evaluation_date": "2024-10-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 488
+}

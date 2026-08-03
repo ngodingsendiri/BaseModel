@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-mhl1-qwen2-5-0-5b-cinstruct-stage1",
+  "model_id": "mhl1/Qwen2.5-0.5B-cinstruct-stage1",
+  "benchmark_name": "bbh",
+  "score": 5.7245272906248355,
+  "score_raw": 5.7245272906248355,
+  "evaluation_date": "2025-01-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4063
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-djuna-q2-5-veltha-14b",
+  "model_id": "djuna/Q2.5-Veltha-14B",
+  "benchmark_name": "bbh",
+  "score": 49.75243239928858,
+  "score_raw": 49.75243239928858,
+  "evaluation_date": "2024-12-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 407
+}

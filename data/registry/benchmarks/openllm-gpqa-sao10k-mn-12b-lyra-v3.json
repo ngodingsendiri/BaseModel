@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-sao10k-mn-12b-lyra-v3",
+  "model_id": "Sao10K/MN-12B-Lyra-v3",
+  "benchmark_name": "gpqa",
+  "score": 3.6912751677852316,
+  "score_raw": 3.6912751677852316,
+  "evaluation_date": "2024-08-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3066
+}

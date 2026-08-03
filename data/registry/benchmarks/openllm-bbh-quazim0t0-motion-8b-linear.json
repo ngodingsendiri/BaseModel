@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-quazim0t0-motion-8b-linear",
+  "model_id": "Quazim0t0/Motion-8B-Linear",
+  "benchmark_name": "bbh",
+  "score": 29.388867774583897,
+  "score_raw": 29.388867774583897,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2302
+}

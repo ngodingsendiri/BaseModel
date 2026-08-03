@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-bamec66557-vicious-mesh-12b-digamma",
+  "model_id": "bamec66557/VICIOUS_MESH-12B-DIGAMMA",
+  "benchmark_name": "average",
+  "score": 25.971654466957943,
+  "score_raw": 25.971654466957943,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1508
+}

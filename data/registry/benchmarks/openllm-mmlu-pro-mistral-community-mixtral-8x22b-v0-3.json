@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-mistral-community-mixtral-8x22b-v0-3",
+  "model_id": "mistral-community/mixtral-8x22B-v0.3",
+  "benchmark_name": "mmlu-pro",
+  "score": 40.4366134751773,
+  "score_raw": 40.4366134751773,
+  "evaluation_date": "2024-05-25",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 675
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-magpie-align-magpielm-8b-chat-v0-1",
+  "model_id": "Magpie-Align/MagpieLM-8B-Chat-v0.1",
+  "benchmark_name": "bbh",
+  "score": 18.25580502860485,
+  "score_raw": 18.25580502860485,
+  "evaluation_date": "2024-09-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3318
+}

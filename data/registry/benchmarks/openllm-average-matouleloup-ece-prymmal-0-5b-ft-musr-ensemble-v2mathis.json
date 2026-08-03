@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-matouleloup-ece-prymmal-0-5b-ft-musr-ensemble-v2mathis",
+  "model_id": "matouLeLoup/ECE-PRYMMAL-0.5B-FT-MUSR-ENSEMBLE-V2Mathis",
+  "benchmark_name": "average",
+  "score": 7.224121473565234,
+  "score_raw": 7.224121473565234,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4039
+}

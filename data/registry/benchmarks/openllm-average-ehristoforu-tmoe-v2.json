@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ehristoforu-tmoe-v2",
+  "model_id": "ehristoforu/tmoe-v2",
+  "benchmark_name": "average",
+  "score": 5.712206463926581,
+  "score_raw": 5.712206463926581,
+  "evaluation_date": "2025-01-24",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4189
+}

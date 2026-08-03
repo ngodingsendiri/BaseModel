@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-triangle104-chatty-harry-v3-0",
+  "model_id": "Triangle104/Chatty-Harry_V3.0",
+  "benchmark_name": "gpqa",
+  "score": 9.731543624161072,
+  "score_raw": 9.731543624161072,
+  "evaluation_date": "2024-11-20",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1051
+}

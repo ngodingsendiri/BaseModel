@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-macadeliccc-magistrate-3-2-3b-it",
+  "model_id": "macadeliccc/magistrate-3.2-3b-it",
+  "benchmark_name": "gpqa",
+  "score": 0,
+  "score_raw": 0,
+  "evaluation_date": "2024-10-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4519
+}

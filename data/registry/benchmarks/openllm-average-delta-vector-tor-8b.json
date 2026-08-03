@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-delta-vector-tor-8b",
+  "model_id": "Delta-Vector/Tor-8B",
+  "benchmark_name": "average",
+  "score": 18.406879108800087,
+  "score_raw": 18.406879108800087,
+  "evaluation_date": "2024-09-21",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2897
+}

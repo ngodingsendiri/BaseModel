@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-oevortex-helpingai2-5-10b",
+  "model_id": "OEvortex/HelpingAI2.5-10B",
+  "benchmark_name": "bbh",
+  "score": 21.135366144659056,
+  "score_raw": 21.135366144659056,
+  "evaluation_date": "2024-11-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3133
+}

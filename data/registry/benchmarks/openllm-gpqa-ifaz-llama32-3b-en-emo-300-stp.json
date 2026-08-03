@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-ifaz-llama32-3b-en-emo-300-stp",
+  "model_id": "iFaz/llama32_3B_en_emo_300_stp",
+  "benchmark_name": "gpqa",
+  "score": 3.243847874720355,
+  "score_raw": 3.243847874720355,
+  "evaluation_date": "2025-03-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3231
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sethuiyer-llamaverse-3-1-8b-instruct",
+  "model_id": "sethuiyer/Llamaverse-3.1-8B-Instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 28.034500591016542,
+  "score_raw": 28.034500591016542,
+  "evaluation_date": "2025-01-14",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2179
+}

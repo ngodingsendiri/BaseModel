@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-jaspionjader-kosmos-evaa-tsn-v20-8b",
+  "model_id": "jaspionjader/Kosmos-EVAA-TSN-v20-8B",
+  "benchmark_name": "ifeval",
+  "score": 44.23119545029411,
+  "score_raw": 44.23119545029411,
+  "evaluation_date": "2024-12-28",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2367
+}

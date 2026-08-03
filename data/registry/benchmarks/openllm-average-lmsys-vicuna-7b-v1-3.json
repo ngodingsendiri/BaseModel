@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-lmsys-vicuna-7b-v1-3",
+  "model_id": "lmsys/vicuna-7b-v1.3",
+  "benchmark_name": "average",
+  "score": 8.525809191714858,
+  "score_raw": 8.525809191714858,
+  "evaluation_date": "2023-06-18",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3823
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-bamec66557-mischievous-12b-mix-iii-iv-v",
+  "model_id": "bamec66557/MISCHIEVOUS-12B-Mix_III_IV_V",
+  "benchmark_name": "average",
+  "score": 23.23673015528421,
+  "score_raw": 23.23673015528421,
+  "evaluation_date": "2024-12-19",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2041
+}

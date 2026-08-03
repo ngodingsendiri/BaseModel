@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-yuma42-llama3-1-superhawk-8b",
+  "model_id": "Yuma42/Llama3.1-SuperHawk-8B",
+  "benchmark_name": "musr",
+  "score": 10.377604166666663,
+  "score_raw": 10.377604166666663,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2179
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-daemontatox-documentcogito",
+  "model_id": "Daemontatox/DocumentCogito",
+  "benchmark_name": "gpqa",
+  "score": 5.8165548098433995,
+  "score_raw": 5.8165548098433995,
+  "evaluation_date": "2025-01-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2324
+}

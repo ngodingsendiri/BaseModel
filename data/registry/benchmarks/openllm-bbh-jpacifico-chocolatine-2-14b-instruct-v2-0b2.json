@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-jpacifico-chocolatine-2-14b-instruct-v2-0b2",
+  "model_id": "jpacifico/Chocolatine-2-14B-Instruct-v2.0b2",
+  "benchmark_name": "bbh",
+  "score": 49.578491329758265,
+  "score_raw": 49.578491329758265,
+  "evaluation_date": "2025-01-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 424
+}

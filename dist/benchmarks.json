@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "ffdef5a",
-  "generated_at": "2026-08-02T06:06:11.265Z",
-  "count": 127,
+  "source_revision": "b8a3700",
+  "generated_at": "2026-08-03T11:38:45.810Z",
+  "count": 147,
   "benchmarks": [
     {
       "benchmark_id": "mirror-code-claude-fable-5",
@@ -10,77 +10,12 @@
       "benchmark_name": "code",
       "score": 100,
       "score_raw": 1630,
-      "evaluation_date": "2026-08-01",
+      "evaluation_date": "2026-08-03",
       "source": "mirror",
       "category": [
         "code"
       ],
-      "rank": 4
-    },
-    {
-      "benchmark_id": "mirror-code-claude-haiku-4-5-20251001",
-      "model_id": "claude-haiku-4-5-20251001",
-      "benchmark_name": "code",
-      "score": 65.625,
-      "score_raw": 1325,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 84
-    },
-    {
-      "benchmark_id": "mirror-code-claude-opus-4-1-20250805",
-      "model_id": "claude-opus-4-1-20250805",
-      "benchmark_name": "code",
-      "score": 73.625,
-      "score_raw": 1389,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 64
-    },
-    {
-      "benchmark_id": "mirror-code-claude-opus-4-5-20251101-thinking-32k",
-      "model_id": "claude-opus-4-5-20251101-thinking-32k",
-      "benchmark_name": "code",
-      "score": 86.75,
-      "score_raw": 1494,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 27
-    },
-    {
-      "benchmark_id": "mirror-code-claude-opus-4-5-20251101",
-      "model_id": "claude-opus-4-5-20251101",
-      "benchmark_name": "code",
-      "score": 83.375,
-      "score_raw": 1467,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 35
-    },
-    {
-      "benchmark_id": "mirror-code-claude-opus-4-6-thinking",
-      "model_id": "claude-opus-4-6-thinking",
-      "benchmark_name": "code",
-      "score": 93.125,
-      "score_raw": 1545,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 12
+      "rank": 5
     },
     {
       "benchmark_id": "mirror-code-claude-opus-4-6",
@@ -88,1164 +23,7 @@
       "benchmark_name": "code",
       "score": 92.25,
       "score_raw": 1538,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 15
-    },
-    {
-      "benchmark_id": "mirror-code-claude-opus-4-7-thinking",
-      "model_id": "claude-opus-4-7-thinking",
-      "benchmark_name": "code",
-      "score": 94.625,
-      "score_raw": 1557,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 10
-    },
-    {
-      "benchmark_id": "mirror-code-claude-opus-4-7",
-      "model_id": "claude-opus-4-7",
-      "benchmark_name": "code",
-      "score": 95,
-      "score_raw": 1560,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 9
-    },
-    {
-      "benchmark_id": "mirror-code-claude-opus-4-8-thinking",
-      "model_id": "claude-opus-4-8-thinking",
-      "benchmark_name": "code",
-      "score": 95.875,
-      "score_raw": 1567,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 8
-    },
-    {
-      "benchmark_id": "mirror-code-claude-opus-4-8",
-      "model_id": "claude-opus-4-8",
-      "benchmark_name": "code",
-      "score": 92.25,
-      "score_raw": 1538,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 14
-    },
-    {
-      "benchmark_id": "mirror-code-claude-opus-5-high",
-      "model_id": "claude-opus-5-high",
-      "benchmark_name": "code",
-      "score": 100,
-      "score_raw": 1664,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 3
-    },
-    {
-      "benchmark_id": "mirror-code-claude-opus-5-max",
-      "model_id": "claude-opus-5-max",
-      "benchmark_name": "code",
-      "score": 100,
-      "score_raw": 1704,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 1
-    },
-    {
-      "benchmark_id": "mirror-code-claude-sonnet-4-5-20250929-thinking-32k",
-      "model_id": "claude-sonnet-4-5-20250929-thinking-32k",
-      "benchmark_name": "code",
-      "score": 74,
-      "score_raw": 1392,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 61
-    },
-    {
-      "benchmark_id": "mirror-code-claude-sonnet-4-5-20250929",
-      "model_id": "claude-sonnet-4-5-20250929",
-      "benchmark_name": "code",
-      "score": 73.125,
-      "score_raw": 1385,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 67
-    },
-    {
-      "benchmark_id": "mirror-code-claude-sonnet-4-6",
-      "model_id": "claude-sonnet-4-6",
-      "benchmark_name": "code",
-      "score": 90.375,
-      "score_raw": 1523,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 20
-    },
-    {
-      "benchmark_id": "mirror-code-claude-sonnet-5-high",
-      "model_id": "claude-sonnet-5-high",
-      "benchmark_name": "code",
-      "score": 92.875,
-      "score_raw": 1543,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 13
-    },
-    {
-      "benchmark_id": "mirror-code-deepseek-v3-2-exp",
-      "model_id": "deepseek-v3.2-exp",
-      "benchmark_name": "code",
-      "score": 59,
-      "score_raw": 1272,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 91
-    },
-    {
-      "benchmark_id": "mirror-code-deepseek-v3-2-thinking",
-      "model_id": "deepseek-v3.2-thinking",
-      "benchmark_name": "code",
-      "score": 70.125,
-      "score_raw": 1361,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 73
-    },
-    {
-      "benchmark_id": "mirror-code-deepseek-v3-2",
-      "model_id": "deepseek-v3.2",
-      "benchmark_name": "code",
-      "score": 65.375,
-      "score_raw": 1323,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 85
-    },
-    {
-      "benchmark_id": "mirror-code-deepseek-v4-flash-high-preview",
-      "model_id": "deepseek-v4-flash-high-preview",
-      "benchmark_name": "code",
-      "score": 79,
-      "score_raw": 1432,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 51
-    },
-    {
-      "benchmark_id": "mirror-code-deepseek-v4-flash-high",
-      "model_id": "deepseek-v4-flash-high",
-      "benchmark_name": "code",
-      "score": 98.25,
-      "score_raw": 1586,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 7
-    },
-    {
-      "benchmark_id": "mirror-code-deepseek-v4-pro-high-preview",
-      "model_id": "deepseek-v4-pro-high-preview",
-      "benchmark_name": "code",
-      "score": 83.125,
-      "score_raw": 1465,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 36
-    },
-    {
-      "benchmark_id": "mirror-code-deepseek-v4-pro",
-      "model_id": "deepseek-v4-pro",
-      "benchmark_name": "code",
-      "score": 80.75,
-      "score_raw": 1446,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 42
-    },
-    {
-      "benchmark_id": "mirror-code-devstral-2",
-      "model_id": "devstral-2",
-      "benchmark_name": "code",
-      "score": 49.25,
-      "score_raw": 1194,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 103
-    },
-    {
-      "benchmark_id": "mirror-code-devstral-medium-2507",
-      "model_id": "devstral-medium-2507",
-      "benchmark_name": "code",
-      "score": 34.875,
-      "score_raw": 1079,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 108
-    },
-    {
-      "benchmark_id": "mirror-code-gemini-2-5-pro",
-      "model_id": "gemini-2.5-pro",
-      "benchmark_name": "code",
-      "score": 53,
-      "score_raw": 1224,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 101
-    },
-    {
-      "benchmark_id": "mirror-code-gemini-3-1-flash-lite-preview",
-      "model_id": "gemini-3.1-flash-lite-preview",
-      "benchmark_name": "code",
-      "score": 56.99999999999999,
-      "score_raw": 1256,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 93
-    },
-    {
-      "benchmark_id": "mirror-code-gemini-3-1-pro-preview",
-      "model_id": "gemini-3.1-pro-preview",
-      "benchmark_name": "code",
-      "score": 80.875,
-      "score_raw": 1447,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 41
-    },
-    {
-      "benchmark_id": "mirror-code-gemini-3-5-flash-lite",
-      "model_id": "gemini-3.5-flash-lite",
-      "benchmark_name": "code",
-      "score": 81.5,
-      "score_raw": 1452,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 40
-    },
-    {
-      "benchmark_id": "mirror-code-gemini-3-5-flash-medium",
-      "model_id": "gemini-3.5-flash-medium",
-      "benchmark_name": "code",
-      "score": 85.875,
-      "score_raw": 1487,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 30
-    },
-    {
-      "benchmark_id": "mirror-code-gemini-3-5-flash",
-      "model_id": "gemini-3.5-flash",
-      "benchmark_name": "code",
-      "score": 86.5,
-      "score_raw": 1492,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 28
-    },
-    {
-      "benchmark_id": "mirror-code-gemini-3-6-flash",
-      "model_id": "gemini-3.6-flash",
-      "benchmark_name": "code",
-      "score": 91.375,
-      "score_raw": 1531,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 17
-    },
-    {
-      "benchmark_id": "mirror-code-gemini-3-flash-thinking-minimal",
-      "model_id": "gemini-3-flash (thinking-minimal)",
-      "benchmark_name": "code",
-      "score": 72.875,
-      "score_raw": 1383,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 68
-    },
-    {
-      "benchmark_id": "mirror-code-gemini-3-flash",
-      "model_id": "gemini-3-flash",
-      "benchmark_name": "code",
-      "score": 79.75,
-      "score_raw": 1438,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 45
-    },
-    {
-      "benchmark_id": "mirror-code-gemini-3-pro",
-      "model_id": "gemini-3-pro",
-      "benchmark_name": "code",
-      "score": 79.75,
-      "score_raw": 1438,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 44
-    },
-    {
-      "benchmark_id": "mirror-code-gemma-4-26b-a4b",
-      "model_id": "gemma-4-26b-a4b",
-      "benchmark_name": "code",
-      "score": 70.875,
-      "score_raw": 1367,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 71
-    },
-    {
-      "benchmark_id": "mirror-code-gemma-4-31b",
-      "model_id": "gemma-4-31b",
-      "benchmark_name": "code",
-      "score": 70.375,
-      "score_raw": 1363,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 72
-    },
-    {
-      "benchmark_id": "mirror-code-glm-4-6",
-      "model_id": "glm-4.6",
-      "benchmark_name": "code",
-      "score": 67.375,
-      "score_raw": 1339,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 80
-    },
-    {
-      "benchmark_id": "mirror-code-glm-4-7",
-      "model_id": "glm-4.7",
-      "benchmark_name": "code",
-      "score": 79.125,
-      "score_raw": 1433,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 49
-    },
-    {
-      "benchmark_id": "mirror-code-glm-5-1",
-      "model_id": "glm-5.1",
-      "benchmark_name": "code",
-      "score": 89.5,
-      "score_raw": 1516,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 24
-    },
-    {
-      "benchmark_id": "mirror-code-glm-5-2-max",
-      "model_id": "glm-5.2-max",
-      "benchmark_name": "code",
-      "score": 98.375,
-      "score_raw": 1587,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 6
-    },
-    {
-      "benchmark_id": "mirror-code-glm-5",
-      "model_id": "glm-5",
-      "benchmark_name": "code",
-      "score": 79.375,
-      "score_raw": 1435,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 48
-    },
-    {
-      "benchmark_id": "mirror-code-glm-5v-turbo",
-      "model_id": "glm-5v-turbo",
-      "benchmark_name": "code",
-      "score": 74.875,
-      "score_raw": 1399,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 58
-    },
-    {
-      "benchmark_id": "mirror-code-gpt-5-1-codex-mini",
-      "model_id": "gpt-5.1-codex-mini",
-      "benchmark_name": "code",
-      "score": 55.50000000000001,
-      "score_raw": 1244,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 96
-    },
-    {
-      "benchmark_id": "mirror-code-gpt-5-1-codex",
-      "model_id": "gpt-5.1-codex",
-      "benchmark_name": "code",
-      "score": 67,
-      "score_raw": 1336,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 82
-    },
-    {
-      "benchmark_id": "mirror-code-gpt-5-1-medium",
-      "model_id": "gpt-5.1-medium",
-      "benchmark_name": "code",
-      "score": 73.875,
-      "score_raw": 1391,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 63
-    },
-    {
-      "benchmark_id": "mirror-code-gpt-5-1",
-      "model_id": "gpt-5.1",
-      "benchmark_name": "code",
-      "score": 67.625,
-      "score_raw": 1341,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 79
-    },
-    {
-      "benchmark_id": "mirror-code-gpt-5-2-codex",
-      "model_id": "gpt-5.2-codex",
-      "benchmark_name": "code",
-      "score": 67.25,
-      "score_raw": 1338,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 81
-    },
-    {
-      "benchmark_id": "mirror-code-gpt-5-2",
-      "model_id": "gpt-5.2",
-      "benchmark_name": "code",
-      "score": 77.375,
-      "score_raw": 1419,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 52
-    },
-    {
-      "benchmark_id": "mirror-code-gpt-5-3-codex-codex-harness",
-      "model_id": "gpt-5.3-codex (codex-harness)",
-      "benchmark_name": "code",
-      "score": 71.125,
-      "score_raw": 1369,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 70
-    },
-    {
-      "benchmark_id": "mirror-code-gpt-5-4-high-codex-harness",
-      "model_id": "gpt-5.4-high (codex-harness)",
-      "benchmark_name": "code",
-      "score": 82.75,
-      "score_raw": 1462,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 37
-    },
-    {
-      "benchmark_id": "mirror-code-gpt-5-4-medium-codex-harness",
-      "model_id": "gpt-5.4-medium (codex-harness)",
-      "benchmark_name": "code",
-      "score": 80.5,
-      "score_raw": 1444,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 43
-    },
-    {
-      "benchmark_id": "mirror-code-gpt-5-4-mini-high",
-      "model_id": "gpt-5.4-mini-high",
-      "benchmark_name": "code",
-      "score": 74.875,
-      "score_raw": 1399,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 59
-    },
-    {
-      "benchmark_id": "mirror-code-gpt-5-4",
-      "model_id": "gpt-5.4",
-      "benchmark_name": "code",
-      "score": 73.875,
-      "score_raw": 1391,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 62
-    },
-    {
-      "benchmark_id": "mirror-code-gpt-5-5-codex-harness",
-      "model_id": "gpt-5.5 (codex-harness)",
-      "benchmark_name": "code",
-      "score": 82.25,
-      "score_raw": 1458,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 39
-    },
-    {
-      "benchmark_id": "mirror-code-gpt-5-5-high-codex-harness",
-      "model_id": "gpt-5.5-high (codex-harness)",
-      "benchmark_name": "code",
-      "score": 85.625,
-      "score_raw": 1485,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 31
-    },
-    {
-      "benchmark_id": "mirror-code-gpt-5-5-xhigh-codex-harness",
-      "model_id": "gpt-5.5-xhigh (codex-harness)",
-      "benchmark_name": "code",
-      "score": 88.5,
-      "score_raw": 1508,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 26
-    },
-    {
-      "benchmark_id": "mirror-code-gpt-5-6-luna-xhigh-codex-harness",
-      "model_id": "gpt-5.6-luna-xhigh (codex-harness)",
-      "benchmark_name": "code",
-      "score": 90.5,
-      "score_raw": 1524,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 19
-    },
-    {
-      "benchmark_id": "mirror-code-gpt-5-6-sol-xhigh-codex-harness",
-      "model_id": "gpt-5.6-sol-xhigh (codex-harness)",
-      "benchmark_name": "code",
-      "score": 100,
-      "score_raw": 1621,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 5
-    },
-    {
-      "benchmark_id": "mirror-code-gpt-5-6-terra-xhigh-codex-harness",
-      "model_id": "gpt-5.6-terra-xhigh (codex-harness)",
-      "benchmark_name": "code",
-      "score": 90.125,
-      "score_raw": 1521,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 21
-    },
-    {
-      "benchmark_id": "mirror-code-gpt-5-medium",
-      "model_id": "gpt-5-medium",
-      "benchmark_name": "code",
-      "score": 77.375,
-      "score_raw": 1419,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 53
-    },
-    {
-      "benchmark_id": "mirror-code-granite-4-1-8b",
-      "model_id": "granite-4.1-8b",
-      "benchmark_name": "code",
-      "score": 49.25,
-      "score_raw": 1194,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 104
-    },
-    {
-      "benchmark_id": "mirror-code-grok-4-1-fast-reasoning",
-      "model_id": "grok-4-1-fast-reasoning",
-      "benchmark_name": "code",
-      "score": 55.00000000000001,
-      "score_raw": 1240,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 97
-    },
-    {
-      "benchmark_id": "mirror-code-grok-4-1-thinking",
-      "model_id": "grok-4.1-thinking",
-      "benchmark_name": "code",
-      "score": 51.24999999999999,
-      "score_raw": 1210,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 102
-    },
-    {
-      "benchmark_id": "mirror-code-grok-4-20-beta-0309-reasoning",
-      "model_id": "grok-4.20-beta-0309-reasoning",
-      "benchmark_name": "code",
-      "score": 71.75,
-      "score_raw": 1374,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 69
-    },
-    {
-      "benchmark_id": "mirror-code-grok-4-3",
-      "model_id": "grok-4.3",
-      "benchmark_name": "code",
-      "score": 69.625,
-      "score_raw": 1357,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 76
-    },
-    {
-      "benchmark_id": "mirror-code-grok-4-5",
-      "model_id": "grok-4.5",
-      "benchmark_name": "code",
-      "score": 93.75,
-      "score_raw": 1550,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 11
-    },
-    {
-      "benchmark_id": "mirror-code-grok-4-fast-reasoning",
-      "model_id": "grok-4-fast-reasoning",
-      "benchmark_name": "code",
-      "score": 45,
-      "score_raw": 1160,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 107
-    },
-    {
-      "benchmark_id": "mirror-code-grok-code-fast-1",
-      "model_id": "grok-code-fast-1",
-      "benchmark_name": "code",
-      "score": 45.375,
-      "score_raw": 1163,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 106
-    },
-    {
-      "benchmark_id": "mirror-code-hunyuan-hy3-preview",
-      "model_id": "hunyuan-hy3-preview",
-      "benchmark_name": "code",
-      "score": 69.625,
-      "score_raw": 1357,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 77
-    },
-    {
-      "benchmark_id": "mirror-code-hy3",
-      "model_id": "hy3",
-      "benchmark_name": "code",
-      "score": 89.5,
-      "score_raw": 1516,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 23
-    },
-    {
-      "benchmark_id": "mirror-code-inkling",
-      "model_id": "inkling",
-      "benchmark_name": "code",
-      "score": 76.5,
-      "score_raw": 1412,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 54
-    },
-    {
-      "benchmark_id": "mirror-code-kat-coder-pro-v1",
-      "model_id": "KAT-Coder-Pro-V1",
-      "benchmark_name": "code",
-      "score": 56.875,
-      "score_raw": 1255,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 94
-    },
-    {
-      "benchmark_id": "mirror-code-kimi-k2-5-instant",
-      "model_id": "kimi-k2.5-instant",
-      "benchmark_name": "code",
-      "score": 75.625,
-      "score_raw": 1405,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 56
-    },
-    {
-      "benchmark_id": "mirror-code-kimi-k2-5-thinking",
-      "model_id": "kimi-k2.5-thinking",
-      "benchmark_name": "code",
-      "score": 79.5,
-      "score_raw": 1436,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 47
-    },
-    {
-      "benchmark_id": "mirror-code-kimi-k2-6",
-      "model_id": "kimi-k2.6",
-      "benchmark_name": "code",
-      "score": 88.75,
-      "score_raw": 1510,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 25
-    },
-    {
-      "benchmark_id": "mirror-code-kimi-k2-7-code",
-      "model_id": "kimi-k2.7-code",
-      "benchmark_name": "code",
-      "score": 84.125,
-      "score_raw": 1473,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 34
-    },
-    {
-      "benchmark_id": "mirror-code-kimi-k2-thinking-turbo",
-      "model_id": "kimi-k2-thinking-turbo",
-      "benchmark_name": "code",
-      "score": 65.25,
-      "score_raw": 1322,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 86
-    },
-    {
-      "benchmark_id": "mirror-code-kimi-k3-max",
-      "model_id": "kimi-k3-max",
-      "benchmark_name": "code",
-      "score": 100,
-      "score_raw": 1675,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 2
-    },
-    {
-      "benchmark_id": "mirror-code-laguna-m-1",
-      "model_id": "laguna-m.1",
-      "benchmark_name": "code",
-      "score": 68.625,
-      "score_raw": 1349,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 78
-    },
-    {
-      "benchmark_id": "mirror-code-laguna-xs-2",
-      "model_id": "laguna-xs.2",
-      "benchmark_name": "code",
-      "score": 63,
-      "score_raw": 1304,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 87
-    },
-    {
-      "benchmark_id": "mirror-code-mercury-2",
-      "model_id": "mercury-2",
-      "benchmark_name": "code",
-      "score": 45.75,
-      "score_raw": 1166,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 105
-    },
-    {
-      "benchmark_id": "mirror-code-mimo-v2-5-pro",
-      "model_id": "mimo-v2.5-pro",
-      "benchmark_name": "code",
-      "score": 84.125,
-      "score_raw": 1473,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 33
-    },
-    {
-      "benchmark_id": "mirror-code-mimo-v2-5",
-      "model_id": "mimo-v2.5",
-      "benchmark_name": "code",
-      "score": 79.5,
-      "score_raw": 1436,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 46
-    },
-    {
-      "benchmark_id": "mirror-code-mimo-v2-flash-non-thinking",
-      "model_id": "mimo-v2-flash (non-thinking)",
-      "benchmark_name": "code",
-      "score": 66.375,
-      "score_raw": 1331,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 83
-    },
-    {
-      "benchmark_id": "mirror-code-mimo-v2-flash-thinking",
-      "model_id": "mimo-v2-flash (thinking)",
-      "benchmark_name": "code",
-      "score": 61.375,
-      "score_raw": 1291,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 89
-    },
-    {
-      "benchmark_id": "mirror-code-mimo-v2-pro",
-      "model_id": "mimo-v2-pro",
-      "benchmark_name": "code",
-      "score": 79.125,
-      "score_raw": 1433,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 50
-    },
-    {
-      "benchmark_id": "mirror-code-minimax-m2-1-preview",
-      "model_id": "minimax-m2.1-preview",
-      "benchmark_name": "code",
-      "score": 73.5,
-      "score_raw": 1388,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 65
-    },
-    {
-      "benchmark_id": "mirror-code-minimax-m2-5",
-      "model_id": "minimax-m2.5",
-      "benchmark_name": "code",
-      "score": 73.25,
-      "score_raw": 1386,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 66
-    },
-    {
-      "benchmark_id": "mirror-code-minimax-m2-7",
-      "model_id": "minimax-m2.7",
-      "benchmark_name": "code",
-      "score": 74.75,
-      "score_raw": 1398,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 60
-    },
-    {
-      "benchmark_id": "mirror-code-minimax-m2",
-      "model_id": "minimax-m2",
-      "benchmark_name": "code",
-      "score": 62.125,
-      "score_raw": 1297,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 88
-    },
-    {
-      "benchmark_id": "mirror-code-minimax-m3",
-      "model_id": "minimax-m3",
-      "benchmark_name": "code",
-      "score": 86.5,
-      "score_raw": 1492,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 29
-    },
-    {
-      "benchmark_id": "mirror-code-mistral-large-3",
-      "model_id": "mistral-large-3",
-      "benchmark_name": "code",
-      "score": 53.75,
-      "score_raw": 1230,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 100
-    },
-    {
-      "benchmark_id": "mirror-code-mistral-medium-3-5",
-      "model_id": "mistral-medium-3.5",
-      "benchmark_name": "code",
-      "score": 58.375,
-      "score_raw": 1267,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 92
-    },
-    {
-      "benchmark_id": "mirror-code-muse-spark-1-1",
-      "model_id": "muse-spark-1.1",
-      "benchmark_name": "code",
-      "score": 91.875,
-      "score_raw": 1535,
-      "evaluation_date": "2026-08-01",
+      "evaluation_date": "2026-08-03",
       "source": "mirror",
       "category": [
         "code"
@@ -1253,129 +31,38 @@
       "rank": 16
     },
     {
-      "benchmark_id": "mirror-code-qwen3-5-122b-a10b",
-      "model_id": "qwen3.5-122b-a10b",
+      "benchmark_id": "mirror-code-claude-opus-4-7",
+      "model_id": "claude-opus-4-7",
       "benchmark_name": "code",
-      "score": 69.875,
-      "score_raw": 1359,
-      "evaluation_date": "2026-08-01",
+      "score": 95.125,
+      "score_raw": 1561,
+      "evaluation_date": "2026-08-03",
       "source": "mirror",
       "category": [
         "code"
       ],
-      "rank": 74
+      "rank": 10
     },
     {
-      "benchmark_id": "mirror-code-qwen3-5-27b",
-      "model_id": "qwen3.5-27b",
+      "benchmark_id": "mirror-code-claude-opus-4-8",
+      "model_id": "claude-opus-4-8",
       "benchmark_name": "code",
-      "score": 69.75,
-      "score_raw": 1358,
-      "evaluation_date": "2026-08-01",
+      "score": 92.375,
+      "score_raw": 1539,
+      "evaluation_date": "2026-08-03",
       "source": "mirror",
       "category": [
         "code"
       ],
-      "rank": 75
+      "rank": 15
     },
     {
-      "benchmark_id": "mirror-code-qwen3-5-35b-a3b",
-      "model_id": "qwen3.5-35b-a3b",
+      "benchmark_id": "mirror-code-gemini-3-6-flash",
+      "model_id": "gemini-3.6-flash",
       "benchmark_name": "code",
-      "score": 56.375,
-      "score_raw": 1251,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 95
-    },
-    {
-      "benchmark_id": "mirror-code-qwen3-5-397b-a17b",
-      "model_id": "qwen3.5-397b-a17b",
-      "benchmark_name": "code",
-      "score": 75,
-      "score_raw": 1400,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 57
-    },
-    {
-      "benchmark_id": "mirror-code-qwen3-5-flash",
-      "model_id": "qwen3.5-flash",
-      "benchmark_name": "code",
-      "score": 54.75,
-      "score_raw": 1238,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 99
-    },
-    {
-      "benchmark_id": "mirror-code-qwen3-6-max-preview",
-      "model_id": "qwen3.6-max-preview",
-      "benchmark_name": "code",
-      "score": 84.75,
-      "score_raw": 1478,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 32
-    },
-    {
-      "benchmark_id": "mirror-code-qwen3-6-plus",
-      "model_id": "qwen3.6-plus",
-      "benchmark_name": "code",
-      "score": 82.25,
-      "score_raw": 1458,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 38
-    },
-    {
-      "benchmark_id": "mirror-code-qwen3-7-max-20260517",
-      "model_id": "qwen3.7-max-20260517",
-      "benchmark_name": "code",
-      "score": 89.75,
-      "score_raw": 1518,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 22
-    },
-    {
-      "benchmark_id": "mirror-code-qwen3-coder-480b-a35b-instruct",
-      "model_id": "qwen3-coder-480b-a35b-instruct",
-      "benchmark_name": "code",
-      "score": 59,
-      "score_raw": 1272,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 90
-    },
-    {
-      "benchmark_id": "mirror-code-seed-2-1-pro-preview",
-      "model_id": "seed-2.1-pro-preview",
-      "benchmark_name": "code",
-      "score": 91,
-      "score_raw": 1528,
-      "evaluation_date": "2026-08-01",
+      "score": 91.625,
+      "score_raw": 1533,
+      "evaluation_date": "2026-08-03",
       "source": "mirror",
       "category": [
         "code"
@@ -1383,25 +70,38 @@
       "rank": 18
     },
     {
-      "benchmark_id": "mirror-code-trinity-large-thinking",
-      "model_id": "trinity-large-thinking",
+      "benchmark_id": "mirror-code-grok-4-5",
+      "model_id": "grok-4.5",
       "benchmark_name": "code",
-      "score": 54.87499999999999,
-      "score_raw": 1239,
-      "evaluation_date": "2026-08-01",
+      "score": 93.625,
+      "score_raw": 1549,
+      "evaluation_date": "2026-08-03",
       "source": "mirror",
       "category": [
         "code"
       ],
-      "rank": 98
+      "rank": 12
+    },
+    {
+      "benchmark_id": "mirror-code-muse-spark-1-1",
+      "model_id": "muse-spark-1.1",
+      "benchmark_name": "code",
+      "score": 92,
+      "score_raw": 1536,
+      "evaluation_date": "2026-08-03",
+      "source": "mirror",
+      "category": [
+        "code"
+      ],
+      "rank": 17
     },
     {
       "benchmark_id": "mirror-text-claude-fable-5",
       "model_id": "claude-fable-5",
       "benchmark_name": "text",
-      "score": 88.5,
-      "score_raw": 1508,
-      "evaluation_date": "2026-08-01",
+      "score": 88.625,
+      "score_raw": 1509,
+      "evaluation_date": "2026-08-03",
       "source": "mirror",
       "category": [
         "text"
@@ -1409,25 +109,12 @@
       "rank": 1
     },
     {
-      "benchmark_id": "mirror-text-claude-opus-4-6-thinking",
-      "model_id": "claude-opus-4-6-thinking",
-      "benchmark_name": "text",
-      "score": 88.125,
-      "score_raw": 1505,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "text"
-      ],
-      "rank": 2
-    },
-    {
       "benchmark_id": "mirror-text-claude-opus-4-6",
       "model_id": "claude-opus-4-6",
       "benchmark_name": "text",
       "score": 87.125,
       "score_raw": 1497,
-      "evaluation_date": "2026-08-01",
+      "evaluation_date": "2026-08-03",
       "source": "mirror",
       "category": [
         "text"
@@ -1435,25 +122,12 @@
       "rank": 4
     },
     {
-      "benchmark_id": "mirror-text-claude-opus-4-7-thinking",
-      "model_id": "claude-opus-4-7-thinking",
-      "benchmark_name": "text",
-      "score": 87.75,
-      "score_raw": 1502,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "text"
-      ],
-      "rank": 3
-    },
-    {
       "benchmark_id": "mirror-text-claude-opus-4-7",
       "model_id": "claude-opus-4-7",
       "benchmark_name": "text",
-      "score": 86.625,
-      "score_raw": 1493,
-      "evaluation_date": "2026-08-01",
+      "score": 86.5,
+      "score_raw": 1492,
+      "evaluation_date": "2026-08-03",
       "source": "mirror",
       "category": [
         "text"
@@ -1461,90 +135,12 @@
       "rank": 6
     },
     {
-      "benchmark_id": "mirror-text-claude-opus-4-8-thinking",
-      "model_id": "claude-opus-4-8-thinking",
-      "benchmark_name": "text",
-      "score": 85.5,
-      "score_raw": 1484,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "text"
-      ],
-      "rank": 14
-    },
-    {
-      "benchmark_id": "mirror-text-claude-opus-5-high",
-      "model_id": "claude-opus-5-high",
-      "benchmark_name": "text",
-      "score": 86.625,
-      "score_raw": 1493,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "text"
-      ],
-      "rank": 7
-    },
-    {
-      "benchmark_id": "mirror-text-claude-opus-5-max",
-      "model_id": "claude-opus-5-max",
-      "benchmark_name": "text",
-      "score": 86.875,
-      "score_raw": 1495,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "text"
-      ],
-      "rank": 5
-    },
-    {
       "benchmark_id": "mirror-text-gemini-3-1-pro-preview",
       "model_id": "gemini-3.1-pro-preview",
       "benchmark_name": "text",
-      "score": 85.75,
-      "score_raw": 1486,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "text"
-      ],
-      "rank": 10
-    },
-    {
-      "benchmark_id": "mirror-text-gemini-3-5-flash-high",
-      "model_id": "gemini-3.5-flash-high",
-      "benchmark_name": "text",
-      "score": 84.5,
-      "score_raw": 1476,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "text"
-      ],
-      "rank": 18
-    },
-    {
-      "benchmark_id": "mirror-text-gemini-3-6-flash",
-      "model_id": "gemini-3.6-flash",
-      "benchmark_name": "text",
-      "score": 85.25,
-      "score_raw": 1482,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "text"
-      ],
-      "rank": 15
-    },
-    {
-      "benchmark_id": "mirror-text-gemini-3-pro",
-      "model_id": "gemini-3-pro",
-      "benchmark_name": "text",
-      "score": 85.75,
-      "score_raw": 1486,
-      "evaluation_date": "2026-08-01",
+      "score": 85.625,
+      "score_raw": 1485,
+      "evaluation_date": "2026-08-03",
       "source": "mirror",
       "category": [
         "text"
@@ -1552,38 +148,12 @@
       "rank": 12
     },
     {
-      "benchmark_id": "mirror-text-gpt-5-2-chat-latest-20260210",
-      "model_id": "gpt-5.2-chat-latest-20260210",
+      "benchmark_id": "mirror-text-gemini-3-6-flash",
+      "model_id": "gemini-3.6-flash",
       "benchmark_name": "text",
-      "score": 84.5,
-      "score_raw": 1476,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "text"
-      ],
-      "rank": 19
-    },
-    {
-      "benchmark_id": "mirror-text-gpt-5-4-high",
-      "model_id": "gpt-5.4-high",
-      "benchmark_name": "text",
-      "score": 84.625,
-      "score_raw": 1477,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "text"
-      ],
-      "rank": 17
-    },
-    {
-      "benchmark_id": "mirror-text-gpt-5-5-high",
-      "model_id": "gpt-5.5-high",
-      "benchmark_name": "text",
-      "score": 85.25,
-      "score_raw": 1482,
-      "evaluation_date": "2026-08-01",
+      "score": 85.375,
+      "score_raw": 1483,
+      "evaluation_date": "2026-08-03",
       "source": "mirror",
       "category": [
         "text"
@@ -1596,7 +166,7 @@
       "benchmark_name": "text",
       "score": 84.5,
       "score_raw": 1476,
-      "evaluation_date": "2026-08-01",
+      "evaluation_date": "2026-08-03",
       "source": "mirror",
       "category": [
         "text"
@@ -1604,56 +174,1746 @@
       "rank": 20
     },
     {
-      "benchmark_id": "mirror-text-gpt-5-6-sol-xhigh",
-      "model_id": "gpt-5.6-sol-xhigh",
-      "benchmark_name": "text",
-      "score": 85.625,
-      "score_raw": 1485,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "text"
-      ],
-      "rank": 13
-    },
-    {
-      "benchmark_id": "mirror-text-kimi-k3-max",
-      "model_id": "kimi-k3-max",
-      "benchmark_name": "text",
-      "score": 85.75,
-      "score_raw": 1486,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "text"
-      ],
-      "rank": 11
-    },
-    {
       "benchmark_id": "mirror-text-muse-spark-1-1",
       "model_id": "muse-spark-1.1",
       "benchmark_name": "text",
-      "score": 86.375,
-      "score_raw": 1491,
-      "evaluation_date": "2026-08-01",
-      "source": "mirror",
-      "category": [
-        "text"
-      ],
-      "rank": 8
-    },
-    {
-      "benchmark_id": "mirror-text-muse-spark",
-      "model_id": "muse-spark",
-      "benchmark_name": "text",
-      "score": 86,
-      "score_raw": 1488,
-      "evaluation_date": "2026-08-01",
+      "score": 86.25,
+      "score_raw": 1490,
+      "evaluation_date": "2026-08-03",
       "source": "mirror",
       "category": [
         "text"
       ],
       "rank": 9
+    },
+    {
+      "benchmark_id": "openllm-average-alpindale-wizardlm-2-8x22b",
+      "model_id": "alpindale/WizardLM-2-8x22B",
+      "benchmark_name": "average",
+      "score": 33.059051837739325,
+      "score_raw": 33.059051837739325,
+      "evaluation_date": "2024-04-16",
+      "source": "openllm",
+      "category": [
+        "overall"
+      ],
+      "rank": 784
+    },
+    {
+      "benchmark_id": "openllm-average-deepseek-ai-deepseek-r1-distill-llama-70b",
+      "model_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "benchmark_name": "average",
+      "score": 27.809426360756188,
+      "score_raw": 27.809426360756188,
+      "evaluation_date": "2025-01-20",
+      "source": "openllm",
+      "category": [
+        "overall"
+      ],
+      "rank": 1320
+    },
+    {
+      "benchmark_id": "openllm-average-google-gemma-2-27b-it",
+      "model_id": "google/gemma-2-27b-it",
+      "benchmark_name": "average",
+      "score": 36.17428251510342,
+      "score_raw": 36.17428251510342,
+      "evaluation_date": "2024-06-24",
+      "source": "openllm",
+      "category": [
+        "overall"
+      ],
+      "rank": 555
+    },
+    {
+      "benchmark_id": "openllm-average-jebish7-llama-3-1-8b-instruct",
+      "model_id": "jebish7/Llama-3.1-8B-Instruct",
+      "benchmark_name": "average",
+      "score": 24.022312491744717,
+      "score_raw": 24.022312491744717,
+      "evaluation_date": "2025-02-06",
+      "source": "openllm",
+      "category": [
+        "overall"
+      ],
+      "rank": 1829
+    },
+    {
+      "benchmark_id": "openllm-average-meta-llama-llama-3-1-70b-instruct",
+      "model_id": "meta-llama/Llama-3.1-70B-Instruct",
+      "benchmark_name": "average",
+      "score": 43.409948245645786,
+      "score_raw": 43.409948245645786,
+      "evaluation_date": "2024-07-16",
+      "source": "openllm",
+      "category": [
+        "overall"
+      ],
+      "rank": 62
+    },
+    {
+      "benchmark_id": "openllm-average-meta-llama-llama-3-1-70b",
+      "model_id": "meta-llama/Llama-3.1-70B",
+      "benchmark_name": "average",
+      "score": 26.200215843375947,
+      "score_raw": 26.200215843375947,
+      "evaluation_date": "2024-07-14",
+      "source": "openllm",
+      "category": [
+        "overall"
+      ],
+      "rank": 1482
+    },
+    {
+      "benchmark_id": "openllm-average-meta-llama-llama-3-1-8b-instruct",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "benchmark_name": "average",
+      "score": 23.763729445470883,
+      "score_raw": 23.763729445470883,
+      "evaluation_date": "2024-07-18",
+      "source": "openllm",
+      "category": [
+        "overall"
+      ],
+      "rank": 1905
+    },
+    {
+      "benchmark_id": "openllm-average-meta-llama-llama-3-1-8b",
+      "model_id": "meta-llama/Llama-3.1-8B",
+      "benchmark_name": "average",
+      "score": 14.42086519266696,
+      "score_raw": 14.42086519266696,
+      "evaluation_date": "2024-07-14",
+      "source": "openllm",
+      "category": [
+        "overall"
+      ],
+      "rank": 3368
+    },
+    {
+      "benchmark_id": "openllm-average-meta-llama-llama-3-2-1b-instruct",
+      "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+      "benchmark_name": "average",
+      "score": 14.443126333711135,
+      "score_raw": 14.443126333711135,
+      "evaluation_date": "2024-09-18",
+      "source": "openllm",
+      "category": [
+        "overall"
+      ],
+      "rank": 3366
+    },
+    {
+      "benchmark_id": "openllm-average-meta-llama-llama-3-2-3b-instruct",
+      "model_id": "meta-llama/Llama-3.2-3B-Instruct",
+      "benchmark_name": "average",
+      "score": 24.204650807793456,
+      "score_raw": 24.204650807793456,
+      "evaluation_date": "2024-09-18",
+      "source": "openllm",
+      "category": [
+        "overall"
+      ],
+      "rank": 1768
+    },
+    {
+      "benchmark_id": "openllm-average-meta-llama-llama-3-3-70b-instruct",
+      "model_id": "meta-llama/Llama-3.3-70B-Instruct",
+      "benchmark_name": "average",
+      "score": 44.84747145129876,
+      "score_raw": 44.84747145129876,
+      "evaluation_date": "2024-11-26",
+      "source": "openllm",
+      "category": [
+        "overall"
+      ],
+      "rank": 40
+    },
+    {
+      "benchmark_id": "openllm-average-microsoft-phi-4",
+      "model_id": "microsoft/phi-4",
+      "benchmark_name": "average",
+      "score": 29.48341679122318,
+      "score_raw": 29.48341679122318,
+      "evaluation_date": "2024-12-11",
+      "source": "openllm",
+      "category": [
+        "overall"
+      ],
+      "rank": 1112
+    },
+    {
+      "benchmark_id": "openllm-average-mistralai-mistral-nemo-instruct-2407",
+      "model_id": "mistralai/Mistral-Nemo-Instruct-2407",
+      "benchmark_name": "average",
+      "score": 24.665599941304677,
+      "score_raw": 24.665599941304677,
+      "evaluation_date": "2024-07-17",
+      "source": "openllm",
+      "category": [
+        "overall"
+      ],
+      "rank": 1676
+    },
+    {
+      "benchmark_id": "openllm-average-nousresearch-hermes-3-llama-3-1-70b",
+      "model_id": "NousResearch/Hermes-3-Llama-3.1-70B",
+      "benchmark_name": "average",
+      "score": 38.51477067349896,
+      "score_raw": 38.51477067349896,
+      "evaluation_date": "2024-07-29",
+      "source": "openllm",
+      "category": [
+        "overall"
+      ],
+      "rank": 373
+    },
+    {
+      "benchmark_id": "openllm-average-qwen-qwen2-5-72b-instruct",
+      "model_id": "Qwen/Qwen2.5-72B-Instruct",
+      "benchmark_name": "average",
+      "score": 47.98045991216864,
+      "score_raw": 47.98045991216864,
+      "evaluation_date": "2024-09-16",
+      "source": "openllm",
+      "category": [
+        "overall"
+      ],
+      "rank": 6
+    },
+    {
+      "benchmark_id": "openllm-average-qwen-qwen2-5-coder-32b-instruct",
+      "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "benchmark_name": "average",
+      "score": 39.885471774422804,
+      "score_raw": 39.885471774422804,
+      "evaluation_date": "2024-11-06",
+      "source": "openllm",
+      "category": [
+        "overall"
+      ],
+      "rank": 276
+    },
+    {
+      "benchmark_id": "openllm-average-sao10k-l3-8b-stheno-v3-2",
+      "model_id": "Sao10K/L3-8B-Stheno-v3.2",
+      "benchmark_name": "average",
+      "score": 25.884393588195138,
+      "score_raw": 25.884393588195138,
+      "evaluation_date": "2024-06-05",
+      "source": "openllm",
+      "category": [
+        "overall"
+      ],
+      "rank": 1527
+    },
+    {
+      "benchmark_id": "openllm-average-unsloth-llama-3-2-1b-instruct",
+      "model_id": "unsloth/Llama-3.2-1B-Instruct",
+      "benchmark_name": "average",
+      "score": 14.532450983938604,
+      "score_raw": 14.532450983938604,
+      "evaluation_date": "2024-09-25",
+      "source": "openllm",
+      "category": [
+        "overall"
+      ],
+      "rank": 3354
+    },
+    {
+      "benchmark_id": "openllm-average-unsloth-phi-4",
+      "model_id": "unsloth/phi-4",
+      "benchmark_name": "average",
+      "score": 40.728304291060965,
+      "score_raw": 40.728304291060965,
+      "evaluation_date": "2025-01-08",
+      "source": "openllm",
+      "category": [
+        "overall"
+      ],
+      "rank": 217
+    },
+    {
+      "benchmark_id": "openllm-bbh-alpindale-wizardlm-2-8x22b",
+      "model_id": "alpindale/WizardLM-2-8x22B",
+      "benchmark_name": "bbh",
+      "score": 48.57616817936264,
+      "score_raw": 48.57616817936264,
+      "evaluation_date": "2024-04-16",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 509
+    },
+    {
+      "benchmark_id": "openllm-bbh-deepseek-ai-deepseek-r1-distill-llama-70b",
+      "model_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "benchmark_name": "bbh",
+      "score": 35.81986234433108,
+      "score_raw": 35.81986234433108,
+      "evaluation_date": "2025-01-20",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 1251
+    },
+    {
+      "benchmark_id": "openllm-bbh-google-gemma-2-27b-it",
+      "model_id": "google/gemma-2-27b-it",
+      "benchmark_name": "bbh",
+      "score": 49.27284215130387,
+      "score_raw": 49.27284215130387,
+      "evaluation_date": "2024-06-24",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 454
+    },
+    {
+      "benchmark_id": "openllm-bbh-jebish7-llama-3-1-8b-instruct",
+      "model_id": "jebish7/Llama-3.1-8B-Instruct",
+      "benchmark_name": "bbh",
+      "score": 29.191619249410266,
+      "score_raw": 29.191619249410266,
+      "evaluation_date": "2025-02-06",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 2333
+    },
+    {
+      "benchmark_id": "openllm-bbh-meta-llama-llama-3-1-70b-instruct",
+      "model_id": "meta-llama/Llama-3.1-70B-Instruct",
+      "benchmark_name": "bbh",
+      "score": 55.92799173898473,
+      "score_raw": 55.92799173898473,
+      "evaluation_date": "2024-07-16",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 94
+    },
+    {
+      "benchmark_id": "openllm-bbh-meta-llama-llama-3-1-70b",
+      "model_id": "meta-llama/Llama-3.1-70B",
+      "benchmark_name": "bbh",
+      "score": 46.39941295581887,
+      "score_raw": 46.39941295581887,
+      "evaluation_date": "2024-07-14",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 628
+    },
+    {
+      "benchmark_id": "openllm-bbh-meta-llama-llama-3-1-8b-instruct",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "benchmark_name": "bbh",
+      "score": 29.379192497334035,
+      "score_raw": 29.379192497334035,
+      "evaluation_date": "2024-07-18",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 2304
+    },
+    {
+      "benchmark_id": "openllm-bbh-meta-llama-llama-3-1-8b",
+      "model_id": "meta-llama/Llama-3.1-8B",
+      "benchmark_name": "bbh",
+      "score": 25.30447063475493,
+      "score_raw": 25.30447063475493,
+      "evaluation_date": "2024-07-14",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 2800
+    },
+    {
+      "benchmark_id": "openllm-bbh-meta-llama-llama-3-2-1b-instruct",
+      "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+      "benchmark_name": "bbh",
+      "score": 8.742521312303046,
+      "score_raw": 8.742521312303046,
+      "evaluation_date": "2024-09-18",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 3726
+    },
+    {
+      "benchmark_id": "openllm-bbh-meta-llama-llama-3-2-3b-instruct",
+      "model_id": "meta-llama/Llama-3.2-3B-Instruct",
+      "benchmark_name": "bbh",
+      "score": 24.059186446885473,
+      "score_raw": 24.059186446885473,
+      "evaluation_date": "2024-09-18",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 2897
+    },
+    {
+      "benchmark_id": "openllm-bbh-meta-llama-llama-3-3-70b-instruct",
+      "model_id": "meta-llama/Llama-3.3-70B-Instruct",
+      "benchmark_name": "bbh",
+      "score": 56.561410788022194,
+      "score_raw": 56.561410788022194,
+      "evaluation_date": "2024-11-26",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 67
+    },
+    {
+      "benchmark_id": "openllm-bbh-microsoft-phi-4",
+      "model_id": "microsoft/phi-4",
+      "benchmark_name": "bbh",
+      "score": 52.42784845820486,
+      "score_raw": 52.42784845820486,
+      "evaluation_date": "2024-12-11",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 219
+    },
+    {
+      "benchmark_id": "openllm-bbh-mistralai-mistral-nemo-instruct-2407",
+      "model_id": "mistralai/Mistral-Nemo-Instruct-2407",
+      "benchmark_name": "bbh",
+      "score": 29.679970381152803,
+      "score_raw": 29.679970381152803,
+      "evaluation_date": "2024-07-17",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 2258
+    },
+    {
+      "benchmark_id": "openllm-bbh-nousresearch-hermes-3-llama-3-1-70b",
+      "model_id": "NousResearch/Hermes-3-Llama-3.1-70B",
+      "benchmark_name": "bbh",
+      "score": 53.76540869130056,
+      "score_raw": 53.76540869130056,
+      "evaluation_date": "2024-07-29",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 171
+    },
+    {
+      "benchmark_id": "openllm-bbh-qwen-qwen2-5-72b-instruct",
+      "model_id": "Qwen/Qwen2.5-72B-Instruct",
+      "benchmark_name": "bbh",
+      "score": 61.873255668787884,
+      "score_raw": 61.873255668787884,
+      "evaluation_date": "2024-09-16",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 15
+    },
+    {
+      "benchmark_id": "openllm-bbh-qwen-qwen2-5-coder-32b-instruct",
+      "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "benchmark_name": "bbh",
+      "score": 52.26651520943606,
+      "score_raw": 52.26651520943606,
+      "evaluation_date": "2024-11-06",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 229
+    },
+    {
+      "benchmark_id": "openllm-bbh-sao10k-l3-8b-stheno-v3-2",
+      "model_id": "Sao10K/L3-8B-Stheno-v3.2",
+      "benchmark_name": "bbh",
+      "score": 32.02159792407502,
+      "score_raw": 32.02159792407502,
+      "evaluation_date": "2024-06-05",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 1840
+    },
+    {
+      "benchmark_id": "openllm-bbh-unsloth-llama-3-2-1b-instruct",
+      "model_id": "unsloth/Llama-3.2-1B-Instruct",
+      "benchmark_name": "bbh",
+      "score": 8.31684951238064,
+      "score_raw": 8.31684951238064,
+      "evaluation_date": "2024-09-25",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 3757
+    },
+    {
+      "benchmark_id": "openllm-bbh-unsloth-phi-4",
+      "model_id": "unsloth/phi-4",
+      "benchmark_name": "bbh",
+      "score": 55.25314499847013,
+      "score_raw": 55.25314499847013,
+      "evaluation_date": "2025-01-08",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 128
+    },
+    {
+      "benchmark_id": "openllm-gpqa-alpindale-wizardlm-2-8x22b",
+      "model_id": "alpindale/WizardLM-2-8x22B",
+      "benchmark_name": "gpqa",
+      "score": 17.561521252796418,
+      "score_raw": 17.561521252796418,
+      "evaluation_date": "2024-04-16",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 217
+    },
+    {
+      "benchmark_id": "openllm-gpqa-deepseek-ai-deepseek-r1-distill-llama-70b",
+      "model_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "benchmark_name": "gpqa",
+      "score": 2.0134228187919474,
+      "score_raw": 2.0134228187919474,
+      "evaluation_date": "2025-01-20",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 3685
+    },
+    {
+      "benchmark_id": "openllm-gpqa-google-gemma-2-27b-it",
+      "model_id": "google/gemma-2-27b-it",
+      "benchmark_name": "gpqa",
+      "score": 16.666666666666664,
+      "score_raw": 16.666666666666664,
+      "evaluation_date": "2024-06-24",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 288
+    },
+    {
+      "benchmark_id": "openllm-gpqa-jebish7-llama-3-1-8b-instruct",
+      "model_id": "jebish7/Llama-3.1-8B-Instruct",
+      "benchmark_name": "gpqa",
+      "score": 9.507829977628639,
+      "score_raw": 9.507829977628639,
+      "evaluation_date": "2025-02-06",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 1104
+    },
+    {
+      "benchmark_id": "openllm-gpqa-meta-llama-llama-3-1-70b-instruct",
+      "model_id": "meta-llama/Llama-3.1-70B-Instruct",
+      "benchmark_name": "gpqa",
+      "score": 14.205816554809845,
+      "score_raw": 14.205816554809845,
+      "evaluation_date": "2024-07-16",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 466
+    },
+    {
+      "benchmark_id": "openllm-gpqa-meta-llama-llama-3-1-70b",
+      "model_id": "meta-llama/Llama-3.1-70B",
+      "benchmark_name": "gpqa",
+      "score": 18.34451901565996,
+      "score_raw": 18.34451901565996,
+      "evaluation_date": "2024-07-14",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 143
+    },
+    {
+      "benchmark_id": "openllm-gpqa-meta-llama-llama-3-1-8b-instruct",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "benchmark_name": "gpqa",
+      "score": 8.7248322147651,
+      "score_raw": 8.7248322147651,
+      "evaluation_date": "2024-07-18",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 1289
+    },
+    {
+      "benchmark_id": "openllm-gpqa-meta-llama-llama-3-1-8b",
+      "model_id": "meta-llama/Llama-3.1-8B",
+      "benchmark_name": "gpqa",
+      "score": 8.05369127516779,
+      "score_raw": 8.05369127516779,
+      "evaluation_date": "2024-07-14",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 1479
+    },
+    {
+      "benchmark_id": "openllm-gpqa-meta-llama-llama-3-2-1b-instruct",
+      "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+      "benchmark_name": "gpqa",
+      "score": 3.355704697986576,
+      "score_raw": 3.355704697986576,
+      "evaluation_date": "2024-09-18",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 3191
+    },
+    {
+      "benchmark_id": "openllm-gpqa-meta-llama-llama-3-2-3b-instruct",
+      "model_id": "meta-llama/Llama-3.2-3B-Instruct",
+      "benchmark_name": "gpqa",
+      "score": 3.8031319910514525,
+      "score_raw": 3.8031319910514525,
+      "evaluation_date": "2024-09-18",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 3042
+    },
+    {
+      "benchmark_id": "openllm-gpqa-meta-llama-llama-3-3-70b-instruct",
+      "model_id": "meta-llama/Llama-3.3-70B-Instruct",
+      "benchmark_name": "gpqa",
+      "score": 10.514541387024611,
+      "score_raw": 10.514541387024611,
+      "evaluation_date": "2024-11-26",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 910
+    },
+    {
+      "benchmark_id": "openllm-gpqa-microsoft-phi-4",
+      "model_id": "microsoft/phi-4",
+      "benchmark_name": "gpqa",
+      "score": 20.134228187919465,
+      "score_raw": 20.134228187919465,
+      "evaluation_date": "2024-12-11",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 39
+    },
+    {
+      "benchmark_id": "openllm-gpqa-mistralai-mistral-nemo-instruct-2407",
+      "model_id": "mistralai/Mistral-Nemo-Instruct-2407",
+      "benchmark_name": "gpqa",
+      "score": 5.369127516778524,
+      "score_raw": 5.369127516778524,
+      "evaluation_date": "2024-07-17",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 2527
+    },
+    {
+      "benchmark_id": "openllm-gpqa-nousresearch-hermes-3-llama-3-1-70b",
+      "model_id": "NousResearch/Hermes-3-Llama-3.1-70B",
+      "benchmark_name": "gpqa",
+      "score": 14.876957494407161,
+      "score_raw": 14.876957494407161,
+      "evaluation_date": "2024-07-29",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 419
+    },
+    {
+      "benchmark_id": "openllm-gpqa-qwen-qwen2-5-72b-instruct",
+      "model_id": "Qwen/Qwen2.5-72B-Instruct",
+      "benchmark_name": "gpqa",
+      "score": 16.666666666666664,
+      "score_raw": 16.666666666666664,
+      "evaluation_date": "2024-09-16",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 285
+    },
+    {
+      "benchmark_id": "openllm-gpqa-qwen-qwen2-5-coder-32b-instruct",
+      "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "benchmark_name": "gpqa",
+      "score": 13.19910514541387,
+      "score_raw": 13.19910514541387,
+      "evaluation_date": "2024-11-06",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 570
+    },
+    {
+      "benchmark_id": "openllm-gpqa-sao10k-l3-8b-stheno-v3-2",
+      "model_id": "Sao10K/L3-8B-Stheno-v3.2",
+      "benchmark_name": "gpqa",
+      "score": 8.05369127516779,
+      "score_raw": 8.05369127516779,
+      "evaluation_date": "2024-06-05",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 1457
+    },
+    {
+      "benchmark_id": "openllm-gpqa-unsloth-llama-3-2-1b-instruct",
+      "model_id": "unsloth/Llama-3.2-1B-Instruct",
+      "benchmark_name": "gpqa",
+      "score": 2.348993288590602,
+      "score_raw": 2.348993288590602,
+      "evaluation_date": "2024-09-25",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 3573
+    },
+    {
+      "benchmark_id": "openllm-gpqa-unsloth-phi-4",
+      "model_id": "unsloth/phi-4",
+      "benchmark_name": "gpqa",
+      "score": 11.521252796420578,
+      "score_raw": 11.521252796420578,
+      "evaluation_date": "2025-01-08",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 776
+    },
+    {
+      "benchmark_id": "openllm-ifeval-alpindale-wizardlm-2-8x22b",
+      "model_id": "alpindale/WizardLM-2-8x22B",
+      "benchmark_name": "ifeval",
+      "score": 52.72166739805937,
+      "score_raw": 52.72166739805937,
+      "evaluation_date": "2024-04-16",
+      "source": "openllm",
+      "category": [
+        "instruction-following"
+      ],
+      "rank": 1696
+    },
+    {
+      "benchmark_id": "openllm-ifeval-deepseek-ai-deepseek-r1-distill-llama-70b",
+      "model_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "benchmark_name": "ifeval",
+      "score": 43.35939750971866,
+      "score_raw": 43.35939750971866,
+      "evaluation_date": "2025-01-20",
+      "source": "openllm",
+      "category": [
+        "instruction-following"
+      ],
+      "rank": 2468
+    },
+    {
+      "benchmark_id": "openllm-ifeval-google-gemma-2-27b-it",
+      "model_id": "google/gemma-2-27b-it",
+      "benchmark_name": "ifeval",
+      "score": 79.77677008116243,
+      "score_raw": 79.77677008116243,
+      "evaluation_date": "2024-06-24",
+      "source": "openllm",
+      "category": [
+        "instruction-following"
+      ],
+      "rank": 137
+    },
+    {
+      "benchmark_id": "openllm-ifeval-jebish7-llama-3-1-8b-instruct",
+      "model_id": "jebish7/Llama-3.1-8B-Instruct",
+      "benchmark_name": "ifeval",
+      "score": 50.58345190760515,
+      "score_raw": 50.58345190760515,
+      "evaluation_date": "2025-02-06",
+      "source": "openllm",
+      "category": [
+        "instruction-following"
+      ],
+      "rank": 1816
+    },
+    {
+      "benchmark_id": "openllm-ifeval-meta-llama-llama-3-1-70b-instruct",
+      "model_id": "meta-llama/Llama-3.1-70B-Instruct",
+      "benchmark_name": "ifeval",
+      "score": 86.6885419575615,
+      "score_raw": 86.6885419575615,
+      "evaluation_date": "2024-07-16",
+      "source": "openllm",
+      "category": [
+        "instruction-following"
+      ],
+      "rank": 2
+    },
+    {
+      "benchmark_id": "openllm-ifeval-meta-llama-llama-3-1-70b",
+      "model_id": "meta-llama/Llama-3.1-70B",
+      "benchmark_name": "ifeval",
+      "score": 16.843752354862875,
+      "score_raw": 16.843752354862875,
+      "evaluation_date": "2024-07-14",
+      "source": "openllm",
+      "category": [
+        "instruction-following"
+      ],
+      "rank": 4219
+    },
+    {
+      "benchmark_id": "openllm-ifeval-meta-llama-llama-3-1-8b-instruct",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "benchmark_name": "ifeval",
+      "score": 49.217077354752064,
+      "score_raw": 49.217077354752064,
+      "evaluation_date": "2024-07-18",
+      "source": "openllm",
+      "category": [
+        "instruction-following"
+      ],
+      "rank": 1928
+    },
+    {
+      "benchmark_id": "openllm-ifeval-meta-llama-llama-3-1-8b",
+      "model_id": "meta-llama/Llama-3.1-8B",
+      "benchmark_name": "ifeval",
+      "score": 12.459828809780273,
+      "score_raw": 12.459828809780273,
+      "evaluation_date": "2024-07-14",
+      "source": "openllm",
+      "category": [
+        "instruction-following"
+      ],
+      "rank": 4448
+    },
+    {
+      "benchmark_id": "openllm-ifeval-meta-llama-llama-3-2-1b-instruct",
+      "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+      "benchmark_name": "ifeval",
+      "score": 56.9831380736446,
+      "score_raw": 56.9831380736446,
+      "evaluation_date": "2024-09-18",
+      "source": "openllm",
+      "category": [
+        "instruction-following"
+      ],
+      "rank": 1410
+    },
+    {
+      "benchmark_id": "openllm-ifeval-meta-llama-llama-3-2-3b-instruct",
+      "model_id": "meta-llama/Llama-3.2-3B-Instruct",
+      "benchmark_name": "ifeval",
+      "score": 73.93161256576994,
+      "score_raw": 73.93161256576994,
+      "evaluation_date": "2024-09-18",
+      "source": "openllm",
+      "category": [
+        "instruction-following"
+      ],
+      "rank": 510
+    },
+    {
+      "benchmark_id": "openllm-ifeval-meta-llama-llama-3-3-70b-instruct",
+      "model_id": "meta-llama/Llama-3.3-70B-Instruct",
+      "benchmark_name": "ifeval",
+      "score": 89.97581971391463,
+      "score_raw": 89.97581971391463,
+      "evaluation_date": "2024-11-26",
+      "source": "openllm",
+      "category": [
+        "instruction-following"
+      ],
+      "rank": 1
+    },
+    {
+      "benchmark_id": "openllm-ifeval-microsoft-phi-4",
+      "model_id": "microsoft/phi-4",
+      "benchmark_name": "ifeval",
+      "score": 4.878500157360248,
+      "score_raw": 4.878500157360248,
+      "evaluation_date": "2024-12-11",
+      "source": "openllm",
+      "category": [
+        "instruction-following"
+      ],
+      "rank": 4540
+    },
+    {
+      "benchmark_id": "openllm-ifeval-mistralai-mistral-nemo-instruct-2407",
+      "model_id": "mistralai/Mistral-Nemo-Instruct-2407",
+      "benchmark_name": "ifeval",
+      "score": 63.80248850826917,
+      "score_raw": 63.80248850826917,
+      "evaluation_date": "2024-07-17",
+      "source": "openllm",
+      "category": [
+        "instruction-following"
+      ],
+      "rank": 1082
+    },
+    {
+      "benchmark_id": "openllm-ifeval-nousresearch-hermes-3-llama-3-1-70b",
+      "model_id": "NousResearch/Hermes-3-Llama-3.1-70B",
+      "benchmark_name": "ifeval",
+      "score": 76.61438316998897,
+      "score_raw": 76.61438316998897,
+      "evaluation_date": "2024-07-29",
+      "source": "openllm",
+      "category": [
+        "instruction-following"
+      ],
+      "rank": 348
+    },
+    {
+      "benchmark_id": "openllm-ifeval-qwen-qwen2-5-72b-instruct",
+      "model_id": "Qwen/Qwen2.5-72B-Instruct",
+      "benchmark_name": "ifeval",
+      "score": 86.3837949972739,
+      "score_raw": 86.3837949972739,
+      "evaluation_date": "2024-09-16",
+      "source": "openllm",
+      "category": [
+        "instruction-following"
+      ],
+      "rank": 5
+    },
+    {
+      "benchmark_id": "openllm-ifeval-qwen-qwen2-5-coder-32b-instruct",
+      "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "benchmark_name": "ifeval",
+      "score": 72.65267268625026,
+      "score_raw": 72.65267268625026,
+      "evaluation_date": "2024-11-06",
+      "source": "openllm",
+      "category": [
+        "instruction-following"
+      ],
+      "rank": 605
+    },
+    {
+      "benchmark_id": "openllm-ifeval-sao10k-l3-8b-stheno-v3-2",
+      "model_id": "Sao10K/L3-8B-Stheno-v3.2",
+      "benchmark_name": "ifeval",
+      "score": 68.72841837435782,
+      "score_raw": 68.72841837435782,
+      "evaluation_date": "2024-06-05",
+      "source": "openllm",
+      "category": [
+        "instruction-following"
+      ],
+      "rank": 833
+    },
+    {
+      "benchmark_id": "openllm-ifeval-unsloth-llama-3-2-1b-instruct",
+      "model_id": "unsloth/Llama-3.2-1B-Instruct",
+      "benchmark_name": "ifeval",
+      "score": 58.099730936138336,
+      "score_raw": 58.099730936138336,
+      "evaluation_date": "2024-09-25",
+      "source": "openllm",
+      "category": [
+        "instruction-following"
+      ],
+      "rank": 1363
+    },
+    {
+      "benchmark_id": "openllm-ifeval-unsloth-phi-4",
+      "model_id": "unsloth/phi-4",
+      "benchmark_name": "ifeval",
+      "score": 68.8208398161323,
+      "score_raw": 68.8208398161323,
+      "evaluation_date": "2025-01-08",
+      "source": "openllm",
+      "category": [
+        "instruction-following"
+      ],
+      "rank": 825
+    },
+    {
+      "benchmark_id": "openllm-math-lvl-5-alpindale-wizardlm-2-8x22b",
+      "model_id": "alpindale/WizardLM-2-8x22B",
+      "benchmark_name": "math-lvl-5",
+      "score": 25,
+      "score_raw": 25,
+      "evaluation_date": "2024-04-16",
+      "source": "openllm",
+      "category": [
+        "math"
+      ],
+      "rank": 999
+    },
+    {
+      "benchmark_id": "openllm-math-lvl-5-deepseek-ai-deepseek-r1-distill-llama-70b",
+      "model_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "benchmark_name": "math-lvl-5",
+      "score": 30.74018126888218,
+      "score_raw": 30.74018126888218,
+      "evaluation_date": "2025-01-20",
+      "source": "openllm",
+      "category": [
+        "math"
+      ],
+      "rank": 802
+    },
+    {
+      "benchmark_id": "openllm-math-lvl-5-google-gemma-2-27b-it",
+      "model_id": "google/gemma-2-27b-it",
+      "benchmark_name": "math-lvl-5",
+      "score": 23.867069486404834,
+      "score_raw": 23.867069486404834,
+      "evaluation_date": "2024-06-24",
+      "source": "openllm",
+      "category": [
+        "math"
+      ],
+      "rank": 1035
+    },
+    {
+      "benchmark_id": "openllm-math-lvl-5-jebish7-llama-3-1-8b-instruct",
+      "model_id": "jebish7/Llama-3.1-8B-Instruct",
+      "benchmark_name": "math-lvl-5",
+      "score": 15.483383685800604,
+      "score_raw": 15.483383685800604,
+      "evaluation_date": "2025-02-06",
+      "source": "openllm",
+      "category": [
+        "math"
+      ],
+      "rank": 1690
+    },
+    {
+      "benchmark_id": "openllm-math-lvl-5-meta-llama-llama-3-1-70b-instruct",
+      "model_id": "meta-llama/Llama-3.1-70B-Instruct",
+      "benchmark_name": "math-lvl-5",
+      "score": 38.066465256797585,
+      "score_raw": 38.066465256797585,
+      "evaluation_date": "2024-07-16",
+      "source": "openllm",
+      "category": [
+        "math"
+      ],
+      "rank": 524
+    },
+    {
+      "benchmark_id": "openllm-math-lvl-5-meta-llama-llama-3-1-70b",
+      "model_id": "meta-llama/Llama-3.1-70B",
+      "benchmark_name": "math-lvl-5",
+      "score": 18.429003021148038,
+      "score_raw": 18.429003021148038,
+      "evaluation_date": "2024-07-14",
+      "source": "openllm",
+      "category": [
+        "math"
+      ],
+      "rank": 1443
+    },
+    {
+      "benchmark_id": "openllm-math-lvl-5-meta-llama-llama-3-1-8b-instruct",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "benchmark_name": "math-lvl-5",
+      "score": 15.55891238670695,
+      "score_raw": 15.55891238670695,
+      "evaluation_date": "2024-07-18",
+      "source": "openllm",
+      "category": [
+        "math"
+      ],
+      "rank": 1682
+    },
+    {
+      "benchmark_id": "openllm-math-lvl-5-meta-llama-llama-3-1-8b",
+      "model_id": "meta-llama/Llama-3.1-8B",
+      "benchmark_name": "math-lvl-5",
+      "score": 6.570996978851963,
+      "score_raw": 6.570996978851963,
+      "evaluation_date": "2024-07-14",
+      "source": "openllm",
+      "category": [
+        "math"
+      ],
+      "rank": 2937
+    },
+    {
+      "benchmark_id": "openllm-math-lvl-5-meta-llama-llama-3-2-1b-instruct",
+      "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+      "benchmark_name": "math-lvl-5",
+      "score": 7.02416918429003,
+      "score_raw": 7.02416918429003,
+      "evaluation_date": "2024-09-18",
+      "source": "openllm",
+      "category": [
+        "math"
+      ],
+      "rank": 2849
+    },
+    {
+      "benchmark_id": "openllm-math-lvl-5-meta-llama-llama-3-2-3b-instruct",
+      "model_id": "meta-llama/Llama-3.2-3B-Instruct",
+      "benchmark_name": "math-lvl-5",
+      "score": 17.673716012084594,
+      "score_raw": 17.673716012084594,
+      "evaluation_date": "2024-09-18",
+      "source": "openllm",
+      "category": [
+        "math"
+      ],
+      "rank": 1515
+    },
+    {
+      "benchmark_id": "openllm-math-lvl-5-meta-llama-llama-3-3-70b-instruct",
+      "model_id": "meta-llama/Llama-3.3-70B-Instruct",
+      "benchmark_name": "math-lvl-5",
+      "score": 48.338368580060425,
+      "score_raw": 48.338368580060425,
+      "evaluation_date": "2024-11-26",
+      "source": "openllm",
+      "category": [
+        "math"
+      ],
+      "rank": 192
+    },
+    {
+      "benchmark_id": "openllm-math-lvl-5-microsoft-phi-4",
+      "model_id": "microsoft/phi-4",
+      "benchmark_name": "math-lvl-5",
+      "score": 27.870090634441087,
+      "score_raw": 27.870090634441087,
+      "evaluation_date": "2024-12-11",
+      "source": "openllm",
+      "category": [
+        "math"
+      ],
+      "rank": 901
+    },
+    {
+      "benchmark_id": "openllm-math-lvl-5-mistralai-mistral-nemo-instruct-2407",
+      "model_id": "mistralai/Mistral-Nemo-Instruct-2407",
+      "benchmark_name": "math-lvl-5",
+      "score": 12.688821752265861,
+      "score_raw": 12.688821752265861,
+      "evaluation_date": "2024-07-17",
+      "source": "openllm",
+      "category": [
+        "math"
+      ],
+      "rank": 1985
+    },
+    {
+      "benchmark_id": "openllm-math-lvl-5-nousresearch-hermes-3-llama-3-1-70b",
+      "model_id": "NousResearch/Hermes-3-Llama-3.1-70B",
+      "benchmark_name": "math-lvl-5",
+      "score": 20.996978851963746,
+      "score_raw": 20.996978851963746,
+      "evaluation_date": "2024-07-29",
+      "source": "openllm",
+      "category": [
+        "math"
+      ],
+      "rank": 1247
+    },
+    {
+      "benchmark_id": "openllm-math-lvl-5-qwen-qwen2-5-72b-instruct",
+      "model_id": "Qwen/Qwen2.5-72B-Instruct",
+      "benchmark_name": "math-lvl-5",
+      "score": 59.818731117824775,
+      "score_raw": 59.818731117824775,
+      "evaluation_date": "2024-09-16",
+      "source": "openllm",
+      "category": [
+        "math"
+      ],
+      "rank": 13
+    },
+    {
+      "benchmark_id": "openllm-math-lvl-5-qwen-qwen2-5-coder-32b-instruct",
+      "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "benchmark_name": "math-lvl-5",
+      "score": 49.546827794561935,
+      "score_raw": 49.546827794561935,
+      "evaluation_date": "2024-11-06",
+      "source": "openllm",
+      "category": [
+        "math"
+      ],
+      "rank": 155
+    },
+    {
+      "benchmark_id": "openllm-math-lvl-5-sao10k-l3-8b-stheno-v3-2",
+      "model_id": "Sao10K/L3-8B-Stheno-v3.2",
+      "benchmark_name": "math-lvl-5",
+      "score": 9.290030211480364,
+      "score_raw": 9.290030211480364,
+      "evaluation_date": "2024-06-05",
+      "source": "openllm",
+      "category": [
+        "math"
+      ],
+      "rank": 2494
+    },
+    {
+      "benchmark_id": "openllm-math-lvl-5-unsloth-llama-3-2-1b-instruct",
+      "model_id": "unsloth/Llama-3.2-1B-Instruct",
+      "benchmark_name": "math-lvl-5",
+      "score": 8.23262839879154,
+      "score_raw": 8.23262839879154,
+      "evaluation_date": "2024-09-25",
+      "source": "openllm",
+      "category": [
+        "math"
+      ],
+      "rank": 2658
+    },
+    {
+      "benchmark_id": "openllm-math-lvl-5-unsloth-phi-4",
+      "model_id": "unsloth/phi-4",
+      "benchmark_name": "math-lvl-5",
+      "score": 50,
+      "score_raw": 50,
+      "evaluation_date": "2025-01-08",
+      "source": "openllm",
+      "category": [
+        "math"
+      ],
+      "rank": 140
+    },
+    {
+      "benchmark_id": "openllm-mmlu-pro-alpindale-wizardlm-2-8x22b",
+      "model_id": "alpindale/WizardLM-2-8x22B",
+      "benchmark_name": "mmlu-pro",
+      "score": 39.95641252955083,
+      "score_raw": 39.95641252955083,
+      "evaluation_date": "2024-04-16",
+      "source": "openllm",
+      "category": [
+        "knowledge"
+      ],
+      "rank": 694
+    },
+    {
+      "benchmark_id": "openllm-mmlu-pro-deepseek-ai-deepseek-r1-distill-llama-70b",
+      "model_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "benchmark_name": "mmlu-pro",
+      "score": 41.64635047281324,
+      "score_raw": 41.64635047281324,
+      "evaluation_date": "2025-01-20",
+      "source": "openllm",
+      "category": [
+        "knowledge"
+      ],
+      "rank": 632
+    },
+    {
+      "benchmark_id": "openllm-mmlu-pro-google-gemma-2-27b-it",
+      "model_id": "google/gemma-2-27b-it",
+      "benchmark_name": "mmlu-pro",
+      "score": 38.34958628841608,
+      "score_raw": 38.34958628841608,
+      "evaluation_date": "2024-06-24",
+      "source": "openllm",
+      "category": [
+        "knowledge"
+      ],
+      "rank": 800
+    },
+    {
+      "benchmark_id": "openllm-mmlu-pro-jebish7-llama-3-1-8b-instruct",
+      "model_id": "jebish7/Llama-3.1-8B-Instruct",
+      "benchmark_name": "mmlu-pro",
+      "score": 30.860298463356976,
+      "score_raw": 30.860298463356976,
+      "evaluation_date": "2025-02-06",
+      "source": "openllm",
+      "category": [
+        "knowledge"
+      ],
+      "rank": 1642
+    },
+    {
+      "benchmark_id": "openllm-mmlu-pro-meta-llama-llama-3-1-70b-instruct",
+      "model_id": "meta-llama/Llama-3.1-70B-Instruct",
+      "benchmark_name": "mmlu-pro",
+      "score": 47.87972813238771,
+      "score_raw": 47.87972813238771,
+      "evaluation_date": "2024-07-16",
+      "source": "openllm",
+      "category": [
+        "knowledge"
+      ],
+      "rank": 321
+    },
+    {
+      "benchmark_id": "openllm-mmlu-pro-meta-llama-llama-3-1-70b",
+      "model_id": "meta-llama/Llama-3.1-70B",
+      "benchmark_name": "mmlu-pro",
+      "score": 40.602836879432616,
+      "score_raw": 40.602836879432616,
+      "evaluation_date": "2024-07-14",
+      "source": "openllm",
+      "category": [
+        "knowledge"
+      ],
+      "rank": 666
+    },
+    {
+      "benchmark_id": "openllm-mmlu-pro-meta-llama-llama-3-1-8b-instruct",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "benchmark_name": "mmlu-pro",
+      "score": 31.091164302600465,
+      "score_raw": 31.091164302600465,
+      "evaluation_date": "2024-07-18",
+      "source": "openllm",
+      "category": [
+        "knowledge"
+      ],
+      "rank": 1593
+    },
+    {
+      "benchmark_id": "openllm-mmlu-pro-meta-llama-llama-3-1-8b",
+      "model_id": "meta-llama/Llama-3.1-8B",
+      "benchmark_name": "mmlu-pro",
+      "score": 25.42109929078014,
+      "score_raw": 25.42109929078014,
+      "evaluation_date": "2024-07-14",
+      "source": "openllm",
+      "category": [
+        "knowledge"
+      ],
+      "rank": 2487
+    },
+    {
+      "benchmark_id": "openllm-mmlu-pro-meta-llama-llama-3-2-1b-instruct",
+      "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+      "benchmark_name": "mmlu-pro",
+      "score": 7.579787234042552,
+      "score_raw": 7.579787234042552,
+      "evaluation_date": "2024-09-18",
+      "source": "openllm",
+      "category": [
+        "knowledge"
+      ],
+      "rank": 3751
+    },
+    {
+      "benchmark_id": "openllm-mmlu-pro-meta-llama-llama-3-2-3b-instruct",
+      "model_id": "meta-llama/Llama-3.2-3B-Instruct",
+      "benchmark_name": "mmlu-pro",
+      "score": 24.386820330969268,
+      "score_raw": 24.386820330969268,
+      "evaluation_date": "2024-09-18",
+      "source": "openllm",
+      "category": [
+        "knowledge"
+      ],
+      "rank": 2576
+    },
+    {
+      "benchmark_id": "openllm-mmlu-pro-meta-llama-llama-3-3-70b-instruct",
+      "model_id": "meta-llama/Llama-3.3-70B-Instruct",
+      "benchmark_name": "mmlu-pro",
+      "score": 48.12906323877069,
+      "score_raw": 48.12906323877069,
+      "evaluation_date": "2024-11-26",
+      "source": "openllm",
+      "category": [
+        "knowledge"
+      ],
+      "rank": 299
+    },
+    {
+      "benchmark_id": "openllm-mmlu-pro-microsoft-phi-4",
+      "model_id": "microsoft/phi-4",
+      "benchmark_name": "mmlu-pro",
+      "score": 47.630393026004725,
+      "score_raw": 47.630393026004725,
+      "evaluation_date": "2024-12-11",
+      "source": "openllm",
+      "category": [
+        "knowledge"
+      ],
+      "rank": 355
+    },
+    {
+      "benchmark_id": "openllm-mmlu-pro-mistralai-mistral-nemo-instruct-2407",
+      "model_id": "mistralai/Mistral-Nemo-Instruct-2407",
+      "benchmark_name": "mmlu-pro",
+      "score": 27.969858156028373,
+      "score_raw": 27.969858156028373,
+      "evaluation_date": "2024-07-17",
+      "source": "openllm",
+      "category": [
+        "knowledge"
+      ],
+      "rank": 2192
+    },
+    {
+      "benchmark_id": "openllm-mmlu-pro-nousresearch-hermes-3-llama-3-1-70b",
+      "model_id": "NousResearch/Hermes-3-Llama-3.1-70B",
+      "benchmark_name": "mmlu-pro",
+      "score": 41.40625,
+      "score_raw": 41.40625,
+      "evaluation_date": "2024-07-29",
+      "source": "openllm",
+      "category": [
+        "knowledge"
+      ],
+      "rank": 641
+    },
+    {
+      "benchmark_id": "openllm-mmlu-pro-qwen-qwen2-5-72b-instruct",
+      "model_id": "Qwen/Qwen2.5-72B-Instruct",
+      "benchmark_name": "mmlu-pro",
+      "score": 51.39812352245864,
+      "score_raw": 51.39812352245864,
+      "evaluation_date": "2024-09-16",
+      "source": "openllm",
+      "category": [
+        "knowledge"
+      ],
+      "rank": 53
+    },
+    {
+      "benchmark_id": "openllm-mmlu-pro-qwen-qwen2-5-coder-32b-instruct",
+      "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "benchmark_name": "mmlu-pro",
+      "score": 37.92479314420804,
+      "score_raw": 37.92479314420804,
+      "evaluation_date": "2024-11-06",
+      "source": "openllm",
+      "category": [
+        "knowledge"
+      ],
+      "rank": 831
+    },
+    {
+      "benchmark_id": "openllm-mmlu-pro-sao10k-l3-8b-stheno-v3-2",
+      "model_id": "Sao10K/L3-8B-Stheno-v3.2",
+      "benchmark_name": "mmlu-pro",
+      "score": 30.758717494089833,
+      "score_raw": 30.758717494089833,
+      "evaluation_date": "2024-06-05",
+      "source": "openllm",
+      "category": [
+        "knowledge"
+      ],
+      "rank": 1667
+    },
+    {
+      "benchmark_id": "openllm-mmlu-pro-unsloth-llama-3-2-1b-instruct",
+      "model_id": "unsloth/Llama-3.2-1B-Instruct",
+      "benchmark_name": "mmlu-pro",
+      "score": 8.244680851063828,
+      "score_raw": 8.244680851063828,
+      "evaluation_date": "2024-09-25",
+      "source": "openllm",
+      "category": [
+        "knowledge"
+      ],
+      "rank": 3715
+    },
+    {
+      "benchmark_id": "openllm-mmlu-pro-unsloth-phi-4",
+      "model_id": "unsloth/phi-4",
+      "benchmark_name": "mmlu-pro",
+      "score": 48.646202718676115,
+      "score_raw": 48.646202718676115,
+      "evaluation_date": "2025-01-08",
+      "source": "openllm",
+      "category": [
+        "knowledge"
+      ],
+      "rank": 238
+    },
+    {
+      "benchmark_id": "openllm-musr-alpindale-wizardlm-2-8x22b",
+      "model_id": "alpindale/WizardLM-2-8x22B",
+      "benchmark_name": "musr",
+      "score": 14.538541666666667,
+      "score_raw": 14.538541666666667,
+      "evaluation_date": "2024-04-16",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 937
+    },
+    {
+      "benchmark_id": "openllm-musr-deepseek-ai-deepseek-r1-distill-llama-70b",
+      "model_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "benchmark_name": "musr",
+      "score": 13.277343749999998,
+      "score_raw": 13.277343749999998,
+      "evaluation_date": "2025-01-20",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 1218
+    },
+    {
+      "benchmark_id": "openllm-musr-google-gemma-2-27b-it",
+      "model_id": "google/gemma-2-27b-it",
+      "benchmark_name": "musr",
+      "score": 9.112760416666667,
+      "score_raw": 9.112760416666667,
+      "evaluation_date": "2024-06-24",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 2544
+    },
+    {
+      "benchmark_id": "openllm-musr-jebish7-llama-3-1-8b-instruct",
+      "model_id": "jebish7/Llama-3.1-8B-Instruct",
+      "benchmark_name": "musr",
+      "score": 8.507291666666667,
+      "score_raw": 8.507291666666667,
+      "evaluation_date": "2025-02-06",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 2699
+    },
+    {
+      "benchmark_id": "openllm-musr-meta-llama-llama-3-1-70b-instruct",
+      "model_id": "meta-llama/Llama-3.1-70B-Instruct",
+      "benchmark_name": "musr",
+      "score": 17.691145833333334,
+      "score_raw": 17.691145833333334,
+      "evaluation_date": "2024-07-16",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 491
+    },
+    {
+      "benchmark_id": "openllm-musr-meta-llama-llama-3-1-70b",
+      "model_id": "meta-llama/Llama-3.1-70B",
+      "benchmark_name": "musr",
+      "score": 16.581770833333337,
+      "score_raw": 16.581770833333337,
+      "evaluation_date": "2024-07-14",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 628
+    },
+    {
+      "benchmark_id": "openllm-musr-meta-llama-llama-3-1-8b-instruct",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "benchmark_name": "musr",
+      "score": 8.611197916666667,
+      "score_raw": 8.611197916666667,
+      "evaluation_date": "2024-07-18",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 2662
+    },
+    {
+      "benchmark_id": "openllm-musr-meta-llama-llama-3-1-8b",
+      "model_id": "meta-llama/Llama-3.1-8B",
+      "benchmark_name": "musr",
+      "score": 8.715104166666668,
+      "score_raw": 8.715104166666668,
+      "evaluation_date": "2024-07-14",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 2647
+    },
+    {
+      "benchmark_id": "openllm-musr-meta-llama-llama-3-2-1b-instruct",
+      "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+      "benchmark_name": "musr",
+      "score": 2.973437500000001,
+      "score_raw": 2.973437500000001,
+      "evaluation_date": "2024-09-18",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 3936
+    },
+    {
+      "benchmark_id": "openllm-musr-meta-llama-llama-3-2-3b-instruct",
+      "model_id": "meta-llama/Llama-3.2-3B-Instruct",
+      "benchmark_name": "musr",
+      "score": 1.3734374999999996,
+      "score_raw": 1.3734374999999996,
+      "evaluation_date": "2024-09-18",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 4369
+    },
+    {
+      "benchmark_id": "openllm-musr-meta-llama-llama-3-3-70b-instruct",
+      "model_id": "meta-llama/Llama-3.3-70B-Instruct",
+      "benchmark_name": "musr",
+      "score": 15.565624999999999,
+      "score_raw": 15.565624999999999,
+      "evaluation_date": "2024-11-26",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 754
+    },
+    {
+      "benchmark_id": "openllm-musr-microsoft-phi-4",
+      "model_id": "microsoft/phi-4",
+      "benchmark_name": "musr",
+      "score": 23.719270833333326,
+      "score_raw": 23.719270833333326,
+      "evaluation_date": "2024-12-11",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 71
+    },
+    {
+      "benchmark_id": "openllm-musr-mistralai-mistral-nemo-instruct-2407",
+      "model_id": "mistralai/Mistral-Nemo-Instruct-2407",
+      "benchmark_name": "musr",
+      "score": 8.483333333333333,
+      "score_raw": 8.483333333333333,
+      "evaluation_date": "2024-07-17",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 2706
+    },
+    {
+      "benchmark_id": "openllm-musr-nousresearch-hermes-3-llama-3-1-70b",
+      "model_id": "NousResearch/Hermes-3-Llama-3.1-70B",
+      "benchmark_name": "musr",
+      "score": 23.42864583333333,
+      "score_raw": 23.42864583333333,
+      "evaluation_date": "2024-07-29",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 78
+    },
+    {
+      "benchmark_id": "openllm-musr-qwen-qwen2-5-72b-instruct",
+      "model_id": "Qwen/Qwen2.5-72B-Instruct",
+      "benchmark_name": "musr",
+      "score": 11.742187500000005,
+      "score_raw": 11.742187500000005,
+      "evaluation_date": "2024-09-16",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 1688
+    },
+    {
+      "benchmark_id": "openllm-musr-qwen-qwen2-5-coder-32b-instruct",
+      "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "benchmark_name": "musr",
+      "score": 13.722916666666668,
+      "score_raw": 13.722916666666668,
+      "evaluation_date": "2024-11-06",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 1112
+    },
+    {
+      "benchmark_id": "openllm-musr-sao10k-l3-8b-stheno-v3-2",
+      "model_id": "Sao10K/L3-8B-Stheno-v3.2",
+      "benchmark_name": "musr",
+      "score": 6.453906249999996,
+      "score_raw": 6.453906249999996,
+      "evaluation_date": "2024-06-05",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 3162
+    },
+    {
+      "benchmark_id": "openllm-musr-unsloth-llama-3-2-1b-instruct",
+      "model_id": "unsloth/Llama-3.2-1B-Instruct",
+      "benchmark_name": "musr",
+      "score": 1.9518229166666672,
+      "score_raw": 1.9518229166666672,
+      "evaluation_date": "2024-09-25",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 4201
+    },
+    {
+      "benchmark_id": "openllm-musr-unsloth-phi-4",
+      "model_id": "unsloth/phi-4",
+      "benchmark_name": "musr",
+      "score": 10.128385416666667,
+      "score_raw": 10.128385416666667,
+      "evaluation_date": "2025-01-08",
+      "source": "openllm",
+      "category": [
+        "reasoning"
+      ],
+      "rank": 2254
     }
   ]
 }

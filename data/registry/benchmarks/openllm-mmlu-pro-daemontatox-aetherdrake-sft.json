@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-daemontatox-aetherdrake-sft",
+  "model_id": "Daemontatox/AetherDrake-SFT",
+  "benchmark_name": "mmlu-pro",
+  "score": 27.76669621749409,
+  "score_raw": 27.76669621749409,
+  "evaluation_date": "2024-12-24",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2223
+}

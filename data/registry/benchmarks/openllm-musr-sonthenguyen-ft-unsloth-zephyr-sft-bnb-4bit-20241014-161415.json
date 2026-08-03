@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sonthenguyen-ft-unsloth-zephyr-sft-bnb-4bit-20241014-161415",
+  "model_id": "sonthenguyen/ft-unsloth-zephyr-sft-bnb-4bit-20241014-161415",
+  "benchmark_name": "musr",
+  "score": 6.024479166666666,
+  "score_raw": 6.024479166666666,
+  "evaluation_date": "2024-10-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3247
+}

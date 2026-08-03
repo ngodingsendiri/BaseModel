@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-yoyo-ai-qwen2-5-coder-14b-yoyo-1010",
+  "model_id": "YOYO-AI/Qwen2.5-Coder-14B-YOYO-1010",
+  "benchmark_name": "average",
+  "score": 32.054639724074,
+  "score_raw": 32.054639724074,
+  "evaluation_date": "2025-01-27",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 844
+}

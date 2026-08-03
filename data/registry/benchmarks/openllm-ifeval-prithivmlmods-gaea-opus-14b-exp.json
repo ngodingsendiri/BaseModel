@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-prithivmlmods-gaea-opus-14b-exp",
+  "model_id": "prithivMLmods/Gaea-Opus-14B-Exp",
+  "benchmark_name": "ifeval",
+  "score": 59.56351369920699,
+  "score_raw": 59.56351369920699,
+  "evaluation_date": "2025-03-11",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1296
+}

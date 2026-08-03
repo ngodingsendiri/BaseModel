@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-lenguajenaturalai-leniachat-gemma-2b-v0",
+  "model_id": "LenguajeNaturalAI/leniachat-gemma-2b-v0",
+  "benchmark_name": "average",
+  "score": 5.737240998088876,
+  "score_raw": 5.737240998088876,
+  "evaluation_date": "2024-04-09",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4184
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-ahdoot-structuredthinker-v0-3-morestructure",
+  "model_id": "Ahdoot/StructuredThinker-v0.3-MoreStructure",
+  "benchmark_name": "ifeval",
+  "score": 41.928084150055184,
+  "score_raw": 41.928084150055184,
+  "evaluation_date": "2024-12-31",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2601
+}

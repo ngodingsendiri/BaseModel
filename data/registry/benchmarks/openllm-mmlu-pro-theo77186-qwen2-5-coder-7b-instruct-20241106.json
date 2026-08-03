@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-theo77186-qwen2-5-coder-7b-instruct-20241106",
+  "model_id": "theo77186/Qwen2.5-Coder-7B-Instruct-20241106",
+  "benchmark_name": "mmlu-pro",
+  "score": 26.14140070921986,
+  "score_raw": 26.14140070921986,
+  "evaluation_date": "2024-11-08",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2392
+}

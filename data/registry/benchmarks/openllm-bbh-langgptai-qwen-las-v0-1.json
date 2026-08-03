@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-langgptai-qwen-las-v0-1",
+  "model_id": "langgptai/Qwen-las-v0.1",
+  "benchmark_name": "bbh",
+  "score": 14.698639898107368,
+  "score_raw": 14.698639898107368,
+  "evaluation_date": "2024-05-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3509
+}

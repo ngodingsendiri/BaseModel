@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-tiiuae-falcon-40b",
+  "model_id": "tiiuae/falcon-40b",
+  "benchmark_name": "bbh",
+  "score": 16.583304730312175,
+  "score_raw": 16.583304730312175,
+  "evaluation_date": "2023-05-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3425
+}

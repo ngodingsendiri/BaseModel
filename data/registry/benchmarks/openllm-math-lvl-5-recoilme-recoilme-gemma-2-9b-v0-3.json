@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-recoilme-recoilme-gemma-2-9b-v0-3",
+  "model_id": "recoilme/recoilme-gemma-2-9B-v0.3",
+  "benchmark_name": "math-lvl-5",
+  "score": 8.761329305135952,
+  "score_raw": 8.761329305135952,
+  "evaluation_date": "2024-09-18",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2572
+}

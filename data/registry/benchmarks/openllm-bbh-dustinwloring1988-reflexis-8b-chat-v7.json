@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dustinwloring1988-reflexis-8b-chat-v7",
+  "model_id": "dustinwloring1988/Reflexis-8b-chat-v7",
+  "benchmark_name": "bbh",
+  "score": 25.98749682684877,
+  "score_raw": 25.98749682684877,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2730
+}

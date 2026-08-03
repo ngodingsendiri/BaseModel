@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-mlabonne-alphamonarch-7b",
+  "model_id": "mlabonne/AlphaMonarch-7B",
+  "benchmark_name": "math-lvl-5",
+  "score": 4.078549848942599,
+  "score_raw": 4.078549848942599,
+  "evaluation_date": "2024-02-14",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3497
+}

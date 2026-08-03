@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-allknowingroger-neuralmultiverse-7b-slerp",
+  "model_id": "allknowingroger/Neuralmultiverse-7B-slerp",
+  "benchmark_name": "math-lvl-5",
+  "score": 6.495468277945619,
+  "score_raw": 6.495468277945619,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2948
+}

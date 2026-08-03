@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-quazim0t0-knot-cot-14b-sce",
+  "model_id": "Quazim0t0/Knot-CoT-14B-sce",
+  "benchmark_name": "ifeval",
+  "score": 48.317796779212486,
+  "score_raw": 48.317796779212486,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1983
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-triangle104-q2-5-athenscot",
+  "model_id": "Triangle104/Q2.5-AthensCOT",
+  "benchmark_name": "ifeval",
+  "score": 45.72744761676795,
+  "score_raw": 45.72744761676795,
+  "evaluation_date": "2025-01-26",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2225
+}

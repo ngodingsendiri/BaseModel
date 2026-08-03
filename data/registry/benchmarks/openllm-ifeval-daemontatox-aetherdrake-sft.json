@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-daemontatox-aetherdrake-sft",
+  "model_id": "Daemontatox/AetherDrake-SFT",
+  "benchmark_name": "ifeval",
+  "score": 48.12796712722243,
+  "score_raw": 48.12796712722243,
+  "evaluation_date": "2024-12-24",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1998
+}

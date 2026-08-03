@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-dreadpoor-dearly-beloved-8b-ties",
+  "model_id": "DreadPoor/Dearly_Beloved-8B-TIES",
+  "benchmark_name": "ifeval",
+  "score": 82.66687943545348,
+  "score_raw": 82.66687943545348,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 41
+}

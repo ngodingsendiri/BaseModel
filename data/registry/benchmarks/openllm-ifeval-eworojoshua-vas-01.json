@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-eworojoshua-vas-01",
+  "model_id": "eworojoshua/vas-01",
+  "benchmark_name": "ifeval",
+  "score": 76.1247933261524,
+  "score_raw": 76.1247933261524,
+  "evaluation_date": "2025-02-24",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 377
+}

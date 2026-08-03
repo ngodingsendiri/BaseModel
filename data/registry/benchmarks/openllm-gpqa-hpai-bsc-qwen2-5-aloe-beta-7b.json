@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-hpai-bsc-qwen2-5-aloe-beta-7b",
+  "model_id": "HPAI-BSC/Qwen2.5-Aloe-Beta-7B",
+  "benchmark_name": "gpqa",
+  "score": 5.480984340044745,
+  "score_raw": 5.480984340044745,
+  "evaluation_date": "2024-12-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2452
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-prithivmlmods-qwq-lcot-7b-instruct",
+  "model_id": "prithivMLmods/QwQ-LCoT-7B-Instruct",
+  "benchmark_name": "math-lvl-5",
+  "score": 37.160120845921455,
+  "score_raw": 37.160120845921455,
+  "evaluation_date": "2024-12-14",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 563
+}

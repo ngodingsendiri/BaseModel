@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-qingy2024-fusion-14b-instruct",
+  "model_id": "qingy2024/Fusion-14B-Instruct",
+  "benchmark_name": "gpqa",
+  "score": 13.982102908277403,
+  "score_raw": 13.982102908277403,
+  "evaluation_date": "2024-12-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 487
+}

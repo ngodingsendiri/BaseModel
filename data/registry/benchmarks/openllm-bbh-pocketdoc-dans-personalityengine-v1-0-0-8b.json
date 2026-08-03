@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-pocketdoc-dans-personalityengine-v1-0-0-8b",
+  "model_id": "PocketDoc/Dans-PersonalityEngine-v1.0.0-8b",
+  "benchmark_name": "bbh",
+  "score": 25.68795976908214,
+  "score_raw": 25.68795976908214,
+  "evaluation_date": "2024-10-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2762
+}

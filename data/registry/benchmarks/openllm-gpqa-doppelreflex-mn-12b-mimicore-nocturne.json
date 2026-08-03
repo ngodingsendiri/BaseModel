@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-doppelreflex-mn-12b-mimicore-nocturne",
+  "model_id": "DoppelReflEx/MN-12B-Mimicore-Nocturne",
+  "benchmark_name": "gpqa",
+  "score": 9.284116331096197,
+  "score_raw": 9.284116331096197,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1142
+}

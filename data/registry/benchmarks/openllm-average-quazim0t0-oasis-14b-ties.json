@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-quazim0t0-oasis-14b-ties",
+  "model_id": "Quazim0t0/Oasis-14B-ties",
+  "benchmark_name": "average",
+  "score": 40.59264321385063,
+  "score_raw": 40.59264321385063,
+  "evaluation_date": "2025-02-05",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 227
+}

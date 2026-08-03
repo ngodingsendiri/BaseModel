@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-dreadpoor-laughing-stock-8b-model-stock",
+  "model_id": "DreadPoor/Laughing_Stock-8B-Model_Stock",
+  "benchmark_name": "ifeval",
+  "score": 71.89579205397234,
+  "score_raw": 71.89579205397234,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 656
+}

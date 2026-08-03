@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-ehristoforu-ud-14b",
+  "model_id": "ehristoforu/ud-14b",
+  "benchmark_name": "math-lvl-5",
+  "score": 19.033232628398792,
+  "score_raw": 19.033232628398792,
+  "evaluation_date": "2025-01-28",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1397
+}

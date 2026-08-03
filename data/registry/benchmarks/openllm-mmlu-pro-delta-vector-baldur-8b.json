@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-delta-vector-baldur-8b",
+  "model_id": "Delta-Vector/Baldur-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.493572695035457,
+  "score_raw": 29.493572695035457,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1952
+}

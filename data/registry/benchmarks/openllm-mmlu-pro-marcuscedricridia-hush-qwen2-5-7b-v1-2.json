@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-marcuscedricridia-hush-qwen2-5-7b-v1-2",
+  "model_id": "marcuscedricridia/Hush-Qwen2.5-7B-v1.2",
+  "benchmark_name": "mmlu-pro",
+  "score": 35.52378841607564,
+  "score_raw": 35.52378841607564,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1082
+}

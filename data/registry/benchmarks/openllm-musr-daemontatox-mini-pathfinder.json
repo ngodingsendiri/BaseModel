@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-daemontatox-mini-pathfinder",
+  "model_id": "Daemontatox/mini_Pathfinder",
+  "benchmark_name": "musr",
+  "score": 4.8617187500000005,
+  "score_raw": 4.8617187500000005,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3477
+}

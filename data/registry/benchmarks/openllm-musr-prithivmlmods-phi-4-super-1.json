@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-prithivmlmods-phi-4-super-1",
+  "model_id": "prithivMLmods/Phi-4-Super-1",
+  "benchmark_name": "musr",
+  "score": 22.91744791666666,
+  "score_raw": 22.91744791666666,
+  "evaluation_date": "2025-01-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 89
+}

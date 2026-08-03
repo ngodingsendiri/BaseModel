@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-intel-neural-chat-7b-v3-1",
+  "model_id": "Intel/neural-chat-7b-v3-1",
+  "benchmark_name": "ifeval",
+  "score": 46.868974321467036,
+  "score_raw": 46.868974321467036,
+  "evaluation_date": "2023-11-14",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2112
+}

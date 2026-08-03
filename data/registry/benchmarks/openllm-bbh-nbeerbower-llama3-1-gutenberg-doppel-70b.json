@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-nbeerbower-llama3-1-gutenberg-doppel-70b",
+  "model_id": "nbeerbower/Llama3.1-Gutenberg-Doppel-70B",
+  "benchmark_name": "bbh",
+  "score": 52.556778995199046,
+  "score_raw": 52.556778995199046,
+  "evaluation_date": "2024-10-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 210
+}

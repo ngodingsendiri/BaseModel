@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-dreadpoor-morphing-8b-model-stock",
+  "model_id": "DreadPoor/Morphing-8B-Model_Stock",
+  "benchmark_name": "average",
+  "score": 29.281274084097088,
+  "score_raw": 29.281274084097088,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1143
+}

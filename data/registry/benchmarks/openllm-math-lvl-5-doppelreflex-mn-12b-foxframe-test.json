@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-doppelreflex-mn-12b-foxframe-test",
+  "model_id": "DoppelReflEx/MN-12B-FoxFrame-test",
+  "benchmark_name": "math-lvl-5",
+  "score": 13.972809667673717,
+  "score_raw": 13.972809667673717,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1807
+}

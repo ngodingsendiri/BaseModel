@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-qwen-qwen2-5-math-7b-instruct",
+  "model_id": "Qwen/Qwen2.5-Math-7B-Instruct",
+  "benchmark_name": "gpqa",
+  "score": 1.5659955257270708,
+  "score_raw": 1.5659955257270708,
+  "evaluation_date": "2024-09-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3847
+}

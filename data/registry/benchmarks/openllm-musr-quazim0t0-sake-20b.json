@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-quazim0t0-sake-20b",
+  "model_id": "Quazim0t0/Sake-20b",
+  "benchmark_name": "musr",
+  "score": 15.775781249999996,
+  "score_raw": 15.775781249999996,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 730
+}

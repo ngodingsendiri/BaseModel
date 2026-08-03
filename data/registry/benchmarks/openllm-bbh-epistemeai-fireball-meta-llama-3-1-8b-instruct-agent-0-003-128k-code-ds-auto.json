@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-epistemeai-fireball-meta-llama-3-1-8b-instruct-agent-0-003-128k-code-ds-auto",
+  "model_id": "EpistemeAI/Fireball-Meta-Llama-3.1-8B-Instruct-Agent-0.003-128K-code-ds-auto",
+  "benchmark_name": "bbh",
+  "score": 23.544253406580115,
+  "score_raw": 23.544253406580115,
+  "evaluation_date": "2024-10-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2943
+}

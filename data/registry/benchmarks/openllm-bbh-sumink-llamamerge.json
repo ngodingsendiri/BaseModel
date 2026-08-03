@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-sumink-llamamerge",
+  "model_id": "sumink/llamamerge",
+  "benchmark_name": "bbh",
+  "score": 24.376393916804787,
+  "score_raw": 24.376393916804787,
+  "evaluation_date": "2025-01-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2867
+}

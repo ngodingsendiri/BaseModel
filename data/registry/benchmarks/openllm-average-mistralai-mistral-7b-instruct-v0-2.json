@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-mistralai-mistral-7b-instruct-v0-2",
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.2",
+  "benchmark_name": "average",
+  "score": 18.50789159273764,
+  "score_raw": 18.50789159273764,
+  "evaluation_date": "2023-12-11",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2886
+}

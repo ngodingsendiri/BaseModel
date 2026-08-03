@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-triangle104-l3-1-8b-dusky-ink",
+  "model_id": "Triangle104/L3.1-8B-Dusky-Ink",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.807550236406616,
+  "score_raw": 29.807550236406616,
+  "evaluation_date": "2025-02-02",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1872
+}

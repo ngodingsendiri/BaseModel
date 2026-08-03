@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-braindao-iq-code-evmind-0-5b",
+  "model_id": "braindao/iq-code-evmind-0.5b",
+  "benchmark_name": "bbh",
+  "score": 4.260915277471788,
+  "score_raw": 4.260915277471788,
+  "evaluation_date": "2024-12-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4189
+}

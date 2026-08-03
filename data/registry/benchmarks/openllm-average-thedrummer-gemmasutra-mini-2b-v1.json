@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-thedrummer-gemmasutra-mini-2b-v1",
+  "model_id": "TheDrummer/Gemmasutra-Mini-2B-v1",
+  "benchmark_name": "average",
+  "score": 9.12929252128462,
+  "score_raw": 9.12929252128462,
+  "evaluation_date": "2024-08-03",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3777
+}

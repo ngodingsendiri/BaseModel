@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-triangle104-herodotos-14b-v0-1",
+  "model_id": "Triangle104/Herodotos-14B_V0.1",
+  "benchmark_name": "ifeval",
+  "score": 18.78715142488597,
+  "score_raw": 18.78715142488597,
+  "evaluation_date": "2025-02-11",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4094
+}

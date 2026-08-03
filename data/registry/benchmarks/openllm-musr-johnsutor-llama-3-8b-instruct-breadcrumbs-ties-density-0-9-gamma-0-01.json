@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-johnsutor-llama-3-8b-instruct-breadcrumbs-ties-density-0-9-gamma-0-01",
+  "model_id": "johnsutor/Llama-3-8B-Instruct_breadcrumbs_ties-density-0.9-gamma-0.01",
+  "benchmark_name": "musr",
+  "score": 21.976302083333326,
+  "score_raw": 21.976302083333326,
+  "evaluation_date": "2024-06-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 119
+}

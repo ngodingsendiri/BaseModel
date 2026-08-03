@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-ro-xe-fmixia-7b-ties-1",
+  "model_id": "Ro-xe/FMixIA-7B-TIES-1",
+  "benchmark_name": "musr",
+  "score": 18.64661458333333,
+  "score_raw": 18.64661458333333,
+  "evaluation_date": "2024-12-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 387
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-nbeerbower-hermes2-gutenberg2-mistral-7b",
+  "model_id": "nbeerbower/Hermes2-Gutenberg2-Mistral-7B",
+  "benchmark_name": "math-lvl-5",
+  "score": 5.740181268882175,
+  "score_raw": 5.740181268882175,
+  "evaluation_date": "2024-09-30",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3117
+}

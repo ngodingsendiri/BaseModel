@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-quazim0t0-knot-cot-14b-sce",
+  "model_id": "Quazim0t0/Knot-CoT-14B-sce",
+  "benchmark_name": "bbh",
+  "score": 51.44445678655166,
+  "score_raw": 51.44445678655166,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 260
+}

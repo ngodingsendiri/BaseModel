@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sakalti-oxyge1-33b",
+  "model_id": "Sakalti/Oxyge1-33B",
+  "benchmark_name": "average",
+  "score": 41.60924567669207,
+  "score_raw": 41.60924567669207,
+  "evaluation_date": "2024-12-08",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 142
+}

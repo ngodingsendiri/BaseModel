@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-norquinal-bravo",
+  "model_id": "Norquinal/Bravo",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.63881501182033,
+  "score_raw": 23.63881501182033,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2686
+}

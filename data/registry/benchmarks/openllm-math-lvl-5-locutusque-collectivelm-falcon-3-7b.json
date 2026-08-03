@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-locutusque-collectivelm-falcon-3-7b",
+  "model_id": "Locutusque/CollectiveLM-Falcon-3-7B",
+  "benchmark_name": "math-lvl-5",
+  "score": 21.827794561933533,
+  "score_raw": 21.827794561933533,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1166
+}

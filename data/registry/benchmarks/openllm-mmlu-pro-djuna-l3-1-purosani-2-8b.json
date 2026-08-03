@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-djuna-l3-1-purosani-2-8b",
+  "model_id": "djuna/L3.1-Purosani-2-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.57402482269504,
+  "score_raw": 30.57402482269504,
+  "evaluation_date": "2024-10-04",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1719
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-akhadangi-llama3-2-1b-0-01-last",
+  "model_id": "akhadangi/Llama3.2.1B.0.01-Last",
+  "benchmark_name": "bbh",
+  "score": 4.282945307374523,
+  "score_raw": 4.282945307374523,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4186
+}

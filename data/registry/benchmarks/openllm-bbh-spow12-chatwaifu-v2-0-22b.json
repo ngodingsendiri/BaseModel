@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-spow12-chatwaifu-v2-0-22b",
+  "model_id": "spow12/ChatWaifu_v2.0_22B",
+  "benchmark_name": "bbh",
+  "score": 42.01979809251511,
+  "score_raw": 42.01979809251511,
+  "evaluation_date": "2024-10-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 869
+}

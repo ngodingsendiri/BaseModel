@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-bee-spoke-data-smol-llama-101m-gqa",
+  "model_id": "BEE-spoke-data/smol_llama-101M-GQA",
+  "benchmark_name": "musr",
+  "score": 4.275520833333334,
+  "score_raw": 4.275520833333334,
+  "evaluation_date": "2023-10-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3613
+}

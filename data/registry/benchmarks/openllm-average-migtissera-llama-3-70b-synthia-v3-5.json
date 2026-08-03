@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-migtissera-llama-3-70b-synthia-v3-5",
+  "model_id": "migtissera/Llama-3-70B-Synthia-v3.5",
+  "benchmark_name": "average",
+  "score": 35.56935395079021,
+  "score_raw": 35.56935395079021,
+  "evaluation_date": "2024-05-26",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 593
+}

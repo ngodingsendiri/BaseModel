@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-ilsp-llama-krikri-8b-instruct",
+  "model_id": "ilsp/Llama-Krikri-8B-Instruct",
+  "benchmark_name": "bbh",
+  "score": 29.305557163927727,
+  "score_raw": 29.305557163927727,
+  "evaluation_date": "2025-02-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2315
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-netcat420-mfann-llama3-1-abliterated-slerp-v5",
+  "model_id": "netcat420/MFANN-Llama3.1-Abliterated-SLERP-V5",
+  "benchmark_name": "math-lvl-5",
+  "score": 8.157099697885197,
+  "score_raw": 8.157099697885197,
+  "evaluation_date": "2024-11-25",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2669
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-leroydyer-spydazweb-ai-humanai-012-instruct-mx",
+  "model_id": "LeroyDyer/SpydazWeb_AI_HumanAI_012_INSTRUCT_MX",
+  "benchmark_name": "bbh",
+  "score": 5.885758837366411,
+  "score_raw": 5.885758837366411,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4051
+}

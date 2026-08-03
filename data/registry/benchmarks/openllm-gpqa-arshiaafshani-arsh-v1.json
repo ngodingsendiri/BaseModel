@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-arshiaafshani-arsh-v1",
+  "model_id": "arshiaafshani/Arsh-V1",
+  "benchmark_name": "gpqa",
+  "score": 16.442953020134222,
+  "score_raw": 16.442953020134222,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 311
+}

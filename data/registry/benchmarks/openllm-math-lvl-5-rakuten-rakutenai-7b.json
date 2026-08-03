@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-rakuten-rakutenai-7b",
+  "model_id": "Rakuten/RakutenAI-7B",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.9637462235649545,
+  "score_raw": 1.9637462235649545,
+  "evaluation_date": "2024-03-18",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3924
+}

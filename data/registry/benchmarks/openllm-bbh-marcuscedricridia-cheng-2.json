@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-marcuscedricridia-cheng-2",
+  "model_id": "marcuscedricridia/Cheng-2",
+  "benchmark_name": "bbh",
+  "score": 49.97518634878575,
+  "score_raw": 49.97518634878575,
+  "evaluation_date": "2025-03-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 385
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-maziyarpanahi-calme-3-2-instruct-78b",
+  "model_id": "MaziyarPanahi/calme-3.2-instruct-78b",
+  "benchmark_name": "average",
+  "score": 52.08138397879168,
+  "score_raw": 52.08138397879168,
+  "evaluation_date": "2024-11-19",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1
+}

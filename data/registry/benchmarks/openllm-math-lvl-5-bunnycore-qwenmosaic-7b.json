@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-bunnycore-qwenmosaic-7b",
+  "model_id": "bunnycore/QwenMosaic-7B",
+  "benchmark_name": "math-lvl-5",
+  "score": 44.41087613293052,
+  "score_raw": 44.41087613293052,
+  "evaluation_date": "2024-12-01",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 315
+}

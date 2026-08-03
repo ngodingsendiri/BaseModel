@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-triangle104-ds-r1-llama-8b-harmony",
+  "model_id": "Triangle104/DS-R1-Llama-8B-Harmony",
+  "benchmark_name": "math-lvl-5",
+  "score": 42.82477341389728,
+  "score_raw": 42.82477341389728,
+  "evaluation_date": "2025-01-25",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 356
+}

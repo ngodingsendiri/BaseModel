@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-davidau-deepseek-moe-4x8b-r1-distill-llama-3-1-mad-scientist-24b",
+  "model_id": "DavidAU/DeepSeek-MOE-4X8B-R1-Distill-Llama-3.1-Mad-Scientist-24B",
+  "benchmark_name": "average",
+  "score": 18.80531524670597,
+  "score_raw": 18.80531524670597,
+  "evaluation_date": "2025-02-15",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2854
+}

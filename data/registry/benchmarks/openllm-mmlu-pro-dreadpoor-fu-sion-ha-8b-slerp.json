@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-fu-sion-ha-8b-slerp",
+  "model_id": "DreadPoor/Fu_sion_HA-8B-SLERP",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.386672576832154,
+  "score_raw": 31.386672576832154,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1516
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-jaspionjader-knf-2-8b",
+  "model_id": "jaspionjader/knf-2-8b",
+  "benchmark_name": "musr",
+  "score": 11.115104166666663,
+  "score_raw": 11.115104166666663,
+  "evaluation_date": "2025-01-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1935
+}

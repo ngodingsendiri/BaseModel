@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-oevortex-helpingai2-5-10b",
+  "model_id": "OEvortex/HelpingAI2.5-10B",
+  "benchmark_name": "ifeval",
+  "score": 32.76561745058666,
+  "score_raw": 32.76561745058666,
+  "evaluation_date": "2024-11-17",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3160
+}

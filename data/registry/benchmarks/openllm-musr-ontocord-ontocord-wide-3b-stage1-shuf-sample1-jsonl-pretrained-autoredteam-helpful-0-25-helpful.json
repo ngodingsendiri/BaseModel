@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-ontocord-ontocord-wide-3b-stage1-shuf-sample1-jsonl-pretrained-autoredteam-helpful-0-25-helpful",
+  "model_id": "ontocord/ontocord_wide_3b-stage1_shuf_sample1_jsonl-pretrained-autoredteam_helpful-0.25_helpful",
+  "benchmark_name": "musr",
+  "score": 3.489322916666666,
+  "score_raw": 3.489322916666666,
+  "evaluation_date": "2025-02-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3818
+}

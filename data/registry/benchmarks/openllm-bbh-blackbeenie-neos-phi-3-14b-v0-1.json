@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-blackbeenie-neos-phi-3-14b-v0-1",
+  "model_id": "BlackBeenie/Neos-Phi-3-14B-v0.1",
+  "benchmark_name": "bbh",
+  "score": 46.63138689861978,
+  "score_raw": 46.63138689861978,
+  "evaluation_date": "2024-11-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 619
+}

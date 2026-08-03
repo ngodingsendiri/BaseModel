@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-prithivmlmods-equuleus-opus-14b-exp",
+  "model_id": "prithivMLmods/Equuleus-Opus-14B-Exp",
+  "benchmark_name": "gpqa",
+  "score": 18.232662192393736,
+  "score_raw": 18.232662192393736,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 155
+}

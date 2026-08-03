@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-goekdeniz-guelmez-josiefied-qwen2-5-14b-instruct-abliterated-v4",
+  "model_id": "Goekdeniz-Guelmez/Josiefied-Qwen2.5-14B-Instruct-abliterated-v4",
+  "benchmark_name": "math-lvl-5",
+  "score": 54.229607250755286,
+  "score_raw": 54.229607250755286,
+  "evaluation_date": "2024-10-21",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 51
+}

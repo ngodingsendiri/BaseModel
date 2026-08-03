@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-01-ai-yi-9b",
+  "model_id": "01-ai/Yi-9B",
+  "benchmark_name": "average",
+  "score": 17.811867367746064,
+  "score_raw": 17.811867367746064,
+  "evaluation_date": "2024-03-01",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2972
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-automerger-yamshadowexperiment28-7b",
+  "model_id": "automerger/YamshadowExperiment28-7B",
+  "benchmark_name": "average",
+  "score": 19.884270029585778,
+  "score_raw": 19.884270029585778,
+  "evaluation_date": "2024-03-18",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2702
+}

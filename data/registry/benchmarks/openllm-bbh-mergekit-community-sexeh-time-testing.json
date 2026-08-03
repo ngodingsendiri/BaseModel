@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-mergekit-community-sexeh-time-testing",
+  "model_id": "mergekit-community/sexeh_time_testing",
+  "benchmark_name": "bbh",
+  "score": 32.4874943439471,
+  "score_raw": 32.4874943439471,
+  "evaluation_date": "2024-12-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1755
+}

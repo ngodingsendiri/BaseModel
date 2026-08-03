@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-cyfragovpl-pllum-12b-nc-chat",
+  "model_id": "CYFRAGOVPL/PLLuM-12B-nc-chat",
+  "benchmark_name": "average",
+  "score": 14.598342751082507,
+  "score_raw": 14.598342751082507,
+  "evaluation_date": "2025-02-07",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3348
+}

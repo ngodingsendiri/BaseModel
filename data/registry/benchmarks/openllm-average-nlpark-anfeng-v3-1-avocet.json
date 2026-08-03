@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nlpark-anfeng-v3-1-avocet",
+  "model_id": "NLPark/AnFeng_v3.1-Avocet",
+  "benchmark_name": "average",
+  "score": 28.39095634882293,
+  "score_raw": 28.39095634882293,
+  "evaluation_date": "2024-08-03",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1251
+}

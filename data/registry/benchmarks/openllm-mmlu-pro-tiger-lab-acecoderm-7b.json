@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-tiger-lab-acecoderm-7b",
+  "model_id": "TIGER-Lab/AceCodeRM-7B",
+  "benchmark_name": "mmlu-pro",
+  "score": 26.233747044917255,
+  "score_raw": 26.233747044917255,
+  "evaluation_date": "2025-02-03",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2379
+}

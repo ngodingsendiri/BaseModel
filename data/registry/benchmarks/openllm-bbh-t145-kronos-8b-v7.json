@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-t145-kronos-8b-v7",
+  "model_id": "T145/KRONOS-8B-V7",
+  "benchmark_name": "bbh",
+  "score": 23.89017313885566,
+  "score_raw": 23.89017313885566,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2916
+}

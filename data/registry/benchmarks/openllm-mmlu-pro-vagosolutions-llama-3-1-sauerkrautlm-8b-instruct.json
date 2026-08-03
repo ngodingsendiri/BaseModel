@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-vagosolutions-llama-3-1-sauerkrautlm-8b-instruct",
+  "model_id": "VAGOsolutions/Llama-3.1-SauerkrautLM-8b-Instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 32.116208628841605,
+  "score_raw": 32.116208628841605,
+  "evaluation_date": "2024-07-25",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1365
+}

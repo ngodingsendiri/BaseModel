@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-sakalti-light-1-1-3b",
+  "model_id": "Sakalti/light-1.1-3B",
+  "benchmark_name": "bbh",
+  "score": 1.8805156390567757,
+  "score_raw": 1.8805156390567757,
+  "evaluation_date": "2025-01-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4509
+}

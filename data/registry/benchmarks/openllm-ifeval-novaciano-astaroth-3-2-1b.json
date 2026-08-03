@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-novaciano-astaroth-3-2-1b",
+  "model_id": "Novaciano/ASTAROTH-3.2-1B",
+  "benchmark_name": "ifeval",
+  "score": 56.12884923115112,
+  "score_raw": 56.12884923115112,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1449
+}

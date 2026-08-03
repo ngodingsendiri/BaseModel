@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sakalti-oxyge1-33b",
+  "model_id": "Sakalti/Oxyge1-33B",
+  "benchmark_name": "musr",
+  "score": 24.29765625,
+  "score_raw": 24.29765625,
+  "evaluation_date": "2024-12-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 49
+}

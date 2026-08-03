@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-krystalan-drt-o1-14b",
+  "model_id": "Krystalan/DRT-o1-14B",
+  "benchmark_name": "ifeval",
+  "score": 40.67662690549963,
+  "score_raw": 40.67662690549963,
+  "evaluation_date": "2024-12-23",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2694
+}

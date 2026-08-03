@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-aalf-gemma-2-27b-it-simpo-37k",
+  "model_id": "AALF/gemma-2-27b-it-SimPO-37K",
+  "benchmark_name": "gpqa",
+  "score": 4.026845637583895,
+  "score_raw": 4.026845637583895,
+  "evaluation_date": "2024-08-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2938
+}

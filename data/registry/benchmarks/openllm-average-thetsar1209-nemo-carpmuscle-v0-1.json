@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-thetsar1209-nemo-carpmuscle-v0-1",
+  "model_id": "TheTsar1209/nemo-carpmuscle-v0.1",
+  "benchmark_name": "average",
+  "score": 16.794489017380517,
+  "score_raw": 16.794489017380517,
+  "evaluation_date": "2024-08-15",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3086
+}

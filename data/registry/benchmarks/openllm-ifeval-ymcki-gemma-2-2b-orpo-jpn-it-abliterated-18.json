@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-ymcki-gemma-2-2b-orpo-jpn-it-abliterated-18",
+  "model_id": "ymcki/gemma-2-2b-ORPO-jpn-it-abliterated-18",
+  "benchmark_name": "ifeval",
+  "score": 46.30945890237902,
+  "score_raw": 46.30945890237902,
+  "evaluation_date": "2024-10-30",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2162
+}

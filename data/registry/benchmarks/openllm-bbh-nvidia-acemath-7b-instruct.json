@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-nvidia-acemath-7b-instruct",
+  "model_id": "nvidia/AceMath-7B-Instruct",
+  "benchmark_name": "bbh",
+  "score": 29.99382585790849,
+  "score_raw": 29.99382585790849,
+  "evaluation_date": "2025-01-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2197
+}

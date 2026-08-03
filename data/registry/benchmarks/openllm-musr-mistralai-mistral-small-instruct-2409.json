@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-mistralai-mistral-small-instruct-2409",
+  "model_id": "mistralai/Mistral-Small-Instruct-2409",
+  "benchmark_name": "musr",
+  "score": 3.001041666666666,
+  "score_raw": 3.001041666666666,
+  "evaluation_date": "2024-09-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3927
+}

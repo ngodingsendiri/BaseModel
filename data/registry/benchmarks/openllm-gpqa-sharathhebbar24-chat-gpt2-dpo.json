@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-sharathhebbar24-chat-gpt2-dpo",
+  "model_id": "Sharathhebbar24/chat_gpt2_dpo",
+  "benchmark_name": "gpqa",
+  "score": 1.342281879194629,
+  "score_raw": 1.342281879194629,
+  "evaluation_date": "2024-01-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3956
+}

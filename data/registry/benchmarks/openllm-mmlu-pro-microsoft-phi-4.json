@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-microsoft-phi-4",
+  "model_id": "microsoft/phi-4",
+  "benchmark_name": "mmlu-pro",
+  "score": 47.630393026004725,
+  "score_raw": 47.630393026004725,
+  "evaluation_date": "2024-12-11",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 355
+}

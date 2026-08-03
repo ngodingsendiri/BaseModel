@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-marcuscedricridia-cursor-o1-7b",
+  "model_id": "marcuscedricridia/cursor-o1-7b",
+  "benchmark_name": "math-lvl-5",
+  "score": 14.123867069486403,
+  "score_raw": 14.123867069486403,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1800
+}

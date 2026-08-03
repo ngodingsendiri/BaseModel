@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-sabersaleh-llama2-7b-spo",
+  "model_id": "sabersaleh/Llama2-7B-SPO",
+  "benchmark_name": "bbh",
+  "score": 7.766130774573562,
+  "score_raw": 7.766130774573562,
+  "evaluation_date": "2024-11-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3793
+}

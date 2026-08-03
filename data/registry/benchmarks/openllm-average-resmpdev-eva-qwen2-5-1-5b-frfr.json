@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-resmpdev-eva-qwen2-5-1-5b-frfr",
+  "model_id": "RESMPDEV/EVA-Qwen2.5-1.5B-FRFR",
+  "benchmark_name": "average",
+  "score": 14.185076993762264,
+  "score_raw": 14.185076993762264,
+  "evaluation_date": "2024-12-31",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3396
+}

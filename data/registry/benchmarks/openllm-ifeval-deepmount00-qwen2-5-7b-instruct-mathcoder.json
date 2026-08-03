@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-deepmount00-qwen2-5-7b-instruct-mathcoder",
+  "model_id": "DeepMount00/Qwen2.5-7B-Instruct-MathCoder",
+  "benchmark_name": "ifeval",
+  "score": 15.302508455342934,
+  "score_raw": 15.302508455342934,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4323
+}

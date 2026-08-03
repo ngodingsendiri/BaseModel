@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-pjmixers-dev-llama-3-2-instruct-jankmixbread-v0-1-3b",
+  "model_id": "PJMixers-Dev/LLaMa-3.2-Instruct-JankMixBread-v0.1-3B",
+  "benchmark_name": "math-lvl-5",
+  "score": 13.066465256797583,
+  "score_raw": 13.066465256797583,
+  "evaluation_date": "2024-10-12",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1915
+}

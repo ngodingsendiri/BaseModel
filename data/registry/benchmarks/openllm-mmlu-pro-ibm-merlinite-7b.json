@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ibm-merlinite-7b",
+  "model_id": "ibm/merlinite-7b",
+  "benchmark_name": "mmlu-pro",
+  "score": 22.983156028368796,
+  "score_raw": 22.983156028368796,
+  "evaluation_date": "2024-03-02",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2790
+}

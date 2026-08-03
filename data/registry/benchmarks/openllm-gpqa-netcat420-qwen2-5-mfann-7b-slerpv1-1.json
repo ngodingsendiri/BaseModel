@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-netcat420-qwen2-5-mfann-7b-slerpv1-1",
+  "model_id": "netcat420/qwen2.5-MFANN-7b-SLERPv1.1",
+  "benchmark_name": "gpqa",
+  "score": 5.369127516778524,
+  "score_raw": 5.369127516778524,
+  "evaluation_date": "2025-02-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2531
+}

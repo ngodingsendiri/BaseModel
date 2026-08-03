@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-qwen2-5-14b-deepseek-r1-1m",
+  "model_id": "prithivMLmods/Qwen2.5-14B-DeepSeek-R1-1M",
+  "benchmark_name": "average",
+  "score": 34.33386526785314,
+  "score_raw": 34.33386526785314,
+  "evaluation_date": "2025-01-29",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 703
+}

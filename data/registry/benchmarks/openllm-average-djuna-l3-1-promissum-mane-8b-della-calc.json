@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-djuna-l3-1-promissum-mane-8b-della-calc",
+  "model_id": "djuna/L3.1-Promissum_Mane-8B-Della-calc",
+  "benchmark_name": "average",
+  "score": 26.488800069760984,
+  "score_raw": 26.488800069760984,
+  "evaluation_date": "2024-10-07",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1444
+}

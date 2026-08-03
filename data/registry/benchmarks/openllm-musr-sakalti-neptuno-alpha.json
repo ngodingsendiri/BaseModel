@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sakalti-neptuno-alpha",
+  "model_id": "Sakalti/Neptuno-Alpha",
+  "benchmark_name": "musr",
+  "score": 12.899479166666666,
+  "score_raw": 12.899479166666666,
+  "evaluation_date": "2025-01-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1327
+}

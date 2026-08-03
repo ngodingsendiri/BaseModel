@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-aurel9-testmerge-7b",
+  "model_id": "Aurel9/testmerge-7b",
+  "benchmark_name": "mmlu-pro",
+  "score": 22.807697990543733,
+  "score_raw": 22.807697990543733,
+  "evaluation_date": "2024-11-16",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2823
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-zeroxclem-llama-3-1-8b-specialtitanfusion",
+  "model_id": "ZeroXClem/Llama-3.1-8B-SpecialTitanFusion",
+  "benchmark_name": "bbh",
+  "score": 34.823135587389494,
+  "score_raw": 34.823135587389494,
+  "evaluation_date": "2025-03-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1386
+}

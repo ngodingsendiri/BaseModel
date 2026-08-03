@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-novaciano-astaroth-3-2-1b",
+  "model_id": "Novaciano/ASTAROTH-3.2-1B",
+  "benchmark_name": "bbh",
+  "score": 9.493517929020854,
+  "score_raw": 9.493517929020854,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3681
+}

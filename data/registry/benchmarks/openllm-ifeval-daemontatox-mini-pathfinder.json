@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-daemontatox-mini-pathfinder",
+  "model_id": "Daemontatox/mini_Pathfinder",
+  "benchmark_name": "ifeval",
+  "score": 29.615752869054106,
+  "score_raw": 29.615752869054106,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3332
+}

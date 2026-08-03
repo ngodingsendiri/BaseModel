@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-groq-llama-3-groq-8b-tool-use",
+  "model_id": "Groq/Llama-3-Groq-8B-Tool-Use",
+  "benchmark_name": "math-lvl-5",
+  "score": 6.042296072507553,
+  "score_raw": 6.042296072507553,
+  "evaluation_date": "2024-06-24",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3041
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nbeerbower-gemma2-gutenberg-9b",
+  "model_id": "nbeerbower/gemma2-gutenberg-9B",
+  "benchmark_name": "average",
+  "score": 23.719246452807738,
+  "score_raw": 23.719246452807738,
+  "evaluation_date": "2024-07-14",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1917
+}

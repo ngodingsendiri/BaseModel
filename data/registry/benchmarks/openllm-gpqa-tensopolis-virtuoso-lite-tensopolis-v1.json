@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-tensopolis-virtuoso-lite-tensopolis-v1",
+  "model_id": "tensopolis/virtuoso-lite-tensopolis-v1",
+  "benchmark_name": "gpqa",
+  "score": 12.639821029082773,
+  "score_raw": 12.639821029082773,
+  "evaluation_date": "2025-02-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 639
+}

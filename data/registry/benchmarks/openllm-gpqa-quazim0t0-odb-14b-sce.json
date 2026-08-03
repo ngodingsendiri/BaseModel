@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-quazim0t0-odb-14b-sce",
+  "model_id": "Quazim0t0/ODB-14B-sce",
+  "benchmark_name": "gpqa",
+  "score": 2.1252796420581683,
+  "score_raw": 2.1252796420581683,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3637
+}

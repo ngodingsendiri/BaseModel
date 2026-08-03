@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-summer-dawn-8b-sce",
+  "model_id": "DreadPoor/Summer_Dawn-8B-SCE",
+  "benchmark_name": "gpqa",
+  "score": 6.711409395973152,
+  "score_raw": 6.711409395973152,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1971
+}

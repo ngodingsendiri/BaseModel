@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-jiangxinyang-shanda-homer-llama3-8b",
+  "model_id": "jiangxinyang-shanda/Homer-LLama3-8B",
+  "benchmark_name": "gpqa",
+  "score": 6.263982102908276,
+  "score_raw": 6.263982102908276,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2174
+}

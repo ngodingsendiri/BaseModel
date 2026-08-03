@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-bunnycore-qwqen-3b-lcot",
+  "model_id": "bunnycore/QwQen-3B-LCoT",
+  "benchmark_name": "bbh",
+  "score": 28.499814171968946,
+  "score_raw": 28.499814171968946,
+  "evaluation_date": "2024-12-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2430
+}

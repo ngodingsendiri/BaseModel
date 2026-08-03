@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-bee-spoke-data-meta-llama-3-8bee",
+  "model_id": "BEE-spoke-data/Meta-Llama-3-8Bee",
+  "benchmark_name": "average",
+  "score": 14.657811877680324,
+  "score_raw": 14.657811877680324,
+  "evaluation_date": "2024-04-28",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3338
+}

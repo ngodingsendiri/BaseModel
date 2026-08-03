@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-doppelreflex-miniuslight-24b-v1b-test",
+  "model_id": "DoppelReflEx/MiniusLight-24B-v1b-test",
+  "benchmark_name": "average",
+  "score": 32.3748943419153,
+  "score_raw": 32.3748943419153,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 825
+}

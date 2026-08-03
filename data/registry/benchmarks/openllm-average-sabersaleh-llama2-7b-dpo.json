@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sabersaleh-llama2-7b-dpo",
+  "model_id": "sabersaleh/Llama2-7B-DPO",
+  "benchmark_name": "average",
+  "score": 7.558004575587002,
+  "score_raw": 7.558004575587002,
+  "evaluation_date": "2024-11-30",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3987
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-agentlans-qwen2-5-0-5b-instruct-crashcourse-dropout",
+  "model_id": "agentlans/Qwen2.5-0.5B-Instruct-CrashCourse-dropout",
+  "benchmark_name": "bbh",
+  "score": 7.227868281254662,
+  "score_raw": 7.227868281254662,
+  "evaluation_date": "2025-01-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3848
+}

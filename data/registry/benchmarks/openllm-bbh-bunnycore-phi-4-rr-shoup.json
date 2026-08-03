@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-bunnycore-phi-4-rr-shoup",
+  "model_id": "bunnycore/Phi-4-RR-Shoup",
+  "benchmark_name": "bbh",
+  "score": 56.10839417299811,
+  "score_raw": 56.10839417299811,
+  "evaluation_date": "2025-02-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 82
+}

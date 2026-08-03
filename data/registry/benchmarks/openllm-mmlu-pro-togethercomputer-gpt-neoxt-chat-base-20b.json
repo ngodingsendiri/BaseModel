@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-togethercomputer-gpt-neoxt-chat-base-20b",
+  "model_id": "togethercomputer/GPT-NeoXT-Chat-Base-20B",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.6142139479905429,
+  "score_raw": 1.6142139479905429,
+  "evaluation_date": "2023-03-03",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4283
+}

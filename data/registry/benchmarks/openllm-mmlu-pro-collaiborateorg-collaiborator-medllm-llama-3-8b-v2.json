@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-collaiborateorg-collaiborator-medllm-llama-3-8b-v2",
+  "model_id": "collaiborateorg/Collaiborator-MEDLLM-Llama-3-8B-v2",
+  "benchmark_name": "mmlu-pro",
+  "score": 27.56353427895981,
+  "score_raw": 27.56353427895981,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2244
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-sometimesanotion-qwentinuum-14b-v013",
+  "model_id": "sometimesanotion/Qwentinuum-14B-v013",
+  "benchmark_name": "gpqa",
+  "score": 14.317673378076066,
+  "score_raw": 14.317673378076066,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 456
+}

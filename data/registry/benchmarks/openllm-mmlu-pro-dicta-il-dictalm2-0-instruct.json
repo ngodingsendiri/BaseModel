@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dicta-il-dictalm2-0-instruct",
+  "model_id": "dicta-il/dictalm2.0-instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 17.830230496453904,
+  "score_raw": 17.830230496453904,
+  "evaluation_date": "2024-04-14",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3322
+}

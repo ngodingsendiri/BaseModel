@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-humanllms-humanish-llama3-8b-instruct",
+  "model_id": "HumanLLMs/Humanish-LLama3-8B-Instruct",
+  "benchmark_name": "average",
+  "score": 22.678203747779094,
+  "score_raw": 22.678203747779094,
+  "evaluation_date": "2024-10-04",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2164
+}

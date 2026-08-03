@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-theprint-rewiz-qwen-2-5-14b",
+  "model_id": "theprint/ReWiz-Qwen-2.5-14B",
+  "benchmark_name": "musr",
+  "score": 15.436979166666667,
+  "score_raw": 15.436979166666667,
+  "evaluation_date": "2024-11-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 774
+}

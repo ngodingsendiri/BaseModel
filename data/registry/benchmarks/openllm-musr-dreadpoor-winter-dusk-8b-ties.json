@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-winter-dusk-8b-ties",
+  "model_id": "DreadPoor/Winter_Dusk-8B-TIES",
+  "benchmark_name": "musr",
+  "score": 3.6028645833333335,
+  "score_raw": 3.6028645833333335,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3784
+}

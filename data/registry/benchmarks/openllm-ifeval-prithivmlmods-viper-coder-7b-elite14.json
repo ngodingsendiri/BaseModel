@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-prithivmlmods-viper-coder-7b-elite14",
+  "model_id": "prithivMLmods/Viper-Coder-7B-Elite14",
+  "benchmark_name": "ifeval",
+  "score": 14.882844186757803,
+  "score_raw": 14.882844186757803,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4345
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-alsebay-qwen2-5-7b-test-novelist",
+  "model_id": "Alsebay/Qwen2.5-7B-test-novelist",
+  "benchmark_name": "average",
+  "score": 27.172849099811746,
+  "score_raw": 27.172849099811746,
+  "evaluation_date": "2024-12-12",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1375
+}

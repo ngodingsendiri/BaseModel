@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ssmits-qwen2-5-95b-instruct",
+  "model_id": "ssmits/Qwen2.5-95B-Instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 46.85468380614657,
+  "score_raw": 46.85468380614657,
+  "evaluation_date": "2024-09-24",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 436
+}

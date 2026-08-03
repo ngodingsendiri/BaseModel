@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-replete-ai-replete-coder-qwen2-1-5b",
+  "model_id": "Replete-AI/Replete-Coder-Qwen2-1.5b",
+  "benchmark_name": "math-lvl-5",
+  "score": 3.8519637462235647,
+  "score_raw": 3.8519637462235647,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3549
+}

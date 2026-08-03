@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-allknowingroger-mistralmash1-7b-s",
+  "model_id": "allknowingroger/Mistralmash1-7B-s",
+  "benchmark_name": "ifeval",
+  "score": 39.61001254449306,
+  "score_raw": 39.61001254449306,
+  "evaluation_date": "2024-08-27",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2758
+}

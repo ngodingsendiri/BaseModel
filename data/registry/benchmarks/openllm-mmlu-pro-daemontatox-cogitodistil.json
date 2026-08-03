@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-daemontatox-cogitodistil",
+  "model_id": "Daemontatox/CogitoDistil",
+  "benchmark_name": "mmlu-pro",
+  "score": 18.061096335697396,
+  "score_raw": 18.061096335697396,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3308
+}

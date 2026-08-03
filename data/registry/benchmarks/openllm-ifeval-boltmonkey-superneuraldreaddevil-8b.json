@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-boltmonkey-superneuraldreaddevil-8b",
+  "model_id": "BoltMonkey/SuperNeuralDreadDevil-8b",
+  "benchmark_name": "ifeval",
+  "score": 77.09898624538445,
+  "score_raw": 77.09898624538445,
+  "evaluation_date": "2024-10-13",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 316
+}

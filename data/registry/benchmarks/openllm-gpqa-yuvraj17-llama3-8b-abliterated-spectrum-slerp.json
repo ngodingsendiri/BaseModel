@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-yuvraj17-llama3-8b-abliterated-spectrum-slerp",
+  "model_id": "yuvraj17/Llama3-8B-abliterated-Spectrum-slerp",
+  "benchmark_name": "gpqa",
+  "score": 6.823266219239373,
+  "score_raw": 6.823266219239373,
+  "evaluation_date": "2024-09-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1966
+}

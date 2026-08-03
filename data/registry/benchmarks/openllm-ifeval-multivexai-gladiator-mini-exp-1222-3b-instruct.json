@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-multivexai-gladiator-mini-exp-1222-3b-instruct",
+  "model_id": "MultivexAI/Gladiator-Mini-Exp-1222-3B-Instruct",
+  "benchmark_name": "ifeval",
+  "score": 61.63180361440977,
+  "score_raw": 61.63180361440977,
+  "evaluation_date": "2024-12-22",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1186
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-cultrix-qwestion-14b",
+  "model_id": "CultriX/Qwestion-14B",
+  "benchmark_name": "math-lvl-5",
+  "score": 37.235649546827794,
+  "score_raw": 37.235649546827794,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 557
+}

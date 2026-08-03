@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-howdy-8b-linear",
+  "model_id": "DreadPoor/Howdy-8B-LINEAR",
+  "benchmark_name": "musr",
+  "score": 12.316927083333331,
+  "score_raw": 12.316927083333331,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1487
+}

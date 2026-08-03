@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-tianyil1-mistralforcausallm-cal-dpo",
+  "model_id": "tianyil1/MistralForCausalLM_Cal_DPO",
+  "benchmark_name": "math-lvl-5",
+  "score": 2.8700906344410875,
+  "score_raw": 2.8700906344410875,
+  "evaluation_date": "2025-01-25",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3741
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-neopolita-jessi-v0-2-falcon3-10b-instruct",
+  "model_id": "neopolita/jessi-v0.2-falcon3-10b-instruct",
+  "benchmark_name": "average",
+  "score": 34.10450143941555,
+  "score_raw": 34.10450143941555,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 719
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-tensopolis-phi-4-tensopolis-v1",
+  "model_id": "tensopolis/phi-4-tensopolis-v1",
+  "benchmark_name": "bbh",
+  "score": 55.036574654959814,
+  "score_raw": 55.036574654959814,
+  "evaluation_date": "2025-02-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 139
+}

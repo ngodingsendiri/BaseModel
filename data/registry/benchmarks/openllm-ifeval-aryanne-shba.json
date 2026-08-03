@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-aryanne-shba",
+  "model_id": "Aryanne/SHBA",
+  "benchmark_name": "ifeval",
+  "score": 78.16560060639105,
+  "score_raw": 78.16560060639105,
+  "evaluation_date": "2025-01-05",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 252
+}

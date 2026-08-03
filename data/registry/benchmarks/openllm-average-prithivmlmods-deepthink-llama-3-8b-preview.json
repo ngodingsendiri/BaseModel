@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-deepthink-llama-3-8b-preview",
+  "model_id": "prithivMLmods/Deepthink-Llama-3-8B-Preview",
+  "benchmark_name": "average",
+  "score": 20.957476415581784,
+  "score_raw": 20.957476415581784,
+  "evaluation_date": "2025-02-18",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2504
+}

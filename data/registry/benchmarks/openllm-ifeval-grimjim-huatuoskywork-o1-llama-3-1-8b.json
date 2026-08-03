@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-grimjim-huatuoskywork-o1-llama-3-1-8b",
+  "model_id": "grimjim/HuatuoSkywork-o1-Llama-3.1-8B",
+  "benchmark_name": "ifeval",
+  "score": 39.61499931293413,
+  "score_raw": 39.61499931293413,
+  "evaluation_date": "2025-01-02",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2757
+}

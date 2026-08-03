@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-summer-dusk-8b-ties",
+  "model_id": "DreadPoor/Summer_Dusk-8B-TIES",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.728354018912537,
+  "score_raw": 31.728354018912537,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1441
+}

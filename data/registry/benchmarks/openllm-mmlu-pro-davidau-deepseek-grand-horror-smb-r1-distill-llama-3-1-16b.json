@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-davidau-deepseek-grand-horror-smb-r1-distill-llama-3-1-16b",
+  "model_id": "DavidAU/DeepSeek-Grand-Horror-SMB-R1-Distill-Llama-3.1-16B",
+  "benchmark_name": "mmlu-pro",
+  "score": 18.99379432624113,
+  "score_raw": 18.99379432624113,
+  "evaluation_date": "2025-02-09",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3246
+}

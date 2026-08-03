@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-m4-ai-tinymistral-248m-v3",
+  "model_id": "M4-ai/TinyMistral-248M-v3",
+  "benchmark_name": "musr",
+  "score": 5.150000000000001,
+  "score_raw": 5.150000000000001,
+  "evaluation_date": "2024-02-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3417
+}

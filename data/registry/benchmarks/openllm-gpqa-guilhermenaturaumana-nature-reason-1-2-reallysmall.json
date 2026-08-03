@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-guilhermenaturaumana-nature-reason-1-2-reallysmall",
+  "model_id": "GuilhermeNaturaUmana/Nature-Reason-1.2-reallysmall",
+  "benchmark_name": "gpqa",
+  "score": 6.599552572706939,
+  "score_raw": 6.599552572706939,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2013
+}

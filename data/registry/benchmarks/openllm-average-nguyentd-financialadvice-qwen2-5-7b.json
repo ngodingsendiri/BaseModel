@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nguyentd-financialadvice-qwen2-5-7b",
+  "model_id": "nguyentd/FinancialAdvice-Qwen2.5-7B",
+  "benchmark_name": "average",
+  "score": 21.287932324484498,
+  "score_raw": 21.287932324484498,
+  "evaluation_date": "2024-10-21",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2444
+}

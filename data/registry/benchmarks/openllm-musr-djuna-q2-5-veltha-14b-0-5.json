@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-djuna-q2-5-veltha-14b-0-5",
+  "model_id": "djuna/Q2.5-Veltha-14B-0.5",
+  "benchmark_name": "musr",
+  "score": 14.171614583333332,
+  "score_raw": 14.171614583333332,
+  "evaluation_date": "2024-12-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1018
+}

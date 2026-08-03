@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-lesubra-ece-eiffel-3bv3",
+  "model_id": "lesubra/ECE-EIFFEL-3Bv3",
+  "benchmark_name": "ifeval",
+  "score": 37.861429894901086,
+  "score_raw": 37.861429894901086,
+  "evaluation_date": "2024-10-07",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2869
+}

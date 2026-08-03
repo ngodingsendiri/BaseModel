@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-jeffmeloy-qwen2-5-7b-olm-v1-4",
+  "model_id": "jeffmeloy/Qwen2.5-7B-olm-v1.4",
+  "benchmark_name": "musr",
+  "score": 17.07604166666667,
+  "score_raw": 17.07604166666667,
+  "evaluation_date": "2025-01-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 561
+}

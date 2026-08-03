@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-sometimesanotion-qwen-2-5-14b-virmarckeoso",
+  "model_id": "sometimesanotion/Qwen-2.5-14B-Virmarckeoso",
+  "benchmark_name": "ifeval",
+  "score": 48.132953895663505,
+  "score_raw": 48.132953895663505,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1997
+}

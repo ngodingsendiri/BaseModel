@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-allknowingroger-mistralphi3-11b",
+  "model_id": "allknowingroger/MistralPhi3-11B",
+  "benchmark_name": "ifeval",
+  "score": 19.42911474886634,
+  "score_raw": 19.42911474886634,
+  "evaluation_date": "2024-08-26",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4058
+}

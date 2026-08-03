@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-jebish7-nemotron-mini-4b-instruct",
+  "model_id": "jebish7/Nemotron-Mini-4B-Instruct",
+  "benchmark_name": "musr",
+  "score": 18.35651041666667,
+  "score_raw": 18.35651041666667,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 421
+}

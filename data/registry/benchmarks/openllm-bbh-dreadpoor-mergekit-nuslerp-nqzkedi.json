@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-mergekit-nuslerp-nqzkedi",
+  "model_id": "DreadPoor/mergekit-nuslerp-nqzkedi",
+  "benchmark_name": "bbh",
+  "score": 34.09522783768477,
+  "score_raw": 34.09522783768477,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1502
+}

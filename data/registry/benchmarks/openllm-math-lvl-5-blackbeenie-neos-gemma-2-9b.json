@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-blackbeenie-neos-gemma-2-9b",
+  "model_id": "BlackBeenie/Neos-Gemma-2-9b",
+  "benchmark_name": "math-lvl-5",
+  "score": 9.818731117824774,
+  "score_raw": 9.818731117824774,
+  "evaluation_date": "2024-11-11",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2411
+}

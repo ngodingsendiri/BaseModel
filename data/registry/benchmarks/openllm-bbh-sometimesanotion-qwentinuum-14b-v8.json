@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-sometimesanotion-qwentinuum-14b-v8",
+  "model_id": "sometimesanotion/Qwentinuum-14B-v8",
+  "benchmark_name": "bbh",
+  "score": 50.11142993537886,
+  "score_raw": 50.11142993537886,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 371
+}

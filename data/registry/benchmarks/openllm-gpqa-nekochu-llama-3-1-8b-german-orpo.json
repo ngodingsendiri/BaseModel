@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-nekochu-llama-3-1-8b-german-orpo",
+  "model_id": "Nekochu/Llama-3.1-8B-German-ORPO",
+  "benchmark_name": "gpqa",
+  "score": 8.83668903803132,
+  "score_raw": 8.83668903803132,
+  "evaluation_date": "2024-09-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1244
+}

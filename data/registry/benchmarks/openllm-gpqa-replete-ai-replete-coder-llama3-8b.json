@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-replete-ai-replete-coder-llama3-8b",
+  "model_id": "Replete-AI/Replete-Coder-Llama3-8B",
+  "benchmark_name": "gpqa",
+  "score": 1.4541387024608574,
+  "score_raw": 1.4541387024608574,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3876
+}

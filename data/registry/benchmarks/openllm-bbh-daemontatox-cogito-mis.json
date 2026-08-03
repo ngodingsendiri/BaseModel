@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-daemontatox-cogito-mis",
+  "model_id": "Daemontatox/Cogito-MIS",
+  "benchmark_name": "bbh",
+  "score": 29.075970117521223,
+  "score_raw": 29.075970117521223,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2345
+}

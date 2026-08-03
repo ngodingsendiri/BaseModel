@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-kukedlc-neuralllama-3-8b-dt-v0-1",
+  "model_id": "Kukedlc/NeuralLLaMa-3-8b-DT-v0.1",
+  "benchmark_name": "bbh",
+  "score": 28.008307823364888,
+  "score_raw": 28.008307823364888,
+  "evaluation_date": "2024-05-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2503
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-qingy2019-openmath2-llama3-1-8b",
+  "model_id": "qingy2019/OpenMath2-Llama3.1-8B",
+  "benchmark_name": "gpqa",
+  "score": 2.0134228187919474,
+  "score_raw": 2.0134228187919474,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3702
+}

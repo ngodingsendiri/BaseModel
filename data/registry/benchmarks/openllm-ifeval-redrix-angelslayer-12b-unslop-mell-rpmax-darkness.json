@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-redrix-angelslayer-12b-unslop-mell-rpmax-darkness",
+  "model_id": "redrix/AngelSlayer-12B-Unslop-Mell-RPMax-DARKNESS",
+  "benchmark_name": "ifeval",
+  "score": 53.59590331431713,
+  "score_raw": 53.59590331431713,
+  "evaluation_date": "2024-12-05",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1634
+}

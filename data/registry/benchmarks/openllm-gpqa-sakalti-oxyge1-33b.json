@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-sakalti-oxyge1-33b",
+  "model_id": "Sakalti/Oxyge1-33B",
+  "benchmark_name": "gpqa",
+  "score": 17.67337807606264,
+  "score_raw": 17.67337807606264,
+  "evaluation_date": "2024-12-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 200
+}

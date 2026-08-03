@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-saishf-neural-sovlish-devil-8b-l3",
+  "model_id": "saishf/Neural-SOVLish-Devil-8B-L3",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.19274527186761,
+  "score_raw": 31.19274527186761,
+  "evaluation_date": "2024-05-28",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1565
+}

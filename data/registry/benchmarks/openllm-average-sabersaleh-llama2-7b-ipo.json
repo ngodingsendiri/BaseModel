@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sabersaleh-llama2-7b-ipo",
+  "model_id": "sabersaleh/Llama2-7B-IPO",
+  "benchmark_name": "average",
+  "score": 7.804715247914783,
+  "score_raw": 7.804715247914783,
+  "evaluation_date": "2024-11-30",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3926
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-vonjack-phi-3-mini-4k-instruct-llamafied",
+  "model_id": "vonjack/Phi-3-mini-4k-instruct-LLaMAfied",
+  "benchmark_name": "ifeval",
+  "score": 57.87488308798432,
+  "score_raw": 57.87488308798432,
+  "evaluation_date": "2024-04-24",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1367
+}

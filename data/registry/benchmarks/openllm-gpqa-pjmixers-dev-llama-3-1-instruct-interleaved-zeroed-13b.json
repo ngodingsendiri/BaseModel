@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-pjmixers-dev-llama-3-1-instruct-interleaved-zeroed-13b",
+  "model_id": "PJMixers-Dev/LLaMa-3.1-Instruct-Interleaved-Zeroed-13B",
+  "benchmark_name": "gpqa",
+  "score": 5.592841163310966,
+  "score_raw": 5.592841163310966,
+  "evaluation_date": "2024-12-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2414
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-johnsutor-llama-3-8b-instruct-breadcrumbs-ties-density-0-9-gamma-0-01",
+  "model_id": "johnsutor/Llama-3-8B-Instruct_breadcrumbs_ties-density-0.9-gamma-0.01",
+  "benchmark_name": "average",
+  "score": 19.06061039400886,
+  "score_raw": 19.06061039400886,
+  "evaluation_date": "2024-06-07",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2826
+}

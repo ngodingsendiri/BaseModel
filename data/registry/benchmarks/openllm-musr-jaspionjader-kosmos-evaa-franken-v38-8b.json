@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-jaspionjader-kosmos-evaa-franken-v38-8b",
+  "model_id": "jaspionjader/Kosmos-EVAA-Franken-v38-8B",
+  "benchmark_name": "musr",
+  "score": 11.544531249999997,
+  "score_raw": 11.544531249999997,
+  "evaluation_date": "2025-01-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1756
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-z1-coder-z1-coder-7b",
+  "model_id": "Z1-Coder/Z1-Coder-7B",
+  "benchmark_name": "musr",
+  "score": 2.736197916666669,
+  "score_raw": 2.736197916666669,
+  "evaluation_date": "2025-01-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3995
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-epistemeai-fireball-mistral-nemo-base-2407-v1-dpo2",
+  "model_id": "EpistemeAI/Fireball-Mistral-Nemo-Base-2407-v1-DPO2",
+  "benchmark_name": "mmlu-pro",
+  "score": 26.14140070921986,
+  "score_raw": 26.14140070921986,
+  "evaluation_date": "2024-08-19",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2390
+}

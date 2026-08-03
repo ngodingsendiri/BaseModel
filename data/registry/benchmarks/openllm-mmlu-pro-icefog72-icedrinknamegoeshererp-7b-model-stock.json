@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-icefog72-icedrinknamegoeshererp-7b-model-stock",
+  "model_id": "icefog72/IceDrinkNameGoesHereRP-7b-Model_Stock",
+  "benchmark_name": "mmlu-pro",
+  "score": 20.18506205673759,
+  "score_raw": 20.18506205673759,
+  "evaluation_date": "2024-09-14",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3135
+}

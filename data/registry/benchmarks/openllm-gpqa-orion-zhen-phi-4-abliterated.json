@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-orion-zhen-phi-4-abliterated",
+  "model_id": "Orion-zhen/phi-4-abliterated",
+  "benchmark_name": "gpqa",
+  "score": 20.581655480984338,
+  "score_raw": 20.581655480984338,
+  "evaluation_date": "2024-12-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 31
+}

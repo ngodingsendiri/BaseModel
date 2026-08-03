@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-jeffmeloy-qwen2-5-7b-nerd-uncensored-v0-9",
+  "model_id": "jeffmeloy/Qwen2.5-7B-nerd-uncensored-v0.9",
+  "benchmark_name": "bbh",
+  "score": 34.79159883396676,
+  "score_raw": 34.79159883396676,
+  "evaluation_date": "2024-11-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1389
+}

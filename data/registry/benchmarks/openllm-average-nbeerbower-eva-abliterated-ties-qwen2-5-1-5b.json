@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nbeerbower-eva-abliterated-ties-qwen2-5-1-5b",
+  "model_id": "nbeerbower/EVA-abliterated-TIES-Qwen2.5-1.5B",
+  "benchmark_name": "average",
+  "score": 15.375831467238891,
+  "score_raw": 15.375831467238891,
+  "evaluation_date": "2025-01-29",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3263
+}

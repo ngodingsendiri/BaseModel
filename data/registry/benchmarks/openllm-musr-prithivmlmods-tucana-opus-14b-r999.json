@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-prithivmlmods-tucana-opus-14b-r999",
+  "model_id": "prithivMLmods/Tucana-Opus-14B-r999",
+  "benchmark_name": "musr",
+  "score": 18.99557291666666,
+  "score_raw": 18.99557291666666,
+  "evaluation_date": "2025-02-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 348
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-leroydyer-mixtral-ai-swahilitron-7b",
+  "model_id": "LeroyDyer/Mixtral_AI_SwahiliTron_7b",
+  "benchmark_name": "bbh",
+  "score": 3.211683047233007,
+  "score_raw": 3.211683047233007,
+  "evaluation_date": "2024-04-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4286
+}

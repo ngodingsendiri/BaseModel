@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-lemon07r-llama-3-redmagic4-8b",
+  "model_id": "lemon07r/Llama-3-RedMagic4-8B",
+  "benchmark_name": "math-lvl-5",
+  "score": 8.987915407854985,
+  "score_raw": 8.987915407854985,
+  "evaluation_date": "2024-06-19",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2540
+}

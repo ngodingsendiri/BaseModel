@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-lightblue-suzume-llama-3-8b-multilingual-orpo-borda-half",
+  "model_id": "lightblue/suzume-llama-3-8B-multilingual-orpo-borda-half",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.041075650118202,
+  "score_raw": 29.041075650118202,
+  "evaluation_date": "2024-04-25",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2037
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-darkc0de-buddyglass-v0-3-xortron7methedupswitchedup",
+  "model_id": "darkc0de/BuddyGlass_v0.3_Xortron7MethedUpSwitchedUp",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.696734633569736,
+  "score_raw": 29.696734633569736,
+  "evaluation_date": "2024-09-10",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1902
+}

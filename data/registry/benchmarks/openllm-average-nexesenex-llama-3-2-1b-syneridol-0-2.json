@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nexesenex-llama-3-2-1b-syneridol-0-2",
+  "model_id": "Nexesenex/Llama_3.2_1b_Syneridol_0.2",
+  "benchmark_name": "average",
+  "score": 5.41209307631663,
+  "score_raw": 5.41209307631663,
+  "evaluation_date": "2025-02-22",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4234
+}

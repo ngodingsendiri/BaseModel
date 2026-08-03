@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-rakuten-rakutenai-2-0-mini-instruct",
+  "model_id": "Rakuten/RakutenAI-2.0-mini-instruct",
+  "benchmark_name": "gpqa",
+  "score": 2.2371364653243813,
+  "score_raw": 2.2371364653243813,
+  "evaluation_date": "2025-02-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3585
+}

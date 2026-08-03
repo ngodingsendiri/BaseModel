@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-langgptai-qwen-las-v0-1",
+  "model_id": "langgptai/Qwen-las-v0.1",
+  "benchmark_name": "math-lvl-5",
+  "score": 3.7009063444108756,
+  "score_raw": 3.7009063444108756,
+  "evaluation_date": "2024-05-26",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3583
+}

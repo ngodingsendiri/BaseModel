@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-newsbang-homer-v0-4-qwen2-5-7b",
+  "model_id": "newsbang/Homer-v0.4-Qwen2.5-7B",
+  "benchmark_name": "mmlu-pro",
+  "score": 37.3614804964539,
+  "score_raw": 37.3614804964539,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 938
+}

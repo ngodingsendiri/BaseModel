@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-lambent-qwen2-5-reinstruct-alternate-lumen-14b",
+  "model_id": "Lambent/qwen2.5-reinstruct-alternate-lumen-14B",
+  "benchmark_name": "average",
+  "score": 38.07061834522751,
+  "score_raw": 38.07061834522751,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 405
+}

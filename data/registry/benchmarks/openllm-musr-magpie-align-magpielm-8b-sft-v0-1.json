@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-magpie-align-magpielm-8b-sft-v0-1",
+  "model_id": "Magpie-Align/MagpieLM-8B-SFT-v0.1",
+  "benchmark_name": "musr",
+  "score": 3.877343750000002,
+  "score_raw": 3.877343750000002,
+  "evaluation_date": "2024-09-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3707
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-eric111-catunamayo",
+  "model_id": "Eric111/CatunaMayo",
+  "benchmark_name": "ifeval",
+  "score": 40.741565712310006,
+  "score_raw": 40.741565712310006,
+  "evaluation_date": "2024-02-15",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2688
+}

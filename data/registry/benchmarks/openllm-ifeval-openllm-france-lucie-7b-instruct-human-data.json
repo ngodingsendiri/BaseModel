@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-openllm-france-lucie-7b-instruct-human-data",
+  "model_id": "OpenLLM-France/Lucie-7B-Instruct-human-data",
+  "benchmark_name": "ifeval",
+  "score": 29.460830596151546,
+  "score_raw": 29.460830596151546,
+  "evaluation_date": "2025-01-07",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3341
+}

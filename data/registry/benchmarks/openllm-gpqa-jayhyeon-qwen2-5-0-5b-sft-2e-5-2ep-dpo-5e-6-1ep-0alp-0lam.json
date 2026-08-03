@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-jayhyeon-qwen2-5-0-5b-sft-2e-5-2ep-dpo-5e-6-1ep-0alp-0lam",
+  "model_id": "JayHyeon/Qwen2.5-0.5B-SFT-2e-5-2ep-DPO_5e-6-1ep_0alp_0lam",
+  "benchmark_name": "gpqa",
+  "score": 3.243847874720355,
+  "score_raw": 3.243847874720355,
+  "evaluation_date": "2025-01-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3209
+}

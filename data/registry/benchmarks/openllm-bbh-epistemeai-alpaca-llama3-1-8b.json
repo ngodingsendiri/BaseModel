@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-epistemeai-alpaca-llama3-1-8b",
+  "model_id": "EpistemeAI/Alpaca-Llama3.1-8B",
+  "benchmark_name": "bbh",
+  "score": 25.93522655511771,
+  "score_raw": 25.93522655511771,
+  "evaluation_date": "2024-09-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2735
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-deepseek-ai-deepseek-r1-distill-llama-8b",
+  "model_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+  "benchmark_name": "bbh",
+  "score": 5.325247153240706,
+  "score_raw": 5.325247153240706,
+  "evaluation_date": "2025-01-20",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4085
+}

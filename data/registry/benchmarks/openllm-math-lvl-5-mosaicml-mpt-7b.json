@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-mosaicml-mpt-7b",
+  "model_id": "mosaicml/mpt-7b",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.5861027190332326,
+  "score_raw": 1.5861027190332326,
+  "evaluation_date": "2023-05-05",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4029
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-cohereforai-aya-23-35b",
+  "model_id": "CohereForAI/aya-23-35B",
+  "benchmark_name": "gpqa",
+  "score": 5.92841163310962,
+  "score_raw": 5.92841163310962,
+  "evaluation_date": "2024-05-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2273
+}

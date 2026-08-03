@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-epistemeai-fireball-meta-llama-3-1-8b-instruct-agent-0-004-128k-code-ds-auto",
+  "model_id": "EpistemeAI/Fireball-Meta-Llama-3.1-8B-Instruct-Agent-0.004-128K-code-ds-auto",
+  "benchmark_name": "ifeval",
+  "score": 72.04816553411615,
+  "score_raw": 72.04816553411615,
+  "evaluation_date": "2024-11-14",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 645
+}

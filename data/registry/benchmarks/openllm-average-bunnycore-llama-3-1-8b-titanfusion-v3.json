@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-bunnycore-llama-3-1-8b-titanfusion-v3",
+  "model_id": "bunnycore/Llama-3.1-8B-TitanFusion-v3",
+  "benchmark_name": "average",
+  "score": 24.219132767586814,
+  "score_raw": 24.219132767586814,
+  "evaluation_date": "2024-09-22",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1762
+}

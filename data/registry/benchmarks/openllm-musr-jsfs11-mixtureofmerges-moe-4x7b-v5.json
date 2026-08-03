@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-jsfs11-mixtureofmerges-moe-4x7b-v5",
+  "model_id": "jsfs11/MixtureofMerges-MoE-4x7b-v5",
+  "benchmark_name": "musr",
+  "score": 12.344531250000003,
+  "score_raw": 12.344531250000003,
+  "evaluation_date": "2024-02-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1476
+}

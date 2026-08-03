@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-sequelbox-llama3-1-70b-plumchat",
+  "model_id": "sequelbox/Llama3.1-70B-PlumChat",
+  "benchmark_name": "ifeval",
+  "score": 56.16131863455631,
+  "score_raw": 56.16131863455631,
+  "evaluation_date": "2024-11-17",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1447
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-allknowingroger-ph3merge2-14b",
+  "model_id": "allknowingroger/Ph3merge2-14B",
+  "benchmark_name": "mmlu-pro",
+  "score": 8.03228427895981,
+  "score_raw": 8.03228427895981,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3722
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-saishshinde15-tethysai-vortex-reasoning",
+  "model_id": "saishshinde15/TethysAI_Vortex_Reasoning",
+  "benchmark_name": "average",
+  "score": 21.791497955306028,
+  "score_raw": 21.791497955306028,
+  "evaluation_date": "2025-02-24",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2321
+}

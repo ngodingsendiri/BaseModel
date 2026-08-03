@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-bunnycore-best-mix-llama-3-1-8b",
+  "model_id": "bunnycore/Best-Mix-Llama-3.1-8B",
+  "benchmark_name": "bbh",
+  "score": 7.255275858385576,
+  "score_raw": 7.255275858385576,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3844
+}

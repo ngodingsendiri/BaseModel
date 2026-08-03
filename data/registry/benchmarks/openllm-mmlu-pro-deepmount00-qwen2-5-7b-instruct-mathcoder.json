@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-deepmount00-qwen2-5-7b-instruct-mathcoder",
+  "model_id": "DeepMount00/Qwen2.5-7B-Instruct-MathCoder",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.309471040189124,
+  "score_raw": 1.309471040189124,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4432
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-bunnycore-qwen2-5-7b-rrp-1m",
+  "model_id": "bunnycore/Qwen2.5-7B-RRP-1M",
+  "benchmark_name": "ifeval",
+  "score": 74.81338404322753,
+  "score_raw": 74.81338404322753,
+  "evaluation_date": "2025-01-26",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 461
+}

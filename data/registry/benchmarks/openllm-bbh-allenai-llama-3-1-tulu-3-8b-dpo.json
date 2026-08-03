@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-allenai-llama-3-1-tulu-3-8b-dpo",
+  "model_id": "allenai/Llama-3.1-Tulu-3-8B-DPO",
+  "benchmark_name": "bbh",
+  "score": 17.42601622698448,
+  "score_raw": 17.42601622698448,
+  "evaluation_date": "2024-11-20",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3377
+}

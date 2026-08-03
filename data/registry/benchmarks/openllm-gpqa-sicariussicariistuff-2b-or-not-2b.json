@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-sicariussicariistuff-2b-or-not-2b",
+  "model_id": "SicariusSicariiStuff/2B_or_not_2B",
+  "benchmark_name": "gpqa",
+  "score": 0,
+  "score_raw": 0,
+  "evaluation_date": "2024-08-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4438
+}

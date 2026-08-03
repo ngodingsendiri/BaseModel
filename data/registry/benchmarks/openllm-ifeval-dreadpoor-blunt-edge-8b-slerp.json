@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-dreadpoor-blunt-edge-8b-slerp",
+  "model_id": "DreadPoor/Blunt_Edge-8B-SLERP",
+  "benchmark_name": "ifeval",
+  "score": 74.96575752337131,
+  "score_raw": 74.96575752337131,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 451
+}

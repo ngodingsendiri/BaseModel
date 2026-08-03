@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-meetkai-functionary-small-v3-1",
+  "model_id": "meetkai/functionary-small-v3.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 26.09522754137116,
+  "score_raw": 26.09522754137116,
+  "evaluation_date": "2024-07-26",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2398
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-maldv-awqward2-5-32b-instruct",
+  "model_id": "maldv/Awqward2.5-32B-Instruct",
+  "benchmark_name": "musr",
+  "score": 13.86953125,
+  "score_raw": 13.86953125,
+  "evaluation_date": "2024-12-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1077
+}

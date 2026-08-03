@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-bamec66557-vicious-mesh-12b-epsilon",
+  "model_id": "bamec66557/VICIOUS_MESH-12B-EPSILON",
+  "benchmark_name": "musr",
+  "score": 9.74036458333333,
+  "score_raw": 9.74036458333333,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2379
+}

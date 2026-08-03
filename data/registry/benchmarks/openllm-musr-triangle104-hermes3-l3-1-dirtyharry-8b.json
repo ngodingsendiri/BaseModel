@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-triangle104-hermes3-l3-1-dirtyharry-8b",
+  "model_id": "Triangle104/Hermes3-L3.1-DirtyHarry-8B",
+  "benchmark_name": "musr",
+  "score": 9.161979166666669,
+  "score_raw": 9.161979166666669,
+  "evaluation_date": "2024-12-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2533
+}

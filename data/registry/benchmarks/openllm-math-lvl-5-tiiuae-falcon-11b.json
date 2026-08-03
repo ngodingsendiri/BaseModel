@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-tiiuae-falcon-11b",
+  "model_id": "tiiuae/falcon-11B",
+  "benchmark_name": "math-lvl-5",
+  "score": 2.794561933534743,
+  "score_raw": 2.794561933534743,
+  "evaluation_date": "2024-05-09",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3756
+}

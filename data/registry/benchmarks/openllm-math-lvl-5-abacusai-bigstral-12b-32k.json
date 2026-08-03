@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-abacusai-bigstral-12b-32k",
+  "model_id": "abacusai/bigstral-12b-32k",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.5105740181268883,
+  "score_raw": 1.5105740181268883,
+  "evaluation_date": "2024-03-06",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4051
+}

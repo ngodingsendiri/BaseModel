@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-jsfs11-mixtureofmerges-moe-4x7b-v5",
+  "model_id": "jsfs11/MixtureofMerges-MoE-4x7b-v5",
+  "benchmark_name": "average",
+  "score": 20.434941072567536,
+  "score_raw": 20.434941072567536,
+  "evaluation_date": "2024-02-25",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2601
+}

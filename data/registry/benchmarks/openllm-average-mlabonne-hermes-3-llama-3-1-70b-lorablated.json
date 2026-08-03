@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-mlabonne-hermes-3-llama-3-1-70b-lorablated",
+  "model_id": "mlabonne/Hermes-3-Llama-3.1-70B-lorablated",
+  "benchmark_name": "average",
+  "score": 31.74585457101121,
+  "score_raw": 31.74585457101121,
+  "evaluation_date": "2024-08-16",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 875
+}

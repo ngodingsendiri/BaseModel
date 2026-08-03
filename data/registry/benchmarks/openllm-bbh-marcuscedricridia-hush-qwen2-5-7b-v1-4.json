@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-marcuscedricridia-hush-qwen2-5-7b-v1-4",
+  "model_id": "marcuscedricridia/Hush-Qwen2.5-7B-v1.4",
+  "benchmark_name": "bbh",
+  "score": 35.05829745506504,
+  "score_raw": 35.05829745506504,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1345
+}

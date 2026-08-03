@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-triangle104-set-70b",
+  "model_id": "Triangle104/Set-70b",
+  "benchmark_name": "math-lvl-5",
+  "score": 36.40483383685801,
+  "score_raw": 36.40483383685801,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 599
+}

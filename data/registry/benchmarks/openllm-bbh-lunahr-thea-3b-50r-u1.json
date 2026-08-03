@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-lunahr-thea-3b-50r-u1",
+  "model_id": "lunahr/thea-3b-50r-u1",
+  "benchmark_name": "bbh",
+  "score": 16.2229363475435,
+  "score_raw": 16.2229363475435,
+  "evaluation_date": "2025-01-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3448
+}

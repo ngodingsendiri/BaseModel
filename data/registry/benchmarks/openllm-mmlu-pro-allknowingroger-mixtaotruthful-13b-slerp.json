@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-allknowingroger-mixtaotruthful-13b-slerp",
+  "model_id": "allknowingroger/MixTaoTruthful-13B-slerp",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.33407210401891,
+  "score_raw": 23.33407210401891,
+  "evaluation_date": "2024-05-25",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2737
+}

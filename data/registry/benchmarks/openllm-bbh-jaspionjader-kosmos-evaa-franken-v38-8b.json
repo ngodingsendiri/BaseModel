@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-jaspionjader-kosmos-evaa-franken-v38-8b",
+  "model_id": "jaspionjader/Kosmos-EVAA-Franken-v38-8B",
+  "benchmark_name": "bbh",
+  "score": 31.76216941291032,
+  "score_raw": 31.76216941291032,
+  "evaluation_date": "2025-01-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1898
+}

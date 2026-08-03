@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-causallm-preview-1-hf",
+  "model_id": "CausalLM/preview-1-hf",
+  "benchmark_name": "ifeval",
+  "score": 55.58928088582738,
+  "score_raw": 55.58928088582738,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1485
+}

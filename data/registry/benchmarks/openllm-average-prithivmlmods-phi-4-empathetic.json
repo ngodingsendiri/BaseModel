@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-phi-4-empathetic",
+  "model_id": "prithivMLmods/Phi-4-Empathetic",
+  "benchmark_name": "average",
+  "score": 28.208396720096133,
+  "score_raw": 28.208396720096133,
+  "evaluation_date": "2025-01-10",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1274
+}

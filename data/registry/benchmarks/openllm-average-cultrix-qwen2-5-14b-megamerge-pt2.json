@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-cultrix-qwen2-5-14b-megamerge-pt2",
+  "model_id": "CultriX/Qwen2.5-14B-MegaMerge-pt2",
+  "benchmark_name": "average",
+  "score": 38.796529761231035,
+  "score_raw": 38.796529761231035,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 358
+}

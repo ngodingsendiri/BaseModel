@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-allknowingroger-ministral-8b-slerp",
+  "model_id": "allknowingroger/Ministral-8B-slerp",
+  "benchmark_name": "bbh",
+  "score": 25.195564651348292,
+  "score_raw": 25.195564651348292,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2812
+}

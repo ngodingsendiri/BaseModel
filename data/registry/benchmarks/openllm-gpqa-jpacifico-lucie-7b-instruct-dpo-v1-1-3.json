@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-jpacifico-lucie-7b-instruct-dpo-v1-1-3",
+  "model_id": "jpacifico/Lucie-7B-Instruct-DPO-v1.1.3",
+  "benchmark_name": "gpqa",
+  "score": 4.809843400447425,
+  "score_raw": 4.809843400447425,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2695
+}

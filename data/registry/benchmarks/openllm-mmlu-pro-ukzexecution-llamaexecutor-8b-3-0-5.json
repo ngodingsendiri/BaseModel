@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ukzexecution-llamaexecutor-8b-3-0-5",
+  "model_id": "UKzExecution/LlamaExecutor-8B-3.0.5",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.170360520094558,
+  "score_raw": 29.170360520094558,
+  "evaluation_date": "2024-07-29",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2012
+}

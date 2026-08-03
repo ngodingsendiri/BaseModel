@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-nbeerbower-gemma2-gutenberg-9b",
+  "model_id": "nbeerbower/gemma2-gutenberg-9B",
+  "benchmark_name": "math-lvl-5",
+  "score": 8.08157099697885,
+  "score_raw": 8.08157099697885,
+  "evaluation_date": "2024-07-14",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2683
+}

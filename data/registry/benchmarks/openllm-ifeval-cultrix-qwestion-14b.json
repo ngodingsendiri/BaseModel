@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-cultrix-qwestion-14b",
+  "model_id": "CultriX/Qwestion-14B",
+  "benchmark_name": "ifeval",
+  "score": 63.178034282370774,
+  "score_raw": 63.178034282370774,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1119
+}

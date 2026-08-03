@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-leroydyer-lcars-ai-001",
+  "model_id": "LeroyDyer/LCARS_AI_001",
+  "benchmark_name": "mmlu-pro",
+  "score": 18.559766548463354,
+  "score_raw": 18.559766548463354,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3278
+}

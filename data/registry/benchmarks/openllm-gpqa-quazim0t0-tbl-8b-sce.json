@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-quazim0t0-tbl-8b-sce",
+  "model_id": "Quazim0t0/TBL-8B-sce",
+  "benchmark_name": "gpqa",
+  "score": 11.185682326621922,
+  "score_raw": 11.185682326621922,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 817
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-baconnier-napoleon-24b-v0-2",
+  "model_id": "baconnier/Napoleon_24B_V0.2",
+  "benchmark_name": "musr",
+  "score": 14.178125000000001,
+  "score_raw": 14.178125000000001,
+  "evaluation_date": "2025-02-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1016
+}

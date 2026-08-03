@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sarvamai-openhathi-7b-hi-v0-1-base",
+  "model_id": "sarvamai/OpenHathi-7B-Hi-v0.1-Base",
+  "benchmark_name": "mmlu-pro",
+  "score": 6.03760342789598,
+  "score_raw": 6.03760342789598,
+  "evaluation_date": "2023-12-13",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3943
+}

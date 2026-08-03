@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-sometimesanotion-lamarckinfusion-14b-v2-lo",
+  "model_id": "sometimesanotion/LamarckInfusion-14B-v2-lo",
+  "benchmark_name": "musr",
+  "score": 22.02135416666667,
+  "score_raw": 22.02135416666667,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 116
+}

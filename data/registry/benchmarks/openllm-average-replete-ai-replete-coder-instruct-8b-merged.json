@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-replete-ai-replete-coder-instruct-8b-merged",
+  "model_id": "Replete-AI/Replete-Coder-Instruct-8b-Merged",
+  "benchmark_name": "average",
+  "score": 16.427667565252104,
+  "score_raw": 16.427667565252104,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3145
+}

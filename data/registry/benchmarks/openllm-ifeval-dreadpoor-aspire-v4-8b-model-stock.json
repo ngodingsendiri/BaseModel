@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-dreadpoor-aspire-v4-8b-model-stock",
+  "model_id": "DreadPoor/Aspire_V4-8B-Model_Stock",
+  "benchmark_name": "ifeval",
+  "score": 76.9416259967996,
+  "score_raw": 76.9416259967996,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 324
+}

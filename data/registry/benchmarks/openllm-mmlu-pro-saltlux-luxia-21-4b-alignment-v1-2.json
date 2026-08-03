@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-saltlux-luxia-21-4b-alignment-v1-2",
+  "model_id": "saltlux/luxia-21.4b-alignment-v1.2",
+  "benchmark_name": "mmlu-pro",
+  "score": 27.480422576832154,
+  "score_raw": 27.480422576832154,
+  "evaluation_date": "2024-05-27",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2257
+}

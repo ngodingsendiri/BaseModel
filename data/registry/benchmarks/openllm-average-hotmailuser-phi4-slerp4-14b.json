@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-hotmailuser-phi4-slerp4-14b",
+  "model_id": "hotmailuser/Phi4-Slerp4-14B",
+  "benchmark_name": "average",
+  "score": 30.881045458267863,
+  "score_raw": 30.881045458267863,
+  "evaluation_date": "2025-01-25",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 926
+}

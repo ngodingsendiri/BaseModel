@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-etherll-qwen2-5-7b-della-test",
+  "model_id": "Etherll/Qwen2.5-7B-della-test",
+  "benchmark_name": "math-lvl-5",
+  "score": 48.94259818731118,
+  "score_raw": 48.94259818731118,
+  "evaluation_date": "2024-11-01",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 174
+}

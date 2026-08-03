@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-jayhyeon-qwen-0-5-irpo-5e-7-3ep-1alp-0lam",
+  "model_id": "JayHyeon/Qwen_0.5-IRPO_5e-7-3ep_1alp_0lam",
+  "benchmark_name": "gpqa",
+  "score": 2.9082774049216997,
+  "score_raw": 2.9082774049216997,
+  "evaluation_date": "2025-01-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3342
+}

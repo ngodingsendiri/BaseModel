@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-mostafa8mehrabi-llama-3-2-1b-insomnia-chatbot-merged",
+  "model_id": "Mostafa8Mehrabi/llama-3.2-1b-Insomnia-ChatBot-merged",
+  "benchmark_name": "musr",
+  "score": 1.2695312499999996,
+  "score_raw": 1.2695312499999996,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4408
+}

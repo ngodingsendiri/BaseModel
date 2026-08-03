@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-bunnycore-qwen2-5-7b-sky-r1-mini",
+  "model_id": "bunnycore/Qwen2.5-7B-Sky-R1-Mini",
+  "benchmark_name": "average",
+  "score": 7.371821186629208,
+  "score_raw": 7.371821186629208,
+  "evaluation_date": "2025-02-18",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4022
+}

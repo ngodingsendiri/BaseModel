@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-helpingai-priya-10b",
+  "model_id": "HelpingAI/Priya-10B",
+  "benchmark_name": "mmlu-pro",
+  "score": 16.583554964539008,
+  "score_raw": 16.583554964539008,
+  "evaluation_date": "2024-12-15",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3401
+}

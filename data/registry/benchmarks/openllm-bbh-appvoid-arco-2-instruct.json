@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-appvoid-arco-2-instruct",
+  "model_id": "appvoid/arco-2-instruct",
+  "benchmark_name": "bbh",
+  "score": 3.913002236158603,
+  "score_raw": 3.913002236158603,
+  "evaluation_date": "2024-12-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4217
+}

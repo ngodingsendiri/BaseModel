@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-prithivmlmods-cygnus-ii-14b",
+  "model_id": "prithivMLmods/Cygnus-II-14B",
+  "benchmark_name": "ifeval",
+  "score": 61.84412913292286,
+  "score_raw": 61.84412913292286,
+  "evaluation_date": "2025-03-02",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1175
+}

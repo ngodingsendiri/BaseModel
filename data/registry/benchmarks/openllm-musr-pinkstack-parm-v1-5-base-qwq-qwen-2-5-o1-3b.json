@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-pinkstack-parm-v1-5-base-qwq-qwen-2-5-o1-3b",
+  "model_id": "Pinkstack/PARM-V1.5-base-QwQ-Qwen-2.5-o1-3B",
+  "benchmark_name": "musr",
+  "score": 15.315104166666663,
+  "score_raw": 15.315104166666663,
+  "evaluation_date": "2024-12-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 792
+}

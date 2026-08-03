@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-norquinal-hotel",
+  "model_id": "Norquinal/Hotel",
+  "benchmark_name": "musr",
+  "score": 2.869531250000001,
+  "score_raw": 2.869531250000001,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3966
+}

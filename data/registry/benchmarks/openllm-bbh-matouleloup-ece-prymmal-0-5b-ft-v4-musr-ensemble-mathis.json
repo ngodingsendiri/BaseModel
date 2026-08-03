@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-matouleloup-ece-prymmal-0-5b-ft-v4-musr-ensemble-mathis",
+  "model_id": "matouLeLoup/ECE-PRYMMAL-0.5B-FT-V4-MUSR-ENSEMBLE-Mathis",
+  "benchmark_name": "bbh",
+  "score": 7.9185120409032566,
+  "score_raw": 7.9185120409032566,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3781
+}

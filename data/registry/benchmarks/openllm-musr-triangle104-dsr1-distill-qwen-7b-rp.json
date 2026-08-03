@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-triangle104-dsr1-distill-qwen-7b-rp",
+  "model_id": "Triangle104/DSR1-Distill-Qwen-7B-RP",
+  "benchmark_name": "musr",
+  "score": 8.801041666666668,
+  "score_raw": 8.801041666666668,
+  "evaluation_date": "2025-02-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2626
+}

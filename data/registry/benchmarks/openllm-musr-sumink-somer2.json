@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sumink-somer2",
+  "model_id": "sumink/somer2",
+  "benchmark_name": "musr",
+  "score": 18.654427083333328,
+  "score_raw": 18.654427083333328,
+  "evaluation_date": "2025-01-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 386
+}

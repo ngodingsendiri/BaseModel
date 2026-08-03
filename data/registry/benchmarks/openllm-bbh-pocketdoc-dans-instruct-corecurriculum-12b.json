@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-pocketdoc-dans-instruct-corecurriculum-12b",
+  "model_id": "PocketDoc/Dans-Instruct-CoreCurriculum-12b",
+  "benchmark_name": "bbh",
+  "score": 13.232564953040013,
+  "score_raw": 13.232564953040013,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3567
+}

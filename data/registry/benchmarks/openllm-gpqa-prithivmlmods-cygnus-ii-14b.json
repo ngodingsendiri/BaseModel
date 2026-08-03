@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-prithivmlmods-cygnus-ii-14b",
+  "model_id": "prithivMLmods/Cygnus-II-14B",
+  "benchmark_name": "gpqa",
+  "score": 18.34451901565996,
+  "score_raw": 18.34451901565996,
+  "evaluation_date": "2025-03-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 146
+}

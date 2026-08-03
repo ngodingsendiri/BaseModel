@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-databricks-dbrx-instruct",
+  "model_id": "databricks/dbrx-instruct",
+  "benchmark_name": "bbh",
+  "score": 35.96381960359357,
+  "score_raw": 35.96381960359357,
+  "evaluation_date": "2024-03-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1225
+}

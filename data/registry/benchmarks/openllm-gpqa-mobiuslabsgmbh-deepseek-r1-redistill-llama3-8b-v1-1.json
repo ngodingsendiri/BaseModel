@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-mobiuslabsgmbh-deepseek-r1-redistill-llama3-8b-v1-1",
+  "model_id": "mobiuslabsgmbh/DeepSeek-R1-ReDistill-Llama3-8B-v1.1",
+  "benchmark_name": "gpqa",
+  "score": 2.796420581655479,
+  "score_raw": 2.796420581655479,
+  "evaluation_date": "2025-01-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3399
+}

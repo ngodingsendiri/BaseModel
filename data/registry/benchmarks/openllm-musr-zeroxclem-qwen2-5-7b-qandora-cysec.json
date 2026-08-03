@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-zeroxclem-qwen2-5-7b-qandora-cysec",
+  "model_id": "ZeroXClem/Qwen2.5-7B-Qandora-CySec",
+  "benchmark_name": "musr",
+  "score": 13.408854166666663,
+  "score_raw": 13.408854166666663,
+  "evaluation_date": "2024-11-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1186
+}

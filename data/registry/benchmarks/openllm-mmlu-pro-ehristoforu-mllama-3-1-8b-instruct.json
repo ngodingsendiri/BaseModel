@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ehristoforu-mllama-3-1-8b-instruct",
+  "model_id": "ehristoforu/mllama-3.1-8b-instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 17.036052009456267,
+  "score_raw": 17.036052009456267,
+  "evaluation_date": "2024-12-04",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3379
+}

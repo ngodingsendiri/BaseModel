@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-arcee-ai-arcee-blitz",
+  "model_id": "arcee-ai/Arcee-Blitz",
+  "benchmark_name": "math-lvl-5",
+  "score": 34.818731117824775,
+  "score_raw": 34.818731117824775,
+  "evaluation_date": "2025-02-07",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 671
+}

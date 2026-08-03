@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-prithivmlmods-triangulum-v2-10b",
+  "model_id": "prithivMLmods/Triangulum-v2-10B",
+  "benchmark_name": "gpqa",
+  "score": 11.633109619686799,
+  "score_raw": 11.633109619686799,
+  "evaluation_date": "2025-01-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 759
+}

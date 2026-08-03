@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-akjindal53244-llama-3-1-storm-8b",
+  "model_id": "akjindal53244/Llama-3.1-Storm-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.146572104018905,
+  "score_raw": 31.146572104018905,
+  "evaluation_date": "2024-08-12",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1578
+}

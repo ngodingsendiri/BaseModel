@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-gmonsoon-stockseallms-7b-v1",
+  "model_id": "gmonsoon/StockSeaLLMs-7B-v1",
+  "benchmark_name": "musr",
+  "score": 11.071875000000004,
+  "score_raw": 11.071875000000004,
+  "evaluation_date": "2024-11-20",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1953
+}

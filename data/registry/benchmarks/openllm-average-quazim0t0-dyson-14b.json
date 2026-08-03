@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-quazim0t0-dyson-14b",
+  "model_id": "Quazim0t0/Dyson-14b",
+  "benchmark_name": "average",
+  "score": 39.579565021915634,
+  "score_raw": 39.579565021915634,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 301
+}

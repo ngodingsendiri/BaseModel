@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-nlpguy-stableprose",
+  "model_id": "nlpguy/StableProse",
+  "benchmark_name": "gpqa",
+  "score": 7.046979865771815,
+  "score_raw": 7.046979865771815,
+  "evaluation_date": "2024-08-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1882
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-grimjim-magnolia-v2-gemma2-8k-9b",
+  "model_id": "grimjim/Magnolia-v2-Gemma2-8k-9B",
+  "benchmark_name": "mmlu-pro",
+  "score": 37.01979905437352,
+  "score_raw": 37.01979905437352,
+  "evaluation_date": "2024-10-09",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 981
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-alibaba-nlp-gte-qwen2-7b-instruct",
+  "model_id": "Alibaba-NLP/gte-Qwen2-7B-instruct",
+  "benchmark_name": "bbh",
+  "score": 21.92548248566236,
+  "score_raw": 21.92548248566236,
+  "evaluation_date": "2024-06-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3083
+}

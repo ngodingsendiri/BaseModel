@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nousresearch-nous-hermes-2-mixtral-8x7b-dpo",
+  "model_id": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
+  "benchmark_name": "average",
+  "score": 27.353190438571634,
+  "score_raw": 27.353190438571634,
+  "evaluation_date": "2024-01-11",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1357
+}

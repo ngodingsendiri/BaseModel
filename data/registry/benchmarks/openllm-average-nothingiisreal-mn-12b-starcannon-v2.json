@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nothingiisreal-mn-12b-starcannon-v2",
+  "model_id": "nothingiisreal/MN-12B-Starcannon-v2",
+  "benchmark_name": "average",
+  "score": 18.181449904707133,
+  "score_raw": 18.181449904707133,
+  "evaluation_date": "2024-08-13",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2923
+}

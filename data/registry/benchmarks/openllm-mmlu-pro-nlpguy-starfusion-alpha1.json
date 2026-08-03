@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-nlpguy-starfusion-alpha1",
+  "model_id": "nlpguy/StarFusion-alpha1",
+  "benchmark_name": "mmlu-pro",
+  "score": 24.34064716312057,
+  "score_raw": 24.34064716312057,
+  "evaluation_date": "2024-04-13",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2580
+}

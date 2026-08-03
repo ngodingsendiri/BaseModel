@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-huihui-ai-qwq-32b-coder-fusion-9010",
+  "model_id": "huihui-ai/QwQ-32B-Coder-Fusion-9010",
+  "benchmark_name": "mmlu-pro",
+  "score": 51.1118498817967,
+  "score_raw": 51.1118498817967,
+  "evaluation_date": "2024-11-29",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 59
+}

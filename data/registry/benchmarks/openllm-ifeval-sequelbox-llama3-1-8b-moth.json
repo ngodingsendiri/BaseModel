@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-sequelbox-llama3-1-8b-moth",
+  "model_id": "sequelbox/Llama3.1-8B-MOTH",
+  "benchmark_name": "ifeval",
+  "score": 52.449389841176966,
+  "score_raw": 52.449389841176966,
+  "evaluation_date": "2024-09-01",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1707
+}

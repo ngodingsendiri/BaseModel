@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dustinwloring1988-reflexis-8b-chat-v1",
+  "model_id": "dustinwloring1988/Reflexis-8b-chat-v1",
+  "benchmark_name": "gpqa",
+  "score": 0.5592841163310973,
+  "score_raw": 0.5592841163310973,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4227
+}

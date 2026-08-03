@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-cultrix-qwen2-5-14b-hypermarck-dl",
+  "model_id": "CultriX/Qwen2.5-14B-HyperMarck-dl",
+  "benchmark_name": "gpqa",
+  "score": 15.659955257270694,
+  "score_raw": 15.659955257270694,
+  "evaluation_date": "2025-02-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 368
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-columbia-nlp-lion-llama-3-8b-sft-v1-0",
+  "model_id": "Columbia-NLP/LION-LLaMA-3-8b-sft-v1.0",
+  "benchmark_name": "average",
+  "score": 20.748862299709277,
+  "score_raw": 20.748862299709277,
+  "evaluation_date": "2024-07-02",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2546
+}

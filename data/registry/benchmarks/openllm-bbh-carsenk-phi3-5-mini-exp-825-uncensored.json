@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-carsenk-phi3-5-mini-exp-825-uncensored",
+  "model_id": "carsenk/phi3.5_mini_exp_825_uncensored",
+  "benchmark_name": "bbh",
+  "score": 1.827812730226084,
+  "score_raw": 1.827812730226084,
+  "evaluation_date": "2024-08-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4511
+}

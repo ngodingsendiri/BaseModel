@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-rombodawg-rombos-replete-coder-llama3-8b",
+  "model_id": "rombodawg/rombos_Replete-Coder-Llama3-8B",
+  "benchmark_name": "math-lvl-5",
+  "score": 3.927492447129909,
+  "score_raw": 3.927492447129909,
+  "evaluation_date": "2024-10-06",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3537
+}

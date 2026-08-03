@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-cyfragovpl-pllum-12b-chat",
+  "model_id": "CYFRAGOVPL/PLLuM-12B-chat",
+  "benchmark_name": "gpqa",
+  "score": 1.342281879194629,
+  "score_raw": 1.342281879194629,
+  "evaluation_date": "2025-02-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3931
+}

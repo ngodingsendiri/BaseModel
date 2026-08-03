@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-zeroxclem-l3-aspire-heart-matrix-8b",
+  "model_id": "ZeroXClem/L3-Aspire-Heart-Matrix-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.94341016548463,
+  "score_raw": 30.94341016548463,
+  "evaluation_date": "2024-11-21",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1619
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-l3-1-baezel-8b-della",
+  "model_id": "DreadPoor/L3.1-BaeZel-8B-Della",
+  "benchmark_name": "mmlu-pro",
+  "score": 32.245493498817964,
+  "score_raw": 32.245493498817964,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1339
+}

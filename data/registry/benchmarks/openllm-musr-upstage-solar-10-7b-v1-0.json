@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-upstage-solar-10-7b-v1-0",
+  "model_id": "upstage/SOLAR-10.7B-v1.0",
+  "benchmark_name": "musr",
+  "score": 13.67786458333333,
+  "score_raw": 13.67786458333333,
+  "evaluation_date": "2023-12-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1123
+}

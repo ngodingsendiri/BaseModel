@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-nousresearch-hermes-2-pro-mistral-7b",
+  "model_id": "NousResearch/Hermes-2-Pro-Mistral-7B",
+  "benchmark_name": "bbh",
+  "score": 29.427578860536,
+  "score_raw": 29.427578860536,
+  "evaluation_date": "2024-03-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2295
+}

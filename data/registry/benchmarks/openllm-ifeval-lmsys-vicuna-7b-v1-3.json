@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-lmsys-vicuna-7b-v1-3",
+  "model_id": "lmsys/vicuna-7b-v1.3",
+  "benchmark_name": "ifeval",
+  "score": 29.086158060612505,
+  "score_raw": 29.086158060612505,
+  "evaluation_date": "2023-06-18",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3357
+}

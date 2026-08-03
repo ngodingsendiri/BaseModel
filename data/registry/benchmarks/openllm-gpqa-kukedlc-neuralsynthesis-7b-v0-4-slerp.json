@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-kukedlc-neuralsynthesis-7b-v0-4-slerp",
+  "model_id": "Kukedlc/NeuralSynthesis-7b-v0.4-slerp",
+  "benchmark_name": "gpqa",
+  "score": 3.6912751677852316,
+  "score_raw": 3.6912751677852316,
+  "evaluation_date": "2024-04-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3058
+}

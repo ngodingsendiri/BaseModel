@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-smollm2-cot-360m",
+  "model_id": "prithivMLmods/SmolLM2-CoT-360M",
+  "benchmark_name": "average",
+  "score": 5.9507483871396545,
+  "score_raw": 5.9507483871396545,
+  "evaluation_date": "2025-01-05",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4163
+}

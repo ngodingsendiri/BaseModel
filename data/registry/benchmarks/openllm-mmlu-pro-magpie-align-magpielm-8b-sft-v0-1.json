@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-magpie-align-magpielm-8b-sft-v0-1",
+  "model_id": "Magpie-Align/MagpieLM-8B-SFT-v0.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 22.1058658392435,
+  "score_raw": 22.1058658392435,
+  "evaluation_date": "2024-09-15",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2930
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-jaspionjader-auro-kosmos-evaa-v2-3-8b",
+  "model_id": "jaspionjader/Auro-Kosmos-EVAA-v2.3-8B",
+  "benchmark_name": "gpqa",
+  "score": 8.277404921700223,
+  "score_raw": 8.277404921700223,
+  "evaluation_date": "2024-12-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1403
+}

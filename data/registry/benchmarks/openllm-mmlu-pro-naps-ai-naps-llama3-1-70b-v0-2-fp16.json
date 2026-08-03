@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-naps-ai-naps-llama3-1-70b-v0-2-fp16",
+  "model_id": "NAPS-ai/naps-llama3.1-70B-v0.2-fp16",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.0970744680851066,
+  "score_raw": 1.0970744680851066,
+  "evaluation_date": "2024-12-10",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4510
+}

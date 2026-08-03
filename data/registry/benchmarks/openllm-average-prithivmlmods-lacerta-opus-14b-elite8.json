@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-lacerta-opus-14b-elite8",
+  "model_id": "prithivMLmods/Lacerta-Opus-14B-Elite8",
+  "benchmark_name": "average",
+  "score": 38.069826308128185,
+  "score_raw": 38.069826308128185,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 406
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-dreadpoor-not-even-my-final-form-8b-model-stock",
+  "model_id": "DreadPoor/Not_Even_My_Final_Form-8B-Model_Stock",
+  "benchmark_name": "math-lvl-5",
+  "score": 17.598187311178247,
+  "score_raw": 17.598187311178247,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1520
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-daemontatox-aethersett",
+  "model_id": "Daemontatox/AetherSett",
+  "benchmark_name": "average",
+  "score": 31.420122512312307,
+  "score_raw": 31.420122512312307,
+  "evaluation_date": "2024-12-30",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 892
+}

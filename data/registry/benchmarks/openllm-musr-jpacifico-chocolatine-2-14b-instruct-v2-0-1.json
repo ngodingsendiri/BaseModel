@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-jpacifico-chocolatine-2-14b-instruct-v2-0-1",
+  "model_id": "jpacifico/Chocolatine-2-14B-Instruct-v2.0.1",
+  "benchmark_name": "musr",
+  "score": 23.527083333333334,
+  "score_raw": 23.527083333333334,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 77
+}

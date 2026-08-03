@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-01-ai-yi-6b-200k",
+  "model_id": "01-ai/Yi-6B-200K",
+  "benchmark_name": "gpqa",
+  "score": 4.250559284116329,
+  "score_raw": 4.250559284116329,
+  "evaluation_date": "2023-11-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2870
+}

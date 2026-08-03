@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-necva-replica-iepile",
+  "model_id": "necva/replica-IEPile",
+  "benchmark_name": "mmlu-pro",
+  "score": 28.45005910165484,
+  "score_raw": 28.45005910165484,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2128
+}

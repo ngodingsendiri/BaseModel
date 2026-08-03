@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-epistemeai-fireball-r1-llama-3-1-8b-medical-cot",
+  "model_id": "EpistemeAI/Fireball-R1-Llama-3.1-8B-Medical-COT",
+  "benchmark_name": "bbh",
+  "score": 12.153438929855737,
+  "score_raw": 12.153438929855737,
+  "evaluation_date": "2025-02-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3598
+}

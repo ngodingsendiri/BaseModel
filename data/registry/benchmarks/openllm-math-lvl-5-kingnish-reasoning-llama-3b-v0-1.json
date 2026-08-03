@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-kingnish-reasoning-llama-3b-v0-1",
+  "model_id": "KingNish/Reasoning-Llama-3b-v0.1",
+  "benchmark_name": "math-lvl-5",
+  "score": 12.990936555891238,
+  "score_raw": 12.990936555891238,
+  "evaluation_date": "2024-10-10",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1927
+}

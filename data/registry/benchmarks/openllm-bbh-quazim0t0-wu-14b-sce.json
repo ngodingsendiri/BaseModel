@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-quazim0t0-wu-14b-sce",
+  "model_id": "Quazim0t0/Wu-14b-sce",
+  "benchmark_name": "bbh",
+  "score": 54.94466630171922,
+  "score_raw": 54.94466630171922,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 143
+}

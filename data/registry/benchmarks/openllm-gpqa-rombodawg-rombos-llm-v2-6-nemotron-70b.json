@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-rombodawg-rombos-llm-v2-6-nemotron-70b",
+  "model_id": "rombodawg/Rombos-LLM-V2.6-Nemotron-70b",
+  "benchmark_name": "gpqa",
+  "score": 20.805369127516784,
+  "score_raw": 20.805369127516784,
+  "evaluation_date": "2024-10-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 27
+}

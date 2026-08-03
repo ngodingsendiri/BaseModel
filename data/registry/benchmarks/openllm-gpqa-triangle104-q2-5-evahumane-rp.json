@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-triangle104-q2-5-evahumane-rp",
+  "model_id": "Triangle104/Q2.5-EvaHumane-RP",
+  "benchmark_name": "gpqa",
+  "score": 9.172259507829976,
+  "score_raw": 9.172259507829976,
+  "evaluation_date": "2025-01-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1173
+}

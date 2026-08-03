@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sicariussicariistuff-llama-3-8b-unaligned-beta",
+  "model_id": "SicariusSicariiStuff/LLAMA-3_8B_Unaligned_BETA",
+  "benchmark_name": "average",
+  "score": 19.14075237978403,
+  "score_raw": 19.14075237978403,
+  "evaluation_date": "2024-10-12",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2818
+}

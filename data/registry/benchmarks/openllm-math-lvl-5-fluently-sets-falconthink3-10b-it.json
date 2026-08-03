@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-fluently-sets-falconthink3-10b-it",
+  "model_id": "fluently-sets/FalconThink3-10B-IT",
+  "benchmark_name": "math-lvl-5",
+  "score": 24.47129909365559,
+  "score_raw": 24.47129909365559,
+  "evaluation_date": "2024-12-29",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1019
+}

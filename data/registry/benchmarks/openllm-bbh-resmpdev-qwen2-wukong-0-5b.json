@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-resmpdev-qwen2-wukong-0-5b",
+  "model_id": "RESMPDEV/Qwen2-Wukong-0.5B",
+  "benchmark_name": "bbh",
+  "score": 4.19666315993673,
+  "score_raw": 4.19666315993673,
+  "evaluation_date": "2024-06-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4195
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-aryanne-qwentileswap",
+  "model_id": "Aryanne/QwentileSwap",
+  "benchmark_name": "gpqa",
+  "score": 15.659955257270694,
+  "score_raw": 15.659955257270694,
+  "evaluation_date": "2025-01-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 363
+}

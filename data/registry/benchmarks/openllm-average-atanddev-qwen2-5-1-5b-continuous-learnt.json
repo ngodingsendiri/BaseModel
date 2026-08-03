@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-atanddev-qwen2-5-1-5b-continuous-learnt",
+  "model_id": "AtAndDev/Qwen2.5-1.5B-continuous-learnt",
+  "benchmark_name": "average",
+  "score": 16.518524239214223,
+  "score_raw": 16.518524239214223,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3124
+}

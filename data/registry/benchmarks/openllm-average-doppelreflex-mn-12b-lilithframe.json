@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-doppelreflex-mn-12b-lilithframe",
+  "model_id": "DoppelReflEx/MN-12B-LilithFrame",
+  "benchmark_name": "average",
+  "score": 20.022540131471107,
+  "score_raw": 20.022540131471107,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2679
+}

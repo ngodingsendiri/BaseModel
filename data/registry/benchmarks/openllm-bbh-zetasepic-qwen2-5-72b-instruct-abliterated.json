@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-zetasepic-qwen2-5-72b-instruct-abliterated",
+  "model_id": "zetasepic/Qwen2.5-72B-Instruct-abliterated",
+  "benchmark_name": "bbh",
+  "score": 59.912975835046495,
+  "score_raw": 59.912975835046495,
+  "evaluation_date": "2024-10-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 24
+}

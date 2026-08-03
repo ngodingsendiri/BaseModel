@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-pinkstack-parm-v1-5-base-qwq-qwen-2-5-o1-3b",
+  "model_id": "Pinkstack/PARM-V1.5-base-QwQ-Qwen-2.5-o1-3B",
+  "benchmark_name": "average",
+  "score": 23.92876945667705,
+  "score_raw": 23.92876945667705,
+  "evaluation_date": "2024-12-17",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1860
+}

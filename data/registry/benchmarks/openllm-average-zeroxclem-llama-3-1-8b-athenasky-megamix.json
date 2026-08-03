@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-zeroxclem-llama-3-1-8b-athenasky-megamix",
+  "model_id": "ZeroXClem/Llama-3.1-8B-AthenaSky-MegaMix",
+  "benchmark_name": "average",
+  "score": 26.791594885986026,
+  "score_raw": 26.791594885986026,
+  "evaluation_date": "2025-03-11",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1415
+}

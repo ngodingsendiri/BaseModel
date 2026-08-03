@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-doppelreflex-mn-12b-lilithframe-experiment-2",
+  "model_id": "DoppelReflEx/MN-12B-LilithFrame-Experiment-2",
+  "benchmark_name": "mmlu-pro",
+  "score": 25.29181442080378,
+  "score_raw": 25.29181442080378,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2498
+}

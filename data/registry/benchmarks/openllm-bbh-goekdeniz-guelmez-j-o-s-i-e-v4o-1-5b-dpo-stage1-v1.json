@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-goekdeniz-guelmez-j-o-s-i-e-v4o-1-5b-dpo-stage1-v1",
+  "model_id": "Goekdeniz-Guelmez/j.o.s.i.e.v4o-1.5b-dpo-stage1-v1",
+  "benchmark_name": "bbh",
+  "score": 17.748016873381815,
+  "score_raw": 17.748016873381815,
+  "evaluation_date": "2024-10-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3344
+}

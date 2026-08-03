@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-grimjim-llama-3-nephilim-v1-8b",
+  "model_id": "grimjim/llama-3-Nephilim-v1-8B",
+  "benchmark_name": "average",
+  "score": 21.729737138539548,
+  "score_raw": 21.729737138539548,
+  "evaluation_date": "2024-06-21",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2336
+}

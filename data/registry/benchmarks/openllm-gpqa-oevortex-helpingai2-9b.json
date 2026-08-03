@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-oevortex-helpingai2-9b",
+  "model_id": "OEvortex/HelpingAI2-9B",
+  "benchmark_name": "gpqa",
+  "score": 1.1185682326621946,
+  "score_raw": 1.1185682326621946,
+  "evaluation_date": "2024-08-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4075
+}

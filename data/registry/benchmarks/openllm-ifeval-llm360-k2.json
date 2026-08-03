@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-llm360-k2",
+  "model_id": "LLM360/K2",
+  "benchmark_name": "ifeval",
+  "score": 22.52157608478836,
+  "score_raw": 22.52157608478836,
+  "evaluation_date": "2024-04-17",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3851
+}

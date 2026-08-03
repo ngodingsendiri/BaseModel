@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-dreadpoor-inexpertus-1-2-8b-linear",
+  "model_id": "DreadPoor/inexpertus_1.2-8B-LINEAR",
+  "benchmark_name": "average",
+  "score": 28.786491464394853,
+  "score_raw": 28.786491464394853,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1212
+}

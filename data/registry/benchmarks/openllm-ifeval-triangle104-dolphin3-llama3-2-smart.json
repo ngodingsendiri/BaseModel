@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-triangle104-dolphin3-llama3-2-smart",
+  "model_id": "Triangle104/Dolphin3-Llama3.2-Smart",
+  "benchmark_name": "ifeval",
+  "score": 41.366019938208396,
+  "score_raw": 41.366019938208396,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2641
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-princeton-nlp-mistral-7b-instruct-orpo",
+  "model_id": "princeton-nlp/Mistral-7B-Instruct-ORPO",
+  "benchmark_name": "average",
+  "score": 16.088293109620597,
+  "score_raw": 16.088293109620597,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3183
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-thedrummer-rocinante-12b-v1",
+  "model_id": "TheDrummer/Rocinante-12B-v1",
+  "benchmark_name": "bbh",
+  "score": 30.025654065607256,
+  "score_raw": 30.025654065607256,
+  "evaluation_date": "2024-08-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2195
+}

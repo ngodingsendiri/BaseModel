@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-causallm-preview-1-hf",
+  "model_id": "CausalLM/preview-1-hf",
+  "benchmark_name": "musr",
+  "score": 1.1067708333333328,
+  "score_raw": 1.1067708333333328,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4433
+}

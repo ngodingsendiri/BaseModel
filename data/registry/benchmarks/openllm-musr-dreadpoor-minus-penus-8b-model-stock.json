@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-minus-penus-8b-model-stock",
+  "model_id": "DreadPoor/Minus_Penus-8B-Model_Stock",
+  "benchmark_name": "musr",
+  "score": 9.638281249999997,
+  "score_raw": 9.638281249999997,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2399
+}

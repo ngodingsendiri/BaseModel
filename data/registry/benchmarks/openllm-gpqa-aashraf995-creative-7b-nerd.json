@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-aashraf995-creative-7b-nerd",
+  "model_id": "Aashraf995/Creative-7B-nerd",
+  "benchmark_name": "gpqa",
+  "score": 10.17897091722595,
+  "score_raw": 10.17897091722595,
+  "evaluation_date": "2024-12-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 959
+}

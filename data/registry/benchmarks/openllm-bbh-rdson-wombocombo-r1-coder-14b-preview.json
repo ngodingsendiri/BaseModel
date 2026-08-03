@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-rdson-wombocombo-r1-coder-14b-preview",
+  "model_id": "RDson/WomboCombo-R1-Coder-14B-Preview",
+  "benchmark_name": "bbh",
+  "score": 48.154142488726684,
+  "score_raw": 48.154142488726684,
+  "evaluation_date": "2025-01-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 544
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-olabs-ai-reflection-model",
+  "model_id": "olabs-ai/reflection_model",
+  "benchmark_name": "musr",
+  "score": 5.754166666666666,
+  "score_raw": 5.754166666666666,
+  "evaluation_date": "2024-09-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3293
+}

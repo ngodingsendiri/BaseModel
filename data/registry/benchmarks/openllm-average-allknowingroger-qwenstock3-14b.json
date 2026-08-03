@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-allknowingroger-qwenstock3-14b",
+  "model_id": "allknowingroger/QwenStock3-14B",
+  "benchmark_name": "average",
+  "score": 38.32000426856688,
+  "score_raw": 38.32000426856688,
+  "evaluation_date": "2024-11-29",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 387
+}

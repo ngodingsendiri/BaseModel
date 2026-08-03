@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-thedrummer-llama-3some-8b-v2",
+  "model_id": "TheDrummer/Llama-3SOME-8B-v2",
+  "benchmark_name": "bbh",
+  "score": 31.69527340436814,
+  "score_raw": 31.69527340436814,
+  "evaluation_date": "2024-06-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1908
+}

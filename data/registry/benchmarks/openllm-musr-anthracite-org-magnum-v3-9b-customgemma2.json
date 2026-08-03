@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-anthracite-org-magnum-v3-9b-customgemma2",
+  "model_id": "anthracite-org/magnum-v3-9b-customgemma2",
+  "benchmark_name": "musr",
+  "score": 15.058593749999998,
+  "score_raw": 15.058593749999998,
+  "evaluation_date": "2024-08-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 849
+}

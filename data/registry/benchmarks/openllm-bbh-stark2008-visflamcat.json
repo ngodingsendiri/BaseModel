@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-stark2008-visflamcat",
+  "model_id": "Stark2008/VisFlamCat",
+  "benchmark_name": "bbh",
+  "score": 32.881396834037055,
+  "score_raw": 32.881396834037055,
+  "evaluation_date": "2024-07-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1670
+}

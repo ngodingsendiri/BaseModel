@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-icefog72-icesakev6rp-7b",
+  "model_id": "icefog72/IceSakeV6RP-7b",
+  "benchmark_name": "musr",
+  "score": 11.634635416666663,
+  "score_raw": 11.634635416666663,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1721
+}

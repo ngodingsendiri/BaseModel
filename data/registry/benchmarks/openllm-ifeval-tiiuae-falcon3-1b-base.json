@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-tiiuae-falcon3-1b-base",
+  "model_id": "tiiuae/Falcon3-1B-Base",
+  "benchmark_name": "ifeval",
+  "score": 24.280132271262474,
+  "score_raw": 24.280132271262474,
+  "evaluation_date": "2024-12-13",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3708
+}

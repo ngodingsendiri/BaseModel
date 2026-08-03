@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-beomi-gemma-mling-7b",
+  "model_id": "beomi/gemma-mling-7b",
+  "benchmark_name": "musr",
+  "score": 6.848437499999999,
+  "score_raw": 6.848437499999999,
+  "evaluation_date": "2024-04-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3093
+}

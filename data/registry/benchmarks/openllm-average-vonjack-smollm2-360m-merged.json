@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-vonjack-smollm2-360m-merged",
+  "model_id": "vonjack/SmolLM2-360M-Merged",
+  "benchmark_name": "average",
+  "score": 7.294376590792457,
+  "score_raw": 7.294376590792457,
+  "evaluation_date": "2024-11-15",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4031
+}

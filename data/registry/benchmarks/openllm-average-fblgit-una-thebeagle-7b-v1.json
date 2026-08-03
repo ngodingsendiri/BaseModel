@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-fblgit-una-thebeagle-7b-v1",
+  "model_id": "fblgit/UNA-TheBeagle-7b-v1",
+  "benchmark_name": "average",
+  "score": 19.646170777958677,
+  "score_raw": 19.646170777958677,
+  "evaluation_date": "2024-01-09",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2744
+}

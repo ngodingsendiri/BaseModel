@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-formulae-mita-elite-v1-1-gen2-7b-2-25-2025",
+  "model_id": "formulae/mita-elite-v1.1-gen2-7b-2-25-2025",
+  "benchmark_name": "average",
+  "score": 3.1775097815514886,
+  "score_raw": 3.1775097815514886,
+  "evaluation_date": "2025-02-25",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4557
+}

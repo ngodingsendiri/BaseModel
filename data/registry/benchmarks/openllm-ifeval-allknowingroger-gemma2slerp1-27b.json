@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-allknowingroger-gemma2slerp1-27b",
+  "model_id": "allknowingroger/Gemma2Slerp1-27B",
+  "benchmark_name": "ifeval",
+  "score": 71.86332265056717,
+  "score_raw": 71.86332265056717,
+  "evaluation_date": "2024-11-30",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 659
+}

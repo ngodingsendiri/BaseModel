@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-lemon07r-gemma-2-ataraxy-v4d-9b",
+  "model_id": "lemon07r/Gemma-2-Ataraxy-v4d-9B",
+  "benchmark_name": "ifeval",
+  "score": 72.50029920610646,
+  "score_raw": 72.50029920610646,
+  "evaluation_date": "2024-10-25",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 614
+}

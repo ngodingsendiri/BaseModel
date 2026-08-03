@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-riaz-finellama-3-1-8b",
+  "model_id": "riaz/FineLlama-3.1-8B",
+  "benchmark_name": "ifeval",
+  "score": 41.366019938208396,
+  "score_raw": 41.366019938208396,
+  "evaluation_date": "2024-10-07",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2642
+}

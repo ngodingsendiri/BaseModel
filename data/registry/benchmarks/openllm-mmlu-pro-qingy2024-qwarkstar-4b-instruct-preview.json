@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-qingy2024-qwarkstar-4b-instruct-preview",
+  "model_id": "qingy2024/Qwarkstar-4B-Instruct-Preview",
+  "benchmark_name": "mmlu-pro",
+  "score": 16.694370567375884,
+  "score_raw": 16.694370567375884,
+  "evaluation_date": "2025-01-10",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3395
+}

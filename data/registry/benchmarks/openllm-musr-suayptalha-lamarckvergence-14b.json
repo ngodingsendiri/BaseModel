@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-suayptalha-lamarckvergence-14b",
+  "model_id": "suayptalha/Lamarckvergence-14B",
+  "benchmark_name": "musr",
+  "score": 16.336197916666666,
+  "score_raw": 16.336197916666666,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 659
+}

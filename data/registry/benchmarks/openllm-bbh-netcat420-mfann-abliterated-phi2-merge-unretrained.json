@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-netcat420-mfann-abliterated-phi2-merge-unretrained",
+  "model_id": "netcat420/MFANN-abliterated-phi2-merge-unretrained",
+  "benchmark_name": "bbh",
+  "score": 17.590366415972785,
+  "score_raw": 17.590366415972785,
+  "evaluation_date": "2025-01-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3357
+}

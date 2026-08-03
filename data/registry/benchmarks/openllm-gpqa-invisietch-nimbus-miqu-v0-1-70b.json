@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-invisietch-nimbus-miqu-v0-1-70b",
+  "model_id": "invisietch/Nimbus-Miqu-v0.1-70B",
+  "benchmark_name": "gpqa",
+  "score": 11.85682326621924,
+  "score_raw": 11.85682326621924,
+  "evaluation_date": "2024-06-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 723
+}

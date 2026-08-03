@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-nlpguy-lion-lamarck-v-1-0-8",
+  "model_id": "nlpguy/Lion-Lamarck-v.1.0.8",
+  "benchmark_name": "mmlu-pro",
+  "score": 40.48278664302601,
+  "score_raw": 40.48278664302601,
+  "evaluation_date": "2025-01-27",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 672
+}

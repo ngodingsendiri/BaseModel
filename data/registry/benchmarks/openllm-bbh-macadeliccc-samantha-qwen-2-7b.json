@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-macadeliccc-samantha-qwen-2-7b",
+  "model_id": "macadeliccc/Samantha-Qwen-2-7B",
+  "benchmark_name": "bbh",
+  "score": 31.41189390746123,
+  "score_raw": 31.41189390746123,
+  "evaluation_date": "2024-06-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1963
+}

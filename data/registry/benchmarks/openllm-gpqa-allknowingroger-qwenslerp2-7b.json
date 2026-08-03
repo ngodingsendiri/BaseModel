@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-allknowingroger-qwenslerp2-7b",
+  "model_id": "allknowingroger/Qwenslerp2-7B",
+  "benchmark_name": "gpqa",
+  "score": 8.389261744966444,
+  "score_raw": 8.389261744966444,
+  "evaluation_date": "2024-10-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1370
+}

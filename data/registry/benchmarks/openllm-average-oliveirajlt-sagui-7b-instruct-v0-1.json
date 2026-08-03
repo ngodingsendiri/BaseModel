@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-oliveirajlt-sagui-7b-instruct-v0-1",
+  "model_id": "OliveiraJLT/Sagui-7B-Instruct-v0.1",
+  "benchmark_name": "average",
+  "score": 8.579407330639999,
+  "score_raw": 8.579407330639999,
+  "evaluation_date": "2024-07-17",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3817
+}

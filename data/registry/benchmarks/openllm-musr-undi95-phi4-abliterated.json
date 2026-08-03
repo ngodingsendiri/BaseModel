@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-undi95-phi4-abliterated",
+  "model_id": "Undi95/Phi4-abliterated",
+  "benchmark_name": "musr",
+  "score": 8.92838541666667,
+  "score_raw": 8.92838541666667,
+  "evaluation_date": "2025-01-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2596
+}

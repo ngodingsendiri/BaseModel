@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-wannabe-8b-model-stock",
+  "model_id": "DreadPoor/Wannabe-8B-Model_Stock",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.451315011820324,
+  "score_raw": 31.451315011820324,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1496
+}

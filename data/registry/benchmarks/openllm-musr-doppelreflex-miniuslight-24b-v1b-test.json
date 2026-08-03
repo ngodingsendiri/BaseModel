@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-doppelreflex-miniuslight-24b-v1b-test",
+  "model_id": "DoppelReflEx/MiniusLight-24B-v1b-test",
+  "benchmark_name": "musr",
+  "score": 16.032812500000002,
+  "score_raw": 16.032812500000002,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 691
+}

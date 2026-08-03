@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-mattshumer-reflection-llama-3-1-70b",
+  "model_id": "mattshumer/Reflection-Llama-3.1-70B",
+  "benchmark_name": "gpqa",
+  "score": 15.100671140939594,
+  "score_raw": 15.100671140939594,
+  "evaluation_date": "2024-09-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 403
+}

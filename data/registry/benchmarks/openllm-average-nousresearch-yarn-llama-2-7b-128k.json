@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nousresearch-yarn-llama-2-7b-128k",
+  "model_id": "NousResearch/Yarn-Llama-2-7b-128k",
+  "benchmark_name": "average",
+  "score": 6.814800680431223,
+  "score_raw": 6.814800680431223,
+  "evaluation_date": "2023-08-31",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4084
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-tencentarc-metamath-mistral-pro",
+  "model_id": "TencentARC/MetaMath-Mistral-Pro",
+  "benchmark_name": "average",
+  "score": 12.5165268741835,
+  "score_raw": 12.5165268741835,
+  "evaluation_date": "2024-02-26",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3542
+}

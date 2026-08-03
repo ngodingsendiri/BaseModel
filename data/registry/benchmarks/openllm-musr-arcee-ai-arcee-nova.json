@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-arcee-ai-arcee-nova",
+  "model_id": "arcee-ai/Arcee-Nova",
+  "benchmark_name": "musr",
+  "score": 17.220833333333328,
+  "score_raw": 17.220833333333328,
+  "evaluation_date": "2024-07-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 541
+}

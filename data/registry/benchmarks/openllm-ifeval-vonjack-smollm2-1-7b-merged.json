@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-vonjack-smollm2-1-7b-merged",
+  "model_id": "vonjack/SmolLM2-1.7B-Merged",
+  "benchmark_name": "ifeval",
+  "score": 36.979658417443495,
+  "score_raw": 36.979658417443495,
+  "evaluation_date": "2024-11-18",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2925
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-epistemeai-reasoningcore-1-0-3b-instruct-r01-reflect-math",
+  "model_id": "EpistemeAI/ReasoningCore-1.0-3B-Instruct-r01-Reflect-Math",
+  "benchmark_name": "gpqa",
+  "score": 1.342281879194629,
+  "score_raw": 1.342281879194629,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3936
+}

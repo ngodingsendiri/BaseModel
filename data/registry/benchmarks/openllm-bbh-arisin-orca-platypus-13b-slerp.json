@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-arisin-orca-platypus-13b-slerp",
+  "model_id": "arisin/orca-platypus-13B-slerp",
+  "benchmark_name": "bbh",
+  "score": 24.40376595176109,
+  "score_raw": 24.40376595176109,
+  "evaluation_date": "2024-11-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2864
+}

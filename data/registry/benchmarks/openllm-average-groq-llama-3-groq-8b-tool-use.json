@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-groq-llama-3-groq-8b-tool-use",
+  "model_id": "Groq/Llama-3-Groq-8B-Tool-Use",
+  "benchmark_name": "average",
+  "score": 21.44560137489326,
+  "score_raw": 21.44560137489326,
+  "evaluation_date": "2024-06-24",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2403
+}

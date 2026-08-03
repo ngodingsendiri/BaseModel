@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-aashraf995-gemma-evo-10b",
+  "model_id": "Aashraf995/Gemma-Evo-10B",
+  "benchmark_name": "average",
+  "score": 34.32632733409121,
+  "score_raw": 34.32632733409121,
+  "evaluation_date": "2024-12-13",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 704
+}

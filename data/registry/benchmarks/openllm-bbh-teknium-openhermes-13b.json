@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-teknium-openhermes-13b",
+  "model_id": "teknium/OpenHermes-13B",
+  "benchmark_name": "bbh",
+  "score": 18.21332824040884,
+  "score_raw": 18.21332824040884,
+  "evaluation_date": "2023-09-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3321
+}

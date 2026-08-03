@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sometimesanotion-qwen2-5-14b-vimarckoso-v3-prose01",
+  "model_id": "sometimesanotion/Qwen2.5-14B-Vimarckoso-v3-Prose01",
+  "benchmark_name": "mmlu-pro",
+  "score": 47.50110815602837,
+  "score_raw": 47.50110815602837,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 373
+}

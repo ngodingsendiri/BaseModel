@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-zetasepic-qwen2-5-72b-instruct-abliterated",
+  "model_id": "zetasepic/Qwen2.5-72B-Instruct-abliterated",
+  "benchmark_name": "ifeval",
+  "score": 71.52610628687438,
+  "score_raw": 71.52610628687438,
+  "evaluation_date": "2024-10-01",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 678
+}

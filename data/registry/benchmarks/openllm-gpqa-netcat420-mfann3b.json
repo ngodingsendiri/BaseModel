@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-netcat420-mfann3b",
+  "model_id": "netcat420/MFANN3b",
+  "benchmark_name": "gpqa",
+  "score": 5.592841163310966,
+  "score_raw": 5.592841163310966,
+  "evaluation_date": "2024-12-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2439
+}

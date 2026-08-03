@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-eleutherai-pythia-1b",
+  "model_id": "EleutherAI/pythia-1b",
+  "benchmark_name": "musr",
+  "score": 2.7343749999999996,
+  "score_raw": 2.7343749999999996,
+  "evaluation_date": "2023-03-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4000
+}

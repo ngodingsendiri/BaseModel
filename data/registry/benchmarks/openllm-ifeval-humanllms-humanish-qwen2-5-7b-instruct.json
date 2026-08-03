@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-humanllms-humanish-qwen2-5-7b-instruct",
+  "model_id": "HumanLLMs/Humanish-Qwen2.5-7B-Instruct",
+  "benchmark_name": "ifeval",
+  "score": 72.84250233824031,
+  "score_raw": 72.84250233824031,
+  "evaluation_date": "2024-10-05",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 592
+}

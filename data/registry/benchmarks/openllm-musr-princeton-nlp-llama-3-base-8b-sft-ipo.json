@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-princeton-nlp-llama-3-base-8b-sft-ipo",
+  "model_id": "princeton-nlp/Llama-3-Base-8B-SFT-IPO",
+  "benchmark_name": "musr",
+  "score": 7.960156250000001,
+  "score_raw": 7.960156250000001,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2860
+}

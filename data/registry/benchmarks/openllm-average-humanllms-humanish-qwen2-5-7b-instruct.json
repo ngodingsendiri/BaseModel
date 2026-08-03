@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-humanllms-humanish-qwen2-5-7b-instruct",
+  "model_id": "HumanLLMs/Humanish-Qwen2.5-7B-Instruct",
+  "benchmark_name": "average",
+  "score": 34.99870743015318,
+  "score_raw": 34.99870743015318,
+  "evaluation_date": "2024-10-05",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 636
+}

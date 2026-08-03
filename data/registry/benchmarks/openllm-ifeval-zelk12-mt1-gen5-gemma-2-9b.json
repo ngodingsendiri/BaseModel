@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-zelk12-mt1-gen5-gemma-2-9b",
+  "model_id": "zelk12/MT1-Gen5-gemma-2-9B",
+  "benchmark_name": "ifeval",
+  "score": 77.94828831943687,
+  "score_raw": 77.94828831943687,
+  "evaluation_date": "2024-12-24",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 271
+}

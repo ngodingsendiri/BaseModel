@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-lawnakk-bbalaw1-63",
+  "model_id": "Lawnakk/BBALAW1.63",
+  "benchmark_name": "musr",
+  "score": 11.958333333333336,
+  "score_raw": 11.958333333333336,
+  "evaluation_date": "2025-02-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1612
+}

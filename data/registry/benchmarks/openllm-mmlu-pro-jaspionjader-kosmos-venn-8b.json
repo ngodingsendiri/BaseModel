@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-jaspionjader-kosmos-venn-8b",
+  "model_id": "jaspionjader/Kosmos-VENN-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.11886820330969,
+  "score_raw": 31.11886820330969,
+  "evaluation_date": "2024-12-27",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1586
+}

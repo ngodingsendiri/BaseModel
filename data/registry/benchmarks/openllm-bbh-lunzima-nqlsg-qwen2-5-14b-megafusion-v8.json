@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-lunzima-nqlsg-qwen2-5-14b-megafusion-v8",
+  "model_id": "Lunzima/NQLSG-Qwen2.5-14B-MegaFusion-v8",
+  "benchmark_name": "bbh",
+  "score": 49.0341381962539,
+  "score_raw": 49.0341381962539,
+  "evaluation_date": "2025-02-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 474
+}

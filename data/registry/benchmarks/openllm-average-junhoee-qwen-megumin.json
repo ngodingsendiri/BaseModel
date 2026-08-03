@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-junhoee-qwen-megumin",
+  "model_id": "Junhoee/Qwen-Megumin",
+  "benchmark_name": "average",
+  "score": 33.992180349901545,
+  "score_raw": 33.992180349901545,
+  "evaluation_date": "2024-11-26",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 724
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-quazim0t0-imbue-14b",
+  "model_id": "Quazim0t0/Imbue-14b",
+  "benchmark_name": "musr",
+  "score": 11.491145833333336,
+  "score_raw": 11.491145833333336,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1787
+}

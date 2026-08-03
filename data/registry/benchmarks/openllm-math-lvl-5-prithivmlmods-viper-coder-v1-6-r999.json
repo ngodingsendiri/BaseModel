@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-prithivmlmods-viper-coder-v1-6-r999",
+  "model_id": "prithivMLmods/Viper-Coder-v1.6-r999",
+  "benchmark_name": "math-lvl-5",
+  "score": 56.57099697885196,
+  "score_raw": 56.57099697885196,
+  "evaluation_date": "2025-03-01",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 27
+}

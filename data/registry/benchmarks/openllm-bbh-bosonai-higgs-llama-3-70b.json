@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-bosonai-higgs-llama-3-70b",
+  "model_id": "bosonai/Higgs-Llama-3-70B",
+  "benchmark_name": "bbh",
+  "score": 45.89740563396065,
+  "score_raw": 45.89740563396065,
+  "evaluation_date": "2024-06-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 644
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-spow12-chatwaifu-v1-4",
+  "model_id": "spow12/ChatWaifu_v1.4",
+  "benchmark_name": "musr",
+  "score": 20.025000000000002,
+  "score_raw": 20.025000000000002,
+  "evaluation_date": "2024-09-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 235
+}

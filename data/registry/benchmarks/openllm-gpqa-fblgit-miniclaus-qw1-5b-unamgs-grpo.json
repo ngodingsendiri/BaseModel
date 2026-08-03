@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-fblgit-miniclaus-qw1-5b-unamgs-grpo",
+  "model_id": "fblgit/miniclaus-qw1.5B-UNAMGS-GRPO",
+  "benchmark_name": "gpqa",
+  "score": 6.375838926174497,
+  "score_raw": 6.375838926174497,
+  "evaluation_date": "2025-02-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2128
+}

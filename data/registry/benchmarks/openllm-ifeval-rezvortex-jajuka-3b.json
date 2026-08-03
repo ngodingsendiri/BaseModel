@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-rezvortex-jajuka-3b",
+  "model_id": "RezVortex/Jajuka-3b",
+  "benchmark_name": "ifeval",
+  "score": 69.25047762159957,
+  "score_raw": 69.25047762159957,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 804
+}

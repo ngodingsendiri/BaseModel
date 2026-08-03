@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-qwen-qwen1-5-moe-a2-7b",
+  "model_id": "Qwen/Qwen1.5-MoE-A2.7B",
+  "benchmark_name": "average",
+  "score": 13.945920112290063,
+  "score_raw": 13.945920112290063,
+  "evaluation_date": "2024-02-29",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3427
+}

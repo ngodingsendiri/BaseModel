@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-triangle104-pans-gutenbergum-v0-2",
+  "model_id": "Triangle104/Pans_Gutenbergum_V0.2",
+  "benchmark_name": "math-lvl-5",
+  "score": 6.873111782477341,
+  "score_raw": 6.873111782477341,
+  "evaluation_date": "2024-12-14",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2868
+}

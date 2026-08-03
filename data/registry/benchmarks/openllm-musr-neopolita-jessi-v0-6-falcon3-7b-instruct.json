@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-neopolita-jessi-v0-6-falcon3-7b-instruct",
+  "model_id": "neopolita/jessi-v0.6-falcon3-7b-instruct",
+  "benchmark_name": "musr",
+  "score": 22.203385416666663,
+  "score_raw": 22.203385416666663,
+  "evaluation_date": "2025-01-20",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 109
+}

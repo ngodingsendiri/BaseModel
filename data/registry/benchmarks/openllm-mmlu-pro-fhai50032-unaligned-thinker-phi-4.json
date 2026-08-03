@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-fhai50032-unaligned-thinker-phi-4",
+  "model_id": "fhai50032/Unaligned-Thinker-PHI-4",
+  "benchmark_name": "mmlu-pro",
+  "score": 46.07897458628841,
+  "score_raw": 46.07897458628841,
+  "evaluation_date": "2025-01-16",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 499
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-epistemeai-mistral-nemo-instruct-12b-philosophy-math",
+  "model_id": "EpistemeAI/Mistral-Nemo-Instruct-12B-Philosophy-Math",
+  "benchmark_name": "bbh",
+  "score": 33.835810999564586,
+  "score_raw": 33.835810999564586,
+  "evaluation_date": "2024-09-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1527
+}

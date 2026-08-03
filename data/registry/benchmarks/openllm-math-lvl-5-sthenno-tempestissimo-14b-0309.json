@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sthenno-tempestissimo-14b-0309",
+  "model_id": "sthenno/tempestissimo-14b-0309",
+  "benchmark_name": "math-lvl-5",
+  "score": 47.9607250755287,
+  "score_raw": 47.9607250755287,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 205
+}

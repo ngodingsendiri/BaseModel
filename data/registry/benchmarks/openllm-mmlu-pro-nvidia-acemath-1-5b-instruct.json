@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-nvidia-acemath-1-5b-instruct",
+  "model_id": "nvidia/AceMath-1.5B-Instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 11.818484042553191,
+  "score_raw": 11.818484042553191,
+  "evaluation_date": "2025-01-13",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3570
+}

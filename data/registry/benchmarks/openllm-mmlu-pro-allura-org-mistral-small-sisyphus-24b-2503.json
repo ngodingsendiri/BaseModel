@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-allura-org-mistral-small-sisyphus-24b-2503",
+  "model_id": "allura-org/Mistral-Small-Sisyphus-24b-2503",
+  "benchmark_name": "mmlu-pro",
+  "score": 45.85734338061466,
+  "score_raw": 45.85734338061466,
+  "evaluation_date": "2025-03-03",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 509
+}

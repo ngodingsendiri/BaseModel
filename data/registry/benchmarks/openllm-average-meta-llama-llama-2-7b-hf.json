@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-meta-llama-llama-2-7b-hf",
+  "model_id": "meta-llama/Llama-2-7b-hf",
+  "benchmark_name": "average",
+  "score": 8.806357596540016,
+  "score_raw": 8.806357596540016,
+  "evaluation_date": "2023-07-13",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3798
+}

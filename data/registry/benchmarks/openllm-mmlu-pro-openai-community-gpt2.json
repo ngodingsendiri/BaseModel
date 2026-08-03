@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-openai-community-gpt2",
+  "model_id": "openai-community/gpt2",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.7712027186761226,
+  "score_raw": 1.7712027186761226,
+  "evaluation_date": "2022-03-02",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4234
+}

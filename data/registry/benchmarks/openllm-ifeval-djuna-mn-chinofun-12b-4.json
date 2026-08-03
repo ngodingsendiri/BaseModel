@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-djuna-mn-chinofun-12b-4",
+  "model_id": "djuna/MN-Chinofun-12B-4",
+  "benchmark_name": "ifeval",
+  "score": 54.04305021786637,
+  "score_raw": 54.04305021786637,
+  "evaluation_date": "2025-01-26",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1598
+}

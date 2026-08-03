@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-marsouuu-miniqwenmathexpert-ece-prymmal-martial",
+  "model_id": "Marsouuu/MiniQwenMathExpert-ECE-PRYMMAL-Martial",
+  "benchmark_name": "mmlu-pro",
+  "score": 21.35786052009456,
+  "score_raw": 21.35786052009456,
+  "evaluation_date": "2024-10-07",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3017
+}

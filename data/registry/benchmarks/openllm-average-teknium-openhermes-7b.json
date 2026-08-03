@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-teknium-openhermes-7b",
+  "model_id": "teknium/OpenHermes-7B",
+  "benchmark_name": "average",
+  "score": 9.569248719177576,
+  "score_raw": 9.569248719177576,
+  "evaluation_date": "2023-09-14",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3750
+}

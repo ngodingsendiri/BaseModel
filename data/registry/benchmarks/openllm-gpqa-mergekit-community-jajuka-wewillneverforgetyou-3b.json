@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-mergekit-community-jajuka-wewillneverforgetyou-3b",
+  "model_id": "mergekit-community/JAJUKA-WEWILLNEVERFORGETYOU-3B",
+  "benchmark_name": "gpqa",
+  "score": 5.7046979865771785,
+  "score_raw": 5.7046979865771785,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2391
+}

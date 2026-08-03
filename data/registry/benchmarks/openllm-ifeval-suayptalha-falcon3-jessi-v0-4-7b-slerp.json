@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-suayptalha-falcon3-jessi-v0-4-7b-slerp",
+  "model_id": "suayptalha/Falcon3-Jessi-v0.4-7B-Slerp",
+  "benchmark_name": "ifeval",
+  "score": 76.76176988169169,
+  "score_raw": 76.76176988169169,
+  "evaluation_date": "2025-01-20",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 341
+}

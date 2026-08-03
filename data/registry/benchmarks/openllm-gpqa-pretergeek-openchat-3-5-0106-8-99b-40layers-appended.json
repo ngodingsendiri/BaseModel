@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-pretergeek-openchat-3-5-0106-8-99b-40layers-appended",
+  "model_id": "Pretergeek/OpenChat-3.5-0106_8.99B_40Layers-Appended",
+  "benchmark_name": "gpqa",
+  "score": 7.606263982102905,
+  "score_raw": 7.606263982102905,
+  "evaluation_date": "2024-07-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1628
+}

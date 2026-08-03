@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-lodrick-the-lafted-llama-3-1-8b-instruct-ortho-v7",
+  "model_id": "lodrick-the-lafted/llama-3.1-8b-instruct-ortho-v7",
+  "benchmark_name": "musr",
+  "score": 4.732552083333332,
+  "score_raw": 4.732552083333332,
+  "evaluation_date": "2024-07-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3503
+}

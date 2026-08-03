@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-novaciano-cultist-3-2-1b",
+  "model_id": "Novaciano/Cultist-3.2-1B",
+  "benchmark_name": "gpqa",
+  "score": 1.4541387024608499,
+  "score_raw": 1.4541387024608499,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3892
+}

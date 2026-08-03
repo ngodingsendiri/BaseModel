@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-dreadpoor-lava-lamp-8b-slerp",
+  "model_id": "DreadPoor/Lava_Lamp-8B-SLERP",
+  "benchmark_name": "average",
+  "score": 29.154893020196578,
+  "score_raw": 29.154893020196578,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1155
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-lava-lamp-8b-slerp",
+  "model_id": "DreadPoor/Lava_Lamp-8B-SLERP",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.555555555555557,
+  "score_raw": 30.555555555555557,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1720
+}

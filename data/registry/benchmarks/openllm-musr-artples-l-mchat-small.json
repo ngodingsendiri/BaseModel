@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-artples-l-mchat-small",
+  "model_id": "Artples/L-MChat-Small",
+  "benchmark_name": "musr",
+  "score": 9.265885416666663,
+  "score_raw": 9.265885416666663,
+  "evaluation_date": "2024-04-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2510
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-lambent-qwen2-5-reinstruct-alternate-lumen-14b",
+  "model_id": "Lambent/qwen2.5-reinstruct-alternate-lumen-14B",
+  "benchmark_name": "mmlu-pro",
+  "score": 48.757018321512994,
+  "score_raw": 48.757018321512994,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 208
+}

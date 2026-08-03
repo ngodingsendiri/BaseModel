@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-genvradmin-aryabhatta-gemmaorca-2-merged",
+  "model_id": "GenVRadmin/AryaBhatta-GemmaOrca-2-Merged",
+  "benchmark_name": "bbh",
+  "score": 13.661591696662839,
+  "score_raw": 13.661591696662839,
+  "evaluation_date": "2024-04-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3554
+}

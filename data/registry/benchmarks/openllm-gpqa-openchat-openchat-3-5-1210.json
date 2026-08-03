@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-openchat-openchat-3-5-1210",
+  "model_id": "openchat/openchat-3.5-1210",
+  "benchmark_name": "gpqa",
+  "score": 6.823266219239373,
+  "score_raw": 6.823266219239373,
+  "evaluation_date": "2023-12-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1958
+}

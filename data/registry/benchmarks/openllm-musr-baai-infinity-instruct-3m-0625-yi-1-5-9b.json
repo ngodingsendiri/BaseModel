@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-baai-infinity-instruct-3m-0625-yi-1-5-9b",
+  "model_id": "BAAI/Infinity-Instruct-3M-0625-Yi-1.5-9B",
+  "benchmark_name": "musr",
+  "score": 16.724739583333335,
+  "score_raw": 16.724739583333335,
+  "evaluation_date": "2024-07-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 612
+}

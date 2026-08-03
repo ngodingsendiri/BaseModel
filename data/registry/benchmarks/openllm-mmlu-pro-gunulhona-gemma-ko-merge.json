@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-gunulhona-gemma-ko-merge",
+  "model_id": "Gunulhona/Gemma-Ko-Merge",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.98692375886525,
+  "score_raw": 31.98692375886525,
+  "evaluation_date": "2024-09-04",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1386
+}

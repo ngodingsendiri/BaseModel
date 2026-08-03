@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-tannedbum-l3-rhaenys-8b",
+  "model_id": "tannedbum/L3-Rhaenys-8B",
+  "benchmark_name": "bbh",
+  "score": 33.137944169076256,
+  "score_raw": 33.137944169076256,
+  "evaluation_date": "2024-07-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1616
+}

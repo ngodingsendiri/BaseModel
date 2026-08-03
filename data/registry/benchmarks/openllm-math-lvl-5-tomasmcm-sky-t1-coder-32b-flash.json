@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-tomasmcm-sky-t1-coder-32b-flash",
+  "model_id": "tomasmcm/sky-t1-coder-32b-flash",
+  "benchmark_name": "math-lvl-5",
+  "score": 54.229607250755286,
+  "score_raw": 54.229607250755286,
+  "evaluation_date": "2025-02-22",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 53
+}

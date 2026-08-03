@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-doppelreflex-mn-12b-foxframe-test",
+  "model_id": "DoppelReflEx/MN-12B-FoxFrame-test",
+  "benchmark_name": "mmlu-pro",
+  "score": 27.812869385342786,
+  "score_raw": 27.812869385342786,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2213
+}

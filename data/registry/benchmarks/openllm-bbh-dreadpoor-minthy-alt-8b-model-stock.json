@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-minthy-alt-8b-model-stock",
+  "model_id": "DreadPoor/Minthy_ALT-8B-Model_Stock",
+  "benchmark_name": "bbh",
+  "score": 34.16825686462601,
+  "score_raw": 34.16825686462601,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1490
+}

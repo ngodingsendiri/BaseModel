@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-josephgflowers-cinder-phi-2-v1-f16-gguf",
+  "model_id": "Josephgflowers/Cinder-Phi-2-V1-F16-gguf",
+  "benchmark_name": "bbh",
+  "score": 22.45340222827221,
+  "score_raw": 22.45340222827221,
+  "evaluation_date": "2024-02-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3035
+}

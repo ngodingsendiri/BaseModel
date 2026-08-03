@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-unsloth-llama-3-2-1b-instruct-no-system-message",
+  "model_id": "unsloth/Llama-3.2-1B-Instruct-no-system-message",
+  "benchmark_name": "average",
+  "score": 14.363515028823207,
+  "score_raw": 14.363515028823207,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3376
+}

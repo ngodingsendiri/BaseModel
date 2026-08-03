@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-failspy-meta-llama-3-70b-instruct-abliterated-v3-5",
+  "model_id": "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3.5",
+  "benchmark_name": "ifeval",
+  "score": 77.46867201248244,
+  "score_raw": 77.46867201248244,
+  "evaluation_date": "2024-05-28",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 302
+}

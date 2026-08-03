@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-shyamieee-padma-v7-0",
+  "model_id": "shyamieee/Padma-v7.0",
+  "benchmark_name": "mmlu-pro",
+  "score": 22.549128250591018,
+  "score_raw": 22.549128250591018,
+  "evaluation_date": "2024-06-26",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2866
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sumink-ftgpt",
+  "model_id": "sumink/ftgpt",
+  "benchmark_name": "musr",
+  "score": 10.097135416666667,
+  "score_raw": 10.097135416666667,
+  "evaluation_date": "2024-11-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2265
+}

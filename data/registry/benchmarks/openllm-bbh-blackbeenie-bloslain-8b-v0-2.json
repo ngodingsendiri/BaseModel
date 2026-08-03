@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-blackbeenie-bloslain-8b-v0-2",
+  "model_id": "BlackBeenie/Bloslain-8B-v0.2",
+  "benchmark_name": "bbh",
+  "score": 30.662901797340655,
+  "score_raw": 30.662901797340655,
+  "evaluation_date": "2024-11-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2097
+}

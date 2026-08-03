@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-mlx-community-mistral-small-24b-instruct-2501-bf16",
+  "model_id": "mlx-community/Mistral-Small-24B-Instruct-2501-bf16",
+  "benchmark_name": "gpqa",
+  "score": 19.35123042505593,
+  "score_raw": 19.35123042505593,
+  "evaluation_date": "2025-01-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 67
+}

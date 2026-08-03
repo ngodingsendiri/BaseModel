@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-triangle104-hermes3-l3-1-dirtyharry-8b",
+  "model_id": "Triangle104/Hermes3-L3.1-DirtyHarry-8B",
+  "benchmark_name": "average",
+  "score": 18.55982177819895,
+  "score_raw": 18.55982177819895,
+  "evaluation_date": "2024-12-21",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2874
+}

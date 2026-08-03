@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-deepautoai-d2nwg-llama-3-1-8b-instruct-v0-0",
+  "model_id": "DeepAutoAI/d2nwg_Llama-3.1-8B-Instruct-v0.0",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.96845449172577,
+  "score_raw": 31.96845449172577,
+  "evaluation_date": "2024-09-10",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1388
+}

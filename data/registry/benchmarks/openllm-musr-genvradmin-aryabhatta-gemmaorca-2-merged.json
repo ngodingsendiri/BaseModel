@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-genvradmin-aryabhatta-gemmaorca-2-merged",
+  "model_id": "GenVRadmin/AryaBhatta-GemmaOrca-2-Merged",
+  "benchmark_name": "musr",
+  "score": 16.9109375,
+  "score_raw": 16.9109375,
+  "evaluation_date": "2024-04-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 578
+}

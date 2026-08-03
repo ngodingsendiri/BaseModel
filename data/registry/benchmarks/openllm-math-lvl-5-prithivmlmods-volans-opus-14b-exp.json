@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-prithivmlmods-volans-opus-14b-exp",
+  "model_id": "prithivMLmods/Volans-Opus-14B-Exp",
+  "benchmark_name": "math-lvl-5",
+  "score": 42.522658610271904,
+  "score_raw": 42.522658610271904,
+  "evaluation_date": "2025-03-11",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 366
+}

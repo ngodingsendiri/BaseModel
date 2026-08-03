@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-internlm-internlm2-5-7b-chat",
+  "model_id": "internlm/internlm2_5-7b-chat",
+  "benchmark_name": "gpqa",
+  "score": 12.975391498881436,
+  "score_raw": 12.975391498881436,
+  "evaluation_date": "2024-06-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 590
+}

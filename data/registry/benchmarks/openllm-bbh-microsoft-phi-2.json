@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-microsoft-phi-2",
+  "model_id": "microsoft/phi-2",
+  "benchmark_name": "bbh",
+  "score": 28.038519293439304,
+  "score_raw": 28.038519293439304,
+  "evaluation_date": "2023-12-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2496
+}

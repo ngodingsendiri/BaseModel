@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-yifai-llama-3-8b-instruct-sppo-score-iter3-gp-8b-table-0-002",
+  "model_id": "yifAI/Llama-3-8B-Instruct-SPPO-score-Iter3_gp_8b-table-0.002",
+  "benchmark_name": "mmlu-pro",
+  "score": 27.997562056737586,
+  "score_raw": 27.997562056737586,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2185
+}

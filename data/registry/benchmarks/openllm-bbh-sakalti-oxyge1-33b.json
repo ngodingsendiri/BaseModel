@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-sakalti-oxyge1-33b",
+  "model_id": "Sakalti/Oxyge1-33B",
+  "benchmark_name": "bbh",
+  "score": 58.03229697403189,
+  "score_raw": 58.03229697403189,
+  "evaluation_date": "2024-12-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 42
+}

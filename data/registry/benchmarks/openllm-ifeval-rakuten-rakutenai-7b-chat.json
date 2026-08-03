@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-rakuten-rakutenai-7b-chat",
+  "model_id": "Rakuten/RakutenAI-7B-chat",
+  "benchmark_name": "ifeval",
+  "score": 26.8555211283838,
+  "score_raw": 26.8555211283838,
+  "evaluation_date": "2024-03-18",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3475
+}

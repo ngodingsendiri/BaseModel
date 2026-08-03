@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-inumulaisk-eval-model",
+  "model_id": "inumulaisk/eval_model",
+  "benchmark_name": "gpqa",
+  "score": 3.9149888143176734,
+  "score_raw": 3.9149888143176734,
+  "evaluation_date": "2025-03-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3011
+}

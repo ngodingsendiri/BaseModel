@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-zhliu627-zephyr-7b-gemma-dpo-avg",
+  "model_id": "ZHLiu627/zephyr-7b-gemma-dpo-avg",
+  "benchmark_name": "mmlu-pro",
+  "score": 20.563682033096924,
+  "score_raw": 20.563682033096924,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3095
+}

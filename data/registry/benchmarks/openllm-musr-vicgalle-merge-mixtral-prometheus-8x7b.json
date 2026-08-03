@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-vicgalle-merge-mixtral-prometheus-8x7b",
+  "model_id": "vicgalle/Merge-Mixtral-Prometheus-8x7B",
+  "benchmark_name": "musr",
+  "score": 9.585416666666667,
+  "score_raw": 9.585416666666667,
+  "evaluation_date": "2024-05-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2418
+}

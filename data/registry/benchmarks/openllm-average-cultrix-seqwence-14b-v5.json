@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-cultrix-seqwence-14b-v5",
+  "model_id": "CultriX/SeQwence-14B-v5",
+  "benchmark_name": "average",
+  "score": 37.60854208566567,
+  "score_raw": 37.60854208566567,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 433
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-nexesenex-qwen-2-5-3b-smarteaz-0-01a",
+  "model_id": "Nexesenex/Qwen_2.5_3b_Smarteaz_0.01a",
+  "benchmark_name": "mmlu-pro",
+  "score": 20.665263002364064,
+  "score_raw": 20.665263002364064,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3086
+}

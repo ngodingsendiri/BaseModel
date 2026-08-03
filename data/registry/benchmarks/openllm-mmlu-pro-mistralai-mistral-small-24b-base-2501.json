@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-mistralai-mistral-small-24b-base-2501",
+  "model_id": "mistralai/Mistral-Small-24B-Base-2501",
+  "benchmark_name": "mmlu-pro",
+  "score": 48.96018026004729,
+  "score_raw": 48.96018026004729,
+  "evaluation_date": "2025-01-23",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 156
+}

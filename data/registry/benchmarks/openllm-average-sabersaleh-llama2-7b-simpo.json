@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sabersaleh-llama2-7b-simpo",
+  "model_id": "sabersaleh/Llama2-7B-SimPO",
+  "benchmark_name": "average",
+  "score": 7.610783251808889,
+  "score_raw": 7.610783251808889,
+  "evaluation_date": "2024-11-30",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3976
+}

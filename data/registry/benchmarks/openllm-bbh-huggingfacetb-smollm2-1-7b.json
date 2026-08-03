@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-huggingfacetb-smollm2-1-7b",
+  "model_id": "HuggingFaceTB/SmolLM2-1.7B",
+  "benchmark_name": "bbh",
+  "score": 9.301788459551682,
+  "score_raw": 9.301788459551682,
+  "evaluation_date": "2024-10-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3696
+}

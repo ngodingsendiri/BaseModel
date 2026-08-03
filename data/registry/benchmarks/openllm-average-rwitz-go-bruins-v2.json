@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-rwitz-go-bruins-v2",
+  "model_id": "rwitz/go-bruins-v2",
+  "benchmark_name": "average",
+  "score": 15.433967198473246,
+  "score_raw": 15.433967198473246,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3261
+}

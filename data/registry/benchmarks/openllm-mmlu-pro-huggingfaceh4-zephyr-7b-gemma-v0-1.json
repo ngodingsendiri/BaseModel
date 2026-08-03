@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-huggingfaceh4-zephyr-7b-gemma-v0-1",
+  "model_id": "HuggingFaceH4/zephyr-7b-gemma-v0.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 20.526743498817968,
+  "score_raw": 20.526743498817968,
+  "evaluation_date": "2024-03-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3099
+}

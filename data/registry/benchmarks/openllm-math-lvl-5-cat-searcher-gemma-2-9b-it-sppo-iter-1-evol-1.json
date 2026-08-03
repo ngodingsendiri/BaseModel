@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-cat-searcher-gemma-2-9b-it-sppo-iter-1-evol-1",
+  "model_id": "cat-searcher/gemma-2-9b-it-sppo-iter-1-evol-1",
+  "benchmark_name": "math-lvl-5",
+  "score": 8.534743202416918,
+  "score_raw": 8.534743202416918,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2602
+}

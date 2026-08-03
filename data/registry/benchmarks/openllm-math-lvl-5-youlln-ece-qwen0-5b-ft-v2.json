@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-youlln-ece-qwen0-5b-ft-v2",
+  "model_id": "Youlln/ECE-Qwen0.5B-FT-V2",
+  "benchmark_name": "math-lvl-5",
+  "score": 2.0392749244712993,
+  "score_raw": 2.0392749244712993,
+  "evaluation_date": "2024-10-11",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3904
+}

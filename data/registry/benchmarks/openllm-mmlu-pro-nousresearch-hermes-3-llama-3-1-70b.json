@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-nousresearch-hermes-3-llama-3-1-70b",
+  "model_id": "NousResearch/Hermes-3-Llama-3.1-70B",
+  "benchmark_name": "mmlu-pro",
+  "score": 41.40625,
+  "score_raw": 41.40625,
+  "evaluation_date": "2024-07-29",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 641
+}

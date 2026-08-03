@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-eworojoshua-vas-01",
+  "model_id": "eworojoshua/vas-01",
+  "benchmark_name": "mmlu-pro",
+  "score": 37.19525709219858,
+  "score_raw": 37.19525709219858,
+  "evaluation_date": "2025-02-24",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 962
+}

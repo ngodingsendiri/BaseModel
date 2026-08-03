@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-dreadpoor-nwah-8b-model-stock",
+  "model_id": "DreadPoor/Nwah-8B-Model_Stock",
+  "benchmark_name": "average",
+  "score": 29.720182729588192,
+  "score_raw": 29.720182729588192,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1074
+}

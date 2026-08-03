@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-hotmailuser-qwen2-5-homerslerp-7b",
+  "model_id": "hotmailuser/Qwen2.5-HomerSlerp-7B",
+  "benchmark_name": "mmlu-pro",
+  "score": 39.43003841607564,
+  "score_raw": 39.43003841607564,
+  "evaluation_date": "2024-12-07",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 711
+}

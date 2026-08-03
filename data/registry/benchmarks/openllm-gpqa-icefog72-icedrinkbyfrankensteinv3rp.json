@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-icefog72-icedrinkbyfrankensteinv3rp",
+  "model_id": "icefog72/IceDrinkByFrankensteinV3RP",
+  "benchmark_name": "gpqa",
+  "score": 1.5659955257270708,
+  "score_raw": 1.5659955257270708,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3859
+}

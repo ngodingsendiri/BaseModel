@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-minami-su-test-7b-00",
+  "model_id": "Minami-su/test-7B-00",
+  "benchmark_name": "bbh",
+  "score": 21.48995001898129,
+  "score_raw": 21.48995001898129,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3106
+}

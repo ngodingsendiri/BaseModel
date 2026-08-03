@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-mosama-qwen2-5-1-5b-instruct-cot-reflection",
+  "model_id": "mosama/Qwen2.5-1.5B-Instruct-CoT-Reflection",
+  "benchmark_name": "gpqa",
+  "score": 1.5659955257270708,
+  "score_raw": 1.5659955257270708,
+  "evaluation_date": "2024-12-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3863
+}

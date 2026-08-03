@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-gmonsoon-gemma2-9b-sahabatai-v1-instruct-baseties",
+  "model_id": "gmonsoon/gemma2-9b-sahabatai-v1-instruct-BaseTIES",
+  "benchmark_name": "musr",
+  "score": 19.12526041666666,
+  "score_raw": 19.12526041666666,
+  "evaluation_date": "2024-11-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 331
+}

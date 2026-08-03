@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-triangle104-lthreepointone-8b-hermesblackroot",
+  "model_id": "Triangle104/LThreePointOne-8B-HermesBlackroot",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.9637462235649545,
+  "score_raw": 1.9637462235649545,
+  "evaluation_date": "2025-02-14",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3926
+}

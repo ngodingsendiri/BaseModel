@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-mistralai-codestral-22b-v0-1",
+  "model_id": "mistralai/Codestral-22B-v0.1",
+  "benchmark_name": "average",
+  "score": 23.27991740686463,
+  "score_raw": 23.27991740686463,
+  "evaluation_date": "2024-05-29",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2028
+}

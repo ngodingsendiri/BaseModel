@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-theprint-cleverboi-nemo-12b-v2",
+  "model_id": "theprint/CleverBoi-Nemo-12B-v2",
+  "benchmark_name": "bbh",
+  "score": 31.65269522562221,
+  "score_raw": 31.65269522562221,
+  "evaluation_date": "2024-09-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1916
+}

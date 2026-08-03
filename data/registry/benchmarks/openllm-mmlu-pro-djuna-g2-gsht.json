@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-djuna-g2-gsht",
+  "model_id": "djuna/G2-GSHT",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.001625295508276,
+  "score_raw": 23.001625295508276,
+  "evaluation_date": "2024-09-09",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2786
+}

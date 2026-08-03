@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-kingnish-reasoning-llama-3b-v0-1",
+  "model_id": "KingNish/Reasoning-Llama-3b-v0.1",
+  "benchmark_name": "ifeval",
+  "score": 62.246284303426016,
+  "score_raw": 62.246284303426016,
+  "evaluation_date": "2024-10-10",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1162
+}

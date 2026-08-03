@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-skyorbis-sky-ko-qwen2-5-3b-instruct",
+  "model_id": "SkyOrbis/SKY-Ko-Qwen2.5-3B-Instruct",
+  "benchmark_name": "average",
+  "score": 15.791201412428551,
+  "score_raw": 15.791201412428551,
+  "evaluation_date": "2025-01-09",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3222
+}

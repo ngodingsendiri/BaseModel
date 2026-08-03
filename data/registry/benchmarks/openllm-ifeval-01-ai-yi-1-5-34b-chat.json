@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-01-ai-yi-1-5-34b-chat",
+  "model_id": "01-ai/Yi-1.5-34B-Chat",
+  "benchmark_name": "ifeval",
+  "score": 60.66758423205982,
+  "score_raw": 60.66758423205982,
+  "evaluation_date": "2024-05-10",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1237
+}

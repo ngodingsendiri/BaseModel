@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-lalainy-ece-prymmal-yl-6b-slerp-v1",
+  "model_id": "lalainy/ECE-PRYMMAL-YL-6B-SLERP-V1",
+  "benchmark_name": "average",
+  "score": 20.037041744632443,
+  "score_raw": 20.037041744632443,
+  "evaluation_date": "2024-11-08",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2676
+}

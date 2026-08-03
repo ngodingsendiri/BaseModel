@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-bamec66557-vicious-mesh-12b-union",
+  "model_id": "bamec66557/VICIOUS_MESH-12B-UNION",
+  "benchmark_name": "gpqa",
+  "score": 8.277404921700223,
+  "score_raw": 8.277404921700223,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1397
+}

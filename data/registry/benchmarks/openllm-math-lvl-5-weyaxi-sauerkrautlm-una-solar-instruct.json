@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-weyaxi-sauerkrautlm-una-solar-instruct",
+  "model_id": "Weyaxi/SauerkrautLM-UNA-SOLAR-Instruct",
+  "benchmark_name": "math-lvl-5",
+  "score": 4.607250755287009,
+  "score_raw": 4.607250755287009,
+  "evaluation_date": "2023-12-21",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3372
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-prithivmlmods-qwen2-5-7b-deepseek-r1-1m",
+  "model_id": "prithivMLmods/Qwen2.5-7B-DeepSeek-R1-1M",
+  "benchmark_name": "musr",
+  "score": 3.7109374999999996,
+  "score_raw": 3.7109374999999996,
+  "evaluation_date": "2025-01-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3761
+}

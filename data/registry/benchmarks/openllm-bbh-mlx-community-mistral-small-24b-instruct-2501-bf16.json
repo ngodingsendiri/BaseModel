@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-mlx-community-mistral-small-24b-instruct-2501-bf16",
+  "model_id": "mlx-community/Mistral-Small-24B-Instruct-2501-bf16",
+  "benchmark_name": "bbh",
+  "score": 52.39286892867324,
+  "score_raw": 52.39286892867324,
+  "evaluation_date": "2025-01-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 220
+}

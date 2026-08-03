@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-allknowingroger-strangecoven-7b-slerp",
+  "model_id": "allknowingroger/Strangecoven-7B-slerp",
+  "benchmark_name": "musr",
+  "score": 10.419010416666667,
+  "score_raw": 10.419010416666667,
+  "evaluation_date": "2024-05-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2165
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-weyaxi-bagel-hermes-34b-slerp",
+  "model_id": "Weyaxi/Bagel-Hermes-34B-Slerp",
+  "benchmark_name": "gpqa",
+  "score": 11.297539149888143,
+  "score_raw": 11.297539149888143,
+  "evaluation_date": "2024-01-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 804
+}

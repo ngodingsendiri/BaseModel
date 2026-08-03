@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-hotmailuser-mistral-modelstock-24b",
+  "model_id": "hotmailuser/Mistral-modelstock-24B",
+  "benchmark_name": "musr",
+  "score": 15.746875000000001,
+  "score_raw": 15.746875000000001,
+  "evaluation_date": "2025-02-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 737
+}

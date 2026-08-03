@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-lmsys-vicuna-7b-v1-3",
+  "model_id": "lmsys/vicuna-7b-v1.3",
+  "benchmark_name": "musr",
+  "score": 5.0166666666666675,
+  "score_raw": 5.0166666666666675,
+  "evaluation_date": "2023-06-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3447
+}

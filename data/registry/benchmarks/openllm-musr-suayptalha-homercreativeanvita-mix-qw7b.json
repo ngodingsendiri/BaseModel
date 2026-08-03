@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-suayptalha-homercreativeanvita-mix-qw7b",
+  "model_id": "suayptalha/HomerCreativeAnvita-Mix-Qw7B",
+  "benchmark_name": "musr",
+  "score": 14.732552083333337,
+  "score_raw": 14.732552083333337,
+  "evaluation_date": "2024-11-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 907
+}

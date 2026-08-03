@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-changgil-k2s3-v0-1",
+  "model_id": "Changgil/K2S3-v0.1",
+  "benchmark_name": "gpqa",
+  "score": 1.9015659955257262,
+  "score_raw": 1.9015659955257262,
+  "evaluation_date": "2024-04-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3708
+}

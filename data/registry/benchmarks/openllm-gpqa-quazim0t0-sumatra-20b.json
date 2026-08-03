@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-quazim0t0-sumatra-20b",
+  "model_id": "Quazim0t0/Sumatra-20b",
+  "benchmark_name": "gpqa",
+  "score": 10.17897091722595,
+  "score_raw": 10.17897091722595,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 964
+}

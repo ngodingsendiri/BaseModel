@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-quazim0t0-venti-20b",
+  "model_id": "Quazim0t0/Venti-20b",
+  "benchmark_name": "ifeval",
+  "score": 66.41034676879568,
+  "score_raw": 66.41034676879568,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 973
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dzgas-gigabateman-7b",
+  "model_id": "DZgas/GIGABATEMAN-7B",
+  "benchmark_name": "mmlu-pro",
+  "score": 24.183658392434985,
+  "score_raw": 24.183658392434985,
+  "evaluation_date": "2024-04-17",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2601
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-qingy2019-openmath2-llama3-1-8b",
+  "model_id": "qingy2019/OpenMath2-Llama3.1-8B",
+  "benchmark_name": "average",
+  "score": 12.751664730325508,
+  "score_raw": 12.751664730325508,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3526
+}

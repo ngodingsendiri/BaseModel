@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-minami-su-test-7b-01",
+  "model_id": "Minami-su/test-7B-01",
+  "benchmark_name": "average",
+  "score": 30.08150931571436,
+  "score_raw": 30.08150931571436,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1017
+}

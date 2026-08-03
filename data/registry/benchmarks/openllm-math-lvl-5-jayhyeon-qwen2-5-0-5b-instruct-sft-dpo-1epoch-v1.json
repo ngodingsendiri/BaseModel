@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-jayhyeon-qwen2-5-0-5b-instruct-sft-dpo-1epoch-v1",
+  "model_id": "JayHyeon/Qwen2.5-0.5B-Instruct-SFT-DPO-1epoch_v1",
+  "benchmark_name": "math-lvl-5",
+  "score": 6.495468277945618,
+  "score_raw": 6.495468277945618,
+  "evaluation_date": "2024-12-26",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2956
+}

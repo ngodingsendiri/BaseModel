@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-aurora-faustus-8b-linear",
+  "model_id": "DreadPoor/Aurora_faustus-8B-LINEAR",
+  "benchmark_name": "bbh",
+  "score": 36.26348248348271,
+  "score_raw": 36.26348248348271,
+  "evaluation_date": "2024-09-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1180
+}

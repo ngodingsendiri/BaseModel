@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-quazim0t0-nova-14b-sce",
+  "model_id": "Quazim0t0/Nova-14b-sce",
+  "benchmark_name": "gpqa",
+  "score": 15.100671140939594,
+  "score_raw": 15.100671140939594,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 400
+}

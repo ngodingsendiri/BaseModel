@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-supichi-bbaik29",
+  "model_id": "Supichi/BBAIK29",
+  "benchmark_name": "musr",
+  "score": 14.993750000000004,
+  "score_raw": 14.993750000000004,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 862
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-cultrix-qwen2-5-14b-broca",
+  "model_id": "CultriX/Qwen2.5-14B-Broca",
+  "benchmark_name": "gpqa",
+  "score": 18.232662192393736,
+  "score_raw": 18.232662192393736,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 151
+}

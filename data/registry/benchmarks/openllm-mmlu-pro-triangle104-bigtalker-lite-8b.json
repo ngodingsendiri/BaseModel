@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-triangle104-bigtalker-lite-8b",
+  "model_id": "Triangle104/BigTalker-Lite-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 27.009456264775412,
+  "score_raw": 27.009456264775412,
+  "evaluation_date": "2024-12-06",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2309
+}

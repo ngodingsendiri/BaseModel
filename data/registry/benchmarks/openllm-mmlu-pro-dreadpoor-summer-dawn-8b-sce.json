@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-summer-dawn-8b-sce",
+  "model_id": "DreadPoor/Summer_Dawn-8B-SCE",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.592494089834517,
+  "score_raw": 30.592494089834517,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1710
+}

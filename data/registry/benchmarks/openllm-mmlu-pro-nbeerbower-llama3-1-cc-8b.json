@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-nbeerbower-llama3-1-cc-8b",
+  "model_id": "nbeerbower/llama3.1-cc-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 26.076758274231683,
+  "score_raw": 26.076758274231683,
+  "evaluation_date": "2024-08-18",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2402
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-sometimesanotion-if-reasoning-experiment-80",
+  "model_id": "sometimesanotion/IF-reasoning-experiment-80",
+  "benchmark_name": "musr",
+  "score": 22.973958333333332,
+  "score_raw": 22.973958333333332,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 88
+}

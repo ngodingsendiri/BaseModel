@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-leroydyer-spydaz-web-ai-agi-r1-student-coder",
+  "model_id": "LeroyDyer/_Spydaz_Web_AI_AGI_R1_Student_Coder",
+  "benchmark_name": "ifeval",
+  "score": 54.49518388985669,
+  "score_raw": 54.49518388985669,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1560
+}

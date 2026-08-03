@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-hastagaras-l3-2-jametmini-3b-mk-iii",
+  "model_id": "Hastagaras/L3.2-JametMini-3B-MK.III",
+  "benchmark_name": "musr",
+  "score": 5.342187500000001,
+  "score_raw": 5.342187500000001,
+  "evaluation_date": "2024-10-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3377
+}

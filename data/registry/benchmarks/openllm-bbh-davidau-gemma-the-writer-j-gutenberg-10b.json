@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-davidau-gemma-the-writer-j-gutenberg-10b",
+  "model_id": "DavidAU/Gemma-The-Writer-J.GutenBerg-10B",
+  "benchmark_name": "bbh",
+  "score": 41.155990975297556,
+  "score_raw": 41.155990975297556,
+  "evaluation_date": "2024-10-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 911
+}

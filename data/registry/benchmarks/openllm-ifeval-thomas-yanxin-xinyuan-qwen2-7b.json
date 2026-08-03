@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-thomas-yanxin-xinyuan-qwen2-7b",
+  "model_id": "thomas-yanxin/XinYuan-Qwen2-7B",
+  "benchmark_name": "ifeval",
+  "score": 44.376033369238066,
+  "score_raw": 44.376033369238066,
+  "evaluation_date": "2024-08-21",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2351
+}

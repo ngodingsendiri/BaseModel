@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-ontocord-wide-3b-sft-stage1-1-ss1-with-r1-generics-intr-math-stories-no-issue",
+  "model_id": "ontocord/wide_3b_sft_stage1.1-ss1-with_r1_generics_intr_math_stories.no_issue",
+  "benchmark_name": "ifeval",
+  "score": 20.490742341431847,
+  "score_raw": 20.490742341431847,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3984
+}

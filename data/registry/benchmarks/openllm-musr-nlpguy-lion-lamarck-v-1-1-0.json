@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-nlpguy-lion-lamarck-v-1-1-0",
+  "model_id": "nlpguy/Lion-Lamarck-v.1.1.0",
+  "benchmark_name": "musr",
+  "score": 27.533072916666658,
+  "score_raw": 27.533072916666658,
+  "evaluation_date": "2025-01-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 17
+}

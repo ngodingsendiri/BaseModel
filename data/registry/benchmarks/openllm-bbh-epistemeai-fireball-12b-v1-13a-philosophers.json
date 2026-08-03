@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-epistemeai-fireball-12b-v1-13a-philosophers",
+  "model_id": "EpistemeAI/Fireball-12B-v1.13a-philosophers",
+  "benchmark_name": "bbh",
+  "score": 30.336232640303574,
+  "score_raw": 30.336232640303574,
+  "evaluation_date": "2024-08-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2147
+}

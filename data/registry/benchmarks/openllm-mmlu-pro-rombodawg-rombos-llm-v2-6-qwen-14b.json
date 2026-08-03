@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-rombodawg-rombos-llm-v2-6-qwen-14b",
+  "model_id": "rombodawg/Rombos-LLM-V2.6-Qwen-14b",
+  "benchmark_name": "mmlu-pro",
+  "score": 44.01041666666667,
+  "score_raw": 44.01041666666667,
+  "evaluation_date": "2024-10-12",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 576
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-lgai-exaone-exaone-3-0-7-8b-instruct",
+  "model_id": "LGAI-EXAONE/EXAONE-3.0-7.8B-Instruct",
+  "benchmark_name": "math-lvl-5",
+  "score": 30.438066465256796,
+  "score_raw": 30.438066465256796,
+  "evaluation_date": "2024-07-31",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 814
+}

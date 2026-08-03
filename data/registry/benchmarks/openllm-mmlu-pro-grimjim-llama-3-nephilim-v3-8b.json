@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-grimjim-llama-3-nephilim-v3-8b",
+  "model_id": "grimjim/llama-3-Nephilim-v3-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.022606382978722,
+  "score_raw": 29.022606382978722,
+  "evaluation_date": "2024-07-14",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2039
+}

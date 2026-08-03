@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-llm4binary-llm4decompile-1-3b-v2",
+  "model_id": "LLM4Binary/llm4decompile-1.3b-v2",
+  "benchmark_name": "ifeval",
+  "score": 22.67893633337323,
+  "score_raw": 22.67893633337323,
+  "evaluation_date": "2024-06-18",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3840
+}

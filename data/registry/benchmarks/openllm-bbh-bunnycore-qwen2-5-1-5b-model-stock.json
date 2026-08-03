@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-bunnycore-qwen2-5-1-5b-model-stock",
+  "model_id": "bunnycore/Qwen2.5-1.5B-Model-Stock",
+  "benchmark_name": "bbh",
+  "score": 1.430207460042271,
+  "score_raw": 1.430207460042271,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4545
+}

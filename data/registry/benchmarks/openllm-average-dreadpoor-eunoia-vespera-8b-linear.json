@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-dreadpoor-eunoia-vespera-8b-linear",
+  "model_id": "DreadPoor/Eunoia_Vespera-8B-LINEAR",
+  "benchmark_name": "average",
+  "score": 28.956332369127022,
+  "score_raw": 28.956332369127022,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1185
+}

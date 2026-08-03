@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-quazim0t0-venti-20b",
+  "model_id": "Quazim0t0/Venti-20b",
+  "benchmark_name": "musr",
+  "score": 15.197395833333337,
+  "score_raw": 15.197395833333337,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 820
+}

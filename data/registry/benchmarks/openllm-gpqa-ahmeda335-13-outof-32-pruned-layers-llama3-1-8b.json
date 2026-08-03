@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-ahmeda335-13-outof-32-pruned-layers-llama3-1-8b",
+  "model_id": "ahmeda335/13_outOf_32_pruned_layers_llama3.1-8b",
+  "benchmark_name": "gpqa",
+  "score": 1.230425055928408,
+  "score_raw": 1.230425055928408,
+  "evaluation_date": "2024-10-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4021
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-dreadpoor-winter-dusk-8b-ties",
+  "model_id": "DreadPoor/Winter_Dusk-8B-TIES",
+  "benchmark_name": "ifeval",
+  "score": 71.52610628687438,
+  "score_raw": 71.52610628687438,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 677
+}

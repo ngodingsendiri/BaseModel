@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-aicoressecurity-cybernet-sec-3b-r1-v0-coder",
+  "model_id": "AicoresSecurity/Cybernet-Sec-3B-R1-V0-Coder",
+  "benchmark_name": "gpqa",
+  "score": 2.9082774049216997,
+  "score_raw": 2.9082774049216997,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3329
+}

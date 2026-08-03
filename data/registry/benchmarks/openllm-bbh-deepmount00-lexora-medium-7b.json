@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-deepmount00-lexora-medium-7b",
+  "model_id": "DeepMount00/Lexora-Medium-7B",
+  "benchmark_name": "bbh",
+  "score": 32.6953311808552,
+  "score_raw": 32.6953311808552,
+  "evaluation_date": "2024-09-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1709
+}

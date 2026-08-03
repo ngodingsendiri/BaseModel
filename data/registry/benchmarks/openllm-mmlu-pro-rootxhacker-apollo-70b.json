@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-rootxhacker-apollo-70b",
+  "model_id": "rootxhacker/Apollo-70B",
+  "benchmark_name": "mmlu-pro",
+  "score": 47.54728132387708,
+  "score_raw": 47.54728132387708,
+  "evaluation_date": "2025-03-02",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 366
+}

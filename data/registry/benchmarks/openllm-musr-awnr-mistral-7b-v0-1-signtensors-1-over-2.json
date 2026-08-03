@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-awnr-mistral-7b-v0-1-signtensors-1-over-2",
+  "model_id": "awnr/Mistral-7B-v0.1-signtensors-1-over-2",
+  "benchmark_name": "musr",
+  "score": 8.80885416666667,
+  "score_raw": 8.80885416666667,
+  "evaluation_date": "2024-06-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2624
+}

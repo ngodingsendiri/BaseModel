@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-nvidia-acemath-1-5b-instruct",
+  "model_id": "nvidia/AceMath-1.5B-Instruct",
+  "benchmark_name": "ifeval",
+  "score": 32.1236541266063,
+  "score_raw": 32.1236541266063,
+  "evaluation_date": "2025-01-13",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3200
+}

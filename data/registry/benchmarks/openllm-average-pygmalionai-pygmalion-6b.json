@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-pygmalionai-pygmalion-6b",
+  "model_id": "PygmalionAI/pygmalion-6b",
+  "benchmark_name": "average",
+  "score": 5.430124009362374,
+  "score_raw": 5.430124009362374,
+  "evaluation_date": "2023-01-07",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4231
+}

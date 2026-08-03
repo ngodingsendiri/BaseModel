@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-sicariussicariistuff-dn-ep02",
+  "model_id": "SicariusSicariiStuff/dn_ep02",
+  "benchmark_name": "bbh",
+  "score": 32.6437741461978,
+  "score_raw": 32.6437741461978,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1723
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-heraihench-double-down-qwen-math-7b",
+  "model_id": "HeraiHench/Double-Down-Qwen-Math-7B",
+  "benchmark_name": "gpqa",
+  "score": 2.0134228187919474,
+  "score_raw": 2.0134228187919474,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3664
+}

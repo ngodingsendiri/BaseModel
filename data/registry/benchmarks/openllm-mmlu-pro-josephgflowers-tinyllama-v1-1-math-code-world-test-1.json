@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-josephgflowers-tinyllama-v1-1-math-code-world-test-1",
+  "model_id": "Josephgflowers/TinyLlama_v1.1_math_code-world-test-1",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.466459810874704,
+  "score_raw": 1.466459810874704,
+  "evaluation_date": "2024-06-23",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4339
+}

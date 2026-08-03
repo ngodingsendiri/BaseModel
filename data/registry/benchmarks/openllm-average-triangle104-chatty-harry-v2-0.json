@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-triangle104-chatty-harry-v2-0",
+  "model_id": "Triangle104/Chatty-Harry_V2.0",
+  "benchmark_name": "average",
+  "score": 21.833190818566663,
+  "score_raw": 21.833190818566663,
+  "evaluation_date": "2024-10-27",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2306
+}

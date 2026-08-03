@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-shreyash2010-uma-4x4b-instruct-v0-1",
+  "model_id": "Shreyash2010/Uma-4x4B-Instruct-v0.1",
+  "benchmark_name": "bbh",
+  "score": 36.28453127383045,
+  "score_raw": 36.28453127383045,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1177
+}

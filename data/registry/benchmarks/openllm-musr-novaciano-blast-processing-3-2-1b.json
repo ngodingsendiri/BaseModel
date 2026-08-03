@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-novaciano-blast-processing-3-2-1b",
+  "model_id": "Novaciano/BLAST_PROCESSING-3.2-1B",
+  "benchmark_name": "musr",
+  "score": 3.0598958333333326,
+  "score_raw": 3.0598958333333326,
+  "evaluation_date": "2025-03-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3911
+}

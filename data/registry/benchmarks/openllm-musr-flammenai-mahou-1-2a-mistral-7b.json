@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-flammenai-mahou-1-2a-mistral-7b",
+  "model_id": "flammenai/Mahou-1.2a-mistral-7B",
+  "benchmark_name": "musr",
+  "score": 6.969791666666668,
+  "score_raw": 6.969791666666668,
+  "evaluation_date": "2024-05-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3067
+}

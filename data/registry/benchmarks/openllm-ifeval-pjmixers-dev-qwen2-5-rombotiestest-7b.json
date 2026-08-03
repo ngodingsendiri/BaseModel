@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-pjmixers-dev-qwen2-5-rombotiestest-7b",
+  "model_id": "PJMixers-Dev/Qwen2.5-RomboTiesTest-7B",
+  "benchmark_name": "ifeval",
+  "score": 75.58023821238757,
+  "score_raw": 75.58023821238757,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 403
+}

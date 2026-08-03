@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nvidia-acemath-72b-rm",
+  "model_id": "nvidia/AceMath-72B-RM",
+  "benchmark_name": "average",
+  "score": 3.4288267214523853,
+  "score_raw": 3.4288267214523853,
+  "evaluation_date": "2025-01-14",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4534
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-huggingfaceh4-zephyr-7b-gemma-v0-1",
+  "model_id": "HuggingFaceH4/zephyr-7b-gemma-v0.1",
+  "benchmark_name": "musr",
+  "score": 4.179427083333334,
+  "score_raw": 4.179427083333334,
+  "evaluation_date": "2024-03-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3634
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-bunnycore-phi-4-stock-ex",
+  "model_id": "bunnycore/Phi-4-Stock-Ex",
+  "benchmark_name": "musr",
+  "score": 17.462239583333332,
+  "score_raw": 17.462239583333332,
+  "evaluation_date": "2025-01-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 516
+}

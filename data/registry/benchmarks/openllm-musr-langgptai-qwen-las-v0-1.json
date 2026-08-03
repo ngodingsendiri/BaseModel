@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-langgptai-qwen-las-v0-1",
+  "model_id": "langgptai/Qwen-las-v0.1",
+  "benchmark_name": "musr",
+  "score": 3.66171875,
+  "score_raw": 3.66171875,
+  "evaluation_date": "2024-05-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3772
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-weyaxi-einstein-v6-1-developed-by-weyaxi-llama3-8b",
+  "model_id": "Weyaxi/Einstein-v6.1-developed-by-Weyaxi-Llama3-8B",
+  "benchmark_name": "average",
+  "score": 19.318742706301332,
+  "score_raw": 19.318742706301332,
+  "evaluation_date": "2024-06-23",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2789
+}

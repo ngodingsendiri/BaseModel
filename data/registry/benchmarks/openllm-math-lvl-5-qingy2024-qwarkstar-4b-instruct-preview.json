@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-qingy2024-qwarkstar-4b-instruct-preview",
+  "model_id": "qingy2024/Qwarkstar-4B-Instruct-Preview",
+  "benchmark_name": "math-lvl-5",
+  "score": 12.83987915407855,
+  "score_raw": 12.83987915407855,
+  "evaluation_date": "2025-01-10",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1960
+}

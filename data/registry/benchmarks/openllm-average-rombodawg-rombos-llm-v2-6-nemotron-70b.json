@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-rombodawg-rombos-llm-v2-6-nemotron-70b",
+  "model_id": "rombodawg/Rombos-LLM-V2.6-Nemotron-70b",
+  "benchmark_name": "average",
+  "score": 41.94623049260674,
+  "score_raw": 41.94623049260674,
+  "evaluation_date": "2024-10-17",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 117
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-doppelreflex-miniuslight-24b-v1b-test",
+  "model_id": "DoppelReflEx/MiniusLight-24B-v1b-test",
+  "benchmark_name": "ifeval",
+  "score": 37.911408396388246,
+  "score_raw": 37.911408396388246,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2861
+}

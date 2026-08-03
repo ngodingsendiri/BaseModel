@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-noname0202-llama-math-1b-r8-512tokens-test",
+  "model_id": "noname0202/llama-math-1b-r8-512tokens-test",
+  "benchmark_name": "bbh",
+  "score": 8.396798396874248,
+  "score_raw": 8.396798396874248,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3747
+}

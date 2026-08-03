@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-open-atlas-atlas-flash-1-5b-preview",
+  "model_id": "open-atlas/Atlas-Flash-1.5B-Preview",
+  "benchmark_name": "average",
+  "score": 11.111374803615627,
+  "score_raw": 11.111374803615627,
+  "evaluation_date": "2025-01-26",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3662
+}

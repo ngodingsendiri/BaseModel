@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-maziyarpanahi-calme-4x7b-moe-v0-2",
+  "model_id": "MaziyarPanahi/Calme-4x7B-MoE-v0.2",
+  "benchmark_name": "bbh",
+  "score": 31.396819621762447,
+  "score_raw": 31.396819621762447,
+  "evaluation_date": "2024-03-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1965
+}

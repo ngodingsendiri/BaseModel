@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-haoranxu-llama-3-instruct-8b-cpo-simpo",
+  "model_id": "haoranxu/Llama-3-Instruct-8B-CPO-SimPO",
+  "benchmark_name": "ifeval",
+  "score": 70.46447869430888,
+  "score_raw": 70.46447869430888,
+  "evaluation_date": "2024-06-19",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 741
+}

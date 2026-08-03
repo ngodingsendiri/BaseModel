@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-allknowingroger-qwenslerp3-7b",
+  "model_id": "allknowingroger/Qwenslerp3-7B",
+  "benchmark_name": "average",
+  "score": 30.63274991183272,
+  "score_raw": 30.63274991183272,
+  "evaluation_date": "2024-10-31",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 940
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-lunzima-nqlsg-qwen2-5-14b-megafusion-v9-stock",
+  "model_id": "Lunzima/NQLSG-Qwen2.5-14B-MegaFusion-v9-stock",
+  "benchmark_name": "average",
+  "score": 40.70544769121661,
+  "score_raw": 40.70544769121661,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 219
+}

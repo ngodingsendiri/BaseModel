@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-sunbaby-braincog-8b-0-1-instruct",
+  "model_id": "sunbaby/BrainCog-8B-0.1-Instruct",
+  "benchmark_name": "gpqa",
+  "score": 6.823266219239373,
+  "score_raw": 6.823266219239373,
+  "evaluation_date": "2024-07-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1964
+}

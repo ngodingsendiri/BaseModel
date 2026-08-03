@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-lemon07r-gemma-2-ataraxy-v4b-9b",
+  "model_id": "lemon07r/Gemma-2-Ataraxy-v4b-9B",
+  "benchmark_name": "math-lvl-5",
+  "score": 23.338368580060422,
+  "score_raw": 23.338368580060422,
+  "evaluation_date": "2024-10-16",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1057
+}

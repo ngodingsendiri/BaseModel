@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-cultrix-qwen2-5-14b-wernicke-slerp",
+  "model_id": "CultriX/Qwen2.5-14B-Wernicke-SLERP",
+  "benchmark_name": "average",
+  "score": 36.5436519453458,
+  "score_raw": 36.5436519453458,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 514
+}

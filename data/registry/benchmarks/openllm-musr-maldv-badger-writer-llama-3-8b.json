@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-maldv-badger-writer-llama-3-8b",
+  "model_id": "maldv/badger-writer-llama-3-8b",
+  "benchmark_name": "musr",
+  "score": 3.195052083333334,
+  "score_raw": 3.195052083333334,
+  "evaluation_date": "2024-06-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3879
+}

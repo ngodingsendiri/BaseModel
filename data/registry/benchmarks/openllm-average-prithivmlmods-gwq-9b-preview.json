@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-gwq-9b-preview",
+  "model_id": "prithivMLmods/GWQ-9B-Preview",
+  "benchmark_name": "average",
+  "score": 30.15453648521797,
+  "score_raw": 30.15453648521797,
+  "evaluation_date": "2025-01-04",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1003
+}

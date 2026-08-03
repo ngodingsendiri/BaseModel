@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-delta-vector-darkens-8b",
+  "model_id": "Delta-Vector/Darkens-8B",
+  "benchmark_name": "bbh",
+  "score": 32.88379503743108,
+  "score_raw": 32.88379503743108,
+  "evaluation_date": "2024-09-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1668
+}

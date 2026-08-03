@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-noname0202-llama-math-1b-r32-0to512tokens-test",
+  "model_id": "noname0202/llama-math-1b-r32-0to512tokens-test",
+  "benchmark_name": "ifeval",
+  "score": 56.825777825059724,
+  "score_raw": 56.825777825059724,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1422
+}

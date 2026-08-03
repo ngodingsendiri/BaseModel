@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-princeton-nlp-mistral-7b-instruct-orpo",
+  "model_id": "princeton-nlp/Mistral-7B-Instruct-ORPO",
+  "benchmark_name": "bbh",
+  "score": 18.038372836612158,
+  "score_raw": 18.038372836612158,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3329
+}

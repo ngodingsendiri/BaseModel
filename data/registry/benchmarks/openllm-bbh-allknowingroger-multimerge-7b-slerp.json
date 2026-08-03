@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-allknowingroger-multimerge-7b-slerp",
+  "model_id": "allknowingroger/MultiMerge-7B-slerp",
+  "benchmark_name": "bbh",
+  "score": 31.803983321994554,
+  "score_raw": 31.803983321994554,
+  "evaluation_date": "2024-04-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1887
+}

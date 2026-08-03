@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-jayhyeon-qwen-0-5-vipo-5e-7-3ep-10vpo-const",
+  "model_id": "JayHyeon/Qwen_0.5-VIPO_5e-7-3ep_10vpo_const",
+  "benchmark_name": "mmlu-pro",
+  "score": 6.4623965721040175,
+  "score_raw": 6.4623965721040175,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3854
+}

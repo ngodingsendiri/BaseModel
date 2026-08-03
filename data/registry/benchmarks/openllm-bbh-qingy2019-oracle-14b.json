@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-qingy2019-oracle-14b",
+  "model_id": "qingy2019/Oracle-14B",
+  "benchmark_name": "bbh",
+  "score": 23.18463030799016,
+  "score_raw": 23.18463030799016,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2965
+}

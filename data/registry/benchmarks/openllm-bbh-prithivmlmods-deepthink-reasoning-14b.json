@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-prithivmlmods-deepthink-reasoning-14b",
+  "model_id": "prithivMLmods/Deepthink-Reasoning-14B",
+  "benchmark_name": "bbh",
+  "score": 47.30625659928727,
+  "score_raw": 47.30625659928727,
+  "evaluation_date": "2025-01-20",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 583
+}

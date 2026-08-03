@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-quazim0t0-tbl-8b-sce",
+  "model_id": "Quazim0t0/TBL-8B-sce",
+  "benchmark_name": "math-lvl-5",
+  "score": 15.332326283987916,
+  "score_raw": 15.332326283987916,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1704
+}

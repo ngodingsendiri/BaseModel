@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-mergekit-nuslerp-nqzkedi",
+  "model_id": "DreadPoor/mergekit-nuslerp-nqzkedi",
+  "benchmark_name": "gpqa",
+  "score": 6.823266219239373,
+  "score_raw": 6.823266219239373,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1932
+}

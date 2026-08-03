@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-cloudyu-mixtral-34bx2-moe-60b",
+  "model_id": "cloudyu/Mixtral_34Bx2_MoE_60B",
+  "benchmark_name": "ifeval",
+  "score": 45.37770892343427,
+  "score_raw": 45.37770892343427,
+  "evaluation_date": "2024-01-05",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2264
+}

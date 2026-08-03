@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-manolopueblo-llm-merge-cc3",
+  "model_id": "ManoloPueblo/LLM_MERGE_CC3",
+  "benchmark_name": "gpqa",
+  "score": 7.941834451901568,
+  "score_raw": 7.941834451901568,
+  "evaluation_date": "2024-11-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1498
+}

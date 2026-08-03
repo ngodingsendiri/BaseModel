@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nexesenex-llama-3-1-8b-smarteaz-v1-01",
+  "model_id": "Nexesenex/Llama_3.1_8b_Smarteaz_V1.01",
+  "benchmark_name": "average",
+  "score": 30.623634123187415,
+  "score_raw": 30.623634123187415,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 941
+}

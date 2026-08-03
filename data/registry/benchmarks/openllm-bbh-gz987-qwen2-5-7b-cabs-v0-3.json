@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-gz987-qwen2-5-7b-cabs-v0-3",
+  "model_id": "gz987/qwen2.5-7b-cabs-v0.3",
+  "benchmark_name": "bbh",
+  "score": 35.95665199827286,
+  "score_raw": 35.95665199827286,
+  "evaluation_date": "2025-02-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1226
+}

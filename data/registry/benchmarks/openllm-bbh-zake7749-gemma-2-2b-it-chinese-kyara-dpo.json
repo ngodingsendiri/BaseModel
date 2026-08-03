@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-zake7749-gemma-2-2b-it-chinese-kyara-dpo",
+  "model_id": "zake7749/gemma-2-2b-it-chinese-kyara-dpo",
+  "benchmark_name": "bbh",
+  "score": 19.061804188812648,
+  "score_raw": 19.061804188812648,
+  "evaluation_date": "2024-08-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3271
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-spestly-athena-1-3b",
+  "model_id": "Spestly/Athena-1-3B",
+  "benchmark_name": "mmlu-pro",
+  "score": 27.988327423167853,
+  "score_raw": 27.988327423167853,
+  "evaluation_date": "2024-12-18",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2186
+}

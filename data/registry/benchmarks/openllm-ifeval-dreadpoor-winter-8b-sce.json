@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-dreadpoor-winter-8b-sce",
+  "model_id": "DreadPoor/Winter-8B-SCE",
+  "benchmark_name": "ifeval",
+  "score": 75.3629259254334,
+  "score_raw": 75.3629259254334,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 416
+}

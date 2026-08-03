@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-vicgalle-carbonbeagle-11b",
+  "model_id": "vicgalle/CarbonBeagle-11B",
+  "benchmark_name": "mmlu-pro",
+  "score": 25.29181442080378,
+  "score_raw": 25.29181442080378,
+  "evaluation_date": "2024-01-21",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2499
+}

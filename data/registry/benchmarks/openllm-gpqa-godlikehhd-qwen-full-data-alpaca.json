@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-godlikehhd-qwen-full-data-alpaca",
+  "model_id": "godlikehhd/qwen_full_data_alpaca",
+  "benchmark_name": "gpqa",
+  "score": 5.7046979865771785,
+  "score_raw": 5.7046979865771785,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2381
+}

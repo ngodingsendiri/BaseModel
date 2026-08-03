@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-xinchen9-llama3-1-cot",
+  "model_id": "xinchen9/Llama3.1_CoT",
+  "benchmark_name": "average",
+  "score": 13.741515006547855,
+  "score_raw": 13.741515006547855,
+  "evaluation_date": "2024-09-04",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3448
+}

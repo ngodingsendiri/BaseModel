@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-deepautoai-ldm-soup-llama-3-1-8b-inst",
+  "model_id": "DeepAutoAI/ldm_soup_Llama-3.1-8B-Inst",
+  "benchmark_name": "average",
+  "score": 29.85905810866196,
+  "score_raw": 29.85905810866196,
+  "evaluation_date": "2024-09-16",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1055
+}

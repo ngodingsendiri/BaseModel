@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-dreadpoor-hakuchido-8b-model-stock",
+  "model_id": "DreadPoor/hakuchido-8B-MODEL_STOCK",
+  "benchmark_name": "average",
+  "score": 29.346239826870143,
+  "score_raw": 29.346239826870143,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1132
+}

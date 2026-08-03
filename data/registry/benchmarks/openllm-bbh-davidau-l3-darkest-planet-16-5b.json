@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-davidau-l3-darkest-planet-16-5b",
+  "model_id": "DavidAU/L3-DARKEST-PLANET-16.5B",
+  "benchmark_name": "bbh",
+  "score": 31.776241491685315,
+  "score_raw": 31.776241491685315,
+  "evaluation_date": "2024-10-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1895
+}

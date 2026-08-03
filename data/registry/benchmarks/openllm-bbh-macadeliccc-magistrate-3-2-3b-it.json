@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-macadeliccc-magistrate-3-2-3b-it",
+  "model_id": "macadeliccc/magistrate-3.2-3b-it",
+  "benchmark_name": "bbh",
+  "score": 5.323155419813335,
+  "score_raw": 5.323155419813335,
+  "evaluation_date": "2024-10-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4087
+}

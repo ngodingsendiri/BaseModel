@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-jaspionjader-kosmos-evaa-tsn-v21-8b",
+  "model_id": "jaspionjader/Kosmos-EVAA-TSN-v21-8B",
+  "benchmark_name": "average",
+  "score": 23.968398200512283,
+  "score_raw": 23.968398200512283,
+  "evaluation_date": "2024-12-28",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1849
+}

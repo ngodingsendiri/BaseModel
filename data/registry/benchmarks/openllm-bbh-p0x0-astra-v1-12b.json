@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-p0x0-astra-v1-12b",
+  "model_id": "P0x0/Astra-v1-12B",
+  "benchmark_name": "bbh",
+  "score": 31.80990734117942,
+  "score_raw": 31.80990734117942,
+  "evaluation_date": "2024-09-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1885
+}

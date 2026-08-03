@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-recoilme-gemma-2-ataraxy-gemmasutra-9b-slerp",
+  "model_id": "recoilme/Gemma-2-Ataraxy-Gemmasutra-9B-slerp",
+  "benchmark_name": "mmlu-pro",
+  "score": 35.13593380614657,
+  "score_raw": 35.13593380614657,
+  "evaluation_date": "2024-09-11",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1108
+}

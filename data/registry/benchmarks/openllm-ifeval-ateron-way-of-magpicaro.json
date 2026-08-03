@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-ateron-way-of-magpicaro",
+  "model_id": "Ateron/Way_of_MagPicaro",
+  "benchmark_name": "ifeval",
+  "score": 26.37091805298829,
+  "score_raw": 26.37091805298829,
+  "evaluation_date": "2025-02-15",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3499
+}

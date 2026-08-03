@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-epistemeai-mistral-nemo-instruct-12b-philosophy-math",
+  "model_id": "EpistemeAI/Mistral-Nemo-Instruct-12B-Philosophy-Math",
+  "benchmark_name": "mmlu-pro",
+  "score": 25.513445626477537,
+  "score_raw": 25.513445626477537,
+  "evaluation_date": "2024-09-15",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2465
+}

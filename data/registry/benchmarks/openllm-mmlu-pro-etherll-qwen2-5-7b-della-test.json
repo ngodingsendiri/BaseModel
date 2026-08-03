@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-etherll-qwen2-5-7b-della-test",
+  "model_id": "Etherll/Qwen2.5-7B-della-test",
+  "benchmark_name": "mmlu-pro",
+  "score": 37.34301122931442,
+  "score_raw": 37.34301122931442,
+  "evaluation_date": "2024-11-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 941
+}

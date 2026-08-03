@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-dreadpoor-lava-lamp-8b-slerp",
+  "model_id": "DreadPoor/Lava_Lamp-8B-SLERP",
+  "benchmark_name": "ifeval",
+  "score": 73.81170848903133,
+  "score_raw": 73.81170848903133,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 517
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-luni-stardust-12b-v2",
+  "model_id": "Luni/StarDust-12b-v2",
+  "benchmark_name": "average",
+  "score": 24.215076436734588,
+  "score_raw": 24.215076436734588,
+  "evaluation_date": "2024-09-01",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1764
+}

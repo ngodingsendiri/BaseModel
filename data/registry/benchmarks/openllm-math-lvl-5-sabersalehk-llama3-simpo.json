@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sabersalehk-llama3-simpo",
+  "model_id": "sabersalehk/Llama3-SimPO",
+  "benchmark_name": "math-lvl-5",
+  "score": 5.740181268882175,
+  "score_raw": 5.740181268882175,
+  "evaluation_date": "2024-12-02",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3121
+}

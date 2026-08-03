@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-sam-paech-darkest-muse-v1",
+  "model_id": "sam-paech/Darkest-muse-v1",
+  "benchmark_name": "bbh",
+  "score": 42.61173126837064,
+  "score_raw": 42.61173126837064,
+  "evaluation_date": "2024-10-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 837
+}

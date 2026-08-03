@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-maziyarpanahi-llama-3-8b-instruct-v0-8",
+  "model_id": "MaziyarPanahi/Llama-3-8B-Instruct-v0.8",
+  "benchmark_name": "bbh",
+  "score": 28.270418759783485,
+  "score_raw": 28.270418759783485,
+  "evaluation_date": "2024-05-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2459
+}

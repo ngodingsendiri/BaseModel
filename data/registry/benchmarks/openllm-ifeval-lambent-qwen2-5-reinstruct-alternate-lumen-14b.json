@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-lambent-qwen2-5-reinstruct-alternate-lumen-14b",
+  "model_id": "Lambent/qwen2.5-reinstruct-alternate-lumen-14B",
+  "benchmark_name": "ifeval",
+  "score": 47.93813747523238,
+  "score_raw": 47.93813747523238,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2014
+}

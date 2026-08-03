@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-triangle104-l3-1-8b-dusky-ink-v0-r1",
+  "model_id": "Triangle104/L3.1-8B-Dusky-Ink_v0.r1",
+  "benchmark_name": "ifeval",
+  "score": 19.848779017451474,
+  "score_raw": 19.848779017451474,
+  "evaluation_date": "2025-02-08",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4032
+}

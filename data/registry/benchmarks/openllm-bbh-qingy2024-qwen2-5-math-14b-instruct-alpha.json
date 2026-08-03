@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-qingy2024-qwen2-5-math-14b-instruct-alpha",
+  "model_id": "qingy2024/Qwen2.5-Math-14B-Instruct-Alpha",
+  "benchmark_name": "bbh",
+  "score": 50.1795027462589,
+  "score_raw": 50.1795027462589,
+  "evaluation_date": "2024-12-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 366
+}

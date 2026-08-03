@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-bee-spoke-data-tfine-900m-e16-d32-flan-infinity-instruct-7m-t2t-en-1024",
+  "model_id": "BEE-spoke-data/tFINE-900m-e16-d32-flan-infinity-instruct-7m-T2T_en-1024",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.0574018126888218,
+  "score_raw": 1.0574018126888218,
+  "evaluation_date": "2024-09-10",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4194
+}

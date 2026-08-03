@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-norquinal-alpha",
+  "model_id": "Norquinal/Alpha",
+  "benchmark_name": "mmlu-pro",
+  "score": 22.25361997635934,
+  "score_raw": 22.25361997635934,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2907
+}

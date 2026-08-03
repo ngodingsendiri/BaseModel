@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-mkurman-llama-3-2-medit-3b-o1",
+  "model_id": "mkurman/llama-3.2-MEDIT-3B-o1",
+  "benchmark_name": "ifeval",
+  "score": 43.81651795015004,
+  "score_raw": 43.81651795015004,
+  "evaluation_date": "2025-01-03",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2413
+}

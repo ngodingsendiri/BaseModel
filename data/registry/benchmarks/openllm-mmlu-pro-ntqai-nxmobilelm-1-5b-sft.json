@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ntqai-nxmobilelm-1-5b-sft",
+  "model_id": "NTQAI/NxMobileLM-1.5B-SFT",
+  "benchmark_name": "mmlu-pro",
+  "score": 20.194296690307326,
+  "score_raw": 20.194296690307326,
+  "evaluation_date": "2025-01-15",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3133
+}

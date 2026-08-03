@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-1tuanpham-t-visstar-v0-1",
+  "model_id": "1TuanPham/T-VisStar-v0.1",
+  "benchmark_name": "bbh",
+  "score": 30.24383447882599,
+  "score_raw": 30.24383447882599,
+  "evaluation_date": "2024-09-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2164
+}

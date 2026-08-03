@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-sometimesanotion-qwenvergence-14b-v13-prose-ds",
+  "model_id": "sometimesanotion/Qwenvergence-14B-v13-Prose-DS",
+  "benchmark_name": "bbh",
+  "score": 48.43969044109607,
+  "score_raw": 48.43969044109607,
+  "evaluation_date": "2025-02-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 522
+}

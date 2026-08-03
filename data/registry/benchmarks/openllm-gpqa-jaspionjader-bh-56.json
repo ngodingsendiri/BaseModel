@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-jaspionjader-bh-56",
+  "model_id": "jaspionjader/bh-56",
+  "benchmark_name": "gpqa",
+  "score": 6.711409395973152,
+  "score_raw": 6.711409395973152,
+  "evaluation_date": "2025-02-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1994
+}

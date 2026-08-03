@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-agentlans-llama3-1-lexihermes-superstorm",
+  "model_id": "agentlans/Llama3.1-LexiHermes-SuperStorm",
+  "benchmark_name": "math-lvl-5",
+  "score": 16.1631419939577,
+  "score_raw": 16.1631419939577,
+  "evaluation_date": "2025-02-12",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1634
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-netcat420-mfann-phigments-slerp-v2",
+  "model_id": "netcat420/MFANN-phigments-slerp-V2",
+  "benchmark_name": "musr",
+  "score": 13.099479166666663,
+  "score_raw": 13.099479166666663,
+  "evaluation_date": "2024-10-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1270
+}

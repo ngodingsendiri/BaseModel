@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-contactdoctor-bio-medical-llama-3-8b",
+  "model_id": "ContactDoctor/Bio-Medical-Llama-3-8B",
+  "benchmark_name": "musr",
+  "score": 1.7578124999999993,
+  "score_raw": 1.7578124999999993,
+  "evaluation_date": "2024-08-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4239
+}

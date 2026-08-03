@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-godlikehhd-ifd-2500-qwen",
+  "model_id": "godlikehhd/ifd_2500_qwen",
+  "benchmark_name": "musr",
+  "score": 7.250260416666667,
+  "score_raw": 7.250260416666667,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3014
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-khoantap-llama-linear-0-5-0-5-1-merge",
+  "model_id": "khoantap/llama-linear-0.5-0.5-1-merge",
+  "benchmark_name": "math-lvl-5",
+  "score": 20.54380664652568,
+  "score_raw": 20.54380664652568,
+  "evaluation_date": "2025-01-17",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1275
+}

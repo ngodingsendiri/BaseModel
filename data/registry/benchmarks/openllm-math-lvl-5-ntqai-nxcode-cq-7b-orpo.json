@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-ntqai-nxcode-cq-7b-orpo",
+  "model_id": "NTQAI/Nxcode-CQ-7B-orpo",
+  "benchmark_name": "math-lvl-5",
+  "score": 2.190332326283988,
+  "score_raw": 2.190332326283988,
+  "evaluation_date": "2024-04-24",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3871
+}

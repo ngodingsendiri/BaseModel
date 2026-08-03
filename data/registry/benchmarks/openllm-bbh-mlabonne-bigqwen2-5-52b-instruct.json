@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-mlabonne-bigqwen2-5-52b-instruct",
+  "model_id": "mlabonne/BigQwen2.5-52B-Instruct",
+  "benchmark_name": "bbh",
+  "score": 59.80960695923371,
+  "score_raw": 59.80960695923371,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 25
+}

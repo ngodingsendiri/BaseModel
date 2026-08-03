@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-vagosolutions-sauerkrautlm-v2-14b-dpo",
+  "model_id": "VAGOsolutions/SauerkrautLM-v2-14b-DPO",
+  "benchmark_name": "math-lvl-5",
+  "score": 31.64652567975831,
+  "score_raw": 31.64652567975831,
+  "evaluation_date": "2024-10-31",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 769
+}

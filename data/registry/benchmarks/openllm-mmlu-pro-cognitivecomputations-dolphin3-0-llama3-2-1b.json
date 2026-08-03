@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-cognitivecomputations-dolphin3-0-llama3-2-1b",
+  "model_id": "cognitivecomputations/Dolphin3.0-Llama3.2-1B",
+  "benchmark_name": "mmlu-pro",
+  "score": 4.172207446808509,
+  "score_raw": 4.172207446808509,
+  "evaluation_date": "2024-12-29",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4035
+}

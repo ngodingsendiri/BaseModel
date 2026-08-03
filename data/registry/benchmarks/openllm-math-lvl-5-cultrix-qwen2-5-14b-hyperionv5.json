@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-cultrix-qwen2-5-14b-hyperionv5",
+  "model_id": "CultriX/Qwen2.5-14B-Hyperionv5",
+  "benchmark_name": "math-lvl-5",
+  "score": 38.21752265861027,
+  "score_raw": 38.21752265861027,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 515
+}

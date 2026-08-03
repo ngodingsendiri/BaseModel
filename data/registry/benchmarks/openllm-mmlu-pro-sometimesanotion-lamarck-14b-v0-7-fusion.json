@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sometimesanotion-lamarck-14b-v0-7-fusion",
+  "model_id": "sometimesanotion/Lamarck-14B-v0.7-Fusion",
+  "benchmark_name": "mmlu-pro",
+  "score": 48.78472222222222,
+  "score_raw": 48.78472222222222,
+  "evaluation_date": "2025-02-23",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 204
+}

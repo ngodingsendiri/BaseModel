@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-ehristoforu-moremerge",
+  "model_id": "ehristoforu/moremerge",
+  "benchmark_name": "musr",
+  "score": 3.1049479166666654,
+  "score_raw": 3.1049479166666654,
+  "evaluation_date": "2025-01-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3899
+}

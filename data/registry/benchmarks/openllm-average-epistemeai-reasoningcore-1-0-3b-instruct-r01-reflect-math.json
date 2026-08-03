@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-epistemeai-reasoningcore-1-0-3b-instruct-r01-reflect-math",
+  "model_id": "EpistemeAI/ReasoningCore-1.0-3B-Instruct-r01-Reflect-Math",
+  "benchmark_name": "average",
+  "score": 19.475016650589627,
+  "score_raw": 19.475016650589627,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2771
+}

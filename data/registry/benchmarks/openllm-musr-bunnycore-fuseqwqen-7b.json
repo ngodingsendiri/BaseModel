@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-bunnycore-fuseqwqen-7b",
+  "model_id": "bunnycore/FuseQwQen-7B",
+  "benchmark_name": "musr",
+  "score": 11.97760416666666,
+  "score_raw": 11.97760416666666,
+  "evaluation_date": "2024-12-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1605
+}

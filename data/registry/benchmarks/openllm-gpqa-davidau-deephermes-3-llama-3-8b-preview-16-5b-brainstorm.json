@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-davidau-deephermes-3-llama-3-8b-preview-16-5b-brainstorm",
+  "model_id": "DavidAU/DeepHermes-3-Llama-3-8B-Preview-16.5B-Brainstorm",
+  "benchmark_name": "gpqa",
+  "score": 8.501118568232664,
+  "score_raw": 8.501118568232664,
+  "evaluation_date": "2025-02-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1325
+}

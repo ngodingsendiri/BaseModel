@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-valiantlabs-llama3-1-8b-enigma",
+  "model_id": "ValiantLabs/Llama3.1-8B-Enigma",
+  "benchmark_name": "ifeval",
+  "score": 26.80554262689663,
+  "score_raw": 26.80554262689663,
+  "evaluation_date": "2024-08-11",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3478
+}

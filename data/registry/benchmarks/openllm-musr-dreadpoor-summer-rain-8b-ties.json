@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-summer-rain-8b-ties",
+  "model_id": "DreadPoor/Summer_Rain-8B-TIES",
+  "benchmark_name": "musr",
+  "score": 15.366145833333333,
+  "score_raw": 15.366145833333333,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 785
+}

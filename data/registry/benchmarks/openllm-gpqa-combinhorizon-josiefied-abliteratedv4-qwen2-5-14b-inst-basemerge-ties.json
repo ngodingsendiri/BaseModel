@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-combinhorizon-josiefied-abliteratedv4-qwen2-5-14b-inst-basemerge-ties",
+  "model_id": "CombinHorizon/Josiefied-abliteratedV4-Qwen2.5-14B-Inst-BaseMerge-TIES",
+  "benchmark_name": "gpqa",
+  "score": 9.955257270693513,
+  "score_raw": 9.955257270693513,
+  "evaluation_date": "2024-12-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 991
+}

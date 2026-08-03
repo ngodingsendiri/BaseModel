@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-sakalti-sjt-2b-v1-1",
+  "model_id": "Sakalti/SJT-2B-V1.1",
+  "benchmark_name": "ifeval",
+  "score": 39.772359561518996,
+  "score_raw": 39.772359561518996,
+  "evaluation_date": "2025-02-04",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2747
+}

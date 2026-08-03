@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-llnyou-ece-prymmal-yl-3b-slerp-v2",
+  "model_id": "llnYou/ECE-PRYMMAL-YL-3B-SLERP-V2",
+  "benchmark_name": "mmlu-pro",
+  "score": 21.108525413711583,
+  "score_raw": 21.108525413711583,
+  "evaluation_date": "2024-11-12",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3045
+}

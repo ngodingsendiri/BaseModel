@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-princeton-nlp-mistral-7b-instruct-ipo",
+  "model_id": "princeton-nlp/Mistral-7B-Instruct-IPO",
+  "benchmark_name": "bbh",
+  "score": 20.094109548877523,
+  "score_raw": 20.094109548877523,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3199
+}

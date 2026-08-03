@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-berkeley-nest-starling-lm-7b-alpha",
+  "model_id": "berkeley-nest/Starling-LM-7B-alpha",
+  "benchmark_name": "bbh",
+  "score": 21.95402808715926,
+  "score_raw": 21.95402808715926,
+  "evaluation_date": "2023-11-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3077
+}

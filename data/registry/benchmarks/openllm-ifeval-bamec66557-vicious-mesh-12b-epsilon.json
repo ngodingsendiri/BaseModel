@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-bamec66557-vicious-mesh-12b-epsilon",
+  "model_id": "bamec66557/VICIOUS_MESH-12B-EPSILON",
+  "benchmark_name": "ifeval",
+  "score": 63.04560787599126,
+  "score_raw": 63.04560787599126,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1123
+}

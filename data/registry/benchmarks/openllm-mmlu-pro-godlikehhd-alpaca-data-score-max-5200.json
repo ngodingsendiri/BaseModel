@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-godlikehhd-alpaca-data-score-max-5200",
+  "model_id": "godlikehhd/alpaca_data_score_max_5200",
+  "benchmark_name": "mmlu-pro",
+  "score": 21.607195626477537,
+  "score_raw": 21.607195626477537,
+  "evaluation_date": "2025-01-10",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2986
+}

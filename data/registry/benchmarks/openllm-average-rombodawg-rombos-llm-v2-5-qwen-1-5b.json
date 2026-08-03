@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-rombodawg-rombos-llm-v2-5-qwen-1-5b",
+  "model_id": "rombodawg/Rombos-LLM-V2.5-Qwen-1.5b",
+  "benchmark_name": "average",
+  "score": 16.35438589717866,
+  "score_raw": 16.35438589717866,
+  "evaluation_date": "2024-10-06",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3158
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-jeffmeloy-qwen2-5-7b-nerd-uncensored-v1-7",
+  "model_id": "jeffmeloy/Qwen2.5-7B-nerd-uncensored-v1.7",
+  "benchmark_name": "average",
+  "score": 28.677649337210752,
+  "score_raw": 28.677649337210752,
+  "evaluation_date": "2024-11-16",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1221
+}

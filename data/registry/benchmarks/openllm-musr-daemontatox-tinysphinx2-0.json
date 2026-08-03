@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-daemontatox-tinysphinx2-0",
+  "model_id": "Daemontatox/TinySphinx2.0",
+  "benchmark_name": "musr",
+  "score": 1.3145833333333334,
+  "score_raw": 1.3145833333333334,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4372
+}

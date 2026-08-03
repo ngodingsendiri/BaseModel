@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-skywork-skywork-reward-gemma-2-27b-v0-2",
+  "model_id": "Skywork/Skywork-Reward-Gemma-2-27B-v0.2",
+  "benchmark_name": "math-lvl-5",
+  "score": 22.734138972809667,
+  "score_raw": 22.734138972809667,
+  "evaluation_date": "2024-10-14",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1089
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-njs26-njs-777",
+  "model_id": "NJS26/NJS_777",
+  "benchmark_name": "musr",
+  "score": 3.2226562499999996,
+  "score_raw": 3.2226562499999996,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3865
+}

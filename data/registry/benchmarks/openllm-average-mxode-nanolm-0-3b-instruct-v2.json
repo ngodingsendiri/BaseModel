@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-mxode-nanolm-0-3b-instruct-v2",
+  "model_id": "Mxode/NanoLM-0.3B-Instruct-v2",
+  "benchmark_name": "average",
+  "score": 5.01367055199107,
+  "score_raw": 5.01367055199107,
+  "evaluation_date": "2024-09-07",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4295
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-tanliboy-lambda-qwen2-5-32b-dpo-test",
+  "model_id": "tanliboy/lambda-qwen2.5-32b-dpo-test",
+  "benchmark_name": "math-lvl-5",
+  "score": 61.027190332326285,
+  "score_raw": 61.027190332326285,
+  "evaluation_date": "2024-09-22",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 9
+}

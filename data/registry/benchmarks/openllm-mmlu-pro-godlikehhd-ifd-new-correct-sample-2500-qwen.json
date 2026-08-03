@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-godlikehhd-ifd-new-correct-sample-2500-qwen",
+  "model_id": "godlikehhd/ifd_new_correct_sample_2500_qwen",
+  "benchmark_name": "mmlu-pro",
+  "score": 21.46867612293144,
+  "score_raw": 21.46867612293144,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3000
+}

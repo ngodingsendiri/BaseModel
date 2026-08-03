@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-openbuddy-openbuddy-zero-56b-v21-2-32k",
+  "model_id": "OpenBuddy/openbuddy-zero-56b-v21.2-32k",
+  "benchmark_name": "math-lvl-5",
+  "score": 16.238670694864048,
+  "score_raw": 16.238670694864048,
+  "evaluation_date": "2024-06-10",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1625
+}

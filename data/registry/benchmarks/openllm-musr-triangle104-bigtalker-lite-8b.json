@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-triangle104-bigtalker-lite-8b",
+  "model_id": "Triangle104/BigTalker-Lite-8B",
+  "benchmark_name": "musr",
+  "score": 11.038802083333335,
+  "score_raw": 11.038802083333335,
+  "evaluation_date": "2024-12-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1965
+}

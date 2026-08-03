@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-netcat420-mfann-llama3-1-abliterated-slerp-v3-2",
+  "model_id": "netcat420/MFANN-Llama3.1-Abliterated-Slerp-V3.2",
+  "benchmark_name": "gpqa",
+  "score": 5.033557046979867,
+  "score_raw": 5.033557046979867,
+  "evaluation_date": "2024-10-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2630
+}

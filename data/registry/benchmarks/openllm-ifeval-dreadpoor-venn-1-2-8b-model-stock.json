@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-dreadpoor-venn-1-2-8b-model-stock",
+  "model_id": "DreadPoor/VENN_1.2-8B-Model_Stock",
+  "benchmark_name": "ifeval",
+  "score": 72.26049105262925,
+  "score_raw": 72.26049105262925,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 629
+}

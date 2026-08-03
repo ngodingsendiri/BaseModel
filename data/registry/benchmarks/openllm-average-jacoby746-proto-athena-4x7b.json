@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-jacoby746-proto-athena-4x7b",
+  "model_id": "Jacoby746/Proto-Athena-4x7B",
+  "benchmark_name": "average",
+  "score": 19.77557762348212,
+  "score_raw": 19.77557762348212,
+  "evaluation_date": "2024-09-21",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2728
+}

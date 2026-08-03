@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-quazim0t0-charlie-8b-linear",
+  "model_id": "Quazim0t0/Charlie-8B-Linear",
+  "benchmark_name": "mmlu-pro",
+  "score": 28.588578605200944,
+  "score_raw": 28.588578605200944,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2109
+}

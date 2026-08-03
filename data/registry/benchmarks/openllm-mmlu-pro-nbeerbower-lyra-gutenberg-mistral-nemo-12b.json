@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-nbeerbower-lyra-gutenberg-mistral-nemo-12b",
+  "model_id": "nbeerbower/Lyra-Gutenberg-mistral-nemo-12B",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.19806442080379,
+  "score_raw": 29.19806442080379,
+  "evaluation_date": "2024-08-23",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2009
+}

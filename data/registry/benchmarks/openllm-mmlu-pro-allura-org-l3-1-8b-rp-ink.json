@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-allura-org-l3-1-8b-rp-ink",
+  "model_id": "allura-org/L3.1-8b-RP-Ink",
+  "benchmark_name": "mmlu-pro",
+  "score": 26.972517730496453,
+  "score_raw": 26.972517730496453,
+  "evaluation_date": "2025-01-26",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2312
+}

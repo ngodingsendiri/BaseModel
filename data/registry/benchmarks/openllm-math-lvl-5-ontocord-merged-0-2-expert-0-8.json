@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-ontocord-merged-0-2-expert-0-8",
+  "model_id": "ontocord/merged_0.2_expert_0.8",
+  "benchmark_name": "math-lvl-5",
+  "score": 2.643504531722054,
+  "score_raw": 2.643504531722054,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3791
+}

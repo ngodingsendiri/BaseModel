@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-ehristoforu-rqwen-v0-1",
+  "model_id": "ehristoforu/RQwen-v0.1",
+  "benchmark_name": "ifeval",
+  "score": 76.24968417133206,
+  "score_raw": 76.24968417133206,
+  "evaluation_date": "2024-11-24",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 371
+}

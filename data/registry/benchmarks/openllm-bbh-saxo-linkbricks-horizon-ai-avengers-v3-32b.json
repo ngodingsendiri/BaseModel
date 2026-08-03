@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-saxo-linkbricks-horizon-ai-avengers-v3-32b",
+  "model_id": "Saxo/Linkbricks-Horizon-AI-Avengers-V3-32B",
+  "benchmark_name": "bbh",
+  "score": 56.527924000253876,
+  "score_raw": 56.527924000253876,
+  "evaluation_date": "2024-12-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 70
+}

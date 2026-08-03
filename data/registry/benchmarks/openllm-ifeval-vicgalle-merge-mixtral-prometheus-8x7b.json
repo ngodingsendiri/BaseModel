@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-vicgalle-merge-mixtral-prometheus-8x7b",
+  "model_id": "vicgalle/Merge-Mixtral-Prometheus-8x7B",
+  "benchmark_name": "ifeval",
+  "score": 57.44025851407598,
+  "score_raw": 57.44025851407598,
+  "evaluation_date": "2024-05-04",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1394
+}

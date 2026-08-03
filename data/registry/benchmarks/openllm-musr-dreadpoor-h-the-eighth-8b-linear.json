@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-h-the-eighth-8b-linear",
+  "model_id": "DreadPoor/H_the_eighth-8B-LINEAR",
+  "benchmark_name": "musr",
+  "score": 12.76015625,
+  "score_raw": 12.76015625,
+  "evaluation_date": "2025-03-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1367
+}

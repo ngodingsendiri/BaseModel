@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ba2han-llama-phi-3-dora",
+  "model_id": "Ba2han/Llama-Phi-3_DoRA",
+  "benchmark_name": "average",
+  "score": 25.469895001154402,
+  "score_raw": 25.469895001154402,
+  "evaluation_date": "2024-05-15",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1581
+}

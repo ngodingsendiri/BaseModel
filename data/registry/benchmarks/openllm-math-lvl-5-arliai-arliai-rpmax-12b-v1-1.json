@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-arliai-arliai-rpmax-12b-v1-1",
+  "model_id": "ArliAI/ArliAI-RPMax-12B-v1.1",
+  "benchmark_name": "math-lvl-5",
+  "score": 11.253776435045317,
+  "score_raw": 11.253776435045317,
+  "evaluation_date": "2024-08-31",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2213
+}

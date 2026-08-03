@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ladydaina-ece-fdf",
+  "model_id": "ladydaina/ECE-FDF",
+  "benchmark_name": "average",
+  "score": 20.04236528565559,
+  "score_raw": 20.04236528565559,
+  "evaluation_date": "2024-11-14",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2674
+}

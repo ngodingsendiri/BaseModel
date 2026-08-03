@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-dreadpoor-mercury-in-retrograde-8b-model-stock",
+  "model_id": "DreadPoor/Mercury_In_Retrograde-8b-Model-Stock",
+  "benchmark_name": "average",
+  "score": 29.2612899751994,
+  "score_raw": 29.2612899751994,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1144
+}

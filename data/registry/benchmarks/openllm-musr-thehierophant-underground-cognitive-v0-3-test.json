@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-thehierophant-underground-cognitive-v0-3-test",
+  "model_id": "TheHierophant/Underground-Cognitive-V0.3-test",
+  "benchmark_name": "musr",
+  "score": 14.55598958333333,
+  "score_raw": 14.55598958333333,
+  "evaluation_date": "2024-11-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 935
+}

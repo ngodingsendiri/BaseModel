@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sakalti-sjt-8b",
+  "model_id": "Sakalti/SJT-8B",
+  "benchmark_name": "math-lvl-5",
+  "score": 25.377643504531722,
+  "score_raw": 25.377643504531722,
+  "evaluation_date": "2025-02-02",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 987
+}

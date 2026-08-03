@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-jaspionjader-bh-27",
+  "model_id": "jaspionjader/bh-27",
+  "benchmark_name": "ifeval",
+  "score": 48.18791916559174,
+  "score_raw": 48.18791916559174,
+  "evaluation_date": "2025-02-03",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1992
+}

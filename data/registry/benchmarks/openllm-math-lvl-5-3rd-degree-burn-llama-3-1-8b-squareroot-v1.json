@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-3rd-degree-burn-llama-3-1-8b-squareroot-v1",
+  "model_id": "3rd-Degree-Burn/Llama-3.1-8B-Squareroot-v1",
+  "benchmark_name": "math-lvl-5",
+  "score": 8.836858006042297,
+  "score_raw": 8.836858006042297,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2557
+}

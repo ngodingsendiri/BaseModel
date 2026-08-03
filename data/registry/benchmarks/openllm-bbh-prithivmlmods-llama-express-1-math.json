@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-prithivmlmods-llama-express-1-math",
+  "model_id": "prithivMLmods/Llama-Express.1-Math",
+  "benchmark_name": "bbh",
+  "score": 7.199019778023913,
+  "score_raw": 7.199019778023913,
+  "evaluation_date": "2025-01-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3857
+}

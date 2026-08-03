@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-princeton-nlp-gemma-2-9b-it-simpo",
+  "model_id": "princeton-nlp/gemma-2-9b-it-SimPO",
+  "benchmark_name": "average",
+  "score": 22.3449346084354,
+  "score_raw": 22.3449346084354,
+  "evaluation_date": "2024-07-16",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2234
+}

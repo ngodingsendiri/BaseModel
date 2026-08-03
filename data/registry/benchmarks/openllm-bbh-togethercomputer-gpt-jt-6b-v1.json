@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-togethercomputer-gpt-jt-6b-v1",
+  "model_id": "togethercomputer/GPT-JT-6B-v1",
+  "benchmark_name": "bbh",
+  "score": 7.318523965141613,
+  "score_raw": 7.318523965141613,
+  "evaluation_date": "2022-11-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3839
+}

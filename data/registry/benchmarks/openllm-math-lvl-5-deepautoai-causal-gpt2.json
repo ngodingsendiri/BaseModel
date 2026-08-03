@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-deepautoai-causal-gpt2",
+  "model_id": "DeepAutoAI/causal_gpt2",
+  "benchmark_name": "math-lvl-5",
+  "score": 0.5287009063444109,
+  "score_raw": 0.5287009063444109,
+  "evaluation_date": "2024-10-17",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4337
+}

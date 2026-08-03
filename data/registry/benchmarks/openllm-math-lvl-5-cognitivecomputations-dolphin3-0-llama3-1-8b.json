@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-cognitivecomputations-dolphin3-0-llama3-1-8b",
+  "model_id": "cognitivecomputations/Dolphin3.0-Llama3.1-8B",
+  "benchmark_name": "math-lvl-5",
+  "score": 12.311178247734139,
+  "score_raw": 12.311178247734139,
+  "evaluation_date": "2024-12-29",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2037
+}

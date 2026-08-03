@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-pocketdoc-dans-instruct-corecurriculum-12b",
+  "model_id": "PocketDoc/Dans-Instruct-CoreCurriculum-12b",
+  "benchmark_name": "ifeval",
+  "score": 21.914520139895476,
+  "score_raw": 21.914520139895476,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3892
+}

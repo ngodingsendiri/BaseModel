@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sometimesanotion-qwenvergence-14b-v0-6-004-model-stock",
+  "model_id": "sometimesanotion/Qwenvergence-14B-v0.6-004-model_stock",
+  "benchmark_name": "math-lvl-5",
+  "score": 40.93655589123867,
+  "score_raw": 40.93655589123867,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 419
+}

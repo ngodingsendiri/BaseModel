@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-etherll-qwen2-5-coder-7b-instruct-ties",
+  "model_id": "Etherll/Qwen2.5-Coder-7B-Instruct-Ties",
+  "benchmark_name": "mmlu-pro",
+  "score": 27.812869385342786,
+  "score_raw": 27.812869385342786,
+  "evaluation_date": "2024-09-30",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2214
+}

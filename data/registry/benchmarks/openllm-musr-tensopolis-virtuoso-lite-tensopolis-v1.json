@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-tensopolis-virtuoso-lite-tensopolis-v1",
+  "model_id": "tensopolis/virtuoso-lite-tensopolis-v1",
+  "benchmark_name": "musr",
+  "score": 17.446614583333332,
+  "score_raw": 17.446614583333332,
+  "evaluation_date": "2025-02-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 519
+}

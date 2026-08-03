@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-floflob-smollm2-135m-pretrained-1000k-fineweb-uncovai-human-removed",
+  "model_id": "FlofloB/smollm2-135M_pretrained_1000k_fineweb_uncovai_human_removed",
+  "benchmark_name": "average",
+  "score": 4.06134991308063,
+  "score_raw": 4.06134991308063,
+  "evaluation_date": "2025-01-24",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4433
+}

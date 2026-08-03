@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-fu-sion-ha-8b-slerp",
+  "model_id": "DreadPoor/Fu_sion_HA-8B-SLERP",
+  "benchmark_name": "gpqa",
+  "score": 9.731543624161072,
+  "score_raw": 9.731543624161072,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1044
+}

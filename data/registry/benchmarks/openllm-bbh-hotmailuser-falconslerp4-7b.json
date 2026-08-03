@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-hotmailuser-falconslerp4-7b",
+  "model_id": "hotmailuser/FalconSlerp4-7B",
+  "benchmark_name": "bbh",
+  "score": 36.46810457203872,
+  "score_raw": 36.46810457203872,
+  "evaluation_date": "2025-01-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1139
+}

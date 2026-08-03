@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-mercury-in-retrograde-8b-model-stock",
+  "model_id": "DreadPoor/Mercury_In_Retrograde-8b-Model-Stock",
+  "benchmark_name": "musr",
+  "score": 11.485677083333329,
+  "score_raw": 11.485677083333329,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1790
+}

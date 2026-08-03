@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-invisietch-mis-firefly-v0-2-22b",
+  "model_id": "invisietch/MiS-Firefly-v0.2-22B",
+  "benchmark_name": "gpqa",
+  "score": 7.270693512304249,
+  "score_raw": 7.270693512304249,
+  "evaluation_date": "2024-11-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1777
+}

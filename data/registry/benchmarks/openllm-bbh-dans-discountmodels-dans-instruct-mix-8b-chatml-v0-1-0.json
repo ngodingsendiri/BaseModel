@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dans-discountmodels-dans-instruct-mix-8b-chatml-v0-1-0",
+  "model_id": "Dans-DiscountModels/Dans-Instruct-Mix-8b-ChatML-V0.1.0",
+  "benchmark_name": "bbh",
+  "score": 26.737651950701505,
+  "score_raw": 26.737651950701505,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2650
+}

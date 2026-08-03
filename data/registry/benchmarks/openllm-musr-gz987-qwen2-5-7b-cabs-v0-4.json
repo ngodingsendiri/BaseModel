@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-gz987-qwen2-5-7b-cabs-v0-4",
+  "model_id": "gz987/qwen2.5-7b-cabs-v0.4",
+  "benchmark_name": "musr",
+  "score": 15.169791666666663,
+  "score_raw": 15.169791666666663,
+  "evaluation_date": "2025-02-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 830
+}

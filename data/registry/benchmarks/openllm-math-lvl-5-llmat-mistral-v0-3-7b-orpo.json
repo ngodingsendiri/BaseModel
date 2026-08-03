@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-llmat-mistral-v0-3-7b-orpo",
+  "model_id": "llmat/Mistral-v0.3-7B-ORPO",
+  "benchmark_name": "math-lvl-5",
+  "score": 0.1510574018126888,
+  "score_raw": 0.1510574018126888,
+  "evaluation_date": "2024-08-04",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4421
+}

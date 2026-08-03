@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-rombodawg-rombos-llm-v2-5-qwen-32b",
+  "model_id": "rombodawg/Rombos-LLM-V2.5-Qwen-32b",
+  "benchmark_name": "bbh",
+  "score": 58.261894086787414,
+  "score_raw": 58.261894086787414,
+  "evaluation_date": "2024-09-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 36
+}

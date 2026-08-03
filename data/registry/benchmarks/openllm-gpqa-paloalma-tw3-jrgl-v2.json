@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-paloalma-tw3-jrgl-v2",
+  "model_id": "paloalma/TW3-JRGL-v2",
+  "benchmark_name": "gpqa",
+  "score": 14.541387024608499,
+  "score_raw": 14.541387024608499,
+  "evaluation_date": "2024-04-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 441
+}

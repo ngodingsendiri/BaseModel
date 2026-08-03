@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-triangle104-annunaki-12b",
+  "model_id": "Triangle104/Annunaki-12b",
+  "benchmark_name": "musr",
+  "score": 14.276041666666663,
+  "score_raw": 14.276041666666663,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 995
+}

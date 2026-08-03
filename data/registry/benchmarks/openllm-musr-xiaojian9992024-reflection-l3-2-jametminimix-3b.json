@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-xiaojian9992024-reflection-l3-2-jametminimix-3b",
+  "model_id": "Xiaojian9992024/Reflection-L3.2-JametMiniMix-3B",
+  "benchmark_name": "musr",
+  "score": 8.375781250000001,
+  "score_raw": 8.375781250000001,
+  "evaluation_date": "2025-02-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2738
+}

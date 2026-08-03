@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-tangledgroup-tangled-llama-pints-1-5b-v0-1-instruct",
+  "model_id": "tangledgroup/tangled-llama-pints-1.5b-v0.1-instruct",
+  "benchmark_name": "average",
+  "score": 4.366498008182751,
+  "score_raw": 4.366498008182751,
+  "evaluation_date": "2024-08-27",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4388
+}

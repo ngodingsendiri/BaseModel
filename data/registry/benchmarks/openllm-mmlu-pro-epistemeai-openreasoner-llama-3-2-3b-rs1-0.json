@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-epistemeai-openreasoner-llama-3-2-3b-rs1-0",
+  "model_id": "EpistemeAI/OpenReasoner-Llama-3.2-3B-rs1.0",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.712692080378247,
+  "score_raw": 23.712692080378247,
+  "evaluation_date": "2025-02-14",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2674
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-pankajmathur-al-dente-v1-8b",
+  "model_id": "pankajmathur/Al_Dente_v1_8b",
+  "benchmark_name": "average",
+  "score": 17.300059065636294,
+  "score_raw": 17.300059065636294,
+  "evaluation_date": "2024-06-02",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3032
+}

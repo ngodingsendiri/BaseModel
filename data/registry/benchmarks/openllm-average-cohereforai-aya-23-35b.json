@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-cohereforai-aya-23-35b",
+  "model_id": "CohereForAI/aya-23-35B",
+  "benchmark_name": "average",
+  "score": 24.755408446939658,
+  "score_raw": 24.755408446939658,
+  "evaluation_date": "2024-05-19",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1661
+}

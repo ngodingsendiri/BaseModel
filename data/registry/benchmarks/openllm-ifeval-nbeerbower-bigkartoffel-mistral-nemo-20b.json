@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-nbeerbower-bigkartoffel-mistral-nemo-20b",
+  "model_id": "nbeerbower/BigKartoffel-mistral-nemo-20B",
+  "benchmark_name": "ifeval",
+  "score": 58.57181168189294,
+  "score_raw": 58.57181168189294,
+  "evaluation_date": "2025-03-04",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1340
+}

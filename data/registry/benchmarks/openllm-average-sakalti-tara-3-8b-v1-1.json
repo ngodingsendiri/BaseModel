@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sakalti-tara-3-8b-v1-1",
+  "model_id": "Sakalti/Tara-3.8B-v1.1",
+  "benchmark_name": "average",
+  "score": 21.968635956123418,
+  "score_raw": 21.968635956123418,
+  "evaluation_date": "2025-01-10",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2286
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-vagosolutions-llama-3-1-sauerkrautlm-70b-instruct",
+  "model_id": "VAGOsolutions/Llama-3.1-SauerkrautLM-70b-Instruct",
+  "benchmark_name": "math-lvl-5",
+  "score": 36.933534743202415,
+  "score_raw": 36.933534743202415,
+  "evaluation_date": "2024-07-29",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 576
+}

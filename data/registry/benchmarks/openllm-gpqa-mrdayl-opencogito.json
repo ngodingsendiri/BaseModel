@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-mrdayl-opencogito",
+  "model_id": "mrdayl/OpenCogito",
+  "benchmark_name": "gpqa",
+  "score": 6.711409395973152,
+  "score_raw": 6.711409395973152,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2000
+}

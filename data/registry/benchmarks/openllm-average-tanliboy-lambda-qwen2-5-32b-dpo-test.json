@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-tanliboy-lambda-qwen2-5-32b-dpo-test",
+  "model_id": "tanliboy/lambda-qwen2.5-32b-dpo-test",
+  "benchmark_name": "average",
+  "score": 45.924592588188716,
+  "score_raw": 45.924592588188716,
+  "evaluation_date": "2024-09-22",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 28
+}

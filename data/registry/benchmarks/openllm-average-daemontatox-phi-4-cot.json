@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-daemontatox-phi-4-cot",
+  "model_id": "Daemontatox/Phi-4-COT",
+  "benchmark_name": "average",
+  "score": 26.128818323637788,
+  "score_raw": 26.128818323637788,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1492
+}

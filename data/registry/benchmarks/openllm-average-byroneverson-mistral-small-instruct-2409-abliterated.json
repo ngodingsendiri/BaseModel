@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-byroneverson-mistral-small-instruct-2409-abliterated",
+  "model_id": "byroneverson/Mistral-Small-Instruct-2409-abliterated",
+  "benchmark_name": "average",
+  "score": 28.805845718641834,
+  "score_raw": 28.805845718641834,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1207
+}

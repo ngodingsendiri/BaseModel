@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-altomek-yism-34b-0rn",
+  "model_id": "altomek/YiSM-34B-0rn",
+  "benchmark_name": "average",
+  "score": 30.51201240834246,
+  "score_raw": 30.51201240834246,
+  "evaluation_date": "2024-05-26",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 953
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-quazim0t0-sake-20b",
+  "model_id": "Quazim0t0/Sake-20b",
+  "benchmark_name": "gpqa",
+  "score": 9.172259507829976,
+  "score_raw": 9.172259507829976,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1171
+}

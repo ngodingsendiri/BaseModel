@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-triangle104-lthreepointone-8b-hermesblackroot",
+  "model_id": "Triangle104/LThreePointOne-8B-HermesBlackroot",
+  "benchmark_name": "ifeval",
+  "score": 17.920340252751586,
+  "score_raw": 17.920340252751586,
+  "evaluation_date": "2025-02-14",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4144
+}

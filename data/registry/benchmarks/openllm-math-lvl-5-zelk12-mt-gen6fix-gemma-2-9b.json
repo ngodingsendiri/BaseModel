@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-zelk12-mt-gen6fix-gemma-2-9b",
+  "model_id": "zelk12/MT-Gen6fix-gemma-2-9B",
+  "benchmark_name": "math-lvl-5",
+  "score": 8.157099697885197,
+  "score_raw": 8.157099697885197,
+  "evaluation_date": "2025-02-02",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2673
+}

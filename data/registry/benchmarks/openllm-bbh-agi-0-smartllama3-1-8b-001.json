@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-agi-0-smartllama3-1-8b-001",
+  "model_id": "AGI-0/smartllama3.1-8B-001",
+  "benchmark_name": "bbh",
+  "score": 24.8577369132814,
+  "score_raw": 24.8577369132814,
+  "evaluation_date": "2024-08-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2833
+}

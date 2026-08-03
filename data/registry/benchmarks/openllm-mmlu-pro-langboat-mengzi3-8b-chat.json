@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-langboat-mengzi3-8b-chat",
+  "model_id": "Langboat/Mengzi3-8B-Chat",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.795803782505907,
+  "score_raw": 23.795803782505907,
+  "evaluation_date": "2024-09-14",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2662
+}

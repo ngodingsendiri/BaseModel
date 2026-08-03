@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-brgx53-3bgeneral-ece-prymmal-martial",
+  "model_id": "brgx53/3Bgeneral-ECE-PRYMMAL-Martial",
+  "benchmark_name": "mmlu-pro",
+  "score": 32.59640957446809,
+  "score_raw": 32.59640957446809,
+  "evaluation_date": "2024-10-23",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1287
+}

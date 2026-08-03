@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-mlabonne-daredevil-8b",
+  "model_id": "mlabonne/Daredevil-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.451315011820324,
+  "score_raw": 31.451315011820324,
+  "evaluation_date": "2024-05-25",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1499
+}

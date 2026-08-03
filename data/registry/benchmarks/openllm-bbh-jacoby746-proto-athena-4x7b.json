@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-jacoby746-proto-athena-4x7b",
+  "model_id": "Jacoby746/Proto-Athena-4x7B",
+  "benchmark_name": "bbh",
+  "score": 30.870822876627887,
+  "score_raw": 30.870822876627887,
+  "evaluation_date": "2024-09-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2060
+}

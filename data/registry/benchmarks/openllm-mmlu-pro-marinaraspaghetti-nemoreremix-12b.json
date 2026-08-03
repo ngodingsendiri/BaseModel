@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-marinaraspaghetti-nemoreremix-12b",
+  "model_id": "MarinaraSpaghetti/NemoReRemix-12B",
+  "benchmark_name": "mmlu-pro",
+  "score": 28.865617612293136,
+  "score_raw": 28.865617612293136,
+  "evaluation_date": "2024-08-14",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2070
+}

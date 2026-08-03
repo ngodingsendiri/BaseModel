@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-sunbaby-braincog-8b-0-1-instruct",
+  "model_id": "sunbaby/BrainCog-8B-0.1-Instruct",
+  "benchmark_name": "bbh",
+  "score": 24.283467839476657,
+  "score_raw": 24.283467839476657,
+  "evaluation_date": "2024-07-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2876
+}

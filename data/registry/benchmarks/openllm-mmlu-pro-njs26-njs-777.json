@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-njs26-njs-777",
+  "model_id": "NJS26/NJS_777",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.8081412529550822,
+  "score_raw": 1.8081412529550822,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4222
+}

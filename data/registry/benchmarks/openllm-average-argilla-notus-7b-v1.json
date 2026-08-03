@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-argilla-notus-7b-v1",
+  "model_id": "argilla/notus-7b-v1",
+  "benchmark_name": "average",
+  "score": 18.474261772943255,
+  "score_raw": 18.474261772943255,
+  "evaluation_date": "2023-11-16",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2890
+}

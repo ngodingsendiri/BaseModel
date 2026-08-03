@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-yanng1242-marcoro14-7b-slerp",
+  "model_id": "yanng1242/Marcoro14-7B-slerp",
+  "benchmark_name": "bbh",
+  "score": 32.97528227053496,
+  "score_raw": 32.97528227053496,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1653
+}

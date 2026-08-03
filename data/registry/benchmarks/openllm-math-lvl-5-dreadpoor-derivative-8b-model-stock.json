@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-dreadpoor-derivative-8b-model-stock",
+  "model_id": "DreadPoor/Derivative-8B-Model_Stock",
+  "benchmark_name": "math-lvl-5",
+  "score": 17.900302114803626,
+  "score_raw": 17.900302114803626,
+  "evaluation_date": "2025-01-03",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1489
+}

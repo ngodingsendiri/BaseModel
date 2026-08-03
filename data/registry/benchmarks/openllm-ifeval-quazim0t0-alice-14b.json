@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-quazim0t0-alice-14b",
+  "model_id": "Quazim0t0/Alice-14B",
+  "benchmark_name": "ifeval",
+  "score": 68.36371937570092,
+  "score_raw": 68.36371937570092,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 854
+}

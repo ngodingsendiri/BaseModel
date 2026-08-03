@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sumink-qmerft",
+  "model_id": "sumink/Qmerft",
+  "benchmark_name": "musr",
+  "score": 3.9283854166666665,
+  "score_raw": 3.9283854166666665,
+  "evaluation_date": "2025-01-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3688
+}

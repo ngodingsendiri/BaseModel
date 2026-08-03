@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-sakalti-sailor-japanese",
+  "model_id": "Sakalti/Sailor-japanese",
+  "benchmark_name": "ifeval",
+  "score": 16.046866757979938,
+  "score_raw": 16.046866757979938,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4269
+}

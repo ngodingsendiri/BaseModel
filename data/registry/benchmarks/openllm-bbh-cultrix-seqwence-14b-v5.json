@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-cultrix-seqwence-14b-v5",
+  "model_id": "CultriX/SeQwence-14B-v5",
+  "benchmark_name": "bbh",
+  "score": 49.99573116031767,
+  "score_raw": 49.99573116031767,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 383
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-ewre324-thinker-smollm2-135m-instruct-reasoning",
+  "model_id": "ewre324/Thinker-SmolLM2-135M-Instruct-Reasoning",
+  "benchmark_name": "gpqa",
+  "score": 0.33557046979865535,
+  "score_raw": 0.33557046979865535,
+  "evaluation_date": "2025-01-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4283
+}

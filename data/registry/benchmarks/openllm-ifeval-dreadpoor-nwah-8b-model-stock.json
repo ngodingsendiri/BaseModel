@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-dreadpoor-nwah-8b-model-stock",
+  "model_id": "DreadPoor/Nwah-8B-Model_Stock",
+  "benchmark_name": "ifeval",
+  "score": 77.15893828375377,
+  "score_raw": 77.15893828375377,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 313
+}

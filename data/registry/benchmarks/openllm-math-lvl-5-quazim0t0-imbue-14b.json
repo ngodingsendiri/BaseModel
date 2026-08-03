@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-quazim0t0-imbue-14b",
+  "model_id": "Quazim0t0/Imbue-14b",
+  "benchmark_name": "math-lvl-5",
+  "score": 53.17220543806647,
+  "score_raw": 53.17220543806647,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 77
+}

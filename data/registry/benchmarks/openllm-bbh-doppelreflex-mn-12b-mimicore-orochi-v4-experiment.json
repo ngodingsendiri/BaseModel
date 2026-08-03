@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-doppelreflex-mn-12b-mimicore-orochi-v4-experiment",
+  "model_id": "DoppelReflEx/MN-12B-Mimicore-Orochi-v4-Experiment",
+  "benchmark_name": "bbh",
+  "score": 35.29906847464648,
+  "score_raw": 35.29906847464648,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1318
+}

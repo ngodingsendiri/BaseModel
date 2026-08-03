@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-quazim0t0-lo-phi-14b",
+  "model_id": "Quazim0t0/Lo-Phi-14b",
+  "benchmark_name": "ifeval",
+  "score": 49.41189377518318,
+  "score_raw": 49.41189377518318,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1911
+}

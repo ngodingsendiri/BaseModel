@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-abacusresearch-jallabi-34b",
+  "model_id": "AbacusResearch/Jallabi-34B",
+  "benchmark_name": "mmlu-pro",
+  "score": 40.90757978723404,
+  "score_raw": 40.90757978723404,
+  "evaluation_date": "2024-03-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 654
+}

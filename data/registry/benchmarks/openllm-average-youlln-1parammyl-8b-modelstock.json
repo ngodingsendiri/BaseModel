@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-youlln-1parammyl-8b-modelstock",
+  "model_id": "Youlln/1PARAMMYL-8B-ModelStock",
+  "benchmark_name": "average",
+  "score": 26.30915159356537,
+  "score_raw": 26.30915159356537,
+  "evaluation_date": "2024-09-20",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1463
+}

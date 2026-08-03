@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-princeton-nlp-llama-3-8b-prolong-512k-instruct",
+  "model_id": "princeton-nlp/Llama-3-8B-ProLong-512k-Instruct",
+  "benchmark_name": "average",
+  "score": 19.242001937233777,
+  "score_raw": 19.242001937233777,
+  "evaluation_date": "2024-08-22",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2797
+}

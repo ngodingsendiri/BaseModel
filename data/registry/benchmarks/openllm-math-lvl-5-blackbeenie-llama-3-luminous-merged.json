@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-blackbeenie-llama-3-luminous-merged",
+  "model_id": "BlackBeenie/llama-3-luminous-merged",
+  "benchmark_name": "math-lvl-5",
+  "score": 8.685800604229607,
+  "score_raw": 8.685800604229607,
+  "evaluation_date": "2024-09-15",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2576
+}

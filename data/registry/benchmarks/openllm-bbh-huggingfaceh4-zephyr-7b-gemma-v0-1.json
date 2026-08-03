@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-huggingfaceh4-zephyr-7b-gemma-v0-1",
+  "model_id": "HuggingFaceH4/zephyr-7b-gemma-v0.1",
+  "benchmark_name": "bbh",
+  "score": 23.751162749201274,
+  "score_raw": 23.751162749201274,
+  "evaluation_date": "2024-03-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2930
+}

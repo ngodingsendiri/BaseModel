@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-kno10-ende-chat-0-0-7",
+  "model_id": "kno10/ende-chat-0.0.7",
+  "benchmark_name": "mmlu-pro",
+  "score": 10.738031914893616,
+  "score_raw": 10.738031914893616,
+  "evaluation_date": "2024-07-30",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3599
+}

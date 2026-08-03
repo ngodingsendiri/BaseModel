@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-ontocord-wide-3b-merge-test",
+  "model_id": "ontocord/wide_3b-merge_test",
+  "benchmark_name": "ifeval",
+  "score": 17.628115622104904,
+  "score_raw": 17.628115622104904,
+  "evaluation_date": "2025-03-06",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4167
+}

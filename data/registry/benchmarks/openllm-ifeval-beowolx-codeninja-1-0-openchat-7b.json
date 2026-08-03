@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-beowolx-codeninja-1-0-openchat-7b",
+  "model_id": "beowolx/CodeNinja-1.0-OpenChat-7B",
+  "benchmark_name": "ifeval",
+  "score": 54.467701254892575,
+  "score_raw": 54.467701254892575,
+  "evaluation_date": "2023-12-20",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1561
+}

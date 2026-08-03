@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-naveenpoliasetty-llama3-8b-v2",
+  "model_id": "Naveenpoliasetty/llama3-8B-V2",
+  "benchmark_name": "average",
+  "score": 20.820686737632144,
+  "score_raw": 20.820686737632144,
+  "evaluation_date": "2024-06-18",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2530
+}

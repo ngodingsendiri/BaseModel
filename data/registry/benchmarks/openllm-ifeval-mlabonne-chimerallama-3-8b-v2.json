@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-mlabonne-chimerallama-3-8b-v2",
+  "model_id": "mlabonne/ChimeraLlama-3-8B-v2",
+  "benchmark_name": "ifeval",
+  "score": 44.6883158907255,
+  "score_raw": 44.6883158907255,
+  "evaluation_date": "2024-04-22",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2328
+}

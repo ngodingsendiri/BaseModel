@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-mrdayl-openthink",
+  "model_id": "mrdayl/OpenThink",
+  "benchmark_name": "bbh",
+  "score": 9.176574989757906,
+  "score_raw": 9.176574989757906,
+  "evaluation_date": "2025-02-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3704
+}

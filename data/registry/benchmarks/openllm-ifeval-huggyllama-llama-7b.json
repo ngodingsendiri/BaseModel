@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-huggyllama-llama-7b",
+  "model_id": "huggyllama/llama-7b",
+  "benchmark_name": "ifeval",
+  "score": 25.009530268576263,
+  "score_raw": 25.009530268576263,
+  "evaluation_date": "2023-04-03",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3625
+}

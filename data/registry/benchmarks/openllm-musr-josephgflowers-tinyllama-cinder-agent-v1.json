@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-josephgflowers-tinyllama-cinder-agent-v1",
+  "model_id": "Josephgflowers/TinyLlama-Cinder-Agent-v1",
+  "benchmark_name": "musr",
+  "score": 2.232291666666667,
+  "score_raw": 2.232291666666667,
+  "evaluation_date": "2024-05-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4126
+}

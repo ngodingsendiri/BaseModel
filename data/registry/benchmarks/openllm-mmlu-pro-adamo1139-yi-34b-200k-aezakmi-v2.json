@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-adamo1139-yi-34b-200k-aezakmi-v2",
+  "model_id": "adamo1139/Yi-34B-200K-AEZAKMI-v2",
+  "benchmark_name": "mmlu-pro",
+  "score": 39.032949172576835,
+  "score_raw": 39.032949172576835,
+  "evaluation_date": "2023-12-13",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 735
+}

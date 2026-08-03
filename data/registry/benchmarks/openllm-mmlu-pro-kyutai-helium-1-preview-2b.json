@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-kyutai-helium-1-preview-2b",
+  "model_id": "kyutai/helium-1-preview-2b",
+  "benchmark_name": "mmlu-pro",
+  "score": 9.694518321513002,
+  "score_raw": 9.694518321513002,
+  "evaluation_date": "2025-01-13",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3637
+}

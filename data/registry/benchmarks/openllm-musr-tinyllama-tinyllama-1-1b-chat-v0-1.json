@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-tinyllama-tinyllama-1-1b-chat-v0-1",
+  "model_id": "TinyLlama/TinyLlama-1.1B-Chat-v0.1",
+  "benchmark_name": "musr",
+  "score": 3.9049479166666674,
+  "score_raw": 3.9049479166666674,
+  "evaluation_date": "2023-09-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3696
+}

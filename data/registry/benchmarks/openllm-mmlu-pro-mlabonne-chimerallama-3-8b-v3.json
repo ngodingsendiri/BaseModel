@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-mlabonne-chimerallama-3-8b-v3",
+  "model_id": "mlabonne/ChimeraLlama-3-8B-v3",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.650561465721044,
+  "score_raw": 29.650561465721044,
+  "evaluation_date": "2024-05-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1916
+}

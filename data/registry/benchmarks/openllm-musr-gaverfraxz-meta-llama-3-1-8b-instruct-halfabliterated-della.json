@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-gaverfraxz-meta-llama-3-1-8b-instruct-halfabliterated-della",
+  "model_id": "gaverfraxz/Meta-Llama-3.1-8B-Instruct-HalfAbliterated-DELLA",
+  "benchmark_name": "musr",
+  "score": 3.463541666666668,
+  "score_raw": 3.463541666666668,
+  "evaluation_date": "2024-09-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3822
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-triangle104-set-70b",
+  "model_id": "Triangle104/Set-70b",
+  "benchmark_name": "gpqa",
+  "score": 26.174496644295303,
+  "score_raw": 26.174496644295303,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 6
+}

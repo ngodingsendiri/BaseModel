@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-prithivmlmods-codepy-deepthink-3b",
+  "model_id": "prithivMLmods/Codepy-Deepthink-3B",
+  "benchmark_name": "musr",
+  "score": 3.977604166666666,
+  "score_raw": 3.977604166666666,
+  "evaluation_date": "2024-12-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3680
+}

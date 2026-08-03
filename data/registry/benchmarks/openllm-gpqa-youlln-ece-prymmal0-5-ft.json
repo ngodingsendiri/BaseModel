@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-youlln-ece-prymmal0-5-ft",
+  "model_id": "Youlln/ECE-PRYMMAL0.5-FT",
+  "benchmark_name": "gpqa",
+  "score": 0.7829977628635317,
+  "score_raw": 0.7829977628635317,
+  "evaluation_date": "2024-10-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4193
+}

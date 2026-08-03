@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-icefog72-icedrunkencherryrp-7b",
+  "model_id": "icefog72/IceDrunkenCherryRP-7b",
+  "benchmark_name": "ifeval",
+  "score": 47.62585495374495,
+  "score_raw": 47.62585495374495,
+  "evaluation_date": "2024-11-21",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2044
+}

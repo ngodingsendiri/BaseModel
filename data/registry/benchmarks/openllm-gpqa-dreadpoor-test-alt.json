@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-test-alt",
+  "model_id": "DreadPoor/test_ALT",
+  "benchmark_name": "gpqa",
+  "score": 2.572706935123044,
+  "score_raw": 2.572706935123044,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3458
+}

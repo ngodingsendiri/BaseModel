@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-zelk12-mt-merge2-mu-gemma-2-mtg2mt1g2-9b",
+  "model_id": "zelk12/MT-Merge2-MU-gemma-2-MTg2MT1g2-9B",
+  "benchmark_name": "gpqa",
+  "score": 13.422818791946312,
+  "score_raw": 13.422818791946312,
+  "evaluation_date": "2024-11-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 558
+}

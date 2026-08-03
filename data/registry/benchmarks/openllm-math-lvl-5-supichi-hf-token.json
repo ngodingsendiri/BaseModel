@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-supichi-hf-token",
+  "model_id": "Supichi/HF_TOKEN",
+  "benchmark_name": "math-lvl-5",
+  "score": 0.0755287009063444,
+  "score_raw": 0.0755287009063444,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4433
+}

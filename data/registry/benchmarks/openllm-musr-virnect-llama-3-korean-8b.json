@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-virnect-llama-3-korean-8b",
+  "model_id": "VIRNECT/llama-3-Korean-8B",
+  "benchmark_name": "musr",
+  "score": 3.032291666666666,
+  "score_raw": 3.032291666666666,
+  "evaluation_date": "2024-07-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3924
+}

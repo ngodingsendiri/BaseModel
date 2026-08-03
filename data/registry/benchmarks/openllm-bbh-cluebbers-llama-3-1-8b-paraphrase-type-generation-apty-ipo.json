@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-cluebbers-llama-3-1-8b-paraphrase-type-generation-apty-ipo",
+  "model_id": "cluebbers/Llama-3.1-8B-paraphrase-type-generation-apty-ipo",
+  "benchmark_name": "bbh",
+  "score": 12.669478223003603,
+  "score_raw": 12.669478223003603,
+  "evaluation_date": "2024-11-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3589
+}

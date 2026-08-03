@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-152334h-miqu-1-70b-sf",
+  "model_id": "152334H/miqu-1-70b-sf",
+  "benchmark_name": "ifeval",
+  "score": 51.81740005407873,
+  "score_raw": 51.81740005407873,
+  "evaluation_date": "2024-01-30",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1735
+}

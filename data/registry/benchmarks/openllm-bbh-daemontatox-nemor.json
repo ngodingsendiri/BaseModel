@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-daemontatox-nemor",
+  "model_id": "Daemontatox/NemoR",
+  "benchmark_name": "bbh",
+  "score": 31.605520137148783,
+  "score_raw": 31.605520137148783,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1929
+}

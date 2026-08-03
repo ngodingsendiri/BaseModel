@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-marcuscedricridia-hush-qwen2-5-7b-v1-3",
+  "model_id": "marcuscedricridia/Hush-Qwen2.5-7B-v1.3",
+  "benchmark_name": "musr",
+  "score": 12.379427083333335,
+  "score_raw": 12.379427083333335,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1472
+}

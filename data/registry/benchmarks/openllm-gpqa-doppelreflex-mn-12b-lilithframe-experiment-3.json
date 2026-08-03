@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-doppelreflex-mn-12b-lilithframe-experiment-3",
+  "model_id": "DoppelReflEx/MN-12B-LilithFrame-Experiment-3",
+  "benchmark_name": "gpqa",
+  "score": 10.402684563758392,
+  "score_raw": 10.402684563758392,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 919
+}

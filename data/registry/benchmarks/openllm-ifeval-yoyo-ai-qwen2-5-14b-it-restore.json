@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-yoyo-ai-qwen2-5-14b-it-restore",
+  "model_id": "YOYO-AI/Qwen2.5-14B-it-restore",
+  "benchmark_name": "ifeval",
+  "score": 82.09484168672456,
+  "score_raw": 82.09484168672456,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 51
+}

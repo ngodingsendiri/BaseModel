@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-ontocord-wide-3b-sft-stage1-2-ss1-expert-news",
+  "model_id": "ontocord/wide_3b_sft_stage1.2-ss1-expert_news",
+  "benchmark_name": "musr",
+  "score": 2.9283854166666674,
+  "score_raw": 2.9283854166666674,
+  "evaluation_date": "2025-03-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3947
+}

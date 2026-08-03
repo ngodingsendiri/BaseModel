@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-dreadpoor-rpmash-8b-model-stock",
+  "model_id": "DreadPoor/RPMash-8B-Model_Stock",
+  "benchmark_name": "ifeval",
+  "score": 45.635026174993456,
+  "score_raw": 45.635026174993456,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2233
+}

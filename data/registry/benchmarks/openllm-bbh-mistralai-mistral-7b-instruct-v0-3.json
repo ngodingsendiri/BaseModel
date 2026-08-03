@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-mistralai-mistral-7b-instruct-v0-3",
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+  "benchmark_name": "bbh",
+  "score": 25.56911494885904,
+  "score_raw": 25.56911494885904,
+  "evaluation_date": "2024-05-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2774
+}

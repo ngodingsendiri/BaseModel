@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-baai-infinity-instruct-3m-0613-llama3-70b",
+  "model_id": "BAAI/Infinity-Instruct-3M-0613-Llama3-70B",
+  "benchmark_name": "gpqa",
+  "score": 14.429530201342287,
+  "score_raw": 14.429530201342287,
+  "evaluation_date": "2024-06-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 444
+}

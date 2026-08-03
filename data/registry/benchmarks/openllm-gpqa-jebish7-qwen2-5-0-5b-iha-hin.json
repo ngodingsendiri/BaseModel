@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-jebish7-qwen2-5-0-5b-iha-hin",
+  "model_id": "jebish7/qwen2.5-0.5B-IHA-Hin",
+  "benchmark_name": "gpqa",
+  "score": 0.33557046979865535,
+  "score_raw": 0.33557046979865535,
+  "evaluation_date": "2025-02-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4287
+}

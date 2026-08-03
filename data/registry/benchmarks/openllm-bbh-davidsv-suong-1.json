@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-davidsv-suong-1",
+  "model_id": "Davidsv/SUONG-1",
+  "benchmark_name": "bbh",
+  "score": 1.8272424825748754,
+  "score_raw": 1.8272424825748754,
+  "evaluation_date": "2025-02-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4512
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-lightningrodlabs-flashlight-v1-1",
+  "model_id": "LightningRodLabs/Flashlight-v1.1",
+  "benchmark_name": "bbh",
+  "score": 55.432811255376855,
+  "score_raw": 55.432811255376855,
+  "evaluation_date": "2025-01-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 118
+}

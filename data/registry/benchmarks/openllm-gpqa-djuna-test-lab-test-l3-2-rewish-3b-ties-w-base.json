@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-djuna-test-lab-test-l3-2-rewish-3b-ties-w-base",
+  "model_id": "djuna-test-lab/TEST-L3.2-ReWish-3B-ties-w-base",
+  "benchmark_name": "gpqa",
+  "score": 4.4742729306487705,
+  "score_raw": 4.4742729306487705,
+  "evaluation_date": "2024-10-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2801
+}

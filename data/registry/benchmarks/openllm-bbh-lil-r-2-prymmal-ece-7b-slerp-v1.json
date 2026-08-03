@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-lil-r-2-prymmal-ece-7b-slerp-v1",
+  "model_id": "Lil-R/2_PRYMMAL-ECE-7B-SLERP-V1",
+  "benchmark_name": "bbh",
+  "score": 2.7840182309259673,
+  "score_raw": 2.7840182309259673,
+  "evaluation_date": "2024-10-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4357
+}

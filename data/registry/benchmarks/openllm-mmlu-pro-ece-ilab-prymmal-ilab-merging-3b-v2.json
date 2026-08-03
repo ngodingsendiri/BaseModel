@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ece-ilab-prymmal-ilab-merging-3b-v2",
+  "model_id": "ECE-ILAB-PRYMMAL/ILAB-Merging-3B-V2",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.783761820330973,
+  "score_raw": 31.783761820330973,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1425
+}

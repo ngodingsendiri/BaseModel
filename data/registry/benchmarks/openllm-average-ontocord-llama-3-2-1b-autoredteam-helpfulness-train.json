@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ontocord-llama-3-2-1b-autoredteam-helpfulness-train",
+  "model_id": "ontocord/Llama_3.2_1b-autoredteam_helpfulness-train",
+  "benchmark_name": "average",
+  "score": 6.603005260709961,
+  "score_raw": 6.603005260709961,
+  "evaluation_date": "2025-01-30",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4102
+}

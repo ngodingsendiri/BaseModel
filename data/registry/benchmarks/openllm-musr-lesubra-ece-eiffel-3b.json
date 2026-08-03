@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-lesubra-ece-eiffel-3b",
+  "model_id": "lesubra/ECE-EIFFEL-3B",
+  "benchmark_name": "musr",
+  "score": 14.6953125,
+  "score_raw": 14.6953125,
+  "evaluation_date": "2024-10-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 915
+}

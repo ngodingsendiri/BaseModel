@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-doppelreflex-mn-12b-unleashed-twilight",
+  "model_id": "DoppelReflEx/MN-12B-Unleashed-Twilight",
+  "benchmark_name": "gpqa",
+  "score": 10.514541387024611,
+  "score_raw": 10.514541387024611,
+  "evaluation_date": "2025-02-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 900
+}

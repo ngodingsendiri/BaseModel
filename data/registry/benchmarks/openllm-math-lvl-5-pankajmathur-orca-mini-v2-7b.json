@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-pankajmathur-orca-mini-v2-7b",
+  "model_id": "pankajmathur/orca_mini_v2_7b",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.1329305135951662,
+  "score_raw": 1.1329305135951662,
+  "evaluation_date": "2023-07-03",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4188
+}

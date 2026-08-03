@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dans-discountmodels-mistral-7b-v0-3-test-e0-7",
+  "model_id": "Dans-DiscountModels/Mistral-7b-v0.3-Test-E0.7",
+  "benchmark_name": "gpqa",
+  "score": 6.152125279642054,
+  "score_raw": 6.152125279642054,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2190
+}

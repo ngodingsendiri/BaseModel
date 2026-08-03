@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-vhab10-llama-3-1-8b-base-instruct-slerp",
+  "model_id": "vhab10/Llama-3.1-8B-Base-Instruct-SLERP",
+  "benchmark_name": "musr",
+  "score": 9.366145833333334,
+  "score_raw": 9.366145833333334,
+  "evaluation_date": "2024-09-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2485
+}

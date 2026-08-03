@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-argilla-notux-8x7b-v1",
+  "model_id": "argilla/notux-8x7b-v1",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.558215130023648,
+  "score_raw": 29.558215130023648,
+  "evaluation_date": "2023-12-12",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1942
+}

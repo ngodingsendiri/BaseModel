@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-nvidia-llama-3-1-nemotron-70b-instruct-hf",
+  "model_id": "nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
+  "benchmark_name": "mmlu-pro",
+  "score": 43.53945035460993,
+  "score_raw": 43.53945035460993,
+  "evaluation_date": "2024-10-12",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 584
+}

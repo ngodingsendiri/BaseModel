@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-quazim0t0-tb0-8b-sce",
+  "model_id": "Quazim0t0/TB0-8B-sce",
+  "benchmark_name": "average",
+  "score": 24.188001040020307,
+  "score_raw": 24.188001040020307,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1775
+}

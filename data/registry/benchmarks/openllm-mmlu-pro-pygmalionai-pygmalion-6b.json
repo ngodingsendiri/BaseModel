@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-pygmalionai-pygmalion-6b",
+  "model_id": "PygmalionAI/pygmalion-6b",
+  "benchmark_name": "mmlu-pro",
+  "score": 2.0390070921985806,
+  "score_raw": 2.0390070921985806,
+  "evaluation_date": "2023-01-07",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4148
+}

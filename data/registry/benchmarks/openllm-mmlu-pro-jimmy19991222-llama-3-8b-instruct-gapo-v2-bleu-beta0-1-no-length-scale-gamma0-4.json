@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-jimmy19991222-llama-3-8b-instruct-gapo-v2-bleu-beta0-1-no-length-scale-gamma0-4",
+  "model_id": "Jimmy19991222/llama-3-8b-instruct-gapo-v2-bleu-beta0.1-no-length-scale-gamma0.4",
+  "benchmark_name": "mmlu-pro",
+  "score": 28.27460106382979,
+  "score_raw": 28.27460106382979,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2150
+}

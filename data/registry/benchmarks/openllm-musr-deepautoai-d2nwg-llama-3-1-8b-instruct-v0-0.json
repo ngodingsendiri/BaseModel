@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-deepautoai-d2nwg-llama-3-1-8b-instruct-v0-0",
+  "model_id": "DeepAutoAI/d2nwg_Llama-3.1-8B-Instruct-v0.0",
+  "benchmark_name": "musr",
+  "score": 10.983593749999997,
+  "score_raw": 10.983593749999997,
+  "evaluation_date": "2024-09-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1981
+}

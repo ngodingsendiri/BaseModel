@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sicariussicariistuff-impish-qwen-7b-1m",
+  "model_id": "SicariusSicariiStuff/Impish_QWEN_7B-1M",
+  "benchmark_name": "average",
+  "score": 30.209083552218306,
+  "score_raw": 30.209083552218306,
+  "evaluation_date": "2025-01-27",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 991
+}

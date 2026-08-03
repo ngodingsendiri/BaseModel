@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-mtsair-cotype-nano",
+  "model_id": "MTSAIR/Cotype-Nano",
+  "benchmark_name": "mmlu-pro",
+  "score": 16.40809692671395,
+  "score_raw": 16.40809692671395,
+  "evaluation_date": "2024-11-22",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3407
+}

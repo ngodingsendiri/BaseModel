@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-krystalan-drt-o1-14b",
+  "model_id": "Krystalan/DRT-o1-14B",
+  "benchmark_name": "average",
+  "score": 36.16608563724584,
+  "score_raw": 36.16608563724584,
+  "evaluation_date": "2024-12-23",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 556
+}

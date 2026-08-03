@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-mindw96-deepseek-llama3-3-bllossom-8b-dacon-llm3",
+  "model_id": "mindw96/DeepSeek-llama3.3-Bllossom-8B-DACON-LLM3",
+  "benchmark_name": "musr",
+  "score": 4.734375,
+  "score_raw": 4.734375,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3502
+}

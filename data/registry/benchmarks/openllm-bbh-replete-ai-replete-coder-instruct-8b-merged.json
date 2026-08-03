@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-replete-ai-replete-coder-instruct-8b-merged",
+  "model_id": "Replete-AI/Replete-Coder-Instruct-8b-Merged",
+  "benchmark_name": "bbh",
+  "score": 21.937706578272657,
+  "score_raw": 21.937706578272657,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3079
+}

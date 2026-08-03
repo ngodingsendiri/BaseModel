@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-saishshinde15-tethysai-vortex",
+  "model_id": "saishshinde15/TethysAI_Vortex",
+  "benchmark_name": "math-lvl-5",
+  "score": 31.49546827794562,
+  "score_raw": 31.49546827794562,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 776
+}

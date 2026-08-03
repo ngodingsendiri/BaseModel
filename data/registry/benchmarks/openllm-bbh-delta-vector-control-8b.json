@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-delta-vector-control-8b",
+  "model_id": "Delta-Vector/Control-8B",
+  "benchmark_name": "bbh",
+  "score": 29.15507782169402,
+  "score_raw": 29.15507782169402,
+  "evaluation_date": "2024-10-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2338
+}

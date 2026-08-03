@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-ghost-x-ghost-8b-beta-1608",
+  "model_id": "ghost-x/ghost-8b-beta-1608",
+  "benchmark_name": "bbh",
+  "score": 23.463963859654836,
+  "score_raw": 23.463963859654836,
+  "evaluation_date": "2024-08-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2952
+}

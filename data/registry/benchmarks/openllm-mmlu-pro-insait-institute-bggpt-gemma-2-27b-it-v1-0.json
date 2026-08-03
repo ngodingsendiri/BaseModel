@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-insait-institute-bggpt-gemma-2-27b-it-v1-0",
+  "model_id": "INSAIT-Institute/BgGPT-Gemma-2-27B-IT-v1.0",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.854314420803781,
+  "score_raw": 1.854314420803781,
+  "evaluation_date": "2024-11-15",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4196
+}

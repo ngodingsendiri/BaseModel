@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-maldv-awqward2-5-32b-instruct",
+  "model_id": "maldv/Awqward2.5-32B-Instruct",
+  "benchmark_name": "ifeval",
+  "score": 82.54697535871487,
+  "score_raw": 82.54697535871487,
+  "evaluation_date": "2024-12-18",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 44
+}

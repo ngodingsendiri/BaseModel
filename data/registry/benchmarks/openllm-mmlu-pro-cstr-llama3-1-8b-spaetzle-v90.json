@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-cstr-llama3-1-8b-spaetzle-v90",
+  "model_id": "cstr/llama3.1-8b-spaetzle-v90",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.343158983451534,
+  "score_raw": 30.343158983451534,
+  "evaluation_date": "2024-09-15",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1759
+}

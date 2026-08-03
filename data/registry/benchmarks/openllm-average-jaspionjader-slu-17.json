@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-jaspionjader-slu-17",
+  "model_id": "jaspionjader/slu-17",
+  "benchmark_name": "average",
+  "score": 20.804993679674656,
+  "score_raw": 20.804993679674656,
+  "evaluation_date": "2025-02-01",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2534
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-djuna-gemma-2-gemmama-9b",
+  "model_id": "djuna/Gemma-2-gemmama-9b",
+  "benchmark_name": "math-lvl-5",
+  "score": 19.259818731117825,
+  "score_raw": 19.259818731117825,
+  "evaluation_date": "2024-08-31",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1378
+}

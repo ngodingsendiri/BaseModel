@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-youngpanda-qwenqwen",
+  "model_id": "YoungPanda/qwenqwen",
+  "benchmark_name": "bbh",
+  "score": 8.194779944827593,
+  "score_raw": 8.194779944827593,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3763
+}

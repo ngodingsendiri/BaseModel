@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-langgptai-qwen-las-v0-1",
+  "model_id": "langgptai/Qwen-las-v0.1",
+  "benchmark_name": "ifeval",
+  "score": 33.01041237250495,
+  "score_raw": 33.01041237250495,
+  "evaluation_date": "2024-05-26",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3148
+}

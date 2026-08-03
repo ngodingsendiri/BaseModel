@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-openassistant-oasst-sft-1-pythia-12b",
+  "model_id": "OpenAssistant/oasst-sft-1-pythia-12b",
+  "benchmark_name": "bbh",
+  "score": 4.778508799161477,
+  "score_raw": 4.778508799161477,
+  "evaluation_date": "2023-03-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4134
+}

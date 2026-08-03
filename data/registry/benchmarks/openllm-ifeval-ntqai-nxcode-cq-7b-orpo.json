@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-ntqai-nxcode-cq-7b-orpo",
+  "model_id": "NTQAI/Nxcode-CQ-7B-orpo",
+  "benchmark_name": "ifeval",
+  "score": 40.07211975336551,
+  "score_raw": 40.07211975336551,
+  "evaluation_date": "2024-04-24",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2733
+}

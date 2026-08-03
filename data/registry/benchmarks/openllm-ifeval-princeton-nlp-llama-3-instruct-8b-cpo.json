@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-princeton-nlp-llama-3-instruct-8b-cpo",
+  "model_id": "princeton-nlp/Llama-3-Instruct-8B-CPO",
+  "benchmark_name": "ifeval",
+  "score": 72.92993701157374,
+  "score_raw": 72.92993701157374,
+  "evaluation_date": "2024-07-06",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 587
+}

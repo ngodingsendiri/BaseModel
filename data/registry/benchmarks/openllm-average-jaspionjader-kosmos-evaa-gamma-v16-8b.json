@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-jaspionjader-kosmos-evaa-gamma-v16-8b",
+  "model_id": "jaspionjader/Kosmos-EVAA-gamma-v16-8B",
+  "benchmark_name": "average",
+  "score": 23.98392902504385,
+  "score_raw": 23.98392902504385,
+  "evaluation_date": "2024-12-28",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1847
+}

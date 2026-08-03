@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-tannedbum-l3-rhaenys-8b",
+  "model_id": "tannedbum/L3-Rhaenys-8B",
+  "benchmark_name": "gpqa",
+  "score": 6.375838926174497,
+  "score_raw": 6.375838926174497,
+  "evaluation_date": "2024-07-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2146
+}

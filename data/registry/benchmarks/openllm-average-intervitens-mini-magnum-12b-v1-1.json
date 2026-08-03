@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-intervitens-mini-magnum-12b-v1-1",
+  "model_id": "intervitens/mini-magnum-12b-v1.1",
+  "benchmark_name": "average",
+  "score": 21.028735164842907,
+  "score_raw": 21.028735164842907,
+  "evaluation_date": "2024-07-24",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2489
+}

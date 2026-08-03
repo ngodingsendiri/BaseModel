@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-prithivmlmods-messier-opus-14b-elite7",
+  "model_id": "prithivMLmods/Messier-Opus-14B-Elite7",
+  "benchmark_name": "math-lvl-5",
+  "score": 40.70996978851964,
+  "score_raw": 40.70996978851964,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 431
+}

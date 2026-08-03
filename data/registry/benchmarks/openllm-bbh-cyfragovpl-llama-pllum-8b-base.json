@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-cyfragovpl-llama-pllum-8b-base",
+  "model_id": "CYFRAGOVPL/Llama-PLLuM-8B-base",
+  "benchmark_name": "bbh",
+  "score": 20.218737977791477,
+  "score_raw": 20.218737977791477,
+  "evaluation_date": "2025-02-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3186
+}

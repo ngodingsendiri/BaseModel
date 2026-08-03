@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-prithivmlmods-omni-reasoner3-merged",
+  "model_id": "prithivMLmods/Omni-Reasoner3-Merged",
+  "benchmark_name": "mmlu-pro",
+  "score": 21.66260342789598,
+  "score_raw": 21.66260342789598,
+  "evaluation_date": "2025-01-17",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2977
+}

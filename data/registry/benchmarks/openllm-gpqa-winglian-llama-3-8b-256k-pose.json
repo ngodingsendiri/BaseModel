@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-winglian-llama-3-8b-256k-pose",
+  "model_id": "winglian/llama-3-8b-256k-PoSE",
+  "benchmark_name": "gpqa",
+  "score": 1.0067114093959737,
+  "score_raw": 1.0067114093959737,
+  "evaluation_date": "2024-04-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4141
+}

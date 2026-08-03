@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-anthracite-org-magnum-v2-5-12b-kto",
+  "model_id": "anthracite-org/magnum-v2.5-12b-kto",
+  "benchmark_name": "gpqa",
+  "score": 5.8165548098433995,
+  "score_raw": 5.8165548098433995,
+  "evaluation_date": "2024-08-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2344
+}

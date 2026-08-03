@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-allknowingroger-ph3merge-14b",
+  "model_id": "allknowingroger/Ph3merge-14B",
+  "benchmark_name": "bbh",
+  "score": 48.88242371785896,
+  "score_raw": 48.88242371785896,
+  "evaluation_date": "2024-08-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 484
+}

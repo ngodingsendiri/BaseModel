@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-openbuddy-openbuddy-llama3-3-70b-v24-1-131k",
+  "model_id": "OpenBuddy/openbuddy-llama3.3-70b-v24.1-131k",
+  "benchmark_name": "gpqa",
+  "score": 24.608501118568235,
+  "score_raw": 24.608501118568235,
+  "evaluation_date": "2024-12-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 10
+}

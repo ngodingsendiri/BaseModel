@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-cultrix-qwen2-5-14b-emergedv3",
+  "model_id": "CultriX/Qwen2.5-14B-Emergedv3",
+  "benchmark_name": "math-lvl-5",
+  "score": 43.58006042296073,
+  "score_raw": 43.58006042296073,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 339
+}

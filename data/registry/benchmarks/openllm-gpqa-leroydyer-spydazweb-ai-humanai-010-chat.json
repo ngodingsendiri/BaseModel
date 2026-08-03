@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-leroydyer-spydazweb-ai-humanai-010-chat",
+  "model_id": "LeroyDyer/SpydazWeb_AI_HumanAI_010_CHAT",
+  "benchmark_name": "gpqa",
+  "score": 1.230425055928408,
+  "score_raw": 1.230425055928408,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4007
+}

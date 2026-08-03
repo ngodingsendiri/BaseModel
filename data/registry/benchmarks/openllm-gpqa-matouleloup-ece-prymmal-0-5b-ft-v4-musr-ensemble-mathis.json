@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-matouleloup-ece-prymmal-0-5b-ft-v4-musr-ensemble-mathis",
+  "model_id": "matouLeLoup/ECE-PRYMMAL-0.5B-FT-V4-MUSR-ENSEMBLE-Mathis",
+  "benchmark_name": "gpqa",
+  "score": 1.4541387024608499,
+  "score_raw": 1.4541387024608499,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3917
+}

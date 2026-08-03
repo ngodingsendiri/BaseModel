@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-suayptalha-rombos-2-5-t-e-8-1",
+  "model_id": "suayptalha/Rombos-2.5-T.E-8.1",
+  "benchmark_name": "musr",
+  "score": 10.979427083333336,
+  "score_raw": 10.979427083333336,
+  "evaluation_date": "2024-11-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1985
+}

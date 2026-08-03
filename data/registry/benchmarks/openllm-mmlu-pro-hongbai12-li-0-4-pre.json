@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-hongbai12-li-0-4-pre",
+  "model_id": "hongbai12/li-0.4-pre",
+  "benchmark_name": "mmlu-pro",
+  "score": 44.61066784869976,
+  "score_raw": 44.61066784869976,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 558
+}

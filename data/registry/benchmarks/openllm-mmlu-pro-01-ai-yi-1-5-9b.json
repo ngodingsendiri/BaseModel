@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-01-ai-yi-1-5-9b",
+  "model_id": "01-ai/Yi-1.5-9B",
+  "benchmark_name": "mmlu-pro",
+  "score": 32.402482269503544,
+  "score_raw": 32.402482269503544,
+  "evaluation_date": "2024-05-11",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1315
+}

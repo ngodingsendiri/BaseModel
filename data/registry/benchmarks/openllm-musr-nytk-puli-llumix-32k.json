@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-nytk-puli-llumix-32k",
+  "model_id": "NYTK/PULI-LlumiX-32K",
+  "benchmark_name": "musr",
+  "score": 7.718750000000001,
+  "score_raw": 7.718750000000001,
+  "evaluation_date": "2024-03-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2923
+}

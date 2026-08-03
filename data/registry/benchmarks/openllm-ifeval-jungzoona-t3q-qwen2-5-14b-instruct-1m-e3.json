@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-jungzoona-t3q-qwen2-5-14b-instruct-1m-e3",
+  "model_id": "JungZoona/T3Q-Qwen2.5-14B-Instruct-1M-e3",
+  "benchmark_name": "ifeval",
+  "score": 73.2396707403024,
+  "score_raw": 73.2396707403024,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 563
+}

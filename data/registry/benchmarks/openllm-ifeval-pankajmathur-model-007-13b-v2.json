@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-pankajmathur-model-007-13b-v2",
+  "model_id": "pankajmathur/model_007_13b_v2",
+  "benchmark_name": "ifeval",
+  "score": 30.564901129004376,
+  "score_raw": 30.564901129004376,
+  "evaluation_date": "2023-08-12",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3277
+}

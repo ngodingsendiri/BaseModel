@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-open-orca-mistral-7b-openorca",
+  "model_id": "Open-Orca/Mistral-7B-OpenOrca",
+  "benchmark_name": "ifeval",
+  "score": 49.77659277384008,
+  "score_raw": 49.77659277384008,
+  "evaluation_date": "2023-09-29",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1884
+}

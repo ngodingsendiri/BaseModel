@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-piotr25691-thea-c-3b-25r",
+  "model_id": "piotr25691/thea-c-3b-25r",
+  "benchmark_name": "ifeval",
+  "score": 74.01904723910336,
+  "score_raw": 74.01904723910336,
+  "evaluation_date": "2024-10-14",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 501
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-allknowingroger-yi-blossom-40b",
+  "model_id": "allknowingroger/Yi-blossom-40B",
+  "benchmark_name": "average",
+  "score": 5.827458303350088,
+  "score_raw": 5.827458303350088,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4177
+}

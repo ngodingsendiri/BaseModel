@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-quazim0t0-alice-14b",
+  "model_id": "Quazim0t0/Alice-14B",
+  "benchmark_name": "math-lvl-5",
+  "score": 45.69486404833837,
+  "score_raw": 45.69486404833837,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 278
+}

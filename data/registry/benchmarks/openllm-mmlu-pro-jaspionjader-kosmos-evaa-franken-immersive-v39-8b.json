@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-jaspionjader-kosmos-evaa-franken-immersive-v39-8b",
+  "model_id": "jaspionjader/Kosmos-EVAA-Franken-Immersive-v39-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 32.227024231678485,
+  "score_raw": 32.227024231678485,
+  "evaluation_date": "2025-01-05",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1344
+}

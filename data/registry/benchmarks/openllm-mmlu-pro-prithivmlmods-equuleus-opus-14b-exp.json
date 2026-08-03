@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-prithivmlmods-equuleus-opus-14b-exp",
+  "model_id": "prithivMLmods/Equuleus-Opus-14B-Exp",
+  "benchmark_name": "mmlu-pro",
+  "score": 48.60002955082743,
+  "score_raw": 48.60002955082743,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 249
+}

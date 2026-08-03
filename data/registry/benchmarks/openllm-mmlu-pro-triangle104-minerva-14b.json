@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-triangle104-minerva-14b",
+  "model_id": "Triangle104/Minerva-14b",
+  "benchmark_name": "mmlu-pro",
+  "score": 46.596114066193856,
+  "score_raw": 46.596114066193856,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 458
+}

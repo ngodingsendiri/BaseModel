@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-rsh345-mistral-ft-optimized-1218-neuralhermes-2-5-mistral-7b",
+  "model_id": "rsh345/mistral-ft-optimized-1218-NeuralHermes-2.5-Mistral-7B",
+  "benchmark_name": "mmlu-pro",
+  "score": 22.816932624113473,
+  "score_raw": 22.816932624113473,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2822
+}

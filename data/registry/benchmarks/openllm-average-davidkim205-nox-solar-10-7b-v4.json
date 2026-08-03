@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-davidkim205-nox-solar-10-7b-v4",
+  "model_id": "davidkim205/nox-solar-10.7b-v4",
+  "benchmark_name": "average",
+  "score": 18.514321082123697,
+  "score_raw": 18.514321082123697,
+  "evaluation_date": "2024-03-16",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2883
+}

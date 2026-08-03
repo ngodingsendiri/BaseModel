@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-ehristoforu-falcon3-moe-2x7b-insruct",
+  "model_id": "ehristoforu/Falcon3-MoE-2x7B-Insruct",
+  "benchmark_name": "bbh",
+  "score": 38.0671542210182,
+  "score_raw": 38.0671542210182,
+  "evaluation_date": "2024-12-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1007
+}

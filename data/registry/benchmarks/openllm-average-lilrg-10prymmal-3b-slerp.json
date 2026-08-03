@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-lilrg-10prymmal-3b-slerp",
+  "model_id": "LilRg/10PRYMMAL-3B-slerp",
+  "benchmark_name": "average",
+  "score": 21.087895754438843,
+  "score_raw": 21.087895754438843,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2477
+}

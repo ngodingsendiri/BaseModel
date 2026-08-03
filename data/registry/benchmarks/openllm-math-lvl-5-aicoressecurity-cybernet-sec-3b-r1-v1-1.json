@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-aicoressecurity-cybernet-sec-3b-r1-v1-1",
+  "model_id": "AicoresSecurity/Cybernet-Sec-3B-R1-V1.1",
+  "benchmark_name": "math-lvl-5",
+  "score": 17.598187311178247,
+  "score_raw": 17.598187311178247,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1516
+}

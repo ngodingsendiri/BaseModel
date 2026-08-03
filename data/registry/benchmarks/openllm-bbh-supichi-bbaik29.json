@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-supichi-bbaik29",
+  "model_id": "Supichi/BBAIK29",
+  "benchmark_name": "bbh",
+  "score": 36.96354856971481,
+  "score_raw": 36.96354856971481,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1083
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-djuna-l3-1-purosani-2-8b",
+  "model_id": "djuna/L3.1-Purosani-2-8B",
+  "benchmark_name": "ifeval",
+  "score": 49.88153654525547,
+  "score_raw": 49.88153654525547,
+  "evaluation_date": "2024-10-04",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1872
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-norquinal-charlie",
+  "model_id": "Norquinal/Charlie",
+  "benchmark_name": "gpqa",
+  "score": 2.796420581655479,
+  "score_raw": 2.796420581655479,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3385
+}

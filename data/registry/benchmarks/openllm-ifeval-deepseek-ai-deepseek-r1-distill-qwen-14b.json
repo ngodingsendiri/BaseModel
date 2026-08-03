@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-deepseek-ai-deepseek-r1-distill-qwen-14b",
+  "model_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+  "benchmark_name": "ifeval",
+  "score": 43.81651795015004,
+  "score_raw": 43.81651795015004,
+  "evaluation_date": "2025-01-20",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2412
+}

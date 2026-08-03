@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-tinycompany-sigmaboi-base",
+  "model_id": "tinycompany/SigmaBoi-base",
+  "benchmark_name": "gpqa",
+  "score": 5.8165548098433995,
+  "score_raw": 5.8165548098433995,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2361
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-novaciano-la-mejor-mezcla-3-2-1b",
+  "model_id": "Novaciano/La_Mejor_Mezcla-3.2-1B",
+  "benchmark_name": "mmlu-pro",
+  "score": 9.214317375886525,
+  "score_raw": 9.214317375886525,
+  "evaluation_date": "2025-03-03",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3660
+}

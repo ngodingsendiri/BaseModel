@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-wanlige-li-14b-v0-4",
+  "model_id": "wanlige/li-14b-v0.4",
+  "benchmark_name": "math-lvl-5",
+  "score": 55.740181268882175,
+  "score_raw": 55.740181268882175,
+  "evaluation_date": "2025-02-22",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 33
+}

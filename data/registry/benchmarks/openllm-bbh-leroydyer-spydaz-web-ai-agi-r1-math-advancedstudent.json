@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-leroydyer-spydaz-web-ai-agi-r1-math-advancedstudent",
+  "model_id": "LeroyDyer/_Spydaz_Web_AI_AGI_R1_Math_AdvancedStudent",
+  "benchmark_name": "bbh",
+  "score": 28.149314045731852,
+  "score_raw": 28.149314045731852,
+  "evaluation_date": "2025-03-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2481
+}

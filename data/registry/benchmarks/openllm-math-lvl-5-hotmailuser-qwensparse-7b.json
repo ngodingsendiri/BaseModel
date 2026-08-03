@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-hotmailuser-qwensparse-7b",
+  "model_id": "hotmailuser/QwenSparse-7B",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.0574018126888218,
+  "score_raw": 1.0574018126888218,
+  "evaluation_date": "2025-01-04",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4211
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-nousresearch-yarn-mistral-7b-64k",
+  "model_id": "NousResearch/Yarn-Mistral-7b-64k",
+  "benchmark_name": "bbh",
+  "score": 20.230200209182886,
+  "score_raw": 20.230200209182886,
+  "evaluation_date": "2023-10-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3185
+}

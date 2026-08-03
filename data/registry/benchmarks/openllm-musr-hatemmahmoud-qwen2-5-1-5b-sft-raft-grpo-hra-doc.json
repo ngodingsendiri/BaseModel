@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-hatemmahmoud-qwen2-5-1-5b-sft-raft-grpo-hra-doc",
+  "model_id": "hatemmahmoud/qwen2.5-1.5b-sft-raft-grpo-hra-doc",
+  "benchmark_name": "musr",
+  "score": 3.389062500000001,
+  "score_raw": 3.389062500000001,
+  "evaluation_date": "2025-03-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3837
+}

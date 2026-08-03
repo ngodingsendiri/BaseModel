@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-sicariussicariistuff-2b-ad",
+  "model_id": "SicariusSicariiStuff/2B-ad",
+  "benchmark_name": "ifeval",
+  "score": 43.78903531518593,
+  "score_raw": 43.78903531518593,
+  "evaluation_date": "2024-08-26",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2416
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-allknowingroger-llama3-jallabi-40b-s",
+  "model_id": "allknowingroger/llama3-Jallabi-40B-s",
+  "benchmark_name": "bbh",
+  "score": 5.957911562958214,
+  "score_raw": 5.957911562958214,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4043
+}

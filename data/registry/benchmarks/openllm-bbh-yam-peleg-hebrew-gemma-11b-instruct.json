@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-yam-peleg-hebrew-gemma-11b-instruct",
+  "model_id": "yam-peleg/Hebrew-Gemma-11B-Instruct",
+  "benchmark_name": "bbh",
+  "score": 16.86274051283721,
+  "score_raw": 16.86274051283721,
+  "evaluation_date": "2024-03-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3407
+}

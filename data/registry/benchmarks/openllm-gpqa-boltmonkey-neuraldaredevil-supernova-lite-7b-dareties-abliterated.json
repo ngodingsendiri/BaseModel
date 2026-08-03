@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-boltmonkey-neuraldaredevil-supernova-lite-7b-dareties-abliterated",
+  "model_id": "BoltMonkey/NeuralDaredevil-SuperNova-Lite-7B-DARETIES-abliterated",
+  "benchmark_name": "gpqa",
+  "score": 3.243847874720355,
+  "score_raw": 3.243847874720355,
+  "evaluation_date": "2024-10-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3201
+}

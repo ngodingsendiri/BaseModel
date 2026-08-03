@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-vonjack-phi-3-5-mini-instruct-hermes-fc-json",
+  "model_id": "vonjack/Phi-3.5-mini-instruct-hermes-fc-json",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.540336879432624,
+  "score_raw": 1.540336879432624,
+  "evaluation_date": "2024-11-05",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4313
+}

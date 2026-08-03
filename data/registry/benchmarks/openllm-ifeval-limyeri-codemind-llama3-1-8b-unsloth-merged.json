@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-limyeri-codemind-llama3-1-8b-unsloth-merged",
+  "model_id": "LimYeri/CodeMind-Llama3.1-8B-unsloth-merged",
+  "benchmark_name": "ifeval",
+  "score": 64.90157227268094,
+  "score_raw": 64.90157227268094,
+  "evaluation_date": "2024-08-31",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1036
+}

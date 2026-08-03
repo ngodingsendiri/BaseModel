@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-qingy2019-oracle-14b",
+  "model_id": "qingy2019/Oracle-14B",
+  "benchmark_name": "ifeval",
+  "score": 23.583203677353865,
+  "score_raw": 23.583203677353865,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3776
+}

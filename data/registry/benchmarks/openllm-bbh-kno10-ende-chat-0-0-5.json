@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-kno10-ende-chat-0-0-5",
+  "model_id": "kno10/ende-chat-0.0.5",
+  "benchmark_name": "bbh",
+  "score": 11.125830654491324,
+  "score_raw": 11.125830654491324,
+  "evaluation_date": "2024-06-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3627
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-neopolita-jessi-v0-1-virtuoso-small",
+  "model_id": "neopolita/jessi-v0.1-virtuoso-small",
+  "benchmark_name": "musr",
+  "score": 14.154166666666663,
+  "score_raw": 14.154166666666663,
+  "evaluation_date": "2025-01-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1022
+}

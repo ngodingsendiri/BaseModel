@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-sometimesanotion-qwentinuum-14b-v6-prose",
+  "model_id": "sometimesanotion/Qwentinuum-14B-v6-Prose",
+  "benchmark_name": "average",
+  "score": 38.69645443942003,
+  "score_raw": 38.69645443942003,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 362
+}

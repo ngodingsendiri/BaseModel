@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-saxo-linkbricks-horizon-ai-korean-avengers-v3-27b",
+  "model_id": "Saxo/Linkbricks-Horizon-AI-Korean-Avengers-V3-27B",
+  "benchmark_name": "average",
+  "score": 37.3287116618655,
+  "score_raw": 37.3287116618655,
+  "evaluation_date": "2024-12-29",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 454
+}

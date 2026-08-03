@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-replete-ai-replete-coder-llama3-8b",
+  "model_id": "Replete-AI/Replete-Coder-Llama3-8B",
+  "benchmark_name": "ifeval",
+  "score": 47.293625358493244,
+  "score_raw": 47.293625358493244,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2064
+}

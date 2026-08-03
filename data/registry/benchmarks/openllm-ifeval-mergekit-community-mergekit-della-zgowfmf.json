@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-mergekit-community-mergekit-della-zgowfmf",
+  "model_id": "mergekit-community/mergekit-della-zgowfmf",
+  "benchmark_name": "ifeval",
+  "score": 48.275353838925156,
+  "score_raw": 48.275353838925156,
+  "evaluation_date": "2024-12-19",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1990
+}

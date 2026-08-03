@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-abhishek-autotrain-vr4a1-e5mms",
+  "model_id": "abhishek/autotrain-vr4a1-e5mms",
+  "benchmark_name": "gpqa",
+  "score": 9.284116331096197,
+  "score_raw": 9.284116331096197,
+  "evaluation_date": "2024-09-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1155
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ehristoforu-fd-lora-merged-64x128",
+  "model_id": "ehristoforu/fd-lora-merged-64x128",
+  "benchmark_name": "average",
+  "score": 11.210864438231852,
+  "score_raw": 11.210864438231852,
+  "evaluation_date": "2025-02-02",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3656
+}

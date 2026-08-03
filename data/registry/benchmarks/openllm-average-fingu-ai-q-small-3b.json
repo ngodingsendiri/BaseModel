@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-fingu-ai-q-small-3b",
+  "model_id": "FINGU-AI/Q-Small-3B",
+  "benchmark_name": "average",
+  "score": 16.89041454501282,
+  "score_raw": 16.89041454501282,
+  "evaluation_date": "2025-01-21",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3076
+}

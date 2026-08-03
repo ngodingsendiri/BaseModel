@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-databricks-dolly-v2-12b",
+  "model_id": "databricks/dolly-v2-12b",
+  "benchmark_name": "musr",
+  "score": 5.504947916666668,
+  "score_raw": 5.504947916666668,
+  "evaluation_date": "2023-04-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3351
+}

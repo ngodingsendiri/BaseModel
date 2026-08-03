@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-krystalan-drt-o1-14b",
+  "model_id": "Krystalan/DRT-o1-14B",
+  "benchmark_name": "bbh",
+  "score": 48.14182185507073,
+  "score_raw": 48.14182185507073,
+  "evaluation_date": "2024-12-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 545
+}

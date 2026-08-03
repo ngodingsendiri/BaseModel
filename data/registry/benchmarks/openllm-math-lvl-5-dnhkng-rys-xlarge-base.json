@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-dnhkng-rys-xlarge-base",
+  "model_id": "dnhkng/RYS-XLarge-base",
+  "benchmark_name": "math-lvl-5",
+  "score": 37.91540785498489,
+  "score_raw": 37.91540785498489,
+  "evaluation_date": "2024-08-02",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 529
+}

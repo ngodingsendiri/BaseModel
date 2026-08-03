@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-replete-ai-l3-1-pneuma-8b",
+  "model_id": "Replete-AI/L3.1-Pneuma-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.899896572104012,
+  "score_raw": 29.899896572104012,
+  "evaluation_date": "2024-11-09",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1852
+}

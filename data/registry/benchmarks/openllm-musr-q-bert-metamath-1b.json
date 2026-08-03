@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-q-bert-metamath-1b",
+  "model_id": "Q-bert/MetaMath-1B",
+  "benchmark_name": "musr",
+  "score": 0.7812499999999996,
+  "score_raw": 0.7812499999999996,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4540
+}

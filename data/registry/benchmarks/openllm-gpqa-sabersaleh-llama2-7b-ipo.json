@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-sabersaleh-llama2-7b-ipo",
+  "model_id": "sabersaleh/Llama2-7B-IPO",
+  "benchmark_name": "gpqa",
+  "score": 2.348993288590602,
+  "score_raw": 2.348993288590602,
+  "evaluation_date": "2024-11-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3569
+}

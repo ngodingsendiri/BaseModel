@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-benevolencemessiah-yi-coder-9b-chat-instruct-ties-moe-v1-0",
+  "model_id": "BenevolenceMessiah/Yi-Coder-9B-Chat-Instruct-TIES-MoE-v1.0",
+  "benchmark_name": "math-lvl-5",
+  "score": 4.1540785498489425,
+  "score_raw": 4.1540785498489425,
+  "evaluation_date": "2024-09-21",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3465
+}

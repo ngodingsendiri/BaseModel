@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-invisietch-mis-firefly-v0-2-22b",
+  "model_id": "invisietch/MiS-Firefly-v0.2-22B",
+  "benchmark_name": "average",
+  "score": 26.754186150522894,
+  "score_raw": 26.754186150522894,
+  "evaluation_date": "2024-11-06",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1418
+}

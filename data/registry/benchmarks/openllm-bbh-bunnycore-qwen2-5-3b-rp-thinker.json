@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-bunnycore-qwen2-5-3b-rp-thinker",
+  "model_id": "bunnycore/Qwen2.5-3B-RP-Thinker",
+  "benchmark_name": "bbh",
+  "score": 17.412964272966242,
+  "score_raw": 17.412964272966242,
+  "evaluation_date": "2024-12-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3379
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-rhplus0831-maid-yuzu-v7",
+  "model_id": "rhplus0831/maid-yuzu-v7",
+  "benchmark_name": "bbh",
+  "score": 26.8198371046094,
+  "score_raw": 26.8198371046094,
+  "evaluation_date": "2024-02-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2644
+}

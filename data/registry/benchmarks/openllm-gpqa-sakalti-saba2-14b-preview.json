@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-sakalti-saba2-14b-preview",
+  "model_id": "Sakalti/Saba2-14B-Preview",
+  "benchmark_name": "gpqa",
+  "score": 17.67337807606264,
+  "score_raw": 17.67337807606264,
+  "evaluation_date": "2024-12-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 201
+}

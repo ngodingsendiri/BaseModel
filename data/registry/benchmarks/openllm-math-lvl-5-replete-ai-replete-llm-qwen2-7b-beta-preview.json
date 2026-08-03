@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-replete-ai-replete-llm-qwen2-7b-beta-preview",
+  "model_id": "Replete-AI/Replete-LLM-Qwen2-7b_Beta-Preview",
+  "benchmark_name": "math-lvl-5",
+  "score": 0,
+  "score_raw": 0,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4484
+}

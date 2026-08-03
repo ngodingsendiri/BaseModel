@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-quazim0t0-heretic1-5b",
+  "model_id": "Quazim0t0/Heretic1.5b",
+  "benchmark_name": "gpqa",
+  "score": 2.460850111856823,
+  "score_raw": 2.460850111856823,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3514
+}

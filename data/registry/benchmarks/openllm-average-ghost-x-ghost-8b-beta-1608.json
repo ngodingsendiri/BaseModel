@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ghost-x-ghost-8b-beta-1608",
+  "model_id": "ghost-x/ghost-8b-beta-1608",
+  "benchmark_name": "average",
+  "score": 16.04724368250191,
+  "score_raw": 16.04724368250191,
+  "evaluation_date": "2024-08-18",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3187
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-lalainy-ece-prymmal-yl-6b-slerp-v2",
+  "model_id": "lalainy/ECE-PRYMMAL-YL-6B-SLERP-V2",
+  "benchmark_name": "bbh",
+  "score": 24.515258836802445,
+  "score_raw": 24.515258836802445,
+  "evaluation_date": "2024-11-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2856
+}

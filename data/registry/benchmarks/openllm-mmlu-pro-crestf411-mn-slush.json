@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-crestf411-mn-slush",
+  "model_id": "crestf411/MN-Slush",
+  "benchmark_name": "mmlu-pro",
+  "score": 27.868277186761226,
+  "score_raw": 27.868277186761226,
+  "evaluation_date": "2024-11-20",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2205
+}

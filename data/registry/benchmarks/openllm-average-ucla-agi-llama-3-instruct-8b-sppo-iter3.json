@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ucla-agi-llama-3-instruct-8b-sppo-iter3",
+  "model_id": "UCLA-AGI/Llama-3-Instruct-8B-SPPO-Iter3",
+  "benchmark_name": "average",
+  "score": 23.05947024187678,
+  "score_raw": 23.05947024187678,
+  "evaluation_date": "2024-06-25",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2084
+}

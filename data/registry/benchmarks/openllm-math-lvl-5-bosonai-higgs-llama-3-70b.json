@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-bosonai-higgs-llama-3-70b",
+  "model_id": "bosonai/Higgs-Llama-3-70B",
+  "benchmark_name": "math-lvl-5",
+  "score": 25.226586102719033,
+  "score_raw": 25.226586102719033,
+  "evaluation_date": "2024-06-05",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 994
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sakalti-neptuno-3b",
+  "model_id": "Sakalti/Neptuno-3B",
+  "benchmark_name": "average",
+  "score": 23.466342186693208,
+  "score_raw": 23.466342186693208,
+  "evaluation_date": "2025-01-08",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1983
+}

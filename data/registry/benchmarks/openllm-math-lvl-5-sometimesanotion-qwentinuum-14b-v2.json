@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sometimesanotion-qwentinuum-14b-v2",
+  "model_id": "sometimesanotion/Qwentinuum-14B-v2",
+  "benchmark_name": "math-lvl-5",
+  "score": 37.53776435045317,
+  "score_raw": 37.53776435045317,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 547
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-bramvanroy-fietje-2-chat",
+  "model_id": "BramVanroy/fietje-2-chat",
+  "benchmark_name": "mmlu-pro",
+  "score": 11.71690307328605,
+  "score_raw": 11.71690307328605,
+  "evaluation_date": "2024-04-29",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3572
+}

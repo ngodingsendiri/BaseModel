@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-matryoshka-8b-linear",
+  "model_id": "DreadPoor/Matryoshka-8B-LINEAR",
+  "benchmark_name": "gpqa",
+  "score": 9.395973154362418,
+  "score_raw": 9.395973154362418,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1116
+}

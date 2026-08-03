@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-marcuscedricridia-cheng-2",
+  "model_id": "marcuscedricridia/Cheng-2",
+  "benchmark_name": "average",
+  "score": 42.84836261136232,
+  "score_raw": 42.84836261136232,
+  "evaluation_date": "2025-03-12",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 82
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-ai-mo-numinamath-7b-tir",
+  "model_id": "AI-MO/NuminaMath-7B-TIR",
+  "benchmark_name": "bbh",
+  "score": 16.87354725795866,
+  "score_raw": 16.87354725795866,
+  "evaluation_date": "2024-07-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3406
+}

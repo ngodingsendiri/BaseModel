@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-lalainy-ece-prymmal-yl-1b-slerp-v3",
+  "model_id": "lalainy/ECE-PRYMMAL-YL-1B-SLERP-V3",
+  "benchmark_name": "mmlu-pro",
+  "score": 21.4594414893617,
+  "score_raw": 21.4594414893617,
+  "evaluation_date": "2024-11-12",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3001
+}

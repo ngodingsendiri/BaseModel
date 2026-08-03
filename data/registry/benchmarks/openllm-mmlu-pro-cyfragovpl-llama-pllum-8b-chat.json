@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-cyfragovpl-llama-pllum-8b-chat",
+  "model_id": "CYFRAGOVPL/Llama-PLLuM-8B-chat",
+  "benchmark_name": "mmlu-pro",
+  "score": 19.104609929078016,
+  "score_raw": 19.104609929078016,
+  "evaluation_date": "2025-02-07",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3231
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-maziyarpanahi-qwen2-7b-instruct-v0-8",
+  "model_id": "MaziyarPanahi/Qwen2-7B-Instruct-v0.8",
+  "benchmark_name": "math-lvl-5",
+  "score": 17.673716012084594,
+  "score_raw": 17.673716012084594,
+  "evaluation_date": "2024-06-27",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1513
+}

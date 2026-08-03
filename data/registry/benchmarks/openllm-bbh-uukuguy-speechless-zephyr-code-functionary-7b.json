@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-uukuguy-speechless-zephyr-code-functionary-7b",
+  "model_id": "uukuguy/speechless-zephyr-code-functionary-7b",
+  "benchmark_name": "bbh",
+  "score": 25.983622785908505,
+  "score_raw": 25.983622785908505,
+  "evaluation_date": "2024-01-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2732
+}

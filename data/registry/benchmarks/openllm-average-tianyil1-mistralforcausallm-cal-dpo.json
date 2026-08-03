@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-tianyil1-mistralforcausallm-cal-dpo",
+  "model_id": "tianyil1/MistralForCausalLM_Cal_DPO",
+  "benchmark_name": "average",
+  "score": 18.088644447193257,
+  "score_raw": 18.088644447193257,
+  "evaluation_date": "2025-01-25",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2941
+}

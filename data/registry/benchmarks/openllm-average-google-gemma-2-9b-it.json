@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-google-gemma-2-9b-it",
+  "model_id": "google/gemma-2-9b-it",
+  "benchmark_name": "average",
+  "score": 32.07276025267082,
+  "score_raw": 32.07276025267082,
+  "evaluation_date": "2024-06-24",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 843
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-bunnycore-gemma2-9b-titanfusion",
+  "model_id": "bunnycore/Gemma2-9B-TitanFusion",
+  "benchmark_name": "average",
+  "score": 19.471500934700618,
+  "score_raw": 19.471500934700618,
+  "evaluation_date": "2024-09-17",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2773
+}

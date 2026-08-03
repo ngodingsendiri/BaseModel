@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-weyaxi-sauerkrautlm-una-solar-instruct",
+  "model_id": "Weyaxi/SauerkrautLM-UNA-SOLAR-Instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.92508865248227,
+  "score_raw": 23.92508865248227,
+  "evaluation_date": "2023-12-21",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2638
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-novaciano-sigil-of-satan-3-2-1b",
+  "model_id": "Novaciano/Sigil-Of-Satan-3.2-1B",
+  "benchmark_name": "musr",
+  "score": 1.4184895833333335,
+  "score_raw": 1.4184895833333335,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4362
+}

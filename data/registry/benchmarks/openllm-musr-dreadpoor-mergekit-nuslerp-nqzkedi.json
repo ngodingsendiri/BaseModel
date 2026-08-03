@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-mergekit-nuslerp-nqzkedi",
+  "model_id": "DreadPoor/mergekit-nuslerp-nqzkedi",
+  "benchmark_name": "musr",
+  "score": 11.973958333333329,
+  "score_raw": 11.973958333333329,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1607
+}

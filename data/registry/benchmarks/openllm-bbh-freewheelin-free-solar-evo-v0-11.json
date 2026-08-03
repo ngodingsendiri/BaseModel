@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-freewheelin-free-solar-evo-v0-11",
+  "model_id": "freewheelin/free-solar-evo-v0.11",
+  "benchmark_name": "bbh",
+  "score": 23.18242496978891,
+  "score_raw": 23.18242496978891,
+  "evaluation_date": "2024-04-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2966
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-ba2han-llama-phi-3-dora",
+  "model_id": "Ba2han/Llama-Phi-3_DoRA",
+  "benchmark_name": "gpqa",
+  "score": 10.17897091722595,
+  "score_raw": 10.17897091722595,
+  "evaluation_date": "2024-05-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 960
+}

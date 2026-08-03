@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-v000000-l3-8b-stheno-v3-2-abliterated",
+  "model_id": "v000000/L3-8B-Stheno-v3.2-abliterated",
+  "benchmark_name": "mmlu-pro",
+  "score": 28.930260047281326,
+  "score_raw": 28.930260047281326,
+  "evaluation_date": "2024-07-09",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2054
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-quazim0t0-alice-14b",
+  "model_id": "Quazim0t0/Alice-14B",
+  "benchmark_name": "gpqa",
+  "score": 13.534675615212524,
+  "score_raw": 13.534675615212524,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 528
+}

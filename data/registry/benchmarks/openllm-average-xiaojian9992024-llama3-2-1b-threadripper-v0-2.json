@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-xiaojian9992024-llama3-2-1b-threadripper-v0-2",
+  "model_id": "Xiaojian9992024/Llama3.2-1B-THREADRIPPER-v0.2",
+  "benchmark_name": "average",
+  "score": 13.779234902412705,
+  "score_raw": 13.779234902412705,
+  "evaluation_date": "2025-02-03",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3447
+}

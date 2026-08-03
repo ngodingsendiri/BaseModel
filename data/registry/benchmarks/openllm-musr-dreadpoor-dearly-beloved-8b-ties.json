@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-dearly-beloved-8b-ties",
+  "model_id": "DreadPoor/Dearly_Beloved-8B-TIES",
+  "benchmark_name": "musr",
+  "score": 10.450260416666666,
+  "score_raw": 10.450260416666666,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2153
+}

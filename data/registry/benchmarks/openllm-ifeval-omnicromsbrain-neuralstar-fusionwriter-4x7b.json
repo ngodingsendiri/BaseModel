@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-omnicromsbrain-neuralstar-fusionwriter-4x7b",
+  "model_id": "OmnicromsBrain/NeuralStar_FusionWriter_4x7b",
+  "benchmark_name": "ifeval",
+  "score": 59.63842604289951,
+  "score_raw": 59.63842604289951,
+  "evaluation_date": "2024-06-07",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1290
+}

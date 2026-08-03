@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-heraihench-double-down-qwen-math-7b",
+  "model_id": "HeraiHench/Double-Down-Qwen-Math-7B",
+  "benchmark_name": "average",
+  "score": 4.309785575689419,
+  "score_raw": 4.309785575689419,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4393
+}

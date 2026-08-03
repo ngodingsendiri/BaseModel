@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-daemontatox-llama-cot",
+  "model_id": "Daemontatox/Llama_cot",
+  "benchmark_name": "musr",
+  "score": 6.638281250000001,
+  "score_raw": 6.638281250000001,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3131
+}

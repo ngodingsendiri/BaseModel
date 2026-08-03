@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-prithivmlmods-coco-7b-instruct-1m",
+  "model_id": "prithivMLmods/COCO-7B-Instruct-1M",
+  "benchmark_name": "bbh",
+  "score": 34.67788338275968,
+  "score_raw": 34.67788338275968,
+  "evaluation_date": "2025-01-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1407
+}

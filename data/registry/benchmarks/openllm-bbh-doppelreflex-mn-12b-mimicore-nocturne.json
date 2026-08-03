@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-doppelreflex-mn-12b-mimicore-nocturne",
+  "model_id": "DoppelReflEx/MN-12B-Mimicore-Nocturne",
+  "benchmark_name": "bbh",
+  "score": 38.39866772323549,
+  "score_raw": 38.39866772323549,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 997
+}

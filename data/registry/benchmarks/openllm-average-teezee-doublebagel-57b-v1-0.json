@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-teezee-doublebagel-57b-v1-0",
+  "model_id": "TeeZee/DoubleBagel-57B-v1.0",
+  "benchmark_name": "average",
+  "score": 8.707748481359532,
+  "score_raw": 8.707748481359532,
+  "evaluation_date": "2024-08-05",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3807
+}

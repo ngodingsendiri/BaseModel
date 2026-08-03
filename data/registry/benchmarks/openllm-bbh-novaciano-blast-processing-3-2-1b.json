@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-novaciano-blast-processing-3-2-1b",
+  "model_id": "Novaciano/BLAST_PROCESSING-3.2-1B",
+  "benchmark_name": "bbh",
+  "score": 9.362853718947571,
+  "score_raw": 9.362853718947571,
+  "evaluation_date": "2025-03-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3693
+}

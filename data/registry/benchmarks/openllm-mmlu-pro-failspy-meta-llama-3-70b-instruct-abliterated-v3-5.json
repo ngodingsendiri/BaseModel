@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-failspy-meta-llama-3-70b-instruct-abliterated-v3-5",
+  "model_id": "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3.5",
+  "benchmark_name": "mmlu-pro",
+  "score": 38.35882092198581,
+  "score_raw": 38.35882092198581,
+  "evaluation_date": "2024-05-28",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 799
+}

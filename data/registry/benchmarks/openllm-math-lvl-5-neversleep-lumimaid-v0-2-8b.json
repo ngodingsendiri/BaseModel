@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-neversleep-lumimaid-v0-2-8b",
+  "model_id": "NeverSleep/Lumimaid-v0.2-8B",
+  "benchmark_name": "math-lvl-5",
+  "score": 14.350453172205437,
+  "score_raw": 14.350453172205437,
+  "evaluation_date": "2024-07-24",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1784
+}

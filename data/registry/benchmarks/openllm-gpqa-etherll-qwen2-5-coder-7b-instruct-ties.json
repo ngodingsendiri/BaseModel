@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-etherll-qwen2-5-coder-7b-instruct-ties",
+  "model_id": "Etherll/Qwen2.5-Coder-7B-Instruct-Ties",
+  "benchmark_name": "gpqa",
+  "score": 10.626398210290827,
+  "score_raw": 10.626398210290827,
+  "evaluation_date": "2024-09-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 887
+}

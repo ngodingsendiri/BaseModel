@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-nbailab-nb-llama-3-1-8b-instruct",
+  "model_id": "NbAiLab/nb-llama-3.1-8B-Instruct",
+  "benchmark_name": "average",
+  "score": 8.479797435320535,
+  "score_raw": 8.479797435320535,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3828
+}

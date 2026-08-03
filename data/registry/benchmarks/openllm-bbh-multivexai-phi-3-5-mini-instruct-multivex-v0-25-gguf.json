@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-multivexai-phi-3-5-mini-instruct-multivex-v0-25-gguf",
+  "model_id": "MultivexAI/Phi-3.5-Mini-Instruct-MultiVex-v0.25-GGUF",
+  "benchmark_name": "bbh",
+  "score": 1.6023814703484736,
+  "score_raw": 1.6023814703484736,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4533
+}

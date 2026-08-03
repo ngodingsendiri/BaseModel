@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-lawnakk-bbalaw1-0",
+  "model_id": "Lawnakk/BBALAW1.0",
+  "benchmark_name": "bbh",
+  "score": 1.2476381461675576,
+  "score_raw": 1.2476381461675576,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4560
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-magpie-align-llama-3-8b-magpie-align-sft-v0-3",
+  "model_id": "Magpie-Align/Llama-3-8B-Magpie-Align-SFT-v0.3",
+  "benchmark_name": "average",
+  "score": 17.55322537025943,
+  "score_raw": 17.55322537025943,
+  "evaluation_date": "2024-07-13",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3001
+}

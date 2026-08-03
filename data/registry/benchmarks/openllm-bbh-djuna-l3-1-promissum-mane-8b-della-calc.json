@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-djuna-l3-1-promissum-mane-8b-della-calc",
+  "model_id": "djuna/L3.1-Promissum_Mane-8B-Della-calc",
+  "benchmark_name": "bbh",
+  "score": 35.553825960108405,
+  "score_raw": 35.553825960108405,
+  "evaluation_date": "2024-10-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1286
+}

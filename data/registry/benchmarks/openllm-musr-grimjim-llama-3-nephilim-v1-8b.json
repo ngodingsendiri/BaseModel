@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-grimjim-llama-3-nephilim-v1-8b",
+  "model_id": "grimjim/llama-3-Nephilim-v1-8B",
+  "benchmark_name": "musr",
+  "score": 10.63645833333333,
+  "score_raw": 10.63645833333333,
+  "evaluation_date": "2024-06-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2104
+}

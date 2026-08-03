@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-dreadpoor-remember-to-breathe-8b-model-stock",
+  "model_id": "DreadPoor/remember_to_breathe-8b-Model-Stock",
+  "benchmark_name": "ifeval",
+  "score": 71.04150321147887,
+  "score_raw": 71.04150321147887,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 710
+}

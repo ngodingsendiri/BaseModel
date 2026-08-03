@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-ymcki-gemma-2-2b-jpn-it-abliterated-17",
+  "model_id": "ymcki/gemma-2-2b-jpn-it-abliterated-17",
+  "benchmark_name": "math-lvl-5",
+  "score": 3.8519637462235647,
+  "score_raw": 3.8519637462235647,
+  "evaluation_date": "2024-10-16",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3558
+}

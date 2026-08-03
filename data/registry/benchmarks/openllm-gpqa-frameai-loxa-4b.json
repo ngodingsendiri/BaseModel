@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-frameai-loxa-4b",
+  "model_id": "frameai/Loxa-4B",
+  "benchmark_name": "gpqa",
+  "score": 4.4742729306487705,
+  "score_raw": 4.4742729306487705,
+  "evaluation_date": "2025-01-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2803
+}

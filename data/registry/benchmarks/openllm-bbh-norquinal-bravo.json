@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-norquinal-bravo",
+  "model_id": "Norquinal/Bravo",
+  "benchmark_name": "bbh",
+  "score": 10.654043944684554,
+  "score_raw": 10.654043944684554,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3641
+}

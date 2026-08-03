@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-mrdayl-opencognito-r2",
+  "model_id": "mrdayl/OpenCognito-r2",
+  "benchmark_name": "mmlu-pro",
+  "score": 27.351137706855795,
+  "score_raw": 27.351137706855795,
+  "evaluation_date": "2025-03-11",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2274
+}

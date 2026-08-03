@@ -18,6 +18,7 @@ export const GATEWAY_SECRET_KEYS = {
   portkey: ['PORTKEY_API_KEY'],
   requesty: ['REQUESTY_API_KEY'],
   together: ['TOGETHER_API_KEY'],
+  inferx: ['INFERX_API_KEY'],
 } as const satisfies Readonly<Record<string, readonly string[]>>;
 
 export function getGatewaySecretKeys(gatewayId: string): readonly string[] {

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-tenyx-llama3-tenyxchat-70b",
+  "model_id": "tenyx/Llama3-TenyxChat-70B",
+  "benchmark_name": "math-lvl-5",
+  "score": 23.564954682779458,
+  "score_raw": 23.564954682779458,
+  "evaluation_date": "2024-04-26",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1047
+}

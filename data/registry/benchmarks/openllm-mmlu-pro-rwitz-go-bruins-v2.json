@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-rwitz-go-bruins-v2",
+  "model_id": "rwitz/go-bruins-v2",
+  "benchmark_name": "mmlu-pro",
+  "score": 19.566341607565015,
+  "score_raw": 19.566341607565015,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3197
+}

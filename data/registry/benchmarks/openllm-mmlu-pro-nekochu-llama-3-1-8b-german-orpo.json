@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-nekochu-llama-3-1-8b-german-orpo",
+  "model_id": "Nekochu/Llama-3.1-8B-German-ORPO",
+  "benchmark_name": "mmlu-pro",
+  "score": 26.593897754137114,
+  "score_raw": 26.593897754137114,
+  "evaluation_date": "2024-09-13",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2346
+}

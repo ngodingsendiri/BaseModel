@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-aloobun-meta-llama-3-7b-28layers",
+  "model_id": "aloobun/Meta-Llama-3-7B-28Layers",
+  "benchmark_name": "gpqa",
+  "score": 5.92841163310962,
+  "score_raw": 5.92841163310962,
+  "evaluation_date": "2024-05-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2298
+}

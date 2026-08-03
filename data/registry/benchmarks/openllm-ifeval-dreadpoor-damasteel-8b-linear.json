@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-dreadpoor-damasteel-8b-linear",
+  "model_id": "DreadPoor/Damasteel-8B-LINEAR",
+  "benchmark_name": "ifeval",
+  "score": 73.84417789243652,
+  "score_raw": 73.84417789243652,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 512
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-teknium-collectivecognition-v1-1-mistral-7b",
+  "model_id": "teknium/CollectiveCognition-v1.1-Mistral-7B",
+  "benchmark_name": "musr",
+  "score": 5.732552083333332,
+  "score_raw": 5.732552083333332,
+  "evaluation_date": "2023-10-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3300
+}

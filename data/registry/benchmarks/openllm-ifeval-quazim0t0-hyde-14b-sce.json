@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-quazim0t0-hyde-14b-sce",
+  "model_id": "Quazim0t0/Hyde-14b-sce",
+  "benchmark_name": "ifeval",
+  "score": 67.15470507143269,
+  "score_raw": 67.15470507143269,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 931
+}

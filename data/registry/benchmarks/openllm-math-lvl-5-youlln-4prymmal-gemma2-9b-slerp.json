@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-youlln-4prymmal-gemma2-9b-slerp",
+  "model_id": "Youlln/4PRYMMAL-GEMMA2-9B-SLERP",
+  "benchmark_name": "math-lvl-5",
+  "score": 9.06344410876133,
+  "score_raw": 9.06344410876133,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2523
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-zelk12-mtmame-merge-02012025163610-gemma-2-9b",
+  "model_id": "zelk12/MTMaMe-Merge_02012025163610-gemma-2-9B",
+  "benchmark_name": "bbh",
+  "score": 44.16046314846229,
+  "score_raw": 44.16046314846229,
+  "evaluation_date": "2025-01-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 726
+}

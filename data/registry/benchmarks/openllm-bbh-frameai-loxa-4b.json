@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-frameai-loxa-4b",
+  "model_id": "frameai/Loxa-4B",
+  "benchmark_name": "bbh",
+  "score": 18.307902854016177,
+  "score_raw": 18.307902854016177,
+  "evaluation_date": "2025-01-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3312
+}

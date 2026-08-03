@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-marcuscedricridia-cursorr-o1-2-7b",
+  "model_id": "marcuscedricridia/cursorr-o1.2-7b",
+  "benchmark_name": "musr",
+  "score": 2.897135416666666,
+  "score_raw": 2.897135416666666,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3958
+}

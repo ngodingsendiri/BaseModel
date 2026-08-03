@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-epistemeai-fireball-meta-llama-3-1-8b-instruct-agent-0-003-128k-code-ds",
+  "model_id": "EpistemeAI/Fireball-Meta-Llama-3.1-8B-Instruct-Agent-0.003-128K-code-ds",
+  "benchmark_name": "average",
+  "score": 23.14416546279052,
+  "score_raw": 23.14416546279052,
+  "evaluation_date": "2024-10-14",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2062
+}

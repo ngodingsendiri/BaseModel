@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-prithivmlmods-epimetheus-14b-axo",
+  "model_id": "prithivMLmods/Epimetheus-14B-Axo",
+  "benchmark_name": "math-lvl-5",
+  "score": 41.012084592145015,
+  "score_raw": 41.012084592145015,
+  "evaluation_date": "2025-03-03",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 414
+}

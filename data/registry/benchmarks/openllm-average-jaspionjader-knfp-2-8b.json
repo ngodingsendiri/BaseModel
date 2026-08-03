@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-jaspionjader-knfp-2-8b",
+  "model_id": "jaspionjader/knfp-2-8b",
+  "benchmark_name": "average",
+  "score": 24.672507998564374,
+  "score_raw": 24.672507998564374,
+  "evaluation_date": "2025-01-15",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1673
+}

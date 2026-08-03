@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-theprint-phi-3-mini-4k-python",
+  "model_id": "theprint/phi-3-mini-4k-python",
+  "benchmark_name": "gpqa",
+  "score": 5.480984340044745,
+  "score_raw": 5.480984340044745,
+  "evaluation_date": "2024-06-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2483
+}

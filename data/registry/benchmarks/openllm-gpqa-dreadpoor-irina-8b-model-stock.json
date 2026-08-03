@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-irina-8b-model-stock",
+  "model_id": "DreadPoor/Irina-8B-model_stock",
+  "benchmark_name": "gpqa",
+  "score": 4.5861297539149914,
+  "score_raw": 4.5861297539149914,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2748
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-tiiuae-falcon3-mamba-7b-base",
+  "model_id": "tiiuae/Falcon3-Mamba-7B-Base",
+  "benchmark_name": "gpqa",
+  "score": 7.941834451901568,
+  "score_raw": 7.941834451901568,
+  "evaluation_date": "2024-12-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1526
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-baezel-v3-8b-model-stock",
+  "model_id": "DreadPoor/BaeZel_V3-8B-Model_Stock",
+  "benchmark_name": "musr",
+  "score": 11.146354166666663,
+  "score_raw": 11.146354166666663,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1923
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-daemontatox-mini-pathfinder",
+  "model_id": "Daemontatox/mini_Pathfinder",
+  "benchmark_name": "math-lvl-5",
+  "score": 47.507552870090635,
+  "score_raw": 47.507552870090635,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 221
+}

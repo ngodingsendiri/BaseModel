@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-novaciano-astaroth-3-2-1b",
+  "model_id": "Novaciano/ASTAROTH-3.2-1B",
+  "benchmark_name": "math-lvl-5",
+  "score": 7.326283987915408,
+  "score_raw": 7.326283987915408,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2795
+}

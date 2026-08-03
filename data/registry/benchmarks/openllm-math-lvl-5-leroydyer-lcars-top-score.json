@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-leroydyer-lcars-top-score",
+  "model_id": "LeroyDyer/LCARS_TOP_SCORE",
+  "benchmark_name": "math-lvl-5",
+  "score": 6.722054380664652,
+  "score_raw": 6.722054380664652,
+  "evaluation_date": "2024-03-30",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2897
+}

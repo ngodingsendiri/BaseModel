@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-sultanr-smoltulu-1-7b-reinforced",
+  "model_id": "SultanR/SmolTulu-1.7b-Reinforced",
+  "benchmark_name": "bbh",
+  "score": 10.015214516485557,
+  "score_raw": 10.015214516485557,
+  "evaluation_date": "2024-12-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3662
+}

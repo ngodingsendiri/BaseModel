@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-gmonsoon-sahabatai-llama-11b-test",
+  "model_id": "gmonsoon/SahabatAI-Llama-11B-Test",
+  "benchmark_name": "gpqa",
+  "score": 4.250559284116329,
+  "score_raw": 4.250559284116329,
+  "evaluation_date": "2024-11-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2889
+}

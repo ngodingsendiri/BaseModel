@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-goekdeniz-guelmez-josiefied-qwen2-5-7b-instruct-abliterated-v2",
+  "model_id": "Goekdeniz-Guelmez/Josiefied-Qwen2.5-7B-Instruct-abliterated-v2",
+  "benchmark_name": "ifeval",
+  "score": 78.13811797142694,
+  "score_raw": 78.13811797142694,
+  "evaluation_date": "2024-09-20",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 257
+}

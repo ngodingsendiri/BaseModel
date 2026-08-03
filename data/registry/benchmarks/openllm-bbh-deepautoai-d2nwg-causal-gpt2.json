@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-deepautoai-d2nwg-causal-gpt2",
+  "model_id": "DeepAutoAI/d2nwg_causal_gpt2",
+  "benchmark_name": "bbh",
+  "score": 2.850573557678692,
+  "score_raw": 2.850573557678692,
+  "evaluation_date": "2024-10-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4346
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-prithivmlmods-elita-0-1-distilled-r1-abliterated",
+  "model_id": "prithivMLmods/Elita-0.1-Distilled-R1-abliterated",
+  "benchmark_name": "bbh",
+  "score": 13.606416556106325,
+  "score_raw": 13.606416556106325,
+  "evaluation_date": "2025-02-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3558
+}

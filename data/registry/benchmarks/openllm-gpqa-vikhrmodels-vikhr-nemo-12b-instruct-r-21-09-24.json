@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-vikhrmodels-vikhr-nemo-12b-instruct-r-21-09-24",
+  "model_id": "Vikhrmodels/Vikhr-Nemo-12B-Instruct-R-21-09-24",
+  "benchmark_name": "gpqa",
+  "score": 5.480984340044745,
+  "score_raw": 5.480984340044745,
+  "evaluation_date": "2024-09-20",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2463
+}

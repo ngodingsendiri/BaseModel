@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sometimesanotion-chocotrio-14b-v1",
+  "model_id": "sometimesanotion/ChocoTrio-14B-v1",
+  "benchmark_name": "math-lvl-5",
+  "score": 39.72809667673716,
+  "score_raw": 39.72809667673716,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 460
+}

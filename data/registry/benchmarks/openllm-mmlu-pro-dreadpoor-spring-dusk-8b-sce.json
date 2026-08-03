@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-spring-dusk-8b-sce",
+  "model_id": "DreadPoor/Spring_Dusk-8B-SCE",
+  "benchmark_name": "mmlu-pro",
+  "score": 27.06486406619385,
+  "score_raw": 27.06486406619385,
+  "evaluation_date": "2025-02-02",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2305
+}

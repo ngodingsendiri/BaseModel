@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-triangle104-ds-r1-distill-q2-5-14b-harmony-v0-1",
+  "model_id": "Triangle104/DS-R1-Distill-Q2.5-14B-Harmony_V0.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 40.01182033096927,
+  "score_raw": 40.01182033096927,
+  "evaluation_date": "2025-01-28",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 690
+}

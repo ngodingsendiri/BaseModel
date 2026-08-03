@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-promissum-mane-8b-linear",
+  "model_id": "DreadPoor/Promissum_Mane-8B-LINEAR",
+  "benchmark_name": "bbh",
+  "score": 35.253190231117536,
+  "score_raw": 35.253190231117536,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1325
+}

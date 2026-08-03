@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-epistemeai-fireball-meta-llama-3-1-8b-instruct-agent-0-003-128k-code",
+  "model_id": "EpistemeAI/Fireball-Meta-Llama-3.1-8B-Instruct-Agent-0.003-128K-code",
+  "benchmark_name": "gpqa",
+  "score": 6.935123042505594,
+  "score_raw": 6.935123042505594,
+  "evaluation_date": "2024-10-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1892
+}

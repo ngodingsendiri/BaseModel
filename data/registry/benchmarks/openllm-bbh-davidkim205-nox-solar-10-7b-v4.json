@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-davidkim205-nox-solar-10-7b-v4",
+  "model_id": "davidkim205/nox-solar-10.7b-v4",
+  "benchmark_name": "bbh",
+  "score": 26.631088145699618,
+  "score_raw": 26.631088145699618,
+  "evaluation_date": "2024-03-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2662
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-cohereforai-aya-expanse-8b",
+  "model_id": "CohereForAI/aya-expanse-8b",
+  "benchmark_name": "average",
+  "score": 22.406573697993498,
+  "score_raw": 22.406573697993498,
+  "evaluation_date": "2024-10-23",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2218
+}

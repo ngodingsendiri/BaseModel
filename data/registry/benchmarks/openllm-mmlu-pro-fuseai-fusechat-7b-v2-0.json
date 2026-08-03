@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-fuseai-fusechat-7b-v2-0",
+  "model_id": "FuseAI/FuseChat-7B-v2.0",
+  "benchmark_name": "mmlu-pro",
+  "score": 24.02666962174941,
+  "score_raw": 24.02666962174941,
+  "evaluation_date": "2024-08-13",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2621
+}

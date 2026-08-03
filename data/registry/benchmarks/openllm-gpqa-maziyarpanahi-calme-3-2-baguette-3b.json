@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-maziyarpanahi-calme-3-2-baguette-3b",
+  "model_id": "MaziyarPanahi/calme-3.2-baguette-3b",
+  "benchmark_name": "gpqa",
+  "score": 5.92841163310962,
+  "score_raw": 5.92841163310962,
+  "evaluation_date": "2024-11-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2283
+}

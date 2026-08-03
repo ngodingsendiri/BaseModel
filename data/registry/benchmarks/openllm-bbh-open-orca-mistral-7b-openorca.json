@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-open-orca-mistral-7b-openorca",
+  "model_id": "Open-Orca/Mistral-7B-OpenOrca",
+  "benchmark_name": "bbh",
+  "score": 25.840025395269805,
+  "score_raw": 25.840025395269805,
+  "evaluation_date": "2023-09-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2746
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-jacoby746-proto-harpy-spark-v0-1-7b",
+  "model_id": "Jacoby746/Proto-Harpy-Spark-v0.1-7B",
+  "benchmark_name": "math-lvl-5",
+  "score": 6.193353474320242,
+  "score_raw": 6.193353474320242,
+  "evaluation_date": "2024-09-22",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3005
+}

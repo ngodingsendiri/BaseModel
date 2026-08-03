@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-zelk12-mt-merge1-gemma-2-9b",
+  "model_id": "zelk12/MT-Merge1-gemma-2-9B",
+  "benchmark_name": "musr",
+  "score": 12.148177083333335,
+  "score_raw": 12.148177083333335,
+  "evaluation_date": "2024-11-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1541
+}

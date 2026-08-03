@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-lkoenig-bbai-7b-qwendyancabslaw",
+  "model_id": "lkoenig/BBAI_7B_QwenDyancabsLAW",
+  "benchmark_name": "gpqa",
+  "score": 9.172259507829976,
+  "score_raw": 9.172259507829976,
+  "evaluation_date": "2025-03-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1184
+}

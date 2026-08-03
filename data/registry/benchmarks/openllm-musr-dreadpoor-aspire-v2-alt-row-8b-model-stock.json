@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-aspire-v2-alt-row-8b-model-stock",
+  "model_id": "DreadPoor/Aspire_V2_ALT_ROW-8B-Model_Stock",
+  "benchmark_name": "musr",
+  "score": 10.554166666666664,
+  "score_raw": 10.554166666666664,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2126
+}

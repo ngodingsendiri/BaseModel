@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-togethercomputer-redpajama-incite-7b-instruct",
+  "model_id": "togethercomputer/RedPajama-INCITE-7B-Instruct",
+  "benchmark_name": "bbh",
+  "score": 7.9054164937041635,
+  "score_raw": 7.9054164937041635,
+  "evaluation_date": "2023-05-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3782
+}

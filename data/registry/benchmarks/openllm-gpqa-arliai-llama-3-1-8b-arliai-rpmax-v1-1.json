@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-arliai-llama-3-1-8b-arliai-rpmax-v1-1",
+  "model_id": "ArliAI/Llama-3.1-8B-ArliAI-RPMax-v1.1",
+  "benchmark_name": "gpqa",
+  "score": 4.4742729306487705,
+  "score_raw": 4.4742729306487705,
+  "evaluation_date": "2024-08-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2782
+}

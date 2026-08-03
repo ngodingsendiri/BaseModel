@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-google-recurrentgemma-9b",
+  "model_id": "google/recurrentgemma-9b",
+  "benchmark_name": "gpqa",
+  "score": 4.697986577181204,
+  "score_raw": 4.697986577181204,
+  "evaluation_date": "2024-06-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2730
+}

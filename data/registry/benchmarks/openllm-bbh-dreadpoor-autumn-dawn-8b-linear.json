@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-autumn-dawn-8b-linear",
+  "model_id": "DreadPoor/Autumn_Dawn-8B-LINEAR",
+  "benchmark_name": "bbh",
+  "score": 35.845555124121006,
+  "score_raw": 35.845555124121006,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1245
+}

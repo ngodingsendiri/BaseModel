@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-noname0202-gemma-2-9b-sft-jp-en-zh-v1",
+  "model_id": "noname0202/gemma-2-9b-sft-jp-en-zh-v1",
+  "benchmark_name": "math-lvl-5",
+  "score": 8.91238670694864,
+  "score_raw": 8.91238670694864,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2550
+}

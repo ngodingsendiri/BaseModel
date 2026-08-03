@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-rombodawg-rombos-coder-v2-5-qwen-7b",
+  "model_id": "rombodawg/Rombos-Coder-V2.5-Qwen-7b",
+  "benchmark_name": "gpqa",
+  "score": 4.4742729306487705,
+  "score_raw": 4.4742729306487705,
+  "evaluation_date": "2024-10-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2818
+}

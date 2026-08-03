@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-meta-llama-llama-2-70b-hf",
+  "model_id": "meta-llama/Llama-2-70b-hf",
+  "benchmark_name": "math-lvl-5",
+  "score": 3.2477341389728096,
+  "score_raw": 3.2477341389728096,
+  "evaluation_date": "2023-07-11",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3656
+}

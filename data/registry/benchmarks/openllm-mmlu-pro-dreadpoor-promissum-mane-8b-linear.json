@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-promissum-mane-8b-linear",
+  "model_id": "DreadPoor/Promissum_Mane-8B-LINEAR",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.672946217494097,
+  "score_raw": 31.672946217494097,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1453
+}

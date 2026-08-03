@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-huggingfacetb-smollm2-135m-instruct",
+  "model_id": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "benchmark_name": "musr",
+  "score": 3.6773437500000035,
+  "score_raw": 3.6773437500000035,
+  "evaluation_date": "2024-10-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3769
+}

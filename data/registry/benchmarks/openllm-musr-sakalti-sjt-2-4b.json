@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sakalti-sjt-2-4b",
+  "model_id": "Sakalti/SJT-2.4B",
+  "benchmark_name": "musr",
+  "score": 4.504947916666667,
+  "score_raw": 4.504947916666667,
+  "evaluation_date": "2025-01-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3568
+}

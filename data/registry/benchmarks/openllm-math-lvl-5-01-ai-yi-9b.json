@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-01-ai-yi-9b",
+  "model_id": "01-ai/Yi-9B",
+  "benchmark_name": "math-lvl-5",
+  "score": 5.589123867069486,
+  "score_raw": 5.589123867069486,
+  "evaluation_date": "2024-03-01",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3143
+}

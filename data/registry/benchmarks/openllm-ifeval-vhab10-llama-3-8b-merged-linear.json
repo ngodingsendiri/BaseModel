@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-vhab10-llama-3-8b-merged-linear",
+  "model_id": "vhab10/llama-3-8b-merged-linear",
+  "benchmark_name": "ifeval",
+  "score": 59.166345297144915,
+  "score_raw": 59.166345297144915,
+  "evaluation_date": "2024-09-26",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1315
+}

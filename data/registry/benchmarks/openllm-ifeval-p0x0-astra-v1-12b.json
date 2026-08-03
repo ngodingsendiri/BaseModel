@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-p0x0-astra-v1-12b",
+  "model_id": "P0x0/Astra-v1-12B",
+  "benchmark_name": "ifeval",
+  "score": 28.05943784713449,
+  "score_raw": 28.05943784713449,
+  "evaluation_date": "2024-09-21",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3410
+}

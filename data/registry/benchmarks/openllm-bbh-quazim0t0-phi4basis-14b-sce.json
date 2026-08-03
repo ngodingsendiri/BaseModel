@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-quazim0t0-phi4basis-14b-sce",
+  "model_id": "Quazim0t0/Phi4Basis-14B-sce",
+  "benchmark_name": "bbh",
+  "score": 55.6651943464438,
+  "score_raw": 55.6651943464438,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 108
+}

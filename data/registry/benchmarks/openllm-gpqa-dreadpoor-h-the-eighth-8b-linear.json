@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-h-the-eighth-8b-linear",
+  "model_id": "DreadPoor/H_the_eighth-8B-LINEAR",
+  "benchmark_name": "gpqa",
+  "score": 10.402684563758392,
+  "score_raw": 10.402684563758392,
+  "evaluation_date": "2025-03-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 920
+}

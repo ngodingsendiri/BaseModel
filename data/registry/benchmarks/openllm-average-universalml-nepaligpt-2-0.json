@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-universalml-nepaligpt-2-0",
+  "model_id": "universalml/NepaliGPT-2.0",
+  "benchmark_name": "average",
+  "score": 12.586353879208668,
+  "score_raw": 12.586353879208668,
+  "evaluation_date": "2024-08-19",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3536
+}

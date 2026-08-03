@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-tremontaine-l3-12b-lunaris-v1",
+  "model_id": "Tremontaine/L3-12B-Lunaris-v1",
+  "benchmark_name": "bbh",
+  "score": 32.1807456461844,
+  "score_raw": 32.1807456461844,
+  "evaluation_date": "2024-07-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1816
+}

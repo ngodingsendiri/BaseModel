@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-bamec66557-mistral-nemo-vicious-mesh-12b-2407",
+  "model_id": "bamec66557/Mistral-Nemo-VICIOUS_MESH-12B-2407",
+  "benchmark_name": "average",
+  "score": 27.48211728638603,
+  "score_raw": 27.48211728638603,
+  "evaluation_date": "2024-12-22",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1346
+}

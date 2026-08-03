@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-cultrix-seqwence-14b-evolmergev1",
+  "model_id": "CultriX/SeQwence-14B-EvolMergev1",
+  "benchmark_name": "mmlu-pro",
+  "score": 48.81242612293145,
+  "score_raw": 48.81242612293145,
+  "evaluation_date": "2024-11-25",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 195
+}

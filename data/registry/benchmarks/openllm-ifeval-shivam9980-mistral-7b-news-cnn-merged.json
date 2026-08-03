@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-shivam9980-mistral-7b-news-cnn-merged",
+  "model_id": "shivam9980/mistral-7b-news-cnn-merged",
+  "benchmark_name": "ifeval",
+  "score": 46.34192830578421,
+  "score_raw": 46.34192830578421,
+  "evaluation_date": "2024-03-18",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2160
+}

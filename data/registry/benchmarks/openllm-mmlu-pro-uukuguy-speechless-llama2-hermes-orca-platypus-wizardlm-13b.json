@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-uukuguy-speechless-llama2-hermes-orca-platypus-wizardlm-13b",
+  "model_id": "uukuguy/speechless-llama2-hermes-orca-platypus-wizardlm-13b",
+  "benchmark_name": "mmlu-pro",
+  "score": 17.322325650118206,
+  "score_raw": 17.322325650118206,
+  "evaluation_date": "2023-09-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3362
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-leroydyer-checkpoint-r1",
+  "model_id": "LeroyDyer/CheckPoint_R1",
+  "benchmark_name": "bbh",
+  "score": 17.927717512520747,
+  "score_raw": 17.927717512520747,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3336
+}

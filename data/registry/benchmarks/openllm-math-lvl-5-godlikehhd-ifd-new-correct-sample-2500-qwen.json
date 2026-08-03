@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-godlikehhd-ifd-new-correct-sample-2500-qwen",
+  "model_id": "godlikehhd/ifd_new_correct_sample_2500_qwen",
+  "benchmark_name": "math-lvl-5",
+  "score": 10.42296072507553,
+  "score_raw": 10.42296072507553,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2329
+}

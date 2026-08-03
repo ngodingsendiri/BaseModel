@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-allknowingroger-quen2-65b",
+  "model_id": "allknowingroger/Quen2-65B",
+  "benchmark_name": "ifeval",
+  "score": 17.57813712061774,
+  "score_raw": 17.57813712061774,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4175
+}

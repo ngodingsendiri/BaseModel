@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-h2oai-h2o-danube3-4b-base",
+  "model_id": "h2oai/h2o-danube3-4b-base",
+  "benchmark_name": "bbh",
+  "score": 10.564444044561542,
+  "score_raw": 10.564444044561542,
+  "evaluation_date": "2024-07-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3643
+}

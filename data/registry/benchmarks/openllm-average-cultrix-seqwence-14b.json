@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-cultrix-seqwence-14b",
+  "model_id": "CultriX/SeQwence-14B",
+  "benchmark_name": "average",
+  "score": 36.886272868734814,
+  "score_raw": 36.886272868734814,
+  "evaluation_date": "2024-11-20",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 480
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-yoyo-ai-qwen2-5-14b-yoyo-0805",
+  "model_id": "YOYO-AI/Qwen2.5-14B-YOYO-0805",
+  "benchmark_name": "musr",
+  "score": 19.46223958333333,
+  "score_raw": 19.46223958333333,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 290
+}

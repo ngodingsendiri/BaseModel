@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-jeffmeloy-qwen2-5-7b-olm-v1-3",
+  "model_id": "jeffmeloy/Qwen2.5-7B-olm-v1.3",
+  "benchmark_name": "gpqa",
+  "score": 9.507829977628639,
+  "score_raw": 9.507829977628639,
+  "evaluation_date": "2025-01-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1105
+}

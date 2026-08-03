@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-notasi-finetome-llama3-2-1b-0929",
+  "model_id": "NotASI/FineTome-Llama3.2-1B-0929",
+  "benchmark_name": "ifeval",
+  "score": 39.9072239435808,
+  "score_raw": 39.9072239435808,
+  "evaluation_date": "2024-09-29",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2740
+}

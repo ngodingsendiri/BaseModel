@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ontocord-llama-3-2-1b-autoredteam-helpfulness-train",
+  "model_id": "ontocord/Llama_3.2_1b-autoredteam_helpfulness-train",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.466459810874704,
+  "score_raw": 1.466459810874704,
+  "evaluation_date": "2025-01-30",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4342
+}

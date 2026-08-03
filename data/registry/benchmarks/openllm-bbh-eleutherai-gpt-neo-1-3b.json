@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-eleutherai-gpt-neo-1-3b",
+  "model_id": "EleutherAI/gpt-neo-1.3B",
+  "benchmark_name": "bbh",
+  "score": 3.024569180930987,
+  "score_raw": 3.024569180930987,
+  "evaluation_date": "2022-03-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4322
+}

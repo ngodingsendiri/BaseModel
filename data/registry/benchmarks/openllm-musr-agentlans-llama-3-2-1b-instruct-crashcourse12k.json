@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-agentlans-llama-3-2-1b-instruct-crashcourse12k",
+  "model_id": "agentlans/Llama-3.2-1B-Instruct-CrashCourse12K",
+  "benchmark_name": "musr",
+  "score": 1.1968750000000006,
+  "score_raw": 1.1968750000000006,
+  "evaluation_date": "2025-01-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4426
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-noname0202-llama-math-1b-r32-test",
+  "model_id": "noname0202/llama-math-1b-r32-test",
+  "benchmark_name": "bbh",
+  "score": 8.498754758774203,
+  "score_raw": 8.498754758774203,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3740
+}

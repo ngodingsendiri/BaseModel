@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-kayfour-t3q-qwen2-5-7b-it-kor-safe",
+  "model_id": "kayfour/T3Q-Qwen2.5-7B-it-KOR-Safe",
+  "benchmark_name": "math-lvl-5",
+  "score": 37.61329305135951,
+  "score_raw": 37.61329305135951,
+  "evaluation_date": "2024-11-11",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 542
+}

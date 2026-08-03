@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-khulaifi95-llama-3-1-8b-reason-blend-888k",
+  "model_id": "khulaifi95/Llama-3.1-8B-Reason-Blend-888k",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.33407210401891,
+  "score_raw": 23.33407210401891,
+  "evaluation_date": "2024-12-24",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2740
+}

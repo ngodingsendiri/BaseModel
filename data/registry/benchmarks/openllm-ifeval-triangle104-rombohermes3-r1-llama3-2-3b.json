@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-triangle104-rombohermes3-r1-llama3-2-3b",
+  "model_id": "Triangle104/RomboHermes3-R1-Llama3.2-3b",
+  "benchmark_name": "ifeval",
+  "score": 30.072873309485498,
+  "score_raw": 30.072873309485498,
+  "evaluation_date": "2025-02-09",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3306
+}

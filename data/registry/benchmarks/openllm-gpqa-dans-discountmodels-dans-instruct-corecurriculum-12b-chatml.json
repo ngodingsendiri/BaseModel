@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-dans-discountmodels-dans-instruct-corecurriculum-12b-chatml",
+  "model_id": "Dans-DiscountModels/Dans-Instruct-CoreCurriculum-12b-ChatML",
+  "benchmark_name": "gpqa",
+  "score": 4.026845637583895,
+  "score_raw": 4.026845637583895,
+  "evaluation_date": "2024-09-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2939
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-corianas-neural-mistral-7b",
+  "model_id": "Corianas/Neural-Mistral-7B",
+  "benchmark_name": "average",
+  "score": 18.200438567718393,
+  "score_raw": 18.200438567718393,
+  "evaluation_date": "2024-03-05",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2919
+}

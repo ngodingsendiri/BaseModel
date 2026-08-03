@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-floflob-smollm2-135m-pretrained-800k-fineweb-uncovai-human-removed",
+  "model_id": "FlofloB/smollm2-135M_pretrained_800k_fineweb_uncovai_human_removed",
+  "benchmark_name": "bbh",
+  "score": 3.210703163941808,
+  "score_raw": 3.210703163941808,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4287
+}

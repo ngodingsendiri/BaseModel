@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-zetasepic-qwen2-5-32b-instruct-abliterated-v2",
+  "model_id": "zetasepic/Qwen2.5-32B-Instruct-abliterated-v2",
+  "benchmark_name": "average",
+  "score": 46.88867299768722,
+  "score_raw": 46.88867299768722,
+  "evaluation_date": "2024-10-11",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 15
+}

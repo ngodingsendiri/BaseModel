@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-darkc0de-buddyglass-v0-3-xortron7methedupswitchedup",
+  "model_id": "darkc0de/BuddyGlass_v0.3_Xortron7MethedUpSwitchedUp",
+  "benchmark_name": "bbh",
+  "score": 31.869311081858005,
+  "score_raw": 31.869311081858005,
+  "evaluation_date": "2024-09-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1870
+}

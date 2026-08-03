@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-locutusque-llama-3-yggdrasil-2-0-8b",
+  "model_id": "Locutusque/Llama-3-Yggdrasil-2.0-8B",
+  "benchmark_name": "gpqa",
+  "score": 1.6778523489932917,
+  "score_raw": 1.6778523489932917,
+  "evaluation_date": "2024-06-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3807
+}

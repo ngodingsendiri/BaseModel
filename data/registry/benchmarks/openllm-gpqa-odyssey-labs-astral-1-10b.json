@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-odyssey-labs-astral-1-10b",
+  "model_id": "odyssey-labs/Astral-1-10B",
+  "benchmark_name": "gpqa",
+  "score": 7.38255033557047,
+  "score_raw": 7.38255033557047,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1743
+}

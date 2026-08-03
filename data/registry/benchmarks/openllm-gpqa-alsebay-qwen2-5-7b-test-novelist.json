@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-alsebay-qwen2-5-7b-test-novelist",
+  "model_id": "Alsebay/Qwen2.5-7B-test-novelist",
+  "benchmark_name": "gpqa",
+  "score": 5.480984340044745,
+  "score_raw": 5.480984340044745,
+  "evaluation_date": "2024-12-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2445
+}

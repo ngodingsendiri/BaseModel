@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-meragpt-mera-mix-4x7b",
+  "model_id": "meraGPT/mera-mix-4x7B",
+  "benchmark_name": "bbh",
+  "score": 17.48643895465503,
+  "score_raw": 17.48643895465503,
+  "evaluation_date": "2024-04-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3373
+}

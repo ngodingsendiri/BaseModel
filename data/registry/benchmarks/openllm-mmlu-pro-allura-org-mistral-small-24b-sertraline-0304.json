@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-allura-org-mistral-small-24b-sertraline-0304",
+  "model_id": "allura-org/Mistral-Small-24b-Sertraline-0304",
+  "benchmark_name": "mmlu-pro",
+  "score": 45.61724290780142,
+  "score_raw": 45.61724290780142,
+  "evaluation_date": "2025-03-04",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 523
+}

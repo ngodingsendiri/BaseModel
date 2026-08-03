@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-aspire-1-3-8b-model-stock",
+  "model_id": "DreadPoor/Aspire_1.3-8B_model-stock",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.17693557919622,
+  "score_raw": 30.17693557919622,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1793
+}

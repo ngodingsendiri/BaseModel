@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-jiangxinyang-shanda-homer-llama3-8b",
+  "model_id": "jiangxinyang-shanda/Homer-LLama3-8B",
+  "benchmark_name": "math-lvl-5",
+  "score": 8.610271903323262,
+  "score_raw": 8.610271903323262,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2591
+}

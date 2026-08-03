@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-kms7530-chemeng-qwen-math-7b-24-1-100-1-nonmath",
+  "model_id": "kms7530/chemeng_qwen-math-7b_24_1_100_1_nonmath",
+  "benchmark_name": "gpqa",
+  "score": 5.369127516778524,
+  "score_raw": 5.369127516778524,
+  "evaluation_date": "2024-11-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2524
+}

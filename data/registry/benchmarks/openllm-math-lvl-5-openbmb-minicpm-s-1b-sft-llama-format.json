@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-openbmb-minicpm-s-1b-sft-llama-format",
+  "model_id": "openbmb/MiniCPM-S-1B-sft-llama-format",
+  "benchmark_name": "math-lvl-5",
+  "score": 3.096676737160121,
+  "score_raw": 3.096676737160121,
+  "evaluation_date": "2024-06-14",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3682
+}

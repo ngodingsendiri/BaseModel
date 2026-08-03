@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-allknowingroger-llama3anfeng-40b",
+  "model_id": "allknowingroger/llama3AnFeng-40B",
+  "benchmark_name": "bbh",
+  "score": 12.476996185725282,
+  "score_raw": 12.476996185725282,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3593
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-dreadpoor-spring-dusk-8b-sce",
+  "model_id": "DreadPoor/Spring_Dusk-8B-SCE",
+  "benchmark_name": "math-lvl-5",
+  "score": 7.628398791540786,
+  "score_raw": 7.628398791540786,
+  "evaluation_date": "2025-02-02",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2743
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-quazim0t0-wu-14b-sce",
+  "model_id": "Quazim0t0/Wu-14b-sce",
+  "benchmark_name": "average",
+  "score": 36.491123345831,
+  "score_raw": 36.491123345831,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 523
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-khoantap-cheap-moe-merge",
+  "model_id": "khoantap/cheap-moe-merge",
+  "benchmark_name": "musr",
+  "score": 13.321093749999998,
+  "score_raw": 13.321093749999998,
+  "evaluation_date": "2025-01-20",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1206
+}

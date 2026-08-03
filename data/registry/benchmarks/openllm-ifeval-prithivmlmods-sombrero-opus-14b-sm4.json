@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-prithivmlmods-sombrero-opus-14b-sm4",
+  "model_id": "prithivMLmods/Sombrero-Opus-14B-Sm4",
+  "benchmark_name": "ifeval",
+  "score": 43.469328049575125,
+  "score_raw": 43.469328049575125,
+  "evaluation_date": "2025-03-06",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2459
+}

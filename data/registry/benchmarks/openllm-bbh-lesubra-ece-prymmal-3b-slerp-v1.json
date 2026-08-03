@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-lesubra-ece-prymmal-3b-slerp-v1",
+  "model_id": "lesubra/ECE-PRYMMAL-3B-SLERP-V1",
+  "benchmark_name": "bbh",
+  "score": 35.05306761164019,
+  "score_raw": 35.05306761164019,
+  "evaluation_date": "2024-10-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1346
+}

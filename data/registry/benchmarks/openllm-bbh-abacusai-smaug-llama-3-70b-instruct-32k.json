@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-abacusai-smaug-llama-3-70b-instruct-32k",
+  "model_id": "abacusai/Smaug-Llama-3-70B-Instruct-32K",
+  "benchmark_name": "bbh",
+  "score": 49.07037043446443,
+  "score_raw": 49.07037043446443,
+  "evaluation_date": "2024-06-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 472
+}

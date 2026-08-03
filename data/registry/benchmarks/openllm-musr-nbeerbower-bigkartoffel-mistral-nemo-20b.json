@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-nbeerbower-bigkartoffel-mistral-nemo-20b",
+  "model_id": "nbeerbower/BigKartoffel-mistral-nemo-20B",
+  "benchmark_name": "musr",
+  "score": 12.538541666666665,
+  "score_raw": 12.538541666666665,
+  "evaluation_date": "2025-03-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1420
+}

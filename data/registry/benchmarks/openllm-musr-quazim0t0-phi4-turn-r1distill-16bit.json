@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-quazim0t0-phi4-turn-r1distill-16bit",
+  "model_id": "Quazim0t0/Phi4.Turn.R1Distill.16bit",
+  "benchmark_name": "musr",
+  "score": 6.944010416666667,
+  "score_raw": 6.944010416666667,
+  "evaluation_date": "2025-01-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3074
+}

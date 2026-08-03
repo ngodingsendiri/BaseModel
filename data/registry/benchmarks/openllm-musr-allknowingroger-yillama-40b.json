@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-allknowingroger-yillama-40b",
+  "model_id": "allknowingroger/Yillama-40B",
+  "benchmark_name": "musr",
+  "score": 1.7578124999999993,
+  "score_raw": 1.7578124999999993,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4249
+}

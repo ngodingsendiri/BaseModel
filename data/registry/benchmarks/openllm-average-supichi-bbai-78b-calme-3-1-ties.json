@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-supichi-bbai-78b-calme-3-1-ties",
+  "model_id": "Supichi/BBAI_78B_Calme_3_1_Ties",
+  "benchmark_name": "average",
+  "score": 3.9420514629428283,
+  "score_raw": 3.9420514629428283,
+  "evaluation_date": "2025-02-28",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4457
+}

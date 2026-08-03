@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-nbeerbower-hermes2-gutenberg2-mistral-7b",
+  "model_id": "nbeerbower/Hermes2-Gutenberg2-Mistral-7B",
+  "benchmark_name": "musr",
+  "score": 16.92109375,
+  "score_raw": 16.92109375,
+  "evaluation_date": "2024-09-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 577
+}

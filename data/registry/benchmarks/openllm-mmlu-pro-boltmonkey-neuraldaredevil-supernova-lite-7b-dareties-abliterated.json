@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-boltmonkey-neuraldaredevil-supernova-lite-7b-dareties-abliterated",
+  "model_id": "BoltMonkey/NeuralDaredevil-SuperNova-Lite-7B-DARETIES-abliterated",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.235002955082745,
+  "score_raw": 29.235002955082745,
+  "evaluation_date": "2024-10-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2003
+}

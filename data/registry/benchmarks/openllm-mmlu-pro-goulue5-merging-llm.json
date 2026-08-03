@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-goulue5-merging-llm",
+  "model_id": "goulue5/merging_LLM",
+  "benchmark_name": "mmlu-pro",
+  "score": 21.75494976359338,
+  "score_raw": 21.75494976359338,
+  "evaluation_date": "2024-11-21",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2963
+}

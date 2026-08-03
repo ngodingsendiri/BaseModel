@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-limyeri-codemind-llama3-8b-unsloth-v4-one-merged",
+  "model_id": "LimYeri/CodeMind-Llama3-8B-unsloth_v4-one-merged",
+  "benchmark_name": "mmlu-pro",
+  "score": 26.14140070921986,
+  "score_raw": 26.14140070921986,
+  "evaluation_date": "2024-06-06",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2391
+}

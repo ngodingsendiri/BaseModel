@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-ksu-hw-sec-llama3-1-70b-sva-ft-1000step",
+  "model_id": "KSU-HW-SEC/Llama3.1-70b-SVA-FT-1000step",
+  "benchmark_name": "math-lvl-5",
+  "score": 32.09969788519638,
+  "score_raw": 32.09969788519638,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 757
+}

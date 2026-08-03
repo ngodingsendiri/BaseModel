@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-quazim0t0-spok-14b-sce",
+  "model_id": "Quazim0t0/Spok-14b-sce",
+  "benchmark_name": "bbh",
+  "score": 55.09355794451866,
+  "score_raw": 55.09355794451866,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 136
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-mrm8488-phi-4-14b-grpo-limo",
+  "model_id": "mrm8488/phi-4-14B-grpo-limo",
+  "benchmark_name": "math-lvl-5",
+  "score": 45.69486404833837,
+  "score_raw": 45.69486404833837,
+  "evaluation_date": "2025-02-12",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 280
+}

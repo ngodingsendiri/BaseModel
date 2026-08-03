@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-tiger-lab-acecoder-qwen2-5-7b-ins-rule",
+  "model_id": "TIGER-Lab/AceCoder-Qwen2.5-7B-Ins-Rule",
+  "benchmark_name": "bbh",
+  "score": 35.040755991620735,
+  "score_raw": 35.040755991620735,
+  "evaluation_date": "2025-02-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1349
+}

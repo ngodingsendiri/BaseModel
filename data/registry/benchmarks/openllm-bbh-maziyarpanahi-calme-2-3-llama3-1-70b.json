@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-maziyarpanahi-calme-2-3-llama3-1-70b",
+  "model_id": "MaziyarPanahi/calme-2.3-llama3.1-70b",
+  "benchmark_name": "bbh",
+  "score": 55.58549511699308,
+  "score_raw": 55.58549511699308,
+  "evaluation_date": "2024-09-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 110
+}

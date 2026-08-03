@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-bunnycore-phi-4-reasoningrp",
+  "model_id": "bunnycore/Phi-4-ReasoningRP",
+  "benchmark_name": "math-lvl-5",
+  "score": 45.69486404833837,
+  "score_raw": 45.69486404833837,
+  "evaluation_date": "2025-01-28",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 279
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-dfurman-calmerys-78b-orpo-v0-1",
+  "model_id": "dfurman/CalmeRys-78B-Orpo-v0.1",
+  "benchmark_name": "math-lvl-5",
+  "score": 40.6344410876133,
+  "score_raw": 40.6344410876133,
+  "evaluation_date": "2024-09-24",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 433
+}

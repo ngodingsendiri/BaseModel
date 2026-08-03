@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-wanlige-li-14b-v0-4-slerp0-1",
+  "model_id": "wanlige/li-14b-v0.4-slerp0.1",
+  "benchmark_name": "average",
+  "score": 42.906109293180656,
+  "score_raw": 42.906109293180656,
+  "evaluation_date": "2025-02-24",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 80
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-remember-to-breathe-8b-model-stock",
+  "model_id": "DreadPoor/remember_to_breathe-8b-Model-Stock",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.67560579196217,
+  "score_raw": 30.67560579196217,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1692
+}

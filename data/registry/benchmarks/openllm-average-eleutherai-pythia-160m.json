@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-eleutherai-pythia-160m",
+  "model_id": "EleutherAI/pythia-160m",
+  "benchmark_name": "average",
+  "score": 5.730394616916023,
+  "score_raw": 5.730394616916023,
+  "evaluation_date": "2023-02-08",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4185
+}

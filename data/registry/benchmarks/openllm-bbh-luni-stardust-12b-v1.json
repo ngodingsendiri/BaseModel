@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-luni-stardust-12b-v1",
+  "model_id": "Luni/StarDust-12b-v1",
+  "benchmark_name": "bbh",
+  "score": 34.44627563758498,
+  "score_raw": 34.44627563758498,
+  "evaluation_date": "2024-08-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1447
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-xiaojian9992024-qwen2-5-7b-ms-destroyer",
+  "model_id": "Xiaojian9992024/Qwen2.5-7B-MS-Destroyer",
+  "benchmark_name": "average",
+  "score": 35.4337301147896,
+  "score_raw": 35.4337301147896,
+  "evaluation_date": "2025-03-01",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 608
+}

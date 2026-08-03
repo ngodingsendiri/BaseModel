@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-summer-rain-8b-ties",
+  "model_id": "DreadPoor/Summer_Rain-8B-TIES",
+  "benchmark_name": "gpqa",
+  "score": 7.158836689038028,
+  "score_raw": 7.158836689038028,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1797
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-epistemeai-fireball-r1-llama-3-1-8b",
+  "model_id": "EpistemeAI/Fireball-R1-Llama-3.1-8B",
+  "benchmark_name": "bbh",
+  "score": 10.273656027098815,
+  "score_raw": 10.273656027098815,
+  "evaluation_date": "2025-02-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3652
+}

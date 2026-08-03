@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sentientagi-dobby-mini-unhinged-llama-3-1-8b",
+  "model_id": "SentientAGI/Dobby-Mini-Unhinged-Llama-3.1-8B",
+  "benchmark_name": "average",
+  "score": 27.45756521473049,
+  "score_raw": 27.45756521473049,
+  "evaluation_date": "2025-01-22",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1350
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-ennoai-ennoai-7b-french-instruct-202502",
+  "model_id": "EnnoAi/EnnoAi-7B-French-Instruct-202502",
+  "benchmark_name": "bbh",
+  "score": 36.92413092542704,
+  "score_raw": 36.92413092542704,
+  "evaluation_date": "2025-02-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1088
+}

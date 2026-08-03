@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sakalti-saba2-14b-preview",
+  "model_id": "Sakalti/Saba2-14B-Preview",
+  "benchmark_name": "average",
+  "score": 35.687158487523945,
+  "score_raw": 35.687158487523945,
+  "evaluation_date": "2024-12-14",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 582
+}

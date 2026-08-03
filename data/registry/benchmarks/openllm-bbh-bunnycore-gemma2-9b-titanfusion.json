@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-bunnycore-gemma2-9b-titanfusion",
+  "model_id": "bunnycore/Gemma2-9B-TitanFusion",
+  "benchmark_name": "bbh",
+  "score": 39.05056413790993,
+  "score_raw": 39.05056413790993,
+  "evaluation_date": "2024-09-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 977
+}

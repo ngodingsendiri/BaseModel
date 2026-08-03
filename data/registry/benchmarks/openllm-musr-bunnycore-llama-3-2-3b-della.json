@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-bunnycore-llama-3-2-3b-della",
+  "model_id": "bunnycore/Llama-3.2-3B-Della",
+  "benchmark_name": "musr",
+  "score": 7.202864583333337,
+  "score_raw": 7.202864583333337,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3023
+}

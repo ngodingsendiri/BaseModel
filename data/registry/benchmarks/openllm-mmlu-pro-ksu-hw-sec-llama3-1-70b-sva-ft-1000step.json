@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ksu-hw-sec-llama3-1-70b-sva-ft-1000step",
+  "model_id": "KSU-HW-SEC/Llama3.1-70b-SVA-FT-1000step",
+  "benchmark_name": "mmlu-pro",
+  "score": 47.242538416075654,
+  "score_raw": 47.242538416075654,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 405
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-aevalone-distill-qw-test",
+  "model_id": "aevalone/distill_qw_test",
+  "benchmark_name": "gpqa",
+  "score": 6.711409395973152,
+  "score_raw": 6.711409395973152,
+  "evaluation_date": "2025-03-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1982
+}

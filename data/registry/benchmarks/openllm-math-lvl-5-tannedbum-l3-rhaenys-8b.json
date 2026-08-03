@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-tannedbum-l3-rhaenys-8b",
+  "model_id": "tannedbum/L3-Rhaenys-8B",
+  "benchmark_name": "math-lvl-5",
+  "score": 8.761329305135952,
+  "score_raw": 8.761329305135952,
+  "evaluation_date": "2024-07-31",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2573
+}

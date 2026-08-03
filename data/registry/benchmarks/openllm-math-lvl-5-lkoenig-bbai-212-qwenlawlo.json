@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-lkoenig-bbai-212-qwenlawlo",
+  "model_id": "lkoenig/BBAI_212_QwenLawLo",
+  "benchmark_name": "math-lvl-5",
+  "score": 36.02719033232628,
+  "score_raw": 36.02719033232628,
+  "evaluation_date": "2025-03-01",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 618
+}

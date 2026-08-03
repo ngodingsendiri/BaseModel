@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-maziyarpanahi-qwen1-5-moe-a2-7b-wikihow",
+  "model_id": "MaziyarPanahi/Qwen1.5-MoE-A2.7B-Wikihow",
+  "benchmark_name": "mmlu-pro",
+  "score": 15.336879432624112,
+  "score_raw": 15.336879432624112,
+  "evaluation_date": "2024-03-30",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3454
+}

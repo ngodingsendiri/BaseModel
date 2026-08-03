@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-heart-stolen-alt-8b-model-stock",
+  "model_id": "DreadPoor/Heart_Stolen-ALT-8B-Model_Stock",
+  "benchmark_name": "bbh",
+  "score": 32.354424456472486,
+  "score_raw": 32.354424456472486,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1786
+}

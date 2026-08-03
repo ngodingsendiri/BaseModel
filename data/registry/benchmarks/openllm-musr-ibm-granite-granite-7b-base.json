@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-ibm-granite-granite-7b-base",
+  "model_id": "ibm-granite/granite-7b-base",
+  "benchmark_name": "musr",
+  "score": 3.4028645833333346,
+  "score_raw": 3.4028645833333346,
+  "evaluation_date": "2024-04-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3833
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-dreadpoor-promissum-mane-8b-linear-lorablated",
+  "model_id": "DreadPoor/Promissum_Mane-8B-LINEAR-lorablated",
+  "benchmark_name": "average",
+  "score": 28.82332716689665,
+  "score_raw": 28.82332716689665,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1203
+}

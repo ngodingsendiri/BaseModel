@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-pinkstack-superthoughts-cot-14b-16k-o1-qwq",
+  "model_id": "Pinkstack/SuperThoughts-CoT-14B-16k-o1-QwQ",
+  "benchmark_name": "musr",
+  "score": 21.7859375,
+  "score_raw": 21.7859375,
+  "evaluation_date": "2025-01-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 124
+}

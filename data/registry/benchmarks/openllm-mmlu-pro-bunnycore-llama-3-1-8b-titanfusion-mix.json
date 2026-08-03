@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-bunnycore-llama-3-1-8b-titanfusion-mix",
+  "model_id": "bunnycore/Llama-3.1-8B-TitanFusion-Mix",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.94606973995272,
+  "score_raw": 29.94606973995272,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1839
+}

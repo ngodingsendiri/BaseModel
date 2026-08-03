@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-isaak-carter-josiefied-qwen2-5-7b-instruct-abliterated",
+  "model_id": "Isaak-Carter/Josiefied-Qwen2.5-7B-Instruct-abliterated",
+  "benchmark_name": "bbh",
+  "score": 34.904315688323074,
+  "score_raw": 34.904315688323074,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1370
+}

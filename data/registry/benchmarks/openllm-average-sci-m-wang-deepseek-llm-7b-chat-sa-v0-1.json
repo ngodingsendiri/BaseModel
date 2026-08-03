@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sci-m-wang-deepseek-llm-7b-chat-sa-v0-1",
+  "model_id": "sci-m-wang/deepseek-llm-7b-chat-sa-v0.1",
+  "benchmark_name": "average",
+  "score": 13.208049800984782,
+  "score_raw": 13.208049800984782,
+  "evaluation_date": "2024-05-31",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3499
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-shreyash2010-uma-4x4b-instruct-v0-1",
+  "model_id": "Shreyash2010/Uma-4x4B-Instruct-v0.1",
+  "benchmark_name": "gpqa",
+  "score": 11.297539149888143,
+  "score_raw": 11.297539149888143,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 801
+}

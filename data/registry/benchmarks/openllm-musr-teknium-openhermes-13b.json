@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-teknium-openhermes-13b",
+  "model_id": "teknium/OpenHermes-13B",
+  "benchmark_name": "musr",
+  "score": 8.532552083333334,
+  "score_raw": 8.532552083333334,
+  "evaluation_date": "2023-09-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2692
+}

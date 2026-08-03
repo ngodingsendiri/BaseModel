@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-icefog72-icemartinirp-7b",
+  "model_id": "icefog72/IceMartiniRP-7b",
+  "benchmark_name": "average",
+  "score": 21.146002703846154,
+  "score_raw": 21.146002703846154,
+  "evaluation_date": "2024-09-24",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2466
+}

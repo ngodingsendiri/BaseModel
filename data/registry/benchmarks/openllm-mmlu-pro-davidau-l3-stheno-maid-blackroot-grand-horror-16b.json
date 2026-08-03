@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-davidau-l3-stheno-maid-blackroot-grand-horror-16b",
+  "model_id": "DavidAU/L3-Stheno-Maid-Blackroot-Grand-HORROR-16B",
+  "benchmark_name": "mmlu-pro",
+  "score": 28.560874704491717,
+  "score_raw": 28.560874704491717,
+  "evaluation_date": "2024-08-23",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2113
+}

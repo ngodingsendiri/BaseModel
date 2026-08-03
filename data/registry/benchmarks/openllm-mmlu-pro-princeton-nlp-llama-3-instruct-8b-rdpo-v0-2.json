@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-princeton-nlp-llama-3-instruct-8b-rdpo-v0-2",
+  "model_id": "princeton-nlp/Llama-3-Instruct-8B-RDPO-v0.2",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.82335992907802,
+  "score_raw": 30.82335992907802,
+  "evaluation_date": "2024-07-06",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1656
+}

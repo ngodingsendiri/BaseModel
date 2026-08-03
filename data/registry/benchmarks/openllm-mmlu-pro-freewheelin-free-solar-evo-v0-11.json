@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-freewheelin-free-solar-evo-v0-11",
+  "model_id": "freewheelin/free-solar-evo-v0.11",
+  "benchmark_name": "mmlu-pro",
+  "score": 27.41578014184397,
+  "score_raw": 27.41578014184397,
+  "evaluation_date": "2024-04-24",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2271
+}

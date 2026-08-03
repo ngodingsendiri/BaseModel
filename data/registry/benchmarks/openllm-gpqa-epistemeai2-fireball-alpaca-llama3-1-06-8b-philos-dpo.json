@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-epistemeai2-fireball-alpaca-llama3-1-06-8b-philos-dpo",
+  "model_id": "EpistemeAI2/Fireball-Alpaca-Llama3.1.06-8B-Philos-dpo",
+  "benchmark_name": "gpqa",
+  "score": 6.375838926174497,
+  "score_raw": 6.375838926174497,
+  "evaluation_date": "2024-09-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2107
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-fhai50032-roleplaylake-7b",
+  "model_id": "fhai50032/RolePlayLake-7B",
+  "benchmark_name": "average",
+  "score": 22.754717527935792,
+  "score_raw": 22.754717527935792,
+  "evaluation_date": "2024-01-29",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2143
+}

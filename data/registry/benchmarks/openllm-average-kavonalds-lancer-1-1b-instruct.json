@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-kavonalds-lancer-1-1b-instruct",
+  "model_id": "kavonalds/Lancer-1-1b-Instruct",
+  "benchmark_name": "average",
+  "score": 12.306110155307538,
+  "score_raw": 12.306110155307538,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3564
+}

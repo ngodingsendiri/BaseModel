@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-baptiste-huvelle-10-letriomphant2-2-ece-ilab",
+  "model_id": "Baptiste-HUVELLE-10/LeTriomphant2.2_ECE_iLAB",
+  "benchmark_name": "math-lvl-5",
+  "score": 44.48640483383686,
+  "score_raw": 44.48640483383686,
+  "evaluation_date": "2025-01-24",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 311
+}

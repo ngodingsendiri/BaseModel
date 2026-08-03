@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-lydia-of-whiterun-8b-linear",
+  "model_id": "DreadPoor/Lydia_of_Whiterun-8B-LINEAR",
+  "benchmark_name": "musr",
+  "score": 13.099479166666663,
+  "score_raw": 13.099479166666663,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1269
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-marcuscedricridia-etr1o-explicit-v1-2",
+  "model_id": "marcuscedricridia/etr1o-explicit-v1.2",
+  "benchmark_name": "bbh",
+  "score": 1.9825717963953267,
+  "score_raw": 1.9825717963953267,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4491
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sicariussicariistuff-phi-line-14b",
+  "model_id": "SicariusSicariiStuff/Phi-Line_14B",
+  "benchmark_name": "average",
+  "score": 37.56208119420943,
+  "score_raw": 37.56208119420943,
+  "evaluation_date": "2025-02-17",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 438
+}

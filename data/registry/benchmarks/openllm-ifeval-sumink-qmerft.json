@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-sumink-qmerft",
+  "model_id": "sumink/Qmerft",
+  "benchmark_name": "ifeval",
+  "score": 15.639724819035713,
+  "score_raw": 15.639724819035713,
+  "evaluation_date": "2025-01-15",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4301
+}

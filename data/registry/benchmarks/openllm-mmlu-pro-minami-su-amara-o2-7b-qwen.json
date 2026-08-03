@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-minami-su-amara-o2-7b-qwen",
+  "model_id": "Minami-su/Amara-o2-7B-Qwen",
+  "benchmark_name": "mmlu-pro",
+  "score": 35.163637706855795,
+  "score_raw": 35.163637706855795,
+  "evaluation_date": "2025-01-09",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1103
+}

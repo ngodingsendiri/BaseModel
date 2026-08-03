@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-floflob-smollm2-135m-pretrained-800k-fineweb-uncovai-human-removed",
+  "model_id": "FlofloB/smollm2-135M_pretrained_800k_fineweb_uncovai_human_removed",
+  "benchmark_name": "math-lvl-5",
+  "score": 0.6797583081570997,
+  "score_raw": 0.6797583081570997,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4314
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-prithivmlmods-bellatrix-tiny-1b-v2",
+  "model_id": "prithivMLmods/Bellatrix-Tiny-1B-v2",
+  "benchmark_name": "musr",
+  "score": 3.7109374999999996,
+  "score_raw": 3.7109374999999996,
+  "evaluation_date": "2025-01-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3760
+}

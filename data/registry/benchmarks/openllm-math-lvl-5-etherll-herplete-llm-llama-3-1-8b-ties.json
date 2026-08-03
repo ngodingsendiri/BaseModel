@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-etherll-herplete-llm-llama-3-1-8b-ties",
+  "model_id": "Etherll/Herplete-LLM-Llama-3.1-8b-Ties",
+  "benchmark_name": "math-lvl-5",
+  "score": 16.012084592145015,
+  "score_raw": 16.012084592145015,
+  "evaluation_date": "2024-10-03",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1642
+}

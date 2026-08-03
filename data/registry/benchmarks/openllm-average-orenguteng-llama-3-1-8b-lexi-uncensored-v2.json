@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-orenguteng-llama-3-1-8b-lexi-uncensored-v2",
+  "model_id": "Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2",
+  "benchmark_name": "average",
+  "score": 28.390881228317323,
+  "score_raw": 28.390881228317323,
+  "evaluation_date": "2024-08-09",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1252
+}

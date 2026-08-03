@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-lunzima-nqlsg-qwen2-5-14b-megafusion-v8-5",
+  "model_id": "Lunzima/NQLSG-Qwen2.5-14B-MegaFusion-v8.5",
+  "benchmark_name": "musr",
+  "score": 19.45442708333333,
+  "score_raw": 19.45442708333333,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 291
+}

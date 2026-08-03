@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-databricks-dolly-v1-6b",
+  "model_id": "databricks/dolly-v1-6b",
+  "benchmark_name": "average",
+  "score": 6.981231710564127,
+  "score_raw": 6.981231710564127,
+  "evaluation_date": "2023-03-23",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4061
+}

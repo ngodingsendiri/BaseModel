@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-sicariussicariistuff-qwen2-5-14b-uncencored",
+  "model_id": "SicariusSicariiStuff/Qwen2.5-14B_Uncencored",
+  "benchmark_name": "gpqa",
+  "score": 17.561521252796418,
+  "score_raw": 17.561521252796418,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 212
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-rubenroy-geneva-12b-gcv2-5m",
+  "model_id": "rubenroy/Geneva-12B-GCv2-5m",
+  "benchmark_name": "math-lvl-5",
+  "score": 8.006042296072508,
+  "score_raw": 8.006042296072508,
+  "evaluation_date": "2025-02-01",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2692
+}

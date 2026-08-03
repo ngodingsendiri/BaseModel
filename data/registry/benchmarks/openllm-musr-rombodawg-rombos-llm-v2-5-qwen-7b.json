@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-rombodawg-rombos-llm-v2-5-qwen-7b",
+  "model_id": "rombodawg/Rombos-LLM-V2.5-Qwen-7b",
+  "benchmark_name": "musr",
+  "score": 12.003385416666669,
+  "score_raw": 12.003385416666669,
+  "evaluation_date": "2024-10-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1599
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-sometimesanotion-qwen2-5-7b-gordion-v0-1-prose",
+  "model_id": "sometimesanotion/Qwen2.5-7B-Gordion-v0.1-Prose",
+  "benchmark_name": "musr",
+  "score": 14.70546875,
+  "score_raw": 14.70546875,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 912
+}

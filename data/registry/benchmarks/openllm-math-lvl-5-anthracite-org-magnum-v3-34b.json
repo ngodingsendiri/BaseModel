@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-anthracite-org-magnum-v3-34b",
+  "model_id": "anthracite-org/magnum-v3-34b",
+  "benchmark_name": "math-lvl-5",
+  "score": 19.486404833836858,
+  "score_raw": 19.486404833836858,
+  "evaluation_date": "2024-08-22",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1358
+}

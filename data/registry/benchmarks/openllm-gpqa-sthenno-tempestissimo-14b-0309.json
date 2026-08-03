@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-sthenno-tempestissimo-14b-0309",
+  "model_id": "sthenno/tempestissimo-14b-0309",
+  "benchmark_name": "gpqa",
+  "score": 15.548098434004473,
+  "score_raw": 15.548098434004473,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 376
+}

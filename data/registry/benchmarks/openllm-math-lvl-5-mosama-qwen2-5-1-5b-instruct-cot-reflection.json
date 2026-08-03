@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-mosama-qwen2-5-1-5b-instruct-cot-reflection",
+  "model_id": "mosama/Qwen2.5-1.5B-Instruct-CoT-Reflection",
+  "benchmark_name": "math-lvl-5",
+  "score": 2.719033232628399,
+  "score_raw": 2.719033232628399,
+  "evaluation_date": "2024-12-22",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3769
+}

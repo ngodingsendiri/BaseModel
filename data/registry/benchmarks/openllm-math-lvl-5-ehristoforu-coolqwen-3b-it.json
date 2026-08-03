@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-ehristoforu-coolqwen-3b-it",
+  "model_id": "ehristoforu/coolqwen-3b-it",
+  "benchmark_name": "math-lvl-5",
+  "score": 36.70694864048338,
+  "score_raw": 36.70694864048338,
+  "evaluation_date": "2025-01-02",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 588
+}

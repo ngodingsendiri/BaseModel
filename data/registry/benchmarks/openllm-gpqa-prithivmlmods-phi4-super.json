@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-prithivmlmods-phi4-super",
+  "model_id": "prithivMLmods/Phi4-Super",
+  "benchmark_name": "gpqa",
+  "score": 19.239373601789712,
+  "score_raw": 19.239373601789712,
+  "evaluation_date": "2025-01-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 79
+}

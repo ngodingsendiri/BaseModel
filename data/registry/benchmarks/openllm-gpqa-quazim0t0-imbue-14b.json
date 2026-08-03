@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-quazim0t0-imbue-14b",
+  "model_id": "Quazim0t0/Imbue-14b",
+  "benchmark_name": "gpqa",
+  "score": 8.389261744966444,
+  "score_raw": 8.389261744966444,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1363
+}

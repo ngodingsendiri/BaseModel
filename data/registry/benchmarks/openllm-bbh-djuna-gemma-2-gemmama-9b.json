@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-djuna-gemma-2-gemmama-9b",
+  "model_id": "djuna/Gemma-2-gemmama-9b",
+  "benchmark_name": "bbh",
+  "score": 32.916050576064585,
+  "score_raw": 32.916050576064585,
+  "evaluation_date": "2024-08-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1663
+}

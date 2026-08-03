@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-sonthenguyen-zephyr-sft-bnb-4bit-dpo-mtbo-180steps",
+  "model_id": "sonthenguyen/zephyr-sft-bnb-4bit-DPO-mtbo-180steps",
+  "benchmark_name": "bbh",
+  "score": 21.35140303187909,
+  "score_raw": 21.35140303187909,
+  "evaluation_date": "2024-10-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3116
+}

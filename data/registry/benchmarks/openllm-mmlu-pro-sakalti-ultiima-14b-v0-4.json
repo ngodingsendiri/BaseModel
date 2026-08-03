@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sakalti-ultiima-14b-v0-4",
+  "model_id": "Sakalti/ultiima-14B-v0.4",
+  "benchmark_name": "mmlu-pro",
+  "score": 47.538046690307326,
+  "score_raw": 47.538046690307326,
+  "evaluation_date": "2025-02-02",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 368
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-floflob-smollm2-pretrained-200k-fineweb",
+  "model_id": "FlofloB/smollm2_pretrained_200k_fineweb",
+  "benchmark_name": "average",
+  "score": 4.00559929596115,
+  "score_raw": 4.00559929596115,
+  "evaluation_date": "2025-01-08",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4445
+}

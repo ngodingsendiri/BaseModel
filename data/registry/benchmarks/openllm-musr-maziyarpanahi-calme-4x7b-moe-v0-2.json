@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-maziyarpanahi-calme-4x7b-moe-v0-2",
+  "model_id": "MaziyarPanahi/Calme-4x7B-MoE-v0.2",
+  "benchmark_name": "musr",
+  "score": 12.536718750000004,
+  "score_raw": 12.536718750000004,
+  "evaluation_date": "2024-03-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1421
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-paloalma-le-triomphant-ece-tw3",
+  "model_id": "paloalma/Le_Triomphant-ECE-TW3",
+  "benchmark_name": "bbh",
+  "score": 44.96329362428286,
+  "score_raw": 44.96329362428286,
+  "evaluation_date": "2024-04-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 678
+}

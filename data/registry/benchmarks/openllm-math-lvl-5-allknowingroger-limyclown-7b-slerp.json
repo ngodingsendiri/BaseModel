@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-allknowingroger-limyclown-7b-slerp",
+  "model_id": "allknowingroger/limyClown-7B-slerp",
+  "benchmark_name": "math-lvl-5",
+  "score": 6.873111782477341,
+  "score_raw": 6.873111782477341,
+  "evaluation_date": "2024-03-23",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2871
+}

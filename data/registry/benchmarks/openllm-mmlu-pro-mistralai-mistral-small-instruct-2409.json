@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-mistralai-mistral-small-instruct-2409",
+  "model_id": "mistralai/Mistral-Small-Instruct-2409",
+  "benchmark_name": "mmlu-pro",
+  "score": 32.89191784869976,
+  "score_raw": 32.89191784869976,
+  "evaluation_date": "2024-09-17",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1242
+}

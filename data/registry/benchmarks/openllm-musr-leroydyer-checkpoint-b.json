@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-leroydyer-checkpoint-b",
+  "model_id": "LeroyDyer/CheckPoint_B",
+  "benchmark_name": "musr",
+  "score": 6.830468750000001,
+  "score_raw": 6.830468750000001,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3097
+}

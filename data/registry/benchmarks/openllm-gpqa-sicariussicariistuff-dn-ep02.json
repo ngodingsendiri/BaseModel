@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-sicariussicariistuff-dn-ep02",
+  "model_id": "SicariusSicariiStuff/dn_ep02",
+  "benchmark_name": "gpqa",
+  "score": 8.7248322147651,
+  "score_raw": 8.7248322147651,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1274
+}

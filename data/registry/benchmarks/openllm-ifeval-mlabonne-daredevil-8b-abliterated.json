@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-mlabonne-daredevil-8b-abliterated",
+  "model_id": "mlabonne/Daredevil-8B-abliterated",
+  "benchmark_name": "ifeval",
+  "score": 44.2636648536993,
+  "score_raw": 44.2636648536993,
+  "evaluation_date": "2024-05-26",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2366
+}

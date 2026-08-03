@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-fblgit-una-thebeagle-7b-v1",
+  "model_id": "fblgit/UNA-TheBeagle-7b-v1",
+  "benchmark_name": "musr",
+  "score": 16.088020833333328,
+  "score_raw": 16.088020833333328,
+  "evaluation_date": "2024-01-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 685
+}

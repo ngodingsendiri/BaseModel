@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-floflob-smollm2-pretrained-200k-fineweb",
+  "model_id": "FlofloB/smollm2_pretrained_200k_fineweb",
+  "benchmark_name": "ifeval",
+  "score": 15.270039051937747,
+  "score_raw": 15.270039051937747,
+  "evaluation_date": "2025-01-08",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4327
+}

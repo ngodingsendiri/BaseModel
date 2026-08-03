@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-tanliboy-lambda-qwen2-5-32b-dpo-test",
+  "model_id": "tanliboy/lambda-qwen2.5-32b-dpo-test",
+  "benchmark_name": "bbh",
+  "score": 54.40796058706255,
+  "score_raw": 54.40796058706255,
+  "evaluation_date": "2024-09-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 158
+}

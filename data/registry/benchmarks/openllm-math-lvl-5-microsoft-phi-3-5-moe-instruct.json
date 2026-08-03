@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-microsoft-phi-3-5-moe-instruct",
+  "model_id": "microsoft/Phi-3.5-MoE-instruct",
+  "benchmark_name": "math-lvl-5",
+  "score": 31.19335347432024,
+  "score_raw": 31.19335347432024,
+  "evaluation_date": "2024-08-17",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 787
+}

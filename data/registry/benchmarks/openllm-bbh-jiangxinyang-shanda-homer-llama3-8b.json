@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-jiangxinyang-shanda-homer-llama3-8b",
+  "model_id": "jiangxinyang-shanda/Homer-LLama3-8B",
+  "benchmark_name": "bbh",
+  "score": 31.69897508701321,
+  "score_raw": 31.69897508701321,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1907
+}

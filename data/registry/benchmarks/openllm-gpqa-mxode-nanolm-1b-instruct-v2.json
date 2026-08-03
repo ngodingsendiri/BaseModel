@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-mxode-nanolm-1b-instruct-v2",
+  "model_id": "Mxode/NanoLM-1B-Instruct-v2",
+  "benchmark_name": "gpqa",
+  "score": 1.7897091722595053,
+  "score_raw": 1.7897091722595053,
+  "evaluation_date": "2024-09-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3766
+}

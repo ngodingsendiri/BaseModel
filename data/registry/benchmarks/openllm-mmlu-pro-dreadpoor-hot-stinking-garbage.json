@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-hot-stinking-garbage",
+  "model_id": "DreadPoor/HOT_STINKING_GARBAGE",
+  "benchmark_name": "mmlu-pro",
+  "score": 22.410608747044915,
+  "score_raw": 22.410608747044915,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2879
+}

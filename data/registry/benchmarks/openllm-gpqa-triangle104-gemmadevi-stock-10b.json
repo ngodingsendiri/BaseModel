@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-triangle104-gemmadevi-stock-10b",
+  "model_id": "Triangle104/Gemmadevi-Stock-10B",
+  "benchmark_name": "gpqa",
+  "score": 13.758389261744966,
+  "score_raw": 13.758389261744966,
+  "evaluation_date": "2025-02-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 505
+}

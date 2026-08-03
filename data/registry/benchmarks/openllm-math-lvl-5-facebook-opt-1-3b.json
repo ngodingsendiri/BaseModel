@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-facebook-opt-1-3b",
+  "model_id": "facebook/opt-1.3b",
+  "benchmark_name": "math-lvl-5",
+  "score": 0.906344410876133,
+  "score_raw": 0.906344410876133,
+  "evaluation_date": "2022-05-11",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4261
+}

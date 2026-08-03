@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-xukp20-llama-3-8b-instruct-sppo-iter1-gp-2b-tau01-table",
+  "model_id": "xukp20/llama-3-8b-instruct-sppo-iter1-gp-2b-tau01-table",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.17693557919622,
+  "score_raw": 30.17693557919622,
+  "evaluation_date": "2024-09-22",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1796
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-prithivmlmods-magellanic-qwen-25b-r999",
+  "model_id": "prithivMLmods/Magellanic-Qwen-25B-R999",
+  "benchmark_name": "bbh",
+  "score": 2.00355862547039,
+  "score_raw": 2.00355862547039,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4486
+}

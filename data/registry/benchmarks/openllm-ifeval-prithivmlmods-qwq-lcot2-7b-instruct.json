@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-prithivmlmods-qwq-lcot2-7b-instruct",
+  "model_id": "prithivMLmods/QwQ-LCoT2-7B-Instruct",
+  "benchmark_name": "ifeval",
+  "score": 55.61177675235044,
+  "score_raw": 55.61177675235044,
+  "evaluation_date": "2025-01-20",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1483
+}

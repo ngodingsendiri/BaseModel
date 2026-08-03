@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-mlabonne-bigqwen2-5-52b-instruct",
+  "model_id": "mlabonne/BigQwen2.5-52B-Instruct",
+  "benchmark_name": "average",
+  "score": 43.55000484859215,
+  "score_raw": 43.55000484859215,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 60
+}

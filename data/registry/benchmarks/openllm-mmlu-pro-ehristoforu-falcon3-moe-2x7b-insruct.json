@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ehristoforu-falcon3-moe-2x7b-insruct",
+  "model_id": "ehristoforu/Falcon3-MoE-2x7B-Insruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 34.38792848699764,
+  "score_raw": 34.38792848699764,
+  "evaluation_date": "2024-12-22",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1157
+}

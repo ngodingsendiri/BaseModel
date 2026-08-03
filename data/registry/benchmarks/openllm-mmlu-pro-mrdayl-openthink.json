@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-mrdayl-openthink",
+  "model_id": "mrdayl/OpenThink",
+  "benchmark_name": "mmlu-pro",
+  "score": 9.445183215130024,
+  "score_raw": 9.445183215130024,
+  "evaluation_date": "2025-02-22",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3651
+}

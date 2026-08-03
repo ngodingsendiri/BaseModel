@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-creitingameplays-llama-3-1-8b-r1-v0-1",
+  "model_id": "CreitinGameplays/Llama-3.1-8B-R1-v0.1",
+  "benchmark_name": "ifeval",
+  "score": 32.3485019747603,
+  "score_raw": 32.3485019747603,
+  "evaluation_date": "2025-02-19",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3182
+}

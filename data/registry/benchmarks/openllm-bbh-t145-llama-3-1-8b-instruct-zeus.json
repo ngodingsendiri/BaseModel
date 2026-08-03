@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-t145-llama-3-1-8b-instruct-zeus",
+  "model_id": "T145/Llama-3.1-8B-Instruct-Zeus",
+  "benchmark_name": "bbh",
+  "score": 31.388990728478273,
+  "score_raw": 31.388990728478273,
+  "evaluation_date": "2024-11-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1968
+}

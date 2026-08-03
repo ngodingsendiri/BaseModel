@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-suayptalha-rombos-2-5-t-e-8-1",
+  "model_id": "suayptalha/Rombos-2.5-T.E-8.1",
+  "benchmark_name": "average",
+  "score": 35.40416180893529,
+  "score_raw": 35.40416180893529,
+  "evaluation_date": "2024-11-16",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 609
+}

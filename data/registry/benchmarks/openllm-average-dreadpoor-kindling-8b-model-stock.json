@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-dreadpoor-kindling-8b-model-stock",
+  "model_id": "DreadPoor/Kindling-8B-Model_Stock",
+  "benchmark_name": "average",
+  "score": 29.66229791748307,
+  "score_raw": 29.66229791748307,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1087
+}

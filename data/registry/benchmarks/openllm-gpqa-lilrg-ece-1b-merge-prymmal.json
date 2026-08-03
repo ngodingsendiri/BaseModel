@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-lilrg-ece-1b-merge-prymmal",
+  "model_id": "LilRg/ECE-1B-merge-PRYMMAL",
+  "benchmark_name": "gpqa",
+  "score": 4.138702460850116,
+  "score_raw": 4.138702460850116,
+  "evaluation_date": "2024-10-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2908
+}

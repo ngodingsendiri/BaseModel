@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-hotmailuser-falcon3slerp1-10b",
+  "model_id": "hotmailuser/Falcon3Slerp1-10B",
+  "benchmark_name": "gpqa",
+  "score": 12.527964205816552,
+  "score_raw": 12.527964205816552,
+  "evaluation_date": "2024-12-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 650
+}

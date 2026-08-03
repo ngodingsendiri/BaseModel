@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-epistemeai-fireball-mistral-nemo-base-2407-v1-dpo2",
+  "model_id": "EpistemeAI/Fireball-Mistral-Nemo-Base-2407-v1-DPO2",
+  "benchmark_name": "musr",
+  "score": 9.501302083333336,
+  "score_raw": 9.501302083333336,
+  "evaluation_date": "2024-08-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2439
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-weyaxi-einstein-v7-qwen2-7b",
+  "model_id": "Weyaxi/Einstein-v7-Qwen2-7B",
+  "benchmark_name": "math-lvl-5",
+  "score": 19.939577039274926,
+  "score_raw": 19.939577039274926,
+  "evaluation_date": "2024-06-24",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1327
+}

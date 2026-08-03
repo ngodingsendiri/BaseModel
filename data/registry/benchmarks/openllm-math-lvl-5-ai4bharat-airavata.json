@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-ai4bharat-airavata",
+  "model_id": "ai4bharat/Airavata",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.812688821752266,
+  "score_raw": 1.812688821752266,
+  "evaluation_date": "2024-01-13",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3970
+}

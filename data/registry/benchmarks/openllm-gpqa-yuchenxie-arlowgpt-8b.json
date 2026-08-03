@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-yuchenxie-arlowgpt-8b",
+  "model_id": "yuchenxie/ArlowGPT-8B",
+  "benchmark_name": "gpqa",
+  "score": 5.8165548098433995,
+  "score_raw": 5.8165548098433995,
+  "evaluation_date": "2024-10-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2362
+}

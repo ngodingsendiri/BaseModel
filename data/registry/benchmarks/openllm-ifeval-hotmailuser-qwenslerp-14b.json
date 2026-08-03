@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-hotmailuser-qwenslerp-14b",
+  "model_id": "hotmailuser/QwenSlerp-14B",
+  "benchmark_name": "ifeval",
+  "score": 70.24716640735471,
+  "score_raw": 70.24716640735471,
+  "evaluation_date": "2024-12-31",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 755
+}

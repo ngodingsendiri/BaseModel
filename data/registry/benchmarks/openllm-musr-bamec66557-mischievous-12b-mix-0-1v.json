@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-bamec66557-mischievous-12b-mix-0-1v",
+  "model_id": "bamec66557/MISCHIEVOUS-12B-Mix_0.1v",
+  "benchmark_name": "musr",
+  "score": 11.544531249999997,
+  "score_raw": 11.544531249999997,
+  "evaluation_date": "2024-12-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1752
+}

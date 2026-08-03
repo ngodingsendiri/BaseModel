@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-eleutherai-gpt-neo-2-7b",
+  "model_id": "EleutherAI/gpt-neo-2.7B",
+  "benchmark_name": "ifeval",
+  "score": 25.896288514474925,
+  "score_raw": 25.896288514474925,
+  "evaluation_date": "2022-03-02",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3527
+}

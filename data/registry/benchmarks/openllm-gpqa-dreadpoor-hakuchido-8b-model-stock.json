@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-hakuchido-8b-model-stock",
+  "model_id": "DreadPoor/hakuchido-8B-MODEL_STOCK",
+  "benchmark_name": "gpqa",
+  "score": 6.040268456375841,
+  "score_raw": 6.040268456375841,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2238
+}

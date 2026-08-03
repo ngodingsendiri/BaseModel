@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-kekmodel-stopcarbon-10-7b-v5",
+  "model_id": "kekmodel/StopCarbon-10.7B-v5",
+  "benchmark_name": "average",
+  "score": 20.93299222055526,
+  "score_raw": 20.93299222055526,
+  "evaluation_date": "2023-12-30",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2508
+}

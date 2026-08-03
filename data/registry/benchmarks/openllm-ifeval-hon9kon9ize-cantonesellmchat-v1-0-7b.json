@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-hon9kon9ize-cantonesellmchat-v1-0-7b",
+  "model_id": "hon9kon9ize/CantoneseLLMChat-v1.0-7B",
+  "benchmark_name": "ifeval",
+  "score": 44.54835392314614,
+  "score_raw": 44.54835392314614,
+  "evaluation_date": "2024-10-02",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2340
+}

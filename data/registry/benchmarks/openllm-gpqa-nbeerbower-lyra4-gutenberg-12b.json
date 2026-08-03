@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-nbeerbower-lyra4-gutenberg-12b",
+  "model_id": "nbeerbower/Lyra4-Gutenberg-12B",
+  "benchmark_name": "gpqa",
+  "score": 9.172259507829976,
+  "score_raw": 9.172259507829976,
+  "evaluation_date": "2024-09-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1185
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-daemontatox-zirel-1-5",
+  "model_id": "Daemontatox/Zirel_1.5",
+  "benchmark_name": "musr",
+  "score": 3.3265624999999996,
+  "score_raw": 3.3265624999999996,
+  "evaluation_date": "2025-03-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3850
+}

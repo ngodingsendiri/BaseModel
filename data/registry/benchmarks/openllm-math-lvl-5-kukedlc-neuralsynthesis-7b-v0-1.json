@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-kukedlc-neuralsynthesis-7b-v0-1",
+  "model_id": "Kukedlc/NeuralSynthesis-7B-v0.1",
+  "benchmark_name": "math-lvl-5",
+  "score": 6.3444108761329305,
+  "score_raw": 6.3444108761329305,
+  "evaluation_date": "2024-04-06",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2976
+}

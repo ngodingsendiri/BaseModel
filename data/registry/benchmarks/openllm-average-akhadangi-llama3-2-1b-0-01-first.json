@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-akhadangi-llama3-2-1b-0-01-first",
+  "model_id": "akhadangi/Llama3.2.1B.0.01-First",
+  "benchmark_name": "average",
+  "score": 3.1098917488910103,
+  "score_raw": 3.1098917488910103,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4560
+}

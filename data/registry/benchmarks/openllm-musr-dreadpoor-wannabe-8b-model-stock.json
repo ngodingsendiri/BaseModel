@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-wannabe-8b-model-stock",
+  "model_id": "DreadPoor/Wannabe-8B-Model_Stock",
+  "benchmark_name": "musr",
+  "score": 12.316927083333331,
+  "score_raw": 12.316927083333331,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1488
+}

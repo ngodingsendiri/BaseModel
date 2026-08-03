@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ahdoot-structuredthinker-v0-3-morestructure",
+  "model_id": "Ahdoot/StructuredThinker-v0.3-MoreStructure",
+  "benchmark_name": "mmlu-pro",
+  "score": 29.00413711583924,
+  "score_raw": 29.00413711583924,
+  "evaluation_date": "2024-12-31",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2044
+}

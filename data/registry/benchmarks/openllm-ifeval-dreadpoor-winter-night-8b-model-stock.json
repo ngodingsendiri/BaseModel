@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-dreadpoor-winter-night-8b-model-stock",
+  "model_id": "DreadPoor/Winter_Night-8B-Model_Stock",
+  "benchmark_name": "ifeval",
+  "score": 70.40452665593958,
+  "score_raw": 70.40452665593958,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 746
+}

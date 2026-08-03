@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sometimesanotion-qwen-2-5-14b-virmarckeoso",
+  "model_id": "sometimesanotion/Qwen-2.5-14B-Virmarckeoso",
+  "benchmark_name": "math-lvl-5",
+  "score": 35.64954682779456,
+  "score_raw": 35.64954682779456,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 636
+}

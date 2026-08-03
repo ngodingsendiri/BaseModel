@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-databricks-dbrx-base",
+  "model_id": "databricks/dbrx-base",
+  "benchmark_name": "gpqa",
+  "score": 10.222222222222221,
+  "score_raw": 10.222222222222221,
+  "evaluation_date": "2024-03-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 958
+}

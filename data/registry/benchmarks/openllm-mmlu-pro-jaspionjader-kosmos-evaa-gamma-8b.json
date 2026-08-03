@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-jaspionjader-kosmos-evaa-gamma-8b",
+  "model_id": "jaspionjader/Kosmos-EVAA-gamma-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 32.23625886524823,
+  "score_raw": 32.23625886524823,
+  "evaluation_date": "2024-12-27",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1343
+}

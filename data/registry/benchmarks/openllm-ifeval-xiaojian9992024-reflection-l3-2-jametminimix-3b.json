@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-xiaojian9992024-reflection-l3-2-jametminimix-3b",
+  "model_id": "Xiaojian9992024/Reflection-L3.2-JametMiniMix-3B",
+  "benchmark_name": "ifeval",
+  "score": 46.194541594081485,
+  "score_raw": 46.194541594081485,
+  "evaluation_date": "2025-02-17",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2178
+}

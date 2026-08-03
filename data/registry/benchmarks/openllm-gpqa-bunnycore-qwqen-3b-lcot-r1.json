@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-bunnycore-qwqen-3b-lcot-r1",
+  "model_id": "bunnycore/QwQen-3B-LCoT-R1",
+  "benchmark_name": "gpqa",
+  "score": 1.5659955257270708,
+  "score_raw": 1.5659955257270708,
+  "evaluation_date": "2025-02-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3855
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-debatelabkit-llama-3-1-argunaut-1-8b-sft",
+  "model_id": "DebateLabKIT/Llama-3.1-Argunaut-1-8B-SFT",
+  "benchmark_name": "average",
+  "score": 24.113556306971883,
+  "score_raw": 24.113556306971883,
+  "evaluation_date": "2024-12-31",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1795
+}

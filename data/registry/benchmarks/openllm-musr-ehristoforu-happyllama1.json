@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-ehristoforu-happyllama1",
+  "model_id": "ehristoforu/HappyLlama1",
+  "benchmark_name": "musr",
+  "score": 11.252604166666664,
+  "score_raw": 11.252604166666664,
+  "evaluation_date": "2024-11-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1883
+}

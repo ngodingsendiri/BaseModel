@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-jaspionjader-kosmos-evaa-prp-v30-8b",
+  "model_id": "jaspionjader/Kosmos-EVAA-PRP-v30-8B",
+  "benchmark_name": "bbh",
+  "score": 32.980026204409654,
+  "score_raw": 32.980026204409654,
+  "evaluation_date": "2024-12-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1651
+}

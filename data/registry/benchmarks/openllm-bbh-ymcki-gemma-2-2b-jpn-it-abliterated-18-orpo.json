@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-ymcki-gemma-2-2b-jpn-it-abliterated-18-orpo",
+  "model_id": "ymcki/gemma-2-2b-jpn-it-abliterated-18-ORPO",
+  "benchmark_name": "bbh",
+  "score": 16.538078577820993,
+  "score_raw": 16.538078577820993,
+  "evaluation_date": "2024-10-22",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3427
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-meta-llama-llama-2-70b-chat-hf",
+  "model_id": "meta-llama/Llama-2-70b-chat-hf",
+  "benchmark_name": "ifeval",
+  "score": 49.57922756065019,
+  "score_raw": 49.57922756065019,
+  "evaluation_date": "2023-07-14",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1900
+}

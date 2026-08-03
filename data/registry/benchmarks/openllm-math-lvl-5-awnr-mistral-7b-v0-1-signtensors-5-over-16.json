@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-awnr-mistral-7b-v0-1-signtensors-5-over-16",
+  "model_id": "awnr/Mistral-7B-v0.1-signtensors-5-over-16",
+  "benchmark_name": "math-lvl-5",
+  "score": 2.9456193353474323,
+  "score_raw": 2.9456193353474323,
+  "evaluation_date": "2024-07-29",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3711
+}

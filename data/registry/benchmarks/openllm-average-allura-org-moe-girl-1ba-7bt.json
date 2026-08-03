@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-allura-org-moe-girl-1ba-7bt",
+  "model_id": "allura-org/MoE-Girl-1BA-7BT",
+  "benchmark_name": "average",
+  "score": 6.402799107780404,
+  "score_raw": 6.402799107780404,
+  "evaluation_date": "2024-10-08",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4124
+}

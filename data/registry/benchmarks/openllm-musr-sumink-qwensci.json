@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sumink-qwensci",
+  "model_id": "sumink/Qwensci",
+  "benchmark_name": "musr",
+  "score": 3.6106770833333353,
+  "score_raw": 3.6106770833333353,
+  "evaluation_date": "2025-01-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3783
+}

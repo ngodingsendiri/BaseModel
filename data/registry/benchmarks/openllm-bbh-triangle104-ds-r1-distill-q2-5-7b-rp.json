@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-triangle104-ds-r1-distill-q2-5-7b-rp",
+  "model_id": "Triangle104/DS-R1-Distill-Q2.5-7B-RP",
+  "benchmark_name": "bbh",
+  "score": 20.78137433344085,
+  "score_raw": 20.78137433344085,
+  "evaluation_date": "2025-01-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3156
+}

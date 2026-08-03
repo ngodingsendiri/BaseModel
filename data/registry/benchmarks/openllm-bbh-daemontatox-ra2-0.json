@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-daemontatox-ra2-0",
+  "model_id": "Daemontatox/RA2.0",
+  "benchmark_name": "bbh",
+  "score": 28.471838145021334,
+  "score_raw": 28.471838145021334,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2438
+}

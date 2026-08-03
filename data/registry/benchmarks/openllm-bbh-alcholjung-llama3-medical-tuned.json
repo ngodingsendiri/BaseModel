@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-alcholjung-llama3-medical-tuned",
+  "model_id": "alcholjung/llama3_medical_tuned",
+  "benchmark_name": "bbh",
+  "score": 23.265089024969495,
+  "score_raw": 23.265089024969495,
+  "evaluation_date": "2024-08-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2960
+}

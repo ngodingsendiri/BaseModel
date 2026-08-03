@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-llama-3-1-5b-instruct",
+  "model_id": "prithivMLmods/Llama-3.1-5B-Instruct",
+  "benchmark_name": "average",
+  "score": 4.207173577211278,
+  "score_raw": 4.207173577211278,
+  "evaluation_date": "2025-01-04",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4417
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-daemontatox-pixelparse-ai",
+  "model_id": "Daemontatox/PixelParse_AI",
+  "benchmark_name": "average",
+  "score": 22.92506088584278,
+  "score_raw": 22.92506088584278,
+  "evaluation_date": "2024-12-27",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2108
+}

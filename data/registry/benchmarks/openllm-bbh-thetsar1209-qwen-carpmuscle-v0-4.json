@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-thetsar1209-qwen-carpmuscle-v0-4",
+  "model_id": "TheTsar1209/qwen-carpmuscle-v0.4",
+  "benchmark_name": "bbh",
+  "score": 49.38495588865565,
+  "score_raw": 49.38495588865565,
+  "evaluation_date": "2024-11-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 441
+}

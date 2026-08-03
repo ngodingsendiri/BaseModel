@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-ehristoforu-fp4-14b-it-v1",
+  "model_id": "ehristoforu/fp4-14b-it-v1",
+  "benchmark_name": "bbh",
+  "score": 38.77952167023901,
+  "score_raw": 38.77952167023901,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 984
+}

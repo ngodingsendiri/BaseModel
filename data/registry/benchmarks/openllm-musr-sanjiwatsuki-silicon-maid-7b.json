@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sanjiwatsuki-silicon-maid-7b",
+  "model_id": "SanjiWatsuki/Silicon-Maid-7B",
+  "benchmark_name": "musr",
+  "score": 11.087500000000004,
+  "score_raw": 11.087500000000004,
+  "evaluation_date": "2023-12-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1946
+}

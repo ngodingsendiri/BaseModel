@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-noname0202-llama-math-1b-r8-512tokens-test",
+  "model_id": "noname0202/llama-math-1b-r8-512tokens-test",
+  "benchmark_name": "math-lvl-5",
+  "score": 8.157099697885197,
+  "score_raw": 8.157099697885197,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2671
+}

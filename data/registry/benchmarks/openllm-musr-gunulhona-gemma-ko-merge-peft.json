@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-gunulhona-gemma-ko-merge-peft",
+  "model_id": "Gunulhona/Gemma-Ko-Merge-PEFT",
+  "benchmark_name": "musr",
+  "score": 7.056249999999999,
+  "score_raw": 7.056249999999999,
+  "evaluation_date": "2024-09-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3049
+}

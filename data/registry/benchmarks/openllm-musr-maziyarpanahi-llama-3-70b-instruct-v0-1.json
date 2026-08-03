@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-maziyarpanahi-llama-3-70b-instruct-v0-1",
+  "model_id": "MaziyarPanahi/Llama-3-70B-Instruct-v0.1",
+  "benchmark_name": "musr",
+  "score": 15.312760416666672,
+  "score_raw": 15.312760416666672,
+  "evaluation_date": "2024-05-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 793
+}

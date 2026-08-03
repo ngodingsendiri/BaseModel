@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-replete-ai-replete-llm-qwen2-7b",
+  "model_id": "Replete-AI/Replete-LLM-Qwen2-7b",
+  "benchmark_name": "musr",
+  "score": 5.861718749999999,
+  "score_raw": 5.861718749999999,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3280
+}

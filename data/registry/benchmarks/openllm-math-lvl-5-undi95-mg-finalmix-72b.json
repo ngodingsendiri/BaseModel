@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-undi95-mg-finalmix-72b",
+  "model_id": "Undi95/MG-FinalMix-72B",
+  "benchmark_name": "math-lvl-5",
+  "score": 39.72809667673716,
+  "score_raw": 39.72809667673716,
+  "evaluation_date": "2024-06-25",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 459
+}

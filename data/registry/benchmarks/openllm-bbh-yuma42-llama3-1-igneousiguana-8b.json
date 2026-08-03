@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-yuma42-llama3-1-igneousiguana-8b",
+  "model_id": "Yuma42/Llama3.1-IgneousIguana-8B",
+  "benchmark_name": "bbh",
+  "score": 31.985926552081427,
+  "score_raw": 31.985926552081427,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1849
+}

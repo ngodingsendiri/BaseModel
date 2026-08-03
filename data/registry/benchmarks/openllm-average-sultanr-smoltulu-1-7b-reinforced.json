@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sultanr-smoltulu-1-7b-reinforced",
+  "model_id": "SultanR/SmolTulu-1.7b-Reinforced",
+  "benchmark_name": "average",
+  "score": 16.5748337360141,
+  "score_raw": 16.5748337360141,
+  "evaluation_date": "2024-12-16",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3120
+}

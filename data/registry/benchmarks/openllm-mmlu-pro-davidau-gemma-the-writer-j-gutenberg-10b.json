@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-davidau-gemma-the-writer-j-gutenberg-10b",
+  "model_id": "DavidAU/Gemma-The-Writer-J.GutenBerg-10B",
+  "benchmark_name": "mmlu-pro",
+  "score": 32.74416371158392,
+  "score_raw": 32.74416371158392,
+  "evaluation_date": "2024-10-30",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1256
+}

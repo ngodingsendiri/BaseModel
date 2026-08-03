@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-prithivmlmods-deepthink-llama-3-8b-preview",
+  "model_id": "prithivMLmods/Deepthink-Llama-3-8B-Preview",
+  "benchmark_name": "mmlu-pro",
+  "score": 19.317006501182032,
+  "score_raw": 19.317006501182032,
+  "evaluation_date": "2025-02-18",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3215
+}

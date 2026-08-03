@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-jpacifico-lucie-7b-instruct-dpo-v1-1-3",
+  "model_id": "jpacifico/Lucie-7B-Instruct-DPO-v1.1.3",
+  "benchmark_name": "math-lvl-5",
+  "score": 2.416918429003021,
+  "score_raw": 2.416918429003021,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3835
+}

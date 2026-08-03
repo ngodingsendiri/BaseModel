@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-wanlige-li-14b-v0-4-slerp0-1",
+  "model_id": "wanlige/li-14b-v0.4-slerp0.1",
+  "benchmark_name": "gpqa",
+  "score": 14.541387024608499,
+  "score_raw": 14.541387024608499,
+  "evaluation_date": "2025-02-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 443
+}

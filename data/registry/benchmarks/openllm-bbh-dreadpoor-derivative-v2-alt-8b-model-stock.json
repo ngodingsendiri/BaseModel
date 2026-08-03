@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-derivative-v2-alt-8b-model-stock",
+  "model_id": "DreadPoor/Derivative_V2_ALT-8B-Model_Stock",
+  "benchmark_name": "bbh",
+  "score": 34.09335381950132,
+  "score_raw": 34.09335381950132,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1503
+}

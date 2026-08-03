@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-fluently-lm-fluentlylm-prinum",
+  "model_id": "fluently-lm/FluentlyLM-Prinum",
+  "benchmark_name": "bbh",
+  "score": 59.482203418427986,
+  "score_raw": 59.482203418427986,
+  "evaluation_date": "2025-02-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 27
+}

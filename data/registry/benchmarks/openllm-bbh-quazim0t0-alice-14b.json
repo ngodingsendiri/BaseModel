@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-quazim0t0-alice-14b",
+  "model_id": "Quazim0t0/Alice-14B",
+  "benchmark_name": "bbh",
+  "score": 56.00650513096938,
+  "score_raw": 56.00650513096938,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 91
+}

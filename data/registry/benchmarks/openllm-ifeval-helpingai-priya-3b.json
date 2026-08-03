@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-helpingai-priya-3b",
+  "model_id": "HelpingAI/Priya-3B",
+  "benchmark_name": "ifeval",
+  "score": 45.25780484669566,
+  "score_raw": 45.25780484669566,
+  "evaluation_date": "2024-12-05",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2277
+}

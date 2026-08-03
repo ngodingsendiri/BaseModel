@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-godlikehhd-alpaca-data-ins-max-5200",
+  "model_id": "godlikehhd/alpaca_data_ins_max_5200",
+  "benchmark_name": "average",
+  "score": 15.68373909505621,
+  "score_raw": 15.68373909505621,
+  "evaluation_date": "2025-01-09",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3232
+}

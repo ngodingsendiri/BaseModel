@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-cultrix-qwen2-5-14b-hypermarck-dl",
+  "model_id": "CultriX/Qwen2.5-14B-HyperMarck-dl",
+  "benchmark_name": "mmlu-pro",
+  "score": 45.4510195035461,
+  "score_raw": 45.4510195035461,
+  "evaluation_date": "2025-02-16",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 532
+}

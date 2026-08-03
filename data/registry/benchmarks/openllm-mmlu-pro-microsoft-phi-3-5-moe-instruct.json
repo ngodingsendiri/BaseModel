@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-microsoft-phi-3-5-moe-instruct",
+  "model_id": "microsoft/Phi-3.5-MoE-instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 40.639775413711575,
+  "score_raw": 40.639775413711575,
+  "evaluation_date": "2024-08-17",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 664
+}

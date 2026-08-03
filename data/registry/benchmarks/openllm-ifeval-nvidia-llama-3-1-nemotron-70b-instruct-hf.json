@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-nvidia-llama-3-1-nemotron-70b-instruct-hf",
+  "model_id": "nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
+  "benchmark_name": "ifeval",
+  "score": 73.80672172059025,
+  "score_raw": 73.80672172059025,
+  "evaluation_date": "2024-10-12",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 519
+}

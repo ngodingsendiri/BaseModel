@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-piotr25691-thea-rp-3b-25r",
+  "model_id": "piotr25691/thea-rp-3b-25r",
+  "benchmark_name": "bbh",
+  "score": 20.007380927568594,
+  "score_raw": 20.007380927568594,
+  "evaluation_date": "2024-10-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3202
+}

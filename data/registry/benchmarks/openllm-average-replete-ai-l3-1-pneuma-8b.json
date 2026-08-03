@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-replete-ai-l3-1-pneuma-8b",
+  "model_id": "Replete-AI/L3.1-Pneuma-8B",
+  "benchmark_name": "average",
+  "score": 27.68476446634547,
+  "score_raw": 27.68476446634547,
+  "evaluation_date": "2024-11-09",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1330
+}

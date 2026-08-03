@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-braindao-iq-code-evmind-0-5b",
+  "model_id": "braindao/iq-code-evmind-0.5b",
+  "benchmark_name": "musr",
+  "score": 1.1968750000000006,
+  "score_raw": 1.1968750000000006,
+  "evaluation_date": "2024-12-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4427
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-prithivmlmods-qwq-lcot-7b-instruct",
+  "model_id": "prithivMLmods/QwQ-LCoT-7B-Instruct",
+  "benchmark_name": "musr",
+  "score": 19.390104166666664,
+  "score_raw": 19.390104166666664,
+  "evaluation_date": "2024-12-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 300
+}

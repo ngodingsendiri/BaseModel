@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-triangle104-phi4-rp-o1-ablit",
+  "model_id": "Triangle104/Phi4-RP-o1-Ablit",
+  "benchmark_name": "bbh",
+  "score": 51.22184133516779,
+  "score_raw": 51.22184133516779,
+  "evaluation_date": "2025-02-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 269
+}

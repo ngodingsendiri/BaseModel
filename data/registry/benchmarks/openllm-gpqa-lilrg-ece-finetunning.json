@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-lilrg-ece-finetunning",
+  "model_id": "LilRg/ECE_Finetunning",
+  "benchmark_name": "gpqa",
+  "score": 4.36241610738255,
+  "score_raw": 4.36241610738255,
+  "evaluation_date": "2024-09-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2836
+}

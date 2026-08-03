@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-lars1234-mistral-small-24b-instruct-2501-writer",
+  "model_id": "lars1234/Mistral-Small-24B-Instruct-2501-writer",
+  "benchmark_name": "average",
+  "score": 39.855790317231644,
+  "score_raw": 39.855790317231644,
+  "evaluation_date": "2025-03-06",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 277
+}

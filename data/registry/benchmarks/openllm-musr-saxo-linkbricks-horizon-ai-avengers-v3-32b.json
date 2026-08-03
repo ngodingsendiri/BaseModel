@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-saxo-linkbricks-horizon-ai-avengers-v3-32b",
+  "model_id": "Saxo/Linkbricks-Horizon-AI-Avengers-V3-32B",
+  "benchmark_name": "musr",
+  "score": 13.832291666666665,
+  "score_raw": 13.832291666666665,
+  "evaluation_date": "2024-12-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1087
+}

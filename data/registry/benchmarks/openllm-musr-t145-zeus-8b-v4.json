@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-t145-zeus-8b-v4",
+  "model_id": "T145/ZEUS-8B-V4",
+  "benchmark_name": "musr",
+  "score": 9.961979166666664,
+  "score_raw": 9.961979166666664,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2304
+}

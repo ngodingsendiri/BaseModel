@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-aellm-gemma-2-aeria-infinity-9b",
+  "model_id": "AELLM/gemma-2-aeria-infinity-9b",
+  "benchmark_name": "average",
+  "score": 31.919053815912523,
+  "score_raw": 31.919053815912523,
+  "evaluation_date": "2024-10-09",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 858
+}

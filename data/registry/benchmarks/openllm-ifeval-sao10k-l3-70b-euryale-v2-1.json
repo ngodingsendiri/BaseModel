@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-sao10k-l3-70b-euryale-v2-1",
+  "model_id": "Sao10K/L3-70B-Euryale-v2.1",
+  "benchmark_name": "ifeval",
+  "score": 72.81003293483514,
+  "score_raw": 72.81003293483514,
+  "evaluation_date": "2024-06-11",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 595
+}

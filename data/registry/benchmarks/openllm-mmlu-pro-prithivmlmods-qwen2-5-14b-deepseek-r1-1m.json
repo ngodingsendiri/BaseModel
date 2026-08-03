@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-prithivmlmods-qwen2-5-14b-deepseek-r1-1m",
+  "model_id": "prithivMLmods/Qwen2.5-14B-DeepSeek-R1-1M",
+  "benchmark_name": "mmlu-pro",
+  "score": 43.32705378250591,
+  "score_raw": 43.32705378250591,
+  "evaluation_date": "2025-01-29",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 594
+}

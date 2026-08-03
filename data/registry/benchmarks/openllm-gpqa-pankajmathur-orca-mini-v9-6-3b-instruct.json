@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-pankajmathur-orca-mini-v9-6-3b-instruct",
+  "model_id": "pankajmathur/orca_mini_v9_6_3B-Instruct",
+  "benchmark_name": "gpqa",
+  "score": 5.8165548098433995,
+  "score_raw": 5.8165548098433995,
+  "evaluation_date": "2025-01-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2358
+}

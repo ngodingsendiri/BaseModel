@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-maziyarpanahi-llama-3-8b-instruct-v0-9",
+  "model_id": "MaziyarPanahi/Llama-3-8B-Instruct-v0.9",
+  "benchmark_name": "average",
+  "score": 26.786644392116216,
+  "score_raw": 26.786644392116216,
+  "evaluation_date": "2024-05-30",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1416
+}

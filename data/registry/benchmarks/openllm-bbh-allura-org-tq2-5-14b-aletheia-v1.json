@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-allura-org-tq2-5-14b-aletheia-v1",
+  "model_id": "allura-org/TQ2.5-14B-Aletheia-v1",
+  "benchmark_name": "bbh",
+  "score": 50.881441812823226,
+  "score_raw": 50.881441812823226,
+  "evaluation_date": "2024-12-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 290
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-skyorbis-sky-ko-llama3-2-3b-lora-epoch2",
+  "model_id": "SkyOrbis/SKY-Ko-Llama3.2-3B-lora-epoch2",
+  "benchmark_name": "mmlu-pro",
+  "score": 22.272089243498815,
+  "score_raw": 22.272089243498815,
+  "evaluation_date": "2024-12-29",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2901
+}

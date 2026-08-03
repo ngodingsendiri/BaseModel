@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-openllm-france-lucie-7b-instruct-human-data",
+  "model_id": "OpenLLM-France/Lucie-7B-Instruct-human-data",
+  "benchmark_name": "bbh",
+  "score": 7.629771133304573,
+  "score_raw": 7.629771133304573,
+  "evaluation_date": "2025-01-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3810
+}

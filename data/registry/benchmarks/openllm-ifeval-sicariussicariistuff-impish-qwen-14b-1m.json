@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-sicariussicariistuff-impish-qwen-14b-1m",
+  "model_id": "SicariusSicariiStuff/Impish_QWEN_14B-1M",
+  "benchmark_name": "ifeval",
+  "score": 78.67768631675067,
+  "score_raw": 78.67768631675067,
+  "evaluation_date": "2025-01-27",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 210
+}

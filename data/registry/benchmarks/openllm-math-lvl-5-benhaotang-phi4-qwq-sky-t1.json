@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-benhaotang-phi4-qwq-sky-t1",
+  "model_id": "benhaotang/phi4-qwq-sky-t1",
+  "benchmark_name": "math-lvl-5",
+  "score": 41.012084592145015,
+  "score_raw": 41.012084592145015,
+  "evaluation_date": "2025-01-17",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 412
+}

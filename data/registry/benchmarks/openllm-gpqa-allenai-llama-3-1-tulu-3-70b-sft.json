@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-allenai-llama-3-1-tulu-3-70b-sft",
+  "model_id": "allenai/Llama-3.1-Tulu-3-70B-SFT",
+  "benchmark_name": "gpqa",
+  "score": 12.639821029082773,
+  "score_raw": 12.639821029082773,
+  "evaluation_date": "2024-11-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 634
+}

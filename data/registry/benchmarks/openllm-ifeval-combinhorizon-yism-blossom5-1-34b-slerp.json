@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-combinhorizon-yism-blossom5-1-34b-slerp",
+  "model_id": "CombinHorizon/YiSM-blossom5.1-34B-SLERP",
+  "benchmark_name": "ifeval",
+  "score": 50.33112142448702,
+  "score_raw": 50.33112142448702,
+  "evaluation_date": "2024-08-27",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1837
+}

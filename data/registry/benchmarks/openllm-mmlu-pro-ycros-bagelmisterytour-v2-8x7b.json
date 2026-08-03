@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ycros-bagelmisterytour-v2-8x7b",
+  "model_id": "ycros/BagelMIsteryTour-v2-8x7B",
+  "benchmark_name": "mmlu-pro",
+  "score": 27.480422576832154,
+  "score_raw": 27.480422576832154,
+  "evaluation_date": "2024-01-19",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2258
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-sethuiyer-llamazing-3-1-8b-instruct",
+  "model_id": "sethuiyer/Llamazing-3.1-8B-Instruct",
+  "benchmark_name": "ifeval",
+  "score": 57.113015687265346,
+  "score_raw": 57.113015687265346,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1407
+}

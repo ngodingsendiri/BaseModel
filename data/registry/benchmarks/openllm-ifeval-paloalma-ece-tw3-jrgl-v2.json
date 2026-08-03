@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-paloalma-ece-tw3-jrgl-v2",
+  "model_id": "paloalma/ECE-TW3-JRGL-V2",
+  "benchmark_name": "ifeval",
+  "score": 22.54894790267601,
+  "score_raw": 22.54894790267601,
+  "evaluation_date": "2024-04-04",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3849
+}

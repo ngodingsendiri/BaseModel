@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-epistemeai-fireball-mistral-nemo-base-2407-v1-dpo2",
+  "model_id": "EpistemeAI/Fireball-Mistral-Nemo-Base-2407-v1-DPO2",
+  "benchmark_name": "ifeval",
+  "score": 18.607295309778056,
+  "score_raw": 18.607295309778056,
+  "evaluation_date": "2024-08-19",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4108
+}

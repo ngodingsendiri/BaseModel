@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-rasyosef-mistral-nemo-minitron-8b-chat",
+  "model_id": "rasyosef/Mistral-NeMo-Minitron-8B-Chat",
+  "benchmark_name": "musr",
+  "score": 12.936718749999997,
+  "score_raw": 12.936718749999997,
+  "evaluation_date": "2024-08-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1314
+}

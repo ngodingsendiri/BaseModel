@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-abacusai-smaug-mixtral-v0-1",
+  "model_id": "abacusai/Smaug-Mixtral-v0.1",
+  "benchmark_name": "musr",
+  "score": 12.993229166666671,
+  "score_raw": 12.993229166666671,
+  "evaluation_date": "2024-02-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1299
+}

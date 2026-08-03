@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-blunt-edge-8b-slerp",
+  "model_id": "DreadPoor/Blunt_Edge-8B-SLERP",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.740248226950357,
+  "score_raw": 30.740248226950357,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1673
+}

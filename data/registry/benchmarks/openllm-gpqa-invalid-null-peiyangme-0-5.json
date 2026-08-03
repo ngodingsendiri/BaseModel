@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-invalid-null-peiyangme-0-5",
+  "model_id": "Invalid-Null/PeiYangMe-0.5",
+  "benchmark_name": "gpqa",
+  "score": 0,
+  "score_raw": 0,
+  "evaluation_date": "2024-12-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4377
+}

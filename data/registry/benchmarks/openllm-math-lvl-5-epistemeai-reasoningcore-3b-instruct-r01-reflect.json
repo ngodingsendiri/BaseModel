@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-epistemeai-reasoningcore-3b-instruct-r01-reflect",
+  "model_id": "EpistemeAI/ReasoningCore-3B-Instruct-r01-Reflect",
+  "benchmark_name": "math-lvl-5",
+  "score": 15.407854984894259,
+  "score_raw": 15.407854984894259,
+  "evaluation_date": "2025-02-28",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1695
+}

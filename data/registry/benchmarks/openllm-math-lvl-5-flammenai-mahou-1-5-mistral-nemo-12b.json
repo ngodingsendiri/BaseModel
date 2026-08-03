@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-flammenai-mahou-1-5-mistral-nemo-12b",
+  "model_id": "flammenai/Mahou-1.5-mistral-nemo-12B",
+  "benchmark_name": "math-lvl-5",
+  "score": 8.685800604229607,
+  "score_raw": 8.685800604229607,
+  "evaluation_date": "2024-10-06",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2578
+}

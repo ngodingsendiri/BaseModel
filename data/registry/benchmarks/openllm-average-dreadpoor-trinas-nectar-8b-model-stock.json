@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-dreadpoor-trinas-nectar-8b-model-stock",
+  "model_id": "DreadPoor/Trinas_Nectar-8B-model_stock",
+  "benchmark_name": "average",
+  "score": 27.522454161375844,
+  "score_raw": 27.522454161375844,
+  "evaluation_date": "2024-08-16",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1342
+}

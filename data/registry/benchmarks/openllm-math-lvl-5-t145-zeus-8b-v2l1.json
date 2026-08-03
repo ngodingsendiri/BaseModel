@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-t145-zeus-8b-v2l1",
+  "model_id": "T145/ZEUS-8B-V2L1",
+  "benchmark_name": "math-lvl-5",
+  "score": 12.386706948640484,
+  "score_raw": 12.386706948640484,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2023
+}

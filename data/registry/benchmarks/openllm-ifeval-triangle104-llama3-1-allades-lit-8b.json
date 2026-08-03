@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-triangle104-llama3-1-allades-lit-8b",
+  "model_id": "Triangle104/Llama3.1-Allades-Lit-8b",
+  "benchmark_name": "ifeval",
+  "score": 24.61236186651418,
+  "score_raw": 24.61236186651418,
+  "evaluation_date": "2025-02-11",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3676
+}

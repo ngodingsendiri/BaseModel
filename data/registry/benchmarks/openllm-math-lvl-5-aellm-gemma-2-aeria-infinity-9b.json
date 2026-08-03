@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-aellm-gemma-2-aeria-infinity-9b",
+  "model_id": "AELLM/gemma-2-aeria-infinity-9b",
+  "benchmark_name": "math-lvl-5",
+  "score": 21.45015105740181,
+  "score_raw": 21.45015105740181,
+  "evaluation_date": "2024-10-09",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1196
+}

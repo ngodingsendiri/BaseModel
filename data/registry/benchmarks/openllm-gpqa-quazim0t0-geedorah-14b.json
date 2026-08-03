@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-quazim0t0-geedorah-14b",
+  "model_id": "Quazim0t0/Geedorah-14B",
+  "benchmark_name": "gpqa",
+  "score": 12.975391498881436,
+  "score_raw": 12.975391498881436,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 585
+}

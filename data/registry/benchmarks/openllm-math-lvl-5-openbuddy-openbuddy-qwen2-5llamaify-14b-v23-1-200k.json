@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-openbuddy-openbuddy-qwen2-5llamaify-14b-v23-1-200k",
+  "model_id": "OpenBuddy/openbuddy-qwen2.5llamaify-14b-v23.1-200k",
+  "benchmark_name": "math-lvl-5",
+  "score": 25.377643504531722,
+  "score_raw": 25.377643504531722,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 986
+}

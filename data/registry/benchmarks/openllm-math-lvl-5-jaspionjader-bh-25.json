@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-jaspionjader-bh-25",
+  "model_id": "jaspionjader/bh-25",
+  "benchmark_name": "math-lvl-5",
+  "score": 11.329305135951662,
+  "score_raw": 11.329305135951662,
+  "evaluation_date": "2025-02-02",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2210
+}

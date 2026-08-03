@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-leroydyer-spydazweb-ai-humanagi-002",
+  "model_id": "LeroyDyer/SpydazWeb_AI_HumanAGI_002",
+  "benchmark_name": "bbh",
+  "score": 29.62691236357759,
+  "score_raw": 29.62691236357759,
+  "evaluation_date": "2025-01-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2265
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-supichi-njs26",
+  "model_id": "Supichi/NJS26",
+  "benchmark_name": "math-lvl-5",
+  "score": 3.2477341389728096,
+  "score_raw": 3.2477341389728096,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3653
+}

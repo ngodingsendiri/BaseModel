@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dreadpoor-test-alt",
+  "model_id": "DreadPoor/test_ALT",
+  "benchmark_name": "musr",
+  "score": 14.303124999999996,
+  "score_raw": 14.303124999999996,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 985
+}

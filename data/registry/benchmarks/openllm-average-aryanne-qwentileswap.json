@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-aryanne-qwentileswap",
+  "model_id": "Aryanne/QwentileSwap",
+  "benchmark_name": "average",
+  "score": 43.91650770857709,
+  "score_raw": 43.91650770857709,
+  "evaluation_date": "2025-01-12",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 54
+}

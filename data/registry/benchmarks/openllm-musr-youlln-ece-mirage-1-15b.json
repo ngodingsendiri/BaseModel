@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-youlln-ece-mirage-1-15b",
+  "model_id": "Youlln/ECE-MIRAGE-1-15B",
+  "benchmark_name": "musr",
+  "score": 2.408854166666666,
+  "score_raw": 2.408854166666666,
+  "evaluation_date": "2025-02-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4084
+}

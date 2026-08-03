@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ibivibiv-colossus-120b",
+  "model_id": "ibivibiv/colossus_120b",
+  "benchmark_name": "average",
+  "score": 25.415203305397444,
+  "score_raw": 25.415203305397444,
+  "evaluation_date": "2024-04-12",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1586
+}

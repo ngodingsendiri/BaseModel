@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-tinyllama-tinyllama-1-1b-intermediate-step-1431k-3t",
+  "model_id": "TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T",
+  "benchmark_name": "bbh",
+  "score": 3.547093389508079,
+  "score_raw": 3.547093389508079,
+  "evaluation_date": "2023-12-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4244
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-jaspionjader-kstc-9-8b",
+  "model_id": "jaspionjader/kstc-9-8b",
+  "benchmark_name": "ifeval",
+  "score": 48.607583434176874,
+  "score_raw": 48.607583434176874,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1966
+}

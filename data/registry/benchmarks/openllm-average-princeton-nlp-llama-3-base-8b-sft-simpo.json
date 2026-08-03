@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-princeton-nlp-llama-3-base-8b-sft-simpo",
+  "model_id": "princeton-nlp/Llama-3-Base-8B-SFT-SimPO",
+  "benchmark_name": "average",
+  "score": 19.85850945722653,
+  "score_raw": 19.85850945722653,
+  "evaluation_date": "2024-05-24",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2707
+}

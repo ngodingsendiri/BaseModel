@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-dreadpoor-oh-boy-8b-linear",
+  "model_id": "DreadPoor/Oh_Boy-8B-LINEAR",
+  "benchmark_name": "average",
+  "score": 29.675174242254258,
+  "score_raw": 29.675174242254258,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1082
+}

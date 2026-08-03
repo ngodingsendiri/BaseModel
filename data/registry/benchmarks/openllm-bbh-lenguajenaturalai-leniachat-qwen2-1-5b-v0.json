@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-lenguajenaturalai-leniachat-qwen2-1-5b-v0",
+  "model_id": "LenguajeNaturalAI/leniachat-qwen2-1.5B-v0",
+  "benchmark_name": "bbh",
+  "score": 12.771666354808303,
+  "score_raw": 12.771666354808303,
+  "evaluation_date": "2024-06-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3584
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-sakalti-saka-24b",
+  "model_id": "Sakalti/Saka-24B",
+  "benchmark_name": "bbh",
+  "score": 43.311074405335944,
+  "score_raw": 43.311074405335944,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 804
+}

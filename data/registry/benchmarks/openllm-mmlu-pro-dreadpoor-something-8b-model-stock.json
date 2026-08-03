@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-something-8b-model-stock",
+  "model_id": "DreadPoor/Something-8B-Model_Stock",
+  "benchmark_name": "mmlu-pro",
+  "score": 32.06080082742317,
+  "score_raw": 32.06080082742317,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1373
+}

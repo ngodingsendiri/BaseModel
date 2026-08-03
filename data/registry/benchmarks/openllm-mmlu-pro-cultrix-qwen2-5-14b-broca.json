@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-cultrix-qwen2-5-14b-broca",
+  "model_id": "CultriX/Qwen2.5-14B-Broca",
+  "benchmark_name": "mmlu-pro",
+  "score": 48.48921394799055,
+  "score_raw": 48.48921394799055,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 269
+}

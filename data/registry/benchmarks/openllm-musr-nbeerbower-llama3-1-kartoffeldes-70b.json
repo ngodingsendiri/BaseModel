@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-nbeerbower-llama3-1-kartoffeldes-70b",
+  "model_id": "nbeerbower/llama3.1-kartoffeldes-70B",
+  "benchmark_name": "musr",
+  "score": 18.742187499999996,
+  "score_raw": 18.742187499999996,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 377
+}

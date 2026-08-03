@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-allknowingroger-westlakemaziyar-7b-slerp",
+  "model_id": "allknowingroger/WestlakeMaziyar-7B-slerp",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.084736997635936,
+  "score_raw": 23.084736997635936,
+  "evaluation_date": "2024-05-16",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2778
+}

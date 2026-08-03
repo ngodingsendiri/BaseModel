@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-bunnycore-gemma2-9b-titanfusion",
+  "model_id": "bunnycore/Gemma2-9B-TitanFusion",
+  "benchmark_name": "ifeval",
+  "score": 16.184169115724057,
+  "score_raw": 16.184169115724057,
+  "evaluation_date": "2024-09-17",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4262
+}

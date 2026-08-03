@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-epistemeai-reasoningcore-3b-instruct-r01-reflect",
+  "model_id": "EpistemeAI/ReasoningCore-3B-Instruct-r01-Reflect",
+  "benchmark_name": "musr",
+  "score": 3.091145833333334,
+  "score_raw": 3.091145833333334,
+  "evaluation_date": "2025-02-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3900
+}

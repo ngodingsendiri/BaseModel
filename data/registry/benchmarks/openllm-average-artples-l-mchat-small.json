@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-artples-l-mchat-small",
+  "model_id": "Artples/L-MChat-Small",
+  "benchmark_name": "average",
+  "score": 15.23132798262929,
+  "score_raw": 15.23132798262929,
+  "evaluation_date": "2024-04-11",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3277
+}

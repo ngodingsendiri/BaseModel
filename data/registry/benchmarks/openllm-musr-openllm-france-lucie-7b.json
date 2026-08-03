@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-openllm-france-lucie-7b",
+  "model_id": "OpenLLM-France/Lucie-7B",
+  "benchmark_name": "musr",
+  "score": 6.807031250000001,
+  "score_raw": 6.807031250000001,
+  "evaluation_date": "2024-10-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3098
+}

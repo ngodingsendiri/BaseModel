@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-mistralai-mistral-small-24b-base-2501",
+  "model_id": "mistralai/Mistral-Small-24B-Base-2501",
+  "benchmark_name": "musr",
+  "score": 10.891666666666667,
+  "score_raw": 10.891666666666667,
+  "evaluation_date": "2025-01-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2017
+}

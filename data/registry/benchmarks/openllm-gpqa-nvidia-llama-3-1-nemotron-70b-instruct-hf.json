@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-nvidia-llama-3-1-nemotron-70b-instruct-hf",
+  "model_id": "nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
+  "benchmark_name": "gpqa",
+  "score": 1.1185682326621946,
+  "score_raw": 1.1185682326621946,
+  "evaluation_date": "2024-10-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4093
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-jaspionjader-kosmos-aurora-faustus-8b",
+  "model_id": "jaspionjader/Kosmos-Aurora_faustus-8B",
+  "benchmark_name": "average",
+  "score": 22.772496063013904,
+  "score_raw": 22.772496063013904,
+  "evaluation_date": "2024-12-27",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2140
+}

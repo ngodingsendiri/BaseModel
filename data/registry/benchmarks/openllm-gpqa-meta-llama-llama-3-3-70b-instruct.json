@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-meta-llama-llama-3-3-70b-instruct",
+  "model_id": "meta-llama/Llama-3.3-70B-Instruct",
+  "benchmark_name": "gpqa",
+  "score": 10.514541387024611,
+  "score_raw": 10.514541387024611,
+  "evaluation_date": "2024-11-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 910
+}

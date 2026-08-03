@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-insait-institute-bggpt-gemma-2-27b-it-v1-0",
+  "model_id": "INSAIT-Institute/BgGPT-Gemma-2-27B-IT-v1.0",
+  "benchmark_name": "gpqa",
+  "score": 1.342281879194629,
+  "score_raw": 1.342281879194629,
+  "evaluation_date": "2024-11-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3939
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-blunt-edge-8b-slerp",
+  "model_id": "DreadPoor/Blunt_Edge-8B-SLERP",
+  "benchmark_name": "bbh",
+  "score": 34.14138253488904,
+  "score_raw": 34.14138253488904,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1494
+}

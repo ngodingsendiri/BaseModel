@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-openbuddy-openbuddy-qwen2-5llamaify-14b-v23-1-200k",
+  "model_id": "OpenBuddy/openbuddy-qwen2.5llamaify-14b-v23.1-200k",
+  "benchmark_name": "musr",
+  "score": 11.538541666666669,
+  "score_raw": 11.538541666666669,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1761
+}

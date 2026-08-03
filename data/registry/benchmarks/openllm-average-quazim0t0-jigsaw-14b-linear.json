@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-quazim0t0-jigsaw-14b-linear",
+  "model_id": "Quazim0t0/Jigsaw-14B-Linear",
+  "benchmark_name": "average",
+  "score": 36.85975504597242,
+  "score_raw": 36.85975504597242,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 485
+}

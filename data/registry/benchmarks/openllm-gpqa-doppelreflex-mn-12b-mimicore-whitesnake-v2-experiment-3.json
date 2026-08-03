@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-doppelreflex-mn-12b-mimicore-whitesnake-v2-experiment-3",
+  "model_id": "DoppelReflEx/MN-12B-Mimicore-WhiteSnake-v2-Experiment-3",
+  "benchmark_name": "gpqa",
+  "score": 6.935123042505594,
+  "score_raw": 6.935123042505594,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1890
+}

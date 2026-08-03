@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-epistemeai2-fireball-phi-3-medium-4k-inst-philos",
+  "model_id": "EpistemeAI2/Fireball-Phi-3-medium-4k-inst-Philos",
+  "benchmark_name": "average",
+  "score": 29.67636693004503,
+  "score_raw": 29.67636693004503,
+  "evaluation_date": "2024-09-19",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1081
+}

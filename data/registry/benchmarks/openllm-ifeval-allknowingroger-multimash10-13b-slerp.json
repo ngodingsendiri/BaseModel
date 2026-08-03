@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-allknowingroger-multimash10-13b-slerp",
+  "model_id": "allknowingroger/MultiMash10-13B-slerp",
+  "benchmark_name": "ifeval",
+  "score": 41.62832395820867,
+  "score_raw": 41.62832395820867,
+  "evaluation_date": "2024-05-27",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2623
+}

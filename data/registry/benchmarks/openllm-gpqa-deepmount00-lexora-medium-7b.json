@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-deepmount00-lexora-medium-7b",
+  "model_id": "DeepMount00/Lexora-Medium-7B",
+  "benchmark_name": "gpqa",
+  "score": 7.38255033557047,
+  "score_raw": 7.38255033557047,
+  "evaluation_date": "2024-09-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1710
+}

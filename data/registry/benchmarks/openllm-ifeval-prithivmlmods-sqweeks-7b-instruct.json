@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-prithivmlmods-sqweeks-7b-instruct",
+  "model_id": "prithivMLmods/Sqweeks-7B-Instruct",
+  "benchmark_name": "ifeval",
+  "score": 21.579852568961464,
+  "score_raw": 21.579852568961464,
+  "evaluation_date": "2025-02-05",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3913
+}

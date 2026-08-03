@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-dreadpoor-rusted-platinum-8b-linear",
+  "model_id": "DreadPoor/Rusted_Platinum-8B-LINEAR",
+  "benchmark_name": "math-lvl-5",
+  "score": 17.220543806646525,
+  "score_raw": 17.220543806646525,
+  "evaluation_date": "2025-03-06",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1546
+}

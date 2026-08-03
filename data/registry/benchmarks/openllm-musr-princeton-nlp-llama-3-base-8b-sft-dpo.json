@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-princeton-nlp-llama-3-base-8b-sft-dpo",
+  "model_id": "princeton-nlp/Llama-3-Base-8B-SFT-DPO",
+  "benchmark_name": "musr",
+  "score": 7.842447916666668,
+  "score_raw": 7.842447916666668,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2890
+}

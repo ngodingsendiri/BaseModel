@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-delta-vector-tor-8b",
+  "model_id": "Delta-Vector/Tor-8B",
+  "benchmark_name": "math-lvl-5",
+  "score": 5.8912386706948645,
+  "score_raw": 5.8912386706948645,
+  "evaluation_date": "2024-09-21",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3073
+}

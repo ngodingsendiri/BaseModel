@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-jaspionjader-kosmos-evaa-franken-immersive-v39-8b",
+  "model_id": "jaspionjader/Kosmos-EVAA-Franken-Immersive-v39-8B",
+  "benchmark_name": "bbh",
+  "score": 31.18947290052941,
+  "score_raw": 31.18947290052941,
+  "evaluation_date": "2025-01-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2007
+}

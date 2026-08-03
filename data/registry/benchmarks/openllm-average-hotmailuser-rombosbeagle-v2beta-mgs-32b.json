@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-hotmailuser-rombosbeagle-v2beta-mgs-32b",
+  "model_id": "hotmailuser/RombosBeagle-v2beta-MGS-32B",
+  "benchmark_name": "average",
+  "score": 42.65614620168921,
+  "score_raw": 42.65614620168921,
+  "evaluation_date": "2024-12-07",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 89
+}

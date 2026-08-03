@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-qwq-lcot-14b-conversational",
+  "model_id": "prithivMLmods/QwQ-LCoT-14B-Conversational",
+  "benchmark_name": "average",
+  "score": 35.68306678902542,
+  "score_raw": 35.68306678902542,
+  "evaluation_date": "2025-01-18",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 584
+}

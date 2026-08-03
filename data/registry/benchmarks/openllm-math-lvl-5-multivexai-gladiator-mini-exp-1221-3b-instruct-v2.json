@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-multivexai-gladiator-mini-exp-1221-3b-instruct-v2",
+  "model_id": "MultivexAI/Gladiator-Mini-Exp-1221-3B-Instruct-V2",
+  "benchmark_name": "math-lvl-5",
+  "score": 14.123867069486403,
+  "score_raw": 14.123867069486403,
+  "evaluation_date": "2024-12-21",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1793
+}

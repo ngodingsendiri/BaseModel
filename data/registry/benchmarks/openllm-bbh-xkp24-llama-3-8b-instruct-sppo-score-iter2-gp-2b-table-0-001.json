@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-xkp24-llama-3-8b-instruct-sppo-score-iter2-gp-2b-table-0-001",
+  "model_id": "xkp24/Llama-3-8B-Instruct-SPPO-score-Iter2_gp_2b-table-0.001",
+  "benchmark_name": "bbh",
+  "score": 26.943904089240508,
+  "score_raw": 26.943904089240508,
+  "evaluation_date": "2024-09-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2619
+}

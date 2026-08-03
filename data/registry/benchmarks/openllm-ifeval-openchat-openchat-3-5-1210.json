@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-openchat-openchat-3-5-1210",
+  "model_id": "openchat/openchat-3.5-1210",
+  "benchmark_name": "ifeval",
+  "score": 60.3678240402133,
+  "score_raw": 60.3678240402133,
+  "evaluation_date": "2023-12-12",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1255
+}

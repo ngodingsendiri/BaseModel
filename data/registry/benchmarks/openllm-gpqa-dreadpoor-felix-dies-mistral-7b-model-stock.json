@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-dreadpoor-felix-dies-mistral-7b-model-stock",
+  "model_id": "DreadPoor/felix_dies-mistral-7B-model_stock",
+  "benchmark_name": "gpqa",
+  "score": 5.592841163310966,
+  "score_raw": 5.592841163310966,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2403
+}

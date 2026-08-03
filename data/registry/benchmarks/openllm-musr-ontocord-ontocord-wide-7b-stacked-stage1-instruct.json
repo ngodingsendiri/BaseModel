@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-ontocord-ontocord-wide-7b-stacked-stage1-instruct",
+  "model_id": "ontocord/ontocord_wide_7b-stacked-stage1-instruct",
+  "benchmark_name": "musr",
+  "score": 3.2226562499999996,
+  "score_raw": 3.2226562499999996,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3873
+}

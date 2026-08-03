@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dreadpoor-dearly-beloved-8b-ties",
+  "model_id": "DreadPoor/Dearly_Beloved-8B-TIES",
+  "benchmark_name": "mmlu-pro",
+  "score": 20.295877659574465,
+  "score_raw": 20.295877659574465,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3118
+}

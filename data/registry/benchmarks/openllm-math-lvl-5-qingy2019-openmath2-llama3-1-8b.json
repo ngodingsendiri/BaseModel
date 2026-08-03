@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-qingy2019-openmath2-llama3-1-8b",
+  "model_id": "qingy2019/OpenMath2-Llama3.1-8B",
+  "benchmark_name": "math-lvl-5",
+  "score": 26.73716012084592,
+  "score_raw": 26.73716012084592,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 940
+}

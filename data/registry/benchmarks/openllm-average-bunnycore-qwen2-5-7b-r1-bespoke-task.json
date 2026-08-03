@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-bunnycore-qwen2-5-7b-r1-bespoke-task",
+  "model_id": "bunnycore/Qwen2.5-7B-R1-Bespoke-Task",
+  "benchmark_name": "average",
+  "score": 15.746098824658986,
+  "score_raw": 15.746098824658986,
+  "evaluation_date": "2025-01-24",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3225
+}

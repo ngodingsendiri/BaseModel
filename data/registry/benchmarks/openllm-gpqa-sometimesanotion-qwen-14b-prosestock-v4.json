@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-sometimesanotion-qwen-14b-prosestock-v4",
+  "model_id": "sometimesanotion/Qwen-14B-ProseStock-v4",
+  "benchmark_name": "gpqa",
+  "score": 18.456375838926174,
+  "score_raw": 18.456375838926174,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 135
+}

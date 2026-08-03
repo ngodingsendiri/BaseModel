@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-thetsar1209-qwen-carpmuscle-v0-4-1",
+  "model_id": "TheTsar1209/qwen-carpmuscle-v0.4.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 46.56841016548463,
+  "score_raw": 46.56841016548463,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 461
+}

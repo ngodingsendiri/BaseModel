@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-combinhorizon-josiefied-abliteratedv4-qwen2-5-14b-inst-basemerge-ties",
+  "model_id": "CombinHorizon/Josiefied-abliteratedV4-Qwen2.5-14B-Inst-BaseMerge-TIES",
+  "benchmark_name": "bbh",
+  "score": 48.19594986631396,
+  "score_raw": 48.19594986631396,
+  "evaluation_date": "2024-12-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 537
+}

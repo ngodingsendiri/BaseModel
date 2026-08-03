@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-ece-ilab-prymmal-ilab-merging-3b-v2",
+  "model_id": "ECE-ILAB-PRYMMAL/ILAB-Merging-3B-V2",
+  "benchmark_name": "ifeval",
+  "score": 40.28943204031969,
+  "score_raw": 40.28943204031969,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2717
+}

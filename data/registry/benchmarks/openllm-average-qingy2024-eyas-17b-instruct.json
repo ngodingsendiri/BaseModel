@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-qingy2024-eyas-17b-instruct",
+  "model_id": "qingy2024/Eyas-17B-Instruct",
+  "benchmark_name": "average",
+  "score": 32.566804942732524,
+  "score_raw": 32.566804942732524,
+  "evaluation_date": "2024-12-23",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 808
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-lmsys-vicuna-7b-v1-5",
+  "model_id": "lmsys/vicuna-7b-v1.5",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.3595166163141994,
+  "score_raw": 1.3595166163141994,
+  "evaluation_date": "2023-07-29",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4112
+}

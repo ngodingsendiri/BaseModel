@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-jaspionjader-kosmos-evaa-prp-v33-8b",
+  "model_id": "jaspionjader/Kosmos-EVAA-PRP-v33-8B",
+  "benchmark_name": "ifeval",
+  "score": 43.01719437758481,
+  "score_raw": 43.01719437758481,
+  "evaluation_date": "2024-12-30",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2500
+}

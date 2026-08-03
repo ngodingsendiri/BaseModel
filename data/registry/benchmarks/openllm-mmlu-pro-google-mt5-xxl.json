@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-google-mt5-xxl",
+  "model_id": "google/mt5-xxl",
+  "benchmark_name": "mmlu-pro",
+  "score": 0.9862588652482256,
+  "score_raw": 0.9862588652482256,
+  "evaluation_date": "2022-03-02",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4543
+}

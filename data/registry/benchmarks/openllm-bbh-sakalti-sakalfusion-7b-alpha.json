@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-sakalti-sakalfusion-7b-alpha",
+  "model_id": "Sakalti/SakalFusion-7B-Alpha",
+  "benchmark_name": "bbh",
+  "score": 36.780545262095615,
+  "score_raw": 36.780545262095615,
+  "evaluation_date": "2025-01-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1100
+}

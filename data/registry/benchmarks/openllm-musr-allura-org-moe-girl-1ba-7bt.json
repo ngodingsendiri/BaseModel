@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-allura-org-moe-girl-1ba-7bt",
+  "model_id": "allura-org/MoE-Girl-1BA-7BT",
+  "benchmark_name": "musr",
+  "score": 1.47734375,
+  "score_raw": 1.47734375,
+  "evaluation_date": "2024-10-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4311
+}

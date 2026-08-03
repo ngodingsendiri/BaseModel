@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-arcee-ai-virtuoso-small-v2",
+  "model_id": "arcee-ai/Virtuoso-Small-v2",
+  "benchmark_name": "musr",
+  "score": 14.283333333333331,
+  "score_raw": 14.283333333333331,
+  "evaluation_date": "2025-01-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 991
+}

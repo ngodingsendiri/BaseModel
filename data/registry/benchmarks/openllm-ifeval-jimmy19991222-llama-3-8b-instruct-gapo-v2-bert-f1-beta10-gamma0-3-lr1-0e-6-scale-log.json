@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-jimmy19991222-llama-3-8b-instruct-gapo-v2-bert-f1-beta10-gamma0-3-lr1-0e-6-scale-log",
+  "model_id": "Jimmy19991222/llama-3-8b-instruct-gapo-v2-bert_f1-beta10-gamma0.3-lr1.0e-6-scale-log",
+  "benchmark_name": "ifeval",
+  "score": 65.55605792630222,
+  "score_raw": 65.55605792630222,
+  "evaluation_date": "2024-09-22",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 1001
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ozone-ai-0x-lite",
+  "model_id": "ozone-ai/0x-lite",
+  "benchmark_name": "mmlu-pro",
+  "score": 46.485298463356976,
+  "score_raw": 46.485298463356976,
+  "evaluation_date": "2025-01-25",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 468
+}

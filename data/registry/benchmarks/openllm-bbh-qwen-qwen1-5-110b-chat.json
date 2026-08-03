@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-qwen-qwen1-5-110b-chat",
+  "model_id": "Qwen/Qwen1.5-110B-Chat",
+  "benchmark_name": "bbh",
+  "score": 44.98454525616634,
+  "score_raw": 44.98454525616634,
+  "evaluation_date": "2024-04-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 676
+}

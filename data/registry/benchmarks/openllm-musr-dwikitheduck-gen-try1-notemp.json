@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-dwikitheduck-gen-try1-notemp",
+  "model_id": "dwikitheduck/gen-try1-notemp",
+  "benchmark_name": "musr",
+  "score": 17.927083333333332,
+  "score_raw": 17.927083333333332,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 463
+}

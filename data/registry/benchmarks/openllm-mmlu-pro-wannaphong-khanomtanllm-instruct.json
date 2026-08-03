@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-wannaphong-khanomtanllm-instruct",
+  "model_id": "wannaphong/KhanomTanLLM-Instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.3187056737588652,
+  "score_raw": 1.3187056737588652,
+  "evaluation_date": "2024-08-24",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4430
+}

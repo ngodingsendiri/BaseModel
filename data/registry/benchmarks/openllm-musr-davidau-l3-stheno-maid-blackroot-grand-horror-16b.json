@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-davidau-l3-stheno-maid-blackroot-grand-horror-16b",
+  "model_id": "DavidAU/L3-Stheno-Maid-Blackroot-Grand-HORROR-16B",
+  "benchmark_name": "musr",
+  "score": 8.555989583333334,
+  "score_raw": 8.555989583333334,
+  "evaluation_date": "2024-08-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2688
+}

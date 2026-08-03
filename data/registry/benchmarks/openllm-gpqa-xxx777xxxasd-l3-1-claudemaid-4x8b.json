@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-xxx777xxxasd-l3-1-claudemaid-4x8b",
+  "model_id": "xxx777xxxASD/L3.1-ClaudeMaid-4x8B",
+  "benchmark_name": "gpqa",
+  "score": 5.480984340044745,
+  "score_raw": 5.480984340044745,
+  "evaluation_date": "2024-07-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2485
+}

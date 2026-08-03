@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-deci-decilm-7b",
+  "model_id": "Deci/DeciLM-7B",
+  "benchmark_name": "bbh",
+  "score": 21.252729791067395,
+  "score_raw": 21.252729791067395,
+  "evaluation_date": "2023-12-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3121
+}

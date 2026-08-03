@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-huggingfacetb-smollm-360m-instruct",
+  "model_id": "HuggingFaceTB/SmolLM-360M-Instruct",
+  "benchmark_name": "bbh",
+  "score": 2.0803742908537424,
+  "score_raw": 2.0803742908537424,
+  "evaluation_date": "2024-07-15",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4479
+}

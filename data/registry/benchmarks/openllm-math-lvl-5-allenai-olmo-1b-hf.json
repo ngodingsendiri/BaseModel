@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-allenai-olmo-1b-hf",
+  "model_id": "allenai/OLMo-1B-hf",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.7371601208459215,
+  "score_raw": 1.7371601208459215,
+  "evaluation_date": "2024-04-12",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3989
+}

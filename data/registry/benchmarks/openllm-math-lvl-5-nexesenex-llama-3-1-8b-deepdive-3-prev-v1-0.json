@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-nexesenex-llama-3-1-8b-deepdive-3-prev-v1-0",
+  "model_id": "Nexesenex/Llama_3.1_8b_DeepDive_3_Prev_v1.0",
+  "benchmark_name": "math-lvl-5",
+  "score": 18.65558912386707,
+  "score_raw": 18.65558912386707,
+  "evaluation_date": "2025-02-17",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1424
+}

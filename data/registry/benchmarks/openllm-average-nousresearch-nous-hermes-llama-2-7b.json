@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-nousresearch-nous-hermes-llama-2-7b",
+  "model_id": "NousResearch/Nous-Hermes-llama-2-7b",
+  "benchmark_name": "average",
+  "score": 9.316715938919105,
+  "score_raw": 9.316715938919105,
+  "evaluation_date": "2023-07-25",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3767
+}

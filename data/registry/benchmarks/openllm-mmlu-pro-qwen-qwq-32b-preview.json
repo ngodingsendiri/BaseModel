@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-qwen-qwq-32b-preview",
+  "model_id": "Qwen/QwQ-32B-Preview",
+  "benchmark_name": "mmlu-pro",
+  "score": 51.979905437352244,
+  "score_raw": 51.979905437352244,
+  "evaluation_date": "2024-11-27",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 47
+}

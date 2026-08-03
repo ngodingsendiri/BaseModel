@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-prithivmlmods-bellatrix-1-5b-xelite",
+  "model_id": "prithivMLmods/Bellatrix-1.5B-xElite",
+  "benchmark_name": "bbh",
+  "score": 9.486709175278515,
+  "score_raw": 9.486709175278515,
+  "evaluation_date": "2025-01-25",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3682
+}

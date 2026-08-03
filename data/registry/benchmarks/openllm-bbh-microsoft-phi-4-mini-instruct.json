@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-microsoft-phi-4-mini-instruct",
+  "model_id": "microsoft/Phi-4-mini-instruct",
+  "benchmark_name": "bbh",
+  "score": 38.73553611173529,
+  "score_raw": 38.73553611173529,
+  "evaluation_date": "2025-02-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 986
+}

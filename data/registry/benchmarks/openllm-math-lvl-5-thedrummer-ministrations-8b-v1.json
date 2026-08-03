@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-thedrummer-ministrations-8b-v1",
+  "model_id": "TheDrummer/Ministrations-8B-v1",
+  "benchmark_name": "math-lvl-5",
+  "score": 18.429003021148034,
+  "score_raw": 18.429003021148034,
+  "evaluation_date": "2024-11-07",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1444
+}

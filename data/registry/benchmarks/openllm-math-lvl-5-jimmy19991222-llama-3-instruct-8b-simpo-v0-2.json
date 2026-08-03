@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-jimmy19991222-llama-3-instruct-8b-simpo-v0-2",
+  "model_id": "Jimmy19991222/Llama-3-Instruct-8B-SimPO-v0.2",
+  "benchmark_name": "math-lvl-5",
+  "score": 6.193353474320242,
+  "score_raw": 6.193353474320242,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3007
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sethuiyer-llama-3-1-8b-experimental-1206-instruct",
+  "model_id": "sethuiyer/Llama-3.1-8B-Experimental-1206-Instruct",
+  "benchmark_name": "average",
+  "score": 25.684511231135144,
+  "score_raw": 25.684511231135144,
+  "evaluation_date": "2025-01-18",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1552
+}

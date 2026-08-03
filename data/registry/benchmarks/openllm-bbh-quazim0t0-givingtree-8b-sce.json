@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-quazim0t0-givingtree-8b-sce",
+  "model_id": "Quazim0t0/GivingTree-8b-sce",
+  "benchmark_name": "bbh",
+  "score": 28.498998630643033,
+  "score_raw": 28.498998630643033,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2432
+}

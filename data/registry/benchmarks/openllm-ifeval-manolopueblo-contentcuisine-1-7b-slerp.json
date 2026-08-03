@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-manolopueblo-contentcuisine-1-7b-slerp",
+  "model_id": "ManoloPueblo/ContentCuisine_1-7B-slerp",
+  "benchmark_name": "ifeval",
+  "score": 39.070444199169316,
+  "score_raw": 39.070444199169316,
+  "evaluation_date": "2024-11-12",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2792
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-spestly-athena-1-3b",
+  "model_id": "Spestly/Athena-1-3B",
+  "benchmark_name": "average",
+  "score": 25.48204682938236,
+  "score_raw": 25.48204682938236,
+  "evaluation_date": "2024-12-18",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1577
+}

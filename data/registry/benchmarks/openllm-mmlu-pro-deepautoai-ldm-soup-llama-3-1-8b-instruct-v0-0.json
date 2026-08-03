@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-deepautoai-ldm-soup-llama-3-1-8b-instruct-v0-0",
+  "model_id": "DeepAutoAI/ldm_soup_Llama-3.1-8B-Instruct-v0.0",
+  "benchmark_name": "mmlu-pro",
+  "score": 32.171616430260045,
+  "score_raw": 32.171616430260045,
+  "evaluation_date": "2024-09-14",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1356
+}

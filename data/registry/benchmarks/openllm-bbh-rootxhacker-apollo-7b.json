@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-rootxhacker-apollo-7b",
+  "model_id": "rootxhacker/apollo-7B",
+  "benchmark_name": "bbh",
+  "score": 11.072693643924145,
+  "score_raw": 11.072693643924145,
+  "evaluation_date": "2025-03-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3629
+}

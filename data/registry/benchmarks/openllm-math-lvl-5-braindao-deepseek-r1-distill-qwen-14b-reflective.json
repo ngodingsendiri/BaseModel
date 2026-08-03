@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-braindao-deepseek-r1-distill-qwen-14b-reflective",
+  "model_id": "braindao/DeepSeek-R1-Distill-Qwen-14B-Reflective",
+  "benchmark_name": "math-lvl-5",
+  "score": 19.184290030211482,
+  "score_raw": 19.184290030211482,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1385
+}

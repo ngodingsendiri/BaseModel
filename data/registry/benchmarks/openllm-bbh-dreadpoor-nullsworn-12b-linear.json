@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-nullsworn-12b-linear",
+  "model_id": "DreadPoor/Nullsworn-12B-LINEAR",
+  "benchmark_name": "bbh",
+  "score": 35.51240857664764,
+  "score_raw": 35.51240857664764,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1294
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-djuna-l3-1-suze-vume-calc",
+  "model_id": "djuna/L3.1-Suze-Vume-calc",
+  "benchmark_name": "gpqa",
+  "score": 4.250559284116329,
+  "score_raw": 4.250559284116329,
+  "evaluation_date": "2024-08-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2888
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-hastagaras-llama-3-1-jamet-8b-mk-i",
+  "model_id": "Hastagaras/Llama-3.1-Jamet-8B-MK.I",
+  "benchmark_name": "gpqa",
+  "score": 3.243847874720355,
+  "score_raw": 3.243847874720355,
+  "evaluation_date": "2024-11-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3205
+}

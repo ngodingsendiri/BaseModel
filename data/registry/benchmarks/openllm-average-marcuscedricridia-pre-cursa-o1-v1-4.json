@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-marcuscedricridia-pre-cursa-o1-v1-4",
+  "model_id": "marcuscedricridia/pre-cursa-o1-v1.4",
+  "benchmark_name": "average",
+  "score": 36.264047353976316,
+  "score_raw": 36.264047353976316,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 543
+}

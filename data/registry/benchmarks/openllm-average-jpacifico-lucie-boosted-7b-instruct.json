@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-jpacifico-lucie-boosted-7b-instruct",
+  "model_id": "jpacifico/Lucie-Boosted-7B-Instruct",
+  "benchmark_name": "average",
+  "score": 8.306616536792435,
+  "score_raw": 8.306616536792435,
+  "evaluation_date": "2025-01-16",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3843
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-humanllms-humanish-mistral-nemo-instruct-2407",
+  "model_id": "HumanLLMs/Humanish-Mistral-Nemo-Instruct-2407",
+  "benchmark_name": "math-lvl-5",
+  "score": 13.670694864048338,
+  "score_raw": 13.670694864048338,
+  "evaluation_date": "2024-10-06",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1835
+}

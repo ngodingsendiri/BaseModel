@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-leroydyer-spydazweb-ai-cybertron-ultra-7b",
+  "model_id": "LeroyDyer/SpydazWeb_AI_CyberTron_Ultra_7b",
+  "benchmark_name": "ifeval",
+  "score": 15.557276914143362,
+  "score_raw": 15.557276914143362,
+  "evaluation_date": "2024-04-14",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4307
+}

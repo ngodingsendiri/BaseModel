@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-prithivmlmods-deepthink-reasoning-14b",
+  "model_id": "prithivMLmods/Deepthink-Reasoning-14B",
+  "benchmark_name": "gpqa",
+  "score": 15.548098434004473,
+  "score_raw": 15.548098434004473,
+  "evaluation_date": "2025-01-20",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 375
+}

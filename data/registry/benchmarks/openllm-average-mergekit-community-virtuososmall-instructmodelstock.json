@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-mergekit-community-virtuososmall-instructmodelstock",
+  "model_id": "mergekit-community/VirtuosoSmall-InstructModelStock",
+  "benchmark_name": "average",
+  "score": 38.226936795467445,
+  "score_raw": 38.226936795467445,
+  "evaluation_date": "2024-12-19",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 391
+}

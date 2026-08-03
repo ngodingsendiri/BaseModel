@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-ontocord-wide-3b-sft-stage1-1-ss1-with-math-no-issue",
+  "model_id": "ontocord/wide_3b_sft_stage1.1-ss1-with_math.no_issue",
+  "benchmark_name": "average",
+  "score": 4.767499605566051,
+  "score_raw": 4.767499605566051,
+  "evaluation_date": "2025-03-06",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4335
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-fblgit-una-thepitbull-21-4b-v2",
+  "model_id": "fblgit/UNA-ThePitbull-21.4B-v2",
+  "benchmark_name": "bbh",
+  "score": 46.78807384004312,
+  "score_raw": 46.78807384004312,
+  "evaluation_date": "2024-05-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 608
+}

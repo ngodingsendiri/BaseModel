@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-pjmixers-dev-llama-3-2-instruct-jankmixbread-v0-1-3b",
+  "model_id": "PJMixers-Dev/LLaMa-3.2-Instruct-JankMixBread-v0.1-3B",
+  "benchmark_name": "gpqa",
+  "score": 4.36241610738255,
+  "score_raw": 4.36241610738255,
+  "evaluation_date": "2024-10-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2840
+}

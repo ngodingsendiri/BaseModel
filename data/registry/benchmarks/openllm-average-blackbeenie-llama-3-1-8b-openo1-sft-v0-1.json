@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-blackbeenie-llama-3-1-8b-openo1-sft-v0-1",
+  "model_id": "BlackBeenie/Llama-3.1-8B-OpenO1-SFT-v0.1",
+  "benchmark_name": "average",
+  "score": 21.4004099666704,
+  "score_raw": 21.4004099666704,
+  "evaluation_date": "2024-12-28",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2409
+}

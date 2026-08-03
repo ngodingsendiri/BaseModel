@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-alepach-nothumpback-m1-v2",
+  "model_id": "Alepach/notHumpback-M1-v2",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.3187056737588652,
+  "score_raw": 1.3187056737588652,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4427
+}

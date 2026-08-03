@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-jimmy19991222-llama-3-8b-instruct-gapo-v2-bleu-beta0-1-no-length-scale-gamma0-4",
+  "model_id": "Jimmy19991222/llama-3-8b-instruct-gapo-v2-bleu-beta0.1-no-length-scale-gamma0.4",
+  "benchmark_name": "bbh",
+  "score": 29.329731874817796,
+  "score_raw": 29.329731874817796,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2309
+}

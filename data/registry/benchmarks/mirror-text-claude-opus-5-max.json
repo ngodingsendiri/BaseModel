@@ -2,12 +2,12 @@
   "benchmark_id": "mirror-text-claude-opus-5-max",
   "model_id": "claude-opus-5-max",
   "benchmark_name": "text",
-  "score": 86.875,
-  "score_raw": 1495,
-  "evaluation_date": "2026-08-01",
+  "score": 86.25,
+  "score_raw": 1490,
+  "evaluation_date": "2026-08-03",
   "source": "mirror",
   "category": [
     "text"
   ],
-  "rank": 5
+  "rank": 8
 }

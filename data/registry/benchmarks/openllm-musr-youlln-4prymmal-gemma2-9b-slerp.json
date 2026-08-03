@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-youlln-4prymmal-gemma2-9b-slerp",
+  "model_id": "Youlln/4PRYMMAL-GEMMA2-9B-SLERP",
+  "benchmark_name": "musr",
+  "score": 17.46640625,
+  "score_raw": 17.46640625,
+  "evaluation_date": "2024-09-23",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 515
+}

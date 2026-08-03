@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-princeton-nlp-llama-3-8b-prolong-512k-instruct",
+  "model_id": "princeton-nlp/Llama-3-8B-ProLong-512k-Instruct",
+  "benchmark_name": "math-lvl-5",
+  "score": 5.287009063444108,
+  "score_raw": 5.287009063444108,
+  "evaluation_date": "2024-08-22",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3222
+}

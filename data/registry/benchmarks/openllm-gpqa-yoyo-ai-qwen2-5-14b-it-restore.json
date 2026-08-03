@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-yoyo-ai-qwen2-5-14b-it-restore",
+  "model_id": "YOYO-AI/Qwen2.5-14B-it-restore",
+  "benchmark_name": "gpqa",
+  "score": 11.633109619686799,
+  "score_raw": 11.633109619686799,
+  "evaluation_date": "2025-03-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 753
+}

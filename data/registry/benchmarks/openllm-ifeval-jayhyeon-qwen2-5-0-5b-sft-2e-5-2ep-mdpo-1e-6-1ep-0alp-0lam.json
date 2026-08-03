@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-jayhyeon-qwen2-5-0-5b-sft-2e-5-2ep-mdpo-1e-6-1ep-0alp-0lam",
+  "model_id": "JayHyeon/Qwen2.5-0.5B-SFT-2e-5-2ep-MDPO_1e-6_1ep_0alp_0lam",
+  "benchmark_name": "ifeval",
+  "score": 24.812165055386373,
+  "score_raw": 24.812165055386373,
+  "evaluation_date": "2025-01-01",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3648
+}

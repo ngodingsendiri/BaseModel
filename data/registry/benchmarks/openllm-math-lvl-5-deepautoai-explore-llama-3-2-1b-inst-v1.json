@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-deepautoai-explore-llama-3-2-1b-inst-v1",
+  "model_id": "DeepAutoAI/Explore_Llama-3.2-1B-Inst_v1",
+  "benchmark_name": "math-lvl-5",
+  "score": 3.096676737160121,
+  "score_raw": 3.096676737160121,
+  "evaluation_date": "2024-10-08",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3672
+}

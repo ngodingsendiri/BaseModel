@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-qwq-lcot1-merged",
+  "model_id": "prithivMLmods/QwQ-LCoT1-Merged",
+  "benchmark_name": "average",
+  "score": 30.445290905975668,
+  "score_raw": 30.445290905975668,
+  "evaluation_date": "2025-01-21",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 957
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-daemontatox-phi-4-cot",
+  "model_id": "Daemontatox/Phi-4-COT",
+  "benchmark_name": "gpqa",
+  "score": 11.409395973154364,
+  "score_raw": 11.409395973154364,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 779
+}

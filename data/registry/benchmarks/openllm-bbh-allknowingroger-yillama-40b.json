@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-allknowingroger-yillama-40b",
+  "model_id": "allknowingroger/Yillama-40B",
+  "benchmark_name": "bbh",
+  "score": 15.875797412234048,
+  "score_raw": 15.875797412234048,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3462
+}

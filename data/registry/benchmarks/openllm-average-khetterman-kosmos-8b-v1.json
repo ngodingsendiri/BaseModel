@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-khetterman-kosmos-8b-v1",
+  "model_id": "Khetterman/Kosmos-8B-v1",
+  "benchmark_name": "average",
+  "score": 21.31847148009074,
+  "score_raw": 21.31847148009074,
+  "evaluation_date": "2024-11-22",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2436
+}

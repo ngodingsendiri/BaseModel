@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-sakalti-light-3b-beta",
+  "model_id": "Sakalti/light-3b-beta",
+  "benchmark_name": "average",
+  "score": 25.809275245445864,
+  "score_raw": 25.809275245445864,
+  "evaluation_date": "2025-01-14",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1537
+}

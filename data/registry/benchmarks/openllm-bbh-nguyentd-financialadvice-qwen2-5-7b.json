@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-nguyentd-financialadvice-qwen2-5-7b",
+  "model_id": "nguyentd/FinancialAdvice-Qwen2.5-7B",
+  "benchmark_name": "bbh",
+  "score": 25.630435622160334,
+  "score_raw": 25.630435622160334,
+  "evaluation_date": "2024-10-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2766
+}

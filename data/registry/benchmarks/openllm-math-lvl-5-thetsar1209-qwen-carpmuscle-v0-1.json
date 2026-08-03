@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-thetsar1209-qwen-carpmuscle-v0-1",
+  "model_id": "TheTsar1209/qwen-carpmuscle-v0.1",
+  "benchmark_name": "math-lvl-5",
+  "score": 26.283987915407852,
+  "score_raw": 26.283987915407852,
+  "evaluation_date": "2024-10-05",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 950
+}

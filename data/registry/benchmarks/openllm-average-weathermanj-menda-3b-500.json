@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-weathermanj-menda-3b-500",
+  "model_id": "weathermanj/Menda-3B-500",
+  "benchmark_name": "average",
+  "score": 27.910059821789428,
+  "score_raw": 27.910059821789428,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1309
+}

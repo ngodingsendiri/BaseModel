@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-ibm-merlinite-7b",
+  "model_id": "ibm/merlinite-7b",
+  "benchmark_name": "musr",
+  "score": 13.877864583333334,
+  "score_raw": 13.877864583333334,
+  "evaluation_date": "2024-03-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1076
+}

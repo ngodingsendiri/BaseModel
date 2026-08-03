@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-pankajmathur-orca-mini-v8-1-70b",
+  "model_id": "pankajmathur/orca_mini_v8_1_70b",
+  "benchmark_name": "bbh",
+  "score": 53.51972670972081,
+  "score_raw": 53.51972670972081,
+  "evaluation_date": "2024-12-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 177
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-boltmonkey-dreadmix",
+  "model_id": "BoltMonkey/DreadMix",
+  "benchmark_name": "math-lvl-5",
+  "score": 15.55891238670695,
+  "score_raw": 15.55891238670695,
+  "evaluation_date": "2024-10-12",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1677
+}

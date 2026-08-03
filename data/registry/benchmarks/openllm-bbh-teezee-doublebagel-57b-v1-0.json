@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-teezee-doublebagel-57b-v1-0",
+  "model_id": "TeeZee/DoubleBagel-57B-v1.0",
+  "benchmark_name": "bbh",
+  "score": 5.5227816982611495,
+  "score_raw": 5.5227816982611495,
+  "evaluation_date": "2024-08-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4075
+}

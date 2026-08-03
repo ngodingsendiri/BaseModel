@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-nidum-nidum-limitless-gemma-2b",
+  "model_id": "nidum/Nidum-Limitless-Gemma-2B",
+  "benchmark_name": "mmlu-pro",
+  "score": 1.9281914893617011,
+  "score_raw": 1.9281914893617011,
+  "evaluation_date": "2024-08-02",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4167
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-quazim0t0-loke-14b-sce",
+  "model_id": "Quazim0t0/Loke-14B-sce",
+  "benchmark_name": "mmlu-pro",
+  "score": 48.90477245862885,
+  "score_raw": 48.90477245862885,
+  "evaluation_date": "2025-02-04",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 170
+}

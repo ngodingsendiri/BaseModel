@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-fuseai-fusechat-qwen-2-5-7b-instruct",
+  "model_id": "FuseAI/FuseChat-Qwen-2.5-7B-Instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 34.64649822695036,
+  "score_raw": 34.64649822695036,
+  "evaluation_date": "2024-11-12",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1145
+}

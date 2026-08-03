@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-hotmailuser-gemma2magnum-27b",
+  "model_id": "hotmailuser/Gemma2magnum-27b",
+  "benchmark_name": "mmlu-pro",
+  "score": 39.95641252955083,
+  "score_raw": 39.95641252955083,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 695
+}

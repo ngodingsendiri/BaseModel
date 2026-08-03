@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-bamec66557-vicious-mesh-12b-beta",
+  "model_id": "bamec66557/VICIOUS_MESH-12B-BETA",
+  "benchmark_name": "musr",
+  "score": 14.340364583333335,
+  "score_raw": 14.340364583333335,
+  "evaluation_date": "2024-12-20",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 976
+}

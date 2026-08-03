@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-cultrix-qwen2-5-14b-wernicke-slerp",
+  "model_id": "CultriX/Qwen2.5-14B-Wernicke-SLERP",
+  "benchmark_name": "math-lvl-5",
+  "score": 44.864048338368576,
+  "score_raw": 44.864048338368576,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 304
+}

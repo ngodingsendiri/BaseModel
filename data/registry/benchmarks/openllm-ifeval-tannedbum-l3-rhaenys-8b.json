@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-tannedbum-l3-rhaenys-8b",
+  "model_id": "tannedbum/L3-Rhaenys-8B",
+  "benchmark_name": "ifeval",
+  "score": 73.62686560548235,
+  "score_raw": 73.62686560548235,
+  "evaluation_date": "2024-07-31",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 534
+}

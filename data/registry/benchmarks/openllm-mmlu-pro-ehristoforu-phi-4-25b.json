@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-ehristoforu-phi-4-25b",
+  "model_id": "ehristoforu/phi-4-25b",
+  "benchmark_name": "mmlu-pro",
+  "score": 48.341459810874696,
+  "score_raw": 48.341459810874696,
+  "evaluation_date": "2025-01-12",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 284
+}

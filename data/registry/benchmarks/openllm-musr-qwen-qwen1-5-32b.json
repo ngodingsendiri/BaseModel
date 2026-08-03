@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-qwen-qwen1-5-32b",
+  "model_id": "Qwen/Qwen1.5-32B",
+  "benchmark_name": "musr",
+  "score": 12.040625000000004,
+  "score_raw": 12.040625000000004,
+  "evaluation_date": "2024-04-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1579
+}

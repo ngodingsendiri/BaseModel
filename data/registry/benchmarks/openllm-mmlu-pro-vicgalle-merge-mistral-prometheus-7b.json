@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-vicgalle-merge-mistral-prometheus-7b",
+  "model_id": "vicgalle/Merge-Mistral-Prometheus-7B",
+  "benchmark_name": "mmlu-pro",
+  "score": 19.076906028368796,
+  "score_raw": 19.076906028368796,
+  "evaluation_date": "2024-05-04",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3238
+}

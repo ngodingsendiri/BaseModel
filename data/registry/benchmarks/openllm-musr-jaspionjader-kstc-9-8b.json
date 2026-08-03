@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-jaspionjader-kstc-9-8b",
+  "model_id": "jaspionjader/kstc-9-8b",
+  "benchmark_name": "musr",
+  "score": 10.90729166666666,
+  "score_raw": 10.90729166666666,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2012
+}

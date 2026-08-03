@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-sthenno-com-miscii-14b-1028",
+  "model_id": "sthenno-com/miscii-14b-1028",
+  "benchmark_name": "gpqa",
+  "score": 14.205816554809845,
+  "score_raw": 14.205816554809845,
+  "evaluation_date": "2024-11-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 468
+}

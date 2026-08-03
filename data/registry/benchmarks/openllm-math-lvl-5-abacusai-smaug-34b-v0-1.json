@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-abacusai-smaug-34b-v0-1",
+  "model_id": "abacusai/Smaug-34B-v0.1",
+  "benchmark_name": "math-lvl-5",
+  "score": 7.175226586102719,
+  "score_raw": 7.175226586102719,
+  "evaluation_date": "2024-01-25",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2819
+}

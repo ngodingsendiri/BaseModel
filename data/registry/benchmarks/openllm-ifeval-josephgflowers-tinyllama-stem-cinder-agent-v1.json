@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-josephgflowers-tinyllama-stem-cinder-agent-v1",
+  "model_id": "Josephgflowers/Tinyllama-STEM-Cinder-Agent-v1",
+  "benchmark_name": "ifeval",
+  "score": 21.257596510591895,
+  "score_raw": 21.257596510591895,
+  "evaluation_date": "2024-11-27",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3935
+}

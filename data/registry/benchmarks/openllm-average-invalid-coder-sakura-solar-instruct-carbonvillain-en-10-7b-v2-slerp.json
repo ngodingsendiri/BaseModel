@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-invalid-coder-sakura-solar-instruct-carbonvillain-en-10-7b-v2-slerp",
+  "model_id": "invalid-coder/Sakura-SOLAR-Instruct-CarbonVillain-en-10.7B-v2-slerp",
+  "benchmark_name": "average",
+  "score": 20.348078956309553,
+  "score_raw": 20.348078956309553,
+  "evaluation_date": "2024-01-10",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2622
+}

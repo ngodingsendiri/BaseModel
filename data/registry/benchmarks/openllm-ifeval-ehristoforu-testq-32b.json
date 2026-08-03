@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-ehristoforu-testq-32b",
+  "model_id": "ehristoforu/testq-32b",
+  "benchmark_name": "ifeval",
+  "score": 18.75966878992185,
+  "score_raw": 18.75966878992185,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4096
+}

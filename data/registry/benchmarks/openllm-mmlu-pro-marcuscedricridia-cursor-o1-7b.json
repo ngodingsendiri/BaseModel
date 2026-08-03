@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-marcuscedricridia-cursor-o1-7b",
+  "model_id": "marcuscedricridia/cursor-o1-7b",
+  "benchmark_name": "mmlu-pro",
+  "score": 25.014775413711583,
+  "score_raw": 25.014775413711583,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2521
+}

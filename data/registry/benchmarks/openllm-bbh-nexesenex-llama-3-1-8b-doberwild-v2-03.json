@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-nexesenex-llama-3-1-8b-doberwild-v2-03",
+  "model_id": "Nexesenex/Llama_3.1_8b_DoberWild_v2.03",
+  "benchmark_name": "bbh",
+  "score": 33.032829118870865,
+  "score_raw": 33.032829118870865,
+  "evaluation_date": "2025-02-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1641
+}

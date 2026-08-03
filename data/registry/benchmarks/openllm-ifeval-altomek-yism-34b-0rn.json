@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-altomek-yism-34b-0rn",
+  "model_id": "altomek/YiSM-34B-0rn",
+  "benchmark_name": "ifeval",
+  "score": 42.83733826247689,
+  "score_raw": 42.83733826247689,
+  "evaluation_date": "2024-05-26",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2514
+}

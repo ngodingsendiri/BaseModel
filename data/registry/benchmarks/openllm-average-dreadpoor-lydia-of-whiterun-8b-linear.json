@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-dreadpoor-lydia-of-whiterun-8b-linear",
+  "model_id": "DreadPoor/Lydia_of_Whiterun-8B-LINEAR",
+  "benchmark_name": "average",
+  "score": 30.10503527354818,
+  "score_raw": 30.10503527354818,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1012
+}

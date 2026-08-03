@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-alepach-nothumpback-m1-v2",
+  "model_id": "Alepach/notHumpback-M1-v2",
+  "benchmark_name": "average",
+  "score": 5.206724746715221,
+  "score_raw": 5.206724746715221,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4259
+}

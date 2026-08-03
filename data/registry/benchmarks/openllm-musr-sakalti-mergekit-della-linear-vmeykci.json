@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-sakalti-mergekit-della-linear-vmeykci",
+  "model_id": "Sakalti/mergekit-della_linear-vmeykci",
+  "benchmark_name": "musr",
+  "score": 6.377604166666667,
+  "score_raw": 6.377604166666667,
+  "evaluation_date": "2025-02-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3178
+}

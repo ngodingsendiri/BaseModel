@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-meragpt-mera-mix-4x7b",
+  "model_id": "meraGPT/mera-mix-4x7B",
+  "benchmark_name": "average",
+  "score": 17.854958732939675,
+  "score_raw": 17.854958732939675,
+  "evaluation_date": "2024-04-13",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2968
+}

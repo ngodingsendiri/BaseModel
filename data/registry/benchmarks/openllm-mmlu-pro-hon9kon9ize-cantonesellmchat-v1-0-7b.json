@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-hon9kon9ize-cantonesellmchat-v1-0-7b",
+  "model_id": "hon9kon9ize/CantoneseLLMChat-v1.0-7B",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.94341016548463,
+  "score_raw": 30.94341016548463,
+  "evaluation_date": "2024-10-02",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1620
+}

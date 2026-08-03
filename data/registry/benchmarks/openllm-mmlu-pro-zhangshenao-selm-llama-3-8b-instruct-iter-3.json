@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-zhangshenao-selm-llama-3-8b-instruct-iter-3",
+  "model_id": "ZhangShenao/SELM-Llama-3-8B-Instruct-iter-3",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.92494089834515,
+  "score_raw": 30.92494089834515,
+  "evaluation_date": "2024-05-25",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1623
+}

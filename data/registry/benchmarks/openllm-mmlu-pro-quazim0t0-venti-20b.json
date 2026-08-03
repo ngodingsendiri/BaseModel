@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-quazim0t0-venti-20b",
+  "model_id": "Quazim0t0/Venti-20b",
+  "benchmark_name": "mmlu-pro",
+  "score": 48.73854905437352,
+  "score_raw": 48.73854905437352,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 211
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-gritlm-gritlm-7b-kto",
+  "model_id": "GritLM/GritLM-7B-KTO",
+  "benchmark_name": "average",
+  "score": 19.2358949114183,
+  "score_raw": 19.2358949114183,
+  "evaluation_date": "2024-04-16",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2798
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-marcuscedricridia-cursa-o1-7b-v1-1",
+  "model_id": "marcuscedricridia/cursa-o1-7b-v1.1",
+  "benchmark_name": "gpqa",
+  "score": 7.606263982102905,
+  "score_raw": 7.606263982102905,
+  "evaluation_date": "2025-02-28",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1655
+}

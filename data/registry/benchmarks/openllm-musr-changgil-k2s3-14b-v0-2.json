@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-changgil-k2s3-14b-v0-2",
+  "model_id": "Changgil/K2S3-14b-v0.2",
+  "benchmark_name": "musr",
+  "score": 6.7992187500000005,
+  "score_raw": 6.7992187500000005,
+  "evaluation_date": "2024-06-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3100
+}

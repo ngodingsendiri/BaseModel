@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-etherll-qwen2-5-7b-della-test",
+  "model_id": "Etherll/Qwen2.5-7B-della-test",
+  "benchmark_name": "ifeval",
+  "score": 76.24968417133206,
+  "score_raw": 76.24968417133206,
+  "evaluation_date": "2024-11-01",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 370
+}

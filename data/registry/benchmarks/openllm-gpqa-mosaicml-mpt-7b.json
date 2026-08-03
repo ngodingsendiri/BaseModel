@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-mosaicml-mpt-7b",
+  "model_id": "mosaicml/mpt-7b",
+  "benchmark_name": "gpqa",
+  "score": 1.342281879194629,
+  "score_raw": 1.342281879194629,
+  "evaluation_date": "2023-05-05",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3971
+}

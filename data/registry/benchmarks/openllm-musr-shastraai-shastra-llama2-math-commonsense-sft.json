@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-shastraai-shastra-llama2-math-commonsense-sft",
+  "model_id": "shastraai/Shastra-LLAMA2-Math-Commonsense-SFT",
+  "benchmark_name": "musr",
+  "score": 4.8226562500000005,
+  "score_raw": 4.8226562500000005,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3490
+}

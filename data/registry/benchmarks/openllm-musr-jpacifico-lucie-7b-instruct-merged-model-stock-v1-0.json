@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-jpacifico-lucie-7b-instruct-merged-model-stock-v1-0",
+  "model_id": "jpacifico/Lucie-7B-Instruct-Merged-Model_Stock-v1.0",
+  "benchmark_name": "musr",
+  "score": 5.481510416666667,
+  "score_raw": 5.481510416666667,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3358
+}

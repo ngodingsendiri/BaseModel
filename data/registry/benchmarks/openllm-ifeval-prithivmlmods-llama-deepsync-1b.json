@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-prithivmlmods-llama-deepsync-1b",
+  "model_id": "prithivMLmods/Llama-Deepsync-1B",
+  "benchmark_name": "ifeval",
+  "score": 35.70071853792382,
+  "score_raw": 35.70071853792382,
+  "evaluation_date": "2024-12-29",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3003
+}

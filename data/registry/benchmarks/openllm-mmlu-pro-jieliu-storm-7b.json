@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-jieliu-storm-7b",
+  "model_id": "jieliu/Storm-7B",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.54646867612293,
+  "score_raw": 23.54646867612293,
+  "evaluation_date": "2024-04-25",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2705
+}

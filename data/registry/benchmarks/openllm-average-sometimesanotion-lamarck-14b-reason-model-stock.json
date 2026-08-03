@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-sometimesanotion-lamarck-14b-reason-model-stock",
+  "model_id": "sometimesanotion/lamarck-14b-reason-model_stock",
+  "benchmark_name": "average",
+  "score": 36.96126205505086,
+  "score_raw": 36.96126205505086,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 473
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dans-discountmodels-mistral-7b-test-merged",
+  "model_id": "Dans-DiscountModels/mistral-7b-test-merged",
+  "benchmark_name": "mmlu-pro",
+  "score": 21.976580969267136,
+  "score_raw": 21.976580969267136,
+  "evaluation_date": "2024-11-27",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2939
+}

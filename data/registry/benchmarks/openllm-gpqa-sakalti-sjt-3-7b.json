@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-sakalti-sjt-3-7b",
+  "model_id": "Sakalti/SJT-3.7B",
+  "benchmark_name": "gpqa",
+  "score": 0.7829977628635317,
+  "score_raw": 0.7829977628635317,
+  "evaluation_date": "2025-01-21",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4190
+}

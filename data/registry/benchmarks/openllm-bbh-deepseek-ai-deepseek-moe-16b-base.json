@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-deepseek-ai-deepseek-moe-16b-base",
+  "model_id": "deepseek-ai/deepseek-moe-16b-base",
+  "benchmark_name": "bbh",
+  "score": 8.355555779389382,
+  "score_raw": 8.355555779389382,
+  "evaluation_date": "2024-01-08",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3753
+}

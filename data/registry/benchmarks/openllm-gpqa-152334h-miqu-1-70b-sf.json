@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-152334h-miqu-1-70b-sf",
+  "model_id": "152334H/miqu-1-70b-sf",
+  "benchmark_name": "gpqa",
+  "score": 13.422818791946312,
+  "score_raw": 13.422818791946312,
+  "evaluation_date": "2024-01-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 547
+}

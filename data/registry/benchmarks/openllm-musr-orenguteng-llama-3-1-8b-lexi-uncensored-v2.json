@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-orenguteng-llama-3-1-8b-lexi-uncensored-v2",
+  "model_id": "Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2",
+  "benchmark_name": "musr",
+  "score": 7.76979166666667,
+  "score_raw": 7.76979166666667,
+  "evaluation_date": "2024-08-09",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2907
+}

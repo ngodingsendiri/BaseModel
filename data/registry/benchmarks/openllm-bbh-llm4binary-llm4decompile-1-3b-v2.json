@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-llm4binary-llm4decompile-1-3b-v2",
+  "model_id": "LLM4Binary/llm4decompile-1.3b-v2",
+  "benchmark_name": "bbh",
+  "score": 5.915475430438469,
+  "score_raw": 5.915475430438469,
+  "evaluation_date": "2024-06-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4049
+}

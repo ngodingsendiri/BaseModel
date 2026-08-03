@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-tiger-lab-acecoder-qwen2-5-coder-7b-ins-rule",
+  "model_id": "TIGER-Lab/AceCoder-Qwen2.5-Coder-7B-Ins-Rule",
+  "benchmark_name": "musr",
+  "score": 8.712760416666667,
+  "score_raw": 8.712760416666667,
+  "evaluation_date": "2025-02-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2648
+}

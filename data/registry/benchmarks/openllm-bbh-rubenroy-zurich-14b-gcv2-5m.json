@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-rubenroy-zurich-14b-gcv2-5m",
+  "model_id": "rubenroy/Zurich-14B-GCv2-5m",
+  "benchmark_name": "bbh",
+  "score": 46.7337399544949,
+  "score_raw": 46.7337399544949,
+  "evaluation_date": "2025-01-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 612
+}

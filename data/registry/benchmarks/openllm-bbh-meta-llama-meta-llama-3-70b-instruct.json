@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-meta-llama-meta-llama-3-70b-instruct",
+  "model_id": "meta-llama/Meta-Llama-3-70B-Instruct",
+  "benchmark_name": "bbh",
+  "score": 50.18513318440344,
+  "score_raw": 50.18513318440344,
+  "evaluation_date": "2024-04-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 364
+}

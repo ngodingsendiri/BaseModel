@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-xinchen9-llama3-1-cot-v1",
+  "model_id": "xinchen9/Llama3.1_CoT_V1",
+  "benchmark_name": "bbh",
+  "score": 20.166003338515427,
+  "score_raw": 20.166003338515427,
+  "evaluation_date": "2024-09-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3194
+}

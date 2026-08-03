@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-grimjim-sauerhuatuoskywork-o1-llama-3-1-8b",
+  "model_id": "grimjim/SauerHuatuoSkywork-o1-Llama-3.1-8B",
+  "benchmark_name": "gpqa",
+  "score": 9.507829977628639,
+  "score_raw": 9.507829977628639,
+  "evaluation_date": "2025-01-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1100
+}

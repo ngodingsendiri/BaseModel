@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-thedrummer-tiger-gemma-9b-v2",
+  "model_id": "TheDrummer/Tiger-Gemma-9B-v2",
+  "benchmark_name": "average",
+  "score": 29.900202484538976,
+  "score_raw": 29.900202484538976,
+  "evaluation_date": "2024-07-16",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1047
+}

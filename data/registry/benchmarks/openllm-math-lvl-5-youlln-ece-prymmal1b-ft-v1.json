@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-youlln-ece-prymmal1b-ft-v1",
+  "model_id": "Youlln/ECE-PRYMMAL1B-FT-V1",
+  "benchmark_name": "math-lvl-5",
+  "score": 6.419939577039275,
+  "score_raw": 6.419939577039275,
+  "evaluation_date": "2024-10-12",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2962
+}

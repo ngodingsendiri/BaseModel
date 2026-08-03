@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-sometimesanotion-kytheramix-7b-v0-2",
+  "model_id": "sometimesanotion/KytheraMix-7B-v0.2",
+  "benchmark_name": "bbh",
+  "score": 37.50149964913648,
+  "score_raw": 37.50149964913648,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1050
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-sometimesanotion-lamarck-14b-v0-7-rc1",
+  "model_id": "sometimesanotion/Lamarck-14B-v0.7-rc1",
+  "benchmark_name": "musr",
+  "score": 18.134895833333335,
+  "score_raw": 18.134895833333335,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 446
+}

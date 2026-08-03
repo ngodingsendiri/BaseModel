@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-failspy-llama-3-8b-instruct-mopeymule",
+  "model_id": "failspy/Llama-3-8B-Instruct-MopeyMule",
+  "benchmark_name": "musr",
+  "score": 2.2460937499999996,
+  "score_raw": 2.2460937499999996,
+  "evaluation_date": "2024-05-30",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4121
+}

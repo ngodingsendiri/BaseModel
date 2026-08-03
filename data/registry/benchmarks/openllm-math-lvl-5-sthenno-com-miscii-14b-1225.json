@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sthenno-com-miscii-14b-1225",
+  "model_id": "sthenno-com/miscii-14b-1225",
+  "benchmark_name": "math-lvl-5",
+  "score": 45.16616314199396,
+  "score_raw": 45.16616314199396,
+  "evaluation_date": "2024-12-24",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 297
+}

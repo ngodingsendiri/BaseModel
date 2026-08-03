@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-google-flan-ul2",
+  "model_id": "google/flan-ul2",
+  "benchmark_name": "average",
+  "score": 13.675998692966035,
+  "score_raw": 13.675998692966035,
+  "evaluation_date": "2023-03-03",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3458
+}

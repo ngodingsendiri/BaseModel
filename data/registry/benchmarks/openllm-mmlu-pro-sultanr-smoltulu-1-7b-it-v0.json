@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sultanr-smoltulu-1-7b-it-v0",
+  "model_id": "SultanR/SmolTulu-1.7b-it-v0",
+  "benchmark_name": "mmlu-pro",
+  "score": 7.893764775413713,
+  "score_raw": 7.893764775413713,
+  "evaluation_date": "2024-12-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3734
+}

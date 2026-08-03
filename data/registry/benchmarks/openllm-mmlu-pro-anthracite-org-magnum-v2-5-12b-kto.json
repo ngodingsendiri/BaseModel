@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-anthracite-org-magnum-v2-5-12b-kto",
+  "model_id": "anthracite-org/magnum-v2.5-12b-kto",
+  "benchmark_name": "mmlu-pro",
+  "score": 24.608451536643024,
+  "score_raw": 24.608451536643024,
+  "evaluation_date": "2024-08-12",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2554
+}

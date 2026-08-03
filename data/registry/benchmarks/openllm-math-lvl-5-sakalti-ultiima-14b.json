@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sakalti-ultiima-14b",
+  "model_id": "Sakalti/ultiima-14B",
+  "benchmark_name": "math-lvl-5",
+  "score": 46.97885196374622,
+  "score_raw": 46.97885196374622,
+  "evaluation_date": "2025-01-17",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 237
+}

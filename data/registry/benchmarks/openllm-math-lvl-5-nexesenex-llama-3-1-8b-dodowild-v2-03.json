@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-nexesenex-llama-3-1-8b-dodowild-v2-03",
+  "model_id": "Nexesenex/Llama_3.1_8b_DodoWild_v2.03",
+  "benchmark_name": "math-lvl-5",
+  "score": 22.20543806646526,
+  "score_raw": 22.20543806646526,
+  "evaluation_date": "2025-02-28",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1130
+}

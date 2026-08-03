@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-nexesenex-pankajmathur-orca-mini-v9-6-1b-instruct-abliterated-lpl",
+  "model_id": "Nexesenex/pankajmathur_orca_mini_v9_6_1B-instruct-Abliterated-LPL",
+  "benchmark_name": "mmlu-pro",
+  "score": 8.918809101654844,
+  "score_raw": 8.918809101654844,
+  "evaluation_date": "2025-03-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3679
+}

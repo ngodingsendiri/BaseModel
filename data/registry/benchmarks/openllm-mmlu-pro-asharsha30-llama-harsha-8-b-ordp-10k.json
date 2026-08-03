@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-asharsha30-llama-harsha-8-b-ordp-10k",
+  "model_id": "asharsha30/LLAMA_Harsha_8_B_ORDP_10k",
+  "benchmark_name": "mmlu-pro",
+  "score": 20.111184988179666,
+  "score_raw": 20.111184988179666,
+  "evaluation_date": "2024-12-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3146
+}

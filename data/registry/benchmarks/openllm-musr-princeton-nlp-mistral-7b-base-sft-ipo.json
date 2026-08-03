@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-princeton-nlp-mistral-7b-base-sft-ipo",
+  "model_id": "princeton-nlp/Mistral-7B-Base-SFT-IPO",
+  "benchmark_name": "musr",
+  "score": 4.836458333333334,
+  "score_raw": 4.836458333333334,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3486
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-oopere-pruned20-llama-1b",
+  "model_id": "oopere/pruned20-llama-1b",
+  "benchmark_name": "bbh",
+  "score": 3.185394259848986,
+  "score_raw": 3.185394259848986,
+  "evaluation_date": "2024-11-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4294
+}

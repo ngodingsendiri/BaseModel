@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-tangledgroup-tangled-llama-pints-1-5b-v0-1-instruct",
+  "model_id": "tangledgroup/tangled-llama-pints-1.5b-v0.1-instruct",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.2084592145015105,
+  "score_raw": 1.2084592145015105,
+  "evaluation_date": "2024-08-27",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4171
+}

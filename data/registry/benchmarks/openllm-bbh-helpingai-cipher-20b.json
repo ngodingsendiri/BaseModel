@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-helpingai-cipher-20b",
+  "model_id": "HelpingAI/Cipher-20B",
+  "benchmark_name": "bbh",
+  "score": 43.43973598811683,
+  "score_raw": 43.43973598811683,
+  "evaluation_date": "2024-12-14",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 795
+}

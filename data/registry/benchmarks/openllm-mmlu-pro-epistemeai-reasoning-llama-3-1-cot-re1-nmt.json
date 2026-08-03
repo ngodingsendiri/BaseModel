@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-epistemeai-reasoning-llama-3-1-cot-re1-nmt",
+  "model_id": "EpistemeAI/Reasoning-Llama-3.1-CoT-RE1-NMT",
+  "benchmark_name": "mmlu-pro",
+  "score": 26.03058510638298,
+  "score_raw": 26.03058510638298,
+  "evaluation_date": "2025-01-29",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2409
+}

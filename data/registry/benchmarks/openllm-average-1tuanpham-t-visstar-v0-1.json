@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-1tuanpham-t-visstar-v0-1",
+  "model_id": "1TuanPham/T-VisStar-v0.1",
+  "benchmark_name": "average",
+  "score": 19.144808610895357,
+  "score_raw": 19.144808610895357,
+  "evaluation_date": "2024-09-19",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2815
+}

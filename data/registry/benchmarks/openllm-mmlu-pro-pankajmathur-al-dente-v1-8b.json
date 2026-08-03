@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-pankajmathur-al-dente-v1-8b",
+  "model_id": "pankajmathur/Al_Dente_v1_8b",
+  "benchmark_name": "mmlu-pro",
+  "score": 20.665263002364064,
+  "score_raw": 20.665263002364064,
+  "evaluation_date": "2024-06-02",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3087
+}

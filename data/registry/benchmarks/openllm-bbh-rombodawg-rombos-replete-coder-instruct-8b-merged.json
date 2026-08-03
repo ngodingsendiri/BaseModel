@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-rombodawg-rombos-replete-coder-instruct-8b-merged",
+  "model_id": "rombodawg/rombos_Replete-Coder-Instruct-8b-Merged",
+  "benchmark_name": "bbh",
+  "score": 21.937706578272657,
+  "score_raw": 21.937706578272657,
+  "evaluation_date": "2024-10-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3080
+}

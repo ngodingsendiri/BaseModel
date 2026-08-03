@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-arthur-lagacherie-precis-1b-instruct",
+  "model_id": "Arthur-LAGACHERIE/Precis-1B-Instruct",
+  "benchmark_name": "musr",
+  "score": 3.077343750000001,
+  "score_raw": 3.077343750000001,
+  "evaluation_date": "2025-01-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3904
+}

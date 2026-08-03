@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-nlpguy-lion-lamarck-v-1-0-9",
+  "model_id": "nlpguy/Lion-Lamarck-v.1.0.9",
+  "benchmark_name": "math-lvl-5",
+  "score": 56.41993957703928,
+  "score_raw": 56.41993957703928,
+  "evaluation_date": "2025-01-28",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 29
+}

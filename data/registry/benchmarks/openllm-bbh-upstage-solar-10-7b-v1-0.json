@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-upstage-solar-10-7b-v1-0",
+  "model_id": "upstage/SOLAR-10.7B-v1.0",
+  "benchmark_name": "bbh",
+  "score": 29.789358089019135,
+  "score_raw": 29.789358089019135,
+  "evaluation_date": "2023-12-12",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2239
+}

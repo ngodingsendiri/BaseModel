@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-dreadpoor-inexpertus-1-2-8b-linear",
+  "model_id": "DreadPoor/inexpertus_1.2-8B-LINEAR",
+  "benchmark_name": "math-lvl-5",
+  "score": 15.861027190332324,
+  "score_raw": 15.861027190332324,
+  "evaluation_date": "2025-03-08",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1660
+}

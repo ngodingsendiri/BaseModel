@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-ucla-agi-mistral7b-pairrm-sppo",
+  "model_id": "UCLA-AGI/Mistral7B-PairRM-SPPO",
+  "benchmark_name": "ifeval",
+  "score": 43.549227161708714,
+  "score_raw": 43.549227161708714,
+  "evaluation_date": "2024-05-04",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2450
+}

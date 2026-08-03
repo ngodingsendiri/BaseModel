@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-jaspionjader-prp-kosmos-evaa-light-8b",
+  "model_id": "jaspionjader/PRP-Kosmos-EVAA-light-8B",
+  "benchmark_name": "musr",
+  "score": 11.142708333333337,
+  "score_raw": 11.142708333333337,
+  "evaluation_date": "2024-12-29",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1925
+}

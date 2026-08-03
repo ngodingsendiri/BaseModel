@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sometimesanotion-chocotrio-14b-v1",
+  "model_id": "sometimesanotion/ChocoTrio-14B-v1",
+  "benchmark_name": "mmlu-pro",
+  "score": 48.55385638297872,
+  "score_raw": 48.55385638297872,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 260
+}

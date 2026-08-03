@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sourjayon-deepseek-r1-8b-sify",
+  "model_id": "Sourjayon/DeepSeek-R1-8b-Sify",
+  "benchmark_name": "mmlu-pro",
+  "score": 10.895020685579194,
+  "score_raw": 10.895020685579194,
+  "evaluation_date": "2025-02-05",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3591
+}

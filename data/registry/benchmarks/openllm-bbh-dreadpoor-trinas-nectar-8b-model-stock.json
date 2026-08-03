@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-dreadpoor-trinas-nectar-8b-model-stock",
+  "model_id": "DreadPoor/Trinas_Nectar-8B-model_stock",
+  "benchmark_name": "bbh",
+  "score": 31.97509368554489,
+  "score_raw": 31.97509368554489,
+  "evaluation_date": "2024-08-16",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1852
+}

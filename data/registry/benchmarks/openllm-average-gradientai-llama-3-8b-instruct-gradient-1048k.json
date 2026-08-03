@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-gradientai-llama-3-8b-instruct-gradient-1048k",
+  "model_id": "gradientai/Llama-3-8B-Instruct-Gradient-1048k",
+  "benchmark_name": "average",
+  "score": 18.283333977044872,
+  "score_raw": 18.283333977044872,
+  "evaluation_date": "2024-04-29",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2913
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-qwen-qwen2-5-math-7b-instruct",
+  "model_id": "Qwen/Qwen2.5-Math-7B-Instruct",
+  "benchmark_name": "ifeval",
+  "score": 26.358395723347385,
+  "score_raw": 26.358395723347385,
+  "evaluation_date": "2024-09-19",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3502
+}

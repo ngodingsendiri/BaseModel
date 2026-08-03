@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-prithivmlmods-phi-4-empathetic",
+  "model_id": "prithivMLmods/Phi-4-Empathetic",
+  "benchmark_name": "gpqa",
+  "score": 17.337807606263986,
+  "score_raw": 17.337807606263986,
+  "evaluation_date": "2025-01-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 237
+}

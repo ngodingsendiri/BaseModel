@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-etherll-herplete-llm-llama-3-1-8b-ties",
+  "model_id": "Etherll/Herplete-LLM-Llama-3.1-8b-Ties",
+  "benchmark_name": "bbh",
+  "score": 33.07089034564546,
+  "score_raw": 33.07089034564546,
+  "evaluation_date": "2024-10-03",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1629
+}

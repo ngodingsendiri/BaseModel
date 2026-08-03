@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-yam-peleg-hebrew-gemma-11b-instruct",
+  "model_id": "yam-peleg/Hebrew-Gemma-11B-Instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 17.266917848699762,
+  "score_raw": 17.266917848699762,
+  "evaluation_date": "2024-03-06",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3366
+}

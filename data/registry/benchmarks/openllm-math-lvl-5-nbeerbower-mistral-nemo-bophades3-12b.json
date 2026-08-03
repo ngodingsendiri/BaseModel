@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-nbeerbower-mistral-nemo-bophades3-12b",
+  "model_id": "nbeerbower/mistral-nemo-bophades3-12B",
+  "benchmark_name": "math-lvl-5",
+  "score": 8.459214501510575,
+  "score_raw": 8.459214501510575,
+  "evaluation_date": "2025-01-13",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2619
+}

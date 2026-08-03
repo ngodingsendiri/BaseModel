@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sao10k-l3-70b-euryale-v2-1",
+  "model_id": "Sao10K/L3-70B-Euryale-v2.1",
+  "benchmark_name": "math-lvl-5",
+  "score": 21.37462235649547,
+  "score_raw": 21.37462235649547,
+  "evaluation_date": "2024-06-11",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1214
+}

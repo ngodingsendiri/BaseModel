@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-lunzima-nqlsg-qwen2-5-14b-megafusion-v6-cpt",
+  "model_id": "Lunzima/NQLSG-Qwen2.5-14B-MegaFusion-v6-cpt",
+  "benchmark_name": "math-lvl-5",
+  "score": 33.157099697885194,
+  "score_raw": 33.157099697885194,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 726
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-instruction-pretrain-instructlm-500m",
+  "model_id": "instruction-pretrain/InstructLM-500M",
+  "benchmark_name": "bbh",
+  "score": 2.317053716048478,
+  "score_raw": 2.317053716048478,
+  "evaluation_date": "2024-06-18",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4439
+}

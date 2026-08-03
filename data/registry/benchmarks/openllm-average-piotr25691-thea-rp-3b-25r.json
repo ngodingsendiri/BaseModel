@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-piotr25691-thea-rp-3b-25r",
+  "model_id": "piotr25691/thea-rp-3b-25r",
+  "benchmark_name": "average",
+  "score": 21.845382189211346,
+  "score_raw": 21.845382189211346,
+  "evaluation_date": "2024-10-13",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2301
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-sakalti-magro-7b",
+  "model_id": "Sakalti/magro-7B",
+  "benchmark_name": "bbh",
+  "score": 19.54888376105943,
+  "score_raw": 19.54888376105943,
+  "evaluation_date": "2024-12-11",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3233
+}

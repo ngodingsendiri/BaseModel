@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-neopolita-jessi-v0-1-falcon3-10b-instruct",
+  "model_id": "neopolita/jessi-v0.1-falcon3-10b-instruct",
+  "benchmark_name": "math-lvl-5",
+  "score": 20.01510574018127,
+  "score_raw": 20.01510574018127,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1324
+}

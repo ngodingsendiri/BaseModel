@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-huggingfacetb-smollm-360m",
+  "model_id": "HuggingFaceTB/SmolLM-360M",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.1329305135951662,
+  "score_raw": 1.1329305135951662,
+  "evaluation_date": "2024-07-14",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4176
+}

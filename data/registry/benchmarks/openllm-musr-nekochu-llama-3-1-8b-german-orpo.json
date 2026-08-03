@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-nekochu-llama-3-1-8b-german-orpo",
+  "model_id": "Nekochu/Llama-3.1-8B-German-ORPO",
+  "benchmark_name": "musr",
+  "score": 16.860416666666666,
+  "score_raw": 16.860416666666666,
+  "evaluation_date": "2024-09-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 585
+}

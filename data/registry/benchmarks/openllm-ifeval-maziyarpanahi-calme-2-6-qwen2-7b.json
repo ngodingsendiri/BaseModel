@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-maziyarpanahi-calme-2-6-qwen2-7b",
+  "model_id": "MaziyarPanahi/calme-2.6-qwen2-7b",
+  "benchmark_name": "ifeval",
+  "score": 34.426765426845215,
+  "score_raw": 34.426765426845215,
+  "evaluation_date": "2024-06-27",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3069
+}

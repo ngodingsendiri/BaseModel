@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-floflob-10k-continued-pretraining-qwen2-5-0-5b-instruct-unsloth-merged-16bit",
+  "model_id": "FlofloB/10k_continued_pretraining_Qwen2.5-0.5B-Instruct_Unsloth_merged_16bit",
+  "benchmark_name": "average",
+  "score": 8.363924265648496,
+  "score_raw": 8.363924265648496,
+  "evaluation_date": "2024-11-25",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3838
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-jebish7-gemma-2-9b-it",
+  "model_id": "jebish7/gemma-2-9b-it",
+  "benchmark_name": "average",
+  "score": 21.76298915231794,
+  "score_raw": 21.76298915231794,
+  "evaluation_date": "2025-02-06",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2331
+}

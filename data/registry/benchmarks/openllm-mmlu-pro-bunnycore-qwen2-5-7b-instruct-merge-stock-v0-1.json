@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-bunnycore-qwen2-5-7b-instruct-merge-stock-v0-1",
+  "model_id": "bunnycore/Qwen2.5-7B-Instruct-Merge-Stock-v0.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 37.5923463356974,
+  "score_raw": 37.5923463356974,
+  "evaluation_date": "2025-03-01",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 892
+}

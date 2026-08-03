@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-abhishek-autotrain-llama3-70b-orpo-v2",
+  "model_id": "abhishek/autotrain-llama3-70b-orpo-v2",
+  "benchmark_name": "bbh",
+  "score": 39.88219882979646,
+  "score_raw": 39.88219882979646,
+  "evaluation_date": "2024-05-04",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 962
+}

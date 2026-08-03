@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-netcat420-mfannv0-19",
+  "model_id": "netcat420/MFANNv0.19",
+  "benchmark_name": "average",
+  "score": 14.38906583250676,
+  "score_raw": 14.38906583250676,
+  "evaluation_date": "2024-07-27",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3373
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-prithivmlmods-eridanus-opus-14b-r999",
+  "model_id": "prithivMLmods/Eridanus-Opus-14B-r999",
+  "benchmark_name": "math-lvl-5",
+  "score": 38.59516616314199,
+  "score_raw": 38.59516616314199,
+  "evaluation_date": "2025-02-28",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 496
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-thedrunkensnail-daughter-of-rhodia-12b",
+  "model_id": "TheDrunkenSnail/Daughter-of-Rhodia-12B",
+  "benchmark_name": "ifeval",
+  "score": 69.03815210308647,
+  "score_raw": 69.03815210308647,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 816
+}

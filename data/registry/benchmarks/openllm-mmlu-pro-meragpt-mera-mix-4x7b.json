@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-meragpt-mera-mix-4x7b",
+  "model_id": "meraGPT/mera-mix-4x7B",
+  "benchmark_name": "mmlu-pro",
+  "score": 19.418587470449168,
+  "score_raw": 19.418587470449168,
+  "evaluation_date": "2024-04-13",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 3205
+}

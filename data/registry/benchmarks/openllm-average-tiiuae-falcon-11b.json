@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-tiiuae-falcon-11b",
+  "model_id": "tiiuae/falcon-11B",
+  "benchmark_name": "average",
+  "score": 13.851902586180215,
+  "score_raw": 13.851902586180215,
+  "evaluation_date": "2024-05-09",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3439
+}

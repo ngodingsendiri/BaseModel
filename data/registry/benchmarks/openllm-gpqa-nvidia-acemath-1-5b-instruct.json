@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-nvidia-acemath-1-5b-instruct",
+  "model_id": "nvidia/AceMath-1.5B-Instruct",
+  "benchmark_name": "gpqa",
+  "score": 3.243847874720355,
+  "score_raw": 3.243847874720355,
+  "evaluation_date": "2025-01-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3233
+}

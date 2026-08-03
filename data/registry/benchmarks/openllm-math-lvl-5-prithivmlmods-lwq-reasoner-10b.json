@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-prithivmlmods-lwq-reasoner-10b",
+  "model_id": "prithivMLmods/LwQ-Reasoner-10B",
+  "benchmark_name": "math-lvl-5",
+  "score": 35.80060422960725,
+  "score_raw": 35.80060422960725,
+  "evaluation_date": "2025-01-18",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 623
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-bamec66557-vicious-mesh-12b-razor",
+  "model_id": "bamec66557/VICIOUS_MESH-12B_Razor",
+  "benchmark_name": "average",
+  "score": 22.640681565889526,
+  "score_raw": 22.640681565889526,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2175
+}

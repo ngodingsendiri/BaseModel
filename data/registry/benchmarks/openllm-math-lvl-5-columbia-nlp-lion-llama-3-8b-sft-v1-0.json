@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-columbia-nlp-lion-llama-3-8b-sft-v1-0",
+  "model_id": "Columbia-NLP/LION-LLaMA-3-8b-sft-v1.0",
+  "benchmark_name": "math-lvl-5",
+  "score": 11.404833836858005,
+  "score_raw": 11.404833836858005,
+  "evaluation_date": "2024-07-02",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2187
+}

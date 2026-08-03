@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-cultrix-qwen2-5-14b-reasoningmerge",
+  "model_id": "CultriX/Qwen2.5-14B-ReasoningMerge",
+  "benchmark_name": "mmlu-pro",
+  "score": 48.27681737588653,
+  "score_raw": 48.27681737588653,
+  "evaluation_date": "2025-02-18",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 286
+}

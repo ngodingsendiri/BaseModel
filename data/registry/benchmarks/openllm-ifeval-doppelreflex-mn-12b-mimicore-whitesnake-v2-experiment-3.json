@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-doppelreflex-mn-12b-mimicore-whitesnake-v2-experiment-3",
+  "model_id": "DoppelReflEx/MN-12B-Mimicore-WhiteSnake-v2-Experiment-3",
+  "benchmark_name": "ifeval",
+  "score": 43.02218114602588,
+  "score_raw": 43.02218114602588,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2497
+}

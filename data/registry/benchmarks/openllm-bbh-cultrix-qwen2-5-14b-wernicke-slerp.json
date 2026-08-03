@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-bbh-cultrix-qwen2-5-14b-wernicke-slerp",
+  "model_id": "CultriX/Qwen2.5-14B-Wernicke-SLERP",
+  "benchmark_name": "bbh",
+  "score": 49.372327095724025,
+  "score_raw": 49.372327095724025,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 445
+}

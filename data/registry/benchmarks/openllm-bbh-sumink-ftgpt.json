@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-sumink-ftgpt",
+  "model_id": "sumink/ftgpt",
+  "benchmark_name": "bbh",
+  "score": 1.9312767142279632,
+  "score_raw": 1.9312767142279632,
+  "evaluation_date": "2024-11-06",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4500
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-crestf411-mn-slush",
+  "model_id": "crestf411/MN-Slush",
+  "benchmark_name": "ifeval",
+  "score": 40.77148632295642,
+  "score_raw": 40.77148632295642,
+  "evaluation_date": "2024-11-20",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 2686
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-gaverfraxz-meta-llama-3-1-8b-instruct-halfabliterated-ties",
+  "model_id": "gaverfraxz/Meta-Llama-3.1-8B-Instruct-HalfAbliterated-TIES",
+  "benchmark_name": "bbh",
+  "score": 28.91423515333936,
+  "score_raw": 28.91423515333936,
+  "evaluation_date": "2024-09-19",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2370
+}

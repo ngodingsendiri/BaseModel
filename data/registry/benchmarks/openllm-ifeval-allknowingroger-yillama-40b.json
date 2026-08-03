@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-allknowingroger-yillama-40b",
+  "model_id": "allknowingroger/Yillama-40B",
+  "benchmark_name": "ifeval",
+  "score": 16.968643200042553,
+  "score_raw": 16.968643200042553,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4213
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-nitral-ai-captain-eris-bmo-violent-12b",
+  "model_id": "Nitral-AI/Captain-Eris_BMO-Violent-12B",
+  "benchmark_name": "math-lvl-5",
+  "score": 13.670694864048338,
+  "score_raw": 13.670694864048338,
+  "evaluation_date": "2025-02-23",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1836
+}

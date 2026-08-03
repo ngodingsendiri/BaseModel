@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-glaiveai-reflection-llama-3-1-70b",
+  "model_id": "glaiveai/Reflection-Llama-3.1-70B",
+  "benchmark_name": "math-lvl-5",
+  "score": 27.567975830815712,
+  "score_raw": 27.567975830815712,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 916
+}

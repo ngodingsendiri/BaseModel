@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-zeroxclem-llama-3-1-8b-rainbowlight-etherealmix",
+  "model_id": "ZeroXClem/Llama-3.1-8B-RainbowLight-EtherealMix",
+  "benchmark_name": "bbh",
+  "score": 31.072264304734336,
+  "score_raw": 31.072264304734336,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2031
+}

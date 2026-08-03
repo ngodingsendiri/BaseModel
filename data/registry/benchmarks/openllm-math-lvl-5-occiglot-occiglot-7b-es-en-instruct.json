@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-occiglot-occiglot-7b-es-en-instruct",
+  "model_id": "occiglot/occiglot-7b-es-en-instruct",
+  "benchmark_name": "math-lvl-5",
+  "score": 2.416918429003021,
+  "score_raw": 2.416918429003021,
+  "evaluation_date": "2024-03-05",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3841
+}

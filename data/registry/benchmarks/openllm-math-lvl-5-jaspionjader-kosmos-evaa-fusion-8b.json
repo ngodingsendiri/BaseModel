@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-jaspionjader-kosmos-evaa-fusion-8b",
+  "model_id": "jaspionjader/Kosmos-EVAA-Fusion-8B",
+  "benchmark_name": "math-lvl-5",
+  "score": 12.915407854984895,
+  "score_raw": 12.915407854984895,
+  "evaluation_date": "2024-12-27",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 1947
+}

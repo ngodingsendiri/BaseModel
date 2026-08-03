@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-freewheelin-free-solar-evo-v0-11",
+  "model_id": "freewheelin/free-solar-evo-v0.11",
+  "benchmark_name": "musr",
+  "score": 24.285677083333326,
+  "score_raw": 24.285677083333326,
+  "evaluation_date": "2024-04-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 50
+}

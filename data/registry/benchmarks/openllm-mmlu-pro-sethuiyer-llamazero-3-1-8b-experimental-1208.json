@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-sethuiyer-llamazero-3-1-8b-experimental-1208",
+  "model_id": "sethuiyer/LlamaZero-3.1-8B-Experimental-1208",
+  "benchmark_name": "mmlu-pro",
+  "score": 22.21668144208038,
+  "score_raw": 22.21668144208038,
+  "evaluation_date": "2025-01-20",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2914
+}

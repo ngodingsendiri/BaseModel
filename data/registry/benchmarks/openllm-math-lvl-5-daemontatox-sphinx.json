@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-daemontatox-sphinx",
+  "model_id": "Daemontatox/SphinX",
+  "benchmark_name": "math-lvl-5",
+  "score": 30.815709969788518,
+  "score_raw": 30.815709969788518,
+  "evaluation_date": "2024-12-21",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 800
+}

@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-dwikitheduck-gen-try1-notemp",
+  "model_id": "dwikitheduck/gen-try1-notemp",
+  "benchmark_name": "math-lvl-5",
+  "score": 31.797583081570995,
+  "score_raw": 31.797583081570995,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 764
+}

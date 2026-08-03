@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-princeton-nlp-mistral-7b-base-sft-rdpo",
+  "model_id": "princeton-nlp/Mistral-7B-Base-SFT-RDPO",
+  "benchmark_name": "math-lvl-5",
+  "score": 2.190332326283988,
+  "score_raw": 2.190332326283988,
+  "evaluation_date": "2024-05-17",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3882
+}

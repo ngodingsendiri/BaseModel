@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-t145-kronos-8b-v7",
+  "model_id": "T145/KRONOS-8B-V7",
+  "benchmark_name": "math-lvl-5",
+  "score": 11.10271903323263,
+  "score_raw": 11.10271903323263,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 2240
+}

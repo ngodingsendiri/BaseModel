@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-sequelbox-llama3-1-8b-plummath",
+  "model_id": "sequelbox/Llama3.1-8B-PlumMath",
+  "benchmark_name": "gpqa",
+  "score": 9.060402684563762,
+  "score_raw": 9.060402684563762,
+  "evaluation_date": "2024-10-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1210
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-t145-zeus-8b-v17",
+  "model_id": "T145/ZEUS-8B-V17",
+  "benchmark_name": "average",
+  "score": 31.006563519372005,
+  "score_raw": 31.006563519372005,
+  "evaluation_date": "2025-01-01",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 917
+}

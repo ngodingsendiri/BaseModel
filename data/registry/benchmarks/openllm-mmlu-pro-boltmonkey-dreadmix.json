@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-boltmonkey-dreadmix",
+  "model_id": "BoltMonkey/DreadMix",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.99881796690307,
+  "score_raw": 30.99881796690307,
+  "evaluation_date": "2024-10-12",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1606
+}

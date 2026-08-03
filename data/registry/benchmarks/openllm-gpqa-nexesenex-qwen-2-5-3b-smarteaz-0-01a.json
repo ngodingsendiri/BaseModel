@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-nexesenex-qwen-2-5-3b-smarteaz-0-01a",
+  "model_id": "Nexesenex/Qwen_2.5_3b_Smarteaz_0.01a",
+  "benchmark_name": "gpqa",
+  "score": 3.6912751677852316,
+  "score_raw": 3.6912751677852316,
+  "evaluation_date": "2025-02-27",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3062
+}

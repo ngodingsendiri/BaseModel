@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-tannedbum-l3-rhaenys-8b",
+  "model_id": "tannedbum/L3-Rhaenys-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 31.100398936170215,
+  "score_raw": 31.100398936170215,
+  "evaluation_date": "2024-07-31",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1590
+}

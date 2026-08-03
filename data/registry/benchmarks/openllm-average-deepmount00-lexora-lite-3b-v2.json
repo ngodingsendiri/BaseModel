@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-deepmount00-lexora-lite-3b-v2",
+  "model_id": "DeepMount00/Lexora-Lite-3B_v2",
+  "benchmark_name": "average",
+  "score": 22.690213091300453,
+  "score_raw": 22.690213091300453,
+  "evaluation_date": "2024-09-19",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2162
+}

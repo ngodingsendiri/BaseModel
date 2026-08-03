@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-tannedbum-l3-nymeria-v2-8b",
+  "model_id": "tannedbum/L3-Nymeria-v2-8B",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.592494089834517,
+  "score_raw": 30.592494089834517,
+  "evaluation_date": "2024-06-29",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1713
+}

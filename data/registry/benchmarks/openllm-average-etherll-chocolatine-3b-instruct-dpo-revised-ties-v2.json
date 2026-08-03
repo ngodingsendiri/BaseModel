@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-average-etherll-chocolatine-3b-instruct-dpo-revised-ties-v2",
+  "model_id": "Etherll/Chocolatine-3B-Instruct-DPO-Revised-Ties-v2",
+  "benchmark_name": "average",
+  "score": 25.0072163099762,
+  "score_raw": 25.0072163099762,
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1625
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-baptiste-huvelle-10-letriomphant2-2-ece-ilab",
+  "model_id": "Baptiste-HUVELLE-10/LeTriomphant2.2_ECE_iLAB",
+  "benchmark_name": "gpqa",
+  "score": 19.910514541387023,
+  "score_raw": 19.910514541387023,
+  "evaluation_date": "2025-01-24",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 46
+}

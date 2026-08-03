@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-prithivmlmods-sqweeks-7b-instruct",
+  "model_id": "prithivMLmods/Sqweeks-7B-Instruct",
+  "benchmark_name": "mmlu-pro",
+  "score": 23.703457446808507,
+  "score_raw": 23.703457446808507,
+  "evaluation_date": "2025-02-05",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2676
+}

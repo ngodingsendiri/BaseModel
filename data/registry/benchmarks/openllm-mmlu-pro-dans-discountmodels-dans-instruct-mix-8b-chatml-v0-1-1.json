@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-dans-discountmodels-dans-instruct-mix-8b-chatml-v0-1-1",
+  "model_id": "Dans-DiscountModels/Dans-Instruct-Mix-8b-ChatML-V0.1.1",
+  "benchmark_name": "mmlu-pro",
+  "score": 25.319518321513,
+  "score_raw": 25.319518321513,
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 2496
+}

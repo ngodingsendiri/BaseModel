@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-ifeval-openllm-france-lucie-7b-instruct",
+  "model_id": "OpenLLM-France/Lucie-7B-Instruct",
+  "benchmark_name": "ifeval",
+  "score": 27.9645784296777,
+  "score_raw": 27.9645784296777,
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3413
+}

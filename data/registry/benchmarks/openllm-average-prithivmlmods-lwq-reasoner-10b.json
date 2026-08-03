@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-lwq-reasoner-10b",
+  "model_id": "prithivMLmods/LwQ-Reasoner-10B",
+  "benchmark_name": "average",
+  "score": 26.99437823708219,
+  "score_raw": 26.99437823708219,
+  "evaluation_date": "2025-01-18",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1391
+}

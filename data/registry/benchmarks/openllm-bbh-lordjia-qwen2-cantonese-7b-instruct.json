@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-lordjia-qwen2-cantonese-7b-instruct",
+  "model_id": "lordjia/Qwen2-Cantonese-7B-Instruct",
+  "benchmark_name": "bbh",
+  "score": 32.45321665791298,
+  "score_raw": 32.45321665791298,
+  "evaluation_date": "2024-07-13",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1763
+}

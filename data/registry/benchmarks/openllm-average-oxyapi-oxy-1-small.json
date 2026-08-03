@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-oxyapi-oxy-1-small",
+  "model_id": "oxyapi/oxy-1-small",
+  "benchmark_name": "average",
+  "score": 36.10082946641055,
+  "score_raw": 36.10082946641055,
+  "evaluation_date": "2024-12-01",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 560
+}

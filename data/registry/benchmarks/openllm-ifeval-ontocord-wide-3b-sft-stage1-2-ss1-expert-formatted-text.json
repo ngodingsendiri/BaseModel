@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-ontocord-wide-3b-sft-stage1-2-ss1-expert-formatted-text",
+  "model_id": "ontocord/wide_3b_sft_stage1.2-ss1-expert_formatted_text",
+  "benchmark_name": "ifeval",
+  "score": 14.872870649875662,
+  "score_raw": 14.872870649875662,
+  "evaluation_date": "2025-03-06",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 4346
+}

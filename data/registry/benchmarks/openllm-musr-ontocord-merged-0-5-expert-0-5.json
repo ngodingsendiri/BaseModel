@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-musr-ontocord-merged-0-5-expert-0-5",
+  "model_id": "ontocord/merged_0.5_expert_0.5",
+  "benchmark_name": "musr",
+  "score": 1.5145833333333325,
+  "score_raw": 1.5145833333333325,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4306
+}

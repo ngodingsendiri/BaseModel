@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-gpqa-ibm-granite-granite-3-0-8b-base",
+  "model_id": "ibm-granite/granite-3.0-8b-base",
+  "benchmark_name": "gpqa",
+  "score": 10.067114093959727,
+  "score_raw": 10.067114093959727,
+  "evaluation_date": "2024-10-02",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 987
+}

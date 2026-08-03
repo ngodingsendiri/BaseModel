@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-grimjim-llama3-1-supernovalite-huatuoskywork-o1-8b",
+  "model_id": "grimjim/Llama3.1-SuperNovaLite-HuatuoSkywork-o1-8B",
+  "benchmark_name": "bbh",
+  "score": 32.95297252204676,
+  "score_raw": 32.95297252204676,
+  "evaluation_date": "2025-01-07",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 1657
+}

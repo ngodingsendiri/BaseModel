@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-abacusai-smaug-72b-v0-1",
+  "model_id": "abacusai/Smaug-72B-v0.1",
+  "benchmark_name": "average",
+  "score": 29.737299261857203,
+  "score_raw": 29.737299261857203,
+  "evaluation_date": "2024-02-02",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 1068
+}

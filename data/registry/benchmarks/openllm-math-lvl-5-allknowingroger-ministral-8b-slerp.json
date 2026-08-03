@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-allknowingroger-ministral-8b-slerp",
+  "model_id": "allknowingroger/Ministral-8B-slerp",
+  "benchmark_name": "math-lvl-5",
+  "score": 0.3776435045317221,
+  "score_raw": 0.3776435045317221,
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 4377
+}

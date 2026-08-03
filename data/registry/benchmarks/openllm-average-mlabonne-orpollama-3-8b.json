@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-mlabonne-orpollama-3-8b",
+  "model_id": "mlabonne/OrpoLlama-3-8B",
+  "benchmark_name": "average",
+  "score": 15.157036730116474,
+  "score_raw": 15.157036730116474,
+  "evaluation_date": "2024-04-18",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 3287
+}

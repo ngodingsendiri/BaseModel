@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-lgai-exaone-exaone-3-5-2-4b-instruct",
+  "model_id": "LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct",
+  "benchmark_name": "bbh",
+  "score": 15.94743717105687,
+  "score_raw": 15.94743717105687,
+  "evaluation_date": "2024-12-01",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 3459
+}

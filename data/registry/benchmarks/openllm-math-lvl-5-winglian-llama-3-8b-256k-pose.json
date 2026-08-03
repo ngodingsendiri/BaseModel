@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-winglian-llama-3-8b-256k-pose",
+  "model_id": "winglian/llama-3-8b-256k-PoSE",
+  "benchmark_name": "math-lvl-5",
+  "score": 1.9637462235649545,
+  "score_raw": 1.9637462235649545,
+  "evaluation_date": "2024-04-26",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 3945
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-prithivmlmods-viper-onecoder-uigen",
+  "model_id": "prithivMLmods/Viper-OneCoder-UIGEN",
+  "benchmark_name": "average",
+  "score": 31.347294081128084,
+  "score_raw": 31.347294081128084,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 897
+}

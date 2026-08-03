@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-open-atlas-atlas-flash-1-5b-preview",
+  "model_id": "open-atlas/Atlas-Flash-1.5B-Preview",
+  "benchmark_name": "mmlu-pro",
+  "score": 4.153738179669029,
+  "score_raw": 4.153738179669029,
+  "evaluation_date": "2025-01-26",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4037
+}

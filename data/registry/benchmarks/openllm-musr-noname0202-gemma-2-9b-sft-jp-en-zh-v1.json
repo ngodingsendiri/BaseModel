@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-musr-noname0202-gemma-2-9b-sft-jp-en-zh-v1",
+  "model_id": "noname0202/gemma-2-9b-sft-jp-en-zh-v1",
+  "benchmark_name": "musr",
+  "score": 9.101302083333335,
+  "score_raw": 9.101302083333335,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 2548
+}

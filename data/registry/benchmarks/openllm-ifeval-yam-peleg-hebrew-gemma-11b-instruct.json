@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-ifeval-yam-peleg-hebrew-gemma-11b-instruct",
+  "model_id": "yam-peleg/Hebrew-Gemma-11B-Instruct",
+  "benchmark_name": "ifeval",
+  "score": 30.207737691547315,
+  "score_raw": 30.207737691547315,
+  "evaluation_date": "2024-03-06",
+  "source": "openllm",
+  "category": [
+    "instruction-following"
+  ],
+  "rank": 3294
+}

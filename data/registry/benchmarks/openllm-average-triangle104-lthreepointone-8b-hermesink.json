@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-triangle104-lthreepointone-8b-hermesink",
+  "model_id": "Triangle104/LThreePointOne-8B-HermesInk",
+  "benchmark_name": "average",
+  "score": 22.69615504867416,
+  "score_raw": 22.69615504867416,
+  "evaluation_date": "2025-02-14",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 2161
+}

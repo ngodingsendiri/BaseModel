@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-allknowingroger-ph3unsloth-3b-slerp",
+  "model_id": "allknowingroger/Ph3unsloth-3B-slerp",
+  "benchmark_name": "mmlu-pro",
+  "score": 30.010712174940902,
+  "score_raw": 30.010712174940902,
+  "evaluation_date": "2024-05-31",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 1826
+}

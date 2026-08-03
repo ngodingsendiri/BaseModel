@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-math-lvl-5-sakalti-oxyge1-33b",
+  "model_id": "Sakalti/Oxyge1-33B",
+  "benchmark_name": "math-lvl-5",
+  "score": 49.62235649546828,
+  "score_raw": 49.62235649546828,
+  "evaluation_date": "2024-12-08",
+  "source": "openllm",
+  "category": [
+    "math"
+  ],
+  "rank": 151
+}

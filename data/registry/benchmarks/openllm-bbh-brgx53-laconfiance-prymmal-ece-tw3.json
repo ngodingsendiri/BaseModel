@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-brgx53-laconfiance-prymmal-ece-tw3",
+  "model_id": "brgx53/LaConfiance-PRYMMAL-ECE-TW3",
+  "benchmark_name": "bbh",
+  "score": 1.9868050366680503,
+  "score_raw": 1.9868050366680503,
+  "evaluation_date": "2025-03-10",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4490
+}

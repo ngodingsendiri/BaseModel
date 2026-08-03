@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-average-supichi-bbai-135-gemma",
+  "model_id": "Supichi/BBAI_135_Gemma",
+  "benchmark_name": "average",
+  "score": 5.349663435184209,
+  "score_raw": 5.349663435184209,
+  "evaluation_date": "2025-02-26",
+  "source": "openllm",
+  "category": [
+    "overall"
+  ],
+  "rank": 4243
+}

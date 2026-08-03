@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "openllm-gpqa-sometimesanotion-lamarckinfusion-14b-v2-hi",
+  "model_id": "sometimesanotion/LamarckInfusion-14B-v2-hi",
+  "benchmark_name": "gpqa",
+  "score": 18.456375838926174,
+  "score_raw": 18.456375838926174,
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 134
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-bbh-ehristoforu-rmoe-v1",
+  "model_id": "ehristoforu/rmoe-v1",
+  "benchmark_name": "bbh",
+  "score": 2.0673206688657713,
+  "score_raw": 2.0673206688657713,
+  "evaluation_date": "2025-01-31",
+  "source": "openllm",
+  "category": [
+    "reasoning"
+  ],
+  "rank": 4482
+}

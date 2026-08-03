@@ -1,0 +1,13 @@
+{
+  "benchmark_id": "openllm-mmlu-pro-openllm-france-lucie-7b-instruct-human-data",
+  "model_id": "OpenLLM-France/Lucie-7B-Instruct-human-data",
+  "benchmark_name": "mmlu-pro",
+  "score": 4.772458628841606,
+  "score_raw": 4.772458628841606,
+  "evaluation_date": "2025-01-07",
+  "source": "openllm",
+  "category": [
+    "knowledge"
+  ],
+  "rank": 4018
+}
