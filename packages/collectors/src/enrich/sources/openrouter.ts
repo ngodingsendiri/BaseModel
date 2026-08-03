@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { fetchWithRetry } from '../../core/http.js';
 import { toModelSlug } from '../../core/slug.js';
 
 /**
@@ -59,7 +60,7 @@ export async function fetchOpenRouterModels(
 ): Promise<OpenRouterModel[]> {
   const headers: Record<string, string> = { 'Content-Type': 'application/json' };
   if (apiKey) headers.Authorization = `Bearer ${apiKey}`;
-  const response = await fetch(baseUrl, { headers, signal: AbortSignal.timeout(30_000) });
+  const response = await fetchWithRetry(baseUrl, { headers }, 4, 1000, 30_000);
   if (!response.ok) {
     throw new Error(`OpenRouter enrichment failed: HTTP ${response.status} ${response.statusText}`);
   }

@@ -21,6 +21,7 @@ import {
   readAllArraysFromDirectory,
   readAllFromDirectory,
   readRegistryFile,
+  writeBenchmarksRollup,
   writeRegistryFile,
 } from './storage.js';
 import { validate } from './validation.js';
@@ -91,7 +92,8 @@ export async function getAllCapabilities(): Promise<Capability[]> {
 // --- Benchmark ---
 
 export async function getAllBenchmarks(): Promise<Benchmark[]> {
-  const raw = await readAllFromDirectory('benchmarks');
+  // Benchmark records are persisted as per-source rollup arrays.
+  const raw = await readAllArraysFromDirectory('benchmarks');
   return raw.map((r) => BenchmarkSchema.parse(r));
 }
 
@@ -108,6 +110,15 @@ export async function saveBenchmark(benchmark: Benchmark): Promise<void> {
 
 export async function clearBenchmarksRegistry(): Promise<void> {
   await clearRegistryDirectory('benchmarks');
+}
+
+/**
+ * Replaces the benchmark set with per-source rollup files, keeping records
+ * from sources that were not collected in this run (partial-failure safety).
+ */
+export async function replaceAllBenchmarks(benchmarks: Benchmark[]): Promise<void> {
+  const existing = await getAllBenchmarks();
+  await writeBenchmarksRollup(benchmarks, existing);
 }
 
 // --- Pricing ---

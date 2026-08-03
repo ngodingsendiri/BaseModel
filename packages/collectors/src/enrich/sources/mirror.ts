@@ -1,4 +1,3 @@
-import { saveBenchmark } from '@basemodel/registry';
 import type { Benchmark } from '@basemodel/schema';
 import { normalizeElo, slugify } from './lmarena.js';
 
@@ -92,7 +91,6 @@ export async function enrichMirror(
         category: [name],
         rank: row.rank,
       };
-      await saveBenchmark(benchmark);
       benchmarks.push(benchmark);
     }
     console.log(`  mirror/${name}: ${file.models.length} rows -> ${benchmarks.length} records`);

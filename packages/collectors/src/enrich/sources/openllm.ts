@@ -1,4 +1,3 @@
-import { saveBenchmark } from '@basemodel/registry';
 import type { Benchmark } from '@basemodel/schema';
 import { fetchWithRetry, sleep, slugify } from './lmarena.js';
 
@@ -139,9 +138,6 @@ export async function enrichOpenLLM(
     ranked.forEach((record, index) => {
       record.rank = index + 1;
     });
-    for (const record of ranked) {
-      await saveBenchmark(record);
-    }
     saved += ranked.length;
   }
 

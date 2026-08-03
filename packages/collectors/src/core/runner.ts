@@ -16,6 +16,7 @@ import { ProviderSchema } from '@basemodel/schema';
 import { z } from 'zod';
 import type { CollectionResult, GatewayDescriptor } from './collector.js';
 import { getGatewaySecretKeys } from './gateway-secrets.js';
+import { fetchWithRetry } from './http.js';
 import { normalizeModelId, toModelSlug } from './slug.js';
 
 export { normalizeModelId, toModelSlug } from './slug.js';
@@ -37,9 +38,6 @@ const OpenAICompatibleResponseSchema = z.union([
   z.array(OpenAICompatibleModelSchema),
 ]);
 
-/** Transient HTTP statuses that are safe to retry with backoff. */
-const RETRYABLE_STATUSES = new Set([408, 429, 500, 502, 503, 504]);
-
 const HTTP_ERROR_HINTS: Record<number, string> = {
   401: 'Unauthorized: check that the API key is valid and has not expired or been rotated.',
   403: 'Forbidden: the API key may lack permission to list models.',
@@ -47,30 +45,6 @@ const HTTP_ERROR_HINTS: Record<number, string> = {
   412: 'Precondition failed: the provider may require billing setup, or the account is suspended or rate-limited.',
   429: 'Rate limited: retried with backoff, but the limit persisted.',
 };
-
-async function fetchWithRetry(
-  url: string,
-  init: RequestInit,
-  attempts = 3,
-  backoffMs = 1000,
-  timeoutMs = 15_000,
-): Promise<Response> {
-  let lastResponse: Response | undefined;
-  for (let attempt = 1; attempt <= attempts; attempt++) {
-    // Build a fresh signal per attempt so an aborted timeout on one attempt
-    // does not poison the retries. `AbortSignal.any` is available on Node 20.3+.
-    const signal = init.signal
-      ? AbortSignal.any([init.signal, AbortSignal.timeout(timeoutMs)])
-      : AbortSignal.timeout(timeoutMs);
-    const response = await fetch(url, { ...init, signal });
-    if (!RETRYABLE_STATUSES.has(response.status)) return response;
-    lastResponse = response;
-    if (attempt < attempts) {
-      await new Promise((resolve) => setTimeout(resolve, backoffMs * attempt));
-    }
-  }
-  return lastResponse as Response;
-}
 
 /** Extracts the model array from either an OpenAI wrapper or a bare array. */
 function responseModelArray(parsed: z.infer<typeof OpenAICompatibleResponseSchema>): Array<{
@@ -395,9 +369,19 @@ async function persistResult(result: CollectionResult): Promise<void> {
   let updatedCount = 0;
   let newCount = 0;
   let failedCount = 0;
+  // Track raw ids that normalize to the same model_id so a silent overwrite
+  // (two upstream paths sharing a last path segment) is at least visible.
+  const seenRawByModelId = new Map<string, string>();
   for (const partialModel of result.models) {
     if (!partialModel.model_id || !partialModel.provider_id) continue;
     const modelId = normalizeModelId(partialModel.model_id, partialModel.provider_id);
+    const previousRaw = seenRawByModelId.get(modelId);
+    if (previousRaw && previousRaw !== partialModel.model_id) {
+      console.warn(
+        `Collision in ${partialModel.provider_id}: "${previousRaw}" and "${partialModel.model_id}" both normalize to ${modelId} — last write wins.`,
+      );
+    }
+    seenRawByModelId.set(modelId, partialModel.model_id);
     const existing = await getModel(modelId);
     const mergedResult = mergeModelData(existing, { ...partialModel, model_id: modelId });
     if (mergedResult.success && mergedResult.data) {

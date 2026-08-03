@@ -1,5 +1,6 @@
 import type { Model } from '@basemodel/schema';
 import type { PricingSourceSpec } from '../../core/collector.js';
+import { fetchWithRetry } from '../../core/http.js';
 import { toModelSlug } from '../../core/slug.js';
 import type { OpenRouterModel } from './openrouter.js';
 
@@ -76,7 +77,7 @@ export async function fetchPricingCatalog(
   const url = source.url ?? `${baseUrl ?? ''}/models`;
   const headers: Record<string, string> = { 'Content-Type': 'application/json' };
   if (source.auth === 'secret' && apiKey) headers.Authorization = `Bearer ${apiKey}`;
-  const response = await fetch(url, { headers, signal: AbortSignal.timeout(30_000) });
+  const response = await fetchWithRetry(url, { headers }, 4, 1000, 30_000);
   if (!response.ok) {
     throw new Error(`Pricing catalog failed: HTTP ${response.status} ${response.statusText}`);
   }

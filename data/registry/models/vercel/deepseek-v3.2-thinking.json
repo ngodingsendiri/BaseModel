@@ -6,7 +6,7 @@
     "text"
   ],
   "open_weight": false,
-  "reasoning_support": false,
+  "reasoning_support": true,
   "function_calling": false,
   "structured_output": false,
   "vision_support": false,
@@ -15,5 +15,5 @@
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.138Z"
+  "updated_at": "2026-08-03T12:49:46.358Z"
 }

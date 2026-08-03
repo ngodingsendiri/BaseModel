@@ -1,6 +1,7 @@
 import { existsSync } from 'node:fs';
 import { mkdir, readdir, readFile, rename, rm, writeFile } from 'node:fs/promises';
 import { dirname, join, sep } from 'node:path';
+import type { Benchmark } from '@basemodel/schema';
 
 /**
  * Resolves the absolute path to the data/registry directory.
@@ -109,4 +110,43 @@ export async function deleteRegistryFile(relativePath: string): Promise<void> {
   const fullPath = join(REGISTRY_ROOT, relativePath);
   if (!existsSync(fullPath)) return;
   await rm(fullPath, { force: true });
+}
+
+/**
+ * Writes the benchmark set as one array file per source (rollup).
+ *
+ * Benchmarks are far too numerous to persist one-file-per-record (tens of
+ * thousands of tiny JSON files per nightly run bloats the git repository).
+ * Grouping by source keeps writes atomic and cheap while preserving
+ * provenance.
+ *
+ * Merge semantics: records from sources NOT present in this run are kept, so
+ * a source that failed tonight (rate limit, outage) never wipes its previous
+ * data — only sources that actually produced rows are refreshed.
+ */
+export async function writeBenchmarksRollup(
+  benchmarks: Benchmark[],
+  existing: Benchmark[] = [],
+): Promise<void> {
+  const bySource = new Map<string, Benchmark[]>();
+  for (const benchmark of benchmarks) {
+    const list = bySource.get(benchmark.source) ?? [];
+    list.push(benchmark);
+    bySource.set(benchmark.source, list);
+  }
+  const refreshedSources = new Set(bySource.keys());
+  const kept = existing.filter((benchmark) => !refreshedSources.has(benchmark.source));
+  const merged = [...kept, ...benchmarks];
+
+  const mergedBySource = new Map<string, Benchmark[]>();
+  for (const benchmark of merged) {
+    const list = mergedBySource.get(benchmark.source) ?? [];
+    list.push(benchmark);
+    mergedBySource.set(benchmark.source, list);
+  }
+
+  await clearRegistryDirectory('benchmarks');
+  for (const [source, records] of mergedBySource) {
+    await writeRegistryFile(`benchmarks/${source}.json`, records);
+  }
 }

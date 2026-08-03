@@ -31,6 +31,9 @@ export interface EnrichmentSummary {
   huggingFaceModels: number;
   providerPricingModels: number;
   tierPropagated: number;
+  reasoningFlagged: number;
+  /** Percentage of models with economics (tier/free) after enrichment. */
+  coveragePct: number;
   /** True when the primary pricing sources all failed and output is unusable. */
   fatal: boolean;
 }
@@ -240,6 +243,21 @@ function buildLimits(match: OpenRouterModel): Model['limits'] {
 }
 
 /**
+ * Conservative heuristic for reasoning-capable models based on widely used
+ * naming conventions (o1/o3/o4 series, "-r1", "thinking", "reasoning",
+ * "reasoner"). This never fabricates prices or capabilities — it only fills a
+ * flag collectors rarely report. Maintainers can refine the patterns.
+ */
+function inferReasoningSupport(model: Model): boolean {
+  const text = `${model.name ?? ''} ${model.model_id}`.toLowerCase();
+  if (/\bthinking\b/.test(text)) return true;
+  if (/\breasoning\b/.test(text)) return true;
+  if (/(^|[-_])(r1|reasoner|thinking)([-_]|$)/.test(text)) return true;
+  if (/^[a-z0-9-]+\/(o1|o3|o4)[-_]/.test(model.model_id)) return true;
+  return false;
+}
+
+/**
  * Runs the enrichment pipeline:
  * 1. Loads every model from the registry.
  * 2. Fetches pricing catalogs: per-gateway declared sources (provider's own
@@ -260,6 +278,8 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
     huggingFaceModels: 0,
     providerPricingModels: 0,
     tierPropagated: 0,
+    reasoningFlagged: 0,
+    coveragePct: 100,
     fatal: false,
   };
 
@@ -402,6 +422,17 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
     summary.tierPropagated++;
   }
 
+  // Reasoning support is independent of pricing; fill the flag with the
+  // conservative naming heuristic for every model (collectors rarely report
+  // it directly).
+  for (const model of models) {
+    if (model.reasoning_support) continue;
+    if (inferReasoningSupport(model)) {
+      await saveModel({ ...model, reasoning_support: true });
+      summary.reasoningFlagged++;
+    }
+  }
+
   // Merge: keep existing records for models we did not enrich, then
   // append newly derived records for enriched models. Records for models
   // that ended up with no economics (no tier and not free) are dropped so
@@ -446,8 +477,19 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
   // Fail loudly: when the primary pricing sources are all unavailable the
   // enriched output would silently mislead consumers. Surface it in the
   // summary, persist it to meta.json, and let the CLI exit non-zero.
+  // Fail loud: all pricing sources down, OR economics coverage collapsed.
+  // A CI failure here (via the CLI exit code) makes degraded data visible
+  // instead of shipping quietly.
+  const coveragePct = models.length > 0 ? (economicsModelIds.size / models.length) * 100 : 100;
+  summary.coveragePct = Math.round(coveragePct * 10) / 10;
   summary.fatal =
-    openRouterFailed && summary.providerPricingModels === 0 && summary.huggingFaceModels === 0;
+    (openRouterFailed && summary.providerPricingModels === 0 && summary.huggingFaceModels === 0) ||
+    summary.coveragePct < 50;
+  if (summary.fatal) {
+    summary.errors.push(
+      `Economics coverage too low (${summary.coveragePct}% of ${models.length} models); treating output as unhealthy.`,
+    );
+  }
   await writeRegistryFile('meta.json', {
     generated_at: new Date().toISOString(),
     fatal: summary.fatal,
@@ -455,6 +497,11 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
       openrouter: openRouterFailed ? 'failed' : 'ok',
       provider_pricing_models: summary.providerPricingModels,
       huggingface_models: summary.huggingFaceModels,
+    },
+    coverage: {
+      total_models: models.length,
+      tiered_models: economicsModelIds.size,
+      pct: summary.coveragePct,
     },
     errors: summary.errors,
   });

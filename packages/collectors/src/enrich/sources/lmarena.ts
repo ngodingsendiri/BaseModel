@@ -1,4 +1,3 @@
-import { saveBenchmark } from '@basemodel/registry';
 import type { Benchmark } from '@basemodel/schema';
 
 /**
@@ -152,7 +151,6 @@ export async function enrichBM(
     for (const row of rows) {
       if (!row.model_name || !Number.isFinite(row.rating)) continue;
       const benchmark = toBenchmark(config, row);
-      await saveBenchmark(benchmark);
       benchmarks.push(benchmark);
     }
     console.log(`  lmarena/${config}: ${rows.length} rows -> ${benchmarks.length} records`);
