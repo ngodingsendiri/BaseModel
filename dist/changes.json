@@ -1,20 +1,13 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "8d91ebf4",
-  "generated_at": "2026-08-05T05:43:51.398Z",
+  "source_revision": "29088dc7",
+  "generated_at": "2026-08-05T06:55:04.532Z",
   "summary": {
-    "added": 6,
+    "added": 0,
     "removed": 0,
     "status_changed": 0
   },
-  "added": [
-    "deepinfra/qwen3.8-max",
-    "openrouter/qwen3.8-max",
-    "requesty/qwen3.8-max",
-    "vercel/pplx-embed-v1-0.6b",
-    "vercel/pplx-embed-v1-4b",
-    "vercel/qwen3.8-max"
-  ],
+  "added": [],
   "removed": [],
   "status_changed": []
 }
