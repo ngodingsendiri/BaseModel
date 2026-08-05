@@ -1,16 +1,18 @@
 {
   "model_id": "vercel/claude-opus-4.5",
   "provider_id": "vercel",
-  "name": "anthropic/claude-opus-4.5",
+  "name": "Claude Opus 4.5",
+  "description": "Claude Opus 4.5 is Anthropic’s latest model in the Opus series, meant for demanding reasoning tasks and complex problem solving. This model has improvements in general intelligence and vision compared to previous iterations. In addition, it is suited for difficult coding tasks and agentic workflows, especially those with computer use and tool use, and can effectively handle context usage and external memory files.",
   "context_window": 200000,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
-  "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
-  "vision_support": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
@@ -21,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.074Z"
+  "updated_at": "2026-08-05T05:38:36.416Z"
 }

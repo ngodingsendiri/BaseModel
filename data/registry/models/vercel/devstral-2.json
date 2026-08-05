@@ -1,19 +1,21 @@
 {
   "model_id": "vercel/devstral-2",
   "provider_id": "vercel",
-  "name": "mistral/devstral-2",
+  "name": "Devstral 2",
+  "description": "An enterprise-grade text model that excels at using tools to explore codebases, editing multiple files, and powering software engineering agents.",
+  "context_window": 256000,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.314Z"
+  "updated_at": "2026-08-05T05:37:42.653Z"
 }

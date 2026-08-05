@@ -1,15 +1,16 @@
 {
   "model_id": "vercel/glm-4.6",
   "provider_id": "vercel",
-  "name": "zai/glm-4.6",
-  "context_window": 204800,
+  "name": "GLM 4.6",
+  "description": "As the latest iteration in the GLM series, GLM-4.6 achieves comprehensive enhancements across multiple domains, including real-world coding, long-context processing, reasoning, searching, writing, and agentic applications.",
+  "context_window": 200000,
   "modality": [
     "text"
   ],
   "open_weight": false,
-  "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.125Z"
+  "updated_at": "2026-08-05T05:38:36.486Z"
 }

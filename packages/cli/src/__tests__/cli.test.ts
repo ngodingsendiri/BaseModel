@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { parseSearchCriteria } from '../cli';
+import { parseBestCriteria, parseSearchCriteria } from '../cli';
 
 describe('parseSearchCriteria', () => {
   it('parses no flags into an empty criteria object', () => {
@@ -33,6 +33,22 @@ describe('parseSearchCriteria', () => {
     expect(parseSearchCriteria(['--bogus', 'value'])).toEqual({});
   });
 
+  it('parses a positional free-text query', () => {
+    expect(parseSearchCriteria(['gpt-4o'])).toEqual({ query: 'gpt-4o' });
+  });
+
+  it('parses query together with flags and limit', () => {
+    expect(parseSearchCriteria(['claude', '--provider', 'anthropic', '--limit', '5'])).toEqual({
+      query: 'claude',
+      providerIds: ['anthropic'],
+      limit: 5,
+    });
+  });
+
+  it('keeps only the first bare argument as the query', () => {
+    expect(parseSearchCriteria(['gpt', '4o'])).toEqual({ query: 'gpt' });
+  });
+
   it('handles mixed options in sequence', () => {
     expect(
       parseSearchCriteria([
@@ -48,5 +64,35 @@ describe('parseSearchCriteria', () => {
       modalities: ['text', 'image'],
       minContextWindow: 8192,
     });
+  });
+});
+
+describe('parseBestCriteria', () => {
+  it('parses no flags into an empty criteria object', () => {
+    expect(parseBestCriteria([])).toEqual({});
+  });
+
+  it('parses category, budget, context, and limit options', () => {
+    expect(
+      parseBestCriteria([
+        '--category',
+        'coding',
+        '--max-cost',
+        '1.5',
+        '--min-context',
+        '32000',
+        '--limit',
+        '3',
+      ]),
+    ).toEqual({
+      category: 'coding',
+      maxCost: 1.5,
+      minContextWindow: 32000,
+      limit: 3,
+    });
+  });
+
+  it('ignores unknown flags and missing values', () => {
+    expect(parseBestCriteria(['--bogus', 'x', '--max-cost'])).toEqual({});
   });
 });

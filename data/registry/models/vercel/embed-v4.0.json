@@ -1,9 +1,12 @@
 {
   "model_id": "vercel/embed-v4.0",
   "provider_id": "vercel",
-  "name": "cohere/embed-v4.0",
+  "name": "Embed v4.0",
+  "description": "A model that allows for text, images, or mixed content to be classified or turned into embeddings.",
+  "context_window": 128000,
   "modality": [
-    "text"
+    "text",
+    "embedding"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -12,8 +15,8 @@
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
-  "embedding_support": false,
+  "embedding_support": true,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.113Z"
+  "updated_at": "2026-08-05T05:37:42.335Z"
 }

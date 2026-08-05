@@ -1,9 +1,11 @@
 {
   "model_id": "vercel/gpt-image-1-mini",
   "provider_id": "vercel",
-  "name": "openai/gpt-image-1-mini",
+  "name": "GPT Image 1 Mini",
+  "description": "A cost-efficient version of GPT Image 1. It is a natively multimodal language model that accepts both text and image inputs, and produces image outputs.",
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -11,9 +13,9 @@
   "structured_output": false,
   "vision_support": false,
   "audio_support": false,
-  "image_generation": false,
+  "image_generation": true,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.473Z"
+  "updated_at": "2026-08-05T05:37:42.895Z"
 }

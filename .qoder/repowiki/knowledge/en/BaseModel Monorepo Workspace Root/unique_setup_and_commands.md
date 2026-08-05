@@ -1,0 +1,1 @@
+Requires Node.js ≥20 and pnpm ≥9. Setup: `pnpm install` then `pnpm build`. Daily workflow: `pnpm lint`, `pnpm typecheck`, `pnpm test`, `pnpm generate` (regenerates datasets in dist/). Package-specific commands use `pnpm --filter @basemodel/<pkg> run <script>`, e.g. `pnpm --filter @basemodel/collectors run collect` or `verify` against a specific gateway file.

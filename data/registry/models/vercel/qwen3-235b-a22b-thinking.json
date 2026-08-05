@@ -1,19 +1,22 @@
 {
   "model_id": "vercel/qwen3-235b-a22b-thinking",
   "provider_id": "vercel",
-  "name": "alibaba/qwen3-235b-a22b-thinking",
+  "name": "Qwen3 VL 235B A22B Thinking",
+  "description": "Qwen3 series VL models feature significantly enhanced multimodal reasoning capabilities, with a particular focus on optimizing the model for STEM and mathematical reasoning. Visual perception and recognition abilities have been comprehensively improved, and OCR capabilities have undergone a major upgrade.",
+  "context_window": 131072,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
   "reasoning_support": true,
-  "function_calling": false,
-  "structured_output": false,
-  "vision_support": false,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.377Z"
+  "updated_at": "2026-08-05T05:37:42.065Z"
 }

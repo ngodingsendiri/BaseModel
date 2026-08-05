@@ -9,6 +9,8 @@
  */
 
 export * from './core/engine';
+export * from './core/resolution';
 export * from './features/alternatives';
 export * from './features/cost';
 export * from './features/search';
+export * from './features/v2';

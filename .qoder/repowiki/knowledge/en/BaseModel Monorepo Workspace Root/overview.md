@@ -1,0 +1,1 @@
+Root workspace for BaseModel, an open-source AI model intelligence platform that discovers, validates, normalizes, stores, analyzes, and publishes structured knowledge about AI models via a pnpm monorepo.

@@ -15,6 +15,7 @@ or end-user application. It is the data layer that other systems consume.
 - `packages/intelligence` - Derived rankings, search, and recommendations.
 - `packages/publisher` - Dataset generation for `dist/`.
 - `packages/cli` - Command-line interface for querying intelligence.
+- `packages/mcp` - Model Context Protocol server for agent-native access.
 
 Canonical records live in `data/registry/`. Generated datasets are written to
 `dist/` and include:
@@ -27,6 +28,11 @@ Canonical records live in `data/registry/`. Generated datasets are written to
 - `benchmarks.json`
 - `pricing.json`
 - `intelligence.json`
+- `v2/models.json`, `v2/offerings.json`, `v2/intelligence.json`,
+  `v2/models.csv` — canonical models vs per-provider offerings with
+  benchmark quality scores and the Pareto frontier
+- `changes.json` — change feed versus the previous snapshot
+- `manifest.json` — SHA-256 checksums for snapshot integrity
 
 ## Documentation
 
@@ -38,6 +44,7 @@ Canonical records live in `data/registry/`. Generated datasets are written to
 - [Roadmap](docs/06_Roadmap.md)
 - [Developer Access](docs/07_Developer_Access.md)
 - [Gateway Plugin Security](docs/08_Gateway_Plugin_Security.md)
+- [Model vs Offering (v2 Data Model)](docs/09_Model_Offering_v2.md)
 
 ## Development
 
@@ -54,6 +61,8 @@ Useful package-level commands:
 
 - `pnpm --filter @basemodel/collectors run collect`
 - `pnpm --filter @basemodel/collectors run verify packages/collectors/src/gateways/openai.ts`
+- `pnpm --filter @basemodel/cli dev -- best --max-cost 2` — best quality per budget
+- `pnpm --filter @basemodel/collectors reclassify -- --dry-run` — repair legacy classifications
 
 ## License
 

@@ -1,9 +1,12 @@
 {
   "model_id": "vercel/kling-v3.0-i2v",
   "provider_id": "vercel",
-  "name": "klingai/kling-v3.0-i2v",
+  "name": "Kling v3.0 Image-to-Video",
+  "description": "Build upon an All-in-One product framework, the Kling 3.0 model series supports full multimodal input and output spanning text, images, audio, and video, bringing the understanding, generation, and editing of video together in one streamlined AI workflow. The models integrate multiple tasks, including text-to-video, image-to-video, reference-to-video, and in-video editing, into a single, native multimodal architecture, enabling the models to follow complex narrative logic, deliver precise shot control, and maintain strong prompt adherence.",
   "modality": [
-    "text"
+    "text",
+    "image",
+    "video"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -15,5 +18,5 @@
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.252Z"
+  "updated_at": "2026-08-05T05:37:42.569Z"
 }

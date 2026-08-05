@@ -4,7 +4,8 @@
   "name": "codestral-2508",
   "context_window": 256000,
   "modality": [
-    "text"
+    "text",
+    "code"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:44.875Z"
+  "updated_at": "2026-08-05T05:38:34.717Z"
 }

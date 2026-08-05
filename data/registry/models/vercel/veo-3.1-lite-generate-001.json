@@ -1,9 +1,12 @@
 {
   "model_id": "vercel/veo-3.1-lite-generate-001",
   "provider_id": "vercel",
-  "name": "google/veo-3.1-lite-generate-001",
+  "name": "Veo 3.1 Lite Generate",
+  "description": "Veo 3.1 Lite Preview is a high-efficiency, developer-first video model providing high-fidelity video generation, editing, and cinematic control. It leverages the state-of-the-art Veo 3.1 model to democratize professional-grade video AI by offering a scalable, programmable interface for creators and enterprises.",
   "modality": [
-    "text"
+    "text",
+    "image",
+    "video"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -15,5 +18,5 @@
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.228Z"
+  "updated_at": "2026-08-05T05:37:42.531Z"
 }

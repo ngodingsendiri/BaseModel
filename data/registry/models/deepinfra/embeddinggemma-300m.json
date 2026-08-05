@@ -3,7 +3,8 @@
   "provider_id": "deepinfra",
   "name": "google/embeddinggemma-300m",
   "modality": [
-    "text"
+    "text",
+    "embedding"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -12,8 +13,8 @@
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
-  "embedding_support": false,
+  "embedding_support": true,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.772Z"
+  "updated_at": "2026-08-05T05:37:43.005Z"
 }

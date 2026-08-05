@@ -1,0 +1,4 @@
+- Workspace scripts use `pnpm -r run` to delegate to all packages, keeping root package.json as a thin orchestration layer.
+- Each subpackage follows the same TypeScript configuration inherited from the root tsconfig.json (strict mode, declaration maps, source maps, isolatedModules).
+- Biome rules are centralized in the root biome.json and applied uniformly across `packages/**/*.ts`, `apps/**/*.ts(x)`, and `*.json` files.
+- New providers/gateways must implement existing schema contracts defined in `packages/schema` and register secrets through `packages/collectors/src/core/gateway-secrets.ts`.

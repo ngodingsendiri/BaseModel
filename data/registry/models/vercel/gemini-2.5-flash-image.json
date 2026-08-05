@@ -1,18 +1,20 @@
 {
   "model_id": "vercel/gemini-2.5-flash-image",
   "provider_id": "vercel",
-  "name": "google/gemini-2.5-flash-image",
+  "name": "Nano Banana (Gemini 2.5 Flash Image)",
+  "description": "Nano Banana (Gemini 2.5 Flash Image) is Google's first fully hybrid reasoning model, letting developers turn thinking on or off and set thinking budgets to balance quality, cost, and latency. Upgraded for rapid creative workflows, it can generate interleaved text and images and supports conversational, multi‑turn image editing in natural language. It’s also locale‑aware, enabling culturally and linguistically appropriate image generation for audiences worldwide.",
   "context_window": 32768,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
   "reasoning_support": false,
   "function_calling": false,
   "structured_output": false,
-  "vision_support": false,
+  "vision_support": true,
   "audio_support": false,
-  "image_generation": false,
+  "image_generation": true,
   "embedding_support": false,
   "is_free": false,
   "tier": "balanced",
@@ -21,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.101Z"
+  "updated_at": "2026-08-05T05:38:36.453Z"
 }

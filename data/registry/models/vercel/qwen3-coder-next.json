@@ -1,15 +1,16 @@
 {
   "model_id": "vercel/qwen3-coder-next",
   "provider_id": "vercel",
-  "name": "alibaba/qwen3-coder-next",
-  "context_window": 262144,
+  "name": "Qwen3 Coder Next",
+  "description": "Qwen3-Coder-Next is an open-weight language model built specifically for coding, with strong performance on large-scale software engineering and agentic coding benchmarks. It uses a hybrid Mixture-of-Experts architecture to offer high capability at relatively modest active parameter counts, improving efficiency for real-world deployments. The model is trained on diverse code and natural language data so it can handle tasks like code generation, refactoring, debugging, repository-level reasoning, and technical explanation across multiple programming languages. It is also optimized for tool use and function calling, making it suitable as the core of coding agents that interact with shells, editors, issue trackers, and other developer tools.",
+  "context_window": 256000,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.236Z"
+  "updated_at": "2026-08-05T05:38:36.640Z"
 }

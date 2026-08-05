@@ -1,19 +1,21 @@
 {
   "model_id": "vercel/minimax-m2.1-lightning",
   "provider_id": "vercel",
-  "name": "minimax/minimax-m2.1-lightning",
+  "name": "MiniMax M2.1 Lightning",
+  "description": "MiniMax-M2.1-lightning is a faster version of MiniMax-M2.1, offering the same performance but with significantly higher throughput (output speed ~100 TPS, MiniMax-M2 output speed ~60 TPS).",
+  "context_window": 204800,
   "modality": [
     "text"
   ],
   "open_weight": false,
-  "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.293Z"
+  "updated_at": "2026-08-05T05:37:42.626Z"
 }

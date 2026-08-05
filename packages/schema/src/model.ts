@@ -10,7 +10,7 @@ import { ModelLimitsSchema } from './limits.js';
  */
 export const ModelSchema = z.object({
   // --- Identifiers ---
-  model_id: z.string().regex(/^[a-z0-9-]+\/[a-z0-9]+(?:[-.][a-z0-9]+)*$/, {
+  model_id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*\/[a-z0-9]+(?:[-.][a-z0-9]+)*$/, {
     message: 'model_id must follow "{provider_id}/{model-slug}" format (e.g. "openai/gpt-4o")',
   }),
   provider_id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),

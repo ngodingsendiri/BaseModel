@@ -1,19 +1,22 @@
 {
   "model_id": "vercel/qwen3.5-flash",
   "provider_id": "vercel",
-  "name": "alibaba/qwen3.5-flash",
+  "name": "Qwen 3.5 Flash",
+  "description": "The Qwen3.5 native vision-language Flash models are built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. Compared to the 3 series, these models deliver a leap forward in performance for both pure text and multimodal tasks, offering fast response times while balancing inference speed and overall performance.",
+  "context_window": 1000000,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
-  "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
-  "vision_support": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:06.931Z"
+  "updated_at": "2026-08-05T05:37:42.139Z"
 }

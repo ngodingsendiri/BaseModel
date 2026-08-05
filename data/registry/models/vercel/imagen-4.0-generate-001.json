@@ -1,9 +1,12 @@
 {
   "model_id": "vercel/imagen-4.0-generate-001",
   "provider_id": "vercel",
-  "name": "google/imagen-4.0-generate-001",
+  "name": "Imagen 4",
+  "description": "Imagen 4: Google's flagship text-to-image model that serves as the go-to choice for a wide variety of high-quality image generation tasks, featuring significant improvements in text rendering over previous models. It now supports up to 2K resolution generation for creating detailed and crisp visuals, making it suitable for everything from marketing assets to artistic compositions.",
+  "context_window": 480,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -11,9 +14,9 @@
   "structured_output": false,
   "vision_support": false,
   "audio_support": false,
-  "image_generation": false,
+  "image_generation": true,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.207Z"
+  "updated_at": "2026-08-05T05:37:42.506Z"
 }

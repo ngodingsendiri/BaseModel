@@ -2,15 +2,17 @@
   "model_id": "requesty/gpt-5.4-pro",
   "provider_id": "requesty",
   "name": "openai-responses/gpt-5.4-pro",
+  "description": "GPT-5.4 Pro is OpenAI's most advanced model, building on GPT-5.4's unified architecture with enhanced reasoning capabilities for complex, high-stakes tasks. It features a 1M+ token context window (922K input, 128K output) with support for text and image inputs. Optimized for step-by-step reasoning, instruction following, and accuracy, GPT-5.4 Pro excels at agentic coding, long-context workflows, and multi-step problem solving.",
   "context_window": 1050000,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
-  "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
-  "vision_support": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
@@ -21,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:45.824Z"
+  "updated_at": "2026-08-05T05:38:36.070Z"
 }

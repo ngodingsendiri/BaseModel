@@ -1,9 +1,11 @@
 {
   "model_id": "vercel/text-embedding-005",
   "provider_id": "vercel",
-  "name": "google/text-embedding-005",
+  "name": "Text Embedding 005",
+  "description": "English-focused text embedding model optimized for code and English language tasks.",
   "modality": [
-    "text"
+    "text",
+    "embedding"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -12,8 +14,8 @@
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
-  "embedding_support": false,
+  "embedding_support": true,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.211Z"
+  "updated_at": "2026-08-05T05:37:42.513Z"
 }

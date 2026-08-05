@@ -1,19 +1,21 @@
 {
   "model_id": "vercel/qwen3-coder-30b-a3b",
   "provider_id": "vercel",
-  "name": "alibaba/qwen3-coder-30b-a3b",
+  "name": "Qwen 3 Coder 30B A3B Instruct",
+  "description": "Efficient coding specialist balancing performance with cost-effectiveness for daily development tasks while maintaining strong tool integration capabilities.",
+  "context_window": 262144,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:06.890Z"
+  "updated_at": "2026-08-05T05:37:42.076Z"
 }

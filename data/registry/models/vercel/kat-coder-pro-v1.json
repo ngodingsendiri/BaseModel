@@ -1,19 +1,21 @@
 {
   "model_id": "vercel/kat-coder-pro-v1",
   "provider_id": "vercel",
-  "name": "kwaipilot/kat-coder-pro-v1",
+  "name": "KAT-Coder-Pro V1",
+  "description": "KAT-Coder-Pro V1 is KwaiKAT's most advanced agentic coding model in the KwaiKAT series. Designed specifically for agentic coding tasks, it excels in real-world software engineering scenarios, achieving a remarkable 73.4% solve rate on the SWE-Bench Verified benchmark. KAT-Coder-Pro V1 delivers top-tier coding performance and has been rigorously tested by thousands of in-house engineers. The model has been optimized for tool-use capability, multi-turn interaction, instruction following, generalization and comprehensive capabilities through a multi-stage training process, including mid-training, supervised fine-tuning (SFT), reinforcement fine-tuning (RFT), and scalable agentic RL.",
+  "context_window": 256000,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.261Z"
+  "updated_at": "2026-08-05T05:37:42.583Z"
 }

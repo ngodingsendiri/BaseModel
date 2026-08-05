@@ -2,15 +2,17 @@
   "model_id": "requesty/grok-4.2-beta",
   "provider_id": "requesty",
   "name": "xai/grok-4.2-beta",
+  "description": "Grok 4.20 Beta is xAI's newest flagship model with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherance, delivering consistently precise and truthful responses.",
   "context_window": 2000000,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
-  "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
-  "vision_support": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
@@ -21,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:45.883Z"
+  "updated_at": "2026-08-05T05:38:36.142Z"
 }

@@ -1,15 +1,16 @@
 {
   "model_id": "vercel/laguna-s-2.1-free",
   "provider_id": "vercel",
-  "name": "poolside/laguna-s-2.1-free",
-  "context_window": 262144,
+  "name": "Laguna S 2.1 Free",
+  "description": "Laguna S 2.1 is Poolside's new open-weight model for agentic coding and long-horizon work.",
+  "context_window": 256000,
   "modality": [
     "text"
   ],
   "open_weight": false,
-  "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.204Z"
+  "updated_at": "2026-08-05T05:38:36.593Z"
 }

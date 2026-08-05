@@ -1,0 +1,24 @@
+# 知识卡导出索引文件
+schema_version: 1
+locale: en-US
+branch: main
+nodes_managed: true
+exported_at: "2026-08-05T04:24:08Z"
+modules:
+    "":
+        dir_name: BaseModel Monorepo Workspace Root
+        title: BaseModel Monorepo Workspace Root
+        scope:
+            - README.md
+            - CONTRIBUTING.md
+            - .gitignore
+            - package.json
+            - pnpm-workspace.yaml
+            - tsconfig.json
+            - biome.json
+            - LICENSE
+            - pnpm-lock.yaml
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []

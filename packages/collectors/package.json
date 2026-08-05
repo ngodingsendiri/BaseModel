@@ -17,6 +17,8 @@
     "collect": "tsx src/run.ts",
     "enrich": "tsx src/enrich/run.ts",
     "collect-benchmarks": "tsx src/enrich/benchmarks-run.ts",
+    "reclassify": "tsx src/maintenance/reclassify.ts",
+    "repair-flags": "tsx src/maintenance/repair-provider-flags.ts",
     "verify": "tsx src/core/verify.ts",
     "typecheck": "tsc --noEmit",
     "test": "vitest run --passWithNoTests",

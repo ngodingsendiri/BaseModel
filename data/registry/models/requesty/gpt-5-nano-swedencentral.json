@@ -2,14 +2,15 @@
   "model_id": "requesty/gpt-5-nano-swedencentral",
   "provider_id": "requesty",
   "name": "azure/gpt-5-nano@swedencentral",
+  "description": "GPT-5 Nano is our fastest, cheapest version of GPT-5. It's great for summarization and classification tasks.",
   "context_window": 200000,
   "modality": [
     "text"
   ],
   "open_weight": false,
-  "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:45.784Z"
+  "updated_at": "2026-08-05T05:38:36.021Z"
 }

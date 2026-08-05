@@ -1,9 +1,12 @@
 {
   "model_id": "vercel/kling-v2.5-turbo-i2v",
   "provider_id": "vercel",
-  "name": "klingai/kling-v2.5-turbo-i2v",
+  "name": "Kling v2.5 Turbo Image-to-Video",
+  "description": "Kling 2.5 Turbo is a major update to the AI video generation model focused on significantly improving speed, video quality, temporal stability, and creative control for creators, making professional-grade AI-generated video faster, more coherent, and easier to direct from text prompts.",
   "modality": [
-    "text"
+    "text",
+    "image",
+    "video"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -15,5 +18,5 @@
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.240Z"
+  "updated_at": "2026-08-05T05:37:42.551Z"
 }

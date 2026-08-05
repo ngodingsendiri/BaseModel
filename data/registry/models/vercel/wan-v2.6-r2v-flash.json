@@ -1,9 +1,12 @@
 {
   "model_id": "vercel/wan-v2.6-r2v-flash",
   "provider_id": "vercel",
-  "name": "alibaba/wan-v2.6-r2v-flash",
+  "name": "Wan v2.6 Reference-to-Video Flash",
+  "description": "",
   "modality": [
-    "text"
+    "text",
+    "image",
+    "video"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -15,5 +18,5 @@
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:06.970Z"
+  "updated_at": "2026-08-05T05:37:42.176Z"
 }

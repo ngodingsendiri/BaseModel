@@ -2,7 +2,8 @@
   "model_id": "requesty/llama-3.1-8b-instruct",
   "provider_id": "requesty",
   "name": "novita/meta-llama/llama-3.1-8b-instruct",
-  "context_window": 131072,
+  "description": "Meta's latest class of models, Llama 3.1, launched with a variety of sizes and configurations. The 8B instruct-tuned version is particularly fast and efficient. It has demonstrated strong performance in human evaluations, outperforming several leading closed-source models.",
+  "context_window": 16384,
   "modality": [
     "text"
   ],
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:45.925Z"
+  "updated_at": "2026-08-05T05:38:36.212Z"
 }

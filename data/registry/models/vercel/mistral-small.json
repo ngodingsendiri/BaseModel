@@ -1,19 +1,22 @@
 {
   "model_id": "vercel/mistral-small",
   "provider_id": "vercel",
-  "name": "mistral/mistral-small",
+  "name": "Mistral Small",
+  "description": "Mistral Small is the ideal choice for simple tasks that one can do in bulk - like Classification, Customer Support, or Text Generation. It offers excellent performance at an affordable price point.",
+  "context_window": 32000,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
   "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
-  "vision_support": false,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.343Z"
+  "updated_at": "2026-08-05T05:37:42.696Z"
 }

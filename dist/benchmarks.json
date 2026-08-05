@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "74c19f36",
-  "generated_at": "2026-08-03T12:55:58.027Z",
-  "count": 147,
+  "source_revision": "8d91ebf4",
+  "generated_at": "2026-08-05T05:43:51.398Z",
+  "count": 149,
   "benchmarks": [
     {
       "benchmark_id": "mirror-code-claude-fable-5",
@@ -96,6 +96,19 @@
       "rank": 17
     },
     {
+      "benchmark_id": "mirror-code-qwen3-8-max",
+      "model_id": "qwen3.8-max",
+      "benchmark_name": "code",
+      "score": 100,
+      "score_raw": 1668,
+      "evaluation_date": "2026-08-03",
+      "source": "mirror",
+      "category": [
+        "code"
+      ],
+      "rank": 4
+    },
+    {
       "benchmark_id": "mirror-text-claude-fable-5",
       "model_id": "claude-fable-5",
       "benchmark_name": "text",
@@ -185,6 +198,19 @@
         "text"
       ],
       "rank": 9
+    },
+    {
+      "benchmark_id": "mirror-text-qwen3-8-max",
+      "model_id": "qwen3.8-max",
+      "benchmark_name": "text",
+      "score": 87,
+      "score_raw": 1496,
+      "evaluation_date": "2026-08-03",
+      "source": "mirror",
+      "category": [
+        "text"
+      ],
+      "rank": 5
     },
     {
       "benchmark_id": "openllm-average-alpindale-wizardlm-2-8x22b",

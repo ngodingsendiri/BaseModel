@@ -1,16 +1,18 @@
 {
   "model_id": "vercel/claude-3-haiku",
   "provider_id": "vercel",
-  "name": "anthropic/claude-3-haiku",
+  "name": "Claude 3 Haiku",
+  "description": "Claude 3 Haiku is Anthropic's fastest, most compact model for near-instant responsiveness. It answers simple queries and requests with speed. Customers will be able to build seamless AI experiences that mimic human interactions. Claude 3 Haiku can process images and return text outputs, and features a 200K context window.",
   "context_window": 200000,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
   "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
-  "vision_support": false,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
@@ -21,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.069Z"
+  "updated_at": "2026-08-05T05:38:36.408Z"
 }

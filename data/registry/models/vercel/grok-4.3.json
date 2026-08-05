@@ -1,16 +1,18 @@
 {
   "model_id": "vercel/grok-4.3",
   "provider_id": "vercel",
-  "name": "xai/grok-4.3",
+  "name": "Grok 4.3",
+  "description": "Grok 4.3 is a new model matching the scale of Grok 4.20 with an improved architecture and a December 2025 knowledge cutoff.",
   "context_window": 1000000,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
-  "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
-  "vision_support": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
@@ -21,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.184Z"
+  "updated_at": "2026-08-05T05:38:36.567Z"
 }

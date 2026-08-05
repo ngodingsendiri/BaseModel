@@ -4,7 +4,8 @@
   "name": "google/lyria-3-clip-preview",
   "context_window": 1048576,
   "modality": [
-    "text"
+    "text",
+    "embedding"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -13,7 +14,7 @@
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
-  "embedding_support": false,
+  "embedding_support": true,
   "is_free": true,
   "tier": "free",
   "limits": {
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:45.204Z"
+  "updated_at": "2026-08-05T05:38:35.207Z"
 }

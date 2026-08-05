@@ -1,18 +1,20 @@
 {
   "model_id": "vercel/gemini-3-pro-image",
   "provider_id": "vercel",
-  "name": "google/gemini-3-pro-image",
-  "context_window": 131072,
+  "name": "Nano Banana Pro (Gemini 3 Pro Image)",
+  "description": "Nano Banana Pro (Gemini 3 Pro Image) builds on Nano Banana's generation capabilities into a new era of studio-quality, functional design to help you create and edit high-fidelity, production-ready visuals with unparalleled precision and control. Improvements include enhanced world knowledge and reasoning, dynamic text and translation, and studio level controls.",
+  "context_window": 65536,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
   "reasoning_support": false,
   "function_calling": false,
   "structured_output": false,
-  "vision_support": false,
+  "vision_support": true,
   "audio_support": false,
-  "image_generation": false,
+  "image_generation": true,
   "embedding_support": false,
   "is_free": false,
   "tier": "balanced",
@@ -21,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.106Z"
+  "updated_at": "2026-08-05T05:38:36.461Z"
 }

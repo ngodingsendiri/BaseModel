@@ -1,9 +1,12 @@
 {
   "model_id": "vercel/flux-kontext-pro",
   "provider_id": "vercel",
-  "name": "bfl/flux-kontext-pro",
+  "name": "FLUX.1 Kontext Pro",
+  "description": "FLUX.1 Kontext creates images from text prompts with unique capabilities for character consistency and advanced editing. It also edits images using simple text prompts. No complex workflows or fine-tuning needed.\nThis provider gives the option to change the moderation level for inputs and outputs. The control is under safety tolerance and is by default 2 on a range from 0 (more strict) through 6 (more permissive).",
+  "context_window": 512,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -11,9 +14,9 @@
   "structured_output": false,
   "vision_support": false,
   "audio_support": false,
-  "image_generation": false,
+  "image_generation": true,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.064Z"
+  "updated_at": "2026-08-05T05:37:42.276Z"
 }

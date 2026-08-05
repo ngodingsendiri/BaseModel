@@ -2,14 +2,15 @@
   "model_id": "requesty/open-mistral-7b",
   "provider_id": "requesty",
   "name": "mistral/open-mistral-7b",
+  "description": "OpenMistral-7B (officially Mistral 7B) is a highly efficient, 7.3-billion parameter open-weight language model released by Mistral AI. Praised for its excellent performance-to-size ratio, it frequently outperforms much larger proprietary and open-source models while being light enough to run on standard consumer hardware. ",
   "context_window": 32768,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.010Z"
+  "updated_at": "2026-08-05T05:38:36.328Z"
 }

@@ -1,19 +1,21 @@
 {
   "model_id": "vercel/deepseek-v3.2-thinking",
   "provider_id": "vercel",
-  "name": "deepseek/deepseek-v3.2-thinking",
+  "name": "DeepSeek V3.2 Thinking",
+  "description": "DeepSeek‑V3.2 from DeepSeek harmonizes high computational efficiency with superior reasoning and agent performance. It builds on three main techniques: DeepSeek Sparse Attention for long‑context efficiency, a scalable reinforcement learning framework, and a large‑scale agentic task synthesis pipeline. This model excels at long-context reasoning and agentic tasks, efficiently handling extended inputs while maintaining strong accuracy. Its sparse attention design enables it to process complex, multi-step workflows without excessive compute costs. Overall, DeepSeek‑V3.2 targets long‑context reasoning, tool‑using agents, and efficient deployment in production environments.",
+  "context_window": 128000,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": true,
-  "function_calling": false,
-  "structured_output": false,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.358Z"
+  "updated_at": "2026-08-05T05:37:42.390Z"
 }

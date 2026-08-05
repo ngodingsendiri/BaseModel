@@ -2,14 +2,15 @@
   "model_id": "requesty/deepseek-v3.1",
   "provider_id": "requesty",
   "name": "deepinfra/deepseek-ai/DeepSeek-V3.1",
+  "description": "DeepSeek-V3.1 by DeepSeek-AI is a state-of-the-art, hybrid-inference artificial intelligence model that allows users to toggle between fast conversational responses and deep logical reasoning modes within a single architecture.",
   "context_window": 163840,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:45.602Z"
+  "updated_at": "2026-08-05T05:38:35.746Z"
 }

@@ -1,19 +1,22 @@
 {
   "model_id": "vercel/minimax-h3",
   "provider_id": "vercel",
-  "name": "minimax/minimax-h3",
+  "name": "MiniMax H3",
+  "description": "H3 is a next-generation open-weights, general-purpose multimodal video model. Rather than being limited to specialized tasks such as generating, editing, or referencing, H3 understands multimodal contexts that bring together text, images, video, and audio. This enables it to interpret creative intent in a unified way and deliver more natural, coherent generation and expression.",
   "modality": [
-    "text"
+    "text",
+    "image",
+    "video"
   ],
   "open_weight": false,
   "reasoning_support": false,
   "function_calling": false,
   "structured_output": false,
-  "vision_support": false,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.285Z"
+  "updated_at": "2026-08-05T05:37:42.615Z"
 }

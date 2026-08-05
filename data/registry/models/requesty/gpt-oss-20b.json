@@ -2,14 +2,15 @@
   "model_id": "requesty/gpt-oss-20b",
   "provider_id": "requesty",
   "name": "groq/openai/gpt-oss-20b",
+  "description": "OpenAI's gpt-oss-20b is a 21-billion parameter, open-weight reasoning model released under the Apache 2.0 license. Designed for local execution on consumer hardware and low-latency workflows, it delivers reasoning capabilities and benchmark performance comparable to the OpenAI o3-mini models.",
   "context_window": 131072,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:45.865Z"
+  "updated_at": "2026-08-05T05:38:36.124Z"
 }

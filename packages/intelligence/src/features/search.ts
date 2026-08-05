@@ -2,6 +2,9 @@ import type { Model } from '@basemodel/schema';
 import type { IntelligenceEngine } from '../core/engine';
 
 export interface SearchCriteria {
+  /** Free-text match against model id and name (case-insensitive substring). */
+  query?: string;
+
   /** Array of provider IDs. If provided, models must belong to one of these. */
   providerIds?: string[];
 
@@ -13,12 +16,22 @@ export interface SearchCriteria {
 
   /** Minimum context window required. */
   minContextWindow?: number;
+
+  /** Maximum number of results to return. */
+  limit?: number;
 }
 
 export function searchModels(engine: IntelligenceEngine, criteria: SearchCriteria): Model[] {
   engine.ensureLoaded();
 
-  return engine.models.filter((model) => {
+  const matches = engine.models.filter((model) => {
+    // Check free-text query against id and name.
+    if (criteria.query) {
+      const needle = criteria.query.toLowerCase();
+      const haystack = `${model.model_id} ${model.name}`.toLowerCase();
+      if (!haystack.includes(needle)) return false;
+    }
+
     // Check provider
     if (criteria.providerIds && criteria.providerIds.length > 0) {
       if (!criteria.providerIds.includes(model.provider_id)) return false;
@@ -49,4 +62,6 @@ export function searchModels(engine: IntelligenceEngine, criteria: SearchCriteri
 
     return true;
   });
+
+  return criteria.limit !== undefined ? matches.slice(0, criteria.limit) : matches;
 }

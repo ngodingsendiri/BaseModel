@@ -1,9 +1,12 @@
 {
   "model_id": "vercel/seedance-v1.0-pro-fast",
   "provider_id": "vercel",
-  "name": "bytedance/seedance-v1.0-pro-fast",
+  "name": "Seedance v1.0 Pro Fast",
+  "description": "Seedance 1.0 Pro Fast delivers top performance at an unbeatable price, balancing quality, speed, and cost. Built on Seedance 1.0 Pro’s core strengths, it’s faster and more cost-efficient for creators.",
   "modality": [
-    "text"
+    "text",
+    "image",
+    "video"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -15,5 +18,5 @@
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.095Z"
+  "updated_at": "2026-08-05T05:37:42.304Z"
 }

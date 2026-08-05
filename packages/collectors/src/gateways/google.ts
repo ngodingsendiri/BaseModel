@@ -81,8 +81,11 @@ export default {
                 : ['text'],
           open_weight: false,
           reasoning_support: isGemini && lowerName.includes('thinking'),
-          function_calling: methods.includes('generateContent'),
-          structured_output: methods.includes('generateContent'),
+          // `generateContent` is the base generation method every listing
+          // entry carries, so it cannot signal tool support; only Gemini
+          // chat models expose function calling / structured output.
+          function_calling: isGemini,
+          structured_output: isGemini,
           vision_support: isGemini && !isEmbedding,
           audio_support: isGemini && !isEmbedding,
           image_generation:

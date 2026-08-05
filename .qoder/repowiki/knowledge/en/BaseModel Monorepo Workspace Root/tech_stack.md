@@ -1,0 +1,1 @@
+TypeScript with ES2022 target and ESNext modules using bundler moduleResolution; pnpm 9+ as the package manager (enforced via engines and packageManager field); Biome 2.x for linting and formatting; Node.js 20+ required.

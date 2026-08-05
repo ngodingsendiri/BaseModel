@@ -1,16 +1,18 @@
 {
   "model_id": "vercel/gemini-3.1-flash-lite",
   "provider_id": "vercel",
-  "name": "google/gemini-3.1-flash-lite",
-  "context_window": 1048576,
+  "name": "Gemini 3.1 Flash Lite",
+  "description": "Gemini 3.1 Flash Lite outperforms 2.5 Flash Lite on overall quality and lands close to 2.5 Flash performance across key capability areas. It is a workhorse model for high-volume use cases, with improvements across audio input/ASR, RAG snippet ranking, translation, data extraction, and code completion.",
+  "context_window": 1000000,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
-  "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
-  "vision_support": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
@@ -21,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.112Z"
+  "updated_at": "2026-08-05T05:38:36.469Z"
 }

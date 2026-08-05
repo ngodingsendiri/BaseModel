@@ -1,9 +1,12 @@
 {
   "model_id": "vercel/rerank-v4-pro",
   "provider_id": "vercel",
-  "name": "cohere/rerank-v4-pro",
+  "name": "Cohere Rerank 4 Pro",
+  "description": "A multilingual model that allows for re-ranking English and non-english documents and semi-structured data (JSON). This model is better suited for state-of-the-art quality and complex use-cases than its fast variant.",
+  "context_window": 32000,
   "modality": [
-    "text"
+    "text",
+    "embedding"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -12,8 +15,8 @@
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
-  "embedding_support": false,
+  "embedding_support": true,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.121Z"
+  "updated_at": "2026-08-05T05:37:42.349Z"
 }

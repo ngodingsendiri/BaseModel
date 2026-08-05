@@ -154,6 +154,48 @@ describe('Intelligence Layer', () => {
       expect(report.blendedCost).toBe(0);
       expect(report.tier).toBe('Free');
     });
+
+    it('prefers the provider catalog over aggregate sources deterministically', () => {
+      engine.pricing = [
+        {
+          pricing_id: 'hf-in',
+          model_id: 'openai/gpt-4o',
+          pricing_type: 'input-token',
+          unit: '1M tokens',
+          value: 99,
+          source: 'huggingface',
+        },
+        {
+          pricing_id: 'or-in',
+          model_id: 'openai/gpt-4o',
+          pricing_type: 'input-token',
+          unit: '1M tokens',
+          value: 50,
+          source: 'openrouter',
+        },
+        {
+          pricing_id: 'own-in',
+          model_id: 'openai/gpt-4o',
+          pricing_type: 'input-token',
+          unit: '1M tokens',
+          value: 5,
+          source: 'openai',
+        },
+        {
+          pricing_id: 'own-out',
+          model_id: 'openai/gpt-4o',
+          pricing_type: 'output-token',
+          unit: '1M tokens',
+          value: 15,
+          source: 'openai',
+        },
+      ];
+
+      const report = calculateCostEfficiency(engine, 'openai/gpt-4o');
+      expect(report.inputCostPer1M).toBe(5);
+      expect(report.outputCostPer1M).toBe(15);
+      expect(report.blendedCost).toBe(7.5);
+    });
   });
 
   describe('Alternatives', () => {

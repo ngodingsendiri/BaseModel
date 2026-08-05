@@ -1,19 +1,21 @@
 {
   "model_id": "vercel/gpt-realtime-whisper",
   "provider_id": "vercel",
-  "name": "openai/gpt-realtime-whisper",
+  "name": "gpt-realtime-whisper",
+  "description": "GPT Realtime Whisper is a streaming speech-to-text model for applications that need low-latency transcript deltas from live audio. It is designed for realtime use cases where developers need to tune latency and accuracy. GPT Realtime Whisper is priced by audio duration rather than text tokens.",
   "modality": [
-    "text"
+    "text",
+    "audio"
   ],
   "open_weight": false,
   "reasoning_support": false,
   "function_calling": false,
   "structured_output": false,
   "vision_support": false,
-  "audio_support": false,
+  "audio_support": true,
   "image_generation": false,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.495Z"
+  "updated_at": "2026-08-05T05:37:42.934Z"
 }

@@ -1,19 +1,21 @@
 {
   "model_id": "vercel/llama-3.1-70b",
   "provider_id": "vercel",
-  "name": "meta/llama-3.1-70b",
+  "name": "Llama 3.1 70B Instruct",
+  "description": "An update to Meta Llama 3 70B Instruct that includes an expanded 128K context length, multilinguality and improved reasoning capabilities.",
+  "context_window": 128000,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.269Z"
+  "updated_at": "2026-08-05T05:37:42.594Z"
 }

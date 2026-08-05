@@ -1,15 +1,16 @@
 {
   "model_id": "vercel/qwen3-coder",
   "provider_id": "vercel",
-  "name": "alibaba/qwen3-coder",
+  "name": "Qwen3 Coder 480B A35B Instruct",
+  "description": "Qwen3-Coder-480B-A35B-Instruct is a cutting-edge open coding model from Qwen, matching Claude Sonnet’s performance in agentic programming, browser automation, and core development tasks.",
   "context_window": 262144,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.238Z"
+  "updated_at": "2026-08-05T05:38:36.644Z"
 }

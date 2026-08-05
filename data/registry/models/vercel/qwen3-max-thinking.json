@@ -1,15 +1,16 @@
 {
   "model_id": "vercel/qwen3-max-thinking",
   "provider_id": "vercel",
-  "name": "alibaba/qwen3-max-thinking",
-  "context_window": 262144,
+  "name": "Qwen 3 Max Thinking",
+  "description": "Compared with the snapshot as of September 23, 2025, the Qwen-3 series Max model in this release achieves an effective integration of thinking and non-thinking modes, resulting in a comprehensive and substantial improvement in the model’s overall performance. In thinking mode, the model simultaneously supports web search, web information extraction, and a code interpreter tool, enabling it to tackle more complex and challenging problems with greater accuracy by leveraging external tools while engaging in slow, deliberative reasoning. This version is based on a snapshot taken on January 23, 2026.",
+  "context_window": 256000,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": true,
-  "function_calling": false,
-  "structured_output": false,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.378Z"
+  "updated_at": "2026-08-05T05:38:36.646Z"
 }

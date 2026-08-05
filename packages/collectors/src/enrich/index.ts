@@ -56,8 +56,8 @@ function indexOpenRouter(models: OpenRouterModel[]): {
 
 interface ProviderPricingCatalog {
   providerId: string;
-  baseUrl: string;
-  secretKeyName: string;
+  baseUrl?: string;
+  secretKeyName?: string;
   source: PricingSourceSpec;
 }
 
@@ -78,11 +78,12 @@ async function discoverPricingCatalogs(): Promise<ProviderPricingCatalog[]> {
   for (const file of files) {
     try {
       const descriptor = await describeGatewayPlugin(path.join(gatewaysDirectory, file));
-      if (descriptor.type === 'openai-compatible' && descriptor.pricingSource) {
+      if (descriptor.pricingSource) {
         catalogs.push({
           providerId: descriptor.id,
-          baseUrl: descriptor.baseUrl,
-          secretKeyName: descriptor.secretKeyName,
+          baseUrl: descriptor.type === 'openai-compatible' ? descriptor.baseUrl : undefined,
+          secretKeyName:
+            descriptor.type === 'openai-compatible' ? descriptor.secretKeyName : undefined,
           source: descriptor.pricingSource,
         });
       }
@@ -327,7 +328,11 @@ export async function runEnrichment(): Promise<EnrichmentSummary> {
   const providerIndexes = new Map<string, Map<string, OpenRouterModel[]>>();
   for (const { providerId, baseUrl, secretKeyName, source } of await discoverPricingCatalogs()) {
     try {
-      const providerModels = await fetchPricingCatalog(source, process.env[secretKeyName], baseUrl);
+      const providerModels = await fetchPricingCatalog(
+        source,
+        secretKeyName ? process.env[secretKeyName] : undefined,
+        baseUrl,
+      );
       providerIndexes.set(providerId, indexPricingCatalog(providerModels));
       summary.providerPricingModels += providerModels.length;
     } catch (error: unknown) {

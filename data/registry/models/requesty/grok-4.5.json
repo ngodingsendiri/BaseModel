@@ -2,15 +2,17 @@
   "model_id": "requesty/grok-4.5",
   "provider_id": "requesty",
   "name": "xai/grok-4.5",
+  "description": "Grok 4.5 is xAI's frontier multimodal model for advanced coding, knowledge work, STEM reasoning, and agentic workflows. It supports text and image inputs with text output, tool calling, structured outputs, web search, and extended reasoning. Pricing is tiered: requests exceeding 200k total tokens are billed at a higher rate.",
   "context_window": 500000,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
-  "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
-  "vision_support": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
@@ -21,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:45.886Z"
+  "updated_at": "2026-08-05T05:38:36.146Z"
 }

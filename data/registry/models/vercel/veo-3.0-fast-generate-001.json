@@ -1,9 +1,12 @@
 {
   "model_id": "vercel/veo-3.0-fast-generate-001",
   "provider_id": "vercel",
-  "name": "google/veo-3.0-fast-generate-001",
+  "name": "Veo 3.0 Fast Generate",
+  "description": "Veo 3 Fast is a quicker and more cost effective version of Veo 3, allowing developers to create videos with sound while maintaining high quality and optimizing for speed and business use cases. Veo 3 Fast offers both text-to-video and image-to-video modalities.",
   "modality": [
-    "text"
+    "text",
+    "image",
+    "video"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -15,5 +18,5 @@
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.216Z"
+  "updated_at": "2026-08-05T05:37:42.520Z"
 }

@@ -2,15 +2,17 @@
   "model_id": "requesty/gpt-4o-mini-eastus2",
   "provider_id": "requesty",
   "name": "azure/gpt-4o-mini@eastus2",
+  "description": "GPT-4o mini is a fast, affordable small model for lightweight tasks. Supports vision, tools, and caching.",
   "context_window": 128000,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
   "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
-  "vision_support": false,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
@@ -21,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:45.758Z"
+  "updated_at": "2026-08-05T05:38:35.989Z"
 }

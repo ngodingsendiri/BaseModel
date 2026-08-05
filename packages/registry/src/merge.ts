@@ -3,6 +3,20 @@ import { ModelSchema } from '@basemodel/schema';
 import { validate } from './validation';
 
 /**
+ * Fields owned by human curation. Collectors refresh machine-observable
+ * facts (context window, status, name), but must never overwrite values
+ * that were curated by hand — otherwise every nightly run would silently
+ * erase editorial work.
+ */
+const CURATED_FIELDS = [
+  'description',
+  'family',
+  'release_date',
+  'architecture',
+  'parameter_size',
+] as const;
+
+/**
  * Merges normalized collector data with existing curated model data.
  */
 export function mergeModelData(
@@ -36,6 +50,13 @@ export function mergeModelData(
     }
     if (existing.license_id) {
       merged.license_id = existing.license_id;
+    }
+    // Curated fields always win over incoming collector data.
+    for (const field of CURATED_FIELDS) {
+      const curatedValue = existing[field];
+      if (curatedValue !== undefined) {
+        (merged as Record<string, unknown>)[field] = curatedValue;
+      }
     }
   }
 

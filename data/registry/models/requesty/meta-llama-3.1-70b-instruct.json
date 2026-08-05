@@ -2,14 +2,15 @@
   "model_id": "requesty/meta-llama-3.1-70b-instruct",
   "provider_id": "requesty",
   "name": "deepinfra/meta-llama/Meta-Llama-3.1-70B-Instruct",
+  "description": "A lightweight and ultra-fast variant of Llama 3.3 70B, for use when quick response times are needed most.",
   "context_window": 130815,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:45.934Z"
+  "updated_at": "2026-08-05T05:38:36.223Z"
 }

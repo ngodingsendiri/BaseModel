@@ -1,16 +1,18 @@
 {
   "model_id": "vercel/gpt-5.6-luna",
   "provider_id": "vercel",
-  "name": "openai/gpt-5.6-luna",
+  "name": "GPT 5.6 Luna",
+  "description": "GPT-5.6 Luna is a fast, affordable GPT-5.6 model that brings strong capability at the lowest cost in the series.",
   "context_window": 1050000,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
-  "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
-  "vision_support": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
@@ -21,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.172Z"
+  "updated_at": "2026-08-05T05:38:36.552Z"
 }

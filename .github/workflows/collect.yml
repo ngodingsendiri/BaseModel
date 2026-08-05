@@ -85,7 +85,9 @@ jobs:
           git commit -m "chore(data): nightly sync" || echo "No changes to commit"
           # Retry loop: concurrent collect runs race on main. Rebase and push
           # until we land; resolve conflicts by keeping collected data and
-          # regenerating dist/.
+          # regenerating dist/. NOTE: during `git pull --rebase`, "theirs"
+          # refers to the commit being replayed (our freshly collected data);
+          # "ours" would keep the stale upstream copy instead.
           for attempt in 1 2 3 4 5; do
             if git pull --rebase origin main --autostash; then
               if git push origin HEAD:main; then
@@ -95,7 +97,7 @@ jobs:
               echo "Push raced on attempt ${attempt}; retrying..."
             else
               echo "Rebase conflicted; keeping collected data and regenerating dist/"
-              git checkout --ours -- data/registry/ dist/
+              git checkout --theirs -- data/registry/ dist/
               git add data/registry/ dist/
               pnpm --filter @basemodel/publisher run generate
               git add dist/

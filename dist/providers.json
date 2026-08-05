@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "74c19f36",
-  "generated_at": "2026-08-03T12:55:58.027Z",
+  "source_revision": "8d91ebf4",
+  "generated_at": "2026-08-05T05:43:51.398Z",
   "count": 12,
   "providers": [
     {
@@ -30,7 +30,7 @@
       "website": "https://deepinfra.com",
       "provider_type": "first-party",
       "status": "active",
-      "updated_at": "2026-08-02T06:05:07.682Z"
+      "updated_at": "2026-08-05T05:37:42.909Z"
     },
     {
       "provider_id": "google",
@@ -99,7 +99,7 @@
       "website": "https://openrouter.ai",
       "provider_type": "router",
       "status": "active",
-      "updated_at": "2026-08-02T06:05:06.383Z"
+      "updated_at": "2026-08-05T05:37:41.318Z"
     },
     {
       "provider_id": "requesty",
@@ -108,7 +108,7 @@
       "website": "https://requesty.ai",
       "provider_type": "gateway",
       "status": "active",
-      "updated_at": "2026-08-02T06:05:06.744Z"
+      "updated_at": "2026-08-05T05:37:42.477Z"
     },
     {
       "provider_id": "vercel",
@@ -117,7 +117,7 @@
       "website": "https://vercel.com",
       "provider_type": "gateway",
       "status": "active",
-      "updated_at": "2026-08-02T06:05:06.862Z"
+      "updated_at": "2026-08-05T05:37:42.036Z"
     }
   ]
 }

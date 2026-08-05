@@ -4,7 +4,7 @@
   "name": "thinkingmachines/Inkling-Small",
   "context_window": 524288,
   "modality": [
-    "text"
+    "video"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -21,5 +21,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:44.765Z"
+  "updated_at": "2026-08-05T05:38:34.598Z"
 }

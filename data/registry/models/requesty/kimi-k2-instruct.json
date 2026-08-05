@@ -2,13 +2,14 @@
   "model_id": "requesty/kimi-k2-instruct",
   "provider_id": "requesty",
   "name": "novita/moonshotai/kimi-k2-instruct",
+  "description": "Kimi K2 Instruct",
   "context_window": 131072,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": false,
-  "function_calling": false,
+  "function_calling": true,
   "structured_output": false,
   "vision_support": false,
   "audio_support": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:45.900Z"
+  "updated_at": "2026-08-05T05:38:36.167Z"
 }

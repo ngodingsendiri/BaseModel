@@ -10,6 +10,7 @@ import {
   saveModel,
   saveProvider,
   validate,
+  writeRegistryFile,
 } from '@basemodel/registry';
 import type { Provider } from '@basemodel/schema';
 import { ProviderSchema } from '@basemodel/schema';
@@ -17,6 +18,7 @@ import { z } from 'zod';
 import type { CollectionResult, GatewayDescriptor } from './collector.js';
 import { getGatewaySecretKeys } from './gateway-secrets.js';
 import { fetchWithRetry } from './http.js';
+import { classifyApiModel } from './model-classify.js';
 import { normalizeModelId, toModelSlug } from './slug.js';
 
 export { normalizeModelId, toModelSlug } from './slug.js';
@@ -190,21 +192,20 @@ async function runSimpleGateway(
     }
     for (const apiModel of responseModelArray(parsed.data)) {
       const slug = toModelSlug(apiModel.id);
+      // The generic /models endpoint reports no capability metadata, so
+      // modality and flags are inferred from the model id. Without this,
+      // embedding/TTS/image models would all be stored as text-only chat.
+      const classification = classifyApiModel(apiModel.id);
       result.models.push({
         model_id: `${plugin.id}/${slug}`,
         provider_id: plugin.id,
         name: apiModel.id,
         context_window: apiModel.context_length,
         status: 'active',
-        modality: ['text'],
         open_weight: false,
-        reasoning_support: false,
         function_calling: false,
         structured_output: false,
-        vision_support: false,
-        audio_support: false,
-        image_generation: false,
-        embedding_support: false,
+        ...classification,
       });
     }
   } catch (error: unknown) {
@@ -374,6 +375,11 @@ async function persistResult(result: CollectionResult): Promise<void> {
   const seenRawByModelId = new Map<string, string>();
   for (const partialModel of result.models) {
     if (!partialModel.model_id || !partialModel.provider_id) continue;
+    // Some catalogs report 0 for models without a token window (media,
+    // embeddings); the schema only accepts real windows, so drop those.
+    if (partialModel.context_window !== undefined && partialModel.context_window <= 0) {
+      partialModel.context_window = undefined;
+    }
     const modelId = normalizeModelId(partialModel.model_id, partialModel.provider_id);
     const previousRaw = seenRawByModelId.get(modelId);
     if (previousRaw && previousRaw !== partialModel.model_id) {
@@ -399,6 +405,38 @@ async function persistResult(result: CollectionResult): Promise<void> {
 interface GatewayOutcome {
   success: boolean;
   seen: Set<string>;
+}
+
+interface GatewayReportEntry {
+  plugin: string;
+  provider_id?: string;
+  status: 'ok' | 'partial' | 'failed';
+  fetched: number;
+  errors: string[];
+  duration_ms: number;
+}
+
+/**
+ * Persists a machine-readable report of the collection run so nightly
+ * regressions (repeated 401s, empty catalogs, latency spikes) are visible
+ * without digging through workflow logs.
+ */
+async function writeRunReport(entries: GatewayReportEntry[]): Promise<void> {
+  const report = {
+    generated_at: new Date().toISOString(),
+    summary: {
+      gateways: entries.length,
+      failed: entries.filter((entry) => entry.status === 'failed').length,
+      partial: entries.filter((entry) => entry.status === 'partial').length,
+      total_fetched: entries.reduce((sum, entry) => sum + entry.fetched, 0),
+      total_errors: entries.reduce((sum, entry) => sum + entry.errors.length, 0),
+    },
+    gateways: entries,
+  };
+  await writeRegistryFile('run-report.json', report);
+  console.log(
+    `Run report: ${report.summary.gateways} gateway(s), ${report.summary.failed} failed, ${report.summary.total_fetched} models fetched`,
+  );
 }
 
 /**
@@ -442,8 +480,10 @@ export async function runAllGateways(): Promise<void> {
 
   console.log(`Found ${files.length} gateway plugin(s): ${files.join(', ')}`);
   const outcomes = new Map<string, GatewayOutcome>();
+  const reportEntries: GatewayReportEntry[] = [];
   const results = await Promise.allSettled(
     files.map(async (file) => {
+      const started = Date.now();
       const pluginPath = path.join(gatewaysDirectory, file);
       const pluginName = path.basename(file, path.extname(file));
       console.log(`Running gateway: ${pluginName}`);
@@ -451,6 +491,14 @@ export async function runAllGateways(): Promise<void> {
       const result = await executeGatewayPlugin(pluginPath, plugin);
       if (result.errors.length > 0) console.warn('Collection errors:', result.errors);
       console.log(`Fetched ${result.models.length} models from ${plugin.id}`);
+      reportEntries.push({
+        plugin: pluginName,
+        provider_id: plugin.id,
+        status: result.errors.length === 0 ? 'ok' : 'partial',
+        fetched: result.models.length,
+        errors: result.errors.slice(0, 10),
+        duration_ms: Date.now() - started,
+      });
       outcomes.set(plugin.id, {
         success: result.errors.length === 0,
         seen: new Set(
@@ -467,8 +515,17 @@ export async function runAllGateways(): Promise<void> {
   );
   for (const [index, outcome] of results.entries()) {
     if (outcome.status === 'rejected') {
-      console.error(`Failed to load or run gateway ${files[index]}:`, outcome.reason);
+      const failedFile = files[index] ?? 'unknown';
+      console.error(`Failed to load or run gateway ${failedFile}:`, outcome.reason);
+      reportEntries.push({
+        plugin: path.basename(failedFile, path.extname(failedFile)),
+        status: 'failed',
+        fetched: 0,
+        errors: [String(outcome.reason).slice(0, 500)],
+        duration_ms: 0,
+      });
     }
   }
   await reconcileLifecycle(outcomes);
+  await writeRunReport(reportEntries);
 }

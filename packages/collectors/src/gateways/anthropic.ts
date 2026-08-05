@@ -1,5 +1,6 @@
 import { z } from 'zod';
 import type { CollectionResult, CustomGateway } from '../core/collector';
+import { classifyApiModel } from '../core/model-classify';
 
 // Anthropic uses a different auth header pattern and has its own field names
 const AnthropicResponseSchema = z.object({
@@ -45,18 +46,21 @@ export default {
       }
 
       for (const m of parsed.data.data) {
+        // The models endpoint exposes no capability metadata; all Claude 3+
+        // models accept images, so vision is inferred from the id.
+        const classification = classifyApiModel(m.id);
         result.models.push({
           model_id: `anthropic/${m.id}`,
           provider_id: 'anthropic',
           name: m.display_name ?? m.id,
           release_date: m.created_at ? m.created_at.split('T')[0] : undefined,
           status: 'active',
-          modality: ['text'],
+          modality: classification.modality,
           open_weight: false,
           reasoning_support: false,
-          function_calling: false,
-          structured_output: false,
-          vision_support: false,
+          function_calling: true,
+          structured_output: true,
+          vision_support: classification.vision_support,
           audio_support: false,
           image_generation: false,
           embedding_support: false,

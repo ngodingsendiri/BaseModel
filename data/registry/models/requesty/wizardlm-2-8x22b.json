@@ -2,6 +2,7 @@
   "model_id": "requesty/wizardlm-2-8x22b",
   "provider_id": "requesty",
   "name": "novita/microsoft/wizardlm-2-8x22b",
+  "description": "WizardLM-2 8x22B is Microsoft AI's most advanced Wizard model. It demonstrates highly competitive performance compared to leading proprietary models, and it consistently outperforms all existing state-of-the-art opensource models.",
   "context_window": 65535,
   "modality": [
     "text"
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.068Z"
+  "updated_at": "2026-08-05T05:38:36.406Z"
 }

@@ -1,9 +1,12 @@
 {
   "model_id": "vercel/grok-imagine-video-1.5-preview",
   "provider_id": "vercel",
-  "name": "xai/grok-imagine-video-1.5-preview",
+  "name": "Grok Imagine Video 1.5 Preview",
+  "description": "",
   "modality": [
-    "text"
+    "text",
+    "image",
+    "video"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -15,5 +18,5 @@
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.636Z"
+  "updated_at": "2026-08-05T05:37:43.154Z"
 }

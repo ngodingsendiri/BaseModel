@@ -1,9 +1,12 @@
 {
   "model_id": "vercel/seedance-v1.5-pro",
   "provider_id": "vercel",
-  "name": "bytedance/seedance-v1.5-pro",
+  "name": "Seedance v1.5 Pro",
+  "description": "ByteDance's Seedance 1.5 Pro is a professional video model using V2A native generation for integrated, synced audio-visual output, enhancing efficiency of professional video creation.",
   "modality": [
-    "text"
+    "text",
+    "image",
+    "video"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -15,5 +18,5 @@
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.097Z"
+  "updated_at": "2026-08-05T05:37:42.307Z"
 }

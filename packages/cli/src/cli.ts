@@ -1,7 +1,10 @@
 #!/usr/bin/env node
 
 import { pathToFileURL } from 'node:url';
+import type { BestModelsCriteria } from '@basemodel/intelligence';
 import {
+  bestModels,
+  buildV2Snapshot,
   calculateCostEfficiency,
   findAlternatives,
   IntelligenceEngine,
@@ -21,11 +24,14 @@ COMMANDS
   search    Search models by criteria
   info      Show details for a specific model
   alternatives  List alternative models for a given model
+  best      Rank quality-scored models under a budget (Pareto frontier)
 
 EXAMPLES
+  basemodel search "gpt-4o" --limit 5
   basemodel search --modality image --flag vision_support
   basemodel info openai/gpt-4o
   basemodel alternatives openai/gpt-4o
+  basemodel best --category coding --max-cost 1.0 --limit 5
 `);
 }
 
@@ -65,6 +71,7 @@ export function parseSearchCriteria(args: string[]): Parameters<typeof searchMod
 
   for (let i = 0; i < args.length; i++) {
     const arg = args[i];
+    if (!arg) continue;
 
     if (arg === '--provider' && args[i + 1]) {
       criteria.providerIds = args[++i]?.split(',');
@@ -74,6 +81,38 @@ export function parseSearchCriteria(args: string[]): Parameters<typeof searchMod
       criteria.flags = args[++i]?.split(',') as NonNullable<typeof criteria.flags>;
     } else if (arg === '--min-context' && args[i + 1]) {
       criteria.minContextWindow = Number(args[++i]);
+    } else if (arg === '--limit' && args[i + 1]) {
+      criteria.limit = Number(args[++i]);
+    } else if (arg.startsWith('--')) {
+      // Unknown flag: skip it and the value that follows it so stray values
+      // are never mistaken for a query.
+      i += 1;
+    } else if (criteria.query === undefined) {
+      // First bare argument is the free-text query.
+      criteria.query = arg;
+    }
+  }
+
+  return criteria;
+}
+
+/**
+ * Parses `best` command flags into ranking criteria. Exported for testing.
+ */
+export function parseBestCriteria(args: string[]): BestModelsCriteria {
+  const criteria: BestModelsCriteria = {};
+
+  for (let i = 0; i < args.length; i++) {
+    const arg = args[i];
+
+    if (arg === '--category' && args[i + 1]) {
+      criteria.category = args[++i];
+    } else if (arg === '--max-cost' && args[i + 1]) {
+      criteria.maxCost = Number(args[++i]);
+    } else if (arg === '--min-context' && args[i + 1]) {
+      criteria.minContextWindow = Number(args[++i]);
+    } else if (arg === '--limit' && args[i + 1]) {
+      criteria.limit = Number(args[++i]);
     }
   }
 
@@ -206,6 +245,57 @@ async function cmdAlternatives(args: string[]): Promise<void> {
 
 // ─── Entry Point ──────────────────────────────────────────────────────────────
 
+async function cmdBest(args: string[]): Promise<void> {
+  const engine = new IntelligenceEngine();
+  await engine.init();
+
+  const criteria = parseBestCriteria(args);
+  const snapshot = buildV2Snapshot(engine);
+  const results = bestModels(snapshot, criteria);
+
+  if (results.length === 0) {
+    console.log('No quality-scored models match the given criteria.');
+    return;
+  }
+
+  const filters: string[] = [];
+  if (criteria.category) filters.push(`category=${criteria.category}`);
+  if (criteria.maxCost !== undefined) filters.push(`max cost $${criteria.maxCost}/1M`);
+  if (criteria.minContextWindow !== undefined) {
+    filters.push(`context >= ${criteria.minContextWindow.toLocaleString('en-US')}`);
+  }
+  console.log(
+    `\n${bold('Best models')} ${filters.length ? dim(`(${filters.join(', ')})`) : ''} — ranked by benchmark quality\n`,
+  );
+
+  let rank = 0;
+  for (const result of results) {
+    rank += 1;
+    const canonical = result.canonical;
+    const pareto = result.pareto_optimal ? ` ${green('◆ pareto-optimal')}` : '';
+    console.log(
+      `  ${bold(`${rank}.`)} ${bold(cyan(canonical.model_id))} — quality ${canonical.quality?.score ?? '-'} (${canonical.quality?.benchmark_count ?? 0} benchmarks)${pareto}`,
+    );
+    if (result.offering) {
+      const cost =
+        result.offering.blended_cost_per_1m !== undefined
+          ? `$${result.offering.blended_cost_per_1m.toFixed(3)}/1M blended`
+          : result.offering.cost_tier === 'Free'
+            ? 'free'
+            : 'unpriced';
+      console.log(`     ${dim('Cheapest:')} ${result.offering.offering_id} — ${cost}`);
+    } else {
+      console.log(`     ${dim('Cheapest:')} no priced offering`);
+    }
+    if (canonical.context_window) {
+      console.log(
+        `     ${dim('Context:')}  ${canonical.context_window.toLocaleString('en-US')} tokens`,
+      );
+    }
+    console.log('');
+  }
+}
+
 async function main(): Promise<void> {
   const [, , command, ...args] = process.argv;
 
@@ -218,6 +308,9 @@ async function main(): Promise<void> {
       break;
     case 'alternatives':
       await cmdAlternatives(args);
+      break;
+    case 'best':
+      await cmdBest(args);
       break;
     default:
       printUsage();

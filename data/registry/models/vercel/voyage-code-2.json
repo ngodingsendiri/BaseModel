@@ -1,9 +1,11 @@
 {
   "model_id": "vercel/voyage-code-2",
   "provider_id": "vercel",
-  "name": "voyage/voyage-code-2",
+  "name": "Voyage Code 2",
+  "description": "Voyage AI's embedding model optimized for code retrieval (17% better than alternatives). This is the previous generation of code embeddings models.",
   "modality": [
-    "text"
+    "text",
+    "embedding"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -12,8 +14,8 @@
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
-  "embedding_support": false,
+  "embedding_support": true,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.596Z"
+  "updated_at": "2026-08-05T05:37:43.088Z"
 }

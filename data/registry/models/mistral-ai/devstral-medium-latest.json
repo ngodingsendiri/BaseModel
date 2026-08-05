@@ -3,7 +3,8 @@
   "provider_id": "mistral-ai",
   "name": "devstral-medium-latest",
   "modality": [
-    "text"
+    "text",
+    "code"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -14,5 +15,6 @@
   "image_generation": false,
   "embedding_support": false,
   "capability_ids": [],
-  "status": "active"
+  "status": "active",
+  "updated_at": "2026-08-05T04:34:30.898Z"
 }

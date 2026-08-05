@@ -1,19 +1,22 @@
 {
   "model_id": "vercel/seedance-2.0",
   "provider_id": "vercel",
-  "name": "bytedance/seedance-2.0",
+  "name": "Seedance 2.0",
+  "description": "Built with a unified multimodal audio-video joint generation architecture, Seedance 2.0 supports four input modalities: text, image, audio, and video. Compared with Version 1.5, Seedance 2.0 delivers a substantial leap in generation quality. It achieves a higher usability rate for complex interaction and motion scenes, with significant improvements in physical accuracy, visual realism, and controllability, making it well-suited for high-quality creation scenarios.",
   "modality": [
-    "text"
+    "text",
+    "image",
+    "video"
   ],
   "open_weight": false,
   "reasoning_support": false,
   "function_calling": false,
   "structured_output": false,
-  "vision_support": false,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.085Z"
+  "updated_at": "2026-08-05T05:37:42.294Z"
 }

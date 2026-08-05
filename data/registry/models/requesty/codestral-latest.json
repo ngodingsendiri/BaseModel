@@ -2,14 +2,15 @@
   "model_id": "requesty/codestral-latest",
   "provider_id": "requesty",
   "name": "mistral/codestral-latest",
+  "description": "Codestral-latest is Mistral AI’s state-of-the-art open-weight language model built specifically for software development and code generation. It is fine-tuned to assist developers with code generation, completion, refactoring, and debugging across more than 80 programming languages.",
   "context_window": 131072,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:45.589Z"
+  "updated_at": "2026-08-05T05:38:35.724Z"
 }

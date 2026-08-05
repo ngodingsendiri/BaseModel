@@ -1,9 +1,11 @@
 {
   "model_id": "vercel/text-embedding-ada-002",
   "provider_id": "vercel",
-  "name": "openai/text-embedding-ada-002",
+  "name": "text-embedding-ada-002",
+  "description": "OpenAI's legacy text embedding model.",
   "modality": [
-    "text"
+    "text",
+    "embedding"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -12,8 +14,8 @@
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
-  "embedding_support": false,
+  "embedding_support": true,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.517Z"
+  "updated_at": "2026-08-05T05:37:42.965Z"
 }

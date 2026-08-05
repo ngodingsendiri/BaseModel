@@ -1,19 +1,22 @@
 {
   "model_id": "vercel/gpt-realtime-2.1",
   "provider_id": "vercel",
-  "name": "openai/gpt-realtime-2.1",
+  "name": "gpt-realtime-2.1",
+  "description": "GPT-Realtime-2.1 updates GPT-Realtime-2 with improved alphanumeric recognition, silence and noise handling, and interruption behavior. It supports speech-to-speech interactions with configurable reasoning effort, instruction following, and tool use for complex voice-agent workflows.",
+  "context_window": 128000,
   "modality": [
-    "text"
+    "text",
+    "audio"
   ],
   "open_weight": false,
   "reasoning_support": false,
   "function_calling": false,
   "structured_output": false,
   "vision_support": false,
-  "audio_support": false,
+  "audio_support": true,
   "image_generation": false,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.491Z"
+  "updated_at": "2026-08-05T05:37:42.927Z"
 }

@@ -1,9 +1,11 @@
 {
   "model_id": "vercel/gemini-embedding-001",
   "provider_id": "vercel",
-  "name": "google/gemini-embedding-001",
+  "name": "Gemini Embedding 001",
+  "description": "State-of-the-art embedding model with excellent performance across English, multilingual and code tasks.",
   "modality": [
-    "text"
+    "text",
+    "embedding"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -12,8 +14,8 @@
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
-  "embedding_support": false,
+  "embedding_support": true,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.191Z"
+  "updated_at": "2026-08-05T05:37:42.482Z"
 }

@@ -1,25 +1,27 @@
 {
   "model_id": "requesty/kimi-k2.7-code",
   "provider_id": "requesty",
-  "name": "moonshot/kimi-k2.7-code",
+  "name": "tensorx/kimi-k2.7-code",
+  "description": "Kimi K2.7 Code is a coding focused model in Moonshot AI Kimi K2 family, built to complete end to end programming tasks reliably over long contexts. It uses a native multimodal mixture of experts architecture that accepts text and image input, and it always operates in a thinking mode, preserving full reasoning content across multi turn conversations. With a 256K token context window, it targets long horizon coding, agentic task decomposition, and multi turn dialogue. The model activates 32B parameters out of roughly 1T total.",
   "context_window": 262144,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
-  "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
-  "vision_support": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
   "is_free": false,
   "tier": "balanced",
   "limits": {
-    "max_input_tokens": 256000
+    "max_input_tokens": 262144
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:45.910Z"
+  "updated_at": "2026-08-05T05:38:36.187Z"
 }

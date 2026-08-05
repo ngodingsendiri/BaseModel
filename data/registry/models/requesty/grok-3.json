@@ -2,14 +2,15 @@
   "model_id": "requesty/grok-3",
   "provider_id": "requesty",
   "name": "xai/grok-3",
+  "description": "Excels at enterprise use cases like data extraction, coding, and text summarization. Possesses deep domain knowledge in finance, healthcare, law, and science.",
   "context_window": 131072,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:45.874Z"
+  "updated_at": "2026-08-05T05:38:36.133Z"
 }

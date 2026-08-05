@@ -1,19 +1,21 @@
 {
   "model_id": "vercel/grok-voice-think-fast-2.0",
   "provider_id": "vercel",
-  "name": "xai/grok-voice-think-fast-2.0",
+  "name": "Grok Voice Think Fast 2.0",
+  "description": "Grok Voice Think Fast 2.0, our next-generation voice model with improved intelligence, transcription accuracy, and conversational capabilities.",
   "modality": [
-    "text"
+    "text",
+    "audio"
   ],
   "open_weight": false,
   "reasoning_support": false,
   "function_calling": false,
   "structured_output": false,
   "vision_support": false,
-  "audio_support": false,
+  "audio_support": true,
   "image_generation": false,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.645Z"
+  "updated_at": "2026-08-05T05:37:43.167Z"
 }

@@ -7,13 +7,20 @@ import type { Benchmark } from '@basemodel/schema';
  * Resolves the absolute path to the data/registry directory.
  *
  * Priority:
- * 1. BASEMODEL_REGISTRY_PATH env var (explicit override).
+ * 1. BASEMODEL_REGISTRY_PATH env var (explicit override). An override that
+ *    points at a missing directory fails loudly instead of being ignored.
  * 2. Walk up from process.cwd() up to 10 levels until data/registry is found.
- * 3. Silently fall back to cwd-based relative path.
+ * 3. Fall back to a cwd-based relative path, with a visible warning so
+ *    accidental writes outside the repo are noticed.
  */
 function getRegistryRoot(): string {
   const envOverride = process.env.BASEMODEL_REGISTRY_PATH;
-  if (envOverride && existsSync(envOverride)) return envOverride;
+  if (envOverride) {
+    if (existsSync(envOverride)) return envOverride;
+    throw new Error(
+      `BASEMODEL_REGISTRY_PATH points to a directory that does not exist: ${envOverride}`,
+    );
+  }
 
   const cwd = process.cwd();
   let dir = cwd;
@@ -24,7 +31,11 @@ function getRegistryRoot(): string {
     if (parent === dir) break;
     dir = parent;
   }
-  return join(cwd, 'data', 'registry');
+  const fallback = join(cwd, 'data', 'registry');
+  console.warn(
+    `[registry] No data/registry found walking up from ${cwd}; falling back to ${fallback}.`,
+  );
+  return fallback;
 }
 
 const REGISTRY_ROOT = getRegistryRoot();

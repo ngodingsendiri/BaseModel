@@ -1,19 +1,23 @@
 {
   "model_id": "vercel/gemini-omni-flash-preview",
   "provider_id": "vercel",
-  "name": "google/gemini-omni-flash-preview",
+  "name": "Gemini Omni Flash Preview",
+  "description": "Gemini Omni Flash (Preview) is a multimodal model designed for video, image, and text tasks. It is optimized for video generation, offering video output alongside text responses in a single model.",
+  "context_window": 1000000,
   "modality": [
-    "text"
+    "text",
+    "image",
+    "video"
   ],
   "open_weight": false,
-  "reasoning_support": false,
+  "reasoning_support": true,
   "function_calling": false,
   "structured_output": false,
-  "vision_support": false,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.196Z"
+  "updated_at": "2026-08-05T05:37:42.491Z"
 }

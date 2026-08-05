@@ -1,15 +1,16 @@
 {
   "model_id": "vercel/qwen3-next-80b-a3b-thinking",
   "provider_id": "vercel",
-  "name": "alibaba/qwen3-next-80b-a3b-thinking",
-  "context_window": 262144,
+  "name": "Qwen3 Next 80B A3B Thinking",
+  "description": "A new generation of Qwen3-based open-source thinking mode models. This version offers improved instruction following and streamlined summary responses over the previous iteration (Qwen3-235B-A22B-Thinking-2507).",
+  "context_window": 131072,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": true,
-  "function_calling": false,
-  "structured_output": false,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.380Z"
+  "updated_at": "2026-08-05T05:38:36.652Z"
 }

@@ -1,15 +1,16 @@
 {
   "model_id": "vercel/minimax-m2.5",
   "provider_id": "vercel",
-  "name": "minimax/minimax-m2.5",
+  "name": "MiniMax M2.5",
+  "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity. It is capable of handling the entire development process of various complex systems. It covers full-stack projects across multiple platforms including Web, Android, iOS, Windows, and Mac, encompassing server-side APIs, functional logic, and databases.",
   "context_window": 204800,
   "modality": [
     "text"
   ],
   "open_weight": false,
-  "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.215Z"
+  "updated_at": "2026-08-05T05:38:36.609Z"
 }

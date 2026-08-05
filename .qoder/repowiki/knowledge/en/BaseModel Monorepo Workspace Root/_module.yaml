@@ -1,0 +1,16 @@
+schema_version: 1
+module_path: ""
+title: BaseModel Monorepo Workspace Root
+scope:
+    - README.md
+    - CONTRIBUTING.md
+    - .gitignore
+    - package.json
+    - pnpm-workspace.yaml
+    - tsconfig.json
+    - biome.json
+    - LICENSE
+    - pnpm-lock.yaml
+source_files: []
+depends_on: []
+related_to: []

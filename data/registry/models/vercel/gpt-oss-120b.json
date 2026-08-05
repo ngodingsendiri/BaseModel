@@ -1,15 +1,16 @@
 {
   "model_id": "vercel/gpt-oss-120b",
   "provider_id": "vercel",
-  "name": "openai/gpt-oss-120b",
+  "name": "GPT OSS 120B",
+  "description": "Extremely capable general-purpose LLM with strong, controllable reasoning capabilities",
   "context_window": 131072,
   "modality": [
     "text"
   ],
   "open_weight": false,
-  "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.178Z"
+  "updated_at": "2026-08-05T05:38:36.559Z"
 }

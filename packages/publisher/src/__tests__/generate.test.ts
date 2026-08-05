@@ -16,8 +16,14 @@ const registry = vi.hoisted(() => ({
 }));
 
 const intelligence = vi.hoisted(() => ({
-  IntelligenceEngine: vi.fn(),
+  IntelligenceEngine: vi.fn().mockImplementation(() => ({
+    hydrate: vi.fn(),
+    isLoaded: true,
+  })),
+  bestModels: vi.fn().mockReturnValue([]),
+  buildV2Snapshot: vi.fn().mockReturnValue({ canonicals: [], offerings: [], mapping: new Map() }),
   calculateCostEfficiency: vi.fn(),
+  computeQuality: vi.fn(),
   findAlternatives: vi.fn(),
 }));
 

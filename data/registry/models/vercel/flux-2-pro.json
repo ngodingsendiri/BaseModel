@@ -1,9 +1,12 @@
 {
   "model_id": "vercel/flux-2-pro",
   "provider_id": "vercel",
-  "name": "bfl/flux-2-pro",
+  "name": "FLUX.2 [pro]",
+  "description": "FLUX.2 is a completely new base model trained for visual intelligence, not just pixel generation, setting a new standard for both image generation and image editing. With FLUX.2 models you can expect the highest quality, higher resolutions (up to 4MP), and new capabilities like multi-ref images. FLUX.2 [pro] supports generation, editing, and multiple reference images (up to 9 MP total input).\nThis provider gives the option to change the moderation level for inputs and outputs. The control is under safety tolerance and is by default 2 on a range from 0 (more strict) through 6 (more permissive).",
+  "context_window": 67300,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -11,9 +14,9 @@
   "structured_output": false,
   "vision_support": false,
   "audio_support": false,
-  "image_generation": false,
+  "image_generation": true,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.053Z"
+  "updated_at": "2026-08-05T05:37:42.270Z"
 }

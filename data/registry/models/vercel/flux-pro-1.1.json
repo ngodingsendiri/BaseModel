@@ -1,9 +1,11 @@
 {
   "model_id": "vercel/flux-pro-1.1",
   "provider_id": "vercel",
-  "name": "bfl/flux-pro-1.1",
+  "name": "FLUX1.1 [pro]",
+  "description": "FLUX1.1 [pro] is the standard for text-to-image generation with fast, reliable and consistently stunning results.\nThis provider gives the option to change the moderation level for inputs and outputs. The control is under safety tolerance and is by default 2 on a range from 0 (more strict) through 6 (more permissive).",
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -11,9 +13,9 @@
   "structured_output": false,
   "vision_support": false,
   "audio_support": false,
-  "image_generation": false,
+  "image_generation": true,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.071Z"
+  "updated_at": "2026-08-05T05:37:42.282Z"
 }

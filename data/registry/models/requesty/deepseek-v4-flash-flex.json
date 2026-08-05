@@ -2,12 +2,13 @@
   "model_id": "requesty/deepseek-v4-flash-flex",
   "provider_id": "requesty",
   "name": "doubleword/deepseek-v4-flash:flex",
+  "description": "DeepSeek V4-Flash is the smaller model in the V4 family, ahead of models like Gemini 3 Flash and Qwen3.5-397B-A17B.",
   "context_window": 1048576,
   "modality": [
     "text"
   ],
   "open_weight": false,
-  "reasoning_support": false,
+  "reasoning_support": true,
   "function_calling": false,
   "structured_output": false,
   "vision_support": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:45.608Z"
+  "updated_at": "2026-08-05T05:38:35.756Z"
 }

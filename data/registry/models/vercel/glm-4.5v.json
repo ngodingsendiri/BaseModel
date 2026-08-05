@@ -1,16 +1,18 @@
 {
   "model_id": "vercel/glm-4.5v",
   "provider_id": "vercel",
-  "name": "zai/glm-4.5v",
-  "context_window": 65536,
+  "name": "GLM 4.5V",
+  "description": "Built on the GLM-4.5-Air base model, GLM-4.5V inherits proven techniques from GLM-4.1V-Thinking while achieving effective scaling through a powerful 106B-parameter MoE architecture.",
+  "context_window": 66000,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
-  "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
-  "vision_support": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
@@ -21,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.123Z"
+  "updated_at": "2026-08-05T05:38:36.484Z"
 }

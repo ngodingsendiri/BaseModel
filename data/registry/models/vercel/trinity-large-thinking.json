@@ -1,15 +1,16 @@
 {
   "model_id": "vercel/trinity-large-thinking",
   "provider_id": "vercel",
-  "name": "arcee-ai/trinity-large-thinking",
-  "context_window": 262144,
+  "name": "Trinity Large Thinking",
+  "description": "Trinity-Large-Thinking is a reasoning-optimized variant of Arcee AI's Trinity-Large family — a 398B-parameter sparse Mixture-of-Experts (MoE) model with approximately 13B active parameters per token. Built on Trinity-Large-Base and post-trained with extended chain-of-thought reasoning and agentic RL, Trinity-Large-Thinking delivers state-of-the-art performance on agentic benchmarks while maintaining strong general capabilities.",
+  "context_window": 262100,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": true,
-  "function_calling": false,
-  "structured_output": false,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.384Z"
+  "updated_at": "2026-08-05T05:38:36.677Z"
 }

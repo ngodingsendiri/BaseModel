@@ -1,19 +1,22 @@
 {
   "model_id": "vercel/nemotron-nano-12b-v2-vl",
   "provider_id": "vercel",
-  "name": "nvidia/nemotron-nano-12b-v2-vl",
+  "name": "Nvidia Nemotron Nano 12B V2 VL",
+  "description": "The model is an auto-regressive vision language model that uses an optimized transformer architecture. The model enables multi-image reasoning and video understanding, along with strong document intelligence, visual Q&A and summarization capabilities.",
+  "context_window": 131072,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
-  "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
-  "vision_support": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.383Z"
+  "updated_at": "2026-08-05T05:37:42.753Z"
 }

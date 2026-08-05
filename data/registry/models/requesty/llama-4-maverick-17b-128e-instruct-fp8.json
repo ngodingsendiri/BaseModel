@@ -2,6 +2,7 @@
   "model_id": "requesty/llama-4-maverick-17b-128e-instruct-fp8",
   "provider_id": "requesty",
   "name": "novita/meta-llama/llama-4-maverick-17b-128e-instruct-fp8",
+  "description": "A lightweight and ultra-fast variant of Llama 3.3 70B, for use when quick response times are needed most.",
   "context_window": 1048576,
   "modality": [
     "text"
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:45.931Z"
+  "updated_at": "2026-08-05T05:38:36.219Z"
 }

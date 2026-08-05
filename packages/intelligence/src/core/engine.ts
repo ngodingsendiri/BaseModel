@@ -1,11 +1,18 @@
-import type { Capability, Model, Pricing, Provider } from '@basemodel/schema';
-import { CapabilitySchema, ModelSchema, PricingSchema, ProviderSchema } from '@basemodel/schema';
+import type { Benchmark, Capability, Model, Pricing, Provider } from '@basemodel/schema';
+import {
+  BenchmarkSchema,
+  CapabilitySchema,
+  ModelSchema,
+  PricingSchema,
+  ProviderSchema,
+} from '@basemodel/schema';
 
 export interface IntelligenceSnapshot {
   models: Model[];
   providers: Provider[];
   capabilities?: Capability[];
   pricing?: Pricing[];
+  benchmarks?: Benchmark[];
 }
 
 function parseSnapshot(snapshot: IntelligenceSnapshot): Required<IntelligenceSnapshot> {
@@ -13,9 +20,16 @@ function parseSnapshot(snapshot: IntelligenceSnapshot): Required<IntelligenceSna
   const providers = ProviderSchema.array().safeParse(snapshot.providers);
   const capabilities = CapabilitySchema.array().safeParse(snapshot.capabilities ?? []);
   const pricing = PricingSchema.array().safeParse(snapshot.pricing ?? []);
+  const benchmarks = BenchmarkSchema.array().safeParse(snapshot.benchmarks ?? []);
 
-  if (!models.success || !providers.success || !capabilities.success || !pricing.success) {
-    const errors = [models, providers, capabilities, pricing]
+  if (
+    !models.success ||
+    !providers.success ||
+    !capabilities.success ||
+    !pricing.success ||
+    !benchmarks.success
+  ) {
+    const errors = [models, providers, capabilities, pricing, benchmarks]
       .filter((result) => !result.success)
       .flatMap((result) => (result.success ? [] : result.error.errors));
     throw new Error(`Invalid intelligence snapshot: ${JSON.stringify(errors)}`);
@@ -26,6 +40,7 @@ function parseSnapshot(snapshot: IntelligenceSnapshot): Required<IntelligenceSna
     providers: providers.data,
     capabilities: capabilities.data,
     pricing: pricing.data,
+    benchmarks: benchmarks.data,
   };
 }
 
@@ -38,6 +53,7 @@ export class IntelligenceEngine {
   public providers: Provider[] = [];
   public capabilities: Capability[] = [];
   public pricing: Pricing[] = [];
+  public benchmarks: Benchmark[] = [];
   public isLoaded = false;
   private initPromise: Promise<void> | undefined;
 
@@ -48,6 +64,7 @@ export class IntelligenceEngine {
     this.providers = parsed.providers.slice();
     this.capabilities = parsed.capabilities.slice();
     this.pricing = parsed.pricing.slice();
+    this.benchmarks = parsed.benchmarks.slice();
     this.isLoaded = true;
   }
 
@@ -78,6 +95,7 @@ export class IntelligenceEngine {
       providers: await registry.getAllProviders(),
       capabilities: await registry.getAllCapabilities(),
       pricing: await registry.getAllPricing(),
+      benchmarks: await registry.getAllBenchmarks(),
     });
   }
 

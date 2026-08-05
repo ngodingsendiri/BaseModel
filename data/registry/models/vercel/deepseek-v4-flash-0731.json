@@ -1,15 +1,16 @@
 {
   "model_id": "vercel/deepseek-v4-flash-0731",
   "provider_id": "vercel",
-  "name": "deepseek/deepseek-v4-flash-0731",
-  "context_window": 1048576,
+  "name": "DeepSeek V4 Flash 0731",
+  "description": "",
+  "context_window": 1000000,
   "modality": [
     "text"
   ],
   "open_weight": false,
-  "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.096Z"
+  "updated_at": "2026-08-05T05:38:36.446Z"
 }

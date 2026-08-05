@@ -2,14 +2,15 @@
   "model_id": "requesty/qwen3-next-80b-a3b-thinking",
   "provider_id": "requesty",
   "name": "nebius/qwen/qwen3-next-80b-a3b-thinking",
-  "context_window": 262144,
+  "description": "Qwen thinking-optimized 80B model designed for sustained multi-step reasoning, structured deliberation, and high-precision problem-solving across math, code, and complex planning tasks.",
+  "context_window": 128000,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": true,
-  "function_calling": false,
-  "structured_output": false,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.354Z"
+  "updated_at": "2026-08-05T05:38:36.370Z"
 }

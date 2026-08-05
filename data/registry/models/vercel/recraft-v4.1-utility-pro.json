@@ -1,9 +1,11 @@
 {
   "model_id": "vercel/recraft-v4.1-utility-pro",
   "provider_id": "vercel",
-  "name": "recraft/recraft-v4.1-utility-pro",
+  "name": "Recraft V4.1 Utility Pro",
+  "description": "V4.1 is built on the same visual aesthetic and the same eye for what looks right, just pushed further across every dimension. The photorealism is more natural. The gradients are dreamier. Illustration styles are now possible that simply weren't before. And this is a model that reads a short prompts easier and creates something worth stopping for. V4.1 Utility is designed for when restraint is the aesthetic choice, with flat lighting, front-facing composition, and simple, controlled scenes.",
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -11,9 +13,9 @@
   "structured_output": false,
   "vision_support": false,
   "audio_support": false,
-  "image_generation": false,
+  "image_generation": true,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.560Z"
+  "updated_at": "2026-08-05T05:37:43.035Z"
 }

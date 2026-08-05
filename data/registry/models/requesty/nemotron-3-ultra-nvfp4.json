@@ -2,13 +2,14 @@
   "model_id": "requesty/nemotron-3-ultra-nvfp4",
   "provider_id": "requesty",
   "name": "fireworks/nemotron-3-ultra-nvfp4",
+  "description": "Nemotron-3-Ultra-550B-A55B-NVFP4 is a frontier-scale large language model (LLM) trained by NVIDIA, designed to deliver strong agentic, reasoning, and conversational capabilities. It is optimized for the most demanding workloads, including complex multi-step agents, long-context analysis, and high-accuracy reasoning over code, math, and science. The model employs a hybrid Latent Mixture-of-Experts (LatentMoE) architecture, utilizing interleaved Mamba-2 and MoE layers, along with select Attention layers. Like the Super model, the Ultra model incorporates Multi-Token Prediction (MTP) layers for faster text generation and improved quality, and it is trained using an NVFP4 pre-training recipe to maximize compute efficiency. The model has 55B active parameters and 550B parameters in total.",
   "context_window": 262144,
   "modality": [
     "text"
   ],
   "open_weight": false,
-  "reasoning_support": false,
-  "function_calling": false,
+  "reasoning_support": true,
+  "function_calling": true,
   "structured_output": false,
   "vision_support": false,
   "audio_support": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:45.977Z"
+  "updated_at": "2026-08-05T05:38:36.278Z"
 }

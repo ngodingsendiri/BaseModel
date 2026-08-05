@@ -1,19 +1,21 @@
 {
   "model_id": "vercel/qwen-3-14b",
   "provider_id": "vercel",
-  "name": "alibaba/qwen-3-14b",
+  "name": "Qwen3-14B",
+  "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, instruction-following, agent capabilities, and multilingual support",
+  "context_window": 40960,
   "modality": [
     "text"
   ],
   "open_weight": false,
-  "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:06.867Z"
+  "updated_at": "2026-08-05T05:37:42.041Z"
 }

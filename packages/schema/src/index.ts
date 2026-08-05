@@ -24,3 +24,5 @@ export type { Pricing } from './pricing.js';
 export { PricingSchema } from './pricing.js';
 export type { Provider } from './provider.js';
 export { ProviderSchema } from './provider.js';
+export type { CanonicalModel, Offering, Quality } from './v2.js';
+export { CanonicalModelSchema, MODALITIES, OfferingSchema, QualitySchema } from './v2.js';

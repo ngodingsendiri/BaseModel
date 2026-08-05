@@ -70,7 +70,7 @@ function getDescriptor(plugin: GatewayPlugin): GatewayDescriptor {
   }
 
   if (typeof plugin.collect !== 'function') throw new Error('Custom plugin is missing collect().');
-  return { type: plugin.type, id: plugin.id };
+  return { type: plugin.type, id: plugin.id, pricingSource: plugin.pricingSource };
 }
 
 async function loadPlugin(pluginPath: string): Promise<GatewayPlugin> {

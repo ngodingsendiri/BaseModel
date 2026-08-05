@@ -37,9 +37,23 @@ Normalization converts provider-specific representation into BaseModel's canonic
 
 Examples include canonical identifiers, capability names, pricing units, and API compatibility data.
 
+OpenAI-compatible `/models` endpoints report no capability metadata, so the
+generic collector classifies each model id with conservative heuristics
+(`classifyApiModel`): embedding models, TTS/ASR models, image generators,
+image-processing tools, video models, and code models get the correct
+modality and flags instead of being stored as text-only chat models. When
+nothing matches, the model stays a plain text model. Custom gateway plugins
+may emit their own fields, which take precedence.
+
 ### Registry
 
 The registry stores canonical files under `data/registry/`.
+
+Model merges respect field ownership: machine-observable facts (context
+window, status, name) refresh on every collection, while curated fields
+(`description`, `family`, `release_date`, `architecture`, `parameter_size`,
+plus `capability_ids` and `license_id`) are never overwritten by collector
+data.
 
 Current registry entities include:
 
@@ -185,7 +199,10 @@ outage) can never deprecate an entire provider's models.
 
 Every pricing record reports which source produced it via `source`:
 `openrouter`, `huggingface`, or a gateway id such as `requesty` for a
-provider-declared catalog.
+provider-declared catalog. When several records exist for the same model and
+pricing type, the intelligence layer picks deterministically by provenance:
+the model's own provider catalog first, then OpenRouter, then other gateway
+catalogs, then Hugging Face.
 
 ### Tier definitions
 
@@ -201,6 +218,16 @@ Tiers are derived from a blended per-1M-token cost
 
 The same definitions are published in `dist/metadata.json` (`tier_definitions`
 and `blend`).
+
+### Generation guarantees
+
+The publisher validates all cross-entity relations (models → providers,
+models → capabilities) **before** writing any dataset file, so a broken
+registry can never produce a partially written `dist/`. Datasets report the
+`schema_version` of the `@basemodel/schema` package they were generated
+against. A dataset contract test (`packages/publisher`) runs the real
+generator against the real registry on every CI run to guarantee schema
+validity, relational integrity, and consistent metadata.
 
 ### Fail loudly
 

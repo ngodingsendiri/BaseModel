@@ -1,9 +1,11 @@
 {
   "model_id": "vercel/recraft-v4-pro",
   "provider_id": "vercel",
-  "name": "recraft/recraft-v4-pro",
+  "name": "Recraft V4 Pro",
+  "description": "The model delivers strong photorealism, including realistic skin rendering and natural textures, while avoiding common synthetic artifacts. It produces more distinctive lighting, composition, diverse subjects, contemporary styling, and carefully considered scene elements. For illustration, it generates original characters and forms with sophisticated and unexpected color combinations.",
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -11,9 +13,9 @@
   "structured_output": false,
   "vision_support": false,
   "audio_support": false,
-  "image_generation": false,
+  "image_generation": true,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.552Z"
+  "updated_at": "2026-08-05T05:37:43.023Z"
 }

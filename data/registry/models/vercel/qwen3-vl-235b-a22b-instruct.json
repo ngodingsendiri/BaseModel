@@ -1,16 +1,18 @@
 {
   "model_id": "vercel/qwen3-vl-235b-a22b-instruct",
   "provider_id": "vercel",
-  "name": "alibaba/qwen3-vl-235b-a22b-instruct",
-  "context_window": 262144,
+  "name": "Qwen3 VL 235B A22B Instruct",
+  "description": "The Qwen3 series VL models has been comprehensively upgraded in areas such as visual coding and spatial perception. Its visual perception and recognition capabilities have significantly improved, supporting the understanding of ultra-long videos, and its OCR functionality has undergone a major enhancement.",
+  "context_window": 131072,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
   "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
-  "vision_support": false,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
@@ -21,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.245Z"
+  "updated_at": "2026-08-05T05:38:36.654Z"
 }

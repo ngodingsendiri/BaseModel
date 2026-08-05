@@ -2,13 +2,14 @@
   "model_id": "requesty/deepseek-reasoner",
   "provider_id": "requesty",
   "name": "deepseek/deepseek-reasoner",
+  "description": "An alias for DeepSeek v4 Flash in thinking mode.",
   "context_window": 1000000,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": true,
-  "function_calling": false,
+  "function_calling": true,
   "structured_output": false,
   "vision_support": false,
   "audio_support": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.320Z"
+  "updated_at": "2026-08-05T05:38:36.692Z"
 }

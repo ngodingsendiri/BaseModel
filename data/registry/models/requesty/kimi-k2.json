@@ -2,15 +2,17 @@
   "model_id": "requesty/kimi-k2",
   "provider_id": "requesty",
   "name": "vertex/kimi-k2",
-  "context_window": 131072,
+  "description": "Kimi K2 Thinking is an open-source model that operates as a \"thinking agent,\" reasoning step-by-step while using tools to achieve state-of-the-art performance on various benchmarks. It is capable of executing up to 200-300 sequential tool calls without human intervention, allowing it to solve complex problems across a wide range of tasks. The model uses Quantization-Aware Training (QAT) to support INT4 inference, which provides a roughly 2x improvement in generation speed.",
+  "context_window": 262144,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
-  "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
-  "vision_support": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
@@ -21,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:45.912Z"
+  "updated_at": "2026-08-05T05:38:36.189Z"
 }

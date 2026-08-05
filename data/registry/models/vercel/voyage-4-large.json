@@ -1,9 +1,12 @@
 {
   "model_id": "vercel/voyage-4-large",
   "provider_id": "vercel",
-  "name": "voyage/voyage-4-large",
+  "name": "Voyage 4 Large",
+  "description": "The best general-purpose and multilingual retrieval quality. All embeddings created with the 4 series are compatible with each other.",
+  "context_window": 32000,
   "modality": [
-    "text"
+    "text",
+    "embedding"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -12,8 +15,8 @@
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
-  "embedding_support": false,
+  "embedding_support": true,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.592Z"
+  "updated_at": "2026-08-05T05:37:43.080Z"
 }

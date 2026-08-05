@@ -1,9 +1,11 @@
 {
   "model_id": "vercel/recraft-v2",
   "provider_id": "vercel",
-  "name": "recraft/recraft-v2",
+  "name": "Recraft V2",
+  "description": "Recraft V2 is an image generation model released in March 2024 and the first model trained from scratch by Recraft. With 20 billion parameters, it was a breakthrough in human anatomical accuracy and the first to support brand consistency and brand color inputs. It also introduced vector image generation (SVG output), as well as minimalistic icon and illustration styles.",
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -11,9 +13,9 @@
   "structured_output": false,
   "vision_support": false,
   "audio_support": false,
-  "image_generation": false,
+  "image_generation": true,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.543Z"
+  "updated_at": "2026-08-05T05:37:43.013Z"
 }

@@ -1,4 +1,5 @@
 import type { Model } from '@basemodel/schema';
+import { blendedCost } from '@basemodel/schema';
 import type { IntelligenceEngine } from '../core/engine';
 
 export interface AlternativeResult {
@@ -29,6 +30,19 @@ function isRouterEndpoint(model: Model): boolean {
 /** First-party providers are preferred over router re-serves for the same model. */
 function isPreferredRepresentative(model: Model): boolean {
   return !ROUTER_PROVIDERS.has(model.provider_id);
+}
+
+/** Blended per-1M cost for ranking, or undefined when the model has no price. */
+function blendedCostOf(engine: IntelligenceEngine, modelId: string): number | undefined {
+  let input: number | undefined;
+  let output: number | undefined;
+  for (const record of engine.pricing) {
+    if (record.model_id !== modelId || !record.unit?.includes('1M')) continue;
+    if (record.pricing_type === 'input-token') input = record.value ?? 0;
+    if (record.pricing_type === 'output-token') output = record.value ?? 0;
+  }
+  if (input === undefined && output === undefined) return undefined;
+  return blendedCost(input ?? 0, output ?? 0);
 }
 
 /**
@@ -107,10 +121,16 @@ export function findAlternatives(
 
   const deduped = [...bestPerModel.values()];
 
-  // Sort by context window descending as a basic ranking heuristic
+  // Rank by context window first, then prefer cheaper models on ties so the
+  // suggestions are economically sensible, not just technically comparable.
   deduped.sort((a, b) => {
     const contextDifference = (b.model.context_window || 0) - (a.model.context_window || 0);
-    return contextDifference || a.model.model_id.localeCompare(b.model.model_id);
+    if (contextDifference) return contextDifference;
+    const costA = blendedCostOf(engine, a.model.model_id);
+    const costB = blendedCostOf(engine, b.model.model_id);
+    if (costA !== undefined && costB !== undefined && costA !== costB) return costA - costB;
+    if (costA !== costB) return costA === undefined ? 1 : -1;
+    return a.model.model_id.localeCompare(b.model.model_id);
   });
 
   return deduped.slice(0, limit);

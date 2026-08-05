@@ -2,14 +2,15 @@
   "model_id": "requesty/sonar-pro",
   "provider_id": "requesty",
   "name": "perplexity/sonar-pro",
-  "context_window": 200000,
+  "description": "Premier search offering with search grounding, supporting advanced queries and follow-ups.",
+  "context_window": 204800,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": false,
   "function_calling": false,
-  "structured_output": false,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.060Z"
+  "updated_at": "2026-08-05T05:38:36.397Z"
 }

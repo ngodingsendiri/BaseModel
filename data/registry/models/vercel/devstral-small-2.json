@@ -1,19 +1,22 @@
 {
   "model_id": "vercel/devstral-small-2",
   "provider_id": "vercel",
-  "name": "mistral/devstral-small-2",
+  "name": "Devstral Small 2",
+  "description": "Our open source model that excels at using tools to explore codebases, editing multiple files, and powering software engineering agents.",
+  "context_window": 256000,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
   "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
-  "vision_support": false,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.316Z"
+  "updated_at": "2026-08-05T05:37:42.656Z"
 }

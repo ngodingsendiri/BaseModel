@@ -1,19 +1,22 @@
 {
   "model_id": "vercel/gpt-4o-mini-search-preview",
   "provider_id": "vercel",
-  "name": "openai/gpt-4o-mini-search-preview",
+  "name": "GPT 4o Mini Search Preview",
+  "description": "GPT-4o mini Search Preview is a specialized model trained to understand and execute web search queries with the Chat Completions API. In addition to token fees, web search queries have a fee per tool call.",
+  "context_window": 128000,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
   "reasoning_support": false,
   "function_calling": false,
   "structured_output": false,
-  "vision_support": false,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.406Z"
+  "updated_at": "2026-08-05T05:37:42.787Z"
 }

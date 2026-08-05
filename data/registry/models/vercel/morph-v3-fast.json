@@ -1,7 +1,8 @@
 {
   "model_id": "vercel/morph-v3-fast",
   "provider_id": "vercel",
-  "name": "morph/morph-v3-fast",
+  "name": "Morph V3 Fast",
+  "description": "Morph offers a specialized AI model that applies code changes suggested by frontier models (like Claude or GPT-4o) to your existing code files FAST - 4500+ tokens/second. It acts as the final step in the AI coding workflow. Supports 16k input tokens and 16k output tokens.",
   "context_window": 81920,
   "modality": [
     "text"
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.222Z"
+  "updated_at": "2026-08-05T05:38:36.618Z"
 }

@@ -103,4 +103,51 @@ describe('mergeModelData', () => {
     expect(result.errors).toBeDefined();
     expect(result.errors?.[0]).toContain('model_id');
   });
+
+  it('never overwrites curated fields with incoming collector data', () => {
+    const existing: Partial<Model> = {
+      model_id: 'openai/gpt-4o',
+      provider_id: 'openai',
+      name: 'GPT-4o',
+      description: 'Curated description',
+      family: 'GPT-4',
+      release_date: '2024-05-13',
+      architecture: 'transformer',
+      parameter_size: '~1.8T',
+      open_weight: false,
+      reasoning_support: false,
+      function_calling: false,
+      structured_output: false,
+      vision_support: false,
+      audio_support: false,
+      image_generation: false,
+      embedding_support: false,
+      modality: ['text'],
+      status: 'active',
+    };
+
+    const incoming: Partial<Model> = {
+      model_id: 'openai/gpt-4o',
+      provider_id: 'openai',
+      name: 'gpt-4o-2024-08-06',
+      description: 'raw upstream junk',
+      family: 'wrong-family',
+      release_date: '2020-01-01',
+      architecture: 'unknown',
+      parameter_size: '0B',
+      status: 'active',
+    };
+
+    const result = mergeModelData(existing, incoming);
+    expect(result.success).toBe(true);
+
+    const data = result.data as Model;
+    expect(data.description).toBe('Curated description');
+    expect(data.family).toBe('GPT-4');
+    expect(data.release_date).toBe('2024-05-13');
+    expect(data.architecture).toBe('transformer');
+    expect(data.parameter_size).toBe('~1.8T');
+    // Machine-observable fields still refresh from the collector.
+    expect(data.name).toBe('gpt-4o-2024-08-06');
+  });
 });

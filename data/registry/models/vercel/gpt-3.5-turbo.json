@@ -1,15 +1,16 @@
 {
   "model_id": "vercel/gpt-3.5-turbo",
   "provider_id": "vercel",
-  "name": "openai/gpt-3.5-turbo",
+  "name": "GPT-3.5 Turbo",
+  "description": "OpenAI's most capable and cost effective model in the GPT-3.5 family optimized for chat purposes, but also works well for traditional completions tasks.",
   "context_window": 16385,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.139Z"
+  "updated_at": "2026-08-05T05:38:36.503Z"
 }

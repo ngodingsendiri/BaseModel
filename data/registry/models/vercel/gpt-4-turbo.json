@@ -1,16 +1,18 @@
 {
   "model_id": "vercel/gpt-4-turbo",
   "provider_id": "vercel",
-  "name": "openai/gpt-4-turbo",
+  "name": "GPT-4 Turbo",
+  "description": "gpt-4-turbo from OpenAI has broad general knowledge and domain expertise allowing it to follow complex instructions in natural language and solve difficult problems accurately. It has a knowledge cutoff of April 2023 and a 128,000 token context window.",
   "context_window": 128000,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
   "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
-  "vision_support": false,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
@@ -21,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.140Z"
+  "updated_at": "2026-08-05T05:38:36.506Z"
 }

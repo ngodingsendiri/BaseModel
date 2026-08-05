@@ -74,6 +74,8 @@ export interface CustomGateway {
   id: string;
   /** Full collection logic executed with only approved secrets. */
   collect(secrets: Record<string, string | undefined>): Promise<CollectionResult>;
+  /** Optional pricing catalog consumed by the enrich step. */
+  pricingSource?: PricingSourceSpec;
 }
 
 /** Union type for supported gateway plugins. */
@@ -85,4 +87,4 @@ export type GatewayPlugin = SimpleGateway | CustomGateway;
  */
 export type GatewayDescriptor =
   | Pick<SimpleGateway, 'type' | 'id' | 'baseUrl' | 'secretKeyName' | 'pricingSource'>
-  | Pick<CustomGateway, 'type' | 'id'>;
+  | Pick<CustomGateway, 'type' | 'id' | 'pricingSource'>;

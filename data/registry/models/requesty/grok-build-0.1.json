@@ -2,14 +2,15 @@
   "model_id": "requesty/grok-build-0.1",
   "provider_id": "requesty",
   "name": "xai/grok-build-0.1",
+  "description": "Grok Build 0.1 is xAI's dedicated coding model optimized for software engineering tasks including code generation, review, debugging, and technical problem solving.",
   "context_window": 256000,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:45.889Z"
+  "updated_at": "2026-08-05T05:38:36.152Z"
 }

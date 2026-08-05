@@ -5,16 +5,18 @@
   "description": "Obtain a distributed representation of a text.",
   "context_window": 2048,
   "modality": [
-    "text"
+    "text",
+    "embedding"
   ],
   "open_weight": false,
   "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": true,
   "capability_ids": [],
-  "status": "active"
+  "status": "active",
+  "updated_at": "2026-08-05T05:43:49.110Z"
 }

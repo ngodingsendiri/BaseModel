@@ -2,14 +2,15 @@
   "model_id": "requesty/sonar",
   "provider_id": "requesty",
   "name": "perplexity/sonar",
-  "context_window": 127072,
+  "description": "Lightweight offering with search grounding, quicker and cheaper than Sonar Pro.",
+  "context_window": 131072,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": false,
   "function_calling": false,
-  "structured_output": false,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.063Z"
+  "updated_at": "2026-08-05T05:38:36.401Z"
 }

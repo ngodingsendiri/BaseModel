@@ -2,15 +2,17 @@
   "model_id": "requesty/o1-high",
   "provider_id": "requesty",
   "name": "openai/o1:high",
+  "description": "The o1 series of models are trained with reinforcement learning to perform complex reasoning. o1 models think before they answer, producing a long internal chain of thought before responding to the user. The o1 reasoning model is designed to solve hard problems across domains. The knowledge cutoff for o1 and o1-mini models is October, 2023.",
   "context_window": 200000,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
   "reasoning_support": true,
-  "function_calling": false,
-  "structured_output": false,
-  "vision_support": false,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
@@ -21,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.327Z"
+  "updated_at": "2026-08-05T05:38:36.287Z"
 }

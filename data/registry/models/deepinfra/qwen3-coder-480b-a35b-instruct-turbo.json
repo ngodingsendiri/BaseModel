@@ -4,7 +4,8 @@
   "name": "Qwen/Qwen3-Coder-480B-A35B-Instruct-Turbo",
   "context_window": 262144,
   "modality": [
-    "text"
+    "text",
+    "code"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.710Z"
+  "updated_at": "2026-08-05T05:37:43.333Z"
 }

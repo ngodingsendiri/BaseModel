@@ -2,14 +2,15 @@
   "model_id": "requesty/o4-mini-eastus2",
   "provider_id": "requesty",
   "name": "azure/o4-mini@eastus2",
+  "description": "o4-mini is OpenAI's most recent small reasoning model, providing high intelligence at the same cost and latency targets of o1-mini. o3-mini also supports key developer features, like Structured Outputs, function calling, Batch API, and more. Like other models in the o-series, it is designed to excel at science, math, and coding tasks.",
   "context_window": 200000,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": true,
-  "function_calling": false,
-  "structured_output": false,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.340Z"
+  "updated_at": "2026-08-05T05:38:36.311Z"
 }

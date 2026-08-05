@@ -1,9 +1,11 @@
 {
   "model_id": "vercel/voyage-3-large",
   "provider_id": "vercel",
-  "name": "voyage/voyage-3-large",
+  "name": "voyage-3-large",
+  "description": "Voyage AI's embedding model with the best general-purpose and multilingual retrieval quality.",
   "modality": [
-    "text"
+    "text",
+    "embedding"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -12,8 +14,8 @@
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
-  "embedding_support": false,
+  "embedding_support": true,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.583Z"
+  "updated_at": "2026-08-05T05:37:43.066Z"
 }

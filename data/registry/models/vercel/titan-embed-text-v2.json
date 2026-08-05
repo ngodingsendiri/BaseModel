@@ -1,9 +1,11 @@
 {
   "model_id": "vercel/titan-embed-text-v2",
   "provider_id": "vercel",
-  "name": "amazon/titan-embed-text-v2",
+  "name": "Titan Text Embeddings V2",
+  "description": "Amazon Titan Text Embeddings V2 is a light weight, efficient multilingual embedding model supporting 1024, 512, and 256 dimensions.",
   "modality": [
-    "text"
+    "text",
+    "embedding"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -12,8 +14,8 @@
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
-  "embedding_support": false,
+  "embedding_support": true,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:06.988Z"
+  "updated_at": "2026-08-05T05:37:42.199Z"
 }

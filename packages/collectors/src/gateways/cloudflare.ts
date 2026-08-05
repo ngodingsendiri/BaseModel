@@ -1,5 +1,8 @@
+import type { Model } from '@basemodel/schema';
 import { z } from 'zod';
 import type { CollectionResult, CustomGateway } from '../core/collector';
+
+type CloudflareModel = Model;
 
 // Cloudflare Workers AI model catalog.
 // Docs: https://developers.cloudflare.com/ai/models/
@@ -92,9 +95,19 @@ export default {
 
         for (const m of parsed.data.result) {
           const slug = toSlug(m.id);
+          // Workers AI reports the task type, which maps cleanly onto
+          // modalities: generation tasks produce media, classification
+          // tasks consume it (vision), and speech tasks handle audio.
           const taskId = (m.task?.id ?? '').toLowerCase();
-          const isImage = taskId.includes('image') || taskId.includes('text-to-image');
+          const isImageGen = taskId === 'text-to-image' || taskId === 'image-to-image';
+          const isVision = taskId === 'image-classification' || taskId === 'object-detection';
           const isEmbedding = taskId.includes('embedding');
+          const isSpeech = taskId.includes('speech') || taskId.includes('audio');
+
+          const modality: CloudflareModel['modality'] = ['text'];
+          if (isEmbedding) modality.push('embedding');
+          else if (isImageGen || isVision) modality.push('image');
+          if (isSpeech) modality.push('audio');
 
           result.models.push({
             model_id: `cloudflare/${slug}`,
@@ -102,14 +115,14 @@ export default {
             name: m.name ?? m.id,
             description: m.description,
             status: 'active',
-            modality: isEmbedding ? ['text'] : isImage ? ['text', 'image'] : ['text'],
+            modality,
             open_weight: true,
             reasoning_support: false,
             function_calling: false,
             structured_output: false,
-            vision_support: isImage || taskId.includes('image'),
-            audio_support: taskId.includes('audio') || taskId.includes('speech'),
-            image_generation: isImage,
+            vision_support: isVision,
+            audio_support: isSpeech,
+            image_generation: isImageGen,
             embedding_support: isEmbedding,
           });
         }

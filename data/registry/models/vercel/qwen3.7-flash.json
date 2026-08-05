@@ -1,16 +1,18 @@
 {
   "model_id": "vercel/qwen3.7-flash",
   "provider_id": "vercel",
-  "name": "alibaba/qwen3.7-flash",
-  "context_window": 1000000,
+  "name": "Qwen 3.7 Flash",
+  "description": "The Qwen3.7 native vision-language Flash model series delivers a comprehensive upgrade over 3.6-Flash in multimodal understanding and agent execution. This model particularly excels in enhanced multimodal foundations with stronger universal object recognition, further improved real-world perception and spatial intelligence, significantly upgraded multimodal agent capabilities for Search Agent and CI Agent scenarios with more stable end-to-end task execution, as well as optimized multimodal coding for a smoother vibe coding experience.",
+  "context_window": 991000,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
-  "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
-  "vision_support": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
@@ -21,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.250Z"
+  "updated_at": "2026-08-05T05:38:36.659Z"
 }

@@ -1,9 +1,12 @@
 {
   "model_id": "vercel/kling-v2.6-t2v",
   "provider_id": "vercel",
-  "name": "klingai/kling-v2.6-t2v",
+  "name": "Kling v2.6 Text-to-Video",
+  "description": "Kling 2.6 introduces a groundbreaking \"Native Audio\" capability, enabling the generation of complete videos in a single go, including natural voice, action sound effects, and environmental ambient sounds, providing an immersive \"what you see if what you hear\" experience. ",
   "modality": [
-    "text"
+    "text",
+    "image",
+    "video"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -15,5 +18,5 @@
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-02T06:05:07.250Z"
+  "updated_at": "2026-08-05T05:37:42.566Z"
 }

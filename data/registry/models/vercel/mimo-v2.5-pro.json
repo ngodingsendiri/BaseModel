@@ -1,15 +1,16 @@
 {
   "model_id": "vercel/mimo-v2.5-pro",
   "provider_id": "vercel",
-  "name": "xiaomi/mimo-v2.5-pro",
+  "name": "MiMo V2.5 Pro",
+  "description": "MiMo V2.5 Pro delivers significant improvements over its predecessor, MiMo-V2-Pro, in general agentic capabilities, complex software engineering, and long-horizon tasks. MiMo-V2.5-Pro is a 1.02T-parameter Mixture-of-Experts model with 42B active parameters, built on a hybrid-attention architecture with a 1M-token context window.",
   "context_window": 1050000,
   "modality": [
     "text"
   ],
   "open_weight": false,
-  "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.211Z"
+  "updated_at": "2026-08-05T05:38:36.603Z"
 }

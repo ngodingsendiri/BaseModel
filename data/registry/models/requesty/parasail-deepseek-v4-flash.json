@@ -2,14 +2,15 @@
   "model_id": "requesty/parasail-deepseek-v4-flash",
   "provider_id": "requesty",
   "name": "parasail/parasail-deepseek-v4-flash",
+  "description": "DeepSeek-V4-Flash",
   "context_window": 1048576,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": false,
-  "function_calling": false,
-  "structured_output": false,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -21,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-03T12:49:46.012Z"
+  "updated_at": "2026-08-05T05:38:36.330Z"
 }
