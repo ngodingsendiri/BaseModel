@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "29088dc7",
-  "generated_at": "2026-08-05T06:55:04.532Z",
+  "source_revision": "8ff06d1",
+  "generated_at": "2026-08-06T03:15:51.714Z",
   "count": 26,
   "ranking": [
     {
@@ -269,9 +269,9 @@
         "overall",
         "reasoning"
       ],
-      "cheapest_offering": "openrouter/deepseek-r1-distill-llama-70b",
-      "cheapest_provider": "openrouter",
-      "blended_cost_per_1m": 0.8,
+      "cheapest_offering": "requesty/deepseek-r1-distill-llama-70b",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 0.345,
       "pareto_optimal": false
     },
     {

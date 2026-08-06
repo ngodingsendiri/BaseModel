@@ -2,6 +2,7 @@
   "model_id": "deepinfra/qwen3.8-max",
   "provider_id": "deepinfra",
   "name": "Qwen/Qwen3.8-Max",
+  "context_window": 1000000,
   "modality": [
     "text"
   ],
@@ -13,13 +14,12 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "capability_ids": [],
-  "status": "active",
-  "updated_at": "2026-08-05T05:38:34.658Z",
   "is_free": false,
   "tier": "balanced",
   "limits": {
     "max_input_tokens": 1000000
   },
-  "context_window": 1000000
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-06T03:13:08.019Z"
 }

@@ -7,7 +7,12 @@
   "description": "Google's fast and versatile multimodal model for diverse tasks at scale.",
   "architecture": "mixture-of-experts",
   "context_window": 1000000,
-  "modality": ["text", "image", "audio", "video"],
+  "modality": [
+    "text",
+    "image",
+    "audio",
+    "video"
+  ],
   "open_weight": false,
   "reasoning_support": false,
   "function_calling": true,
@@ -16,7 +21,13 @@
   "audio_support": true,
   "image_generation": false,
   "embedding_support": false,
-  "capability_ids": ["text-generation", "code-generation", "vision", "tool-calling"],
+  "capability_ids": [
+    "text-generation",
+    "code-generation",
+    "vision",
+    "tool-calling"
+  ],
   "license_id": "proprietary",
-  "status": "active"
+  "status": "discontinued",
+  "updated_at": "2026-08-06T03:13:02.859Z"
 }

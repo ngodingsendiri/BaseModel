@@ -1,148 +1,30 @@
 {
-  "generated_at": "2026-08-05T05:37:46.768Z",
+  "generated_at": "2026-08-06T03:13:03.114Z",
   "summary": {
     "gateways": 17,
-    "failed": 0,
-    "partial": 15,
-    "total_fetched": 1426,
-    "total_errors": 22
+    "failed": 3,
+    "partial": 5,
+    "total_fetched": 974,
+    "total_errors": 9
   },
   "gateways": [
-    {
-      "plugin": "openrouter",
-      "provider_id": "openrouter",
-      "status": "partial",
-      "fetched": 338,
-      "errors": [
-        "No API key is registered for gateway openrouter."
-      ],
-      "duration_ms": 697
-    },
-    {
-      "plugin": "groq",
-      "provider_id": "groq",
-      "status": "partial",
-      "fetched": 0,
-      "errors": [
-        "No API key is registered for gateway groq.",
-        "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}"
-      ],
-      "duration_ms": 824
-    },
-    {
-      "plugin": "helicone",
-      "provider_id": "helicone",
-      "status": "partial",
-      "fetched": 0,
-      "errors": [
-        "Helicone is a proxy with no model catalog. Set HELICONE_API_KEY to use as proxy."
-      ],
-      "duration_ms": 843
-    },
-    {
-      "plugin": "hyperbolic",
-      "provider_id": "hyperbolic",
-      "status": "partial",
-      "fetched": 0,
-      "errors": [
-        "No API key is registered for gateway hyperbolic.",
-        "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): {\"detail\":\"Not authenticated\"}"
-      ],
-      "duration_ms": 838
-    },
-    {
-      "plugin": "mistral-ai",
-      "provider_id": "mistral-ai",
-      "status": "partial",
-      "fetched": 0,
-      "errors": [
-        "No API key is registered for gateway mistral-ai.",
-        "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): {\"detail\":\"Unauthorized\"}"
-      ],
-      "duration_ms": 820
-    },
-    {
-      "plugin": "cerebras",
-      "provider_id": "cerebras",
-      "status": "partial",
-      "fetched": 0,
-      "errors": [
-        "No API key is registered for gateway cerebras.",
-        "HTTP 403: Forbidden (Forbidden: the API key may lack permission to list models.): {\"detail\":\"Not authenticated\"}"
-      ],
-      "duration_ms": 906
-    },
-    {
-      "plugin": "together",
-      "provider_id": "together",
-      "status": "partial",
-      "fetched": 0,
-      "errors": [
-        "No API key is registered for gateway together.",
-        "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): Missing API key"
-      ],
-      "duration_ms": 776
-    },
-    {
-      "plugin": "anthropic",
-      "provider_id": "anthropic",
-      "status": "partial",
-      "fetched": 0,
-      "errors": [
-        "ANTHROPIC_API_KEY is required. Please add it to GitHub Secrets."
-      ],
-      "duration_ms": 969
-    },
-    {
-      "plugin": "cloudflare",
-      "provider_id": "cloudflare",
-      "status": "partial",
-      "fetched": 0,
-      "errors": [
-        "CLOUDFLARE_ACCOUNT_ID and CLOUDFLARE_API_TOKEN are required. Add them to GitHub Secrets."
-      ],
-      "duration_ms": 958
-    },
-    {
-      "plugin": "openai",
-      "provider_id": "openai",
-      "status": "partial",
-      "fetched": 0,
-      "errors": [
-        "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): {\n  \"error\": {\n    \"message\": \"Incorrect API key provided: a66cd460************************6627. You can find your API key at https://platform.openai.com/account/api-keys.\",\n    \"type\": \"invalid_reque"
-      ],
-      "duration_ms": 881
-    },
-    {
-      "plugin": "google",
-      "provider_id": "google",
-      "status": "partial",
-      "fetched": 0,
-      "errors": [
-        "GOOGLE_AI_API_KEY is required. Please add it to GitHub Secrets."
-      ],
-      "duration_ms": 1008
-    },
-    {
-      "plugin": "portkey",
-      "provider_id": "portkey",
-      "status": "partial",
-      "fetched": 0,
-      "errors": [
-        "PORTKEY_API_KEY required"
-      ],
-      "duration_ms": 985
-    },
     {
       "plugin": "fireworks",
       "provider_id": "fireworks",
       "status": "partial",
       "fetched": 0,
       "errors": [
-        "No API key is registered for gateway fireworks.",
-        "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): {\"error\":{\"message\":\"You must provide an API key. See https://docs.fireworks.ai/api-reference/introduction#authentication for more information.\",\"param\":null,\"code\":\"UNAUTHORIZED\",\"type\":\"error\"},\"req"
+        "HTTP 412: Precondition Failed (Precondition failed: the provider may require billing setup, or the account is suspended or rate-limited.): {\"error\":{\"message\":\"Account xmlze is suspended, possibly due to reaching the monthly spending limit or failure to pay past invoices. Please go to https://fireworks.ai/account/billing for more informa"
       ],
-      "duration_ms": 1162
+      "duration_ms": 2058
+    },
+    {
+      "plugin": "cerebras",
+      "provider_id": "cerebras",
+      "status": "ok",
+      "fetched": 3,
+      "errors": [],
+      "duration_ms": 2160
     },
     {
       "plugin": "inferx",
@@ -153,33 +35,128 @@
         "No API key is registered for gateway inferx.",
         "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): service failure: no tenant context: set a default tenant or use a tenant-restricted API key"
       ],
-      "duration_ms": 1417
+      "duration_ms": 2223
+    },
+    {
+      "plugin": "groq",
+      "provider_id": "groq",
+      "status": "ok",
+      "fetched": 15,
+      "errors": [],
+      "duration_ms": 2253
+    },
+    {
+      "plugin": "deepinfra",
+      "provider_id": "deepinfra",
+      "status": "ok",
+      "fetched": 181,
+      "errors": [],
+      "duration_ms": 2309
+    },
+    {
+      "plugin": "mistral-ai",
+      "provider_id": "mistral-ai",
+      "status": "ok",
+      "fetched": 53,
+      "errors": [],
+      "duration_ms": 2302
+    },
+    {
+      "plugin": "hyperbolic",
+      "provider_id": "hyperbolic",
+      "status": "ok",
+      "fetched": 5,
+      "errors": [],
+      "duration_ms": 2362
+    },
+    {
+      "plugin": "openrouter",
+      "provider_id": "openrouter",
+      "status": "ok",
+      "fetched": 340,
+      "errors": [],
+      "duration_ms": 2394
+    },
+    {
+      "plugin": "helicone",
+      "provider_id": "helicone",
+      "status": "partial",
+      "fetched": 0,
+      "errors": [
+        "Helicone is a proxy with no model catalog. Set HELICONE_API_KEY to use as proxy."
+      ],
+      "duration_ms": 2490
+    },
+    {
+      "plugin": "cloudflare",
+      "provider_id": "cloudflare",
+      "status": "partial",
+      "fetched": 0,
+      "errors": [
+        "HTTP 404: Cloudflare returned Not Found for the Workers AI catalog. Check that CLOUDFLARE_ACCOUNT_ID is correct, Workers AI is enabled on the account, and CLOUDFLARE_API_TOKEN has the Workers AI \"AI Models\" read permission."
+      ],
+      "duration_ms": 2913
     },
     {
       "plugin": "vercel",
       "provider_id": "vercel",
       "status": "ok",
-      "fetched": 315,
+      "fetched": 317,
       "errors": [],
-      "duration_ms": 1362
+      "duration_ms": 2923
+    },
+    {
+      "plugin": "google",
+      "provider_id": "google",
+      "status": "ok",
+      "fetched": 50,
+      "errors": [],
+      "duration_ms": 3149
+    },
+    {
+      "plugin": "anthropic",
+      "provider_id": "anthropic",
+      "status": "ok",
+      "fetched": 10,
+      "errors": [],
+      "duration_ms": 3289
+    },
+    {
+      "plugin": "portkey",
+      "provider_id": "portkey",
+      "status": "partial",
+      "fetched": 0,
+      "errors": [
+        "Portkey returned an empty model catalog. This is a known upstream issue (https://github.com/Portkey-AI/gateway/issues/1371); Portkey lists no models until a provider or virtual key is configured in the account."
+      ],
+      "duration_ms": 3428
+    },
+    {
+      "plugin": "openai",
+      "status": "failed",
+      "fetched": 0,
+      "errors": [
+        "Error: Plugin worker exited before responding (code 0)."
+      ],
+      "duration_ms": 0
     },
     {
       "plugin": "requesty",
-      "provider_id": "requesty",
-      "status": "ok",
-      "fetched": 593,
-      "errors": [],
-      "duration_ms": 1830
+      "status": "failed",
+      "fetched": 0,
+      "errors": [
+        "Error: Plugin worker exited before responding (code 0)."
+      ],
+      "duration_ms": 0
     },
     {
-      "plugin": "deepinfra",
-      "provider_id": "deepinfra",
-      "status": "partial",
-      "fetched": 180,
+      "plugin": "together",
+      "status": "failed",
+      "fetched": 0,
       "errors": [
-        "No API key is registered for gateway deepinfra."
+        "Error: Plugin worker exited before responding (code 0)."
       ],
-      "duration_ms": 2385
+      "duration_ms": 0
     }
   ]
 }

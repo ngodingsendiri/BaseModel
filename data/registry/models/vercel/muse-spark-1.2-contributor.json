@@ -1,0 +1,22 @@
+{
+  "model_id": "vercel/muse-spark-1.2-contributor",
+  "provider_id": "vercel",
+  "name": "Muse Spark 1.2 Contributor",
+  "description": "A coding-optimized model with pricing designed for builders. Same model, same capabilities — up to 95% less than Standard. Your inputs and outputs are used to train and improve Meta's AI models.",
+  "context_window": 1048576,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-06T03:13:00.614Z"
+}

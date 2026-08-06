@@ -1,13 +1,207 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "29088dc7",
-  "generated_at": "2026-08-05T06:55:04.532Z",
+  "source_revision": "8ff06d1",
+  "generated_at": "2026-08-06T03:15:51.714Z",
   "summary": {
-    "added": 0,
+    "added": 7,
     "removed": 0,
-    "status_changed": 0
+    "status_changed": 37
   },
-  "added": [],
+  "added": [
+    "deepinfra/ling-3.0-flash",
+    "mistral-ai/mistral-ocr-4-1",
+    "openrouter/ling-3.0-flash",
+    "openrouter/muse-spark-1.2",
+    "vercel/flux-3-video",
+    "vercel/muse-spark-1.2-contributor",
+    "vercel/muse-spark-1.2"
+  ],
   "removed": [],
-  "status_changed": []
+  "status_changed": [
+    {
+      "model_id": "anthropic/claude-3-5-haiku",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "anthropic/claude-3-5-sonnet",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "anthropic/claude-opus-4-1-20250805",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "google/gemini-1.5-flash",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "google/gemini-1.5-pro",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "mistral-ai/mistral-large",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/claude-fable-5-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/claude-haiku-4.5-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/claude-opus-4.1-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/claude-opus-4.5-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/claude-opus-4.6-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/claude-opus-4.7-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/claude-opus-4.8-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/claude-sonnet-4.5-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/claude-sonnet-5-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/devstral-2512",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/gemini-2.5-flash-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/gemini-2.5-flash-lite-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/gemini-2.5-pro-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/gemini-3-flash-preview-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/gemini-3.1-flash-lite-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/gemini-3.1-pro-preview-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/gemini-3.5-flash-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/gemini-3.5-flash-lite-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/gemini-3.6-flash-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/gpt-5-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/gpt-5-mini-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/gpt-5-nano-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/gpt-5.1-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/gpt-5.1-chat",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/gpt-5.2-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/gpt-5.4-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/gpt-5.4-mini-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/gpt-5.4-nano-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/gpt-5.5-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/minimax-m3-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "vercel/claude-opus-4.1",
+      "from": "active",
+      "to": "discontinued"
+    }
+  ]
 }

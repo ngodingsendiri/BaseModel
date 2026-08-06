@@ -5,8 +5,7 @@
   "description": "Obtain a distributed representation of a text.",
   "context_window": 2048,
   "modality": [
-    "text",
-    "embedding"
+    "text"
   ],
   "open_weight": false,
   "reasoning_support": false,
@@ -18,5 +17,5 @@
   "embedding_support": true,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-05T05:43:49.110Z"
+  "updated_at": "2026-08-06T03:13:00.504Z"
 }

@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "29088dc7",
-  "generated_at": "2026-08-05T06:55:04.532Z",
-  "count": 1546,
+  "source_revision": "8ff06d1",
+  "generated_at": "2026-08-06T03:15:51.714Z",
+  "count": 1553,
   "intelligence": [
     {
       "model_id": "anthropic/claude-3-5-haiku",
@@ -604,11 +604,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -616,6 +611,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -626,11 +626,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -638,6 +633,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -846,11 +846,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -858,6 +853,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -868,11 +868,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -880,6 +875,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -890,11 +890,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -902,6 +897,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -1018,8 +1018,8 @@
     },
     {
       "model_id": "deepinfra/deepseek-v3",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.46249999999999997,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -1063,7 +1063,7 @@
     {
       "model_id": "deepinfra/deepseek-v4-flash",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.11,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -1899,7 +1899,7 @@
     {
       "model_id": "deepinfra/glm-5.1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.4834999999999998,
+      "blended_cost_per_1m": 1.462,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -2188,11 +2188,6 @@
       "blended_cost_per_1m": 0.675,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -2200,6 +2195,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -2210,11 +2210,6 @@
       "blended_cost_per_1m": 1.7625,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google"
@@ -2222,6 +2217,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google"
         }
       ]
@@ -2273,7 +2273,7 @@
     {
       "model_id": "deepinfra/kimi-k2.7-code",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.4224999999999999,
+      "blended_cost_per_1m": 1.4,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -2298,11 +2298,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -2310,6 +2305,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -2340,6 +2340,28 @@
       "model_id": "deepinfra/l3.1-70b-euryale-v2.2",
       "cost_tier": "Unknown",
       "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-fast",
+          "name": "xai/grok-4-fast",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "deepinfra/ling-3.0-flash",
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.11124999999999999,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -2540,11 +2562,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -2552,6 +2569,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -2562,11 +2584,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -2574,6 +2591,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -2914,11 +2936,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -2926,6 +2943,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -3024,11 +3046,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -3036,6 +3053,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -3332,11 +3354,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -3344,6 +3361,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -3354,11 +3376,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -3366,6 +3383,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -3530,11 +3552,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -3542,6 +3559,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -3552,11 +3574,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -3564,6 +3581,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -3725,7 +3747,7 @@
     {
       "model_id": "deepinfra/qwen3.6-27b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.81675,
+      "blended_cost_per_1m": 1.35,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -3816,11 +3838,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -3828,6 +3845,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -3838,11 +3860,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -3850,6 +3867,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -3860,11 +3882,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -3872,6 +3889,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -4124,11 +4146,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -4136,6 +4153,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -4146,11 +4168,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -4158,6 +4175,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -4212,11 +4234,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -4224,6 +4241,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -4234,11 +4256,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -4246,6 +4263,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -4256,11 +4278,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -4268,6 +4285,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -4278,11 +4300,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -4290,6 +4307,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -4300,11 +4322,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -4312,6 +4329,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -4432,11 +4454,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Alternative from the same provider with larger context window (1048576)"
@@ -4444,6 +4461,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Alternative from the same provider with larger context window (1048576)"
         }
       ]
@@ -4476,11 +4498,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Alternative from the same provider"
@@ -4488,6 +4505,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Alternative from the same provider"
         }
       ]
@@ -4498,11 +4520,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Alternative from the same provider"
@@ -4510,6 +4527,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Alternative from the same provider"
         }
       ]
@@ -4520,11 +4542,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Alternative from the same provider"
@@ -4532,6 +4549,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Alternative from the same provider"
         }
       ]
@@ -4542,11 +4564,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Alternative from the same provider"
@@ -4554,6 +4571,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Alternative from the same provider"
         }
       ]
@@ -4564,11 +4586,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Alternative from the same provider with larger context window (1048576)"
@@ -4576,6 +4593,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Alternative from the same provider with larger context window (1048576)"
         }
       ]
@@ -4586,11 +4608,6 @@
       "blended_cost_per_1m": 0.85,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Alternative from the same provider with larger context window (1048576)"
@@ -4598,6 +4615,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Alternative from the same provider with larger context window (1048576)"
         }
       ]
@@ -4608,11 +4630,6 @@
       "blended_cost_per_1m": 0.17500000000000002,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
           "reason": "Alternative from the same provider"
@@ -4620,6 +4637,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite-preview",
           "name": "Gemini 3.1 Flash Lite Preview",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.5-flash",
+          "name": "Gemini 2.5 Flash",
           "reason": "Alternative from the same provider"
         }
       ]
@@ -4630,11 +4652,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Alternative from the same provider with larger context window (1048576)"
@@ -4642,6 +4659,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Alternative from the same provider with larger context window (1048576)"
         }
       ]
@@ -4652,11 +4674,6 @@
       "blended_cost_per_1m": 0.85,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Alternative from the same provider"
@@ -4664,243 +4681,6 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
-          "reason": "Alternative from the same provider"
-        }
-      ]
-    },
-    {
-      "model_id": "google/gemini-2.5-pro-preview-tts",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
-      "alternatives": [
-        {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
-          "model_id": "google/gemini-2.5-flash-lite",
-          "name": "Gemini 2.5 Flash-Lite",
-          "reason": "Alternative from the same provider with larger context window (1048576)"
-        },
-        {
-          "model_id": "google/gemini-3.1-flash-lite",
-          "name": "Gemini 3.1 Flash Lite",
-          "reason": "Alternative from the same provider with larger context window (1048576)"
-        }
-      ]
-    },
-    {
-      "model_id": "google/gemini-2.5-pro",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.4375,
-      "alternatives": [
-        {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
-          "model_id": "google/gemini-2.5-flash-lite",
-          "name": "Gemini 2.5 Flash-Lite",
-          "reason": "Alternative from the same provider"
-        },
-        {
-          "model_id": "google/gemini-3.1-flash-lite",
-          "name": "Gemini 3.1 Flash Lite",
-          "reason": "Alternative from the same provider"
-        }
-      ]
-    },
-    {
-      "model_id": "google/gemini-3-flash-preview",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.125,
-      "alternatives": [
-        {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
-          "model_id": "google/gemini-2.5-flash-lite",
-          "name": "Gemini 2.5 Flash-Lite",
-          "reason": "Alternative from the same provider"
-        },
-        {
-          "model_id": "google/gemini-3.1-flash-lite",
-          "name": "Gemini 3.1 Flash Lite",
-          "reason": "Alternative from the same provider"
-        }
-      ]
-    },
-    {
-      "model_id": "google/gemini-3-pro-image-preview",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.5,
-      "alternatives": [
-        {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
-          "model_id": "google/gemini-2.5-flash-lite",
-          "name": "Gemini 2.5 Flash-Lite",
-          "reason": "Alternative from the same provider with larger context window (1048576)"
-        },
-        {
-          "model_id": "google/gemini-3.1-flash-lite",
-          "name": "Gemini 3.1 Flash Lite",
-          "reason": "Alternative from the same provider with larger context window (1048576)"
-        }
-      ]
-    },
-    {
-      "model_id": "google/gemini-3-pro-image",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.5,
-      "alternatives": [
-        {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
-          "model_id": "google/gemini-2.5-flash-lite",
-          "name": "Gemini 2.5 Flash-Lite",
-          "reason": "Alternative from the same provider with larger context window (1048576)"
-        },
-        {
-          "model_id": "google/gemini-3.1-flash-lite",
-          "name": "Gemini 3.1 Flash Lite",
-          "reason": "Alternative from the same provider with larger context window (1048576)"
-        }
-      ]
-    },
-    {
-      "model_id": "google/gemini-3-pro-preview",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
-      "alternatives": [
-        {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
-          "model_id": "google/gemini-2.5-flash-lite",
-          "name": "Gemini 2.5 Flash-Lite",
-          "reason": "Alternative from the same provider"
-        },
-        {
-          "model_id": "google/gemini-3.1-flash-lite",
-          "name": "Gemini 3.1 Flash Lite",
-          "reason": "Alternative from the same provider"
-        }
-      ]
-    },
-    {
-      "model_id": "google/gemini-3.1-flash-image-preview",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.125,
-      "alternatives": [
-        {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
-          "model_id": "google/gemini-2.5-flash-lite",
-          "name": "Gemini 2.5 Flash-Lite",
-          "reason": "Alternative from the same provider with larger context window (1048576)"
-        },
-        {
-          "model_id": "google/gemini-3.1-flash-lite",
-          "name": "Gemini 3.1 Flash Lite",
-          "reason": "Alternative from the same provider with larger context window (1048576)"
-        }
-      ]
-    },
-    {
-      "model_id": "google/gemini-3.1-flash-image",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.125,
-      "alternatives": [
-        {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
-          "model_id": "google/gemini-2.5-flash-lite",
-          "name": "Gemini 2.5 Flash-Lite",
-          "reason": "Alternative from the same provider with larger context window (1048576)"
-        },
-        {
-          "model_id": "google/gemini-3.1-flash-lite",
-          "name": "Gemini 3.1 Flash Lite",
-          "reason": "Alternative from the same provider with larger context window (1048576)"
-        }
-      ]
-    },
-    {
-      "model_id": "google/gemini-3.1-flash-lite-image",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.5625,
-      "alternatives": [
-        {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
-          "model_id": "google/gemini-2.5-flash-lite",
-          "name": "Gemini 2.5 Flash-Lite",
-          "reason": "Alternative from the same provider with larger context window (1048576)"
-        },
-        {
-          "model_id": "google/gemini-3.1-flash-lite",
-          "name": "Gemini 3.1 Flash Lite",
-          "reason": "Alternative from the same provider with larger context window (1048576)"
-        }
-      ]
-    },
-    {
-      "model_id": "google/gemini-3.1-flash-lite-preview",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.5625,
-      "alternatives": [
-        {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
-          "model_id": "google/gemini-2.5-flash-lite",
-          "name": "Gemini 2.5 Flash-Lite",
-          "reason": "Alternative from the same provider"
-        },
-        {
-          "model_id": "google/gemini-3.1-flash-lite",
-          "name": "Gemini 3.1 Flash Lite",
-          "reason": "Alternative from the same provider"
-        }
-      ]
-    },
-    {
-      "model_id": "google/gemini-3.1-flash-lite",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.5625,
-      "alternatives": [
-        {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
-          "model_id": "google/gemini-2.5-flash-lite",
-          "name": "Gemini 2.5 Flash-Lite",
           "reason": "Alternative from the same provider"
         },
         {
@@ -4911,15 +4691,10 @@
       ]
     },
     {
-      "model_id": "google/gemini-3.1-flash-tts-preview",
+      "model_id": "google/gemini-2.5-pro-preview-tts",
       "cost_tier": "Unknown",
       "blended_cost_per_1m": 0,
       "alternatives": [
-        {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
         {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
@@ -4928,6 +4703,253 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-2.5-pro",
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 3.4375,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-2.5-flash-lite",
+          "name": "Gemini 2.5 Flash-Lite",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite",
+          "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-3-flash-preview",
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 1.125,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-2.5-flash-lite",
+          "name": "Gemini 2.5 Flash-Lite",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite",
+          "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-3-pro-image-preview",
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 4.5,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-2.5-flash-lite",
+          "name": "Gemini 2.5 Flash-Lite",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite",
+          "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-3-pro-image",
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 4.5,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-2.5-flash-lite",
+          "name": "Gemini 2.5 Flash-Lite",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite",
+          "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-3-pro-preview",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-2.5-flash-lite",
+          "name": "Gemini 2.5 Flash-Lite",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite",
+          "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-3.1-flash-image-preview",
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 1.125,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-2.5-flash-lite",
+          "name": "Gemini 2.5 Flash-Lite",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite",
+          "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-3.1-flash-image",
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 1.125,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-2.5-flash-lite",
+          "name": "Gemini 2.5 Flash-Lite",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite",
+          "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-3.1-flash-lite-image",
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.5625,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-2.5-flash-lite",
+          "name": "Gemini 2.5 Flash-Lite",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite",
+          "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-3.1-flash-lite-preview",
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.5625,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-2.5-flash-lite",
+          "name": "Gemini 2.5 Flash-Lite",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite",
+          "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.5-flash",
+          "name": "Gemini 2.5 Flash",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-3.1-flash-lite",
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.5625,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-2.5-flash-lite",
+          "name": "Gemini 2.5 Flash-Lite",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-2.5-flash",
+          "name": "Gemini 2.5 Flash",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-3.1-flash-tts-preview",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-2.5-flash-lite",
+          "name": "Gemini 2.5 Flash-Lite",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite",
+          "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Alternative from the same provider with larger context window (1048576)"
         }
       ]
@@ -4938,11 +4960,6 @@
       "blended_cost_per_1m": 4.5,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Alternative from the same provider"
@@ -4950,6 +4967,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Alternative from the same provider"
         }
       ]
@@ -4960,11 +4982,6 @@
       "blended_cost_per_1m": 4.5,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Alternative from the same provider"
@@ -4972,6 +4989,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Alternative from the same provider"
         }
       ]
@@ -4982,11 +5004,6 @@
       "blended_cost_per_1m": 0.85,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Alternative from the same provider"
@@ -4994,6 +5011,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Alternative from the same provider"
         }
       ]
@@ -5004,11 +5026,6 @@
       "blended_cost_per_1m": 3.375,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Alternative from the same provider"
@@ -5016,6 +5033,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Alternative from the same provider"
         }
       ]
@@ -5026,11 +5048,6 @@
       "blended_cost_per_1m": 3,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Alternative from the same provider"
@@ -5038,6 +5055,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Alternative from the same provider"
         }
       ]
@@ -5048,14 +5070,19 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-embedding-2",
-          "name": "Gemini Embedding 2",
-          "reason": "Alternative from the same provider with larger context window (8192)"
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
         },
         {
-          "model_id": "google/gemini-embedding-2-preview",
-          "name": "Gemini Embedding 2 Preview",
-          "reason": "Alternative from the same provider with larger context window (8192)"
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-fast",
+          "name": "xai/grok-4-fast",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
         }
       ]
     },
@@ -5065,9 +5092,19 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-embedding-2",
-          "name": "Gemini Embedding 2",
-          "reason": "Alternative from the same provider"
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-fast",
+          "name": "xai/grok-4-fast",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
         }
       ]
     },
@@ -5077,9 +5114,19 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-embedding-2-preview",
-          "name": "Gemini Embedding 2 Preview",
-          "reason": "Alternative from the same provider"
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-fast",
+          "name": "xai/grok-4-fast",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
         }
       ]
     },
@@ -5089,11 +5136,6 @@
       "blended_cost_per_1m": 3,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Alternative from the same provider"
@@ -5101,6 +5143,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Alternative from the same provider"
         }
       ]
@@ -5111,11 +5158,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Alternative from the same provider"
@@ -5123,6 +5165,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Alternative from the same provider"
         }
       ]
@@ -5133,11 +5180,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Alternative from the same provider with larger context window (1048576)"
@@ -5145,6 +5187,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Alternative from the same provider with larger context window (1048576)"
         }
       ]
@@ -5155,11 +5202,6 @@
       "blended_cost_per_1m": 4.5,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Alternative from the same provider"
@@ -5167,6 +5209,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Alternative from the same provider"
         }
       ]
@@ -5177,11 +5224,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Alternative from the same provider"
@@ -5189,6 +5231,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Alternative from the same provider"
         }
       ]
@@ -5199,11 +5246,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Alternative from the same provider with larger context window (1048576)"
@@ -5211,6 +5253,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Alternative from the same provider with larger context window (1048576)"
         }
       ]
@@ -5221,11 +5268,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Alternative from the same provider with larger context window (1048576)"
@@ -5233,6 +5275,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Alternative from the same provider with larger context window (1048576)"
         }
       ]
@@ -5661,11 +5708,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -5673,6 +5715,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -5683,11 +5730,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -5696,13 +5738,18 @@
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
     },
     {
       "model_id": "groq/qwen3.6-27b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.81675,
+      "blended_cost_per_1m": 1.35,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -5727,11 +5774,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -5739,6 +5781,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -5749,11 +5796,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -5761,6 +5803,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -6712,6 +6759,28 @@
       ]
     },
     {
+      "model_id": "mistral-ai/mistral-ocr-4-1",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-fast",
+          "name": "xai/grok-4-fast",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        }
+      ]
+    },
+    {
       "model_id": "mistral-ai/mistral-ocr-4",
       "cost_tier": "Unknown",
       "blended_cost_per_1m": 0,
@@ -6959,11 +7028,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -6971,6 +7035,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -6981,11 +7050,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -6993,6 +7057,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -7003,11 +7072,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -7015,6 +7079,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -7553,11 +7622,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -7565,6 +7629,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -7575,11 +7644,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -7587,6 +7651,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -7597,11 +7666,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -7609,6 +7673,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -7619,11 +7688,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -7631,6 +7695,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -7641,11 +7710,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -7653,6 +7717,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -7663,11 +7732,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -7675,6 +7739,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -7751,11 +7820,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -7763,6 +7827,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -7773,11 +7842,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -7785,6 +7849,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -8961,11 +9030,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -8973,6 +9037,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -9181,11 +9250,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -9193,6 +9257,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -9225,11 +9294,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -9237,6 +9301,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -9467,11 +9536,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -9479,6 +9543,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -9489,11 +9558,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -9501,6 +9565,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -9577,11 +9646,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -9589,6 +9653,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -9599,11 +9668,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -9611,6 +9675,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -9621,11 +9690,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -9633,6 +9697,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -9643,11 +9712,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -9655,6 +9719,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -9665,11 +9734,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -9677,6 +9741,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -10894,7 +10963,7 @@
     {
       "model_id": "openrouter/deepseek-v4-flash",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.11,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -12104,7 +12173,7 @@
     {
       "model_id": "openrouter/glm-5.1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.4834999999999998,
+      "blended_cost_per_1m": 1.462,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -13867,11 +13936,6 @@
       "blended_cost_per_1m": 0.2475,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -13879,6 +13943,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -13933,11 +14002,6 @@
       "blended_cost_per_1m": 0.675,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -13945,6 +14009,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -13955,11 +14024,6 @@
       "blended_cost_per_1m": 1.7625,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google"
@@ -13967,6 +14031,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google"
         }
       ]
@@ -14150,7 +14219,7 @@
     {
       "model_id": "openrouter/kimi-k2.7-code",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.4224999999999999,
+      "blended_cost_per_1m": 1.4,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -14437,6 +14506,28 @@
       "model_id": "openrouter/ling-3.0-flash-free",
       "cost_tier": "Free",
       "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-fast",
+          "name": "xai/grok-4-fast",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "openrouter/ling-3.0-flash",
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.11124999999999999,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -14860,7 +14951,7 @@
     {
       "model_id": "openrouter/minimax-m2.5",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.3375,
+      "blended_cost_per_1m": 0.39,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -15365,6 +15456,28 @@
     },
     {
       "model_id": "openrouter/muse-spark-1.1",
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 2,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-fast",
+          "name": "xai/grok-4-fast",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "openrouter/muse-spark-1.2",
       "cost_tier": "Balanced",
       "blended_cost_per_1m": 2,
       "alternatives": [
@@ -16268,7 +16381,7 @@
     {
       "model_id": "openrouter/qwen3-235b-a22b-2507",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.262,
+      "blended_cost_per_1m": 0.20500000000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -16952,7 +17065,7 @@
     {
       "model_id": "openrouter/qwen3.6-27b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.81675,
+      "blended_cost_per_1m": 1.35,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19921,8 +20034,8 @@
     },
     {
       "model_id": "requesty/deepseek-r1-distill-llama-70b",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.8,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.345,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19966,7 +20079,7 @@
     {
       "model_id": "requesty/deepseek-r1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4,
+      "blended_cost_per_1m": 1.2625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20098,7 +20211,7 @@
     {
       "model_id": "requesty/deepseek-v3",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.89,
+      "blended_cost_per_1m": 0.8624999999999999,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20120,7 +20233,7 @@
     {
       "model_id": "requesty/deepseek-v4-flash-0731",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.1125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20164,7 +20277,7 @@
     {
       "model_id": "requesty/deepseek-v4-flash",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20208,7 +20321,7 @@
     {
       "model_id": "requesty/deepseek-v4-pro",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.175,
+      "blended_cost_per_1m": 2.1875,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21725,8 +21838,8 @@
     },
     {
       "model_id": "requesty/gemma-4-31b-it",
-      "cost_tier": "Free",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.1925,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21902,7 +22015,7 @@
     {
       "model_id": "requesty/glm-5.2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.95,
+      "blended_cost_per_1m": 2.15,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23244,7 +23357,7 @@
     {
       "model_id": "requesty/gpt-5.4-francecentral",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 5.625,
+      "blended_cost_per_1m": 6.1875,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23376,7 +23489,7 @@
     {
       "model_id": "requesty/gpt-5.4-swedencentral",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6.1875,
+      "blended_cost_per_1m": 5.625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23860,7 +23973,7 @@
     {
       "model_id": "requesty/gpt-oss-20b",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.1275,
+      "blended_cost_per_1m": 0.2,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24498,7 +24611,7 @@
     {
       "model_id": "requesty/kimi-k2.7-code",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.7125,
+      "blended_cost_per_1m": 1.4375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24541,8 +24654,8 @@
     },
     {
       "model_id": "requesty/kimi-k3",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.5,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 6,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24806,7 +24919,7 @@
     {
       "model_id": "requesty/llama-3.3-70b-instruct",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.39,
+      "blended_cost_per_1m": 0.1975,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25224,7 +25337,7 @@
     {
       "model_id": "requesty/minimax-m3",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.5249999999999999,
+      "blended_cost_per_1m": 0.8,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25421,8 +25534,8 @@
     },
     {
       "model_id": "requesty/nemotron-3-nano-30b-a3b",
-      "cost_tier": "Free",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.08750000000000001,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25487,8 +25600,8 @@
     },
     {
       "model_id": "requesty/nemotron-3-super-120b-a12b",
-      "cost_tier": "Free",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.44999999999999996,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25509,8 +25622,8 @@
     },
     {
       "model_id": "requesty/nemotron-3-ultra-550b-a55b",
-      "cost_tier": "Free",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 1.5,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26742,7 +26855,7 @@
     {
       "model_id": "requesty/qwen3.7-plus",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.7000000000000001,
+      "blended_cost_per_1m": 0.56,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27622,7 +27735,7 @@
     {
       "model_id": "vercel/deepseek-v4-flash",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.11,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27826,6 +27939,28 @@
           "model_id": "openrouter/grok-4.20",
           "name": "x-ai/grok-4.20",
           "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "vercel/flux-3-video",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-2.5-flash-lite",
+          "name": "Gemini 2.5 Flash-Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite",
+          "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
     },
@@ -28341,11 +28476,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -28353,6 +28483,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -28624,7 +28759,7 @@
     {
       "model_id": "vercel/glm-5.1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.4834999999999998,
+      "blended_cost_per_1m": 1.462,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28869,11 +29004,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -28881,6 +29011,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -28913,11 +29048,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -28925,6 +29055,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -29639,11 +29774,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -29651,6 +29781,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -29661,11 +29796,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -29673,6 +29803,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -29683,11 +29818,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -29695,6 +29825,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -29705,11 +29840,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -29717,6 +29847,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -29727,11 +29862,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -29739,6 +29869,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -30013,11 +30148,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -30025,6 +30155,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -30035,11 +30170,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -30047,6 +30177,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -30057,11 +30192,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -30069,6 +30199,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -30079,11 +30214,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -30091,6 +30221,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -30101,11 +30236,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -30113,6 +30243,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -30123,11 +30258,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -30135,6 +30265,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -30145,11 +30280,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -30157,6 +30287,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -30494,7 +30629,7 @@
     {
       "model_id": "vercel/kimi-k2.7-code",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.4224999999999999,
+      "blended_cost_per_1m": 1.4,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -30585,11 +30720,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -30597,6 +30727,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -30607,11 +30742,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -30619,6 +30749,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -30629,11 +30764,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -30641,6 +30771,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -30651,11 +30786,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -30663,6 +30793,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -30673,11 +30808,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -30685,6 +30815,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -30695,11 +30830,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -30707,6 +30837,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -30717,11 +30852,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -30729,6 +30859,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -30739,11 +30874,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -30751,6 +30881,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -31069,11 +31204,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -31081,6 +31211,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -31154,7 +31289,7 @@
     {
       "model_id": "vercel/minimax-m2.5",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.3375,
+      "blended_cost_per_1m": 0.39,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -31505,6 +31640,50 @@
     },
     {
       "model_id": "vercel/muse-spark-1.1",
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 2,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "vercel/muse-spark-1.2-contributor",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "vercel/muse-spark-1.2",
       "cost_tier": "Balanced",
       "blended_cost_per_1m": 2,
       "alternatives": [
@@ -32430,7 +32609,7 @@
     {
       "model_id": "vercel/qwen3.6-27b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.81675,
+      "blended_cost_per_1m": 1.35,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -32895,11 +33074,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -32907,6 +33081,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -32917,11 +33096,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -32929,6 +33103,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -32939,11 +33118,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -32951,6 +33125,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -32961,11 +33140,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -32973,6 +33147,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -32983,11 +33162,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -32995,6 +33169,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -33379,11 +33558,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -33391,6 +33565,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -33401,11 +33580,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -33413,6 +33587,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -33423,11 +33602,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -33435,6 +33609,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -33445,11 +33624,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -33457,6 +33631,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -33467,11 +33646,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -33479,6 +33653,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -33489,11 +33668,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -33501,6 +33675,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -33511,11 +33690,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -33523,6 +33697,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -33753,11 +33932,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -33765,6 +33939,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -33775,11 +33954,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -33787,6 +33961,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -33797,11 +33976,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -33809,6 +33983,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -33819,11 +33998,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -33831,6 +34005,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -33841,11 +34020,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -33853,6 +34027,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -33863,11 +34042,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -33875,6 +34049,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -33885,11 +34064,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -33897,6 +34071,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -33907,11 +34086,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -33919,6 +34093,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]
@@ -33929,11 +34108,6 @@
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
-          "model_id": "google/gemini-1.5-pro",
-          "name": "Gemini 1.5 Pro",
-          "reason": "Cross-provider alternative from google with larger context window (2000000)"
-        },
-        {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
@@ -33941,6 +34115,11 @@
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
+          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
           "reason": "Cross-provider alternative from google with larger context window (1048576)"
         }
       ]

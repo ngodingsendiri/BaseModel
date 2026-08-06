@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "29088dc7",
-  "generated_at": "2026-08-05T06:55:04.532Z",
+  "source_revision": "8ff06d1",
+  "generated_at": "2026-08-06T03:15:51.714Z",
   "count": 12,
   "providers": [
     {
@@ -13,7 +13,8 @@
       "country": "US",
       "description": "AI safety company and developer of the Claude model family.",
       "provider_type": "first-party",
-      "status": "active"
+      "status": "active",
+      "updated_at": "2026-08-06T03:13:00.527Z"
     },
     {
       "provider_id": "cerebras",
@@ -21,7 +22,8 @@
       "organization": "Cerebras Systems",
       "website": "https://www.cerebras.ai",
       "provider_type": "first-party",
-      "status": "active"
+      "status": "active",
+      "updated_at": "2026-08-06T03:12:59.497Z"
     },
     {
       "provider_id": "deepinfra",
@@ -30,7 +32,7 @@
       "website": "https://deepinfra.com",
       "provider_type": "first-party",
       "status": "active",
-      "updated_at": "2026-08-05T05:37:42.909Z"
+      "updated_at": "2026-08-06T03:12:59.566Z"
     },
     {
       "provider_id": "google",
@@ -41,7 +43,8 @@
       "country": "US",
       "description": "Technology company and developer of the Gemini model family and other AI research.",
       "provider_type": "first-party",
-      "status": "active"
+      "status": "active",
+      "updated_at": "2026-08-06T03:13:00.411Z"
     },
     {
       "provider_id": "groq",
@@ -49,7 +52,8 @@
       "organization": "Groq, Inc.",
       "website": "https://groq.com",
       "provider_type": "first-party",
-      "status": "active"
+      "status": "active",
+      "updated_at": "2026-08-06T03:12:59.537Z"
     },
     {
       "provider_id": "hyperbolic",
@@ -57,7 +61,8 @@
       "organization": "Hyperbolic Labs, Inc.",
       "website": "https://hyperbolic.xyz",
       "provider_type": "first-party",
-      "status": "active"
+      "status": "active",
+      "updated_at": "2026-08-06T03:12:59.655Z"
     },
     {
       "provider_id": "meta",
@@ -79,7 +84,8 @@
       "country": "FR",
       "description": "French AI company known for open-weight and efficient language models.",
       "provider_type": "first-party",
-      "status": "active"
+      "status": "active",
+      "updated_at": "2026-08-06T03:12:59.651Z"
     },
     {
       "provider_id": "openai",
@@ -99,7 +105,7 @@
       "website": "https://openrouter.ai",
       "provider_type": "router",
       "status": "active",
-      "updated_at": "2026-08-05T05:37:41.318Z"
+      "updated_at": "2026-08-06T03:12:59.726Z"
     },
     {
       "provider_id": "requesty",
@@ -117,7 +123,7 @@
       "website": "https://vercel.com",
       "provider_type": "gateway",
       "status": "active",
-      "updated_at": "2026-08-05T05:37:42.036Z"
+      "updated_at": "2026-08-06T03:13:00.313Z"
     }
   ]
 }

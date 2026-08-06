@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "29088dc7",
-  "generated_at": "2026-08-05T06:55:04.532Z",
-  "count": 1039,
+  "source_revision": "8ff06d1",
+  "generated_at": "2026-08-06T03:15:51.714Z",
+  "count": 1044,
   "models": [
     {
       "model_id": "aion-2-0",
@@ -698,7 +698,7 @@
         "vision"
       ],
       "license_id": "proprietary",
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "claude-3-5-haiku"
       ],
@@ -732,7 +732,7 @@
         "vision"
       ],
       "license_id": "proprietary",
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "claude-3-5-sonnet"
       ],
@@ -825,7 +825,7 @@
       "embedding_support": false,
       "context_window": 1000000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "claude-fable-5-batch"
       ],
@@ -1007,7 +1007,7 @@
       "embedding_support": false,
       "context_window": 200000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "claude-haiku-4.5-batch"
       ],
@@ -1348,7 +1348,7 @@
       "image_generation": false,
       "embedding_support": false,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "claude-opus-4-1-20250805"
       ],
@@ -1373,7 +1373,7 @@
       "embedding_support": false,
       "context_window": 200000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "claude-opus-4.1-batch"
       ],
@@ -1478,7 +1478,7 @@
       "embedding_support": false,
       "context_window": 200000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "claude-opus-4.5-batch"
       ],
@@ -1779,7 +1779,7 @@
       "embedding_support": false,
       "context_window": 1000000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "claude-opus-4.6-batch"
       ],
@@ -1899,7 +1899,7 @@
       "embedding_support": false,
       "context_window": 1000000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "claude-opus-4.7-batch"
       ],
@@ -2173,7 +2173,7 @@
       "embedding_support": false,
       "context_window": 1000000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "claude-opus-4.8-batch"
       ],
@@ -2754,7 +2754,7 @@
       "embedding_support": false,
       "context_window": 1000000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "claude-sonnet-4.5-batch"
       ],
@@ -3596,7 +3596,7 @@
       "embedding_support": false,
       "context_window": 1000000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "claude-sonnet-5-batch"
       ],
@@ -4949,7 +4949,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1048576,
+      "context_window": 1048600,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -5649,6 +5649,32 @@
       ]
     },
     {
+      "model_id": "flux-3-video",
+      "name": "Flux 3",
+      "description": "FLUX 3 is a new multimodal foundation model that learns from images, videos, and audio within a unified architecture.",
+      "modality": [
+        "text",
+        "image",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": true,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "flux-3-video"
+      ],
+      "offering_ids": [
+        "vercel/flux-3-video"
+      ]
+    },
+    {
       "model_id": "flux-fast-schnell",
       "name": "Flux Schnell",
       "description": "Lightning-fast image generation",
@@ -5966,7 +5992,7 @@
         "vision"
       ],
       "license_id": "proprietary",
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gemini-1.5-pro"
       ],
@@ -6163,7 +6189,7 @@
       "embedding_support": false,
       "context_window": 1048576,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gemini-2.5-flash-batch"
       ],
@@ -6718,7 +6744,7 @@
       "embedding_support": false,
       "context_window": 1048576,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gemini-2.5-flash-lite-batch"
       ],
@@ -7193,7 +7219,7 @@
       "embedding_support": false,
       "context_window": 1048576,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gemini-2.5-pro-batch"
       ],
@@ -7649,7 +7675,7 @@
       "embedding_support": false,
       "context_window": 1048576,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gemini-3.1-flash-lite-batch"
       ],
@@ -7878,7 +7904,7 @@
       "embedding_support": false,
       "context_window": 1048576,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gemini-3.1-pro-preview-batch"
       ],
@@ -7990,7 +8016,7 @@
       "embedding_support": false,
       "context_window": 1048576,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gemini-3.5-flash-batch"
       ],
@@ -8072,7 +8098,7 @@
       "embedding_support": false,
       "context_window": 1048576,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gemini-3.5-flash-lite-batch"
       ],
@@ -8191,7 +8217,7 @@
       "embedding_support": false,
       "context_window": 1048576,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gemini-3.6-flash-batch"
       ],
@@ -8272,7 +8298,7 @@
       "embedding_support": false,
       "context_window": 1048576,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gemini-3-flash-preview-batch"
       ],
@@ -8455,8 +8481,7 @@
       "name": "Gemini Embedding 2 Preview",
       "description": "Obtain a distributed representation of multimodal content.",
       "modality": [
-        "text",
-        "embedding"
+        "text"
       ],
       "open_weight": false,
       "reasoning_support": false,
@@ -10843,7 +10868,7 @@
       "embedding_support": false,
       "context_window": 400000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gpt-5.1-batch"
       ],
@@ -11187,7 +11212,7 @@
       "embedding_support": false,
       "context_window": 400000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gpt-5.2-batch"
       ],
@@ -11579,7 +11604,7 @@
       "embedding_support": false,
       "context_window": 1050000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gpt-5.4-batch"
       ],
@@ -11734,7 +11759,7 @@
       "embedding_support": false,
       "context_window": 400000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gpt-5.4-mini-batch"
       ],
@@ -11837,7 +11862,7 @@
       "embedding_support": false,
       "context_window": 400000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gpt-5.4-nano-batch"
       ],
@@ -12108,7 +12133,7 @@
       "embedding_support": false,
       "context_window": 1050000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gpt-5.5-batch"
       ],
@@ -12608,7 +12633,7 @@
       "embedding_support": false,
       "context_window": 400000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gpt-5-batch"
       ],
@@ -12866,7 +12891,7 @@
       "embedding_support": false,
       "context_window": 400000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gpt-5-mini-batch"
       ],
@@ -13096,7 +13121,7 @@
       "embedding_support": false,
       "context_window": 400000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gpt-5-nano-batch"
       ],
@@ -16784,6 +16809,31 @@
       ]
     },
     {
+      "model_id": "ling-3-0-flash",
+      "name": "inclusionAI/Ling-3.0-flash",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 131072,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "ling-3.0-flash"
+      ],
+      "offering_ids": [
+        "deepinfra/ling-3.0-flash",
+        "openrouter/ling-3.0-flash"
+      ]
+    },
+    {
       "model_id": "ling-3-0-flash-free",
       "name": "inclusionai/ling-3.0-flash:free",
       "description": "Ling 3.0 Flash is designed with token efficiency and production-scale agentic inference as key priorities, enabling developers to complete more useful work within constrained token, latency, and serving-cost budgets.",
@@ -18376,7 +18426,7 @@
       "embedding_support": false,
       "context_window": 524288,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "minimax-m3-batch"
       ],
@@ -19265,6 +19315,29 @@
       ]
     },
     {
+      "model_id": "mistral-ocr-4-1",
+      "name": "mistral-ocr-4-1",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "mistral-ocr-4-1"
+      ],
+      "offering_ids": [
+        "mistral-ai/mistral-ocr-4-1"
+      ]
+    },
+    {
       "model_id": "mistral-ocr-latest",
       "name": "mistral-ocr-latest",
       "modality": [
@@ -19766,6 +19839,59 @@
           "mirror"
         ]
       }
+    },
+    {
+      "model_id": "muse-spark-1-2",
+      "name": "meta/muse-spark-1.2",
+      "description": "A coding-optimized model purpose-built for agentic workflows. Improvements to code generation, debugging, and codebase understanding — with a 1M context window that handles your entire project in one session.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1048576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "muse-spark-1.2"
+      ],
+      "offering_ids": [
+        "openrouter/muse-spark-1.2",
+        "vercel/muse-spark-1.2"
+      ]
+    },
+    {
+      "model_id": "muse-spark-1-2-contributor",
+      "name": "Muse Spark 1.2 Contributor",
+      "description": "A coding-optimized model with pricing designed for builders. Same model, same capabilities — up to 95% less than Standard. Your inputs and outputs are used to train and improve Meta's AI models.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1048576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "muse-spark-1.2-contributor"
+      ],
+      "offering_ids": [
+        "vercel/muse-spark-1.2-contributor"
+      ]
     },
     {
       "model_id": "mythomax-l2-13b",
@@ -25164,7 +25290,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 128000,
+      "context_window": 131072,
       "capability_ids": [],
       "status": "active",
       "aliases": [

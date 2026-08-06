@@ -1,0 +1,27 @@
+{
+  "model_id": "vercel/muse-spark-1.2",
+  "provider_id": "vercel",
+  "name": "Muse Spark 1.2",
+  "description": "A coding-optimized model purpose-built for agentic workflows. Improvements to code generation, debugging, and codebase understanding — with a 1M context window that handles your entire project in one session.",
+  "context_window": 1048576,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-06T03:13:08.366Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 1048576
+  }
+}

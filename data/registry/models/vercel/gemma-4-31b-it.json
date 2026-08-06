@@ -3,7 +3,7 @@
   "provider_id": "vercel",
   "name": "Gemma 4 31B IT",
   "description": "Gemma 4 31B is engineered to tackle the most demanding enterprise workloads and complex reasoning tasks. With an expansive 256K-token context window, the 31B model can effortlessly ingest entire codebases, and massive sets of images in a single prompt.",
-  "context_window": 262144,
+  "context_window": 256000,
   "modality": [
     "text",
     "image"
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-05T05:38:36.479Z"
+  "updated_at": "2026-08-06T03:13:08.334Z"
 }
