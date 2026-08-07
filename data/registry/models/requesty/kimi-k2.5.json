@@ -1,15 +1,15 @@
 {
   "model_id": "requesty/kimi-k2.5",
   "provider_id": "requesty",
-  "name": "deepinfra/Kimi K2.5",
+  "name": "moonshot/kimi-k2.5",
   "description": "Kimi K2.5 is Moonshot AI's native multimodal model, delivering state-of-the-art visual coding capability and a self-directed agent swarm paradigm. Built on Kimi K2 with continued pretraining over approximately 15T mixed visual and text tokens, it delivers strong performance in general reasoning, visual coding, and agentic tool-calling.",
-  "context_window": 262100,
+  "context_window": 262144,
   "modality": [
     "text",
     "image"
   ],
   "open_weight": false,
-  "reasoning_support": false,
+  "reasoning_support": true,
   "function_calling": true,
   "structured_output": true,
   "vision_support": true,
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-06T03:13:08.270Z"
+  "updated_at": "2026-08-07T02:54:49.815Z"
 }

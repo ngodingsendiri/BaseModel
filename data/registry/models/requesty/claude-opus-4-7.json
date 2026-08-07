@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/claude-opus-4-7",
   "provider_id": "requesty",
-  "name": "bedrock/claude-opus-4-7",
+  "name": "vertex/claude-opus-4-7",
   "description": "Claude Opus 4.7 is Anthropic's most capable generally available model, advancing performance across coding, enterprise workflows, and long-running agentic tasks. Coding: Claude Opus 4.7 is built for agentic coding at scale, excelling at long-horizon projects, complex implementations, and polished UI design. It handles the full lifecycle from architecture to deployment, including design-quality UI so senior engineers can delegate complex work with confidence. Enterprise workflows: Claude Opus 4.7 sets the standard for enterprise knowledge work, carrying context across sessions to manage complex, multi-day projects end-to-end. It delivers professional polish on the documents, spreadsheets, and presentations that move work forward.",
   "context_window": 1000000,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-06T03:13:08.179Z"
+  "updated_at": "2026-08-07T02:54:49.700Z"
 }

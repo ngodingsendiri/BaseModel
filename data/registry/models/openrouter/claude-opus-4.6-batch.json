@@ -16,6 +16,11 @@
   "image_generation": false,
   "embedding_support": false,
   "capability_ids": [],
-  "status": "discontinued",
-  "updated_at": "2026-08-06T03:13:02.341Z"
+  "status": "active",
+  "updated_at": "2026-08-07T02:54:49.513Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 1000000
+  }
 }

@@ -1,0 +1,26 @@
+{
+  "model_id": "openrouter/kimi-k2.7-code-batch",
+  "provider_id": "openrouter",
+  "name": "moonshotai/kimi-k2.7-code:batch",
+  "context_window": 262144,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-07T02:54:49.601Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 262144
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "model_id": "openrouter/inkling-batch",
+  "provider_id": "openrouter",
+  "name": "thinkingmachines/inkling:batch",
+  "context_window": 524288,
+  "modality": [
+    "video"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-07T02:54:49.596Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 524288
+  }
+}

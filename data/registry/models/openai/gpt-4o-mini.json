@@ -14,8 +14,8 @@
   ],
   "open_weight": false,
   "reasoning_support": false,
-  "function_calling": true,
-  "structured_output": true,
+  "function_calling": false,
+  "structured_output": false,
   "vision_support": true,
   "audio_support": false,
   "image_generation": false,
@@ -33,5 +33,5 @@
   ],
   "license_id": "proprietary",
   "status": "active",
-  "updated_at": "2026-08-06T03:13:08.038Z"
+  "updated_at": "2026-08-07T02:54:49.493Z"
 }

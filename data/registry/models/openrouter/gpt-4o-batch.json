@@ -1,0 +1,26 @@
+{
+  "model_id": "openrouter/gpt-4o-batch",
+  "provider_id": "openrouter",
+  "name": "openai/gpt-4o:batch",
+  "context_window": 128000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-07T02:54:49.562Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 128000
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "model_id": "openrouter/o1-batch",
+  "provider_id": "openrouter",
+  "name": "openai/o1:batch",
+  "context_window": 200000,
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-07T02:54:49.639Z",
+  "is_free": false,
+  "tier": "premium",
+  "limits": {
+    "max_input_tokens": 200000
+  }
+}

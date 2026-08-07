@@ -1,0 +1,26 @@
+{
+  "model_id": "openrouter/gpt-5.6-sol-pro-batch",
+  "provider_id": "openrouter",
+  "name": "openai/gpt-5.6-sol-pro:batch",
+  "context_window": 1050000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-07T02:54:49.581Z",
+  "is_free": false,
+  "tier": "premium",
+  "limits": {
+    "max_input_tokens": 1050000
+  }
+}

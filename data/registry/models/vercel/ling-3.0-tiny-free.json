@@ -1,0 +1,26 @@
+{
+  "model_id": "vercel/ling-3.0-tiny-free",
+  "provider_id": "vercel",
+  "name": "Ling 3.0 Tiny (Free)",
+  "description": "Ling-3.0-tiny is an efficient 7.9B-parameter MoE model with only 1.3B active parameters per token. It is designed for responsive AI agents, reliable instruction following, and natural multi-turn conversations. The model features a 256K context window, native function calling, prompt caching, and switchable Thinking and Instant modes. It supports long-context, tool-using workflows with lower active-compute requirements.",
+  "context_window": 256000,
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-07T02:54:49.908Z",
+  "is_free": true,
+  "tier": "free",
+  "limits": {
+    "max_input_tokens": 262144
+  }
+}
