@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gemini-3.1-flash-lite",
   "provider_id": "requesty",
-  "name": "google/gemini-3.1-flash-lite",
+  "name": "vertex/gemini-3.1-flash-lite",
   "description": "Gemini 3.1 Flash Lite Preview is the most cost-efficient model in the Gemini family, optimized for high-volume, low-latency tasks. It delivers fast responses with solid quality for everyday use cases including summarization, classification, and simple reasoning.",
   "context_window": 1048576,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-07T02:54:49.761Z"
+  "updated_at": "2026-08-08T01:59:16.741Z"
 }
