@@ -16,11 +16,11 @@
   "image_generation": false,
   "embedding_support": false,
   "is_free": false,
-  "tier": "budget",
+  "tier": "balanced",
   "limits": {
-    "max_input_tokens": 64000
+    "max_input_tokens": 32000
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-08T01:59:16.896Z"
+  "updated_at": "2026-08-09T02:07:14.012Z"
 }

@@ -1,20 +1,22 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "d3a23d2",
-  "generated_at": "2026-08-08T02:02:12.792Z",
+  "source_revision": "739abf8",
+  "generated_at": "2026-08-09T02:09:27.626Z",
   "summary": {
-    "added": 6,
+    "added": 2,
     "removed": 0,
-    "status_changed": 0
+    "status_changed": 1
   },
   "added": [
-    "requesty/ling-3.0-tiny",
-    "vercel/s1",
-    "vercel/s2-pro",
-    "vercel/s2.1-pro",
-    "vercel/seedance-2.5",
-    "vercel/transcribe-1"
+    "deepinfra/kimi-k3",
+    "vercel/grok-imagine-image-2.0-preview"
   ],
   "removed": [],
-  "status_changed": []
+  "status_changed": [
+    {
+      "model_id": "vercel/gpt-5.1-instant",
+      "from": "active",
+      "to": "discontinued"
+    }
+  ]
 }
