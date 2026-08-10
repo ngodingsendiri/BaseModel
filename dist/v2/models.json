@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "739abf8",
-  "generated_at": "2026-08-09T02:09:27.626Z",
+  "source_revision": "74c5d2d",
+  "generated_at": "2026-08-10T02:14:47.712Z",
   "count": 1084,
   "models": [
     {
@@ -4614,7 +4614,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 32000,
+      "context_window": 64000,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -9427,14 +9427,13 @@
       "name": "zai-org/GLM-5.1",
       "description": "Compared with GLM-5, GLM-5.1 delivers significant improvements in coding, agentic tool usage, reasoning, role-play, and general chat quality. Besides, GLM-5.1 has outstanding capabilities in long-horizon agentic tasks like CUDA kernel optimization.",
       "modality": [
-        "text",
-        "image"
+        "text"
       ],
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
       "structured_output": true,
-      "vision_support": true,
+      "vision_support": false,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -9466,14 +9465,13 @@
       "name": "zai-org/GLM-5.2",
       "description": "GLM 5.2 is the latest Z.ai flagship model for long horizon coding, reasoning, and agentic workflows. It improves on GLM 5.1 with a 1M token context window, stronger engineering task performance, multiple thinking effort levels, and architectural changes that reduce long context inference cost while improving speculative decoding. Released under the MIT license, it is designed for sustained work over large repositories, complex tool use, and multi step technical tasks.",
       "modality": [
-        "text",
-        "image"
+        "text"
       ],
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
       "structured_output": true,
-      "vision_support": true,
+      "vision_support": false,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -9942,7 +9940,7 @@
     },
     {
       "model_id": "gpt-4-1-francecentral",
-      "name": "azure/gpt-4.1@francecentral",
+      "name": "azure/openai-responses/gpt-4.1@francecentral",
       "description": "GPT-4.1 is a flagship large language model optimized for advanced instruction following, real-world software engineering, and long-context reasoning. It supports a 1 million token context window and outperforms GPT-4o and GPT-4.5 across coding (54.6% SWE-bench Verified), instruction compliance (87.4% IFEval), and multimodal understanding benchmarks. It is tuned for precise code diffs, agent reliability, and high recall in large document contexts, making it ideal for agents, IDE tooling, and enterprise knowledge retrieval.",
       "modality": [
         "text",
@@ -10072,7 +10070,7 @@
     },
     {
       "model_id": "gpt-4-1-mini-francecentral",
-      "name": "azure/gpt-4.1-mini@francecentral",
+      "name": "azure/openai-responses/gpt-4.1-mini@francecentral",
       "description": "GPT-4.1 Mini is a mid-sized model delivering performance competitive with GPT-4o at substantially lower latency and cost. It retains a 1 million token context window and scores 45.1% on hard instruction evals, 35.8% on MultiChallenge, and 84.1% on IFEval. Mini also shows strong coding ability (e.g., 31.6% on Aider’s polyglot diff benchmark) and vision understanding, making it suitable for interactive applications with tight performance constraints.",
       "modality": [
         "text",
@@ -10228,7 +10226,7 @@
     },
     {
       "model_id": "gpt-4-1-nano-eastus2",
-      "name": "azure/gpt-4.1-nano@eastus2",
+      "name": "azure/openai-responses/gpt-4.1-nano@eastus2",
       "description": "For tasks that demand low latency, GPT‑4.1 nano is the fastest and cheapest model in the GPT-4.1 series. It delivers exceptional performance at a small size with its 1 million token context window, and scores 80.1% on MMLU, 50.3% on GPQA, and 9.8% on Aider polyglot coding – even higher than GPT‑4o mini. It’s ideal for tasks like classification or autocompletion.",
       "modality": [
         "text",
@@ -10254,7 +10252,7 @@
     },
     {
       "model_id": "gpt-4-1-nano-francecentral",
-      "name": "azure/gpt-4.1-nano@francecentral",
+      "name": "azure/openai-responses/gpt-4.1-nano@francecentral",
       "description": "For tasks that demand low latency, GPT‑4.1 nano is the fastest and cheapest model in the GPT-4.1 series. It delivers exceptional performance at a small size with its 1 million token context window, and scores 80.1% on MMLU, 50.3% on GPQA, and 9.8% on Aider polyglot coding – even higher than GPT‑4o mini. It’s ideal for tasks like classification or autocompletion.",
       "modality": [
         "text",
@@ -11961,7 +11959,7 @@
     },
     {
       "model_id": "gpt-5-4-eastus2",
-      "name": "azure/openai-responses/gpt-5.4@eastus2",
+      "name": "azure/gpt-5.4@eastus2",
       "description": "GPT-5.4 is OpenAI’s latest frontier model, unifying the Codex and GPT lines into a single system. It features a 1M+ token context window (922K input, 128K output) with support for text and image inputs, enabling high-context reasoning, coding, and multimodal analysis within the same workflow.\n\nThe model delivers improved performance in coding, document understanding, tool use, and instruction following. It is designed as a strong default for both general-purpose tasks and software engineering, capable of generating production-quality code, synthesizing information across multiple sources, and executing complex multi-step workflows with fewer iterations and greater token efficiency.\n",
       "modality": [
         "text",
@@ -12323,7 +12321,7 @@
     },
     {
       "model_id": "gpt-5-4-swedencentral",
-      "name": "azure/openai-responses/gpt-5.4@swedencentral",
+      "name": "azure/gpt-5.4@swedencentral",
       "description": "GPT-5.4 is OpenAI’s latest frontier model, unifying the Codex and GPT lines into a single system. It features a 1M+ token context window (922K input, 128K output) with support for text and image inputs, enabling high-context reasoning, coding, and multimodal analysis within the same workflow.\n\nThe model delivers improved performance in coding, document understanding, tool use, and instruction following. It is designed as a strong default for both general-purpose tasks and software engineering, capable of generating production-quality code, synthesizing information across multiple sources, and executing complex multi-step workflows with fewer iterations and greater token efficiency.\n",
       "modality": [
         "text",
@@ -12515,7 +12513,7 @@
     },
     {
       "model_id": "gpt-5-5-eastus2",
-      "name": "azure/openai-responses/gpt-5.5@eastus2",
+      "name": "azure/gpt-5.5@eastus2",
       "description": "GPT-5.5 is OpenAI's frontier model designed for complex professional workloads, building on GPT-5.4 with stronger reasoning, higher reliability, and improved token efficiency on hard tasks. It features a 1M+ token context window (922K input, 128K output) with support for text and image inputs, enabling large-scale reasoning, coding, and multimodal workflows within a single system.",
       "modality": [
         "text",
@@ -13063,7 +13061,7 @@
     },
     {
       "model_id": "gpt-5-6-terra-eastus2",
-      "name": "azure/gpt-5.6-terra@eastus2",
+      "name": "azure/openai-responses/gpt-5.6-terra@eastus2",
       "description": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic tasks where capability and cost need to be balanced, offering strong performance at roughly half the cost of Sol.",
       "modality": [
         "text",
@@ -19082,16 +19080,17 @@
     },
     {
       "model_id": "minimax-m2-7-highspeed",
-      "name": "novita/minimax/minimax-m2.7-highspeed",
+      "name": "minimaxi/minimax-m2.7-highspeed",
       "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic capabilities through multi-agent collaboration, enabling it to plan, execute, and refine complex tasks across dynamic environments.\n\nTrained for production-grade performance, M2.7 handles workflows such as live debugging, root cause analysis, financial modeling, and full document generation across Word, Excel, and PowerPoint. It delivers strong results on benchmarks including 56.2% on SWE-Pro and 57.0% on Terminal Bench 2, while achieving a 1495 ELO on GDPval-AA, setting a new standard for multi-agent systems operating in real-world digital workflows.",
       "modality": [
-        "text"
+        "text",
+        "image"
       ],
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
       "structured_output": true,
-      "vision_support": false,
+      "vision_support": true,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -23970,7 +23969,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -24385,7 +24384,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1000000,
+      "context_window": 1048576,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -24782,13 +24781,14 @@
       "name": "Qwen/Qwen3-Max",
       "description": "This is the best-performing model in the Qwen series. It is ideal for complex, multi-step tasks.",
       "modality": [
-        "text"
+        "text",
+        "image"
       ],
       "open_weight": false,
       "reasoning_support": false,
       "function_calling": true,
       "structured_output": true,
-      "vision_support": false,
+      "vision_support": true,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,

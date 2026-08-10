@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/qwen3.5-397b-a17b",
   "provider_id": "requesty",
-  "name": "novita/qwen/qwen3.5-397b-a17b",
+  "name": "deepinfra/Qwen/Qwen3.5-397B-A17B",
   "description": "Qwen3.5-397B-A17B is Alibaba's most capable Qwen3.5 model, a Mixture-of-Experts architecture with 397B total parameters and 17B activated per token. It features a 262K token context window (extensible to 1M with YaRN), thinking/reasoning mode, tool calling with MCP integration, and support for 201 languages. Sets state-of-the-art results on reasoning, coding, math, and multimodal benchmarks.",
   "context_window": 262144,
   "modality": [
@@ -11,7 +11,7 @@
   "open_weight": false,
   "reasoning_support": true,
   "function_calling": true,
-  "structured_output": false,
+  "structured_output": true,
   "vision_support": true,
   "audio_support": false,
   "image_generation": false,
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-09T02:07:14.135Z"
+  "updated_at": "2026-08-10T02:11:54.372Z"
 }

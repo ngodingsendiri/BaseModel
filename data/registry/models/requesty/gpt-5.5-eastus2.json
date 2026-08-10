@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gpt-5.5-eastus2",
   "provider_id": "requesty",
-  "name": "azure/openai-responses/gpt-5.5@eastus2",
+  "name": "azure/gpt-5.5@eastus2",
   "description": "GPT-5.5 is OpenAI's frontier model designed for complex professional workloads, building on GPT-5.4 with stronger reasoning, higher reliability, and improved token efficiency on hard tasks. It features a 1M+ token context window (922K input, 128K output) with support for text and image inputs, enabling large-scale reasoning, coding, and multimodal workflows within a single system.",
   "context_window": 1050000,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-09T02:07:14.078Z"
+  "updated_at": "2026-08-10T02:11:54.318Z"
 }
