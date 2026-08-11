@@ -1,7 +1,7 @@
 {
   "model_id": "vercel/gemma-4-26b-a4b-it",
   "provider_id": "vercel",
-  "name": "Gemma 4 26B A4B IT",
+  "name": "Google Gemma 4 26B A4B",
   "description": "Gemma is a family of open models built by Google DeepMind. Gemma 4 models are multimodal, handling text and image input (with audio supported on small models) and generating text output. This release includes open-weights models in both pre-trained and instruction-tuned variants. Gemma 4 features a context window of up to 256K tokens and maintains multilingual support in over 140 languages.",
   "context_window": 262144,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-10T02:11:54.393Z"
+  "updated_at": "2026-08-11T02:06:23.261Z"
 }

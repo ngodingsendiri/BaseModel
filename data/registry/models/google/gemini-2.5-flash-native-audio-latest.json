@@ -1,0 +1,24 @@
+{
+  "model_id": "google/gemini-2.5-flash-native-audio-latest",
+  "provider_id": "google",
+  "name": "Gemini 2.5 Flash Native Audio Latest",
+  "description": "Latest release of Gemini 2.5 Flash Native Audio",
+  "context_window": 131072,
+  "modality": [
+    "text",
+    "image",
+    "audio",
+    "video"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": true,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-11T02:06:11.641Z"
+}

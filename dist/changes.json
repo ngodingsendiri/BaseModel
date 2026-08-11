@@ -1,19 +1,64 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "74c5d2d",
-  "generated_at": "2026-08-10T02:14:47.712Z",
+  "source_revision": "b712abf",
+  "generated_at": "2026-08-11T02:09:00.934Z",
   "summary": {
-    "added": 0,
+    "added": 9,
     "removed": 0,
-    "status_changed": 1
+    "status_changed": 8
   },
-  "added": [],
+  "added": [
+    "google/gemini-2.5-flash-native-audio-latest",
+    "google/gemini-2.5-flash-native-audio-preview-09-2025",
+    "google/gemini-2.5-flash-native-audio-preview-12-2025",
+    "google/gemini-3.1-flash-live-preview",
+    "google/veo-3.1-fast-generate-preview",
+    "google/veo-3.1-lite-generate-preview",
+    "openrouter/muse-glimmer-30b",
+    "openrouter/solar-pro4",
+    "vercel/muse-glimmer-30b"
+  ],
   "removed": [],
   "status_changed": [
     {
-      "model_id": "vercel/claude-opus-5-fast",
-      "from": "discontinued",
-      "to": "active"
+      "model_id": "google/gemini-2.0-flash-001",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "google/gemini-2.0-flash-lite-001",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "google/gemini-2.0-flash-lite",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "google/gemini-2.0-flash",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "google/gemini-3-pro-preview",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "google/gemini-robotics-er-1.5-preview",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/gpt-5.3-chat",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "vercel/gpt-5.3-chat",
+      "from": "active",
+      "to": "discontinued"
     }
   ]
 }
