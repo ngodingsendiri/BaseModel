@@ -1,9 +1,9 @@
 {
   "model_id": "requesty/kimi-k2.6",
   "provider_id": "requesty",
-  "name": "nebius/moonshotai/kimi-k2.6",
+  "name": "inceptron/kimi-k2.6",
   "description": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust, and Go, and can convert prompts and visual inputs into production-ready interfaces. Its agent swarm architecture scales to hundreds of parallel sub-agents for autonomous task decomposition - delivering documents, websites, and spreadsheets in a single run without human oversight.",
-  "context_window": 256000,
+  "context_window": 262144,
   "modality": [
     "text",
     "image"
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-11T02:06:23.199Z"
+  "updated_at": "2026-08-12T02:23:58.574Z"
 }

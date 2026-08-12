@@ -1,17 +1,18 @@
 {
   "model_id": "requesty/minimax-m2.7-highspeed",
   "provider_id": "requesty",
-  "name": "novita/minimax/minimax-m2.7-highspeed",
+  "name": "minimaxi/minimax-m2.7-highspeed",
   "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic capabilities through multi-agent collaboration, enabling it to plan, execute, and refine complex tasks across dynamic environments.\n\nTrained for production-grade performance, M2.7 handles workflows such as live debugging, root cause analysis, financial modeling, and full document generation across Word, Excel, and PowerPoint. It delivers strong results on benchmarks including 56.2% on SWE-Pro and 57.0% on Terminal Bench 2, while achieving a 1495 ELO on GDPval-AA, setting a new standard for multi-agent systems operating in real-world digital workflows.",
-  "context_window": 204800,
+  "context_window": 200000,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
   "reasoning_support": true,
   "function_calling": true,
-  "structured_output": false,
-  "vision_support": false,
+  "structured_output": true,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
@@ -22,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-11T02:06:23.211Z"
+  "updated_at": "2026-08-12T02:23:58.586Z"
 }

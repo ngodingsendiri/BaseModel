@@ -1,0 +1,27 @@
+{
+  "model_id": "requesty/muse-glimmer-30b",
+  "provider_id": "requesty",
+  "name": "nvidia/muse-glimmer-30b",
+  "description": "Meta Muse Glimmer 30B is a 30B parameter multimodal model from Meta accepting text and image input and returning text output, with a 131K token context window. Supports chain of thought reasoning and function calling, suited to multimodal question answering, document and image understanding, and agentic workflows. Open weights.",
+  "context_window": 131072,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": false,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-12T02:23:58.590Z",
+  "is_free": true,
+  "tier": "free",
+  "limits": {
+    "max_input_tokens": 131072
+  }
+}

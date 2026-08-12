@@ -16,12 +16,12 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "is_free": true,
-  "tier": "free",
+  "is_free": false,
+  "tier": "budget",
   "limits": {
     "max_input_tokens": 262144
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-11T02:06:23.143Z"
+  "updated_at": "2026-08-12T02:23:58.529Z"
 }

@@ -1,0 +1,22 @@
+{
+  "model_id": "vercel/namazu",
+  "provider_id": "vercel",
+  "name": "Sakana Namazu",
+  "description": "Sakana Namazu is a Japanese-specialized LLM that combines a deep understanding of Japanese culture and business customs with high-performance language capabilities. Built on the open model Kimi K2.6 and refined with Sakana AI's in-house data for Japanese language and business workflows, it handles complex tasks using web search and code execution. Unlike Fugu, which orchestrates multiple frontier models, Sakana Namazu provides a single in-house model as an API.",
+  "context_window": 256000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-12T02:23:50.175Z"
+}

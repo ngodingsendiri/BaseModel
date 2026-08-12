@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/claude-haiku-4-5",
   "provider_id": "requesty",
-  "name": "bedrock/claude-haiku-4-5",
+  "name": "vertex/claude-haiku-4-5",
   "description": "Claude Haiku 4.5 is Anthropic's fastest and most cost-effective AI model, offering near-frontier intelligence. It matches the coding and computer-use performance of older flagship models like Sonnet 4, but runs at a fraction of the price.",
   "context_window": 200000,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-11T02:06:23.069Z"
+  "updated_at": "2026-08-12T02:23:58.425Z"
 }
