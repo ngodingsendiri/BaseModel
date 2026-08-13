@@ -1,0 +1,27 @@
+{
+  "model_id": "requesty/grok-4.6",
+  "provider_id": "requesty",
+  "name": "xai/grok-4.6",
+  "description": "Grok 4.6 is xAI's smartest frontier model, with leading performance on coding, knowledge work, and STEM. It accepts text and image inputs with text output, and supports tool calling, structured outputs, web search, prompt caching, and extended reasoning. 500k token context window. Pricing is tiered: requests exceeding 200k total tokens are billed at a higher rate.",
+  "context_window": 500000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-13T02:25:20.979Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 500000
+  }
+}

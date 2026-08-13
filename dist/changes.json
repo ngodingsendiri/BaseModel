@@ -1,20 +1,27 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "47b3189",
-  "generated_at": "2026-08-12T02:26:52.093Z",
+  "source_revision": "8193a6e",
+  "generated_at": "2026-08-13T02:27:21.486Z",
   "summary": {
-    "added": 6,
+    "added": 7,
     "removed": 0,
-    "status_changed": 0
+    "status_changed": 1
   },
   "added": [
-    "mistral-ai/glm-5-2",
-    "mistral-ai/zai-glm-5-2",
-    "requesty/muse-glimmer-30b",
-    "requesty/nemotron-3.5-lightning-30b-a3b",
-    "vercel/grok-imagine-image-2.0",
-    "vercel/namazu"
+    "deepinfra/muse-glimmer-30b",
+    "deepinfra/nvidia-nemotron-3.5-lightning",
+    "deepinfra/qwen3.8-2.4t-a95b",
+    "requesty/deepseek-v4-pro-0813",
+    "requesty/grok-4.6",
+    "vercel/deepseek-v4-pro-0813",
+    "vercel/grok-4.6"
   ],
   "removed": [],
-  "status_changed": []
+  "status_changed": [
+    {
+      "model_id": "vercel/grok-imagine-image-2.0-preview",
+      "from": "active",
+      "to": "discontinued"
+    }
+  ]
 }

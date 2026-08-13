@@ -5,7 +5,7 @@
     "benchmark_name": "text",
     "score": 88.25,
     "score_raw": 1506,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "text"
@@ -18,7 +18,7 @@
     "benchmark_name": "text",
     "score": 88.125,
     "score_raw": 1505,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "text"
@@ -31,7 +31,7 @@
     "benchmark_name": "text",
     "score": 87.75,
     "score_raw": 1502,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "text"
@@ -42,9 +42,9 @@
     "benchmark_id": "mirror-text-muse-spark-1-2-xhigh",
     "model_id": "muse-spark-1.2 (xHigh)",
     "benchmark_name": "text",
-    "score": 87.375,
-    "score_raw": 1499,
-    "evaluation_date": "2026-08-11",
+    "score": 87.25,
+    "score_raw": 1498,
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "text"
@@ -55,9 +55,9 @@
     "benchmark_id": "mirror-text-claude-opus-4-6",
     "model_id": "claude-opus-4-6",
     "benchmark_name": "text",
-    "score": 87.25,
-    "score_raw": 1498,
-    "evaluation_date": "2026-08-11",
+    "score": 87.125,
+    "score_raw": 1497,
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "text"
@@ -70,7 +70,7 @@
     "benchmark_name": "text",
     "score": 86.75,
     "score_raw": 1494,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "text"
@@ -83,7 +83,7 @@
     "benchmark_name": "text",
     "score": 86.75,
     "score_raw": 1494,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "text"
@@ -96,7 +96,7 @@
     "benchmark_name": "text",
     "score": 86.375,
     "score_raw": 1491,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "text"
@@ -107,9 +107,9 @@
     "benchmark_id": "mirror-text-qwen3-8-max",
     "model_id": "qwen3.8-max",
     "benchmark_name": "text",
-    "score": 86.375,
-    "score_raw": 1491,
-    "evaluation_date": "2026-08-11",
+    "score": 86.25,
+    "score_raw": 1490,
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "text"
@@ -122,7 +122,7 @@
     "benchmark_name": "text",
     "score": 86.125,
     "score_raw": 1489,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "text"
@@ -135,7 +135,7 @@
     "benchmark_name": "text",
     "score": 86,
     "score_raw": 1488,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "text"
@@ -148,7 +148,7 @@
     "benchmark_name": "text",
     "score": 85.875,
     "score_raw": 1487,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "text"
@@ -161,7 +161,7 @@
     "benchmark_name": "text",
     "score": 85.75,
     "score_raw": 1486,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "text"
@@ -174,7 +174,7 @@
     "benchmark_name": "text",
     "score": 85.625,
     "score_raw": 1485,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "text"
@@ -185,9 +185,9 @@
     "benchmark_id": "mirror-text-gemini-3-6-flash",
     "model_id": "gemini-3.6-flash",
     "benchmark_name": "text",
-    "score": 85.5,
-    "score_raw": 1484,
-    "evaluation_date": "2026-08-11",
+    "score": 85.375,
+    "score_raw": 1483,
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "text"
@@ -200,7 +200,7 @@
     "benchmark_name": "text",
     "score": 85.25,
     "score_raw": 1482,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "text"
@@ -213,7 +213,7 @@
     "benchmark_name": "text",
     "score": 85.125,
     "score_raw": 1481,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "text"
@@ -226,7 +226,7 @@
     "benchmark_name": "text",
     "score": 85.125,
     "score_raw": 1481,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "text"
@@ -239,7 +239,7 @@
     "benchmark_name": "text",
     "score": 84.625,
     "score_raw": 1477,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "text"
@@ -252,7 +252,7 @@
     "benchmark_name": "text",
     "score": 84.625,
     "score_raw": 1477,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "text"
@@ -265,7 +265,7 @@
     "benchmark_name": "code",
     "score": 100,
     "score_raw": 1692,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -278,7 +278,7 @@
     "benchmark_name": "code",
     "score": 100,
     "score_raw": 1674,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -290,8 +290,8 @@
     "model_id": "qwen3.8-max",
     "benchmark_name": "code",
     "score": 100,
-    "score_raw": 1671,
-    "evaluation_date": "2026-08-11",
+    "score_raw": 1670,
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -303,8 +303,8 @@
     "model_id": "claude-opus-5-high",
     "benchmark_name": "code",
     "score": 100,
-    "score_raw": 1667,
-    "evaluation_date": "2026-08-11",
+    "score_raw": 1666,
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -317,7 +317,7 @@
     "benchmark_name": "code",
     "score": 100,
     "score_raw": 1628,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -330,7 +330,7 @@
     "benchmark_name": "code",
     "score": 100,
     "score_raw": 1623,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -343,7 +343,7 @@
     "benchmark_name": "code",
     "score": 98.5,
     "score_raw": 1588,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -356,7 +356,7 @@
     "benchmark_name": "code",
     "score": 98.125,
     "score_raw": 1585,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -369,7 +369,7 @@
     "benchmark_name": "code",
     "score": 95.5,
     "score_raw": 1564,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -382,7 +382,7 @@
     "benchmark_name": "code",
     "score": 94.75,
     "score_raw": 1558,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -395,7 +395,7 @@
     "benchmark_name": "code",
     "score": 94.75,
     "score_raw": 1558,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -408,7 +408,7 @@
     "benchmark_name": "code",
     "score": 94.25,
     "score_raw": 1554,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -419,9 +419,9 @@
     "benchmark_id": "mirror-code-claude-opus-4-6-thinking",
     "model_id": "claude-opus-4-6-thinking",
     "benchmark_name": "code",
-    "score": 93.125,
-    "score_raw": 1545,
-    "evaluation_date": "2026-08-11",
+    "score": 93.25,
+    "score_raw": 1546,
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -434,7 +434,7 @@
     "benchmark_name": "code",
     "score": 92.75,
     "score_raw": 1542,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -447,7 +447,7 @@
     "benchmark_name": "code",
     "score": 92.5,
     "score_raw": 1540,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -455,12 +455,12 @@
     "rank": 15
   },
   {
-    "benchmark_id": "mirror-code-claude-opus-4-6",
-    "model_id": "claude-opus-4-6",
+    "benchmark_id": "mirror-code-muse-spark-1-1",
+    "model_id": "muse-spark-1.1",
     "benchmark_name": "code",
-    "score": 92.25,
-    "score_raw": 1538,
-    "evaluation_date": "2026-08-11",
+    "score": 92.125,
+    "score_raw": 1537,
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -468,12 +468,12 @@
     "rank": 16
   },
   {
-    "benchmark_id": "mirror-code-muse-spark-1-1",
-    "model_id": "muse-spark-1.1",
+    "benchmark_id": "mirror-code-claude-opus-4-6",
+    "model_id": "claude-opus-4-6",
     "benchmark_name": "code",
     "score": 92.125,
     "score_raw": 1537,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -484,9 +484,9 @@
     "benchmark_id": "mirror-code-gemini-3-6-flash",
     "model_id": "gemini-3.6-flash",
     "benchmark_name": "code",
-    "score": 92,
-    "score_raw": 1536,
-    "evaluation_date": "2026-08-11",
+    "score": 92.125,
+    "score_raw": 1537,
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -499,7 +499,7 @@
     "benchmark_name": "code",
     "score": 91.875,
     "score_raw": 1535,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -512,7 +512,7 @@
     "benchmark_name": "code",
     "score": 90.5,
     "score_raw": 1524,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -525,7 +525,7 @@
     "benchmark_name": "code",
     "score": 90.5,
     "score_raw": 1524,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -538,7 +538,7 @@
     "benchmark_name": "code",
     "score": 90.5,
     "score_raw": 1524,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -549,9 +549,9 @@
     "benchmark_id": "mirror-code-seed-2-1-pro-preview",
     "model_id": "seed-2.1-pro-preview",
     "benchmark_name": "code",
-    "score": 90.25,
-    "score_raw": 1522,
-    "evaluation_date": "2026-08-11",
+    "score": 90.375,
+    "score_raw": 1523,
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -564,7 +564,7 @@
     "benchmark_name": "code",
     "score": 89.875,
     "score_raw": 1519,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -577,7 +577,7 @@
     "benchmark_name": "code",
     "score": 89.625,
     "score_raw": 1517,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -588,9 +588,9 @@
     "benchmark_id": "mirror-code-glm-5-1",
     "model_id": "glm-5.1",
     "benchmark_name": "code",
-    "score": 88.875,
-    "score_raw": 1511,
-    "evaluation_date": "2026-08-11",
+    "score": 89,
+    "score_raw": 1512,
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -603,7 +603,7 @@
     "benchmark_name": "code",
     "score": 88.625,
     "score_raw": 1509,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -614,9 +614,9 @@
     "benchmark_id": "mirror-code-gpt-5-5-xhigh-codex-harness",
     "model_id": "gpt-5.5-xhigh (codex-harness)",
     "benchmark_name": "code",
-    "score": 88.5,
-    "score_raw": 1508,
-    "evaluation_date": "2026-08-11",
+    "score": 88.625,
+    "score_raw": 1509,
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -629,7 +629,7 @@
     "benchmark_name": "code",
     "score": 88.25,
     "score_raw": 1506,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -642,7 +642,7 @@
     "benchmark_name": "code",
     "score": 86.875,
     "score_raw": 1495,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -655,7 +655,7 @@
     "benchmark_name": "code",
     "score": 86.5,
     "score_raw": 1492,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -668,7 +668,7 @@
     "benchmark_name": "code",
     "score": 86.375,
     "score_raw": 1491,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -681,7 +681,7 @@
     "benchmark_name": "code",
     "score": 85.875,
     "score_raw": 1487,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -694,7 +694,7 @@
     "benchmark_name": "code",
     "score": 85.75,
     "score_raw": 1486,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -707,7 +707,7 @@
     "benchmark_name": "code",
     "score": 84.875,
     "score_raw": 1479,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -720,7 +720,7 @@
     "benchmark_name": "code",
     "score": 84.25,
     "score_raw": 1474,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -733,7 +733,7 @@
     "benchmark_name": "code",
     "score": 84.25,
     "score_raw": 1474,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -746,7 +746,7 @@
     "benchmark_name": "code",
     "score": 83.5,
     "score_raw": 1468,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -759,7 +759,7 @@
     "benchmark_name": "code",
     "score": 83,
     "score_raw": 1464,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -772,7 +772,7 @@
     "benchmark_name": "code",
     "score": 82.875,
     "score_raw": 1463,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -785,7 +785,7 @@
     "benchmark_name": "code",
     "score": 82.375,
     "score_raw": 1459,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -798,7 +798,7 @@
     "benchmark_name": "code",
     "score": 82.25,
     "score_raw": 1458,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -811,7 +811,7 @@
     "benchmark_name": "code",
     "score": 81.25,
     "score_raw": 1450,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -824,7 +824,7 @@
     "benchmark_name": "code",
     "score": 80.875,
     "score_raw": 1447,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -837,7 +837,7 @@
     "benchmark_name": "code",
     "score": 80.625,
     "score_raw": 1445,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -850,7 +850,7 @@
     "benchmark_name": "code",
     "score": 80.25,
     "score_raw": 1442,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -858,12 +858,12 @@
     "rank": 46
   },
   {
-    "benchmark_id": "mirror-code-gemini-3-flash",
-    "model_id": "gemini-3-flash",
+    "benchmark_id": "mirror-code-mimo-v2-5",
+    "model_id": "mimo-v2.5",
     "benchmark_name": "code",
     "score": 79.75,
     "score_raw": 1438,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -871,12 +871,12 @@
     "rank": 47
   },
   {
-    "benchmark_id": "mirror-code-mimo-v2-5",
-    "model_id": "mimo-v2.5",
+    "benchmark_id": "mirror-code-gemini-3-flash",
+    "model_id": "gemini-3-flash",
     "benchmark_name": "code",
     "score": 79.75,
     "score_raw": 1438,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -889,7 +889,7 @@
     "benchmark_name": "code",
     "score": 79.75,
     "score_raw": 1438,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"
@@ -902,7 +902,7 @@
     "benchmark_name": "code",
     "score": 79.5,
     "score_raw": 1436,
-    "evaluation_date": "2026-08-11",
+    "evaluation_date": "2026-08-12",
     "source": "mirror",
     "category": [
       "code"

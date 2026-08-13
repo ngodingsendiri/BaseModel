@@ -1,0 +1,27 @@
+{
+  "model_id": "vercel/grok-4.6",
+  "provider_id": "vercel",
+  "name": "Grok 4.6",
+  "description": "Grok 4.6 builds on Grok 4.5 with a particular focus on long-running agents and more ambitious interactive and visual work. It stays with complex tasks across many steps, whether researching a topic, analyzing information, working across a codebase, or turning an idea into a polished application or work artifact.",
+  "context_window": 500000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-13T02:25:21.065Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 500000
+  }
+}
