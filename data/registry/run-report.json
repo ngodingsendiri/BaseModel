@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-13T02:25:14.709Z",
+  "generated_at": "2026-08-14T02:23:52.914Z",
   "summary": {
     "gateways": 17,
-    "failed": 4,
-    "partial": 4,
-    "total_fetched": 1364,
-    "total_errors": 9
+    "failed": 1,
+    "partial": 6,
+    "total_fetched": 1178,
+    "total_errors": 8
   },
   "gateways": [
     {
@@ -16,7 +16,7 @@
       "errors": [
         "HTTP 412: Precondition Failed (Precondition failed: the provider may require billing setup, or the account is suspended or rate-limited.): {\"error\":{\"message\":\"Account xmlze is suspended, possibly due to reaching the monthly spending limit or failure to pay past invoices. Please go to https://fireworks.ai/account/billing for more informa"
       ],
-      "duration_ms": 2270
+      "duration_ms": 2145
     },
     {
       "plugin": "cerebras",
@@ -24,15 +24,7 @@
       "status": "ok",
       "fetched": 3,
       "errors": [],
-      "duration_ms": 2354
-    },
-    {
-      "plugin": "groq",
-      "provider_id": "groq",
-      "status": "ok",
-      "fetched": 15,
-      "errors": [],
-      "duration_ms": 2335
+      "duration_ms": 2361
     },
     {
       "plugin": "inferx",
@@ -43,15 +35,15 @@
         "No API key is registered for gateway inferx.",
         "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): service failure: no tenant context: set a default tenant or use a tenant-restricted API key"
       ],
-      "duration_ms": 2465
+      "duration_ms": 2349
     },
     {
-      "plugin": "deepinfra",
-      "provider_id": "deepinfra",
+      "plugin": "groq",
+      "provider_id": "groq",
       "status": "ok",
-      "fetched": 185,
+      "fetched": 15,
       "errors": [],
-      "duration_ms": 2582
+      "duration_ms": 2416
     },
     {
       "plugin": "mistral-ai",
@@ -59,7 +51,33 @@
       "status": "ok",
       "fetched": 55,
       "errors": [],
-      "duration_ms": 2607
+      "duration_ms": 2406
+    },
+    {
+      "plugin": "together",
+      "provider_id": "together",
+      "status": "partial",
+      "fetched": 0,
+      "errors": [
+        "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): {\"error\":{\"message\":\"Unauthorized\"}}"
+      ],
+      "duration_ms": 2360
+    },
+    {
+      "plugin": "hyperbolic",
+      "provider_id": "hyperbolic",
+      "status": "ok",
+      "fetched": 5,
+      "errors": [],
+      "duration_ms": 2547
+    },
+    {
+      "plugin": "openrouter",
+      "provider_id": "openrouter",
+      "status": "ok",
+      "fetched": 411,
+      "errors": [],
+      "duration_ms": 2588
     },
     {
       "plugin": "helicone",
@@ -69,7 +87,15 @@
       "errors": [
         "Helicone is a proxy with no model catalog. Set HELICONE_API_KEY to use as proxy."
       ],
-      "duration_ms": 2676
+      "duration_ms": 2689
+    },
+    {
+      "plugin": "deepinfra",
+      "provider_id": "deepinfra",
+      "status": "ok",
+      "fetched": 184,
+      "errors": [],
+      "duration_ms": 2743
     },
     {
       "plugin": "openai",
@@ -77,31 +103,7 @@
       "status": "ok",
       "fetched": 118,
       "errors": [],
-      "duration_ms": 2642
-    },
-    {
-      "plugin": "vercel",
-      "provider_id": "vercel",
-      "status": "ok",
-      "fetched": 326,
-      "errors": [],
-      "duration_ms": 3145
-    },
-    {
-      "plugin": "google",
-      "provider_id": "google",
-      "status": "ok",
-      "fetched": 50,
-      "errors": [],
-      "duration_ms": 3302
-    },
-    {
-      "plugin": "anthropic",
-      "provider_id": "anthropic",
-      "status": "ok",
-      "fetched": 10,
-      "errors": [],
-      "duration_ms": 3350
+      "duration_ms": 2749
     },
     {
       "plugin": "cloudflare",
@@ -111,45 +113,44 @@
       "errors": [
         "HTTP 404: Cloudflare returned Not Found for the Workers AI catalog. Check that CLOUDFLARE_ACCOUNT_ID is correct, Workers AI is enabled on the account, and CLOUDFLARE_API_TOKEN has the Workers AI \"AI Models\" read permission."
       ],
-      "duration_ms": 3376
+      "duration_ms": 3136
     },
     {
-      "plugin": "requesty",
-      "provider_id": "requesty",
+      "plugin": "google",
+      "provider_id": "google",
       "status": "ok",
-      "fetched": 602,
+      "fetched": 50,
       "errors": [],
-      "duration_ms": 3963
+      "duration_ms": 3246
     },
     {
-      "plugin": "hyperbolic",
-      "status": "failed",
-      "fetched": 0,
-      "errors": [
-        "Error: Plugin worker exited before responding (code 0)."
-      ],
-      "duration_ms": 0
-    },
-    {
-      "plugin": "openrouter",
-      "status": "failed",
-      "fetched": 0,
-      "errors": [
-        "Error: Plugin worker exited before responding (code 0)."
-      ],
-      "duration_ms": 0
+      "plugin": "anthropic",
+      "provider_id": "anthropic",
+      "status": "ok",
+      "fetched": 10,
+      "errors": [],
+      "duration_ms": 3343
     },
     {
       "plugin": "portkey",
-      "status": "failed",
+      "provider_id": "portkey",
+      "status": "partial",
       "fetched": 0,
       "errors": [
-        "Error: Plugin worker exited before responding (code 0)."
+        "Portkey returned an empty model catalog. This is a known upstream issue (https://github.com/Portkey-AI/gateway/issues/1371); Portkey lists no models until a provider or virtual key is configured in the account."
       ],
-      "duration_ms": 0
+      "duration_ms": 3325
     },
     {
-      "plugin": "together",
+      "plugin": "vercel",
+      "provider_id": "vercel",
+      "status": "ok",
+      "fetched": 327,
+      "errors": [],
+      "duration_ms": 3545
+    },
+    {
+      "plugin": "requesty",
       "status": "failed",
       "fetched": 0,
       "errors": [

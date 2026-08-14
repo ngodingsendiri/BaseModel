@@ -2,7 +2,7 @@
   "model_id": "openrouter/magnum-v4-72b",
   "provider_id": "openrouter",
   "name": "anthracite-org/magnum-v4-72b",
-  "context_window": 16384,
+  "context_window": 32768,
   "modality": [
     "text"
   ],
@@ -17,9 +17,9 @@
   "is_free": false,
   "tier": "balanced",
   "limits": {
-    "max_input_tokens": 16384
+    "max_input_tokens": 32768
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-13T02:25:20.773Z"
+  "updated_at": "2026-08-14T02:23:58.091Z"
 }

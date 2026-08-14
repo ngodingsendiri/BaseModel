@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "8193a6e",
-  "generated_at": "2026-08-13T02:27:21.486Z",
-  "count": 1100,
+  "source_revision": "ab3aca0",
+  "generated_at": "2026-08-14T02:25:59.803Z",
+  "count": 1108,
   "models": [
     {
       "model_id": "aion-2-0",
@@ -267,6 +267,30 @@
       ],
       "offering_ids": [
         "vercel/arrow-1.1"
+      ]
+    },
+    {
+      "model_id": "audio8-tts-preview-0-6b",
+      "name": "Audio8/Audio8-TTS-Preview-0.6b",
+      "modality": [
+        "text",
+        "audio"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "audio8-tts-preview-0.6b"
+      ],
+      "offering_ids": [
+        "deepinfra/audio8-tts-preview-0.6b"
       ]
     },
     {
@@ -798,7 +822,7 @@
         "vercel/claude-fable-5"
       ],
       "quality": {
-        "score": 94.13,
+        "score": 94.19,
         "benchmark_count": 2,
         "categories": [
           "code",
@@ -2130,10 +2154,11 @@
         "vercel/claude-opus-4.8"
       ],
       "quality": {
-        "score": 92.5,
-        "benchmark_count": 1,
+        "score": 88.31,
+        "benchmark_count": 2,
         "categories": [
-          "code"
+          "code",
+          "text"
         ],
         "sources": [
           "mirror"
@@ -3063,10 +3088,11 @@
         "vercel/claude-sonnet-4.6"
       ],
       "quality": {
-        "score": 90.5,
-        "benchmark_count": 1,
+        "score": 87.25,
+        "benchmark_count": 2,
         "categories": [
-          "code"
+          "code",
+          "text"
         ],
         "sources": [
           "mirror"
@@ -5058,13 +5084,14 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1000000,
+      "context_window": 1048576,
       "capability_ids": [],
       "status": "active",
       "aliases": [
         "deepseek-v4-pro-0813"
       ],
       "offering_ids": [
+        "openrouter/deepseek-v4-pro-0813",
         "requesty/deepseek-v4-pro-0813",
         "vercel/deepseek-v4-pro-0813"
       ]
@@ -6038,7 +6065,7 @@
         "vision"
       ],
       "license_id": "proprietary",
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gemini-1.5-flash"
       ],
@@ -6063,7 +6090,7 @@
       "image_generation": false,
       "embedding_support": false,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gemini-1.5-flash-8b"
       ],
@@ -8005,7 +8032,7 @@
       "embedding_support": false,
       "context_window": 131072,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gemini-3.1-flash-live-preview"
       ],
@@ -8311,7 +8338,7 @@
         "vercel/gemini-3.5-flash-lite"
       ],
       "quality": {
-        "score": 81.25,
+        "score": 81.13,
         "benchmark_count": 1,
         "categories": [
           "code"
@@ -8427,18 +8454,7 @@
         "openrouter/gemini-3.6-flash",
         "requesty/gemini-3.6-flash",
         "vercel/gemini-3.6-flash"
-      ],
-      "quality": {
-        "score": 88.75,
-        "benchmark_count": 2,
-        "categories": [
-          "code",
-          "text"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "gemini-3-6-flash-batch",
@@ -8463,6 +8479,61 @@
       ],
       "offering_ids": [
         "openrouter/gemini-3.6-flash-batch"
+      ]
+    },
+    {
+      "model_id": "gemini-3-7-flash",
+      "name": "Gemini 3.7 Flash",
+      "description": "Gemini 3.7 Flash",
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1048576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gemini-3.7-flash"
+      ],
+      "offering_ids": [
+        "google/gemini-3.7-flash",
+        "openrouter/gemini-3.7-flash",
+        "vercel/gemini-3.7-flash"
+      ]
+    },
+    {
+      "model_id": "gemini-3-7-flash-batch",
+      "name": "google/gemini-3.7-flash:batch",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1048576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gemini-3.7-flash-batch"
+      ],
+      "offering_ids": [
+        "openrouter/gemini-3.7-flash-batch"
       ]
     },
     {
@@ -8491,10 +8562,11 @@
         "vercel/gemini-3-flash"
       ],
       "quality": {
-        "score": 79.75,
-        "benchmark_count": 1,
+        "score": 81.94,
+        "benchmark_count": 2,
         "categories": [
-          "code"
+          "code",
+          "text"
         ],
         "sources": [
           "mirror"
@@ -9589,7 +9661,7 @@
         "vercel/glm-5.1"
       ],
       "quality": {
-        "score": 89,
+        "score": 88.88,
         "benchmark_count": 1,
         "categories": [
           "code"
@@ -15453,7 +15525,7 @@
         "vercel/grok-4.5"
       ],
       "quality": {
-        "score": 94.25,
+        "score": 94.13,
         "benchmark_count": 1,
         "categories": [
           "code"
@@ -15465,7 +15537,7 @@
     },
     {
       "model_id": "grok-4-6",
-      "name": "xai/grok-4.6",
+      "name": "x-ai/grok-4.6",
       "description": "Grok 4.6 is xAI's smartest frontier model, with leading performance on coding, knowledge work, and STEM. It accepts text and image inputs with text output, and supports tool calling, structured outputs, web search, prompt caching, and extended reasoning. 500k token context window. Pricing is tiered: requests exceeding 200k total tokens are billed at a higher rate.",
       "modality": [
         "text",
@@ -15486,6 +15558,7 @@
         "grok-4.6"
       ],
       "offering_ids": [
+        "openrouter/grok-4.6",
         "requesty/grok-4.6",
         "vercel/grok-4.6"
       ]
@@ -16107,7 +16180,7 @@
         "vercel/hy3"
       ],
       "quality": {
-        "score": 90.5,
+        "score": 90.38,
         "benchmark_count": 1,
         "categories": [
           "code"
@@ -16794,7 +16867,7 @@
         "vercel/kimi-k2.7-code"
       ],
       "quality": {
-        "score": 84.25,
+        "score": 84.13,
         "benchmark_count": 1,
         "categories": [
           "code"
@@ -17648,6 +17721,30 @@
       ]
     },
     {
+      "model_id": "lfm-2-5-2-6b-free",
+      "name": "liquid/lfm-2.5-2.6b:free",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 128000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "lfm-2.5-2.6b-free"
+      ],
+      "offering_ids": [
+        "openrouter/lfm-2.5-2.6b-free"
+      ]
+    },
+    {
       "model_id": "ling-2-6-1t",
       "name": "inclusionai/ling-2.6-1t",
       "description": "Inclusion AI ling-2.6-1t",
@@ -17794,7 +17891,7 @@
       "embedding_support": false,
       "context_window": 262144,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "ling-3.0-tiny-free"
       ],
@@ -18575,7 +18672,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 16384,
+      "context_window": 32768,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -20832,7 +20929,7 @@
         "vercel/muse-spark-1.1"
       ],
       "quality": {
-        "score": 89.13,
+        "score": 89.25,
         "benchmark_count": 2,
         "categories": [
           "code",
@@ -21118,6 +21215,30 @@
       ]
     },
     {
+      "model_id": "nemotron-3-5-lightning",
+      "name": "nvidia/nemotron-3.5-lightning",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1000000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "nemotron-3.5-lightning"
+      ],
+      "offering_ids": [
+        "openrouter/nemotron-3.5-lightning"
+      ]
+    },
+    {
       "model_id": "nemotron-3-5-lightning-30b-a3b",
       "name": "nvidia/nemotron-3.5-lightning-30b-a3b",
       "description": "NVIDIA Nemotron 3.5 Lightning 30B-A3B is a hybrid Mamba-2 + MoE + Attention model with 30B total and 3B active parameters, pre-trained on over 20T tokens with an NVFP4 recipe and Multi-Token Prediction for fast generation. Up to 1M token context for long-running autonomous agents, sub-agent workhorse deployments, and agentic workflows. Supports reasoning and tool calling. English and coding languages plus Spanish, French, German, Italian, and Japanese. Open weights under the OpenMDW License Agreement v1.1. Part of the NVIDIA Nemotron family.",
@@ -21140,6 +21261,30 @@
       ],
       "offering_ids": [
         "requesty/nemotron-3.5-lightning-30b-a3b"
+      ]
+    },
+    {
+      "model_id": "nemotron-3-5-lightning-free",
+      "name": "nvidia/nemotron-3.5-lightning:free",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1000000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "nemotron-3.5-lightning-free"
+      ],
+      "offering_ids": [
+        "openrouter/nemotron-3.5-lightning-free"
       ]
     },
     {
@@ -24667,25 +24812,28 @@
     {
       "model_id": "qwen3-8-2-4t-a95b",
       "name": "Qwen/Qwen3.8-2.4T-A95B",
+      "description": "Open-weights release of the Qwen3.8 flagship (2.4T MoE, ~95B active); thinking always on with reasoning_effort low/medium/xhigh. The hosted Qwen 3.8 Max (vision, non-thinking, 1M default context) is Alibaba-only.",
       "modality": [
         "text"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": false,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 262144,
+      "context_window": 1010000,
       "capability_ids": [],
       "status": "active",
       "aliases": [
         "qwen3.8-2.4t-a95b"
       ],
       "offering_ids": [
-        "deepinfra/qwen3.8-2.4t-a95b"
+        "deepinfra/qwen3.8-2.4t-a95b",
+        "openrouter/qwen3.8-2.4t-a95b",
+        "vercel/qwen3.8-2.4t-a95b"
       ]
     },
     {
@@ -24717,7 +24865,7 @@
         "vercel/qwen3.8-max"
       ],
       "quality": {
-        "score": 93.13,
+        "score": 93.19,
         "benchmark_count": 2,
         "categories": [
           "code",
@@ -26181,6 +26329,30 @@
       ]
     },
     {
+      "model_id": "sakana-namazu",
+      "name": "sakana/sakana-namazu",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 262144,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "sakana-namazu"
+      ],
+      "offering_ids": [
+        "openrouter/sakana-namazu"
+      ]
+    },
+    {
       "model_id": "sdxl-turbo",
       "name": "stabilityai/sdxl-turbo",
       "modality": [
@@ -26298,7 +26470,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 256000,
+      "context_window": 262144,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -26306,6 +26478,7 @@
       ],
       "offering_ids": [
         "deepinfra/seed-2.0-code",
+        "openrouter/seed-2.0-code",
         "requesty/seed-2.0-code"
       ]
     },
@@ -26386,6 +26559,30 @@
       "offering_ids": [
         "deepinfra/seed-2.0-pro",
         "requesty/seed-2.0-pro"
+      ]
+    },
+    {
+      "model_id": "seed-2-1-turbo",
+      "name": "bytedance-seed/seed-2-1-turbo",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 262144,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "seed-2-1-turbo"
+      ],
+      "offering_ids": [
+        "openrouter/seed-2-1-turbo"
       ]
     },
     {

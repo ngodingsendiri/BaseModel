@@ -1,25 +1,53 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "8193a6e",
-  "generated_at": "2026-08-13T02:27:21.486Z",
+  "source_revision": "ab3aca0",
+  "generated_at": "2026-08-14T02:25:59.803Z",
   "summary": {
-    "added": 7,
+    "added": 15,
     "removed": 0,
-    "status_changed": 1
+    "status_changed": 5
   },
   "added": [
-    "deepinfra/muse-glimmer-30b",
-    "deepinfra/nvidia-nemotron-3.5-lightning",
-    "deepinfra/qwen3.8-2.4t-a95b",
-    "requesty/deepseek-v4-pro-0813",
-    "requesty/grok-4.6",
-    "vercel/deepseek-v4-pro-0813",
-    "vercel/grok-4.6"
+    "deepinfra/audio8-tts-preview-0.6b",
+    "google/gemini-3.7-flash",
+    "openrouter/deepseek-v4-pro-0813",
+    "openrouter/gemini-3.7-flash-batch",
+    "openrouter/gemini-3.7-flash",
+    "openrouter/grok-4.6",
+    "openrouter/lfm-2.5-2.6b-free",
+    "openrouter/nemotron-3.5-lightning-free",
+    "openrouter/nemotron-3.5-lightning",
+    "openrouter/qwen3.8-2.4t-a95b",
+    "openrouter/sakana-namazu",
+    "openrouter/seed-2-1-turbo",
+    "openrouter/seed-2.0-code",
+    "vercel/gemini-3.7-flash",
+    "vercel/qwen3.8-2.4t-a95b"
   ],
   "removed": [],
   "status_changed": [
     {
-      "model_id": "vercel/grok-imagine-image-2.0-preview",
+      "model_id": "deepinfra/gemini-1.5-flash-8b",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "deepinfra/gemini-1.5-flash",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "google/gemini-3.1-flash-live-preview",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/ling-3.0-tiny-free",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "vercel/ling-3.0-tiny-free",
       "from": "active",
       "to": "discontinued"
     }

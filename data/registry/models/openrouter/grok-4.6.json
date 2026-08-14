@@ -1,0 +1,26 @@
+{
+  "model_id": "openrouter/grok-4.6",
+  "provider_id": "openrouter",
+  "name": "x-ai/grok-4.6",
+  "context_window": 500000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-14T02:23:58.075Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 500000
+  }
+}

@@ -2,6 +2,7 @@
   "model_id": "deepinfra/qwen3.8-2.4t-a95b",
   "provider_id": "deepinfra",
   "name": "Qwen/Qwen3.8-2.4T-A95B",
+  "context_window": 262144,
   "modality": [
     "text"
   ],
@@ -13,13 +14,12 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "capability_ids": [],
-  "status": "active",
-  "updated_at": "2026-08-13T02:25:20.630Z",
   "is_free": false,
   "tier": "balanced",
   "limits": {
-    "max_input_tokens": 262144
+    "max_input_tokens": 1010000
   },
-  "context_window": 262144
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-14T02:23:57.963Z"
 }
