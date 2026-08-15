@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "ab3aca0",
-  "generated_at": "2026-08-14T02:25:59.803Z",
+  "source_revision": "8ed0172",
+  "generated_at": "2026-08-15T01:38:51.627Z",
   "count": 40,
   "ranking": [
     {
@@ -102,7 +102,7 @@
       ],
       "cheapest_offering": "deepinfra/glm-5.1",
       "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 2.15,
+      "blended_cost_per_1m": 1.4834999999999998,
       "pareto_optimal": false
     },
     {
@@ -114,7 +114,7 @@
       ],
       "cheapest_offering": "deepinfra/kimi-k2.6",
       "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 1.7125,
+      "blended_cost_per_1m": 1.34,
       "pareto_optimal": false
     },
     {
@@ -212,7 +212,7 @@
       ],
       "cheapest_offering": "deepinfra/kimi-k2.7-code",
       "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 1.3525,
+      "blended_cost_per_1m": 1.4075,
       "pareto_optimal": false
     },
     {
@@ -440,9 +440,9 @@
         "overall",
         "reasoning"
       ],
-      "cheapest_offering": "requesty/deepseek-r1-distill-llama-70b",
-      "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 0.345,
+      "cheapest_offering": "openrouter/deepseek-r1-distill-llama-70b",
+      "cheapest_provider": "openrouter",
+      "blended_cost_per_1m": 0.8,
       "pareto_optimal": false
     },
     {

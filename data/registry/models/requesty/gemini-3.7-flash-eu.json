@@ -1,0 +1,27 @@
+{
+  "model_id": "requesty/gemini-3.7-flash-eu",
+  "provider_id": "requesty",
+  "name": "vertex/gemini-3.7-flash@eu",
+  "description": "Gemini 3.7 Flash is the high efficiency agentic workhorse of the Gemini 3 family. It delivers Pro level agentic capabilities with major leaps in code generation and terminal execution, bridging deep reasoning Pro models and high throughput Flash Lite models.",
+  "context_window": 1048576,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-15T01:36:02.789Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 1048576
+  }
+}

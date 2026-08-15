@@ -1,17 +1,18 @@
 {
   "model_id": "requesty/qwen3.8-max",
   "provider_id": "requesty",
-  "name": "alibaba/qwen3.8-max",
+  "name": "novita/qwen/qwen3.8-max",
   "description": "A 2.4T-parameter MoE flagship for coding and knowledge work. Programs autonomously for days to deliver complete projects end to end, with native visual understanding across planning, execution, and verification, plus deep semantic analysis of ultra-long documents and video.",
-  "context_window": 1048576,
+  "context_window": 1000000,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
   "reasoning_support": true,
   "function_calling": true,
   "structured_output": true,
-  "vision_support": false,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
@@ -22,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-14T02:23:58.298Z"
+  "updated_at": "2026-08-15T01:36:02.886Z"
 }

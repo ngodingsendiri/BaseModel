@@ -1,0 +1,27 @@
+{
+  "model_id": "requesty/kimi-k2.6-flex",
+  "provider_id": "requesty",
+  "name": "deepinfra/moonshotai/Kimi-K2.6:flex",
+  "description": "Kimi K2.6 is an open-source, native multimodal agentic model that advances practical capabilities in long-horizon coding, coding-driven design, proactive autonomous execution, and swarm-based task orchestration.",
+  "context_window": 262144,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-15T01:36:02.841Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 262144
+  }
+}

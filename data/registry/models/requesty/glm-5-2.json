@@ -1,0 +1,26 @@
+{
+  "model_id": "requesty/glm-5-2",
+  "provider_id": "requesty",
+  "name": "mistral/glm-5-2",
+  "description": "GLM 5.2 by Z.ai is an open weights MoE model (744B total / 40B active parameters) served by Mistral on EU infrastructure with no Mistral modifications. 1M token context window, 128K max output. Text only. Supports reasoning, function calling, structured outputs, predicted outputs and prefix. Built for long context coding and agentic workflows. Public preview since 6 August 2026.",
+  "context_window": 1000000,
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-15T01:36:02.793Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 1000000
+  }
+}

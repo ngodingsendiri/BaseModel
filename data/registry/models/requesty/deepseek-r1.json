@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/deepseek-r1",
   "provider_id": "requesty",
-  "name": "novita/deepseek/deepseek-r1",
+  "name": "deepinfra/deepseek-ai/DeepSeek-R1",
   "description": "DeepSeek-R1 is an advanced, open-weights reasoning model by DeepSeek. Designed to compete with flagship reasoning models like OpenAI's o1, it focuses heavily on complex problem-solving in mathematics, coding, and science by \"thinking\" before it speaks, natively outputting a detailed, step-by-step chain of thought.",
   "context_window": 64000,
   "modality": [
@@ -22,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-14T02:23:58.190Z"
+  "updated_at": "2026-08-15T01:36:02.952Z"
 }

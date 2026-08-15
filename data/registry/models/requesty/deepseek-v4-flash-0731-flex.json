@@ -1,0 +1,26 @@
+{
+  "model_id": "requesty/deepseek-v4-flash-0731-flex",
+  "provider_id": "requesty",
+  "name": "deepinfra/deepseek-v4-flash-0731:flex",
+  "description": "DeepSeek V4 Flash 0731 is the official release of DeepSeek V4 Flash, superseding the preview version, with substantially enhanced agentic capabilities. A 304B parameter open-source MoE model with a 1M token context window, tuned for fast inference and high-throughput use cases with strong reasoning, coding, and function calling performance.",
+  "context_window": 1048576,
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-15T01:36:02.759Z",
+  "is_free": false,
+  "tier": "budget",
+  "limits": {
+    "max_input_tokens": 1048576
+  }
+}

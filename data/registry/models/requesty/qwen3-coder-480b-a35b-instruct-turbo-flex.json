@@ -1,0 +1,26 @@
+{
+  "model_id": "requesty/qwen3-coder-480b-a35b-instruct-turbo-flex",
+  "provider_id": "requesty",
+  "name": "deepinfra/Qwen/Qwen3-Coder-480B-A35B-Instruct-Turbo:flex",
+  "description": "Qwen3-Coder-480B-A35B-Instruct is the Qwen3's most agentic code model, featuring Significant Performance on Agentic Coding, Agentic Browser-Use and other foundational coding tasks, achieving results comparable to Claude Sonnet.",
+  "context_window": 262144,
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-15T01:36:02.879Z",
+  "is_free": false,
+  "tier": "budget",
+  "limits": {
+    "max_input_tokens": 262144
+  }
+}

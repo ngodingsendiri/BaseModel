@@ -2,7 +2,7 @@
   "model_id": "openrouter/qwen3.8-2.4t-a95b",
   "provider_id": "openrouter",
   "name": "qwen/qwen3.8-2.4t-a95b",
-  "context_window": 1010000,
+  "context_window": 1048576,
   "modality": [
     "text"
   ],
@@ -14,12 +14,12 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "capability_ids": [],
-  "status": "active",
-  "updated_at": "2026-08-14T02:23:58.140Z",
   "is_free": false,
   "tier": "balanced",
   "limits": {
-    "max_input_tokens": 1010000
-  }
+    "max_input_tokens": 1048576
+  },
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-15T01:36:02.707Z"
 }

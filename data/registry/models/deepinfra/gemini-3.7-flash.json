@@ -1,0 +1,26 @@
+{
+  "model_id": "deepinfra/gemini-3.7-flash",
+  "provider_id": "deepinfra",
+  "name": "google/gemini-3.7-flash",
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-15T01:36:02.503Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 1048576
+  },
+  "context_window": 1048576
+}

@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gpt-5.5-swedencentral",
   "provider_id": "requesty",
-  "name": "azure/openai-responses/gpt-5.5@swedencentral",
+  "name": "azure/gpt-5.5@swedencentral",
   "description": "GPT-5.5 is OpenAI's frontier model designed for complex professional workloads, building on GPT-5.4 with stronger reasoning, higher reliability, and improved token efficiency on hard tasks. It features a 1M+ token context window (922K input, 128K output) with support for text and image inputs, enabling large-scale reasoning, coding, and multimodal workflows within a single system.",
   "context_window": 1050000,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-14T02:23:58.249Z"
+  "updated_at": "2026-08-15T01:36:02.825Z"
 }

@@ -1,0 +1,26 @@
+{
+  "model_id": "requesty/deepseek-v3.1-flex",
+  "provider_id": "requesty",
+  "name": "deepinfra/deepseek-ai/DeepSeek-V3.1:flex",
+  "description": "DeepSeek-V3.1 by DeepSeek-AI is a state-of-the-art, hybrid-inference artificial intelligence model that allows users to toggle between fast conversational responses and deep logical reasoning modes within a single architecture.",
+  "context_window": 163840,
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-15T01:36:02.757Z",
+  "is_free": false,
+  "tier": "budget",
+  "limits": {
+    "max_input_tokens": 163840
+  }
+}

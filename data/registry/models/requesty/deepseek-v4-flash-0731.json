@@ -1,16 +1,16 @@
 {
   "model_id": "requesty/deepseek-v4-flash-0731",
   "provider_id": "requesty",
-  "name": "deepseek/deepseek-v4-flash-0731",
+  "name": "deepinfra/deepseek-v4-flash-0731",
   "description": "DeepSeek V4 Flash is an efficiency-focused MoE model with 284B total parameters (13B active) and a 1M-token context window. It's tuned for fast inference and high-throughput use cases while still holding up on reasoning and coding tasks.",
-  "context_window": 1000000,
+  "context_window": 1048576,
   "modality": [
     "text"
   ],
   "open_weight": false,
-  "reasoning_support": false,
+  "reasoning_support": true,
   "function_calling": true,
-  "structured_output": false,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -18,9 +18,9 @@
   "is_free": false,
   "tier": "budget",
   "limits": {
-    "max_input_tokens": 1000000
+    "max_input_tokens": 1048576
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-14T02:23:58.193Z"
+  "updated_at": "2026-08-15T01:36:02.759Z"
 }
