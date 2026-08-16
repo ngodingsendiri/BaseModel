@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gpt-5-mini",
   "provider_id": "requesty",
-  "name": "openai-responses/gpt-5-mini",
+  "name": "openai/gpt-5-mini",
   "description": "GPT-5 mini is a faster, more cost-efficient version of GPT-5. It's great for well-defined tasks and precise prompts.",
   "context_window": 400000,
   "modality": [
@@ -19,9 +19,9 @@
   "is_free": false,
   "tier": "balanced",
   "limits": {
-    "max_input_tokens": 200000
+    "max_input_tokens": 400000
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-15T01:36:02.809Z"
+  "updated_at": "2026-08-16T01:42:01.760Z"
 }

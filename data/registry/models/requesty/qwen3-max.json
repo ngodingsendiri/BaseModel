@@ -1,26 +1,27 @@
 {
   "model_id": "requesty/qwen3-max",
   "provider_id": "requesty",
-  "name": "deepinfra/Qwen/Qwen3-Max",
+  "name": "alibaba/qwen3-max",
   "description": "This is the best-performing model in the Qwen series. It is ideal for complex, multi-step tasks.",
-  "context_window": 256000,
+  "context_window": 262144,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
   "reasoning_support": false,
   "function_calling": true,
-  "structured_output": false,
-  "vision_support": false,
+  "structured_output": true,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
   "is_free": false,
   "tier": "balanced",
   "limits": {
-    "max_input_tokens": 262144
+    "max_input_tokens": 256000
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-15T01:36:02.881Z"
+  "updated_at": "2026-08-16T01:42:01.810Z"
 }

@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/claude-sonnet-5",
   "provider_id": "requesty",
-  "name": "bedrock/claude-sonnet-5",
+  "name": "anthropic/claude-sonnet-5",
   "description": "Claude Sonnet 5 is the latest model in the Sonnet family and an upgrade to Sonnet 4.6, with gains in agentic coding and professional work. It delivers top-tier intelligence at Sonnet pricing, well suited to production agents, high-volume pipelines, and everyday professional work like document drafting, spreadsheet analysis, and presentations.",
   "context_window": 1000000,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-15T01:36:02.754Z"
+  "updated_at": "2026-08-16T01:42:01.720Z"
 }

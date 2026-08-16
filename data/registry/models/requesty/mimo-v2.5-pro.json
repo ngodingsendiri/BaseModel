@@ -1,16 +1,16 @@
 {
   "model_id": "requesty/mimo-v2.5-pro",
   "provider_id": "requesty",
-  "name": "deepinfra/XiaomiMiMo/MiMo-V2.5-Pro",
+  "name": "xiaomi/mimo-v2.5-pro",
   "description": "MiMo-V2.5-Pro is an open-source Mixture-of-Experts (MoE) language model with 1.02T total parameters and 42B active parameters. It utilizes the hybrid attention architecture and 3-layers Multi-Token Prediction (MTP) introduced in [MiMo-V2-Flash](https://github.com/XiaomiMiMo/MiMo-V2-Flash).",
   "context_window": 1048576,
   "modality": [
     "text"
   ],
   "open_weight": false,
-  "reasoning_support": true,
+  "reasoning_support": false,
   "function_calling": true,
-  "structured_output": true,
+  "structured_output": false,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -22,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-15T01:36:02.850Z"
+  "updated_at": "2026-08-16T01:42:01.789Z"
 }
