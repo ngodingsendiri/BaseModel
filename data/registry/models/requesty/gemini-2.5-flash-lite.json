@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gemini-2.5-flash-lite",
   "provider_id": "requesty",
-  "name": "google/gemini-2.5-flash-lite",
+  "name": "vertex/gemini-2.5-flash-lite",
   "description": "Google's smallest and most cost effective model, built for at scale usage.",
   "context_window": 1048576,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-16T01:42:01.735Z"
+  "updated_at": "2026-08-17T01:40:15.075Z"
 }

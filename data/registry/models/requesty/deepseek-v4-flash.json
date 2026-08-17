@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/deepseek-v4-flash",
   "provider_id": "requesty",
-  "name": "novita/deepseek/deepseek-v4-flash",
+  "name": "doubleword/deepseek-v4-flash",
   "description": "DeepSeek V4 Flash is an efficiency optimized Mixture of Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M token context window. It is built for fast inference and high throughput workloads while keeping strong reasoning and coding performance. The model uses hybrid attention for efficient long context processing. Reasoning efforts high and xhigh are supported, with xhigh mapping to max reasoning. It is well suited for coding assistants, chat systems, and agent workflows where responsiveness and cost efficiency matter.",
   "context_window": 1048576,
   "modality": [
@@ -9,7 +9,7 @@
   ],
   "open_weight": false,
   "reasoning_support": true,
-  "function_calling": true,
+  "function_calling": false,
   "structured_output": false,
   "vision_support": false,
   "audio_support": false,
@@ -22,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-16T01:42:01.725Z"
+  "updated_at": "2026-08-17T01:40:15.066Z"
 }

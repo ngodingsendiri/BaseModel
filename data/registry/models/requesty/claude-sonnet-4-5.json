@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/claude-sonnet-4-5",
   "provider_id": "requesty",
-  "name": "anthropic/claude-sonnet-4-5",
+  "name": "bedrock/claude-sonnet-4-5",
   "description": "Anthropic's most intelligent model. The first hybrid reasoning model on the market with the highest level of intelligence and capability with toggleable extended thinking. Top-tier results in reasoning, coding, multilingual tasks, long-context handling, honesty, and image processing.",
   "context_window": 1000000,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-16T01:42:01.711Z"
+  "updated_at": "2026-08-17T01:40:15.051Z"
 }

@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gpt-4.1-nano-eastus2",
   "provider_id": "requesty",
-  "name": "azure/openai-responses/gpt-4.1-nano@eastus2",
+  "name": "azure/gpt-4.1-nano@eastus2",
   "description": "For tasks that demand low latency, GPT‑4.1 nano is the fastest and cheapest model in the GPT-4.1 series. It delivers exceptional performance at a small size with its 1 million token context window, and scores 80.1% on MMLU, 50.3% on GPQA, and 9.8% on Aider polyglot coding – even higher than GPT‑4o mini. It’s ideal for tasks like classification or autocompletion.",
   "context_window": 1047576,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-16T01:42:01.753Z"
+  "updated_at": "2026-08-17T01:40:15.093Z"
 }

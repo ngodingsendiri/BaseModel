@@ -1,16 +1,16 @@
 {
   "model_id": "requesty/qwen3-32b",
   "provider_id": "requesty",
-  "name": "nebius/qwen/qwen3-32b",
+  "name": "deepinfra/Qwen/Qwen3-32B",
   "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique ability to switch seamlessly between a thinking mode for complex reasoning and a non-thinking mode for efficient dialogue ensures versatile, high-quality performance.\n\nSignificantly outperforming prior models like QwQ and Qwen2.5, Qwen3 delivers superior mathematics, coding, commonsense reasoning, creative writing, and interactive dialogue capabilities. The Qwen3-30B-A3B variant includes 30.5 billion parameters (3.3 billion activated), 48 layers, 128 experts (8 activated per task), and supports up to 131K token contexts with YaRN, setting a new standard among open-source models.",
-  "context_window": 128000,
+  "context_window": 40960,
   "modality": [
     "text"
   ],
   "open_weight": false,
-  "reasoning_support": true,
+  "reasoning_support": false,
   "function_calling": true,
-  "structured_output": true,
+  "structured_output": false,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -22,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-16T01:42:01.808Z"
+  "updated_at": "2026-08-17T01:40:15.322Z"
 }

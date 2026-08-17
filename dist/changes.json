@@ -1,16 +1,27 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "e2f65aa",
-  "generated_at": "2026-08-16T01:44:35.680Z",
+  "source_revision": "68403ed",
+  "generated_at": "2026-08-17T01:43:17.370Z",
   "summary": {
     "added": 2,
     "removed": 0,
-    "status_changed": 0
+    "status_changed": 2
   },
   "added": [
-    "openrouter/dots-3-note-preview-free",
-    "requesty/nemotron-lightning-3.5-30b-a3b"
+    "vercel/nemotron-3.5-lightning",
+    "vercel/qwen3.8-27b"
   ],
   "removed": [],
-  "status_changed": []
+  "status_changed": [
+    {
+      "model_id": "google/gemini-2.5-flash-native-audio-preview-12-2025",
+      "from": "discontinued",
+      "to": "active"
+    },
+    {
+      "model_id": "google/gemini-3.7-flash-video-understanding-eap",
+      "from": "active",
+      "to": "discontinued"
+    }
+  ]
 }
