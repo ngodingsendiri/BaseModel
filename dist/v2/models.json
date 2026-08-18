@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "68403ed",
-  "generated_at": "2026-08-17T01:43:17.370Z",
-  "count": 1152,
+  "source_revision": "33a1137",
+  "generated_at": "2026-08-18T01:38:18.552Z",
+  "count": 1172,
   "models": [
     {
       "model_id": "aion-2-0",
@@ -986,7 +986,17 @@
       ],
       "offering_ids": [
         "anthropic/claude-haiku-4-5-20251001"
-      ]
+      ],
+      "quality": {
+        "score": 65.75,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "claude-haiku-4-5-ap-northeast-1",
@@ -1378,7 +1388,17 @@
       ],
       "offering_ids": [
         "anthropic/claude-opus-4-1-20250805"
-      ]
+      ],
+      "quality": {
+        "score": 73.63,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "claude-opus-4-1-batch",
@@ -2794,7 +2814,17 @@
       ],
       "offering_ids": [
         "anthropic/claude-sonnet-4-5-20250929"
-      ]
+      ],
+      "quality": {
+        "score": 73.25,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "claude-sonnet-4-5-batch",
@@ -4873,7 +4903,17 @@
         "openrouter/deepseek-v3.2",
         "requesty/deepseek-v3.2",
         "vercel/deepseek-v3.2"
-      ]
+      ],
+      "quality": {
+        "score": 65.63,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "deepseek-v3-2-exp",
@@ -4897,7 +4937,17 @@
       ],
       "offering_ids": [
         "openrouter/deepseek-v3.2-exp"
-      ]
+      ],
+      "quality": {
+        "score": 59,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "deepseek-v3-2-thinking",
@@ -4922,7 +4972,17 @@
       ],
       "offering_ids": [
         "vercel/deepseek-v3.2-thinking"
-      ]
+      ],
+      "quality": {
+        "score": 70,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "deepseek-v3-flex",
@@ -5218,7 +5278,17 @@
       ],
       "offering_ids": [
         "vercel/devstral-2"
-      ]
+      ],
+      "quality": {
+        "score": 49.13,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "devstral-2512",
@@ -7568,7 +7638,17 @@
         "openrouter/gemini-2.5-pro",
         "requesty/gemini-2.5-pro",
         "vercel/gemini-2.5-pro"
-      ]
+      ],
+      "quality": {
+        "score": 53.25,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "gemini-2-5-pro-batch",
@@ -8212,7 +8292,17 @@
       "offering_ids": [
         "google/gemini-3.1-flash-lite-preview",
         "openrouter/gemini-3.1-flash-lite-preview"
-      ]
+      ],
+      "quality": {
+        "score": 56.75,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "gemini-3-1-flash-lite-us",
@@ -8260,7 +8350,7 @@
       "embedding_support": false,
       "context_window": 131072,
       "capability_ids": [],
-      "status": "discontinued",
+      "status": "active",
       "aliases": [
         "gemini-3.1-flash-live-preview"
       ],
@@ -8693,6 +8783,34 @@
       ],
       "offering_ids": [
         "requesty/gemini-3.5-flash-us"
+      ]
+    },
+    {
+      "model_id": "gemini-3-5-live-translate-preview",
+      "name": "Gemini 3.5 Live Translate Preview",
+      "description": "Gemini 3.5 Live Translate Preview",
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 16384,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gemini-3.5-live-translate-preview"
+      ],
+      "offering_ids": [
+        "google/gemini-3.5-live-translate-preview"
       ]
     },
     {
@@ -9426,6 +9544,34 @@
       ]
     },
     {
+      "model_id": "gemini-robotics-er-2-streaming-preview",
+      "name": "Gemini Robotics-ER 2 Streaming Preview",
+      "description": "Gemini Robotics-ER 2 Streaming Preview",
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 131072,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gemini-robotics-er-2-streaming-preview"
+      ],
+      "offering_ids": [
+        "google/gemini-robotics-er-2-streaming-preview"
+      ]
+    },
+    {
       "model_id": "gemma-2-27b-it",
       "name": "google/gemma-2-27b-it",
       "modality": [
@@ -9665,7 +9811,17 @@
       ],
       "offering_ids": [
         "cerebras/gemma-4-31b"
-      ]
+      ],
+      "quality": {
+        "score": 70.5,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "gemma-4-31b-it",
@@ -9923,7 +10079,17 @@
         "openrouter/glm-4.6",
         "requesty/glm-4.6",
         "vercel/glm-4.6"
-      ]
+      ],
+      "quality": {
+        "score": 67.5,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "glm-4-6v",
@@ -10004,7 +10170,17 @@
         "openrouter/glm-4.7",
         "requesty/glm-4.7",
         "vercel/glm-4.7"
-      ]
+      ],
+      "quality": {
+        "score": 79.25,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "glm-4-7-flash",
@@ -10084,7 +10260,17 @@
         "openrouter/glm-5",
         "requesty/glm-5",
         "vercel/glm-5"
-      ]
+      ],
+      "quality": {
+        "score": 79.5,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "glm-5-1",
@@ -10306,7 +10492,17 @@
       "offering_ids": [
         "openrouter/glm-5v-turbo",
         "vercel/glm-5v-turbo"
-      ]
+      ],
+      "quality": {
+        "score": 75,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "gpt-3-5-turbo",
@@ -10631,6 +10827,32 @@
       ]
     },
     {
+      "model_id": "gpt-4-1-fast",
+      "name": "GPT-4.1 (Fast)",
+      "description": "GPT 4.1 is OpenAI's flagship model for complex tasks. It is well suited for problem solving across domains.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1047576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-4.1-fast"
+      ],
+      "offering_ids": [
+        "vercel/gpt-4.1-fast"
+      ]
+    },
+    {
       "model_id": "gpt-4-1-francecentral",
       "name": "azure/gpt-4.1@francecentral",
       "description": "GPT-4.1 is a flagship large language model optimized for advanced instruction following, real-world software engineering, and long-context reasoning. It supports a 1 million token context window and outperforms GPT-4o and GPT-4.5 across coding (54.6% SWE-bench Verified), instruction compliance (87.4% IFEval), and multimodal understanding benchmarks. It is tuned for precise code diffs, agent reliability, and high recall in large document contexts, making it ideal for agents, IDE tooling, and enterprise knowledge retrieval.",
@@ -10758,6 +10980,32 @@
       ],
       "offering_ids": [
         "requesty/gpt-4.1-mini-eastus2"
+      ]
+    },
+    {
+      "model_id": "gpt-4-1-mini-fast",
+      "name": "GPT-4.1 mini (Fast)",
+      "description": "GPT 4.1 mini provides a balance between intelligence, speed, and cost that makes it an attractive model for many use cases.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1047576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-4.1-mini-fast"
+      ],
+      "offering_ids": [
+        "vercel/gpt-4.1-mini-fast"
       ]
     },
     {
@@ -10940,6 +11188,32 @@
       ],
       "offering_ids": [
         "requesty/gpt-4.1-nano-eastus2"
+      ]
+    },
+    {
+      "model_id": "gpt-4-1-nano-fast",
+      "name": "GPT-4.1 nano (Fast)",
+      "description": "GPT-4.1 nano is the fastest, most cost-effective GPT 4.1 model.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1047576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-4.1-nano-fast"
+      ],
+      "offering_ids": [
+        "vercel/gpt-4.1-nano-fast"
       ]
     },
     {
@@ -11348,6 +11622,32 @@
       ]
     },
     {
+      "model_id": "gpt-4o-fast",
+      "name": "GPT-4o (Fast)",
+      "description": "GPT-4o from OpenAI has broad general knowledge and domain expertise allowing it to follow complex instructions in natural language and solve difficult problems accurately. It matches GPT-4 Turbo performance with a faster and cheaper API.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 128000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-4o-fast"
+      ],
+      "offering_ids": [
+        "vercel/gpt-4o-fast"
+      ]
+    },
+    {
       "model_id": "gpt-4o-mini",
       "name": "gpt-4o-mini",
       "family": "GPT-4",
@@ -11459,6 +11759,32 @@
       ],
       "offering_ids": [
         "requesty/gpt-4o-mini-eastus2"
+      ]
+    },
+    {
+      "model_id": "gpt-4o-mini-fast",
+      "name": "GPT-4o mini (Fast)",
+      "description": "GPT-4o mini from OpenAI is their most advanced and cost-efficient small model. It is multi-modal (accepting text or image inputs and outputting text) and has higher intelligence than gpt-3.5-turbo but is just as fast.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 128000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-4o-mini-fast"
+      ],
+      "offering_ids": [
+        "vercel/gpt-4o-mini-fast"
       ]
     },
     {
@@ -11837,7 +12163,17 @@
         "openai/gpt-5.1",
         "openrouter/gpt-5.1",
         "requesty/gpt-5.1"
-      ]
+      ],
+      "quality": {
+        "score": 67.63,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "gpt-5-1-2025-11-13",
@@ -11966,7 +12302,17 @@
         "openrouter/gpt-5.1-codex",
         "requesty/gpt-5.1-codex",
         "vercel/gpt-5.1-codex"
-      ]
+      ],
+      "quality": {
+        "score": 67,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "gpt-5-1-codex-max",
@@ -12022,7 +12368,17 @@
         "openai/gpt-5.1-codex-mini",
         "openrouter/gpt-5.1-codex-mini",
         "vercel/gpt-5.1-codex-mini"
-      ]
+      ],
+      "quality": {
+        "score": 55.5,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "gpt-5-1-eastus2",
@@ -12181,6 +12537,32 @@
       ]
     },
     {
+      "model_id": "gpt-5-1-thinking-fast",
+      "name": "GPT 5.1 Thinking (Fast)",
+      "description": "An upgraded version of GPT-5 that adapts thinking time more precisely to the question to spend more time on complex questions and respond more quickly to simpler tasks.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 400000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5.1-thinking-fast"
+      ],
+      "offering_ids": [
+        "vercel/gpt-5.1-thinking-fast"
+      ]
+    },
+    {
       "model_id": "gpt-5-2",
       "name": "gpt-5.2",
       "description": "The best model for coding and agentic tasks across industries",
@@ -12207,7 +12589,17 @@
         "openrouter/gpt-5.2",
         "requesty/gpt-5.2",
         "vercel/gpt-5.2"
-      ]
+      ],
+      "quality": {
+        "score": 77.25,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "gpt-5-2-2025-12-11",
@@ -12336,7 +12728,17 @@
         "openrouter/gpt-5.2-codex",
         "requesty/gpt-5.2-codex",
         "vercel/gpt-5.2-codex"
-      ]
+      ],
+      "quality": {
+        "score": 67.25,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "gpt-5-2-codex-eastus2",
@@ -12387,6 +12789,32 @@
       ],
       "offering_ids": [
         "requesty/gpt-5.2-eastus2"
+      ]
+    },
+    {
+      "model_id": "gpt-5-2-fast",
+      "name": "GPT 5.2 (Fast)",
+      "description": "GPT-5.2 is OpenAI's best general-purpose model, part of the GPT-5 flagship model family. It's their most intelligent model yet for both general and agentic tasks.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 400000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5.2-fast"
+      ],
+      "offering_ids": [
+        "vercel/gpt-5.2-fast"
       ]
     },
     {
@@ -12624,6 +13052,32 @@
       ]
     },
     {
+      "model_id": "gpt-5-3-codex-fast",
+      "name": "GPT 5.3 Codex (Fast)",
+      "description": "GPT-5.3-Codex advances both the frontier coding performance of GPT‑5.2-Codex and the reasoning and professional knowledge capabilities of GPT‑5.2, together in one model, which is also 25% faster. This enables it to take on long-running tasks that involve research, tool use, and complex execution.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 400000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5.3-codex-fast"
+      ],
+      "offering_ids": [
+        "vercel/gpt-5.3-codex-fast"
+      ]
+    },
+    {
       "model_id": "gpt-5-4",
       "name": "gpt-5.4",
       "description": "GPT-5.4 is OpenAI's latest frontier model, unifying the Codex and GPT lines into a single system. It features a 1M+ token context window (922K input, 128K output) with support for text and image inputs, enabling high-context reasoning, coding, and multimodal analysis within the same workflow. The model delivers improved performance in coding, document understanding, tool use, and instruction following, capable of generating production-quality code, synthesizing information across multiple sources, and executing complex multi-step workflows with fewer iterations and greater token efficiency.",
@@ -12650,7 +13104,17 @@
         "openrouter/gpt-5.4",
         "requesty/gpt-5.4",
         "vercel/gpt-5.4"
-      ]
+      ],
+      "quality": {
+        "score": 73.75,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "gpt-5-4-2026-03-05",
@@ -12725,6 +13189,32 @@
       ],
       "offering_ids": [
         "requesty/gpt-5.4-eastus2"
+      ]
+    },
+    {
+      "model_id": "gpt-5-4-fast",
+      "name": "GPT 5.4 (Fast)",
+      "description": "GPT-5.4 is OpenAI's best general-purpose model, part of the GPT-5 flagship model family. It's their most intelligent model yet for both general and agentic tasks.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5.4-fast"
+      ],
+      "offering_ids": [
+        "vercel/gpt-5.4-fast"
       ]
     },
     {
@@ -12905,6 +13395,32 @@
       ],
       "offering_ids": [
         "requesty/gpt-5.4-mini-eastus2"
+      ]
+    },
+    {
+      "model_id": "gpt-5-4-mini-fast",
+      "name": "GPT 5.4 Mini (Fast)",
+      "description": "GPT-5.4 Mini brings the strengths of GPT-5.4 to a faster, more efficient model designed for high-volume workloads.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 400000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5.4-mini-fast"
+      ],
+      "offering_ids": [
+        "vercel/gpt-5.4-mini-fast"
       ]
     },
     {
@@ -13350,6 +13866,32 @@
       ]
     },
     {
+      "model_id": "gpt-5-5-fast",
+      "name": "GPT 5.5 (Fast)",
+      "description": "GPT‑5.5 understands what you’re trying to do faster and can carry more of the work itself. It excels at writing and debugging code, researching online, analyzing data, creating documents and spreadsheets, operating software, and moving across tools until a task is finished. Instead of carefully managing every step, you can give GPT‑5.5 a messy, multi-part task and trust it to plan, use tools, check its work, navigate through ambiguity, and keep going.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1000000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5.5-fast"
+      ],
+      "offering_ids": [
+        "vercel/gpt-5.5-fast"
+      ]
+    },
+    {
       "model_id": "gpt-5-5-flex",
       "name": "openai/gpt-5.5:flex",
       "description": "GPT-5.5 is OpenAI's frontier model designed for complex professional workloads, building on GPT-5.4 with stronger reasoning, higher reliability, and improved token efficiency on hard tasks. It features a 1M+ token context window (922K input, 128K output) with support for text and image inputs, enabling large-scale reasoning, coding, and multimodal workflows within a single system.",
@@ -13612,6 +14154,32 @@
       ]
     },
     {
+      "model_id": "gpt-5-6-luna-fast",
+      "name": "GPT 5.6 Luna (Fast)",
+      "description": "GPT-5.6 Luna is a fast, affordable GPT-5.6 model that brings strong capability at the lowest cost in the series.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5.6-luna-fast"
+      ],
+      "offering_ids": [
+        "vercel/gpt-5.6-luna-fast"
+      ]
+    },
+    {
       "model_id": "gpt-5-6-luna-flex",
       "name": "openai/gpt-5.6-luna:flex",
       "description": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series. It is suited for high-volume, latency-sensitive tasks such as chat, classification, and lightweight agentic workflows, providing capable reasoning for its price tier.",
@@ -13794,6 +14362,32 @@
       ]
     },
     {
+      "model_id": "gpt-5-6-sol-fast",
+      "name": "GPT 5.6 Sol (Fast)",
+      "description": "GPT-5.6 Sol is the flagship of OpenAI's GPT-5.6 series, its most capable model for long-horizon agentic work across coding, biology, and cybersecurity.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5.6-sol-fast"
+      ],
+      "offering_ids": [
+        "vercel/gpt-5.6-sol-fast"
+      ]
+    },
+    {
       "model_id": "gpt-5-6-sol-flex",
       "name": "openai/gpt-5.6-sol:flex",
       "description": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks and long-horizon problem solving.",
@@ -13973,6 +14567,32 @@
       ],
       "offering_ids": [
         "requesty/gpt-5.6-terra-eastus2"
+      ]
+    },
+    {
+      "model_id": "gpt-5-6-terra-fast",
+      "name": "GPT 5.6 Terra (Fast)",
+      "description": "GPT-5.6 Terra is a balanced GPT-5.6 model for everyday work, with performance comparable to the previous generation at half the cost.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5.6-terra-fast"
+      ],
+      "offering_ids": [
+        "vercel/gpt-5.6-terra-fast"
       ]
     },
     {
@@ -14206,6 +14826,32 @@
       ]
     },
     {
+      "model_id": "gpt-5-fast",
+      "name": "GPT-5 (Fast)",
+      "description": "GPT-5 is OpenAI's flagship language model that excels at complex reasoning, broad real-world knowledge, code-intensive, and multi-step agentic tasks.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 400000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5-fast"
+      ],
+      "offering_ids": [
+        "vercel/gpt-5-fast"
+      ]
+    },
+    {
       "model_id": "gpt-5-flex",
       "name": "openai/gpt-5:flex",
       "description": "GPT-5 is OpenAI's flagship model for coding, reasoning, and agentic tasks across domains.",
@@ -14408,6 +15054,32 @@
       ],
       "offering_ids": [
         "requesty/gpt-5-mini-eastus2"
+      ]
+    },
+    {
+      "model_id": "gpt-5-mini-fast",
+      "name": "GPT-5 mini (Fast)",
+      "description": "GPT-5 mini is a cost optimized model that excels at reasoning/chat tasks. It offers an optimal balance between speed, cost, and capability.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 400000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5-mini-fast"
+      ],
+      "offering_ids": [
+        "vercel/gpt-5-mini-fast"
       ]
     },
     {
@@ -15780,7 +16452,17 @@
       ],
       "offering_ids": [
         "openrouter/granite-4.1-8b"
-      ]
+      ],
+      "quality": {
+        "score": 49,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "grok-3",
@@ -15962,7 +16644,17 @@
       "offering_ids": [
         "requesty/grok-4-1-fast-reasoning",
         "vercel/grok-4.1-fast-reasoning"
-      ]
+      ],
+      "quality": {
+        "score": 55,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "grok-4-2-beta",
@@ -16198,7 +16890,17 @@
         "openrouter/grok-4.3",
         "requesty/grok-4.3",
         "vercel/grok-4.3"
-      ]
+      ],
+      "quality": {
+        "score": 69.25,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "grok-4-5",
@@ -16368,7 +17070,17 @@
       ],
       "offering_ids": [
         "requesty/grok-code-fast-1"
-      ]
+      ],
+      "quality": {
+        "score": 45.5,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "grok-imagine-image",
@@ -17026,7 +17738,17 @@
         "openrouter/inkling",
         "requesty/inkling",
         "vercel/inkling"
-      ]
+      ],
+      "quality": {
+        "score": 75.63,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "inkling-256k",
@@ -17233,7 +17955,17 @@
       ],
       "offering_ids": [
         "vercel/kat-coder-pro-v1"
-      ]
+      ],
+      "quality": {
+        "score": 56.88,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "kat-coder-pro-v2",
@@ -18297,7 +19029,17 @@
       ],
       "offering_ids": [
         "requesty/laguna-m.1"
-      ]
+      ],
+      "quality": {
+        "score": 68.38,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "laguna-s-2-1",
@@ -18374,7 +19116,17 @@
       ],
       "offering_ids": [
         "requesty/laguna-xs.2"
-      ]
+      ],
+      "quality": {
+        "score": 62.88,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "laguna-xs-2-1",
@@ -18769,7 +19521,7 @@
       "embedding_support": false,
       "context_window": 131072,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "llama-3.1-8b-instant"
       ],
@@ -19051,7 +19803,7 @@
       "embedding_support": false,
       "context_window": 131072,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "llama-3.3-70b-versatile"
       ],
@@ -19460,7 +20212,17 @@
       "offering_ids": [
         "openrouter/mercury-2",
         "vercel/mercury-2"
-      ]
+      ],
+      "quality": {
+        "score": 45.75,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "mercury-coder-small",
@@ -19886,7 +20648,17 @@
         "openrouter/minimax-m2",
         "requesty/minimax-m2",
         "vercel/minimax-m2"
-      ]
+      ],
+      "quality": {
+        "score": 62.13,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "minimax-m2-1",
@@ -19965,7 +20737,17 @@
         "openrouter/minimax-m2.5",
         "requesty/minimax-m2.5",
         "vercel/minimax-m2.5"
-      ]
+      ],
+      "quality": {
+        "score": 73,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "minimax-m2-5-eu-central-1",
@@ -20196,7 +20978,17 @@
         "openrouter/minimax-m2.7",
         "requesty/minimax-m2.7",
         "vercel/minimax-m2.7"
-      ]
+      ],
+      "quality": {
+        "score": 74.63,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "minimax-m2-7-highspeed",
@@ -20781,7 +21573,17 @@
       ],
       "offering_ids": [
         "vercel/mistral-large-3"
-      ]
+      ],
+      "quality": {
+        "score": 53.75,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "mistral-large-latest",
@@ -20983,7 +21785,17 @@
         "openrouter/mistral-medium-3-5",
         "requesty/mistral-medium-3-5",
         "vercel/mistral-medium-3.5"
-      ]
+      ],
+      "quality": {
+        "score": 58.13,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "mistral-medium-latest",
@@ -23315,6 +24127,32 @@
       ]
     },
     {
+      "model_id": "o3-fast",
+      "name": "o3 (Fast)",
+      "description": "OpenAI's o3 is their most powerful reasoning model, setting new state-of-the-art benchmarks in coding, math, science, and visual perception. It excels at complex queries requiring multi-faceted analysis, with particular strength in analyzing images, charts, and graphics.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 200000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "o3-fast"
+      ],
+      "offering_ids": [
+        "vercel/o3-fast"
+      ]
+    },
+    {
       "model_id": "o3-flex",
       "name": "openai/o3:flex",
       "description": "O3 Flex is a cheaper version of the o3 model",
@@ -23666,6 +24504,32 @@
       ],
       "offering_ids": [
         "requesty/o4-mini-eastus2"
+      ]
+    },
+    {
+      "model_id": "o4-mini-fast",
+      "name": "o4-mini (Fast)",
+      "description": "OpenAI's o4-mini delivers fast, cost-efficient reasoning with exceptional performance for its size, particularly excelling in math (best-performing on AIME benchmarks), coding, and visual tasks.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 200000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "o4-mini-fast"
+      ],
+      "offering_ids": [
+        "vercel/o4-mini-fast"
       ]
     },
     {
@@ -25296,7 +26160,17 @@
       "offering_ids": [
         "deepinfra/qwen3.5-122b-a10b",
         "openrouter/qwen3.5-122b-a10b"
-      ]
+      ],
+      "quality": {
+        "score": 69.75,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "qwen3-5-27b",
@@ -25324,7 +26198,17 @@
         "deepinfra/qwen3.5-27b",
         "openrouter/qwen3.5-27b",
         "requesty/qwen3.5-27b"
-      ]
+      ],
+      "quality": {
+        "score": 69.75,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "qwen3-5-27b-flex",
@@ -25404,7 +26288,17 @@
         "deepinfra/qwen3.5-35b-a3b",
         "openrouter/qwen3.5-35b-a3b",
         "requesty/qwen3.5-35b-a3b"
-      ]
+      ],
+      "quality": {
+        "score": 56.25,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "qwen3-5-35b-a3b-flex",
@@ -25458,7 +26352,17 @@
         "deepinfra/qwen3.5-397b-a17b",
         "openrouter/qwen3.5-397b-a17b",
         "requesty/qwen3.5-397b-a17b"
-      ]
+      ],
+      "quality": {
+        "score": 75,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "qwen3-5-397b-a17b-flex",
@@ -25535,7 +26439,17 @@
       ],
       "offering_ids": [
         "vercel/qwen3.5-flash"
-      ]
+      ],
+      "quality": {
+        "score": 54.75,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "qwen3-5-flash-02-23",
@@ -25897,7 +26811,7 @@
     },
     {
       "model_id": "qwen3-8-27b",
-      "name": "qwen/qwen3.8-27b",
+      "name": "Qwen/Qwen3.8-27B",
       "description": "Built on the architectural foundation of Qwen3.5, Qwen3.8 delivers substantial gains across coding, professional work, research, and long-horizon agentic tasks. Qwen3.8-27B brings these advances to a compact, deployment-friendly dense model: a native vision-language model that understands images and videos, with flexible thinking control, designed to carry complex, multi-step tasks through to completion with greater reliability.",
       "modality": [
         "text",
@@ -25918,6 +26832,7 @@
         "qwen3.8-27b"
       ],
       "offering_ids": [
+        "deepinfra/qwen3.8-27b",
         "openrouter/qwen3.8-27b",
         "vercel/qwen3.8-27b"
       ]
@@ -26136,7 +27051,17 @@
       "offering_ids": [
         "hyperbolic/qwen3-coder-480b-a35b-instruct",
         "requesty/qwen3-coder-480b-a35b-instruct"
-      ]
+      ],
+      "quality": {
+        "score": 59.13,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "qwen3-coder-480b-a35b-instruct-turbo",
@@ -28069,7 +28994,17 @@
       ],
       "offering_ids": [
         "openrouter/solar-pro4"
-      ]
+      ],
+      "quality": {
+        "score": 71.38,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "sonar",
@@ -28555,7 +29490,17 @@
       "offering_ids": [
         "openrouter/trinity-large-thinking",
         "vercel/trinity-large-thinking"
-      ]
+      ],
+      "quality": {
+        "score": 54.87,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "trinity-mini",
@@ -29942,7 +30887,7 @@
       "image_generation": false,
       "embedding_support": false,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "zai-glm-4.7"
       ],

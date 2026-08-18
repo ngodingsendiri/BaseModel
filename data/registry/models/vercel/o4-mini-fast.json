@@ -1,0 +1,22 @@
+{
+  "model_id": "vercel/o4-mini-fast",
+  "provider_id": "vercel",
+  "name": "o4-mini (Fast)",
+  "description": "OpenAI's o4-mini delivers fast, cost-efficient reasoning with exceptional performance for its size, particularly excelling in math (best-performing on AIME benchmarks), coding, and visual tasks.",
+  "context_window": 200000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-18T01:35:17.185Z"
+}

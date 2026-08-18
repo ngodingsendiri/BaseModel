@@ -1,0 +1,22 @@
+{
+  "model_id": "vercel/gpt-4.1-fast",
+  "provider_id": "vercel",
+  "name": "GPT-4.1 (Fast)",
+  "description": "GPT 4.1 is OpenAI's flagship model for complex tasks. It is well suited for problem solving across domains.",
+  "context_window": 1047576,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-18T01:35:17.145Z"
+}

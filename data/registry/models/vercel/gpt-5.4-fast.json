@@ -1,0 +1,22 @@
+{
+  "model_id": "vercel/gpt-5.4-fast",
+  "provider_id": "vercel",
+  "name": "GPT 5.4 (Fast)",
+  "description": "GPT-5.4 is OpenAI's best general-purpose model, part of the GPT-5 flagship model family. It's their most intelligent model yet for both general and agentic tasks.",
+  "context_window": 1050000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-18T01:35:17.165Z"
+}

@@ -1,0 +1,22 @@
+{
+  "model_id": "vercel/gpt-4.1-nano-fast",
+  "provider_id": "vercel",
+  "name": "GPT-4.1 nano (Fast)",
+  "description": "GPT-4.1 nano is the fastest, most cost-effective GPT 4.1 model.",
+  "context_window": 1047576,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-18T01:35:17.147Z"
+}

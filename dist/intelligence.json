@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "68403ed",
-  "generated_at": "2026-08-17T01:43:17.370Z",
-  "count": 1683,
+  "source_revision": "33a1137",
+  "generated_at": "2026-08-18T01:38:18.552Z",
+  "count": 1704,
   "intelligence": [
     {
       "model_id": "anthropic/claude-3-5-haiku",
@@ -975,7 +975,7 @@
     {
       "model_id": "deepinfra/deepseek-v3.1-terminus",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.44,
+      "blended_cost_per_1m": 0.4525,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -1085,7 +1085,7 @@
     {
       "model_id": "deepinfra/deepseek-v4-flash",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.10500000000000001,
+      "blended_cost_per_1m": 0.10350000000000001,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -1987,7 +1987,7 @@
     {
       "model_id": "deepinfra/glm-5.2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.175,
+      "blended_cost_per_1m": 1.1625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -3769,7 +3769,7 @@
     {
       "model_id": "deepinfra/qwen3.5-122b-a10b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.8174999999999999,
+      "blended_cost_per_1m": 0.7150000000000001,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -3879,7 +3879,7 @@
     {
       "model_id": "deepinfra/qwen3.6-27b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.725,
+      "blended_cost_per_1m": 1.35,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -3946,6 +3946,28 @@
       "model_id": "deepinfra/qwen3.8-2.4t-a95b",
       "cost_tier": "Balanced",
       "blended_cost_per_1m": 3,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-fast",
+          "name": "xai/grok-4-fast",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "deepinfra/qwen3.8-27b",
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 1.1375000000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -5285,6 +5307,28 @@
       ]
     },
     {
+      "model_id": "google/gemini-3.5-live-translate-preview",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-2.5-flash-lite",
+          "name": "Gemini 2.5 Flash-Lite",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite",
+          "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
       "model_id": "google/gemini-3.6-flash",
       "cost_tier": "Balanced",
       "blended_cost_per_1m": 1.5,
@@ -5550,6 +5594,28 @@
     },
     {
       "model_id": "google/gemini-robotics-er-2-preview",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "google/gemini-2.5-flash-lite",
+          "name": "Gemini 2.5 Flash-Lite",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite",
+          "name": "Gemini 3.1 Flash Lite",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        },
+        {
+          "model_id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Gemini 3.1 Flash Lite Preview",
+          "reason": "Alternative from the same provider with larger context window (1048576)"
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-robotics-er-2-streaming-preview",
       "cost_tier": "Unknown",
       "blended_cost_per_1m": 0,
       "alternatives": [
@@ -6079,7 +6145,7 @@
     {
       "model_id": "groq/qwen3.6-27b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.725,
+      "blended_cost_per_1m": 1.35,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -9071,7 +9137,7 @@
     {
       "model_id": "openai/gpt-5.6-luna",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.225,
+      "blended_cost_per_1m": 0.45,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -9093,7 +9159,7 @@
     {
       "model_id": "openai/gpt-5.6-sol",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11.25,
+      "blended_cost_per_1m": 5.625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -9115,7 +9181,7 @@
     {
       "model_id": "openai/gpt-5.6-terra",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.25,
+      "blended_cost_per_1m": 4.5,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -11271,7 +11337,7 @@
     {
       "model_id": "openrouter/deepseek-v3.1-terminus",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.44,
+      "blended_cost_per_1m": 0.4525,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -11359,7 +11425,7 @@
     {
       "model_id": "openrouter/deepseek-v4-flash-latest",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.07525,
+      "blended_cost_per_1m": 0.0985,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -11381,7 +11447,7 @@
     {
       "model_id": "openrouter/deepseek-v4-flash",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.10500000000000001,
+      "blended_cost_per_1m": 0.10350000000000001,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -12723,7 +12789,7 @@
     {
       "model_id": "openrouter/glm-5.2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.175,
+      "blended_cost_per_1m": 1.1625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -14153,7 +14219,7 @@
     {
       "model_id": "openrouter/gpt-5.6-luna-pro",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.225,
+      "blended_cost_per_1m": 0.45,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -14175,7 +14241,7 @@
     {
       "model_id": "openrouter/gpt-5.6-luna",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.225,
+      "blended_cost_per_1m": 0.45,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -14196,8 +14262,8 @@
     },
     {
       "model_id": "openrouter/gpt-5.6-sol-batch",
-      "cost_tier": "Premium",
-      "blended_cost_per_1m": 5.625,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 2.8125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -14218,8 +14284,8 @@
     },
     {
       "model_id": "openrouter/gpt-5.6-sol-pro-batch",
-      "cost_tier": "Premium",
-      "blended_cost_per_1m": 5.625,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 2.8125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -14241,7 +14307,7 @@
     {
       "model_id": "openrouter/gpt-5.6-sol-pro",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11.25,
+      "blended_cost_per_1m": 5.625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -14263,7 +14329,7 @@
     {
       "model_id": "openrouter/gpt-5.6-sol",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11.25,
+      "blended_cost_per_1m": 5.625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -14329,7 +14395,7 @@
     {
       "model_id": "openrouter/gpt-5.6-terra-pro",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.25,
+      "blended_cost_per_1m": 4.5,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -14351,7 +14417,7 @@
     {
       "model_id": "openrouter/gpt-5.6-terra",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.25,
+      "blended_cost_per_1m": 4.5,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -14461,7 +14527,7 @@
     {
       "model_id": "openrouter/gpt-latest",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11.25,
+      "blended_cost_per_1m": 5.625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -15275,7 +15341,7 @@
     {
       "model_id": "openrouter/kimi-latest",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 5.6,
+      "blended_cost_per_1m": 5.2,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -18187,7 +18253,7 @@
     {
       "model_id": "openrouter/qwen3.5-122b-a10b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.8174999999999999,
+      "blended_cost_per_1m": 0.7150000000000001,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -18363,7 +18429,7 @@
     {
       "model_id": "openrouter/qwen3.6-27b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.725,
+      "blended_cost_per_1m": 1.35,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21795,7 +21861,7 @@
     {
       "model_id": "requesty/deepseek-v4-pro-0813",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.54375,
+      "blended_cost_per_1m": 1.98,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21839,7 +21905,7 @@
     {
       "model_id": "requesty/deepseek-v4-pro",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.175,
+      "blended_cost_per_1m": 2.1875,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23621,7 +23687,7 @@
     {
       "model_id": "requesty/gemma-4-26b-a4b-it",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.1375,
+      "blended_cost_per_1m": 0.1975,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23664,8 +23730,8 @@
     },
     {
       "model_id": "requesty/gemma-4-31b-it",
-      "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.1925,
+      "cost_tier": "Free",
+      "blended_cost_per_1m": 0,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25469,7 +25535,7 @@
     {
       "model_id": "requesty/gpt-5.4-swedencentral",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6.1875,
+      "blended_cost_per_1m": 5.625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26657,7 +26723,7 @@
     {
       "model_id": "requesty/kimi-k2.5",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.9,
+      "blended_cost_per_1m": 1.2,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26701,7 +26767,7 @@
     {
       "model_id": "requesty/kimi-k2.6",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.4375,
+      "blended_cost_per_1m": 1.7125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27075,7 +27141,7 @@
     {
       "model_id": "requesty/llama-3.3-70b-instruct",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.2725,
+      "blended_cost_per_1m": 0.1975,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27251,7 +27317,7 @@
     {
       "model_id": "requesty/mimo-v2.5-pro",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.5,
+      "blended_cost_per_1m": 0.54375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27272,8 +27338,8 @@
     },
     {
       "model_id": "requesty/mimo-v2.5",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.8,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.17500000000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27800,8 +27866,8 @@
     },
     {
       "model_id": "requesty/nemotron-3-nano-30b-a3b",
-      "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.08750000000000001,
+      "cost_tier": "Free",
+      "blended_cost_per_1m": 0,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27866,8 +27932,8 @@
     },
     {
       "model_id": "requesty/nemotron-3-super-120b-a12b",
-      "cost_tier": "Free",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.44999999999999996,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27888,8 +27954,8 @@
     },
     {
       "model_id": "requesty/nemotron-3-ultra-550b-a55b",
-      "cost_tier": "Free",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 1.5,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28835,7 +28901,7 @@
     {
       "model_id": "requesty/qwen3-235b-a22b-instruct-2507",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.07824999999999999,
+      "blended_cost_per_1m": 0.30000000000000004,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28923,7 +28989,7 @@
     {
       "model_id": "requesty/qwen3-30b-a3b-instruct-2507",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.35000000000000003,
+      "blended_cost_per_1m": 0.15000000000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29099,7 +29165,7 @@
     {
       "model_id": "requesty/qwen3-max",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.4,
+      "blended_cost_per_1m": 1.506,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29275,7 +29341,7 @@
     {
       "model_id": "requesty/qwen3.5-397b-a17b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.2675,
+      "blended_cost_per_1m": 1.35,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -30089,7 +30155,7 @@
     {
       "model_id": "vercel/deepseek-v3.1-terminus",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.44,
+      "blended_cost_per_1m": 0.4525,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -30221,7 +30287,7 @@
     {
       "model_id": "vercel/deepseek-v4-flash",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.10500000000000001,
+      "blended_cost_per_1m": 0.10350000000000001,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -31333,7 +31399,7 @@
     {
       "model_id": "vercel/glm-5.2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.175,
+      "blended_cost_per_1m": 1.1625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -31441,9 +31507,75 @@
       ]
     },
     {
+      "model_id": "vercel/gpt-4.1-fast",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "vercel/gpt-4.1-mini-fast",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        }
+      ]
+    },
+    {
       "model_id": "vercel/gpt-4.1-mini",
       "cost_tier": "Balanced",
       "blended_cost_per_1m": 0.7000000000000001,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "vercel/gpt-4.1-nano-fast",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -31488,6 +31620,50 @@
       "model_id": "vercel/gpt-4.1",
       "cost_tier": "Balanced",
       "blended_cost_per_1m": 3.5,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "vercel/gpt-4o-fast",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "vercel/gpt-4o-mini-fast",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -31618,6 +31794,50 @@
     },
     {
       "model_id": "vercel/gpt-5-codex",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "vercel/gpt-5-fast",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "vercel/gpt-5-mini-fast",
       "cost_tier": "Unknown",
       "blended_cost_per_1m": 0,
       "alternatives": [
@@ -31793,6 +32013,28 @@
       ]
     },
     {
+      "model_id": "vercel/gpt-5.1-thinking-fast",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        }
+      ]
+    },
+    {
       "model_id": "vercel/gpt-5.1-thinking",
       "cost_tier": "Unknown",
       "blended_cost_per_1m": 0,
@@ -31818,6 +32060,28 @@
       "model_id": "vercel/gpt-5.2-codex",
       "cost_tier": "Balanced",
       "blended_cost_per_1m": 4.8125,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "vercel/gpt-5.2-fast",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -31903,9 +32167,75 @@
       ]
     },
     {
+      "model_id": "vercel/gpt-5.3-codex-fast",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        }
+      ]
+    },
+    {
       "model_id": "vercel/gpt-5.3-codex",
       "cost_tier": "Balanced",
       "blended_cost_per_1m": 4.8125,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "vercel/gpt-5.4-fast",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "vercel/gpt-5.4-mini-fast",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -32013,6 +32343,28 @@
       ]
     },
     {
+      "model_id": "vercel/gpt-5.5-fast",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        }
+      ]
+    },
+    {
       "model_id": "vercel/gpt-5.5-pro",
       "cost_tier": "Premium",
       "blended_cost_per_1m": 67.5,
@@ -32057,9 +32409,53 @@
       ]
     },
     {
+      "model_id": "vercel/gpt-5.6-luna-fast",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        }
+      ]
+    },
+    {
       "model_id": "vercel/gpt-5.6-luna",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.225,
+      "blended_cost_per_1m": 0.45,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "vercel/gpt-5.6-sol-fast",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -32081,7 +32477,29 @@
     {
       "model_id": "vercel/gpt-5.6-sol",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11.25,
+      "blended_cost_per_1m": 5.625,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "vercel/gpt-5.6-terra-fast",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -32103,7 +32521,7 @@
     {
       "model_id": "vercel/gpt-5.6-terra",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.25,
+      "blended_cost_per_1m": 4.5,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -34653,6 +35071,28 @@
       ]
     },
     {
+      "model_id": "vercel/o3-fast",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        }
+      ]
+    },
+    {
       "model_id": "vercel/o3-mini",
       "cost_tier": "Balanced",
       "blended_cost_per_1m": 1.9250000000000003,
@@ -34700,6 +35140,28 @@
       "model_id": "vercel/o3",
       "cost_tier": "Balanced",
       "blended_cost_per_1m": 3.5,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "vercel/o4-mini-fast",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -35315,7 +35777,7 @@
     {
       "model_id": "vercel/qwen3.6-27b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.725,
+      "blended_cost_per_1m": 1.35,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
