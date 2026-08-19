@@ -1,16 +1,16 @@
 {
   "model_id": "requesty/deepseek-v4-pro-flex",
   "provider_id": "requesty",
-  "name": "doubleword/deepseek-v4-pro:flex",
+  "name": "deepinfra/deepseek-ai/DeepSeek-V4-Pro:flex",
   "description": "DeepSeek V4-Pro is DeepSeek's flagship open-weights MoE model, with performance in the same class as Claude Sonnet 4.6 and stronger overall results than GLM-5.1.",
   "context_window": 1048576,
   "modality": [
     "text"
   ],
   "open_weight": false,
-  "reasoning_support": true,
-  "function_calling": false,
-  "structured_output": false,
+  "reasoning_support": false,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -22,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-18T01:35:30.054Z"
+  "updated_at": "2026-08-19T01:38:03.445Z"
 }

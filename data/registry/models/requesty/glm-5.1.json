@@ -1,16 +1,16 @@
 {
   "model_id": "requesty/glm-5.1",
   "provider_id": "requesty",
-  "name": "novita/zai-org/glm-5.1",
+  "name": "deepinfra/zai-org/GLM-5.1",
   "description": "Compared with GLM-5, GLM-5.1 delivers significant improvements in coding, agentic tool usage, reasoning, role-play, and general chat quality. Besides, GLM-5.1 has outstanding capabilities in long-horizon agentic tasks like CUDA kernel optimization.",
-  "context_window": 204800,
+  "context_window": 202752,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": true,
   "function_calling": true,
-  "structured_output": false,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -18,9 +18,9 @@
   "is_free": false,
   "tier": "balanced",
   "limits": {
-    "max_input_tokens": 200000
+    "max_input_tokens": 204800
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-18T01:35:30.091Z"
+  "updated_at": "2026-08-19T01:38:03.483Z"
 }
