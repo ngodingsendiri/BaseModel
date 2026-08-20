@@ -1,0 +1,21 @@
+{
+  "model_id": "vercel/s2.1-pro-free",
+  "provider_id": "vercel",
+  "name": "S2.1 Pro (Free)",
+  "description": "S2.1 Pro is Fish Audio's current state-of-the-art voice model — the best model we have, now available to every developer for free via API. It is a neural speech synthesis model designed for production-grade AI voice generation, with particular strengths in low-latency streaming, multilingual TTS, and voice cloning. ",
+  "modality": [
+    "text",
+    "audio"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": true,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-20T01:36:01.413Z"
+}

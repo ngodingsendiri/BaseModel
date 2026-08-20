@@ -1,17 +1,17 @@
 {
   "model_id": "requesty/qwen3.7-plus",
   "provider_id": "requesty",
-  "name": "alibaba/qwen3.7-plus",
+  "name": "fireworks/qwen3.7-plus",
   "description": "Qwen3.7-Plus is a cost-effective model in Alibaba's Qwen3.7 series. It supports text and image input with text output, building on the series' text capabilities with a comprehensive upgrade to its vision-language abilities while retaining full-stack, agent-level intelligence for coding, tool use, and productivity workflows. Its distinguishing trait is multi-modal interactive hybrid agent capability: it can perceive real-world scenes, read screens and interact with GUIs, generate code from visual references, and perform end-to-end navigation within mobile apps.",
-  "context_window": 1048576,
+  "context_window": 262144,
   "modality": [
     "text",
     "image"
   ],
   "open_weight": false,
-  "reasoning_support": true,
+  "reasoning_support": false,
   "function_calling": true,
-  "structured_output": true,
+  "structured_output": false,
   "vision_support": true,
   "audio_support": false,
   "image_generation": false,
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-19T01:38:03.583Z"
+  "updated_at": "2026-08-20T01:36:08.518Z"
 }

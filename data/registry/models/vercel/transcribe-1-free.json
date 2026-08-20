@@ -1,0 +1,21 @@
+{
+  "model_id": "vercel/transcribe-1-free",
+  "provider_id": "vercel",
+  "name": "Transcribe-1 (Free)",
+  "description": "Turn spoken audio into accurate text — with timed segments — using Fish Audio’s ASR model. Send an audio file, get back the transcript, its duration, and timestamped segments.",
+  "modality": [
+    "text",
+    "audio"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": true,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-20T01:36:01.414Z"
+}

@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gpt-5.3-chat",
   "provider_id": "requesty",
-  "name": "openai/gpt-5.3-chat",
+  "name": "openai-responses/gpt-5.3-chat",
   "description": "GPT-5.3 Chat is an update to ChatGPT's most-used model that makes everyday conversations smoother, more useful, and more directly helpful. It delivers more accurate answers with better contextualization and significantly reduces unnecessary refusals, caveats, and overly cautious phrasing that can interrupt conversational flow.",
   "context_window": 128000,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-19T01:38:03.509Z"
+  "updated_at": "2026-08-20T01:36:08.461Z"
 }

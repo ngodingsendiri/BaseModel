@@ -1,0 +1,21 @@
+{
+  "model_id": "vercel/s2-pro-free",
+  "provider_id": "vercel",
+  "name": "S2 Pro (Free)",
+  "description": "Fish Audio S2 is the second-generation TTS model from Fish Audio. It's trained on over 10 million hours of audio across approximately 80 languages, and it introduces inline tag control: natural-language instructions embedded directly in your script at any position, giving you fine-grained direction over how speech is delivered at the word or phrase level.",
+  "modality": [
+    "text",
+    "audio"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": true,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-20T01:36:01.412Z"
+}

@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/claude-opus-4-1",
   "provider_id": "requesty",
-  "name": "vertex/claude-opus-4-1",
+  "name": "anthropic/claude-opus-4-1",
   "description": "Claude Opus 4 is Anthropic's most powerful model yet and the best coding model in the world, leading on SWE-bench (72.5%) and Terminal-bench (43.2%). It delivers sustained performance on long-running tasks that require focused effort and thousands of steps, with the ability to work continuously for several hours—dramatically outperforming all Sonnet models and significantly expanding what AI agents can accomplish.",
   "context_window": 200000,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-19T01:38:03.406Z"
+  "updated_at": "2026-08-20T01:36:08.389Z"
 }

@@ -5,14 +5,13 @@
   "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity. Trained in a diverse range of complex real-world digital working environments, M2.5 builds upon the coding expertise of M2.1 to extend into general office work, reaching fluency in generating and operating Word, Excel, and Powerpoint files, context switching between diverse software environments, and working across different agent and human teams. Scoring 80.2% on SWE-Bench Verified, 51.3% on Multi-SWE-Bench, and 76.3% on BrowseComp, M2.5 is also more token efficient than previous generations, having been trained to optimize its actions and output through planning.",
   "context_window": 200000,
   "modality": [
-    "text",
-    "image"
+    "text"
   ],
   "open_weight": false,
   "reasoning_support": true,
   "function_calling": true,
   "structured_output": true,
-  "vision_support": true,
+  "vision_support": false,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
@@ -23,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-19T01:38:03.548Z"
+  "updated_at": "2026-08-20T01:36:08.492Z"
 }

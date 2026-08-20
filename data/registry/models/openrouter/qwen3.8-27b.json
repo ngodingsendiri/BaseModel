@@ -2,7 +2,7 @@
   "model_id": "openrouter/qwen3.8-27b",
   "provider_id": "openrouter",
   "name": "qwen/qwen3.8-27b",
-  "context_window": 262144,
+  "context_window": 1000000,
   "modality": [
     "text"
   ],
@@ -17,9 +17,9 @@
   "is_free": false,
   "tier": "balanced",
   "limits": {
-    "max_input_tokens": 262144
+    "max_input_tokens": 1000000
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-19T01:38:03.387Z"
+  "updated_at": "2026-08-20T01:36:08.375Z"
 }
