@@ -5,13 +5,14 @@
   "description": "Open-weights release of the Qwen3.8 flagship (2.4T MoE, ~95B active); thinking always on with reasoning_effort low/medium/xhigh. The hosted Qwen 3.8 Max (vision, non-thinking, 1M default context) is Alibaba-only.",
   "context_window": 262144,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
   "reasoning_support": true,
   "function_calling": true,
   "structured_output": true,
-  "vision_support": false,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
@@ -22,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-20T01:36:08.564Z"
+  "updated_at": "2026-08-21T01:41:06.293Z"
 }

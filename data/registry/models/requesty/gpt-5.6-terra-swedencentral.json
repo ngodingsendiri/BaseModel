@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gpt-5.6-terra-swedencentral",
   "provider_id": "requesty",
-  "name": "azure/gpt-5.6-terra@swedencentral",
+  "name": "azure/openai-responses/gpt-5.6-terra@swedencentral",
   "description": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic tasks where capability and cost need to be balanced, offering strong performance at roughly half the cost of Sol.",
   "context_window": 1050000,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-20T01:36:08.473Z"
+  "updated_at": "2026-08-21T01:41:06.183Z"
 }

@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "92959e1",
-  "generated_at": "2026-08-20T01:38:53.535Z",
-  "count": 1716,
+  "source_revision": "ecbd9d7",
+  "generated_at": "2026-08-21T01:45:11.501Z",
+  "count": 1719,
   "intelligence": [
     {
       "model_id": "anthropic/claude-3-5-haiku",
@@ -1129,7 +1129,7 @@
     {
       "model_id": "deepinfra/deepseek-v4-pro",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.8,
+      "blended_cost_per_1m": 2,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -1855,7 +1855,7 @@
     {
       "model_id": "deepinfra/gemma-4-31b-it",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.15250000000000002,
+      "blended_cost_per_1m": 0.16000000000000003,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -2339,7 +2339,7 @@
     {
       "model_id": "deepinfra/kimi-k2.7-code",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.4075,
+      "blended_cost_per_1m": 1.3525,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -2911,7 +2911,7 @@
     {
       "model_id": "deepinfra/muse-glimmer-30b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.6375,
+      "blended_cost_per_1m": 0.5,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -3879,7 +3879,7 @@
     {
       "model_id": "deepinfra/qwen3.6-27b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.725,
+      "blended_cost_per_1m": 1.35,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -5661,7 +5661,7 @@
     {
       "model_id": "google/gemma-4-31b-it",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.15250000000000002,
+      "blended_cost_per_1m": 0.16000000000000003,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -6145,7 +6145,7 @@
     {
       "model_id": "groq/qwen3.6-27b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.725,
+      "blended_cost_per_1m": 1.35,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -11447,7 +11447,7 @@
     {
       "model_id": "openrouter/deepseek-v4-flash-latest",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.09375,
+      "blended_cost_per_1m": 0.08375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -11513,7 +11513,7 @@
     {
       "model_id": "openrouter/deepseek-v4-pro",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.8,
+      "blended_cost_per_1m": 2,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -12569,7 +12569,7 @@
     {
       "model_id": "openrouter/gemma-4-31b-it",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.15250000000000002,
+      "blended_cost_per_1m": 0.16000000000000003,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -15053,6 +15053,50 @@
       ]
     },
     {
+      "model_id": "openrouter/hy-mt2-1.8b",
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.07725,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-fast",
+          "name": "xai/grok-4-fast",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "openrouter/hy-mt2-30b-a3b",
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.12924999999999998,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-fast",
+          "name": "xai/grok-4-fast",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        }
+      ]
+    },
+    {
       "model_id": "openrouter/hy3-preview",
       "cost_tier": "Budget-Friendly",
       "blended_cost_per_1m": 0.28500000000000003,
@@ -15126,17 +15170,17 @@
         {
           "model_id": "google/gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
-          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+          "reason": "Cross-provider alternative from google"
         },
         {
           "model_id": "google/gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
-          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+          "reason": "Cross-provider alternative from google"
         },
         {
           "model_id": "google/gemini-3.1-flash-lite-preview",
           "name": "Gemini 3.1 Flash Lite Preview",
-          "reason": "Cross-provider alternative from google with larger context window (1048576)"
+          "reason": "Cross-provider alternative from google"
         }
       ]
     },
@@ -15363,7 +15407,7 @@
     {
       "model_id": "openrouter/kimi-k2.7-code",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.4075,
+      "blended_cost_per_1m": 1.3525,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -16667,7 +16711,7 @@
     {
       "model_id": "openrouter/muse-glimmer-30b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.6375,
+      "blended_cost_per_1m": 0.5,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -17570,6 +17614,28 @@
       "model_id": "openrouter/olmo-3-32b-think",
       "cost_tier": "Budget-Friendly",
       "blended_cost_per_1m": 0.2375,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-fast",
+          "name": "xai/grok-4-fast",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "openrouter/ox-alpha",
+      "cost_tier": "Free",
+      "blended_cost_per_1m": 0,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -18539,7 +18605,7 @@
     {
       "model_id": "openrouter/qwen3.6-27b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.725,
+      "blended_cost_per_1m": 1.35,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19418,8 +19484,8 @@
     },
     {
       "model_id": "openrouter/weaver",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.5625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19463,7 +19529,7 @@
     {
       "model_id": "requesty/baichuan-m2-32b",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.07,
+      "blended_cost_per_1m": 0.063,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19485,7 +19551,7 @@
     {
       "model_id": "requesty/claude-fable-5-eu",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 22,
+      "blended_cost_per_1m": 19.8,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19507,7 +19573,7 @@
     {
       "model_id": "requesty/claude-fable-5-us-east-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 22,
+      "blended_cost_per_1m": 19.8,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19529,7 +19595,7 @@
     {
       "model_id": "requesty/claude-fable-5",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 20,
+      "blended_cost_per_1m": 18,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19551,7 +19617,7 @@
     {
       "model_id": "requesty/claude-haiku-4-5-ap-northeast-1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.2,
+      "blended_cost_per_1m": 1.98,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19573,7 +19639,7 @@
     {
       "model_id": "requesty/claude-haiku-4-5-eu-central-1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.2,
+      "blended_cost_per_1m": 1.98,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19595,7 +19661,7 @@
     {
       "model_id": "requesty/claude-haiku-4-5-eu-north-1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.2,
+      "blended_cost_per_1m": 1.98,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19617,7 +19683,7 @@
     {
       "model_id": "requesty/claude-haiku-4-5-eu-west-1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.2,
+      "blended_cost_per_1m": 1.98,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19639,7 +19705,7 @@
     {
       "model_id": "requesty/claude-haiku-4-5-eu-west-3",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.2,
+      "blended_cost_per_1m": 1.98,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19661,7 +19727,7 @@
     {
       "model_id": "requesty/claude-haiku-4-5-europe-west1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.2,
+      "blended_cost_per_1m": 1.98,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19683,7 +19749,7 @@
     {
       "model_id": "requesty/claude-haiku-4-5-us-east-1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.2,
+      "blended_cost_per_1m": 1.98,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19705,7 +19771,7 @@
     {
       "model_id": "requesty/claude-haiku-4-5-us-east-2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.2,
+      "blended_cost_per_1m": 1.98,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19727,7 +19793,7 @@
     {
       "model_id": "requesty/claude-haiku-4-5-us-east5",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.2,
+      "blended_cost_per_1m": 1.98,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19749,7 +19815,7 @@
     {
       "model_id": "requesty/claude-haiku-4-5-us-west-2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.2,
+      "blended_cost_per_1m": 1.98,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19771,7 +19837,7 @@
     {
       "model_id": "requesty/claude-haiku-4-5",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2,
+      "blended_cost_per_1m": 1.8,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19793,7 +19859,7 @@
     {
       "model_id": "requesty/claude-opus-4-1-us-east5",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 30,
+      "blended_cost_per_1m": 27,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19815,7 +19881,7 @@
     {
       "model_id": "requesty/claude-opus-4-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 30,
+      "blended_cost_per_1m": 27,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19837,7 +19903,7 @@
     {
       "model_id": "requesty/claude-opus-4-5-eu-central-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19859,7 +19925,7 @@
     {
       "model_id": "requesty/claude-opus-4-5-eu-north-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19881,7 +19947,7 @@
     {
       "model_id": "requesty/claude-opus-4-5-eu-west-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19903,7 +19969,7 @@
     {
       "model_id": "requesty/claude-opus-4-5-eu-west-3",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19925,7 +19991,7 @@
     {
       "model_id": "requesty/claude-opus-4-5-europe-west1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19947,7 +20013,7 @@
     {
       "model_id": "requesty/claude-opus-4-5-us-east-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19969,7 +20035,7 @@
     {
       "model_id": "requesty/claude-opus-4-5-us-east-2",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -19991,7 +20057,7 @@
     {
       "model_id": "requesty/claude-opus-4-5-us-east5",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20013,7 +20079,7 @@
     {
       "model_id": "requesty/claude-opus-4-5-us-west-2",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20035,7 +20101,7 @@
     {
       "model_id": "requesty/claude-opus-4-5",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 10,
+      "blended_cost_per_1m": 9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20057,7 +20123,7 @@
     {
       "model_id": "requesty/claude-opus-4-6-europe-west1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20079,7 +20145,7 @@
     {
       "model_id": "requesty/claude-opus-4-6-us-east5",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20101,7 +20167,7 @@
     {
       "model_id": "requesty/claude-opus-4-6",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 10,
+      "blended_cost_per_1m": 9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20123,7 +20189,7 @@
     {
       "model_id": "requesty/claude-opus-4-7-eu-central-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20145,7 +20211,7 @@
     {
       "model_id": "requesty/claude-opus-4-7-eu-north-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20167,7 +20233,7 @@
     {
       "model_id": "requesty/claude-opus-4-7-eu-west-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20189,7 +20255,7 @@
     {
       "model_id": "requesty/claude-opus-4-7-eu-west-3",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20211,7 +20277,7 @@
     {
       "model_id": "requesty/claude-opus-4-7-eu",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20233,7 +20299,7 @@
     {
       "model_id": "requesty/claude-opus-4-7-us",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20255,7 +20321,7 @@
     {
       "model_id": "requesty/claude-opus-4-7",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 10,
+      "blended_cost_per_1m": 9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20277,7 +20343,7 @@
     {
       "model_id": "requesty/claude-opus-4-8-ap-northeast-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20299,7 +20365,7 @@
     {
       "model_id": "requesty/claude-opus-4-8-eu-central-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20321,7 +20387,7 @@
     {
       "model_id": "requesty/claude-opus-4-8-eu-north-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20343,7 +20409,7 @@
     {
       "model_id": "requesty/claude-opus-4-8-eu-west-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20365,7 +20431,7 @@
     {
       "model_id": "requesty/claude-opus-4-8-eu-west-3",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20387,7 +20453,7 @@
     {
       "model_id": "requesty/claude-opus-4-8-eu",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20409,7 +20475,7 @@
     {
       "model_id": "requesty/claude-opus-4-8-us",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20431,7 +20497,7 @@
     {
       "model_id": "requesty/claude-opus-4-8",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 10,
+      "blended_cost_per_1m": 9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20453,7 +20519,7 @@
     {
       "model_id": "requesty/claude-opus-4-us-east5",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 30,
+      "blended_cost_per_1m": 27,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20475,7 +20541,7 @@
     {
       "model_id": "requesty/claude-opus-4",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 30,
+      "blended_cost_per_1m": 27,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20497,7 +20563,7 @@
     {
       "model_id": "requesty/claude-opus-5-ap-northeast-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 10,
+      "blended_cost_per_1m": 9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20519,7 +20585,7 @@
     {
       "model_id": "requesty/claude-opus-5-eu-central-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20541,7 +20607,7 @@
     {
       "model_id": "requesty/claude-opus-5-eu-north-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20563,7 +20629,7 @@
     {
       "model_id": "requesty/claude-opus-5-eu-west-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20585,7 +20651,7 @@
     {
       "model_id": "requesty/claude-opus-5-eu-west-3",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20607,7 +20673,7 @@
     {
       "model_id": "requesty/claude-opus-5-eu",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20629,7 +20695,7 @@
     {
       "model_id": "requesty/claude-opus-5-us",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11,
+      "blended_cost_per_1m": 9.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20651,7 +20717,7 @@
     {
       "model_id": "requesty/claude-opus-5",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 10,
+      "blended_cost_per_1m": 9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20673,7 +20739,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-5-eu-central-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6.6,
+      "blended_cost_per_1m": 5.9399999999999995,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20695,7 +20761,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-5-eu-north-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6.6,
+      "blended_cost_per_1m": 5.9399999999999995,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20717,7 +20783,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-5-eu-west-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6.6,
+      "blended_cost_per_1m": 5.9399999999999995,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20739,7 +20805,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-5-eu-west-3",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6.6,
+      "blended_cost_per_1m": 5.9399999999999995,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20761,7 +20827,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-5-europe-west1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6.6,
+      "blended_cost_per_1m": 5.9399999999999995,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20783,7 +20849,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-5-us-east-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6.6,
+      "blended_cost_per_1m": 5.9399999999999995,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20805,7 +20871,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-5-us-east-2",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6.6,
+      "blended_cost_per_1m": 5.9399999999999995,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20827,7 +20893,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-5-us-east5",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6.6,
+      "blended_cost_per_1m": 5.9399999999999995,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20849,7 +20915,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-5-us-west-2",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6.6,
+      "blended_cost_per_1m": 5.9399999999999995,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20871,7 +20937,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-5",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6,
+      "blended_cost_per_1m": 5.4,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20893,7 +20959,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-6-ap-northeast-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6.6,
+      "blended_cost_per_1m": 5.9399999999999995,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20915,7 +20981,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-6-eu-central-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6.6,
+      "blended_cost_per_1m": 5.9399999999999995,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20937,7 +21003,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-6-eu-north-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6.6,
+      "blended_cost_per_1m": 5.9399999999999995,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20959,7 +21025,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-6-eu-west-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6.6,
+      "blended_cost_per_1m": 5.9399999999999995,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20981,7 +21047,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-6-eu-west-3",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6.6,
+      "blended_cost_per_1m": 5.9399999999999995,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21003,7 +21069,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-6-europe-west1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6.6,
+      "blended_cost_per_1m": 5.9399999999999995,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21025,7 +21091,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-6-us-east-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6.6,
+      "blended_cost_per_1m": 5.9399999999999995,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21047,7 +21113,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-6-us-east-2",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6.6,
+      "blended_cost_per_1m": 5.9399999999999995,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21069,7 +21135,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-6-us-east5",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6.6,
+      "blended_cost_per_1m": 5.9399999999999995,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21091,7 +21157,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-6-us-west-2",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6.6,
+      "blended_cost_per_1m": 5.9399999999999995,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21113,7 +21179,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-6",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6,
+      "blended_cost_per_1m": 5.4,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21135,7 +21201,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-eu-central-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6,
+      "blended_cost_per_1m": 5.4,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21157,7 +21223,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-eu-north-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6,
+      "blended_cost_per_1m": 5.4,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21179,7 +21245,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-eu-west-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6,
+      "blended_cost_per_1m": 5.4,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21201,7 +21267,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-eu-west-3",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6,
+      "blended_cost_per_1m": 5.4,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21223,7 +21289,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-europe-west1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6,
+      "blended_cost_per_1m": 5.4,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21245,7 +21311,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-us-east-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6,
+      "blended_cost_per_1m": 5.4,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21267,7 +21333,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-us-east-2",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6,
+      "blended_cost_per_1m": 5.4,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21289,7 +21355,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-us-east5",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6,
+      "blended_cost_per_1m": 5.4,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21311,7 +21377,7 @@
     {
       "model_id": "requesty/claude-sonnet-4-us-west-2",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6,
+      "blended_cost_per_1m": 5.4,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21333,7 +21399,7 @@
     {
       "model_id": "requesty/claude-sonnet-4",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6,
+      "blended_cost_per_1m": 5.4,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21355,7 +21421,7 @@
     {
       "model_id": "requesty/claude-sonnet-5-ap-southeast-2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.4,
+      "blended_cost_per_1m": 3.96,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21377,7 +21443,7 @@
     {
       "model_id": "requesty/claude-sonnet-5-eu-central-1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.4,
+      "blended_cost_per_1m": 3.96,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21399,7 +21465,7 @@
     {
       "model_id": "requesty/claude-sonnet-5-eu-north-1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.4,
+      "blended_cost_per_1m": 3.96,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21421,7 +21487,7 @@
     {
       "model_id": "requesty/claude-sonnet-5-eu-west-1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.4,
+      "blended_cost_per_1m": 3.96,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21443,7 +21509,7 @@
     {
       "model_id": "requesty/claude-sonnet-5-eu-west-2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.4,
+      "blended_cost_per_1m": 3.96,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21465,7 +21531,7 @@
     {
       "model_id": "requesty/claude-sonnet-5-eu",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.4,
+      "blended_cost_per_1m": 3.96,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21487,7 +21553,7 @@
     {
       "model_id": "requesty/claude-sonnet-5-us-east-1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.4,
+      "blended_cost_per_1m": 3.96,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21509,7 +21575,7 @@
     {
       "model_id": "requesty/claude-sonnet-5-us-east-2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.4,
+      "blended_cost_per_1m": 3.96,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21531,7 +21597,7 @@
     {
       "model_id": "requesty/claude-sonnet-5-us-west-2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.4,
+      "blended_cost_per_1m": 3.96,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21553,7 +21619,7 @@
     {
       "model_id": "requesty/claude-sonnet-5-us",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.4,
+      "blended_cost_per_1m": 3.96,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21575,7 +21641,7 @@
     {
       "model_id": "requesty/claude-sonnet-5",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4,
+      "blended_cost_per_1m": 3.6,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21597,7 +21663,7 @@
     {
       "model_id": "requesty/codestral-latest",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.495,
+      "blended_cost_per_1m": 0.4455,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21619,7 +21685,7 @@
     {
       "model_id": "requesty/deepseek-chat",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.1575,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21640,8 +21706,8 @@
     },
     {
       "model_id": "requesty/deepseek-r1-distill-llama-70b",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.8,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.3105,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21663,7 +21729,7 @@
     {
       "model_id": "requesty/deepseek-r1-turbo",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.15,
+      "blended_cost_per_1m": 1.0350000000000001,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21685,7 +21751,7 @@
     {
       "model_id": "requesty/deepseek-r1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4,
+      "blended_cost_per_1m": 1.13625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21707,7 +21773,7 @@
     {
       "model_id": "requesty/deepseek-reasoner",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.1575,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21729,7 +21795,7 @@
     {
       "model_id": "requesty/deepseek-v3-0324",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.625,
+      "blended_cost_per_1m": 0.5625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21751,7 +21817,7 @@
     {
       "model_id": "requesty/deepseek-v3-flex",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.37,
+      "blended_cost_per_1m": 0.33275,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21773,7 +21839,7 @@
     {
       "model_id": "requesty/deepseek-v3-turbo",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.625,
+      "blended_cost_per_1m": 0.5625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21795,7 +21861,7 @@
     {
       "model_id": "requesty/deepseek-v3.1-flex",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.34,
+      "blended_cost_per_1m": 0.30600000000000005,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21817,7 +21883,7 @@
     {
       "model_id": "requesty/deepseek-v3.1",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.475,
+      "blended_cost_per_1m": 0.4275,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21839,7 +21905,7 @@
     {
       "model_id": "requesty/deepseek-v3.2",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.30175,
+      "blended_cost_per_1m": 0.27149999999999996,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21852,16 +21918,16 @@
           "reason": "Alternative from the same provider with larger context window (2000000)"
         },
         {
-          "model_id": "requesty/grok-4-fast",
-          "name": "xai/grok-4-fast",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Cross-provider alternative from vercel with larger context window (2000000)"
         }
       ]
     },
     {
       "model_id": "requesty/deepseek-v3",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.89,
+      "blended_cost_per_1m": 0.77625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21883,7 +21949,7 @@
     {
       "model_id": "requesty/deepseek-v4-flash-0731-flex",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.09,
+      "blended_cost_per_1m": 0.08125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21905,7 +21971,7 @@
     {
       "model_id": "requesty/deepseek-v4-flash-0731",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.10125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21927,7 +21993,7 @@
     {
       "model_id": "requesty/deepseek-v4-flash-flex",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.125,
+      "blended_cost_per_1m": 0.08125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21949,7 +22015,7 @@
     {
       "model_id": "requesty/deepseek-v4-flash",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.1125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21971,7 +22037,7 @@
     {
       "model_id": "requesty/deepseek-v4-pro-0813",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.98,
+      "blended_cost_per_1m": 1.4625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21993,7 +22059,7 @@
     {
       "model_id": "requesty/deepseek-v4-pro-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.67,
+      "blended_cost_per_1m": 1.1700000000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22015,7 +22081,7 @@
     {
       "model_id": "requesty/deepseek-v4-pro",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.175,
+      "blended_cost_per_1m": 1.4625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22037,7 +22103,7 @@
     {
       "model_id": "requesty/devstral-latest",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.8800000000000001,
+      "blended_cost_per_1m": 0.792,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22059,7 +22125,7 @@
     {
       "model_id": "requesty/devstral-small-latest",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.165,
+      "blended_cost_per_1m": 0.14850000000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22081,7 +22147,7 @@
     {
       "model_id": "requesty/fugu-ultra",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11.25,
+      "blended_cost_per_1m": 10.125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22103,7 +22169,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-europe-central2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22125,7 +22191,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-europe-north1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22147,7 +22213,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-europe-west1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22169,7 +22235,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-europe-west4",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22191,7 +22257,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-europe-west8",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22213,7 +22279,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-flex",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.425,
+      "blended_cost_per_1m": 0.3825,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22235,7 +22301,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-image-europe-central2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22257,7 +22323,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-image-europe-north1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22279,7 +22345,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-image-europe-southwest1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22301,7 +22367,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-image-europe-west1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22323,7 +22389,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-image-europe-west4",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22345,7 +22411,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-image-europe-west8",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22367,7 +22433,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-image-us-central1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22389,7 +22455,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-image-us-east1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22411,7 +22477,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-image-us-east4",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22433,7 +22499,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-image-us-east5",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22455,7 +22521,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-image-us-south1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22477,7 +22543,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-image-us-west1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22499,7 +22565,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-image-us-west4",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22521,7 +22587,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-image",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22543,7 +22609,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-lite-europe-central2",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.1575,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22565,7 +22631,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-lite-europe-north1",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.1575,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22587,7 +22653,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-lite-europe-west1",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.1575,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22609,7 +22675,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-lite-europe-west4",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.1575,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22631,7 +22697,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-lite-europe-west8",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.1575,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22653,7 +22719,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-lite-flex",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.08750000000000001,
+      "blended_cost_per_1m": 0.07875,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22675,7 +22741,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-lite-us-central1",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.1575,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22697,7 +22763,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-lite-us-east1",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.1575,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22719,7 +22785,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-lite-us-east5",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.1575,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22741,7 +22807,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-lite-us-south1",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.1575,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22763,7 +22829,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-lite-us-west1",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.1575,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22785,7 +22851,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-lite",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.1575,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22807,7 +22873,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-us-central1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22829,7 +22895,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-us-east1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22851,7 +22917,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-us-east5",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22873,7 +22939,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-us-south1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22895,7 +22961,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash-us-west1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22917,7 +22983,7 @@
     {
       "model_id": "requesty/gemini-2.5-flash",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22939,7 +23005,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-europe-central2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.4375,
+      "blended_cost_per_1m": 3.09375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22961,7 +23027,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-europe-north1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.4375,
+      "blended_cost_per_1m": 3.09375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22983,7 +23049,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-europe-west1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.4375,
+      "blended_cost_per_1m": 3.09375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23005,7 +23071,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-europe-west4",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.4375,
+      "blended_cost_per_1m": 3.09375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23027,7 +23093,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-europe-west8",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.4375,
+      "blended_cost_per_1m": 3.09375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23049,7 +23115,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.71875,
+      "blended_cost_per_1m": 1.54725,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23071,7 +23137,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-us-central1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.4375,
+      "blended_cost_per_1m": 3.09375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23093,7 +23159,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-us-east1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.4375,
+      "blended_cost_per_1m": 3.09375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23115,7 +23181,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-us-east5",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.4375,
+      "blended_cost_per_1m": 3.09375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23137,7 +23203,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-us-south1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.4375,
+      "blended_cost_per_1m": 3.09375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23159,7 +23225,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro-us-west1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.4375,
+      "blended_cost_per_1m": 3.09375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23181,7 +23247,7 @@
     {
       "model_id": "requesty/gemini-2.5-pro",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.4375,
+      "blended_cost_per_1m": 3.09375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23203,7 +23269,7 @@
     {
       "model_id": "requesty/gemini-3-flash-preview-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.5625,
+      "blended_cost_per_1m": 0.5062500000000001,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23225,7 +23291,7 @@
     {
       "model_id": "requesty/gemini-3-flash-preview",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.125,
+      "blended_cost_per_1m": 1.0125000000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23247,7 +23313,7 @@
     {
       "model_id": "requesty/gemini-3-pro-image-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.25,
+      "blended_cost_per_1m": 2.0250000000000004,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23269,7 +23335,7 @@
     {
       "model_id": "requesty/gemini-3-pro-image",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.5,
+      "blended_cost_per_1m": 4.050000000000001,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23291,7 +23357,7 @@
     {
       "model_id": "requesty/gemini-3-pro-preview-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.25,
+      "blended_cost_per_1m": 2.0250000000000004,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23313,7 +23379,7 @@
     {
       "model_id": "requesty/gemini-3-pro-preview",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.5,
+      "blended_cost_per_1m": 4.050000000000001,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23335,7 +23401,7 @@
     {
       "model_id": "requesty/gemini-3.1-flash-image-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.5625,
+      "blended_cost_per_1m": 0.5062500000000001,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23357,7 +23423,7 @@
     {
       "model_id": "requesty/gemini-3.1-flash-image",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.875,
+      "blended_cost_per_1m": 0.7875000000000001,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23379,7 +23445,7 @@
     {
       "model_id": "requesty/gemini-3.1-flash-lite-eu",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.61875,
+      "blended_cost_per_1m": 0.55725,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23401,7 +23467,7 @@
     {
       "model_id": "requesty/gemini-3.1-flash-lite-flex",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.28125,
+      "blended_cost_per_1m": 0.25275000000000003,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23423,7 +23489,7 @@
     {
       "model_id": "requesty/gemini-3.1-flash-lite-us",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.61875,
+      "blended_cost_per_1m": 0.55725,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23445,7 +23511,7 @@
     {
       "model_id": "requesty/gemini-3.1-flash-lite",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.5625,
+      "blended_cost_per_1m": 0.5062500000000001,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23467,7 +23533,7 @@
     {
       "model_id": "requesty/gemini-3.1-pro-preview-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.25,
+      "blended_cost_per_1m": 2.0250000000000004,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23489,7 +23555,7 @@
     {
       "model_id": "requesty/gemini-3.1-pro-preview",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.5,
+      "blended_cost_per_1m": 4.050000000000001,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23511,7 +23577,7 @@
     {
       "model_id": "requesty/gemini-3.5-flash-eu",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.7125,
+      "blended_cost_per_1m": 3.34125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23533,7 +23599,7 @@
     {
       "model_id": "requesty/gemini-3.5-flash-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.6875,
+      "blended_cost_per_1m": 1.51875,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23555,7 +23621,7 @@
     {
       "model_id": "requesty/gemini-3.5-flash-lite-eu",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.935,
+      "blended_cost_per_1m": 0.8415,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23577,7 +23643,7 @@
     {
       "model_id": "requesty/gemini-3.5-flash-lite-flex",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.425,
+      "blended_cost_per_1m": 0.3825,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23599,7 +23665,7 @@
     {
       "model_id": "requesty/gemini-3.5-flash-lite",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23621,7 +23687,7 @@
     {
       "model_id": "requesty/gemini-3.5-flash-us",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.7125,
+      "blended_cost_per_1m": 3.34125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23643,7 +23709,7 @@
     {
       "model_id": "requesty/gemini-3.5-flash",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.375,
+      "blended_cost_per_1m": 3.0375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23665,7 +23731,7 @@
     {
       "model_id": "requesty/gemini-3.6-flash-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.75,
+      "blended_cost_per_1m": 0.6755,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23687,7 +23753,7 @@
     {
       "model_id": "requesty/gemini-3.6-flash",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.875,
+      "blended_cost_per_1m": 2.5875000000000004,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23709,7 +23775,7 @@
     {
       "model_id": "requesty/gemini-3.7-flash-eu",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.65,
+      "blended_cost_per_1m": 1.3199999999999998,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23731,7 +23797,7 @@
     {
       "model_id": "requesty/gemini-3.7-flash",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.5,
+      "blended_cost_per_1m": 1.2,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23753,7 +23819,7 @@
     {
       "model_id": "requesty/gemma-3-27b-it",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.15000000000000002,
+      "blended_cost_per_1m": 0.135,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23775,7 +23841,7 @@
     {
       "model_id": "requesty/gemma-4-26b-a4b-it-flex",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.11000000000000001,
+      "blended_cost_per_1m": 0.09875,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23797,7 +23863,7 @@
     {
       "model_id": "requesty/gemma-4-26b-a4b-it",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.1975,
+      "blended_cost_per_1m": 0.12375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23819,7 +23885,7 @@
     {
       "model_id": "requesty/gemma-4-31b-it-flex",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.154,
+      "blended_cost_per_1m": 0.139,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23840,8 +23906,8 @@
     },
     {
       "model_id": "requesty/gemma-4-31b-it",
-      "cost_tier": "Free",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.17325000000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23863,7 +23929,7 @@
     {
       "model_id": "requesty/glm-4.5-air",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.42500000000000004,
+      "blended_cost_per_1m": 0.3825,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23885,7 +23951,7 @@
     {
       "model_id": "requesty/glm-4.5",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1,
+      "blended_cost_per_1m": 0.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23907,7 +23973,7 @@
     {
       "model_id": "requesty/glm-4.6",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1,
+      "blended_cost_per_1m": 0.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23929,7 +23995,7 @@
     {
       "model_id": "requesty/glm-4.7",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1,
+      "blended_cost_per_1m": 0.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23951,7 +24017,7 @@
     {
       "model_id": "requesty/glm-5-2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.365,
+      "blended_cost_per_1m": 2.1285,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23973,7 +24039,7 @@
     {
       "model_id": "requesty/glm-5.1-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.33,
+      "blended_cost_per_1m": 1.197,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23995,7 +24061,7 @@
     {
       "model_id": "requesty/glm-5.1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.15,
+      "blended_cost_per_1m": 1.4962499999999999,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24017,7 +24083,7 @@
     {
       "model_id": "requesty/glm-5.2-fast",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.225,
+      "blended_cost_per_1m": 2.9025,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24039,7 +24105,7 @@
     {
       "model_id": "requesty/glm-5.2-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.6125,
+      "blended_cost_per_1m": 0.837,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24061,7 +24127,7 @@
     {
       "model_id": "requesty/glm-5.2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.95,
+      "blended_cost_per_1m": 1.0462500000000001,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24083,7 +24149,7 @@
     {
       "model_id": "requesty/glm-5.3",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.15,
+      "blended_cost_per_1m": 1.935,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24105,7 +24171,7 @@
     {
       "model_id": "requesty/glm-5",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.55,
+      "blended_cost_per_1m": 1.395,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24127,7 +24193,7 @@
     {
       "model_id": "requesty/gpt-4.1-eastus2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.5,
+      "blended_cost_per_1m": 3.1500000000000004,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24149,7 +24215,7 @@
     {
       "model_id": "requesty/gpt-4.1-francecentral",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.8500000000000005,
+      "blended_cost_per_1m": 3.465,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24171,7 +24237,7 @@
     {
       "model_id": "requesty/gpt-4.1-mini-eastus2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.7000000000000001,
+      "blended_cost_per_1m": 0.63,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24193,7 +24259,7 @@
     {
       "model_id": "requesty/gpt-4.1-mini-francecentral",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.77,
+      "blended_cost_per_1m": 0.6930000000000001,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24215,7 +24281,7 @@
     {
       "model_id": "requesty/gpt-4.1-mini-uksouth",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.77,
+      "blended_cost_per_1m": 0.6930000000000001,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24237,7 +24303,7 @@
     {
       "model_id": "requesty/gpt-4.1-mini-westus3",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.7000000000000001,
+      "blended_cost_per_1m": 0.63,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24259,7 +24325,7 @@
     {
       "model_id": "requesty/gpt-4.1-mini",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.7000000000000001,
+      "blended_cost_per_1m": 0.63,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24281,7 +24347,7 @@
     {
       "model_id": "requesty/gpt-4.1-nano-eastus2",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.1575,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24303,7 +24369,7 @@
     {
       "model_id": "requesty/gpt-4.1-nano-francecentral",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.1925,
+      "blended_cost_per_1m": 0.17325000000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24325,7 +24391,7 @@
     {
       "model_id": "requesty/gpt-4.1-nano-swedencentral",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.1925,
+      "blended_cost_per_1m": 0.17325000000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24347,7 +24413,7 @@
     {
       "model_id": "requesty/gpt-4.1-nano-uksouth",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.1925,
+      "blended_cost_per_1m": 0.17325000000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24369,7 +24435,7 @@
     {
       "model_id": "requesty/gpt-4.1-nano-westus3",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.1575,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24391,7 +24457,7 @@
     {
       "model_id": "requesty/gpt-4.1-nano",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.1575,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24413,7 +24479,7 @@
     {
       "model_id": "requesty/gpt-4.1-swedencentral",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.8500000000000005,
+      "blended_cost_per_1m": 3.465,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24435,7 +24501,7 @@
     {
       "model_id": "requesty/gpt-4.1-uksouth",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.8500000000000005,
+      "blended_cost_per_1m": 3.465,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24457,7 +24523,7 @@
     {
       "model_id": "requesty/gpt-4.1-westus3",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.5,
+      "blended_cost_per_1m": 3.1500000000000004,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24479,7 +24545,7 @@
     {
       "model_id": "requesty/gpt-4.1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.5,
+      "blended_cost_per_1m": 3.1500000000000004,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24501,7 +24567,7 @@
     {
       "model_id": "requesty/gpt-4o-2024-05-13",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.375,
+      "blended_cost_per_1m": 3.9375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24523,7 +24589,7 @@
     {
       "model_id": "requesty/gpt-4o-2024-08-06",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.375,
+      "blended_cost_per_1m": 3.9375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24545,7 +24611,7 @@
     {
       "model_id": "requesty/gpt-4o-2024-11-20",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.375,
+      "blended_cost_per_1m": 3.9375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24567,7 +24633,7 @@
     {
       "model_id": "requesty/gpt-4o-mini-eastus2",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.26249999999999996,
+      "blended_cost_per_1m": 0.23625000000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24589,7 +24655,7 @@
     {
       "model_id": "requesty/gpt-4o-mini-swedencentral",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.28875,
+      "blended_cost_per_1m": 0.26025,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24611,7 +24677,7 @@
     {
       "model_id": "requesty/gpt-4o-mini",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.26249999999999996,
+      "blended_cost_per_1m": 0.23625000000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24633,7 +24699,7 @@
     {
       "model_id": "requesty/gpt-4o",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.375,
+      "blended_cost_per_1m": 3.9375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24655,7 +24721,7 @@
     {
       "model_id": "requesty/gpt-5-codex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.4375,
+      "blended_cost_per_1m": 3.09375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24677,7 +24743,7 @@
     {
       "model_id": "requesty/gpt-5-eastus2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.4375,
+      "blended_cost_per_1m": 3.09375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24699,7 +24765,7 @@
     {
       "model_id": "requesty/gpt-5-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.71875,
+      "blended_cost_per_1m": 1.54725,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24721,7 +24787,7 @@
     {
       "model_id": "requesty/gpt-5-francecentral",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.78125,
+      "blended_cost_per_1m": 3.4035,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24743,7 +24809,7 @@
     {
       "model_id": "requesty/gpt-5-mini-eastus2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.6875,
+      "blended_cost_per_1m": 0.61875,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24765,7 +24831,7 @@
     {
       "model_id": "requesty/gpt-5-mini-flex",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.34375,
+      "blended_cost_per_1m": 0.309,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24787,7 +24853,7 @@
     {
       "model_id": "requesty/gpt-5-mini-francecentral",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.7562500000000001,
+      "blended_cost_per_1m": 0.681,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24809,7 +24875,7 @@
     {
       "model_id": "requesty/gpt-5-mini-priority",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.2375,
+      "blended_cost_per_1m": 1.11375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24831,7 +24897,7 @@
     {
       "model_id": "requesty/gpt-5-mini-swedencentral",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.7562500000000001,
+      "blended_cost_per_1m": 0.681,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24853,7 +24919,7 @@
     {
       "model_id": "requesty/gpt-5-mini-uksouth",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.7562500000000001,
+      "blended_cost_per_1m": 0.681,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24875,7 +24941,7 @@
     {
       "model_id": "requesty/gpt-5-mini",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.6875,
+      "blended_cost_per_1m": 0.61875,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24888,16 +24954,16 @@
           "reason": "Alternative from the same provider with larger context window (2000000)"
         },
         {
-          "model_id": "requesty/grok-4-fast",
-          "name": "xai/grok-4-fast",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Cross-provider alternative from vercel with larger context window (2000000)"
         }
       ]
     },
     {
       "model_id": "requesty/gpt-5-nano-eastus2",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.1375,
+      "blended_cost_per_1m": 0.12375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24919,7 +24985,7 @@
     {
       "model_id": "requesty/gpt-5-nano-flex",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.06875,
+      "blended_cost_per_1m": 0.06225,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24941,7 +25007,7 @@
     {
       "model_id": "requesty/gpt-5-nano-francecentral",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.15125,
+      "blended_cost_per_1m": 0.1365,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24963,7 +25029,7 @@
     {
       "model_id": "requesty/gpt-5-nano-swedencentral",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.15125,
+      "blended_cost_per_1m": 0.1365,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24985,7 +25051,7 @@
     {
       "model_id": "requesty/gpt-5-nano",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.1375,
+      "blended_cost_per_1m": 0.12375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24998,16 +25064,16 @@
           "reason": "Alternative from the same provider with larger context window (2000000)"
         },
         {
-          "model_id": "requesty/grok-4-fast",
-          "name": "xai/grok-4-fast",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Cross-provider alternative from vercel with larger context window (2000000)"
         }
       ]
     },
     {
       "model_id": "requesty/gpt-5-priority",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6.875,
+      "blended_cost_per_1m": 6.1875,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25029,7 +25095,7 @@
     {
       "model_id": "requesty/gpt-5-pro",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 41.25,
+      "blended_cost_per_1m": 37.125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25051,7 +25117,7 @@
     {
       "model_id": "requesty/gpt-5-swedencentral",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.78125,
+      "blended_cost_per_1m": 3.4035,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25073,7 +25139,7 @@
     {
       "model_id": "requesty/gpt-5-uksouth",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.78125,
+      "blended_cost_per_1m": 3.4035,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25095,7 +25161,7 @@
     {
       "model_id": "requesty/gpt-5.1-chat",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.4375,
+      "blended_cost_per_1m": 3.09375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25117,7 +25183,7 @@
     {
       "model_id": "requesty/gpt-5.1-codex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.4375,
+      "blended_cost_per_1m": 3.09375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25139,7 +25205,7 @@
     {
       "model_id": "requesty/gpt-5.1-eastus2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.4375,
+      "blended_cost_per_1m": 3.09375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25161,7 +25227,7 @@
     {
       "model_id": "requesty/gpt-5.1-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.71875,
+      "blended_cost_per_1m": 1.54725,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25183,7 +25249,7 @@
     {
       "model_id": "requesty/gpt-5.1-francecentral",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.78125,
+      "blended_cost_per_1m": 3.4035,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25205,7 +25271,7 @@
     {
       "model_id": "requesty/gpt-5.1-swedencentral",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.78125,
+      "blended_cost_per_1m": 3.4035,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25227,7 +25293,7 @@
     {
       "model_id": "requesty/gpt-5.1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.4375,
+      "blended_cost_per_1m": 3.09375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25249,7 +25315,7 @@
     {
       "model_id": "requesty/gpt-5.2-chat",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.8125,
+      "blended_cost_per_1m": 4.33125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25271,7 +25337,7 @@
     {
       "model_id": "requesty/gpt-5.2-codex-eastus2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.8125,
+      "blended_cost_per_1m": 4.33125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25293,7 +25359,7 @@
     {
       "model_id": "requesty/gpt-5.2-codex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.8125,
+      "blended_cost_per_1m": 4.33125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25315,7 +25381,7 @@
     {
       "model_id": "requesty/gpt-5.2-eastus2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.8125,
+      "blended_cost_per_1m": 4.33125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25337,7 +25403,7 @@
     {
       "model_id": "requesty/gpt-5.2-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.40625,
+      "blended_cost_per_1m": 2.166,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25359,7 +25425,7 @@
     {
       "model_id": "requesty/gpt-5.2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.8125,
+      "blended_cost_per_1m": 4.33125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25381,7 +25447,7 @@
     {
       "model_id": "requesty/gpt-5.3-chat",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.8125,
+      "blended_cost_per_1m": 4.33125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25403,7 +25469,7 @@
     {
       "model_id": "requesty/gpt-5.3-codex-eastus2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.8125,
+      "blended_cost_per_1m": 4.33125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25425,7 +25491,7 @@
     {
       "model_id": "requesty/gpt-5.3-codex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.8125,
+      "blended_cost_per_1m": 4.33125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25447,7 +25513,7 @@
     {
       "model_id": "requesty/gpt-5.4-eastus2",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 5.625,
+      "blended_cost_per_1m": 5.0625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25469,7 +25535,7 @@
     {
       "model_id": "requesty/gpt-5.4-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.8125,
+      "blended_cost_per_1m": 2.53125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25491,7 +25557,7 @@
     {
       "model_id": "requesty/gpt-5.4-francecentral",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 5.625,
+      "blended_cost_per_1m": 5.0625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25513,7 +25579,7 @@
     {
       "model_id": "requesty/gpt-5.4-mini-eastus2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.6875,
+      "blended_cost_per_1m": 1.51875,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25535,7 +25601,7 @@
     {
       "model_id": "requesty/gpt-5.4-mini-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.84375,
+      "blended_cost_per_1m": 0.7597499999999999,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25557,7 +25623,7 @@
     {
       "model_id": "requesty/gpt-5.4-mini",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.6875,
+      "blended_cost_per_1m": 1.51875,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25570,16 +25636,16 @@
           "reason": "Alternative from the same provider with larger context window (2000000)"
         },
         {
-          "model_id": "requesty/grok-4-fast",
-          "name": "xai/grok-4-fast",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Cross-provider alternative from vercel with larger context window (2000000)"
         }
       ]
     },
     {
       "model_id": "requesty/gpt-5.4-nano-flex",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.23125,
+      "blended_cost_per_1m": 0.20825,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25601,7 +25667,7 @@
     {
       "model_id": "requesty/gpt-5.4-nano",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.4625,
+      "blended_cost_per_1m": 0.41625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25623,7 +25689,7 @@
     {
       "model_id": "requesty/gpt-5.4-pro-eastus2",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 67.5,
+      "blended_cost_per_1m": 60.75,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25645,7 +25711,7 @@
     {
       "model_id": "requesty/gpt-5.4-pro",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 67.5,
+      "blended_cost_per_1m": 60.75,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25667,7 +25733,7 @@
     {
       "model_id": "requesty/gpt-5.4-swedencentral",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6.1875,
+      "blended_cost_per_1m": 5.56875,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25689,7 +25755,7 @@
     {
       "model_id": "requesty/gpt-5.4-us-east-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6.1875,
+      "blended_cost_per_1m": 5.56875,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25711,7 +25777,7 @@
     {
       "model_id": "requesty/gpt-5.4-us-east-2",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6.1875,
+      "blended_cost_per_1m": 5.56875,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25733,7 +25799,7 @@
     {
       "model_id": "requesty/gpt-5.4-us-west-2",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6.1875,
+      "blended_cost_per_1m": 5.56875,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25755,7 +25821,7 @@
     {
       "model_id": "requesty/gpt-5.4",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 5.625,
+      "blended_cost_per_1m": 5.0625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25777,7 +25843,7 @@
     {
       "model_id": "requesty/gpt-5.5-eastus2",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11.25,
+      "blended_cost_per_1m": 10.125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25799,7 +25865,7 @@
     {
       "model_id": "requesty/gpt-5.5-flex",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 5.625,
+      "blended_cost_per_1m": 5.0625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25821,7 +25887,7 @@
     {
       "model_id": "requesty/gpt-5.5-pro",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 67.5,
+      "blended_cost_per_1m": 60.75,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25843,7 +25909,7 @@
     {
       "model_id": "requesty/gpt-5.5-swedencentral",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11.25,
+      "blended_cost_per_1m": 10.125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25865,7 +25931,7 @@
     {
       "model_id": "requesty/gpt-5.5-us-east-1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 12.375,
+      "blended_cost_per_1m": 11.1375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25887,7 +25953,7 @@
     {
       "model_id": "requesty/gpt-5.5-us-east-2",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 12.375,
+      "blended_cost_per_1m": 11.1375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25909,7 +25975,7 @@
     {
       "model_id": "requesty/gpt-5.5",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11.25,
+      "blended_cost_per_1m": 10.125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25931,7 +25997,7 @@
     {
       "model_id": "requesty/gpt-5.6-luna-eastus2",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.45,
+      "blended_cost_per_1m": 0.405,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25953,7 +26019,7 @@
     {
       "model_id": "requesty/gpt-5.6-luna-flex",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.225,
+      "blended_cost_per_1m": 0.2025,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25975,7 +26041,7 @@
     {
       "model_id": "requesty/gpt-5.6-luna-swedencentral",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.495,
+      "blended_cost_per_1m": 0.4455,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25997,7 +26063,7 @@
     {
       "model_id": "requesty/gpt-5.6-luna",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.45,
+      "blended_cost_per_1m": 0.405,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26019,7 +26085,7 @@
     {
       "model_id": "requesty/gpt-5.6-sol-eastus2",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11.25,
+      "blended_cost_per_1m": 10.125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26041,7 +26107,7 @@
     {
       "model_id": "requesty/gpt-5.6-sol-flex",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 5.625,
+      "blended_cost_per_1m": 5.0625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26063,7 +26129,7 @@
     {
       "model_id": "requesty/gpt-5.6-sol-swedencentral",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 12.375,
+      "blended_cost_per_1m": 11.1375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26085,7 +26151,7 @@
     {
       "model_id": "requesty/gpt-5.6-sol",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 11.25,
+      "blended_cost_per_1m": 10.125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26107,7 +26173,7 @@
     {
       "model_id": "requesty/gpt-5.6-terra-eastus2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.5,
+      "blended_cost_per_1m": 4.050000000000001,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26129,7 +26195,7 @@
     {
       "model_id": "requesty/gpt-5.6-terra-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.25,
+      "blended_cost_per_1m": 2.0250000000000004,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26151,7 +26217,7 @@
     {
       "model_id": "requesty/gpt-5.6-terra-swedencentral",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.95,
+      "blended_cost_per_1m": 4.455,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26173,7 +26239,7 @@
     {
       "model_id": "requesty/gpt-5.6-terra",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.5,
+      "blended_cost_per_1m": 4.050000000000001,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26195,7 +26261,7 @@
     {
       "model_id": "requesty/gpt-5",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.4375,
+      "blended_cost_per_1m": 3.09375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26217,7 +26283,7 @@
     {
       "model_id": "requesty/gpt-oss-120b",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.26249999999999996,
+      "blended_cost_per_1m": 0.23625000000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26239,7 +26305,7 @@
     {
       "model_id": "requesty/gpt-oss-20b",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.2,
+      "blended_cost_per_1m": 0.18,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26261,7 +26327,7 @@
     {
       "model_id": "requesty/grok-3-mini-high",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.35,
+      "blended_cost_per_1m": 0.315,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26283,7 +26349,7 @@
     {
       "model_id": "requesty/grok-3-mini-low",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.35,
+      "blended_cost_per_1m": 0.315,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26305,7 +26371,7 @@
     {
       "model_id": "requesty/grok-3-mini",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.35,
+      "blended_cost_per_1m": 0.315,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26327,7 +26393,7 @@
     {
       "model_id": "requesty/grok-3",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 10,
+      "blended_cost_per_1m": 9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26349,7 +26415,7 @@
     {
       "model_id": "requesty/grok-4-1-fast-non-reasoning",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.275,
+      "blended_cost_per_1m": 0.2475,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-reasoning",
@@ -26371,7 +26437,7 @@
     {
       "model_id": "requesty/grok-4-1-fast-reasoning",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.275,
+      "blended_cost_per_1m": 0.2475,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26393,7 +26459,7 @@
     {
       "model_id": "requesty/grok-4-fast-non-reasoning",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.275,
+      "blended_cost_per_1m": 0.2475,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26415,7 +26481,7 @@
     {
       "model_id": "requesty/grok-4-fast",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.275,
+      "blended_cost_per_1m": 0.2475,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26437,7 +26503,7 @@
     {
       "model_id": "requesty/grok-4.2-beta",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3,
+      "blended_cost_per_1m": 2.7,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26459,7 +26525,7 @@
     {
       "model_id": "requesty/grok-4.3",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.5625,
+      "blended_cost_per_1m": 1.40625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26481,7 +26547,7 @@
     {
       "model_id": "requesty/grok-4.5",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3,
+      "blended_cost_per_1m": 2.7,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26503,7 +26569,7 @@
     {
       "model_id": "requesty/grok-4.6",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3,
+      "blended_cost_per_1m": 2.7,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26525,7 +26591,7 @@
     {
       "model_id": "requesty/grok-4",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6,
+      "blended_cost_per_1m": 5.4,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26547,7 +26613,7 @@
     {
       "model_id": "requesty/grok-build-0.1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.25,
+      "blended_cost_per_1m": 1.125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26568,8 +26634,8 @@
     },
     {
       "model_id": "requesty/grok-code-fast-1",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.525,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.47250000000000003,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26591,7 +26657,7 @@
     {
       "model_id": "requesty/hermes-4-405b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.5,
+      "blended_cost_per_1m": 1.35,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26613,7 +26679,7 @@
     {
       "model_id": "requesty/hermes-4-70b",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.1975,
+      "blended_cost_per_1m": 0.17775000000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26635,7 +26701,7 @@
     {
       "model_id": "requesty/hy3",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.25,
+      "blended_cost_per_1m": 0.225,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26657,7 +26723,7 @@
     {
       "model_id": "requesty/inkling-256k",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.5725,
+      "blended_cost_per_1m": 2.058,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26679,7 +26745,7 @@
     {
       "model_id": "requesty/inkling",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.5725,
+      "blended_cost_per_1m": 2.31525,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26700,8 +26766,8 @@
     },
     {
       "model_id": "requesty/kat-coder-pro",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.5249999999999999,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.47250000000000003,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26723,7 +26789,7 @@
     {
       "model_id": "requesty/kimi-k2-instruct",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.0025,
+      "blended_cost_per_1m": 0.90225,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26745,7 +26811,7 @@
     {
       "model_id": "requesty/kimi-k2.5-eu-north-1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.44,
+      "blended_cost_per_1m": 1.296,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26767,7 +26833,7 @@
     {
       "model_id": "requesty/kimi-k2.5-eu-west-2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.44,
+      "blended_cost_per_1m": 1.296,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26789,7 +26855,7 @@
     {
       "model_id": "requesty/kimi-k2.5-us-east-1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.2,
+      "blended_cost_per_1m": 1.08,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26811,7 +26877,7 @@
     {
       "model_id": "requesty/kimi-k2.5-us-east-2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.2,
+      "blended_cost_per_1m": 1.08,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26833,7 +26899,7 @@
     {
       "model_id": "requesty/kimi-k2.5-us-west-2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.2,
+      "blended_cost_per_1m": 1.08,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26855,7 +26921,7 @@
     {
       "model_id": "requesty/kimi-k2.5",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.9,
+      "blended_cost_per_1m": 0.81,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26877,7 +26943,7 @@
     {
       "model_id": "requesty/kimi-k2.6-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.15,
+      "blended_cost_per_1m": 1.0350000000000001,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26899,7 +26965,7 @@
     {
       "model_id": "requesty/kimi-k2.6",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.475,
+      "blended_cost_per_1m": 1.2937500000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26921,7 +26987,7 @@
     {
       "model_id": "requesty/kimi-k2.7-code",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.4375,
+      "blended_cost_per_1m": 1.2937500000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26943,7 +27009,7 @@
     {
       "model_id": "requesty/kimi-k2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.075,
+      "blended_cost_per_1m": 0.9675,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26964,8 +27030,8 @@
     },
     {
       "model_id": "requesty/kimi-k3",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.5,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 5.4,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -26978,16 +27044,16 @@
           "reason": "Alternative from the same provider with larger context window (2000000)"
         },
         {
-          "model_id": "requesty/grok-4-fast",
-          "name": "xai/grok-4-fast",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Cross-provider alternative from vercel with larger context window (2000000)"
         }
       ]
     },
     {
       "model_id": "requesty/l3-8b-lunaris",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.05,
+      "blended_cost_per_1m": 0.045,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27009,7 +27075,7 @@
     {
       "model_id": "requesty/l3-8b-stheno-v3.2",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.05,
+      "blended_cost_per_1m": 0.045,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27031,7 +27097,7 @@
     {
       "model_id": "requesty/l31-70b-euryale-v2.2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.48,
+      "blended_cost_per_1m": 1.332,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27119,7 +27185,7 @@
     {
       "model_id": "requesty/ling-2.6-1t",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27141,7 +27207,7 @@
     {
       "model_id": "requesty/ling-2.6-flash",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.15000000000000002,
+      "blended_cost_per_1m": 0.135,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27185,7 +27251,7 @@
     {
       "model_id": "requesty/llama-3.1-8b-instruct",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.05,
+      "blended_cost_per_1m": 0.045,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27207,7 +27273,7 @@
     {
       "model_id": "requesty/llama-3.2-90b-vision-instruct",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.36249999999999993,
+      "blended_cost_per_1m": 0.32625000000000004,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27229,7 +27295,7 @@
     {
       "model_id": "requesty/llama-3.3-70b-instruct-turbo-flex",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.124,
+      "blended_cost_per_1m": 0.11149999999999999,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27251,7 +27317,7 @@
     {
       "model_id": "requesty/llama-3.3-70b-instruct-turbo",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.16499999999999998,
+      "blended_cost_per_1m": 0.14850000000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27273,7 +27339,7 @@
     {
       "model_id": "requesty/llama-3.3-70b-instruct",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.39,
+      "blended_cost_per_1m": 0.24525,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27295,7 +27361,7 @@
     {
       "model_id": "requesty/llama-4-maverick-17b-128e-instruct-fp8",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.36250000000000004,
+      "blended_cost_per_1m": 0.32625000000000004,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27317,7 +27383,7 @@
     {
       "model_id": "requesty/meta-llama-3.1-405b-instruct",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.8,
+      "blended_cost_per_1m": 0.72,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27339,7 +27405,7 @@
     {
       "model_id": "requesty/meta-llama-3.1-70b-instruct",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.2725,
+      "blended_cost_per_1m": 0.24525,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27383,7 +27449,7 @@
     {
       "model_id": "requesty/meta-llama-3.1-8b-instruct-turbo",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.0275,
+      "blended_cost_per_1m": 0.024749999999999998,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27405,7 +27471,7 @@
     {
       "model_id": "requesty/mimo-v2.5-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.64,
+      "blended_cost_per_1m": 0.576,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27427,7 +27493,7 @@
     {
       "model_id": "requesty/mimo-v2.5-pro-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.2000000000000002,
+      "blended_cost_per_1m": 1.08,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27449,7 +27515,7 @@
     {
       "model_id": "requesty/mimo-v2.5-pro",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.54375,
+      "blended_cost_per_1m": 1.35,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27470,8 +27536,8 @@
     },
     {
       "model_id": "requesty/mimo-v2.5",
-      "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.72,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27493,7 +27559,7 @@
     {
       "model_id": "requesty/minimax-m2.5-eu-central-1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.63,
+      "blended_cost_per_1m": 0.567,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27515,7 +27581,7 @@
     {
       "model_id": "requesty/minimax-m2.5-eu-north-1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.63,
+      "blended_cost_per_1m": 0.567,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27537,7 +27603,7 @@
     {
       "model_id": "requesty/minimax-m2.5-eu-south-1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.63,
+      "blended_cost_per_1m": 0.567,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27559,7 +27625,7 @@
     {
       "model_id": "requesty/minimax-m2.5-eu-west-1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.63,
+      "blended_cost_per_1m": 0.567,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27581,7 +27647,7 @@
     {
       "model_id": "requesty/minimax-m2.5-highspeed",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.0499999999999998,
+      "blended_cost_per_1m": 0.9450000000000001,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27602,8 +27668,8 @@
     },
     {
       "model_id": "requesty/minimax-m2.5-us-east-1",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.5249999999999999,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.47250000000000003,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27624,8 +27690,8 @@
     },
     {
       "model_id": "requesty/minimax-m2.5-us-east-2",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.5249999999999999,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.47250000000000003,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27646,8 +27712,8 @@
     },
     {
       "model_id": "requesty/minimax-m2.5-us-west-2",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.5249999999999999,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.47250000000000003,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27669,7 +27735,7 @@
     {
       "model_id": "requesty/minimax-m2.5",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.48500000000000004,
+      "blended_cost_per_1m": 0.47250000000000003,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27691,7 +27757,7 @@
     {
       "model_id": "requesty/minimax-m2.7-highspeed",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.0499999999999998,
+      "blended_cost_per_1m": 0.9450000000000001,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27712,8 +27778,8 @@
     },
     {
       "model_id": "requesty/minimax-m2.7",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.5249999999999999,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.47250000000000003,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27734,8 +27800,8 @@
     },
     {
       "model_id": "requesty/minimax-m2",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.5249999999999999,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.47250000000000003,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27757,7 +27823,7 @@
     {
       "model_id": "requesty/minimax-m3",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.5249999999999999,
+      "blended_cost_per_1m": 0.72,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27779,7 +27845,7 @@
     {
       "model_id": "requesty/mistral-large-latest",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.825,
+      "blended_cost_per_1m": 0.7424999999999999,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27801,7 +27867,7 @@
     {
       "model_id": "requesty/mistral-medium-3-5",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.3,
+      "blended_cost_per_1m": 2.9699999999999998,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27823,7 +27889,7 @@
     {
       "model_id": "requesty/mistral-medium-latest",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.8800000000000001,
+      "blended_cost_per_1m": 0.792,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27845,7 +27911,7 @@
     {
       "model_id": "requesty/mistral-nemo",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17,
+      "blended_cost_per_1m": 0.153,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27867,7 +27933,7 @@
     {
       "model_id": "requesty/mistral-small-2503",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.165,
+      "blended_cost_per_1m": 0.14850000000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27889,7 +27955,7 @@
     {
       "model_id": "requesty/mistral-small-2603",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.28875,
+      "blended_cost_per_1m": 0.26025,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27911,7 +27977,7 @@
     {
       "model_id": "requesty/mistral-small-latest",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.28875,
+      "blended_cost_per_1m": 0.26025,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27955,7 +28021,7 @@
     {
       "model_id": "requesty/mythomax-l2-13b",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.09,
+      "blended_cost_per_1m": 0.081,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27977,7 +28043,7 @@
     {
       "model_id": "requesty/nemotron-3-nano-30b-a3b-flex",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.07,
+      "blended_cost_per_1m": 0.063,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27998,8 +28064,8 @@
     },
     {
       "model_id": "requesty/nemotron-3-nano-30b-a3b",
-      "cost_tier": "Free",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.07875,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28043,7 +28109,7 @@
     {
       "model_id": "requesty/nemotron-3-nano-omni",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.105,
+      "blended_cost_per_1m": 0.0945,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28064,8 +28130,8 @@
     },
     {
       "model_id": "requesty/nemotron-3-super-120b-a12b",
-      "cost_tier": "Free",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.405,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28086,8 +28152,8 @@
     },
     {
       "model_id": "requesty/nemotron-3-ultra-550b-a55b",
-      "cost_tier": "Free",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 1.35,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28109,7 +28175,7 @@
     {
       "model_id": "requesty/nemotron-3-ultra-nvfp4",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.0499999999999998,
+      "blended_cost_per_1m": 0.9450000000000001,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28175,7 +28241,7 @@
     {
       "model_id": "requesty/nemotron-lightning-3.5-30b-a3b",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.08750000000000001,
+      "blended_cost_per_1m": 0.07875,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28197,7 +28263,7 @@
     {
       "model_id": "requesty/nvidia-nemotron-3-super-120b-a12b-flex",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.131,
+      "blended_cost_per_1m": 0.11775,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28219,7 +28285,7 @@
     {
       "model_id": "requesty/nvidia-nemotron-3-super-120b-a12b",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.2,
+      "blended_cost_per_1m": 0.18,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28241,7 +28307,7 @@
     {
       "model_id": "requesty/nvidia-nemotron-3-ultra-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.745,
+      "blended_cost_per_1m": 0.6705000000000001,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28263,7 +28329,7 @@
     {
       "model_id": "requesty/nvidia-nemotron-3-ultra",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1,
+      "blended_cost_per_1m": 0.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28285,7 +28351,7 @@
     {
       "model_id": "requesty/o1-high",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 26.25,
+      "blended_cost_per_1m": 23.625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28307,7 +28373,7 @@
     {
       "model_id": "requesty/o1-low",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 26.25,
+      "blended_cost_per_1m": 23.625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28329,7 +28395,7 @@
     {
       "model_id": "requesty/o1-medium",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 26.25,
+      "blended_cost_per_1m": 23.625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28351,7 +28417,7 @@
     {
       "model_id": "requesty/o1",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 26.25,
+      "blended_cost_per_1m": 23.625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28373,7 +28439,7 @@
     {
       "model_id": "requesty/o3-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.75,
+      "blended_cost_per_1m": 1.5750000000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28395,7 +28461,7 @@
     {
       "model_id": "requesty/o3-mini-high",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.9250000000000003,
+      "blended_cost_per_1m": 1.7325,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28417,7 +28483,7 @@
     {
       "model_id": "requesty/o3-mini-low",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.9250000000000003,
+      "blended_cost_per_1m": 1.7325,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28439,7 +28505,7 @@
     {
       "model_id": "requesty/o3-mini-medium",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.9250000000000003,
+      "blended_cost_per_1m": 1.7325,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28461,7 +28527,7 @@
     {
       "model_id": "requesty/o3-mini",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.9250000000000003,
+      "blended_cost_per_1m": 1.7325,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28483,7 +28549,7 @@
     {
       "model_id": "requesty/o3-pro",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 35,
+      "blended_cost_per_1m": 31.5,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28505,7 +28571,7 @@
     {
       "model_id": "requesty/o3",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.5,
+      "blended_cost_per_1m": 3.1500000000000004,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28527,7 +28593,7 @@
     {
       "model_id": "requesty/o4-mini-eastus2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.9250000000000003,
+      "blended_cost_per_1m": 1.7325,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28549,7 +28615,7 @@
     {
       "model_id": "requesty/o4-mini-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.9625000000000001,
+      "blended_cost_per_1m": 0.86625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28571,7 +28637,7 @@
     {
       "model_id": "requesty/o4-mini-francecentral",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.1174999999999997,
+      "blended_cost_per_1m": 1.9057499999999998,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28593,7 +28659,7 @@
     {
       "model_id": "requesty/o4-mini-high",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.9250000000000003,
+      "blended_cost_per_1m": 1.7325,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28615,7 +28681,7 @@
     {
       "model_id": "requesty/o4-mini-low",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.9250000000000003,
+      "blended_cost_per_1m": 1.7325,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28637,7 +28703,7 @@
     {
       "model_id": "requesty/o4-mini-medium",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.9250000000000003,
+      "blended_cost_per_1m": 1.7325,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28659,7 +28725,7 @@
     {
       "model_id": "requesty/o4-mini-swedencentral",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.1174999999999997,
+      "blended_cost_per_1m": 1.9057499999999998,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28681,7 +28747,7 @@
     {
       "model_id": "requesty/o4-mini-westus3",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.9250000000000003,
+      "blended_cost_per_1m": 1.7325,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28703,7 +28769,7 @@
     {
       "model_id": "requesty/o4-mini",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.9250000000000003,
+      "blended_cost_per_1m": 1.7325,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28725,7 +28791,7 @@
     {
       "model_id": "requesty/open-mistral-7b",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.275,
+      "blended_cost_per_1m": 0.248,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28747,7 +28813,7 @@
     {
       "model_id": "requesty/parasail-deepseek-v4-flash",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.1575,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28769,7 +28835,7 @@
     {
       "model_id": "requesty/parasail-gemma3-27b-it",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.35,
+      "blended_cost_per_1m": 0.315,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28791,7 +28857,7 @@
     {
       "model_id": "requesty/parasail-qwen25-vl-72b-instruct",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.7,
+      "blended_cost_per_1m": 0.63,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28813,7 +28879,7 @@
     {
       "model_id": "requesty/parasail-qwen3-235b-a22b-instruct-2507",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.32499999999999996,
+      "blended_cost_per_1m": 0.2925,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28835,7 +28901,7 @@
     {
       "model_id": "requesty/phi-4-flex",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.07,
+      "blended_cost_per_1m": 0.06275,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28857,7 +28923,7 @@
     {
       "model_id": "requesty/phi-4",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.08750000000000001,
+      "blended_cost_per_1m": 0.07875,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28879,7 +28945,7 @@
     {
       "model_id": "requesty/qwen-2.5-72b-instruct",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.385,
+      "blended_cost_per_1m": 0.34650000000000003,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28901,7 +28967,7 @@
     {
       "model_id": "requesty/qwen-max",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.8000000000000003,
+      "blended_cost_per_1m": 2.52,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28923,7 +28989,7 @@
     {
       "model_id": "requesty/qwen-plus",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.6000000000000001,
+      "blended_cost_per_1m": 0.54,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28945,7 +29011,7 @@
     {
       "model_id": "requesty/qwen-turbo",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.08750000000000001,
+      "blended_cost_per_1m": 0.07875,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28967,7 +29033,7 @@
     {
       "model_id": "requesty/qwen2.5-72b-instruct",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.2725,
+      "blended_cost_per_1m": 0.24525,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28989,7 +29055,7 @@
     {
       "model_id": "requesty/qwen2.5-coder-32b-instruct",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.0925,
+      "blended_cost_per_1m": 0.08324999999999999,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29011,7 +29077,7 @@
     {
       "model_id": "requesty/qwen3-235b-a22b-fp8",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.35000000000000003,
+      "blended_cost_per_1m": 0.315,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29033,7 +29099,7 @@
     {
       "model_id": "requesty/qwen3-235b-a22b-instruct-2507",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.07824999999999999,
+      "blended_cost_per_1m": 0.07050000000000001,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29055,7 +29121,7 @@
     {
       "model_id": "requesty/qwen3-235b-a22b-thinking-2507-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.5980000000000001,
+      "blended_cost_per_1m": 0.5385,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29077,7 +29143,7 @@
     {
       "model_id": "requesty/qwen3-235b-a22b-thinking-2507",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.7474999999999999,
+      "blended_cost_per_1m": 0.67275,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29099,7 +29165,7 @@
     {
       "model_id": "requesty/qwen3-235b-a22b",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.30000000000000004,
+      "blended_cost_per_1m": 0.27,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29121,7 +29187,7 @@
     {
       "model_id": "requesty/qwen3-30b-a3b-instruct-2507",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.35000000000000003,
+      "blended_cost_per_1m": 0.135,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29134,16 +29200,16 @@
           "reason": "Alternative from the same provider with larger context window (2000000)"
         },
         {
-          "model_id": "vercel/grok-4.20-multi-agent",
-          "name": "Grok 4.20 Multi-Agent",
-          "reason": "Cross-provider alternative from vercel with larger context window (2000000)"
+          "model_id": "requesty/grok-4-fast",
+          "name": "xai/grok-4-fast",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
         }
       ]
     },
     {
       "model_id": "requesty/qwen3-32b-flex",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.10400000000000001,
+      "blended_cost_per_1m": 0.094,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29165,7 +29231,7 @@
     {
       "model_id": "requesty/qwen3-32b",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.15000000000000002,
+      "blended_cost_per_1m": 0.135,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29187,7 +29253,7 @@
     {
       "model_id": "requesty/qwen3-coder-480b-a35b-instruct-turbo-flex",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.38,
+      "blended_cost_per_1m": 0.34199999999999997,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29209,7 +29275,7 @@
     {
       "model_id": "requesty/qwen3-coder-480b-a35b-instruct-turbo",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.475,
+      "blended_cost_per_1m": 0.4275,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29231,7 +29297,7 @@
     {
       "model_id": "requesty/qwen3-coder-480b-a35b-instruct",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.7000000000000001,
+      "blended_cost_per_1m": 0.63,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29253,7 +29319,7 @@
     {
       "model_id": "requesty/qwen3-coder-flash",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.6,
+      "blended_cost_per_1m": 0.54,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29275,7 +29341,7 @@
     {
       "model_id": "requesty/qwen3-coder-plus",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2,
+      "blended_cost_per_1m": 1.8,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29297,7 +29363,7 @@
     {
       "model_id": "requesty/qwen3-max",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.506,
+      "blended_cost_per_1m": 2.16,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29319,7 +29385,7 @@
     {
       "model_id": "requesty/qwen3-next-80b-a3b-thinking",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.4125,
+      "blended_cost_per_1m": 0.37125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29341,7 +29407,7 @@
     {
       "model_id": "requesty/qwen3.5-27b-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.676,
+      "blended_cost_per_1m": 0.60825,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29363,7 +29429,7 @@
     {
       "model_id": "requesty/qwen3.5-27b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.845,
+      "blended_cost_per_1m": 0.7605,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29385,7 +29451,7 @@
     {
       "model_id": "requesty/qwen3.5-2b",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.04,
+      "blended_cost_per_1m": 0.036,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29407,7 +29473,7 @@
     {
       "model_id": "requesty/qwen3.5-35b-a3b-flex",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.28400000000000003,
+      "blended_cost_per_1m": 0.25575000000000003,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29429,7 +29495,7 @@
     {
       "model_id": "requesty/qwen3.5-35b-a3b",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.355,
+      "blended_cost_per_1m": 0.3195,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29451,7 +29517,7 @@
     {
       "model_id": "requesty/qwen3.5-397b-a17b-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.87,
+      "blended_cost_per_1m": 0.783,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29473,7 +29539,7 @@
     {
       "model_id": "requesty/qwen3.5-397b-a17b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.35,
+      "blended_cost_per_1m": 1.1407500000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29495,7 +29561,7 @@
     {
       "model_id": "requesty/qwen3.6-plus",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.125,
+      "blended_cost_per_1m": 1.0125000000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29517,7 +29583,7 @@
     {
       "model_id": "requesty/qwen3.7-max",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.75,
+      "blended_cost_per_1m": 3.375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29538,8 +29604,8 @@
     },
     {
       "model_id": "requesty/qwen3.7-plus",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.56,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.49000000000000005,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29561,7 +29627,7 @@
     {
       "model_id": "requesty/qwen3.8-max",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3,
+      "blended_cost_per_1m": 2.7,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29583,7 +29649,7 @@
     {
       "model_id": "requesty/qwen3.8",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3,
+      "blended_cost_per_1m": 2.7,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29605,7 +29671,7 @@
     {
       "model_id": "requesty/ring-2.6-1t",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 0.765,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29627,7 +29693,7 @@
     {
       "model_id": "requesty/seed-1.8",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.6875,
+      "blended_cost_per_1m": 0.61875,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29649,7 +29715,7 @@
     {
       "model_id": "requesty/seed-2.0-code",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.125,
+      "blended_cost_per_1m": 1.0125000000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29671,7 +29737,7 @@
     {
       "model_id": "requesty/seed-2.0-mini",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "blended_cost_per_1m": 0.1575,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29693,7 +29759,7 @@
     {
       "model_id": "requesty/seed-2.0-pro",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.125,
+      "blended_cost_per_1m": 1.0125000000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29715,7 +29781,7 @@
     {
       "model_id": "requesty/sonar-pro",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 6,
+      "blended_cost_per_1m": 5.4,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29737,7 +29803,7 @@
     {
       "model_id": "requesty/sonar-reasoning-pro",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.5,
+      "blended_cost_per_1m": 3.1500000000000004,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29759,7 +29825,7 @@
     {
       "model_id": "requesty/sonar",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1,
+      "blended_cost_per_1m": 0.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29781,7 +29847,7 @@
     {
       "model_id": "requesty/step-3.7-flash",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.4375,
+      "blended_cost_per_1m": 0.39375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29803,7 +29869,7 @@
     {
       "model_id": "requesty/thinkingcap-qwen3.6-27b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.05,
+      "blended_cost_per_1m": 0.9450000000000001,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29825,7 +29891,7 @@
     {
       "model_id": "requesty/wizardlm-2-8x22b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.62,
+      "blended_cost_per_1m": 0.558,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -30485,7 +30551,7 @@
     {
       "model_id": "vercel/deepseek-v4-pro",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.8,
+      "blended_cost_per_1m": 2,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -31267,7 +31333,7 @@
     {
       "model_id": "vercel/gemma-4-31b-it",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.15250000000000002,
+      "blended_cost_per_1m": 0.16000000000000003,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -33819,7 +33885,7 @@
     {
       "model_id": "vercel/kimi-k2.7-code",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.4075,
+      "blended_cost_per_1m": 1.3525,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -34875,7 +34941,7 @@
     {
       "model_id": "vercel/muse-glimmer-30b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.6375,
+      "blended_cost_per_1m": 0.5,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -35953,7 +36019,7 @@
     {
       "model_id": "vercel/qwen3.6-27b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.725,
+      "blended_cost_per_1m": 1.35,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -36076,9 +36142,9 @@
           "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
         },
         {
-          "model_id": "requesty/grok-4-fast",
-          "name": "xai/grok-4-fast",
-          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
         }
       ]
     },

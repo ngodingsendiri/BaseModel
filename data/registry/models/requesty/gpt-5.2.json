@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gpt-5.2",
   "provider_id": "requesty",
-  "name": "openai-responses/gpt-5.2",
+  "name": "openai/gpt-5.2",
   "description": "The best model for coding and agentic tasks across industries",
   "context_window": 400000,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-20T01:36:08.461Z"
+  "updated_at": "2026-08-21T01:41:06.170Z"
 }

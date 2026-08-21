@@ -1,45 +1,36 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "92959e1",
-  "generated_at": "2026-08-20T01:38:53.535Z",
+  "source_revision": "ecbd9d7",
+  "generated_at": "2026-08-21T01:45:11.501Z",
   "summary": {
-    "added": 7,
+    "added": 3,
     "removed": 0,
-    "status_changed": 5
+    "status_changed": 4
   },
   "added": [
-    "mistral-ai/magistral-medium-latest",
-    "openrouter/glm-latest",
-    "openrouter/ministral-8b",
-    "vercel/s1-free",
-    "vercel/s2-pro-free",
-    "vercel/s2.1-pro-free",
-    "vercel/transcribe-1-free"
+    "openrouter/hy-mt2-1.8b",
+    "openrouter/hy-mt2-30b-a3b",
+    "openrouter/ox-alpha"
   ],
   "removed": [],
   "status_changed": [
     {
-      "model_id": "openrouter/jamba-large-1.7",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
       "model_id": "openrouter/weaver",
+      "from": "discontinued",
+      "to": "active"
+    },
+    {
+      "model_id": "vercel/imagen-4.0-fast-generate-001",
       "from": "active",
       "to": "discontinued"
     },
     {
-      "model_id": "requesty/claude-opus-5-ap-northeast-1",
+      "model_id": "vercel/imagen-4.0-generate-001",
       "from": "active",
       "to": "discontinued"
     },
     {
-      "model_id": "vercel/glm-4.6v-flash",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "vercel/glm-4.6v",
+      "model_id": "vercel/imagen-4.0-ultra-generate-001",
       "from": "active",
       "to": "discontinued"
     }

@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/glm-5.1",
   "provider_id": "requesty",
-  "name": "zai/glm-5.1",
+  "name": "nebius/zai-org/glm-5.1",
   "description": "Compared with GLM-5, GLM-5.1 delivers significant improvements in coding, agentic tool usage, reasoning, role-play, and general chat quality. Besides, GLM-5.1 has outstanding capabilities in long-horizon agentic tasks like CUDA kernel optimization.",
   "context_window": 200000,
   "modality": [
@@ -10,7 +10,7 @@
   "open_weight": false,
   "reasoning_support": true,
   "function_calling": true,
-  "structured_output": false,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -18,9 +18,9 @@
   "is_free": false,
   "tier": "balanced",
   "limits": {
-    "max_input_tokens": 200000
+    "max_input_tokens": 202752
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-20T01:36:08.444Z"
+  "updated_at": "2026-08-21T01:41:06.146Z"
 }

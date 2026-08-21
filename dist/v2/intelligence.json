@@ -1,45 +1,45 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "92959e1",
-  "generated_at": "2026-08-20T01:38:53.535Z",
-  "count": 38,
+  "source_revision": "ecbd9d7",
+  "generated_at": "2026-08-21T01:45:11.501Z",
+  "count": 37,
   "ranking": [
     {
       "model_id": "grok-4-5",
-      "quality_score": 94.38,
+      "quality_score": 94.63,
       "benchmark_count": 1,
       "categories": [
         "code"
       ],
-      "cheapest_offering": "openrouter/grok-4.5",
-      "cheapest_provider": "openrouter",
-      "blended_cost_per_1m": 3,
+      "cheapest_offering": "requesty/grok-4.5",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 2.7,
       "pareto_optimal": true
     },
     {
       "model_id": "claude-fable-5",
-      "quality_score": 94.13,
+      "quality_score": 94.19,
       "benchmark_count": 2,
       "categories": [
         "code",
         "text"
       ],
-      "cheapest_offering": "anthropic/claude-fable-5",
-      "cheapest_provider": "anthropic",
-      "blended_cost_per_1m": 20,
+      "cheapest_offering": "requesty/claude-fable-5",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 18,
       "pareto_optimal": false
     },
     {
       "model_id": "qwen3-8-max",
-      "quality_score": 93.19,
+      "quality_score": 92.63,
       "benchmark_count": 2,
       "categories": [
         "code",
         "text"
       ],
-      "cheapest_offering": "deepinfra/qwen3.8-max",
-      "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 3,
+      "cheapest_offering": "requesty/qwen3.8-max",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 2.7,
       "pareto_optimal": false
     },
     {
@@ -49,9 +49,9 @@
       "categories": [
         "code"
       ],
-      "cheapest_offering": "openrouter/claude-opus-4.8",
-      "cheapest_provider": "openrouter",
-      "blended_cost_per_1m": 10,
+      "cheapest_offering": "requesty/claude-opus-4-8",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 9,
       "pareto_optimal": false
     },
     {
@@ -62,33 +62,33 @@
         "code",
         "text"
       ],
-      "cheapest_offering": "openrouter/claude-opus-4.7",
-      "cheapest_provider": "openrouter",
-      "blended_cost_per_1m": 10,
+      "cheapest_offering": "requesty/claude-opus-4-7",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 9,
       "pareto_optimal": false
     },
     {
       "model_id": "claude-sonnet-4-6",
-      "quality_score": 90.5,
+      "quality_score": 90.38,
       "benchmark_count": 1,
       "categories": [
         "code"
       ],
-      "cheapest_offering": "openrouter/claude-sonnet-4.6",
-      "cheapest_provider": "openrouter",
-      "blended_cost_per_1m": 6,
+      "cheapest_offering": "requesty/claude-sonnet-4-6",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 5.4,
       "pareto_optimal": false
     },
     {
       "model_id": "hy3",
-      "quality_score": 90.25,
+      "quality_score": 89.63,
       "benchmark_count": 1,
       "categories": [
         "code"
       ],
-      "cheapest_offering": "deepinfra/hy3",
-      "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 0.231,
+      "cheapest_offering": "requesty/hy3",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 0.225,
       "pareto_optimal": true
     },
     {
@@ -99,14 +99,14 @@
         "code",
         "text"
       ],
-      "cheapest_offering": "openrouter/claude-opus-4.6",
-      "cheapest_provider": "openrouter",
-      "blended_cost_per_1m": 10,
+      "cheapest_offering": "requesty/claude-opus-4-6",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 9,
       "pareto_optimal": false
     },
     {
       "model_id": "muse-spark-1-1",
-      "quality_score": 89.19,
+      "quality_score": 89.38,
       "benchmark_count": 2,
       "categories": [
         "code",
@@ -138,12 +138,12 @@
       ],
       "cheapest_offering": "requesty/kimi-k2.6",
       "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 1.475,
+      "blended_cost_per_1m": 1.2937500000000002,
       "pareto_optimal": false
     },
     {
       "model_id": "minimax-m3",
-      "quality_score": 86.25,
+      "quality_score": 86.13,
       "benchmark_count": 1,
       "categories": [
         "code"
@@ -167,7 +167,7 @@
     },
     {
       "model_id": "mimo-v2-5-pro",
-      "quality_score": 84.25,
+      "quality_score": 84.5,
       "benchmark_count": 1,
       "categories": [
         "code"
@@ -184,9 +184,9 @@
       "categories": [
         "code"
       ],
-      "cheapest_offering": "deepinfra/kimi-k2.7-code",
-      "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 1.4075,
+      "cheapest_offering": "requesty/kimi-k2.7-code",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 1.2937500000000002,
       "pareto_optimal": false
     },
     {
@@ -209,9 +209,9 @@
         "code",
         "text"
       ],
-      "cheapest_offering": "google/gemini-3.1-pro-preview",
-      "cheapest_provider": "google",
-      "blended_cost_per_1m": 4.5,
+      "cheapest_offering": "requesty/gemini-3.1-pro-preview",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 4.050000000000001,
       "pareto_optimal": false
     },
     {
@@ -233,9 +233,9 @@
       "categories": [
         "code"
       ],
-      "cheapest_offering": "google/gemini-3.5-flash-lite",
-      "cheapest_provider": "google",
-      "blended_cost_per_1m": 0.85,
+      "cheapest_offering": "requesty/gemini-3.5-flash-lite",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 0.765,
       "pareto_optimal": false
     },
     {
@@ -245,9 +245,9 @@
       "categories": [
         "code"
       ],
-      "cheapest_offering": "deepinfra/deepseek-v4-pro",
-      "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 1.8,
+      "cheapest_offering": "requesty/deepseek-v4-pro",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 1.4625,
       "pareto_optimal": false
     },
     {
@@ -263,18 +263,6 @@
       "pareto_optimal": true
     },
     {
-      "model_id": "mimo-v2-5",
-      "quality_score": 79.75,
-      "benchmark_count": 1,
-      "categories": [
-        "code"
-      ],
-      "cheapest_offering": "deepinfra/mimo-v2.5",
-      "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 0.17500000000000002,
-      "pareto_optimal": true
-    },
-    {
       "model_id": "qwen2-5-72b-instruct",
       "quality_score": 47.98,
       "benchmark_count": 7,
@@ -287,7 +275,7 @@
       ],
       "cheapest_offering": "requesty/qwen2.5-72b-instruct",
       "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 0.2725,
+      "blended_cost_per_1m": 0.24525,
       "pareto_optimal": false
     },
     {
@@ -335,7 +323,7 @@
       ],
       "cheapest_offering": "requesty/qwen2.5-coder-32b-instruct",
       "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 0.0925,
+      "blended_cost_per_1m": 0.08324999999999999,
       "pareto_optimal": true
     },
     {
@@ -381,9 +369,9 @@
         "overall",
         "reasoning"
       ],
-      "cheapest_offering": "deepinfra/phi-4",
-      "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 0.08750000000000001,
+      "cheapest_offering": "requesty/phi-4",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 0.07875,
       "pareto_optimal": true
     },
     {
@@ -397,9 +385,9 @@
         "overall",
         "reasoning"
       ],
-      "cheapest_offering": "openrouter/wizardlm-2-8x22b",
-      "cheapest_provider": "openrouter",
-      "blended_cost_per_1m": 0.62,
+      "cheapest_offering": "requesty/wizardlm-2-8x22b",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 0.558,
       "pareto_optimal": false
     },
     {
@@ -413,9 +401,9 @@
         "overall",
         "reasoning"
       ],
-      "cheapest_offering": "openrouter/deepseek-r1-distill-llama-70b",
-      "cheapest_provider": "openrouter",
-      "blended_cost_per_1m": 0.8,
+      "cheapest_offering": "requesty/deepseek-r1-distill-llama-70b",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 0.3105,
       "pareto_optimal": false
     },
     {
@@ -447,7 +435,7 @@
       ],
       "cheapest_offering": "requesty/l3-8b-stheno-v3.2",
       "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 0.05,
+      "blended_cost_per_1m": 0.045,
       "pareto_optimal": true
     },
     {
@@ -495,7 +483,7 @@
       ],
       "cheapest_offering": "requesty/llama-3.1-8b-instruct",
       "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 0.05,
+      "blended_cost_per_1m": 0.045,
       "pareto_optimal": false
     },
     {
