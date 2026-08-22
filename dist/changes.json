@@ -1,36 +1,31 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "ecbd9d7",
-  "generated_at": "2026-08-21T01:45:11.501Z",
+  "source_revision": "df581d8",
+  "generated_at": "2026-08-22T01:38:24.030Z",
   "summary": {
-    "added": 3,
+    "added": 8,
     "removed": 0,
-    "status_changed": 4
+    "status_changed": 2
   },
   "added": [
-    "openrouter/hy-mt2-1.8b",
-    "openrouter/hy-mt2-30b-a3b",
-    "openrouter/ox-alpha"
+    "openrouter/deepseek-v4-flash-vision-exp",
+    "openrouter/inkling-free",
+    "openrouter/inkling-small-free",
+    "openrouter/muse-spark-1.2-contributor",
+    "vercel/deepseek-v4-flash-vision-exp",
+    "vercel/hy-mt2-lite",
+    "vercel/hy-mt2-plus",
+    "vercel/hy-mt2-pro"
   ],
   "removed": [],
   "status_changed": [
     {
-      "model_id": "openrouter/weaver",
-      "from": "discontinued",
-      "to": "active"
-    },
-    {
-      "model_id": "vercel/imagen-4.0-fast-generate-001",
+      "model_id": "openrouter/cogito-v2.1-671b",
       "from": "active",
       "to": "discontinued"
     },
     {
-      "model_id": "vercel/imagen-4.0-generate-001",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "vercel/imagen-4.0-ultra-generate-001",
+      "model_id": "openrouter/gpt-oss-20b-free",
       "from": "active",
       "to": "discontinued"
     }

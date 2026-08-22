@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "ecbd9d7",
-  "generated_at": "2026-08-21T01:45:11.501Z",
-  "count": 1184,
+  "source_revision": "df581d8",
+  "generated_at": "2026-08-22T01:38:24.030Z",
+  "count": 1190,
   "models": [
     {
       "model_id": "aion-2-0",
@@ -4149,7 +4149,7 @@
       "embedding_support": false,
       "context_window": 128000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "cogito-v2.1-671b"
       ],
@@ -4851,8 +4851,7 @@
       "name": "deepseek-ai/DeepSeek-V3.2",
       "description": "DeepSeek-V3.2 is a model that harmonizes high computational efficiency with superior reasoning and agent performance. DeepSeek's approach is built upon three key technical breakthroughs: DeepSeek Sparse Attention (DSA), scalable reinforcement learning framework, and large scale agentic task synthesis pipeline.",
       "modality": [
-        "text",
-        "image"
+        "text"
       ],
       "open_weight": false,
       "reasoning_support": true,
@@ -4860,7 +4859,7 @@
       "structured_output": true,
       "vision_support": false,
       "audio_support": false,
-      "image_generation": true,
+      "image_generation": false,
       "embedding_support": false,
       "context_window": 163840,
       "capability_ids": [],
@@ -5057,15 +5056,15 @@
     },
     {
       "model_id": "deepseek-v4-flash-flex",
-      "name": "doubleword/deepseek-v4-flash:flex",
+      "name": "deepinfra/deepseek-ai/DeepSeek-V4-Flash:flex",
       "description": "DeepSeek V4-Flash is the smaller model in the V4 family, ahead of models like Gemini 3 Flash and Qwen3.5-397B-A17B.",
       "modality": [
         "text"
       ],
       "open_weight": false,
       "reasoning_support": true,
-      "function_calling": false,
-      "structured_output": false,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": false,
       "audio_support": false,
       "image_generation": false,
@@ -5102,6 +5101,33 @@
       ],
       "offering_ids": [
         "openrouter/deepseek-v4-flash-latest"
+      ]
+    },
+    {
+      "model_id": "deepseek-v4-flash-vision-exp",
+      "name": "deepseek/deepseek-v4-flash-vision-exp",
+      "description": "DeepSeek-V4-Flash-Vision-Exp is an experimental multimodal model that combines the agentic reasoning, coding, and world knowledge capabilities of DeepSeek-V4-Flash with advanced visual understanding. It delivers major gains on vision-dependent agent workflows while performing strongly across leading coding, repository, data science, automation, and multimodal benchmarks.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1048576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "deepseek-v4-flash-vision-exp"
+      ],
+      "offering_ids": [
+        "openrouter/deepseek-v4-flash-vision-exp",
+        "vercel/deepseek-v4-flash-vision-exp"
       ]
     },
     {
@@ -5172,15 +5198,15 @@
     },
     {
       "model_id": "deepseek-v4-pro-flex",
-      "name": "doubleword/deepseek-v4-pro:flex",
+      "name": "deepinfra/deepseek-ai/DeepSeek-V4-Pro:flex",
       "description": "DeepSeek V4-Pro is DeepSeek's flagship open-weights MoE model, with performance in the same class as Claude Sonnet 4.6 and stronger overall results than GLM-5.1.",
       "modality": [
         "text"
       ],
       "open_weight": false,
-      "reasoning_support": true,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": false,
       "audio_support": false,
       "image_generation": false,
@@ -8131,7 +8157,7 @@
     },
     {
       "model_id": "gemini-3-1-flash-lite-flex",
-      "name": "vertex/gemini-3.1-flash-lite:flex",
+      "name": "google/gemini-3.1-flash-lite:flex",
       "description": "Gemini 3.1 Flash Lite Preview is the most cost-efficient model in the Gemini family, optimized for high-volume, low-latency tasks. It delivers fast responses with solid quality for everyday use cases including summarization, classification, and simple reasoning.",
       "modality": [
         "text",
@@ -8351,11 +8377,10 @@
         "vercel/gemini-3.1-pro-preview"
       ],
       "quality": {
-        "score": 83.31,
-        "benchmark_count": 2,
+        "score": 80.88,
+        "benchmark_count": 1,
         "categories": [
-          "code",
-          "text"
+          "code"
         ],
         "sources": [
           "mirror"
@@ -8418,7 +8443,7 @@
     },
     {
       "model_id": "gemini-3-1-pro-preview-flex",
-      "name": "vertex/gemini-3.1-pro-preview:flex",
+      "name": "google/gemini-3.1-pro-preview:flex",
       "description": "Gemini 3.1 Pro is the next iteration in the Gemini 3 series of models, a suite of highly capable, natively multimodal reasoning models. As of this model card’s date of publication, Gemini 3.1 Pro is Google’s most advanced model for complex tasks. Geminin 3.1 Pro can comprehend vast datasets and challenging problems from massively multimodal information sources, including text, audio, images, video, and entire code repositories.",
       "modality": [
         "text",
@@ -8527,7 +8552,7 @@
     },
     {
       "model_id": "gemini-3-5-flash-flex",
-      "name": "vertex/gemini-3.5-flash:flex",
+      "name": "google/gemini-3.5-flash:flex",
       "description": "Gemini 3.5 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at sub-agent deployment, multi-step workflows, and long-horizon tasks at scale.",
       "modality": [
         "text",
@@ -8645,7 +8670,7 @@
     },
     {
       "model_id": "gemini-3-5-flash-lite-flex",
-      "name": "vertex/gemini-3.5-flash-lite:flex",
+      "name": "google/gemini-3.5-flash-lite:flex",
       "description": "Gemini 3.5 Flash-Lite is a high efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi agent workflows.",
       "modality": [
         "text",
@@ -8781,7 +8806,7 @@
     },
     {
       "model_id": "gemini-3-6-flash-flex",
-      "name": "vertex/gemini-3.6-flash:flex",
+      "name": "google/gemini-3.6-flash:flex",
       "description": "Gemini 3.6 Flash is the latest Flash model in the Gemini series, delivering frontier level intelligence at high speed and low cost. Built for the agentic era, it excels at sub agent deployment, multi step workflows, and long horizon tasks at scale.",
       "modality": [
         "text",
@@ -9009,7 +9034,7 @@
     },
     {
       "model_id": "gemini-3-flash-preview-flex",
-      "name": "vertex/gemini-3-flash-preview:flex",
+      "name": "google/gemini-3-flash-preview:flex",
       "description": "Gemini 3 Flash Preview is designed to deliver strong agentic capabilities (near-Pro level) at substantial speed and value. Making it perfect for engaging multi-turn chats, and collaborating back and forth with your coding agent without getting out of flow. Compared to 2.5 Flash it delivers significant improvements across the board.",
       "modality": [
         "text",
@@ -10288,20 +10313,20 @@
     },
     {
       "model_id": "glm-5-2-flex",
-      "name": "doubleword/glm-5.2:flex",
+      "name": "deepinfra/glm-5.2:flex",
       "description": "Z.ai's next-generation flagship model for agentic software engineering, with significantly stronger coding capabilities than GLM-5.1.",
       "modality": [
         "text"
       ],
       "open_weight": false,
       "reasoning_support": true,
-      "function_calling": false,
-      "structured_output": false,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": false,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1048576,
+      "context_window": 1000000,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -10738,7 +10763,7 @@
     },
     {
       "model_id": "gpt-4-1-eastus2",
-      "name": "azure/gpt-4.1@eastus2",
+      "name": "azure/openai-responses/gpt-4.1@eastus2",
       "description": "GPT-4.1 is a flagship large language model optimized for advanced instruction following, real-world software engineering, and long-context reasoning. It supports a 1 million token context window and outperforms GPT-4o and GPT-4.5 across coding (54.6% SWE-bench Verified), instruction compliance (87.4% IFEval), and multimodal understanding benchmarks. It is tuned for precise code diffs, agent reliability, and high recall in large document contexts, making it ideal for agents, IDE tooling, and enterprise knowledge retrieval.",
       "modality": [
         "text",
@@ -10894,7 +10919,7 @@
     },
     {
       "model_id": "gpt-4-1-mini-eastus2",
-      "name": "azure/gpt-4.1-mini@eastus2",
+      "name": "azure/openai-responses/gpt-4.1-mini@eastus2",
       "description": "GPT-4.1 Mini is a mid-sized model delivering performance competitive with GPT-4o at substantially lower latency and cost. It retains a 1 million token context window and scores 45.1% on hard instruction evals, 35.8% on MultiChallenge, and 84.1% on IFEval. Mini also shows strong coding ability (e.g., 31.6% on Aider’s polyglot diff benchmark) and vision understanding, making it suitable for interactive applications with tight performance constraints.",
       "modality": [
         "text",
@@ -10998,7 +11023,7 @@
     },
     {
       "model_id": "gpt-4-1-mini-westus3",
-      "name": "azure/gpt-4.1-mini@westus3",
+      "name": "azure/openai-responses/gpt-4.1-mini@westus3",
       "description": "GPT-4.1 Mini is a mid-sized model delivering performance competitive with GPT-4o at substantially lower latency and cost. It retains a 1 million token context window and scores 45.1% on hard instruction evals, 35.8% on MultiChallenge, and 84.1% on IFEval. Mini also shows strong coding ability (e.g., 31.6% on Aider’s polyglot diff benchmark) and vision understanding, making it suitable for interactive applications with tight performance constraints.",
       "modality": [
         "text",
@@ -11102,7 +11127,7 @@
     },
     {
       "model_id": "gpt-4-1-nano-eastus2",
-      "name": "azure/openai-responses/gpt-4.1-nano@eastus2",
+      "name": "azure/gpt-4.1-nano@eastus2",
       "description": "For tasks that demand low latency, GPT‑4.1 nano is the fastest and cheapest model in the GPT-4.1 series. It delivers exceptional performance at a small size with its 1 million token context window, and scores 80.1% on MMLU, 50.3% on GPQA, and 9.8% on Aider polyglot coding – even higher than GPT‑4o mini. It’s ideal for tasks like classification or autocompletion.",
       "modality": [
         "text",
@@ -11154,7 +11179,7 @@
     },
     {
       "model_id": "gpt-4-1-nano-francecentral",
-      "name": "azure/openai-responses/gpt-4.1-nano@francecentral",
+      "name": "azure/gpt-4.1-nano@francecentral",
       "description": "For tasks that demand low latency, GPT‑4.1 nano is the fastest and cheapest model in the GPT-4.1 series. It delivers exceptional performance at a small size with its 1 million token context window, and scores 80.1% on MMLU, 50.3% on GPQA, and 9.8% on Aider polyglot coding – even higher than GPT‑4o mini. It’s ideal for tasks like classification or autocompletion.",
       "modality": [
         "text",
@@ -11180,7 +11205,7 @@
     },
     {
       "model_id": "gpt-4-1-nano-swedencentral",
-      "name": "azure/openai-responses/gpt-4.1-nano@swedencentral",
+      "name": "azure/gpt-4.1-nano@swedencentral",
       "description": "For tasks that demand low latency, GPT‑4.1 nano is the fastest and cheapest model in the GPT-4.1 series. It delivers exceptional performance at a small size with its 1 million token context window, and scores 80.1% on MMLU, 50.3% on GPQA, and 9.8% on Aider polyglot coding – even higher than GPT‑4o mini. It’s ideal for tasks like classification or autocompletion.",
       "modality": [
         "text",
@@ -11258,7 +11283,7 @@
     },
     {
       "model_id": "gpt-4-1-swedencentral",
-      "name": "azure/gpt-4.1@swedencentral",
+      "name": "azure/openai-responses/gpt-4.1@swedencentral",
       "description": "GPT-4.1 is a flagship large language model optimized for advanced instruction following, real-world software engineering, and long-context reasoning. It supports a 1 million token context window and outperforms GPT-4o and GPT-4.5 across coding (54.6% SWE-bench Verified), instruction compliance (87.4% IFEval), and multimodal understanding benchmarks. It is tuned for precise code diffs, agent reliability, and high recall in large document contexts, making it ideal for agents, IDE tooling, and enterprise knowledge retrieval.",
       "modality": [
         "text",
@@ -11310,7 +11335,7 @@
     },
     {
       "model_id": "gpt-4-1-westus3",
-      "name": "azure/openai-responses/gpt-4.1@westus3",
+      "name": "azure/gpt-4.1@westus3",
       "description": "GPT-4.1 is a flagship large language model optimized for advanced instruction following, real-world software engineering, and long-context reasoning. It supports a 1 million token context window and outperforms GPT-4o and GPT-4.5 across coding (54.6% SWE-bench Verified), instruction compliance (87.4% IFEval), and multimodal understanding benchmarks. It is tuned for precise code diffs, agent reliability, and high recall in large document contexts, making it ideal for agents, IDE tooling, and enterprise knowledge retrieval.",
       "modality": [
         "text",
@@ -12314,7 +12339,7 @@
     },
     {
       "model_id": "gpt-5-1-flex",
-      "name": "openai/gpt-5.1:flex",
+      "name": "openai-responses/gpt-5.1:flex",
       "description": "GPT-5 is OpenAI's flagship model for coding, reasoning, and agentic tasks across domains.",
       "modality": [
         "text",
@@ -12705,7 +12730,7 @@
     },
     {
       "model_id": "gpt-5-2-flex",
-      "name": "openai/gpt-5.2:flex",
+      "name": "openai-responses/gpt-5.2:flex",
       "description": "The best model for coding and agentic tasks across industries",
       "modality": [
         "text",
@@ -13095,7 +13120,7 @@
     },
     {
       "model_id": "gpt-5-4-flex",
-      "name": "openai/gpt-5.4:flex",
+      "name": "openai-responses/gpt-5.4:flex",
       "description": "GPT-5.4 is OpenAI's latest frontier model, unifying the Codex and GPT lines into a single system. It features a 1M+ token context window (922K input, 128K output) with support for text and image inputs, enabling high-context reasoning, coding, and multimodal analysis within the same workflow. The model delivers improved performance in coding, document understanding, tool use, and instruction following, capable of generating production-quality code, synthesizing information across multiple sources, and executing complex multi-step workflows with fewer iterations and greater token efficiency.",
       "modality": [
         "text",
@@ -13121,7 +13146,7 @@
     },
     {
       "model_id": "gpt-5-4-francecentral",
-      "name": "azure/openai-responses/gpt-5.4@francecentral",
+      "name": "azure/gpt-5.4@francecentral",
       "description": "GPT-5.4 is OpenAI’s latest frontier model, unifying the Codex and GPT lines into a single system. It features a 1M+ token context window (922K input, 128K output) with support for text and image inputs, enabling high-context reasoning, coding, and multimodal analysis within the same workflow.\n\nThe model delivers improved performance in coding, document understanding, tool use, and instruction following. It is designed as a strong default for both general-purpose tasks and software engineering, capable of generating production-quality code, synthesizing information across multiple sources, and executing complex multi-step workflows with fewer iterations and greater token efficiency.\n",
       "modality": [
         "text",
@@ -13301,7 +13326,7 @@
     },
     {
       "model_id": "gpt-5-4-mini-flex",
-      "name": "openai/gpt-5.4-mini:flex",
+      "name": "openai-responses/gpt-5.4-mini:flex",
       "description": "GPT-5.4 mini brings the core capabilities of GPT-5.4 to a faster, more efficient model optimized for high-throughput workloads. It supports text and image inputs with strong performance across reasoning, coding, and tool use, while reducing latency and cost for large-scale deployments.\n\nThe model is designed for production environments that require a balance of capability and efficiency, making it well suited for chat applications, coding assistants, and agent workflows that operate at scale. GPT-5.4 mini delivers reliable instruction following, solid multi-step reasoning, and consistent performance across diverse tasks with improved cost efficiency.",
       "modality": [
         "text",
@@ -13405,7 +13430,7 @@
     },
     {
       "model_id": "gpt-5-4-nano-flex",
-      "name": "openai/gpt-5.4-nano:flex",
+      "name": "openai-responses/gpt-5.4-nano:flex",
       "description": "GPT-5.4 mini brings the core capabilities of GPT-5.4 to a faster, more efficient model optimized for high-throughput workloads. It supports text and image inputs with strong performance across reasoning, coding, and tool use, while reducing latency and cost for large-scale deployments.\n\nThe model is designed for production environments that require a balance of capability and efficiency, making it well suited for chat applications, coding assistants, and agent workflows that operate at scale. GPT-5.4 mini delivers reliable instruction following, solid multi-step reasoning, and consistent performance across diverse tasks with improved cost efficiency.",
       "modality": [
         "text",
@@ -13769,7 +13794,7 @@
     },
     {
       "model_id": "gpt-5-5-flex",
-      "name": "openai/gpt-5.5:flex",
+      "name": "openai-responses/gpt-5.5:flex",
       "description": "GPT-5.5 is OpenAI's frontier model designed for complex professional workloads, building on GPT-5.4 with stronger reasoning, higher reliability, and improved token efficiency on hard tasks. It features a 1M+ token context window (922K input, 128K output) with support for text and image inputs, enabling large-scale reasoning, coding, and multimodal workflows within a single system.",
       "modality": [
         "text",
@@ -14057,7 +14082,7 @@
     },
     {
       "model_id": "gpt-5-6-luna-flex",
-      "name": "openai/gpt-5.6-luna:flex",
+      "name": "openai-responses/gpt-5.6-luna:flex",
       "description": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series. It is suited for high-volume, latency-sensitive tasks such as chat, classification, and lightweight agentic workflows, providing capable reasoning for its price tier.",
       "modality": [
         "text",
@@ -14133,7 +14158,7 @@
     },
     {
       "model_id": "gpt-5-6-luna-swedencentral",
-      "name": "azure/gpt-5.6-luna@swedencentral",
+      "name": "azure/openai-responses/gpt-5.6-luna@swedencentral",
       "description": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series. It is suited for high-volume, latency-sensitive tasks such as chat, classification, and lightweight agentic workflows, providing capable reasoning for its price tier.",
       "modality": [
         "text",
@@ -14265,7 +14290,7 @@
     },
     {
       "model_id": "gpt-5-6-sol-flex",
-      "name": "openai/gpt-5.6-sol:flex",
+      "name": "openai-responses/gpt-5.6-sol:flex",
       "description": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks and long-horizon problem solving.",
       "modality": [
         "text",
@@ -14421,7 +14446,7 @@
     },
     {
       "model_id": "gpt-5-6-terra-eastus2",
-      "name": "azure/openai-responses/gpt-5.6-terra@eastus2",
+      "name": "azure/gpt-5.6-terra@eastus2",
       "description": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic tasks where capability and cost need to be balanced, offering strong performance at roughly half the cost of Sol.",
       "modality": [
         "text",
@@ -14473,7 +14498,7 @@
     },
     {
       "model_id": "gpt-5-6-terra-flex",
-      "name": "openai/gpt-5.6-terra:flex",
+      "name": "openai-responses/gpt-5.6-terra:flex",
       "description": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic tasks where capability and cost need to be balanced, offering strong performance at roughly half the cost of Sol.",
       "modality": [
         "text",
@@ -14549,7 +14574,7 @@
     },
     {
       "model_id": "gpt-5-6-terra-swedencentral",
-      "name": "azure/openai-responses/gpt-5.6-terra@swedencentral",
+      "name": "azure/gpt-5.6-terra@swedencentral",
       "description": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic tasks where capability and cost need to be balanced, offering strong performance at roughly half the cost of Sol.",
       "modality": [
         "text",
@@ -15954,7 +15979,7 @@
       "embedding_support": false,
       "context_window": 131072,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gpt-oss-20b-free"
       ],
@@ -17452,6 +17477,81 @@
       ]
     },
     {
+      "model_id": "hy-mt2-lite",
+      "name": "Tencent Hy-MT2-Lite",
+      "description": "Hy-MT2-Lite is Tencent Cloud Hunyuan’s lightweight 1.8B translation model, combining efficient performance with an 8K-token context window and broad multilingual coverage. It supports translation across 33 languages and five ethnic Chinese and dialect variants, delivering strong results on benchmarks including FLORES-200 and WMT25. Designed for professional and real-world business use, it reliably follows instructions for structured, delimiter-preserving, context-aware, glossary-guided, and style-specific translation.",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 8000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "hy-mt2-lite"
+      ],
+      "offering_ids": [
+        "vercel/hy-mt2-lite"
+      ]
+    },
+    {
+      "model_id": "hy-mt2-plus",
+      "name": "Tencent Hy-MT2-Plus",
+      "description": "Hy-MT2-Plus is Tencent Cloud Hunyuan’s 7B translation model, offering an 8K-token context window and broad multilingual coverage. Optimized for translation across 33 languages and five ethnic Chinese and dialect variants, it delivers industry-leading performance on benchmarks including FLORES-200 and WMT25. It excels in professional domains and real-world business scenarios, with strong instruction-following for structured, delimiter-preserving, context-aware, glossary-guided, and style-specific translation.",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 8000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "hy-mt2-plus"
+      ],
+      "offering_ids": [
+        "vercel/hy-mt2-plus"
+      ]
+    },
+    {
+      "model_id": "hy-mt2-pro",
+      "name": "Tencent Hy-MT2-Pro",
+      "description": "Hy-MT2-Pro is Tencent Cloud Hunyuan’s flagship translation model, featuring 30B-A3B parameters and an 8K-token context window. It delivers bidirectional translation across 33 core language pairs, plus five minority-language and dialect pairs. With industry-leading performance on FLORES-200 and WMT25, it excels in specialized domains and real-world business scenarios while supporting structured, contextual, terminology-aware, style-specific, and delimiter-preserving translation.",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 8000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "hy-mt2-pro"
+      ],
+      "offering_ids": [
+        "vercel/hy-mt2-pro"
+      ]
+    },
+    {
       "model_id": "hy3",
       "name": "tencent/Hy3",
       "description": "Hy3 is built for real world business scenarios with a 295B total, 21B active MoE architecture, native 256K context support, and three reasoning modes. It enhances coding, long form comprehension, multi turn dialogue, and agentic task execution, balancing reliability, efficiency, and cost across high frequency interactions and complex workflows.",
@@ -17675,6 +17775,30 @@
       ]
     },
     {
+      "model_id": "inkling-free",
+      "name": "thinkingmachines/inkling:free",
+      "modality": [
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 262144,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "inkling-free"
+      ],
+      "offering_ids": [
+        "openrouter/inkling-free"
+      ]
+    },
+    {
       "model_id": "inkling-small",
       "name": "thinkingmachines/Inkling-Small",
       "description": "Inkling-Small is a lighter-weight model with 12B active parameters, trained with a similar recipe, to Inkling that achieves strong performance with even lower cost and latency.",
@@ -17701,6 +17825,30 @@
         "deepinfra/inkling-small",
         "openrouter/inkling-small",
         "vercel/inkling-small"
+      ]
+    },
+    {
+      "model_id": "inkling-small-free",
+      "name": "thinkingmachines/inkling-small:free",
+      "modality": [
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 262144,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "inkling-small-free"
+      ],
+      "offering_ids": [
+        "openrouter/inkling-small-free"
       ]
     },
     {
@@ -19059,7 +19207,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 128000,
+      "context_window": 65536,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -22033,7 +22181,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 256000,
+      "context_window": 131072,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -22405,7 +22553,7 @@
     },
     {
       "model_id": "muse-spark-1-2-contributor",
-      "name": "Muse Spark 1.2 Contributor",
+      "name": "meta/muse-spark-1.2-contributor",
       "description": "A coding-optimized model with pricing designed for builders. Same model, same capabilities — up to 95% less than Standard. Your inputs and outputs are used to train and improve Meta's AI models.",
       "modality": [
         "text",
@@ -22426,6 +22574,7 @@
         "muse-spark-1.2-contributor"
       ],
       "offering_ids": [
+        "openrouter/muse-spark-1.2-contributor",
         "vercel/muse-spark-1.2-contributor"
       ]
     },
@@ -22892,7 +23041,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1000000,
+      "context_window": 1048576,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -22943,7 +23092,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1000000,
+      "context_window": 1048576,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -26660,11 +26809,10 @@
         "vercel/qwen3.8-max"
       ],
       "quality": {
-        "score": 92.63,
-        "benchmark_count": 2,
+        "score": 100,
+        "benchmark_count": 1,
         "categories": [
-          "code",
-          "text"
+          "code"
         ],
         "sources": [
           "mirror"
@@ -27069,14 +27217,13 @@
       "name": "Qwen/Qwen3-Max",
       "description": "This is the best-performing model in the Qwen series. It is ideal for complex, multi-step tasks.",
       "modality": [
-        "text",
-        "image"
+        "text"
       ],
       "open_weight": false,
       "reasoning_support": false,
       "function_calling": true,
       "structured_output": true,
-      "vision_support": true,
+      "vision_support": false,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,

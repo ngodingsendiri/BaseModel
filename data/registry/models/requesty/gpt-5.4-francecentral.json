@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gpt-5.4-francecentral",
   "provider_id": "requesty",
-  "name": "azure/openai-responses/gpt-5.4@francecentral",
+  "name": "azure/gpt-5.4@francecentral",
   "description": "GPT-5.4 is OpenAI’s latest frontier model, unifying the Codex and GPT lines into a single system. It features a 1M+ token context window (922K input, 128K output) with support for text and image inputs, enabling high-context reasoning, coding, and multimodal analysis within the same workflow.\n\nThe model delivers improved performance in coding, document understanding, tool use, and instruction following. It is designed as a strong default for both general-purpose tasks and software engineering, capable of generating production-quality code, synthesizing information across multiple sources, and executing complex multi-step workflows with fewer iterations and greater token efficiency.\n",
   "context_window": 1050000,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-21T01:41:06.173Z"
+  "updated_at": "2026-08-22T01:35:23.254Z"
 }

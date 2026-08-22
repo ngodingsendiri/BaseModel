@@ -2,7 +2,7 @@
   "model_id": "openrouter/mistral-small-3.2-24b-instruct",
   "provider_id": "openrouter",
   "name": "mistralai/mistral-small-3.2-24b-instruct",
-  "context_window": 256000,
+  "context_window": 131072,
   "modality": [
     "text"
   ],
@@ -17,9 +17,9 @@
   "is_free": false,
   "tier": "budget",
   "limits": {
-    "max_input_tokens": 256000
+    "max_input_tokens": 131072
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-21T01:41:06.013Z"
+  "updated_at": "2026-08-22T01:35:23.092Z"
 }

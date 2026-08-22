@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gemini-3.5-flash-flex",
   "provider_id": "requesty",
-  "name": "vertex/gemini-3.5-flash:flex",
+  "name": "google/gemini-3.5-flash:flex",
   "description": "Gemini 3.5 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at sub-agent deployment, multi-step workflows, and long-horizon tasks at scale.",
   "context_window": 1048576,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-21T01:41:06.137Z"
+  "updated_at": "2026-08-22T01:35:23.220Z"
 }

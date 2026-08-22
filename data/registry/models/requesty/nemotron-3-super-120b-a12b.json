@@ -1,26 +1,26 @@
 {
   "model_id": "requesty/nemotron-3-super-120b-a12b",
   "provider_id": "requesty",
-  "name": "nebius/nvidia/nemotron-3-super-120b-a12b",
+  "name": "nvidia/nemotron-3-super-120b-a12b",
   "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid Mamba-Transformer MoE model activating just 12B parameters, with multi-token prediction for high throughput. 1M token context for long-horizon agent coherence, cross-document reasoning, and multi-step planning. Strong on AIME 2025, TerminalBench, and SWE-Bench Verified. Part of the NVIDIA Nemotron family.",
-  "context_window": 128000,
+  "context_window": 1048576,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": true,
   "function_calling": true,
-  "structured_output": true,
+  "structured_output": false,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "is_free": false,
-  "tier": "budget",
+  "is_free": true,
+  "tier": "free",
   "limits": {
-    "max_input_tokens": 128000
+    "max_input_tokens": 1048576
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-21T01:41:06.214Z"
+  "updated_at": "2026-08-22T01:35:23.297Z"
 }

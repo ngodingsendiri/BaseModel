@@ -1,9 +1,21 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "ecbd9d7",
-  "generated_at": "2026-08-21T01:45:11.501Z",
+  "source_revision": "df581d8",
+  "generated_at": "2026-08-22T01:38:24.030Z",
   "count": 37,
   "ranking": [
+    {
+      "model_id": "qwen3-8-max",
+      "quality_score": 100,
+      "benchmark_count": 1,
+      "categories": [
+        "code"
+      ],
+      "cheapest_offering": "requesty/qwen3.8-max",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 2.7,
+      "pareto_optimal": true
+    },
     {
       "model_id": "grok-4-5",
       "quality_score": 94.63,
@@ -14,7 +26,7 @@
       "cheapest_offering": "requesty/grok-4.5",
       "cheapest_provider": "requesty",
       "blended_cost_per_1m": 2.7,
-      "pareto_optimal": true
+      "pareto_optimal": false
     },
     {
       "model_id": "claude-fable-5",
@@ -27,19 +39,6 @@
       "cheapest_offering": "requesty/claude-fable-5",
       "cheapest_provider": "requesty",
       "blended_cost_per_1m": 18,
-      "pareto_optimal": false
-    },
-    {
-      "model_id": "qwen3-8-max",
-      "quality_score": 92.63,
-      "benchmark_count": 2,
-      "categories": [
-        "code",
-        "text"
-      ],
-      "cheapest_offering": "requesty/qwen3.8-max",
-      "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 2.7,
       "pareto_optimal": false
     },
     {
@@ -136,9 +135,9 @@
       "categories": [
         "code"
       ],
-      "cheapest_offering": "requesty/kimi-k2.6",
-      "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 1.2937500000000002,
+      "cheapest_offering": "deepinfra/kimi-k2.6",
+      "cheapest_provider": "deepinfra",
+      "blended_cost_per_1m": 1.01075,
       "pareto_optimal": false
     },
     {
@@ -148,9 +147,9 @@
       "categories": [
         "code"
       ],
-      "cheapest_offering": "deepinfra/minimax-m3",
-      "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 0.5249999999999999,
+      "cheapest_offering": "requesty/minimax-m3",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 0.47250000000000003,
       "pareto_optimal": false
     },
     {
@@ -184,9 +183,9 @@
       "categories": [
         "code"
       ],
-      "cheapest_offering": "requesty/kimi-k2.7-code",
-      "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 1.2937500000000002,
+      "cheapest_offering": "deepinfra/kimi-k2.7-code",
+      "cheapest_provider": "deepinfra",
+      "blended_cost_per_1m": 1.3525,
       "pareto_optimal": false
     },
     {
@@ -200,19 +199,6 @@
       "cheapest_provider": "anthropic",
       "blended_cost_per_1m": 0,
       "pareto_optimal": true
-    },
-    {
-      "model_id": "gemini-3-1-pro-preview",
-      "quality_score": 83.31,
-      "benchmark_count": 2,
-      "categories": [
-        "code",
-        "text"
-      ],
-      "cheapest_offering": "requesty/gemini-3.1-pro-preview",
-      "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 4.050000000000001,
-      "pareto_optimal": false
     },
     {
       "model_id": "qwen3-6-plus",
@@ -239,15 +225,27 @@
       "pareto_optimal": false
     },
     {
+      "model_id": "gemini-3-1-pro-preview",
+      "quality_score": 80.88,
+      "benchmark_count": 1,
+      "categories": [
+        "code"
+      ],
+      "cheapest_offering": "requesty/gemini-3.1-pro-preview",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 4.050000000000001,
+      "pareto_optimal": false
+    },
+    {
       "model_id": "deepseek-v4-pro",
       "quality_score": 80.75,
       "benchmark_count": 1,
       "categories": [
         "code"
       ],
-      "cheapest_offering": "requesty/deepseek-v4-pro",
-      "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 1.4625,
+      "cheapest_offering": "deepinfra/deepseek-v4-pro",
+      "cheapest_provider": "deepinfra",
+      "blended_cost_per_1m": 0.665,
       "pareto_optimal": false
     },
     {

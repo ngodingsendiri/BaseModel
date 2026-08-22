@@ -1,0 +1,26 @@
+{
+  "model_id": "openrouter/deepseek-v4-flash-vision-exp",
+  "provider_id": "openrouter",
+  "name": "deepseek/deepseek-v4-flash-vision-exp",
+  "context_window": 1048576,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-22T01:35:23.002Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 1048576
+  }
+}

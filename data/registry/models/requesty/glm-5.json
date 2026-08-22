@@ -18,9 +18,9 @@
   "is_free": false,
   "tier": "balanced",
   "limits": {
-    "max_input_tokens": 202800
+    "max_input_tokens": 200000
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-21T01:41:06.148Z"
+  "updated_at": "2026-08-22T01:35:23.230Z"
 }
