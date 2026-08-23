@@ -1,24 +1,24 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "df581d8",
-  "generated_at": "2026-08-22T01:38:24.030Z",
+  "source_revision": "0ca8fb8",
+  "generated_at": "2026-08-23T01:46:46.642Z",
   "count": 37,
   "ranking": [
     {
-      "model_id": "qwen3-8-max",
-      "quality_score": 100,
+      "model_id": "qwen3-8-27b",
+      "quality_score": 99.38,
       "benchmark_count": 1,
       "categories": [
         "code"
       ],
-      "cheapest_offering": "requesty/qwen3.8-max",
-      "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 2.7,
+      "cheapest_offering": "deepinfra/qwen3.8-27b",
+      "cheapest_provider": "deepinfra",
+      "blended_cost_per_1m": 1.05,
       "pareto_optimal": true
     },
     {
       "model_id": "grok-4-5",
-      "quality_score": 94.63,
+      "quality_score": 94.5,
       "benchmark_count": 1,
       "categories": [
         "code"
@@ -30,7 +30,7 @@
     },
     {
       "model_id": "claude-fable-5",
-      "quality_score": 94.19,
+      "quality_score": 94.25,
       "benchmark_count": 2,
       "categories": [
         "code",
@@ -39,6 +39,19 @@
       "cheapest_offering": "requesty/claude-fable-5",
       "cheapest_provider": "requesty",
       "blended_cost_per_1m": 18,
+      "pareto_optimal": false
+    },
+    {
+      "model_id": "qwen3-8-max",
+      "quality_score": 92.56,
+      "benchmark_count": 2,
+      "categories": [
+        "code",
+        "text"
+      ],
+      "cheapest_offering": "requesty/qwen3.8-max",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 2.7,
       "pareto_optimal": false
     },
     {
@@ -68,7 +81,7 @@
     },
     {
       "model_id": "claude-sonnet-4-6",
-      "quality_score": 90.38,
+      "quality_score": 90.25,
       "benchmark_count": 1,
       "categories": [
         "code"
@@ -80,7 +93,7 @@
     },
     {
       "model_id": "hy3",
-      "quality_score": 89.63,
+      "quality_score": 89.75,
       "benchmark_count": 1,
       "categories": [
         "code"
@@ -92,7 +105,7 @@
     },
     {
       "model_id": "claude-opus-4-6",
-      "quality_score": 89.63,
+      "quality_score": 89.56,
       "benchmark_count": 2,
       "categories": [
         "code",
@@ -118,7 +131,7 @@
     },
     {
       "model_id": "glm-5-1",
-      "quality_score": 88.75,
+      "quality_score": 88.63,
       "benchmark_count": 1,
       "categories": [
         "code"
@@ -135,14 +148,14 @@
       "categories": [
         "code"
       ],
-      "cheapest_offering": "deepinfra/kimi-k2.6",
-      "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 1.01075,
+      "cheapest_offering": "requesty/kimi-k2.6",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 1.54125,
       "pareto_optimal": false
     },
     {
       "model_id": "minimax-m3",
-      "quality_score": 86.13,
+      "quality_score": 86,
       "benchmark_count": 1,
       "categories": [
         "code"
@@ -201,6 +214,19 @@
       "pareto_optimal": true
     },
     {
+      "model_id": "gemini-3-1-pro-preview",
+      "quality_score": 83.25,
+      "benchmark_count": 2,
+      "categories": [
+        "code",
+        "text"
+      ],
+      "cheapest_offering": "requesty/gemini-3.1-pro-preview",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 4.050000000000001,
+      "pareto_optimal": false
+    },
+    {
       "model_id": "qwen3-6-plus",
       "quality_score": 82.5,
       "benchmark_count": 1,
@@ -225,40 +251,16 @@
       "pareto_optimal": false
     },
     {
-      "model_id": "gemini-3-1-pro-preview",
-      "quality_score": 80.88,
-      "benchmark_count": 1,
-      "categories": [
-        "code"
-      ],
-      "cheapest_offering": "requesty/gemini-3.1-pro-preview",
-      "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 4.050000000000001,
-      "pareto_optimal": false
-    },
-    {
       "model_id": "deepseek-v4-pro",
-      "quality_score": 80.75,
+      "quality_score": 80.63,
       "benchmark_count": 1,
       "categories": [
         "code"
       ],
       "cheapest_offering": "deepinfra/deepseek-v4-pro",
       "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 0.665,
+      "blended_cost_per_1m": 0.5175,
       "pareto_optimal": false
-    },
-    {
-      "model_id": "gemini-3-flash",
-      "quality_score": 79.75,
-      "benchmark_count": 1,
-      "categories": [
-        "code"
-      ],
-      "cheapest_offering": "vercel/gemini-3-flash",
-      "cheapest_provider": "vercel",
-      "blended_cost_per_1m": 0,
-      "pareto_optimal": true
     },
     {
       "model_id": "qwen2-5-72b-instruct",
@@ -401,7 +403,7 @@
       ],
       "cheapest_offering": "requesty/deepseek-r1-distill-llama-70b",
       "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 0.3105,
+      "blended_cost_per_1m": 0.72,
       "pareto_optimal": false
     },
     {

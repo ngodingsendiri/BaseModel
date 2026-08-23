@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/o4-mini",
   "provider_id": "requesty",
-  "name": "openai-responses/o4-mini",
+  "name": "openai/o4-mini",
   "description": "o4-mini is OpenAI's most recent small reasoning model, providing high intelligence at the same cost and latency targets of o1-mini. o3-mini also supports key developer features, like Structured Outputs, function calling, Batch API, and more. Like other models in the o-series, it is designed to excel at science, math, and coding tasks.",
   "context_window": 200000,
   "modality": [
@@ -22,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-22T01:35:23.307Z"
+  "updated_at": "2026-08-23T01:44:12.328Z"
 }

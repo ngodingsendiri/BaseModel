@@ -1,9 +1,9 @@
 {
   "model_id": "requesty/glm-5",
   "provider_id": "requesty",
-  "name": "novita/GLM-5",
+  "name": "zai/GLM-5",
   "description": "GLM-5 is Zai’s new-generation flagship foundation model, designed for Agentic Engineering, capable of providing reliable productivity in complex system engineering and long-range Agent tasks. In terms of Coding and Agent capabilities, GLM-5 has achieved state-of-the-art (SOTA) performance in open source, with its usability in real programming scenarios approaching that of Claude Opus 4.5.",
-  "context_window": 202800,
+  "context_window": 200000,
   "modality": [
     "text"
   ],
@@ -18,9 +18,9 @@
   "is_free": false,
   "tier": "balanced",
   "limits": {
-    "max_input_tokens": 200000
+    "max_input_tokens": 202800
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-22T01:35:23.230Z"
+  "updated_at": "2026-08-23T01:44:12.245Z"
 }

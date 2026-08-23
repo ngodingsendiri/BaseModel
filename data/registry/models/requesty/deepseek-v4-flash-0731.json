@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/deepseek-v4-flash-0731",
   "provider_id": "requesty",
-  "name": "novita/deepseek/deepseek-v4-flash-0731",
+  "name": "sference/deepseek-v4-flash-0731",
   "description": "DeepSeek V4 Flash is an efficiency-focused MoE model with 284B total parameters (13B active) and a 1M-token context window. It's tuned for fast inference and high-throughput use cases while still holding up on reasoning and coding tasks.",
   "context_window": 1048576,
   "modality": [
@@ -16,11 +16,11 @@
   "image_generation": false,
   "embedding_support": false,
   "is_free": false,
-  "tier": "balanced",
+  "tier": "budget",
   "limits": {
     "max_input_tokens": 1000000
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-22T01:35:23.191Z"
+  "updated_at": "2026-08-23T01:44:12.198Z"
 }

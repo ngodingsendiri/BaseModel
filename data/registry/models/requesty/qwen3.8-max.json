@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/qwen3.8-max",
   "provider_id": "requesty",
-  "name": "novita/qwen/qwen3.8-max",
+  "name": "fireworks/qwen3.8-max",
   "description": "A 2.4T-parameter MoE flagship for coding and knowledge work. Programs autonomously for days to deliver complete projects end to end, with native visual understanding across planning, execution, and verification, plus deep semantic analysis of ultra-long documents and video.",
   "context_window": 1000000,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-22T01:35:23.322Z"
+  "updated_at": "2026-08-23T01:44:12.346Z"
 }

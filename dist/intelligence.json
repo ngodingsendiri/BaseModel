@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "df581d8",
-  "generated_at": "2026-08-22T01:38:24.030Z",
-  "count": 1727,
+  "source_revision": "0ca8fb8",
+  "generated_at": "2026-08-23T01:46:46.642Z",
+  "count": 1728,
   "intelligence": [
     {
       "model_id": "anthropic/claude-3-5-haiku",
@@ -315,7 +315,7 @@
     {
       "model_id": "cerebras/gpt-oss-120b",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.065,
+      "blended_cost_per_1m": 0.07025,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -1085,7 +1085,7 @@
     {
       "model_id": "deepinfra/deepseek-v4-flash",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.09625,
+      "blended_cost_per_1m": 0.06775,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -1107,7 +1107,7 @@
     {
       "model_id": "deepinfra/deepseek-v4-pro-0813",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.782,
+      "blended_cost_per_1m": 1.6830000000000003,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -1129,7 +1129,7 @@
     {
       "model_id": "deepinfra/deepseek-v4-pro",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.665,
+      "blended_cost_per_1m": 0.5175,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -2075,7 +2075,7 @@
     {
       "model_id": "deepinfra/gpt-oss-120b",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.065,
+      "blended_cost_per_1m": 0.07025,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -2273,7 +2273,7 @@
     {
       "model_id": "deepinfra/inkling",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.7249999999999999,
+      "blended_cost_per_1m": 1.7625,
       "alternatives": [
         {
           "model_id": "google/gemini-2.5-flash-lite",
@@ -2317,7 +2317,7 @@
     {
       "model_id": "deepinfra/kimi-k2.6",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.01075,
+      "blended_cost_per_1m": 1.7125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -2911,7 +2911,7 @@
     {
       "model_id": "deepinfra/muse-glimmer-30b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.5,
+      "blended_cost_per_1m": 0.6375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -3439,7 +3439,7 @@
     {
       "model_id": "deepinfra/qwen3-30b-a3b",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.2275,
+      "blended_cost_per_1m": 0.215,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -3659,7 +3659,7 @@
     {
       "model_id": "deepinfra/qwen3-next-80b-a3b-instruct",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.3425,
+      "blended_cost_per_1m": 0.35000000000000003,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -3967,7 +3967,7 @@
     {
       "model_id": "deepinfra/qwen3.8-27b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.1375000000000002,
+      "blended_cost_per_1m": 1.05,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -5947,7 +5947,7 @@
     {
       "model_id": "groq/gpt-oss-120b",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.065,
+      "blended_cost_per_1m": 0.07025,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -11447,7 +11447,7 @@
     {
       "model_id": "openrouter/deepseek-v4-flash-latest",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.09375,
+      "blended_cost_per_1m": 0.08,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -11468,8 +11468,8 @@
     },
     {
       "model_id": "openrouter/deepseek-v4-flash-vision-exp",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.66,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.33,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -11491,7 +11491,7 @@
     {
       "model_id": "openrouter/deepseek-v4-flash",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.09625,
+      "blended_cost_per_1m": 0.06775,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -11513,7 +11513,7 @@
     {
       "model_id": "openrouter/deepseek-v4-pro-0813",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.782,
+      "blended_cost_per_1m": 1.6830000000000003,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -11535,7 +11535,7 @@
     {
       "model_id": "openrouter/deepseek-v4-pro",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.665,
+      "blended_cost_per_1m": 0.5175,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -14681,7 +14681,7 @@
     {
       "model_id": "openrouter/gpt-oss-120b",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.065,
+      "blended_cost_per_1m": 0.07025,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -15253,7 +15253,7 @@
     {
       "model_id": "openrouter/inkling",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.7249999999999999,
+      "blended_cost_per_1m": 1.7625,
       "alternatives": [
         {
           "model_id": "google/gemini-2.5-flash-lite",
@@ -15429,7 +15429,7 @@
     {
       "model_id": "openrouter/kimi-k2.6",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.01075,
+      "blended_cost_per_1m": 1.7125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -16777,7 +16777,7 @@
     {
       "model_id": "openrouter/muse-glimmer-30b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.5,
+      "blended_cost_per_1m": 0.6375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -18119,7 +18119,7 @@
     {
       "model_id": "openrouter/qwen3-30b-a3b",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.2275,
+      "blended_cost_per_1m": 0.215,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -18319,7 +18319,7 @@
     {
       "model_id": "openrouter/qwen3-next-80b-a3b-instruct",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.3425,
+      "blended_cost_per_1m": 0.35000000000000003,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -18891,7 +18891,7 @@
     {
       "model_id": "openrouter/qwen3.8-27b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.1375000000000002,
+      "blended_cost_per_1m": 1.05,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21794,8 +21794,8 @@
     },
     {
       "model_id": "requesty/deepseek-r1-distill-llama-70b",
-      "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.3105,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.72,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21839,7 +21839,7 @@
     {
       "model_id": "requesty/deepseek-r1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.13625,
+      "blended_cost_per_1m": 3.6,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22006,16 +22006,16 @@
           "reason": "Alternative from the same provider with larger context window (2000000)"
         },
         {
-          "model_id": "requesty/grok-4-fast",
-          "name": "xai/grok-4-fast",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Cross-provider alternative from vercel with larger context window (2000000)"
         }
       ]
     },
     {
       "model_id": "requesty/deepseek-v3",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.77625,
+      "blended_cost_per_1m": 0.801,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22058,8 +22058,8 @@
     },
     {
       "model_id": "requesty/deepseek-v4-flash-0731",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.5940000000000001,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.1575,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22081,7 +22081,7 @@
     {
       "model_id": "requesty/deepseek-v4-flash-flex",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.1125,
+      "blended_cost_per_1m": 0.08125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -22147,7 +22147,7 @@
     {
       "model_id": "requesty/deepseek-v4-pro-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.5030000000000001,
+      "blended_cost_per_1m": 1.1700000000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -23951,7 +23951,7 @@
     {
       "model_id": "requesty/gemma-4-26b-a4b-it",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.12375,
+      "blended_cost_per_1m": 0.17775000000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -24193,7 +24193,7 @@
     {
       "model_id": "requesty/glm-5.2-flex",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.45125,
+      "blended_cost_per_1m": 0.837,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25821,7 +25821,7 @@
     {
       "model_id": "requesty/gpt-5.4-swedencentral",
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 5.56875,
+      "blended_cost_per_1m": 5.0625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27009,7 +27009,7 @@
     {
       "model_id": "requesty/kimi-k2.5",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.08,
+      "blended_cost_per_1m": 0.81,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27427,7 +27427,7 @@
     {
       "model_id": "requesty/llama-3.3-70b-instruct",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.24525,
+      "blended_cost_per_1m": 0.351,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27823,7 +27823,7 @@
     {
       "model_id": "requesty/minimax-m2.5",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.4365,
+      "blended_cost_per_1m": 0.47250000000000003,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28086,8 +28086,8 @@
     },
     {
       "model_id": "requesty/muse-glimmer-30b",
-      "cost_tier": "Free",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.57375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28152,8 +28152,8 @@
     },
     {
       "model_id": "requesty/nemotron-3-nano-30b-a3b",
-      "cost_tier": "Free",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.07875,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29275,7 +29275,7 @@
     {
       "model_id": "requesty/qwen3-30b-a3b-instruct-2507",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.315,
+      "blended_cost_per_1m": 0.135,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -29627,7 +29627,7 @@
     {
       "model_id": "requesty/qwen3.5-397b-a17b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.1407500000000002,
+      "blended_cost_per_1m": 1.215,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -30594,8 +30594,8 @@
     },
     {
       "model_id": "vercel/deepseek-v4-flash-vision-exp",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.66,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.33,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -30617,7 +30617,7 @@
     {
       "model_id": "vercel/deepseek-v4-flash",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.09625,
+      "blended_cost_per_1m": 0.06775,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -30639,7 +30639,7 @@
     {
       "model_id": "vercel/deepseek-v4-pro-0813",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.782,
+      "blended_cost_per_1m": 1.6830000000000003,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -30661,7 +30661,7 @@
     {
       "model_id": "vercel/deepseek-v4-pro",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.665,
+      "blended_cost_per_1m": 0.5175,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -33005,7 +33005,7 @@
     {
       "model_id": "vercel/gpt-oss-120b",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.065,
+      "blended_cost_per_1m": 0.07025,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -33841,7 +33841,7 @@
     {
       "model_id": "vercel/inkling",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.7249999999999999,
+      "blended_cost_per_1m": 1.7625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -34017,7 +34017,7 @@
     {
       "model_id": "vercel/kimi-k2.6",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.01075,
+      "blended_cost_per_1m": 1.7125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -35117,7 +35117,7 @@
     {
       "model_id": "vercel/muse-glimmer-30b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.5,
+      "blended_cost_per_1m": 0.6375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -35272,6 +35272,28 @@
       "model_id": "vercel/nemotron-3-ultra-550b-a55b",
       "cost_tier": "Balanced",
       "blended_cost_per_1m": 1.35,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-fast",
+          "name": "xai/grok-4-fast",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "vercel/nemotron-3.5-lightning-free",
+      "cost_tier": "Free",
+      "blended_cost_per_1m": 0,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -36041,7 +36063,7 @@
     {
       "model_id": "vercel/qwen3-next-80b-a3b-instruct",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.3425,
+      "blended_cost_per_1m": 0.35000000000000003,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -36327,7 +36349,7 @@
     {
       "model_id": "vercel/qwen3.8-27b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.1375000000000002,
+      "blended_cost_per_1m": 1.05,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",

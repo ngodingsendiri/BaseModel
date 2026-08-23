@@ -1,33 +1,15 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "df581d8",
-  "generated_at": "2026-08-22T01:38:24.030Z",
+  "source_revision": "0ca8fb8",
+  "generated_at": "2026-08-23T01:46:46.642Z",
   "summary": {
-    "added": 8,
+    "added": 1,
     "removed": 0,
-    "status_changed": 2
+    "status_changed": 0
   },
   "added": [
-    "openrouter/deepseek-v4-flash-vision-exp",
-    "openrouter/inkling-free",
-    "openrouter/inkling-small-free",
-    "openrouter/muse-spark-1.2-contributor",
-    "vercel/deepseek-v4-flash-vision-exp",
-    "vercel/hy-mt2-lite",
-    "vercel/hy-mt2-plus",
-    "vercel/hy-mt2-pro"
+    "vercel/nemotron-3.5-lightning-free"
   ],
   "removed": [],
-  "status_changed": [
-    {
-      "model_id": "openrouter/cogito-v2.1-671b",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-oss-20b-free",
-      "from": "active",
-      "to": "discontinued"
-    }
-  ]
+  "status_changed": []
 }
