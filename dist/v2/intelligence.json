@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "0ca8fb8",
-  "generated_at": "2026-08-23T01:46:46.642Z",
+  "source_revision": "7217cbc",
+  "generated_at": "2026-08-24T01:44:12.442Z",
   "count": 37,
   "ranking": [
     {
@@ -162,7 +162,7 @@
       ],
       "cheapest_offering": "requesty/minimax-m3",
       "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 0.47250000000000003,
+      "blended_cost_per_1m": 0.42,
       "pareto_optimal": false
     },
     {
@@ -184,9 +184,9 @@
       "categories": [
         "code"
       ],
-      "cheapest_offering": "deepinfra/mimo-v2.5-pro",
-      "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 0.54375,
+      "cheapest_offering": "requesty/mimo-v2.5-pro",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 0.489,
       "pareto_optimal": false
     },
     {
@@ -196,9 +196,9 @@
       "categories": [
         "code"
       ],
-      "cheapest_offering": "deepinfra/kimi-k2.7-code",
-      "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 1.3525,
+      "cheapest_offering": "requesty/kimi-k2.7-code",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 1.2937500000000002,
       "pareto_optimal": false
     },
     {
@@ -259,7 +259,7 @@
       ],
       "cheapest_offering": "deepinfra/deepseek-v4-pro",
       "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 0.5175,
+      "blended_cost_per_1m": 0.6487499999999999,
       "pareto_optimal": false
     },
     {

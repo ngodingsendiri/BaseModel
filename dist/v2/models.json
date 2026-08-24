@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "0ca8fb8",
-  "generated_at": "2026-08-23T01:46:46.642Z",
-  "count": 1190,
+  "source_revision": "7217cbc",
+  "generated_at": "2026-08-24T01:44:12.442Z",
+  "count": 1191,
   "models": [
     {
       "model_id": "aion-2-0",
@@ -17466,6 +17466,30 @@
       ],
       "offering_ids": [
         "openrouter/hy-mt2-30b-a3b"
+      ]
+    },
+    {
+      "model_id": "hy-mt2-7b",
+      "name": "tencent/hy-mt2-7b",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 8192,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "hy-mt2-7b"
+      ],
+      "offering_ids": [
+        "openrouter/hy-mt2-7b"
       ]
     },
     {
