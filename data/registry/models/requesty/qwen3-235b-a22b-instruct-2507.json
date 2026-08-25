@@ -1,14 +1,14 @@
 {
   "model_id": "requesty/qwen3-235b-a22b-instruct-2507",
   "provider_id": "requesty",
-  "name": "nebius/qwen/qwen3-235b-a22b-instruct-2507",
+  "name": "deepinfra/Qwen/Qwen3-235B-A22B-Instruct-2507",
   "description": "Qwen3-235B-A22B-Instruct-2507 is the updated version of the Qwen3-235B-A22B non-thinking mode, featuring Significant improvements in general capabilities, including instruction following, logical reasoning, text comprehension, mathematics, science, coding and tool usage.",
-  "context_window": 128000,
+  "context_window": 262144,
   "modality": [
     "text"
   ],
   "open_weight": false,
-  "reasoning_support": true,
+  "reasoning_support": false,
   "function_calling": true,
   "structured_output": true,
   "vision_support": false,
@@ -18,9 +18,9 @@
   "is_free": false,
   "tier": "budget",
   "limits": {
-    "max_input_tokens": 128000
+    "max_input_tokens": 262144
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-24T01:41:47.805Z"
+  "updated_at": "2026-08-25T01:37:12.601Z"
 }

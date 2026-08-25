@@ -1,16 +1,16 @@
 {
   "model_id": "requesty/deepseek-v3",
   "provider_id": "requesty",
-  "name": "novita/deepseek/deepseek_v3",
+  "name": "deepinfra/deepseek-ai/DeepSeek-V3",
   "description": "DeepSeek-V3, a strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token. To achieve efficient inference and cost-effective training, DeepSeek-V3 adopts Multi-head Latent Attention (MLA) and DeepSeekMoE architectures.",
-  "context_window": 64000,
+  "context_window": 128000,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": false,
   "function_calling": true,
-  "structured_output": false,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -22,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-24T01:41:47.686Z"
+  "updated_at": "2026-08-25T01:37:12.466Z"
 }

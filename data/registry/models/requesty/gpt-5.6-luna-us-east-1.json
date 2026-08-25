@@ -1,0 +1,27 @@
+{
+  "model_id": "requesty/gpt-5.6-luna-us-east-1",
+  "provider_id": "requesty",
+  "name": "bedrock/gpt-5.6-luna@us-east-1",
+  "description": "GPT-5.6 Luna is OpenAI's fast, cost efficient model for high volume tasks such as classification, extraction, summarization, and lightweight agent steps. It features a 1M+ token context window with support for text and image inputs, server side tool calling, and prompt caching.",
+  "context_window": 1050000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-25T01:37:12.544Z",
+  "is_free": false,
+  "tier": "budget",
+  "limits": {
+    "max_input_tokens": 1050000
+  }
+}

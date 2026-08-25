@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gemini-3-pro-image",
   "provider_id": "requesty",
-  "name": "vertex/gemini-3-pro-image",
+  "name": "google/gemini-3-pro-image",
   "description": "Gemini 3 Pro Image, or Gemini 3 Pro (with Nano Banana), is designed to tackle the most challenging image generation by incorporating state-of-the-art reasoning capabilities. It's the best model for complex and multi-turn image generation and editing, having improved accuracy and enhanced image quality.",
   "context_window": 1048576,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-24T01:41:47.707Z"
+  "updated_at": "2026-08-25T01:37:12.493Z"
 }

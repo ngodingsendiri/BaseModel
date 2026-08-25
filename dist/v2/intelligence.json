@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "7217cbc",
-  "generated_at": "2026-08-24T01:44:12.442Z",
+  "source_revision": "4798d33",
+  "generated_at": "2026-08-25T01:40:04.454Z",
   "count": 37,
   "ranking": [
     {
@@ -130,18 +130,6 @@
       "pareto_optimal": false
     },
     {
-      "model_id": "glm-5-1",
-      "quality_score": 88.63,
-      "benchmark_count": 1,
-      "categories": [
-        "code"
-      ],
-      "cheapest_offering": "deepinfra/glm-5.1",
-      "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 1.4834999999999998,
-      "pareto_optimal": false
-    },
-    {
       "model_id": "kimi-k2-6",
       "quality_score": 88.63,
       "benchmark_count": 1,
@@ -154,15 +142,27 @@
       "pareto_optimal": false
     },
     {
+      "model_id": "glm-5-1",
+      "quality_score": 88.63,
+      "benchmark_count": 1,
+      "categories": [
+        "code"
+      ],
+      "cheapest_offering": "requesty/glm-5.1",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 1.9215,
+      "pareto_optimal": false
+    },
+    {
       "model_id": "minimax-m3",
       "quality_score": 86,
       "benchmark_count": 1,
       "categories": [
         "code"
       ],
-      "cheapest_offering": "requesty/minimax-m3",
-      "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 0.42,
+      "cheapest_offering": "deepinfra/minimax-m3",
+      "cheapest_provider": "deepinfra",
+      "blended_cost_per_1m": 0.5249999999999999,
       "pareto_optimal": false
     },
     {
@@ -196,9 +196,9 @@
       "categories": [
         "code"
       ],
-      "cheapest_offering": "requesty/kimi-k2.7-code",
-      "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 1.2937500000000002,
+      "cheapest_offering": "deepinfra/kimi-k2.7-code",
+      "cheapest_provider": "deepinfra",
+      "blended_cost_per_1m": 1.3525,
       "pareto_optimal": false
     },
     {
@@ -259,7 +259,7 @@
       ],
       "cheapest_offering": "deepinfra/deepseek-v4-pro",
       "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 0.6487499999999999,
+      "blended_cost_per_1m": 0.98775,
       "pareto_optimal": false
     },
     {

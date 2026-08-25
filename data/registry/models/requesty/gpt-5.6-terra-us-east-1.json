@@ -1,0 +1,27 @@
+{
+  "model_id": "requesty/gpt-5.6-terra-us-east-1",
+  "provider_id": "requesty",
+  "name": "bedrock/gpt-5.6-terra@us-east-1",
+  "description": "GPT-5.6 Terra is OpenAI's balanced frontier model for everyday production workloads, delivering near flagship reasoning, coding, and agentic performance at roughly half the cost of the previous generation. It features a 1M+ token context window with support for text and image inputs, server side tool calling, and prompt caching.",
+  "context_window": 1050000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-25T01:37:12.549Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 1050000
+  }
+}

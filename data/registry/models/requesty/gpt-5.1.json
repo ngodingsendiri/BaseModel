@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gpt-5.1",
   "provider_id": "requesty",
-  "name": "openai/gpt-5.1",
+  "name": "azure/gpt-5.1",
   "description": "GPT-5 is OpenAI's flagship model for coding, reasoning, and agentic tasks across domains.",
   "context_window": 400000,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-24T01:41:47.738Z"
+  "updated_at": "2026-08-25T01:37:12.530Z"
 }

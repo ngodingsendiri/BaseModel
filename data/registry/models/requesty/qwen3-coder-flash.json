@@ -5,14 +5,13 @@
   "description": "Qwen3 Coder Flash",
   "context_window": 1048576,
   "modality": [
-    "text",
-    "image"
+    "text"
   ],
   "open_weight": false,
   "reasoning_support": false,
   "function_calling": true,
   "structured_output": true,
-  "vision_support": true,
+  "vision_support": false,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
@@ -23,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-24T01:41:47.809Z"
+  "updated_at": "2026-08-25T01:37:12.606Z"
 }

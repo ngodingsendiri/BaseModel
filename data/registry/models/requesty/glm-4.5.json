@@ -1,16 +1,16 @@
 {
   "model_id": "requesty/glm-4.5",
   "provider_id": "requesty",
-  "name": "zai/GLM-4.5",
+  "name": "deepinfra/zai-org/GLM-4.5",
   "description": "GLM-4.5 and GLM-4.5-Air are Z AI's latest flagship models, purpose-built as foundational models for agent-oriented applications. Both leverage a Mixture-of-Experts (MoE) architecture. GLM-4.5 has a total parameter count of 355B with 32B active parameters per forward pass, while GLM-4.5-Air adopts a more streamlined design with 106B total parameters and 12B active parameters.",
   "context_window": 131072,
   "modality": [
     "text"
   ],
   "open_weight": false,
-  "reasoning_support": true,
+  "reasoning_support": false,
   "function_calling": true,
-  "structured_output": false,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -22,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-24T01:41:47.715Z"
+  "updated_at": "2026-08-25T01:37:12.503Z"
 }

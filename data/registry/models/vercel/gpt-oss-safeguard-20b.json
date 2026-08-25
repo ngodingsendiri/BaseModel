@@ -3,7 +3,7 @@
   "provider_id": "vercel",
   "name": "GPT OSS Safeguard 20B",
   "description": "OpenAI's first open weight reasoning model specifically trained for safety classification tasks. Fine-tuned from GPT-OSS, this model helps classify text content based on customizable policies, enabling bring-your-own-policy Trust & Safety AI where your own taxonomy, definitions, and thresholds guide classification decisions.",
-  "context_window": 131072,
+  "context_window": 128000,
   "modality": [
     "text"
   ],
@@ -22,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-24T01:41:47.856Z"
+  "updated_at": "2026-08-25T01:37:12.657Z"
 }
