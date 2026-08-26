@@ -1,27 +1,27 @@
 {
   "model_id": "requesty/mimo-v2.5",
   "provider_id": "requesty",
-  "name": "xiaomi/mimo-v2.5",
+  "name": "deepinfra/XiaomiMiMo/MiMo-V2.5",
   "description": "MiMo-V2.5 is a native omnimodal model with strong agentic capabilities, supporting text, image, video, and audio understanding within a unified architecture. Built upon the MiMo-V2-Flash backbone and extended with dedicated vision and audio encoders, it delivers robust performance across multimodal perception, long-context reasoning, and agentic workflows.",
-  "context_window": 1048576,
+  "context_window": 262144,
   "modality": [
     "text",
     "image"
   ],
   "open_weight": false,
-  "reasoning_support": false,
+  "reasoning_support": true,
   "function_calling": true,
-  "structured_output": false,
+  "structured_output": true,
   "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
   "is_free": false,
-  "tier": "budget",
+  "tier": "balanced",
   "limits": {
-    "max_input_tokens": 1048576
+    "max_input_tokens": 262144
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-25T01:37:12.572Z"
+  "updated_at": "2026-08-26T01:42:08.022Z"
 }

@@ -1,9 +1,9 @@
 {
   "model_id": "requesty/deepseek-v4-pro-0813",
   "provider_id": "requesty",
-  "name": "deepinfra/deepseek-v4-pro-0813",
+  "name": "fireworks/deepseek-v4-pro-0813",
   "description": "DeepSeek v4 Pro - 1.6T total / 49B active params. Performance rivaling the world's top closed-source models.",
-  "context_window": 1048576,
+  "context_window": 1000000,
   "modality": [
     "text"
   ],
@@ -18,9 +18,9 @@
   "is_free": false,
   "tier": "balanced",
   "limits": {
-    "max_input_tokens": 1000000
+    "max_input_tokens": 1048576
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-25T01:37:12.468Z"
+  "updated_at": "2026-08-26T01:42:07.948Z"
 }

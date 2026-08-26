@@ -1,88 +1,25 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "4798d33",
-  "generated_at": "2026-08-25T01:40:04.454Z",
+  "source_revision": "c68d3f8",
+  "generated_at": "2026-08-26T01:45:06.029Z",
   "summary": {
-    "added": 10,
+    "added": 2,
     "removed": 0,
-    "status_changed": 13
+    "status_changed": 2
   },
   "added": [
-    "requesty/gpt-5.6-luna-us-east-1",
-    "requesty/gpt-5.6-luna-us-east-2",
-    "requesty/gpt-5.6-luna-us-west-2",
-    "requesty/gpt-5.6-sol-us-east-1",
-    "requesty/gpt-5.6-sol-us-east-2",
-    "requesty/gpt-5.6-terra-us-east-1",
-    "requesty/gpt-5.6-terra-us-east-2",
-    "requesty/gpt-5.6-terra-us-west-2",
-    "vercel/gpt-oss-safeguard-120b",
-    "vercel/seedance-2.0-mini"
+    "openrouter/minimax-m2.7-free",
+    "openrouter/minimax-m3-free"
   ],
   "removed": [],
   "status_changed": [
     {
-      "model_id": "openrouter/devstral-2512",
-      "from": "discontinued",
-      "to": "active"
-    },
-    {
-      "model_id": "openrouter/ling-2.6-1t",
+      "model_id": "openrouter/gemma-3n-e4b-it",
       "from": "active",
       "to": "discontinued"
     },
     {
-      "model_id": "openrouter/ling-2.6-flash",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/nemotron-3-nano-30b-a3b-free",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/nemotron-nano-12b-v2-vl-free",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/nemotron-nano-9b-v2-free",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/ring-2.6-1t",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "vercel/gpt-4o-mini-search-preview",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "vercel/magistral-medium",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "vercel/magistral-small",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "vercel/nemotron-3.5-lightning-free",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "vercel/o3-deep-research",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "vercel/trinity-mini",
+      "model_id": "openrouter/qwen-plus-2025-07-28-thinking",
       "from": "active",
       "to": "discontinued"
     }

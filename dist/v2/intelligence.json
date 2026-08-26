@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "4798d33",
-  "generated_at": "2026-08-25T01:40:04.454Z",
+  "source_revision": "c68d3f8",
+  "generated_at": "2026-08-26T01:45:06.029Z",
   "count": 37,
   "ranking": [
     {
@@ -13,7 +13,7 @@
       ],
       "cheapest_offering": "deepinfra/qwen3.8-27b",
       "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 1.05,
+      "blended_cost_per_1m": 0.9562499999999999,
       "pareto_optimal": true
     },
     {
@@ -138,7 +138,7 @@
       ],
       "cheapest_offering": "requesty/kimi-k2.6",
       "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 1.54125,
+      "blended_cost_per_1m": 1.3275000000000001,
       "pareto_optimal": false
     },
     {
@@ -150,7 +150,7 @@
       ],
       "cheapest_offering": "requesty/glm-5.1",
       "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 1.9215,
+      "blended_cost_per_1m": 1.4962499999999999,
       "pareto_optimal": false
     },
     {
@@ -184,9 +184,9 @@
       "categories": [
         "code"
       ],
-      "cheapest_offering": "requesty/mimo-v2.5-pro",
-      "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 0.489,
+      "cheapest_offering": "deepinfra/mimo-v2.5-pro",
+      "cheapest_provider": "deepinfra",
+      "blended_cost_per_1m": 0.54375,
       "pareto_optimal": false
     },
     {
@@ -289,10 +289,10 @@
         "overall",
         "reasoning"
       ],
-      "cheapest_offering": "hyperbolic/llama-3.3-70b-instruct",
-      "cheapest_provider": "hyperbolic",
-      "blended_cost_per_1m": 0.15500000000000003,
-      "pareto_optimal": true
+      "cheapest_offering": "requesty/llama-3.3-70b-instruct",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 0.24525,
+      "pareto_optimal": false
     },
     {
       "model_id": "llama-3-1-70b-instruct",
@@ -403,7 +403,7 @@
       ],
       "cheapest_offering": "requesty/deepseek-r1-distill-llama-70b",
       "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 0.72,
+      "blended_cost_per_1m": 0.3105,
       "pareto_optimal": false
     },
     {
