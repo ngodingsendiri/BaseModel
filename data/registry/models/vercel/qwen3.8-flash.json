@@ -1,0 +1,27 @@
+{
+  "model_id": "vercel/qwen3.8-flash",
+  "provider_id": "vercel",
+  "name": "Qwen 3.8 Flash",
+  "description": "Qwen3.8-Flash is Qwen’s fast, cost-efficient multimodal model, combining advanced reasoning and generation with a native 1M-token context window. Built for coding, agentic workflows, and visual understanding, it handles large codebases, long documents, charts, videos, and desktop applications.",
+  "context_window": 991000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-27T08:37:30.241Z",
+  "is_free": false,
+  "tier": "budget",
+  "limits": {
+    "max_input_tokens": 1000000
+  }
+}

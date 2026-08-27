@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gemini-2.5-flash-europe-west1",
   "provider_id": "requesty",
-  "name": "vertex/gemini-2.5-flash@europe-west1",
+  "name": "coding/gemini-2.5-flash@europe-west1",
   "description": "Google's first hybrid reasoning model which supports a 1M token context window and has thinking budgets. Most balanced Gemini model, optimized for low latency use cases.",
   "context_window": 1048576,
   "modality": [
@@ -11,7 +11,7 @@
   "open_weight": false,
   "reasoning_support": true,
   "function_calling": true,
-  "structured_output": true,
+  "structured_output": false,
   "vision_support": true,
   "audio_support": false,
   "image_generation": false,
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-26T01:42:07.951Z"
+  "updated_at": "2026-08-27T08:37:30.003Z"
 }

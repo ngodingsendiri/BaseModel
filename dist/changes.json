@@ -1,25 +1,62 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "c68d3f8",
-  "generated_at": "2026-08-26T01:45:06.029Z",
+  "source_revision": "3c7793c",
+  "generated_at": "2026-08-27T08:40:26.835Z",
   "summary": {
-    "added": 2,
+    "added": 19,
     "removed": 0,
-    "status_changed": 2
+    "status_changed": 6
   },
   "added": [
-    "openrouter/minimax-m2.7-free",
-    "openrouter/minimax-m3-free"
+    "deepinfra/glm-5.3-flash",
+    "deepinfra/granite-4.2-30b",
+    "deepinfra/granite-4.2-3b",
+    "deepinfra/granite-4.2-8b",
+    "google/gemini-3.5-transcribe-live",
+    "google/gemini-3.5-transcribe",
+    "groq/qwen3.8-27b",
+    "openrouter/glm-5.3-flash",
+    "openrouter/qwen3.8-flash",
+    "requesty/glm-5.3-flash",
+    "requesty/qwen3.8-flash",
+    "vercel/gemini-3.5-transcribe-live",
+    "vercel/gemini-3.5-transcribe",
+    "vercel/glm-5.3-flash",
+    "vercel/minimax-m2.7-free",
+    "vercel/minimax-m3-free",
+    "vercel/muse-image-1.0",
+    "vercel/qwen3.8-flash",
+    "vercel/wan-v3.0-video"
   ],
   "removed": [],
   "status_changed": [
     {
-      "model_id": "openrouter/gemma-3n-e4b-it",
+      "model_id": "google/gemini-3.5-live-translate-preview",
       "from": "active",
       "to": "discontinued"
     },
     {
-      "model_id": "openrouter/qwen-plus-2025-07-28-thinking",
+      "model_id": "google/gemini-robotics-er-2-streaming-preview",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "mistral-ai/glm-5-2",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "mistral-ai/zai-glm-5-2",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/glm-5.2-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/ox-alpha",
       "from": "active",
       "to": "discontinued"
     }

@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/llama-3.3-70b-instruct",
   "provider_id": "requesty",
-  "name": "deepinfra/meta-llama/Llama-3.3-70B-Instruct",
+  "name": "novita/meta-llama/llama-3.3-70b-instruct",
   "description": "A lightweight and ultra-fast variant of Llama 3.3 70B, for use when quick response times are needed most.",
   "context_window": 131072,
   "modality": [
@@ -22,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-26T01:42:08.020Z"
+  "updated_at": "2026-08-27T08:37:30.131Z"
 }

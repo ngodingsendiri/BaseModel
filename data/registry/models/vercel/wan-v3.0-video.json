@@ -1,0 +1,22 @@
+{
+  "model_id": "vercel/wan-v3.0-video",
+  "provider_id": "vercel",
+  "name": "Wan v3.0 Video",
+  "description": "All-in-one video generation model supporting text-to-video, image-to-video, first/last-frame, and omni-modal reference-based generation (image, video, and audio references) with synchronized audio, at up to 30 seconds per clip.",
+  "modality": [
+    "text",
+    "image",
+    "video"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-27T08:37:20.303Z"
+}

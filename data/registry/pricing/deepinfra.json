@@ -7,7 +7,7 @@
     "unit": "1M tokens",
     "value": 10,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-claude-fable-5-output",
@@ -17,7 +17,7 @@
     "unit": "1M tokens",
     "value": 50,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-claude-opus-5-input",
@@ -27,7 +27,7 @@
     "unit": "1M tokens",
     "value": 5,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-claude-opus-5-output",
@@ -37,7 +37,7 @@
     "unit": "1M tokens",
     "value": 25,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-claude-sonnet-5-input",
@@ -47,7 +47,7 @@
     "unit": "1M tokens",
     "value": 2,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-claude-sonnet-5-output",
@@ -57,7 +57,7 @@
     "unit": "1M tokens",
     "value": 10,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-deepseek-r1-0528-input",
@@ -67,7 +67,7 @@
     "unit": "1M tokens",
     "value": 0.5,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-deepseek-r1-0528-output",
@@ -77,7 +77,7 @@
     "unit": "1M tokens",
     "value": 2.15,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-deepseek-v3-0324-input",
@@ -87,7 +87,7 @@
     "unit": "1M tokens",
     "value": 0.24000000000000002,
     "source": "huggingface",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-deepseek-v3-0324-output",
@@ -97,7 +97,7 @@
     "unit": "1M tokens",
     "value": 0.9,
     "source": "huggingface",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-deepseek-v3.1-terminus-input",
@@ -107,7 +107,7 @@
     "unit": "1M tokens",
     "value": 0.27,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-deepseek-v3.1-terminus-output",
@@ -117,7 +117,7 @@
     "unit": "1M tokens",
     "value": 1,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-deepseek-v3.1-input",
@@ -127,7 +127,7 @@
     "unit": "1M tokens",
     "value": 0.25,
     "source": "huggingface",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-deepseek-v3.1-output",
@@ -137,7 +137,7 @@
     "unit": "1M tokens",
     "value": 0.95,
     "source": "huggingface",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-deepseek-v3.2-input",
@@ -147,7 +147,7 @@
     "unit": "1M tokens",
     "value": 0.26,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-deepseek-v3.2-output",
@@ -157,7 +157,7 @@
     "unit": "1M tokens",
     "value": 0.38,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-deepseek-v3-input",
@@ -167,7 +167,7 @@
     "unit": "1M tokens",
     "value": 0.32,
     "source": "huggingface",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-deepseek-v3-output",
@@ -177,7 +177,7 @@
     "unit": "1M tokens",
     "value": 0.8899999999999999,
     "source": "huggingface",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-deepseek-v4-flash-0731-input",
@@ -185,9 +185,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.04,
+    "value": 0.06,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-deepseek-v4-flash-0731-output",
@@ -195,9 +195,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.08,
+    "value": 0.12,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-deepseek-v4-flash-input",
@@ -205,9 +205,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.089,
+    "value": 0.08,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-deepseek-v4-flash-output",
@@ -215,9 +215,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.177,
+    "value": 0.159,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-deepseek-v4-pro-0813-input",
@@ -227,7 +227,7 @@
     "unit": "1M tokens",
     "value": 1.122,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-deepseek-v4-pro-0813-output",
@@ -237,7 +237,7 @@
     "unit": "1M tokens",
     "value": 3.366,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-deepseek-v4-pro-input",
@@ -245,9 +245,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.79,
+    "value": 0.87,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-deepseek-v4-pro-output",
@@ -255,9 +255,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1.581,
+    "value": 1.74,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-gemini-2.5-flash-input",
@@ -267,7 +267,7 @@
     "unit": "1M tokens",
     "value": 0.3,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-gemini-2.5-flash-output",
@@ -277,7 +277,7 @@
     "unit": "1M tokens",
     "value": 2.5,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-gemini-2.5-pro-input",
@@ -287,7 +287,7 @@
     "unit": "1M tokens",
     "value": 1.25,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-gemini-2.5-pro-output",
@@ -297,7 +297,7 @@
     "unit": "1M tokens",
     "value": 10,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-gemini-3-pro-image-input",
@@ -307,7 +307,7 @@
     "unit": "1M tokens",
     "value": 2,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-gemini-3-pro-image-output",
@@ -317,7 +317,7 @@
     "unit": "1M tokens",
     "value": 12,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-gemini-3.1-flash-lite-input",
@@ -327,7 +327,7 @@
     "unit": "1M tokens",
     "value": 0.25,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-gemini-3.1-flash-lite-output",
@@ -337,7 +337,7 @@
     "unit": "1M tokens",
     "value": 1.5,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-gemini-3.5-flash-input",
@@ -347,7 +347,7 @@
     "unit": "1M tokens",
     "value": 1.5,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.117Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-gemini-3.5-flash-output",
@@ -357,7 +357,7 @@
     "unit": "1M tokens",
     "value": 9,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-gemini-3.7-flash-input",
@@ -367,7 +367,7 @@
     "unit": "1M tokens",
     "value": 0.375,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-gemini-3.7-flash-output",
@@ -377,7 +377,7 @@
     "unit": "1M tokens",
     "value": 1.875,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-gemma-3-12b-it-input",
@@ -387,7 +387,7 @@
     "unit": "1M tokens",
     "value": 0.05,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-gemma-3-12b-it-output",
@@ -397,7 +397,7 @@
     "unit": "1M tokens",
     "value": 0.15,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-gemma-3-27b-it-input",
@@ -407,7 +407,7 @@
     "unit": "1M tokens",
     "value": 0.08,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-gemma-3-27b-it-output",
@@ -417,7 +417,7 @@
     "unit": "1M tokens",
     "value": 0.45,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-gemma-3-4b-it-input",
@@ -427,7 +427,7 @@
     "unit": "1M tokens",
     "value": 0.05,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-gemma-3-4b-it-output",
@@ -437,7 +437,7 @@
     "unit": "1M tokens",
     "value": 0.1,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-gemma-4-26b-a4b-it-input",
@@ -447,7 +447,7 @@
     "unit": "1M tokens",
     "value": 0.07,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-gemma-4-26b-a4b-it-output",
@@ -457,7 +457,7 @@
     "unit": "1M tokens",
     "value": 0.34,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.279Z"
   },
   {
     "pricing_id": "deepinfra-gemma-4-31b-it-input",
@@ -465,9 +465,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.1,
+    "value": 0.09,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-gemma-4-31b-it-output",
@@ -477,7 +477,7 @@
     "unit": "1M tokens",
     "value": 0.34,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-glm-4.6-input",
@@ -485,9 +485,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.5,
+    "value": 0.43,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-glm-4.6-output",
@@ -495,9 +495,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2,
+    "value": 1.75,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-glm-4.7-flash-input",
@@ -507,7 +507,7 @@
     "unit": "1M tokens",
     "value": 0.06,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-glm-4.7-flash-output",
@@ -517,7 +517,7 @@
     "unit": "1M tokens",
     "value": 0.4,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-glm-4.7-input",
@@ -527,7 +527,7 @@
     "unit": "1M tokens",
     "value": 0.4,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-glm-4.7-output",
@@ -537,7 +537,7 @@
     "unit": "1M tokens",
     "value": 1.75,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-glm-5.1-input",
@@ -547,7 +547,7 @@
     "unit": "1M tokens",
     "value": 1.26,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-glm-5.1-output",
@@ -557,7 +557,7 @@
     "unit": "1M tokens",
     "value": 3.96,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-glm-5.2-input",
@@ -567,7 +567,7 @@
     "unit": "1M tokens",
     "value": 1.19,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-glm-5.2-output",
@@ -577,7 +577,27 @@
     "unit": "1M tokens",
     "value": 3.74,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
+  },
+  {
+    "pricing_id": "deepinfra-glm-5.3-flash-input",
+    "model_id": "deepinfra/glm-5.3-flash",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.075,
+    "source": "openrouter",
+    "updated_at": "2026-08-27T08:37:30.280Z"
+  },
+  {
+    "pricing_id": "deepinfra-glm-5.3-flash-output",
+    "model_id": "deepinfra/glm-5.3-flash",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.25,
+    "source": "openrouter",
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-glm-5-input",
@@ -587,7 +607,7 @@
     "unit": "1M tokens",
     "value": 0.6,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-glm-5-output",
@@ -597,7 +617,7 @@
     "unit": "1M tokens",
     "value": 1.92,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-gpt-oss-120b-input",
@@ -607,7 +627,7 @@
     "unit": "1M tokens",
     "value": 0.037,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-gpt-oss-120b-output",
@@ -617,7 +637,7 @@
     "unit": "1M tokens",
     "value": 0.17,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-gpt-oss-20b-input",
@@ -627,7 +647,7 @@
     "unit": "1M tokens",
     "value": 0.03,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-gpt-oss-20b-output",
@@ -637,7 +657,67 @@
     "unit": "1M tokens",
     "value": 0.13,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
+  },
+  {
+    "pricing_id": "deepinfra-granite-4.2-30b-input",
+    "model_id": "deepinfra/granite-4.2-30b",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.16,
+    "source": "huggingface",
+    "updated_at": "2026-08-27T08:37:30.280Z"
+  },
+  {
+    "pricing_id": "deepinfra-granite-4.2-30b-output",
+    "model_id": "deepinfra/granite-4.2-30b",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.6499999999999999,
+    "source": "huggingface",
+    "updated_at": "2026-08-27T08:37:30.280Z"
+  },
+  {
+    "pricing_id": "deepinfra-granite-4.2-3b-input",
+    "model_id": "deepinfra/granite-4.2-3b",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.030000000000000002,
+    "source": "huggingface",
+    "updated_at": "2026-08-27T08:37:30.280Z"
+  },
+  {
+    "pricing_id": "deepinfra-granite-4.2-3b-output",
+    "model_id": "deepinfra/granite-4.2-3b",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.12000000000000001,
+    "source": "huggingface",
+    "updated_at": "2026-08-27T08:37:30.280Z"
+  },
+  {
+    "pricing_id": "deepinfra-granite-4.2-8b-input",
+    "model_id": "deepinfra/granite-4.2-8b",
+    "pricing_type": "input-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.060000000000000005,
+    "source": "huggingface",
+    "updated_at": "2026-08-27T08:37:30.280Z"
+  },
+  {
+    "pricing_id": "deepinfra-granite-4.2-8b-output",
+    "model_id": "deepinfra/granite-4.2-8b",
+    "pricing_type": "output-token",
+    "currency": "USD",
+    "unit": "1M tokens",
+    "value": 0.25,
+    "source": "huggingface",
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-hermes-3-llama-3.1-405b-input",
@@ -647,7 +727,7 @@
     "unit": "1M tokens",
     "value": 1,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-hermes-3-llama-3.1-405b-output",
@@ -657,7 +737,7 @@
     "unit": "1M tokens",
     "value": 1,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-hermes-3-llama-3.1-70b-input",
@@ -667,7 +747,7 @@
     "unit": "1M tokens",
     "value": 0.7,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-hermes-3-llama-3.1-70b-output",
@@ -677,7 +757,7 @@
     "unit": "1M tokens",
     "value": 0.7,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-hy3-input",
@@ -687,7 +767,7 @@
     "unit": "1M tokens",
     "value": 0.132,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-hy3-output",
@@ -697,7 +777,7 @@
     "unit": "1M tokens",
     "value": 0.528,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-inkling-small-input",
@@ -707,7 +787,7 @@
     "unit": "1M tokens",
     "value": 0.45,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-inkling-small-output",
@@ -717,7 +797,7 @@
     "unit": "1M tokens",
     "value": 1.2,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-inkling-input",
@@ -727,7 +807,7 @@
     "unit": "1M tokens",
     "value": 0.95,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-inkling-output",
@@ -737,7 +817,7 @@
     "unit": "1M tokens",
     "value": 4.05,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-kimi-k2.5-input",
@@ -747,7 +827,7 @@
     "unit": "1M tokens",
     "value": 0.6,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-kimi-k2.5-output",
@@ -757,7 +837,7 @@
     "unit": "1M tokens",
     "value": 3,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-kimi-k2.6-input",
@@ -767,7 +847,7 @@
     "unit": "1M tokens",
     "value": 0.95,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-kimi-k2.6-output",
@@ -777,7 +857,7 @@
     "unit": "1M tokens",
     "value": 4,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-kimi-k2.7-code-input",
@@ -787,7 +867,7 @@
     "unit": "1M tokens",
     "value": 0.67,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-kimi-k2.7-code-output",
@@ -797,7 +877,7 @@
     "unit": "1M tokens",
     "value": 3.4,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-kimi-k3-input",
@@ -807,7 +887,7 @@
     "unit": "1M tokens",
     "value": 3,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-kimi-k3-output",
@@ -817,7 +897,7 @@
     "unit": "1M tokens",
     "value": 15,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-ling-3.0-flash-input",
@@ -827,7 +907,7 @@
     "unit": "1M tokens",
     "value": 0.021,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-ling-3.0-flash-output",
@@ -837,7 +917,7 @@
     "unit": "1M tokens",
     "value": 0.063,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-llama-4-scout-17b-16e-instruct-input",
@@ -847,7 +927,7 @@
     "unit": "1M tokens",
     "value": 0.1,
     "source": "huggingface",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-llama-4-scout-17b-16e-instruct-output",
@@ -857,7 +937,7 @@
     "unit": "1M tokens",
     "value": 0.3,
     "source": "huggingface",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-llama-guard-4-12b-input",
@@ -867,7 +947,7 @@
     "unit": "1M tokens",
     "value": 0.18,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-llama-guard-4-12b-output",
@@ -877,7 +957,7 @@
     "unit": "1M tokens",
     "value": 0.18,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-mimo-v2.5-pro-input",
@@ -887,7 +967,7 @@
     "unit": "1M tokens",
     "value": 0.435,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-mimo-v2.5-pro-output",
@@ -897,7 +977,7 @@
     "unit": "1M tokens",
     "value": 0.87,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-mimo-v2.5-input",
@@ -907,7 +987,7 @@
     "unit": "1M tokens",
     "value": 0.14,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-mimo-v2.5-output",
@@ -917,7 +997,7 @@
     "unit": "1M tokens",
     "value": 0.28,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-minimax-m2.7-input",
@@ -927,7 +1007,7 @@
     "unit": "1M tokens",
     "value": 0.3,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-minimax-m2.7-output",
@@ -937,7 +1017,7 @@
     "unit": "1M tokens",
     "value": 1.2,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-minimax-m3-input",
@@ -947,7 +1027,7 @@
     "unit": "1M tokens",
     "value": 0.3,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-minimax-m3-output",
@@ -957,7 +1037,7 @@
     "unit": "1M tokens",
     "value": 1.2,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-mistral-small-24b-instruct-2501-input",
@@ -967,7 +1047,7 @@
     "unit": "1M tokens",
     "value": 0.05,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-mistral-small-24b-instruct-2501-output",
@@ -977,7 +1057,7 @@
     "unit": "1M tokens",
     "value": 0.08,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-muse-glimmer-30b-input",
@@ -987,7 +1067,7 @@
     "unit": "1M tokens",
     "value": 0.35,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-muse-glimmer-30b-output",
@@ -997,7 +1077,7 @@
     "unit": "1M tokens",
     "value": 1.5,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-mythomax-l2-13b-input",
@@ -1007,7 +1087,7 @@
     "unit": "1M tokens",
     "value": 0.06,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-mythomax-l2-13b-output",
@@ -1017,7 +1097,7 @@
     "unit": "1M tokens",
     "value": 0.06,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-nemotron-3-nano-30b-a3b-input",
@@ -1027,7 +1107,7 @@
     "unit": "1M tokens",
     "value": 0.05,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-nemotron-3-nano-30b-a3b-output",
@@ -1037,7 +1117,7 @@
     "unit": "1M tokens",
     "value": 0.2,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-phi-4-input",
@@ -1047,7 +1127,7 @@
     "unit": "1M tokens",
     "value": 0.07,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-phi-4-output",
@@ -1057,7 +1137,7 @@
     "unit": "1M tokens",
     "value": 0.14,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen2.5-72b-instruct-input",
@@ -1067,7 +1147,7 @@
     "unit": "1M tokens",
     "value": 0.36,
     "source": "huggingface",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen2.5-72b-instruct-output",
@@ -1077,7 +1157,7 @@
     "unit": "1M tokens",
     "value": 0.4,
     "source": "huggingface",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3-14b-input",
@@ -1087,7 +1167,7 @@
     "unit": "1M tokens",
     "value": 0.12,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3-14b-output",
@@ -1097,7 +1177,7 @@
     "unit": "1M tokens",
     "value": 0.24,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3-235b-a22b-instruct-2507-input",
@@ -1107,7 +1187,7 @@
     "unit": "1M tokens",
     "value": 0.09,
     "source": "huggingface",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3-235b-a22b-instruct-2507-output",
@@ -1117,7 +1197,7 @@
     "unit": "1M tokens",
     "value": 0.55,
     "source": "huggingface",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3-235b-a22b-thinking-2507-input",
@@ -1127,7 +1207,7 @@
     "unit": "1M tokens",
     "value": 0.23,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3-235b-a22b-thinking-2507-output",
@@ -1137,7 +1217,7 @@
     "unit": "1M tokens",
     "value": 2.3,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3-30b-a3b-input",
@@ -1147,7 +1227,7 @@
     "unit": "1M tokens",
     "value": 0.12,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3-30b-a3b-output",
@@ -1157,7 +1237,7 @@
     "unit": "1M tokens",
     "value": 0.5,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3-32b-input",
@@ -1167,7 +1247,7 @@
     "unit": "1M tokens",
     "value": 0.08,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3-32b-output",
@@ -1177,7 +1257,7 @@
     "unit": "1M tokens",
     "value": 0.28,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3-max-thinking-input",
@@ -1187,7 +1267,7 @@
     "unit": "1M tokens",
     "value": 0.78,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3-max-thinking-output",
@@ -1197,7 +1277,7 @@
     "unit": "1M tokens",
     "value": 3.9,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3-max-input",
@@ -1207,7 +1287,7 @@
     "unit": "1M tokens",
     "value": 0.78,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3-max-output",
@@ -1217,7 +1297,7 @@
     "unit": "1M tokens",
     "value": 3.9,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3-next-80b-a3b-instruct-input",
@@ -1227,7 +1307,7 @@
     "unit": "1M tokens",
     "value": 0.1,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3-next-80b-a3b-instruct-output",
@@ -1237,7 +1317,7 @@
     "unit": "1M tokens",
     "value": 1.1,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3-vl-235b-a22b-instruct-input",
@@ -1247,7 +1327,7 @@
     "unit": "1M tokens",
     "value": 0.21,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3-vl-235b-a22b-instruct-output",
@@ -1257,7 +1337,7 @@
     "unit": "1M tokens",
     "value": 1.9,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3-vl-30b-a3b-instruct-input",
@@ -1267,7 +1347,7 @@
     "unit": "1M tokens",
     "value": 0.13,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3-vl-30b-a3b-instruct-output",
@@ -1277,7 +1357,7 @@
     "unit": "1M tokens",
     "value": 0.52,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3.5-122b-a10b-input",
@@ -1287,7 +1367,7 @@
     "unit": "1M tokens",
     "value": 0.26,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3.5-122b-a10b-output",
@@ -1297,7 +1377,7 @@
     "unit": "1M tokens",
     "value": 2.08,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3.5-27b-input",
@@ -1307,7 +1387,7 @@
     "unit": "1M tokens",
     "value": 0.195,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3.5-27b-output",
@@ -1317,7 +1397,7 @@
     "unit": "1M tokens",
     "value": 1.56,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3.5-35b-a3b-input",
@@ -1327,7 +1407,7 @@
     "unit": "1M tokens",
     "value": 0.25,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3.5-35b-a3b-output",
@@ -1337,7 +1417,7 @@
     "unit": "1M tokens",
     "value": 1.25,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3.5-397b-a17b-input",
@@ -1345,9 +1425,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.5,
+    "value": 0.39,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3.5-397b-a17b-output",
@@ -1355,9 +1435,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3.6,
+    "value": 2.34,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3.5-9b-input",
@@ -1367,7 +1447,7 @@
     "unit": "1M tokens",
     "value": 0.1,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3.5-9b-output",
@@ -1377,7 +1457,7 @@
     "unit": "1M tokens",
     "value": 0.15,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3.6-27b-input",
@@ -1385,9 +1465,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.32,
+    "value": 0.6,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3.6-27b-output",
@@ -1395,9 +1475,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 3.2,
+    "value": 3.6,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3.6-35b-a3b-input",
@@ -1405,9 +1485,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.14,
+    "value": 0.1,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3.6-35b-a3b-output",
@@ -1415,9 +1495,9 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 1,
+    "value": 0.9,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3.7-max-input",
@@ -1427,7 +1507,7 @@
     "unit": "1M tokens",
     "value": 1.475,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3.7-max-output",
@@ -1437,7 +1517,7 @@
     "unit": "1M tokens",
     "value": 4.425,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3.8-2.4t-a95b-input",
@@ -1447,7 +1527,7 @@
     "unit": "1M tokens",
     "value": 2,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3.8-2.4t-a95b-output",
@@ -1457,7 +1537,7 @@
     "unit": "1M tokens",
     "value": 6,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3.8-27b-input",
@@ -1467,7 +1547,7 @@
     "unit": "1M tokens",
     "value": 0.425,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3.8-27b-output",
@@ -1477,7 +1557,7 @@
     "unit": "1M tokens",
     "value": 2.55,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3.8-max-input",
@@ -1487,7 +1567,7 @@
     "unit": "1M tokens",
     "value": 2,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-qwen3.8-max-output",
@@ -1497,7 +1577,7 @@
     "unit": "1M tokens",
     "value": 6,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-seed-2.0-code-input",
@@ -1507,7 +1587,7 @@
     "unit": "1M tokens",
     "value": 0.5,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-seed-2.0-code-output",
@@ -1517,7 +1597,7 @@
     "unit": "1M tokens",
     "value": 3,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-seed-2.0-mini-input",
@@ -1527,7 +1607,7 @@
     "unit": "1M tokens",
     "value": 0.1,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-seed-2.0-mini-output",
@@ -1537,7 +1617,7 @@
     "unit": "1M tokens",
     "value": 0.4,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-step-3.7-flash-input",
@@ -1547,7 +1627,7 @@
     "unit": "1M tokens",
     "value": 0.2,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-step-3.7-flash-output",
@@ -1557,7 +1637,7 @@
     "unit": "1M tokens",
     "value": 1.15,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-voxtral-small-24b-2507-input",
@@ -1567,7 +1647,7 @@
     "unit": "1M tokens",
     "value": 0.1,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   },
   {
     "pricing_id": "deepinfra-voxtral-small-24b-2507-output",
@@ -1577,6 +1657,6 @@
     "unit": "1M tokens",
     "value": 0.3,
     "source": "openrouter",
-    "updated_at": "2026-08-26T01:42:08.118Z"
+    "updated_at": "2026-08-27T08:37:30.280Z"
   }
 ]
