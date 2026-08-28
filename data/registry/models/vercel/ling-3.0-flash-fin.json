@@ -1,0 +1,21 @@
+{
+  "model_id": "vercel/ling-3.0-flash-fin",
+  "provider_id": "vercel",
+  "name": "Ling 3.0 Flash Fin",
+  "description": "Ling 3.0 Flash Fin is InclusionAI’s finance-enhanced MoE language model, combining 124 billion total parameters with approximately 5.1 billion active parameters for efficient financial reasoning. Its 256K context window, function calling, and support for complex, multi-step investment workflows make it ideal for financial research, analysis, long-horizon planning, and execution, while retaining strong capabilities in coding and mathematics.",
+  "context_window": 256000,
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-28T10:49:47.130Z"
+}

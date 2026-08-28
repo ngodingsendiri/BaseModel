@@ -1,7 +1,7 @@
 {
   "model_id": "vercel/minimax-m2.7",
   "provider_id": "vercel",
-  "name": "Minimax M2.7",
+  "name": "MiniMax M2.7",
   "description": "M2.7 delivers outstanding performance in real-world software engineering, including end-to-end full project delivery, log analysis and bug troubleshooting, code security, machine learning, and more.",
   "context_window": 204800,
   "modality": [
@@ -22,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-27T08:37:30.227Z"
+  "updated_at": "2026-08-28T10:49:55.935Z"
 }

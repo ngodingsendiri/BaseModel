@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gemini-3.1-flash-image",
   "provider_id": "requesty",
-  "name": "vertex/gemini-3.1-flash-image",
+  "name": "google/gemini-3.1-flash-image",
   "description": "Gemini 3.1 Flash Image is optimized for image understanding and generation and offers a balance of price and performance.",
   "context_window": 131072,
   "modality": [
@@ -11,7 +11,7 @@
   "open_weight": false,
   "reasoning_support": true,
   "function_calling": true,
-  "structured_output": false,
+  "structured_output": true,
   "vision_support": true,
   "audio_support": false,
   "image_generation": true,
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-27T08:37:30.046Z"
+  "updated_at": "2026-08-28T10:49:55.786Z"
 }

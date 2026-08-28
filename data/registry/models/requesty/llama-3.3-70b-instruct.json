@@ -1,16 +1,16 @@
 {
   "model_id": "requesty/llama-3.3-70b-instruct",
   "provider_id": "requesty",
-  "name": "novita/meta-llama/llama-3.3-70b-instruct",
+  "name": "nebius/meta-llama/Llama-3.3-70B-Instruct",
   "description": "A lightweight and ultra-fast variant of Llama 3.3 70B, for use when quick response times are needed most.",
-  "context_window": 131072,
+  "context_window": 128000,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": false,
   "function_calling": true,
-  "structured_output": false,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -22,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-27T08:37:30.131Z"
+  "updated_at": "2026-08-28T10:49:55.852Z"
 }

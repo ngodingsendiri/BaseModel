@@ -1,0 +1,27 @@
+{
+  "model_id": "requesty/qwen3.8-flash-next",
+  "provider_id": "requesty",
+  "name": "sference/qwen3.8-flash-next",
+  "description": "Qwen3.8 Flash is a multimodal reasoning model from Alibaba. It is suited for coding assistance, agentic workflows, visual understanding, document and codebase analysis, desktop interaction, chart analysis, and long-video analysis.",
+  "context_window": 1000000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-28T10:49:55.887Z",
+  "is_free": false,
+  "tier": "budget",
+  "limits": {
+    "max_input_tokens": 1000000
+  }
+}
