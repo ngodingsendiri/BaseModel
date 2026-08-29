@@ -1,17 +1,18 @@
 {
   "model_id": "requesty/qwen3.8",
   "provider_id": "requesty",
-  "name": "deepinfra/qwen3.8",
+  "name": "tensorx/qwen3.8",
   "description": "Qwen3.8 2.4T A95B is an open-weight sparse mixture-of-experts model from Qwen and the open-weight variant of Qwen3.8 Max, with 95 billion active parameters out of 2.4 trillion total. It is suited for coding, research, complex reasoning, and agentic workflows.",
-  "context_window": 262144,
+  "context_window": 1000000,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
   "reasoning_support": true,
   "function_calling": true,
   "structured_output": true,
-  "vision_support": false,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
@@ -22,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-28T10:49:55.888Z"
+  "updated_at": "2026-08-29T06:37:09.958Z"
 }

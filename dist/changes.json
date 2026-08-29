@@ -1,253 +1,48 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "639382a",
-  "generated_at": "2026-08-28T10:52:55.283Z",
+  "source_revision": "a7cb28d",
+  "generated_at": "2026-08-29T06:39:57.394Z",
   "summary": {
-    "added": 13,
+    "added": 3,
     "removed": 0,
-    "status_changed": 45
+    "status_changed": 6
   },
   "added": [
-    "google/gemini-omni-1.1-flash",
-    "openrouter/codestral-2508-batch",
-    "openrouter/hy4-preview",
-    "openrouter/ling-3.0-flash-fin-free",
-    "openrouter/ministral-8b-2512-batch",
-    "openrouter/mistral-large-2512-batch",
-    "openrouter/mistral-medium-3-5-batch",
-    "openrouter/mistral-medium-3.1-batch",
-    "openrouter/mistral-small-2603-batch",
-    "requesty/qwen3.8-2.4t-a95b",
-    "requesty/qwen3.8-flash-next",
-    "vercel/ling-3.0-flash-fin-free",
-    "vercel/ling-3.0-flash-fin"
+    "deepinfra/glm-5.3",
+    "vercel/hy4-preview",
+    "vercel/wan-v3.0-video-prime"
   ],
   "removed": [],
   "status_changed": [
     {
       "model_id": "deepinfra/claude-fable-5",
-      "from": "active",
-      "to": "discontinued"
+      "from": "discontinued",
+      "to": "active"
     },
     {
       "model_id": "deepinfra/claude-opus-4-7",
-      "from": "active",
-      "to": "discontinued"
+      "from": "discontinued",
+      "to": "active"
     },
     {
       "model_id": "deepinfra/claude-opus-4-8",
-      "from": "active",
-      "to": "discontinued"
+      "from": "discontinued",
+      "to": "active"
     },
     {
       "model_id": "deepinfra/claude-opus-5",
-      "from": "active",
-      "to": "discontinued"
+      "from": "discontinued",
+      "to": "active"
     },
     {
       "model_id": "deepinfra/claude-sonnet-4-6",
-      "from": "active",
-      "to": "discontinued"
+      "from": "discontinued",
+      "to": "active"
     },
     {
       "model_id": "deepinfra/claude-sonnet-5",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "google/gemini-3.1-flash-live-preview",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-3.5-turbo-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-4-turbo-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-4.1-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-4.1-mini-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-4.1-nano-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-4o-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-4o-mini-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-5-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-5-codex-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-5-mini-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-5-nano-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-5-pro-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-5.1-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-5.2-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-5.2-pro-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-5.4-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-5.4-mini-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-5.4-nano-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-5.4-pro-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-5.5-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-5.5-pro-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-5.6-luna-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-5.6-luna-pro-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-5.6-sol-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-5.6-sol-pro-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-5.6-terra-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-5.6-terra-pro-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/kimi-k2.7-code-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/ministral-8b",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/o1-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/o1-pro-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/o3-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/o3-mini-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/o3-mini-high-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/o3-pro-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/o4-mini-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/o4-mini-high-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/rocinante-12b",
-      "from": "active",
-      "to": "discontinued"
+      "from": "discontinued",
+      "to": "active"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gemini-3.6-flash-flex",
   "provider_id": "requesty",
-  "name": "google/gemini-3.6-flash:flex",
+  "name": "vertex/gemini-3.6-flash:flex",
   "description": "Gemini 3.6 Flash is the latest Flash model in the Gemini series, delivering frontier level intelligence at high speed and low cost. Built for the agentic era, it excels at sub agent deployment, multi step workflows, and long horizon tasks at scale.",
   "context_window": 1048576,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-28T10:49:55.790Z"
+  "updated_at": "2026-08-29T06:37:09.848Z"
 }
