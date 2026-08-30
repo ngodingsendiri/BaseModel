@@ -1,48 +1,41 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "a7cb28d",
-  "generated_at": "2026-08-29T06:39:57.394Z",
+  "source_revision": "76e95ef",
+  "generated_at": "2026-08-30T04:53:19.562Z",
   "summary": {
-    "added": 3,
+    "added": 11,
     "removed": 0,
-    "status_changed": 6
+    "status_changed": 3
   },
   "added": [
-    "deepinfra/glm-5.3",
-    "vercel/hy4-preview",
-    "vercel/wan-v3.0-video-prime"
+    "openrouter/deepseek-v4-flash-0731-batch",
+    "openrouter/deepseek-v4-pro-0813-batch",
+    "openrouter/gemma-4-31b-it-batch",
+    "openrouter/glm-5.3-flash-batch",
+    "openrouter/gpt-oss-120b-batch",
+    "openrouter/gpt-oss-20b-batch",
+    "openrouter/inkling-small-batch",
+    "openrouter/kimi-k3-batch",
+    "openrouter/muse-glimmer-30b-batch",
+    "openrouter/qwen3.5-9b-batch",
+    "openrouter/qwen3.8-2.4t-a95b-batch"
   ],
   "removed": [],
   "status_changed": [
     {
-      "model_id": "deepinfra/claude-fable-5",
-      "from": "discontinued",
-      "to": "active"
+      "model_id": "openrouter/olmo-3-32b-think",
+      "from": "active",
+      "to": "discontinued"
     },
     {
-      "model_id": "deepinfra/claude-opus-4-7",
-      "from": "discontinued",
-      "to": "active"
+      "model_id": "openrouter/virtuoso-large",
+      "from": "active",
+      "to": "discontinued"
     },
     {
-      "model_id": "deepinfra/claude-opus-4-8",
-      "from": "discontinued",
-      "to": "active"
-    },
-    {
-      "model_id": "deepinfra/claude-opus-5",
-      "from": "discontinued",
-      "to": "active"
-    },
-    {
-      "model_id": "deepinfra/claude-sonnet-4-6",
-      "from": "discontinued",
-      "to": "active"
-    },
-    {
-      "model_id": "deepinfra/claude-sonnet-5",
-      "from": "discontinued",
-      "to": "active"
+      "model_id": "requesty/qwen3.8-flash-next",
+      "from": "active",
+      "to": "discontinued"
     }
   ]
 }

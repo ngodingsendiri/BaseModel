@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "a7cb28d",
-  "generated_at": "2026-08-29T06:39:57.394Z",
-  "count": 1224,
+  "source_revision": "76e95ef",
+  "generated_at": "2026-08-30T04:53:19.562Z",
+  "count": 1235,
   "models": [
     {
       "model_id": "aion-2-0",
@@ -4666,7 +4666,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 64000,
+      "context_window": 32000,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -4879,8 +4879,7 @@
       "name": "deepseek-ai/DeepSeek-V3.2",
       "description": "DeepSeek-V3.2 is a model that harmonizes high computational efficiency with superior reasoning and agent performance. DeepSeek's approach is built upon three key technical breakthroughs: DeepSeek Sparse Attention (DSA), scalable reinforcement learning framework, and large scale agentic task synthesis pipeline.",
       "modality": [
-        "text",
-        "image"
+        "text"
       ],
       "open_weight": false,
       "reasoning_support": true,
@@ -4888,7 +4887,7 @@
       "structured_output": true,
       "vision_support": false,
       "audio_support": false,
-      "image_generation": true,
+      "image_generation": false,
       "embedding_support": false,
       "context_window": 163840,
       "capability_ids": [],
@@ -5059,6 +5058,30 @@
       ]
     },
     {
+      "model_id": "deepseek-v4-flash-0731-batch",
+      "name": "deepseek/deepseek-v4-flash-0731:batch",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1048576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "deepseek-v4-flash-0731-batch"
+      ],
+      "offering_ids": [
+        "openrouter/deepseek-v4-flash-0731-batch"
+      ]
+    },
+    {
       "model_id": "deepseek-v4-flash-0731-flex",
       "name": "deepinfra/deepseek-v4-flash-0731:flex",
       "description": "DeepSeek V4 Flash 0731 is the official release of DeepSeek V4 Flash, superseding the preview version, with substantially enhanced agentic capabilities. A 304B parameter open-source MoE model with a 1M token context window, tuned for fast inference and high-throughput use cases with strong reasoning, coding, and function calling performance.",
@@ -5223,6 +5246,30 @@
         "openrouter/deepseek-v4-pro-0813",
         "requesty/deepseek-v4-pro-0813",
         "vercel/deepseek-v4-pro-0813"
+      ]
+    },
+    {
+      "model_id": "deepseek-v4-pro-0813-batch",
+      "name": "deepseek/deepseek-v4-pro-0813:batch",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1048576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "deepseek-v4-pro-0813-batch"
+      ],
+      "offering_ids": [
+        "openrouter/deepseek-v4-pro-0813-batch"
       ]
     },
     {
@@ -9895,6 +9942,30 @@
       ]
     },
     {
+      "model_id": "gemma-4-31b-it-batch",
+      "name": "google/gemma-4-31b-it:batch",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 262144,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gemma-4-31b-it-batch"
+      ],
+      "offering_ids": [
+        "openrouter/gemma-4-31b-it-batch"
+      ]
+    },
+    {
       "model_id": "gemma-4-31b-it-flex",
       "name": "deepinfra/google/gemma-4-31B-it:flex",
       "description": "Gemma is a family of open models built by Google DeepMind. Gemma 4 models are multimodal, handling text and image input and generating text output.",
@@ -10482,14 +10553,13 @@
       "name": "zai-org/GLM-5.3",
       "description": "GLM-5.3 is the latest flagship model for complex software engineering and long-horizon Agent tasks. It delivers a 50% improvement in coding experience over its predecessor, matches Mythos 5 on selected cybersecurity capabilities, and achieves a better balance between performance and token efficiency.",
       "modality": [
-        "text",
-        "image"
+        "text"
       ],
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
       "structured_output": true,
-      "vision_support": true,
+      "vision_support": false,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -10533,6 +10603,30 @@
         "openrouter/glm-5.3-flash",
         "requesty/glm-5.3-flash",
         "vercel/glm-5.3-flash"
+      ]
+    },
+    {
+      "model_id": "glm-5-3-flash-batch",
+      "name": "z-ai/glm-5.3-flash:batch",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1048575,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "glm-5.3-flash-batch"
+      ],
+      "offering_ids": [
+        "openrouter/glm-5.3-flash-batch"
       ]
     },
     {
@@ -10602,7 +10696,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1048576,
+      "context_window": 1310720,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -10910,7 +11004,7 @@
     },
     {
       "model_id": "gpt-4-1-eastus2",
-      "name": "azure/gpt-4.1@eastus2",
+      "name": "azure/openai-responses/gpt-4.1@eastus2",
       "description": "GPT-4.1 is a flagship large language model optimized for advanced instruction following, real-world software engineering, and long-context reasoning. It supports a 1 million token context window and outperforms GPT-4o and GPT-4.5 across coding (54.6% SWE-bench Verified), instruction compliance (87.4% IFEval), and multimodal understanding benchmarks. It is tuned for precise code diffs, agent reliability, and high recall in large document contexts, making it ideal for agents, IDE tooling, and enterprise knowledge retrieval.",
       "modality": [
         "text",
@@ -10962,7 +11056,7 @@
     },
     {
       "model_id": "gpt-4-1-francecentral",
-      "name": "azure/openai-responses/gpt-4.1@francecentral",
+      "name": "azure/gpt-4.1@francecentral",
       "description": "GPT-4.1 is a flagship large language model optimized for advanced instruction following, real-world software engineering, and long-context reasoning. It supports a 1 million token context window and outperforms GPT-4o and GPT-4.5 across coding (54.6% SWE-bench Verified), instruction compliance (87.4% IFEval), and multimodal understanding benchmarks. It is tuned for precise code diffs, agent reliability, and high recall in large document contexts, making it ideal for agents, IDE tooling, and enterprise knowledge retrieval.",
       "modality": [
         "text",
@@ -11326,7 +11420,7 @@
     },
     {
       "model_id": "gpt-4-1-nano-francecentral",
-      "name": "azure/openai-responses/gpt-4.1-nano@francecentral",
+      "name": "azure/gpt-4.1-nano@francecentral",
       "description": "For tasks that demand low latency, GPT‑4.1 nano is the fastest and cheapest model in the GPT-4.1 series. It delivers exceptional performance at a small size with its 1 million token context window, and scores 80.1% on MMLU, 50.3% on GPQA, and 9.8% on Aider polyglot coding – even higher than GPT‑4o mini. It’s ideal for tasks like classification or autocompletion.",
       "modality": [
         "text",
@@ -11352,7 +11446,7 @@
     },
     {
       "model_id": "gpt-4-1-nano-swedencentral",
-      "name": "azure/gpt-4.1-nano@swedencentral",
+      "name": "azure/openai-responses/gpt-4.1-nano@swedencentral",
       "description": "For tasks that demand low latency, GPT‑4.1 nano is the fastest and cheapest model in the GPT-4.1 series. It delivers exceptional performance at a small size with its 1 million token context window, and scores 80.1% on MMLU, 50.3% on GPQA, and 9.8% on Aider polyglot coding – even higher than GPT‑4o mini. It’s ideal for tasks like classification or autocompletion.",
       "modality": [
         "text",
@@ -11404,7 +11498,7 @@
     },
     {
       "model_id": "gpt-4-1-nano-westus3",
-      "name": "azure/gpt-4.1-nano@westus3",
+      "name": "azure/openai-responses/gpt-4.1-nano@westus3",
       "description": "For tasks that demand low latency, GPT‑4.1 nano is the fastest and cheapest model in the GPT-4.1 series. It delivers exceptional performance at a small size with its 1 million token context window, and scores 80.1% on MMLU, 50.3% on GPQA, and 9.8% on Aider polyglot coding – even higher than GPT‑4o mini. It’s ideal for tasks like classification or autocompletion.",
       "modality": [
         "text",
@@ -13225,7 +13319,7 @@
     },
     {
       "model_id": "gpt-5-4-eastus2",
-      "name": "azure/openai-responses/gpt-5.4@eastus2",
+      "name": "azure/gpt-5.4@eastus2",
       "description": "GPT-5.4 is OpenAI’s latest frontier model, unifying the Codex and GPT lines into a single system. It features a 1M+ token context window (922K input, 128K output) with support for text and image inputs, enabling high-context reasoning, coding, and multimodal analysis within the same workflow.\n\nThe model delivers improved performance in coding, document understanding, tool use, and instruction following. It is designed as a strong default for both general-purpose tasks and software engineering, capable of generating production-quality code, synthesizing information across multiple sources, and executing complex multi-step workflows with fewer iterations and greater token efficiency.\n",
       "modality": [
         "text",
@@ -13303,7 +13397,7 @@
     },
     {
       "model_id": "gpt-5-4-francecentral",
-      "name": "azure/openai-responses/gpt-5.4@francecentral",
+      "name": "azure/gpt-5.4@francecentral",
       "description": "GPT-5.4 is OpenAI’s latest frontier model, unifying the Codex and GPT lines into a single system. It features a 1M+ token context window (922K input, 128K output) with support for text and image inputs, enabling high-context reasoning, coding, and multimodal analysis within the same workflow.\n\nThe model delivers improved performance in coding, document understanding, tool use, and instruction following. It is designed as a strong default for both general-purpose tasks and software engineering, capable of generating production-quality code, synthesizing information across multiple sources, and executing complex multi-step workflows with fewer iterations and greater token efficiency.\n",
       "modality": [
         "text",
@@ -14065,7 +14159,7 @@
     },
     {
       "model_id": "gpt-5-5-swedencentral",
-      "name": "azure/openai-responses/gpt-5.5@swedencentral",
+      "name": "azure/gpt-5.5@swedencentral",
       "description": "GPT-5.5 is OpenAI's frontier model designed for complex professional workloads, building on GPT-5.4 with stronger reasoning, higher reliability, and improved token efficiency on hard tasks. It features a 1M+ token context window (922K input, 128K output) with support for text and image inputs, enabling large-scale reasoning, coding, and multimodal workflows within a single system.",
       "modality": [
         "text",
@@ -14197,7 +14291,7 @@
     },
     {
       "model_id": "gpt-5-6-luna-eastus2",
-      "name": "azure/gpt-5.6-luna@eastus2",
+      "name": "azure/openai-responses/gpt-5.6-luna@eastus2",
       "description": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series. It is suited for high-volume, latency-sensitive tasks such as chat, classification, and lightweight agentic workflows, providing capable reasoning for its price tier.",
       "modality": [
         "text",
@@ -14611,7 +14705,7 @@
     },
     {
       "model_id": "gpt-5-6-sol-swedencentral",
-      "name": "azure/gpt-5.6-sol@swedencentral",
+      "name": "azure/openai-responses/gpt-5.6-sol@swedencentral",
       "description": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks and long-horizon problem solving.",
       "modality": [
         "text",
@@ -14871,7 +14965,7 @@
     },
     {
       "model_id": "gpt-5-6-terra-swedencentral",
-      "name": "azure/openai-responses/gpt-5.6-terra@swedencentral",
+      "name": "azure/gpt-5.6-terra@swedencentral",
       "description": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic tasks where capability and cost need to be balanced, offering strong performance at roughly half the cost of Sol.",
       "modality": [
         "text",
@@ -16264,6 +16358,30 @@
       ]
     },
     {
+      "model_id": "gpt-oss-120b-batch",
+      "name": "openai/gpt-oss-120b:batch",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 131072,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-oss-120b-batch"
+      ],
+      "offering_ids": [
+        "openrouter/gpt-oss-120b-batch"
+      ]
+    },
+    {
       "model_id": "gpt-oss-120b-turbo",
       "name": "openai/gpt-oss-120b-Turbo",
       "modality": [
@@ -16336,6 +16454,30 @@
         "openrouter/gpt-oss-20b",
         "requesty/gpt-oss-20b",
         "vercel/gpt-oss-20b"
+      ]
+    },
+    {
+      "model_id": "gpt-oss-20b-batch",
+      "name": "openai/gpt-oss-20b:batch",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 131072,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-oss-20b-batch"
+      ],
+      "offering_ids": [
+        "openrouter/gpt-oss-20b-batch"
       ]
     },
     {
@@ -18351,6 +18493,30 @@
       ]
     },
     {
+      "model_id": "inkling-small-batch",
+      "name": "thinkingmachines/inkling-small:batch",
+      "modality": [
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 524288,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "inkling-small-batch"
+      ],
+      "offering_ids": [
+        "openrouter/inkling-small-batch"
+      ]
+    },
+    {
       "model_id": "inkling-small-free",
       "name": "thinkingmachines/inkling-small:free",
       "modality": [
@@ -19004,6 +19170,31 @@
         "openrouter/kimi-k3",
         "requesty/kimi-k3",
         "vercel/kimi-k3"
+      ]
+    },
+    {
+      "model_id": "kimi-k3-batch",
+      "name": "moonshotai/kimi-k3:batch",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1048576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "kimi-k3-batch"
+      ],
+      "offering_ids": [
+        "openrouter/kimi-k3-batch"
       ]
     },
     {
@@ -23236,6 +23427,30 @@
       ]
     },
     {
+      "model_id": "muse-glimmer-30b-batch",
+      "name": "meta/muse-glimmer-30b:batch",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 131072,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "muse-glimmer-30b-batch"
+      ],
+      "offering_ids": [
+        "openrouter/muse-glimmer-30b-batch"
+      ]
+    },
+    {
       "model_id": "muse-image-1-0",
       "name": "Muse Image 1.0",
       "description": "Muse Image is the first image generation model from Meta Superintelligence Labs, it uses advanced reasoning to understand complex prompts, seamlessly blending multiple photos into high-quality creations you can download and share anywhere.\n",
@@ -23817,7 +24032,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1048576,
+      "context_window": 1000000,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -23868,7 +24083,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1048576,
+      "context_window": 1000000,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -25468,7 +25683,7 @@
       "embedding_support": false,
       "context_window": 65536,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "olmo-3-32b-think"
       ],
@@ -26657,7 +26872,7 @@
         "text"
       ],
       "open_weight": false,
-      "reasoning_support": false,
+      "reasoning_support": true,
       "function_calling": true,
       "structured_output": true,
       "vision_support": false,
@@ -26783,13 +26998,14 @@
       "name": "qwen/qwen3-30b-a3b-instruct-2507",
       "description": "Qwen3-30B-A3B-Instruct-2507 is a 30.5B-parameter mixture-of-experts language model from Qwen, with 3.3B active parameters per inference. It operates in non-thinking mode and is designed for high-quality instruction following, multilingual understanding, and agentic tool use. Post-trained on instruction data, it demonstrates competitive performance across reasoning (AIME, ZebraLogic), coding (MultiPL-E, LiveCodeBench), and alignment (IFEval, WritingBench) benchmarks. It outperforms its non-instruct variant on subjective and open-ended tasks while retaining strong factual and coding performance.",
       "modality": [
-        "text"
+        "text",
+        "image"
       ],
       "open_weight": false,
-      "reasoning_support": true,
+      "reasoning_support": false,
       "function_calling": true,
       "structured_output": true,
-      "vision_support": false,
+      "vision_support": true,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -26836,9 +27052,9 @@
         "text"
       ],
       "open_weight": false,
-      "reasoning_support": false,
+      "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": false,
       "audio_support": false,
       "image_generation": false,
@@ -27050,7 +27266,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": true,
+      "structured_output": false,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -27116,6 +27332,30 @@
       "offering_ids": [
         "deepinfra/qwen3.5-9b",
         "openrouter/qwen3.5-9b"
+      ]
+    },
+    {
+      "model_id": "qwen3-5-9b-batch",
+      "name": "qwen/qwen3.5-9b:batch",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 262144,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "qwen3.5-9b-batch"
+      ],
+      "offering_ids": [
+        "openrouter/qwen3.5-9b-batch"
       ]
     },
     {
@@ -27532,6 +27772,30 @@
       ]
     },
     {
+      "model_id": "qwen3-8-2-4t-a95b-batch",
+      "name": "qwen/qwen3.8-2.4t-a95b:batch",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1010000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "qwen3.8-2.4t-a95b-batch"
+      ],
+      "offering_ids": [
+        "openrouter/qwen3.8-2.4t-a95b-batch"
+      ]
+    },
+    {
       "model_id": "qwen3-8-27b",
       "name": "Qwen/Qwen3.8-27B",
       "description": "Built on the architectural foundation of Qwen3.5, Qwen3.8 delivers substantial gains across coding, professional work, research, and long-horizon agentic tasks. Qwen3.8-27B brings these advances to a compact, deployment-friendly dense model: a native vision-language model that understands images and videos, with flexible thinking control, designed to carry complex, multi-step tasks through to completion with greater reliability.",
@@ -27616,7 +27880,7 @@
       "embedding_support": false,
       "context_window": 1000000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "qwen3.8-flash-next"
       ],
@@ -28060,13 +28324,14 @@
       "name": "Qwen/Qwen3-Max",
       "description": "This is the best-performing model in the Qwen series. It is ideal for complex, multi-step tasks.",
       "modality": [
-        "text"
+        "text",
+        "image"
       ],
       "open_weight": false,
       "reasoning_support": false,
       "function_calling": true,
       "structured_output": true,
-      "vision_support": false,
+      "vision_support": true,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -30822,7 +31087,7 @@
       "embedding_support": false,
       "context_window": 131072,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "virtuoso-large"
       ],
@@ -31031,7 +31296,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 32000,
+      "context_window": 32768,
       "capability_ids": [],
       "status": "active",
       "aliases": [

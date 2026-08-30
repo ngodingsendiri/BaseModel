@@ -2,6 +2,7 @@
   "model_id": "deepinfra/glm-5.3",
   "provider_id": "deepinfra",
   "name": "zai-org/GLM-5.3",
+  "context_window": 1310720,
   "modality": [
     "text"
   ],
@@ -13,13 +14,12 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "capability_ids": [],
-  "status": "active",
-  "updated_at": "2026-08-29T06:37:09.563Z",
   "is_free": false,
   "tier": "balanced",
   "limits": {
     "max_input_tokens": 1310720
   },
-  "context_window": 1310720
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-30T04:50:11.898Z"
 }

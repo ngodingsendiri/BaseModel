@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "a7cb28d",
-  "generated_at": "2026-08-29T06:39:57.394Z",
+  "source_revision": "76e95ef",
+  "generated_at": "2026-08-30T04:53:19.562Z",
   "count": 40,
   "ranking": [
     {
@@ -140,9 +140,9 @@
         "code",
         "text"
       ],
-      "cheapest_offering": "requesty/glm-5.1",
-      "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 1.6625,
+      "cheapest_offering": "deepinfra/glm-5.1",
+      "cheapest_provider": "deepinfra",
+      "blended_cost_per_1m": 1.4834999999999998,
       "pareto_optimal": false
     },
     {
@@ -165,9 +165,9 @@
         "code",
         "text"
       ],
-      "cheapest_offering": "requesty/kimi-k2.6",
-      "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 1.4375,
+      "cheapest_offering": "deepinfra/kimi-k2.6",
+      "cheapest_provider": "deepinfra",
+      "blended_cost_per_1m": 1.7125,
       "pareto_optimal": false
     },
     {
@@ -303,7 +303,7 @@
       ],
       "cheapest_offering": "deepinfra/deepseek-v4-pro",
       "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 0.8512500000000001,
+      "blended_cost_per_1m": 0.62275,
       "pareto_optimal": false
     },
     {
