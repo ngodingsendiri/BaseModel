@@ -1,0 +1,22 @@
+{
+  "model_id": "vercel/minimax-h3-max",
+  "provider_id": "vercel",
+  "name": "MiniMax H3 Max",
+  "description": "MiniMax H3 Max is a next-generation general-purpose multimodal video model ranking #1 for overall quality, prompt understanding, and aesthetics in all evaluations, while generating a 5-second video in under 3 seconds.",
+  "modality": [
+    "text",
+    "image",
+    "video"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-31T04:53:56.878Z"
+}

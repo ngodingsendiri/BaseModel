@@ -1,0 +1,24 @@
+{
+  "model_id": "vercel/qwen3.8-flash-next",
+  "provider_id": "vercel",
+  "name": "Qwen 3.8 Flash Next",
+  "description": "Qwen3.8-Flash-Next is Qwen’s experimental open-weight multimodal language model, pairing 125B parameters with just 6B activated for efficient reasoning and generation. With native 262K-token context extensible to 1M, vision support, and an architecture optimized for lower long-context latency, it is built for demanding agentic coding, tool use, visual reasoning, and multimodal automation.",
+  "context_window": 1048576,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-08-31T04:54:05.357Z",
+  "tier": "budget",
+  "is_free": false
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "76e95ef",
-  "generated_at": "2026-08-30T04:53:19.562Z",
+  "source_revision": "9f4b49a",
+  "generated_at": "2026-08-31T04:57:03.326Z",
   "count": 12,
   "providers": [
     {
@@ -14,7 +14,7 @@
       "description": "AI safety company and developer of the Claude model family.",
       "provider_type": "first-party",
       "status": "active",
-      "updated_at": "2026-08-30T04:50:01.528Z"
+      "updated_at": "2026-08-31T04:53:56.603Z"
     },
     {
       "provider_id": "cerebras",
@@ -23,7 +23,7 @@
       "website": "https://www.cerebras.ai",
       "provider_type": "first-party",
       "status": "active",
-      "updated_at": "2026-08-30T04:50:00.690Z"
+      "updated_at": "2026-08-31T04:53:55.698Z"
     },
     {
       "provider_id": "deepinfra",
@@ -32,7 +32,7 @@
       "website": "https://deepinfra.com",
       "provider_type": "first-party",
       "status": "active",
-      "updated_at": "2026-08-30T04:50:00.849Z"
+      "updated_at": "2026-08-31T04:53:55.802Z"
     },
     {
       "provider_id": "google",
@@ -44,7 +44,7 @@
       "description": "Technology company and developer of the Gemini model family and other AI research.",
       "provider_type": "first-party",
       "status": "active",
-      "updated_at": "2026-08-30T04:50:01.463Z"
+      "updated_at": "2026-08-31T04:53:56.258Z"
     },
     {
       "provider_id": "groq",
@@ -62,7 +62,7 @@
       "website": "https://hyperbolic.xyz",
       "provider_type": "first-party",
       "status": "active",
-      "updated_at": "2026-08-30T04:50:01.044Z"
+      "updated_at": "2026-08-31T04:53:55.707Z"
     },
     {
       "provider_id": "meta",
@@ -85,7 +85,7 @@
       "description": "French AI company known for open-weight and efficient language models.",
       "provider_type": "first-party",
       "status": "active",
-      "updated_at": "2026-08-30T04:50:01.118Z"
+      "updated_at": "2026-08-31T04:53:55.819Z"
     },
     {
       "provider_id": "openai",
@@ -106,7 +106,7 @@
       "website": "https://openrouter.ai",
       "provider_type": "router",
       "status": "active",
-      "updated_at": "2026-08-30T04:50:01.764Z"
+      "updated_at": "2026-08-31T04:53:56.017Z"
     },
     {
       "provider_id": "requesty",
@@ -124,7 +124,7 @@
       "website": "https://vercel.com",
       "provider_type": "gateway",
       "status": "active",
-      "updated_at": "2026-08-29T06:37:00.421Z"
+      "updated_at": "2026-08-31T04:53:56.684Z"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "76e95ef",
-  "generated_at": "2026-08-30T04:53:19.562Z",
-  "count": 1235,
+  "source_revision": "9f4b49a",
+  "generated_at": "2026-08-31T04:57:03.326Z",
+  "count": 1236,
   "models": [
     {
       "model_id": "aion-2-0",
@@ -21362,6 +21362,32 @@
       ]
     },
     {
+      "model_id": "minimax-h3-max",
+      "name": "MiniMax H3 Max",
+      "description": "MiniMax H3 Max is a next-generation general-purpose multimodal video model ranking #1 for overall quality, prompt understanding, and aesthetics in all evaluations, while generating a 5-second video in under 3 seconds.",
+      "modality": [
+        "text",
+        "image",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "minimax-h3-max"
+      ],
+      "offering_ids": [
+        "vercel/minimax-h3-max"
+      ]
+    },
+    {
       "model_id": "minimax-m1",
       "name": "minimax/minimax-m1",
       "modality": [
@@ -27878,14 +27904,15 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1000000,
+      "context_window": 1048576,
       "capability_ids": [],
-      "status": "discontinued",
+      "status": "active",
       "aliases": [
         "qwen3.8-flash-next"
       ],
       "offering_ids": [
-        "requesty/qwen3.8-flash-next"
+        "requesty/qwen3.8-flash-next",
+        "vercel/qwen3.8-flash-next"
       ]
     },
     {

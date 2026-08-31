@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "76e95ef",
-  "generated_at": "2026-08-30T04:53:19.562Z",
+  "source_revision": "9f4b49a",
+  "generated_at": "2026-08-31T04:57:03.326Z",
   "count": 40,
   "ranking": [
     {
@@ -303,7 +303,7 @@
       ],
       "cheapest_offering": "deepinfra/deepseek-v4-pro",
       "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 0.62275,
+      "blended_cost_per_1m": 2,
       "pareto_optimal": false
     },
     {
