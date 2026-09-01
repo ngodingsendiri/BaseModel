@@ -1,0 +1,21 @@
+{
+  "model_id": "vercel/mimo-v2.5-pro-ultraspeed",
+  "provider_id": "vercel",
+  "name": "MiMo V2.5 Pro UltraSpeed",
+  "description": "MiMo-V2.5-Pro-UltraSpeed is Xiaomi’s ultra-fast, text-based flagship reasoning model, pairing a trillion-parameter model with a 1,048,576-token context window and generation speeds of roughly 500–1,000 tokens per second. It supports deep thinking, tool calling, streaming output, and context caching, making it well suited to latency-sensitive coding agents, quantitative analysis, real-time risk control, and scientific workflows.",
+  "context_window": 1048576,
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-01T04:32:49.562Z"
+}

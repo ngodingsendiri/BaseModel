@@ -1,9 +1,9 @@
 {
   "model_id": "requesty/minimax-m2.5",
   "provider_id": "requesty",
-  "name": "minimaxi/minimax-m2.5",
+  "name": "nebius/minimaxi/minimax-m2.5",
   "description": "MiniMax M2.5 is a state of the art language model built for real world productivity and autonomous agent execution. Trained with large scale reinforcement learning across hundreds of thousands of complex digital environments, it delivers leading performance in coding, search, tool use, and professional office workflows, operating with significantly improved speed and token efficiency. Designed to plan like an architect and act with cost efficient precision, M2.5 extends beyond software development into finance, research, and enterprise grade office tasks, bringing high end agentic capability at a fraction of the typical frontier model cost.",
-  "context_window": 200000,
+  "context_window": 128000,
   "modality": [
     "text"
   ],
@@ -16,11 +16,11 @@
   "image_generation": false,
   "embedding_support": false,
   "is_free": false,
-  "tier": "budget",
+  "tier": "balanced",
   "limits": {
-    "max_input_tokens": 196608
+    "max_input_tokens": 200000
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-08-31T04:54:05.264Z"
+  "updated_at": "2026-09-01T04:32:58.151Z"
 }
