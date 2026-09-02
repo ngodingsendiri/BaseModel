@@ -1,9 +1,9 @@
 {
   "model_id": "requesty/deepseek-r1-distill-llama-70b",
   "provider_id": "requesty",
-  "name": "novita/deepseek/deepseek-r1-distill-llama-70b",
+  "name": "deepinfra/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
   "description": "DeepSeek-R1-Distill-Llama-70B is an open-weights, 70-billion parameter language model developed by DeepSeek. It distills the advanced mathematical, coding, and logical reasoning patterns of the flagship DeepSeek-R1 model into the highly optimized Llama-3.3-70B-Instruct architecture.",
-  "context_window": 32000,
+  "context_window": 64000,
   "modality": [
     "text"
   ],
@@ -22,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-01T04:32:58.222Z"
+  "updated_at": "2026-09-02T03:55:57.582Z"
 }

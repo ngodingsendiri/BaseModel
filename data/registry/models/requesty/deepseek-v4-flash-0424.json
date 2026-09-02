@@ -1,26 +1,26 @@
 {
   "model_id": "requesty/deepseek-v4-flash-0424",
   "provider_id": "requesty",
-  "name": "parasail/deepseek-v4-flash-0424",
+  "name": "doubleword/deepseek-v4-flash-0424",
   "description": "DeepSeek V4-Flash is the smaller model in the V4 family, ahead of models like Gemini 3 Flash and Qwen3.5-397B-A17B.",
   "context_window": 1048576,
   "modality": [
     "text"
   ],
   "open_weight": false,
-  "reasoning_support": false,
-  "function_calling": true,
-  "structured_output": true,
+  "reasoning_support": true,
+  "function_calling": false,
+  "structured_output": false,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "capability_ids": [],
-  "status": "active",
-  "updated_at": "2026-09-01T04:32:58.074Z",
   "is_free": false,
   "tier": "budget",
   "limits": {
     "max_input_tokens": 1048576
-  }
+  },
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-02T03:55:57.392Z"
 }

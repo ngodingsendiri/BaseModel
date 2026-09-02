@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gemma-4-26b-a4b-it",
   "provider_id": "requesty",
-  "name": "parasail/google/gemma-4-26B-A4B-it",
+  "name": "deepinfra/google/gemma-4-26B-A4B-it",
   "description": "Gemma 4 26B A4B is a Mixture of Experts model from Google DeepMind built for scalable performance with a 256K context window. Supports text and image input, native thinking mode, function calling, and 140+ languages. Ideal for long context RAG, agentic workflows, coding, and multimodal understanding.",
   "context_window": 262144,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-01T04:32:58.100Z"
+  "updated_at": "2026-09-02T03:55:57.426Z"
 }

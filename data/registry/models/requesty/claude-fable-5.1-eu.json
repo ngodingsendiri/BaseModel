@@ -1,0 +1,27 @@
+{
+  "model_id": "requesty/claude-fable-5.1-eu",
+  "provider_id": "requesty",
+  "name": "vertex/claude-fable-5.1@eu",
+  "description": "Claude Fable 5.1 is Anthropic's most capable model, improving on Claude Fable 5 across agentic coding, long running agentic workflows, and knowledge work such as large code refactors, front end and visual code generation, and finance and analysis tasks. It ships a 1M token context window by default with 128K max output, is more token efficient and concise than Fable 5, and supports per message effort control. It is a Mythos class model with robust safeguards.",
+  "context_window": 1000000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-02T03:55:57.353Z",
+  "is_free": false,
+  "tier": "premium",
+  "limits": {
+    "max_input_tokens": 1000000
+  }
+}
