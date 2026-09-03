@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "9b96e91",
-  "generated_at": "2026-09-02T03:59:28.067Z",
-  "count": 166,
+  "source_revision": "7495b6d",
+  "generated_at": "2026-09-03T03:57:17.442Z",
+  "count": 160,
   "benchmarks": [
     {
       "benchmark_id": "mirror-text-claude-fable-5",
@@ -10,7 +10,7 @@
       "benchmark_name": "text",
       "score": 88.375,
       "score_raw": 1507,
-      "evaluation_date": "2026-09-01",
+      "evaluation_date": "2026-09-03",
       "source": "mirror",
       "category": [
         "text"
@@ -21,22 +21,9 @@
       "benchmark_id": "mirror-text-claude-opus-4-6",
       "model_id": "claude-opus-4-6",
       "benchmark_name": "text",
-      "score": 87.125,
-      "score_raw": 1497,
-      "evaluation_date": "2026-09-01",
-      "source": "mirror",
-      "category": [
-        "text"
-      ],
-      "rank": 5
-    },
-    {
-      "benchmark_id": "mirror-text-claude-opus-4-7",
-      "model_id": "claude-opus-4-7",
-      "benchmark_name": "text",
-      "score": 86.75,
-      "score_raw": 1494,
-      "evaluation_date": "2026-09-01",
+      "score": 87.25,
+      "score_raw": 1498,
+      "evaluation_date": "2026-09-03",
       "source": "mirror",
       "category": [
         "text"
@@ -44,17 +31,43 @@
       "rank": 6
     },
     {
-      "benchmark_id": "mirror-text-muse-spark-1-1",
-      "model_id": "muse-spark-1.1",
+      "benchmark_id": "mirror-text-claude-opus-4-7",
+      "model_id": "claude-opus-4-7",
       "benchmark_name": "text",
-      "score": 86.25,
-      "score_raw": 1490,
-      "evaluation_date": "2026-09-01",
+      "score": 86.75,
+      "score_raw": 1494,
+      "evaluation_date": "2026-09-03",
       "source": "mirror",
       "category": [
         "text"
       ],
-      "rank": 8
+      "rank": 7
+    },
+    {
+      "benchmark_id": "mirror-text-muse-spark-1-1",
+      "model_id": "muse-spark-1.1",
+      "benchmark_name": "text",
+      "score": 86.5,
+      "score_raw": 1492,
+      "evaluation_date": "2026-09-03",
+      "source": "mirror",
+      "category": [
+        "text"
+      ],
+      "rank": 10
+    },
+    {
+      "benchmark_id": "mirror-text-gemini-3-1-pro-preview",
+      "model_id": "gemini-3.1-pro-preview",
+      "benchmark_name": "text",
+      "score": 85.875,
+      "score_raw": 1487,
+      "evaluation_date": "2026-09-03",
+      "source": "mirror",
+      "category": [
+        "text"
+      ],
+      "rank": 15
     },
     {
       "benchmark_id": "mirror-code-qwen3-8-max",
@@ -62,20 +75,7 @@
       "benchmark_name": "code",
       "score": 100,
       "score_raw": 1669,
-      "evaluation_date": "2026-09-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 3
-    },
-    {
-      "benchmark_id": "mirror-code-hy4-preview",
-      "model_id": "hy4-preview",
-      "benchmark_name": "code",
-      "score": 100,
-      "score_raw": 1631,
-      "evaluation_date": "2026-09-01",
+      "evaluation_date": "2026-09-03",
       "source": "mirror",
       "category": [
         "code"
@@ -88,20 +88,7 @@
       "benchmark_name": "code",
       "score": 100,
       "score_raw": 1628,
-      "evaluation_date": "2026-09-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 7
-    },
-    {
-      "benchmark_id": "mirror-code-qwen3-8-flash-next",
-      "model_id": "qwen3.8-flash-next",
-      "benchmark_name": "code",
-      "score": 100,
-      "score_raw": 1622,
-      "evaluation_date": "2026-09-01",
+      "evaluation_date": "2026-09-03",
       "source": "mirror",
       "category": [
         "code"
@@ -109,30 +96,56 @@
       "rank": 8
     },
     {
-      "benchmark_id": "mirror-code-glm-5-3-flash",
-      "model_id": "glm-5.3-flash",
+      "benchmark_id": "mirror-code-hy4-preview",
+      "model_id": "hy4-preview",
       "benchmark_name": "code",
       "score": 100,
-      "score_raw": 1606,
-      "evaluation_date": "2026-09-01",
+      "score_raw": 1626,
+      "evaluation_date": "2026-09-03",
       "source": "mirror",
       "category": [
         "code"
       ],
-      "rank": 11
+      "rank": 9
+    },
+    {
+      "benchmark_id": "mirror-code-qwen3-8-flash-next",
+      "model_id": "qwen3.8-flash-next",
+      "benchmark_name": "code",
+      "score": 100,
+      "score_raw": 1622,
+      "evaluation_date": "2026-09-03",
+      "source": "mirror",
+      "category": [
+        "code"
+      ],
+      "rank": 10
+    },
+    {
+      "benchmark_id": "mirror-code-glm-5-3-flash",
+      "model_id": "glm-5.3-flash",
+      "benchmark_name": "code",
+      "score": 100,
+      "score_raw": 1604,
+      "evaluation_date": "2026-09-03",
+      "source": "mirror",
+      "category": [
+        "code"
+      ],
+      "rank": 13
     },
     {
       "benchmark_id": "mirror-code-qwen3-8-27b",
       "model_id": "qwen3.8-27b",
       "benchmark_name": "code",
-      "score": 99.75,
-      "score_raw": 1598,
-      "evaluation_date": "2026-09-01",
+      "score": 99.625,
+      "score_raw": 1597,
+      "evaluation_date": "2026-09-03",
       "source": "mirror",
       "category": [
         "code"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "benchmark_id": "mirror-code-claude-opus-4-7",
@@ -140,12 +153,12 @@
       "benchmark_name": "code",
       "score": 94.625,
       "score_raw": 1557,
-      "evaluation_date": "2026-09-01",
+      "evaluation_date": "2026-09-03",
       "source": "mirror",
       "category": [
         "code"
       ],
-      "rank": 18
+      "rank": 21
     },
     {
       "benchmark_id": "mirror-code-grok-4-5",
@@ -153,33 +166,7 @@
       "benchmark_name": "code",
       "score": 94.5,
       "score_raw": 1556,
-      "evaluation_date": "2026-09-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 20
-    },
-    {
-      "benchmark_id": "mirror-code-claude-opus-4-8",
-      "model_id": "claude-opus-4-8",
-      "benchmark_name": "code",
-      "score": 92.5,
-      "score_raw": 1540,
-      "evaluation_date": "2026-09-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 22
-    },
-    {
-      "benchmark_id": "mirror-code-muse-spark-1-1",
-      "model_id": "muse-spark-1.1",
-      "benchmark_name": "code",
-      "score": 92.5,
-      "score_raw": 1540,
-      "evaluation_date": "2026-09-01",
+      "evaluation_date": "2026-09-03",
       "source": "mirror",
       "category": [
         "code"
@@ -187,12 +174,25 @@
       "rank": 23
     },
     {
-      "benchmark_id": "mirror-code-claude-opus-4-6",
-      "model_id": "claude-opus-4-6",
+      "benchmark_id": "mirror-code-muse-spark-1-1",
+      "model_id": "muse-spark-1.1",
       "benchmark_name": "code",
-      "score": 92,
-      "score_raw": 1536,
-      "evaluation_date": "2026-09-01",
+      "score": 92.5,
+      "score_raw": 1540,
+      "evaluation_date": "2026-09-03",
+      "source": "mirror",
+      "category": [
+        "code"
+      ],
+      "rank": 25
+    },
+    {
+      "benchmark_id": "mirror-code-claude-opus-4-8",
+      "model_id": "claude-opus-4-8",
+      "benchmark_name": "code",
+      "score": 92.5,
+      "score_raw": 1540,
+      "evaluation_date": "2026-09-03",
       "source": "mirror",
       "category": [
         "code"
@@ -200,12 +200,12 @@
       "rank": 26
     },
     {
-      "benchmark_id": "mirror-code-claude-sonnet-4-6",
-      "model_id": "claude-sonnet-4-6",
+      "benchmark_id": "mirror-code-claude-opus-4-6",
+      "model_id": "claude-opus-4-6",
       "benchmark_name": "code",
-      "score": 90.25,
-      "score_raw": 1522,
-      "evaluation_date": "2026-09-01",
+      "score": 92,
+      "score_raw": 1536,
+      "evaluation_date": "2026-09-03",
       "source": "mirror",
       "category": [
         "code"
@@ -213,38 +213,25 @@
       "rank": 29
     },
     {
+      "benchmark_id": "mirror-code-claude-sonnet-4-6",
+      "model_id": "claude-sonnet-4-6",
+      "benchmark_name": "code",
+      "score": 90.25,
+      "score_raw": 1522,
+      "evaluation_date": "2026-09-03",
+      "source": "mirror",
+      "category": [
+        "code"
+      ],
+      "rank": 31
+    },
+    {
       "benchmark_id": "mirror-code-hy3",
       "model_id": "hy3",
       "benchmark_name": "code",
-      "score": 89.125,
-      "score_raw": 1513,
-      "evaluation_date": "2026-09-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 33
-    },
-    {
-      "benchmark_id": "mirror-code-kimi-k2-6",
-      "model_id": "kimi-k2.6",
-      "benchmark_name": "code",
-      "score": 88.625,
-      "score_raw": 1509,
-      "evaluation_date": "2026-09-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 35
-    },
-    {
-      "benchmark_id": "mirror-code-glm-5-1",
-      "model_id": "glm-5.1",
-      "benchmark_name": "code",
-      "score": 88.625,
-      "score_raw": 1509,
-      "evaluation_date": "2026-09-01",
+      "score": 88.875,
+      "score_raw": 1511,
+      "evaluation_date": "2026-09-03",
       "source": "mirror",
       "category": [
         "code"
@@ -252,95 +239,30 @@
       "rank": 36
     },
     {
-      "benchmark_id": "mirror-code-minimax-m3",
-      "model_id": "minimax-m3",
+      "benchmark_id": "mirror-code-kimi-k2-6",
+      "model_id": "kimi-k2.6",
       "benchmark_name": "code",
-      "score": 85.875,
-      "score_raw": 1487,
-      "evaluation_date": "2026-09-01",
+      "score": 88.625,
+      "score_raw": 1509,
+      "evaluation_date": "2026-09-03",
       "source": "mirror",
       "category": [
         "code"
       ],
-      "rank": 40
+      "rank": 38
     },
     {
-      "benchmark_id": "mirror-code-qwen3-6-max-preview",
-      "model_id": "qwen3.6-max-preview",
+      "benchmark_id": "mirror-code-glm-5-1",
+      "model_id": "glm-5.1",
       "benchmark_name": "code",
-      "score": 84.75,
-      "score_raw": 1478,
-      "evaluation_date": "2026-09-01",
+      "score": 88.5,
+      "score_raw": 1508,
+      "evaluation_date": "2026-09-03",
       "source": "mirror",
       "category": [
         "code"
       ],
-      "rank": 42
-    },
-    {
-      "benchmark_id": "mirror-code-mimo-v2-5-pro",
-      "model_id": "mimo-v2.5-pro",
-      "benchmark_name": "code",
-      "score": 84.5,
-      "score_raw": 1476,
-      "evaluation_date": "2026-09-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 43
-    },
-    {
-      "benchmark_id": "mirror-code-kimi-k2-7-code",
-      "model_id": "kimi-k2.7-code",
-      "benchmark_name": "code",
-      "score": 84.125,
-      "score_raw": 1473,
-      "evaluation_date": "2026-09-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 44
-    },
-    {
-      "benchmark_id": "mirror-code-claude-opus-4-5-20251101",
-      "model_id": "claude-opus-4-5-20251101",
-      "benchmark_name": "code",
-      "score": 83.5,
-      "score_raw": 1468,
-      "evaluation_date": "2026-09-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 45
-    },
-    {
-      "benchmark_id": "mirror-code-qwen3-6-plus",
-      "model_id": "qwen3.6-plus",
-      "benchmark_name": "code",
-      "score": 82.5,
-      "score_raw": 1460,
-      "evaluation_date": "2026-09-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 48
-    },
-    {
-      "benchmark_id": "mirror-code-gemini-3-5-flash-lite",
-      "model_id": "gemini-3.5-flash-lite",
-      "benchmark_name": "code",
-      "score": 81.125,
-      "score_raw": 1449,
-      "evaluation_date": "2026-09-01",
-      "source": "mirror",
-      "category": [
-        "code"
-      ],
-      "rank": 50
+      "rank": 39
     },
     {
       "benchmark_id": "openllm-average-nousresearch-hermes-3-llama-3-1-70b",

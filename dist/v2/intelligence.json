@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "9b96e91",
-  "generated_at": "2026-09-02T03:59:28.067Z",
-  "count": 38,
+  "source_revision": "7495b6d",
+  "generated_at": "2026-09-03T03:57:17.442Z",
+  "count": 32,
   "ranking": [
     {
       "model_id": "glm-5-3-flash",
@@ -54,7 +54,7 @@
     },
     {
       "model_id": "qwen3-8-27b",
-      "quality_score": 99.75,
+      "quality_score": 99.63,
       "benchmark_count": 1,
       "categories": [
         "code"
@@ -128,7 +128,7 @@
     },
     {
       "model_id": "claude-opus-4-6",
-      "quality_score": 89.56,
+      "quality_score": 89.63,
       "benchmark_count": 2,
       "categories": [
         "code",
@@ -141,7 +141,7 @@
     },
     {
       "model_id": "muse-spark-1-1",
-      "quality_score": 89.38,
+      "quality_score": 89.5,
       "benchmark_count": 2,
       "categories": [
         "code",
@@ -154,7 +154,7 @@
     },
     {
       "model_id": "hy3",
-      "quality_score": 89.13,
+      "quality_score": 88.88,
       "benchmark_count": 1,
       "categories": [
         "code"
@@ -162,18 +162,6 @@
       "cheapest_offering": "deepinfra/hy3",
       "cheapest_provider": "deepinfra",
       "blended_cost_per_1m": 0.231,
-      "pareto_optimal": false
-    },
-    {
-      "model_id": "glm-5-1",
-      "quality_score": 88.63,
-      "benchmark_count": 1,
-      "categories": [
-        "code"
-      ],
-      "cheapest_offering": "deepinfra/glm-5.1",
-      "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 1.4834999999999998,
       "pareto_optimal": false
     },
     {
@@ -189,87 +177,27 @@
       "pareto_optimal": false
     },
     {
-      "model_id": "minimax-m3",
+      "model_id": "glm-5-1",
+      "quality_score": 88.5,
+      "benchmark_count": 1,
+      "categories": [
+        "code"
+      ],
+      "cheapest_offering": "deepinfra/glm-5.1",
+      "cheapest_provider": "deepinfra",
+      "blended_cost_per_1m": 1.4834999999999998,
+      "pareto_optimal": false
+    },
+    {
+      "model_id": "gemini-3-1-pro-preview",
       "quality_score": 85.88,
       "benchmark_count": 1,
       "categories": [
-        "code"
+        "text"
       ],
-      "cheapest_offering": "deepinfra/minimax-m3",
-      "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 0.5249999999999999,
-      "pareto_optimal": false
-    },
-    {
-      "model_id": "qwen3-6-max-preview",
-      "quality_score": 84.75,
-      "benchmark_count": 1,
-      "categories": [
-        "code"
-      ],
-      "cheapest_offering": "openrouter/qwen3.6-max-preview",
-      "cheapest_provider": "openrouter",
-      "blended_cost_per_1m": 2.3107499999999996,
-      "pareto_optimal": false
-    },
-    {
-      "model_id": "mimo-v2-5-pro",
-      "quality_score": 84.5,
-      "benchmark_count": 1,
-      "categories": [
-        "code"
-      ],
-      "cheapest_offering": "deepinfra/mimo-v2.5-pro",
-      "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 0.54375,
-      "pareto_optimal": false
-    },
-    {
-      "model_id": "kimi-k2-7-code",
-      "quality_score": 84.13,
-      "benchmark_count": 1,
-      "categories": [
-        "code"
-      ],
-      "cheapest_offering": "deepinfra/kimi-k2.7-code",
-      "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 1.345,
-      "pareto_optimal": false
-    },
-    {
-      "model_id": "claude-opus-4-5-20251101",
-      "quality_score": 83.5,
-      "benchmark_count": 1,
-      "categories": [
-        "code"
-      ],
-      "cheapest_offering": "anthropic/claude-opus-4-5-20251101",
-      "cheapest_provider": "anthropic",
-      "blended_cost_per_1m": 0,
-      "pareto_optimal": true
-    },
-    {
-      "model_id": "qwen3-6-plus",
-      "quality_score": 82.5,
-      "benchmark_count": 1,
-      "categories": [
-        "code"
-      ],
-      "cheapest_offering": "openrouter/qwen3.6-plus",
-      "cheapest_provider": "openrouter",
-      "blended_cost_per_1m": 0.73125,
-      "pareto_optimal": false
-    },
-    {
-      "model_id": "gemini-3-5-flash-lite",
-      "quality_score": 81.13,
-      "benchmark_count": 1,
-      "categories": [
-        "code"
-      ],
-      "cheapest_offering": "google/gemini-3.5-flash-lite",
+      "cheapest_offering": "google/gemini-3.1-pro-preview",
       "cheapest_provider": "google",
-      "blended_cost_per_1m": 0.85,
+      "blended_cost_per_1m": 4.5,
       "pareto_optimal": false
     },
     {
@@ -299,9 +227,9 @@
         "overall",
         "reasoning"
       ],
-      "cheapest_offering": "requesty/llama-3.3-70b-instruct",
-      "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 0.1975,
+      "cheapest_offering": "hyperbolic/llama-3.3-70b-instruct",
+      "cheapest_provider": "hyperbolic",
+      "blended_cost_per_1m": 0.15500000000000003,
       "pareto_optimal": false
     },
     {
