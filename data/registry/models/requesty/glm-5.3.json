@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/glm-5.3",
   "provider_id": "requesty",
-  "name": "fireworks/glm-5.3",
+  "name": "sference/glm-5.3",
   "description": "GLM-5.3 is the latest flagship model for complex software engineering and long-horizon Agent tasks. It delivers a 50% improvement in coding experience over its predecessor, matches Mythos 5 on selected cybersecurity capabilities, and achieves a better balance between performance and token efficiency.",
   "context_window": 1048576,
   "modality": [
@@ -18,9 +18,9 @@
   "is_free": false,
   "tier": "balanced",
   "limits": {
-    "max_input_tokens": 1048576
+    "max_input_tokens": 1000000
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-03T03:54:19.567Z"
+  "updated_at": "2026-09-04T03:57:06.165Z"
 }

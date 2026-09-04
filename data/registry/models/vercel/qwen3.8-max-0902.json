@@ -1,0 +1,22 @@
+{
+  "model_id": "vercel/qwen3.8-max-0902",
+  "provider_id": "vercel",
+  "name": "Qwen3.8 Max 0902",
+  "description": "Qwen3.8-Max-0902 is an upgraded snapshot of qwen3.8-max.",
+  "context_window": 991000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-04T03:56:56.245Z"
+}

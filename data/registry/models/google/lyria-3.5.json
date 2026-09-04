@@ -1,0 +1,21 @@
+{
+  "model_id": "google/lyria-3.5",
+  "provider_id": "google",
+  "name": "Lyria 3.5",
+  "description": "Music Generation model",
+  "context_window": 1048576,
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-04T03:56:56.112Z"
+}

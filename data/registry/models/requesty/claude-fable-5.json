@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/claude-fable-5",
   "provider_id": "requesty",
-  "name": "vertex/claude-fable-5",
+  "name": "anthropic/claude-fable-5",
   "description": "Claude Fable 5 is Anthropic's most capable generally available model for autonomous knowledge work and coding. It is a Mythos-class model with robust safeguards. It can handle long-running, complex, and asynchronous tasks where previous models would have needed more frequent check-ins.",
   "context_window": 1000000,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-03T03:54:19.471Z"
+  "updated_at": "2026-09-04T03:57:06.092Z"
 }

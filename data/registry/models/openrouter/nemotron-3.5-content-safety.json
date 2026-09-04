@@ -1,0 +1,25 @@
+{
+  "model_id": "openrouter/nemotron-3.5-content-safety",
+  "provider_id": "openrouter",
+  "name": "nvidia/nemotron-3.5-content-safety",
+  "context_window": 131072,
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-04T03:57:06.051Z",
+  "is_free": false,
+  "tier": "budget",
+  "limits": {
+    "max_input_tokens": 131072
+  }
+}

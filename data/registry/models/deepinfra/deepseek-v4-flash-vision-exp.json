@@ -2,6 +2,7 @@
   "model_id": "deepinfra/deepseek-v4-flash-vision-exp",
   "provider_id": "deepinfra",
   "name": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+  "context_window": 1048576,
   "modality": [
     "text",
     "image"
@@ -14,13 +15,12 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "capability_ids": [],
-  "status": "active",
-  "updated_at": "2026-09-03T03:54:19.214Z",
   "is_free": false,
   "tier": "balanced",
   "limits": {
     "max_input_tokens": 1048576
   },
-  "context_window": 1048576
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-04T03:57:05.891Z"
 }

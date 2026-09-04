@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/claude-sonnet-4-6",
   "provider_id": "requesty",
-  "name": "vertex/claude-sonnet-4-6",
+  "name": "anthropic/claude-sonnet-4-6",
   "description": "Claude Sonnet 4.6 is Anthropic's best coding model in the world, leading on SWE-bench Verified (77.2%) and OSWorld (61.4%). It delivers sustained autonomous performance on complex tasks for over 30 hours—up from seven hours for Opus 4—maintaining focus and reliability throughout the entire software development lifecycle, with enhanced capabilities in tool handling, memory management, and context processing that make it the strongest model for building complex agents.",
   "context_window": 1000000,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-03T03:54:19.503Z"
+  "updated_at": "2026-09-04T03:57:06.118Z"
 }

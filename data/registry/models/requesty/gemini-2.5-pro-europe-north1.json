@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gemini-2.5-pro-europe-north1",
   "provider_id": "requesty",
-  "name": "vertex/gemini-2.5-pro@europe-north1",
+  "name": "coding/gemini-2.5-pro@europe-north1",
   "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
   "context_window": 1048576,
   "modality": [
@@ -11,7 +11,7 @@
   "open_weight": false,
   "reasoning_support": true,
   "function_calling": true,
-  "structured_output": true,
+  "structured_output": false,
   "vision_support": true,
   "audio_support": false,
   "image_generation": false,
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-03T03:54:19.542Z"
+  "updated_at": "2026-09-04T03:57:06.144Z"
 }

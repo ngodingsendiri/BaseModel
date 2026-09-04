@@ -8,7 +8,7 @@
     "text"
   ],
   "open_weight": false,
-  "reasoning_support": false,
+  "reasoning_support": true,
   "function_calling": true,
   "structured_output": false,
   "vision_support": false,
@@ -22,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-03T03:54:19.524Z"
+  "updated_at": "2026-09-04T03:57:06.131Z"
 }

@@ -1,0 +1,27 @@
+{
+  "model_id": "requesty/gemini-3.8-flash",
+  "provider_id": "requesty",
+  "name": "vertex/gemini-3.8-flash",
+  "description": "Gemini 3.8 Flash is Google's most intelligent workhorse model, delivering significant improvements over 3.7 Flash across software engineering, agentic tasks, and critical multi step reasoning in specialized domains.",
+  "context_window": 1048576,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-04T03:57:06.159Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 1048576
+  }
+}

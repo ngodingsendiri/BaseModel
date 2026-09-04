@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "7495b6d",
-  "generated_at": "2026-09-03T03:57:17.442Z",
-  "count": 32,
+  "source_revision": "b87cb6c",
+  "generated_at": "2026-09-04T04:00:18.220Z",
+  "count": 27,
   "ranking": [
     {
       "model_id": "glm-5-3-flash",
@@ -53,6 +53,18 @@
       "pareto_optimal": false
     },
     {
+      "model_id": "qwen3-8-max-0902",
+      "quality_score": 100,
+      "benchmark_count": 1,
+      "categories": [
+        "code"
+      ],
+      "cheapest_offering": "vercel/qwen3.8-max-0902",
+      "cheapest_provider": "vercel",
+      "blended_cost_per_1m": 0,
+      "pareto_optimal": true
+    },
+    {
       "model_id": "qwen3-8-27b",
       "quality_score": 99.63,
       "benchmark_count": 1,
@@ -61,19 +73,7 @@
       ],
       "cheapest_offering": "deepinfra/qwen3.8-27b",
       "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 0.9562499999999999,
-      "pareto_optimal": false
-    },
-    {
-      "model_id": "grok-4-5",
-      "quality_score": 94.5,
-      "benchmark_count": 1,
-      "categories": [
-        "code"
-      ],
-      "cheapest_offering": "openrouter/grok-4.5",
-      "cheapest_provider": "openrouter",
-      "blended_cost_per_1m": 3,
+      "blended_cost_per_1m": 1.065,
       "pareto_optimal": false
     },
     {
@@ -90,48 +90,10 @@
       "pareto_optimal": false
     },
     {
-      "model_id": "claude-opus-4-8",
-      "quality_score": 92.5,
-      "benchmark_count": 1,
-      "categories": [
-        "code"
-      ],
-      "cheapest_offering": "openrouter/claude-opus-4.8",
-      "cheapest_provider": "openrouter",
-      "blended_cost_per_1m": 10,
-      "pareto_optimal": false
-    },
-    {
-      "model_id": "claude-opus-4-7",
-      "quality_score": 90.69,
-      "benchmark_count": 2,
-      "categories": [
-        "code",
-        "text"
-      ],
-      "cheapest_offering": "openrouter/claude-opus-4.7",
-      "cheapest_provider": "openrouter",
-      "blended_cost_per_1m": 10,
-      "pareto_optimal": false
-    },
-    {
-      "model_id": "claude-sonnet-4-6",
-      "quality_score": 90.25,
-      "benchmark_count": 1,
-      "categories": [
-        "code"
-      ],
-      "cheapest_offering": "openrouter/claude-sonnet-4.6",
-      "cheapest_provider": "openrouter",
-      "blended_cost_per_1m": 6,
-      "pareto_optimal": false
-    },
-    {
       "model_id": "claude-opus-4-6",
-      "quality_score": 89.63,
-      "benchmark_count": 2,
+      "quality_score": 87.25,
+      "benchmark_count": 1,
       "categories": [
-        "code",
         "text"
       ],
       "cheapest_offering": "openrouter/claude-opus-4.6",
@@ -140,52 +102,27 @@
       "pareto_optimal": false
     },
     {
-      "model_id": "muse-spark-1-1",
-      "quality_score": 89.5,
-      "benchmark_count": 2,
+      "model_id": "claude-opus-4-7",
+      "quality_score": 86.75,
+      "benchmark_count": 1,
       "categories": [
-        "code",
+        "text"
+      ],
+      "cheapest_offering": "openrouter/claude-opus-4.7",
+      "cheapest_provider": "openrouter",
+      "blended_cost_per_1m": 10,
+      "pareto_optimal": false
+    },
+    {
+      "model_id": "muse-spark-1-1",
+      "quality_score": 86.5,
+      "benchmark_count": 1,
+      "categories": [
         "text"
       ],
       "cheapest_offering": "openrouter/muse-spark-1.1",
       "cheapest_provider": "openrouter",
       "blended_cost_per_1m": 2,
-      "pareto_optimal": false
-    },
-    {
-      "model_id": "hy3",
-      "quality_score": 88.88,
-      "benchmark_count": 1,
-      "categories": [
-        "code"
-      ],
-      "cheapest_offering": "deepinfra/hy3",
-      "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 0.231,
-      "pareto_optimal": false
-    },
-    {
-      "model_id": "kimi-k2-6",
-      "quality_score": 88.63,
-      "benchmark_count": 1,
-      "categories": [
-        "code"
-      ],
-      "cheapest_offering": "deepinfra/kimi-k2.6",
-      "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 1.7125,
-      "pareto_optimal": false
-    },
-    {
-      "model_id": "glm-5-1",
-      "quality_score": 88.5,
-      "benchmark_count": 1,
-      "categories": [
-        "code"
-      ],
-      "cheapest_offering": "deepinfra/glm-5.1",
-      "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 1.4834999999999998,
       "pareto_optimal": false
     },
     {

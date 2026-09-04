@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gemma-4-31b-it",
   "provider_id": "requesty",
-  "name": "sail/gemma-4-31b-it",
+  "name": "deepinfra/google/gemma-4-31B-it",
   "description": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function calling, and multilingual support across 140+ languages. Strong on coding, reasoning, and document understanding tasks. Apache 2.0 license.",
   "context_window": 262144,
   "modality": [
@@ -9,19 +9,19 @@
     "image"
   ],
   "open_weight": false,
-  "reasoning_support": false,
+  "reasoning_support": true,
   "function_calling": true,
-  "structured_output": false,
+  "structured_output": true,
   "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "is_free": false,
-  "tier": "budget",
+  "is_free": true,
+  "tier": "free",
   "limits": {
     "max_input_tokens": 262144
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-03T03:54:19.562Z"
+  "updated_at": "2026-09-04T03:57:06.161Z"
 }

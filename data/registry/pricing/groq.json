@@ -7,7 +7,7 @@
     "unit": "1M tokens",
     "value": 0.037,
     "source": "openrouter",
-    "updated_at": "2026-09-03T03:54:19.781Z"
+    "updated_at": "2026-09-04T03:57:06.339Z"
   },
   {
     "pricing_id": "groq-gpt-oss-120b-output",
@@ -17,7 +17,7 @@
     "unit": "1M tokens",
     "value": 0.17,
     "source": "openrouter",
-    "updated_at": "2026-09-03T03:54:19.781Z"
+    "updated_at": "2026-09-04T03:57:06.339Z"
   },
   {
     "pricing_id": "groq-gpt-oss-20b-input",
@@ -27,7 +27,7 @@
     "unit": "1M tokens",
     "value": 0.03,
     "source": "openrouter",
-    "updated_at": "2026-09-03T03:54:19.781Z"
+    "updated_at": "2026-09-04T03:57:06.339Z"
   },
   {
     "pricing_id": "groq-gpt-oss-20b-output",
@@ -37,7 +37,7 @@
     "unit": "1M tokens",
     "value": 0.13,
     "source": "openrouter",
-    "updated_at": "2026-09-03T03:54:19.781Z"
+    "updated_at": "2026-09-04T03:57:06.339Z"
   },
   {
     "pricing_id": "groq-gpt-oss-safeguard-20b-input",
@@ -47,7 +47,7 @@
     "unit": "1M tokens",
     "value": 0.075,
     "source": "openrouter",
-    "updated_at": "2026-09-03T03:54:19.781Z"
+    "updated_at": "2026-09-04T03:57:06.339Z"
   },
   {
     "pricing_id": "groq-gpt-oss-safeguard-20b-output",
@@ -57,7 +57,7 @@
     "unit": "1M tokens",
     "value": 0.3,
     "source": "openrouter",
-    "updated_at": "2026-09-03T03:54:19.781Z"
+    "updated_at": "2026-09-04T03:57:06.339Z"
   },
   {
     "pricing_id": "groq-qwen3.6-27b-input",
@@ -67,7 +67,7 @@
     "unit": "1M tokens",
     "value": 0.6,
     "source": "openrouter",
-    "updated_at": "2026-09-03T03:54:19.781Z"
+    "updated_at": "2026-09-04T03:57:06.339Z"
   },
   {
     "pricing_id": "groq-qwen3.6-27b-output",
@@ -77,7 +77,7 @@
     "unit": "1M tokens",
     "value": 3.6,
     "source": "openrouter",
-    "updated_at": "2026-09-03T03:54:19.781Z"
+    "updated_at": "2026-09-04T03:57:06.339Z"
   },
   {
     "pricing_id": "groq-qwen3.8-27b-input",
@@ -85,9 +85,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.425,
+    "value": 0.42,
     "source": "openrouter",
-    "updated_at": "2026-09-03T03:54:19.781Z"
+    "updated_at": "2026-09-04T03:57:06.339Z"
   },
   {
     "pricing_id": "groq-qwen3.8-27b-output",
@@ -95,8 +95,8 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 2.55,
+    "value": 3,
     "source": "openrouter",
-    "updated_at": "2026-09-03T03:54:19.781Z"
+    "updated_at": "2026-09-04T03:57:06.339Z"
   }
 ]

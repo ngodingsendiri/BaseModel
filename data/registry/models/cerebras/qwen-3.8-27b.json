@@ -1,0 +1,19 @@
+{
+  "model_id": "cerebras/qwen-3.8-27b",
+  "provider_id": "cerebras",
+  "name": "qwen-3.8-27b",
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-04T03:56:55.508Z"
+}

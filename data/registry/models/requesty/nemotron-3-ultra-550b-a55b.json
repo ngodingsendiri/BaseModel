@@ -1,16 +1,16 @@
 {
   "model_id": "requesty/nemotron-3-ultra-550b-a55b",
   "provider_id": "requesty",
-  "name": "nvidia/nemotron-3-ultra-550b-a55b",
+  "name": "nebius/nvidia/nemotron-3-ultra-550b-a55b",
   "description": "NVIDIA Nemotron 3 Ultra is an open frontier reasoning and orchestration model with 55B active parameters out of 550B total (hybrid Transformer-Mamba MoE). Text input/output with up to 1M context, built for long-running agentic workflows: agent orchestration, coding agents, deep research, and complex enterprise tasks. Strong at multi-step reasoning and planning with high-throughput inference. Part of the NVIDIA Nemotron family.",
-  "context_window": 1048576,
+  "context_window": 128000,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": true,
   "function_calling": true,
-  "structured_output": false,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -22,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-03T03:54:19.644Z"
+  "updated_at": "2026-09-04T03:57:06.223Z"
 }

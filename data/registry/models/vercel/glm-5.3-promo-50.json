@@ -1,0 +1,21 @@
+{
+  "model_id": "vercel/glm-5.3-promo-50",
+  "provider_id": "vercel",
+  "name": "GLM 5.3 (50% off)",
+  "description": "GLM 5.3 delivers comprehensive advancements in complex software engineering and agent capabilities. It uses the same base model as GLM-5.2, with all improvements driven by post-training.",
+  "context_window": 1048576,
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-04T03:56:56.437Z"
+}
