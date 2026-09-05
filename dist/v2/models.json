@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "b87cb6c",
-  "generated_at": "2026-09-04T04:00:18.220Z",
-  "count": 1262,
+  "source_revision": "cdd7fa6",
+  "generated_at": "2026-09-05T03:56:58.062Z",
+  "count": 1269,
   "models": [
     {
       "model_id": "aion-2-0",
@@ -16318,6 +16318,132 @@
       ]
     },
     {
+      "model_id": "gpt-6-astra",
+      "name": "gpt-6-astra",
+      "description": "GPT-6 Astra is OpenAI's most capable model for complex reasoning, coding, computer use, research, and document creation.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-astra"
+      ],
+      "offering_ids": [
+        "openai/gpt-6-astra",
+        "openrouter/gpt-6-astra",
+        "vercel/gpt-6-astra"
+      ]
+    },
+    {
+      "model_id": "gpt-6-astra-batch",
+      "name": "openai/gpt-6-astra:batch",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-astra-batch"
+      ],
+      "offering_ids": [
+        "openrouter/gpt-6-astra-batch"
+      ]
+    },
+    {
+      "model_id": "gpt-6-astra-fast",
+      "name": "GPT-6 Astra (Fast)",
+      "description": "GPT-6 Astra is OpenAI's most capable model for complex reasoning, coding, computer use, research, and document creation.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-astra-fast"
+      ],
+      "offering_ids": [
+        "vercel/gpt-6-astra-fast"
+      ]
+    },
+    {
+      "model_id": "gpt-6-astra-pro",
+      "name": "openai/gpt-6-astra-pro",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-astra-pro"
+      ],
+      "offering_ids": [
+        "openrouter/gpt-6-astra-pro"
+      ]
+    },
+    {
+      "model_id": "gpt-6-astra-pro-batch",
+      "name": "openai/gpt-6-astra-pro:batch",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-astra-pro-batch"
+      ],
+      "offering_ids": [
+        "openrouter/gpt-6-astra-pro-batch"
+      ]
+    },
+    {
       "model_id": "gpt-audio",
       "name": "gpt-audio",
       "modality": [
@@ -17244,7 +17370,7 @@
       "embedding_support": false,
       "context_window": 131072,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "granite-4.1-8b"
       ],
@@ -20437,6 +20563,57 @@
       "offering_ids": [
         "openrouter/ling-3.0-flash-free",
         "vercel/ling-3.0-flash-free"
+      ]
+    },
+    {
+      "model_id": "ling-3-0-flash-sante",
+      "name": "Ling 3.0 Flash Sante",
+      "description": "Ling-3.0-Flash-Sante is inclusionAI’s language model specialized for health and medicine, built on a Mixture-of-Experts architecture with 124 billion total parameters and approximately 5.1 billion active per token. With a 256K context window and function calling, it supports medical knowledge reasoning, evidence-based retrieval, and complex medical workflows while retaining general reasoning, coding, and agentic capabilities.",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 256000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "ling-3.0-flash-sante"
+      ],
+      "offering_ids": [
+        "vercel/ling-3.0-flash-sante"
+      ]
+    },
+    {
+      "model_id": "ling-3-0-flash-sante-free",
+      "name": "inclusionai/ling-3.0-flash-sante:free",
+      "description": "Ling-3.0-Flash-Sante is inclusionAI’s language model specialized for health and medicine, built on a Mixture-of-Experts architecture with 124 billion total parameters and approximately 5.1 billion active per token. With a 256K context window and function calling, it supports medical knowledge reasoning, evidence-based retrieval, and complex medical workflows while retaining general reasoning, coding, and agentic capabilities.",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 262144,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "ling-3.0-flash-sante-free"
+      ],
+      "offering_ids": [
+        "openrouter/ling-3.0-flash-sante-free",
+        "vercel/ling-3.0-flash-sante-free"
       ]
     },
     {

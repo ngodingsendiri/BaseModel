@@ -1,68 +1,28 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "b87cb6c",
-  "generated_at": "2026-09-04T04:00:18.220Z",
+  "source_revision": "cdd7fa6",
+  "generated_at": "2026-09-05T03:56:58.062Z",
   "summary": {
-    "added": 20,
+    "added": 10,
     "removed": 0,
-    "status_changed": 7
+    "status_changed": 1
   },
   "added": [
-    "cerebras/qwen-3.8-27b",
-    "deepinfra/bge-m3-multi-8k",
-    "deepinfra/ling-3.0-flash-fin",
-    "google/lyria-3.5",
-    "openrouter/claude-fable-5.1-batch",
-    "openrouter/gemini-3.8-flash-batch",
-    "openrouter/gemini-3.8-flash",
-    "openrouter/grok-4.3-batch",
-    "openrouter/ling-3.0-flash-fin",
-    "openrouter/muse-spark-1.3-contributor",
-    "openrouter/muse-spark-1.3",
-    "openrouter/nemotron-3.5-content-safety",
-    "requesty/gemini-3.8-flash-eu",
-    "requesty/gemini-3.8-flash",
-    "vercel/gemini-3.8-flash",
-    "vercel/glm-5.3-fast",
-    "vercel/glm-5.3-promo-50",
-    "vercel/muse-spark-1.3-contributor",
-    "vercel/muse-spark-1.3",
-    "vercel/qwen3.8-max-0902"
+    "openai/gpt-6-astra",
+    "openrouter/gpt-6-astra-batch",
+    "openrouter/gpt-6-astra-pro-batch",
+    "openrouter/gpt-6-astra-pro",
+    "openrouter/gpt-6-astra",
+    "openrouter/ling-3.0-flash-sante-free",
+    "vercel/gpt-6-astra-fast",
+    "vercel/gpt-6-astra",
+    "vercel/ling-3.0-flash-sante-free",
+    "vercel/ling-3.0-flash-sante"
   ],
   "removed": [],
   "status_changed": [
     {
-      "model_id": "deepinfra/glm-4.7-flash",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "deepinfra/glm-5",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "deepinfra/minimax-m2.7",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "google/gemini-flash-latest-high-res-exp",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "mistral-ai/mistral-large-2512",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "mistral-ai/mistral-large-latest",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/nemotron-3-ultra-550b-a55b-batch",
+      "model_id": "openrouter/granite-4.1-8b",
       "from": "active",
       "to": "discontinued"
     }

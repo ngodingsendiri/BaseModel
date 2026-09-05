@@ -1,0 +1,22 @@
+{
+  "model_id": "vercel/gpt-6-astra-fast",
+  "provider_id": "vercel",
+  "name": "GPT-6 Astra (Fast)",
+  "description": "GPT-6 Astra is OpenAI's most capable model for complex reasoning, coding, computer use, research, and document creation.",
+  "context_window": 1050000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-05T03:53:56.816Z"
+}
