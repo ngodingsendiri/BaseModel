@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/deepseek-v4-pro-0424",
   "provider_id": "requesty",
-  "name": "doubleword/deepseek-v4-pro-0424",
+  "name": "tensorx/deepseek-v4-pro-0424",
   "description": "DeepSeek V4-Pro is DeepSeek's flagship open-weights MoE model, with performance in the same class as Claude Sonnet 4.6 and stronger overall results than GLM-5.1.",
   "context_window": 1048576,
   "modality": [
@@ -9,8 +9,8 @@
   ],
   "open_weight": false,
   "reasoning_support": true,
-  "function_calling": false,
-  "structured_output": false,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -18,9 +18,9 @@
   "is_free": false,
   "tier": "balanced",
   "limits": {
-    "max_input_tokens": 1048576
+    "max_input_tokens": 164000
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-05T03:54:03.579Z"
+  "updated_at": "2026-09-06T03:58:58.057Z"
 }

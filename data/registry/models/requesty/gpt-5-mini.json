@@ -1,27 +1,26 @@
 {
   "model_id": "requesty/gpt-5-mini",
   "provider_id": "requesty",
-  "name": "openai/gpt-5-mini",
+  "name": "azure/gpt-5-mini",
   "description": "GPT-5 mini is a faster, more cost-efficient version of GPT-5. It's great for well-defined tasks and precise prompts.",
-  "context_window": 400000,
+  "context_window": 200000,
   "modality": [
-    "text",
-    "image"
+    "text"
   ],
   "open_weight": false,
   "reasoning_support": true,
   "function_calling": true,
   "structured_output": true,
-  "vision_support": true,
+  "vision_support": false,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
   "is_free": false,
   "tier": "balanced",
   "limits": {
-    "max_input_tokens": 200000
+    "max_input_tokens": 400000
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-05T03:54:03.619Z"
+  "updated_at": "2026-09-06T03:58:58.096Z"
 }

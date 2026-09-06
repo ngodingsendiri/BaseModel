@@ -1,0 +1,27 @@
+{
+  "model_id": "requesty/gpt-6-astra-eastus2",
+  "provider_id": "requesty",
+  "name": "azure/gpt-6-astra@eastus2",
+  "description": "GPT-6 Astra is OpenAI's most capable model, built for the hardest end-to-end work. It is suited for complex reasoning, coding, computer use, research, and document creation, with reasoning effort levels from low up to xhigh and max.",
+  "context_window": 1050000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-06T03:58:58.116Z",
+  "is_free": false,
+  "tier": "premium",
+  "limits": {
+    "max_input_tokens": 1050000
+  }
+}

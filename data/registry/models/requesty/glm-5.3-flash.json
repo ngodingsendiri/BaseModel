@@ -1,27 +1,26 @@
 {
   "model_id": "requesty/glm-5.3-flash",
   "provider_id": "requesty",
-  "name": "sference/glm-5.3-flash",
+  "name": "fireworks/glm-5.3-flash",
   "description": "GLM-5.3-Flash is a native multimodal model from Z.ai, suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while reducing compute overhead. Accepts text, image and video input.",
-  "context_window": 1000000,
+  "context_window": 1048576,
   "modality": [
-    "text",
-    "image"
+    "text"
   ],
   "open_weight": false,
   "reasoning_support": true,
   "function_calling": true,
   "structured_output": true,
-  "vision_support": true,
+  "vision_support": false,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
   "is_free": false,
   "tier": "budget",
   "limits": {
-    "max_input_tokens": 1048576
+    "max_input_tokens": 1000000
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-05T03:54:03.608Z"
+  "updated_at": "2026-09-06T03:58:58.085Z"
 }

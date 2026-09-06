@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "cdd7fa6",
-  "generated_at": "2026-09-05T03:56:58.062Z",
-  "count": 1839,
+  "source_revision": "70b9e0b",
+  "generated_at": "2026-09-06T04:01:53.574Z",
+  "count": 1843,
   "offerings": [
     {
       "offering_id": "anthropic/claude-3-5-haiku",
@@ -143,7 +143,8 @@
       "status": "active",
       "context_window": 131072,
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.07025
+      "blended_cost_per_1m": 0.07025,
+      "is_cheapest": true
     },
     {
       "offering_id": "cerebras/qwen-3.8-27b",
@@ -450,7 +451,7 @@
       "status": "active",
       "context_window": 1048576,
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.10875,
+      "blended_cost_per_1m": 0.10250000000000001,
       "is_cheapest": true
     },
     {
@@ -480,7 +481,7 @@
       "status": "active",
       "context_window": 1048576,
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.2015,
+      "blended_cost_per_1m": 0.961,
       "is_cheapest": true
     },
     {
@@ -793,7 +794,7 @@
       "status": "active",
       "context_window": 204800,
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.9625000000000001,
+      "blended_cost_per_1m": 0.875,
       "is_cheapest": true
     },
     {
@@ -841,7 +842,8 @@
       "status": "active",
       "context_window": 1048576,
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.4834999999999998
+      "blended_cost_per_1m": 1.4834999999999998,
+      "is_cheapest": true
     },
     {
       "offering_id": "deepinfra/glm-5.3",
@@ -904,8 +906,9 @@
       "provider_id": "deepinfra",
       "status": "active",
       "context_window": 131072,
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.2825,
+      "is_cheapest": true
     },
     {
       "offering_id": "deepinfra/granite-4.2-3b",
@@ -1267,8 +1270,7 @@
       "status": "active",
       "context_window": 131072,
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.5,
-      "is_cheapest": true
+      "blended_cost_per_1m": 0.5
     },
     {
       "offering_id": "deepinfra/mythomax-l2-13b",
@@ -1455,7 +1457,8 @@
       "status": "active",
       "context_window": 262144,
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.20500000000000002
+      "blended_cost_per_1m": 0.20500000000000002,
+      "is_cheapest": true
     },
     {
       "offering_id": "deepinfra/qwen3-235b-a22b-thinking-2507",
@@ -1542,7 +1545,8 @@
       "status": "active",
       "context_window": 262144,
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.56
+      "blended_cost_per_1m": 1.56,
+      "is_cheapest": true
     },
     {
       "offering_id": "deepinfra/qwen3-max-thinking",
@@ -1626,9 +1630,8 @@
       "provider_id": "deepinfra",
       "status": "active",
       "context_window": 262144,
-      "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.2475,
-      "is_cheapest": true
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.54725
     },
     {
       "offering_id": "deepinfra/qwen3.5-397b-a17b",
@@ -1705,9 +1708,8 @@
       "provider_id": "deepinfra",
       "status": "active",
       "context_window": 1000000,
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3,
-      "is_cheapest": true
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0
     },
     {
       "offering_id": "deepinfra/realtime-tts-1.5-max",
@@ -3883,8 +3885,7 @@
       "status": "active",
       "context_window": 1050000,
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 20,
-      "is_cheapest": true
+      "blended_cost_per_1m": 20
     },
     {
       "offering_id": "openai/gpt-audio",
@@ -4782,8 +4783,7 @@
       "status": "active",
       "context_window": 8192,
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.8,
-      "is_cheapest": true
+      "blended_cost_per_1m": 0.8
     },
     {
       "offering_id": "openrouter/deepseek-v3.1-terminus",
@@ -4821,7 +4821,7 @@
       "status": "active",
       "context_window": 1048576,
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.10875
+      "blended_cost_per_1m": 0.10250000000000001
     },
     {
       "offering_id": "openrouter/deepseek-v4-flash-0731",
@@ -4868,7 +4868,7 @@
       "status": "active",
       "context_window": 1048576,
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.2015
+      "blended_cost_per_1m": 0.961
     },
     {
       "offering_id": "openrouter/deepseek-v4-pro-0813",
@@ -5408,7 +5408,7 @@
       "status": "active",
       "context_window": 204800,
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.9625000000000001
+      "blended_cost_per_1m": 0.875
     },
     {
       "offering_id": "openrouter/glm-4.6v",
@@ -5551,7 +5551,7 @@
       "status": "active",
       "context_window": 1310720,
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.7374999999999998,
+      "blended_cost_per_1m": 1.8675,
       "is_cheapest": true
     },
     {
@@ -6795,7 +6795,7 @@
       "status": "active",
       "context_window": 1048576,
       "cost_tier": "Premium",
-      "blended_cost_per_1m": 5.375,
+      "blended_cost_per_1m": 5.1,
       "is_cheapest": true
     },
     {
@@ -7574,7 +7574,8 @@
       "status": "active",
       "context_window": 262144,
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.25
+      "blended_cost_per_1m": 1.25,
+      "is_cheapest": true
     },
     {
       "offering_id": "openrouter/nemotron-3-ultra-550b-a55b-batch",
@@ -8273,8 +8274,8 @@
       "provider_id": "openrouter",
       "status": "active",
       "context_window": 262144,
-      "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.2475
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.54725
     },
     {
       "offering_id": "openrouter/qwen3.5-397b-a17b",
@@ -8453,10 +8454,20 @@
       "offering_id": "openrouter/qwen3.8-max",
       "model_id": "qwen3-8-max",
       "provider_id": "openrouter",
+      "status": "discontinued",
+      "context_window": 1000000,
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0
+    },
+    {
+      "offering_id": "openrouter/qwen3.8-max-0902",
+      "model_id": "qwen3-8-max-0902",
+      "provider_id": "openrouter",
       "status": "active",
       "context_window": 1000000,
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3
+      "blended_cost_per_1m": 3,
+      "is_cheapest": true
     },
     {
       "offering_id": "openrouter/reka-edge",
@@ -9763,7 +9774,7 @@
       "status": "active",
       "context_window": 64000,
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4
+      "blended_cost_per_1m": 1.2625
     },
     {
       "offering_id": "requesty/deepseek-r1-distill-llama-70b",
@@ -9771,8 +9782,9 @@
       "provider_id": "requesty",
       "status": "active",
       "context_window": 64000,
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.8
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.345,
+      "is_cheapest": true
     },
     {
       "offering_id": "requesty/deepseek-r1-turbo",
@@ -9801,7 +9813,7 @@
       "status": "active",
       "context_window": 128000,
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.89
+      "blended_cost_per_1m": 0.8624999999999999
     },
     {
       "offering_id": "requesty/deepseek-v3-0324",
@@ -9857,8 +9869,8 @@
       "provider_id": "requesty",
       "status": "active",
       "context_window": 163840,
-      "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.30175
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.8400000000000001
     },
     {
       "offering_id": "requesty/deepseek-v4-flash",
@@ -9867,7 +9879,7 @@
       "status": "discontinued",
       "context_window": 1048576,
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.10875
+      "blended_cost_per_1m": 0.10250000000000001
     },
     {
       "offering_id": "requesty/deepseek-v4-flash-0424",
@@ -9894,9 +9906,9 @@
       "model_id": "deepseek-v4-flash-0731",
       "provider_id": "requesty",
       "status": "active",
-      "context_window": 1048576,
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.66
+      "context_window": 1000000,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.1125
     },
     {
       "offering_id": "requesty/deepseek-v4-flash-0731-flex",
@@ -9924,7 +9936,7 @@
       "status": "discontinued",
       "context_window": 1000000,
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.2015
+      "blended_cost_per_1m": 0.961
     },
     {
       "offering_id": "requesty/deepseek-v4-pro-0424",
@@ -9951,7 +9963,7 @@
       "model_id": "deepseek-v4-pro-0813",
       "provider_id": "requesty",
       "status": "active",
-      "context_window": 1048576,
+      "context_window": 1000000,
       "cost_tier": "Balanced",
       "blended_cost_per_1m": 1.98
     },
@@ -10786,7 +10798,7 @@
       "status": "active",
       "context_window": 262144,
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.1925
+      "blended_cost_per_1m": 0.45000000000000007
     },
     {
       "offering_id": "requesty/gemma-4-31b-it-flex",
@@ -10877,9 +10889,9 @@
       "model_id": "glm-5-1",
       "provider_id": "requesty",
       "status": "active",
-      "context_window": 200000,
+      "context_window": 202000,
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.135
+      "blended_cost_per_1m": 2.15
     },
     {
       "offering_id": "requesty/glm-5.1-flex",
@@ -10896,10 +10908,9 @@
       "model_id": "glm-5-2",
       "provider_id": "requesty",
       "status": "active",
-      "context_window": 1048576,
+      "context_window": 1000000,
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.2375,
-      "is_cheapest": true
+      "blended_cost_per_1m": 2.15
     },
     {
       "offering_id": "requesty/glm-5.2-fast",
@@ -10916,7 +10927,7 @@
       "model_id": "glm-5-2-flex",
       "provider_id": "requesty",
       "status": "active",
-      "context_window": 1048576,
+      "context_window": 1000000,
       "cost_tier": "Balanced",
       "blended_cost_per_1m": 0.9299999999999999,
       "is_cheapest": true
@@ -10928,16 +10939,16 @@
       "status": "active",
       "context_window": 1048576,
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.4375
+      "blended_cost_per_1m": 2.15
     },
     {
       "offering_id": "requesty/glm-5.3-flash",
       "model_id": "glm-5-3-flash",
       "provider_id": "requesty",
       "status": "active",
-      "context_window": 1000000,
+      "context_window": 1048576,
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.11875
+      "blended_cost_per_1m": 0.2375
     },
     {
       "offering_id": "requesty/gpt-4.1",
@@ -11226,7 +11237,7 @@
       "model_id": "gpt-5-mini",
       "provider_id": "requesty",
       "status": "active",
-      "context_window": 400000,
+      "context_window": 200000,
       "cost_tier": "Balanced",
       "blended_cost_per_1m": 0.6875
     },
@@ -11295,7 +11306,7 @@
       "model_id": "gpt-5-nano",
       "provider_id": "requesty",
       "status": "active",
-      "context_window": 400000,
+      "context_window": 200000,
       "cost_tier": "Budget-Friendly",
       "blended_cost_per_1m": 0.1375
     },
@@ -11942,14 +11953,43 @@
       "is_cheapest": true
     },
     {
+      "offering_id": "requesty/gpt-6-astra",
+      "model_id": "gpt-6-astra",
+      "provider_id": "requesty",
+      "status": "active",
+      "context_window": 1050000,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 10,
+      "is_cheapest": true
+    },
+    {
+      "offering_id": "requesty/gpt-6-astra-eastus2",
+      "model_id": "gpt-6-astra-eastus2",
+      "provider_id": "requesty",
+      "status": "active",
+      "context_window": 1050000,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 20,
+      "is_cheapest": true
+    },
+    {
+      "offering_id": "requesty/gpt-6-astra-flex",
+      "model_id": "gpt-6-astra-flex",
+      "provider_id": "requesty",
+      "status": "active",
+      "context_window": 1050000,
+      "cost_tier": "Premium",
+      "blended_cost_per_1m": 10,
+      "is_cheapest": true
+    },
+    {
       "offering_id": "requesty/gpt-oss-120b",
       "model_id": "gpt-oss-120b",
       "provider_id": "requesty",
       "status": "active",
-      "context_window": 131000,
+      "context_window": 131072,
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.059000000000000004,
-      "is_cheapest": true
+      "blended_cost_per_1m": 0.26249999999999996
     },
     {
       "offering_id": "requesty/gpt-oss-20b",
@@ -12245,7 +12285,7 @@
       "model_id": "kimi-k2-6",
       "provider_id": "requesty",
       "status": "active",
-      "context_window": 256000,
+      "context_window": 262144,
       "cost_tier": "Balanced",
       "blended_cost_per_1m": 1.7125
     },
@@ -12273,7 +12313,7 @@
       "model_id": "kimi-k3",
       "provider_id": "requesty",
       "status": "active",
-      "context_window": 1048576,
+      "context_window": 1000000,
       "cost_tier": "Premium",
       "blended_cost_per_1m": 6
     },
@@ -12392,9 +12432,9 @@
       "model_id": "llama-3-3-70b-instruct",
       "provider_id": "requesty",
       "status": "active",
-      "context_window": 128000,
+      "context_window": 131072,
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.39
+      "blended_cost_per_1m": 0.1975
     },
     {
       "offering_id": "requesty/llama-3.3-70b-instruct-turbo",
@@ -12471,8 +12511,8 @@
       "provider_id": "requesty",
       "status": "active",
       "context_window": 262144,
-      "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.8
     },
     {
       "offering_id": "requesty/mimo-v2.5-flex",
@@ -12491,7 +12531,7 @@
       "status": "active",
       "context_window": 1048576,
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.54375
+      "blended_cost_per_1m": 1.5
     },
     {
       "offering_id": "requesty/mimo-v2.5-pro-flex",
@@ -12517,9 +12557,9 @@
       "model_id": "minimax-m2-5",
       "provider_id": "requesty",
       "status": "active",
-      "context_window": 128000,
-      "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.48500000000000004
+      "context_window": 196608,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.5249999999999999
     },
     {
       "offering_id": "requesty/minimax-m2.5-eu-central-1",
@@ -12615,7 +12655,7 @@
       "model_id": "minimax-m2-7-highspeed",
       "provider_id": "requesty",
       "status": "active",
-      "context_window": 200000,
+      "context_window": 204800,
       "cost_tier": "Balanced",
       "blended_cost_per_1m": 1.0499999999999998,
       "is_cheapest": true
@@ -12625,7 +12665,7 @@
       "model_id": "minimax-m3",
       "provider_id": "requesty",
       "status": "active",
-      "context_window": 1000000,
+      "context_window": 512000,
       "cost_tier": "Balanced",
       "blended_cost_per_1m": 0.8
     },
@@ -12702,8 +12742,9 @@
       "provider_id": "requesty",
       "status": "active",
       "context_window": 131072,
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.6375
+      "cost_tier": "Free",
+      "blended_cost_per_1m": 0,
+      "is_cheapest": true
     },
     {
       "offering_id": "requesty/mythomax-l2-13b",
@@ -12768,10 +12809,9 @@
       "model_id": "nemotron-3-ultra-550b-a55b",
       "provider_id": "requesty",
       "status": "active",
-      "context_window": 128000,
-      "cost_tier": "Free",
-      "blended_cost_per_1m": 0,
-      "is_cheapest": true
+      "context_window": 1048576,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 1.5
     },
     {
       "offering_id": "requesty/nemotron-3-ultra-nvfp4",
@@ -13196,10 +13236,9 @@
       "model_id": "qwen3-235b-a22b-instruct-2507",
       "provider_id": "requesty",
       "status": "active",
-      "context_window": 128000,
+      "context_window": 262144,
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.07824999999999999,
-      "is_cheapest": true
+      "blended_cost_per_1m": 0.30000000000000004
     },
     {
       "offering_id": "requesty/qwen3-235b-a22b-thinking-2507",
@@ -13225,16 +13264,16 @@
       "model_id": "qwen3-30b-a3b-instruct-2507",
       "provider_id": "requesty",
       "status": "active",
-      "context_window": 128000,
+      "context_window": 131072,
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.35000000000000003
+      "blended_cost_per_1m": 0.15000000000000002
     },
     {
       "offering_id": "requesty/qwen3-32b",
       "model_id": "qwen3-32b",
       "provider_id": "requesty",
       "status": "active",
-      "context_window": 128000,
+      "context_window": 40960,
       "cost_tier": "Budget-Friendly",
       "blended_cost_per_1m": 0.15000000000000002
     },
@@ -13301,10 +13340,9 @@
       "model_id": "qwen3-max",
       "provider_id": "requesty",
       "status": "active",
-      "context_window": 256000,
+      "context_window": 262144,
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.506,
-      "is_cheapest": true
+      "blended_cost_per_1m": 2.4
     },
     {
       "offering_id": "requesty/qwen3-next-80b-a3b-thinking",
@@ -13351,7 +13389,8 @@
       "status": "active",
       "context_window": 262144,
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.355
+      "blended_cost_per_1m": 0.355,
+      "is_cheapest": true
     },
     {
       "offering_id": "requesty/qwen3.5-35b-a3b-flex",
@@ -13368,7 +13407,7 @@
       "model_id": "qwen3-5-397b-a17b",
       "provider_id": "requesty",
       "status": "active",
-      "context_window": 128000,
+      "context_window": 262144,
       "cost_tier": "Balanced",
       "blended_cost_per_1m": 1.35
     },
@@ -13425,7 +13464,7 @@
       "model_id": "qwen3-7-plus",
       "provider_id": "requesty",
       "status": "active",
-      "context_window": 1048576,
+      "context_window": 262144,
       "cost_tier": "Balanced",
       "blended_cost_per_1m": 0.7000000000000001
     },
@@ -13434,9 +13473,9 @@
       "model_id": "qwen3-8",
       "provider_id": "requesty",
       "status": "active",
-      "context_window": 262144,
+      "context_window": 1000000,
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.375,
+      "blended_cost_per_1m": 3,
       "is_cheapest": true
     },
     {
@@ -13472,9 +13511,10 @@
       "model_id": "qwen3-8-max",
       "provider_id": "requesty",
       "status": "active",
-      "context_window": 1048576,
+      "context_window": 1000000,
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3
+      "blended_cost_per_1m": 3,
+      "is_cheapest": true
     },
     {
       "offering_id": "requesty/ring-2.6-1t",
@@ -13828,7 +13868,7 @@
       "status": "active",
       "context_window": 1000000,
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.10875
+      "blended_cost_per_1m": 0.10250000000000001
     },
     {
       "offering_id": "vercel/deepseek-v4-flash-0731",
@@ -13855,7 +13895,7 @@
       "status": "active",
       "context_window": 1000000,
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.2015
+      "blended_cost_per_1m": 0.961
     },
     {
       "offering_id": "vercel/deepseek-v4-pro-0813",
@@ -14240,7 +14280,7 @@
       "status": "active",
       "context_window": 200000,
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.9625000000000001
+      "blended_cost_per_1m": 0.875
     },
     {
       "offering_id": "vercel/glm-4.6v",
@@ -16367,8 +16407,8 @@
       "provider_id": "vercel",
       "status": "active",
       "context_window": 1000000,
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0
     },
     {
       "offering_id": "vercel/qwen3.8-max-0902",
@@ -16376,8 +16416,8 @@
       "provider_id": "vercel",
       "status": "active",
       "context_window": 991000,
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 3
     },
     {
       "offering_id": "vercel/recraft-v2",

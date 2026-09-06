@@ -1,13 +1,29 @@
 {
-  "generated_at": "2026-09-05T03:53:59.187Z",
+  "generated_at": "2026-09-06T03:58:53.352Z",
   "summary": {
     "gateways": 17,
-    "failed": 1,
-    "partial": 6,
-    "total_fetched": 1241,
-    "total_errors": 8
+    "failed": 2,
+    "partial": 4,
+    "total_fetched": 1947,
+    "total_errors": 7
   },
   "gateways": [
+    {
+      "plugin": "cerebras",
+      "provider_id": "cerebras",
+      "status": "ok",
+      "fetched": 3,
+      "errors": [],
+      "duration_ms": 1545
+    },
+    {
+      "plugin": "groq",
+      "provider_id": "groq",
+      "status": "ok",
+      "fetched": 14,
+      "errors": [],
+      "duration_ms": 1626
+    },
     {
       "plugin": "fireworks",
       "provider_id": "fireworks",
@@ -16,7 +32,7 @@
       "errors": [
         "HTTP 412: Precondition Failed (Precondition failed: the provider may require billing setup, or the account is suspended or rate-limited.): {\"error\":{\"message\":\"Account xmlze is suspended, possibly due to reaching the monthly spending limit or failure to pay past invoices. Please go to https://fireworks.ai/account/billing for more informa"
       ],
-      "duration_ms": 1786
+      "duration_ms": 1720
     },
     {
       "plugin": "inferx",
@@ -27,65 +43,7 @@
         "No API key is registered for gateway inferx.",
         "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): service failure: no tenant context: set a default tenant or use a tenant-restricted API key"
       ],
-      "duration_ms": 1762
-    },
-    {
-      "plugin": "cerebras",
-      "provider_id": "cerebras",
-      "status": "ok",
-      "fetched": 3,
-      "errors": [],
-      "duration_ms": 1823
-    },
-    {
-      "plugin": "together",
-      "provider_id": "together",
-      "status": "partial",
-      "fetched": 0,
-      "errors": [
-        "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): {\"error\":{\"message\":\"Unauthorized\"}}"
-      ],
-      "duration_ms": 1850
-    },
-    {
-      "plugin": "groq",
-      "provider_id": "groq",
-      "status": "ok",
-      "fetched": 14,
-      "errors": [],
-      "duration_ms": 1913
-    },
-    {
-      "plugin": "openrouter",
-      "provider_id": "openrouter",
-      "status": "ok",
-      "fetched": 431,
-      "errors": [],
-      "duration_ms": 2016
-    },
-    {
-      "plugin": "mistral-ai",
-      "provider_id": "mistral-ai",
-      "status": "ok",
-      "fetched": 46,
-      "errors": [],
-      "duration_ms": 2058
-    },
-    {
-      "plugin": "deepinfra",
-      "provider_id": "deepinfra",
-      "status": "ok",
-      "fetched": 189,
-      "errors": [],
-      "duration_ms": 2133
-    },
-    {
-      "plugin": "hyperbolic",
-      "provider_id": "hyperbolic",
-      "status": "ok",
-      "fetched": 5,
-      "errors": [],
-      "duration_ms": 2201
+      "duration_ms": 1703
     },
     {
       "plugin": "helicone",
@@ -95,7 +53,31 @@
       "errors": [
         "Helicone is a proxy with no model catalog. Set HELICONE_API_KEY to use as proxy."
       ],
-      "duration_ms": 2276
+      "duration_ms": 1823
+    },
+    {
+      "plugin": "openrouter",
+      "provider_id": "openrouter",
+      "status": "ok",
+      "fetched": 431,
+      "errors": [],
+      "duration_ms": 1814
+    },
+    {
+      "plugin": "deepinfra",
+      "provider_id": "deepinfra",
+      "status": "ok",
+      "fetched": 189,
+      "errors": [],
+      "duration_ms": 1873
+    },
+    {
+      "plugin": "mistral-ai",
+      "provider_id": "mistral-ai",
+      "status": "ok",
+      "fetched": 46,
+      "errors": [],
+      "duration_ms": 1927
     },
     {
       "plugin": "cloudflare",
@@ -105,31 +87,7 @@
       "errors": [
         "HTTP 404: Cloudflare returned Not Found for the Workers AI catalog. Check that CLOUDFLARE_ACCOUNT_ID is correct, Workers AI is enabled on the account, and CLOUDFLARE_API_TOKEN has the Workers AI \"AI Models\" read permission."
       ],
-      "duration_ms": 2358
-    },
-    {
-      "plugin": "vercel",
-      "provider_id": "vercel",
-      "status": "ok",
-      "fetched": 373,
-      "errors": [],
-      "duration_ms": 2381
-    },
-    {
-      "plugin": "openai",
-      "provider_id": "openai",
-      "status": "ok",
-      "fetched": 119,
-      "errors": [],
-      "duration_ms": 2472
-    },
-    {
-      "plugin": "anthropic",
-      "provider_id": "anthropic",
-      "status": "ok",
-      "fetched": 11,
-      "errors": [],
-      "duration_ms": 2543
+      "duration_ms": 2023
     },
     {
       "plugin": "google",
@@ -137,20 +95,59 @@
       "status": "ok",
       "fetched": 50,
       "errors": [],
-      "duration_ms": 2536
+      "duration_ms": 2021
     },
     {
-      "plugin": "portkey",
-      "provider_id": "portkey",
-      "status": "partial",
-      "fetched": 0,
-      "errors": [
-        "Portkey returned an empty model catalog. This is a known upstream issue (https://github.com/Portkey-AI/gateway/issues/1371); Portkey lists no models until a provider or virtual key is configured in the account."
-      ],
-      "duration_ms": 2511
+      "plugin": "hyperbolic",
+      "provider_id": "hyperbolic",
+      "status": "ok",
+      "fetched": 5,
+      "errors": [],
+      "duration_ms": 2055
+    },
+    {
+      "plugin": "openai",
+      "provider_id": "openai",
+      "status": "ok",
+      "fetched": 119,
+      "errors": [],
+      "duration_ms": 2079
+    },
+    {
+      "plugin": "vercel",
+      "provider_id": "vercel",
+      "status": "ok",
+      "fetched": 373,
+      "errors": [],
+      "duration_ms": 2107
+    },
+    {
+      "plugin": "anthropic",
+      "provider_id": "anthropic",
+      "status": "ok",
+      "fetched": 11,
+      "errors": [],
+      "duration_ms": 2295
     },
     {
       "plugin": "requesty",
+      "provider_id": "requesty",
+      "status": "ok",
+      "fetched": 706,
+      "errors": [],
+      "duration_ms": 2506
+    },
+    {
+      "plugin": "portkey",
+      "status": "failed",
+      "fetched": 0,
+      "errors": [
+        "Error: Plugin worker exited before responding (code 0)."
+      ],
+      "duration_ms": 0
+    },
+    {
+      "plugin": "together",
       "status": "failed",
       "fetched": 0,
       "errors": [

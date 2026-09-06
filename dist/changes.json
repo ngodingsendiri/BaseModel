@@ -1,28 +1,22 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "cdd7fa6",
-  "generated_at": "2026-09-05T03:56:58.062Z",
+  "source_revision": "70b9e0b",
+  "generated_at": "2026-09-06T04:01:53.574Z",
   "summary": {
-    "added": 10,
+    "added": 4,
     "removed": 0,
     "status_changed": 1
   },
   "added": [
-    "openai/gpt-6-astra",
-    "openrouter/gpt-6-astra-batch",
-    "openrouter/gpt-6-astra-pro-batch",
-    "openrouter/gpt-6-astra-pro",
-    "openrouter/gpt-6-astra",
-    "openrouter/ling-3.0-flash-sante-free",
-    "vercel/gpt-6-astra-fast",
-    "vercel/gpt-6-astra",
-    "vercel/ling-3.0-flash-sante-free",
-    "vercel/ling-3.0-flash-sante"
+    "openrouter/qwen3.8-max-0902",
+    "requesty/gpt-6-astra-eastus2",
+    "requesty/gpt-6-astra-flex",
+    "requesty/gpt-6-astra"
   ],
   "removed": [],
   "status_changed": [
     {
-      "model_id": "openrouter/granite-4.1-8b",
+      "model_id": "openrouter/qwen3.8-max",
       "from": "active",
       "to": "discontinued"
     }

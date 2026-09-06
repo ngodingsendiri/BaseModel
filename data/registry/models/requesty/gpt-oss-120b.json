@@ -1,16 +1,16 @@
 {
   "model_id": "requesty/gpt-oss-120b",
   "provider_id": "requesty",
-  "name": "nebius/openai/gpt-oss-120b",
+  "name": "fireworks/gpt-oss-120b",
   "description": "Open-weight agentic model with configurable reasoning, full CoT visibility, strong tool use, and fine-tuning support.",
-  "context_window": 131000,
+  "context_window": 131072,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": true,
   "function_calling": true,
-  "structured_output": true,
+  "structured_output": false,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -18,9 +18,9 @@
   "is_free": false,
   "tier": "budget",
   "limits": {
-    "max_input_tokens": 131072
+    "max_input_tokens": 131000
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-05T03:54:03.636Z"
+  "updated_at": "2026-09-06T03:58:58.117Z"
 }

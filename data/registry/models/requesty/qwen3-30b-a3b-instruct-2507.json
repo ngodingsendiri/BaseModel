@@ -1,26 +1,27 @@
 {
   "model_id": "requesty/qwen3-30b-a3b-instruct-2507",
   "provider_id": "requesty",
-  "name": "nebius/qwen/qwen3-30b-a3b-instruct-2507",
+  "name": "alibaba/qwen3-30b-a3b-instruct-2507",
   "description": "Qwen3-30B-A3B-Instruct-2507 is a 30.5B-parameter mixture-of-experts language model from Qwen, with 3.3B active parameters per inference. It operates in non-thinking mode and is designed for high-quality instruction following, multilingual understanding, and agentic tool use. Post-trained on instruction data, it demonstrates competitive performance across reasoning (AIME, ZebraLogic), coding (MultiPL-E, LiveCodeBench), and alignment (IFEval, WritingBench) benchmarks. It outperforms its non-instruct variant on subjective and open-ended tasks while retaining strong factual and coding performance.",
-  "context_window": 128000,
+  "context_window": 131072,
   "modality": [
-    "text"
+    "text",
+    "image"
   ],
   "open_weight": false,
-  "reasoning_support": true,
+  "reasoning_support": false,
   "function_calling": true,
   "structured_output": true,
-  "vision_support": false,
+  "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
   "is_free": false,
   "tier": "budget",
   "limits": {
-    "max_input_tokens": 131072
+    "max_input_tokens": 128000
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-05T03:54:03.672Z"
+  "updated_at": "2026-09-06T03:58:58.143Z"
 }

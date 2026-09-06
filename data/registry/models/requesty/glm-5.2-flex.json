@@ -1,16 +1,16 @@
 {
   "model_id": "requesty/glm-5.2-flex",
   "provider_id": "requesty",
-  "name": "doubleword/glm-5.2:flex",
+  "name": "deepinfra/glm-5.2:flex",
   "description": "Z.ai's next-generation flagship model for agentic software engineering, with significantly stronger coding capabilities than GLM-5.1.",
-  "context_window": 1048576,
+  "context_window": 1000000,
   "modality": [
     "text"
   ],
   "open_weight": false,
   "reasoning_support": true,
-  "function_calling": false,
-  "structured_output": false,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
@@ -22,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-05T03:54:03.607Z"
+  "updated_at": "2026-09-06T03:58:58.084Z"
 }
